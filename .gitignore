@@ -1,0 +1,21 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Local competition reference materials
+/온라인대회자료/
+/온라인대회자료.zip
+/*.pdf
