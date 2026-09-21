@@ -19,3 +19,8 @@ Thumbs.db
 /온라인대회자료/
 /온라인대회자료.zip
 /*.pdf
+
+# Local analysis outputs and tools (competition data derived)
+/analysis/local/*
+!/analysis/local/정형데이터_탐색보고서.md
+/.analysis-tools/
