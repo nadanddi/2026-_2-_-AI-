@@ -1,0 +1,16 @@
+﻿features: sub_temp 98 (with domain), sub_ec 68 (slim)
+
+=== sub_temp confirmation (7 partitions) ===
+  huber x3, domain view          all 0.7737 | late 0.8872 +-0.013
+
+=== sub_ec confirmation (7 partitions) ===
+  ET alone                           all 0.2629 | late 0.2988 +-0.016 | EC>1 rmse 0.760 bias -0.611
+  ET + recency120                    all 0.2649 | late 0.2997 +-0.017 | EC>1 rmse 0.765 bias -0.617
+  ET / LGB-huber blend               all 0.2600 | late 0.2979 +-0.018 | EC>1 rmse 0.751 bias -0.599
+  -> chosen: ET alone
+
+wrote C:\Users\0317\Desktop\농업 AI 경진대회\submission.csv
+  sub_temp  pred [5.069, 25.240] mean 12.731 | train [2.920, 26.960] mean 15.172
+  sub_ec    pred [0.192, 1.713] mean 0.695 | train [0.062, 3.460] mean 0.523
+  sub_temp  vs v2: mean shift +0.0060 | rms change 0.2591
+  sub_ec    vs v2: mean shift +0.0171 | rms change 0.1513

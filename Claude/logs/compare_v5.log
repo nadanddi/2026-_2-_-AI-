@@ -1,0 +1,11 @@
+v5 recipe: 18 features | current: 68 features
+
+=== scheme A: current block CV (5/10/10/5-day blocks, 1-day buffer), 3 partitions ===
+  GitHub v5 recipe             all 0.2512 | late 0.3970 +-0.013
+  current (slim + ET)          all 0.2654 | late 0.2994 +-0.016
+
+=== scheme B: GitHub v5's own CV (10-day round-robin 5-fold, 1-day embargo) ===
+  GitHub v5 recipe             all 0.2501 | late 0.4243
+  current (slim + ET)          all 0.2851 | late 0.2985
+
+(GitHub README reports v5 = 0.2654 on scheme B, single seed, with weather purge)

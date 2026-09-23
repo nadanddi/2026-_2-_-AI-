@@ -1,0 +1,23 @@
+﻿views: slim 68 | slim-nofarm 67 | lean 19
+
+===== reference =====
+  final v2: blend(huber, huber+rec120) all 0.2720 | late 0.3107 +-0.021 | EC>1 rmse 0.762 bias -0.600
+  l2 (huber off)                     all 0.2700 | late 0.3198 +-0.021 | EC>1 rmse 0.757 bias -0.589
+
+===== from the earlier repo =====
+  huber, no farm_id                  all 0.2689 | late 0.3136 +-0.022 | EC>1 rmse 0.757 bias -0.592
+  l2, no farm_id                     all 0.2700 | late 0.3205 +-0.022 | EC>1 rmse 0.754 bias -0.583
+  l2, lean 19 features               all 0.2838 | late 0.3480 +-0.016 | EC>1 rmse 0.810 bias -0.634
+  ExtraTrees leaf2, slim             all 0.2664 | late 0.3046 +-0.015 | EC>1 rmse 0.769 bias -0.623
+  ExtraTrees leaf2, slim no farm_id  all 0.2653 | late 0.3098 +-0.017 | EC>1 rmse 0.755 bias -0.607
+  ExtraTrees leaf2, lean             all 0.2771 | late 0.3992 +-0.014 | EC>1 rmse 0.781 bias -0.578
+
+===== high-EC emphasis =====
+  l2, no farm_id, weight y^0.5       all 0.2776 | late 0.3286 +-0.021 | EC>1 rmse 0.733 bias -0.550
+  l2, no farm_id, weight y^1.0       all 0.2889 | late 0.3396 +-0.015 | EC>1 rmse 0.713 bias -0.522
+  huber, no farm_id, weight y^1      all 0.2861 | late 0.3336 +-0.019 | EC>1 rmse 0.707 bias -0.514
+  l2, no farm_id, y^.5 + rec120      all 0.2881 | late 0.3209 +-0.018 | EC>1 rmse 0.740 bias -0.565
+
+===== blends =====
+  blend lgb-huber / ET (no farm_id)  all 0.2623 | late 0.3071 +-0.019 | EC>1 rmse 0.750 bias -0.599
+  blend lgb-l2-y^.5 / ET (no farm_id) all 0.2651 | late 0.3129 +-0.018 | EC>1 rmse 0.738 bias -0.578
