@@ -23,6 +23,7 @@
 ## 4. 진행 중
 - Codex EC: 백그라운드 실험 없음. EC v2의 출처×계절 잔차 가설을 사전 기준으로 검사했으나 순열 비율 0.423으로 기각. 별도 모델은 만들지 않음.
 - Codex EC: 실내 습도 급상승으로 관수를 간접 탐지하는 사전 가설도 기각(공개 EC 급락 89건 중 대리 신호 P1과 겹침 1건). 결과 `analysis/codex_independent/ec_irrigation_proxy/결과보고서.md`.
+- Codex EC: 공식 집계 점수의 제곱오차 항등식으로 기존 채점 EC 예측 1·3·5회차의 0.15/0.60/0.25 혼합을 계산하면 RMSE 0.202373~0.202478(반올림 범위). 점수 기반 선택이므로 공개 사전 검증 통과 모델과 구분하고 제출 파일은 만들지 않음. 기존 점수만으로 미제출 EC v2는 0.17814~0.23158의 넓은 수학적 범위여서 판정 불가. 상세 `analysis/codex_independent/ec_leaderboard_blend/결과보고서.md`, `ec_leaderboard_bounds/결과보고서.md`.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
