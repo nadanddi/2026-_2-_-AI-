@@ -16,6 +16,21 @@ git -C $Root fetch --all --prune
 git -C $Root pull --rebase --autostash
 if ($LASTEXITCODE -ne 0) { throw "git pull failed - resolve the conflict (git status), then run this script again." }
 
+# Bring in Codex's EC branch so HANDOFF.md / reports from Codex are visible here too.
+$current = git -C $Root branch --show-current
+git -C $Root rev-parse --verify --quiet origin/codex-ec | Out-Null
+if ($LASTEXITCODE -eq 0 -and $current -ne "codex-ec") {
+    git -C $Root merge-base --is-ancestor origin/codex-ec HEAD
+    if ($LASTEXITCODE -ne 0) {
+        git -C $Root merge --no-edit origin/codex-ec
+        if ($LASTEXITCODE -ne 0) {
+            git -C $Root merge --abort
+            Write-Warning "codex-ec could not be merged automatically (conflict). Ask the AI: 'codex-ec 브랜치 병합 충돌 해결해줘'."
+        } else { Write-Host "  merged origin/codex-ec" }
+    }
+}
+$global:LASTEXITCODE = 0
+
 Write-Host "== [2/3] Google Drive -> local outputs ==" -ForegroundColor Cyan
 $DriveDir = Find-SyncDrive $Drive
 if ($DriveDir) {
