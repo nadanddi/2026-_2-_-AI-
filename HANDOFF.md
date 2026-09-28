@@ -25,6 +25,7 @@
 - Codex EC: 실내 습도 급상승으로 관수를 간접 탐지하는 사전 가설도 기각(공개 EC 급락 89건 중 대리 신호 P1과 겹침 1건). 결과 `analysis/codex_independent/ec_irrigation_proxy/결과보고서.md`.
 - Codex EC: 공식 집계 점수의 제곱오차 항등식으로 기존 채점 EC 예측 1·3·5회차의 0.15/0.60/0.25 혼합을 계산하면 RMSE 0.202373~0.202478(반올림 범위). 점수 기반 선택이므로 공개 사전 검증 통과 모델과 구분하고 제출 파일은 만들지 않음. 기존 점수만으로 미제출 EC v2는 0.17814~0.23158의 넓은 수학적 범위여서 판정 불가. 상세 `analysis/codex_independent/ec_leaderboard_blend/결과보고서.md`, `ec_leaderboard_bounds/결과보고서.md`.
 - Codex EC: 자정 저온일(≤10℃) 학습 가중치 2배를 EC v2 ExtraTrees에 시험. 탐색 평균 −1.12%지만 12칸 중 1칸 악화, F13 이득 −0.22%뿐이라 사전 조건 미달. 확인 폴드 미사용, 상세 `analysis/codex_independent/ec_cold_weight_et/결과보고서.md`.
+- Codex EC: 동일 외부 날씨 날짜군의 F13/F47 OOF 일잔차는 함께 움직이지 않음(상관 0.0045, 44셀 중 후반 2셀). 공유 날짜 라벨을 이용한 보정 가설 기각. `analysis/codex_independent/ec_shared_weather_residual/결과보고서.md`.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
