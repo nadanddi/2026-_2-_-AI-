@@ -29,6 +29,7 @@
 - 상세 기록: `research/데이터_단서_카탈로그.md` 6.41~6.78, `research/야간작업_보고_2026-09-28.md`.
 
 ## 6. 동기화 방법 (컴퓨터 옮길 때)
+- 새 컴퓨터 처음 설정: `docs/연구실PC_설정_안내.md` (Google Drive `farmai_sync` 폴더에도 사본)
 - **작업 시작:** `powershell -ExecutionPolicy Bypass -File tools\sync_start.ps1`
 - **작업 끝:** `powershell -ExecutionPolicy Bypass -File tools\sync_end.ps1 -Message "한 일 요약"`
 - git: 코드·문서·카탈로그·대회 정형데이터·AI 메모리(`docs/ai-memory`). 비공개 저장소 nadanddi/2026-_2-_-AI-, 브랜치 `feature/rmse-improvement` (Codex는 `codex-ec`).
