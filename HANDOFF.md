@@ -22,6 +22,7 @@
 
 ## 4. 진행 중
 - Codex EC: 백그라운드 실험 없음. EC v2의 출처×계절 잔차 가설을 사전 기준으로 검사했으나 순열 비율 0.423으로 기각. 별도 모델은 만들지 않음.
+- Codex EC: 실내 습도 급상승으로 관수를 간접 탐지하는 사전 가설도 기각(공개 EC 급락 89건 중 대리 신호 P1과 겹침 1건). 결과 `analysis/codex_independent/ec_irrigation_proxy/결과보고서.md`.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
