@@ -34,6 +34,7 @@
 - Codex H1 고정 수준 보정은 공개 OOF 전체 −1.05%였으나 6폴드 중 3개 악화, 하루 재표집 MSE 차이 95% 상한 +0.000714로 사전 선별 실패. 기각하고 계수 재탐색 없이 새 기작 H2로 넘어간다. `analysis/codex_independent/ec_high_level_calibration/결과보고서.md`.
 - Codex D3: 현재행 팬<10·환기=0 및 v2≥0.6인 965행(56일)이 공개 OOF 제곱오차 68.2%, RMSE 0.4260. 그러나 평균 잔차 +0.075는 비 gate 고예측 행 +0.078과 유사하고 폴드 0·4 음수/8·9 큰 양수로 부호가 뒤집힌다. 사전 H2 진행 기준은 통과하되, 단순 양의 보정은 위험하다. `analysis/codex_independent/ec_causal_seal_diagnostic/결과보고서.md`.
 - Codex H2: 0시 입력만으로 하루 평균 EC를 예측하는 Ridge를 고위험 현재행에 20% 결합했으나 공개 OOF 전체 +1.09% 악화, 6폴드 중 5개 악화. 학습마다 검증일·최종 잠금 40일의 ±1일을 제외했다. H2 기각, 잠금일 점수 미열람. `analysis/codex_independent/ec_midnight_setpoint/결과보고서.md`.
+- Codex D4: 고위험 행 안에서 현재 CO₂ 공급으로 잔차를 분리하려 했으나 공급 활성 다수 날이 56일 중 1일뿐이라 사전 최소 표본 조건 실패. CO₂ 기반 H3를 만들지 않음. `analysis/codex_independent/ec_co2_regime_diagnostic/결과보고서.md`.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
