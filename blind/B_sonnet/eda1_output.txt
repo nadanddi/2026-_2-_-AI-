@@ -1,0 +1,79 @@
+train_X shape: (309990, 20)
+train_y shape: (304965, 3)
+test_X shape: (1440, 20)
+sample_sub shape: (1440, 3)
+
+train_X columns: row_id, out_temp, out_hum, out_rad, out_wspd, in_temp, in_hum, in_co2, in_rad, act_vent, act_side, act_shade, act_thermal, act_valve, act_heating, act_circfan, act_co2, act_fog, act_cool, act_pump
+
+Number of unique greenhouses in train_X: 51
+Greenhouses in train_X: ['F01', 'F02', 'F03', 'F04', 'F05', 'F06', 'F07', 'F08', 'F09', 'F10', 'F11', 'F12', 'F13', 'F14', 'F15', 'F16', 'F17', 'F18', 'F19', 'F20', 'F21', 'F22', 'F23', 'F24', 'F25', 'F26', 'F27', 'F28', 'F29', 'F30', 'F31', 'F32', 'F33', 'F34', 'F35', 'F36', 'F37', 'F38', 'F39', 'F40', 'F41', 'F42', 'F43', 'F44', 'F45', 'F46', 'F47', 'F48', 'F49', 'F50', 'F51']
+
+Number of unique greenhouses in test_X: 2
+Greenhouses in test_X: ['F13', 'F47']
+
+Test greenhouses also in train_X: {'F13', 'F47'}
+Test greenhouses NOT in train_X: set()
+
+test gh=F13: n=720, day range 185-239, hour range 0-23
+test gh=F47: n=720, day range 183-237, hour range 0-23
+
+train gh=F13 (if exists): n=4800, day range 8-245
+train gh=F47 (if exists): n=4800, day range 6-243
+
+row_id overlap between train_X and test_X: 0
+
+train_X row_id set == train_y row_id subset check
+train_y row_ids all in train_X: True
+train_X rows without any train_y entry: 5025
+
+train_y NaN counts:
+row_id           0
+sub_temp         0
+sub_ec      295365
+dtype: int64
+
+train_X missing value counts (top):
+row_id              0
+out_temp       294875
+out_hum        300390
+out_rad        294875
+out_wspd       294875
+in_temp          2043
+in_hum           2108
+in_co2           2088
+in_rad          15115
+act_vent       294976
+act_side       304576
+act_shade      300390
+act_thermal    300390
+act_valve      304576
+act_heating    300390
+act_circfan    294976
+act_co2        294976
+act_fog        300390
+act_cool       304576
+act_pump       304576
+dtype: int64
+
+test_X missing value counts (top):
+row_id            0
+out_temp          0
+out_hum           0
+out_rad           0
+out_wspd          0
+in_temp           0
+in_hum            0
+in_co2            0
+in_rad         1440
+act_vent          0
+act_side       1440
+act_shade         0
+act_thermal       0
+act_valve      1440
+act_heating       0
+act_circfan       0
+act_co2           0
+act_fog           0
+act_cool       1440
+act_pump       1440
+dtype: int64

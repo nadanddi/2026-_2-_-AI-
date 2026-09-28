@@ -1,0 +1,5 @@
+suspect train days (daily rmse>2): 6 of 400
+[('F13', 48), ('F13', 109), ('F13', 139), ('F47', 178), ('F47', 189), ('F47', 191)]
+t_clean_base                 pooled(seed-avg)=0.9747 | folds: 0.422 0.473 0.582 0.561 0.319 1.577 0.548 0.759 1.153 1.913 | seed-sd of fold-mean 0.0032
+t_clean_l7                   pooled(seed-avg)=0.9544 | folds: 0.477 0.435 0.492 0.523 0.368 1.568 0.568 0.774 1.149 1.803 | seed-sd of fold-mean 0.0034
+t_clean_l63                  pooled(seed-avg)=0.9793 | folds: 0.435 0.484 0.558 0.537 0.347 1.575 0.534 0.768 1.135 1.958 | seed-sd of fold-mean 0.0019

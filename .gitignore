@@ -15,12 +15,19 @@ __pycache__/
 Thumbs.db
 .DS_Store
 
-# Local competition reference materials
-/온라인대회자료/
+# Competition materials: the tabular data, problem sheet and notices are
+# tracked (private repo, user decision 2026-09-29) so every machine can run
+# the code after a pull.  Image-track data and the raw ZIP stay local.
+/온라인대회자료/이미지데이터/
 /온라인대회자료.zip
-/*.pdf
 
-# Local analysis outputs and tools (competition data derived)
+# Heavy outputs: synced through Google Drive (tools/sync_*.ps1), not git
 /analysis/local/*
 !/analysis/local/정형데이터_탐색보고서.md
 /.analysis-tools/
+/research/local/
+/blind/**/*.pkl
+/blind/**/*.joblib
+/blind/**/*.npy
+/blind/**/*.npz
+*.joblib
