@@ -30,6 +30,8 @@
 - **2026-09-29 새 사용자 기준:** EC v2를 기준으로 밀폐/비밀폐·저온·출처·구간 오차를 먼저 분해한다. 이후 가설 최대 10개를 실행 전 프로토콜 커밋하고 A/B/DIAG10×2시드, EXT10·EXT12, 새 시드·잠금 폴드, 인과·결정성 검사를 모두 통과해야 후보로 채택한다. 공식 점수 혼합(위 기록)은 새 리더보드 역탐색 금지에 따라 후보가 아니며, 저온 가중치(위 기록)는 새 test_X 통계 학습 금지 기준으로 재사용하지 않는다. `analysis/codex_independent/CAMPAIGN.md`의 새 원장 참고.
 - Codex D1 오차 지도: v2 공개 OOF 234일 RMSE 0.213819, 제곱오차 87.6%가 하루 수준. 밀폐 39일이 오차 58.9%, 실제 고EC(일평균≥1.2) 19일이 74.2%; 자정 저온 46일은 21.8%. 다음 D2는 고EC 날의 예측 순위 능력과 수준 과소예측을 구분한다. `analysis/codex_independent/ec_error_atlas/결과보고서.md`.
 - Codex D2: v2의 공개 고EC일 순위 AUC 0.9745(0시 예측만 0.9638), 양 농장도 0.95 이상. 실제 고EC 19일의 평균은 1.593, v2는 1.143으로 낮다. 다만 높은 예측 구간 전체의 평균 잔차는 +0.075~+0.116 정도여서 완만한 현재행 예측 보정만 H1로 시험한다. `analysis/codex_independent/ec_high_day_separability/결과보고서.md`.
+- Codex 새 최종 확인 40일은 입력 행 ID의 고정 해시만으로 선택해 `ec_final_lock/locked_days.json`에 잠갔다. 이번 H1에서는 이 날짜의 정답·예측을 보지 않았다.
+- Codex H1 고정 수준 보정은 공개 OOF 전체 −1.05%였으나 6폴드 중 3개 악화, 하루 재표집 MSE 차이 95% 상한 +0.000714로 사전 선별 실패. 기각하고 계수 재탐색 없이 새 기작 H2로 넘어간다. `analysis/codex_independent/ec_high_level_calibration/결과보고서.md`.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
