@@ -26,6 +26,8 @@
 - Codex EC: 공식 집계 점수의 제곱오차 항등식으로 기존 채점 EC 예측 1·3·5회차의 0.15/0.60/0.25 혼합을 계산하면 RMSE 0.202373~0.202478(반올림 범위). 점수 기반 선택이므로 공개 사전 검증 통과 모델과 구분하고 제출 파일은 만들지 않음. 기존 점수만으로 미제출 EC v2는 0.17814~0.23158의 넓은 수학적 범위여서 판정 불가. 상세 `analysis/codex_independent/ec_leaderboard_blend/결과보고서.md`, `ec_leaderboard_bounds/결과보고서.md`.
 - Codex EC: 자정 저온일(≤10℃) 학습 가중치 2배를 EC v2 ExtraTrees에 시험. 탐색 평균 −1.12%지만 12칸 중 1칸 악화, F13 이득 −0.22%뿐이라 사전 조건 미달. 확인 폴드 미사용, 상세 `analysis/codex_independent/ec_cold_weight_et/결과보고서.md`.
 - Codex EC: 동일 외부 날씨 날짜군의 F13/F47 OOF 일잔차는 함께 움직이지 않음(상관 0.0045, 44셀 중 후반 2셀). 공유 날짜 라벨을 이용한 보정 가설 기각. `analysis/codex_independent/ec_shared_weather_residual/결과보고서.md`.
+- Codex EC: 공개 후반 OOF 36일의 정확한 RMSE 0.38226 중 하루 수준 0.37593, 시간 안 모양 0.06923(제곱오차의 96.7%가 수준). 평가 입력은 밀폐 20/60·저온 27/60으로 후반 OOF 8/36·10/36보다 많다. 첫 진단의 확인 분할 누락 수치 0.099는 무효로 정정. `analysis/codex_independent/ec_validation_gap/결과보고서.md`.
+- **2026-09-29 새 사용자 기준:** EC v2를 기준으로 밀폐/비밀폐·저온·출처·구간 오차를 먼저 분해한다. 이후 가설 최대 10개를 실행 전 프로토콜 커밋하고 A/B/DIAG10×2시드, EXT10·EXT12, 새 시드·잠금 폴드, 인과·결정성 검사를 모두 통과해야 후보로 채택한다. 공식 점수 혼합(위 기록)은 새 리더보드 역탐색 금지에 따라 후보가 아니며, 저온 가중치(위 기록)는 새 test_X 통계 학습 금지 기준으로 재사용하지 않는다. `analysis/codex_independent/CAMPAIGN.md`의 새 원장 참고.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
