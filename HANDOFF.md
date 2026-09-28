@@ -28,6 +28,7 @@
 - Codex EC: 동일 외부 날씨 날짜군의 F13/F47 OOF 일잔차는 함께 움직이지 않음(상관 0.0045, 44셀 중 후반 2셀). 공유 날짜 라벨을 이용한 보정 가설 기각. `analysis/codex_independent/ec_shared_weather_residual/결과보고서.md`.
 - Codex EC: 공개 후반 OOF 36일의 정확한 RMSE 0.38226 중 하루 수준 0.37593, 시간 안 모양 0.06923(제곱오차의 96.7%가 수준). 평가 입력은 밀폐 20/60·저온 27/60으로 후반 OOF 8/36·10/36보다 많다. 첫 진단의 확인 분할 누락 수치 0.099는 무효로 정정. `analysis/codex_independent/ec_validation_gap/결과보고서.md`.
 - **2026-09-29 새 사용자 기준:** EC v2를 기준으로 밀폐/비밀폐·저온·출처·구간 오차를 먼저 분해한다. 이후 가설 최대 10개를 실행 전 프로토콜 커밋하고 A/B/DIAG10×2시드, EXT10·EXT12, 새 시드·잠금 폴드, 인과·결정성 검사를 모두 통과해야 후보로 채택한다. 공식 점수 혼합(위 기록)은 새 리더보드 역탐색 금지에 따라 후보가 아니며, 저온 가중치(위 기록)는 새 test_X 통계 학습 금지 기준으로 재사용하지 않는다. `analysis/codex_independent/CAMPAIGN.md`의 새 원장 참고.
+- Codex D1 오차 지도: v2 공개 OOF 234일 RMSE 0.213819, 제곱오차 87.6%가 하루 수준. 밀폐 39일이 오차 58.9%, 실제 고EC(일평균≥1.2) 19일이 74.2%; 자정 저온 46일은 21.8%. 다음 D2는 고EC 날의 예측 순위 능력과 수준 과소예측을 구분한다. `analysis/codex_independent/ec_error_atlas/결과보고서.md`.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
