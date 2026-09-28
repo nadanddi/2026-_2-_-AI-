@@ -32,6 +32,7 @@
 - Codex D2: v2의 공개 고EC일 순위 AUC 0.9745(0시 예측만 0.9638), 양 농장도 0.95 이상. 실제 고EC 19일의 평균은 1.593, v2는 1.143으로 낮다. 다만 높은 예측 구간 전체의 평균 잔차는 +0.075~+0.116 정도여서 완만한 현재행 예측 보정만 H1로 시험한다. `analysis/codex_independent/ec_high_day_separability/결과보고서.md`.
 - Codex 새 최종 확인 40일은 입력 행 ID의 고정 해시만으로 선택해 `ec_final_lock/locked_days.json`에 잠갔다. 이번 H1에서는 이 날짜의 정답·예측을 보지 않았다.
 - Codex H1 고정 수준 보정은 공개 OOF 전체 −1.05%였으나 6폴드 중 3개 악화, 하루 재표집 MSE 차이 95% 상한 +0.000714로 사전 선별 실패. 기각하고 계수 재탐색 없이 새 기작 H2로 넘어간다. `analysis/codex_independent/ec_high_level_calibration/결과보고서.md`.
+- Codex D3: 현재행 팬<10·환기=0 및 v2≥0.6인 965행(56일)이 공개 OOF 제곱오차 68.2%, RMSE 0.4260. 그러나 평균 잔차 +0.075는 비 gate 고예측 행 +0.078과 유사하고 폴드 0·4 음수/8·9 큰 양수로 부호가 뒤집힌다. 사전 H2 진행 기준은 통과하되, 단순 양의 보정은 위험하다. `analysis/codex_independent/ec_causal_seal_diagnostic/결과보고서.md`.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
