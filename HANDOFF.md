@@ -42,6 +42,7 @@
 - Codex H6: 현재행 두 멤버 차이와 기온·저팬·고예측·문맥 산포의 선형 신뢰도 보정. 저장 OOF 선별 전체 −6.21%지만 폴드 0 +2.49%, 하루 재표집 MSE 차이 상한 +0.000324로 기각. 다른 폴드 OOF 기초 모델이 검증 폴드 라벨을 학습한 간접 경로 때문에 전체 수치는 확증 아님. 중첩 재학습·잠금일 미실행. `analysis/codex_independent/ec_member_reliability/결과보고서.md`.
 - Codex D6: 폴드 0 H4 변경 7일 중 손해 3일·이득 4일, 큰 손해 2일 몫 75%(사전 80% 미달). 따뜻하고 무환기인 변경행에서 손해·이득이 공존해 단일 현재 체제 구분 실패. 날짜 ID 회피나 H4 재조정 안 함. `analysis/codex_independent/ec_fold0_counterexamples/결과보고서.md`.
 - Codex D7: 6시까지 입력으로 같은 온실·2~30일 떨어진 날을 짝지으면 EC 수준차 중앙값 0.0634(무작위 짝 0.1595)로 입력은 유익하다. 다만 가까운 방향 짝 59개 중 7개(서로 다른 4쌍)는 차이≥0.4. 일부는 v2가 이미 구별했고 숨은 관수·급액 원인은 아직 미입증. H7~H10 미실행, 잠금일 미사용. `analysis/codex_independent/ec_observational_aliasing/결과보고서.md`.
+- Codex H7: 0~6시 입력 최근접 학습일 다섯 개의 EC 수준을 6시 이후 10% 결합. 전체 0.213819→0.213781(−0.018%)이나 6폴드 중 4개 악화, 하루 재표집 MSE 차이 95% 상한 +0.000333로 기각. 거리·비중 재조정 안 함. H8~H10 남음, 잠금일 미사용. `analysis/codex_independent/ec_early_analog/결과보고서.md`.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
