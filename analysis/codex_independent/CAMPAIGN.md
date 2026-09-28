@@ -27,6 +27,7 @@ DIAG10 `p_worse<0.025/k`, EXT10·EXT12 무악화, 미사용 시드·잠금
 | 진단 D2 | v2가 고EC 날을 구별하는가, 아니면 수준을 낮게 잡는가 | `ab343e3` `ec_high_day_separability/PROTOCOL.md` | 전체 AUC 0.9745, 0시 0.9638, 고EC 19일 평균 잔차 +0.450; `ec_high_day_separability/결과보고서.md` | 완료: 사전 규칙상 완만한 예측 수준 보정을 H1로 선택 |
 | 진단 D3 | 현재행 팬·환기와 v2 예측으로 큰 밀폐 오차를 구별 가능한가 | `ef347ec` `ec_causal_seal_diagnostic/PROTOCOL.md` | gate·고예측 965행이 제곱오차 68.2%; 평균 잔차 +0.075, 폴드별 부호 반전 | 진행 기준 통과, H2는 조건부 잔차 방향 모델 |
 | 진단 D4 | 고위험 구간에서 현재 CO₂ 공급이 잔차 방향을 나누는가 | `10abfe4` `ec_co2_regime_diagnostic/PROTOCOL.md` | 공급 활성 다수 날 1/56뿐, 사전 양 군 15일 조건 미달 | CO₂ 기반 H3 기각, 가설 슬롯 미사용 |
+| 진단 D5 | 3회차와 TabPFN의 현재행 큰 불일치가 보정 가능한 오차를 식별하는가 | `dc429f9` `ec_member_disagreement/PROTOCOL.md` | 불일치 646행이 v2 제곱오차 47.9%; TabPFN 0.367 vs v2 0.436, 추운 121행은 역전 | 사전 H4 진행 기준 통과 |
 | H1 | 현재행 예측 0.6 초과분 10% 보정 | `944f674` `ec_high_level_calibration/PROTOCOL.md` | 전체 −1.05%, 폴드 0·4·6 악화; 재표집 95% 상한 +0.000714 | 사전 선별 실패·기각, 잠금일 미사용 |
 | H2 | 0시 입력에서 하루 EC 수준 Ridge를 학습해 현재행 밀폐·고예측에서 20% 결합 | `318891e` `ec_midnight_setpoint/PROTOCOL.md` | 전체 +1.09% 악화, 6폴드 중 5개 악화 | 사전 선별 실패·기각, 잠금일 미사용 |
 | H3 | 현재·이전 입력으로 고EC일 확률을 학습해 고위험 현재행의 수준을 양방향 보정 | `1f9256a` `ec_high_day_mixture/PROTOCOL.md`; 실행 전 무결성 수정 `97194f2`·`e8f3a0a` | 전체 +0.27% 악화, 폴드 0·2·4 악화·6·8·9 개선 | 사전 선별 실패·기각, 잠금일 미사용 |
