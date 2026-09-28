@@ -37,6 +37,7 @@
 - Codex D4: 고위험 행 안에서 현재 CO₂ 공급으로 잔차를 분리하려 했으나 공급 활성 다수 날이 56일 중 1일뿐이라 사전 최소 표본 조건 실패. CO₂ 기반 H3를 만들지 않음. `analysis/codex_independent/ec_co2_regime_diagnostic/결과보고서.md`.
 - Codex H3: 현재·과거 입력의 고EC일 분류 확률로 고위험 행을 양방향 보정했으나 공개 OOF 전체 +0.27% 악화, 폴드 0·2·4 악화/6·8·9 개선. 폴드당 고EC 학습일 15~21일. 첫 두 실행 무결성 오류는 점수 전 중단, 새 버전 커밋 후 재실행. H3 기각, 잠금일 미열람. `analysis/codex_independent/ec_high_day_mixture/결과보고서.md`.
 - Codex D5: 현재행 3회차-TabPFN 예측 차이 ≥0.15인 646행/57일이 v2 공개 OOF 제곱오차 47.9%. 해당 구간 TabPFN 원시 평균 RMSE 0.367 vs v2 0.436(양 농장·5/6폴드 우세)이나 현재 실내온도 <10℃에서는 0.324 vs v2 0.239로 역전. 사전 H4 진행 기준 통과. `analysis/codex_independent/ec_member_disagreement/결과보고서.md`.
+- Codex H4: 현재행 불일치≥0.15·in_temp≥10℃에서만 TabPFN 쪽 25% 이동, 공개 OOF 전체 −3.27%, 양 농장 개선, 하루 재표집 MSE 차이 95% 상한<0. 그러나 폴드 0 +0.26% 악화(다른 5폴드는 개선)로 사용자 사전 전칸 기준 미달. H4 기각, 문턱/혼합률 조정 안 함, 잠금일 미사용. `analysis/codex_independent/ec_disagreement_gate/결과보고서.md`.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
