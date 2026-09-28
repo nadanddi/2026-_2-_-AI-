@@ -40,6 +40,7 @@
 - Codex H4: 현재행 불일치≥0.15·in_temp≥10℃에서만 TabPFN 쪽 25% 이동, 공개 OOF 전체 −3.27%, 양 농장 개선, 하루 재표집 MSE 차이 95% 상한<0. 그러나 폴드 0 +0.26% 악화(다른 5폴드는 개선)로 사용자 사전 전칸 기준 미달. H4 기각, 문턱/혼합률 조정 안 함, 잠금일 미사용. `analysis/codex_independent/ec_disagreement_gate/결과보고서.md`.
 - Codex H5: TabPFN 문맥 4개 평균을 중앙값으로 바꾼 효과는 행당 평균 절댓값 0.00872 EC, 공개 OOF 전체 +0.33% 악화·6폴드 중 4개 악화. 극단 문맥 한 개가 H4 불일치 효과를 만들었다는 설명 지지 안 됨. H5 기각. `analysis/codex_independent/ec_context_median/결과보고서.md`.
 - Codex H6: 현재행 두 멤버 차이와 기온·저팬·고예측·문맥 산포의 선형 신뢰도 보정. 저장 OOF 선별 전체 −6.21%지만 폴드 0 +2.49%, 하루 재표집 MSE 차이 상한 +0.000324로 기각. 다른 폴드 OOF 기초 모델이 검증 폴드 라벨을 학습한 간접 경로 때문에 전체 수치는 확증 아님. 중첩 재학습·잠금일 미실행. `analysis/codex_independent/ec_member_reliability/결과보고서.md`.
+- Codex D6: 폴드 0 H4 변경 7일 중 손해 3일·이득 4일, 큰 손해 2일 몫 75%(사전 80% 미달). 따뜻하고 무환기인 변경행에서 손해·이득이 공존해 단일 현재 체제 구분 실패. 날짜 ID 회피나 H4 재조정 안 함. `analysis/codex_independent/ec_fold0_counterexamples/결과보고서.md`.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
