@@ -46,6 +46,7 @@
 - Codex H8: 원본+당일 인과 평활 센서 복제본을 함께 학습한 ET. 시드7 전체 −0.19%지만 2/6폴드만 개선, 시드101 전체 +0.32%·0/6폴드 개선. 사전 기준 탈락. 기존 평활 대체(6.20/6.29)와 달리 원본을 남겼어도 재현 이득 없음. H9~H10 남음, 잠금일 미사용. `analysis/codex_independent/ec_dual_view_et/결과보고서.md`.
 - Codex D8: 0~6시 합법 입력 14개와 v2의 6시 예측을 통제한 하루 수준 잔차 상관을 검사. 난방 평균 r=−0.1644(F13/F47 모두 음수)가 최대였으나 최대값 순열 p=0.1569>사전 0.01. 난방·CO₂ 신호 H9 보정으로 연결하지 않음. 잠금일 미사용. `analysis/codex_independent/ec_early_residual_signal/결과보고서.md`.
 - Codex H9: 학습일 평균 EC≥1.2인 8~12일/폴드만 ET 가중치 2. 시드7 전체 −0.15%(2/6폴드 개선), 시드101 +0.12%(2/6폴드 개선), 날 재표집 MSE 구간 둘 다 0 포함. 가중치·문턱 재조정 안 함. H10 한 가설 남음, 최종 잠금일 미사용. `analysis/codex_independent/ec_high_label_weight_et/결과보고서.md`.
+- Codex H10: 전체 학습 행의 조건부 0.65 분위수 모델을 높은 v2 예측 행에 15% 결합했으나 공개 OOF 시드7 +1.42%, 시드101 +1.34%; 양 시드·6폴드·두 농장 모두 악화. H1~H10 사전 등록 가설 모두 소진, 최종 잠금일 미사용. `analysis/codex_independent/ec_upper_quantile/결과보고서.md`.
 - Codex 결과·재현 코드는 `codex-ec` 브랜치의 `analysis/codex_independent/`에 보존. EC 제출 판단 정정은 `EC_제출판단_정정_2026-09-29.md` 참고.
 
 ## 5. 다음 할 일 후보
