@@ -21,8 +21,6 @@
 pip install numpy==1.21.6 pandas==1.3.5 scikit-learn==1.0.2 lightgbm==4.6.0 joblib==1.3.2
 ```
 
-> 저장소(GitHub) 버전에서는 이 폴더가 `Claude/` 아래에 있습니다. 아래 경로는 모두 `Claude/` 기준이며, 원본 CSV는 `Claude/정형데이터/`에 넣습니다. 학습된 모델 바이너리(`models/models.joblib`)는 용량 때문에 저장소에서 제외했고, 재학습하면 동일하게 복원됩니다.
-
 ## 2. 폴더 구성
 
 ```
