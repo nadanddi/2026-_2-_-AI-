@@ -1,0 +1,26 @@
+﻿=== submission format ===
+  rows           : 1440 (need 1440)
+  columns        : ['row_id', 'sub_temp', 'sub_ec']
+  row_id matches : True
+  duplicates     : 0
+  NaN / inf      : 0 / 0
+
+=== predicted vs observed ranges ===
+  sub_temp  pred [5.420, 25.318] mean 12.771 | train [2.920, 26.960] mean 15.172
+  sub_ec    pred [0.184, 1.780] mean 0.630 | train [0.062, 3.460] mean 0.523
+
+=== test-block daily level vs neighbouring train days ===
+  [F13]
+    day 185-189  EC pred 0.331 vs train-nbr 0.416 (n=10) | temp pred 18.77 vs nbr 20.49
+    day 200-209  EC pred 0.548 vs train-nbr 0.484 (n=10) | temp pred 13.40 vs nbr 15.03
+    day 220-229  EC pred 0.865 vs train-nbr 0.712 (n=8) | temp pred 9.00 vs nbr 11.44
+    day 235-239  EC pred 0.745 vs train-nbr 0.857 (n=8) | temp pred 11.79 vs nbr 13.39
+  [F47]
+    day 183-187  EC pred 0.252 vs train-nbr 0.358 (n=10) | temp pred 18.26 vs nbr 19.23
+    day 198-207  EC pred 0.352 vs train-nbr 0.424 (n=10) | temp pred 13.48 vs nbr 13.55
+    day 218-227  EC pred 0.869 vs train-nbr 0.930 (n=8) | temp pred 9.35 vs nbr 11.09
+    day 233-237  EC pred 0.961 vs train-nbr 0.895 (n=8) | temp pred 13.97 vs nbr 11.81
+
+=== CV restricted to the test day range (183-245) ===
+  sub_temp  all 0.7613 | late(>=183) 0.9270 n=1176 | early 0.7353 n=8424
+  sub_ec    all 0.2550 | late(>=183) 0.3179 n=1176 | early 0.2450 n=8424

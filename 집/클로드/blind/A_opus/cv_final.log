@@ -1,0 +1,14 @@
+F13 191 temp [np.float64(0.429), np.float64(0.431), np.float64(0.444)] ec [np.float64(0.151), np.float64(0.15), np.float64(0.15)]
+F13 211 temp [np.float64(0.402), np.float64(0.405), np.float64(0.404)] ec [np.float64(0.219), np.float64(0.221), np.float64(0.221)]
+F13 231 temp [np.float64(0.58), np.float64(0.577), np.float64(0.561)] ec [np.float64(0.214), np.float64(0.206), np.float64(0.2)]
+F13 241 temp [np.float64(0.535), np.float64(0.526), np.float64(0.545)] ec [np.float64(0.25), np.float64(0.261), np.float64(0.255)]
+F13 179 temp [np.float64(0.334), np.float64(0.338), np.float64(0.335)] ec [np.float64(0.083), np.float64(0.079), np.float64(0.069)]
+F47 189 temp [np.float64(1.568), np.float64(1.557), np.float64(1.548)] ec [np.float64(0.135), np.float64(0.135), np.float64(0.135)]
+F47 209 temp [np.float64(0.513), np.float64(0.512), np.float64(0.516)] ec [np.float64(0.108), np.float64(0.106), np.float64(0.105)]
+F47 229 temp [np.float64(0.75), np.float64(0.771), np.float64(0.765)] ec [np.float64(0.707), np.float64(0.711), np.float64(0.72)]
+F47 239 temp [np.float64(1.094), np.float64(1.102), np.float64(1.104)] ec [np.float64(0.24), np.float64(0.246), np.float64(0.247)]
+F47 177 temp [np.float64(1.826), np.float64(1.805), np.float64(1.81)] ec [np.float64(0.165), np.float64(0.147), np.float64(0.155)]
+seed 0 temp 0.9458 ec 0.2353
+seed 1 temp 0.9414 ec 0.2361
+seed 2 temp 0.9413 ec 0.2368
+baselines: temp=in_temp 3.5143 | ec global mean 0.4488 | ec gh mean 0.4507

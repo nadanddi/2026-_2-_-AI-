@@ -18,16 +18,32 @@ Thumbs.db
 # Competition materials: the tabular data, problem sheet and notices are
 # tracked (private repo, user decision 2026-09-29) so every machine can run
 # the code after a pull.  Image-track data and the raw ZIP stay local.
-/온라인대회자료/이미지데이터/
+/공용/대회자료/이미지데이터/
+/공용/대회자료/*.zip
+/온라인대회자료/
 /온라인대회자료.zip
 
-# Heavy outputs: synced through Google Drive (tools/sync_*.ps1), not git
-/analysis/local/*
-!/analysis/local/정형데이터_탐색보고서.md
+# Heavy outputs: synced through Google Drive (tools/sync_*.ps1), not git.
+# Every <place>/<ai>/local folder (집|연구실 x 클로드|코덱스) is Drive-only.
 /.analysis-tools/
-/research/local/
-/blind/**/*.pkl
-/blind/**/*.joblib
-/blind/**/*.npy
-/blind/**/*.npz
+/집/*/local/
+/연구실/*/local/
+/집/클로드/research/local/
+/집/코덱스/analysis/local/*
+!/집/코덱스/analysis/local/정형데이터_탐색보고서.md
+/집/클로드/blind/**/*.pkl
+/집/클로드/blind/**/*.joblib
+/집/클로드/blind/**/*.npy
+/집/클로드/blind/**/*.npz
 *.joblib
+*.pkl
+
+# Junction to 공용/대회자료 made by tools/sync_start.ps1 (lab code reads data here)
+/연구실/클로드/정형데이터
+
+# Old layout (before 2026-09-29); sync_start.ps1 moves leftovers to the new paths
+/research/
+/analysis/
+/blind/
+/docs/
+/Claude/

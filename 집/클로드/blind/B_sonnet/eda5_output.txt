@@ -1,0 +1,39 @@
+=== sub_temp / F13: gap-k diff stats (n=4800) ===
+  k=   1h  n_pairs= 4795  mean_abs=0.5811  std=0.7931  RMSE_if_persistence=0.7931
+  k=   6h  n_pairs= 4770  mean_abs=2.7958  std=3.5141  RMSE_if_persistence=3.5141
+  k=  12h  n_pairs= 4740  mean_abs=3.8253  std=4.5664  RMSE_if_persistence=4.5665
+  k=  24h  n_pairs= 4680  mean_abs=1.6932  std=2.2260  RMSE_if_persistence=2.2262
+  k=  48h  n_pairs= 4560  mean_abs=1.8729  std=2.4426  RMSE_if_persistence=2.4427
+  k=  72h  n_pairs= 4440  mean_abs=2.0487  std=2.7020  RMSE_if_persistence=2.7025
+  k= 120h  n_pairs= 4248  mean_abs=2.4505  std=3.1920  RMSE_if_persistence=3.1930
+  overall std of sub_temp for F13: 4.4760
+
+=== sub_temp / F47: gap-k diff stats (n=4800) ===
+  k=   1h  n_pairs= 4795  mean_abs=0.5996  std=0.8536  RMSE_if_persistence=0.8536
+  k=   6h  n_pairs= 4770  mean_abs=2.8547  std=3.6036  RMSE_if_persistence=3.6036
+  k=  12h  n_pairs= 4740  mean_abs=3.9076  std=4.6749  RMSE_if_persistence=4.6750
+  k=  24h  n_pairs= 4680  mean_abs=1.9103  std=2.5337  RMSE_if_persistence=2.5339
+  k=  48h  n_pairs= 4560  mean_abs=1.9484  std=2.5725  RMSE_if_persistence=2.5725
+  k=  72h  n_pairs= 4440  mean_abs=2.2484  std=2.8935  RMSE_if_persistence=2.8938
+  k= 120h  n_pairs= 4248  mean_abs=2.5606  std=3.3598  RMSE_if_persistence=3.3613
+  overall std of sub_temp for F47: 4.3848
+
+=== sub_ec / F13: gap-k diff stats (n=4800) ===
+  k=   1h  n_pairs= 4795  mean_abs=0.0201  std=0.0933  RMSE_if_persistence=0.0933
+  k=   6h  n_pairs= 4770  mean_abs=0.0998  std=0.2508  RMSE_if_persistence=0.2508
+  k=  12h  n_pairs= 4740  mean_abs=0.1670  std=0.3456  RMSE_if_persistence=0.3456
+  k=  24h  n_pairs= 4680  mean_abs=0.2677  std=0.4566  RMSE_if_persistence=0.4566
+  k=  48h  n_pairs= 4560  mean_abs=0.1785  std=0.3451  RMSE_if_persistence=0.3451
+  k=  72h  n_pairs= 4440  mean_abs=0.2080  std=0.3639  RMSE_if_persistence=0.3639
+  k= 120h  n_pairs= 4248  mean_abs=0.2187  std=0.3892  RMSE_if_persistence=0.3893
+  overall std of sub_ec for F13: 0.3460
+
+=== sub_ec / F47: gap-k diff stats (n=4800) ===
+  k=   1h  n_pairs= 4795  mean_abs=0.0239  std=0.1234  RMSE_if_persistence=0.1234
+  k=   6h  n_pairs= 4770  mean_abs=0.1184  std=0.3202  RMSE_if_persistence=0.3202
+  k=  12h  n_pairs= 4740  mean_abs=0.1966  std=0.4211  RMSE_if_persistence=0.4211
+  k=  24h  n_pairs= 4680  mean_abs=0.3321  std=0.5712  RMSE_if_persistence=0.5712
+  k=  48h  n_pairs= 4560  mean_abs=0.1597  std=0.3501  RMSE_if_persistence=0.3501
+  k=  72h  n_pairs= 4440  mean_abs=0.2710  std=0.5158  RMSE_if_persistence=0.5158
+  k= 120h  n_pairs= 4248  mean_abs=0.2765  std=0.5062  RMSE_if_persistence=0.5063
+  overall std of sub_ec for F47: 0.4590

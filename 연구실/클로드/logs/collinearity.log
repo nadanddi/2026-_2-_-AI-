@@ -1,0 +1,77 @@
+﻿
+=== sub_temp view : 98 features, 9600 rows ===
+  pairs with |r| > 0.950 :   29
+  pairs with |r| > 0.980 :   11
+  pairs with |r| > 0.999 :    0
+  most collinear pairs:
+    0.9957  rad_eff  ~  transp_pm
+    0.9903  rad_eff_ewm2  ~  transp_pm_ewm2
+    0.9899  out_temp_ewm2  ~  out_temp_lag1
+    0.9885  out_temp  ~  out_temp_lag1
+    0.9873  in_temp_ewm24  ~  in_temp_r72m
+    0.9873  rad_eff_tdsum  ~  transp_pm_tdsum
+    0.9852  rad_eff_ewm6  ~  transp_pm_ewm6
+    0.9840  out_temp_ewm6  ~  out_temp_r24m
+  VIF > 10 : 74 of 98   |  VIF > 100 : 40   |  median VIF 48.4
+  highest VIF:
+    1000000000  rad_eff_ewm6
+    1000000000  rad_eff
+    1000000000  rad_eff_dev6
+          6370  in_temp_dev24
+          4987  in_temp_ewm24
+          4361  in_temp_ewm6
+
+=== sub_ec view (current) : 68 features, 9600 rows ===
+  pairs with |r| > 0.950 :   10
+  pairs with |r| > 0.980 :    4
+  pairs with |r| > 0.999 :    0
+  most collinear pairs:
+    0.9967  in_temp_dm_pd7m  ~  in_temp_r168m
+    0.9873  in_temp_ewm24  ~  in_temp_r72m
+    0.9820  out_temp_ewm24  ~  out_temp_r24m
+    0.9807  out_temp_dm_pd1  ~  out_temp_ewm24
+    0.9708  out_temp_dm_pd1  ~  out_temp_r24m
+    0.9672  in_temp_ewm24  ~  in_temp_r24m
+    0.9570  in_temp_r168m  ~  in_temp_r72m
+    0.9559  in_temp_dm_pd7m  ~  in_temp_dmin_pd7m
+  VIF > 10 : 37 of 68   |  VIF > 100 : 11   |  median VIF 11.0
+  highest VIF:
+          1271  in_temp_dev24
+          1264  in_temp_ewm24
+          1088  in_temp
+           609  out_temp
+           470  in_temp_dm_pd7m
+           256  dt_in_out
+
+=== sub_ec v5 recipe : 18 features, 9600 rows ===
+  pairs with |r| > 0.950 :    0
+  pairs with |r| > 0.980 :    0
+  pairs with |r| > 0.999 :    0
+  most collinear pairs:
+    0.7680  act_shade  ~  act_thermal
+    0.7621  out_temp  ~  in_temp
+    0.7577  out_hum  ~  in_hum
+    0.7564  out_rad  ~  hr_cos
+    0.6994  act_thermal  ~  hr_cos
+    0.6499  out_rad  ~  in_temp
+    0.6085  out_temp  ~  day
+    0.6025  out_rad  ~  act_thermal
+  VIF > 10 : 0 of 18   |  VIF > 100 : 0   |  median VIF 1.8
+  highest VIF:
+             7  out_temp
+             6  in_temp
+             5  out_rad
+             4  out_hum
+             4  hr_cos
+             4  in_hum
+
+===== does pruning collinear features change the test-geometry CV? =====
+  sub_temp  full  98 feat : 0.8611
+  sub_temp  |r|<=0.98 ->  89 feat : 0.8578
+  sub_temp  |r|<=0.95 ->  77 feat : 0.8604
+  sub_temp  |r|<=0.90 ->  64 feat : 0.8576
+  sub_ec(cur) full  68 feat : 0.3649
+  sub_ec(cur) |r|<=0.98 ->  65 feat : 0.3668
+  sub_ec(cur) |r|<=0.95 ->  62 feat : 0.3643
+  sub_ec(cur) |r|<=0.90 ->  56 feat : 0.3624
+  sub_ec(v5)  full  18 feat : 0.2912

@@ -1,9 +1,0 @@
-- [Korean only](korean-only.md) — every reply to this user must be in Korean; never English
-- [New files, not edits](new-files-not-edits.md) — never modify already-produced/used files in the competition repo; version them under new names
-- [Deliverable triple](deliverable-triple.md) — every model build ships CSV + reproduction ZIP + Korean explanation doc for teammates
-- [Analysis before answers](analysis-before-answers.md) — findings drive deeper data analysis first; submit only what passes calibrated validators
-- [Rule 5 interpretation](rule5-interpretation.md) — only direct hidden-label access is banned; leaderboard-score analysis is allowed (segment level)
-- [Skill, not luck](skill-not-luck.md) — prove gains across seeds/validators with pre-set criteria; adopt any size if same direction everywhere + DIAG10 CI excludes 0
-- [No submission prep until asked](no-submission-prep-until-asked.md) — don't declare '확정된 N회차 구성' or offer to build files until user says to submit
-- [Explore autonomously](explore-autonomously.md) — run experiments without asking; ask only for submissions/deletions (revokes 'ask me first')
-- [Temp=Claude, EC=Codex](division-temp-claude-ec-codex.md) — since 2026-09-28 Claude does temperature only; EC work goes to Codex

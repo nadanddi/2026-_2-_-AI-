@@ -1,0 +1,20 @@
+﻿training rows: sub_temp 9600, sub_ec 9600
+wrote C:\Users\0317\Desktop\농업 AI 경진대회\submission.csv
+
+=== prediction summary ===
+  sub_temp  pred [5.127, 25.325] mean 12.729 | train [2.920, 26.960] mean 15.172
+  sub_ec    pred [0.193, 1.640] mean 0.681 | train [0.062, 3.460] mean 0.523
+
+=== movement vs the v1 submission ===
+  sub_temp  mean shift -0.0422 | rms change 0.4440 | max |d| 2.347
+  sub_ec    mean shift +0.0509 | rms change 0.1128 | max |d| 0.466
+
+=== block level vs neighbouring train days ===
+  F13 day 185-189  EC 0.354 vs nbr 0.416 | temp 19.06 vs nbr 20.49
+  F13 day 200-209  EC 0.580 vs nbr 0.484 | temp 13.57 vs nbr 15.03
+  F13 day 220-229  EC 0.945 vs nbr 0.712 | temp 8.76 vs nbr 11.44
+  F13 day 235-239  EC 0.793 vs nbr 0.857 | temp 11.67 vs nbr 13.39
+  F47 day 183-187  EC 0.302 vs nbr 0.358 | temp 18.37 vs nbr 19.23
+  F47 day 198-207  EC 0.409 vs nbr 0.424 | temp 13.48 vs nbr 13.55
+  F47 day 218-227  EC 0.848 vs nbr 0.930 | temp 8.94 vs nbr 11.09
+  F47 day 233-237  EC 1.155 vs nbr 0.895 | temp 14.16 vs nbr 11.81
