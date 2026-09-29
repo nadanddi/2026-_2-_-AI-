@@ -52,28 +52,44 @@ function Copy-Newer([string]$From, [string]$To) {
 function Move-OldLayout([string]$Root) {
     # One-time migration after pulling the 2026-09-29 reorganisation: git moves the
     # tracked files, but git-ignored outputs stay at the old paths.  Move them over.
+    # Whole old folders are moved (not just their local/ outputs), so uncommitted scripts
+    # or notes left there are not silently dropped: the old paths are git-ignored now.
+    # Files that already exist at the new path are never overwritten (/XC /XN /XO);
+    # anything left behind is reported so it can be checked by hand.
     $moves = @(
-        @("research\local", "집\클로드\research\local"),
-        @("analysis\local", "집\코덱스\analysis\local"),
-        @("blind",          "집\클로드\blind"),
-        @("온라인대회자료", "공용\대회자료"),
-        @("docs\ai-memory", "공용\ai-memory")
+        @("docs\ai-memory",           "공용\ai-memory"),
+        @("docs\연구실PC_설정_안내.md", "공용"),
+        @("docs\변경이력",             "연구실\클로드\작업일지"),
+        @("docs",                     "연구실\클로드\문서"),
+        @("research\submissions",     "제출\미분류_옛위치"),
+        @("research",                 "집\클로드\research"),
+        @("analysis",                 "집\코덱스\analysis"),
+        @("blind",                    "집\클로드\blind"),
+        @("Claude",                   "연구실\클로드"),
+        @("온라인대회자료",            "공용\대회자료")
     )
     foreach ($m in $moves) {
         $old = Join-Path $Root $m[0]; $new = Join-Path $Root $m[1]
-        if (Test-Path $old) {
-            New-Item -ItemType Directory -Force -Path $new | Out-Null
-            robocopy $old $new /E /MOVE /XO /R:1 /W:1 /NFL /NDL /NJH /NJS /NP | Out-Null
-            if ($LASTEXITCODE -ge 8) { throw "robocopy failed ($LASTEXITCODE): $old -> $new" }
-            $global:LASTEXITCODE = 0
-            Write-Host "  moved old-layout folder  $($m[0])  ->  $($m[1])"
+        if (-not (Test-Path $old)) { continue }
+        New-Item -ItemType Directory -Force -Path $new | Out-Null
+        if (Test-Path $old -PathType Leaf) {
+            $dest = Join-Path $new (Split-Path $old -Leaf)
+            if (-not (Test-Path $dest)) { Move-Item $old $dest; Write-Host "  moved old-layout file  $($m[0])  ->  $($m[1])" }
+            continue
         }
+        robocopy $old $new /E /MOVE /XC /XN /XO /R:1 /W:1 /NFL /NDL /NJH /NJS /NP | Out-Null
+        if ($LASTEXITCODE -ge 8) { throw "robocopy failed ($LASTEXITCODE): $old -> $new" }
+        $global:LASTEXITCODE = 0
+        Write-Host "  moved old-layout folder  $($m[0])  ->  $($m[1])"
     }
-    foreach ($empty in @("research", "analysis", "docs", "Claude")) {
-        $p = Join-Path $Root $empty
-        if ((Test-Path $p) -and -not (Get-ChildItem $p -Recurse -File -Force -ErrorAction SilentlyContinue)) {
-            Remove-Item $p -Recurse -Force
-        }
+    foreach ($o in @("research", "analysis", "docs", "Claude", "blind", "온라인대회자료")) {
+        $p = Join-Path $Root $o
+        if (-not (Test-Path $p)) { continue }
+        $left = @(Get-ChildItem $p -Recurse -File -Force -ErrorAction SilentlyContinue |
+                  Where-Object { $_.FullName -notmatch '\\__pycache__\\' })
+        if ($left.Count -eq 0) { Remove-Item $p -Recurse -Force; continue }
+        Write-Warning "$($left.Count) file(s) left in old folder '$o' (same name already exists at the new path). Ask the AI: '옛 폴더 $o 에 남은 파일 확인해줘'."
+        $left | Select-Object -First 10 | ForEach-Object { Write-Host "    $($_.FullName.Substring($Root.Length + 1))" }
     }
 }
 
