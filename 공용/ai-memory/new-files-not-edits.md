@@ -12,4 +12,4 @@ Once a script, submission file, manifest, or package has been created or used fo
 
 **Why:** the user objected when I extended build_package.py in place to support a new submission and when a verification step regenerated submission_04.csv in place right after it had been uploaded. Uploaded submissions and their reproduction ZIPs must stay traceable to the exact files that produced them (competition rule 8.2: reproduction failure voids the score).
 
-**How to apply:** before any Edit/Write/overwrite in research/ or research/submissions/, check whether the target already exists and was used; if so, copy to a new versioned name and change the copy. Run package verifications only inside an extracted copy, never in the source tree. Related: [[agri-competition-submission-flow]]
+**How to apply:** before any Edit/Write/overwrite of experiment code or results (집/*/research, 집/코덱스/analysis, 연구실/*) or anything in 제출/, check whether the target already exists and was used; if so, copy to a new versioned name and change the copy. Run package verifications only inside an extracted copy, never in the source tree. Related: [[agri-competition-submission-flow]]
