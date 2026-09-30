@@ -1,0 +1,515 @@
+{
+  "folds": [
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "train_rows": 6288,
+      "val_rows": 912,
+      "train_days": 262,
+      "val_days": 38,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 80.5,
+        "max": 216
+      },
+      "weather_duplicate_val_days": 22,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "train_rows": 6552,
+      "val_rows": 720,
+      "train_days": 273,
+      "val_days": 30,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 50.5,
+        "max": 84
+      },
+      "weather_duplicate_val_days": 19,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "train_rows": 6216,
+      "val_rows": 960,
+      "train_days": 259,
+      "val_days": 40,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 90.5,
+        "max": 192
+      },
+      "weather_duplicate_val_days": 19,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "train_rows": 6408,
+      "val_rows": 792,
+      "train_days": 267,
+      "val_days": 33,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 55.5,
+        "max": 84
+      },
+      "weather_duplicate_val_days": 16,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "train_rows": 6120,
+      "val_rows": 960,
+      "train_days": 255,
+      "val_days": 40,
+      "val_late_fraction": 0.15,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 64.5,
+        "max": 144
+      },
+      "weather_duplicate_val_days": 20,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "train_rows": 6576,
+      "val_rows": 672,
+      "train_days": 274,
+      "val_days": 28,
+      "val_late_fraction": 0.10714285714285714,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 51.0,
+        "max": 84
+      },
+      "weather_duplicate_val_days": 18,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "train_rows": 6288,
+      "val_rows": 960,
+      "train_days": 262,
+      "val_days": 40,
+      "val_late_fraction": 0.25,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 90.5,
+        "max": 408
+      },
+      "weather_duplicate_val_days": 19,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "train_rows": 6576,
+      "val_rows": 744,
+      "train_days": 274,
+      "val_days": 31,
+      "val_late_fraction": 0.22580645161290322,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 59.0,
+        "max": 144
+      },
+      "weather_duplicate_val_days": 19,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "train_rows": 6192,
+      "val_rows": 960,
+      "train_days": 258,
+      "val_days": 40,
+      "val_late_fraction": 0.25,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 72.5,
+        "max": 240
+      },
+      "weather_duplicate_val_days": 17,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "train_rows": 6192,
+      "val_rows": 960,
+      "train_days": 258,
+      "val_days": 40,
+      "val_late_fraction": 0.25,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 68.5,
+        "max": 288
+      },
+      "weather_duplicate_val_days": 20,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "train_rows": 6072,
+      "val_rows": 1272,
+      "train_days": 253,
+      "val_days": 53,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 81.0,
+        "max": 180
+      },
+      "weather_duplicate_val_days": 20,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "train_rows": 5928,
+      "val_rows": 1320,
+      "train_days": 247,
+      "val_days": 55,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 74.0,
+        "max": 144
+      },
+      "weather_duplicate_val_days": 20,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "train_rows": 6000,
+      "val_rows": 1272,
+      "train_days": 250,
+      "val_days": 53,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 80.0,
+        "max": 192
+      },
+      "weather_duplicate_val_days": 24,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "train_rows": 6024,
+      "val_rows": 1248,
+      "train_days": 251,
+      "val_days": 52,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 72.5,
+        "max": 204
+      },
+      "weather_duplicate_val_days": 22,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "train_rows": 6096,
+      "val_rows": 1224,
+      "train_days": 254,
+      "val_days": 51,
+      "val_late_fraction": 0.0784313725490196,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 75.5,
+        "max": 168
+      },
+      "weather_duplicate_val_days": 17,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "train_rows": 5952,
+      "val_rows": 1272,
+      "train_days": 248,
+      "val_days": 53,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 68.0,
+        "max": 144
+      },
+      "weather_duplicate_val_days": 23,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "train_rows": 5904,
+      "val_rows": 1320,
+      "train_days": 246,
+      "val_days": 55,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 87.0,
+        "max": 264
+      },
+      "weather_duplicate_val_days": 19,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "train_rows": 6120,
+      "val_rows": 1224,
+      "train_days": 255,
+      "val_days": 51,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 74.0,
+        "max": 192
+      },
+      "weather_duplicate_val_days": 16,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "train_rows": 5976,
+      "val_rows": 1296,
+      "train_days": 249,
+      "val_days": 54,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 89.0,
+        "max": 180
+      },
+      "weather_duplicate_val_days": 14,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "train_rows": 6120,
+      "val_rows": 1200,
+      "train_days": 255,
+      "val_days": 50,
+      "val_late_fraction": 0.0,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 75.0,
+        "max": 156
+      },
+      "weather_duplicate_val_days": 12,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "train_rows": 4584,
+      "val_rows": 1800,
+      "train_days": 191,
+      "val_days": 75,
+      "val_late_fraction": 0.14666666666666667,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 112.0,
+        "max": 384
+      },
+      "weather_duplicate_val_days": 12,
+      "full14_duplicate_val_days": 0
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "train_rows": 2400,
+      "val_rows": 4632,
+      "train_days": 100,
+      "val_days": 193,
+      "val_late_fraction": 0.13471502590673576,
+      "overlap_ids": 0,
+      "gap_hours": {
+        "min": 25,
+        "median": 331.0,
+        "max": 1128
+      },
+      "weather_duplicate_val_days": 19,
+      "full14_duplicate_val_days": 0
+    }
+  ],
+  "validation_overlap": {
+    "A": {
+      "day_occurrences": 264,
+      "unique_days": 157,
+      "days_repeated": 87,
+      "max_occurrences": 3
+    },
+    "B": {
+      "day_occurrences": 263,
+      "unique_days": 162,
+      "days_repeated": 82,
+      "max_occurrences": 3
+    },
+    "DIAG10": {
+      "day_occurrences": 360,
+      "unique_days": 360,
+      "days_repeated": 0,
+      "max_occurrences": 1
+    },
+    "EXT10": {
+      "day_occurrences": 75,
+      "unique_days": 75,
+      "days_repeated": 0,
+      "max_occurrences": 1
+    },
+    "EXT12": {
+      "day_occurrences": 193,
+      "unique_days": 193,
+      "days_repeated": 0,
+      "max_occurrences": 1
+    }
+  },
+  "training_day_fingerprint": [
+    {
+      "signature": "weather",
+      "groups": 146,
+      "repeated_groups": 115,
+      "repeated_day_members": 369,
+      "cross_farm_groups": 107
+    },
+    {
+      "signature": "full14",
+      "groups": 400,
+      "repeated_groups": 0,
+      "repeated_day_members": 0,
+      "cross_farm_groups": 0
+    }
+  ],
+  "structural_ids": {
+    "original_train": {
+      "min_hours": 25,
+      "median_hours": 69.5,
+      "max_hours": 144
+    },
+    "unlocked_train": {
+      "min_hours": 25,
+      "median_hours": 77.0,
+      "max_hours": 144
+    },
+    "lock_purged_train": {
+      "min_hours": 25,
+      "median_hours": 79.0,
+      "max_hours": 144
+    },
+    "evaluation_ids_rows": 1440,
+    "evaluation_feature_values_read": false
+  },
+  "masked_features": [
+    "in_rad",
+    "act_side",
+    "act_valve",
+    "act_cool",
+    "act_pump"
+  ],
+  "features_current18": [
+    "out_temp",
+    "out_hum",
+    "out_rad",
+    "out_wspd",
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog",
+    "day",
+    "hr_sin",
+    "hr_cos",
+    "midnight"
+  ],
+  "features_v2_38": [
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog",
+    "day",
+    "hr_sin",
+    "hr_cos",
+    "midnight",
+    "act_vent_h0",
+    "act_shade_h0",
+    "act_thermal_h0",
+    "act_heating_h0",
+    "act_circfan_h0",
+    "act_co2_h0",
+    "act_fog_h0",
+    "in_temp_h0",
+    "in_hum_h0",
+    "in_co2_h0",
+    "act_vent_tdm",
+    "act_vent_tdz",
+    "act_shade_tdm",
+    "act_shade_tdz",
+    "act_thermal_tdm",
+    "act_thermal_tdz",
+    "act_heating_tdm",
+    "act_heating_tdz",
+    "act_circfan_tdm",
+    "act_circfan_tdz",
+    "act_co2_tdm",
+    "act_co2_tdz",
+    "act_fog_tdm",
+    "act_fog_tdz"
+  ],
+  "interpretation": "whole-day fingerprints are audit-only, never model features",
+  "correction": "v1 counted each of the 24 hourly rows as day occurrence; v2 uses distinct farm-day per fold. Model training and fold fingerprint counts unaffected.",
+  "independent_overlap_verification": "PASS"
+}

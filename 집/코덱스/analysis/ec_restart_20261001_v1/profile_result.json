@@ -1,0 +1,158 @@
+{
+  "source_sha256": {
+    "train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "test_X.csv": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad"
+  },
+  "lock_sha256": "0256c719eb3cfadbc6f121392868371a85440c82d72693da8900d92872c36034",
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "3.0.1",
+    "numpy": "2.5.3"
+  },
+  "train_x_rows": 309990,
+  "train_y_id_rows": 304965,
+  "train_farms": 51,
+  "target_train_rows": 9600,
+  "locked_days_excluded": 40,
+  "locked_label_rows_skipped": 960,
+  "ec_rows": 8640,
+  "ec_days": 360,
+  "usable_features": [
+    "out_temp",
+    "out_hum",
+    "out_rad",
+    "out_wspd",
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog"
+  ],
+  "masked_features": [
+    "in_rad",
+    "act_side",
+    "act_valve",
+    "act_cool",
+    "act_pump"
+  ],
+  "duplicate_ids": 0,
+  "unmatched_ec_ids": 0,
+  "duplicate_usable_vectors_extra": 0,
+  "variance_ss": {
+    "total": 1356.1181574489583,
+    "farm": 9.772434100115776,
+    "day_within_farm": 1281.9679753905093,
+    "hour_within_day": 64.37774795833333
+  },
+  "variance_fraction": {
+    "farm": 0.007206181884990793,
+    "day_within_farm": 0.9453217393697202,
+    "hour_within_day": 0.047472078745289116
+  },
+  "by_farm": {
+    "F13": {
+      "ec": {
+        "n": 4320,
+        "missing": 0,
+        "unique": 1071,
+        "mean": 0.5548789351851853,
+        "min": 0.063,
+        "p01": 0.14656999999999998,
+        "median": 0.4435,
+        "p99": 1.7912900000000036,
+        "max": 2.739,
+        "zeros": 0,
+        "negative": 0
+      },
+      "days": 180,
+      "daily_range_median": 0.06799999999999998,
+      "constant_days": 0
+    },
+    "F47": {
+      "ec": {
+        "n": 4320,
+        "missing": 0,
+        "unique": 1058,
+        "mean": 0.4876162037037037,
+        "min": 0.063,
+        "p01": 0.105,
+        "median": 0.345,
+        "p99": 2.2322900000000034,
+        "max": 3.232,
+        "zeros": 0,
+        "negative": 0
+      },
+      "days": 180,
+      "daily_range_median": 0.05499999999999999,
+      "constant_days": 0
+    }
+  },
+  "adjacent_equal_pairs": {
+    "F13": {
+      "out_temp": 194,
+      "out_hum": 647,
+      "out_rad": 1768,
+      "out_wspd": 479,
+      "in_temp": 281,
+      "in_hum": 933,
+      "in_co2": 270,
+      "act_vent": 2804,
+      "act_shade": 2995,
+      "act_thermal": 3018,
+      "act_heating": 3006,
+      "act_circfan": 2684,
+      "act_co2": 3927,
+      "act_fog": 3798,
+      "sub_ec": 381
+    },
+    "F47": {
+      "out_temp": 190,
+      "out_hum": 636,
+      "out_rad": 1759,
+      "out_wspd": 503,
+      "in_temp": 260,
+      "in_hum": 929,
+      "in_co2": 224,
+      "act_vent": 2391,
+      "act_shade": 2823,
+      "act_thermal": 2681,
+      "act_heating": 2791,
+      "act_circfan": 2209,
+      "act_co2": 4006,
+      "act_fog": 3866,
+      "sub_ec": 687
+    }
+  },
+  "cleaning_log": [
+    {
+      "action": "no value cleaning",
+      "before_target_rows": 9600,
+      "after_target_rows": 9600
+    }
+  ],
+  "statistical_tests": 0,
+  "model_training": false,
+  "test_values_used_for_rules": false,
+  "verification": {
+    "status": "PASS",
+    "rows": 8640,
+    "days": 360,
+    "variance_ss": {
+      "farm": 9.772434100115774,
+      "day_within_farm": 1281.967975390509,
+      "hour_within_day": 64.37774795833333,
+      "total": 1356.1181574489583
+    },
+    "checks": [
+      "EC rows/days",
+      "farm EC counts/min/max",
+      "four variance sums via csv/math"
+    ]
+  }
+}

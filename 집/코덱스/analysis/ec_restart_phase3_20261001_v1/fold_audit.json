@@ -1,0 +1,19 @@
+[
+  {
+    "validator":"DIAG10",
+    "fold":0,
+    "train_rows":6288,
+    "val_rows":912,
+    "train_days":262,
+    "val_days":38,
+    "val_late_fraction":0.0,
+    "overlap_ids":0,
+    "gap_hours":{
+      "min":25,
+      "median":80.5,
+      "max":216
+    },
+    "weather_duplicate_val_days":22,
+    "full14_duplicate_val_days":0
+  }
+]

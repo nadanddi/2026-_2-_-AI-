@@ -1,0 +1,37 @@
+{
+  "days": 360,
+  "rows": 8640,
+  "cluster_count": 87,
+  "tests": 71,
+  "high_ec_days": 26,
+  "seed": 261001,
+  "bootstrap": 2000,
+  "sign_flip": 9999,
+  "verification": [
+    "h0_future_corrupt",
+    "h0_future_delete",
+    "h0_row_shuffle",
+    "h0_other_farm",
+    "h6_future_corrupt",
+    "h6_future_delete",
+    "h6_row_shuffle",
+    "h6_other_farm",
+    "all_features_csv_math",
+    "all_partial_correlations_scipy",
+    "all_cluster_scores_math"
+  ],
+  "advancing_tests": 6,
+  "significant_max01": 8,
+  "causal_feature_checks": "PASS",
+  "model_training": false,
+  "test_X_read": false,
+  "locked_labels_read": false,
+  "source_sha256": {
+    "train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9"
+  },
+  "protocol_sha256": "616c95390b0a1a2872f8e9c08a96c970124a77216bcde476549b235547830e26",
+  "code_sha256": "6552eb94b7d13dc5eef805e01001198e85da73141333b51b186238e377da9324",
+  "python": "3.12.14",
+  "rerun": "PASS"
+}

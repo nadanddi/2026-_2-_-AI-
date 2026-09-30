@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>분리 날 갤러리</title>
+<style>
+:root {
+  color-scheme: light;
+  --surface-0: #f4f3f0; --surface-1: #fcfcfb; --border: #e2e1dc;
+  --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #85847f;
+  --grid: #ebeae6; --axis: #bdbcb6;
+  --s-air: #2a78d6; --s-sub: #eb6834; --s-pred: #1baf7a; --s-sib: #eda100;
+  --a-heat: #e87ba4; --a-therm: #008300; --a-vent: #4a3aa7; --a-circ: #e34948;
+  --over: #b43b3a; --under: #2a5fa8; --chip: #eceae4;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --surface-0: #121211; --surface-1: #1a1a19; --border: #2e2e2c;
+    --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+    --grid: #262624; --axis: #4a4a47;
+    --s-air: #3987e5; --s-sub: #d95926; --s-pred: #199e70; --s-sib: #c98500;
+    --a-heat: #d55181; --a-therm: #008300; --a-vent: #9085e9; --a-circ: #e66767;
+    --over: #e66767; --under: #6ea8f0; --chip: #262624;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-0: #121211; --surface-1: #1a1a19; --border: #2e2e2c;
+  --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+  --grid: #262624; --axis: #4a4a47;
+  --s-air: #3987e5; --s-sub: #d95926; --s-pred: #199e70; --s-sib: #c98500;
+  --a-heat: #d55181; --a-therm: #008300; --a-vent: #9085e9; --a-circ: #e66767;
+  --over: #e66767; --under: #6ea8f0; --chip: #262624;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface-0); color: var(--text-primary);
+  font: 14px/1.5 system-ui, -apple-system, "Segoe UI", "Malgun Gothic", sans-serif; }
+header { padding: 20px 16px 8px; max-width: 1400px; margin: 0 auto; }
+h1 { font-size: 20px; margin: 0 0 6px; }
+.lead { color: var(--text-secondary); margin: 0 0 12px; max-width: 900px; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 8px 0; }
+button { font: inherit; border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary);
+  padding: 5px 12px; border-radius: 999px; cursor: pointer; }
+button[aria-pressed="true"] { background: var(--text-primary); color: var(--surface-1); border-color: var(--text-primary); }
+.legend { display: flex; flex-wrap: wrap; gap: 14px; color: var(--text-secondary); font-size: 13px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 18px; height: 0; border-top: 2px solid; display: inline-block; }
+main { max-width: 1400px; margin: 0 auto; padding: 8px 16px 40px;
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); gap: 14px; }
+.card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 12px; position: relative; }
+.card h2 { font-size: 15px; margin: 0; display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.tag { font-size: 12px; padding: 1px 8px; border-radius: 999px; background: var(--chip); color: var(--text-secondary); font-weight: 500; }
+.off { font-variant-numeric: tabular-nums; font-weight: 600; }
+.off.over { color: var(--over); } .off.under { color: var(--under); }
+.meta { color: var(--text-muted); font-size: 12px; margin: 2px 0 6px; }
+svg { display: block; width: 100%; height: auto; overflow: visible; }
+.lbl { font-size: 10px; fill: var(--text-muted); }
+.tip { position: absolute; pointer-events: none; background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: 8px; padding: 6px 8px; font-size: 12px; color: var(--text-primary); box-shadow: 0 2px 10px rgba(0,0,0,.12);
+  display: none; z-index: 5; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.tip i { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 5px; }
+textarea { width: 100%; margin-top: 6px; min-height: 38px; resize: vertical; font: inherit; font-size: 13px;
+  background: var(--surface-0); color: var(--text-primary); border: 1px solid var(--border); border-radius: 6px; padding: 5px 7px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; background: var(--surface-1); }
+th, td { border-bottom: 1px solid var(--border); padding: 5px 8px; text-align: left; font-variant-numeric: tabular-nums; }
+th { color: var(--text-secondary); font-weight: 600; }
+#tableview { max-width: 1400px; margin: 0 auto; padding: 0 16px 40px; display: none; }
+.note { color: var(--text-muted); font-size: 12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>분리 날 갤러리 — G_C2 하루 오차가 큰 날 vs 정상 날</h1>
+  <p class="lead">DIAG10 교차검증에서 G_C2의 하루 평균 오차(예측−실제)가 +0.7℃ 초과(과대 22일)·−0.7℃ 미만(과소 18일)인 날과, |오차|&lt;0.2℃인 정상 날 표본 20일입니다.
+  각 카드는 같은 날짜(외기 24시간 완전 일치)의 형제 기록을 점선으로 함께 보여 줍니다. 보시면서 떠오른 생각을 카드 아래 메모 칸에 적고, 끝나면 <b>메모 내보내기</b>로 파일을 저장해 전달해 주세요.</p>
+  <div class="bar" role="group" aria-label="필터">
+    <button data-f="all" aria-pressed="true">전체</button>
+    <button data-f="과대" aria-pressed="false">과대예측(배지가 예측보다 차가움)</button>
+    <button data-f="과소" aria-pressed="false">과소예측(배지가 예측보다 따뜻함)</button>
+    <button data-f="정상" aria-pressed="false">정상</button>
+    <button id="viewtoggle" aria-pressed="false">표로 보기</button>
+    <button id="export">메모 내보내기</button>
+  </div>
+  <div class="legend" aria-label="범례">
+    <span><i class="sw" style="border-color:var(--s-air)"></i>실내 공기 in_temp</span>
+    <span><i class="sw" style="border-color:var(--s-sub);border-top-width:3px"></i>배지 sub_temp (실제)</span>
+    <span><i class="sw" style="border-color:var(--s-pred);border-top-style:dashed"></i>G_C2 예측</span>
+    <span><i class="sw" style="border-color:var(--s-sib);border-top-style:dotted;border-top-width:3px"></i>형제 기록 배지</span>
+    <span>│ 구동기(0~100):</span>
+    <span><i class="sw" style="border-color:var(--a-heat)"></i>난방</span>
+    <span><i class="sw" style="border-color:var(--a-therm)"></i>보온막(열림)</span>
+    <span><i class="sw" style="border-color:var(--a-vent)"></i>천창</span>
+    <span><i class="sw" style="border-color:var(--a-circ)"></i>유동팬</span>
+  </div>
+  <p class="note">로컬 전용 파일입니다. 대회 규정상 제공 데이터를 온라인에 공개하지 마세요.</p>
+</header>
+<main id="grid"></main>
+<section id="tableview"><table><thead><tr><th>온실·일차</th><th>구분</th><th>하루 오차(℃)</th><th>구간</th><th>공기 평균</th><th>배지 평균</th><th>배지−공기</th><th>형제</th><th>형제 오차</th><th>메모</th></tr></thead><tbody></tbody></table></section>
+<script>
+const DATA = __DATA__;
+const NOTE_KEY = "re20_gallery_notes";
+let notes = {};
+try { notes = JSON.parse(localStorage.getItem(NOTE_KEY) || "{}"); } catch (e) { notes = {}; }
+function saveNotes() { try { localStorage.setItem(NOTE_KEY, JSON.stringify(notes)); } catch (e) {} }
+const W = 340, H1 = 150, H2 = 62, PL = 30, PR = 8, PT = 6, PB = 16;
+const NS = "http://www.w3.org/2000/svg";
+function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function path(vals, x, y) { let d = "", pen = false; vals.forEach((v, i) => { if (v == null) { pen = false; return; } d += (pen ? "L" : "M") + x(i).toFixed(1) + "," + y(v).toFixed(1); pen = true; }); return d; }
+function stepPath(vals, x, y) { let d = "", pen = false; vals.forEach((v, i) => { if (v == null) { pen = false; return; } const x0 = x(i) - (x(1) - x(0)) / 2, x1 = x(i) + (x(1) - x(0)) / 2; d += (pen ? "L" : "M") + x0.toFixed(1) + "," + y(v).toFixed(1) + "L" + x1.toFixed(1) + "," + y(v).toFixed(1); pen = true; }); return d; }
+const key = d => d.farm + "_" + d.day;
+const mean = a => { const b = a.filter(v => v != null); return b.length ? b.reduce((s, v) => s + v, 0) / b.length : NaN; };
+
+function card(d) {
+  const c = document.createElement("article"); c.className = "card"; c.dataset.g = d.group;
+  const cls = d.group === "과대" ? "over" : d.group === "과소" ? "under" : "";
+  const sib = d.sib ? `형제: ${d.sib.farm} ${d.sib.day}일 (오차 ${d.sib.offset > 0 ? "+" : ""}${d.sib.offset})` : "형제 기록 없음";
+  c.innerHTML = `<h2>${d.farm} ${d.day}일 <span class="tag">${d.group}</span> <span class="off ${cls}">${d.offset > 0 ? "+" : ""}${d.offset.toFixed(2)}℃</span></h2>
+    <div class="meta">${d.pass}차 구간 · ${sib} · 배지−공기 평균 ${(mean(d.s.sub) - mean(d.s.air)).toFixed(1)}℃</div>`;
+  const s1 = el("svg", { viewBox: `0 0 ${W} ${H1}`, role: "img", "aria-label": `${d.farm} ${d.day}일 온도` }, c);
+  const temps = [...d.s.air, ...d.s.sub, ...d.s.pred, ...(d.sib ? d.sib.s.sub : [])].filter(v => v != null);
+  let lo = Math.floor(Math.min(...temps)) - 1, hi = Math.ceil(Math.max(...temps)) + 1;
+  const x = i => PL + i * (W - PL - PR) / 23, y = v => PT + (hi - v) * (H1 - PT - PB) / (hi - lo);
+  const step = (hi - lo) > 16 ? 5 : (hi - lo) > 8 ? 2 : 1;
+  for (let v = Math.ceil(lo / step) * step; v <= hi; v += step) {
+    el("line", { x1: PL, x2: W - PR, y1: y(v), y2: y(v), stroke: "var(--grid)", "stroke-width": 1 }, s1);
+    const t = el("text", { x: PL - 4, y: y(v) + 3, "text-anchor": "end", class: "lbl" }, s1); t.textContent = v;
+  }
+  [0, 6, 12, 18, 23].forEach(h => { const t = el("text", { x: x(h), y: H1 - 3, "text-anchor": "middle", class: "lbl" }, s1); t.textContent = h + "시"; });
+  el("path", { d: path(d.s.air, x, y), fill: "none", stroke: "var(--s-air)", "stroke-width": 2 }, s1);
+  if (d.sib) el("path", { d: path(d.sib.s.sub, x, y), fill: "none", stroke: "var(--s-sib)", "stroke-width": 2.5, "stroke-dasharray": "1 4", "stroke-linecap": "round" }, s1);
+  el("path", { d: path(d.s.pred, x, y), fill: "none", stroke: "var(--s-pred)", "stroke-width": 2, "stroke-dasharray": "5 3" }, s1);
+  el("path", { d: path(d.s.sub, x, y), fill: "none", stroke: "var(--s-sub)", "stroke-width": 3 }, s1);
+  const s2 = el("svg", { viewBox: `0 0 ${W} ${H2}`, role: "img", "aria-label": `${d.farm} ${d.day}일 구동기` }, c);
+  const y2 = v => 4 + (100 - v) * (H2 - 18) / 100;
+  [0, 50, 100].forEach(v => { el("line", { x1: PL, x2: W - PR, y1: y2(v), y2: y2(v), stroke: "var(--grid)", "stroke-width": 1 }, s2);
+    const t = el("text", { x: PL - 4, y: y2(v) + 3, "text-anchor": "end", class: "lbl" }, s2); t.textContent = v; });
+  [["heat", "--a-heat"], ["therm", "--a-therm"], ["vent", "--a-vent"], ["circ", "--a-circ"]].forEach(([k, v]) =>
+    el("path", { d: stepPath(d.s[k], x, y2), fill: "none", stroke: `var(${v})`, "stroke-width": 1.6, opacity: .9 }, s2));
+  // hover
+  const tip = document.createElement("div"); tip.className = "tip"; c.appendChild(tip);
+  const cross = el("line", { y1: PT, y2: H1 - PB, stroke: "var(--axis)", "stroke-width": 1, visibility: "hidden" }, s1);
+  const hit = el("rect", { x: PL - 6, y: 0, width: W - PL - PR + 12, height: H1, fill: "transparent" }, s1);
+  const f = v => v == null ? "–" : v.toFixed(1);
+  function move(ev) {
+    const r = s1.getBoundingClientRect(); const px = (ev.clientX - r.left) * W / r.width;
+    const h = Math.max(0, Math.min(23, Math.round((px - PL) / ((W - PL - PR) / 23))));
+    cross.setAttribute("x1", x(h)); cross.setAttribute("x2", x(h)); cross.setAttribute("visibility", "visible");
+    const S = d.s;
+    tip.innerHTML = `<b>${h}시</b><br><i style="background:var(--s-sub)"></i>배지 ${f(S.sub[h])} · <i style="background:var(--s-pred)"></i>예측 ${f(S.pred[h])}<br>` +
+      `<i style="background:var(--s-air)"></i>공기 ${f(S.air[h])} · 외기 ${f(S.out[h])}` + (d.sib ? `<br><i style="background:var(--s-sib)"></i>형제 배지 ${f(d.sib.s.sub[h])} (형제 공기 ${f(d.sib.s.air[h])})` : "") +
+      `<br>난방 ${f(S.heat[h])} · 보온막 ${f(S.therm[h])} · 천창 ${f(S.vent[h])} · 유동팬 ${f(S.circ[h])}`;
+    const cr = c.getBoundingClientRect(); tip.style.display = "block";
+    let lx = ev.clientX - cr.left + 12; if (lx + tip.offsetWidth > cr.width) lx = ev.clientX - cr.left - tip.offsetWidth - 12;
+    tip.style.left = Math.max(4, lx) + "px"; tip.style.top = (ev.clientY - cr.top + 12) + "px";
+  }
+  hit.addEventListener("mousemove", move);
+  hit.addEventListener("mouseleave", () => { tip.style.display = "none"; cross.setAttribute("visibility", "hidden"); });
+  const ta = document.createElement("textarea"); ta.placeholder = "메모 (예: 관수 패턴 같음, 커튼 운전 이상…)"; ta.value = notes[key(d)] || "";
+  ta.addEventListener("input", () => { notes[key(d)] = ta.value; saveNotes(); renderTable(); });
+  c.appendChild(ta);
+  return c;
+}
+const grid = document.getElementById("grid");
+DATA.forEach(d => grid.appendChild(card(d)));
+function renderTable() {
+  const tb = document.querySelector("#tableview tbody"); tb.innerHTML = "";
+  DATA.forEach(d => { const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${d.farm} ${d.day}</td><td>${d.group}</td><td>${d.offset > 0 ? "+" : ""}${d.offset.toFixed(2)}</td><td>${d.pass}차</td>` +
+      `<td>${mean(d.s.air).toFixed(1)}</td><td>${mean(d.s.sub).toFixed(1)}</td><td>${(mean(d.s.sub) - mean(d.s.air)).toFixed(1)}</td>` +
+      `<td>${d.sib ? d.sib.farm + " " + d.sib.day : "–"}</td><td>${d.sib ? (d.sib.offset > 0 ? "+" : "") + d.sib.offset : "–"}</td><td>${(notes[key(d)] || "").replace(/</g, "&lt;")}</td>`;
+    tb.appendChild(tr); });
+}
+renderTable();
+let filt = "all";
+document.querySelectorAll("button[data-f]").forEach(b => b.addEventListener("click", () => {
+  filt = b.dataset.f; document.querySelectorAll("button[data-f]").forEach(x => x.setAttribute("aria-pressed", x === b));
+  document.querySelectorAll(".card").forEach(c => c.style.display = (filt === "all" || c.dataset.g === filt) ? "" : "none");
+}));
+document.getElementById("viewtoggle").addEventListener("click", e => {
+  const on = e.target.getAttribute("aria-pressed") !== "true"; e.target.setAttribute("aria-pressed", on);
+  document.getElementById("tableview").style.display = on ? "block" : "none"; grid.style.display = on ? "none" : "grid";
+});
+document.getElementById("export").addEventListener("click", () => {
+  const rows = DATA.map(d => ({ day: key(d), group: d.group, offset: d.offset, note: notes[key(d)] || "" })).filter(r => r.note);
+  const blob = new Blob([JSON.stringify({ exported: new Date().toISOString(), notes: rows }, null, 1)], { type: "application/json" });
+  const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = "분리날_메모.json"; a.click();
+});
+</script>
+</body>
+</html>

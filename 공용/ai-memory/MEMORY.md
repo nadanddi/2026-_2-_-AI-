@@ -7,3 +7,6 @@
 - [No submission prep until asked](no-submission-prep-until-asked.md) — don't declare '확정된 N회차 구성' or offer to build files until user says to submit
 - [Explore autonomously](explore-autonomously.md) — run experiments without asking; ask only for submissions/deletions (revokes 'ask me first')
 - [Temp=Claude, EC=Codex](division-temp-claude-ec-codex.md) — since 2026-09-28 Claude does temperature only; EC work goes to Codex
+- [Check catalog before 'new'](check-catalog-before-new.md) — grep 카탈로그/worklogs before calling a hypothesis untested
+- [No presentation prep](no-presentation-prep.md) — user handles presentation/report separately; don't suggest it
+- [No domain prompting](no-domain-prompting.md) — don't mention/ask for domain knowledge until user hands over materials
