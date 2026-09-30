@@ -24,7 +24,8 @@ PRE-SET ADOPTION RULE (fixed before running, one candidate -> no Bonferroni):
 
 Output: logs/ha2_midnight_curlin_v1.log, local/ha2_midnight_curlin_v1_oof.npz
 Run:  PYTHONPATH="" <python> -u ha2_midnight_curlin_v1.py   (from 연구실/클로드/code)
-"""import os
+"""
+import os
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
