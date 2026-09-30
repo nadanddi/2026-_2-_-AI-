@@ -55,7 +55,7 @@ EARLY = ["in_temp", "in_hum", "in_co2", "out_temp", "out_hum", "act_heating", "a
 
 def part_a():
     tX, ty, _ = common.load_raw()
-    df = tX.merge(ty, on="row_id")
+    df = tX.merge(ty[["row_id", "sub_temp"]], on="row_id")
     df = df[~df.farm.isin(["F13", "F47"])]
     day = df.groupby(["farm", "day"]).agg(n=("sub_temp", "count"), y=("sub_temp", "mean"), t=("in_temp", "mean"))
     day = day[day.n >= 20]
