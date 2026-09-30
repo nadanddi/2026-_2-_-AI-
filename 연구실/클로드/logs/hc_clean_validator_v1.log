@@ -1,0 +1,57 @@
+﻿clean rows 7259 / 9600
+==========================================================================================
+DIAG10  scored rows 9600 (clean 7259)
+  check: RMSE audit1 R3 0.7061 vs eval_v6 plain 0.7061 | temp_mask FULL 0.6968 vs eval_v6 F60ND 0.6965
+  RMSE ALL  : R1 0.7577  R2 0.7253  R3 0.7061  R4 0.7035  R5 0.6968  R6 0.6657
+  RMSE CLEAN: R1 0.6010  R2 0.5712  R3 0.5641  R4 0.5623  R5 0.5419  R6 0.5063
+  ALL   R2/R1  validator 0.9572  real 0.8948  log err +0.067
+  ALL   R3/R2  validator 0.9737  real 0.8437  log err +0.143
+  ALL   R4/R3  validator 0.9962  real 1.0130  log err -0.017
+  ALL   R5/R3  validator 0.9867  real 0.9701  log err +0.017
+  ALL   R6/R5  validator 0.9554  real 0.9624  log err -0.007
+  ALL   MAE(log) 0.0504  sign agreement 4/5
+  CLEAN R2/R1  validator 0.9503  real 0.8948  log err +0.060
+  CLEAN R3/R2  validator 0.9876  real 0.8437  log err +0.158
+  CLEAN R4/R3  validator 0.9967  real 1.0130  log err -0.016
+  CLEAN R5/R3  validator 0.9607  real 0.9701  log err -0.010
+  CLEAN R6/R5  validator 0.9343  real 0.9624  log err -0.030
+  CLEAN MAE(log) 0.0547  sign agreement 4/5
+  -> H-C holds for DIAG10: False
+==========================================================================================
+EXT10  scored rows 2040 (clean 1298)
+  check: RMSE audit1 R3 0.9090 vs eval_v6 plain 0.9090 | temp_mask FULL 0.8814 vs eval_v6 F60ND 0.8806
+  RMSE ALL  : R1 1.2286  R2 1.0589  R3 0.9090  R4 0.8970  R5 0.8814  R6 0.8473
+  RMSE CLEAN: R1 1.3030  R2 1.0738  R3 0.8729  R4 0.8588  R5 0.8313  R6 0.7841
+  ALL   R2/R1  validator 0.8619  real 0.8948  log err -0.037
+  ALL   R3/R2  validator 0.8584  real 0.8437  log err +0.017
+  ALL   R4/R3  validator 0.9868  real 1.0130  log err -0.026
+  ALL   R5/R3  validator 0.9697  real 0.9701  log err -0.000
+  ALL   R6/R5  validator 0.9613  real 0.9624  log err -0.001
+  ALL   MAE(log) 0.0165  sign agreement 4/5
+  CLEAN R2/R1  validator 0.8241  real 0.8948  log err -0.082
+  CLEAN R3/R2  validator 0.8129  real 0.8437  log err -0.037
+  CLEAN R4/R3  validator 0.9838  real 1.0130  log err -0.029
+  CLEAN R5/R3  validator 0.9524  real 0.9701  log err -0.018
+  CLEAN R6/R5  validator 0.9433  real 0.9624  log err -0.020
+  CLEAN MAE(log) 0.0375  sign agreement 4/5
+  -> H-C holds for EXT10: False
+==========================================================================================
+EXT12  scored rows 5256 (clean 3602)
+  check: RMSE audit1 R3 0.9270 vs eval_v6 plain 0.9270 | temp_mask FULL 0.8833 vs eval_v6 F60ND 0.8858
+  RMSE ALL  : R1 1.8097  R2 1.3443  R3 0.9270  R4 0.9421  R5 0.8833  R6 0.8151
+  RMSE CLEAN: R1 1.7759  R2 1.2885  R3 0.8100  R4 0.8366  R5 0.7783  R6 0.6871
+  ALL   R2/R1  validator 0.7428  real 0.8948  log err -0.186
+  ALL   R3/R2  validator 0.6895  real 0.8437  log err -0.202
+  ALL   R4/R3  validator 1.0163  real 1.0130  log err +0.003
+  ALL   R5/R3  validator 0.9529  real 0.9701  log err -0.018
+  ALL   R6/R5  validator 0.9228  real 0.9624  log err -0.042
+  ALL   MAE(log) 0.0902  sign agreement 5/5
+  CLEAN R2/R1  validator 0.7256  real 0.8948  log err -0.210
+  CLEAN R3/R2  validator 0.6287  real 0.8437  log err -0.294
+  CLEAN R4/R3  validator 1.0328  real 1.0130  log err +0.019
+  CLEAN R5/R3  validator 0.9608  real 0.9701  log err -0.010
+  CLEAN R6/R5  validator 0.8828  real 0.9624  log err -0.086
+  CLEAN MAE(log) 0.1238  sign agreement 5/5
+  -> H-C holds for EXT12: False
+==========================================================================================
+H-C NOT SUPPORTED (holds on 0 of 3 validators; rule: >= 2)

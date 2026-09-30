@@ -1,0 +1,9 @@
+﻿DIAG10 CUR seed   7 | G_C2 0.66568 -> cand 0.66129 (-0.66%) CI [-0.0095, +0.0000] P(worse)=0.025 | hours 0-2: G_C2 0.794 CUR 0.839 cand 0.764 | CUR alone all-hours 1.072
+DIAG10 CUR seed 101 | G_C2 0.66568 -> cand 0.66065 (-0.76%) CI [-0.0107, -0.0002] P(worse)=0.015 | hours 0-2: G_C2 0.794 CUR 0.834 cand 0.760 | CUR alone all-hours 1.069
+EXT10  CUR seed   7 | G_C2 0.84730 -> cand 0.86481 (+2.07%) CI [-0.0021, +0.0390] P(worse)=0.960 | hours 0-2: G_C2 0.945 CUR 1.368 cand 1.065 | CUR alone all-hours 1.597
+EXT10  CUR seed 101 | G_C2 0.84730 -> cand 0.86437 (+2.01%) CI [-0.0029, +0.0392] P(worse)=0.951 | hours 0-2: G_C2 0.945 CUR 1.364 cand 1.062 | CUR alone all-hours 1.608
+EXT12  CUR seed   7 | G_C2 0.81512 -> cand 0.88090 (+8.07%) CI [+0.0461, +0.0886] P(worse)=1.000 | hours 0-2: G_C2 1.049 CUR 2.061 cand 1.412 | CUR alone all-hours 2.128
+EXT12  CUR seed 101 | G_C2 0.81512 -> cand 0.88307 (+8.34%) CI [+0.0474, +0.0917] P(worse)=1.000 | hours 0-2: G_C2 1.049 CUR 2.093 cand 1.423 | CUR alone all-hours 2.153
+
+all 6 cells improve: False | DIAG10 P(worse) < 0.025 for both seeds: False
+H-A verdict: REJECT
