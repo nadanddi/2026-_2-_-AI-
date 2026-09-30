@@ -1,0 +1,118 @@
+﻿====================================================================================================
+DIAG10
+  A. flag=0 rows  7259 (76%)  RMSE 0.506  SSE share 43.7%  day-offset share of its SSE 51%
+  A. flag=1 rows  2341 (24%)  RMSE 1.011  SSE share 56.3%  day-offset share of its SSE 61%
+  A. clean-row RMSE by farm/pass: F13 pass1 n3294 0.479 | F13 pass2 n597 0.484 | F47 pass1 n3080 0.544 | F47 pass2 n288 0.427
+  B. clean days 304 (of 400); day-offset share of clean SSE 51%
+     Spearman with day bias | with day RMSE
+     gap           -0.28 | -0.11
+     y_rng         -0.12 | +0.09
+     vent          +0.11 | -0.16
+     dt_mean_prev  -0.10 | -0.03
+     y_mean        -0.10 | -0.21
+     thermal       +0.09 | -0.15
+     heat          -0.08 | +0.09
+     co2           +0.07 | -0.03
+     out_mean      +0.06 | -0.24
+     gap_prev      -0.05 | -0.08
+     shade         +0.04 | -0.18
+     rad           -0.04 | +0.08
+     t_mean        -0.04 | -0.20
+     t_rng         +0.02 | +0.09
+     hum           +0.01 | -0.26
+     worst 10% clean days (n=31, RMSE>=0.71) vs rest: median
+       bias            -0.43  vs   -0.00   |abs|   0.72 vs   0.15
+       in_rmse          0.63  vs    0.23   |abs|   0.63 vs   0.23
+       gap             -0.87  vs   -0.66   |abs|   1.11 vs   0.68
+       t_mean          15.69  vs   15.62   |abs|  15.69 vs  15.62
+       y_mean          13.93  vs   15.03   |abs|  13.93 vs  15.03
+       out_mean         7.90  vs   10.12   |abs|   7.90 vs  10.12
+       heat            11.54  vs   12.79   |abs|  11.54 vs  12.79
+       vent            14.00  vs   12.33   |abs|  14.00 vs  12.33
+       thermal         32.00  vs   37.00   |abs|  32.00 vs  37.00
+       t_rng           12.70  vs   12.50   |abs|  12.70 vs  12.50
+       y_rng            6.84  vs    6.69   |abs|   6.84 vs   6.69
+       p_rng            6.59  vs    6.66   |abs|   6.59 vs   6.66
+       dt_mean_prev    -1.38  vs    0.01   |abs|   1.68 vs   1.30
+     gap anomaly vs bias: Spearman -0.28, slope -0.27 (bias ~ -0.27*gap_anom)
+  C. clean within-day RMSE by hour: 0:0.60 1:0.49 2:0.40 3:0.34 4:0.30 5:0.28 6:0.28 7:0.29 8:0.31 9:0.30 10:0.51 11:0.34 12:0.34 13:0.34 14:0.37 15:0.33 16:0.33 17:0.32 18:0.30 19:0.31 20:0.33 21:0.36 22:0.38 23:0.41
+     within-day bias by hour:        0:-0.02 1:-0.04 2:-0.00 3:-0.00 4:+0.01 5:+0.02 6:+0.03 7:+0.00 8:-0.00 9:+0.02 10:+0.04 11:-0.02 12:-0.03 13:-0.01 14:-0.01 15:-0.03 16:-0.02 17:+0.00 18:+0.00 19:+0.00 20:+0.02 21:+0.02 22:+0.02 23:+0.03
+     within-day e vs dT          Spearman +0.04
+     within-day e vs out_rad     Spearman -0.02
+     within-day e vs in_temp     Spearman +0.04
+     within-day e vs act_vent    Spearman -0.03
+     within-day e vs act_heating Spearman -0.04
+     within-day e vs act_thermal Spearman -0.01
+     within-day by dT(°C/h): (-99.0, -2.0] n697 -0.02/0.45 | (-2.0, -1.0] n755 +0.00/0.34 | (-1.0, -0.3] n1523 -0.00/0.32 | (-0.3, 0.3] n2139 +0.00/0.34 | (0.3, 1.0] n805 +0.01/0.32 | (1.0, 2.0] n470 -0.03/0.33 | (2.0, 99.0] n785 +0.02/0.32
+     hour 0: RMSE 0.72 (all-hour 0.51) | Spearman(e, air jump 23h->0h) -0.17 | |jump|>2°C rows 81 RMSE 0.78
+  D. day-mean pred vs label slope 0.988 (1 = no compression) | day range slope 0.926 | median range: label 6.71 pred 6.66 air 12.60
+  E. F47 pass2 days 27, RMSE 1.031; worst 8:
+     rmse  bias  in_rmse  y_mean  t_mean   gap  out_mean   heat   vent  flag
+day                                                                         
+191  3.28 -3.18     0.80   20.31   17.97  2.33     12.05   0.00  20.75   1.0
+241  1.83  1.74     0.56   12.03   14.78 -2.75     -0.00   0.00   5.12   1.0
+189  1.81 -1.75     0.47   20.57   18.91  1.66     12.90   8.25  12.33   1.0
+240  1.70  1.37     1.00    9.45   12.00 -2.55     -0.19  76.00   9.08   1.0
+239  1.14 -1.00     0.56   13.24   13.27 -0.03      4.45  54.25  20.33   1.0
+190  0.99 -0.24     0.96   16.45   16.75 -0.29     12.05   7.50  43.54   1.0
+214  0.88  0.82     0.32   10.91   12.76 -1.85      0.95  25.92   1.25   1.0
+230  0.87  0.85     0.18    8.70   10.39 -1.69     -0.60  77.67   3.29   1.0
+====================================================================================================
+EXT12
+  A. flag=0 rows  3602 (69%)  RMSE 0.687  SSE share 48.7%  day-offset share of its SSE 59%
+  A. flag=1 rows  1654 (31%)  RMSE 1.041  SSE share 51.3%  day-offset share of its SSE 62%
+  A. clean-row RMSE by farm/pass: F13 pass1 n1714 0.621 | F13 pass2 n240 0.626 | F47 pass1 n1504 0.776 | F47 pass2 n144 0.538
+  B. clean days 151 (of 219); day-offset share of clean SSE 59%
+     Spearman with day bias | with day RMSE
+     y_rng         -0.37 | -0.01
+     out_mean      +0.28 | -0.17
+     vent          +0.23 | -0.31
+     dt_mean_prev  -0.22 | +0.03
+     y_mean        -0.22 | -0.14
+     rad           -0.20 | -0.11
+     gap           -0.19 | +0.02
+     t_mean        -0.14 | -0.16
+     t_rng         -0.13 | -0.02
+     gap_prev      +0.12 | +0.01
+     heat          -0.08 | -0.07
+     hum           +0.06 | +0.04
+     co2           +0.05 | -0.06
+     shade         -0.03 | -0.06
+     thermal       +0.01 | -0.24
+     worst 10% clean days (n=16, RMSE>=0.99) vs rest: median
+       bias             0.76  vs    0.07   |abs|   1.19 vs   0.31
+       in_rmse          0.58  vs    0.34   |abs|   0.58 vs   0.34
+       gap             -0.61  vs   -0.80   |abs|   0.68 vs   0.80
+       t_mean          12.50  vs   13.49   |abs|  12.50 vs  13.49
+       y_mean          12.08  vs   12.64   |abs|  12.08 vs  12.64
+       out_mean         3.94  vs    5.19   |abs|   4.18 vs   5.19
+       heat            20.33  vs   22.25   |abs|  20.33 vs  22.25
+       vent             0.75  vs    8.50   |abs|   0.75 vs   8.50
+       thermal         31.08  vs   34.71   |abs|  31.08 vs  34.71
+       t_rng           13.60  vs   13.10   |abs|  13.60 vs  13.10
+       y_rng            6.95  vs    6.93   |abs|   6.95 vs   6.93
+       p_rng            6.02  vs    6.70   |abs|   6.02 vs   6.70
+       dt_mean_prev     0.04  vs    0.03   |abs|   1.45 vs   1.45
+     gap anomaly vs bias: Spearman -0.19, slope -0.30 (bias ~ -0.30*gap_anom)
+  C. clean within-day RMSE by hour: 0:0.80 1:0.63 2:0.53 3:0.41 4:0.36 5:0.33 6:0.34 7:0.35 8:0.40 9:0.43 10:0.68 11:0.41 12:0.43 13:0.39 14:0.39 15:0.41 16:0.42 17:0.41 18:0.38 19:0.38 20:0.38 21:0.38 22:0.41 23:0.43
+     within-day bias by hour:        0:+0.19 1:+0.12 2:+0.11 3:+0.09 4:+0.06 5:+0.07 6:+0.06 7:+0.05 8:+0.08 9:+0.14 10:+0.19 11:+0.06 12:+0.03 13:+0.02 14:-0.05 15:-0.13 16:-0.16 17:-0.17 18:-0.18 19:-0.19 20:-0.14 21:-0.08 22:-0.04 23:+0.00
+     within-day e vs dT          Spearman +0.20
+     within-day e vs out_rad     Spearman +0.06
+     within-day e vs in_temp     Spearman +0.03
+     within-day e vs act_vent    Spearman -0.05
+     within-day e vs act_heating Spearman +0.00
+     within-day e vs act_thermal Spearman +0.00
+     within-day by dT(°C/h): (-99.0, -2.0] n385 -0.12/0.59 | (-2.0, -1.0] n372 -0.05/0.44 | (-1.0, -0.3] n712 -0.04/0.41 | (-0.3, 0.3] n1057 +0.02/0.42 | (0.3, 1.0] n406 +0.05/0.39 | (1.0, 2.0] n221 +0.01/0.40 | (2.0, 99.0] n419 +0.13/0.42
+     hour 0: RMSE 1.07 (all-hour 0.69) | Spearman(e, air jump 23h->0h) -0.21 | |jump|>2°C rows 30 RMSE 1.10
+  D. day-mean pred vs label slope 0.924 (1 = no compression) | day range slope 0.866 | median range: label 6.93 pred 6.54 air 13.40
+  E. F47 pass2 days 17, RMSE 0.999; worst 8:
+     rmse  bias  in_rmse  y_mean  t_mean   gap  out_mean   heat   vent  flag
+day                                                                         
+241  2.10  2.04     0.48   12.03   14.78 -2.75     -0.00   0.00   5.12   1.0
+240  1.97  1.70     1.00    9.45   12.00 -2.55     -0.19  76.00   9.08   1.0
+210  1.19  1.16     0.26   13.00   13.47 -0.47     11.78   0.00   0.00   1.0
+242  1.06 -0.64     0.85   12.47   13.63 -1.16     -1.38  40.33   0.00   1.0
+239  1.03 -0.78     0.67   13.24   13.27 -0.03      4.45  54.25  20.33   1.0
+230  0.99  0.94     0.32    8.70   10.39 -1.69     -0.60  77.67   3.29   1.0
+214  0.93  0.81     0.47   10.91   12.76 -1.85      0.95  25.92   1.25   1.0
+209  0.88  0.85     0.20   11.73   12.28 -0.55      7.97   9.54   4.92   0.0
