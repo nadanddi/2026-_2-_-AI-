@@ -1,0 +1,12 @@
+﻿corrector training days (EXT12): 219, day-bias mean +0.133 SD 0.621
+DIAG10  seed   7 | G_C2 0.66568 -> 0.73631 (+10.61%) CI [+0.0508, +0.0923] P(worse)=1.000 | mean correction on hours 7-23 +0.237 | rows in_temp<=10: 0.795 -> 0.845
+DIAG10  seed 101 | G_C2 0.66568 -> 0.73839 (+10.92%) CI [+0.0517, +0.0957] P(worse)=1.000 | mean correction on hours 7-23 +0.235 | rows in_temp<=10: 0.795 -> 0.849
+EXT8*   seed   7 | G_C2 0.93398 -> 0.96689 (+3.52%) CI [-0.0292, +0.1204] P(worse)=0.834 | mean correction on hours 7-23 +0.158 | rows in_temp<=10: 0.890 -> 0.875
+EXT8*   seed 101 | G_C2 0.93398 -> 0.96267 (+3.07%) CI [-0.0341, +0.1231] P(worse)=0.773 | mean correction on hours 7-23 +0.156 | rows in_temp<=10: 0.890 -> 0.870
+EXT10   seed   7 | G_C2 0.84730 -> 0.84253 (-0.56%) CI [-0.0588, +0.0433] P(worse)=0.406 | mean correction on hours 7-23 +0.027 | rows in_temp<=10: 0.914 -> 0.930
+EXT10   seed 101 | G_C2 0.84730 -> 0.84209 (-0.61%) CI [-0.0616, +0.0463] P(worse)=0.397 | mean correction on hours 7-23 +0.017 | rows in_temp<=10: 0.914 -> 0.934
+EXT12   seed   7 | G_C2 0.81512 -> 0.78370 (-3.85%) CI [-0.0578, -0.0057] P(worse)=0.010 | mean correction on hours 7-23 +0.132 | rows in_temp<=10: 0.880 -> 0.876
+EXT12   seed 101 | G_C2 0.81512 -> 0.78221 (-4.04%) CI [-0.0594, -0.0071] P(worse)=0.009 | mean correction on hours 7-23 +0.128 | rows in_temp<=10: 0.880 -> 0.877
+
+all 8 cells improve: False | DIAG10 P(worse) < 0.025 both seeds: False
+H-D verdict: REJECT
