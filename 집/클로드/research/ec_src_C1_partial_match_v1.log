@@ -1,0 +1,29 @@
+integer-resolution greenhouses: 48
+
+== C1a (L=6, offset) == candidates 304011, test queries 1319, baseline queries 1319
+  test: queries with >=1 match 406 / 1319 (30.78%)
+  base: queries with >=1 match 334 / 1319 (25.32%)
+  ratio 1.22, Fisher p 0.00104 | longest continuous match test 12h (('F13', 'F09', -3409), 4827), baseline 7h (('F13', 'F14', 1559), 253) -> GO
+  matched candidate greenhouses (test): {'F32': 5247, 'F38': 4430, 'F45': 4392, 'F09': 3795, 'F35': 2888, 'F01': 2784, 'F13': 2337, 'F04': 2063}
+  matched candidate greenhouses (base): {'F32': 7035, 'F38': 5267, 'F45': 4092, 'F09': 3009, 'F01': 2631, 'F35': 2625, 'F04': 2432, 'F13': 2154}
+   test F13 day 185 h 1 -> [('F01', -3077), ('F01', -3076), ('F01', -3051), ('F01', -2500)]
+   test F13 day 200 h 2 -> [('F01', -4563), ('F01', -3867), ('F01', -3866), ('F01', -3437)]
+   test F13 day 204 h 0 -> [('F01', -4657), ('F01', -4444), ('F01', -4320), ('F01', -3961)]
+   test F13 day 200 h 1 -> [('F01', -4519), ('F01', -4021), ('F01', -3866), ('F01', -3865)]
+   test F13 day 200 h 0 -> [('F01', -3864), ('F01', -3436), ('F01', -3435), ('F01', -3411)]
+   test F47 day 236 h 16 -> [('F01', -5397), ('F01', -4960), ('F01', -4911), ('F01', -4893)]
+
+== C1b (L=12, slope+offset) == candidates 300662, test queries 1352, baseline queries 1352
+  test: queries with >=1 match 46 / 1352 (3.40%)
+  base: queries with >=1 match 69 / 1352 (5.10%)
+  ratio 0.67, Fisher p 0.9891 | longest continuous match test 17h (('F47', 'F13', -3696), 4421), baseline 13h (('F13', 'F13', 72), 4140) -> STOP
+  matched candidate greenhouses (test): {'F45': 45, 'F38': 27, 'F01': 26, 'F46': 24, 'F13': 24, 'F12': 22, 'F31': 22, 'F09': 20}
+  matched candidate greenhouses (base): {'F32': 295, 'F38': 114, 'F45': 69, 'F31': 62, 'F09': 59, 'F39': 45, 'F13': 43, 'F21': 40}
+   test F13 day 228 h 21 -> [('F01', -4394), ('F01', -3078), ('F01', -2693), ('F01', -2692)]
+   test F47 day 218 h 0 -> [('F01', -2258), ('F01', -2257), ('F01', -1803), ('F02', -4587)]
+   test F13 day 200 h 18 -> [('F02', 1223), ('F05', -3119), ('F09', -4321), ('F09', 145)]
+   test F13 day 228 h 20 -> [('F01', -2669), ('F01', -2668), ('F02', -1301), ('F02', 524)]
+   test F13 day 200 h 17 -> [('F01', -2307), ('F02', -4368), ('F02', 1223), ('F03', -3602)]
+   test F13 day 205 h 19 -> [('F01', -1968), ('F01', -1967), ('F03', -3911), ('F03', -3863)]
+
+C1 decision: {'C1a': True, 'C1b': False}
