@@ -1,0 +1,10 @@
+long runs with 3 clean anchors each side: 274
+  LIN    median max|err| 1.65   share <= 0.15: 42.7%   <= 0.5: 43.1%
+  PCHIP  median max|err| 2.10   share <= 0.15: 2.6%   <= 0.5: 12.4%
+  CSPL   median max|err| 4.67   share <= 0.15: 0.0%   <= 0.5: 2.6%
+  HUM    median max|err| 4.91   share <= 0.15: 0.0%   <= 0.5: 0.4%
+  SEAS   median max|err| 3.37   share <= 0.15: 0.0%   <= 0.5: 0.4%
+  HUM mean |resid| on run rows 3.75 vs integer rows 3.82
+  lag-1 autocorr of 1st diff: runs median -0.23 vs integer days median 0.48
+  straight-line runs  n=117  median len 9  ac1 median -0.46  PCHIP<=0.5 29%  SEAS median 4.37
+  other runs          n=157  median len 8  ac1 median 0.25  PCHIP<=0.5 0%  SEAS median 2.90
