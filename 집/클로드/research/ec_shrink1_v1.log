@@ -1,0 +1,17 @@
+RMSE by validator
+val        rows       v2  lam0.8  lam0.9  lam1.1  lam1.2
+DIAG10     8640   0.2139  0.2256  0.2173  0.2155  0.2220
+A          6336   0.2303  0.2576  0.2414  0.2252  0.2264
+B          6312   0.2188  0.2372  0.2256  0.2171  0.2206
+EXT10      1800   0.4141  0.4404  0.4265  0.4033  0.3942
+EXT12      4632   0.4161  0.4172  0.4156  0.4188  0.4235
+DIAG10 late>=179 v2 0.3832 lam0.8 0.3744 lam0.9 0.3771 lam1.1 0.3926 lam1.2 0.4050
+DIAG10 early     v2 0.1759 lam0.8 0.1944 lam0.9 0.1825 lam1.1 0.1751 lam1.2 0.1802
+DIAG10 highEC>=1.2 v2 0.6135 lam0.8 0.7013 lam0.9 0.6537 lam1.1 0.5820 lam1.2 0.5608
+DIAG10 rest        v2 0.1414 lam0.8 0.1287 lam0.9 0.1328 lam1.1 0.1539 lam1.2 0.1692
+
+DIAG10 bootstrap (5-day farm blocks), threshold 0.00625
+  lam 0.8  dMSE +0.00515  95% [-0.00004, +0.01045]  P(worse) 0.9736  all-5-better False  -> FAIL
+  lam 0.9  dMSE +0.00149  95% [-0.00099, +0.00411]  P(worse) 0.8728  all-5-better False  -> FAIL
+  lam 1.1  dMSE +0.00068  95% [-0.00184, +0.00315]  P(worse) 0.7024  all-5-better False  -> FAIL
+  lam 1.2  dMSE +0.00353  95% [-0.00135, +0.00883]  P(worse) 0.9218  all-5-better False  -> FAIL
