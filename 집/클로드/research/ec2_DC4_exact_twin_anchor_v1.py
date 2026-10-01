@@ -78,6 +78,10 @@ def season_index(train_days, query_days, wv):
             if np.nanmin(dist) <= 0.05:
                 ax.append(d); ay.append(float(p1.day.values[dist <= 0.05].mean()))
         ax, ay = np.array(ax), np.array(ay)
+        if len(ax) < 2:  # execution fix (decided before any result was seen): too few exact twins -> DC3 rule
+            ax = q.day.values
+            ay = np.array([float(p1.day.values[np.nanargmin(np.sqrt(np.nanmean((A - ZZ.reindex([(f, d)]).values) ** 2, axis=1)))]) for d in ax])
+            print("   %s: <2 exact-twin anchors -> nearest-match fallback (DC3 rule)" % f, flush=True)
         iso = IsotonicRegression(increasing=True).fit(ax, ay)
         sm = iso.predict(ax)
         for d in q.day:
