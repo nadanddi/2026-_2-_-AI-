@@ -1,0 +1,21 @@
+locked days excluded: 40
+F13 test days 185 .. 239 n 30
+F47 test days 183 .. 237 n 30
+pseudo (block, day) rows: 2420  distinct days: 338
+
+day-level RMSE  (n = block-day occurrences)
+cell                n       V2       I1       I0       I2
+F13 L=5           605   0.1427   0.3190   0.2958   0.3116
+F13 L=10          750   0.1360   0.3051   0.2930   0.2952
+F47 L=5           545   0.1682   0.3239   0.3782   0.3310
+F47 L=10          520   0.1491   0.3099   0.3433   0.3119
+all              2420   0.1482   0.3140   0.3256   0.3112
+early<179        2362   0.1455   0.3048   0.3132   0.3039
+late>=179          58   0.2326   0.5738   0.6546   0.5288
+
+mean dMSE (I1 - V2) per day: 0.10465  95% [0.06261, 0.15428]  P(I1 worse) 1.0000  clusters 80
+row-level on those days: v2 0.1872  v2-shape+I1-level 0.3532  v2-shape+true-level 0.0770  (rows 8112)
+   early v2 0.1759  swap 0.2923  oracle 0.0776  rows 7440
+   late  v2 0.2836  swap 0.7482  oracle 0.0699  rows 672
+
+cells I1<V2: [False, False, False, False]  -> STOP
