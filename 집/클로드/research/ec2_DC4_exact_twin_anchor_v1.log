@@ -1,0 +1,80 @@
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+DIAG10/0 done (val days 38, corr(season, deep_cal) 0.996)
+   F13 anchors 14 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+DIAG10/1 done (val days 30, corr(season, deep_cal) 0.993)
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+DIAG10/2 done (val days 40, corr(season, deep_cal) 0.993)
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+DIAG10/3 done (val days 33, corr(season, deep_cal) 0.992)
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 9 of 16 pass-2 training days
+DIAG10/4 done (val days 40, corr(season, deep_cal) 0.824)
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+DIAG10/5 done (val days 28, corr(season, deep_cal) 0.994)
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 6 of 11 pass-2 training days
+DIAG10/6 done (val days 40, corr(season, deep_cal) 0.964)
+   F13 anchors 12 of 17 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+DIAG10/7 done (val days 31, corr(season, deep_cal) 0.980)
+   F13 anchors 14 of 17 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/8 done (val days 40, corr(season, deep_cal) 0.990)
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+DIAG10/9 done (val days 40, corr(season, deep_cal) 0.916)
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+A/0 done (val days 53, corr(season, deep_cal) 0.980)
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+A/1 done (val days 55, corr(season, deep_cal) 0.966)
+   F13 anchors 10 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+A/2 done (val days 53, corr(season, deep_cal) 0.986)
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 9 of 17 pass-2 training days
+A/3 done (val days 52, corr(season, deep_cal) 0.973)
+   F13 anchors 11 of 18 pass-2 training days
+   F47 anchors 7 of 16 pass-2 training days
+A/4 done (val days 51, corr(season, deep_cal) 0.846)
+   F13 anchors 15 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/0 done (val days 53, corr(season, deep_cal) 0.991)
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+B/1 done (val days 55, corr(season, deep_cal) 0.961)
+   F13 anchors 15 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+B/2 done (val days 51, corr(season, deep_cal) 0.966)
+   F13 anchors 11 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/3 done (val days 54, corr(season, deep_cal) 0.982)
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/4 done (val days 50, corr(season, deep_cal) 0.989)
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 9 pass-2 training days
+EXT10/0 done (val days 75, corr(season, deep_cal) 0.979)
+   F13 anchors 8 of 10 pass-2 training days
+   F47: <2 exact-twin anchors -> nearest-match fallback (DC3 rule)
+   F47 anchors 2 of 2 pass-2 training days
+EXT12/0 done (val days 193, corr(season, deep_cal) 0.702)
+
+pooled RMSE base -> season index (train-only)
+  DIAG10 s7 0.2285->0.1910 (-16.4%)  s101 0.2279->0.1935 (-15.1%)  s2024 0.2275->0.1935 (-14.9%)
+  A      s7 0.2445->0.2279 (-6.8%)  s101 0.2440->0.2294 (-6.0%)  s2024 0.2429->0.2309 (-5.0%)
+  B      s7 0.2300->0.2037 (-11.4%)  s101 0.2269->0.2033 (-10.4%)  s2024 0.2313->0.2038 (-11.9%)
+  EXT10  s7 0.4203->0.4113 (-2.2%)  s101 0.4185->0.4186 (+0.0%)  s2024 0.4234->0.4159 (-1.8%)
+  EXT12  s7 0.4243->0.4109 (-3.1%)  s101 0.4249->0.4109 (-3.3%)  s2024 0.4259->0.4076 (-4.3%)
+  DIAG10 late>=179    base 0.4003 season 0.2697
+  DIAG10 early        base 0.1900 season 0.1787
+  DIAG10 late&cal<70  base 0.4126 season 0.0790
+  DIAG10 P(worse) by seed: [0.0049, 0.0067, 0.0087]
+
+DC4 decision: FAIL
