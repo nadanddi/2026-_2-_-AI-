@@ -1,0 +1,7 @@
+test rows 1440, sealed rows 480
+sealed indicator             share of ||s||^2 inside span: 36.8%
+sealed - nonsealed contrast  share of ||s||^2 inside span: 14.3%
+round 1 - round 3: mean change sealed +0.032 nonsealed +0.030 | share of ||d||^2 on sealed rows 42%
+round 2 - round 3: mean change sealed +0.060 nonsealed -0.015 | share of ||d||^2 on sealed rows 76%
+round 5 - round 3: mean change sealed -0.053 nonsealed -0.046 | share of ||d||^2 on sealed rows 50%
+round 3 mean prediction: sealed 0.970 nonsealed 0.493
