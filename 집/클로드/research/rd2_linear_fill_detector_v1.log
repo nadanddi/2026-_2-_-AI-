@@ -1,0 +1,21 @@
+rows train 9600 test 1440
+
+1. row-flag rate (stretch length >= K): train / test
+  in_temp  K4 15.34/14.51%  K5 8.62/8.47%  K6 5.27/4.03%  K7 3.15/1.94%  K8 1.40/0.00%  K9 0.73/0.00%  K10 0.64/0.00%  K11 0.64/0.00%  K12 0.52/0.00%
+  in_hum   K4 46.38/48.96%  K5 33.56/34.72%  K6 25.78/27.22%  K7 21.02/21.88%  K8 15.56/15.07%  K9 9.48/11.18%  K10 5.73/5.56%  K11 3.55/2.08%  K12 2.86/2.08%
+  in_co2   K4 20.00/26.32%  K5 9.43/12.57%  K6 5.09/6.39%  K7 2.09/3.06%  K8 0.85/0.62%  K9 0.60/0.62%  K10 0.51/0.00%  K11 0.30/0.00%  K12 0.30/0.00%
+  chosen K (test rate <= 0.5%): {'in_temp': 8, 'in_co2': 10}
+  in_temp  K=8  train 1.40% (134 rows, constant-only 14)  test 0.00%  ratio 13958333.3x
+  in_co2   K=10  train 0.51% (49 rows, constant-only 0)  test 0.00%  ratio 5104166.7x
+  any channel: train 1.69% test 0.00%
+  flagged train farm-days 23; top: {('F13', 13): 15, ('F13', 109): 15, ('F13', 149): 10, ('F13', 231): 10, ('F13', 175): 10, ('F13', 212): 9, ('F13', 183): 8, ('F47', 6): 8, ('F47', 137): 8, ('F47', 144): 8, ('F13', 57): 7, ('F47', 51): 7}
+
+2. old rule flags (Vany) train rows 167; overlap with linear flags 17; linear-only 145
+
+3. G_C2 DIAG10 RMSE: flagged 1.222 (n=162) | +-3h of flag 1.067 (n=252) | others 0.651 | ratio 1.88x
+   linear-only flags (not old rules): 0.649 (n=145)
+   mean signed error flagged +0.007 others +0.010
+
+4. EC v2 DIAG10 RMSE: flagged 0.094 (n=162) others 0.216
+
+worth a pre-registered weighting test: True
