@@ -1,0 +1,8 @@
+1. v2 DIAG10 RMSE python-sum 0.213874 (n=8640, days=360)
+2. shape-only RMSE (resid minus its day mean) 0.0778 ; level share 86.78%
+3. sealed&high days 16, squared-error share 45.9%
+4. same-date pairs (deep_cal_9): n=134 both-high 0 one-high 20
+5. H4 on seed-mean DIAG10 0.2139 -> 0.2138 (-0.05%)
+5. H4 on seed-mean A      0.2303 -> 0.2249 (-2.36%)
+5. H4 on seed-mean EXT12  0.4161 -> 0.4159 (-0.05%)
+6. CH1 b_near row RMSE 0.1912 (v2 0.2139)

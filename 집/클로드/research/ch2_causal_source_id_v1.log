@@ -1,0 +1,32 @@
+training days: [(132, 31), (133, 32), (134, 31), (135, 32), (136, 31), (137, 32), (138, 31), (139, 31), (140, 32), (141, 31), (142, 32), (143, 31), (145, 32), (147, 32)]
+LOO accuracy 0.93 (n=14; chance ~0.50)
+record-later check:  day  cal  chain     ec_m  pred
+ 229   88     31 1.788250    32
+ 230   89     44 0.460875    32
+ 231   89     31 2.176708    31
+identifiable: False
+
+F47 days 210-227 (test days have no label):
+ day  cal  chain  is_test  ec_m  pred    d31    d32
+ 210   78     28    False  0.52    32   8.08   7.99
+ 211   79     30    False  0.69    32   7.84   6.84
+ 212   79     28    False  0.52    32   7.63   6.96
+ 213   80     30    False  0.70    32   5.85   4.31
+ 214   80     28    False  0.53    32   5.63   4.39
+ 215   81     30    False  0.71    32   4.02   2.24
+ 216   81     28    False  0.56    31   2.27   2.85
+ 218   82     28     True   NaN    32 325.63 325.09
+ 219   83     28     True   NaN    32   7.99   6.69
+ 220   84     28     True   NaN    32  52.83  52.16
+ 221   84     31     True   NaN    32   4.70   4.15
+ 222   85     28     True   NaN    32   7.39   6.38
+ 223   85     31     True   NaN    31  11.67  13.06
+ 224   86     28     True   NaN    32  92.38  91.62
+ 225   86     31     True   NaN    31   5.94   6.53
+ 226   87     28     True   NaN    32   8.61   7.84
+ 227   87     31     True   NaN    32   8.53   8.44
+
+per-feature z means: chain31 vs chain32 (training)
+     in_temp  in_hum  in_co2  dTio  act_heating  act_thermal  act_shade  act_circfan  act_vent  act_co2  act_fog
+c31     0.03     0.5    0.72  0.49        -0.53        -0.27      -0.27         -0.6     -0.29      0.0      0.0
+c32    -0.03    -0.5   -0.72 -0.49         0.53         0.27       0.27          0.6      0.29      0.0      0.0
