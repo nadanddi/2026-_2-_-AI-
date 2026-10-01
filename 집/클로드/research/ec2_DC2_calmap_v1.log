@@ -1,0 +1,35 @@
+DIAG10/0 done (val days 38, map abs err 1.6)
+DIAG10/1 done (val days 30, map abs err 0.4)
+DIAG10/2 done (val days 40, map abs err 1.0)
+DIAG10/3 done (val days 33, map abs err 1.3)
+DIAG10/4 done (val days 40, map abs err 10.1)
+DIAG10/5 done (val days 28, map abs err 1.3)
+DIAG10/6 done (val days 40, map abs err 1.6)
+DIAG10/7 done (val days 31, map abs err 1.5)
+DIAG10/8 done (val days 40, map abs err 1.8)
+DIAG10/9 done (val days 40, map abs err 6.5)
+A/0 done (val days 53, map abs err 0.7)
+A/1 done (val days 55, map abs err 0.9)
+A/2 done (val days 53, map abs err 1.2)
+A/3 done (val days 52, map abs err 2.0)
+A/4 done (val days 51, map abs err 5.5)
+B/0 done (val days 53, map abs err 0.5)
+B/1 done (val days 55, map abs err 1.3)
+B/2 done (val days 51, map abs err 1.7)
+B/3 done (val days 54, map abs err 1.9)
+B/4 done (val days 50, map abs err 0.5)
+EXT10/0 done (val days 75, map abs err 2.3)
+EXT12/0 done (val days 193, map abs err 8.1)
+
+pooled RMSE base -> calmap
+  DIAG10 s7 0.2285->0.1929 (-15.6%)  s101 0.2279->0.1937 (-15.0%)  s2024 0.2275->0.1930 (-15.2%)
+  A      s7 0.2445->0.2239 (-8.4%)  s101 0.2440->0.2251 (-7.8%)  s2024 0.2429->0.2248 (-7.5%)
+  B      s7 0.2300->0.2016 (-12.4%)  s101 0.2269->0.2022 (-10.9%)  s2024 0.2313->0.2033 (-12.1%)
+  EXT10  s7 0.4203->0.4184 (-0.5%)  s101 0.4185->0.4156 (-0.7%)  s2024 0.4234->0.4163 (-1.7%)
+  EXT12  s7 0.4243->0.3968 (-6.5%)  s101 0.4249->0.3990 (-6.1%)  s2024 0.4259->0.3980 (-6.6%)
+  DIAG10 late>=179    base 0.4003 calmap 0.2502
+  DIAG10 early        base 0.1900 calmap 0.1833
+  DIAG10 late&cal<70  base 0.4126 calmap 0.0743
+  DIAG10 P(worse) by seed: [0.0073, 0.0094, 0.008]
+
+DC2 decision: PASS
