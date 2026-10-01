@@ -1,0 +1,21 @@
+v2 DIAG10 RMSE 0.2139   days 360   sealed days 53  high days 26  late days 46
+problem                  days  sq-err% seg RMSE    ORACLE     gain     BIAS
+all days level            360   100.0%   0.2139    0.0778   -63.6%   0.2135
+high-EC days               26    59.4%   0.6135    0.1520   -28.9%   0.1878
+sealed days                53    58.6%   0.4267    0.1478   -30.9%   0.2137
+sealed & high              16    45.9%   0.6875    0.1650   -22.9%   0.1927
+sealed not high            37    12.7%   0.2375    0.2009    -6.1%   0.2075
+late (>=179)               46    41.0%   0.3832    0.1667   -22.0%   0.2111
+cold midnight              70    34.0%   0.2827    0.1787   -16.4%   0.2137
+F47                       180    64.3%   0.2426    0.1401   -34.5%   0.2137
+normal days               297    27.9%   0.1244    0.1846   -13.7%   0.2123
+hourly shape (all)                                 0.1992    -6.8%
+
+level residual (pred - true daily mean) by segment: mean / median
+   high-EC days     -0.381 / -0.253   corr(pred, true) 0.14
+   sealed days      -0.020 / +0.061   corr(pred, true) 0.72
+   sealed not high  +0.162 / +0.128   corr(pred, true) 0.81
+   late (>=179)     +0.096 / +0.124   corr(pred, true) 0.60
+   normal days      +0.029 / +0.010   corr(pred, true) 0.86
+
+eval-like weights (sealed 33%): v2 0.2738, sealed-level oracle 0.1462, high-day oracle 0.1738
