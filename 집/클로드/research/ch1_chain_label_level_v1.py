@@ -48,8 +48,7 @@ OOF = os.path.join(ROOT, u"집", u"코덱스", "local", "ec_restart_phase3_20261
 def main():
     lock = {(s["farm"], int(s["day"])) for s in json.load(open(LOCK, encoding="utf-8"))["selected"]}
     C = pd.read_csv(os.path.join(env.LOCAL, "deep_cal_11_days.csv"))[["farm", "day", "cal", "chain", "ec_m", "is_test"]]
-    C = C[[(f, d) not in lock for f, d in zip(C.farm, C.day)] | C.is_test]
-    C.loc[[(f, d) in lock for f, d in zip(C.farm, C.day)], "ec_m"] = np.nan
+    C.loc[np.array([(f, d) in lock for f, d in zip(C.farm, C.day)]), "ec_m"] = np.nan  # locked labels never used
     sd = pd.read_csv(os.path.join(env.LOCAL, "sf1_daytable.csv"))[["farm", "day", "sealed"]]
     o = pd.read_csv(OOF, encoding="utf-8-sig")
     o = o[o.validator == "DIAG10"]
