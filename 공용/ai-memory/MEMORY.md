@@ -10,3 +10,4 @@
 - [Check catalog before 'new'](check-catalog-before-new.md) — grep 카탈로그/worklogs before calling a hypothesis untested
 - [No presentation prep](no-presentation-prep.md) — user handles presentation/report separately; don't suggest it
 - [No domain prompting](no-domain-prompting.md) — don't mention/ask for domain knowledge until user hands over materials
+- [No exaggeration](no-exaggeration.md) — label provenance (general knowledge vs read sources); never overstate coverage
