@@ -1,0 +1,14 @@
+sub_ec: base round 3 (0.2055), distinct other submissions [1, 2, 5, 7], rank 4
+   weights (|w| <= 1.0): {1: np.float64(0.226), 2: np.float64(-0.065), 5: np.float64(0.347), 7: np.float64(-1.0)}
+   implied RMSE of best affine combination 0.1531  (rounding range 0.1529 .. 0.1533)
+sub_ec: base round 3 (0.2055), distinct other submissions [1, 2, 5, 7], rank 4
+   weights (|w| <= 3.0): {1: np.float64(0.226), 2: np.float64(-0.065), 5: np.float64(0.347), 7: np.float64(-1.494)}
+   implied RMSE of best affine combination 0.1458  (rounding range 0.1455 .. 0.1461)
+sub_temp: base round 7 (0.5193), distinct other submissions [1, 2, 3, 4, 5, 6], rank 6
+   weights (|w| <= 1.0): {1: np.float64(-0.005), 2: np.float64(-0.015), 3: np.float64(1.0), 4: np.float64(-1.0), 5: np.float64(0.41), 6: np.float64(-1.0)}
+   implied RMSE of best affine combination 0.5012  (rounding range 0.5010 .. 0.5014)
+sub_temp: base round 7 (0.5193), distinct other submissions [1, 2, 3, 4, 5, 6], rank 6
+   weights (|w| <= 3.0): {1: np.float64(-0.005), 2: np.float64(-0.015), 3: np.float64(1.544), 4: np.float64(-1.403), 5: np.float64(0.41), 6: np.float64(-3.0)}
+   implied RMSE of best affine combination 0.4916  (rounding range 0.4913 .. 0.4919)
+
+EC one-direction: q = r3 + lam*(r7 - r3); best lam -1.46 -> RMSE 0.1528
