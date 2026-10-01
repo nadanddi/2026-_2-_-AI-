@@ -1,0 +1,19 @@
+fold 0 done
+fold 1 done
+fold 2 done
+fold 3 done
+fold 4 done
+fold 5 done
+fold 6 done
+fold 7 done
+fold 8 done
+fold 9 done
+
+var      DIAG10  lateE res   lateE RMSE       late      early
+BASE     0.2285     +0.324       0.4137     0.4034     0.1897
+NODAY    0.2385     +0.050       0.1725     0.3023     0.2277
+CAL      0.1813     +0.004       0.0691     0.2219     0.1745
+TOUT     0.2486     +0.051       0.1729     0.3330     0.2337
+late&cal<70 days: 18
+NODAY legal GO: False
+TOUT legal GO: False
