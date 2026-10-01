@@ -1,0 +1,23 @@
+days 400 (labelled); EWM half-life 3 calendar days, past dates only; missing proxy 4
+check: corr(W1 proxy parts) tout_p vs rad_p 0.32; tout_p vs tin_p 0.93
+
+JUDGED: partial Spearman with e_day, controls ['tin', 'tout', 'rad']; rule: both farms rho<0, |rho|>=0.20, p<0.0083
+  W1   outdoor tank: past out_temp + out_rad    F13 rho -0.055 (p 0.4414, n 198) | F47 rho +0.031 (p 0.6714, n 198) -> fail
+  W1r  outdoor tank: past sunlight              F13 rho +0.036 (p 0.6127, n 198) | F47 rho +0.009 (p 0.9058, n 198) -> fail
+  W2   indoor tank: past in_temp                F13 rho -0.132 (p 0.0655, n 198) | F47 rho +0.018 (p 0.8077, n 198) -> fail
+
+DESCRIPTIVE (not judged)
+  e_day, 2nd segment       W1   F13 -0.070 (p 0.739, n 28) | F47 -0.125 (p 0.560, n 27)
+  e_day, 2nd segment       W1r  F13 +0.017 (p 0.937, n 28) | F47 -0.226 (p 0.289, n 27)
+  e_day, 2nd segment       W2   F13 +0.023 (p 0.914, n 28) | F47 -0.043 (p 0.842, n 27)
+  label sub-in mean, all   W1   F13 +0.023 (p 0.745, n 198) | F47 +0.023 (p 0.750, n 198)
+  label sub-in mean, all   W1r  F13 -0.047 (p 0.514, n 198) | F47 +0.045 (p 0.536, n 198)
+  label sub-in mean, all   W2   F13 +0.190 (p 0.008, n 198) | F47 +0.054 (p 0.451, n 198)
+
+  group medians of proxies (over = substrate colder than predicted):
+          W1      W1r     W2    tin   tout
+group                                     
+normal  0.37  2745.83  15.47  15.43  10.12
+other  -0.54  2530.71  14.51  14.58   7.97
+over   -0.53  2611.87  14.17  14.49   3.45
+under  -0.92  2494.17  16.58  15.41   7.98
