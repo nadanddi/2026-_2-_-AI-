@@ -1,0 +1,17 @@
+seed 7: v2 rebuild max err 4.44e-16
+seed 101: v2 rebuild max err 4.44e-16
+seed 2024: v2 rebuild max err 4.44e-16
+
+[PK1 TabPFN 0.4 + smoothing 0.25] pooled RMSE v2 -> candidate (relative %)
+  DIAG10 s7 0.2141->0.2120 (-1.00%)  s101 0.2145->0.2121 (-1.15%)  s2024 0.2135->0.2114 (-0.95%)
+  A      s7 0.2297->0.2211 (-3.72%)  s101 0.2313->0.2222 (-3.91%)  s2024 0.2304->0.2217 (-3.79%)
+  B      s7 0.2193->0.2158 (-1.59%)  s101 0.2176->0.2146 (-1.38%)  s2024 0.2198->0.2163 (-1.61%)
+  EXT10  s7 0.4152->0.4060 (-2.20%)  s101 0.4126->0.4040 (-2.08%)  s2024 0.4148->0.4061 (-2.09%)
+  EXT12  s7 0.4155->0.4195 (+0.96%)  s101 0.4161->0.4202 (+0.97%)  s2024 0.4170->0.4209 (+0.94%)
+  DIAG10 P(worse) by seed [0.2311, 0.2163, 0.254] (threshold 0.0250)
+  DIAG10 late>=179  v2 0.3835 -> 0.3948
+  DIAG10 sealed     v2 0.4269 -> 0.4193
+  DIAG10 early      v2 0.1760 -> 0.1692
+  -> rule (15 cells + P): FAIL | descriptive 3-validator view (no EXT): fail
+
+PK1 decision (user rule): False

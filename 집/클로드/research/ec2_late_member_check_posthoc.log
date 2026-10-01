@@ -1,0 +1,10 @@
+early<179  n=7536  3회차형 R3 0.1822  v2 0.1759  TabPFN 단독(S) 0.1764  full ET 0.1897  raw ET 0.2097  Ridge 0.2870  온실평균 0.3866
+late>=179  n=1104  3회차형 R3 0.3745  v2 0.3832  TabPFN 단독(S) 0.4488  full ET 0.4001  raw ET 0.4483  Ridge 0.3996  온실평균 0.4677
+late F13   n= 576  3회차형 R3 0.2860  v2 0.2920  TabPFN 단독(S) 0.3696  full ET 0.3477  raw ET 0.3204  Ridge 0.3589  온실평균 0.4268
+late F47   n= 528  3회차형 R3 0.4517  v2 0.4627  TabPFN 단독(S) 0.5216  full ET 0.4504  raw ET 0.5552  Ridge 0.4397  온실평균 0.5086
+late: (1-w) R3 + w TabPFN, w=0.0 -> 0.3745
+late: (1-w) R3 + w TabPFN, w=0.2 -> 0.3832
+late: (1-w) R3 + w TabPFN, w=0.4 -> 0.3953
+late: (1-w) R3 + w TabPFN, w=0.6 -> 0.4105
+late: (1-w) R3 + w TabPFN, w=0.8 -> 0.4284
+late: (1-w) R3 + w TabPFN, w=1.0 -> 0.4488
