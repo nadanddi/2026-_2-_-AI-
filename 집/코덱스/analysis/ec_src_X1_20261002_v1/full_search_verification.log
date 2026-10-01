@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "method": "explicit nested pair/shift loops + math.fsum, separate from production matrix algebra",
+  "primary_eligible_pairs_by_stratum": {
+    "F13_B1": 81,
+    "F13_B2": 166,
+    "F13_B3": 133,
+    "F47_B1": 111,
+    "F47_B2": 59,
+    "F47_B3": 102
+  },
+  "primary_matches_directly_researched": {},
+  "informative_days_independent": 270,
+  "plateau_run_count_independent": 214,
+  "repeated_12h_signature_count_independent": 1,
+  "seconds": 0.7659999998286366,
+  "repeated_window_days": [
+    {
+      "farm": "F47",
+      "day": 12,
+      "start": 9,
+      "span": 0.012,
+      "mean": 0.13158333333333336,
+      "day_range": 0.019000000000000017,
+      "day_informative": false
+    },
+    {
+      "farm": "F13",
+      "day": 36,
+      "start": 10,
+      "span": 0.012,
+      "mean": 0.35883333333333334,
+      "day_range": 0.01200000000000001,
+      "day_informative": false
+    }
+  ]
+}

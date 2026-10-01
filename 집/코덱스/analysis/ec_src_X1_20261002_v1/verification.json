@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "independent_method": "csv + math.fsum; least-squares independently re-fitted",
+  "days": 360,
+  "rows": 8640,
+  "lock_rows_skipped_before_float": 960,
+  "baseline_level_rmse": 0.19923676932556508,
+  "baseline_row_rmse": 0.21387369361945427,
+  "primary_pairs_checked": 0,
+  "selected_pairs_checked": 0,
+  "p_verified": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "hash_checks": {
+    "집\\코덱스\\analysis\\ec_src_X1_20261002_v1\\run_x1.py": true,
+    "집\\코덱스\\analysis\\ec_src_X1_20261002_v1\\PROTOCOL.md": true,
+    "공용\\대회자료\\정형데이터\\참가자_배포\\train_y.csv": true,
+    "집\\코덱스\\analysis\\codex_independent\\ec_final_lock\\locked_days.json": true,
+    "집\\코덱스\\local\\ec_restart_phase3_20261001_v1\\oof_predictions.csv": true
+  },
+  "final_lock_scored": false,
+  "model_training": false
+}

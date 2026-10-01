@@ -1,0 +1,200 @@
+{
+  "strict_days": 23,
+  "strict_farm_counts": {
+    "F13": 4,
+    "F47": 19
+  },
+  "strict_section_counts": {
+    "first": 20,
+    "late": 3
+  },
+  "strict_level_sse_share": 0.01579152330276082,
+  "strict_level_oracle_rmse": 0.21217827797715988,
+  "strict_group_ec_mean": 0.24771195652173914,
+  "strict_group_level_sqerr_mean": 0.011306115815090933,
+  "strict_group_level_sqerr_median": 0.0028954725097532228,
+  "strict_group_shape_mse_mean": 0.0003912513875926908,
+  "strict_group_days": [
+    {
+      "farm": "F13",
+      "day": 42,
+      "ec_mean": 0.14945833333333333,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    },
+    {
+      "farm": "F13",
+      "day": 53,
+      "ec_mean": 0.2368333333333333,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    },
+    {
+      "farm": "F13",
+      "day": 138,
+      "ec_mean": 0.7215416666666666,
+      "strict_linear_fraction": 0.25,
+      "plateau_fraction": 0.0
+    },
+    {
+      "farm": "F13",
+      "day": 145,
+      "ec_mean": 0.6891666666666666,
+      "strict_linear_fraction": 0.25,
+      "plateau_fraction": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 11,
+      "ec_mean": 0.21845833333333334,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.3333333333333333
+    },
+    {
+      "farm": "F47",
+      "day": 16,
+      "ec_mean": 0.19587500000000002,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.2916666666666667
+    },
+    {
+      "farm": "F47",
+      "day": 18,
+      "ec_mean": 0.2031666666666667,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.2916666666666667
+    },
+    {
+      "farm": "F47",
+      "day": 19,
+      "ec_mean": 0.12374999999999999,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.5833333333333334
+    },
+    {
+      "farm": "F47",
+      "day": 22,
+      "ec_mean": 0.21754166666666666,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.2916666666666667
+    },
+    {
+      "farm": "F47",
+      "day": 23,
+      "ec_mean": 0.181625,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.5
+    },
+    {
+      "farm": "F47",
+      "day": 24,
+      "ec_mean": 0.22620833333333334,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    },
+    {
+      "farm": "F47",
+      "day": 25,
+      "ec_mean": 0.23175,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    },
+    {
+      "farm": "F47",
+      "day": 26,
+      "ec_mean": 0.25654166666666667,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    },
+    {
+      "farm": "F47",
+      "day": 51,
+      "ec_mean": 0.22654166666666664,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    },
+    {
+      "farm": "F47",
+      "day": 54,
+      "ec_mean": 0.16,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.2916666666666667
+    },
+    {
+      "farm": "F47",
+      "day": 88,
+      "ec_mean": 0.19945833333333332,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    },
+    {
+      "farm": "F47",
+      "day": 90,
+      "ec_mean": 0.20099999999999998,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    },
+    {
+      "farm": "F47",
+      "day": 96,
+      "ec_mean": 0.2085,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.2916666666666667
+    },
+    {
+      "farm": "F47",
+      "day": 100,
+      "ec_mean": 0.22024999999999997,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.5416666666666666
+    },
+    {
+      "farm": "F47",
+      "day": 111,
+      "ec_mean": 0.236,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    },
+    {
+      "farm": "F47",
+      "day": 179,
+      "ec_mean": 0.248,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    },
+    {
+      "farm": "F47",
+      "day": 180,
+      "ec_mean": 0.20129166666666665,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    },
+    {
+      "farm": "F47",
+      "day": 192,
+      "ec_mean": 0.14441666666666667,
+      "strict_linear_fraction": 0.0,
+      "plateau_fraction": 0.25
+    }
+  ],
+  "strict_linear_days": [
+    {
+      "farm": "F13",
+      "day": 138,
+      "ec_mean": 0.7215416666666666
+    },
+    {
+      "farm": "F13",
+      "day": 145,
+      "ec_mean": 0.6891666666666666
+    }
+  ],
+  "raw_decimal_digit_counts": {
+    "3": 7798,
+    "2": 750,
+    "1": 92
+  },
+  "exact_grid01_rows": 842,
+  "exact_grid1_rows": 92,
+  "raw_example_rows": 144
+}

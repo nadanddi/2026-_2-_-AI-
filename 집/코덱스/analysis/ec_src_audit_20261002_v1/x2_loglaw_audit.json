@@ -1,0 +1,383 @@
+{
+  "rows": 8640,
+  "days": 360,
+  "locked_rows_excluded_before_float": 960,
+  "raw_label_alignment": "PASS",
+  "oracle_only": true,
+  "final_lock_scored": false,
+  "test_X_read": false,
+  "models": {
+    "sub_temp_lag0": {
+      "rmse": 0.07784739054895617,
+      "ci_bonferroni6": [
+        0.049780814757623665,
+        0.10359729672258028
+      ],
+      "bootstrap_probability_rmse_le_005": 0.00445,
+      "coefficients": [
+        {
+          "fold": 0,
+          "training_rows": 6288,
+          "beta": 0.022261651288257744
+        },
+        {
+          "fold": 1,
+          "training_rows": 6552,
+          "beta": 0.020942531020789416
+        },
+        {
+          "fold": 2,
+          "training_rows": 6216,
+          "beta": 0.02011162253908928
+        },
+        {
+          "fold": 3,
+          "training_rows": 6408,
+          "beta": 0.019996689574268926
+        },
+        {
+          "fold": 4,
+          "training_rows": 6120,
+          "beta": 0.020907966203081003
+        },
+        {
+          "fold": 5,
+          "training_rows": 6576,
+          "beta": 0.021612533166467444
+        },
+        {
+          "fold": 6,
+          "training_rows": 6288,
+          "beta": 0.019803178724244884
+        },
+        {
+          "fold": 7,
+          "training_rows": 6576,
+          "beta": 0.02052154767741291
+        },
+        {
+          "fold": 8,
+          "training_rows": 6192,
+          "beta": 0.021123867223901655
+        },
+        {
+          "fold": 9,
+          "training_rows": 6192,
+          "beta": 0.021140190185480988
+        }
+      ]
+    },
+    "sub_temp_lag1": {
+      "rmse": 0.0754819541847159,
+      "ci_bonferroni6": [
+        0.048174095876466705,
+        0.1007119856098658
+      ],
+      "bootstrap_probability_rmse_le_005": 0.0071,
+      "coefficients": [
+        {
+          "fold": 0,
+          "training_rows": 6288,
+          "beta": 0.02302566642828941
+        },
+        {
+          "fold": 1,
+          "training_rows": 6552,
+          "beta": 0.021604890967706417
+        },
+        {
+          "fold": 2,
+          "training_rows": 6216,
+          "beta": 0.020721474371982605
+        },
+        {
+          "fold": 3,
+          "training_rows": 6408,
+          "beta": 0.020820332555712494
+        },
+        {
+          "fold": 4,
+          "training_rows": 6120,
+          "beta": 0.021789097567544654
+        },
+        {
+          "fold": 5,
+          "training_rows": 6576,
+          "beta": 0.022303692986949817
+        },
+        {
+          "fold": 6,
+          "training_rows": 6288,
+          "beta": 0.020381538931195136
+        },
+        {
+          "fold": 7,
+          "training_rows": 6576,
+          "beta": 0.021100707203576447
+        },
+        {
+          "fold": 8,
+          "training_rows": 6192,
+          "beta": 0.021695489035769434
+        },
+        {
+          "fold": 9,
+          "training_rows": 6192,
+          "beta": 0.021845070302058487
+        }
+      ]
+    },
+    "sub_temp_lag3": {
+      "rmse": 0.07646762357848953,
+      "ci_bonferroni6": [
+        0.049257479867413696,
+        0.1024225356374369
+      ],
+      "bootstrap_probability_rmse_le_005": 0.00565,
+      "coefficients": [
+        {
+          "fold": 0,
+          "training_rows": 6288,
+          "beta": 0.01935668923223602
+        },
+        {
+          "fold": 1,
+          "training_rows": 6552,
+          "beta": 0.017957716629736213
+        },
+        {
+          "fold": 2,
+          "training_rows": 6216,
+          "beta": 0.01717127255131084
+        },
+        {
+          "fold": 3,
+          "training_rows": 6408,
+          "beta": 0.017556721728016228
+        },
+        {
+          "fold": 4,
+          "training_rows": 6120,
+          "beta": 0.018318883841203948
+        },
+        {
+          "fold": 5,
+          "training_rows": 6576,
+          "beta": 0.018571422674468707
+        },
+        {
+          "fold": 6,
+          "training_rows": 6288,
+          "beta": 0.016821240060506504
+        },
+        {
+          "fold": 7,
+          "training_rows": 6576,
+          "beta": 0.017518830322879445
+        },
+        {
+          "fold": 8,
+          "training_rows": 6192,
+          "beta": 0.017907217501016266
+        },
+        {
+          "fold": 9,
+          "training_rows": 6192,
+          "beta": 0.018304198365806382
+        }
+      ]
+    },
+    "in_temp_lag0": {
+      "rmse": 0.08715583072564609,
+      "ci_bonferroni6": [
+        0.05719190324209076,
+        0.11561436474515083
+      ],
+      "bootstrap_probability_rmse_le_005": 0.0005,
+      "coefficients": [
+        {
+          "fold": 0,
+          "training_rows": 6270,
+          "beta": 0.003955135415402031
+        },
+        {
+          "fold": 1,
+          "training_rows": 6525,
+          "beta": 0.0037892103713376207
+        },
+        {
+          "fold": 2,
+          "training_rows": 6189,
+          "beta": 0.003738675119424508
+        },
+        {
+          "fold": 3,
+          "training_rows": 6381,
+          "beta": 0.0032590359164347865
+        },
+        {
+          "fold": 4,
+          "training_rows": 6093,
+          "beta": 0.003388956767564986
+        },
+        {
+          "fold": 5,
+          "training_rows": 6553,
+          "beta": 0.003975765707823299
+        },
+        {
+          "fold": 6,
+          "training_rows": 6277,
+          "beta": 0.0035412778629617834
+        },
+        {
+          "fold": 7,
+          "training_rows": 6549,
+          "beta": 0.003845866796271294
+        },
+        {
+          "fold": 8,
+          "training_rows": 6165,
+          "beta": 0.004087200344704625
+        },
+        {
+          "fold": 9,
+          "training_rows": 6167,
+          "beta": 0.003888172145165853
+        }
+      ]
+    },
+    "in_temp_lag1": {
+      "rmse": 0.08624466840811584,
+      "ci_bonferroni6": [
+        0.05636328795988174,
+        0.1143858306078243
+      ],
+      "bootstrap_probability_rmse_le_005": 0.00055,
+      "coefficients": [
+        {
+          "fold": 0,
+          "training_rows": 6283,
+          "beta": 0.0073806602263682035
+        },
+        {
+          "fold": 1,
+          "training_rows": 6547,
+          "beta": 0.007063001442375324
+        },
+        {
+          "fold": 2,
+          "training_rows": 6211,
+          "beta": 0.006901697574085899
+        },
+        {
+          "fold": 3,
+          "training_rows": 6403,
+          "beta": 0.006615779407362965
+        },
+        {
+          "fold": 4,
+          "training_rows": 6115,
+          "beta": 0.006898375770520209
+        },
+        {
+          "fold": 5,
+          "training_rows": 6576,
+          "beta": 0.007390830555593056
+        },
+        {
+          "fold": 6,
+          "training_rows": 6288,
+          "beta": 0.006647314783797123
+        },
+        {
+          "fold": 7,
+          "training_rows": 6571,
+          "beta": 0.007016576357693706
+        },
+        {
+          "fold": 8,
+          "training_rows": 6187,
+          "beta": 0.007344854970207767
+        },
+        {
+          "fold": 9,
+          "training_rows": 6187,
+          "beta": 0.007178492616809126
+        }
+      ]
+    },
+    "in_temp_lag3": {
+      "rmse": 0.08014951671252653,
+      "ci_bonferroni6": [
+        0.05150775744601399,
+        0.1069142517828476
+      ],
+      "bootstrap_probability_rmse_le_005": 0.0024,
+      "coefficients": [
+        {
+          "fold": 0,
+          "training_rows": 6281,
+          "beta": 0.01132063434465486
+        },
+        {
+          "fold": 1,
+          "training_rows": 6545,
+          "beta": 0.010811981798041947
+        },
+        {
+          "fold": 2,
+          "training_rows": 6209,
+          "beta": 0.010382514143251571
+        },
+        {
+          "fold": 3,
+          "training_rows": 6401,
+          "beta": 0.010370646634707381
+        },
+        {
+          "fold": 4,
+          "training_rows": 6113,
+          "beta": 0.010871716921487293
+        },
+        {
+          "fold": 5,
+          "training_rows": 6576,
+          "beta": 0.011148534947522916
+        },
+        {
+          "fold": 6,
+          "training_rows": 6288,
+          "beta": 0.01007509366519915
+        },
+        {
+          "fold": 7,
+          "training_rows": 6569,
+          "beta": 0.01046976524451832
+        },
+        {
+          "fold": 8,
+          "training_rows": 6185,
+          "beta": 0.010926700433823693
+        },
+        {
+          "fold": 9,
+          "training_rows": 6185,
+          "beta": 0.010943450507312635
+        }
+      ]
+    }
+  },
+  "max_logtarget_difference": 1.1102230246251565e-16,
+  "max_beta_difference": 1.3877787807814457e-17,
+  "max_prediction_difference": 8.881784197001252e-16,
+  "max_daymean_error": 4.440892098500626e-16,
+  "hashes": {
+    "집\\코덱스\\analysis\\ec_src_audit_20261002_v1\\audit_loglaw_v2.py": "61ddeca12d060d65d1d8b0764f353a1aa1dd8e2ba5dcb0fe4dcaf1c54f5e6b8a",
+    "집\\코덱스\\analysis\\ec_src_X2_loglaw_20261002_v2\\run.py": "7672934e0852f0e1c24fe1567bbfba82f98e89cb154859516a395c63a94d7671",
+    "집\\코덱스\\analysis\\ec_src_X2_loglaw_20261002_v2\\PROTOCOL.md": "5ab13479cec7f26131e22d94a4e9c3e9cc46038f180fdc5d53b6828d713b8b48",
+    "집\\코덱스\\analysis\\ec_src_X2_loglaw_20261002_v2\\predictions.csv": "6821922e2e914139b6c64d6b71d043ab09ee000a54a46b68ce8b6a8e61ec6ce3",
+    "집\\코덱스\\analysis\\ec_src_X2_loglaw_20261002_v2\\coefficients.csv": "9e39504c1b7b4080a0e4223baf3acce3c7c07a0455d662fe883e9a4650796b3e",
+    "집\\코덱스\\analysis\\ec_src_X2_loglaw_20261002_v2\\result.json": "03ea1688ef613f357724eedeaac864435a593aeb2ab97ef1ab671709b0edd2a2"
+  }
+}

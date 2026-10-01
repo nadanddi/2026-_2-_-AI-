@@ -1,0 +1,367 @@
+{
+  "status": "COMPLETE",
+  "seed": 20261002,
+  "null_reps": 999,
+  "families": [
+    "identity",
+    "offset",
+    "scale",
+    "affine"
+  ],
+  "shifts": [
+    -6,
+    -5,
+    -4,
+    -3,
+    -2,
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "days": 360,
+  "rows": 8640,
+  "lock_days_excluded": 40,
+  "lock_rows_excluded_before_float": 960,
+  "otherfarm_label_inventory": {
+    "F47": {
+      "rows": 4800,
+      "ec_nonempty": 4800
+    },
+    "F13": {
+      "rows": 4800,
+      "ec_nonempty": 4800
+    },
+    "F32": {
+      "rows": 5465,
+      "ec_nonempty": 0
+    },
+    "F28": {
+      "rows": 6568,
+      "ec_nonempty": 0
+    },
+    "F38": {
+      "rows": 6521,
+      "ec_nonempty": 0
+    },
+    "F39": {
+      "rows": 6456,
+      "ec_nonempty": 0
+    },
+    "F17": {
+      "rows": 6024,
+      "ec_nonempty": 0
+    },
+    "F34": {
+      "rows": 6048,
+      "ec_nonempty": 0
+    },
+    "F23": {
+      "rows": 5296,
+      "ec_nonempty": 0
+    },
+    "F05": {
+      "rows": 4438,
+      "ec_nonempty": 0
+    },
+    "F37": {
+      "rows": 6840,
+      "ec_nonempty": 0
+    },
+    "F08": {
+      "rows": 6767,
+      "ec_nonempty": 0
+    },
+    "F51": {
+      "rows": 6576,
+      "ec_nonempty": 0
+    },
+    "F49": {
+      "rows": 4178,
+      "ec_nonempty": 0
+    },
+    "F29": {
+      "rows": 6336,
+      "ec_nonempty": 0
+    },
+    "F02": {
+      "rows": 6568,
+      "ec_nonempty": 0
+    },
+    "F41": {
+      "rows": 6576,
+      "ec_nonempty": 0
+    },
+    "F33": {
+      "rows": 4716,
+      "ec_nonempty": 0
+    },
+    "F35": {
+      "rows": 4866,
+      "ec_nonempty": 0
+    },
+    "F21": {
+      "rows": 6696,
+      "ec_nonempty": 0
+    },
+    "F12": {
+      "rows": 6504,
+      "ec_nonempty": 0
+    },
+    "F14": {
+      "rows": 4442,
+      "ec_nonempty": 0
+    },
+    "F19": {
+      "rows": 6196,
+      "ec_nonempty": 0
+    },
+    "F20": {
+      "rows": 6768,
+      "ec_nonempty": 0
+    },
+    "F03": {
+      "rows": 6576,
+      "ec_nonempty": 0
+    },
+    "F16": {
+      "rows": 6408,
+      "ec_nonempty": 0
+    },
+    "F42": {
+      "rows": 6576,
+      "ec_nonempty": 0
+    },
+    "F25": {
+      "rows": 6616,
+      "ec_nonempty": 0
+    },
+    "F09": {
+      "rows": 6563,
+      "ec_nonempty": 0
+    },
+    "F43": {
+      "rows": 6000,
+      "ec_nonempty": 0
+    },
+    "F10": {
+      "rows": 6447,
+      "ec_nonempty": 0
+    },
+    "F11": {
+      "rows": 6456,
+      "ec_nonempty": 0
+    },
+    "F48": {
+      "rows": 5983,
+      "ec_nonempty": 0
+    },
+    "F27": {
+      "rows": 6576,
+      "ec_nonempty": 0
+    },
+    "F06": {
+      "rows": 4560,
+      "ec_nonempty": 0
+    },
+    "F30": {
+      "rows": 6456,
+      "ec_nonempty": 0
+    },
+    "F18": {
+      "rows": 6432,
+      "ec_nonempty": 0
+    },
+    "F44": {
+      "rows": 6576,
+      "ec_nonempty": 0
+    },
+    "F40": {
+      "rows": 6731,
+      "ec_nonempty": 0
+    },
+    "F31": {
+      "rows": 6384,
+      "ec_nonempty": 0
+    },
+    "F07": {
+      "rows": 6417,
+      "ec_nonempty": 0
+    },
+    "F24": {
+      "rows": 6576,
+      "ec_nonempty": 0
+    },
+    "F26": {
+      "rows": 6639,
+      "ec_nonempty": 0
+    },
+    "F01": {
+      "rows": 3883,
+      "ec_nonempty": 0
+    },
+    "F50": {
+      "rows": 6576,
+      "ec_nonempty": 0
+    },
+    "F36": {
+      "rows": 6744,
+      "ec_nonempty": 0
+    },
+    "F22": {
+      "rows": 4438,
+      "ec_nonempty": 0
+    },
+    "F45": {
+      "rows": 5029,
+      "ec_nonempty": 0
+    },
+    "F04": {
+      "rows": 6480,
+      "ec_nonempty": 0
+    },
+    "F46": {
+      "rows": 3935,
+      "ec_nonempty": 0
+    },
+    "F15": {
+      "rows": 6463,
+      "ec_nonempty": 0
+    }
+  },
+  "v2_diag10_row_rmse": 0.21387369361945427,
+  "v2_day_level_rmse": 0.19923676932556508,
+  "level_difference_limit": 0.04980919233139127,
+  "informative_days": 270,
+  "strata": [
+    "F13_B1",
+    "F13_B2",
+    "F13_B3",
+    "F47_B1",
+    "F47_B2",
+    "F47_B3"
+  ],
+  "observed_independent_pairs": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "observed_total_pairs": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "p_per_family": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "p_bonferroni": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "p_per_stratum_unadjusted": [
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "discovery_per_family": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "all_primary_pair_count": 0,
+  "all_scope_shape_match_count": 0,
+  "all_scope_smalllevel_match_count": 0,
+  "plateau_runs_ge3h": 214,
+  "repeated_12h_diff_signatures": 1,
+  "repeated_12h_flat_signatures": 0,
+  "repeated_12h_nonflat_signatures": 1,
+  "null_spectral_relative_error_median": 0.07542223487360822,
+  "null_spectral_relative_error_p95": 0.21467180580234982,
+  "elapsed_seconds": 46.92200000002049,
+  "model_training": false,
+  "evaluation_features_available": false,
+  "hashes": {
+    "집\\코덱스\\analysis\\ec_src_X1_20261002_v1\\run_x1.py": "7ed111dca796cc90e32c4c42fe9e0818dd082d6f6eaa555e1100ac1f403b4f5d",
+    "집\\코덱스\\analysis\\ec_src_X1_20261002_v1\\PROTOCOL.md": "f853a7a2101e6b10dab1d98722cbd55380ea3dfcb71f4349f6c723f6671a3112",
+    "공용\\대회자료\\정형데이터\\참가자_배포\\train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "집\\코덱스\\analysis\\codex_independent\\ec_final_lock\\locked_days.json": "0256c719eb3cfadbc6f121392868371a85440c82d72693da8900d92872c36034",
+    "집\\코덱스\\local\\ec_restart_phase3_20261001_v1\\oof_predictions.csv": "ac57b32a4a71bdba2c1f453037ebddb2cc16b48e4fe1b52be7a1ccd39c7c0cf4"
+  }
+}

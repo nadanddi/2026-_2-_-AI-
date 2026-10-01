@@ -1,0 +1,407 @@
+{
+  "baseline": {
+    "overall": 0.21387369361945427,
+    "level": 0.19923676932556508,
+    "shape": 0.07776031488580637
+  },
+  "rows": 8640,
+  "days": 360,
+  "high_ec_threshold": 1.2,
+  "high_ec_days": 26,
+  "locked_rows_excluded_before_float": 960,
+  "identity_max_error": 6.938893903907228e-18,
+  "models": {
+    "I": {
+      "raw_shape_rmse": 0.08186649498754073,
+      "projected_shape_rmse": 0.08181939384406668,
+      "prediction_daily_mean_rmse": 0.0027766513167001277,
+      "strata": {
+        "00_06": {
+          "rows": 2520,
+          "raw_shape_rmse": 0.06975250492714781,
+          "projected_shape_rmse": 0.06953370654626818,
+          "v2_projected_shape_rmse": 0.06913456205529532
+        },
+        "07_23": {
+          "rows": 6120,
+          "raw_shape_rmse": 0.08636212011122574,
+          "projected_shape_rmse": 0.08637175552561906,
+          "v2_projected_shape_rmse": 0.08104569662825734
+        },
+        "high_ec": {
+          "rows": 624,
+          "raw_shape_rmse": 0.2739827601875393,
+          "projected_shape_rmse": 0.27397505674379186,
+          "v2_projected_shape_rmse": 0.2506877301904154
+        },
+        "nonhigh_ec": {
+          "rows": 8016,
+          "raw_shape_rmse": 0.03715294113472129,
+          "projected_shape_rmse": 0.03704537315780402,
+          "v2_projected_shape_rmse": 0.040314897316425305
+        }
+      },
+      "raw_bootstrap_ci995": [
+        0.05101495316814342,
+        0.11112823966212096
+      ],
+      "raw_bootstrap_threshold_pass_fraction": 0.00175,
+      "projected_bootstrap_ci995": [
+        0.05095156194203528,
+        0.11109323916412811
+      ],
+      "projected_bootstrap_threshold_pass_fraction": 0.00175
+    },
+    "A": {
+      "raw_shape_rmse": 0.08191388078481285,
+      "projected_shape_rmse": 0.0817189344328684,
+      "prediction_daily_mean_rmse": 0.005647974892391639,
+      "strata": {
+        "00_06": {
+          "rows": 2520,
+          "raw_shape_rmse": 0.06949941918460864,
+          "projected_shape_rmse": 0.06967469030832384,
+          "v2_projected_shape_rmse": 0.06913456205529532
+        },
+        "07_23": {
+          "rows": 6120,
+          "raw_shape_rmse": 0.08650944453591014,
+          "projected_shape_rmse": 0.08619051557939636,
+          "v2_projected_shape_rmse": 0.08104569662825734
+        },
+        "high_ec": {
+          "rows": 624,
+          "raw_shape_rmse": 0.27351301618585516,
+          "projected_shape_rmse": 0.2735014925370776,
+          "v2_projected_shape_rmse": 0.2506877301904154
+        },
+        "nonhigh_ec": {
+          "rows": 8016,
+          "raw_shape_rmse": 0.037533002279674064,
+          "projected_shape_rmse": 0.037078755850209005,
+          "v2_projected_shape_rmse": 0.040314897316425305
+        }
+      },
+      "raw_bootstrap_ci995": [
+        0.05109176473013852,
+        0.11114516752252575
+      ],
+      "raw_bootstrap_threshold_pass_fraction": 0.00165,
+      "projected_bootstrap_ci995": [
+        0.05077626341708073,
+        0.11098937388101228
+      ],
+      "projected_bootstrap_threshold_pass_fraction": 0.0019
+    },
+    "C": {
+      "raw_shape_rmse": 0.08203306287427667,
+      "projected_shape_rmse": 0.08203306287427667,
+      "prediction_daily_mean_rmse": 3.525714371984124e-18,
+      "strata": {
+        "00_06": {
+          "rows": 2520,
+          "raw_shape_rmse": 0.06969745263964609,
+          "projected_shape_rmse": 0.06969745263964609,
+          "v2_projected_shape_rmse": 0.06913456205529532
+        },
+        "07_23": {
+          "rows": 6120,
+          "raw_shape_rmse": 0.08660322551310415,
+          "projected_shape_rmse": 0.08660322551310415,
+          "v2_projected_shape_rmse": 0.08104569662825734
+        },
+        "high_ec": {
+          "rows": 624,
+          "raw_shape_rmse": 0.2749604484410009,
+          "projected_shape_rmse": 0.2749604484410009,
+          "v2_projected_shape_rmse": 0.2506877301904154
+        },
+        "nonhigh_ec": {
+          "rows": 8016,
+          "raw_shape_rmse": 0.03698632099681877,
+          "projected_shape_rmse": 0.03698632099681877,
+          "v2_projected_shape_rmse": 0.040314897316425305
+        }
+      },
+      "raw_bootstrap_ci995": [
+        0.05099506543549192,
+        0.11139370594925635
+      ],
+      "raw_bootstrap_threshold_pass_fraction": 0.0018,
+      "projected_bootstrap_ci995": [
+        0.05099506543549192,
+        0.11139370594925635
+      ],
+      "projected_bootstrap_threshold_pass_fraction": 0.0018
+    },
+    "T0": {
+      "raw_shape_rmse": 0.08238419003643202,
+      "projected_shape_rmse": 0.08238275248760055,
+      "prediction_daily_mean_rmse": 0.000486683188212147,
+      "strata": {
+        "00_06": {
+          "rows": 2520,
+          "raw_shape_rmse": 0.06934561464269512,
+          "projected_shape_rmse": 0.06937055288107925,
+          "v2_projected_shape_rmse": 0.06913456205529532
+        },
+        "07_23": {
+          "rows": 6120,
+          "raw_shape_rmse": 0.08718810447053457,
+          "projected_shape_rmse": 0.08717801751022135,
+          "v2_projected_shape_rmse": 0.08104569662825734
+        },
+        "high_ec": {
+          "rows": 624,
+          "raw_shape_rmse": 0.27743035962034135,
+          "projected_shape_rmse": 0.2774296121505644,
+          "v2_projected_shape_rmse": 0.2506877301904154
+        },
+        "nonhigh_ec": {
+          "rows": 8016,
+          "raw_shape_rmse": 0.03638689312328984,
+          "projected_shape_rmse": 0.036383828518006166,
+          "v2_projected_shape_rmse": 0.040314897316425305
+        }
+      },
+      "raw_bootstrap_ci995": [
+        0.051415632786756156,
+        0.11167862550583935
+      ],
+      "raw_bootstrap_threshold_pass_fraction": 0.0017,
+      "projected_bootstrap_ci995": [
+        0.05141465626772867,
+        0.11167770026774264
+      ],
+      "projected_bootstrap_threshold_pass_fraction": 0.0017
+    },
+    "T1": {
+      "raw_shape_rmse": 0.08177324632173265,
+      "projected_shape_rmse": 0.08177099016483537,
+      "prediction_daily_mean_rmse": 0.000607438438988662,
+      "strata": {
+        "00_06": {
+          "rows": 2520,
+          "raw_shape_rmse": 0.06918438003742702,
+          "projected_shape_rmse": 0.06926354005377088,
+          "v2_projected_shape_rmse": 0.06913456205529532
+        },
+        "07_23": {
+          "rows": 6120,
+          "raw_shape_rmse": 0.08642554852647395,
+          "projected_shape_rmse": 0.08639642221467554,
+          "v2_projected_shape_rmse": 0.08104569662825734
+        },
+        "high_ec": {
+          "rows": 624,
+          "raw_shape_rmse": 0.27423890529224176,
+          "projected_shape_rmse": 0.27423821488814415,
+          "v2_projected_shape_rmse": 0.2506877301904154
+        },
+        "nonhigh_ec": {
+          "rows": 8016,
+          "raw_shape_rmse": 0.03678264229018153,
+          "projected_shape_rmse": 0.03677763650174516,
+          "v2_projected_shape_rmse": 0.040314897316425305
+        }
+      },
+      "raw_bootstrap_ci995": [
+        0.05115145054822137,
+        0.1109367742652996
+      ],
+      "raw_bootstrap_threshold_pass_fraction": 0.00175,
+      "projected_bootstrap_ci995": [
+        0.05114690114740437,
+        0.11093480897873384
+      ],
+      "projected_bootstrap_threshold_pass_fraction": 0.00175
+    },
+    "T3": {
+      "raw_shape_rmse": 0.0826181107747174,
+      "projected_shape_rmse": 0.08261631506177114,
+      "prediction_daily_mean_rmse": 0.0005447142348454172,
+      "strata": {
+        "00_06": {
+          "rows": 2520,
+          "raw_shape_rmse": 0.06971098746214828,
+          "projected_shape_rmse": 0.06972972617260123,
+          "v2_projected_shape_rmse": 0.06913456205529532
+        },
+        "07_23": {
+          "rows": 6120,
+          "raw_shape_rmse": 0.0873804060217597,
+          "projected_shape_rmse": 0.08737185216429101,
+          "v2_projected_shape_rmse": 0.08104569662825734
+        },
+        "high_ec": {
+          "rows": 624,
+          "raw_shape_rmse": 0.2745153905278982,
+          "projected_shape_rmse": 0.2745148860888447,
+          "v2_projected_shape_rmse": 0.2506877301904154
+        },
+        "nonhigh_ec": {
+          "rows": 8016,
+          "raw_shape_rmse": 0.03861155436265373,
+          "projected_shape_rmse": 0.0386076919589728,
+          "v2_projected_shape_rmse": 0.040314897316425305
+        }
+      },
+      "raw_bootstrap_ci995": [
+        0.05218011415541475,
+        0.11173862926880865
+      ],
+      "raw_bootstrap_threshold_pass_fraction": 0.00105,
+      "projected_bootstrap_ci995": [
+        0.05217784286883812,
+        0.11173715699483014
+      ],
+      "projected_bootstrap_threshold_pass_fraction": 0.00105
+    },
+    "L-T": {
+      "level_rmse": 0.36354529437600364,
+      "strata": {
+        "high_ec": {
+          "days": 26,
+          "level_rmse": 1.1209166394569685
+        },
+        "nonhigh_ec": {
+          "days": 334,
+          "level_rmse": 0.2112952517154082
+        }
+      },
+      "raw_bootstrap_ci995": [
+        0.27198904464719664,
+        0.4559438351470763
+      ],
+      "raw_bootstrap_threshold_pass_fraction": 0.0
+    },
+    "L-I": {
+      "level_rmse": 0.3672599618687972,
+      "strata": {
+        "high_ec": {
+          "days": 26,
+          "level_rmse": 1.1267558278058118
+        },
+        "nonhigh_ec": {
+          "days": 334,
+          "level_rmse": 0.21575456344505245
+        }
+      },
+      "raw_bootstrap_ci995": [
+        0.2760865328540656,
+        0.4583796664489522
+      ],
+      "raw_bootstrap_threshold_pass_fraction": 0.0
+    },
+    "L-A": {
+      "level_rmse": 0.33384020873578774,
+      "strata": {
+        "high_ec": {
+          "days": 26,
+          "level_rmse": 0.9516971040795862
+        },
+        "nonhigh_ec": {
+          "days": 334,
+          "level_rmse": 0.22275379633452055
+        }
+      },
+      "raw_bootstrap_ci995": [
+        0.26000901037013985,
+        0.41412893367965575
+      ],
+      "raw_bootstrap_threshold_pass_fraction": 0.0
+    },
+    "L-C": {
+      "level_rmse": 0.34099499785661624,
+      "strata": {
+        "high_ec": {
+          "days": 26,
+          "level_rmse": 1.026546760023273
+        },
+        "nonhigh_ec": {
+          "days": 334,
+          "level_rmse": 0.20807916337710317
+        }
+      },
+      "raw_bootstrap_ci995": [
+        0.25287477364561034,
+        0.4324876619320314
+      ],
+      "raw_bootstrap_threshold_pass_fraction": 0.0
+    }
+  },
+  "raw_label_alignment": "PASS",
+  "final_lock_scored": false,
+  "test_X_read": false,
+  "note": "projection은 사후 점수조건 대조이며 사전등록 원판정 불변; 인과 예측변환으로 쓰지 않음",
+  "feature_manual_max_abs_difference": 7.105427357601002e-15,
+  "causality_checks": [
+    {
+      "farm": "F13",
+      "cutoff_day": 107,
+      "cutoff_hour": 0,
+      "prefix_rows": 2377,
+      "status": "PASS"
+    },
+    {
+      "farm": "F13",
+      "cutoff_day": 107,
+      "cutoff_hour": 6,
+      "prefix_rows": 2383,
+      "status": "PASS"
+    },
+    {
+      "farm": "F13",
+      "cutoff_day": 107,
+      "cutoff_hour": 12,
+      "prefix_rows": 2389,
+      "status": "PASS"
+    },
+    {
+      "farm": "F13",
+      "cutoff_day": 107,
+      "cutoff_hour": 23,
+      "prefix_rows": 2400,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "cutoff_day": 105,
+      "cutoff_hour": 0,
+      "prefix_rows": 2377,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "cutoff_day": 105,
+      "cutoff_hour": 6,
+      "prefix_rows": 2383,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "cutoff_day": 105,
+      "cutoff_hour": 12,
+      "prefix_rows": 2389,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "cutoff_day": 105,
+      "cutoff_hour": 23,
+      "prefix_rows": 2400,
+      "status": "PASS"
+    }
+  ],
+  "hashes": {
+    "집\\코덱스\\analysis\\ec_src_audit_20261002_v1\\audit_x2.py": "6ede3ad2c15d2b7cae0cc4d646a14e6ffa3335284a7840a951395f618367ae38",
+    "집\\코덱스\\analysis\\ec_src_X2_20261002_v1\\PROTOCOL.md": "0c7030a402afb6bb8aa95012a626b6351710232e159e440c7b0a09c3c8d611b4",
+    "집\\코덱스\\analysis\\ec_src_X2_20261002_v1\\run.py": "1ef00cad59776c6ec778053069513d217b4768d4688b09f24317cd022860e919",
+    "집\\코덱스\\analysis\\ec_src_X2_20261002_v1\\shape_oof.csv": "45278f5ecab5d7d4c490ea584d4c434b79e1c8a5f2734c473cbcca33e190bd86",
+    "집\\코덱스\\analysis\\ec_src_X2_20261002_v1\\level_oof.csv": "4be8462f2c68a185103172a2f59106b092151933780a2570869798a0ccbc7b7e",
+    "집\\코덱스\\analysis\\ec_src_X2_20261002_v1\\result.json": "132546cd4fac7cd5f15fdc21dd3e379bf6d249922d395bc43a7760d7d0b8aa0c",
+    "공용\\대회자료\\정형데이터\\참가자_배포\\train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "공용\\대회자료\\정형데이터\\참가자_배포\\train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "집\\코덱스\\analysis\\codex_independent\\ec_final_lock\\locked_days.json": "0256c719eb3cfadbc6f121392868371a85440c82d72693da8900d92872c36034"
+  }
+}

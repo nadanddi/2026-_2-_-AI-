@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_src_X3_20261002_v1\verify.py", line 73, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_src_X3_20261002_v1\verify.py", line 64, in main
+    assert {str(float(k)):v for k,v in dist.items()}==expected['raw_decimal_digits']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

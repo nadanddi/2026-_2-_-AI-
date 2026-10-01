@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "null_background": {
+    "identity": {
+      "surrogates_with_any_match": 0,
+      "total_surrogates": 999,
+      "mean_independent_pairs": 0.0,
+      "max_independent_pairs": 0
+    },
+    "offset": {
+      "surrogates_with_any_match": 0,
+      "total_surrogates": 999,
+      "mean_independent_pairs": 0.0,
+      "max_independent_pairs": 0
+    },
+    "scale": {
+      "surrogates_with_any_match": 0,
+      "total_surrogates": 999,
+      "mean_independent_pairs": 0.0,
+      "max_independent_pairs": 0
+    },
+    "affine": {
+      "surrogates_with_any_match": 0,
+      "total_surrogates": 999,
+      "mean_independent_pairs": 0.0,
+      "max_independent_pairs": 0
+    }
+  },
+  "strata_counts": {
+    "F13_B1": {
+      "days": 60,
+      "informative_days": 32,
+      "min_record_day": 8,
+      "max_record_day": 71
+    },
+    "F13_B2": {
+      "days": 60,
+      "informative_days": 58,
+      "min_record_day": 72,
+      "max_record_day": 138
+    },
+    "F13_B3": {
+      "days": 60,
+      "informative_days": 55,
+      "min_record_day": 139,
+      "max_record_day": 245
+    },
+    "F47_B1": {
+      "days": 60,
+      "informative_days": 30,
+      "min_record_day": 6,
+      "max_record_day": 69
+    },
+    "F47_B2": {
+      "days": 60,
+      "informative_days": 41,
+      "min_record_day": 70,
+      "max_record_day": 135
+    },
+    "F47_B3": {
+      "days": 60,
+      "informative_days": 54,
+      "min_record_day": 136,
+      "max_record_day": 243
+    }
+  },
+  "primary_eligible_day_pairs": 652,
+  "closest_primary_match_rmse": 0.002091710914120041,
+  "closest_to_match_threshold_ratio": 4.183421828240082,
+  "plateau_runs": 214,
+  "plateau_hours": 819,
+  "plateau_days": 137,
+  "plateau_max_length": 8,
+  "repeated_window_daymean_gap": 0.22724999999999998,
+  "repeated_gap_to_v2_level_rmse_ratio": 1.1406027148967646,
+  "otherfarm_nonempty_ec_count": 0,
+  "otherfarm_rows": 295365,
+  "otherfarm_count": 49
+}

@@ -1,0 +1,51 @@
+{
+  "rows": 8640,
+  "days": 360,
+  "locked_rows_skipped_before_label_access": 960,
+  "rmse": 0.21387369361945424,
+  "level_mse": 0.039695290251288436,
+  "shape_mse": 0.00604666657113976,
+  "level_sse_fraction": 0.8678091845826991,
+  "missing_rows": 0,
+  "low_precision_rows": 8640,
+  "digit05_rows": 972,
+  "grid001_rows": 8640,
+  "strict_linear_rows": 12,
+  "plateau_rows": 154,
+  "raw_decimal_digits": {
+    "1": 92,
+    "2": 750,
+    "3": 7798
+  },
+  "significant_digits": {
+    "1": 88,
+    "2": 752,
+    "3": 7178,
+    "4": 622
+  },
+  "scientific_rows": 0,
+  "groups": {
+    "low_precision_fraction": 360,
+    "digit05_fraction": 0,
+    "grid001_fraction": 360,
+    "strict_fraction": 23,
+    "missing_fraction": 0
+  },
+  "found_comparisons": [],
+  "planned_comparisons": 15,
+  "permutations": 20000,
+  "seeds": {
+    "permutation": 3103,
+    "bootstrap": 3104
+  },
+  "hashes": {
+    "����\\��ȸ�ڷ�\\����������\\������_����\\train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "��\\�ڵ���\\local\\ec_restart_phase3_20261001_v1\\oof_predictions.csv": "ac57b32a4a71bdba2c1f453037ebddb2cc16b48e4fe1b52be7a1ccd39c7c0cf4",
+    "��\\�ڵ���\\analysis\\codex_independent\\ec_final_lock\\locked_days.json": "0256c719eb3cfadbc6f121392868371a85440c82d72693da8900d92872c36034",
+    "��\\�ڵ���\\analysis\\ec_src_X3_20261002_v1\\PROTOCOL.md": "d2f204ed1cd4549e56c9abf3c9d04bad20f9643ea81a10532c76392ae5bde44b",
+    "��\\�ڵ���\\analysis\\ec_src_X3_20261002_v1\\run.py": "d92020b48898da48c02d52e32dd60bd0f261baeb20e15d057956b3075c329508"
+  },
+  "final_lock_scored": false,
+  "model_created": false,
+  "submission_created": false
+}

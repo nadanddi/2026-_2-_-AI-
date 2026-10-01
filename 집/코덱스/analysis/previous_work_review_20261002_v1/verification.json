@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scores": {
+    "v2/DIAG10/v2": 0.21387369361945427,
+    "v2/A/v2": 0.23030200888117217,
+    "v2/B/v2": 0.218769428749023,
+    "v2/EXT10/v2": 0.4140908274876331,
+    "v2/EXT12/v2": 0.41612807820473807,
+    "state/DIAG10/baseline": 0.21387369361945427,
+    "state/DIAG10/candidate": 0.21733121250114273,
+    "state/A/baseline": 0.23030200888117217,
+    "state/A/candidate": 0.23344394091198958,
+    "state/B/baseline": 0.218769428749023,
+    "state/B/candidate": 0.22452394018867364,
+    "state/EXT10/baseline": 0.4140908274876331,
+    "state/EXT10/candidate": 0.40527602429387966,
+    "state/EXT12/baseline": 0.41612807820473807,
+    "state/EXT12/candidate": 0.40627617264669535
+  },
+  "diag_days": 360,
+  "diag_rows": 8640,
+  "level_error_share": 0.8678091845826988,
+  "shape_oracle_rmse": 0.07776031488580637,
+  "sealed_high_days": 16,
+  "sealed_high_error_share": 0.45922233544670576,
+  "artifact_hash_matches": {
+    "ec_v2_state_v1_numpy253.csv": true,
+    "설명자료_ec_v2_state_v1_numpy253.md": true,
+    "EC_v2_state_v1_numpy253_재현패키지.zip": true,
+    "verification.json": true
+  },
+  "submitted_state_max_difference": 4.999396068239292e-07,
+  "model_retrained": false,
+  "final_lock_scored": false
+}

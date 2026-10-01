@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "method": "원문행수치 csv + statistics.median + 수동 tied-rank + pinv + math.fsum",
+  "comparisons": [
+    {
+      "metric": "low_precision_fraction",
+      "outcome": "ec_mean",
+      "status": "UNTESTABLE_CONSTANT"
+    },
+    {
+      "metric": "low_precision_fraction",
+      "outcome": "level_sqerr",
+      "status": "UNTESTABLE_CONSTANT"
+    },
+    {
+      "metric": "low_precision_fraction",
+      "outcome": "shape_mse",
+      "status": "UNTESTABLE_CONSTANT"
+    },
+    {
+      "metric": "digit05_fraction",
+      "outcome": "ec_mean",
+      "status": "PASS",
+      "rho_adjusted": 0.028404871662106226,
+      "absolute_difference": 1.3530843112619095e-16
+    },
+    {
+      "metric": "digit05_fraction",
+      "outcome": "level_sqerr",
+      "status": "PASS",
+      "rho_adjusted": -0.0042918468140581145,
+      "absolute_difference": 2.688821387764051e-17
+    },
+    {
+      "metric": "digit05_fraction",
+      "outcome": "shape_mse",
+      "status": "PASS",
+      "rho_adjusted": 0.037195820953658316,
+      "absolute_difference": 2.0816681711721685e-17
+    },
+    {
+      "metric": "grid001_fraction",
+      "outcome": "ec_mean",
+      "status": "UNTESTABLE_CONSTANT"
+    },
+    {
+      "metric": "grid001_fraction",
+      "outcome": "level_sqerr",
+      "status": "UNTESTABLE_CONSTANT"
+    },
+    {
+      "metric": "grid001_fraction",
+      "outcome": "shape_mse",
+      "status": "UNTESTABLE_CONSTANT"
+    },
+    {
+      "metric": "strict_fraction",
+      "outcome": "ec_mean",
+      "status": "PASS",
+      "rho_adjusted": -0.12060762231521881,
+      "absolute_difference": 1.942890293094024e-16
+    },
+    {
+      "metric": "strict_fraction",
+      "outcome": "level_sqerr",
+      "status": "PASS",
+      "rho_adjusted": 0.05513086323587796,
+      "absolute_difference": 1.8735013540549517e-16
+    },
+    {
+      "metric": "strict_fraction",
+      "outcome": "shape_mse",
+      "status": "PASS",
+      "rho_adjusted": -0.1419841222531574,
+      "absolute_difference": 1.942890293094024e-16
+    },
+    {
+      "metric": "missing_fraction",
+      "outcome": "ec_mean",
+      "status": "UNTESTABLE_CONSTANT"
+    },
+    {
+      "metric": "missing_fraction",
+      "outcome": "level_sqerr",
+      "status": "UNTESTABLE_CONSTANT"
+    },
+    {
+      "metric": "missing_fraction",
+      "outcome": "shape_mse",
+      "status": "UNTESTABLE_CONSTANT"
+    }
+  ],
+  "final_lock_scored": false,
+  "source_hashes": {
+    "verify_stats_median_v2.py": "676acba9dcaeafd7e019692fae8606a94a7bc0c7c99f67c091be455e648bc496",
+    "stats_median_v2.csv": "b2869965f5a692616de2b5108b375ff192c8c0018fb7ef0514b90e5a20f50f7e",
+    "row_features.csv": "6110b9b3a3c4482c79663df431a5954ac0da9bdbe73384d9038389b443ff9b5f"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "status": "PASS",
+  "method": "csv manual tied ranks + NumPy pinv (original lstsq) + math.fsum dot product",
+  "constant_metric_guard": "상수 지표는 집단 관련성을 정의할 수 없으므로 원본 극소 잔차 상관을 해석하지 않음",
+  "comparisons": [
+    {
+      "metric": "low_precision_fraction",
+      "outcome": "ec_mean",
+      "status": "UNTESTABLE_CONSTANT",
+      "group1_days": 360,
+      "original_found": "False"
+    },
+    {
+      "metric": "low_precision_fraction",
+      "outcome": "level_sqerr",
+      "status": "UNTESTABLE_CONSTANT",
+      "group1_days": 360,
+      "original_found": "False"
+    },
+    {
+      "metric": "low_precision_fraction",
+      "outcome": "shape_mse",
+      "status": "UNTESTABLE_CONSTANT",
+      "group1_days": 360,
+      "original_found": "False"
+    },
+    {
+      "metric": "digit05_fraction",
+      "outcome": "ec_mean",
+      "status": "PASS",
+      "rho_adjusted": 0.028169664571869577,
+      "rho_raw": 0.05739857145206494,
+      "adjusted_max_difference": 1.5265566588595902e-16,
+      "raw_max_difference": 0.0
+    },
+    {
+      "metric": "digit05_fraction",
+      "outcome": "level_sqerr",
+      "status": "PASS",
+      "rho_adjusted": -0.004591079325898664,
+      "rho_raw": 0.008992434009694081,
+      "adjusted_max_difference": 6.071532165918825e-18,
+      "raw_max_difference": 0.0
+    },
+    {
+      "metric": "digit05_fraction",
+      "outcome": "shape_mse",
+      "status": "PASS",
+      "rho_adjusted": 0.03736970337776098,
+      "rho_raw": 0.04589465386249915,
+      "adjusted_max_difference": 1.249000902703301e-16,
+      "raw_max_difference": 0.0
+    },
+    {
+      "metric": "grid001_fraction",
+      "outcome": "ec_mean",
+      "status": "UNTESTABLE_CONSTANT",
+      "group1_days": 360,
+      "original_found": "False"
+    },
+    {
+      "metric": "grid001_fraction",
+      "outcome": "level_sqerr",
+      "status": "UNTESTABLE_CONSTANT",
+      "group1_days": 360,
+      "original_found": "False"
+    },
+    {
+      "metric": "grid001_fraction",
+      "outcome": "shape_mse",
+      "status": "UNTESTABLE_CONSTANT",
+      "group1_days": 360,
+      "original_found": "False"
+    },
+    {
+      "metric": "strict_fraction",
+      "outcome": "ec_mean",
+      "status": "PASS",
+      "rho_adjusted": -0.10912040872584591,
+      "rho_raw": -0.28591258445774115,
+      "adjusted_max_difference": 1.249000902703301e-16,
+      "raw_max_difference": 0.0
+    },
+    {
+      "metric": "strict_fraction",
+      "outcome": "level_sqerr",
+      "status": "PASS",
+      "rho_adjusted": 0.05510444972229043,
+      "rho_raw": 0.010853914958368302,
+      "adjusted_max_difference": 6.730727086790012e-16,
+      "raw_max_difference": 0.0
+    },
+    {
+      "metric": "strict_fraction",
+      "outcome": "shape_mse",
+      "status": "PASS",
+      "rho_adjusted": -0.14679262231231063,
+      "rho_raw": -0.1850839800952287,
+      "adjusted_max_difference": 5.273559366969494e-16,
+      "raw_max_difference": 0.0
+    },
+    {
+      "metric": "missing_fraction",
+      "outcome": "ec_mean",
+      "status": "UNTESTABLE_CONSTANT",
+      "group1_days": 0,
+      "original_found": "False"
+    },
+    {
+      "metric": "missing_fraction",
+      "outcome": "level_sqerr",
+      "status": "UNTESTABLE_CONSTANT",
+      "group1_days": 0,
+      "original_found": "False"
+    },
+    {
+      "metric": "missing_fraction",
+      "outcome": "shape_mse",
+      "status": "UNTESTABLE_CONSTANT",
+      "group1_days": 0,
+      "original_found": "False"
+    }
+  ],
+  "source_hashes": {
+    "verify_stats_v1.py": "f36ec93a3b92e1e8f991d76d1e6d41acfed4315cfeda03649b77b208d031cea4",
+    "stats.csv": "75c55fd1dd0c1b1529b6e8d2cb62d666ab178c942ff61e5732679b4ea13aa086",
+    "day_features.csv": "5416c6d5dd47214854c7095b531c394d3f2dc2d6799b1da3534c028ca18996b3"
+  }
+}

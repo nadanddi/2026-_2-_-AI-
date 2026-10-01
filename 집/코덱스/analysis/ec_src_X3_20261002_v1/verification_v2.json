@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "independent_method": "csv+Decimal+math.fsum, independent exact-window scan",
+  "numbers": {
+    "rows": 8640,
+    "days": 360,
+    "locked_rows_skipped_before_label_access": 960,
+    "rmse": 0.21387369361945427,
+    "level_mse": 0.03969529025128843,
+    "shape_mse": 0.00604666657113976,
+    "level_sse_fraction": 0.8678091845826988,
+    "low_precision_rows": 8640,
+    "digit05_rows": 972,
+    "grid001_rows": 8640,
+    "strict_linear_rows": 12,
+    "plateau_rows": 154
+  },
+  "day_arithmetic_max_abs_difference": 6.661338147750939e-16,
+  "row_fingerprints_all_equal": true,
+  "source_hashes": {
+    "집\\코덱스\\analysis\\ec_src_X3_20261002_v1\\run.py": "d92020b48898da48c02d52e32dd60bd0f261baeb20e15d057956b3075c329508",
+    "집\\코덱스\\analysis\\ec_src_X3_20261002_v1\\verify.py": "73a34c5604a513463f39b97f7fc76e41ceae2eb5654af6e8f0da0a26fb22fea2",
+    "집\\코덱스\\analysis\\ec_src_X3_20261002_v1\\results.json": "1c9920fc0ccbcdbfe573d57d9782b077b84769788877e2f230c1dae1e7f6a0ac",
+    "집\\코덱스\\analysis\\ec_src_X3_20261002_v1\\stats.csv": "75c55fd1dd0c1b1529b6e8d2cb62d666ab178c942ff61e5732679b4ea13aa086"
+  },
+  "final_lock_scored": false,
+  "repair": "분포 key int를 float 문자열로 잘못 변환한 검산 코드만 str(int)로 정정; 수치/가설/원시파일 수정 없음",
+  "repair_wrapper_sha256": "7bc5d3f3cb210f3acc90d3f6e9bd788bb3809ffe7ea9d42c33d4daf38d8169a8"
+}
