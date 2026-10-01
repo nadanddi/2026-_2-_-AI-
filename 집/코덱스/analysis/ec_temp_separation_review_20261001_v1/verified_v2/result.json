@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "groups_original_string_only": {
+    "other": 163,
+    "normal": 197,
+    "under": 18,
+    "over": 22
+  },
+  "groups_unlocked": {
+    "normal": 176,
+    "other": 148,
+    "over": 20,
+    "under": 16
+  },
+  "oof_snapshot": [
+    "DIAG10_0.npz",
+    "DIAG10_1.npz",
+    "DIAG10_2.npz",
+    "DIAG10_3.npz",
+    "DIAG10_4.npz",
+    "DIAG10_5.npz",
+    "DIAG10_6.npz"
+  ],
+  "oof_days": 249,
+  "oof_rows": 5976,
+  "residual_definition": "prediction minus truth",
+  "verification": [
+    "EC daily mean/range independent CSV arithmetic",
+    "all group means independent math.fsum",
+    "checkpoint SHA256 and unique row IDs",
+    "lock values excluded before numeric parsing"
+  ],
+  "tests": 0,
+  "candidate_adopted": false,
+  "limitations": [
+    "Partial DIAG10 OOF",
+    "Exploratory reused data, no causal identification",
+    "Calendar previous day is not verified same-source previous day",
+    "Group chosen by temperature model error; not available at prediction time"
+  ]
+}

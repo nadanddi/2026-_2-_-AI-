@@ -1,0 +1,45 @@
+{
+  "verification": {
+    "source_labels_all_occurrences": "PASS",
+    "diag_every_unlocked_day_once": "PASS",
+    "all_aggregate_rmse_math_fsum": "PASS",
+    "segment_error_decomposition": "PASS",
+    "raw_prediction_hash": "ac57b32a4a71bdba2c1f453037ebddb2cc16b48e4fe1b52be7a1ccd39c7c0cf4",
+    "checkpoint_hashes": "PASS"
+  },
+  "bootstrap_DIAG10": {
+    "ridge": {
+      "draws": 20000,
+      "difference_rmse": 0.08989018054920858,
+      "ci_bonferroni3": [
+        0.047013808986165195,
+        0.1377889787170883
+      ],
+      "p_worse": 1.0,
+      "improving_diagonal_folds": 0
+    },
+    "raw_et": {
+      "draws": 20000,
+      "difference_rmse": 0.03916849320546259,
+      "ci_bonferroni3": [
+        0.00953312970619352,
+        0.0758069683315942
+      ],
+      "p_worse": 0.9999,
+      "improving_diagonal_folds": 2
+    },
+    "full_et": {
+      "draws": 20000,
+      "difference_rmse": 0.013830523798621153,
+      "ci_bonferroni3": [
+        -0.0011280800280146065,
+        0.029447425004515342
+      ],
+      "p_worse": 0.98645,
+      "improving_diagonal_folds": 2
+    }
+  },
+  "candidate_adopted": false,
+  "final_lock_scored": false,
+  "interpretation": "exploratory benchmark; published leaderboard cannot be used to map these RMSEs to hidden evaluation"
+}

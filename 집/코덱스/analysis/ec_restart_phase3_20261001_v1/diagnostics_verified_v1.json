@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "high_ec_days": 26,
+  "high_ec_error_fraction": 0.5941812478479804,
+  "independent_csv_fsum": "PASS",
+  "training_validation_fold_means": [
+    {
+      "model": "full_et_101",
+      "training_rmse_fold_mean": 0.0435015793274179,
+      "validation_rmse_fold_mean": 0.21828980372738097
+    },
+    {
+      "model": "full_et_2024",
+      "training_rmse_fold_mean": 0.0435015793274179,
+      "validation_rmse_fold_mean": 0.21772631111668989
+    },
+    {
+      "model": "full_et_7",
+      "training_rmse_fold_mean": 0.0435015793274179,
+      "validation_rmse_fold_mean": 0.21893683658656732
+    },
+    {
+      "model": "raw_et_101",
+      "training_rmse_fold_mean": 0.0435015793274179,
+      "validation_rmse_fold_mean": 0.23849691878567653
+    },
+    {
+      "model": "raw_et_2024",
+      "training_rmse_fold_mean": 0.0435015793274179,
+      "validation_rmse_fold_mean": 0.23908550038776966
+    },
+    {
+      "model": "raw_et_7",
+      "training_rmse_fold_mean": 0.0435015793274179,
+      "validation_rmse_fold_mean": 0.23879177076904945
+    },
+    {
+      "model": "ridge",
+      "training_rmse_fold_mean": 0.291646940571568,
+      "validation_rmse_fold_mean": 0.2956060094141265
+    }
+  ],
+  "baseline_beats_v2_seed_validator_cells": [
+    {
+      "model": "full_et",
+      "min": 0.0123477077877054,
+      "max": 0.0668152246780153,
+      "<lambda_0>": 0,
+      "size": 15
+    },
+    {
+      "model": "r3",
+      "min": -0.0023476069507698,
+      "max": 0.0402456802956798,
+      "<lambda_0>": 3,
+      "size": 15
+    },
+    {
+      "model": "raw_et",
+      "min": -0.0135351101043472,
+      "max": 0.1867009108826107,
+      "<lambda_0>": 4,
+      "size": 15
+    }
+  ],
+  "evaluation_ID_only": {
+    "rows": 1440,
+    "day_min": 183,
+    "day_max": 239,
+    "day_ge179_rows": 1440
+  },
+  "note": "Training means are in-sample scores, not independent validation. No complete v2 train score computed."
+}

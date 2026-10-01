@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "feature_checks": "PASS",
+  "folds": 22,
+  "local_output": "C:\\work\\farmai\\집\\코덱스\\local\\ec_restart_phase3_20261001_v1",
+  "elapsed_seconds": 5.047296299831942,
+  "manifest": {
+    "code": "3b2ce3a31c0bfc16da5f33f94b1368741589eba64da509a4009d1afc3edeb9bd",
+    "core": "057ff4d8da6f3af29105b049251498f79f7fcd6b88d980a8222e5629eb5ce3b2",
+    "protocol": "fa6c1806cf76bc434d85852220f8366a22495ea1b8405969a928d16695a31136",
+    "lock": "0256c719eb3cfadbc6f121392868371a85440c82d72693da8900d92872c36034",
+    "splits": "ed3b72cfa0ace2e7c9a5bbd880d76eefc88a3dfe345e3193da47138b24e242b7",
+    "checkpoint": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736",
+    "inputs": {
+      "train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+      "train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9"
+    },
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "torch": "2.14.0+cpu",
+    "tabpfn": "9.0.0"
+  },
+  "final_lock_scored": false,
+  "evaluation_predictions_created": false
+}
