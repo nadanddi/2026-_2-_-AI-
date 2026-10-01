@@ -1,0 +1,7 @@
+fold coefs (a, b): [(np.int64(0), np.float64(-0.03), np.float64(1.071)), (np.int64(1), np.float64(-0.077), np.float64(1.108)), (np.int64(2), np.float64(-0.078), np.float64(1.106)), (np.int64(3), np.float64(-0.063), np.float64(1.098)), (np.int64(4), np.float64(-0.079), np.float64(1.152)), (np.int64(5), np.float64(-0.066), np.float64(1.07)), (np.int64(6), np.float64(-0.115), np.float64(1.159)), (np.int64(7), np.float64(-0.043), np.float64(1.074)), (np.int64(8), np.float64(-0.18), np.float64(1.142)), (np.int64(9), np.float64(-0.065), np.float64(1.107))]
+DIAG10 all: v2 0.2139 -> recal 0.2187 (+2.3%)
+  sealed         v2 0.4267 recal 0.4431
+  sealed high    v2 0.6875 recal 0.6984
+  sealed normal  v2 0.2375 recal 0.2650
+  late sealed    v2 0.5940 recal 0.6256
+per-fold change %: {0: 0.55, 1: 0.77, 2: -0.52, 3: 0.48, 4: 6.38, 5: -0.54, 6: 2.27, 7: -2.61, 8: 4.5, 9: 1.41}
