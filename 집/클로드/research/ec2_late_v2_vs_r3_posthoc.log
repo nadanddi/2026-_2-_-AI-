@@ -1,0 +1,6 @@
+seed 7: late RMSE R3 0.3775 v2 0.3860 | P(v2 better than R3) 0.037, blocks 19
+seed 101: late RMSE R3 0.3720 v2 0.3812 | P(v2 better than R3) 0.038, blocks 19
+seed 2024: late RMSE R3 0.3753 v2 0.3833 | P(v2 better than R3) 0.069, blocks 19
+days where v2 helps/hurts most (seed 7, sum sq diff):
+{('F13', 243): -1.242, ('F47', 216): -0.482, ('F13', 180): -0.369, ('F13', 179): -0.292} {('F47', 242): 0.934, ('F13', 197): 1.309, ('F47', 241): 1.565, ('F47', 193): 1.58}
+share of v2's net late loss from top 3 days: 62%
