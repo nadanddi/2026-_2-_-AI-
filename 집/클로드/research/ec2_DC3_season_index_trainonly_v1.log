@@ -1,0 +1,35 @@
+DIAG10/0 done (val days 38, corr(season, deep_cal) 0.996)
+DIAG10/1 done (val days 30, corr(season, deep_cal) 0.993)
+DIAG10/2 done (val days 40, corr(season, deep_cal) 0.993)
+DIAG10/3 done (val days 33, corr(season, deep_cal) 0.992)
+DIAG10/4 done (val days 40, corr(season, deep_cal) 0.828)
+DIAG10/5 done (val days 28, corr(season, deep_cal) 0.995)
+DIAG10/6 done (val days 40, corr(season, deep_cal) 0.987)
+DIAG10/7 done (val days 31, corr(season, deep_cal) 0.991)
+DIAG10/8 done (val days 40, corr(season, deep_cal) 0.992)
+DIAG10/9 done (val days 40, corr(season, deep_cal) 0.935)
+A/0 done (val days 53, corr(season, deep_cal) 0.980)
+A/1 done (val days 55, corr(season, deep_cal) 0.966)
+A/2 done (val days 53, corr(season, deep_cal) 0.986)
+A/3 done (val days 52, corr(season, deep_cal) 0.973)
+A/4 done (val days 51, corr(season, deep_cal) 0.847)
+B/0 done (val days 53, corr(season, deep_cal) 0.991)
+B/1 done (val days 55, corr(season, deep_cal) 0.961)
+B/2 done (val days 51, corr(season, deep_cal) 0.966)
+B/3 done (val days 54, corr(season, deep_cal) 0.982)
+B/4 done (val days 50, corr(season, deep_cal) 0.989)
+EXT10/0 done (val days 75, corr(season, deep_cal) 0.939)
+EXT12/0 done (val days 193, corr(season, deep_cal) 0.747)
+
+pooled RMSE base -> season index (train-only)
+  DIAG10 s7 0.2285->0.2026 (-11.3%)  s101 0.2279->0.2017 (-11.5%)  s2024 0.2275->0.1985 (-12.7%)
+  A      s7 0.2445->0.2452 (+0.3%)  s101 0.2440->0.2452 (+0.5%)  s2024 0.2429->0.2444 (+0.6%)
+  B      s7 0.2300->0.2161 (-6.0%)  s101 0.2269->0.2175 (-4.1%)  s2024 0.2313->0.2141 (-7.4%)
+  EXT10  s7 0.4203->0.4115 (-2.1%)  s101 0.4185->0.4180 (-0.1%)  s2024 0.4234->0.4191 (-1.0%)
+  EXT12  s7 0.4243->0.3966 (-6.5%)  s101 0.4249->0.4034 (-5.0%)  s2024 0.4259->0.4012 (-5.8%)
+  DIAG10 late>=179    base 0.4003 season 0.2851
+  DIAG10 early        base 0.1900 season 0.1854
+  DIAG10 late&cal<70  base 0.4126 season 0.0768
+  DIAG10 P(worse) by seed: [0.0034, 0.0021, 0.0004]
+
+DC3 decision: FAIL
