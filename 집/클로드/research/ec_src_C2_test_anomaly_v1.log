@@ -1,0 +1,55 @@
+(a) train-rare values (<= 0.1% of train rows)
+   out_temp     train 4.23%  test 3.06% (of which unseen in train 0.00%)
+   out_hum      train 0.24%  test 0.35% (of which unseen in train 0.00%)
+   out_rad      train 17.96%  test 20.83% (of which unseen in train 0.00%)
+   out_wspd     train 0.93%  test 1.39% (of which unseen in train 0.00%)
+   in_temp      train 2.01%  test 14.44% (of which unseen in train 5.00%)
+   in_hum       train 0.40%  test 0.69% (of which unseen in train 0.49%)
+   in_co2       train 4.15%  test 3.54% (of which unseen in train 2.29%)
+   act_vent     train 1.72%  test 0.83% (of which unseen in train 0.00%)
+   act_shade    train 0.18%  test 0.00% (of which unseen in train 0.00%)
+   act_thermal  train 0.00%  test 0.00% (of which unseen in train 0.00%)
+   act_heating  train 0.01%  test 0.00% (of which unseen in train 0.00%)
+   act_circfan  train 0.20%  test 0.14% (of which unseen in train 0.00%)
+   act_co2      train 0.76%  test 1.60% (of which unseen in train 0.21%)
+   act_fog      train 0.21%  test 0.00% (of which unseen in train 0.00%)
+(b) actuator combinations
+   0.0|0.0|0.0|100.0|0.0|0.0|0.0  test 6.11%  train 0.948%
+   0.0|1.0|1.0|100.0|100.0|0.0|0.0  test 1.81%  train 0.208%
+   0.0|100.0|100.0|0.0|0.0|100.0|0.0  test 1.04%  train 0.094%
+(c) order / duplicates / gaps
+   test_X sorted by (farm, day, hour): False; duplicates 0; sample_submission same order as test_X: True
+   F13: hours 720, internal hour gaps 3, days per block [5, 10, 10, 5]
+   F47: hours 720, internal hour gaps 3, days per block [5, 10, 10, 5]
+   test missing per channel: none
+(d) decimal precision (max decimals) train | test
+   out_temp     1 | 1
+   out_hum      0 | 0
+   out_rad      0 | 0
+   out_wspd     1 | 1
+   in_temp      1 | 1
+   in_hum       0 | 0
+   in_co2       0 | 0
+   act_vent     0 | 0
+   act_shade    0 | 0
+   act_thermal  0 | 0
+   act_heating  0 | 0
+   act_circfan  0 | 0
+   act_co2      0 | 0
+   act_fog      0 | 0
+(e) stuck runs (same value >= 6 consecutive hours)
+   in_temp   train 0.21%  test 0.00%
+   in_hum    train 2.09%  test 2.43%
+   in_co2    train 0.06%  test 0.00%
+   out_temp  train 0.00%  test 0.00%
+   out_hum   train 0.90%  test 0.42%
+   out_wspd  train 1.25%  test 1.25%
+
+enriched patterns (test >= 2x train, >= 1% of test rows): 5 -> threshold 0.0020
+   rare_in_temp                             test 14.4% train 2.01% | train days with 64 (EC median 0.385) vs without 296 (0.430) p 0.0007376
+   rare_act_co2                             test 1.6% train 0.76% | train days with 42 (EC median 0.616) vs without 318 (0.393) p 1.588e-08
+   combo_0.0|0.0|0.0|100.0|0.0|0.0|0.0      test 6.1% train 0.95% | train days with 31 (EC median 0.671) vs without 329 (0.397) p 3.613e-06
+   combo_0.0|1.0|1.0|100.0|100.0|0.0|0.0    test 1.8% train 0.21% | train days with 4 (EC median 0.446) vs without 356 (0.410) p 0.7045
+   combo_0.0|100.0|100.0|0.0|0.0|100.0|0.0  test 1.0% train 0.09% | train days with 3 (EC median 0.621) vs without 357 (0.410) p 0.1705
+
+C2 decision: GO
