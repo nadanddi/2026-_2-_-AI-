@@ -1,0 +1,18 @@
+days 360; anchor available near 342 prev 285 lin 342
+
+day-level RMSE
+segment           n      pm    near    prev     lin  b_near  b_prev   b_lin
+all             360  0.1992  0.2484  0.2569  0.2404  0.1747  0.1853  0.1722
+sealed           53  0.4029  0.3708  0.5070  0.3657  0.2864  0.3629  0.2878
+not sealed      307  0.1361  0.2205  0.1817  0.2114  0.1471  0.1323  0.1430
+late>=179        46  0.3747  0.3089  0.3090  0.3088  0.2232  0.2230  0.2233
+early           314  0.1579  0.2382  0.2483  0.2286  0.1664  0.1791  0.1634
+F13             180  0.1648  0.2453  0.2210  0.2336  0.1693  0.1647  0.1644
+F47             180  0.2286  0.2514  0.2883  0.2470  0.1800  0.2037  0.1796
+high>=1.2        26  0.5599  0.6216  0.7679  0.6271  0.4637  0.5513  0.4728
+
+row-level RMSE (v2 hourly shape + level): v2 0.2139  near 0.2603  prev 0.2684  lin 0.2527  b_near 0.1912  b_prev 0.2009  b_lin 0.1889
+b_near: dMSE -0.00917 95% [-0.02715, +0.00550] P(worse) 0.1192  sealed&late better True -> FAIL
+b_prev: dMSE -0.00538 95% [-0.02112, +0.00789] P(worse) 0.2278  sealed&late better True -> FAIL
+
+CH1 decision: STOP
