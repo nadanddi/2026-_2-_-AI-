@@ -1,0 +1,16 @@
+   F13 anchors 22 of 29 pass-2 training days
+   F47 anchors 18 of 27 pass-2 training days
+(a) TEST days: corr(season map, weather calendar) 0.973; spearman 0.966
+    season->calendar scale from pass-1 training days: season = 1.32*cal + 15.8; test |cal_hat - cal| median 5.5, max 37.9
+farm
+F13    [(185, 14, 14.0), (186, 17, 16.0), (187, 19, 1...
+F47    [(183, 12, 7.0), (184, 15, 11.0), (185, 17, 15...
+
+(b) DIAG10 breakdown (seed mean): base -> season
+  F13             rows  4320  0.2050 -> 0.1740
+  F47             rows  4320  0.2488 -> 0.2097
+  high EC>=1.2    rows   624  0.6274 -> 0.5665
+  rest            rows  8016  0.1593 -> 0.1227
+  late & cal<70   rows   432  0.4126 -> 0.0790
+  late & cal>=70  rows   672  0.3922 -> 0.3398
+  early           rows  7536  0.1900 -> 0.1787

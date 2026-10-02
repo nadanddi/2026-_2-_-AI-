@@ -57,7 +57,10 @@ def main():
         rec.append(frame)
         print("%s/%d done" % (name, i), flush=True)
     N = pd.concat(rec, ignore_index=True)
-    o = oof.merge(N, on=["row_id", "validator", "validation_fold", "farm", "day", "hour", "sub_ec"], how="inner")
+    N.to_csv(os.path.join(env.LOCAL, "ec2_CW1_et_only.csv"), index=False)
+    # execution fix (no metric seen): merge on ids only; float labels differ after the CSV round trip
+    o = oof.merge(N[["row_id", "validator", "validation_fold"] + ["etw_%d" % s for s in SEEDS]],
+                  on=["row_id", "validator", "validation_fold"], how="inner")
     assert len(o) == len(oof), (len(o), len(oof))
     for s in SEEDS:
         o["cw_%d" % s] = o["v2_%d" % s] + 0.48 * (o["etw_%d" % s] - o["full_et_%d" % s])
