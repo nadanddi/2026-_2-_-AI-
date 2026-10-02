@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "method": "independent csv ID sets + integer subtraction + sorted quantile",
+  "targets": [
+    "TEMP",
+    "EC"
+  ],
+  "rows": 1440,
+  "days": 60,
+  "median_past_gap": 5,
+  "p90_past_gap": 10,
+  "test_targets_read": false,
+  "test_values_used": false
+}
