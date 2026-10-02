@@ -1,0 +1,44 @@
+  reproduction seed 7: max |R3 - stored r3| 9.99e-16
+  reproduction seed 101: max |R3 - stored r3| 3.33e-16
+  reproduction seed 2024: max |R3 - stored r3| 3.33e-16
+DIAG10/0 done
+DIAG10/1 done
+DIAG10/2 done
+DIAG10/3 done
+DIAG10/4 done
+DIAG10/5 done
+DIAG10/6 done
+DIAG10/7 done
+DIAG10/8 done
+DIAG10/9 done
+A/0 done
+A/1 done
+A/2 done
+A/3 done
+A/4 done
+B/0 done
+B/1 done
+B/2 done
+B/3 done
+B/4 done
+EXT10/0 done
+EXT12/0 done
+
+[DC5 R3 + season (no TabPFN) vs v2] pooled RMSE v2 -> candidate (relative %)
+  DIAG10 s7 0.2141->0.1877 (-12.35%)  s101 0.2145->0.1885 (-12.12%)  s2024 0.2135->0.1885 (-11.68%)
+  A      s7 0.2297->0.2209 (-3.83%)  s101 0.2313->0.2228 (-3.67%)  s2024 0.2304->0.2223 (-3.52%)
+  B      s7 0.2193->0.2036 (-7.13%)  s101 0.2176->0.2035 (-6.51%)  s2024 0.2198->0.2034 (-7.48%)
+  EXT10  s7 0.4152->0.4084 (-1.64%)  s101 0.4126->0.4134 (+0.20%)  s2024 0.4148->0.4115 (-0.79%)
+  EXT12  s7 0.4155->0.4112 (-1.04%)  s101 0.4161->0.4095 (-1.59%)  s2024 0.4170->0.4068 (-2.45%)
+  DIAG10 P(worse) by seed [0.0114, 0.0107, 0.0151] (threshold 0.0250)
+  DIAG10 late>=179  v2 0.3835 -> 0.2681
+  DIAG10 sealed     v2 0.4269 -> 0.3799
+  DIAG10 early      v2 0.1760 -> 0.1735
+  -> rule (15 cells + P): FAIL | descriptive 3-validator view (no EXT): pass
+
+also vs stored R3 (r3_s), DIAG10 / late:
+  seed 7: DIAG10 r3 0.2166 -> r3s 0.1877 | late r3 0.3775 -> r3s 0.2668
+  seed 101: DIAG10 r3 0.2176 -> r3s 0.1885 | late r3 0.3720 -> r3s 0.2665
+  seed 2024: DIAG10 r3 0.2160 -> r3s 0.1885 | late r3 0.3753 -> r3s 0.2711
+
+DC5 decision: FAIL
