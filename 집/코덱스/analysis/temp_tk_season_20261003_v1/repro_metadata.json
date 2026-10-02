@@ -1,0 +1,31 @@
+{
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "tabpfn": "9.0.0",
+    "torch": "2.14.0+cu130"
+  },
+  "checkpoint_file": "tabpfn-v2-regressor.ckpt",
+  "checkpoint_sha256": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736",
+  "checkpoint_bytes": 44390977,
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "precommit": "b730e80",
+  "raw_hashes": {
+    "공용\\대회자료\\정형데이터\\참가자_배포\\sample_submission.csv": "a5a6777a6ceab18eb6a61215ae1399eb35b22b62622c3c3a0469f39df84c109f",
+    "공용\\대회자료\\정형데이터\\참가자_배포\\test_X.csv": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad",
+    "공용\\대회자료\\정형데이터\\참가자_배포\\train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "공용\\대회자료\\정형데이터\\참가자_배포\\train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9"
+  },
+  "baseline_cache_hashes": {
+    "temp_mask_v1_oof.npz": "e687c34b67d773a7ab57652697f00dc7d652548f21d6678308d0eb966b4b67bb",
+    "web_tabpfn_v2_temp_DIAG10.npy": "913597dcef83191ad72506b7fde5727f517b5d1e2a326c90a2da8eb82ba8c16b",
+    "web_tabpfn_v6_temp_DIAG10.npy": "487c028b7d7e82b0197534e6ea7866258c60a7df68edcf285a04d46ab6b1e50b",
+    "web_tabpfn_v2_temp_EXT10.npy": "2e86f76dbacec7b0c9cf69a387198b92f2e8841a284c353ac2dec64ebd9238bf",
+    "web_tabpfn_v6_temp_EXT10.npy": "669be868b89034dcba8464b97d4f416daa44fd4db565b1bd4b1a65f5d2b37b28",
+    "web_tabpfn_v2_temp_EXT12.npy": "40eddcf374c0f207ff32ff93f696bab929b233aac808700f3c47c24d2ef76ba2",
+    "web_tabpfn_v6_temp_EXT12.npy": "f7248b16e4c6801991b182c019703ffb40190bb441f1edd9eef17a7bb67e140c"
+  }
+}
