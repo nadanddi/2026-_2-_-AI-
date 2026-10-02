@@ -1,0 +1,46 @@
+   F13 anchors 19 of 29 pass-2 training days
+   F47 anchors 16 of 27 pass-2 training days
+DIAG10 fold 0 done
+   F13 anchors 20 of 29 pass-2 training days
+   F47 anchors 15 of 27 pass-2 training days
+DIAG10 fold 1 done
+   F13 anchors 20 of 29 pass-2 training days
+   F47 anchors 17 of 27 pass-2 training days
+DIAG10 fold 2 done
+   F13 anchors 19 of 29 pass-2 training days
+   F47 anchors 17 of 27 pass-2 training days
+DIAG10 fold 3 done
+   F13 anchors 17 of 24 pass-2 training days
+   F47 anchors 14 of 24 pass-2 training days
+DIAG10 fold 4 done
+   F13 anchors 15 of 22 pass-2 training days
+   F47 anchors 11 of 20 pass-2 training days
+DIAG10 fold 5 done
+   F13 anchors 15 of 22 pass-2 training days
+   F47 anchors 11 of 20 pass-2 training days
+DIAG10 fold 6 done
+   F13 anchors 17 of 22 pass-2 training days
+   F47 anchors 16 of 20 pass-2 training days
+DIAG10 fold 7 done
+   F13 anchors 20 of 23 pass-2 training days
+   F47 anchors 17 of 21 pass-2 training days
+DIAG10 fold 8 done
+   F13 anchors 15 of 24 pass-2 training days
+   F47 anchors 11 of 22 pass-2 training days
+DIAG10 fold 9 done
+   F13 anchors 17 of 21 pass-2 training days
+   F47 anchors 13 of 15 pass-2 training days
+EXT10 fold 0 done
+   F13 anchors 13 of 15 pass-2 training days
+   F47 anchors 4 of 7 pass-2 training days
+EXT12 fold 0 done
+PFN coverage (non-NaN) by validator: {'DIAG10': 1.0, 'EXT10': 1.0, 'EXT12': 1.0}
+
+W30G form: BASE -> SEAS
+  DIAG10 s7 0.6586->0.6571 (-0.23%) late 0.7931->0.7796 | s101 0.6588->0.6566 (-0.32%) late 0.7893->0.7771
+  EXT10  s7 0.8460->0.8388 (-0.85%) late 0.8229->0.8202 | s101 0.8450->0.8425 (-0.30%) late 0.8352->0.8332
+  EXT12  s7 0.8099->0.8160 (+0.75%) late 0.8775->0.8960 | s101 0.8134->0.8216 (+1.01%) late 0.8772->0.8940
+  DIAG10 late&cal<70: 0.8994 -> 0.8799
+  DIAG10 P(worse) by seed: [0.189, 0.097]
+
+TC2a decision: FAIL
