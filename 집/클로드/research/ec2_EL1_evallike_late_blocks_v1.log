@@ -1,0 +1,19 @@
+eval-like folds: 10 [('F13', 179), ('F13', 195), ('F13', 212), ('F13', 218), ('F13', 242), ('F47', 179), ('F47', 194), ('F47', 212), ('F47', 230), ('F47', 242)]
+fold 0 done (('F13', 179), nearest training late label 13-17 days)
+fold 1 done (('F13', 195), nearest training late label 2-15 days)
+fold 2 done (('F13', 212), nearest training late label 14-16 days)
+fold 3 done (('F13', 218), nearest training late label 2-12 days)
+fold 4 done (('F13', 242), nearest training late label 9-12 days)
+fold 5 done (('F47', 179), nearest training late label 2-16 days)
+fold 6 done (('F47', 194), nearest training late label 2-6 days)
+fold 7 done (('F47', 212), nearest training late label 2-7 days)
+fold 8 done (('F47', 230), nearest training late label 2-13 days)
+fold 9 done (('F47', 242), nearest training late label 2-3 days)
+
+eval-like late hold-out (46 days)
+  seed 7: R3 0.3499  R3S 0.3051 (-12.8%) | cal<70 0.2423 -> 0.0795 | cal>=70 0.4042 -> 0.3858
+  seed 101: R3 0.3492  R3S 0.3103 (-11.2%) | cal<70 0.2371 -> 0.0797 | cal>=70 0.4053 -> 0.3925
+  seed 2024: R3 0.3510  R3S 0.3087 (-12.1%) | cal<70 0.2372 -> 0.0795 | cal>=70 0.4077 -> 0.3905
+  day-level bias (seed 7): R3 cal<70 +0.170 / cal>=70 -0.005 | R3S -0.012 / -0.092
+
+EL1 verdict: survives
