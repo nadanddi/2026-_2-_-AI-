@@ -1,0 +1,1 @@
+실행 보정: run.py는 첫 GUARD fold에서 하루 학습표의 set_index가 day 열을 제거하여 H1 적합 전에 중단됐다. 검증 예측과 fold 캐시는 생성되지 않았다. run_v2.py는 drop=False로 day 열을 보존하고 실행 소스 해시 대상을 바꾼다. 모델, 데이터, 검증, 채택 기준은 PROTOCOL.md와 동일하다.
