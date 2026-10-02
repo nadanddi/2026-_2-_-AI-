@@ -279,3 +279,9 @@
 - 구현:손실v1선택자wrapper오해로세안모두D1실행무효,전체캐시보존판정제외. corrected run_v3/group_loss_model_v2는새local v2만사용. 원코드/기준변경없음. ZERO원CODEX차1.93e-9,수치미분≤5.36e-11.
 - 검산:네안rawlabel/fsum/혼합/bootstrap PASS,raw MASK첫DIAG726실제재학습예측차0. 농장/시간/전후반/level/shape및fold표준편차보고. 반복CV·독립홀드아웃아님·TFglobalrank그대로·시드독립증거부족한계명시.
 - 진행중없음·worker종료·제출파일/평가test예측/EC잠금열람0. 보고서 집/코덱스/analysis/temp_group_loss_20261003_v1/결과보고서_v1.md. 다음동기화대상local/temp_group_loss_20261003_v2 및temp_farm_physics_20261003_v1. 무효v1은결론에재사용금지.
+
+### 2026-10-03 집·코덱스 — 온도 학습·계산·피처·추론4안 완료
+- 현재: W30G유지·새후보없음. 사용자직접요청을CODEX구성원에A1내부OOF잔차학습/B1공기추종Ridge계산/C1온도상대차6피처/I1내부OOF잔차계수추론각각적용. 사전eb84db8,기존BASE/PFN/게이트/혼합고정.
+- 결과: A1 DIAG+.048~+.053%(4/12개선),B1+.186~+.200%(8/12),C1−.036~−.035%(8/12),I1−.016~−.013%(4/12). B1 EXT10/12개선이나DIAG악화;C1 EXT12+.485~+.530%;I1 EXT10/12악화. 누적k15기준전부기각,국소개선으로교체하지않음.
+- 검산: 원24조건CODEX재현차0,내부/외부날짜독립집합·gamma독립분자분모/추론식 PASS,rawlabels/fsum/혼합/bootstrap PASS,raw첫DIAG726네안재학습차0. gamma .947067~1.125071. 보고서 집/코덱스/analysis/temp_pipeline_20261003_v1/결과보고서_v1.md.
+- 진행중없음·전worker종료. 제출/test평가예측/EC잠금0. 다음동기화local/temp_pipeline_20261003_v1. 반복CV/TFglobalrank/시드실질동일한계명시,네구체안실패이상의불가능성주장금지.
