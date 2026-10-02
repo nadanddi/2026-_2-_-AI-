@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "rows": 83160,
+  "improved_cells": 14,
+  "total_cells": 15,
+  "scores": [
+    {
+      "validator": "DIAG10",
+      "seed": 7,
+      "day_et": 0.22845259174810714,
+      "season_et": 0.19104368025202143,
+      "improved": true,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 101,
+      "day_et": 0.22793687549868097,
+      "season_et": 0.19353601375777518,
+      "improved": true,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 2024,
+      "day_et": 0.22746345080633634,
+      "season_et": 0.19353931565118332,
+      "improved": true,
+      "n": 8640
+    },
+    {
+      "validator": "A",
+      "seed": 7,
+      "day_et": 0.2444845594627883,
+      "season_et": 0.22787444873638626,
+      "improved": true,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "seed": 101,
+      "day_et": 0.24403836201362727,
+      "season_et": 0.22940900791757615,
+      "improved": true,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "seed": 2024,
+      "day_et": 0.24293877523933802,
+      "season_et": 0.23085431552186259,
+      "improved": true,
+      "n": 6336
+    },
+    {
+      "validator": "B",
+      "seed": 7,
+      "day_et": 0.2300175453609672,
+      "season_et": 0.2036833036592084,
+      "improved": true,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "seed": 101,
+      "day_et": 0.22686849352734909,
+      "season_et": 0.20330965454001307,
+      "improved": true,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "seed": 2024,
+      "day_et": 0.23126575833589594,
+      "season_et": 0.20383300155089143,
+      "improved": true,
+      "n": 6312
+    },
+    {
+      "validator": "EXT10",
+      "seed": 7,
+      "day_et": 0.4202908029304302,
+      "season_et": 0.41125106932988953,
+      "improved": true,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "seed": 101,
+      "day_et": 0.4184780423718207,
+      "season_et": 0.41864391753508057,
+      "improved": false,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "seed": 2024,
+      "day_et": 0.42335008354978554,
+      "season_et": 0.41591844900916725,
+      "improved": true,
+      "n": 1800
+    },
+    {
+      "validator": "EXT12",
+      "seed": 7,
+      "day_et": 0.4242581955845633,
+      "season_et": 0.41090372115937984,
+      "improved": true,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "seed": 101,
+      "day_et": 0.4248656498385418,
+      "season_et": 0.4108880582811854,
+      "improved": true,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "seed": 2024,
+      "day_et": 0.4259425173655915,
+      "season_et": 0.4075915196045539,
+      "improved": true,
+      "n": 4632
+    }
+  ],
+  "maximum_source_ET_prediction_gap": 4.440892098500626e-16,
+  "OOF_sha256": "acb1c473fce2290748146a938c1d5161f217d7e38c810f49fe6b9dd43983fa7c",
+  "replication_only_not_new_adoption": true,
+  "locked_labels_opened": false
+}
