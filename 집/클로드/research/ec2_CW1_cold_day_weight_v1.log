@@ -1,0 +1,40 @@
+cold training-candidate days: 70 of 360
+  reproduction seed 7: max |ET - stored full_et| 2.22e-16
+  reproduction seed 101: max |ET - stored full_et| 2.22e-16
+  reproduction seed 2024: max |ET - stored full_et| 2.22e-16
+DIAG10/0 done
+DIAG10/1 done
+DIAG10/2 done
+DIAG10/3 done
+DIAG10/4 done
+DIAG10/5 done
+DIAG10/6 done
+DIAG10/7 done
+DIAG10/8 done
+DIAG10/9 done
+A/0 done
+A/1 done
+A/2 done
+A/3 done
+A/4 done
+B/0 done
+B/1 done
+B/2 done
+B/3 done
+B/4 done
+EXT10/0 done
+EXT12/0 done
+
+[CW1 cold-day ET weight x2 (6.85)] pooled RMSE v2 -> candidate (relative %)
+  DIAG10 s7 0.2141->0.2116 (-1.21%)  s101 0.2145->0.2130 (-0.69%)  s2024 0.2135->0.2112 (-1.06%)
+  A      s7 0.2297->0.2267 (-1.28%)  s101 0.2313->0.2302 (-0.46%)  s2024 0.2304->0.2283 (-0.92%)
+  B      s7 0.2193->0.2181 (-0.53%)  s101 0.2176->0.2176 (-0.00%)  s2024 0.2198->0.2177 (-0.96%)
+  EXT10  s7 0.4152->0.4157 (+0.13%)  s101 0.4126->0.4145 (+0.46%)  s2024 0.4148->0.4147 (-0.00%)
+  EXT12  s7 0.4155->0.4155 (+0.00%)  s101 0.4161->0.4161 (+0.00%)  s2024 0.4170->0.4170 (+0.00%)
+  DIAG10 P(worse) by seed [0.0001, 0.0546, 0.0021] (threshold 0.0250)
+  DIAG10 late>=179  v2 0.3835 -> 0.3784
+  DIAG10 sealed     v2 0.4269 -> 0.4230
+  DIAG10 early      v2 0.1760 -> 0.1747
+  -> rule (15 cells + P): FAIL | descriptive 3-validator view (no EXT): fail
+
+CW1 decision: FAIL
