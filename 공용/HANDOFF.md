@@ -285,3 +285,9 @@
 - 결과: A1 DIAG+.048~+.053%(4/12개선),B1+.186~+.200%(8/12),C1−.036~−.035%(8/12),I1−.016~−.013%(4/12). B1 EXT10/12개선이나DIAG악화;C1 EXT12+.485~+.530%;I1 EXT10/12악화. 누적k15기준전부기각,국소개선으로교체하지않음.
 - 검산: 원24조건CODEX재현차0,내부/외부날짜독립집합·gamma독립분자분모/추론식 PASS,rawlabels/fsum/혼합/bootstrap PASS,raw첫DIAG726네안재학습차0. gamma .947067~1.125071. 보고서 집/코덱스/analysis/temp_pipeline_20261003_v1/결과보고서_v1.md.
 - 진행중없음·전worker종료. 제출/test평가예측/EC잠금0. 다음동기화local/temp_pipeline_20261003_v1. 반복CV/TFglobalrank/시드실질동일한계명시,네구체안실패이상의불가능성주장금지.
+
+### 2026-10-03 집·코덱스 — 조건별 혼합비중 G1 완료
+- 사용자제안대로12현재/과거조건에서행별BASE/CODEX비중을학습(main8b10e32). PFN .3g/저온보호는유지,3전문가전체비중학습아님. outertrain내부3fold에서BASE전체/CODEX72적합묶음OOF신규생성해메타정답간접누수차단.
+- 전12칸악화:DIAG+.323~+.342%,EXT10+.139~+.173%,EXT12+.350~+.450%,p.89445~.90835,k16기준실패. G1기각·원W30G유지. 학습목표가PFN제외normalizedpool인한계,조건별혼합전체불가능성아님.
+- 검산PASS: rawlabels/fsum/원3멤버가중합/bootstrap·내부외부분할·rawfeature/design재구성·closed-form계수差3.47e-16·콜드불변/가중치합1. 첫DIAG726모든3inner전문가raw재학습차0.
+- 진행중없음/worker종료,test예측/제출/EC잠금0. 보고서 집/코덱스/analysis/temp_conditional_gate_20261003_v1/결과보고서_v1.md. 다음동기화local동명폴더. PFN까지학습한조건gate라고인용금지.
