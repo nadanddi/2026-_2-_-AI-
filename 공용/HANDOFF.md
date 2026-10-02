@@ -295,3 +295,8 @@
 ### 온도 개선 (2026-10-03 · 집 · 클로드)
 - 사용자: 팀원 대신 우리가 W30G보다 나은 온도 모델을 만든다. 코덱스 분담 요청서 `집/클로드/research/Codex_요청_온도개선_계절지표_분담_2026-10-03.md`, 보고서 `보고서_EC계절지표와_온도개선계획_2026-10-03.md`.
 - TC1(C6.167): 온도 구성원에 계절 지표 → 후반 −2.8~−3.0%, EXT12 MASK +2.3% → STOP(근소). 온도는 `day` 오독 피해가 작음.
+
+### 2026-10-03 집·코덱스 — 클로드 분담 TK1–TK3 실행 중
+- 요청서 직접 실행 지시, main b730e80 사전. TK1 완료: 기존 W30G 후반56일 RMSE .793103, F13 .467192/F47 1.034496, F47 level SSE79.19%. 42셀 fsum 검산PASS. 집/코덱스/analysis/temp_tk_season_20261003_v1/TK1_오차지도_v2.md 참고(초안 밀폐BASE 숫자 정정, v1인용금지).
+- TK3 완료: 독립PAV+원7회차 BASE7/101·CODEX726 재학습, TC1/TC2 구성원 및 원PFN혼합 행예측 차≤1.0658e-14. 12혼합셀 fsum/bootstrap PASS. EXT12+.754~+1.066%, DIAG p .09565~.18895로TC2FAIL확인. 실제BASE day_hinge0개, 요청서와차이. TK3_독립재현.md.
+- TK2 진행중: paired float32CUDA, PFN문맥1–8/17–24, 2000행/4estimators, DIAG10/EXT10/EXT12×2seed×2문맥·k18, EL1후반12batch 보강. 모든BASE/CODEX24fold 재학습완료. local/temp_tk_season_20261003_v1 재개가능. GPUattention동등연산probe중; 실패시원tk2_pfn.py재개. finish_pipeline.py는pfn_done/members_done표지후analyze/verify자동실행대기. 아직새온도후보판정없음. TK4별도지시전생성금지.

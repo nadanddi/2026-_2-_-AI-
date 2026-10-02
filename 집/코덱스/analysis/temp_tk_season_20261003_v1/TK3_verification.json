@@ -1,0 +1,120 @@
+{
+  "status": "PASS",
+  "fsum_scores": [
+    {
+      "validator": "DIAG10",
+      "seed": 7,
+      "context": "1-8",
+      "n": 9600,
+      "baseline": 0.6585665044014377,
+      "candidate": 0.6570766572369454,
+      "delta_pct": -0.2262257728771644
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 7,
+      "context": "17-24",
+      "n": 9600,
+      "baseline": 0.6605670404396278,
+      "candidate": 0.659024346478316,
+      "delta_pct": -0.2335408621485402
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 101,
+      "context": "1-8",
+      "n": 9600,
+      "baseline": 0.6587854070657103,
+      "candidate": 0.656647362957136,
+      "delta_pct": -0.3245433316589885
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 101,
+      "context": "17-24",
+      "n": 9600,
+      "baseline": 0.6608244851703937,
+      "candidate": 0.6586564426293897,
+      "delta_pct": -0.3280814481995131
+    },
+    {
+      "validator": "EXT10",
+      "seed": 7,
+      "context": "1-8",
+      "n": 2040,
+      "baseline": 0.8460110613423801,
+      "candidate": 0.8387993705608504,
+      "delta_pct": -0.8524345733833316
+    },
+    {
+      "validator": "EXT10",
+      "seed": 7,
+      "context": "17-24",
+      "n": 2040,
+      "baseline": 0.8448611425926357,
+      "candidate": 0.8382018510072271,
+      "delta_pct": -0.7882113698557736
+    },
+    {
+      "validator": "EXT10",
+      "seed": 101,
+      "context": "1-8",
+      "n": 2040,
+      "baseline": 0.8449746421132476,
+      "candidate": 0.8424719179294956,
+      "delta_pct": -0.29618926521780553
+    },
+    {
+      "validator": "EXT10",
+      "seed": 101,
+      "context": "17-24",
+      "n": 2040,
+      "baseline": 0.8445072738233488,
+      "candidate": 0.8425833004464345,
+      "delta_pct": -0.2278220018406607
+    },
+    {
+      "validator": "EXT12",
+      "seed": 7,
+      "context": "1-8",
+      "n": 5256,
+      "baseline": 0.8098664976791258,
+      "candidate": 0.8159709785139803,
+      "delta_pct": 0.7537638428492199
+    },
+    {
+      "validator": "EXT12",
+      "seed": 7,
+      "context": "17-24",
+      "n": 5256,
+      "baseline": 0.8104227213779621,
+      "candidate": 0.816937864014191,
+      "delta_pct": 0.80391904920325
+    },
+    {
+      "validator": "EXT12",
+      "seed": 101,
+      "context": "1-8",
+      "n": 5256,
+      "baseline": 0.8134254844454095,
+      "candidate": 0.8216493537353968,
+      "delta_pct": 1.01101692130956
+    },
+    {
+      "validator": "EXT12",
+      "seed": 101,
+      "context": "17-24",
+      "n": 5256,
+      "baseline": 0.8138706712423998,
+      "candidate": 0.822543345658298,
+      "delta_pct": 1.065608421871156
+    }
+  ],
+  "reproduction_maxdiff": 1.0658141036401503e-14,
+  "source_hashes": {
+    "집\\클로드\\research\\temp_TC1_season_members_v1.py": "73958356106c5a88a9988d5a54114fee1deca9de2ce97821f9185c750a786066",
+    "집\\클로드\\research\\temp_TC2_w30g_season_v1.py": "207e62470845894ed7c00f287562299ada323ec6675f77ba15781b96196807e2",
+    "집\\코덱스\\analysis\\ec_submission10_season_20261002_v1\\season.py": "7d58feeb6a0e7653796a6775f762b659cab3e64078b299d36b52ae69faeff162",
+    "집\\코덱스\\analysis\\temp_tk_season_20261003_v1\\tk3_reproduce.py": "af30aa89a92a169d081c8d1c96859d9627bf3ae6a4e8529e549958b459041015"
+  }
+}
