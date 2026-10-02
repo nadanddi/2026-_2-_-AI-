@@ -1,0 +1,110 @@
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+DIAG10/0 done
+   F13 anchors 14 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+DIAG10/1 done
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+DIAG10/2 done
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+DIAG10/3 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 9 of 16 pass-2 training days
+DIAG10/4 done
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+DIAG10/5 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 6 of 11 pass-2 training days
+DIAG10/6 done
+   F13 anchors 12 of 17 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+DIAG10/7 done
+   F13 anchors 14 of 17 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/8 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+DIAG10/9 done
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+A/0 done
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+A/1 done
+   F13 anchors 10 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+A/2 done
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 9 of 17 pass-2 training days
+A/3 done
+   F13 anchors 11 of 18 pass-2 training days
+   F47 anchors 7 of 16 pass-2 training days
+A/4 done
+   F13 anchors 15 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/0 done
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+B/1 done
+   F13 anchors 15 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+B/2 done
+   F13 anchors 11 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/3 done
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/4 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 9 pass-2 training days
+EXT10/0 done
+   F13 anchors 8 of 10 pass-2 training days
+   F47: <2 exact-twin anchors -> nearest-match fallback (DC3 rule)
+   F47 anchors 2 of 2 pass-2 training days
+EXT12/0 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/0 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/1 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/2 done
+   F13 anchors 14 of 15 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/3 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/4 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 13 pass-2 training days
+EL1/5 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+EL1/6 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 13 pass-2 training days
+EL1/7 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 10 pass-2 training days
+EL1/8 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+EL1/9 done
+
+pooled RMSE R3S -> R3S + two-stage day correction (lambda .5)
+  DIAG10 s7 0.1877->0.1851 (-1.4%)  s101 0.1885->0.1855 (-1.6%)  s2024 0.1885->0.1863 (-1.2%)
+  A      s7 0.2209->0.2225 (+0.7%)  s101 0.2228->0.2226 (-0.1%)  s2024 0.2223->0.2242 (+0.9%)
+  B      s7 0.2036->0.2022 (-0.7%)  s101 0.2035->0.2015 (-1.0%)  s2024 0.2034->0.2022 (-0.6%)
+  EXT10  s7 0.4084->0.4001 (-2.0%)  s101 0.4134->0.4027 (-2.6%)  s2024 0.4115->0.4003 (-2.7%)
+  EXT12  s7 0.4112->0.4069 (-1.0%)  s101 0.4095->0.4084 (-0.3%)  s2024 0.4068->0.4016 (-1.3%)
+  EL1    s7 0.3051->0.2944 (-3.5%)  s101 0.3103->0.2983 (-3.9%)  s2024 0.3087->0.2974 (-3.7%)
+  DIAG10 late R3S 0.2681 -> TS 0.2600
+  DM alone DIAG10: [0.1959, 0.1956, 0.1977]
+  DIAG10 P(worse) by seed: [0.1964, 0.1824, 0.2316]
+
+TS1 decision: FAIL (rule False, EL1 True)
