@@ -1,0 +1,200 @@
+{
+  "independent_season": {
+    "status": "PASS",
+    "source_sha256": "15d25a8280d45980e15afab1b6675505104474f8ac73a94e288647e60d79b1d5",
+    "method": "Claude pivot weather vectors + sklearn IsotonicRegression vs independent PAV",
+    "training_days": 400,
+    "evaluation_days": 60,
+    "training_max_difference": 0.0,
+    "evaluation_max_difference": 0.0
+  },
+  "public": {
+    "status": "PASS",
+    "source_sha256": "a3c375e3bd8926598ece14f218de505d120ccad2baba92ae4fa9093693de92fa",
+    "method": "NumPy squared loss and independent math.fsum",
+    "cells": [
+      {
+        "validator": "A",
+        "seed": 7,
+        "n": 6336,
+        "day_rmse": 0.22967314480313122,
+        "season_rmse": 0.2146852274694303
+      },
+      {
+        "validator": "A",
+        "seed": 101,
+        "n": 6336,
+        "day_rmse": 0.2312941205304246,
+        "season_rmse": 0.21624582241083695
+      },
+      {
+        "validator": "A",
+        "seed": 2024,
+        "n": 6336,
+        "day_rmse": 0.23040142796165927,
+        "season_rmse": 0.21587226460361367
+      },
+      {
+        "validator": "B",
+        "seed": 7,
+        "n": 6312,
+        "day_rmse": 0.21927661312871774,
+        "season_rmse": 0.20001294637985037
+      },
+      {
+        "validator": "B",
+        "seed": 101,
+        "n": 6312,
+        "day_rmse": 0.21761494672221784,
+        "season_rmse": 0.19978200327411105
+      },
+      {
+        "validator": "B",
+        "seed": 2024,
+        "n": 6312,
+        "day_rmse": 0.21981572391001564,
+        "season_rmse": 0.199704936653692
+      },
+      {
+        "validator": "DIAG10",
+        "seed": 7,
+        "n": 8640,
+        "day_rmse": 0.2141444801906144,
+        "season_rmse": 0.18112483710525534
+      },
+      {
+        "validator": "DIAG10",
+        "seed": 101,
+        "n": 8640,
+        "day_rmse": 0.21452716504094926,
+        "season_rmse": 0.18167907699926716
+      },
+      {
+        "validator": "DIAG10",
+        "seed": 2024,
+        "n": 8640,
+        "day_rmse": 0.21346334943407236,
+        "season_rmse": 0.18172772536614717
+      },
+      {
+        "validator": "EXT10",
+        "seed": 7,
+        "n": 1800,
+        "day_rmse": 0.41516447332991585,
+        "season_rmse": 0.3967806227013143
+      },
+      {
+        "validator": "EXT10",
+        "seed": 101,
+        "n": 1800,
+        "day_rmse": 0.4125695883034238,
+        "season_rmse": 0.40006701351859786
+      },
+      {
+        "validator": "EXT10",
+        "seed": 2024,
+        "n": 1800,
+        "day_rmse": 0.4147632611091927,
+        "season_rmse": 0.39915814533792693
+      },
+      {
+        "validator": "EXT12",
+        "seed": 7,
+        "n": 4632,
+        "day_rmse": 0.4154779004631347,
+        "season_rmse": 0.4141697247001226
+      },
+      {
+        "validator": "EXT12",
+        "seed": 101,
+        "n": 4632,
+        "day_rmse": 0.4161324000927995,
+        "season_rmse": 0.41266052021081456
+      },
+      {
+        "validator": "EXT12",
+        "seed": 2024,
+        "n": 4632,
+        "day_rmse": 0.416967003059605,
+        "season_rmse": 0.41057611429228097
+      }
+    ],
+    "ensemble": [
+      {
+        "validator": "A",
+        "n": 6336,
+        "day_rmse": 0.23030200888117217,
+        "season_rmse": 0.21544878041617413
+      },
+      {
+        "validator": "B",
+        "n": 6312,
+        "day_rmse": 0.218769428749023,
+        "season_rmse": 0.1997004896764874
+      },
+      {
+        "validator": "DIAG10",
+        "n": 8640,
+        "day_rmse": 0.21387369361945424,
+        "season_rmse": 0.18141265326219796
+      },
+      {
+        "validator": "EXT10",
+        "n": 1800,
+        "day_rmse": 0.4140908274876331,
+        "season_rmse": 0.3984884852971144
+      },
+      {
+        "validator": "EXT12",
+        "n": 4632,
+        "day_rmse": 0.41612807820473807,
+        "season_rmse": 0.41239927750849914
+      }
+    ],
+    "segments": [
+      {
+        "segment": "전반(day<179)",
+        "n": 7536,
+        "days": 314,
+        "day_rmse": 0.17586385344491032,
+        "season_rmse": 0.1676877415844249
+      },
+      {
+        "segment": "후반(day>=179)",
+        "n": 1104,
+        "days": 46,
+        "day_rmse": 0.3832266511293448,
+        "season_rmse": 0.25615790689210843
+      }
+    ],
+    "bootstrap_verified_record": [
+      {
+        "seed": 7,
+        "p_worse": 0.004,
+        "ci_low": -0.02820082043721774,
+        "ci_high": -0.001656000746992768
+      },
+      {
+        "seed": 101,
+        "p_worse": 0.0029,
+        "ci_low": -0.02767685493046956,
+        "ci_high": -0.001976670818417662
+      },
+      {
+        "seed": 2024,
+        "p_worse": 0.00465,
+        "ci_low": -0.02757151818484724,
+        "ci_high": -0.0012858568175378021
+      }
+    ],
+    "lock_once_record": {
+      "rows": 960,
+      "day_rmse": 0.23553698938203826,
+      "season_rmse": 0.1758489107271772,
+      "delta_rmse": -0.05968807865486106,
+      "record_sha256": "3307796f13e9197cc59709e5b0733fa7948562816d5a617dfac6992aab41a217",
+      "prediction_hashes_verified": true,
+      "rescored": false
+    }
+  }
+}

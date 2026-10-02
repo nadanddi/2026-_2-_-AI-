@@ -1,0 +1,2004 @@
+{
+  "scores": [
+    {
+      "validator": "A",
+      "seed": 7,
+      "arm": "v2",
+      "rmse": 0.22967314480313122,
+      "fold_rmse_mean": 0.2236706978606776,
+      "fold_rmse_std": 0.06278851794710187,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "seed": 7,
+      "arm": "season_v2",
+      "rmse": 0.2146852274694303,
+      "delta_rmse": -0.014987917333700917,
+      "delta_pct": -6.525759616583859,
+      "fold_rmse_mean": 0.20852406045719066,
+      "fold_rmse_std": 0.060876058972367836,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "seed": 101,
+      "arm": "v2",
+      "rmse": 0.2312941205304246,
+      "fold_rmse_mean": 0.2255945437098247,
+      "fold_rmse_std": 0.061580714901152994,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "seed": 101,
+      "arm": "season_v2",
+      "rmse": 0.21624582241083695,
+      "delta_rmse": -0.01504829811958766,
+      "delta_pct": -6.5061308454696265,
+      "fold_rmse_mean": 0.2105681481849974,
+      "fold_rmse_std": 0.058906111852241066,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "seed": 2024,
+      "arm": "v2",
+      "rmse": 0.23040142796165933,
+      "fold_rmse_mean": 0.224365908459649,
+      "fold_rmse_std": 0.06303729540567067,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "seed": 2024,
+      "arm": "season_v2",
+      "rmse": 0.21587226460361367,
+      "delta_rmse": -0.01452916335804566,
+      "delta_pct": -6.306021402117102,
+      "fold_rmse_mean": 0.20986899626089142,
+      "fold_rmse_std": 0.06035914154734914,
+      "n": 6336
+    },
+    {
+      "validator": "B",
+      "seed": 7,
+      "arm": "v2",
+      "rmse": 0.21927661312871774,
+      "fold_rmse_mean": 0.20749929834801537,
+      "fold_rmse_std": 0.08342875142571467,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "seed": 7,
+      "arm": "season_v2",
+      "rmse": 0.20001294637985037,
+      "delta_rmse": -0.01926366674886737,
+      "delta_pct": -8.785098635922195,
+      "fold_rmse_mean": 0.18912212271853218,
+      "fold_rmse_std": 0.07587432966941668,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "seed": 101,
+      "arm": "v2",
+      "rmse": 0.21761494672221784,
+      "fold_rmse_mean": 0.20640930171184357,
+      "fold_rmse_std": 0.08119226165791096,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "seed": 101,
+      "arm": "season_v2",
+      "rmse": 0.19978200327411105,
+      "delta_rmse": -0.01783294344810679,
+      "delta_pct": -8.194723623864986,
+      "fold_rmse_mean": 0.18926931807620284,
+      "fold_rmse_std": 0.07463162125483695,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "seed": 2024,
+      "arm": "v2",
+      "rmse": 0.21981572391001564,
+      "fold_rmse_mean": 0.2079958119220226,
+      "fold_rmse_std": 0.0836070970755882,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "seed": 2024,
+      "arm": "season_v2",
+      "rmse": 0.199704936653692,
+      "delta_rmse": -0.020110787256323648,
+      "delta_pct": -9.148930248755205,
+      "fold_rmse_mean": 0.1886816053433885,
+      "fold_rmse_std": 0.07615007544574733,
+      "n": 6312
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 7,
+      "arm": "v2",
+      "rmse": 0.2141444801906144,
+      "fold_rmse_mean": 0.20230701328285333,
+      "fold_rmse_std": 0.07641205670312848,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 7,
+      "arm": "season_v2",
+      "rmse": 0.18112483710525534,
+      "delta_rmse": -0.03301964308535907,
+      "delta_pct": -15.41932953675369,
+      "fold_rmse_mean": 0.17391679721994288,
+      "fold_rmse_std": 0.06113559236689454,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 101,
+      "arm": "v2",
+      "rmse": 0.21452716504094926,
+      "fold_rmse_mean": 0.2023537019786757,
+      "fold_rmse_std": 0.0776186421075218,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 101,
+      "arm": "season_v2",
+      "rmse": 0.18167907699926716,
+      "delta_rmse": -0.0328480880416821,
+      "delta_pct": -15.31185481121331,
+      "fold_rmse_mean": 0.1738966935750589,
+      "fold_rmse_std": 0.06305122585341276,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 2024,
+      "arm": "v2",
+      "rmse": 0.21346334943407236,
+      "fold_rmse_mean": 0.20120665190768966,
+      "fold_rmse_std": 0.07817348145516441,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 2024,
+      "arm": "season_v2",
+      "rmse": 0.18172772536614717,
+      "delta_rmse": -0.03173562406792518,
+      "delta_pct": -14.867013073701752,
+      "fold_rmse_mean": 0.17404176565820043,
+      "fold_rmse_std": 0.06243990578504043,
+      "n": 8640
+    },
+    {
+      "validator": "EXT10",
+      "seed": 7,
+      "arm": "v2",
+      "rmse": 0.41516447332991585,
+      "fold_rmse_mean": 0.41516447332991585,
+      "fold_rmse_std": null,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "seed": 7,
+      "arm": "season_v2",
+      "rmse": 0.3967806227013143,
+      "delta_rmse": -0.01838385062860154,
+      "delta_pct": -4.42808857924425,
+      "fold_rmse_mean": 0.3967806227013143,
+      "fold_rmse_std": null,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "seed": 101,
+      "arm": "v2",
+      "rmse": 0.4125695883034238,
+      "fold_rmse_mean": 0.4125695883034238,
+      "fold_rmse_std": null,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "seed": 101,
+      "arm": "season_v2",
+      "rmse": 0.40006701351859786,
+      "delta_rmse": -0.012502574784825915,
+      "delta_pct": -3.0304159926666463,
+      "fold_rmse_mean": 0.40006701351859786,
+      "fold_rmse_std": null,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "seed": 2024,
+      "arm": "v2",
+      "rmse": 0.41476326110919265,
+      "fold_rmse_mean": 0.41476326110919265,
+      "fold_rmse_std": null,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "seed": 2024,
+      "arm": "season_v2",
+      "rmse": 0.399158145337927,
+      "delta_rmse": -0.015605115771265665,
+      "delta_pct": -3.7624151496767677,
+      "fold_rmse_mean": 0.399158145337927,
+      "fold_rmse_std": null,
+      "n": 1800
+    },
+    {
+      "validator": "EXT12",
+      "seed": 7,
+      "arm": "v2",
+      "rmse": 0.4154779004631347,
+      "fold_rmse_mean": 0.4154779004631347,
+      "fold_rmse_std": null,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "seed": 7,
+      "arm": "season_v2",
+      "rmse": 0.4141697247001226,
+      "delta_rmse": -0.0013081757630121205,
+      "delta_pct": -0.3148604923520315,
+      "fold_rmse_mean": 0.4141697247001226,
+      "fold_rmse_std": null,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "seed": 101,
+      "arm": "v2",
+      "rmse": 0.4161324000927995,
+      "fold_rmse_mean": 0.4161324000927995,
+      "fold_rmse_std": null,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "seed": 101,
+      "arm": "season_v2",
+      "rmse": 0.4126605202108145,
+      "delta_rmse": -0.003471879881984996,
+      "delta_pct": -0.8343209712127098,
+      "fold_rmse_mean": 0.4126605202108145,
+      "fold_rmse_std": null,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "seed": 2024,
+      "arm": "v2",
+      "rmse": 0.416967003059605,
+      "fold_rmse_mean": 0.416967003059605,
+      "fold_rmse_std": null,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "seed": 2024,
+      "arm": "season_v2",
+      "rmse": 0.4105761142922809,
+      "delta_rmse": -0.006390888767324077,
+      "delta_pct": -1.5327085166042531,
+      "fold_rmse_mean": 0.4105761142922809,
+      "fold_rmse_std": null,
+      "n": 4632
+    }
+  ],
+  "bootstrap": [
+    {
+      "seed": 7,
+      "arm": "season_v2",
+      "n_blocks": 80,
+      "n_rows": 8640,
+      "iterations": 20000,
+      "bootstrap_seed": 918,
+      "family_k": 2,
+      "alpha": 0.0125,
+      "delta_mse": -0.01305165177970316,
+      "ci_mse_low": -0.028200820437217746,
+      "ci_mse_high": -0.001656000746992769,
+      "ci_rmse_low": -0.06318856904621371,
+      "ci_rmse_high": -0.004640098404533424,
+      "p_worse": 0.004
+    },
+    {
+      "seed": 101,
+      "arm": "season_v2",
+      "n_blocks": 80,
+      "n_rows": 8640,
+      "iterations": 20000,
+      "bootstrap_seed": 918,
+      "family_k": 2,
+      "alpha": 0.0125,
+      "delta_mse": -0.013014617521201036,
+      "ci_mse_low": -0.02767685493046957,
+      "ci_mse_high": -0.001976670818417662,
+      "ci_rmse_low": -0.0623099061665957,
+      "ci_rmse_high": -0.005567111983509914,
+      "p_worse": 0.0029
+    },
+    {
+      "seed": 2024,
+      "arm": "season_v2",
+      "n_blocks": 80,
+      "n_rows": 8640,
+      "iterations": 20000,
+      "bootstrap_seed": 918,
+      "family_k": 2,
+      "alpha": 0.0125,
+      "delta_mse": -0.01254163538485907,
+      "ci_mse_low": -0.027571518184847245,
+      "ci_mse_high": -0.0012858568175378047,
+      "ci_rmse_low": -0.061754154167134034,
+      "ci_rmse_high": -0.0037304861270595845,
+      "p_worse": 0.00465
+    }
+  ],
+  "decisions": [
+    {
+      "arm": "season_v2",
+      "improving_seed_validator_cells": 15,
+      "total_seed_validator_cells": 15,
+      "direction_pass": true,
+      "diag_bootstrap_pass": true,
+      "adopted": true,
+      "label": "검증 통과 후보",
+      "final_lock_scored": false,
+      "submission_created": false
+    }
+  ],
+  "ensemble": [
+    {
+      "validator": "A",
+      "arm": "v2",
+      "rmse": 0.23030200888117217,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "arm": "season_v2",
+      "rmse": 0.21544878041617416,
+      "n": 6336
+    },
+    {
+      "validator": "B",
+      "arm": "v2",
+      "rmse": 0.218769428749023,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "arm": "season_v2",
+      "rmse": 0.19970048967648743,
+      "n": 6312
+    },
+    {
+      "validator": "DIAG10",
+      "arm": "v2",
+      "rmse": 0.21387369361945424,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "arm": "season_v2",
+      "rmse": 0.18141265326219796,
+      "n": 8640
+    },
+    {
+      "validator": "EXT10",
+      "arm": "v2",
+      "rmse": 0.41409082748763304,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "arm": "season_v2",
+      "rmse": 0.3984884852971144,
+      "n": 1800
+    },
+    {
+      "validator": "EXT12",
+      "arm": "v2",
+      "rmse": 0.41612807820473807,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "arm": "season_v2",
+      "rmse": 0.41239927750849914,
+      "n": 4632
+    }
+  ],
+  "fixed_rule": {
+    "family_k": 2,
+    "alpha": 0.0125,
+    "seed_validator_cells": 15,
+    "bootstrap_unit": "farm-stratified fixed 5-day block",
+    "n_bootstrap": 20000
+  },
+  "independent_reproduction": [
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "seed": 7,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "seed": 101,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "seed": 2024,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "seed": 7,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 14,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "seed": 101,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 14,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "seed": 2024,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 14,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "seed": 7,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "seed": 2024,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "seed": 7,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "seed": 101,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "seed": 2024,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "seed": 7,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 9,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "seed": 101,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 9,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "seed": 2024,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 9,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "seed": 7,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 14,
+          "training_late_days": 19,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 15,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "seed": 101,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 14,
+          "training_late_days": 19,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 15,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "seed": 2024,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 14,
+          "training_late_days": 19,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 15,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "seed": 7,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 6,
+          "training_late_days": 11,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 6,
+          "training_late_days": 11,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "seed": 2024,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 6,
+          "training_late_days": 11,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "seed": 7,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 15,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 15,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "seed": 2024,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 15,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "seed": 7,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 14,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 12,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 14,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 12,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "seed": 2024,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 14,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 12,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "seed": 7,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 7,
+          "training_late_days": 12,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 7,
+          "training_late_days": 12,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "seed": 2024,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 7,
+          "training_late_days": 12,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "seed": 7,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "seed": 101,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "seed": 2024,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "seed": 7,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "seed": 2024,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "seed": 7,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 10,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 10,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "seed": 2024,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 10,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "seed": 7,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 9,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 9,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "seed": 2024,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 9,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "seed": 7,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 18,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 7,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 18,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 7,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "seed": 2024,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 18,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 7,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "seed": 7,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 15,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "seed": 101,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 15,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "seed": 2024,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 15,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "seed": 7,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "seed": 101,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "seed": 2024,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 11,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "seed": 7,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 15,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 12,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "seed": 101,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 15,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 12,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "seed": 2024,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 15,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 12,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "seed": 7,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "seed": 101,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "seed": 2024,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 11,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "seed": 7,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "seed": 2024,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 13,
+          "training_late_days": 21,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 10,
+          "training_late_days": 17,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "seed": 7,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 7,
+          "training_late_days": 9,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 7,
+          "training_late_days": 9,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "seed": 2024,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 12,
+          "training_late_days": 16,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 7,
+          "training_late_days": 9,
+          "fallback": false
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "seed": 7,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 8,
+          "training_late_days": 10,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 0,
+          "training_late_days": 2,
+          "fallback": true
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "seed": 101,
+      "ET_max_gap": 4.440892098500626e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 8,
+          "training_late_days": 10,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 0,
+          "training_late_days": 2,
+          "fallback": true
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "seed": 2024,
+      "ET_max_gap": 2.220446049250313e-16,
+      "season_checks": {
+        "F13": {
+          "exact_anchors": 8,
+          "training_late_days": 10,
+          "fallback": false
+        },
+        "F47": {
+          "exact_anchors": 0,
+          "training_late_days": 2,
+          "fallback": true
+        },
+        "checks": {
+          "source_max_difference": 0.0,
+          "query_and_future_weather_invariance": true,
+          "query_order_invariance": true
+        }
+      }
+    }
+  ],
+  "independent_verification_pending": true,
+  "final_lock_scored": false,
+  "diagnostics": [
+    {
+      "farm": "F13",
+      "late": false,
+      "n": 3744,
+      "v2": 0.15657282111678075,
+      "season_v2": 0.14309087489752093,
+      "day_r3": 0.16281539575657378,
+      "season_r3": 0.14667452719665564,
+      "day_pfn": 0.17169275399531367,
+      "season_pfn": 0.14800449158300066
+    },
+    {
+      "farm": "F13",
+      "late": true,
+      "n": 576,
+      "v2": 0.2919966431592734,
+      "season_v2": 0.25885236798536143,
+      "day_r3": 0.28595535625621854,
+      "season_r3": 0.26008373919566047,
+      "day_pfn": 0.36956215529866887,
+      "season_pfn": 0.27332923398949405
+    },
+    {
+      "farm": "F47",
+      "late": false,
+      "n": 3792,
+      "v2": 0.19302840148278452,
+      "season_v2": 0.1888560221485247,
+      "day_r3": 0.19942916006227562,
+      "season_r3": 0.19614938812777202,
+      "day_pfn": 0.18096015220118167,
+      "season_pfn": 0.17460033594929386
+    },
+    {
+      "farm": "F47",
+      "late": true,
+      "n": 528,
+      "v2": 0.4626698062459467,
+      "season_v2": 0.25318579310232964,
+      "day_r3": 0.45171274290990365,
+      "season_r3": 0.2762800645374759,
+      "day_pfn": 0.5216165158160972,
+      "season_pfn": 0.17910272965409468
+    }
+  ]
+}

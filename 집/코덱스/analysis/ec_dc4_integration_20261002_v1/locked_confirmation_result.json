@@ -1,0 +1,40 @@
+{
+  "status": "CONSUMED",
+  "script": "e5dd0def0fc277d3b8c62ac46778ee3e4ac9140502bc043acf85d07e7e947f78",
+  "protocol": "3aeba3bae9c89494fd1c5ee193037161a5d032c9cffd5febd6fc6e2292c3bee9",
+  "formula": "season_v2_ensemble_rmse < day_v2_ensemble_rmse",
+  "rows": 960,
+  "prediction_files": {
+    "day_predictions.npz": "37a415145643c444e00f6665d875a80512c7138d5560a0c7089d2751053e7ce4",
+    "season_predictions.npz": "8b0bfeab2965456083d1d2a2cc9d6758249021fa40c2312b71996858a513ab06"
+  },
+  "training_rows": 7344,
+  "training_days": 306,
+  "season_checks": {
+    "F13": {
+      "exact_anchors": 16,
+      "training_late_days": 21,
+      "fallback": false
+    },
+    "F47": {
+      "exact_anchors": 12,
+      "training_late_days": 17,
+      "fallback": false
+    },
+    "checks": {
+      "source_max_difference": 0.0,
+      "query_and_future_weather_invariance": true,
+      "query_order_invariance": true
+    }
+  },
+  "allowed_reuse": false,
+  "day_rmse": 0.23553698938203826,
+  "season_rmse": 0.1758489107271772,
+  "delta_rmse": -0.05968807865486106,
+  "locked_gate_pass": true,
+  "labels_read_once": true,
+  "n_labels": 960,
+  "independent_rmse_pass": true,
+  "candidate_adopted": false,
+  "independent_full_review_pending": true
+}

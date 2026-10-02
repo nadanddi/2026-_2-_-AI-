@@ -1,0 +1,250 @@
+{
+  "status": "PASS",
+  "scope": "Seasonal R3 component only, existing DIAG10 10 folds x 3 seeds; no new fit; no locked labels",
+  "method": "saved predictions, independent serial prefix average, math.fsum and NumPy",
+  "cells": [
+    {
+      "fold": 0,
+      "seed": 7,
+      "training_rows": 6288,
+      "validation_rows": 912,
+      "train_post_rmse": 0.05147289437875333,
+      "validation_post_rmse": 0.13952635713998235
+    },
+    {
+      "fold": 0,
+      "seed": 101,
+      "training_rows": 6288,
+      "validation_rows": 912,
+      "train_post_rmse": 0.0510284728641112,
+      "validation_post_rmse": 0.13979983282415523
+    },
+    {
+      "fold": 0,
+      "seed": 2024,
+      "training_rows": 6288,
+      "validation_rows": 912,
+      "train_post_rmse": 0.052637834500144975,
+      "validation_post_rmse": 0.138915072432058
+    },
+    {
+      "fold": 1,
+      "seed": 7,
+      "training_rows": 6552,
+      "validation_rows": 720,
+      "train_post_rmse": 0.051350396717374125,
+      "validation_post_rmse": 0.12970380495882078
+    },
+    {
+      "fold": 1,
+      "seed": 101,
+      "training_rows": 6552,
+      "validation_rows": 720,
+      "train_post_rmse": 0.051398463846717334,
+      "validation_post_rmse": 0.1283412674602759
+    },
+    {
+      "fold": 1,
+      "seed": 2024,
+      "training_rows": 6552,
+      "validation_rows": 720,
+      "train_post_rmse": 0.05028751018760172,
+      "validation_post_rmse": 0.1272434974433558
+    },
+    {
+      "fold": 2,
+      "seed": 7,
+      "training_rows": 6216,
+      "validation_rows": 960,
+      "train_post_rmse": 0.048456441762460174,
+      "validation_post_rmse": 0.14064444947603566
+    },
+    {
+      "fold": 2,
+      "seed": 101,
+      "training_rows": 6216,
+      "validation_rows": 960,
+      "train_post_rmse": 0.048433869522950534,
+      "validation_post_rmse": 0.14262309222840264
+    },
+    {
+      "fold": 2,
+      "seed": 2024,
+      "training_rows": 6216,
+      "validation_rows": 960,
+      "train_post_rmse": 0.048845854137293414,
+      "validation_post_rmse": 0.1423838997377898
+    },
+    {
+      "fold": 3,
+      "seed": 7,
+      "training_rows": 6408,
+      "validation_rows": 792,
+      "train_post_rmse": 0.043969729128831285,
+      "validation_post_rmse": 0.12969099910776452
+    },
+    {
+      "fold": 3,
+      "seed": 101,
+      "training_rows": 6408,
+      "validation_rows": 792,
+      "train_post_rmse": 0.04360428076693354,
+      "validation_post_rmse": 0.12533208252355213
+    },
+    {
+      "fold": 3,
+      "seed": 2024,
+      "training_rows": 6408,
+      "validation_rows": 792,
+      "train_post_rmse": 0.04526622791067609,
+      "validation_post_rmse": 0.12602240542714008
+    },
+    {
+      "fold": 4,
+      "seed": 7,
+      "training_rows": 6120,
+      "validation_rows": 960,
+      "train_post_rmse": 0.045919970832236374,
+      "validation_post_rmse": 0.23135546885334216
+    },
+    {
+      "fold": 4,
+      "seed": 101,
+      "training_rows": 6120,
+      "validation_rows": 960,
+      "train_post_rmse": 0.04590339390677561,
+      "validation_post_rmse": 0.23550494553410653
+    },
+    {
+      "fold": 4,
+      "seed": 2024,
+      "training_rows": 6120,
+      "validation_rows": 960,
+      "train_post_rmse": 0.04590399989758257,
+      "validation_post_rmse": 0.23416480600248066
+    },
+    {
+      "fold": 5,
+      "seed": 7,
+      "training_rows": 6576,
+      "validation_rows": 672,
+      "train_post_rmse": 0.04999937689396203,
+      "validation_post_rmse": 0.30946538888681613
+    },
+    {
+      "fold": 5,
+      "seed": 101,
+      "training_rows": 6576,
+      "validation_rows": 672,
+      "train_post_rmse": 0.04985932182614609,
+      "validation_post_rmse": 0.3141823774276897
+    },
+    {
+      "fold": 5,
+      "seed": 2024,
+      "training_rows": 6576,
+      "validation_rows": 672,
+      "train_post_rmse": 0.04992756510300732,
+      "validation_post_rmse": 0.310309875813451
+    },
+    {
+      "fold": 6,
+      "seed": 7,
+      "training_rows": 6288,
+      "validation_rows": 960,
+      "train_post_rmse": 0.052049519790917084,
+      "validation_post_rmse": 0.11650729327157122
+    },
+    {
+      "fold": 6,
+      "seed": 101,
+      "training_rows": 6288,
+      "validation_rows": 960,
+      "train_post_rmse": 0.05119921422802452,
+      "validation_post_rmse": 0.11539357196339477
+    },
+    {
+      "fold": 6,
+      "seed": 2024,
+      "training_rows": 6288,
+      "validation_rows": 960,
+      "train_post_rmse": 0.0514931336106517,
+      "validation_post_rmse": 0.11549005325230755
+    },
+    {
+      "fold": 7,
+      "seed": 7,
+      "training_rows": 6576,
+      "validation_rows": 744,
+      "train_post_rmse": 0.04998232507279131,
+      "validation_post_rmse": 0.16852319617638037
+    },
+    {
+      "fold": 7,
+      "seed": 101,
+      "training_rows": 6576,
+      "validation_rows": 744,
+      "train_post_rmse": 0.050005396125488384,
+      "validation_post_rmse": 0.16467986476445373
+    },
+    {
+      "fold": 7,
+      "seed": 2024,
+      "training_rows": 6576,
+      "validation_rows": 744,
+      "train_post_rmse": 0.049270000461176536,
+      "validation_post_rmse": 0.16941889410160477
+    },
+    {
+      "fold": 8,
+      "seed": 7,
+      "training_rows": 6192,
+      "validation_rows": 960,
+      "train_post_rmse": 0.04931503090722262,
+      "validation_post_rmse": 0.2482665936748571
+    },
+    {
+      "fold": 8,
+      "seed": 101,
+      "training_rows": 6192,
+      "validation_rows": 960,
+      "train_post_rmse": 0.048777709620299765,
+      "validation_post_rmse": 0.2512448602612225
+    },
+    {
+      "fold": 8,
+      "seed": 2024,
+      "training_rows": 6192,
+      "validation_rows": 960,
+      "train_post_rmse": 0.04876635707558499,
+      "validation_post_rmse": 0.2525002717165916
+    },
+    {
+      "fold": 9,
+      "seed": 7,
+      "training_rows": 6192,
+      "validation_rows": 960,
+      "train_post_rmse": 0.05308127364662779,
+      "validation_post_rmse": 0.18581413405364555
+    },
+    {
+      "fold": 9,
+      "seed": 101,
+      "training_rows": 6192,
+      "validation_rows": 960,
+      "train_post_rmse": 0.05463392907827516,
+      "validation_post_rmse": 0.18333417190420057
+    },
+    {
+      "fold": 9,
+      "seed": 2024,
+      "training_rows": 6192,
+      "validation_rows": 960,
+      "train_post_rmse": 0.0545331576295314,
+      "validation_post_rmse": 0.18568744293065068
+    }
+  ],
+  "train_fold_rmse_mean": 0.049579088381004964,
+  "validation_fold_rmse_mean": 0.18006899904493665,
+  "training_variance_explanation": "ET leaf1 can closely fit training labels; training error does not measure generalization. PFN training error was not evaluated."
+}

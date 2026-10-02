@@ -1,0 +1,230 @@
+{
+  "status": "PASS",
+  "aggregation": "각 행 3시드 예측 평균 후 RMSE; 진단 전용",
+  "source_sha256": "a3c375e3bd8926598ece14f218de505d120ccad2baba92ae4fa9093693de92fa",
+  "scores": [
+    {
+      "group": "전체",
+      "arm": "v2",
+      "rmse": 0.21387369361945424,
+      "mean_bias": 0.012877480757889132,
+      "level_rmse": 0.19923676932556506,
+      "shape_rmse": 0.0777603148858064,
+      "level_squared_error_share": 0.8678091845826988,
+      "n": 8640,
+      "days": 360
+    },
+    {
+      "group": "전체",
+      "arm": "season_v2",
+      "rmse": 0.18141265326219796,
+      "mean_bias": -0.006923588265390166,
+      "level_rmse": 0.16545760101954446,
+      "shape_rmse": 0.07439309798958291,
+      "level_squared_error_share": 0.8318371190978763,
+      "n": 8640,
+      "days": 360
+    },
+    {
+      "group": "전체",
+      "arm": "day_r3",
+      "rmse": 0.21647955708777936,
+      "mean_bias": 0.0070209079820100825,
+      "level_rmse": 0.2013999272229503,
+      "shape_rmse": 0.07938178601865425,
+      "level_squared_error_share": 0.8655354042857055,
+      "n": 8640,
+      "days": 360
+    },
+    {
+      "group": "전체",
+      "arm": "season_r3",
+      "rmse": 0.1881030829444682,
+      "mean_bias": -0.009793942345616624,
+      "level_rmse": 0.1723727377267715,
+      "shape_rmse": 0.07530211883998439,
+      "level_squared_error_share": 0.8397409492890082,
+      "n": 8640,
+      "days": 360
+    },
+    {
+      "group": "전반(day<179)",
+      "arm": "v2",
+      "rmse": 0.17586385344491032,
+      "mean_bias": 0.0007525892326838802,
+      "level_rmse": 0.1579257164265613,
+      "shape_rmse": 0.0773793450453688,
+      "level_squared_error_share": 0.8064037552386649,
+      "n": 7536,
+      "days": 314
+    },
+    {
+      "group": "전반(day<179)",
+      "arm": "season_v2",
+      "rmse": 0.1676877415844249,
+      "mean_bias": 0.0008145126108010613,
+      "level_rmse": 0.15015051851767638,
+      "shape_rmse": 0.07465922894430246,
+      "level_squared_error_share": 0.8017722875035019,
+      "n": 7536,
+      "days": 314
+    },
+    {
+      "group": "전반(day<179)",
+      "arm": "day_r3",
+      "rmse": 0.1821610846981053,
+      "mean_bias": -0.004223665598869112,
+      "level_rmse": 0.16436560450921836,
+      "shape_rmse": 0.07852775835785396,
+      "level_squared_error_share": 0.814161713134065,
+      "n": 7536,
+      "days": 314
+    },
+    {
+      "group": "전반(day<179)",
+      "arm": "season_r3",
+      "rmse": 0.17334363601349154,
+      "mean_bias": -0.0018078661225715104,
+      "level_rmse": 0.15616723508709116,
+      "shape_rmse": 0.07523171426752855,
+      "level_squared_error_share": 0.8116411145394927,
+      "n": 7536,
+      "days": 314
+    },
+    {
+      "group": "후반(day>=179)",
+      "arm": "v2",
+      "rmse": 0.3832266511293448,
+      "mean_bias": 0.09564304464733367,
+      "level_rmse": 0.3747166312285696,
+      "shape_rmse": 0.08031259189270848,
+      "level_squared_error_share": 0.9560806528559141,
+      "n": 1104,
+      "days": 46
+    },
+    {
+      "group": "후반(day>=179)",
+      "arm": "season_v2",
+      "rmse": 0.25615790689210843,
+      "mean_bias": -0.05974453772460854,
+      "level_rmse": 0.24566911408735784,
+      "shape_rmse": 0.07255039384371971,
+      "level_squared_error_share": 0.9197834431129609,
+      "n": 1104,
+      "days": 46
+    },
+    {
+      "group": "후반(day>=179)",
+      "arm": "day_r3",
+      "rmse": 0.3744987381669417,
+      "mean_bias": 0.0837773450340985,
+      "level_rmse": 0.36472904582072757,
+      "shape_rmse": 0.08498251598613187,
+      "level_squared_error_share": 0.9485057838320982,
+      "n": 1104,
+      "days": 46
+    },
+    {
+      "group": "후반(day>=179)",
+      "arm": "season_r3",
+      "rmse": 0.267951977478534,
+      "mean_bias": -0.06430759308553327,
+      "level_rmse": 0.25701266198217615,
+      "shape_rmse": 0.07578095945217697,
+      "level_squared_error_share": 0.9200154204746132,
+      "n": 1104,
+      "days": 46
+    },
+    {
+      "group": "F13 후반",
+      "arm": "v2",
+      "rmse": 0.2919966431592734,
+      "mean_bias": 0.09961412641176169,
+      "level_rmse": 0.2848535246745196,
+      "shape_rmse": 0.06419119173832877,
+      "level_squared_error_share": 0.9516724076115121,
+      "n": 576,
+      "days": 24
+    },
+    {
+      "group": "F13 후반",
+      "arm": "season_v2",
+      "rmse": 0.25885236798536143,
+      "mean_bias": -0.0834477710913828,
+      "level_rmse": 0.25363663226754185,
+      "shape_rmse": 0.051701133291338325,
+      "level_squared_error_share": 0.960107078594312,
+      "n": 576,
+      "days": 24
+    },
+    {
+      "group": "F13 후반",
+      "arm": "day_r3",
+      "rmse": 0.28595535625621854,
+      "mean_bias": 0.08565815940576407,
+      "level_rmse": 0.27743658756244655,
+      "shape_rmse": 0.06927774284231382,
+      "level_squared_error_share": 0.9413063676715482,
+      "n": 576,
+      "days": 24
+    },
+    {
+      "group": "F13 후반",
+      "arm": "season_r3",
+      "rmse": 0.2600837391956604,
+      "mean_bias": -0.08666049027221119,
+      "level_rmse": 0.2544836930722164,
+      "shape_rmse": 0.0536805491246345,
+      "level_squared_error_share": 0.9574002060072492,
+      "n": 576,
+      "days": 24
+    },
+    {
+      "group": "F47 후반",
+      "arm": "v2",
+      "rmse": 0.4626698062459467,
+      "mean_bias": 0.09131095544977585,
+      "level_rmse": 0.45284859694540636,
+      "shape_rmse": 0.09482350898505482,
+      "level_squared_error_share": 0.9579960891364613,
+      "n": 528,
+      "days": 22
+    },
+    {
+      "group": "F47 후반",
+      "arm": "season_v2",
+      "rmse": 0.25318579310232964,
+      "mean_bias": -0.03388646496085482,
+      "level_rmse": 0.236671563457291,
+      "shape_rmse": 0.08994229749977008,
+      "level_squared_error_share": 0.8738029250414238,
+      "n": 528,
+      "days": 22
+    },
+    {
+      "group": "F47 후반",
+      "arm": "day_r3",
+      "rmse": 0.45171274290990365,
+      "mean_bias": 0.08172554753773606,
+      "level_rmse": 0.44065804578672424,
+      "shape_rmse": 0.09932214652641148,
+      "level_squared_error_share": 0.9516532250395592,
+      "n": 528,
+      "days": 22
+    },
+    {
+      "group": "F47 후반",
+      "arm": "season_r3",
+      "rmse": 0.2762800645374759,
+      "mean_bias": -0.03992261433643006,
+      "level_rmse": 0.2597434561542829,
+      "shape_rmse": 0.09414887702920291,
+      "level_squared_error_share": 0.8838735389812518,
+      "n": 528,
+      "days": 22
+    }
+  ],
+  "adoption_rule_changed": false,
+  "final_lock_labels_read": false,
+  "limitation": "후반46일은 공개 검증 표본이며 숨은 평가 개선을 보증하지 않는다."
+}
