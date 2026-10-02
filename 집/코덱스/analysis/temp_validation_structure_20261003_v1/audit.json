@@ -1,0 +1,84 @@
+{
+  "rows": 9600,
+  "days": 400,
+  "weather_groups": 122,
+  "near_weather_pairs": 491,
+  "exact_weather_pairs": 438,
+  "exact_full_input_pairs": 0,
+  "exact_temperature_label_pairs": 0,
+  "threshold": 0.05,
+  "weather_standardization": "all provided TRAIN inputs, split audit/group definition only, no model transform",
+  "folds": [
+    {
+      "fold": 0,
+      "train_days": 346,
+      "validation_days": 40,
+      "validation_weather_shared_train": 35,
+      "weather_guard_extra_train_days_removed": 38
+    },
+    {
+      "fold": 1,
+      "train_days": 344,
+      "validation_days": 40,
+      "validation_weather_shared_train": 31,
+      "weather_guard_extra_train_days_removed": 35
+    },
+    {
+      "fold": 2,
+      "train_days": 344,
+      "validation_days": 40,
+      "validation_weather_shared_train": 24,
+      "weather_guard_extra_train_days_removed": 35
+    },
+    {
+      "fold": 3,
+      "train_days": 344,
+      "validation_days": 40,
+      "validation_weather_shared_train": 28,
+      "weather_guard_extra_train_days_removed": 37
+    },
+    {
+      "fold": 4,
+      "train_days": 344,
+      "validation_days": 40,
+      "validation_weather_shared_train": 31,
+      "weather_guard_extra_train_days_removed": 38
+    },
+    {
+      "fold": 5,
+      "train_days": 344,
+      "validation_days": 40,
+      "validation_weather_shared_train": 30,
+      "weather_guard_extra_train_days_removed": 48
+    },
+    {
+      "fold": 6,
+      "train_days": 344,
+      "validation_days": 40,
+      "validation_weather_shared_train": 27,
+      "weather_guard_extra_train_days_removed": 45
+    },
+    {
+      "fold": 7,
+      "train_days": 344,
+      "validation_days": 40,
+      "validation_weather_shared_train": 29,
+      "weather_guard_extra_train_days_removed": 33
+    },
+    {
+      "fold": 8,
+      "train_days": 346,
+      "validation_days": 40,
+      "validation_weather_shared_train": 25,
+      "weather_guard_extra_train_days_removed": 26
+    },
+    {
+      "fold": 9,
+      "train_days": 348,
+      "validation_days": 40,
+      "validation_weather_shared_train": 31,
+      "weather_guard_extra_train_days_removed": 36
+    }
+  ],
+  "interpretation": "Shared exogenous weather is not evidence of label leakage; guard is a dependence stress test. Exact input/target copies checked separately."
+}
