@@ -1,0 +1,620 @@
+{
+  "status": "AUDIT_ONLY",
+  "cells": 68,
+  "global_train_weather_group_definition": "preexisting audit only, never model features",
+  "records": [
+    {
+      "prefix": "E_A_0",
+      "scope": "outer",
+      "train_days": 253,
+      "query_days": 53,
+      "train_weather_groups": 107,
+      "shared_query_days": 23,
+      "shared_query_pct": 43.39622641509434
+    },
+    {
+      "prefix": "E_A_0",
+      "scope": "inner_actual",
+      "train_days": 164,
+      "query_days": 66,
+      "train_weather_groups": 83,
+      "shared_query_days": 25,
+      "shared_query_pct": 37.878787878787875
+    },
+    {
+      "prefix": "E_A_1",
+      "scope": "outer",
+      "train_days": 247,
+      "query_days": 55,
+      "train_weather_groups": 105,
+      "shared_query_days": 21,
+      "shared_query_pct": 38.18181818181818
+    },
+    {
+      "prefix": "E_A_1",
+      "scope": "inner_actual",
+      "train_days": 162,
+      "query_days": 65,
+      "train_weather_groups": 83,
+      "shared_query_days": 28,
+      "shared_query_pct": 43.07692307692308
+    },
+    {
+      "prefix": "E_A_2",
+      "scope": "outer",
+      "train_days": 250,
+      "query_days": 53,
+      "train_weather_groups": 109,
+      "shared_query_days": 27,
+      "shared_query_pct": 50.943396226415096
+    },
+    {
+      "prefix": "E_A_2",
+      "scope": "inner_actual",
+      "train_days": 163,
+      "query_days": 66,
+      "train_weather_groups": 80,
+      "shared_query_days": 20,
+      "shared_query_pct": 30.303030303030305
+    },
+    {
+      "prefix": "E_A_3",
+      "scope": "outer",
+      "train_days": 251,
+      "query_days": 52,
+      "train_weather_groups": 105,
+      "shared_query_days": 23,
+      "shared_query_pct": 44.23076923076923
+    },
+    {
+      "prefix": "E_A_3",
+      "scope": "inner_actual",
+      "train_days": 164,
+      "query_days": 66,
+      "train_weather_groups": 80,
+      "shared_query_days": 22,
+      "shared_query_pct": 33.333333333333336
+    },
+    {
+      "prefix": "E_A_4",
+      "scope": "outer",
+      "train_days": 254,
+      "query_days": 51,
+      "train_weather_groups": 105,
+      "shared_query_days": 19,
+      "shared_query_pct": 37.254901960784316
+    },
+    {
+      "prefix": "E_A_4",
+      "scope": "inner_actual",
+      "train_days": 164,
+      "query_days": 68,
+      "train_weather_groups": 76,
+      "shared_query_days": 14,
+      "shared_query_pct": 20.58823529411765
+    },
+    {
+      "prefix": "E_B_0",
+      "scope": "outer",
+      "train_days": 248,
+      "query_days": 53,
+      "train_weather_groups": 108,
+      "shared_query_days": 25,
+      "shared_query_pct": 47.16981132075472
+    },
+    {
+      "prefix": "E_B_0",
+      "scope": "inner_actual",
+      "train_days": 160,
+      "query_days": 67,
+      "train_weather_groups": 86,
+      "shared_query_days": 26,
+      "shared_query_pct": 38.80597014925373
+    },
+    {
+      "prefix": "E_B_1",
+      "scope": "outer",
+      "train_days": 246,
+      "query_days": 55,
+      "train_weather_groups": 104,
+      "shared_query_days": 21,
+      "shared_query_pct": 38.18181818181818
+    },
+    {
+      "prefix": "E_B_1",
+      "scope": "inner_actual",
+      "train_days": 160,
+      "query_days": 65,
+      "train_weather_groups": 81,
+      "shared_query_days": 29,
+      "shared_query_pct": 44.61538461538461
+    },
+    {
+      "prefix": "E_B_2",
+      "scope": "outer",
+      "train_days": 255,
+      "query_days": 51,
+      "train_weather_groups": 103,
+      "shared_query_days": 16,
+      "shared_query_pct": 31.372549019607842
+    },
+    {
+      "prefix": "E_B_2",
+      "scope": "inner_actual",
+      "train_days": 162,
+      "query_days": 70,
+      "train_weather_groups": 76,
+      "shared_query_days": 28,
+      "shared_query_pct": 40.0
+    },
+    {
+      "prefix": "E_B_3",
+      "scope": "outer",
+      "train_days": 249,
+      "query_days": 54,
+      "train_weather_groups": 101,
+      "shared_query_days": 15,
+      "shared_query_pct": 27.77777777777778
+    },
+    {
+      "prefix": "E_B_3",
+      "scope": "inner_actual",
+      "train_days": 164,
+      "query_days": 65,
+      "train_weather_groups": 80,
+      "shared_query_days": 26,
+      "shared_query_pct": 40.0
+    },
+    {
+      "prefix": "E_B_4",
+      "scope": "outer",
+      "train_days": 255,
+      "query_days": 50,
+      "train_weather_groups": 104,
+      "shared_query_days": 13,
+      "shared_query_pct": 26.0
+    },
+    {
+      "prefix": "E_B_4",
+      "scope": "inner_actual",
+      "train_days": 166,
+      "query_days": 70,
+      "train_weather_groups": 78,
+      "shared_query_days": 22,
+      "shared_query_pct": 31.428571428571427
+    },
+    {
+      "prefix": "E_DIAG10_0",
+      "scope": "outer",
+      "train_days": 262,
+      "query_days": 38,
+      "train_weather_groups": 113,
+      "shared_query_days": 27,
+      "shared_query_pct": 71.05263157894737
+    },
+    {
+      "prefix": "E_DIAG10_0",
+      "scope": "inner_actual",
+      "train_days": 172,
+      "query_days": 70,
+      "train_weather_groups": 93,
+      "shared_query_days": 37,
+      "shared_query_pct": 52.857142857142854
+    },
+    {
+      "prefix": "E_DIAG10_1",
+      "scope": "outer",
+      "train_days": 273,
+      "query_days": 30,
+      "train_weather_groups": 116,
+      "shared_query_days": 21,
+      "shared_query_pct": 70.0
+    },
+    {
+      "prefix": "E_DIAG10_1",
+      "scope": "inner_actual",
+      "train_days": 179,
+      "query_days": 71,
+      "train_weather_groups": 89,
+      "shared_query_days": 21,
+      "shared_query_pct": 29.577464788732396
+    },
+    {
+      "prefix": "E_DIAG10_2",
+      "scope": "outer",
+      "train_days": 259,
+      "query_days": 40,
+      "train_weather_groups": 110,
+      "shared_query_days": 21,
+      "shared_query_pct": 52.5
+    },
+    {
+      "prefix": "E_DIAG10_2",
+      "scope": "inner_actual",
+      "train_days": 168,
+      "query_days": 70,
+      "train_weather_groups": 84,
+      "shared_query_days": 24,
+      "shared_query_pct": 34.285714285714285
+    },
+    {
+      "prefix": "E_DIAG10_3",
+      "scope": "outer",
+      "train_days": 267,
+      "query_days": 33,
+      "train_weather_groups": 113,
+      "shared_query_days": 18,
+      "shared_query_pct": 54.54545454545455
+    },
+    {
+      "prefix": "E_DIAG10_3",
+      "scope": "inner_actual",
+      "train_days": 174,
+      "query_days": 72,
+      "train_weather_groups": 92,
+      "shared_query_days": 38,
+      "shared_query_pct": 52.77777777777778
+    },
+    {
+      "prefix": "E_DIAG10_4",
+      "scope": "outer",
+      "train_days": 255,
+      "query_days": 40,
+      "train_weather_groups": 109,
+      "shared_query_days": 21,
+      "shared_query_pct": 52.5
+    },
+    {
+      "prefix": "E_DIAG10_4",
+      "scope": "inner_actual",
+      "train_days": 164,
+      "query_days": 69,
+      "train_weather_groups": 82,
+      "shared_query_days": 16,
+      "shared_query_pct": 23.18840579710145
+    },
+    {
+      "prefix": "E_DIAG10_5",
+      "scope": "outer",
+      "train_days": 274,
+      "query_days": 28,
+      "train_weather_groups": 113,
+      "shared_query_days": 18,
+      "shared_query_pct": 64.28571428571429
+    },
+    {
+      "prefix": "E_DIAG10_5",
+      "scope": "inner_actual",
+      "train_days": 178,
+      "query_days": 70,
+      "train_weather_groups": 95,
+      "shared_query_days": 44,
+      "shared_query_pct": 62.857142857142854
+    },
+    {
+      "prefix": "E_DIAG10_6",
+      "scope": "outer",
+      "train_days": 262,
+      "query_days": 40,
+      "train_weather_groups": 108,
+      "shared_query_days": 21,
+      "shared_query_pct": 52.5
+    },
+    {
+      "prefix": "E_DIAG10_6",
+      "scope": "inner_actual",
+      "train_days": 169,
+      "query_days": 70,
+      "train_weather_groups": 87,
+      "shared_query_days": 36,
+      "shared_query_pct": 51.42857142857143
+    },
+    {
+      "prefix": "E_DIAG10_7",
+      "scope": "outer",
+      "train_days": 274,
+      "query_days": 31,
+      "train_weather_groups": 114,
+      "shared_query_days": 22,
+      "shared_query_pct": 70.96774193548387
+    },
+    {
+      "prefix": "E_DIAG10_7",
+      "scope": "inner_actual",
+      "train_days": 178,
+      "query_days": 70,
+      "train_weather_groups": 89,
+      "shared_query_days": 26,
+      "shared_query_pct": 37.142857142857146
+    },
+    {
+      "prefix": "E_DIAG10_8",
+      "scope": "outer",
+      "train_days": 258,
+      "query_days": 40,
+      "train_weather_groups": 108,
+      "shared_query_days": 20,
+      "shared_query_pct": 50.0
+    },
+    {
+      "prefix": "E_DIAG10_8",
+      "scope": "inner_actual",
+      "train_days": 167,
+      "query_days": 69,
+      "train_weather_groups": 81,
+      "shared_query_days": 24,
+      "shared_query_pct": 34.78260869565217
+    },
+    {
+      "prefix": "E_DIAG10_9",
+      "scope": "outer",
+      "train_days": 258,
+      "query_days": 40,
+      "train_weather_groups": 109,
+      "shared_query_days": 23,
+      "shared_query_pct": 57.5
+    },
+    {
+      "prefix": "E_DIAG10_9",
+      "scope": "inner_actual",
+      "train_days": 167,
+      "query_days": 70,
+      "train_weather_groups": 92,
+      "shared_query_days": 45,
+      "shared_query_pct": 64.28571428571429
+    },
+    {
+      "prefix": "E_EXT10_0",
+      "scope": "outer",
+      "train_days": 191,
+      "query_days": 75,
+      "train_weather_groups": 79,
+      "shared_query_days": 13,
+      "shared_query_pct": 17.333333333333332
+    },
+    {
+      "prefix": "E_EXT10_0",
+      "scope": "inner_actual",
+      "train_days": 125,
+      "query_days": 50,
+      "train_weather_groups": 63,
+      "shared_query_days": 25,
+      "shared_query_pct": 50.0
+    },
+    {
+      "prefix": "E_EXT12_0",
+      "scope": "outer",
+      "train_days": 100,
+      "query_days": 193,
+      "train_weather_groups": 48,
+      "shared_query_days": 20,
+      "shared_query_pct": 10.362694300518134
+    },
+    {
+      "prefix": "E_EXT12_0",
+      "scope": "inner_actual",
+      "train_days": 63,
+      "query_days": 29,
+      "train_weather_groups": 31,
+      "shared_query_days": 5,
+      "shared_query_pct": 17.24137931034483
+    },
+    {
+      "prefix": "T_DIAG10_0",
+      "scope": "outer",
+      "train_days": 346,
+      "query_days": 40,
+      "train_weather_groups": 120,
+      "shared_query_days": 35,
+      "shared_query_pct": 87.5
+    },
+    {
+      "prefix": "T_DIAG10_0",
+      "scope": "inner_actual",
+      "train_days": 224,
+      "query_days": 90,
+      "train_weather_groups": 103,
+      "shared_query_days": 57,
+      "shared_query_pct": 63.333333333333336
+    },
+    {
+      "prefix": "T_DIAG10_1",
+      "scope": "outer",
+      "train_days": 344,
+      "query_days": 40,
+      "train_weather_groups": 118,
+      "shared_query_days": 31,
+      "shared_query_pct": 77.5
+    },
+    {
+      "prefix": "T_DIAG10_1",
+      "scope": "inner_actual",
+      "train_days": 220,
+      "query_days": 90,
+      "train_weather_groups": 104,
+      "shared_query_days": 60,
+      "shared_query_pct": 66.66666666666667
+    },
+    {
+      "prefix": "T_DIAG10_2",
+      "scope": "outer",
+      "train_days": 344,
+      "query_days": 40,
+      "train_weather_groups": 116,
+      "shared_query_days": 24,
+      "shared_query_pct": 60.0
+    },
+    {
+      "prefix": "T_DIAG10_2",
+      "scope": "inner_actual",
+      "train_days": 220,
+      "query_days": 90,
+      "train_weather_groups": 101,
+      "shared_query_days": 56,
+      "shared_query_pct": 62.22222222222222
+    },
+    {
+      "prefix": "T_DIAG10_3",
+      "scope": "outer",
+      "train_days": 344,
+      "query_days": 40,
+      "train_weather_groups": 118,
+      "shared_query_days": 28,
+      "shared_query_pct": 70.0
+    },
+    {
+      "prefix": "T_DIAG10_3",
+      "scope": "inner_actual",
+      "train_days": 222,
+      "query_days": 90,
+      "train_weather_groups": 98,
+      "shared_query_days": 50,
+      "shared_query_pct": 55.55555555555556
+    },
+    {
+      "prefix": "T_DIAG10_4",
+      "scope": "outer",
+      "train_days": 344,
+      "query_days": 40,
+      "train_weather_groups": 118,
+      "shared_query_days": 31,
+      "shared_query_pct": 77.5
+    },
+    {
+      "prefix": "T_DIAG10_4",
+      "scope": "inner_actual",
+      "train_days": 222,
+      "query_days": 90,
+      "train_weather_groups": 97,
+      "shared_query_days": 49,
+      "shared_query_pct": 54.44444444444444
+    },
+    {
+      "prefix": "T_DIAG10_5",
+      "scope": "outer",
+      "train_days": 344,
+      "query_days": 40,
+      "train_weather_groups": 117,
+      "shared_query_days": 30,
+      "shared_query_pct": 75.0
+    },
+    {
+      "prefix": "T_DIAG10_5",
+      "scope": "inner_actual",
+      "train_days": 220,
+      "query_days": 90,
+      "train_weather_groups": 100,
+      "shared_query_days": 58,
+      "shared_query_pct": 64.44444444444444
+    },
+    {
+      "prefix": "T_DIAG10_6",
+      "scope": "outer",
+      "train_days": 344,
+      "query_days": 40,
+      "train_weather_groups": 115,
+      "shared_query_days": 27,
+      "shared_query_pct": 67.5
+    },
+    {
+      "prefix": "T_DIAG10_6",
+      "scope": "inner_actual",
+      "train_days": 220,
+      "query_days": 90,
+      "train_weather_groups": 104,
+      "shared_query_days": 67,
+      "shared_query_pct": 74.44444444444444
+    },
+    {
+      "prefix": "T_DIAG10_7",
+      "scope": "outer",
+      "train_days": 344,
+      "query_days": 40,
+      "train_weather_groups": 117,
+      "shared_query_days": 29,
+      "shared_query_pct": 72.5
+    },
+    {
+      "prefix": "T_DIAG10_7",
+      "scope": "inner_actual",
+      "train_days": 222,
+      "query_days": 90,
+      "train_weather_groups": 101,
+      "shared_query_days": 64,
+      "shared_query_pct": 71.11111111111111
+    },
+    {
+      "prefix": "T_DIAG10_8",
+      "scope": "outer",
+      "train_days": 346,
+      "query_days": 40,
+      "train_weather_groups": 114,
+      "shared_query_days": 25,
+      "shared_query_pct": 62.5
+    },
+    {
+      "prefix": "T_DIAG10_8",
+      "scope": "inner_actual",
+      "train_days": 224,
+      "query_days": 90,
+      "train_weather_groups": 99,
+      "shared_query_days": 63,
+      "shared_query_pct": 70.0
+    },
+    {
+      "prefix": "T_DIAG10_9",
+      "scope": "outer",
+      "train_days": 348,
+      "query_days": 40,
+      "train_weather_groups": 117,
+      "shared_query_days": 31,
+      "shared_query_pct": 77.5
+    },
+    {
+      "prefix": "T_DIAG10_9",
+      "scope": "inner_actual",
+      "train_days": 224,
+      "query_days": 90,
+      "train_weather_groups": 104,
+      "shared_query_days": 63,
+      "shared_query_pct": 70.0
+    },
+    {
+      "prefix": "T_EXT10_0",
+      "scope": "outer",
+      "train_days": 238,
+      "query_days": 85,
+      "train_weather_groups": 86,
+      "shared_query_days": 20,
+      "shared_query_pct": 23.529411764705884
+    },
+    {
+      "prefix": "T_EXT10_0",
+      "scope": "inner_actual",
+      "train_days": 150,
+      "query_days": 65,
+      "train_weather_groups": 70,
+      "shared_query_days": 41,
+      "shared_query_pct": 63.07692307692308
+    },
+    {
+      "prefix": "T_EXT12_0",
+      "scope": "outer",
+      "train_days": 125,
+      "query_days": 219,
+      "train_weather_groups": 50,
+      "shared_query_days": 24,
+      "shared_query_pct": 10.95890410958904
+    },
+    {
+      "prefix": "T_EXT12_0",
+      "scope": "inner_actual",
+      "train_days": 79,
+      "query_days": 35,
+      "train_weather_groups": 38,
+      "shared_query_days": 10,
+      "shared_query_pct": 28.571428571428573
+    }
+  ],
+  "source_hash": "30a83a979c95b8ff2ba557a2bcfa6ef9b9b18896e67ca815b058189f22a0b726"
+}

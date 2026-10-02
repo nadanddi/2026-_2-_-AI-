@@ -1,0 +1,25 @@
+{
+  "status": "METADATA_ONLY",
+  "records": {
+    "public360": {
+      "n_rows": 1440,
+      "n_days": 60,
+      "no_past_rows": 0,
+      "gap_median": 5.0,
+      "gap_p90": 10.0,
+      "max_missing_day_run": 10,
+      "train_days": 360
+    },
+    "base_fit306": {
+      "n_rows": 1440,
+      "n_days": 60,
+      "no_past_rows": 0,
+      "gap_median": 5.5,
+      "gap_p90": 10.0,
+      "max_missing_day_run": 10,
+      "train_days": 306
+    }
+  },
+  "source": "public OOF IDs; exclusions inferred from input IDs, no lock file or EC lock targets read",
+  "code_hash": "0bf5fe511a841aac02e2cc2ce8160be33fda9128222983b9c3ee41b47312c44c"
+}
