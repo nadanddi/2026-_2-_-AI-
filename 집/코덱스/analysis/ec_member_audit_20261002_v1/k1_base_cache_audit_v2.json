@@ -1,0 +1,133 @@
+{
+  "status": "PASS",
+  "model_fit_called": false,
+  "model_predict_called": false,
+  "final_lock_scored": false,
+  "rows": 1440,
+  "training_rows": 7344,
+  "training_days": 306,
+  "features": [
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog",
+    "day",
+    "hr_sin",
+    "hr_cos",
+    "midnight",
+    "act_vent_h0",
+    "act_shade_h0",
+    "act_thermal_h0",
+    "act_heating_h0",
+    "act_circfan_h0",
+    "act_co2_h0",
+    "act_fog_h0",
+    "in_temp_h0",
+    "in_hum_h0",
+    "in_co2_h0",
+    "act_vent_tdm",
+    "act_vent_tdz",
+    "act_shade_tdm",
+    "act_shade_tdz",
+    "act_thermal_tdm",
+    "act_thermal_tdz",
+    "act_heating_tdm",
+    "act_heating_tdz",
+    "act_circfan_tdm",
+    "act_circfan_tdz",
+    "act_co2_tdm",
+    "act_co2_tdz",
+    "act_fog_tdm",
+    "act_fog_tdz"
+  ],
+  "seeds": [
+    7,
+    101,
+    2024
+  ],
+  "pfn_context_seeds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "pfn_context_rows": 2000,
+  "pfn_n_estimators_per_context": 4,
+  "cache_keys": [
+    "row_id",
+    "baseline",
+    "candidate",
+    "seed_7",
+    "seed_101",
+    "seed_2024"
+  ],
+  "baseline_numpy253_two_replays_bit_equal": true,
+  "baseline_mean_fsum": 0.6487375382523433,
+  "baseline_minimum": 0.24349060907400458,
+  "baseline_maximum": 1.383061429321156,
+  "baseline_vs_state_candidate_max_abs_difference": 0.11410475789473706,
+  "package_input_hash_match": {
+    "train_X.csv": true,
+    "train_y.csv": true,
+    "test_X.csv": true,
+    "sample_submission.csv": true
+  },
+  "raw_vs_package_training_features": {
+    "float64_equal": true,
+    "float64_different_finite_cells": 0,
+    "float64_max_abs_difference": 0.0,
+    "float32_equal": true
+  },
+  "raw_vs_package_query_features": {
+    "float64_equal": true,
+    "float64_different_finite_cells": 0,
+    "float64_max_abs_difference": 0.0,
+    "float32_equal": true
+  },
+  "raw_vs_package_training_targets_equal": true,
+  "cache_file_inventory": [
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_v2_state_20261001_v1\\artifact\\predictions\\prediction_details.npz",
+      "bytes": 116706
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_v2_state_20261001_v1\\artifact\\reproduction_check\\replay\\prediction_details.npz",
+      "bytes": 116706
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_v2_state_20261001_v1\\artifact_numpy253\\reproduction_check\\replay\\prediction_details.npz",
+      "bytes": 116706
+    }
+  ],
+  "manifest_versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "torch": "2.14.0+cpu",
+    "tabpfn": "9.0.0"
+  },
+  "references": {
+    "reference_cache": "C:\\work\\farmai\\집\\코덱스\\local\\ec_v2_state_20261001_v1\\artifact_numpy253\\reproduction_check\\replay\\prediction_details.npz",
+    "package_data": "C:\\work\\farmai\\집\\코덱스\\local\\ec_v2_state_20261001_v1\\artifact_numpy253\\stage\\data",
+    "canonical_numpy253_cache": "C:\\work\\farmai\\집\\코덱스\\local\\ec_v2_state_20261001_v1\\artifact\\reproduction_check\\replay\\prediction_details.npz"
+  },
+  "hashes": {
+    "cache": "36fd8bef6218b158cd1d75c06f67f107430d651d2d3101832cf5fe4bb661ccd5",
+    "canonical_cache": "36fd8bef6218b158cd1d75c06f67f107430d651d2d3101832cf5fe4bb661ccd5",
+    "manifest": "08b47cedae7fcb156ba301dbad3cce92ed4c340cccafb6f84eb4a278c476d905",
+    "model": "5e90c009378b4d3ff58706703ac3382cbe8022b52eb9783441085d143e4950a9",
+    "audit_code": "25f318280fa3849d1a2c15f356d172b3c8b4f780dde94c59d64a19814eb6449b"
+  },
+  "limitations": [
+    "기존 캐시 baseline은 상태 후보와 별개이며 학습한 모델을 다시 예측한 결과를 감사한 것은 아님",
+    "새 패키지의 정확 재현은 동일 필터 입력/환경/행순서와 새 ZIP 깨끗한 추출 검산이 필요"
+  ]
+}

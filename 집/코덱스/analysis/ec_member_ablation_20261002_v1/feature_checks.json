@@ -1,0 +1,25 @@
+{
+  "order_invariance": true,
+  "future_input_invariance": true,
+  "other_farm_input_invariance": true,
+  "past_only_invariance": true,
+  "missing_midnight_preserved": true,
+  "test_values_read": false,
+  "final_lock_scored": false,
+  "mask_available_raw_columns": [
+    "out_temp",
+    "out_hum",
+    "out_rad",
+    "out_wspd",
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog"
+  ]
+}

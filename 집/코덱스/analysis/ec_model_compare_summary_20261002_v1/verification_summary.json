@@ -1,0 +1,256 @@
+{
+  "status": "PASS",
+  "selected_public_arms": [],
+  "decisions": [
+    {
+      "arm": "drop_et",
+      "improving_seed_validator_cells": 10,
+      "total_seed_validator_cells": 15,
+      "direction_pass": false,
+      "diag_bootstrap_pass": false,
+      "adopted": false,
+      "label": "기각",
+      "final_lock_scored": false,
+      "submission_created": false
+    },
+    {
+      "arm": "drop_lgb",
+      "improving_seed_validator_cells": 6,
+      "total_seed_validator_cells": 15,
+      "direction_pass": false,
+      "diag_bootstrap_pass": false,
+      "adopted": false,
+      "label": "기각",
+      "final_lock_scored": false,
+      "submission_created": false
+    },
+    {
+      "arm": "drop_mlp",
+      "improving_seed_validator_cells": 4,
+      "total_seed_validator_cells": 15,
+      "direction_pass": false,
+      "diag_bootstrap_pass": false,
+      "adopted": false,
+      "label": "기각",
+      "final_lock_scored": false,
+      "submission_created": false
+    },
+    {
+      "arm": "drop_pfn",
+      "improving_seed_validator_cells": 3,
+      "total_seed_validator_cells": 15,
+      "direction_pass": false,
+      "diag_bootstrap_pass": false,
+      "adopted": false,
+      "label": "기각",
+      "final_lock_scored": false,
+      "submission_created": false
+    },
+    {
+      "arm": "catboost",
+      "improving_seed_validator_cells": 2,
+      "total_seed_validator_cells": 15,
+      "direction_pass": false,
+      "diag_bootstrap_pass": false,
+      "adopted": false,
+      "label": "기각",
+      "final_lock_scored": false,
+      "submission_created": false
+    }
+  ],
+  "ensemble": [
+    {
+      "validator": "DIAG10",
+      "arm": "v2",
+      "rmse": 0.21387369361945424,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "arm": "drop_et",
+      "rmse": 0.21241700610194975,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "arm": "drop_lgb",
+      "rmse": 0.22048308448110415,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "arm": "drop_mlp",
+      "rmse": 0.21412936496575177,
+      "n": 8640
+    },
+    {
+      "validator": "DIAG10",
+      "arm": "drop_pfn",
+      "rmse": 0.21647955708777938,
+      "n": 8640
+    },
+    {
+      "validator": "A",
+      "arm": "v2",
+      "rmse": 0.23030200888117217,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "arm": "drop_et",
+      "rmse": 0.2296551337073669,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "arm": "drop_lgb",
+      "rmse": 0.22791573170964904,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "arm": "drop_mlp",
+      "rmse": 0.23189600825892598,
+      "n": 6336
+    },
+    {
+      "validator": "A",
+      "arm": "drop_pfn",
+      "rmse": 0.23927747135174784,
+      "n": 6336
+    },
+    {
+      "validator": "B",
+      "arm": "v2",
+      "rmse": 0.218769428749023,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "arm": "drop_et",
+      "rmse": 0.21814358427248878,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "arm": "drop_lgb",
+      "rmse": 0.22081614683697443,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "arm": "drop_mlp",
+      "rmse": 0.21877221415993364,
+      "n": 6312
+    },
+    {
+      "validator": "B",
+      "arm": "drop_pfn",
+      "rmse": 0.22330307502564029,
+      "n": 6312
+    },
+    {
+      "validator": "EXT10",
+      "arm": "v2",
+      "rmse": 0.4140908274876331,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "arm": "drop_et",
+      "rmse": 0.414414991437971,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "arm": "drop_lgb",
+      "rmse": 0.40946748071733446,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "arm": "drop_mlp",
+      "rmse": 0.41484008234486264,
+      "n": 1800
+    },
+    {
+      "validator": "EXT10",
+      "arm": "drop_pfn",
+      "rmse": 0.4207596573457015,
+      "n": 1800
+    },
+    {
+      "validator": "EXT12",
+      "arm": "v2",
+      "rmse": 0.41612807820473807,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "arm": "drop_et",
+      "rmse": 0.4133118528913397,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "arm": "drop_lgb",
+      "rmse": 0.4215666463114696,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "arm": "drop_mlp",
+      "rmse": 0.41711683023777546,
+      "n": 4632
+    },
+    {
+      "validator": "EXT12",
+      "arm": "drop_pfn",
+      "rmse": 0.41524709002451304,
+      "n": 4632
+    },
+    {
+      "validator": "DIAG10",
+      "arm": "catboost",
+      "rmse": 0.23030163833391118,
+      "n": 8640
+    },
+    {
+      "validator": "A",
+      "arm": "catboost",
+      "rmse": 0.24957088822224033,
+      "n": 6336
+    },
+    {
+      "validator": "B",
+      "arm": "catboost",
+      "rmse": 0.23402016091434008,
+      "n": 6312
+    },
+    {
+      "validator": "EXT10",
+      "arm": "catboost",
+      "rmse": 0.4354749773836739,
+      "n": 1800
+    },
+    {
+      "validator": "EXT12",
+      "arm": "catboost",
+      "rmse": 0.41769407548905335,
+      "n": 4632
+    }
+  ],
+  "cross_checks": {
+    "member_rmse_max_error": 5.551115123125783e-17,
+    "catboost_rmse_max_error": 5.551115123125783e-17,
+    "baseline_max_error": 0.0,
+    "refit_r3_max_error": 1.6475709685437323e-13,
+    "pfn_roundtrip_max_error": 6.661338147750939e-16
+  },
+  "oof_sha256": {
+    "집\\코덱스\\local\\ec_member_ablation_20261002_v1\\oof_predictions.csv": "7d47aadccc7ba3e4a25ee8793b4b1e967893279a1c71a185b3dbe4048c197fb6",
+    "집\\코덱스\\local\\ec_catboost_20261002_v1\\oof_predictions.csv": "9b8253fc170b882f777f0513f73a1452654d3c25b5abda7a8c0e686bf2744b63"
+  },
+  "final_lock_scored": false,
+  "submission_created": false
+}

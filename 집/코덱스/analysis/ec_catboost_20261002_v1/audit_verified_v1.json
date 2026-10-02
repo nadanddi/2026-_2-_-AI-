@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "source_labels": "csv.DictReader; lock excluded before EC numeric conversion",
+  "locked_labels_scored": false,
+  "evaluated_test_values": false,
+  "checkpoints_verified": 66,
+  "rmse_cells_verified": 15,
+  "max_independent_postprocess_difference": 8.881784197001252e-16,
+  "bootstrap_independent_crosscheck": {
+    "7": {
+      "p_worse": 0.9775,
+      "ci_mse": [
+        -0.0025913346034723127,
+        0.017639701962780956
+      ],
+      "ci_rmse": [
+        -0.005264595596053839,
+        0.041035679759077015
+      ],
+      "n_blocks": 80
+    },
+    "101": {
+      "p_worse": 0.97445,
+      "ci_mse": [
+        -0.002782366447526245,
+        0.015899299810075554
+      ],
+      "ci_rmse": [
+        -0.005642152512058446,
+        0.037850680430010455
+      ],
+      "n_blocks": 80
+    },
+    "2024": {
+      "p_worse": 0.98615,
+      "ci_mse": [
+        -0.0015871676203170744,
+        0.017090352261975954
+      ],
+      "ci_rmse": [
+        -0.003113265469600285,
+        0.041383311439172274
+      ],
+      "n_blocks": 80
+    }
+  },
+  "source_oof_sha256": "9b8253fc170b882f777f0513f73a1452654d3c25b5abda7a8c0e686bf2744b63",
+  "code_sha256": "a66ba1eaeeaed56ddee911e2be606ae629df47149dbd21fd71b7b229bc4c85d4",
+  "decisions": [
+    {
+      "arm": "catboost",
+      "improving_seed_validator_cells": 2,
+      "total_seed_validator_cells": 15,
+      "direction_pass": false,
+      "diag_bootstrap_pass": false,
+      "adopted": false,
+      "label": "기각",
+      "final_lock_scored": false,
+      "submission_created": false
+    }
+  ],
+  "training_predictions_replayed": false,
+  "new_model_trained": false,
+  "segment_scope": "Full-day input sealed grouping and label-derived high_ec are diagnostic only; no feature, gate, threshold, weight, hyperparameter or candidate selection added."
+}

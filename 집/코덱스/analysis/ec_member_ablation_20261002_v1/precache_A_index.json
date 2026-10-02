@@ -1,0 +1,194 @@
+{
+  "stage": "COMPLETE",
+  "group": "A",
+  "worker_code_sha256": "b3af032eda3d68e722ff1b0e0ccfed552652a021c828179994897e00209aad45",
+  "original_code_sha256": "5e40728658907a5c17cdb5e78108beb9ea1b577367eacd7694b3fd5522d5f6fe",
+  "original_manifest_sha256": "230528086678db7b44c9a19c56797f9cadeebfe01809b2001045506df01c7fee",
+  "original_hypothesis_or_recipe_changed": false,
+  "candidate_scores_created": false,
+  "elapsed_seconds": 480.1710000000894,
+  "entries": [
+    {
+      "validator": "A",
+      "validation_fold": 0,
+      "seed": 7,
+      "train_n": 6072,
+      "val_n": 1272,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_0_seed7_members.npz",
+      "cache_sha256": "20c2263f9b5e1ba0ff2d398c5845985d52249bbdaa8006bcfa6167f5775a1563",
+      "metadata_sha256": "aa6738c097cbc3e37a2d26e8120da870fb241e72b35abd0d051a12e9d0177392"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 0,
+      "seed": 101,
+      "train_n": 6072,
+      "val_n": 1272,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_0_seed101_members.npz",
+      "cache_sha256": "2f4797663aa40a54592d679ebf017d23abad07a97a5f137662c7ef702283df0b",
+      "metadata_sha256": "456348324c3d63ee37c8a5b5f574f75b700fa78b537b800634aa59497af86773"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 0,
+      "seed": 2024,
+      "train_n": 6072,
+      "val_n": 1272,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_0_seed2024_members.npz",
+      "cache_sha256": "92a8e2af91a7368d8d7190560d86404cdcaa992498032232018d84c50b03aee7",
+      "metadata_sha256": "a5ce9ab932f958f9538a15004b19a7242b136a5f16d989cbbc213a4c36fd5caf"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 1,
+      "seed": 7,
+      "train_n": 5928,
+      "val_n": 1320,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_1_seed7_members.npz",
+      "cache_sha256": "d9e238d1737253f9564ee1c9799fdf0d0a55cd0f721f1cf31f5f4c6e977dbcd9",
+      "metadata_sha256": "d3d6151eca511d0d039e6c1687366773d96e73eeca1cdb1707e8a1cd2b3c2e1d"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 1,
+      "seed": 101,
+      "train_n": 5928,
+      "val_n": 1320,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_1_seed101_members.npz",
+      "cache_sha256": "46430d8ca9b9e2d51f0262f9014107a26f4791ec1bcea4e12ee43f63ff20f4f9",
+      "metadata_sha256": "750b49dfd91abb6129c7a1963b88234fd7c07b3f0157abfaf34624e6611aed0f"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 1,
+      "seed": 2024,
+      "train_n": 5928,
+      "val_n": 1320,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_1_seed2024_members.npz",
+      "cache_sha256": "ee0250ca974dd097b132a02aab38d24328faea00d3511f898bac5555cbe694e7",
+      "metadata_sha256": "8220ed319200f0fb35e4d8416dc292b063bad9b1a9bd23151192efd5ca81ec12"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 2,
+      "seed": 7,
+      "train_n": 6000,
+      "val_n": 1272,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_2_seed7_members.npz",
+      "cache_sha256": "955d8d4091cbe2be8aedff75733eb82b8cf002a1d5ca5e5c768bdf31d9c7023f",
+      "metadata_sha256": "851c9917de89e43e5c54273d8a253bc0c323bdadf6a307a334472c6c9cfab9a3"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 2,
+      "seed": 101,
+      "train_n": 6000,
+      "val_n": 1272,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_2_seed101_members.npz",
+      "cache_sha256": "08cfd39637ee7f2f7cf441f4bfd5aeb146d6d50c487566ace31b3e5119a4ba4a",
+      "metadata_sha256": "50ade8e7c8428ded7bb4a8a701d063c9db61e39696104a45406863ce05f13d3d"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 2,
+      "seed": 2024,
+      "train_n": 6000,
+      "val_n": 1272,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_2_seed2024_members.npz",
+      "cache_sha256": "60f55d27ba6fe00ec2f0742927ed0a41879459069bf4cb613fbbdf9278098160",
+      "metadata_sha256": "1f9494c3ce6b6bcf7efb27d7bb9c40caba75c4c36790cc38e722e336c1704857"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 3,
+      "seed": 7,
+      "train_n": 6024,
+      "val_n": 1248,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_3_seed7_members.npz",
+      "cache_sha256": "f383636b48b684f7e3e092f9832875b69726c2493f788c25df2d1846a6bdf083",
+      "metadata_sha256": "ee7094140f27e58e00def32704376cb129d0d11bbc952400128dd92385537671"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 3,
+      "seed": 101,
+      "train_n": 6024,
+      "val_n": 1248,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_3_seed101_members.npz",
+      "cache_sha256": "e76dc86e5640840ce7d38b1112a6fdcff42f8ec0b7b0ce8e6d7bfd1c0da348b4",
+      "metadata_sha256": "721095635d7c1e58988c71807049c2c8c28ddcfd58ac9fc9a03beec25c294d28"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 3,
+      "seed": 2024,
+      "train_n": 6024,
+      "val_n": 1248,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_3_seed2024_members.npz",
+      "cache_sha256": "06edcff985d002e6416d784fe547b1d30bd218ddc1ad0ab2c0f7927e3425a1d5",
+      "metadata_sha256": "6eef1b5e2c3de7e22310e6f1bb41a79bf1c39ac05baf9f65cf34880b138f5034"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 4,
+      "seed": 7,
+      "train_n": 6096,
+      "val_n": 1224,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_4_seed7_members.npz",
+      "cache_sha256": "8e008b79966e9001c06bcb3160ef1e83d1acb792331aa74e2775facf199d09e7",
+      "metadata_sha256": "423ea804d051f25dc22366edfdcef8797bcf6035a45952f32fed8d654877566f"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 4,
+      "seed": 101,
+      "train_n": 6096,
+      "val_n": 1224,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_4_seed101_members.npz",
+      "cache_sha256": "cae9bda08dda79c18823530f04c6cd5916b26712cecf091ad720c82cca0c06e2",
+      "metadata_sha256": "ff14676fc5660c168df31b48a396e7208097afe1918164fdb9f87f6e1bc2d5b6"
+    },
+    {
+      "validator": "A",
+      "validation_fold": 4,
+      "seed": 2024,
+      "train_n": 6096,
+      "val_n": 1224,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\A_4_seed2024_members.npz",
+      "cache_sha256": "3e1ae915bafb7468d972df8f4becf1ef81195bbd7bba60198f9a2177b78e2005",
+      "metadata_sha256": "e4aa377b1a3031be120254b595fdbab0c744232196636341ed28df0d576acf6d"
+    },
+    {
+      "validator": "B",
+      "validation_fold": 0,
+      "seed": 7,
+      "train_n": 5952,
+      "val_n": 1272,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\B_0_seed7_members.npz",
+      "cache_sha256": "dc94f0f0f20f189d9e33ec40706fdf7dc3c449a4eaff74edc9ada901231dc40d",
+      "metadata_sha256": "7f8dbee63dcb54c1f7b7736e07ae64731f3a9a851a744b0052ed65d5472b7be5"
+    },
+    {
+      "validator": "B",
+      "validation_fold": 0,
+      "seed": 101,
+      "train_n": 5952,
+      "val_n": 1272,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\B_0_seed101_members.npz",
+      "cache_sha256": "c09f359033bb745c23fe87ce698a7f3f05da2ed80158e2e61bba23176ae9e376",
+      "metadata_sha256": "c2d47f7cbe0540b0b34659303e56102f1c8eed97fa73bcc7be9f482c089e1fd1"
+    },
+    {
+      "validator": "B",
+      "validation_fold": 0,
+      "seed": 2024,
+      "train_n": 5952,
+      "val_n": 1272,
+      "cache_path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_member_ablation_20261002_v1\\B_0_seed2024_members.npz",
+      "cache_sha256": "4a91418b94045fff6825c1e21eabc5d92e65f1755793e7fc0ba58c8817b5ed44",
+      "metadata_sha256": "67ea2f0e4b2c24b14f0cf3090e7b4b52480e60904440396927382af793c35cee"
+    }
+  ],
+  "completed_fits": 18,
+  "completed_folds": 6
+}

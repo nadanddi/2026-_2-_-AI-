@@ -1,0 +1,440 @@
+{
+  "status": "PASS",
+  "source_hash_checks": {
+    "code": true,
+    "protocol": true,
+    "common": true,
+    "core": true,
+    "split": true,
+    "phase3_manifest": true,
+    "lock": true,
+    "train_X.csv": true,
+    "train_y.csv": true
+  },
+  "member_cache_count": 66,
+  "phase3_cache_count": 22,
+  "member_cache_checks": [
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "seed": 7,
+      "member_cache_sha256": "ad7ed1b972ef6289422ac9af49c37b098da5b49dbfbb77147a225114e920802f"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "seed": 101,
+      "member_cache_sha256": "24f380c156a3868701e76c752602e8cf5ac17f841346ffe25ce66391c621730b"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "seed": 2024,
+      "member_cache_sha256": "097676b4ae299c04bc0c367c2672b7ffa15d52094cbd048220026ef4fda23984"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "seed": 7,
+      "member_cache_sha256": "190b2e79e76e5975f60a414d7c7297c17faca1fdb376e1e37c3a963f58e4117e"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "seed": 101,
+      "member_cache_sha256": "c5d659925fecffc1b5a3379adfba95502ef1a199e43692ef8666974956918cb1"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "seed": 2024,
+      "member_cache_sha256": "890ce7c0f2b2fe547e69dbfa5a25f81f7317753ac7b7d248b38f4dc18e466d8c"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "seed": 7,
+      "member_cache_sha256": "b61e073b46a01f63e51874e34d804856b11e20d4aac6e4f03500c9b9ff197da7"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "seed": 101,
+      "member_cache_sha256": "e7b9402a56866950c2cdfe334dc8aa5e4e6c28d56b35b220aa290de671e212e6"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "seed": 2024,
+      "member_cache_sha256": "674101d98e8f27dff0f1daf8a0b03028b6425b417823305202d481ca1120c877"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "seed": 7,
+      "member_cache_sha256": "7bf6bfa02b1beeeef2725d612305d7efa9e44fbf572440cbe8e9b219526b65f5"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "seed": 101,
+      "member_cache_sha256": "edcd8daeed417665dc2e088d2b617271879b82b6e5868bde7066f6e1f6b06a4a"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "seed": 2024,
+      "member_cache_sha256": "81cd540576382eb2bfcc5e465c5941209064641d373fb48798e73bc7bbef7e56"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "seed": 7,
+      "member_cache_sha256": "9d023b00d3c46bf6a53b2ea99ecf094013fd6762182f824cf4f8a84f8bb3f6d8"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "seed": 101,
+      "member_cache_sha256": "50268d6d601b9fe0b7dd7900e3fbb37c758a29d33edf1a8703a68117e1fe2512"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "seed": 2024,
+      "member_cache_sha256": "eb110662f07f3f38f47dd2a533378530cc14b20e5e292e55c43aba4ac4974b97"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "seed": 7,
+      "member_cache_sha256": "0afb33cd65648d3b4732fb4a8abe50ecaca9029cb21d961f39d39566dd6e0f40"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "seed": 101,
+      "member_cache_sha256": "250f5e8df902f987e9272f0739a205526d32bcb177030a269e801bbec63dbc24"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "seed": 2024,
+      "member_cache_sha256": "342e826e4a88db37096cf608e636ac89b249233d27e3ce443b2d5ba36ac91c0e"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "seed": 7,
+      "member_cache_sha256": "e328dfc34399ae150a50092b1be22cc8df81f614123f5e304e929ec02b808bb7"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "seed": 101,
+      "member_cache_sha256": "9ddbd0dd1afa1fb8cf14807ea19f412305fb4bc19ccd5d73fb873de9cc1a7b31"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "seed": 2024,
+      "member_cache_sha256": "0e14f0a4ca19cf0e910b499725d6c6df0792a57120d177a3e7e9df358cb9bbcf"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "seed": 7,
+      "member_cache_sha256": "f696fcd9e2e35ec54de2da1886afbfe71debd0c519783107dd6bbda79cfe6e3a"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "seed": 101,
+      "member_cache_sha256": "e2812e9d5e02f5c77bcdbdf8b70c7fde1c07d4dab8f0679e9bb6e941095d7529"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "seed": 2024,
+      "member_cache_sha256": "a0cbb7cebd35bb46e2fe19e631bb6b14380206151103fd2ce47e17b20948695c"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "seed": 7,
+      "member_cache_sha256": "09aef5367dbdd020dd4d22b1970ca41e56e9ab3dc3e6cf791856367aa6f63d76"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "seed": 101,
+      "member_cache_sha256": "2cddb8148c60222962a9a61271ed71d2f52ed9a5ae6fcbd6928d357e289086d8"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "seed": 2024,
+      "member_cache_sha256": "11b8c9b024408aa1f7de6a5982ad31d35d1a2ffc39200c7e6fd4027358fc1546"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "seed": 7,
+      "member_cache_sha256": "66b99d2fc6434952b55e0ed604662e66bd8c032c47113c6c3419010b54a5d6ed"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "seed": 101,
+      "member_cache_sha256": "ac582aa98cbee3a19cfbdf627cfdef10624b3439bb769bdedc0ff67201d78f15"
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "seed": 2024,
+      "member_cache_sha256": "ae25fdcbbb9ce4872afdcabf24be2ed2100550623a4131e68be7eae928006686"
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "seed": 7,
+      "member_cache_sha256": "20c2263f9b5e1ba0ff2d398c5845985d52249bbdaa8006bcfa6167f5775a1563"
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "seed": 101,
+      "member_cache_sha256": "2f4797663aa40a54592d679ebf017d23abad07a97a5f137662c7ef702283df0b"
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "seed": 2024,
+      "member_cache_sha256": "92a8e2af91a7368d8d7190560d86404cdcaa992498032232018d84c50b03aee7"
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "seed": 7,
+      "member_cache_sha256": "d9e238d1737253f9564ee1c9799fdf0d0a55cd0f721f1cf31f5f4c6e977dbcd9"
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "seed": 101,
+      "member_cache_sha256": "46430d8ca9b9e2d51f0262f9014107a26f4791ec1bcea4e12ee43f63ff20f4f9"
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "seed": 2024,
+      "member_cache_sha256": "ee0250ca974dd097b132a02aab38d24328faea00d3511f898bac5555cbe694e7"
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "seed": 7,
+      "member_cache_sha256": "955d8d4091cbe2be8aedff75733eb82b8cf002a1d5ca5e5c768bdf31d9c7023f"
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "seed": 101,
+      "member_cache_sha256": "08cfd39637ee7f2f7cf441f4bfd5aeb146d6d50c487566ace31b3e5119a4ba4a"
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "seed": 2024,
+      "member_cache_sha256": "60f55d27ba6fe00ec2f0742927ed0a41879459069bf4cb613fbbdf9278098160"
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "seed": 7,
+      "member_cache_sha256": "f383636b48b684f7e3e092f9832875b69726c2493f788c25df2d1846a6bdf083"
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "seed": 101,
+      "member_cache_sha256": "e76dc86e5640840ce7d38b1112a6fdcff42f8ec0b7b0ce8e6d7bfd1c0da348b4"
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "seed": 2024,
+      "member_cache_sha256": "06edcff985d002e6416d784fe547b1d30bd218ddc1ad0ab2c0f7927e3425a1d5"
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "seed": 7,
+      "member_cache_sha256": "8e008b79966e9001c06bcb3160ef1e83d1acb792331aa74e2775facf199d09e7"
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "seed": 101,
+      "member_cache_sha256": "cae9bda08dda79c18823530f04c6cd5916b26712cecf091ad720c82cca0c06e2"
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "seed": 2024,
+      "member_cache_sha256": "3e1ae915bafb7468d972df8f4becf1ef81195bbd7bba60198f9a2177b78e2005"
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "seed": 7,
+      "member_cache_sha256": "dc94f0f0f20f189d9e33ec40706fdf7dc3c449a4eaff74edc9ada901231dc40d"
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "seed": 101,
+      "member_cache_sha256": "52e3a79ff0e9ea54ff47010d31e65e28a38f150c5bbfb56b3e69d155518ab3dc"
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "seed": 2024,
+      "member_cache_sha256": "f04f4a2edeedab346be97ebdc466e5e15265a391399a6b7a8fb102eda5dc4618"
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "seed": 7,
+      "member_cache_sha256": "5d562d1c838f1b292e943860e31825148d61e746ccdf53e3e848b2042ec4e9ea"
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "seed": 101,
+      "member_cache_sha256": "06a2554f5fd35936078e5ffbaa495260497c8e54cb16ec5aa832b29b661d91f6"
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "seed": 2024,
+      "member_cache_sha256": "2c46de4a0a60819897b05e367803bcdb85543cfe312b04ce0b5dcf22e6cffd4b"
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "seed": 7,
+      "member_cache_sha256": "347e110158dd0eb450306073771a8dbc2a22bdb3fcaf8d744343d7e9be01d400"
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "seed": 101,
+      "member_cache_sha256": "ac3b5476fcb8810f916497cf67268b18dd8ab5a5ba717eaf8f202dfd15978a16"
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "seed": 2024,
+      "member_cache_sha256": "3bdc9b7d629b5b21f33d261949e0ccaf7c85a4cffb00f521f73fe1ed8cd2d039"
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "seed": 7,
+      "member_cache_sha256": "4af6487deb735c5ba6336c2f7d97960b3db8e40c8096d73862c7062f73fa2e30"
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "seed": 101,
+      "member_cache_sha256": "1717080176c1ef70590d0b3668befd4a860e6f6325944ddf27dab448b55a8b07"
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "seed": 2024,
+      "member_cache_sha256": "68aa6f3f422723a1cae9b05891b8d2a00b81c2675745fd2d0b0326c386b230ff"
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "seed": 7,
+      "member_cache_sha256": "8a8a17d9760cdcf4e47ae33924cf49d2f8ec2e97d04eaa2d53f6654bf095d6ea"
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "seed": 101,
+      "member_cache_sha256": "597b8176c4f6141bb92d0d1b5dba0acd47b68322076cca9f43f034834756f6c7"
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "seed": 2024,
+      "member_cache_sha256": "7b7b7025cf0e53fffe89f45ea8b367c7cf92c3c8a7a3ddb5c7486405a7641a7e"
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "seed": 7,
+      "member_cache_sha256": "461724c00f0d679ec223a636ec88c282c05d6481125bb0194f967748c366e942"
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "seed": 101,
+      "member_cache_sha256": "a425afd4990c615846a55cc725b0daebf49b5e34e0b55a56ad4fc928b1313cfc"
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "seed": 2024,
+      "member_cache_sha256": "5cbcef706f0ba4f4caa55710057fa883129e970943747dbc3ed77c9dcdfeaa1f"
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "seed": 7,
+      "member_cache_sha256": "41f7cb2bec435548c4cf515571f5ee7862cfba098f5cb38a299222a6634dd4b8"
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "seed": 101,
+      "member_cache_sha256": "f18444c90868ae47686b0e1e64d08504f8def4a1601f8a3340733111fefcc01d"
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "seed": 2024,
+      "member_cache_sha256": "d5b5f2264f240bf08b38fcca0c1a407ca40409c84e7056f293637c48ab48c69e"
+    }
+  ],
+  "phase3_cache_checks": {
+    "DIAG10/0": true,
+    "DIAG10/1": true,
+    "DIAG10/2": true,
+    "DIAG10/3": true,
+    "DIAG10/4": true,
+    "DIAG10/5": true,
+    "DIAG10/6": true,
+    "DIAG10/7": true,
+    "DIAG10/8": true,
+    "DIAG10/9": true,
+    "A/0": true,
+    "A/1": true,
+    "A/2": true,
+    "A/3": true,
+    "A/4": true,
+    "B/0": true,
+    "B/1": true,
+    "B/2": true,
+    "B/3": true,
+    "B/4": true,
+    "EXT10/0": true,
+    "EXT12/0": true
+  },
+  "locked_labels_converted": false,
+  "model_fitted": false
+}

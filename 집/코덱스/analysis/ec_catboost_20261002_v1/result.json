@@ -1,0 +1,92 @@
+{
+  "status": "COMPLETE",
+  "one_arm": "CatBoost standalone fixed parameters",
+  "score_gate_pass": false,
+  "statistical_gate_pass": false,
+  "public_selection_gate_pass": false,
+  "candidate_adopted": false,
+  "independent_verification_pending": true,
+  "final_lock_scored": false,
+  "submission_created": false,
+  "bootstrap_DIAG10": {
+    "7": {
+      "draws": 20000,
+      "rng_seed": 918,
+      "bootstrap_unit": "farm-stratified original five-day block; all hours retained",
+      "difference_rmse": 0.01777400535723528,
+      "ci_bonferroni5": [
+        -0.005264595596053866,
+        0.04103567975907704
+      ],
+      "p_worse": 0.9775,
+      "threshold": 0.005,
+      "statistical_gate_pass": false
+    },
+    "101": {
+      "draws": 20000,
+      "rng_seed": 918,
+      "bootstrap_unit": "farm-stratified original five-day block; all hours retained",
+      "difference_rmse": 0.015737210281592584,
+      "ci_bonferroni5": [
+        -0.005642152512058474,
+        0.03785068043001048
+      ],
+      "p_worse": 0.97445,
+      "threshold": 0.005,
+      "statistical_gate_pass": false
+    },
+    "2024": {
+      "draws": 20000,
+      "rng_seed": 918,
+      "bootstrap_unit": "farm-stratified original five-day block; all hours retained",
+      "difference_rmse": 0.018087061895049356,
+      "ci_bonferroni5": [
+        -0.0031132654696003955,
+        0.04138331143917233
+      ],
+      "p_worse": 0.98615,
+      "threshold": 0.005,
+      "statistical_gate_pass": false
+    },
+    "seed_average_diagnostic_only": {
+      "draws": 20000,
+      "rng_seed": 918,
+      "bootstrap_unit": "farm-stratified original five-day block; all hours retained",
+      "difference_rmse": 0.016427944714456938,
+      "ci_bonferroni5": [
+        -0.0050260822872967076,
+        0.0383925410664825
+      ],
+      "p_worse": 0.97805,
+      "threshold": 0.005,
+      "statistical_gate_pass": false
+    }
+  },
+  "seed_average_diagnostic_only": [
+    {
+      "validator": "A",
+      "candidate_rmse": 0.24957088822224033,
+      "baseline_v2_rmse": 0.23030200888117217
+    },
+    {
+      "validator": "B",
+      "candidate_rmse": 0.23402016091434008,
+      "baseline_v2_rmse": 0.218769428749023
+    },
+    {
+      "validator": "DIAG10",
+      "candidate_rmse": 0.23030163833391118,
+      "baseline_v2_rmse": 0.21387369361945424
+    },
+    {
+      "validator": "EXT10",
+      "candidate_rmse": 0.43547497738367397,
+      "baseline_v2_rmse": 0.4140908274876331
+    },
+    {
+      "validator": "EXT12",
+      "candidate_rmse": 0.41769407548905335,
+      "baseline_v2_rmse": 0.41612807820473807
+    }
+  ]
+}
