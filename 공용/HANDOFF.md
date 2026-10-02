@@ -300,3 +300,9 @@
 - 요청서 직접 실행 지시, main b730e80 사전. TK1 완료: 기존 W30G 후반56일 RMSE .793103, F13 .467192/F47 1.034496, F47 level SSE79.19%. 42셀 fsum 검산PASS. 집/코덱스/analysis/temp_tk_season_20261003_v1/TK1_오차지도_v2.md 참고(초안 밀폐BASE 숫자 정정, v1인용금지).
 - TK3 완료: 독립PAV+원7회차 BASE7/101·CODEX726 재학습, TC1/TC2 구성원 및 원PFN혼합 행예측 차≤1.0658e-14. 12혼합셀 fsum/bootstrap PASS. EXT12+.754~+1.066%, DIAG p .09565~.18895로TC2FAIL확인. 실제BASE day_hinge0개, 요청서와차이. TK3_독립재현.md.
 - TK2 진행중: paired float32CUDA, PFN문맥1–8/17–24, 2000행/4estimators, DIAG10/EXT10/EXT12×2seed×2문맥·k18, EL1후반12batch 보강. 모든BASE/CODEX24fold 재학습완료. local/temp_tk_season_20261003_v1 재개가능. GPUattention동등연산probe중; 실패시원tk2_pfn.py재개. finish_pipeline.py는pfn_done/members_done표지후analyze/verify자동실행대기. 아직새온도후보판정없음. TK4별도지시전생성금지.
+
+### 2026-10-03 집·코덱스 — 통계·데이터 활용 문헌 조사 완료, TK2 별도 진행
+- 사용자 요청으로 국내외 통계·ML 문헌을 기존 실패와 대조. 보고서 `집/코덱스/analysis/statistical_literature_20261003_v1/통계_데이터활용_단서보고서_v1.md`, QUESTIONS/diagnose/verify/review 보존.
+- 공개 DIAG10 28셀 비중 한계 독립검산 PASS. 온도 전체 최소 잔존SSE62.57~63.58%, F47후기76.05~76.45%; EC 계절R3·PFN 두묶음66.73~67.77%. 정답을 쓰는 진단용 하한이며 실현 가능한 개선 성적·EC내부모델 전체 한계 아님. 날씨400일/122그룹/공유291일 재확인, 누수단정0.
+- 다음 연구 단서: 결측블록·과거관측간격 재현, 조건부 OOF잔차의 추가정보 확인 후 저용량 보정, 세전문가 최종혼합MSE+지역수축. 기존 PAR1/MW1/G1/GPBoost 실패와 문헌 가정 차이 명시. 새 후보 채택/학습/제출/test예측/EC잠금 없음.
+- 진행중: 기존 TK2 PFN 계절 GPU는 원설정으로 계속 계산(DIAG10 fold3 context21 확인), 자동분석·검산·보고서 worker 대기. 두 속도 probe는 미적용. 조사 완료를 TK2 완료로 해석하지 않는다. local 체크포인트는 이후 sync_end로 Drive 전달 필요.

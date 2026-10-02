@@ -1,0 +1,462 @@
+{
+  "status": "PASS",
+  "findings": [
+    {
+      "target": "TEMP_7_1-8",
+      "segment": "all",
+      "n": 9600,
+      "days": 400,
+      "outside_n": 6107,
+      "outside_pct": 63.614583333333336,
+      "baseline_rmse": 0.6585665044014377,
+      "oracle_hull_rmse": 0.521331960172351,
+      "unavoidable_sse_pct": 62.665631991713276,
+      "pairwise_error_correlation": [
+        0.829663899660672,
+        0.7927962885607143,
+        0.86069518892415
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_7_1-8",
+      "segment": "early",
+      "n": 8256,
+      "days": 344,
+      "outside_n": 5213,
+      "outside_pct": 63.14195736434109,
+      "baseline_rmse": 0.6339687542664784,
+      "oracle_hull_rmse": 0.49417223037454927,
+      "unavoidable_sse_pct": 60.760447840195276,
+      "pairwise_error_correlation": [
+        0.8376088073539512,
+        0.7834152839403506,
+        0.8499281691841082
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_7_1-8",
+      "segment": "late",
+      "n": 1344,
+      "days": 56,
+      "outside_n": 894,
+      "outside_pct": 66.51785714285714,
+      "baseline_rmse": 0.7931030951152975,
+      "oracle_hull_rmse": 0.6642379440384463,
+      "unavoidable_sse_pct": 70.14360328855481,
+      "pairwise_error_correlation": [
+        0.7984434117019225,
+        0.8335106947014991,
+        0.9063701668058357
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_7_1-8",
+      "segment": "F47_late",
+      "n": 648,
+      "days": 27,
+      "outside_n": 501,
+      "outside_pct": 77.31481481481481,
+      "baseline_rmse": 1.0344959246126866,
+      "oracle_hull_rmse": 0.9038188725032192,
+      "unavoidable_sse_pct": 76.33175414892551,
+      "pairwise_error_correlation": [
+        0.9083269442742983,
+        0.9237082877349462,
+        0.9444636457283468
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_7_17-24",
+      "segment": "all",
+      "n": 9600,
+      "days": 400,
+      "outside_n": 6123,
+      "outside_pct": 63.78125,
+      "baseline_rmse": 0.6605670404396278,
+      "oracle_hull_rmse": 0.526730875711052,
+      "unavoidable_sse_pct": 63.58340069773543,
+      "pairwise_error_correlation": [
+        0.829663899660672,
+        0.8026226858522733,
+        0.875095291544049
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_7_17-24",
+      "segment": "early",
+      "n": 8256,
+      "days": 344,
+      "outside_n": 5243,
+      "outside_pct": 63.50532945736434,
+      "baseline_rmse": 0.6360025514017873,
+      "oracle_hull_rmse": 0.5005930744239147,
+      "unavoidable_sse_pct": 61.951518826650556,
+      "pairwise_error_correlation": [
+        0.8376088073539512,
+        0.7961629229340632,
+        0.8686197510469776
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_7_17-24",
+      "segment": "late",
+      "n": 1344,
+      "days": 56,
+      "outside_n": 880,
+      "outside_pct": 65.47619047619048,
+      "baseline_rmse": 0.7949818680777182,
+      "oracle_hull_rmse": 0.6651265665200816,
+      "unavoidable_sse_pct": 69.99937184590205,
+      "pairwise_error_correlation": [
+        0.7984434117019225,
+        0.8322913347010692,
+        0.9042456243656848
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_7_17-24",
+      "segment": "F47_late",
+      "n": 648,
+      "days": 27,
+      "outside_n": 500,
+      "outside_pct": 77.1604938271605,
+      "baseline_rmse": 1.0352929007290785,
+      "oracle_hull_rmse": 0.9029125131137444,
+      "unavoidable_sse_pct": 76.06149751866947,
+      "pairwise_error_correlation": [
+        0.9083269442742983,
+        0.9196883019628396,
+        0.9452680994162649
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_101_1-8",
+      "segment": "all",
+      "n": 9600,
+      "days": 400,
+      "outside_n": 6120,
+      "outside_pct": 63.75,
+      "baseline_rmse": 0.6587854070657103,
+      "oracle_hull_rmse": 0.5210953733014236,
+      "unavoidable_sse_pct": 62.56716737903603,
+      "pairwise_error_correlation": [
+        0.831652110606434,
+        0.7939748704958788,
+        0.86069518892415
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_101_1-8",
+      "segment": "early",
+      "n": 8256,
+      "days": 344,
+      "outside_n": 5226,
+      "outside_pct": 63.299418604651166,
+      "baseline_rmse": 0.6350097241436263,
+      "oracle_hull_rmse": 0.4942858122803242,
+      "unavoidable_sse_pct": 60.58924461458576,
+      "pairwise_error_correlation": [
+        0.8394082332746371,
+        0.7837458410060791,
+        0.8499281691841082
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_101_1-8",
+      "segment": "late",
+      "n": 1344,
+      "days": 56,
+      "outside_n": 894,
+      "outside_pct": 66.51785714285714,
+      "baseline_rmse": 0.789276756511682,
+      "oracle_hull_rmse": 0.6623902003111641,
+      "unavoidable_sse_pct": 70.4318620966917,
+      "pairwise_error_correlation": [
+        0.8000566507443779,
+        0.8381234803142892,
+        0.9063701668058357
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_101_1-8",
+      "segment": "F47_late",
+      "n": 648,
+      "days": 27,
+      "outside_n": 502,
+      "outside_pct": 77.46913580246914,
+      "baseline_rmse": 1.0313462218089808,
+      "oracle_hull_rmse": 0.9017911043834497,
+      "unavoidable_sse_pct": 76.45447844408234,
+      "pairwise_error_correlation": [
+        0.9068423890741442,
+        0.9236099852528633,
+        0.9444636457283468
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_101_17-24",
+      "segment": "all",
+      "n": 9600,
+      "days": 400,
+      "outside_n": 6143,
+      "outside_pct": 63.989583333333336,
+      "baseline_rmse": 0.6608244851703937,
+      "oracle_hull_rmse": 0.5262615821560442,
+      "unavoidable_sse_pct": 63.42070735147608,
+      "pairwise_error_correlation": [
+        0.831652110606434,
+        0.8042057850811908,
+        0.875095291544049
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_101_17-24",
+      "segment": "early",
+      "n": 8256,
+      "days": 344,
+      "outside_n": 5256,
+      "outside_pct": 63.66279069767442,
+      "baseline_rmse": 0.6370454807823666,
+      "oracle_hull_rmse": 0.5005250678537997,
+      "unavoidable_sse_pct": 61.73206261750135,
+      "pairwise_error_correlation": [
+        0.8394082332746371,
+        0.7965161196482561,
+        0.8686197510469776
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_101_17-24",
+      "segment": "late",
+      "n": 1344,
+      "days": 56,
+      "outside_n": 887,
+      "outside_pct": 65.99702380952381,
+      "baseline_rmse": 0.7913723516660899,
+      "oracle_hull_rmse": 0.6627834024580361,
+      "unavoidable_sse_pct": 70.14254219476524,
+      "pairwise_error_correlation": [
+        0.8000566507443779,
+        0.8386832810069691,
+        0.9042456243656848
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "TEMP_101_17-24",
+      "segment": "F47_late",
+      "n": 648,
+      "days": 27,
+      "outside_n": 503,
+      "outside_pct": 77.62345679012346,
+      "baseline_rmse": 1.032293531783937,
+      "oracle_hull_rmse": 0.9002318272472496,
+      "unavoidable_sse_pct": 76.0505420869855,
+      "pairwise_error_correlation": [
+        0.9068423890741442,
+        0.9205102881848581,
+        0.9452680994162649
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_7_two_superexperts",
+      "segment": "all",
+      "n": 8640,
+      "days": 360,
+      "outside_n": 7237,
+      "outside_pct": 83.76157407407408,
+      "baseline_rmse": 0.18112483710525534,
+      "oracle_hull_rmse": 0.14910977257393135,
+      "unavoidable_sse_pct": 67.77292034102837,
+      "pairwise_error_correlation": [
+        0.8771945946765614
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_7_two_superexperts",
+      "segment": "early",
+      "n": 7536,
+      "days": 314,
+      "outside_n": 6263,
+      "outside_pct": 83.10774946921444,
+      "baseline_rmse": 0.16754154360132353,
+      "oracle_hull_rmse": 0.14081383186854213,
+      "unavoidable_sse_pct": 70.63917343694625,
+      "pairwise_error_correlation": [
+        0.877733398623617
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_7_two_superexperts",
+      "segment": "late",
+      "n": 1104,
+      "days": 46,
+      "outside_n": 974,
+      "outside_pct": 88.22463768115942,
+      "baseline_rmse": 0.25521522752371895,
+      "oracle_hull_rmse": 0.1966004927594662,
+      "unavoidable_sse_pct": 59.34116082141521,
+      "pairwise_error_correlation": [
+        0.8704980535942839
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_7_two_superexperts",
+      "segment": "F47_late",
+      "n": 528,
+      "days": 22,
+      "outside_n": 450,
+      "outside_pct": 85.22727272727273,
+      "baseline_rmse": 0.2517373956998712,
+      "oracle_hull_rmse": 0.16399511533105332,
+      "unavoidable_sse_pct": 42.439118557780496,
+      "pairwise_error_correlation": [
+        0.8853746742293588
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_101_two_superexperts",
+      "segment": "all",
+      "n": 8640,
+      "days": 360,
+      "outside_n": 7157,
+      "outside_pct": 82.83564814814815,
+      "baseline_rmse": 0.18167907699926716,
+      "oracle_hull_rmse": 0.14841545763558286,
+      "unavoidable_sse_pct": 66.73419736767829,
+      "pairwise_error_correlation": [
+        0.8734859132174336
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_101_two_superexperts",
+      "segment": "early",
+      "n": 7536,
+      "days": 314,
+      "outside_n": 6182,
+      "outside_pct": 82.03290870488323,
+      "baseline_rmse": 0.16832280222403495,
+      "oracle_hull_rmse": 0.14032316823057273,
+      "unavoidable_sse_pct": 69.49808823181584,
+      "pairwise_error_correlation": [
+        0.874148095552374
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_101_two_superexperts",
+      "segment": "late",
+      "n": 1104,
+      "days": 46,
+      "outside_n": 975,
+      "outside_pct": 88.31521739130434,
+      "baseline_rmse": 0.2547888162988608,
+      "oracle_hull_rmse": 0.19487607875113272,
+      "unavoidable_sse_pct": 58.500064137712556,
+      "pairwise_error_correlation": [
+        0.8660756351706239
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_101_two_superexperts",
+      "segment": "F47_late",
+      "n": 528,
+      "days": 22,
+      "outside_n": 453,
+      "outside_pct": 85.79545454545455,
+      "baseline_rmse": 0.25396183444009945,
+      "oracle_hull_rmse": 0.1638657989490318,
+      "unavoidable_sse_pct": 41.63319385249041,
+      "pairwise_error_correlation": [
+        0.8823559052648156
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_2024_two_superexperts",
+      "segment": "all",
+      "n": 8640,
+      "days": 360,
+      "outside_n": 7185,
+      "outside_pct": 83.15972222222223,
+      "baseline_rmse": 0.18172772536614717,
+      "oracle_hull_rmse": 0.14926606614220914,
+      "unavoidable_sse_pct": 67.4651970544635,
+      "pairwise_error_correlation": [
+        0.874823024062292
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_2024_two_superexperts",
+      "segment": "early",
+      "n": 7536,
+      "days": 314,
+      "outside_n": 6203,
+      "outside_pct": 82.31157112526539,
+      "baseline_rmse": 0.16747483669390256,
+      "oracle_hull_rmse": 0.14025434048820565,
+      "unavoidable_sse_pct": 70.13478900170965,
+      "pairwise_error_correlation": [
+        0.8730365418685518
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_2024_two_superexperts",
+      "segment": "late",
+      "n": 1104,
+      "days": 46,
+      "outside_n": 982,
+      "outside_pct": 88.94927536231884,
+      "baseline_rmse": 0.25884240838350137,
+      "oracle_hull_rmse": 0.20022526077818983,
+      "unavoidable_sse_pct": 59.83659497633745,
+      "pairwise_error_correlation": [
+        0.8762755096536541
+      ],
+      "fsum_pass": true
+    },
+    {
+      "target": "EC_2024_two_superexperts",
+      "segment": "F47_late",
+      "n": 528,
+      "days": 22,
+      "outside_n": 456,
+      "outside_pct": 86.36363636363636,
+      "baseline_rmse": 0.25406804595087,
+      "oracle_hull_rmse": 0.1647198154137104,
+      "unavoidable_sse_pct": 42.033117229623365,
+      "pairwise_error_correlation": [
+        0.8859350552897007
+      ],
+      "fsum_pass": true
+    }
+  ],
+  "source_hashes": {
+    "TK1_predictions.csv": "fda1e488e3b200b233dee521ac31a52d75250d8793d51418a90eb573b39045fa",
+    "v2_integration_oof.csv": "a3c375e3bd8926598ece14f218de505d120ccad2baba92ae4fa9093693de92fa",
+    "diagnose.py": "a318725a25341b835cc14d8028bf94a3613409d820c39af239c9c81827e456c0"
+  }
+}
