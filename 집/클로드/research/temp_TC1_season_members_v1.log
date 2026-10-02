@@ -1,0 +1,46 @@
+   F13 anchors 19 of 29 pass-2 training days
+   F47 anchors 16 of 27 pass-2 training days
+DIAG10 fold 0 done
+   F13 anchors 20 of 29 pass-2 training days
+   F47 anchors 15 of 27 pass-2 training days
+DIAG10 fold 1 done
+   F13 anchors 20 of 29 pass-2 training days
+   F47 anchors 17 of 27 pass-2 training days
+DIAG10 fold 2 done
+   F13 anchors 19 of 29 pass-2 training days
+   F47 anchors 17 of 27 pass-2 training days
+DIAG10 fold 3 done
+   F13 anchors 17 of 24 pass-2 training days
+   F47 anchors 14 of 24 pass-2 training days
+DIAG10 fold 4 done
+   F13 anchors 15 of 22 pass-2 training days
+   F47 anchors 11 of 20 pass-2 training days
+DIAG10 fold 5 done
+   F13 anchors 15 of 22 pass-2 training days
+   F47 anchors 11 of 20 pass-2 training days
+DIAG10 fold 6 done
+   F13 anchors 17 of 22 pass-2 training days
+   F47 anchors 16 of 20 pass-2 training days
+DIAG10 fold 7 done
+   F13 anchors 20 of 23 pass-2 training days
+   F47 anchors 17 of 21 pass-2 training days
+DIAG10 fold 8 done
+   F13 anchors 15 of 24 pass-2 training days
+   F47 anchors 11 of 22 pass-2 training days
+DIAG10 fold 9 done
+   F13 anchors 17 of 21 pass-2 training days
+   F47 anchors 13 of 15 pass-2 training days
+EXT10 fold 0 done
+   F13 anchors 13 of 15 pass-2 training days
+   F47 anchors 4 of 7 pass-2 training days
+EXT12 fold 0 done
+
+set     member    all_b    all_s |   late_b   late_s |  lateE_b  lateE_s |  early_b  early_s
+DIAG10  mask     0.6991   0.6969 |   0.8362   0.8124 |   0.9461   0.9051 |   0.6742   0.6762
+DIAG10  codex    0.7448   0.7407 |   0.8648   0.8390 |   0.9730   0.9394 |   0.7234   0.7234
+EXT10   mask     0.8774   0.8657 |   0.8815   0.8770 |      nan      nan |   0.8767   0.8639
+EXT10   codex    0.9000   0.8965 |   0.8407   0.8373 |      nan      nan |   0.9093   0.9059
+EXT12   mask     0.8738   0.8941 |   0.9562   0.9914 |   0.4895   0.4462 |   0.8605   0.8783
+EXT12   codex    0.9032   0.9118 |   0.8810   0.8798 |   0.5892   0.5831 |   0.9066   0.9166
+
+TC1 decision: STOP
