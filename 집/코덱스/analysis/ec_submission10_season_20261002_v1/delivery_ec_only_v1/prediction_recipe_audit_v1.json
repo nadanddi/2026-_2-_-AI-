@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "rows": 1440,
+  "temperature_blank": true,
+  "recipe_independent_method": "scalar math.fsum for 3-member R3, 3-seed and 4-context averages, serial causal prefix average, training min/max clip",
+  "member_max_differences": [
+    2.220446049250313e-16,
+    4.440892098500626e-16,
+    4.440892098500626e-16
+  ],
+  "full_recipe_max_difference": 6.661338147750939e-16,
+  "clip_min": 0.062,
+  "clip_max": 3.46,
+  "consumed_lock_scored": false,
+  "final_training_labels_used_for_clip_limits_only_in_this_audit": true,
+  "source_csv_sha256": "17d9d99693061aac9c0b53e2b490ebbbe063041adc458662731a52a23e5b1ae2"
+}

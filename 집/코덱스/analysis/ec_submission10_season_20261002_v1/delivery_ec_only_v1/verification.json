@@ -1,0 +1,115 @@
+{
+  "status": "PASS",
+  "rows": 1440,
+  "sample_id_order_equal": true,
+  "temperature_all_blank": true,
+  "finite_ec": true,
+  "csv_bytes_equal": true,
+  "prediction_bits_equal": true,
+  "max_abs_ec_difference": 0.0,
+  "csv_sha256": "17d9d99693061aac9c0b53e2b490ebbbe063041adc458662731a52a23e5b1ae2",
+  "actual_full_retraining_from_clean_extract": true,
+  "training_rows": 9600,
+  "training_days": 400,
+  "lock_in_final_fit": true,
+  "lock_rescored": false,
+  "season_tables_bytes_equal": true,
+  "independent_season": {
+    "status": "PASS",
+    "source_sha256": "15d25a8280d45980e15afab1b6675505104474f8ac73a94e288647e60d79b1d5",
+    "method": "Claude pivot weather vectors + sklearn IsotonicRegression vs independent PAV",
+    "training_days": 400,
+    "evaluation_days": 60,
+    "training_max_difference": 0.0,
+    "evaluation_max_difference": 0.0
+  },
+  "mean_ec_numpy": 0.6402775466708884,
+  "mean_ec_math_fsum": 0.6402775466708884,
+  "minimum_ec": 0.14306470922687098,
+  "maximum_ec": 2.0286868888953435,
+  "model_checks": {
+    "input_order_features": "PASS",
+    "causal_feature_checks": [
+      {
+        "farm": "F13",
+        "cut": 4823,
+        "target_rows": 144,
+        "future_and_other_farm_features_unchanged": true
+      },
+      {
+        "farm": "F13",
+        "cut": 5159,
+        "target_rows": 360,
+        "future_and_other_farm_features_unchanged": true
+      },
+      {
+        "farm": "F13",
+        "cut": 5495,
+        "target_rows": 576,
+        "future_and_other_farm_features_unchanged": true
+      },
+      {
+        "farm": "F47",
+        "cut": 4775,
+        "target_rows": 144,
+        "future_and_other_farm_features_unchanged": true
+      },
+      {
+        "farm": "F47",
+        "cut": 5111,
+        "target_rows": 360,
+        "future_and_other_farm_features_unchanged": true
+      },
+      {
+        "farm": "F47",
+        "cut": 5447,
+        "target_rows": 576,
+        "future_and_other_farm_features_unchanged": true
+      }
+    ],
+    "evaluation_weather_used": false,
+    "query_separability_prediction_checks": [
+      {
+        "context": 1,
+        "target8_full_batch_vs_target_only_bits_equal": true
+      },
+      {
+        "context": 2,
+        "target8_full_batch_vs_target_only_bits_equal": true
+      },
+      {
+        "context": 3,
+        "target8_full_batch_vs_target_only_bits_equal": true
+      },
+      {
+        "context": 4,
+        "target8_full_batch_vs_target_only_bits_equal": true
+      }
+    ]
+  },
+  "original_inputs": {
+    "train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "test_X.csv": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad",
+    "sample_submission.csv": "a5a6777a6ceab18eb6a61215ae1399eb35b22b62622c3c3a0469f39df84c109f"
+  },
+  "public_validation_source": "a3c375e3bd8926598ece14f218de505d120ccad2baba92ae4fa9093693de92fa",
+  "platform_submission": false,
+  "risk_review": [
+    {
+      "challenge": "최종 전체학습 모델도 같은 검증 성능을 보장하는가",
+      "answer": "아니다. 기존 누수방지 OOF와 단회 잠금은 레시피 근거이며 전체400일 최종fit은 새 평가정답으로 채점하지 않았다.",
+      "confidence": "일반화 중간"
+    },
+    {
+      "challenge": "공개 검증 반복 사용과 5회차 모순",
+      "answer": "남은 위험이며 실제 합본 제출 후 확인해야 한다. 리더보드 점수로 비중을 선택하지 않았다.",
+      "confidence": "미확정"
+    },
+    {
+      "challenge": "온도 빈칸 CSV를 제출해도 되는가",
+      "answer": "팀원 결합용 EC 전달본이다. 팀원이 sub_temp를 채운 뒤 합본과 재현패키지를 다시 대조해야 한다.",
+      "confidence": "높음"
+    }
+  ]
+}
