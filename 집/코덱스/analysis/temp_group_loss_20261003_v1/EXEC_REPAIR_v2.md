@@ -1,0 +1,1 @@
+v1의 custom objective 선택자 기본인자(tag)가 LightGBM sklearn wrapper에서 세 번째 sample_weight 인자로 해석되어 None으로 덮였다. v1 세 안은 모두 D1로 실행됐으므로 점수/캐시 전체를 판정에서 제외한다. 중단 요청 시점에는 v1 worker가 이미 정상 종료한 것으로 확인됐다(EXEC_REPAIR.md의 stopped 표현을 정정). v2는 정확히 두 인자 함수로 고치고 새로운 local/temp_group_loss_20261003_v2에서 전부 다시 학습한다. 모델식/파라미터/기준은 그대로이며 기존 캐시는 보존한다.

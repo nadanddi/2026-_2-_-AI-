@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "objective_finite_differences": [
+    {
+      "kind": "L1",
+      "gradient_maxdiff": 2.52309145798435e-11,
+      "hessian_diagonal_maxdiff": 2.0718760040949746e-11
+    },
+    {
+      "kind": "S1",
+      "gradient_maxdiff": 2.5314590701430717e-11,
+      "hessian_diagonal_maxdiff": 8.873346502014101e-12
+    },
+    {
+      "kind": "D1",
+      "gradient_maxdiff": 5.351741272363597e-11,
+      "hessian_diagonal_maxdiff": 1.726774279120491e-11
+    },
+    {
+      "kind": "ZERO",
+      "gradient_maxdiff": 1.5818291121405537e-11,
+      "hessian_diagonal_maxdiff": 6.564637722306088e-12
+    }
+  ],
+  "zero_vs_original_maxdiff": 1.9266437334408693e-09,
+  "zero_vs_original_rmse_delta": 1.457389764425443e-12
+}
