@@ -267,3 +267,9 @@
 - W30G level SSE56.43~56.57%,shape43.43~43.57%(400일9600행). 새멤버오차상관CB .935~.938/ET .923~.925,결합후level/shape둘다악화. 새로운예측정보없는계열추가의이번실패만확인,모든개선불가능성증명아님.
 - 원시label/fsum·멤버혼합·20kbootstrap·CODEXcache재현차0 PASS. raw첫fold/726재학습CB차0/ET3.55e-15, 출력576인과변조불변·별도fsum검산PASS. 종합 집/코덱스/analysis/temp_diverse_residual_20261003_v1/종합_결과보고서_v1.md, 카탈로그6b.42~44,10-03작업일지세션2.
 - 이추가3안은종료·worker없음. 새제출파일/test예측/EC잠금읽기0. 큰결과내local폴더Drive동기화필요. 기존EC K2/K3 큐재개상태와별도연구이며이세션에서EC를건드리지않음.
+
+### 2026-10-03 집·코덱스 — 사용자 '더 해봐', 온도 타깃 분리2안 완료
+- 현재: 기존7회차 W30G 유지. CODEX 잔차를 하루수준+시간모양으로 나눈 H1(LGB level)/H2(Ridge level)는 사전780926c/f26699e 기준 모두기각. H1 DIAG+.338~+.363%, EXT12+2.018~+2.232%; H2 DIAG+1.095~+1.128%, EXT12+.726~+.886%. H2 EXT10만 개선해4/12, H10/12. 누적7안 보정.
+- 확인: shape는 둘 다약.6~.7%개선하지만 하루level악화로전체득이없음. 날씨400일122그룹, 기존DIAG291일이학습그룹공유. 전체입력/정답완전복사0이며누수단정안함. 그룹GUARD추가실험은구성원전용(CODEX/CB/ET/H1/H2)이고 W30G전체점수와구별.
+- 검산: rawlabel/fsum/혼합/bootstrap/분할PASS, raw첫fold726 H1/H2/physics 재학습차0. 보고서 집/코덱스/analysis/temp_hierarchical_20261003_v1/결과보고서_v1.md 및 temp_validation_structure_20261003_v1/verification.json. 두실행worker종료.
+- 진행 중: 없음. 새제출후보/제출물/EC잠금열람없음. 다음: 실험결과는 local/temp_hierarchical_20261003_v1을 sync_end로Drive전달. 이결과만으로다른온도개선방법불가능성주장금지.

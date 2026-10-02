@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "fold": 0,
+  "seed": 726,
+  "maxdiff": {
+    "H1": 0.0,
+    "H2": 0.0,
+    "physics": 0.0
+  },
+  "training": {
+    "H1": {
+      "train_rmse": 0.6256742924522851,
+      "validation_rmse": 0.8629718149384187,
+      "level_train_rmse": 0.4790362213969333,
+      "shape_train_rmse": 0.4110864651766369,
+      "training_days": 346,
+      "training_rows": 8304
+    },
+    "H2": {
+      "train_rmse": 0.7501482211930334,
+      "validation_rmse": 0.8483470214118286,
+      "level_train_rmse": 0.6352827700801137,
+      "shape_train_rmse": 0.4110864651766369,
+      "training_days": 346,
+      "training_rows": 8304
+    }
+  },
+  "scope": "Raw MASK features rebuilt and first original DIAG fold refit; not all folds replayed"
+}
