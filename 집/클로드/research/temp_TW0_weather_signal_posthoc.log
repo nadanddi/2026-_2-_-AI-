@@ -1,0 +1,24 @@
+W30G-form day residual (pred - true) vs weather, Spearman
+grp          F13   F47   all  late
+feat                              
+heat_prev2 -0.10  0.02 -0.03  0.10
+heat_prev4 -0.11  0.02 -0.04 -0.04
+heat_prev6 -0.05 -0.02 -0.02 -0.04
+low_prev2   0.07  0.07  0.07 -0.07
+low_prev4   0.03  0.04  0.03  0.00
+low_prev6  -0.01  0.01 -0.00 -0.06
+rad        -0.08 -0.08 -0.08 -0.07
+rad_prev2  -0.04 -0.04 -0.04 -0.01
+rad_prev4   0.07 -0.04  0.01  0.03
+rad_prev6   0.10 -0.03  0.03  0.09
+tin_prev2   0.02 -0.13 -0.05 -0.19
+tin_prev4   0.04 -0.13 -0.04 -0.20
+tin_prev6   0.02 -0.07 -0.02 -0.21
+tout        0.11 -0.06  0.02 -0.11
+tout_prev2  0.11 -0.06  0.02 -0.15
+tout_prev4  0.11 -0.04  0.04 -0.19
+tout_prev6  0.10  0.00  0.05 -0.20
+min p 0.0724 over 68 tests (['tin_prev2', 'F47'])
+daytime 9-16h cold & sunny   rows  400 mean residual +0.080 (late +1.179)
+daytime 9-16h cold & cloudy  rows  560 mean residual -0.049 (late -0.106)
+daytime 9-16h warm           rows 1928 mean residual -0.008 (late -0.081)
