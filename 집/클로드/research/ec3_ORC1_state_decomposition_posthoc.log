@@ -1,0 +1,15 @@
+season R3 DIAG10 RMSE 0.1877
+  + knowing true state (state-specific level shift, out-of-fold): 0.1585
+  + calibrated p from prediction (mixture shift, out-of-fold):    0.1837
+  + perfect daily level (shape only):                              0.0757
+AUC(pred day mean -> state) 0.987; high days 26/360; mean y high 1.65 normal 0.43; mean pred high 1.26 normal 0.45
+calibration (phat bin -> actual high share):
+                     mean  size
+phat                           
+(0.00455, 0.00922]  0.000    72
+(0.00922, 0.0149]   0.000    72
+(0.0149, 0.025]     0.000    72
+(0.025, 0.0791]     0.000    72
+(0.0791, 0.908]     0.361    72
+  late  base 0.2668 | state oracle 0.1863 | perfect level 0.0768
+  early base 0.1731 | state oracle 0.1540 | perfect level 0.0755
