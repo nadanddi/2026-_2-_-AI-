@@ -1,0 +1,39 @@
+FULL (ET) 37 cols, BASE (LGB/MLP) 13 cols
+           feat  day_const_share  between_day_var_share  in_BASE
+ act_heating_h0            1.000                  1.000    False
+ act_circfan_h0            1.000                  1.000    False
+     act_co2_h0            1.000                    NaN    False
+     act_fog_h0            1.000                    NaN    False
+     in_temp_h0            1.000                  1.000    False
+      in_co2_h0            1.000                  1.000    False
+      in_hum_h0            1.000                  1.000    False
+   act_shade_h0            1.000                  1.000    False
+    act_vent_h0            1.000                  1.000    False
+ act_thermal_h0            1.000                  1.000    False
+    act_co2_tdz            0.647                  0.529    False
+        act_co2            0.647                  0.185     True
+    act_co2_tdm            0.647                  0.566    False
+act_circfan_tdz            0.506                  0.945    False
+    act_fog_tdz            0.461                  0.433    False
+    act_fog_tdm            0.461                  0.469    False
+        act_fog            0.461                  0.182     True
+   act_vent_tdz            0.339                  0.891    False
+act_circfan_tdm            0.261                  0.935    False
+    act_circfan            0.261                  0.623     True
+act_heating_tdz            0.228                  0.862    False
+act_heating_tdm            0.219                  0.895    False
+    act_heating            0.219                  0.420     True
+act_thermal_tdz            0.156                  0.668    False
+  act_shade_tdz            0.139                  0.667    False
+       act_vent            0.111                  0.399     True
+   act_vent_tdm            0.111                  0.800    False
+act_thermal_tdm            0.028                  0.380    False
+    act_thermal            0.028                  0.081     True
+  act_shade_tdm            0.025                  0.646    False
+      act_shade            0.025                  0.235     True
+        in_temp            0.000                  0.426     True
+         in_co2            0.000                  0.399     True
+         in_hum            0.000                  0.452     True
+         hr_cos            0.000                  0.000     True
+       midnight            0.000                  0.000     True
+         hr_sin            0.000                  0.000     True
