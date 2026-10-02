@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "label_checks": [
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\temp_season_20261003_v1",
+      "label_check_rows": 67584,
+      "labels": "PASS"
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\temp_season_base_20261003_v1",
+      "label_check_rows": 67584,
+      "labels": "PASS"
+    }
+  ],
+  "pav_sklearn_maxdiff": 0.0,
+  "retrain_delta_maxdiff": 3.694961003830599e-15,
+  "train_validation_gap": [
+    {
+      "seed": 7,
+      "train_rmse": 0.1913232467842827,
+      "validation_rmse": 0.8034485868248744,
+      "scope": "DIAG10 fold0 BASE physics+residual only"
+    },
+    {
+      "seed": 101,
+      "train_rmse": 0.19257607487152173,
+      "validation_rmse": 0.7875788214538775,
+      "scope": "DIAG10 fold0 BASE physics+residual only"
+    }
+  ]
+}
