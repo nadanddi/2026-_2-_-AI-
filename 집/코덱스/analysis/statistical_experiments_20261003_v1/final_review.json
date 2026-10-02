@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "fresh_score_cells": 66,
+  "decisions": {
+    "TBIAS": "REJECT",
+    "TGATE": "REJECT",
+    "ESTATE": "REJECT",
+    "TBIAS_PH": "REJECT",
+    "ESTATE_PAR": "REJECT"
+  },
+  "fit_residual_delta_ranges": {
+    "ESTATE": [
+      -2.7052294934587273,
+      -0.0016755571055071528,
+      66
+    ],
+    "TBIAS": [
+      -8.867915550342264,
+      -1.5706861228402258,
+      48
+    ],
+    "TGATE": [
+      -6.689826506948904,
+      -2.031062716030585,
+      48
+    ],
+    "ESTATE_PAR": [
+      -3.0248047049923565,
+      -0.0017707969033442517,
+      66
+    ],
+    "TBIAS_PH": [
+      -8.873744981676657,
+      -1.6670742116091541,
+      48
+    ]
+  },
+  "oof_hash": "76b8e8fdb3446865d66a84470c325bc73aa2b4e043af6c34767f7f835b4cf345",
+  "extra_oof_hash": "cb6c2fda700235c4ebcef5b8903162804ad111505ffedeb3a7a171676306401a"
+}

@@ -1,0 +1,203 @@
+{
+  "status": "PASS",
+  "score_cells": [
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "A",
+      "seed": 7,
+      "context": "1-4",
+      "delta_pct": -0.10965532850387705
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "A",
+      "seed": 101,
+      "context": "1-4",
+      "delta_pct": -0.11113957179639256
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "A",
+      "seed": 2024,
+      "context": "1-4",
+      "delta_pct": -0.12992544928069893
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "B",
+      "seed": 7,
+      "context": "1-4",
+      "delta_pct": 0.6271959942939054
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "B",
+      "seed": 101,
+      "context": "1-4",
+      "delta_pct": 0.602516957625232
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "B",
+      "seed": 2024,
+      "context": "1-4",
+      "delta_pct": 0.6739223709967046
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "DIAG10",
+      "seed": 7,
+      "context": "1-4",
+      "delta_pct": -0.451333979440538
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "DIAG10",
+      "seed": 101,
+      "context": "1-4",
+      "delta_pct": -0.44696516965749833
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "DIAG10",
+      "seed": 2024,
+      "context": "1-4",
+      "delta_pct": -0.4525278562142798
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "EXT10",
+      "seed": 7,
+      "context": "1-4",
+      "delta_pct": 0.0034011812179990386
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "EXT10",
+      "seed": 101,
+      "context": "1-4",
+      "delta_pct": 0.0023661921017437137
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "EXT10",
+      "seed": 2024,
+      "context": "1-4",
+      "delta_pct": 0.0023954127401193404
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "EXT12",
+      "seed": 7,
+      "context": "1-4",
+      "delta_pct": 0.0005326776191694194
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "EXT12",
+      "seed": 101,
+      "context": "1-4",
+      "delta_pct": 0.0004317969949596545
+    },
+    {
+      "arm": "ESTATE_PAR",
+      "validator": "EXT12",
+      "seed": 2024,
+      "context": "1-4",
+      "delta_pct": 0.00038392764312167316
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "DIAG10",
+      "seed": 7,
+      "context": "1-8",
+      "delta_pct": 0.41324204230679396
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "DIAG10",
+      "seed": 7,
+      "context": "17-24",
+      "delta_pct": 0.43570464740083636
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "DIAG10",
+      "seed": 101,
+      "context": "1-8",
+      "delta_pct": 0.44663720125019957
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "DIAG10",
+      "seed": 101,
+      "context": "17-24",
+      "delta_pct": 0.46772890559290126
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "EXT10",
+      "seed": 7,
+      "context": "1-8",
+      "delta_pct": -1.0718387656737383
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "EXT10",
+      "seed": 7,
+      "context": "17-24",
+      "delta_pct": -1.1427238319553945
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "EXT10",
+      "seed": 101,
+      "context": "1-8",
+      "delta_pct": -1.1594881215994612
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "EXT10",
+      "seed": 101,
+      "context": "17-24",
+      "delta_pct": -1.2018079093050638
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "EXT12",
+      "seed": 7,
+      "context": "1-8",
+      "delta_pct": 2.3532655121784263
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "EXT12",
+      "seed": 7,
+      "context": "17-24",
+      "delta_pct": 2.2250949824433652
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "EXT12",
+      "seed": 101,
+      "context": "1-8",
+      "delta_pct": 2.621309989523146
+    },
+    {
+      "arm": "TBIAS_PH",
+      "validator": "EXT12",
+      "seed": 101,
+      "context": "17-24",
+      "delta_pct": 2.5284581124644046
+    }
+  ],
+  "coef_checks": 114,
+  "max_coef_gap": 8.500145032286355e-17,
+  "methods": [
+    "raw labels/math.fsum",
+    "normal equations",
+    "independent causal parity source IDs",
+    "scalar block bootstrap"
+  ],
+  "oof_hash": "cb6c2fda700235c4ebcef5b8903162804ad111505ffedeb3a7a171676306401a"
+}

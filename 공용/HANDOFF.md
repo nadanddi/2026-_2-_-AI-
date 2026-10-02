@@ -312,3 +312,10 @@
 - 5일block 내부holdout±1buffer에서전문가새학습. 온도CPU12×2seed완료/EC22×3seed진행, 내부PFN온도192+EC88진행. 외부정답메타fit0·EC잠금/test값읽기0. 현재예측을빼는공통항의상관착시를구별하는EC진단132셀별도.
 - 4번감사: 평가row_id 60일1440행·과거관측gap median5/p9010, 독립ID검산PASS. gap분포기록·보정기전용관측5일추가지연stress. 최초CPU내부분할재학습差온도0/EC4.44e-16 PASS. TF32probe差.00668허용초과로미적용.
 - GPU는기존TK2 105체크포인트를보존하고새연구우선. gpu_queue.py가완료/실패뒤원TK2자동재개(resume3.log), 기존자동분석대기유지. 새연구 analyze/verify/report/conditional진단worker대기. 내작업일지세션9에sessionIDs. 두AI작업종료후 sync_end 필요.
+
+### 2026-10-03 집·코덱스 — 통계 단서1–4 완료, 5안 기각
+- 원3안과 사전d602609 보완2안 TBIAS_PH/ESTATE_PAR 완료. 내부PFN 온도192+EC88=280문맥, CPU34분할 완료. 66점수/276계수/34분리/18DIAG bootstrap 독립검산PASS, 첫CPU온도差0·EC4.44e-16/첫PFN재학습差0. final_review 및 지연stress30셀 재계산PASS.
+- TBIAS DIAG+.592~+.668%,EXT12+2.225~+2.621%;TBIAS_PH+.413~+.468%,EXT12동일. TGATE DIAG−.802~−.711%이나EXT10+.027~+.216%/EXT12+.147~+.222%. ESTATE DIAG−.862~−.839%이나B+.823~+.852%;ESTATE_PAR DIAG−.453~−.447%이나B+.603~+.674%. family_k32·전체방향·DIAG p/CI 기준 전부기각, W30G/EC계절v2 유지.
+- 과거EC 추가정보 조건부진단54/132개선(독립표본/인과증거 아님). 실제EC기준fit306일 source시평가gap median5.5/p9010일,공개360일시5/10. ESTATE5일추가지연 DIAG−.013~+.010%/A+.116~+.140%로최신성민감; 전문가고정 보정기진단으로새독립검증아님.
+- EC EXT12 내부계절변환 정의역 실패는 날짜만으로 사전2249cca 보완. 기존gap_audit 해당inner보완전,최종plan/gap_validation 참조. TF32probe미적용. 요약 `집/코덱스/analysis/statistical_experiments_20261003_v1/실행결과_요약_v1.md`, 상세/반론/환경/재실행코드 같은폴더, local동명폴더 Drive대상.
+- 기존TK2 GPU는 gpu_queue에 의해 원tk2_pfn.py/resume3.log로 재개됨(DIAG10/6/seed18 확인), 기존자동분석·검산worker 유지. 이번완료를TK2완료로인용금지. 다음TK2 완료·자동검산/보고서 확인. 새채택/제출/test예측/EC잠금0. 두AI worker 종료뒤 sync_end 권장.

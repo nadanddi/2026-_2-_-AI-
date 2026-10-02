@@ -1,0 +1,801 @@
+{
+  "status": "PASS",
+  "cells": 132,
+  "improving": 54,
+  "max_mse_difference": 3.3306690738754696e-16,
+  "method": "manual train-only scaler + normal equations + math.fsum",
+  "records": [
+    {
+      "prefix": "E_A_0",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": -0.0004102894972658356
+    },
+    {
+      "prefix": "E_A_0",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": 0.0019732160041674197
+    },
+    {
+      "prefix": "E_A_0",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": -0.00039108955467184736
+    },
+    {
+      "prefix": "E_A_0",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": 0.001950074421398329
+    },
+    {
+      "prefix": "E_A_0",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": -0.00035413711241048806
+    },
+    {
+      "prefix": "E_A_0",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": 0.002327000852562478
+    },
+    {
+      "prefix": "E_A_1",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.020859229645865625
+    },
+    {
+      "prefix": "E_A_1",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.0007982315097663645
+    },
+    {
+      "prefix": "E_A_1",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.02295977255929267
+    },
+    {
+      "prefix": "E_A_1",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.0002608791533470489
+    },
+    {
+      "prefix": "E_A_1",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.025773066524057114
+    },
+    {
+      "prefix": "E_A_1",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -1.5765451241579742e-05
+    },
+    {
+      "prefix": "E_A_2",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": -0.0017631824100538228
+    },
+    {
+      "prefix": "E_A_2",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.0001582285279911333
+    },
+    {
+      "prefix": "E_A_2",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": -0.0015987300042122066
+    },
+    {
+      "prefix": "E_A_2",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.00013071960543677152
+    },
+    {
+      "prefix": "E_A_2",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": -0.0019394663853931696
+    },
+    {
+      "prefix": "E_A_2",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -7.805505765434706e-05
+    },
+    {
+      "prefix": "E_A_3",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.0032087162673069478
+    },
+    {
+      "prefix": "E_A_3",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.0007312179486715226
+    },
+    {
+      "prefix": "E_A_3",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.0027894352663120556
+    },
+    {
+      "prefix": "E_A_3",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.0005612425763061937
+    },
+    {
+      "prefix": "E_A_3",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.0026088547434411635
+    },
+    {
+      "prefix": "E_A_3",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -0.0003168836159873137
+    },
+    {
+      "prefix": "E_A_4",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.002586046599859882
+    },
+    {
+      "prefix": "E_A_4",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": 0.000131371637231828
+    },
+    {
+      "prefix": "E_A_4",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.0017971337886592796
+    },
+    {
+      "prefix": "E_A_4",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": 6.402372165151271e-05
+    },
+    {
+      "prefix": "E_A_4",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.0019021925547697202
+    },
+    {
+      "prefix": "E_A_4",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": 7.658005352592992e-05
+    },
+    {
+      "prefix": "E_B_0",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.002862320488972503
+    },
+    {
+      "prefix": "E_B_0",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.0011323233450962478
+    },
+    {
+      "prefix": "E_B_0",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.002593662383633344
+    },
+    {
+      "prefix": "E_B_0",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.0011099969877612637
+    },
+    {
+      "prefix": "E_B_0",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.0030644254229699602
+    },
+    {
+      "prefix": "E_B_0",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -0.0013366518134136501
+    },
+    {
+      "prefix": "E_B_1",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.0005952667867372766
+    },
+    {
+      "prefix": "E_B_1",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.0036060776994560756
+    },
+    {
+      "prefix": "E_B_1",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.0008464588568490861
+    },
+    {
+      "prefix": "E_B_1",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.0033566380329522125
+    },
+    {
+      "prefix": "E_B_1",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.000908511693821383
+    },
+    {
+      "prefix": "E_B_1",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -0.00373657775888029
+    },
+    {
+      "prefix": "E_B_2",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.004592300964524884
+    },
+    {
+      "prefix": "E_B_2",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": 0.0068201453357585595
+    },
+    {
+      "prefix": "E_B_2",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.0032044977637123856
+    },
+    {
+      "prefix": "E_B_2",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": 0.007169309139023597
+    },
+    {
+      "prefix": "E_B_2",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.004045576449531643
+    },
+    {
+      "prefix": "E_B_2",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": 0.007367130231776771
+    },
+    {
+      "prefix": "E_B_3",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.003042737109128356
+    },
+    {
+      "prefix": "E_B_3",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.002607195642707366
+    },
+    {
+      "prefix": "E_B_3",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.002389328320752969
+    },
+    {
+      "prefix": "E_B_3",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.0021888580859105375
+    },
+    {
+      "prefix": "E_B_3",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.002838065342566941
+    },
+    {
+      "prefix": "E_B_3",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -0.001996322695383433
+    },
+    {
+      "prefix": "E_B_4",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.0016768962580256952
+    },
+    {
+      "prefix": "E_B_4",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.002244634453822664
+    },
+    {
+      "prefix": "E_B_4",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.0018117795269425238
+    },
+    {
+      "prefix": "E_B_4",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.0020662861816363714
+    },
+    {
+      "prefix": "E_B_4",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.0015381603017117357
+    },
+    {
+      "prefix": "E_B_4",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -0.0021204509253005092
+    },
+    {
+      "prefix": "E_DIAG10_0",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": -0.004313884429343447
+    },
+    {
+      "prefix": "E_DIAG10_0",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.008952014967204977
+    },
+    {
+      "prefix": "E_DIAG10_0",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": -0.0039934305533875225
+    },
+    {
+      "prefix": "E_DIAG10_0",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.009991385974353978
+    },
+    {
+      "prefix": "E_DIAG10_0",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": -0.0036681378510091123
+    },
+    {
+      "prefix": "E_DIAG10_0",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -0.00883183677338776
+    },
+    {
+      "prefix": "E_DIAG10_1",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.002245132608425106
+    },
+    {
+      "prefix": "E_DIAG10_1",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": 0.026840278087291915
+    },
+    {
+      "prefix": "E_DIAG10_1",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.002162649896610646
+    },
+    {
+      "prefix": "E_DIAG10_1",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": 0.026230465388113765
+    },
+    {
+      "prefix": "E_DIAG10_1",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.0021348605246155478
+    },
+    {
+      "prefix": "E_DIAG10_1",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": 0.025163051223185545
+    },
+    {
+      "prefix": "E_DIAG10_2",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.003831693981188475
+    },
+    {
+      "prefix": "E_DIAG10_2",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": 0.009580931308142887
+    },
+    {
+      "prefix": "E_DIAG10_2",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.0038408627337711623
+    },
+    {
+      "prefix": "E_DIAG10_2",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": 0.00796922770912984
+    },
+    {
+      "prefix": "E_DIAG10_2",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.003389200991597556
+    },
+    {
+      "prefix": "E_DIAG10_2",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": 0.007454960575649816
+    },
+    {
+      "prefix": "E_DIAG10_3",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.000299332939739997
+    },
+    {
+      "prefix": "E_DIAG10_3",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": 0.0027071091527351467
+    },
+    {
+      "prefix": "E_DIAG10_3",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.0003016661261121059
+    },
+    {
+      "prefix": "E_DIAG10_3",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": 0.0022835102906195275
+    },
+    {
+      "prefix": "E_DIAG10_3",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.0002364374382573739
+    },
+    {
+      "prefix": "E_DIAG10_3",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": 0.002387288811970964
+    },
+    {
+      "prefix": "E_DIAG10_4",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.004767644495419013
+    },
+    {
+      "prefix": "E_DIAG10_4",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": 0.0032438507085256127
+    },
+    {
+      "prefix": "E_DIAG10_4",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.005176055297307761
+    },
+    {
+      "prefix": "E_DIAG10_4",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": 0.003164300585870028
+    },
+    {
+      "prefix": "E_DIAG10_4",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.005234609809798257
+    },
+    {
+      "prefix": "E_DIAG10_4",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": 0.003138698317774892
+    },
+    {
+      "prefix": "E_DIAG10_5",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": -0.005934837039736844
+    },
+    {
+      "prefix": "E_DIAG10_5",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.0040958349947866415
+    },
+    {
+      "prefix": "E_DIAG10_5",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": -0.005617384460697296
+    },
+    {
+      "prefix": "E_DIAG10_5",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.0038229722692642992
+    },
+    {
+      "prefix": "E_DIAG10_5",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": -0.005597841380444182
+    },
+    {
+      "prefix": "E_DIAG10_5",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -0.003989278177364837
+    },
+    {
+      "prefix": "E_DIAG10_6",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": -0.0039568698220283915
+    },
+    {
+      "prefix": "E_DIAG10_6",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": 0.00411938807796311
+    },
+    {
+      "prefix": "E_DIAG10_6",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": -0.0042729445166253405
+    },
+    {
+      "prefix": "E_DIAG10_6",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": 0.003904373348752134
+    },
+    {
+      "prefix": "E_DIAG10_6",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": -0.004822272418017859
+    },
+    {
+      "prefix": "E_DIAG10_6",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": 0.0035959620304897785
+    },
+    {
+      "prefix": "E_DIAG10_7",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.08843670269621048
+    },
+    {
+      "prefix": "E_DIAG10_7",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": 0.0021638742807192635
+    },
+    {
+      "prefix": "E_DIAG10_7",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.09271975211640904
+    },
+    {
+      "prefix": "E_DIAG10_7",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": 0.0028054353235810736
+    },
+    {
+      "prefix": "E_DIAG10_7",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.0891502826778515
+    },
+    {
+      "prefix": "E_DIAG10_7",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": 0.00230258153015913
+    },
+    {
+      "prefix": "E_DIAG10_8",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.019155430111766396
+    },
+    {
+      "prefix": "E_DIAG10_8",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.006035309949280025
+    },
+    {
+      "prefix": "E_DIAG10_8",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.019970735586325
+    },
+    {
+      "prefix": "E_DIAG10_8",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.006873098548035153
+    },
+    {
+      "prefix": "E_DIAG10_8",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.019978151601931907
+    },
+    {
+      "prefix": "E_DIAG10_8",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -0.006699871887665361
+    },
+    {
+      "prefix": "E_DIAG10_9",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": -0.00039715073332818353
+    },
+    {
+      "prefix": "E_DIAG10_9",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.00225408601377778
+    },
+    {
+      "prefix": "E_DIAG10_9",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": -0.0004625126170816913
+    },
+    {
+      "prefix": "E_DIAG10_9",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.002209074059642664
+    },
+    {
+      "prefix": "E_DIAG10_9",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": -0.0006008436208670941
+    },
+    {
+      "prefix": "E_DIAG10_9",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -0.0022886775336901435
+    },
+    {
+      "prefix": "E_EXT10_0",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.005446900930403009
+    },
+    {
+      "prefix": "E_EXT10_0",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": -0.0006422224812713886
+    },
+    {
+      "prefix": "E_EXT10_0",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.006041207472709427
+    },
+    {
+      "prefix": "E_EXT10_0",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": -0.0005432343733098241
+    },
+    {
+      "prefix": "E_EXT10_0",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.005403031471185149
+    },
+    {
+      "prefix": "E_EXT10_0",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": -0.000627500163004141
+    },
+    {
+      "prefix": "E_EXT12_0",
+      "seed": 7,
+      "fold": 0,
+      "delta_mse": 0.005696691218800898
+    },
+    {
+      "prefix": "E_EXT12_0",
+      "seed": 7,
+      "fold": 1,
+      "delta_mse": 0.00011479564995436897
+    },
+    {
+      "prefix": "E_EXT12_0",
+      "seed": 101,
+      "fold": 0,
+      "delta_mse": 0.005899817933564269
+    },
+    {
+      "prefix": "E_EXT12_0",
+      "seed": 101,
+      "fold": 1,
+      "delta_mse": 0.00014001453832074295
+    },
+    {
+      "prefix": "E_EXT12_0",
+      "seed": 2024,
+      "fold": 0,
+      "delta_mse": 0.00625491868116064
+    },
+    {
+      "prefix": "E_EXT12_0",
+      "seed": 2024,
+      "fold": 1,
+      "delta_mse": 0.00017047680759407768
+    }
+  ]
+}
