@@ -1,0 +1,253 @@
+{
+  "status": "PASS",
+  "source_oof_sha256": "0f81b59399f2004ec42d23b938a1b2661537eb6e02e48892a0718c74588149c2",
+  "source_code_sha256": "4f6813fae0f6224decd5d87dc0310b01b3c14e3a7398c88d0ed2fa0e35de7ce1",
+  "rows": 1104,
+  "days": 46,
+  "folds": [
+    {
+      "fold": 0,
+      "farm": "F13",
+      "n_rows": 120,
+      "days": 5,
+      "gap_min": 13,
+      "gap_max": 17
+    },
+    {
+      "fold": 1,
+      "farm": "F13",
+      "n_rows": 120,
+      "days": 5,
+      "gap_min": 2,
+      "gap_max": 15
+    },
+    {
+      "fold": 2,
+      "farm": "F13",
+      "n_rows": 120,
+      "days": 5,
+      "gap_min": 14,
+      "gap_max": 16
+    },
+    {
+      "fold": 3,
+      "farm": "F13",
+      "n_rows": 120,
+      "days": 5,
+      "gap_min": 2,
+      "gap_max": 12
+    },
+    {
+      "fold": 4,
+      "farm": "F13",
+      "n_rows": 96,
+      "days": 4,
+      "gap_min": 9,
+      "gap_max": 12
+    },
+    {
+      "fold": 5,
+      "farm": "F47",
+      "n_rows": 120,
+      "days": 5,
+      "gap_min": 2,
+      "gap_max": 16
+    },
+    {
+      "fold": 6,
+      "farm": "F47",
+      "n_rows": 120,
+      "days": 5,
+      "gap_min": 2,
+      "gap_max": 6
+    },
+    {
+      "fold": 7,
+      "farm": "F47",
+      "n_rows": 120,
+      "days": 5,
+      "gap_min": 2,
+      "gap_max": 7
+    },
+    {
+      "fold": 8,
+      "farm": "F47",
+      "n_rows": 120,
+      "days": 5,
+      "gap_min": 2,
+      "gap_max": 13
+    },
+    {
+      "fold": 9,
+      "farm": "F47",
+      "n_rows": 48,
+      "days": 2,
+      "gap_min": 2,
+      "gap_max": 3
+    }
+  ],
+  "scores": [
+    {
+      "group": "전체",
+      "seed": 7,
+      "rows": 1104,
+      "days": 46,
+      "day_r3_rmse": 0.34991145307358773,
+      "season_r3_rmse": 0.30509219301315077,
+      "change_pct": -12.808743374001907,
+      "improved": true
+    },
+    {
+      "group": "전체",
+      "seed": 101,
+      "rows": 1104,
+      "days": 46,
+      "day_r3_rmse": 0.3492302808690462,
+      "season_r3_rmse": 0.3102697495641483,
+      "change_pct": -11.156114872956046,
+      "improved": true
+    },
+    {
+      "group": "전체",
+      "seed": 2024,
+      "rows": 1104,
+      "days": 46,
+      "day_r3_rmse": 0.3510307932873687,
+      "season_r3_rmse": 0.3086653304308356,
+      "change_pct": -12.068873633502264,
+      "improved": true
+    },
+    {
+      "group": "F13",
+      "seed": 7,
+      "rows": 576,
+      "days": 24,
+      "day_r3_rmse": 0.281336775998553,
+      "season_r3_rmse": 0.3273077319671229,
+      "change_pct": 16.340187238374515,
+      "improved": false
+    },
+    {
+      "group": "F13",
+      "seed": 101,
+      "rows": 576,
+      "days": 24,
+      "day_r3_rmse": 0.28353671528657026,
+      "season_r3_rmse": 0.3325272275439064,
+      "change_pct": 17.278366298283963,
+      "improved": false
+    },
+    {
+      "group": "F13",
+      "seed": 2024,
+      "rows": 576,
+      "days": 24,
+      "day_r3_rmse": 0.2855303707157776,
+      "season_r3_rmse": 0.33078122469439103,
+      "change_pct": 15.848000289838527,
+      "improved": false
+    },
+    {
+      "group": "F47",
+      "seed": 7,
+      "rows": 528,
+      "days": 22,
+      "day_r3_rmse": 0.4118991487848451,
+      "season_r3_rmse": 0.278845745333843,
+      "change_pct": -32.3024225331678,
+      "improved": true
+    },
+    {
+      "group": "F47",
+      "seed": 101,
+      "rows": 528,
+      "days": 22,
+      "day_r3_rmse": 0.4090348197846758,
+      "season_r3_rmse": 0.28400640480603456,
+      "change_pct": -30.566692352611625,
+      "improved": true
+    },
+    {
+      "group": "F47",
+      "seed": 2024,
+      "rows": 528,
+      "days": 22,
+      "day_r3_rmse": 0.4107409157977362,
+      "season_r3_rmse": 0.2825716255950331,
+      "change_pct": -31.204412629254175,
+      "improved": true
+    },
+    {
+      "group": "이웃6일이내",
+      "seed": 7,
+      "rows": 480,
+      "days": 20,
+      "day_r3_rmse": 0.28751666112838126,
+      "season_r3_rmse": 0.17474215535583087,
+      "change_pct": -39.22364197259323,
+      "improved": true
+    },
+    {
+      "group": "이웃6일이내",
+      "seed": 101,
+      "rows": 480,
+      "days": 20,
+      "day_r3_rmse": 0.2806672148459952,
+      "season_r3_rmse": 0.186438360520057,
+      "change_pct": -33.5731604340188,
+      "improved": true
+    },
+    {
+      "group": "이웃6일이내",
+      "seed": 2024,
+      "rows": 480,
+      "days": 20,
+      "day_r3_rmse": 0.2869215014944502,
+      "season_r3_rmse": 0.18347895589849372,
+      "change_pct": -36.052559692169794,
+      "improved": true
+    },
+    {
+      "group": "이웃6일초과",
+      "seed": 7,
+      "rows": 624,
+      "days": 26,
+      "day_r3_rmse": 0.39119307357340294,
+      "season_r3_rmse": 0.3757577426276527,
+      "change_pct": -3.945706605884969,
+      "improved": true
+    },
+    {
+      "group": "이웃6일초과",
+      "seed": 101,
+      "rows": 624,
+      "days": 26,
+      "day_r3_rmse": 0.39393286169980746,
+      "season_r3_rmse": 0.37892110805058865,
+      "change_pct": -3.8107391154024506,
+      "improved": true
+    },
+    {
+      "group": "이웃6일초과",
+      "seed": 2024,
+      "rows": 624,
+      "days": 26,
+      "day_r3_rmse": 0.39329776643039294,
+      "season_r3_rmse": 0.3777120708701736,
+      "change_pct": -3.9628233085777564,
+      "improved": true
+    }
+  ],
+  "max_independent_rmse_gap": 5.551115123125783e-17,
+  "final_lock_scored": false,
+  "new_model_trained": false,
+  "adoption_rule_changed": false,
+  "cal_values_used": false,
+  "confidence": "산술·행집합·거리 재현 높음, 숨은 평가 일반화 해석 중간",
+  "limitations": [
+    "후반46일의 공개 진단",
+    "R3 단독이며 통합 v2 아님",
+    "같은 검증 데이터 반복 사용",
+    "평가 개선 및 후보 채택 확정 근거 아님"
+  ]
+}

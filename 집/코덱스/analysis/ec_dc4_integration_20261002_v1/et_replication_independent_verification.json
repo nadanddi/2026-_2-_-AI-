@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "csv_sha256": "acb1c473fce2290748146a938c1d5161f217d7e38c810f49fe6b9dd43983fa7c",
+  "occurrences": 83160,
+  "unique_cells": 83160,
+  "independent_scores": [
+    {
+      "validator": "DIAG10",
+      "seed": 7,
+      "reference_rmse": 0.22845259174810714,
+      "candidate_rmse": 0.19104368025202143,
+      "n": 8640,
+      "improved": true
+    },
+    {
+      "validator": "A",
+      "seed": 7,
+      "reference_rmse": 0.2444845594627883,
+      "candidate_rmse": 0.22787444873638626,
+      "n": 6336,
+      "improved": true
+    },
+    {
+      "validator": "B",
+      "seed": 7,
+      "reference_rmse": 0.2300175453609672,
+      "candidate_rmse": 0.2036833036592084,
+      "n": 6312,
+      "improved": true
+    },
+    {
+      "validator": "EXT10",
+      "seed": 7,
+      "reference_rmse": 0.4202908029304302,
+      "candidate_rmse": 0.41125106932988953,
+      "n": 1800,
+      "improved": true
+    },
+    {
+      "validator": "EXT12",
+      "seed": 7,
+      "reference_rmse": 0.4242581955845633,
+      "candidate_rmse": 0.41090372115937984,
+      "n": 4632,
+      "improved": true
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 101,
+      "reference_rmse": 0.22793687549868097,
+      "candidate_rmse": 0.19353601375777518,
+      "n": 8640,
+      "improved": true
+    },
+    {
+      "validator": "A",
+      "seed": 101,
+      "reference_rmse": 0.24403836201362727,
+      "candidate_rmse": 0.22940900791757615,
+      "n": 6336,
+      "improved": true
+    },
+    {
+      "validator": "B",
+      "seed": 101,
+      "reference_rmse": 0.22686849352734909,
+      "candidate_rmse": 0.20330965454001307,
+      "n": 6312,
+      "improved": true
+    },
+    {
+      "validator": "EXT10",
+      "seed": 101,
+      "reference_rmse": 0.4184780423718207,
+      "candidate_rmse": 0.41864391753508057,
+      "n": 1800,
+      "improved": false
+    },
+    {
+      "validator": "EXT12",
+      "seed": 101,
+      "reference_rmse": 0.4248656498385418,
+      "candidate_rmse": 0.4108880582811854,
+      "n": 4632,
+      "improved": true
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 2024,
+      "reference_rmse": 0.22746345080633634,
+      "candidate_rmse": 0.19353931565118332,
+      "n": 8640,
+      "improved": true
+    },
+    {
+      "validator": "A",
+      "seed": 2024,
+      "reference_rmse": 0.24293877523933802,
+      "candidate_rmse": 0.23085431552186259,
+      "n": 6336,
+      "improved": true
+    },
+    {
+      "validator": "B",
+      "seed": 2024,
+      "reference_rmse": 0.23126575833589594,
+      "candidate_rmse": 0.20383300155089143,
+      "n": 6312,
+      "improved": true
+    },
+    {
+      "validator": "EXT10",
+      "seed": 2024,
+      "reference_rmse": 0.42335008354978554,
+      "candidate_rmse": 0.41591844900916725,
+      "n": 1800,
+      "improved": true
+    },
+    {
+      "validator": "EXT12",
+      "seed": 2024,
+      "reference_rmse": 0.4259425173655915,
+      "candidate_rmse": 0.4075915196045539,
+      "n": 4632,
+      "improved": true
+    }
+  ],
+  "independent_bootstrap": [
+    {
+      "seed": 7,
+      "p_worse": 0.003,
+      "ci_low": -0.0311800432891499,
+      "ci_high": -0.0024970987840183005
+    },
+    {
+      "seed": 101,
+      "p_worse": 0.0038,
+      "ci_low": -0.029196966219067262,
+      "ci_high": -0.0018746612876288167
+    },
+    {
+      "seed": 2024,
+      "p_worse": 0.00525,
+      "ci_low": -0.029025859089817464,
+      "ci_high": -0.001475322055939804
+    }
+  ],
+  "max_RMSE_crosscheck_gap": 5.551115123125783e-17,
+  "direction_pass": false,
+  "confidence_pass": true,
+  "lock_labels_opened": false,
+  "limitation": "공개 검증 반복 사용 및 PFN 문맥 공유. 정식 후보는 별도 잠금 확인까지 모두 통과해야 함."
+}
