@@ -1,0 +1,7 @@
+                 n   bias   rmse
+seg   cb                        
+early cal<70   221  0.008  0.453
+      cal>=70  123  0.013  0.481
+late  cal<70    25 -0.152  0.803
+      cal>=70   31  0.126  0.581
+uses `day` as a feature? check member feature lists:
