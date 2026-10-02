@@ -1,0 +1,1 @@
+run_v2.py는 env가 추가한 다른 폴더의 동명 model_v2.py를 읽어 fit 전에 ImportError로 종료했다. run_v3.py는 고유 파일명 group_loss_model_v2.py로 import하며 내용은 model_v2.py의 완전 복사다. v2 캐시는 아직 생성되지 않았다. 모델/기준 변경0.
