@@ -1,0 +1,148 @@
+{
+  "verdict": "REJECT",
+  "summary": [
+    {
+      "validator": "DIAG10",
+      "seed": 726,
+      "context": "1-8",
+      "n": 9600,
+      "baseline_rmse": 0.6585665044014377,
+      "candidate_rmse": 0.6808947015042247,
+      "delta_pct": 3.390424042759488,
+      "independent_formula_maxdiff": 3.552713678800501e-15,
+      "p_worse": 1.0,
+      "ci99": [
+        0.02259566496268223,
+        0.03746018121056736
+      ]
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 726,
+      "context": "17-24",
+      "n": 9600,
+      "baseline_rmse": 0.6605670404396278,
+      "candidate_rmse": 0.6829537253854169,
+      "delta_pct": 3.3890102859037707,
+      "independent_formula_maxdiff": 3.552713678800501e-15,
+      "p_worse": 1.0,
+      "ci99": [
+        0.022815161161191057,
+        0.03763861021875621
+      ]
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 727,
+      "context": "1-8",
+      "n": 9600,
+      "baseline_rmse": 0.6587854070657103,
+      "candidate_rmse": 0.6810937099144796,
+      "delta_pct": 3.3862776269032,
+      "independent_formula_maxdiff": 3.552713678800501e-15,
+      "p_worse": 1.0,
+      "ci99": [
+        0.02284125637508691,
+        0.03762312165981402
+      ]
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 727,
+      "context": "17-24",
+      "n": 9600,
+      "baseline_rmse": 0.6608244851703937,
+      "candidate_rmse": 0.6831878904682223,
+      "delta_pct": 3.384167172931263,
+      "independent_formula_maxdiff": 3.552713678800501e-15,
+      "p_worse": 1.0,
+      "ci99": [
+        0.022611277127967098,
+        0.03756934912048016
+      ]
+    },
+    {
+      "validator": "EXT10",
+      "seed": 726,
+      "context": "1-8",
+      "n": 2040,
+      "baseline_rmse": 0.8460110613423801,
+      "candidate_rmse": 0.8885139588221521,
+      "delta_pct": 5.023917466555572,
+      "independent_formula_maxdiff": 3.552713678800501e-15
+    },
+    {
+      "validator": "EXT10",
+      "seed": 726,
+      "context": "17-24",
+      "n": 2040,
+      "baseline_rmse": 0.8448611425926357,
+      "candidate_rmse": 0.8860605445387509,
+      "delta_pct": 4.876470211387174,
+      "independent_formula_maxdiff": 3.552713678800501e-15
+    },
+    {
+      "validator": "EXT10",
+      "seed": 727,
+      "context": "1-8",
+      "n": 2040,
+      "baseline_rmse": 0.8449746421132476,
+      "candidate_rmse": 0.8870344524879116,
+      "delta_pct": 4.977641727741577,
+      "independent_formula_maxdiff": 1.7763568394002505e-15
+    },
+    {
+      "validator": "EXT10",
+      "seed": 727,
+      "context": "17-24",
+      "n": 2040,
+      "baseline_rmse": 0.8445072738233488,
+      "candidate_rmse": 0.8852182718210182,
+      "delta_pct": 4.820680562448909,
+      "independent_formula_maxdiff": 3.552713678800501e-15
+    },
+    {
+      "validator": "EXT12",
+      "seed": 726,
+      "context": "1-8",
+      "n": 5256,
+      "baseline_rmse": 0.8098664976791258,
+      "candidate_rmse": 0.8370644977334715,
+      "delta_pct": 3.3583312968604506,
+      "independent_formula_maxdiff": 3.552713678800501e-15
+    },
+    {
+      "validator": "EXT12",
+      "seed": 726,
+      "context": "17-24",
+      "n": 5256,
+      "baseline_rmse": 0.8104227213779621,
+      "candidate_rmse": 0.8367213306508421,
+      "delta_pct": 3.2450483653968076,
+      "independent_formula_maxdiff": 3.552713678800501e-15
+    },
+    {
+      "validator": "EXT12",
+      "seed": 727,
+      "context": "1-8",
+      "n": 5256,
+      "baseline_rmse": 0.8134254844454095,
+      "candidate_rmse": 0.8422842935682664,
+      "delta_pct": 3.5478122673440415,
+      "independent_formula_maxdiff": 3.552713678800501e-15
+    },
+    {
+      "validator": "EXT12",
+      "seed": 727,
+      "context": "17-24",
+      "n": 5256,
+      "baseline_rmse": 0.8138706712423998,
+      "candidate_rmse": 0.8418409799435327,
+      "delta_pct": 3.4367018851330977,
+      "independent_formula_maxdiff": 3.552713678800501e-15
+    }
+  ],
+  "formula_audit": "PASS",
+  "causality_cases": 576,
+  "source_sha256": "a197fca8121b88d35cc2ffa2f1103160e7caf477fea3dac8c326f6e79cd00375"
+}

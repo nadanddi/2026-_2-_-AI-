@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "DIAG10 fold0 seed726 only, raw features/model retrain",
+  "checks": [
+    {
+      "member": "CB",
+      "seed": 726,
+      "fold": 0,
+      "maxdiff": 0.0,
+      "train_rmse": 0.5452587084409004,
+      "validation_rmse": 0.8629861709428004
+    },
+    {
+      "member": "ET",
+      "seed": 726,
+      "fold": 0,
+      "maxdiff": 3.552713678800501e-15,
+      "train_rmse": 0.5341658821284246,
+      "validation_rmse": 0.8478397549419623
+    }
+  ]
+}
