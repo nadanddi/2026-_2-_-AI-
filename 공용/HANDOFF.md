@@ -273,3 +273,9 @@
 - 확인: shape는 둘 다약.6~.7%개선하지만 하루level악화로전체득이없음. 날씨400일122그룹, 기존DIAG291일이학습그룹공유. 전체입력/정답완전복사0이며누수단정안함. 그룹GUARD추가실험은구성원전용(CODEX/CB/ET/H1/H2)이고 W30G전체점수와구별.
 - 검산: rawlabel/fsum/혼합/bootstrap/분할PASS, raw첫fold726 H1/H2/physics 재학습차0. 보고서 집/코덱스/analysis/temp_hierarchical_20261003_v1/결과보고서_v1.md 및 temp_validation_structure_20261003_v1/verification.json. 두실행worker종료.
 - 진행 중: 없음. 새제출후보/제출물/EC잠금열람없음. 다음: 실험결과는 local/temp_hierarchical_20261003_v1을 sync_end로Drive전달. 이결과만으로다른온도개선방법불가능성주장금지.
+
+### 2026-10-03 집·코덱스 — 사용자 추가탐색, 온도 손실3안+물리기울기1안 완료
+- 현재: W30G유지·새온도후보없음. L1(daylevel손실2배)/S1(daylevel½)/D1(연속증분오차손실)/F1(두기록물리18기울기분리) 사전등록·원검증12칸각검사. 네안모두기각. L1 DIAG−.083~−.073%이나EXT12+.289~+.335%,F1 DIAG−.088~−.083%이나EXT12+.918~+.982%. L1/F1 p최저.26575/.32085,나머지일반검증악화.
+- 구현:손실v1선택자wrapper오해로세안모두D1실행무효,전체캐시보존판정제외. corrected run_v3/group_loss_model_v2는새local v2만사용. 원코드/기준변경없음. ZERO원CODEX차1.93e-9,수치미분≤5.36e-11.
+- 검산:네안rawlabel/fsum/혼합/bootstrap PASS,raw MASK첫DIAG726실제재학습예측차0. 농장/시간/전후반/level/shape및fold표준편차보고. 반복CV·독립홀드아웃아님·TFglobalrank그대로·시드독립증거부족한계명시.
+- 진행중없음·worker종료·제출파일/평가test예측/EC잠금열람0. 보고서 집/코덱스/analysis/temp_group_loss_20261003_v1/결과보고서_v1.md. 다음동기화대상local/temp_group_loss_20261003_v2 및temp_farm_physics_20261003_v1. 무효v1은결론에재사용금지.
