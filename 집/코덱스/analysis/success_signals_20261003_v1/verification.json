@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "raw_input_cells": 1377,
+  "nearest_train_checks": 51,
+  "max_input_difference": 5.684341886080802e-14,
+  "contrast_checks": 60,
+  "stratified_exact_permutation_checks": 58,
+  "matched_comparison_checks": 180,
+  "significant_bonferroni": 0,
+  "member_cases": [
+    {
+      "farm": "F13",
+      "day": 177,
+      "sub_ec": 1.0051249999999998,
+      "season_v2": 0.9379982645730909,
+      "season_r3": 0.9434981502377573,
+      "season_pfn": 0.9159987219144252
+    },
+    {
+      "farm": "F47",
+      "day": 139,
+      "sub_ec": 1.684375,
+      "season_v2": 1.6637904258826106,
+      "season_r3": 1.5840466653059047,
+      "season_pfn": 1.9827654681894336
+    }
+  ],
+  "methods": [
+    "raw inputs/math.fsum",
+    "manual outertrain imputation/variance/distance",
+    "exact stratified permutation contrast matrix",
+    "independent same-stratum severity matching",
+    "EC mixture mean identity"
+  ]
+}

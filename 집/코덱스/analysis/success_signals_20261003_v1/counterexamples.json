@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "counterexamples": [
+    {
+      "target": "TEMP",
+      "feature": "out_temp_std",
+      "criterion": "at least the minimum observed successful value; posthoc descriptive counterexample",
+      "threshold": 4.510818400123074,
+      "bad_days": [
+        {
+          "farm": "F13",
+          "day": 57,
+          "y": 19.40625,
+          "gap": -2.0395833333333364,
+          "rmse": 0.6820835916491497,
+          "out_temp_std": 5.124911923362411
+        },
+        {
+          "farm": "F47",
+          "day": 96,
+          "y": 12.080416666666666,
+          "gap": -2.83625,
+          "rmse": 1.1927504139419511,
+          "out_temp_std": 5.312875803701377
+        },
+        {
+          "farm": "F47",
+          "day": 191,
+          "y": 20.307916666666667,
+          "gap": 2.3329166666666694,
+          "rmse": 3.317069511358228,
+          "out_temp_std": 4.510818400123074
+        }
+      ]
+    },
+    {
+      "target": "EC",
+      "feature": "in_temp_day_minus_night",
+      "criterion": "at least the minimum observed successful value; posthoc descriptive counterexample",
+      "threshold": 9.55892857142857,
+      "bad_days": [
+        {
+          "farm": "F13",
+          "day": 125,
+          "y": 1.495083333333333,
+          "gap": NaN,
+          "rmse": 0.1244365580029229,
+          "in_temp_day_minus_night": 13.164285714285716
+        },
+        {
+          "farm": "F47",
+          "day": 141,
+          "y": 1.8655,
+          "gap": NaN,
+          "rmse": 0.2297402427519438,
+          "in_temp_day_minus_night": 11.957142857142856
+        },
+        {
+          "farm": "F47",
+          "day": 145,
+          "y": 2.141625,
+          "gap": NaN,
+          "rmse": 0.6492150555416119,
+          "in_temp_day_minus_night": 11.7875
+        },
+        {
+          "farm": "F47",
+          "day": 157,
+          "y": 1.2108333333333332,
+          "gap": NaN,
+          "rmse": 0.4554835617071072,
+          "in_temp_day_minus_night": 10.876785714285711
+        }
+      ]
+    }
+  ],
+  "weather_twin": {
+    "columns": [
+      "out_temp",
+      "out_hum",
+      "out_rad",
+      "out_wspd"
+    ],
+    "hours": 24,
+    "max_abs_difference": 0.0,
+    "cases": [
+      {
+        "farm": "F13",
+        "day": 194,
+        "good": true,
+        "y": 19.136666666666667,
+        "pred": 19.303564565696533,
+        "gap": -2.0174999999999983,
+        "rmse": 0.3869463508194056
+      },
+      {
+        "farm": "F47",
+        "day": 191,
+        "good": false,
+        "y": 20.307916666666667,
+        "pred": 17.09809724921311,
+        "gap": 2.3329166666666694,
+        "rmse": 3.317069511358228
+      }
+    ]
+  },
+  "method": "numpy 24x4 matrix versus independent scalar max",
+  "scope": "posthoc descriptive counterexamples, no new selection or significance test"
+}
