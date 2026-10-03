@@ -1,0 +1,18 @@
+
+F13 pass 1: records 171, dates 116, labelled 156
+  A: obs 75, high starts at dates [84, 97, 114], gaps [np.int64(13), np.int64(17)]
+     detrended ACF: L5 0.10 L10 -0.04 L15 -0.02 L20 -0.06 L25 -0.05 L30 0.08 L35 0.26 L40 -0.06 L45 -0.08 L50 0.10 L55 0.42 L60 -0.52
+     best local max in 15..60: L55 0.42
+  B: obs 81, high starts at dates [74, 90, 95, 111], gaps [np.int64(16), np.int64(5), np.int64(16)]
+     detrended ACF: L5 0.02 L10 -0.48 L15 0.04 L20 0.48 L25 -0.13 L30 -0.22 L35 0.16 L40 0.41 L45 0.05 L50 -0.00 L55 -0.52 L60 -0.02
+     best local max in 15..60: L19 0.52
+
+F47 pass 1: records 173, dates 118, labelled 158
+  A: obs 75, high starts at dates [], gaps []
+     detrended ACF: L5 0.00 L10 -0.33 L15 -0.15 L20 0.26 L25 0.08 L30 -0.17 L35 0.20 L40 0.17 L45 -0.20 L50 -0.20 L55 0.08 L60 0.53
+     best local max in 15..60: L57 0.40
+  B: obs 83, high starts at dates [82, 95, 98, 114], gaps [np.int64(13), np.int64(3), np.int64(16)]
+     detrended ACF: L5 0.03 L10 -0.14 L15 -0.01 L20 -0.10 L25 0.04 L30 0.10 L35 -0.28 L40 -0.39 L45 -0.06 L50 0.45 L55 0.28 L60 0.01
+     best local max in 15..60: L51 0.48
+
+PH0 periodic clue: False {'F13': (19, np.float64(0.5179935370734622)), 'F47': (51, np.float64(0.4849806334868667))}
