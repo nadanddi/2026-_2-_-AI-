@@ -1,0 +1,21 @@
+high days (label >= 1) with OOF: 31
+by label episode age:
+    n      y      p    res
+a                         
+1  12  1.636  1.214  0.422
+2   3  1.256  1.306 -0.050
+3   7  1.385  1.106  0.279
+4   3  1.435  1.133  0.303
+5   2  1.680  1.521  0.159
+6   4  1.816  1.325  0.491
+by input-only prior age (prev same-dong dates predicted >= .8):
+   n      y      p    res
+a                        
+0  9  1.550  1.238  0.312
+1  7  1.565  1.049  0.516
+2  4  1.558  1.251  0.307
+3  3  1.347  1.137  0.210
+4  8  1.606  1.384  0.222
+Spearman high days: res~label age 0.10 | res~input prior age -0.05 | all days res~input prior age 0.10
+
+AG0 clue: False
