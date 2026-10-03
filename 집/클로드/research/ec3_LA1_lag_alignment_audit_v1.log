@@ -1,0 +1,36 @@
+DAY LEVEL: LOO ridge R^2 by lag (record days; even = same source)
+
+[label y]
+farm pass  par     n     L-6     L-4     L-2     L+0     L+2     L+4     L+6
+F13  early 0      86   0.197   0.098   0.203   0.300   0.235   0.151   0.175
+F13  early 1      85   0.155   0.028   0.135   0.420   0.215   0.258   0.209
+F13  late  0      13     nan     nan     nan   0.068     nan     nan     nan
+F13  late  1      16     nan     nan     nan   0.163     nan     nan     nan
+F47  early 0      87   0.054   0.198   0.241   0.425   0.192   0.096   0.100
+F47  early 1      86   0.224   0.166   0.277   0.449   0.214   0.219   0.320
+F47  late  0      12     nan     nan     nan   0.640     nan     nan     nan
+F47  late  1      15     nan     nan     nan   0.290     nan     nan     nan
+
+[R3S resid e]
+farm pass  par     n     L-6     L-4     L-2     L+0     L+2     L+4     L+6
+F13  early 0      80  -0.108  -0.050  -0.081  -0.132  -0.021   0.016   0.077
+F13  early 1      76  -0.282  -0.150  -0.270  -0.161  -0.169  -0.051  -0.141
+F13  late  0      10     nan     nan     nan     nan     nan     nan     nan
+F13  late  1      14     nan     nan     nan   0.177     nan     nan     nan
+F47  early 0      76  -0.238  -0.172  -0.215  -0.059  -0.197  -0.200  -0.221
+F47  early 1      82  -0.145  -0.091  -0.107  -0.095  -0.146   0.022   0.007
+F47  late  0      11     nan     nan     nan     nan     nan     nan     nan
+F47  late  1      11     nan     nan     nan     nan     nan     nan     nan
+
+HOUR LEVEL: within-day deviations, 5-fold-by-day ridge R^2 by hour shift k (input at h+k)
+farm pass  par     k-6    k-5    k-4    k-3    k-2    k-1    k+0    k+1    k+2    k+3    k+4    k+5    k+6
+F13  early 0     0.094  0.094  0.088  0.078  0.066  0.053  0.041  0.037  0.040  0.044  0.046  0.045  0.040
+F13  early 1     0.022  0.092  0.128  0.118  0.074  0.027  0.000 -0.010 -0.002  0.036  0.054  0.074  0.084
+F13  late  0    -0.032 -0.084 -0.141 -0.182 -0.192 -0.187 -0.167 -0.081 -0.012  0.051  0.059  0.024 -0.001
+F13  late  1     0.207  0.244  0.153 -0.111 -0.238 -0.244 -0.287 -0.252 -0.116  0.022  0.051 -0.063 -0.215
+F47  early 0    -0.005 -0.004 -0.014 -0.032 -0.050 -0.053 -0.063 -0.062 -0.062 -0.057 -0.053 -0.045 -0.029
+F47  early 1     0.058  0.060  0.061  0.062  0.064  0.063  0.059  0.054  0.046  0.033  0.027  0.019  0.008
+F47  late  0    -0.306 -0.112  0.047  0.142  0.117  0.041 -0.042 -0.049 -0.049 -0.083 -0.092 -0.013  0.081
+F47  late  1    -0.093 -0.062 -0.037 -0.033 -0.005 -0.001 -0.025 -0.045 -0.068 -0.135 -0.158 -0.159 -0.150
+
+LA1 clues (best lag != 0 and gain >= .05): [('R3S resid e', 'F13', 0, 0, 6, np.float64(0.209)), ('R3S resid e', 'F13', 0, 1, 4, np.float64(0.11)), ('R3S resid e', 'F47', 0, 1, 4, np.float64(0.118)), ('hour', 'F13', 0, 0, -6, np.float64(0.053)), ('hour', 'F13', 0, 1, -4, np.float64(0.128)), ('hour', 'F13', 1, 0, 4, np.float64(0.225)), ('hour', 'F13', 1, 1, -5, np.float64(0.531)), ('hour', 'F47', 0, 0, -5, np.float64(0.059)), ('hour', 'F47', 1, 0, -3, np.float64(0.184))]

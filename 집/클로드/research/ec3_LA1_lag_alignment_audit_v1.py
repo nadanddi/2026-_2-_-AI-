@@ -73,6 +73,8 @@ def main():
                             n0 = n
                     row = np.array(row)
                     print("%-4s %-5s %-4d %4d " % (f, "late" if ps else "early", par, n0) + " ".join("%7.3f" % v for v in row))
+                    if np.isnan(row).all():
+                        continue
                     b = int(np.nanargmax(row))
                     if LAGS[b] != 0 and row[b] - row[3] >= 0.05:
                         clues.append((tgt_name, f, ps, par, LAGS[b], round(row[b] - row[3], 3)))
