@@ -319,3 +319,8 @@
 - 과거EC 추가정보 조건부진단54/132개선(독립표본/인과증거 아님). 실제EC기준fit306일 source시평가gap median5.5/p9010일,공개360일시5/10. ESTATE5일추가지연 DIAG−.013~+.010%/A+.116~+.140%로최신성민감; 전문가고정 보정기진단으로새독립검증아님.
 - EC EXT12 내부계절변환 정의역 실패는 날짜만으로 사전2249cca 보완. 기존gap_audit 해당inner보완전,최종plan/gap_validation 참조. TF32probe미적용. 요약 `집/코덱스/analysis/statistical_experiments_20261003_v1/실행결과_요약_v1.md`, 상세/반론/환경/재실행코드 같은폴더, local동명폴더 Drive대상.
 - 기존TK2 GPU는 gpu_queue에 의해 원tk2_pfn.py/resume3.log로 재개됨(DIAG10/6/seed18 확인), 기존자동분석·검산worker 유지. 이번완료를TK2완료로인용금지. 다음TK2 완료·자동검산/보고서 확인. 새채택/제출/test예측/EC잠금0. 두AI worker 종료뒤 sync_end 권장.
+
+### 2026-10-03 집·코덱스 — 현상 빈도/성공 사례 확인 및 TK2 완료
+- 사용자질문에 기존공개OOF 사후진단. DIAG EC≥1 일평균31/360일(8.61%)·SSE65.96%·잘맞힘(RMSE≤.1)2/31. 그중평균과소≥.2는17/360일·SSE61.20%. 온도|배지−실내일평균|≥2℃완전관측20/400일·SSE33.52%·잘맞힘(RMSE≤.5℃)4/20,따뜻한3일0/3·차가운17일4/17. 12일실내불완전미분류,가용평균포함시23일/SSE38.15%. 임계값민감도/층화/모든기존검증기 보존.
+- 158비어있지않은집계/18사례 rawdictionary·math.fsum독립PASS. 보고서 집/코덱스/analysis/problem_incidence_20261003_v1/결과보고서_v1.md. 정답사후분류·평균차만으로물리비정상/원인증명아님. 새모델/제출/EC잠금0.
+- 앞선TK2 진행중기록 갱신: 기존원worker 모든PFN계절쌍완료,finish_pipeline ALL NUMERICAL AUDITS DONE/verification PASS 및TK_종합보고서_v1.md 확인. TK2/전체계절TK3 둘다REJECT. TK2 W30G DIAG−.158~−.025%이나EXT10+.051~+.094%/EL1+.143~+.210%,DIAG p.2058~.4132. 기존W30G유지,통과후보없어추가GUARD채택검사불필요. local/temp_tk_season_20261003_v1 및통계실험local Drive동기화대상. 다른AI작업종료확인뒤sync_end 권장.
