@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\집\코덱스\analysis\failure_commonalities_20261003_v1\audit_neighbors.py", line 30, in <module>
+    main()
+  File "C:\work\farmai\집\코덱스\analysis\failure_commonalities_20261003_v1\audit_neighbors.py", line 12, in main
+    assert (z.farm,z.day) not in trainkeys;assert len(trainkeys)==z.train_days;checks+=2
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

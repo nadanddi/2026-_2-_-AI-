@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\집\코덱스\analysis\failure_commonalities_20261003_v1\verify.py", line 46, in <module>
+    close(r.failure_n,int(f.sum()));close(r.failure_yes,int((a&f).sum()));close(r.failure_rate,float(a[f].mean()))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\failure_commonalities_20261003_v1\verify.py", line 12, in close
+    assert math.isclose(float(a),float(b),rel_tol=2e-9,abs_tol=2e-9),(a,b)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: (24, 8)

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "checks": 73264,
+  "claims": {
+    "TEMP": {
+      "failure_days": 16,
+      "core_days": 16,
+      "failure_sse_fraction": 0.33190843753430355,
+      "core_sse_fraction": 0.33190843753430355,
+      "failure_level_sse_fraction": 0.7480419353402894,
+      "core_level_sse_fraction": 0.7480419353402894
+    },
+    "EC": {
+      "failure_days": 29,
+      "core_days": 17,
+      "failure_sse_fraction": 0.6585309119757116,
+      "core_sse_fraction": 0.6120150182408974,
+      "failure_level_sse_fraction": 0.7837632091033495,
+      "core_level_sse_fraction": 0.8169192538136734
+    }
+  },
+  "independent_methods": [
+    "raw CSV DictReader and math.fsum daily outcomes",
+    "manual input means/variance/phases",
+    "SciPy independent BH correction",
+    "all condition membership/counts",
+    "nearest coverage cross-check"
+  ],
+  "limitations": [
+    "not proof of causal mechanisms",
+    "nearest-distance full split reproduction is separate coverage audit",
+    "permutations assume exchangeability; adjacent/weather duplicate observations remain dependent"
+  ]
+}

@@ -1,0 +1,221 @@
+target,group,rule,feature,operator,cut,n,available,yes,fraction
+EC,all,환기 하루평균≤10,act_vent__mean,<=,10.0,360,360,187,0.5194444444444445
+EC,all,환기0인시간≥18시간,act_vent__zero_fraction,>=,0.75,360,360,119,0.33055555555555555
+EC,all,환기0인시간≥20시간,act_vent__zero_fraction,>=,0.8333333333333334,360,360,85,0.2361111111111111
+EC,all,밤환기평균=0,act_vent__night,<=,0.0,360,360,216,0.6
+EC,all,외기하루평균≤10℃,out_temp__mean,<=,10.0,360,360,201,0.5583333333333333
+EC,all,차광 낮−밤≥90,act_shade__daynight,>=,90.0,360,360,199,0.5527777777777778
+EC,all,보온 낮−밤≥90,act_thermal__daynight,>=,90.0,360,360,178,0.49444444444444446
+EC,all,낮CO2가밤보다높음,in_co2__daynight,>,0.0,360,359,109,0.30362116991643456
+EC,all,실내 낮−밤온도≥5℃,in_temp__daynight,>=,5.0,360,358,288,0.8044692737430168
+EC,all,난방하루평균=0,act_heating__mean,<=,0.0,360,360,79,0.21944444444444444
+EC,all,순환팬저녁평균=0,act_circfan__evening,<=,0.0,360,360,125,0.3472222222222222
+EC,all,CO2구동0인시간≤21시간,act_co2__zero_fraction,<=,0.875,360,360,106,0.29444444444444445
+EC,all,0시실내습도≤76,in_hum__h0,<=,76.0,360,357,185,0.5182072829131653
+EC,all,직전관측일일사평균≥114.833,out_rad__mean__previous,>=,114.83333333333333,360,358,185,0.5167597765363129
+EC,all,실내외온도상관≤.905626,in_temp__corr__out_temp,<=,0.905626,360,360,179,0.49722222222222223
+EC,all,CO2시간최대점프≥33,in_co2__jump_max,>=,33.0,360,360,184,0.5111111111111111
+EC,all,직전관측일간격=1,previous_record_gap,<=,1.0,360,358,352,0.9832402234636871
+EC,all,같은외기전체값기록있음,exact_weather_twins,>=,1.0,360,360,333,0.925
+EC,all,하루수준오차비중≥50%,level_sse_fraction,>=,0.5,360,360,286,0.7944444444444444
+EC,all,하루수준오차비중≥75%,level_sse_fraction,>=,0.75,360,360,232,0.6444444444444445
+EC,all,모든전문가과소예측≥18시간,all_under_fraction,>=,0.75,360,360,127,0.3527777777777778
+EC,all,모든전문가과대예측≥18시간,all_over_fraction,>=,0.75,360,360,126,0.35
+EC,failure,환기 하루평균≤10,act_vent__mean,<=,10.0,29,29,29,1.0
+EC,failure,환기0인시간≥18시간,act_vent__zero_fraction,>=,0.75,29,29,26,0.896551724137931
+EC,failure,환기0인시간≥20시간,act_vent__zero_fraction,>=,0.8333333333333334,29,29,23,0.7931034482758621
+EC,failure,밤환기평균=0,act_vent__night,<=,0.0,29,29,29,1.0
+EC,failure,외기하루평균≤10℃,out_temp__mean,<=,10.0,29,29,28,0.9655172413793104
+EC,failure,차광 낮−밤≥90,act_shade__daynight,>=,90.0,29,29,29,1.0
+EC,failure,보온 낮−밤≥90,act_thermal__daynight,>=,90.0,29,29,29,1.0
+EC,failure,낮CO2가밤보다높음,in_co2__daynight,>,0.0,29,29,23,0.7931034482758621
+EC,failure,실내 낮−밤온도≥5℃,in_temp__daynight,>=,5.0,29,29,25,0.8620689655172413
+EC,failure,난방하루평균=0,act_heating__mean,<=,0.0,29,29,15,0.5172413793103449
+EC,failure,순환팬저녁평균=0,act_circfan__evening,<=,0.0,29,29,25,0.8620689655172413
+EC,failure,CO2구동0인시간≤21시간,act_co2__zero_fraction,<=,0.875,29,29,25,0.8620689655172413
+EC,failure,0시실내습도≤76,in_hum__h0,<=,76.0,29,29,20,0.6896551724137931
+EC,failure,직전관측일일사평균≥114.833,out_rad__mean__previous,>=,114.83333333333333,29,29,9,0.3103448275862069
+EC,failure,실내외온도상관≤.905626,in_temp__corr__out_temp,<=,0.905626,29,29,19,0.6551724137931034
+EC,failure,CO2시간최대점프≥33,in_co2__jump_max,>=,33.0,29,29,25,0.8620689655172413
+EC,failure,직전관측일간격=1,previous_record_gap,<=,1.0,29,29,27,0.9310344827586207
+EC,failure,같은외기전체값기록있음,exact_weather_twins,>=,1.0,29,29,25,0.8620689655172413
+EC,failure,하루수준오차비중≥50%,level_sse_fraction,>=,0.5,29,29,20,0.6896551724137931
+EC,failure,하루수준오차비중≥75%,level_sse_fraction,>=,0.75,29,29,15,0.5172413793103449
+EC,failure,모든전문가과소예측≥18시간,all_under_fraction,>=,0.75,29,29,18,0.6206896551724138
+EC,failure,모든전문가과대예측≥18시간,all_over_fraction,>=,0.75,29,29,3,0.10344827586206896
+EC,core_failure,환기 하루평균≤10,act_vent__mean,<=,10.0,17,17,17,1.0
+EC,core_failure,환기0인시간≥18시간,act_vent__zero_fraction,>=,0.75,17,17,14,0.8235294117647058
+EC,core_failure,환기0인시간≥20시간,act_vent__zero_fraction,>=,0.8333333333333334,17,17,12,0.7058823529411765
+EC,core_failure,밤환기평균=0,act_vent__night,<=,0.0,17,17,17,1.0
+EC,core_failure,외기하루평균≤10℃,out_temp__mean,<=,10.0,17,17,16,0.9411764705882353
+EC,core_failure,차광 낮−밤≥90,act_shade__daynight,>=,90.0,17,17,17,1.0
+EC,core_failure,보온 낮−밤≥90,act_thermal__daynight,>=,90.0,17,17,17,1.0
+EC,core_failure,낮CO2가밤보다높음,in_co2__daynight,>,0.0,17,17,13,0.7647058823529411
+EC,core_failure,실내 낮−밤온도≥5℃,in_temp__daynight,>=,5.0,17,17,14,0.8235294117647058
+EC,core_failure,난방하루평균=0,act_heating__mean,<=,0.0,17,17,10,0.5882352941176471
+EC,core_failure,순환팬저녁평균=0,act_circfan__evening,<=,0.0,17,17,14,0.8235294117647058
+EC,core_failure,CO2구동0인시간≤21시간,act_co2__zero_fraction,<=,0.875,17,17,14,0.8235294117647058
+EC,core_failure,0시실내습도≤76,in_hum__h0,<=,76.0,17,17,12,0.7058823529411765
+EC,core_failure,직전관측일일사평균≥114.833,out_rad__mean__previous,>=,114.83333333333333,17,17,6,0.35294117647058826
+EC,core_failure,실내외온도상관≤.905626,in_temp__corr__out_temp,<=,0.905626,17,17,11,0.6470588235294118
+EC,core_failure,CO2시간최대점프≥33,in_co2__jump_max,>=,33.0,17,17,14,0.8235294117647058
+EC,core_failure,직전관측일간격=1,previous_record_gap,<=,1.0,17,17,15,0.8823529411764706
+EC,core_failure,같은외기전체값기록있음,exact_weather_twins,>=,1.0,17,17,13,0.7647058823529411
+EC,core_failure,하루수준오차비중≥50%,level_sse_fraction,>=,0.5,17,17,15,0.8823529411764706
+EC,core_failure,하루수준오차비중≥75%,level_sse_fraction,>=,0.75,17,17,12,0.7058823529411765
+EC,core_failure,모든전문가과소예측≥18시간,all_under_fraction,>=,0.75,17,17,16,0.9411764705882353
+EC,core_failure,모든전문가과대예측≥18시간,all_over_fraction,>=,0.75,17,17,0,0.0
+EC,strict2,환기 하루평균≤10,act_vent__mean,<=,10.0,24,24,24,1.0
+EC,strict2,환기0인시간≥18시간,act_vent__zero_fraction,>=,0.75,24,24,21,0.875
+EC,strict2,환기0인시간≥20시간,act_vent__zero_fraction,>=,0.8333333333333334,24,24,18,0.75
+EC,strict2,밤환기평균=0,act_vent__night,<=,0.0,24,24,24,1.0
+EC,strict2,외기하루평균≤10℃,out_temp__mean,<=,10.0,24,24,23,0.9583333333333334
+EC,strict2,차광 낮−밤≥90,act_shade__daynight,>=,90.0,24,24,24,1.0
+EC,strict2,보온 낮−밤≥90,act_thermal__daynight,>=,90.0,24,24,24,1.0
+EC,strict2,낮CO2가밤보다높음,in_co2__daynight,>,0.0,24,24,19,0.7916666666666666
+EC,strict2,실내 낮−밤온도≥5℃,in_temp__daynight,>=,5.0,24,24,21,0.875
+EC,strict2,난방하루평균=0,act_heating__mean,<=,0.0,24,24,12,0.5
+EC,strict2,순환팬저녁평균=0,act_circfan__evening,<=,0.0,24,24,20,0.8333333333333334
+EC,strict2,CO2구동0인시간≤21시간,act_co2__zero_fraction,<=,0.875,24,24,20,0.8333333333333334
+EC,strict2,0시실내습도≤76,in_hum__h0,<=,76.0,24,24,17,0.7083333333333334
+EC,strict2,직전관측일일사평균≥114.833,out_rad__mean__previous,>=,114.83333333333333,24,24,8,0.3333333333333333
+EC,strict2,실내외온도상관≤.905626,in_temp__corr__out_temp,<=,0.905626,24,24,17,0.7083333333333334
+EC,strict2,CO2시간최대점프≥33,in_co2__jump_max,>=,33.0,24,24,20,0.8333333333333334
+EC,strict2,직전관측일간격=1,previous_record_gap,<=,1.0,24,24,22,0.9166666666666666
+EC,strict2,같은외기전체값기록있음,exact_weather_twins,>=,1.0,24,24,20,0.8333333333333334
+EC,strict2,하루수준오차비중≥50%,level_sse_fraction,>=,0.5,24,24,17,0.7083333333333334
+EC,strict2,하루수준오차비중≥75%,level_sse_fraction,>=,0.75,24,24,14,0.5833333333333334
+EC,strict2,모든전문가과소예측≥18시간,all_under_fraction,>=,0.75,24,24,17,0.7083333333333334
+EC,strict2,모든전문가과대예측≥18시간,all_over_fraction,>=,0.75,24,24,2,0.08333333333333333
+EC,good,환기 하루평균≤10,act_vent__mean,<=,10.0,2,2,2,1.0
+EC,good,환기0인시간≥18시간,act_vent__zero_fraction,>=,0.75,2,2,2,1.0
+EC,good,환기0인시간≥20시간,act_vent__zero_fraction,>=,0.8333333333333334,2,2,1,0.5
+EC,good,밤환기평균=0,act_vent__night,<=,0.0,2,2,2,1.0
+EC,good,외기하루평균≤10℃,out_temp__mean,<=,10.0,2,2,2,1.0
+EC,good,차광 낮−밤≥90,act_shade__daynight,>=,90.0,2,2,2,1.0
+EC,good,보온 낮−밤≥90,act_thermal__daynight,>=,90.0,2,2,2,1.0
+EC,good,낮CO2가밤보다높음,in_co2__daynight,>,0.0,2,2,2,1.0
+EC,good,실내 낮−밤온도≥5℃,in_temp__daynight,>=,5.0,2,2,2,1.0
+EC,good,난방하루평균=0,act_heating__mean,<=,0.0,2,2,1,0.5
+EC,good,순환팬저녁평균=0,act_circfan__evening,<=,0.0,2,2,2,1.0
+EC,good,CO2구동0인시간≤21시간,act_co2__zero_fraction,<=,0.875,2,2,2,1.0
+EC,good,0시실내습도≤76,in_hum__h0,<=,76.0,2,2,2,1.0
+EC,good,직전관측일일사평균≥114.833,out_rad__mean__previous,>=,114.83333333333333,2,2,1,0.5
+EC,good,실내외온도상관≤.905626,in_temp__corr__out_temp,<=,0.905626,2,2,0,0.0
+EC,good,CO2시간최대점프≥33,in_co2__jump_max,>=,33.0,2,2,2,1.0
+EC,good,직전관측일간격=1,previous_record_gap,<=,1.0,2,2,2,1.0
+EC,good,같은외기전체값기록있음,exact_weather_twins,>=,1.0,2,2,2,1.0
+EC,good,하루수준오차비중≥50%,level_sse_fraction,>=,0.5,2,2,1,0.5
+EC,good,하루수준오차비중≥75%,level_sse_fraction,>=,0.75,2,2,0,0.0
+EC,good,모든전문가과소예측≥18시간,all_under_fraction,>=,0.75,2,2,1,0.5
+EC,good,모든전문가과대예측≥18시간,all_over_fraction,>=,0.75,2,2,0,0.0
+TEMP,all,환기 하루평균≤10,act_vent__mean,<=,10.0,400,400,205,0.5125
+TEMP,all,환기0인시간≥18시간,act_vent__zero_fraction,>=,0.75,400,400,132,0.33
+TEMP,all,환기0인시간≥20시간,act_vent__zero_fraction,>=,0.8333333333333334,400,400,95,0.2375
+TEMP,all,밤환기평균=0,act_vent__night,<=,0.0,400,400,235,0.5875
+TEMP,all,외기하루평균≤10℃,out_temp__mean,<=,10.0,400,400,226,0.565
+TEMP,all,차광 낮−밤≥90,act_shade__daynight,>=,90.0,400,400,214,0.535
+TEMP,all,보온 낮−밤≥90,act_thermal__daynight,>=,90.0,400,400,194,0.485
+TEMP,all,낮CO2가밤보다높음,in_co2__daynight,>,0.0,400,399,122,0.3057644110275689
+TEMP,all,실내 낮−밤온도≥5℃,in_temp__daynight,>=,5.0,400,398,318,0.7989949748743719
+TEMP,all,난방하루평균=0,act_heating__mean,<=,0.0,400,400,85,0.2125
+TEMP,all,순환팬저녁평균=0,act_circfan__evening,<=,0.0,400,400,137,0.3425
+TEMP,all,CO2구동0인시간≤21시간,act_co2__zero_fraction,<=,0.875,400,400,118,0.295
+TEMP,all,0시실내습도≤76,in_hum__h0,<=,76.0,400,396,209,0.5277777777777778
+TEMP,all,직전관측일일사평균≥114.833,out_rad__mean__previous,>=,114.83333333333333,400,398,201,0.5050251256281407
+TEMP,all,실내외온도상관≤.905626,in_temp__corr__out_temp,<=,0.905626,400,400,200,0.5
+TEMP,all,CO2시간최대점프≥33,in_co2__jump_max,>=,33.0,400,400,204,0.51
+TEMP,all,직전관측일간격=1,previous_record_gap,<=,1.0,400,398,390,0.9798994974874372
+TEMP,all,같은외기전체값기록있음,exact_weather_twins,>=,1.0,400,400,369,0.9225
+TEMP,all,하루수준오차비중≥50%,level_sse_fraction,>=,0.5,400,400,144,0.36
+TEMP,all,하루수준오차비중≥75%,level_sse_fraction,>=,0.75,400,400,49,0.1225
+TEMP,all,모든전문가과소예측≥18시간,all_under_fraction,>=,0.75,400,400,44,0.11
+TEMP,all,모든전문가과대예측≥18시간,all_over_fraction,>=,0.75,400,400,41,0.1025
+TEMP,failure,환기 하루평균≤10,act_vent__mean,<=,10.0,16,16,9,0.5625
+TEMP,failure,환기0인시간≥18시간,act_vent__zero_fraction,>=,0.75,16,16,5,0.3125
+TEMP,failure,환기0인시간≥20시간,act_vent__zero_fraction,>=,0.8333333333333334,16,16,2,0.125
+TEMP,failure,밤환기평균=0,act_vent__night,<=,0.0,16,16,12,0.75
+TEMP,failure,외기하루평균≤10℃,out_temp__mean,<=,10.0,16,16,12,0.75
+TEMP,failure,차광 낮−밤≥90,act_shade__daynight,>=,90.0,16,16,7,0.4375
+TEMP,failure,보온 낮−밤≥90,act_thermal__daynight,>=,90.0,16,16,6,0.375
+TEMP,failure,낮CO2가밤보다높음,in_co2__daynight,>,0.0,16,16,3,0.1875
+TEMP,failure,실내 낮−밤온도≥5℃,in_temp__daynight,>=,5.0,16,16,15,0.9375
+TEMP,failure,난방하루평균=0,act_heating__mean,<=,0.0,16,16,4,0.25
+TEMP,failure,순환팬저녁평균=0,act_circfan__evening,<=,0.0,16,16,4,0.25
+TEMP,failure,CO2구동0인시간≤21시간,act_co2__zero_fraction,<=,0.875,16,16,2,0.125
+TEMP,failure,0시실내습도≤76,in_hum__h0,<=,76.0,16,16,14,0.875
+TEMP,failure,직전관측일일사평균≥114.833,out_rad__mean__previous,>=,114.83333333333333,16,16,14,0.875
+TEMP,failure,실내외온도상관≤.905626,in_temp__corr__out_temp,<=,0.905626,16,16,12,0.75
+TEMP,failure,CO2시간최대점프≥33,in_co2__jump_max,>=,33.0,16,16,13,0.8125
+TEMP,failure,직전관측일간격=1,previous_record_gap,<=,1.0,16,16,16,1.0
+TEMP,failure,같은외기전체값기록있음,exact_weather_twins,>=,1.0,16,16,16,1.0
+TEMP,failure,하루수준오차비중≥50%,level_sse_fraction,>=,0.5,16,16,14,0.875
+TEMP,failure,하루수준오차비중≥75%,level_sse_fraction,>=,0.75,16,16,8,0.5
+TEMP,failure,모든전문가과소예측≥18시간,all_under_fraction,>=,0.75,16,16,3,0.1875
+TEMP,failure,모든전문가과대예측≥18시간,all_over_fraction,>=,0.75,16,16,11,0.6875
+TEMP,core_failure,환기 하루평균≤10,act_vent__mean,<=,10.0,16,16,9,0.5625
+TEMP,core_failure,환기0인시간≥18시간,act_vent__zero_fraction,>=,0.75,16,16,5,0.3125
+TEMP,core_failure,환기0인시간≥20시간,act_vent__zero_fraction,>=,0.8333333333333334,16,16,2,0.125
+TEMP,core_failure,밤환기평균=0,act_vent__night,<=,0.0,16,16,12,0.75
+TEMP,core_failure,외기하루평균≤10℃,out_temp__mean,<=,10.0,16,16,12,0.75
+TEMP,core_failure,차광 낮−밤≥90,act_shade__daynight,>=,90.0,16,16,7,0.4375
+TEMP,core_failure,보온 낮−밤≥90,act_thermal__daynight,>=,90.0,16,16,6,0.375
+TEMP,core_failure,낮CO2가밤보다높음,in_co2__daynight,>,0.0,16,16,3,0.1875
+TEMP,core_failure,실내 낮−밤온도≥5℃,in_temp__daynight,>=,5.0,16,16,15,0.9375
+TEMP,core_failure,난방하루평균=0,act_heating__mean,<=,0.0,16,16,4,0.25
+TEMP,core_failure,순환팬저녁평균=0,act_circfan__evening,<=,0.0,16,16,4,0.25
+TEMP,core_failure,CO2구동0인시간≤21시간,act_co2__zero_fraction,<=,0.875,16,16,2,0.125
+TEMP,core_failure,0시실내습도≤76,in_hum__h0,<=,76.0,16,16,14,0.875
+TEMP,core_failure,직전관측일일사평균≥114.833,out_rad__mean__previous,>=,114.83333333333333,16,16,14,0.875
+TEMP,core_failure,실내외온도상관≤.905626,in_temp__corr__out_temp,<=,0.905626,16,16,12,0.75
+TEMP,core_failure,CO2시간최대점프≥33,in_co2__jump_max,>=,33.0,16,16,13,0.8125
+TEMP,core_failure,직전관측일간격=1,previous_record_gap,<=,1.0,16,16,16,1.0
+TEMP,core_failure,같은외기전체값기록있음,exact_weather_twins,>=,1.0,16,16,16,1.0
+TEMP,core_failure,하루수준오차비중≥50%,level_sse_fraction,>=,0.5,16,16,14,0.875
+TEMP,core_failure,하루수준오차비중≥75%,level_sse_fraction,>=,0.75,16,16,8,0.5
+TEMP,core_failure,모든전문가과소예측≥18시간,all_under_fraction,>=,0.75,16,16,3,0.1875
+TEMP,core_failure,모든전문가과대예측≥18시간,all_over_fraction,>=,0.75,16,16,11,0.6875
+TEMP,strict2,환기 하루평균≤10,act_vent__mean,<=,10.0,14,14,8,0.5714285714285714
+TEMP,strict2,환기0인시간≥18시간,act_vent__zero_fraction,>=,0.75,14,14,4,0.2857142857142857
+TEMP,strict2,환기0인시간≥20시간,act_vent__zero_fraction,>=,0.8333333333333334,14,14,1,0.07142857142857142
+TEMP,strict2,밤환기평균=0,act_vent__night,<=,0.0,14,14,10,0.7142857142857143
+TEMP,strict2,외기하루평균≤10℃,out_temp__mean,<=,10.0,14,14,11,0.7857142857142857
+TEMP,strict2,차광 낮−밤≥90,act_shade__daynight,>=,90.0,14,14,6,0.42857142857142855
+TEMP,strict2,보온 낮−밤≥90,act_thermal__daynight,>=,90.0,14,14,6,0.42857142857142855
+TEMP,strict2,낮CO2가밤보다높음,in_co2__daynight,>,0.0,14,14,3,0.21428571428571427
+TEMP,strict2,실내 낮−밤온도≥5℃,in_temp__daynight,>=,5.0,14,14,13,0.9285714285714286
+TEMP,strict2,난방하루평균=0,act_heating__mean,<=,0.0,14,14,2,0.14285714285714285
+TEMP,strict2,순환팬저녁평균=0,act_circfan__evening,<=,0.0,14,14,2,0.14285714285714285
+TEMP,strict2,CO2구동0인시간≤21시간,act_co2__zero_fraction,<=,0.875,14,14,2,0.14285714285714285
+TEMP,strict2,0시실내습도≤76,in_hum__h0,<=,76.0,14,14,12,0.8571428571428571
+TEMP,strict2,직전관측일일사평균≥114.833,out_rad__mean__previous,>=,114.83333333333333,14,14,13,0.9285714285714286
+TEMP,strict2,실내외온도상관≤.905626,in_temp__corr__out_temp,<=,0.905626,14,14,10,0.7142857142857143
+TEMP,strict2,CO2시간최대점프≥33,in_co2__jump_max,>=,33.0,14,14,11,0.7857142857142857
+TEMP,strict2,직전관측일간격=1,previous_record_gap,<=,1.0,14,14,14,1.0
+TEMP,strict2,같은외기전체값기록있음,exact_weather_twins,>=,1.0,14,14,14,1.0
+TEMP,strict2,하루수준오차비중≥50%,level_sse_fraction,>=,0.5,14,14,13,0.9285714285714286
+TEMP,strict2,하루수준오차비중≥75%,level_sse_fraction,>=,0.75,14,14,8,0.5714285714285714
+TEMP,strict2,모든전문가과소예측≥18시간,all_under_fraction,>=,0.75,14,14,3,0.21428571428571427
+TEMP,strict2,모든전문가과대예측≥18시간,all_over_fraction,>=,0.75,14,14,10,0.7142857142857143
+TEMP,good,환기 하루평균≤10,act_vent__mean,<=,10.0,4,4,1,0.25
+TEMP,good,환기0인시간≥18시간,act_vent__zero_fraction,>=,0.75,4,4,1,0.25
+TEMP,good,환기0인시간≥20시간,act_vent__zero_fraction,>=,0.8333333333333334,4,4,1,0.25
+TEMP,good,밤환기평균=0,act_vent__night,<=,0.0,4,4,3,0.75
+TEMP,good,외기하루평균≤10℃,out_temp__mean,<=,10.0,4,4,1,0.25
+TEMP,good,차광 낮−밤≥90,act_shade__daynight,>=,90.0,4,4,3,0.75
+TEMP,good,보온 낮−밤≥90,act_thermal__daynight,>=,90.0,4,4,2,0.5
+TEMP,good,낮CO2가밤보다높음,in_co2__daynight,>,0.0,4,4,1,0.25
+TEMP,good,실내 낮−밤온도≥5℃,in_temp__daynight,>=,5.0,4,4,4,1.0
+TEMP,good,난방하루평균=0,act_heating__mean,<=,0.0,4,4,3,0.75
+TEMP,good,순환팬저녁평균=0,act_circfan__evening,<=,0.0,4,4,3,0.75
+TEMP,good,CO2구동0인시간≤21시간,act_co2__zero_fraction,<=,0.875,4,4,1,0.25
+TEMP,good,0시실내습도≤76,in_hum__h0,<=,76.0,4,4,4,1.0
+TEMP,good,직전관측일일사평균≥114.833,out_rad__mean__previous,>=,114.83333333333333,4,4,1,0.25
+TEMP,good,실내외온도상관≤.905626,in_temp__corr__out_temp,<=,0.905626,4,4,2,0.5
+TEMP,good,CO2시간최대점프≥33,in_co2__jump_max,>=,33.0,4,4,3,0.75
+TEMP,good,직전관측일간격=1,previous_record_gap,<=,1.0,4,4,4,1.0
+TEMP,good,같은외기전체값기록있음,exact_weather_twins,>=,1.0,4,4,2,0.5
+TEMP,good,하루수준오차비중≥50%,level_sse_fraction,>=,0.5,4,4,1,0.25
+TEMP,good,하루수준오차비중≥75%,level_sse_fraction,>=,0.75,4,4,0,0.0
+TEMP,good,모든전문가과소예측≥18시간,all_under_fraction,>=,0.75,4,4,0,0.0
+TEMP,good,모든전문가과대예측≥18시간,all_over_fraction,>=,0.75,4,4,0,0.0

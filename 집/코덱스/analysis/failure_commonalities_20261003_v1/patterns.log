@@ -1,0 +1,140 @@
+target        group              rule  yes  available
+    EC      failure        환기 하루평균≤10   29         29
+    EC      failure       환기0인시간≥18시간   26         29
+    EC      failure       환기0인시간≥20시간   23         29
+    EC      failure           밤환기평균=0   29         29
+    EC      failure        외기하루평균≤10℃   28         29
+    EC      failure         차광 낮−밤≥90   29         29
+    EC      failure         보온 낮−밤≥90   29         29
+    EC      failure        낮CO2가밤보다높음   23         29
+    EC      failure       실내 낮−밤온도≥5℃   25         29
+    EC      failure          난방하루평균=0   15         29
+    EC      failure         순환팬저녁평균=0   25         29
+    EC      failure    CO2구동0인시간≤21시간   25         29
+    EC      failure         0시실내습도≤76   20         29
+    EC      failure 직전관측일일사평균≥114.833    9         29
+    EC      failure   실내외온도상관≤.905626   19         29
+    EC      failure      CO2시간최대점프≥33   25         29
+    EC      failure         직전관측일간격=1   27         29
+    EC      failure       같은외기전체값기록있음   25         29
+    EC      failure      하루수준오차비중≥50%   20         29
+    EC      failure      하루수준오차비중≥75%   15         29
+    EC      failure    모든전문가과소예측≥18시간   18         29
+    EC      failure    모든전문가과대예측≥18시간    3         29
+    EC core_failure        환기 하루평균≤10   17         17
+    EC core_failure       환기0인시간≥18시간   14         17
+    EC core_failure       환기0인시간≥20시간   12         17
+    EC core_failure           밤환기평균=0   17         17
+    EC core_failure        외기하루평균≤10℃   16         17
+    EC core_failure         차광 낮−밤≥90   17         17
+    EC core_failure         보온 낮−밤≥90   17         17
+    EC core_failure        낮CO2가밤보다높음   13         17
+    EC core_failure       실내 낮−밤온도≥5℃   14         17
+    EC core_failure          난방하루평균=0   10         17
+    EC core_failure         순환팬저녁평균=0   14         17
+    EC core_failure    CO2구동0인시간≤21시간   14         17
+    EC core_failure         0시실내습도≤76   12         17
+    EC core_failure 직전관측일일사평균≥114.833    6         17
+    EC core_failure   실내외온도상관≤.905626   11         17
+    EC core_failure      CO2시간최대점프≥33   14         17
+    EC core_failure         직전관측일간격=1   15         17
+    EC core_failure       같은외기전체값기록있음   13         17
+    EC core_failure      하루수준오차비중≥50%   15         17
+    EC core_failure      하루수준오차비중≥75%   12         17
+    EC core_failure    모든전문가과소예측≥18시간   16         17
+    EC core_failure    모든전문가과대예측≥18시간    0         17
+    EC         good        환기 하루평균≤10    2          2
+    EC         good       환기0인시간≥18시간    2          2
+    EC         good       환기0인시간≥20시간    1          2
+    EC         good           밤환기평균=0    2          2
+    EC         good        외기하루평균≤10℃    2          2
+    EC         good         차광 낮−밤≥90    2          2
+    EC         good         보온 낮−밤≥90    2          2
+    EC         good        낮CO2가밤보다높음    2          2
+    EC         good       실내 낮−밤온도≥5℃    2          2
+    EC         good          난방하루평균=0    1          2
+    EC         good         순환팬저녁평균=0    2          2
+    EC         good    CO2구동0인시간≤21시간    2          2
+    EC         good         0시실내습도≤76    2          2
+    EC         good 직전관측일일사평균≥114.833    1          2
+    EC         good   실내외온도상관≤.905626    0          2
+    EC         good      CO2시간최대점프≥33    2          2
+    EC         good         직전관측일간격=1    2          2
+    EC         good       같은외기전체값기록있음    2          2
+    EC         good      하루수준오차비중≥50%    1          2
+    EC         good      하루수준오차비중≥75%    0          2
+    EC         good    모든전문가과소예측≥18시간    1          2
+    EC         good    모든전문가과대예측≥18시간    0          2
+  TEMP      failure        환기 하루평균≤10    9         16
+  TEMP      failure       환기0인시간≥18시간    5         16
+  TEMP      failure       환기0인시간≥20시간    2         16
+  TEMP      failure           밤환기평균=0   12         16
+  TEMP      failure        외기하루평균≤10℃   12         16
+  TEMP      failure         차광 낮−밤≥90    7         16
+  TEMP      failure         보온 낮−밤≥90    6         16
+  TEMP      failure        낮CO2가밤보다높음    3         16
+  TEMP      failure       실내 낮−밤온도≥5℃   15         16
+  TEMP      failure          난방하루평균=0    4         16
+  TEMP      failure         순환팬저녁평균=0    4         16
+  TEMP      failure    CO2구동0인시간≤21시간    2         16
+  TEMP      failure         0시실내습도≤76   14         16
+  TEMP      failure 직전관측일일사평균≥114.833   14         16
+  TEMP      failure   실내외온도상관≤.905626   12         16
+  TEMP      failure      CO2시간최대점프≥33   13         16
+  TEMP      failure         직전관측일간격=1   16         16
+  TEMP      failure       같은외기전체값기록있음   16         16
+  TEMP      failure      하루수준오차비중≥50%   14         16
+  TEMP      failure      하루수준오차비중≥75%    8         16
+  TEMP      failure    모든전문가과소예측≥18시간    3         16
+  TEMP      failure    모든전문가과대예측≥18시간   11         16
+  TEMP core_failure        환기 하루평균≤10    9         16
+  TEMP core_failure       환기0인시간≥18시간    5         16
+  TEMP core_failure       환기0인시간≥20시간    2         16
+  TEMP core_failure           밤환기평균=0   12         16
+  TEMP core_failure        외기하루평균≤10℃   12         16
+  TEMP core_failure         차광 낮−밤≥90    7         16
+  TEMP core_failure         보온 낮−밤≥90    6         16
+  TEMP core_failure        낮CO2가밤보다높음    3         16
+  TEMP core_failure       실내 낮−밤온도≥5℃   15         16
+  TEMP core_failure          난방하루평균=0    4         16
+  TEMP core_failure         순환팬저녁평균=0    4         16
+  TEMP core_failure    CO2구동0인시간≤21시간    2         16
+  TEMP core_failure         0시실내습도≤76   14         16
+  TEMP core_failure 직전관측일일사평균≥114.833   14         16
+  TEMP core_failure   실내외온도상관≤.905626   12         16
+  TEMP core_failure      CO2시간최대점프≥33   13         16
+  TEMP core_failure         직전관측일간격=1   16         16
+  TEMP core_failure       같은외기전체값기록있음   16         16
+  TEMP core_failure      하루수준오차비중≥50%   14         16
+  TEMP core_failure      하루수준오차비중≥75%    8         16
+  TEMP core_failure    모든전문가과소예측≥18시간    3         16
+  TEMP core_failure    모든전문가과대예측≥18시간   11         16
+  TEMP         good        환기 하루평균≤10    1          4
+  TEMP         good       환기0인시간≥18시간    1          4
+  TEMP         good       환기0인시간≥20시간    1          4
+  TEMP         good           밤환기평균=0    3          4
+  TEMP         good        외기하루평균≤10℃    1          4
+  TEMP         good         차광 낮−밤≥90    3          4
+  TEMP         good         보온 낮−밤≥90    2          4
+  TEMP         good        낮CO2가밤보다높음    1          4
+  TEMP         good       실내 낮−밤온도≥5℃    4          4
+  TEMP         good          난방하루평균=0    3          4
+  TEMP         good         순환팬저녁평균=0    3          4
+  TEMP         good    CO2구동0인시간≤21시간    1          4
+  TEMP         good         0시실내습도≤76    4          4
+  TEMP         good 직전관측일일사평균≥114.833    1          4
+  TEMP         good   실내외온도상관≤.905626    2          4
+  TEMP         good      CO2시간최대점프≥33    3          4
+  TEMP         good         직전관측일간격=1    4          4
+  TEMP         good       같은외기전체값기록있음    2          4
+  TEMP         good      하루수준오차비중≥50%    1          4
+  TEMP         good      하루수준오차비중≥75%    0          4
+  TEMP         good    모든전문가과소예측≥18시간    0          4
+  TEMP         good    모든전문가과대예측≥18시간    0          4
+target        group  n  nearest_distance_median  top5_no_high  samefarm_period_no_high  beyond_samefarm_truth_range  mean_top5_truth_gap  top5_no_severe_same_sign  samefarm_period_no_warm  beyond_samefarm_gap_range
+    EC      failure 29                 0.339370           9.0                      4.0                          6.0             0.588295                       NaN                      NaN                        NaN
+    EC core_failure 17                 0.412228           7.0                      4.0                          6.0             0.777470                       NaN                      NaN                        NaN
+    EC         good  2                 0.313413           0.0                      0.0                          0.0             0.292733                       NaN                      NaN                        NaN
+  TEMP      failure 16                 0.604512           NaN                      NaN                          NaN                  NaN                      13.0                      3.0                        8.0
+  TEMP core_failure 16                 0.604512           NaN                      NaN                          NaN                  NaN                      13.0                      3.0                        8.0
+  TEMP         good  4                 0.602137           NaN                      NaN                          NaN                  NaN                       2.0                      0.0                        1.0
