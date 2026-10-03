@@ -1,0 +1,23 @@
+
+F13 all records 230 (train 200, test 30), range 8-245, missing numbers [184, 190, 199, 210, 219, 230, 234, 240]
+  23h->0h out_temp jump pair-internal  n  63  median 2.10  mean 2.62
+  23h->0h out_temp jump after pair     n  63  median 0.40  mean 0.83
+  23h->0h out_temp jump single->next   n  95  median 0.60  mean 1.55
+  records in pairs 126, singletons 104; pairs by pass: early 55 late 8; singletons late 43
+  role sequence (each char = record; [] pair, . single):
+     8 ..[]..[][][][][][]....[][].[]...[][].[][][]......[]...[]...[].[][].[][][][][][][
+    88 ][]...[][][]..[][]......[].[][][].[][][][][].[][][][]....[]...[]...[]..[].[].[].
+   168 [].[].[]........................[].......[].[].[][]......[].[][]......
+
+F47 all records 230 (train 200, test 30), range 6-243, missing numbers [182, 188, 197, 208, 217, 228, 232, 238]
+  23h->0h out_temp jump pair-internal  n  64  median 2.00  mean 3.03
+  23h->0h out_temp jump after pair     n  61  median 0.50  mean 0.87
+  23h->0h out_temp jump single->next   n  96  median 0.50  mean 1.68
+  records in pairs 128, singletons 102; pairs by pass: early 55 late 9; singletons late 39
+  role sequence (each char = record; [] pair, . single):
+     6 ....[]..[].[][][][].[][]..[][][][].[][][].[][][][][][][][].[].[][]....[].[][]..[
+    86 ]...[]..[][][][][]...[]....[][].....[].[][][]..[][][].[][]..[].....[].[].....[].
+   166 ....[].[].[]......[]..[].................[]..[]..[][][][].[]..........
+
+cross-farm identical-weather record pairs (|offset| <= 15): 270, F13 days covered 180/230
+offset (F47 day - F13 day) counts: {-8: 4, -7: 11, -6: 8, -5: 8, -4: 8, -3: 11, -2: 17, -1: 15, 0: 19, 1: 26, 2: 29, 3: 36, 4: 34, 5: 24, 6: 15, 7: 4, 8: 1}

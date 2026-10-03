@@ -1,0 +1,36 @@
+
+[temp W40G] day-mean residual (label - pred)
+                   count   mean    std
+farm pas   role                       
+F13  early first      55 -0.003  0.382
+           second     55 -0.022  0.368
+           single     61  0.131  0.399
+     late  first       3 -0.150  0.351
+           second      3  0.228  0.257
+           single     23 -0.007  0.373
+F47  early first      55 -0.073  0.435
+           second     55 -0.085  0.482
+           single     63 -0.017  0.575
+     late  first       4 -0.073  0.559
+           second      4  0.516  1.807
+           single     19 -0.055  0.790
+  F13 early second-first -0.019  MWU p 0.6282
+  F47 early second-first -0.012  MWU p 0.9381
+
+[EC R3S] day-mean residual (label - pred)
+                   count   mean    std
+farm pas   role                       
+F13  early first      49 -0.026  0.114
+           second     50  0.031  0.102
+           single     57  0.013  0.151
+     late  first       2 -0.178  0.287
+           second      3  0.331  0.336
+           single     19  0.076  0.203
+F47  early first      49 -0.015  0.065
+           second     51 -0.002  0.152
+           single     58  0.006  0.258
+     late  first       2  0.052  0.029
+           second      4  0.130  0.542
+           single     16  0.016  0.187
+  F13 early second-first +0.057  MWU p 0.0036
+  F47 early second-first +0.013  MWU p 0.9231
