@@ -1,0 +1,5 @@
+high-EC days 31 | day-level MSE 0.2213 = shift^2 0.1052 (48%) + day-to-day 0.1161 (52%)
+mean true 1.549  mean pred 1.225  | sd true 0.376  sd pred 0.248
+within-high rank agreement: Spearman 0.57, Pearson 0.45
+in-sample best line y = 0.67*p + 0.72 -> residual MSE 0.1098
+share of ALL-day day-level MSE on high days: 64% (shift part 30%, day-to-day part 34%)
