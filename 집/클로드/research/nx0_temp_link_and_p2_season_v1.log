@@ -1,0 +1,11 @@
+HIGH-EC (y>=1)  n  31 | st: EC +0.07 resid +0.07 | gap: EC +0.16 resid +0.12 | w40: EC +0.01 resid -0.02 | gap_pred: EC +0.11 resid +0.03
+SEALED          n  85 | st: EC +0.24 resid +0.35 | gap: EC +0.10 resid +0.29 | w40: EC +0.22 resid +0.30 | gap_pred: EC -0.13 resid +0.08
+ALL             n 360 | st: EC -0.46 resid +0.10 | gap: EC -0.19 resid +0.04 | w40: EC -0.47 resid +0.10 | gap_pred: EC -0.24 resid -0.00
+
+pass-2 high days: season used (interp) vs own-weather twin
+farm  day    y    p  res  s_interp  s_twin  exact
+ F13  217 1.69 1.00 0.70    124.21   109.0  False
+ F13  241 1.43 1.03 0.40    121.00   148.0   True
+ F13  243 1.72 1.03 0.68    121.00   149.0   True
+ F47  229 1.79 1.20 0.58    145.84   166.0  False
+ F47  231 2.18 1.29 0.89    148.32   102.0  False
