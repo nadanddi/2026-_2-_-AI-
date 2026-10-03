@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "scope": "Fixed saved aggregate score/segment reaggregation only",
+  "cells": [
+    {
+      "seed": 7,
+      "change_pct": {
+        "overall": 2.6140494112460333,
+        "high": -2.1051099814599183,
+        "ordinary": 11.189396814007013
+      },
+      "high_delta_sse": -7.7884659759338275,
+      "ordinary_delta_sse": 22.80096897201986,
+      "ordinary_delta_mse": 0.0028876607107421303,
+      "ordinary_delta_bias_sq": 2.2013445135342195e-05,
+      "ordinary_delta_residual_variance": 0.002865647265606788,
+      "residual_variance_share_of_ordinary_loss_increase": 0.9923767203489482
+    },
+    {
+      "seed": 101,
+      "change_pct": {
+        "overall": 1.8105383474295467,
+        "high": -2.4744064502785212,
+        "ordinary": 9.55859217845143
+      },
+      "high_delta_sse": -9.16075725496494,
+      "ordinary_delta_sse": 19.58093532638712,
+      "ordinary_delta_mse": 0.0024798550312040424,
+      "ordinary_delta_bias_sq": 5.521404346633572e-06,
+      "ordinary_delta_residual_variance": 0.002474333626857409,
+      "residual_variance_share_of_ordinary_loss_increase": 0.9977734971290024
+    },
+    {
+      "seed": 2024,
+      "change_pct": {
+        "overall": 1.7336548173863875,
+        "high": -2.6693722472450165,
+        "ordinary": 9.503127676279611
+      },
+      "high_delta_sse": -9.79759903463006,
+      "ordinary_delta_sse": 19.776830849653408,
+      "ordinary_delta_mse": 0.0025046644946369566,
+      "ordinary_delta_bias_sq": 2.187326322077238e-05,
+      "ordinary_delta_residual_variance": 0.002482791231416184,
+      "residual_variance_share_of_ordinary_loss_increase": 0.9912669887453558
+    }
+  ],
+  "hashes": {
+    "scores_v1.csv": "8ee7eabf9ab6552b76ea398985a196f48701d879673401c13087fdb3e4e23247",
+    "segments_v1.csv": "555756b6b4550bb63f5339a7d2c2bf9ffcc8ad2238ebeea0e5c8aa0b6273c89b",
+    "run.py": "826a5ad2e460fb0c92baa14f835768cccf0b60002165f3fc5d57afd3359afea4",
+    "result_v1.json": "ba1f4934df7ed921392be92febe3724598228f3bf4871739d7a8c36284623d51",
+    "first_fold_verification_v1.json": "622fa29ad37d289cb69678204a8c7d6ee93ac136150540aa2a0543624a3bc1e9"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "66 public cache metadata bounds and synthetic arithmetic only.",
+  "metadata_cells": 66,
+  "minimum_saved_train_lower_bound": 0.063,
+  "maximum_saved_train_upper_bound": 3.232,
+  "all_saved_training_ranges_strictly_positive": true,
+  "synthetic_clip_counterexample": {
+    "y_train": [
+      1.0,
+      4.0
+    ],
+    "b_train": [
+      1.0,
+      1.0
+    ],
+    "b_query": 4.0,
+    "leaf_ratio_mean": 2.5,
+    "raw": 10.0,
+    "clip_component_first": 2.96,
+    "clip_final_only": 4.0
+  },
+  "repair": "v1 broad glob failed; v2 exact member filename pattern before any reporting"
+}

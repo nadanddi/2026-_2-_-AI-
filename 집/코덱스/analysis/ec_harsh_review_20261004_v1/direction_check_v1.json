@@ -1,0 +1,361 @@
+{
+  "scope": "Saved public OOF only, EL1 excluded. No fitted models, no weight selection. Directional derivatives are post-hoc diagnostic oracles.",
+  "HM1": {
+    "sha256": "67ca379f9784ca65c6a0deb14e71a65030fbca9addc8f5fc9483f82eec5360ef",
+    "cells": [
+      {
+        "validator": "A",
+        "seed": 7,
+        "n": 6336,
+        "flagged": 1154,
+        "mean_e_direction": -0.001518117356076421,
+        "mean_direction_sq": 0.012310661889481931,
+        "derivative_at_zero": -0.003036234712152842,
+        "observed_half_delta_mse": 0.001559548116294062,
+        "quadratic_oracle_w": 0.12331728137001964
+      },
+      {
+        "validator": "A",
+        "seed": 101,
+        "n": 6336,
+        "flagged": 1137,
+        "mean_e_direction": -0.002225082616012168,
+        "mean_direction_sq": 0.014254589202183905,
+        "derivative_at_zero": -0.004450165232024336,
+        "observed_half_delta_mse": 0.0013385646845338079,
+        "quadratic_oracle_w": 0.15609587792759888
+      },
+      {
+        "validator": "A",
+        "seed": 2024,
+        "n": 6336,
+        "flagged": 1126,
+        "mean_e_direction": -0.002039139820893034,
+        "mean_direction_sq": 0.012514009592265308,
+        "derivative_at_zero": -0.004078279641786068,
+        "observed_half_delta_mse": 0.0010893625771732924,
+        "quadratic_oracle_w": 0.1629485582425469
+      },
+      {
+        "validator": "B",
+        "seed": 7,
+        "n": 6312,
+        "flagged": 814,
+        "mean_e_direction": -0.000602434731702171,
+        "mean_direction_sq": 0.007419479797281048,
+        "derivative_at_zero": -0.001204869463404342,
+        "observed_half_delta_mse": 0.001252435217618091,
+        "quadratic_oracle_w": 0.08119635717896825
+      },
+      {
+        "validator": "B",
+        "seed": 101,
+        "n": 6312,
+        "flagged": 806,
+        "mean_e_direction": -0.0009589664279497711,
+        "mean_direction_sq": 0.006968035177835095,
+        "derivative_at_zero": -0.0019179328558995422,
+        "observed_half_delta_mse": 0.0007830423665090012,
+        "quadratic_oracle_w": 0.1376236490596641
+      },
+      {
+        "validator": "B",
+        "seed": 2024,
+        "n": 6312,
+        "flagged": 798,
+        "mean_e_direction": -0.0012848498955476005,
+        "mean_direction_sq": 0.007085673562714577,
+        "derivative_at_zero": -0.002569699791095201,
+        "observed_half_delta_mse": 0.00048656849513104304,
+        "quadratic_oracle_w": 0.18133066449865698
+      },
+      {
+        "validator": "DIAG10",
+        "seed": 7,
+        "n": 8640,
+        "flagged": 928,
+        "mean_e_direction": -0.001988051694546514,
+        "mean_direction_sq": 0.015161057747074328,
+        "derivative_at_zero": -0.003976103389093028,
+        "observed_half_delta_mse": 0.0018022127422220688,
+        "quadratic_oracle_w": 0.13112882542315715
+      },
+      {
+        "validator": "DIAG10",
+        "seed": 101,
+        "n": 8640,
+        "flagged": 950,
+        "mean_e_direction": -0.0009477633259504959,
+        "mean_direction_sq": 0.016422461691881992,
+        "derivative_at_zero": -0.0018955266519009918,
+        "observed_half_delta_mse": 0.0031578520970200015,
+        "quadratic_oracle_w": 0.057711404278628795
+      },
+      {
+        "validator": "DIAG10",
+        "seed": 2024,
+        "n": 8640,
+        "flagged": 953,
+        "mean_e_direction": -0.0009818506913723724,
+        "mean_direction_sq": 0.015920214777506374,
+        "derivative_at_zero": -0.0019637013827447447,
+        "observed_half_delta_mse": 0.0029982030030042206,
+        "quadratic_oracle_w": 0.06167320636651375
+      },
+      {
+        "validator": "EXT10",
+        "seed": 7,
+        "n": 1800,
+        "flagged": 88,
+        "mean_e_direction": -0.000251838606064305,
+        "mean_direction_sq": 0.0020597746997913237,
+        "derivative_at_zero": -0.00050367721212861,
+        "observed_half_delta_mse": 0.00026310506888352575,
+        "quadratic_oracle_w": 0.12226512253491552
+      },
+      {
+        "validator": "EXT10",
+        "seed": 101,
+        "n": 1800,
+        "flagged": 62,
+        "mean_e_direction": 0.0006965149416826535,
+        "mean_direction_sq": 0.001961104395736671,
+        "derivative_at_zero": 0.001393029883365307,
+        "observed_half_delta_mse": 0.001186791040616821,
+        "quadratic_oracle_w": -0.3551646425334813
+      },
+      {
+        "validator": "EXT10",
+        "seed": 2024,
+        "n": 1800,
+        "flagged": 68,
+        "mean_e_direction": -5.560171571395252e-05,
+        "mean_direction_sq": 0.0018707379532703042,
+        "derivative_at_zero": -0.00011120343142790504,
+        "observed_half_delta_mse": 0.00041208277260362434,
+        "quadratic_oracle_w": 0.02972180877431452
+      },
+      {
+        "validator": "EXT12",
+        "seed": 7,
+        "n": 4632,
+        "flagged": 296,
+        "mean_e_direction": -0.004279676661960179,
+        "mean_direction_sq": 0.0019307942909017476,
+        "derivative_at_zero": -0.008559353323920358,
+        "observed_half_delta_mse": -0.003796978089234743,
+        "quadratic_oracle_w": 2.216536832601376
+      },
+      {
+        "validator": "EXT12",
+        "seed": 101,
+        "n": 4632,
+        "flagged": 298,
+        "mean_e_direction": -0.0042159514965172265,
+        "mean_direction_sq": 0.0020728355833195935,
+        "derivative_at_zero": -0.008431902993034453,
+        "observed_half_delta_mse": -0.0036977426006873284,
+        "quadratic_oracle_w": 2.033905404964868
+      },
+      {
+        "validator": "EXT12",
+        "seed": 2024,
+        "n": 4632,
+        "flagged": 308,
+        "mean_e_direction": -0.003981768847383151,
+        "mean_direction_sq": 0.0021229985188384007,
+        "derivative_at_zero": -0.007963537694766301,
+        "observed_half_delta_mse": -0.0034510192176735507,
+        "quadratic_oracle_w": 1.8755400967315685
+      }
+    ]
+  },
+  "HM2": {
+    "sha256": "c22fbf3cc18c3a427c11c13754a1d4764e3105b9f4111d32f3297e5b7154b3d2",
+    "cells": [
+      {
+        "validator": "A",
+        "seed": 7,
+        "n": 6336,
+        "flagged": 1154,
+        "mean_e_direction": 0.0010377842982969242,
+        "mean_direction_sq": 0.003115990622414346,
+        "derivative_at_zero": 0.0020755685965938484,
+        "observed_half_delta_mse": 0.0018167819539005102,
+        "quadratic_oracle_w": -0.3330511622312982
+      },
+      {
+        "validator": "A",
+        "seed": 101,
+        "n": 6336,
+        "flagged": 1137,
+        "mean_e_direction": 0.0008949970110647592,
+        "mean_direction_sq": 0.0030918154184682543,
+        "derivative_at_zero": 0.0017899940221295183,
+        "observed_half_delta_mse": 0.0016679508656818219,
+        "quadratic_oracle_w": -0.2894729762063733
+      },
+      {
+        "validator": "A",
+        "seed": 2024,
+        "n": 6336,
+        "flagged": 1126,
+        "mean_e_direction": 0.0012157273372764247,
+        "mean_direction_sq": 0.003183801702022821,
+        "derivative_at_zero": 0.0024314546745528493,
+        "observed_half_delta_mse": 0.0020116777627821295,
+        "quadratic_oracle_w": -0.38184769375052946
+      },
+      {
+        "validator": "B",
+        "seed": 7,
+        "n": 6312,
+        "flagged": 814,
+        "mean_e_direction": 0.0007296890354727824,
+        "mean_direction_sq": 0.0032619991797070086,
+        "derivative_at_zero": 0.0014593780709455649,
+        "observed_half_delta_mse": 0.0015451888303995337,
+        "quadratic_oracle_w": -0.22369381329468108
+      },
+      {
+        "validator": "B",
+        "seed": 101,
+        "n": 6312,
+        "flagged": 806,
+        "mean_e_direction": 0.0011518540523171995,
+        "mean_direction_sq": 0.0032524732639254636,
+        "derivative_at_zero": 0.002303708104634399,
+        "observed_half_delta_mse": 0.0019649723682985645,
+        "quadratic_oracle_w": -0.3541471240034139
+      },
+      {
+        "validator": "B",
+        "seed": 2024,
+        "n": 6312,
+        "flagged": 798,
+        "mean_e_direction": 0.000571183257164241,
+        "mean_direction_sq": 0.0035580366236583044,
+        "derivative_at_zero": 0.001142366514328482,
+        "observed_half_delta_mse": 0.0014606924130788166,
+        "quadratic_oracle_w": -0.16053327089617236
+      },
+      {
+        "validator": "DIAG10",
+        "seed": 7,
+        "n": 8640,
+        "flagged": 928,
+        "mean_e_direction": 0.0002159906049599246,
+        "mean_direction_sq": 0.002685939423140751,
+        "derivative_at_zero": 0.0004319812099198492,
+        "observed_half_delta_mse": 0.0008874754607451129,
+        "quadratic_oracle_w": -0.08041529272739896
+      },
+      {
+        "validator": "DIAG10",
+        "seed": 101,
+        "n": 8640,
+        "flagged": 950,
+        "mean_e_direction": 0.0003059280307787099,
+        "mean_direction_sq": 0.0029247236275726745,
+        "derivative_at_zero": 0.0006118560615574198,
+        "observed_half_delta_mse": 0.001037108937671878,
+        "quadratic_oracle_w": -0.1046006630830311
+      },
+      {
+        "validator": "DIAG10",
+        "seed": 2024,
+        "n": 8640,
+        "flagged": 953,
+        "mean_e_direction": 0.00015709758261901762,
+        "mean_direction_sq": 0.0030828573714175222,
+        "derivative_at_zero": 0.00031419516523803525,
+        "observed_half_delta_mse": 0.000927811925473398,
+        "quadratic_oracle_w": -0.050958433586819785
+      },
+      {
+        "validator": "EXT10",
+        "seed": 7,
+        "n": 1800,
+        "flagged": 88,
+        "mean_e_direction": 0.002333264784240648,
+        "mean_direction_sq": 0.0022630390851877797,
+        "derivative_at_zero": 0.004666529568481296,
+        "observed_half_delta_mse": 0.002899024555537593,
+        "quadratic_oracle_w": -1.0310315891194788
+      },
+      {
+        "validator": "EXT10",
+        "seed": 101,
+        "n": 1800,
+        "flagged": 62,
+        "mean_e_direction": 0.0023705609274925817,
+        "mean_direction_sq": 0.0020065646890713574,
+        "derivative_at_zero": 0.0047411218549851634,
+        "observed_half_delta_mse": 0.0028722020997604208,
+        "quadratic_oracle_w": -1.181402693072249
+      },
+      {
+        "validator": "EXT10",
+        "seed": 2024,
+        "n": 1800,
+        "flagged": 68,
+        "mean_e_direction": 0.0025200763848746343,
+        "mean_direction_sq": 0.0021469772627231913,
+        "derivative_at_zero": 0.005040152769749269,
+        "observed_half_delta_mse": 0.003056820700555433,
+        "quadratic_oracle_w": -1.1737787952529177
+      },
+      {
+        "validator": "EXT12",
+        "seed": 7,
+        "n": 4632,
+        "flagged": 296,
+        "mean_e_direction": -0.015795783319399816,
+        "mean_direction_sq": 0.015194101488426051,
+        "derivative_at_zero": -0.03159156663879963,
+        "observed_half_delta_mse": -0.011997257947293304,
+        "quadratic_oracle_w": 1.0395996980428286
+      },
+      {
+        "validator": "EXT12",
+        "seed": 101,
+        "n": 4632,
+        "flagged": 298,
+        "mean_e_direction": -0.015087219355734796,
+        "mean_direction_sq": 0.014658258736872449,
+        "derivative_at_zero": -0.030174438711469593,
+        "observed_half_delta_mse": -0.011422654671516687,
+        "quadratic_oracle_w": 1.0292640910876616
+      },
+      {
+        "validator": "EXT12",
+        "seed": 2024,
+        "n": 4632,
+        "flagged": 308,
+        "mean_e_direction": -0.01427034390347245,
+        "mean_direction_sq": 0.013832257411224846,
+        "derivative_at_zero": -0.0285406878069449,
+        "observed_half_delta_mse": -0.010812279550666241,
+        "quadratic_oracle_w": 1.0316713663737993
+      }
+    ]
+  },
+  "verified_HM1_flag_groups": {
+    "true_high": {
+      "n": 644,
+      "baseline_sse": 187.02215543867533,
+      "candidate_sse": 156.11281929399627
+    },
+    "false_high": {
+      "n": 284,
+      "baseline_sse": 35.46667514509826,
+      "candidate_sse": 81.94712938257597
+    }
+  },
+  "PR1_saved_public_coverage": {
+    "n": 360,
+    "inside": 269,
+    "coverage": 0.7472222222222222,
+    "nominal": 0.8
+  }
+}

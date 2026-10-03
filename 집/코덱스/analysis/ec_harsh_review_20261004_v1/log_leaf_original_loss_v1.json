@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic arithmetic counterexample only",
+  "y": [
+    1.0,
+    8.0
+  ],
+  "b": [
+    1.0,
+    2.0
+  ],
+  "ratios": [
+    1.0,
+    4.0
+  ],
+  "ratio_sse_optimum": 2.5,
+  "original_sse_optimum": 3.4,
+  "original_sse_at_ratio_optimum": 11.25,
+  "original_sse_at_original_optimum": 7.2,
+  "ratio_sse_at_ratio_optimum": 4.5,
+  "ratio_sse_at_original_optimum": 6.12,
+  "constant_b_optima_equal": true
+}

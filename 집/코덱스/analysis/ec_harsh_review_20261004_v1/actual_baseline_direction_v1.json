@@ -1,0 +1,307 @@
+{
+  "scope": "Post-hoc derivative only, original HM1 direction held fixed; no candidate weight chosen, no score/adoption.",
+  "hashes": {
+    "ec3_HM1_all.csv": "67ca379f9784ca65c6a0deb14e71a65030fbca9addc8f5fc9483f82eec5360ef",
+    "v2_integration_oof.csv": "a3c375e3bd8926598ece14f218de505d120ccad2baba92ae4fa9093693de92fa"
+  },
+  "key_and_label_match": "PASS",
+  "cells": [
+    {
+      "validator": "A",
+      "part": "all",
+      "seed": 7,
+      "n": 6336,
+      "flagged": 1154,
+      "mean_e_direction": -0.0008545162054517108,
+      "mean_direction_sq": 0.012310661889481931,
+      "derivative_at_zero": -0.0017090324109034216,
+      "quadratic_oracle_w": 0.06941269390086964
+    },
+    {
+      "validator": "A",
+      "part": "late",
+      "seed": 7,
+      "n": 96,
+      "flagged": 0,
+      "mean_e_direction": 0.0,
+      "mean_direction_sq": 0.0,
+      "derivative_at_zero": 0.0,
+      "quadratic_oracle_w": null
+    },
+    {
+      "validator": "B",
+      "part": "all",
+      "seed": 7,
+      "n": 6312,
+      "flagged": 814,
+      "mean_e_direction": 5.3383983889035945e-05,
+      "mean_direction_sq": 0.007419479797281048,
+      "derivative_at_zero": 0.00010676796777807189,
+      "quadratic_oracle_w": -0.00719511142932138
+    },
+    {
+      "validator": "DIAG10",
+      "part": "all",
+      "seed": 7,
+      "n": 8640,
+      "flagged": 928,
+      "mean_e_direction": -0.000889755316681747,
+      "mean_direction_sq": 0.015161057747074328,
+      "derivative_at_zero": -0.001779510633363494,
+      "quadratic_oracle_w": 0.05868688923458824
+    },
+    {
+      "validator": "DIAG10",
+      "part": "late",
+      "seed": 7,
+      "n": 1104,
+      "flagged": 191,
+      "mean_e_direction": -0.01584899308997653,
+      "mean_direction_sq": 0.029802647968785158,
+      "derivative_at_zero": -0.03169798617995306,
+      "quadratic_oracle_w": 0.5317981511769198
+    },
+    {
+      "validator": "EXT10",
+      "part": "all",
+      "seed": 7,
+      "n": 1800,
+      "flagged": 88,
+      "mean_e_direction": 0.0006269838591423094,
+      "mean_direction_sq": 0.0020597746997913237,
+      "derivative_at_zero": 0.0012539677182846188,
+      "quadratic_oracle_w": -0.30439438799099205
+    },
+    {
+      "validator": "EXT10",
+      "part": "late",
+      "seed": 7,
+      "n": 264,
+      "flagged": 0,
+      "mean_e_direction": 0.0,
+      "mean_direction_sq": 0.0,
+      "derivative_at_zero": 0.0,
+      "quadratic_oracle_w": null
+    },
+    {
+      "validator": "EXT12",
+      "part": "all",
+      "seed": 7,
+      "n": 4632,
+      "flagged": 296,
+      "mean_e_direction": -0.004112474520090603,
+      "mean_direction_sq": 0.0019307942909017476,
+      "derivative_at_zero": -0.008224949040181206,
+      "quadratic_oracle_w": 2.1299392376854063
+    },
+    {
+      "validator": "EXT12",
+      "part": "late",
+      "seed": 7,
+      "n": 624,
+      "flagged": 0,
+      "mean_e_direction": 0.0,
+      "mean_direction_sq": 0.0,
+      "derivative_at_zero": 0.0,
+      "quadratic_oracle_w": null
+    },
+    {
+      "validator": "A",
+      "part": "all",
+      "seed": 101,
+      "n": 6336,
+      "flagged": 1137,
+      "mean_e_direction": -0.0013822172724641667,
+      "mean_direction_sq": 0.014254589202183905,
+      "derivative_at_zero": -0.0027644345449283334,
+      "quadratic_oracle_w": 0.09696647534763059
+    },
+    {
+      "validator": "A",
+      "part": "late",
+      "seed": 101,
+      "n": 96,
+      "flagged": 0,
+      "mean_e_direction": 0.0,
+      "mean_direction_sq": 0.0,
+      "derivative_at_zero": 0.0,
+      "quadratic_oracle_w": null
+    },
+    {
+      "validator": "B",
+      "part": "all",
+      "seed": 101,
+      "n": 6312,
+      "flagged": 806,
+      "mean_e_direction": -0.00023131563193890797,
+      "mean_direction_sq": 0.006968035177835095,
+      "derivative_at_zero": -0.00046263126387781594,
+      "quadratic_oracle_w": 0.0331966797002847
+    },
+    {
+      "validator": "DIAG10",
+      "part": "all",
+      "seed": 101,
+      "n": 8640,
+      "flagged": 950,
+      "mean_e_direction": 0.00013915577488522951,
+      "mean_direction_sq": 0.016422461691881992,
+      "derivative_at_zero": 0.00027831154977045903,
+      "quadratic_oracle_w": -0.00847350278515294
+    },
+    {
+      "validator": "DIAG10",
+      "part": "late",
+      "seed": 101,
+      "n": 1104,
+      "flagged": 220,
+      "mean_e_direction": -0.007197853835892841,
+      "mean_direction_sq": 0.049239630460352096,
+      "derivative_at_zero": -0.014395707671785682,
+      "quadratic_oracle_w": 0.14618009454170405
+    },
+    {
+      "validator": "EXT10",
+      "part": "all",
+      "seed": 101,
+      "n": 1800,
+      "flagged": 62,
+      "mean_e_direction": 0.0016062907892864587,
+      "mean_direction_sq": 0.001961104395736671,
+      "derivative_at_zero": 0.0032125815785729174,
+      "quadratic_oracle_w": -0.8190745953037704
+    },
+    {
+      "validator": "EXT10",
+      "part": "late",
+      "seed": 101,
+      "n": 264,
+      "flagged": 0,
+      "mean_e_direction": 0.0,
+      "mean_direction_sq": 0.0,
+      "derivative_at_zero": 0.0,
+      "quadratic_oracle_w": null
+    },
+    {
+      "validator": "EXT12",
+      "part": "all",
+      "seed": 101,
+      "n": 4632,
+      "flagged": 298,
+      "mean_e_direction": -0.0040696791898203084,
+      "mean_direction_sq": 0.0020728355833195935,
+      "derivative_at_zero": -0.008139358379640617,
+      "quadratic_oracle_w": 1.9633391198846657
+    },
+    {
+      "validator": "EXT12",
+      "part": "late",
+      "seed": 101,
+      "n": 624,
+      "flagged": 0,
+      "mean_e_direction": 0.0,
+      "mean_direction_sq": 0.0,
+      "derivative_at_zero": 0.0,
+      "quadratic_oracle_w": null
+    },
+    {
+      "validator": "A",
+      "part": "all",
+      "seed": 2024,
+      "n": 6336,
+      "flagged": 1126,
+      "mean_e_direction": -0.0012980105588938423,
+      "mean_direction_sq": 0.012514009592265308,
+      "derivative_at_zero": -0.0025960211177876846,
+      "quadratic_oracle_w": 0.1037245935704029
+    },
+    {
+      "validator": "A",
+      "part": "late",
+      "seed": 2024,
+      "n": 96,
+      "flagged": 0,
+      "mean_e_direction": 0.0,
+      "mean_direction_sq": 0.0,
+      "derivative_at_zero": 0.0,
+      "quadratic_oracle_w": null
+    },
+    {
+      "validator": "B",
+      "part": "all",
+      "seed": 2024,
+      "n": 6312,
+      "flagged": 798,
+      "mean_e_direction": -0.0005556096234471767,
+      "mean_direction_sq": 0.007085673562714577,
+      "derivative_at_zero": -0.0011112192468943534,
+      "quadratic_oracle_w": 0.07841309912593804
+    },
+    {
+      "validator": "DIAG10",
+      "part": "all",
+      "seed": 2024,
+      "n": 8640,
+      "flagged": 953,
+      "mean_e_direction": 7.724730500143485e-05,
+      "mean_direction_sq": 0.015920214777506374,
+      "derivative_at_zero": 0.0001544946100028697,
+      "quadratic_oracle_w": -0.004852152190219026
+    },
+    {
+      "validator": "DIAG10",
+      "part": "late",
+      "seed": 2024,
+      "n": 1104,
+      "flagged": 215,
+      "mean_e_direction": -0.00889236238584303,
+      "mean_direction_sq": 0.04558512283051193,
+      "derivative_at_zero": -0.01778472477168606,
+      "quadratic_oracle_w": 0.19507158988921314
+    },
+    {
+      "validator": "EXT10",
+      "part": "all",
+      "seed": 2024,
+      "n": 1800,
+      "flagged": 68,
+      "mean_e_direction": 0.0008221299426535318,
+      "mean_direction_sq": 0.0018707379532703042,
+      "derivative_at_zero": 0.0016442598853070637,
+      "quadratic_oracle_w": -0.439468254341201
+    },
+    {
+      "validator": "EXT10",
+      "part": "late",
+      "seed": 2024,
+      "n": 264,
+      "flagged": 0,
+      "mean_e_direction": 0.0,
+      "mean_direction_sq": 0.0,
+      "derivative_at_zero": 0.0,
+      "quadratic_oracle_w": null
+    },
+    {
+      "validator": "EXT12",
+      "part": "all",
+      "seed": 2024,
+      "n": 4632,
+      "flagged": 308,
+      "mean_e_direction": -0.0037451705773726834,
+      "mean_direction_sq": 0.0021229985188384007,
+      "derivative_at_zero": -0.007490341154745367,
+      "quadratic_oracle_w": 1.7640947669722609
+    },
+    {
+      "validator": "EXT12",
+      "part": "late",
+      "seed": 2024,
+      "n": 624,
+      "flagged": 0,
+      "mean_e_direction": 0.0,
+      "mean_direction_sq": 0.0,
+      "derivative_at_zero": 0.0,
+      "quadratic_oracle_w": null
+    }
+  ]
+}

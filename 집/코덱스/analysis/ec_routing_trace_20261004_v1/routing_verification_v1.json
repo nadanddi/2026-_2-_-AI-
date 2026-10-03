@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "seed": 7,
+  "validator": "DIAG10",
+  "fold": 5,
+  "n_train_rows": 6576,
+  "n_train_days": 274,
+  "n_valid_days": 28,
+  "checks": 604,
+  "weight_sum_maxdiff": 4.440892098500626e-15,
+  "prediction_reconstruction_maxdiff": 8.215650382226158e-15,
+  "cached_et_maxdiff": 2.220446049250313e-16,
+  "scope": "Single preselected known hard fold only; post-hoc source labels, no causal proof or candidate.",
+  "source_sha256": "c0a67c6d49d011831da7d4e36c45b00248cc191f6235558a0adbdfe611191ad9"
+}

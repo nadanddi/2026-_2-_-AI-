@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic arithmetic only, no fitting or real-data performance inference",
+  "examples": [
+    {
+      "name": "pure_leaves",
+      "ratios": [
+        1.0,
+        4.0
+      ],
+      "assignment": [
+        0,
+        1
+      ],
+      "original_exp_meanlog": 2.0,
+      "inverse_each_tree": 2.5,
+      "proposed_mean_leaf_ratio": 2.5,
+      "ratio_median": 2.5
+    },
+    {
+      "name": "duplicate_features",
+      "ratios": [
+        1.0,
+        4.0
+      ],
+      "assignment": [
+        0,
+        0
+      ],
+      "original_exp_meanlog": 2.0,
+      "inverse_each_tree": 2.0,
+      "proposed_mean_leaf_ratio": 2.5,
+      "ratio_median": 2.5
+    },
+    {
+      "name": "skew_not_median",
+      "ratios": [
+        1.0,
+        1.0,
+        4.0
+      ],
+      "assignment": [
+        0,
+        0,
+        0
+      ],
+      "original_exp_meanlog": 1.5874010519681994,
+      "inverse_each_tree": 1.5874010519681994,
+      "proposed_mean_leaf_ratio": 2.0,
+      "ratio_median": 1.0
+    }
+  ],
+  "proof_checks": [
+    "leaf sums vs scalar fsum",
+    "leaf Jensen",
+    "forest Jensen",
+    "duplicate-leaf counterexample",
+    "exp(mean log) not necessarily median"
+  ]
+}
