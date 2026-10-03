@@ -1,0 +1,49 @@
+label/input day means by pass x role (mean over days):
+             sub_ec  sub_temp   gap  in_temp  act_heating  act_vent  act_thermal
+pass role                                                                       
+1    first     0.42     15.19 -0.76    15.97        18.46     17.20        36.70
+     second    0.63     15.64 -0.59    16.26        11.01     13.98        40.08
+     single    0.50     14.78 -0.80    15.58        25.51     12.61        36.22
+2    first     0.47     11.60 -0.64    12.24        35.14     10.38        28.79
+     second    0.98     12.87 -0.10    12.97        22.83      3.51        32.01
+     single    0.51     16.01 -0.83    16.84        22.11     17.05        40.58
+n days: {(1, 'first'): 110, (1, 'second'): 110, (1, 'single'): 124, (2, 'first'): 7, (2, 'second'): 7, (2, 'single'): 42}
+
+pass-2 pair records (labelled):
+farm  day   role  sub_ec  sub_temp   gap  in_temp  act_heating  act_vent  tbias  ebias
+ F13  213  first    0.29     11.35 -0.65    12.00        40.54      7.96   0.03  -0.03
+ F13  214 second    0.92     11.42  0.03    11.38        40.92      0.00   0.04  -0.26
+ F13  216  first    0.37     10.76 -0.56    11.32        59.00     10.42  -0.13    NaN
+ F13  217 second    1.69     12.15  0.06    12.10        48.67      0.00  -0.47  -0.70
+ F13  231  first    0.62     11.51 -1.01    12.52         0.00      0.96   0.54   0.38
+ F13  232 second    0.74     12.47 -0.01    12.48        15.04      3.79  -0.25  -0.04
+ F47  190  first    0.16     16.45 -0.29    16.75         7.50     43.54  -0.31    NaN
+ F47  191 second    0.29     20.31  2.33    17.97         0.00     20.75  -3.22   0.16
+ F47  211  first    0.69     11.45 -0.07    11.52        39.04      2.62   0.03    NaN
+ F47  212 second    0.52     10.57 -0.37    10.95        13.79      0.00   0.25  -0.13
+ F47  215  first    0.71     10.99 -0.20    11.20        22.21      3.83  -0.30  -0.07
+ F47  216 second    0.56     10.84 -0.92    11.76        13.00      0.00   0.34   0.34
+ F47  230  first    0.46      8.70 -1.69    10.39        77.67      3.29   0.88  -0.03
+ F47  231 second    2.18     12.34 -1.84    14.18        28.42      0.00   0.56  -0.89
+
+TEST days pairs: farm  day   role
+ F13  203  first
+ F13  204 second
+ F13  220  first
+ F13  221 second
+ F13  222  first
+ F13  223 second
+ F13  235  first
+ F13  236 second
+ F13  237  first
+ F13  238 second
+ F47  185  first
+ F47  186 second
+ F47  220  first
+ F47  221 second
+ F47  222  first
+ F47  223 second
+ F47  224  first
+ F47  225 second
+ F47  226  first
+ F47  227 second
