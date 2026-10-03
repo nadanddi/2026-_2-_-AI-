@@ -1,0 +1,21 @@
+[이레] farm-days 1393 | day gap mean q05 -7.75 med -1.81 q95 0.58 | within-farm share 0.57 | lag1 0.77
+  Spearman(gap dev, irr dev) -0.16
+  Spearman(gap dev, drn dev) -0.29
+  Spearman(gap dev, wt dev) +0.48
+  Spearman(gap dev, ti dev) -0.84
+  Spearman(gap dev, tmin dev) -0.77
+  Spearman(gap dev, hi dev) -0.05
+  cross-farm R2 of day gap deviation: climate-only 0.372 | climate + irrigation/drain/weight 0.365 | gain -0.007
+
+(3) next-hour substrate change minus air change (C), irrigation hour vs not:
+           mean        count      
+irr_on    False  True  False True 
+hour                              
+(-1, 5]  -0.062 -0.073  6456  1990
+(5, 9]   -2.092 -2.261  2556  3083
+(9, 13]  -0.117  0.293   713  4942
+(13, 17]  1.812  1.857   626  5055
+(17, 23]  0.102  0.136  1908  6608
+  within farm x hour: mean rel on irrigation hours +0.009 vs others -0.016
+
+X4 usable chain: False
