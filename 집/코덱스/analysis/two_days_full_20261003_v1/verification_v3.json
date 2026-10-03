@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "raw_value_checks": 1296,
+  "summary_checks": 27,
+  "hourly_pairs": 648,
+  "html_panels": 27,
+  "html_hours_per_panel": 24,
+  "identical_input_columns": [
+    "out_temp",
+    "out_hum",
+    "out_rad",
+    "out_wspd",
+    "act_heating",
+    "act_co2"
+  ],
+  "different_input_columns": [
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_circfan",
+    "act_fog"
+  ],
+  "both_missing_input_columns": [
+    "in_rad",
+    "act_side",
+    "act_valve",
+    "act_cool",
+    "act_pump"
+  ],
+  "ec_public_availability": {
+    "F13_194": 0,
+    "F47_191": 24
+  },
+  "methods": [
+    "csv.DictReader raw inputs versus pandas extraction",
+    "published OOF labels/predictions",
+    "scalar equality/mean/difference versus vector comparison",
+    "HTMLParser table coverage"
+  ],
+  "hashes": {
+    "두날_전체원자료와예측_v1.csv": "c79c87ee68b3b39c54cde24f174bb844b58a1770343312144940741e7e31de91",
+    "시간별_항목별_대조_v1.csv": "8d33aa2a36267617b4adcfbff3736fc25dcef0e4cd18bbd91b357c09baeddc34",
+    "열별_동일여부_요약_v1.csv": "d10fd74bb5ed5f75b4b7af61ae470ac6a7f7aabc754b145fb3bd7ec52439ccb5",
+    "전체비교표_v1.html": "77cb3c19b12cfcdd76d55529085826cc18b37c26ef33a324af7ef3bdff52092d",
+    "전체비교표_v1.md": "2692105847c57ab55583bf71229a37d674d62fbbfcf3d0624b063a157c7d69c1",
+    "전체비교표_v2.html": "90abf0cb99dbfdbafab510b129f632ac23f79882a4c8998584ce56c0d851127f",
+    "전체비교표_v2.md": "ce7893c0ae8a6b6c8ceb90c818304d0c7c9d3651eeb6eaca1580b9d2783538cc",
+    "전체비교표_v3.html": "240fbee01bbeb7a31b181a20c67aab9c167d72f858416d57752f85a7453ab335"
+  }
+}
