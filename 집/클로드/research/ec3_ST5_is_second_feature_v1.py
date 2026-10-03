@@ -103,7 +103,7 @@ def main():
     print("  DIAG10 late R3S %.4f -> ST5 %.4f" % (np.mean([r((D["r3s_%d" % s] - D.sub_ec)[L]) for s in SEEDS]), np.mean([r((D["st5_%d" % s] - D.sub_ec)[L]) for s in SEEDS])))
     for nm, m in (("DIAG10 pass-2 seconds", (D.day >= 179) & (D.role == "second")), ("DIAG10 pass-1 seconds", (D.day < 179) & (D.role == "second")),
                   ("EL1 seconds", None)):
-        G = D[m] if m is not None else E.merge(roles, on=["farm", "day"])[lambda x: x.role == "second"]
+        G = D[m] if m is not None else E[E.role == "second"]
         if len(G):
             print("  %s (rows %d): R3S %.4f -> ST5 %.4f" % (nm, len(G), np.mean([r(G["r3s_%d" % s] - G.sub_ec) for s in SEEDS]), np.mean([r(G["st5_%d" % s] - G.sub_ec) for s in SEEDS])))
     print("  DIAG10 P(worse) by seed:", [round(p, 4) for p in ps])
