@@ -1,0 +1,12 @@
+high days 31
+  Spearman(err, p              ) +0.22
+  Spearman(err, seed_sd        ) +0.11
+  Spearman(err, p_early        ) +0.28
+  Spearman(err, p_late         ) +0.18
+  Spearman(err, share_hours_hi ) +0.24
+              n   true   pred  early_pred  late_pred  early_true  hours_hi  seed_sd
+grp                                                                                
+under >.5     7  2.010  1.189       1.136      1.287       1.858     0.792    0.008
+under .2-.5  11  1.483  1.151       1.108      1.240       1.386     0.606    0.009
+within .2    12  1.381  1.309       1.307      1.363       1.315     0.840    0.011
+over          1  1.076  1.276       1.279      1.326       0.956     1.000    0.006
