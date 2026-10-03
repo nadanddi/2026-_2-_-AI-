@@ -1,0 +1,32 @@
+share of rows flagged (farm pass parity)
+farm              F13                         F47                     
+pas                 0             1             0             1       
+par                 0      1      0      1      0      1      0      1
+stuck_in_temp   0.019  0.028  0.010  0.031  0.023  0.025  0.010  0.025
+lin_in_temp     0.016  0.024  0.000  0.021  0.016  0.017  0.010  0.019
+stuck_in_hum    0.165  0.167  0.205  0.206  0.161  0.171  0.049  0.094
+lin_in_hum      0.038  0.038  0.029  0.039  0.032  0.008  0.010  0.044
+stuck_in_co2    0.022  0.022  0.038  0.055  0.016  0.012  0.010  0.008
+lin_in_co2      0.016  0.024  0.013  0.018  0.025  0.027  0.000  0.008
+stuck_out_temp  0.015  0.015  0.000  0.018  0.013  0.014  0.000  0.008
+lin_out_temp    0.009  0.010  0.013  0.010  0.007  0.009  0.014  0.019
+stuck_out_hum   0.087  0.083  0.077  0.096  0.088  0.094  0.021  0.056
+lin_out_hum     0.024  0.030  0.019  0.023  0.026  0.026  0.021  0.033
+stuck_out_rad   0.434  0.422  0.468  0.419  0.429  0.431  0.431  0.408
+lin_out_rad     0.004  0.001  0.000  0.000  0.004  0.003  0.000  0.000
+
+Spearman (day flag share vs |resid|, vs label mean) where share >= 5%
+  F13 pass0 par0 stuck_in_hum     share 0.168 n  80  rho|e| +0.12  rho y +0.28
+  F13 pass0 par0 stuck_out_hum    share 0.086 n  80  rho|e| -0.06  rho y -0.25
+  F13 pass0 par0 stuck_out_rad    share 0.430 n  80  rho|e| +0.12  rho y +0.10
+  F13 pass0 par1 stuck_in_hum     share 0.166 n  76  rho|e| +0.07  rho y +0.14
+  F13 pass0 par1 stuck_out_hum    share 0.078 n  76  rho|e| -0.15  rho y -0.19
+  F13 pass0 par1 stuck_out_rad    share 0.422 n  76  rho|e| -0.13  rho y -0.07
+  F47 pass0 par0 stuck_in_hum     share 0.167 n  76  rho|e| +0.10  rho y +0.21
+  F47 pass0 par0 stuck_out_hum    share 0.092 n  76  rho|e| -0.13  rho y -0.13
+  F47 pass0 par0 stuck_out_rad    share 0.423 n  76  rho|e| -0.08  rho y -0.02
+  F47 pass0 par1 stuck_in_hum     share 0.170 n  82  rho|e| +0.11  rho y +0.08
+  F47 pass0 par1 stuck_out_hum    share 0.097 n  82  rho|e| -0.04  rho y -0.15
+  F47 pass0 par1 stuck_out_rad    share 0.430 n  82  rho|e| -0.04  rho y -0.12
+
+IF0 clues: none
