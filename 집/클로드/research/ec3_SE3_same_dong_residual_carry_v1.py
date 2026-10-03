@@ -141,9 +141,9 @@ def main():
             corr[np.asarray(idx)] = np.clip(BETA * (p * rB + (1 - p) * rA), -CLIP, CLIP)
     O["corr"] = corr
     for s in SEEDS:
-        O["se_%d" % s] = np.maximum(O["r3s_%d" % s] + O.corr, 0)
+        O["se_%d" % s] = np.maximum(O["r3s_%d" % s] + O["corr"], 0)
     O.to_csv(os.path.join(env.LOCAL, "ec3_SE3_all.csv"), index=False)
-    print("rows with nonzero correction %.2f, mean |corr| %.4f" % ((O.corr != 0).mean(), O.corr.abs().mean()))
+    print("rows with nonzero correction %.2f, mean |corr| %.4f" % ((O["corr"] != 0).mean(), O["corr"].abs().mean()))
     r = lambda e: float(np.sqrt(np.mean(np.square(e))))
     rng = np.random.default_rng(20261003)
     allb = True
