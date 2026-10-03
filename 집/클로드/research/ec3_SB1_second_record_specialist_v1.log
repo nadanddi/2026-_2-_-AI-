@@ -1,0 +1,113 @@
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+DIAG10/0 done (specialist days 76)
+   F13 anchors 14 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+DIAG10/1 done (specialist days 76)
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+DIAG10/2 done (specialist days 70)
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+DIAG10/3 done (specialist days 74)
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 9 of 16 pass-2 training days
+DIAG10/4 done (specialist days 70)
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+DIAG10/5 done (specialist days 74)
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 6 of 11 pass-2 training days
+DIAG10/6 done (specialist days 74)
+   F13 anchors 12 of 17 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+DIAG10/7 done (specialist days 77)
+   F13 anchors 14 of 17 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/8 done (specialist days 70)
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+DIAG10/9 done (specialist days 76)
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+A/0 done (specialist days 73)
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+A/1 done (specialist days 63)
+   F13 anchors 10 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+A/2 done (specialist days 68)
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 9 of 17 pass-2 training days
+A/3 done (specialist days 70)
+   F13 anchors 11 of 18 pass-2 training days
+   F47 anchors 7 of 16 pass-2 training days
+A/4 done (specialist days 72)
+   F13 anchors 15 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/0 done (specialist days 64)
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+B/1 done (specialist days 65)
+   F13 anchors 15 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+B/2 done (specialist days 70)
+   F13 anchors 11 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/3 done (specialist days 72)
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/4 done (specialist days 69)
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 9 pass-2 training days
+EXT10/0 done (specialist days 54)
+   F13 anchors 8 of 10 pass-2 training days
+   F47: <2 exact-twin anchors -> nearest-match fallback (DC3 rule)
+   F47 anchors 2 of 2 pass-2 training days
+EXT12/0 done (specialist days 26)
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/0 done (specialist days 85)
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/1 done (specialist days 85)
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/2 done (specialist days 84)
+   F13 anchors 14 of 15 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/3 done (specialist days 84)
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/4 done (specialist days 85)
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 13 pass-2 training days
+EL1/5 done (specialist days 85)
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+EL1/6 done (specialist days 85)
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 13 pass-2 training days
+EL1/7 done (specialist days 84)
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 10 pass-2 training days
+EL1/8 done (specialist days 84)
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+EL1/9 done (specialist days 85)
+rows flagged is2: 0.310; flagged rows that are true seconds 0.920
+
+pooled RMSE R3S -> R3S with second-record specialist (w .5 on flagged rows)
+  DIAG10 s7 0.1877->0.1892 (+0.8%)  s101 0.1885->0.1901 (+0.8%)  s2024 0.1885->0.1902 (+0.9%)
+  A      s7 0.2209->0.2264 (+2.5%)  s101 0.2228->0.2267 (+1.7%)  s2024 0.2223->0.2269 (+2.1%)
+  B      s7 0.2036->0.2117 (+4.0%)  s101 0.2035->0.2105 (+3.4%)  s2024 0.2034->0.2102 (+3.4%)
+  EXT10  s7 0.4084->0.3626 (-11.2%)  s101 0.4134->0.3650 (-11.7%)  s2024 0.4115->0.3634 (-11.7%)
+  EXT12  s7 0.4112->0.4185 (+1.8%)  s101 0.4095->0.4172 (+1.9%)  s2024 0.4068->0.4152 (+2.1%)
+  EL1    s7 0.3051->0.3056 (+0.2%)  s101 0.3103->0.3117 (+0.5%)  s2024 0.3087->0.3098 (+0.4%)
+  DIAG10 late R3S 0.2681 -> SB1 0.2674
+  DIAG10 pass-2 seconds (rows 168): R3S 0.4877 -> SB1 0.4859 | specialist alone 0.4908
+  DIAG10 pass-1 seconds (rows 2424): R3S 0.1573 -> SB1 0.1640 | specialist alone 0.1860
+  EL1 seconds (rows 168): R3S 0.5765 -> SB1 0.5801 | specialist alone 0.5873
+  DIAG10 P(worse) by seed: [0.8055, 0.8387, 0.8437]
+
+SB1 decision: FAIL (rule False, EL1 False)
