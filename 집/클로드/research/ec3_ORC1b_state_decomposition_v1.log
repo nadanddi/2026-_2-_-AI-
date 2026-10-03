@@ -1,0 +1,5 @@
+DIAG10 days 360, high (label day mean >= 1) 31
+AUC(pred day mean -> high) 0.989
+high days: mean label 1.549 pred 1.225 | normal: label 0.424 pred 0.444
+R3S RMSE 0.1881 | + known state (OOF shift) 0.1635 | perfect daily level 0.0753
+share of R3S SSE on high days 67.2%
