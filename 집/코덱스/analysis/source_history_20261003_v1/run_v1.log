@@ -1,0 +1,39 @@
+DIAG10 0 pair train days 136
+DIAG10 1 pair train days 134
+DIAG10 2 pair train days 124
+DIAG10 3 pair train days 128
+DIAG10 4 pair train days 120
+DIAG10 5 pair train days 132
+DIAG10 6 pair train days 134
+DIAG10 7 pair train days 130
+DIAG10 8 pair train days 122
+DIAG10 9 pair train days 132
+A 0 pair train days 130
+A 1 pair train days 112
+A 2 pair train days 116
+A 3 pair train days 124
+A 4 pair train days 128
+B 0 pair train days 112
+B 1 pair train days 110
+B 2 pair train days 124
+B 3 pair train days 132
+B 4 pair train days 122
+EXT10 0 pair train days 90
+EXT12 0 pair train days 42
+validator  seed    n  baseline  candidate  change_pct
+        A     7 6336  0.214685   0.214896    0.098221
+        A   101 6336  0.216246   0.216455    0.096565
+        A  2024 6336  0.215872   0.216058    0.086089
+        B     7 6312  0.200013   0.199871   -0.070726
+        B   101 6312  0.199782   0.199630   -0.076304
+        B  2024 6312  0.199705   0.199551   -0.077270
+   DIAG10     7 8640  0.181125   0.181248    0.067725
+   DIAG10   101 8640  0.181679   0.181812    0.072895
+   DIAG10  2024 8640  0.181728   0.181864    0.074869
+    EXT10     7 1800  0.396781   0.394509   -0.572449
+    EXT10   101 1800  0.400067   0.397710   -0.589039
+    EXT10  2024 1800  0.399158   0.396813   -0.587630
+    EXT12     7 4632  0.414170   0.414462    0.070607
+    EXT12   101 4632  0.412661   0.412944    0.068599
+    EXT12  2024 4632  0.410576   0.410877    0.073215
+DECISION False
