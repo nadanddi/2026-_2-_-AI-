@@ -1,0 +1,2 @@
+{"target": "TEMP", "validator": "actual_metadata", "fold": -1, "scope": "no_target_read", "n_rows": 1440, "n_days": 60, "no_past_rows": 0, "gap_median": 5.0, "gap_p90": 10.0, "max_missing_day_run": 10, "train_days": 400}
+{"target": "EC", "validator": "actual_metadata", "fold": -1, "scope": "public_labels_only", "n_rows": 1440, "n_days": 60, "no_past_rows": 0, "gap_median": 5.0, "gap_p90": 10.0, "max_missing_day_run": 10, "train_days": 360}

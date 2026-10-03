@@ -1,0 +1,47 @@
+T_DIAG10_0 CPU/inner split ready 224/90 days 56s
+T_DIAG10_1 CPU/inner split ready 220/90 days 78s
+T_DIAG10_2 CPU/inner split ready 220/90 days 101s
+T_DIAG10_3 CPU/inner split ready 222/90 days 123s
+T_DIAG10_4 CPU/inner split ready 222/90 days 145s
+T_DIAG10_5 CPU/inner split ready 220/90 days 168s
+T_DIAG10_6 CPU/inner split ready 220/90 days 190s
+T_DIAG10_7 CPU/inner split ready 222/90 days 212s
+T_DIAG10_8 CPU/inner split ready 224/90 days 234s
+T_DIAG10_9 CPU/inner split ready 224/90 days 256s
+T_EXT10_0 CPU/inner split ready 150/65 days 274s
+T_EXT12_0 CPU/inner split ready 79/35 days 284s
+E_DIAG10_0 CPU/inner split ready 172/70 days 329s
+E_DIAG10_1 CPU/inner split ready 179/71 days 369s
+E_DIAG10_2 CPU/inner split ready 168/70 days 411s
+E_DIAG10_3 CPU/inner split ready 174/72 days 456s
+E_DIAG10_4 CPU/inner split ready 164/69 days 500s
+E_DIAG10_5 CPU/inner split ready 178/70 days 542s
+E_DIAG10_6 CPU/inner split ready 169/70 days 593s
+E_DIAG10_7 CPU/inner split ready 178/70 days 635s
+E_DIAG10_8 CPU/inner split ready 167/69 days 677s
+E_DIAG10_9 CPU/inner split ready 167/70 days 714s
+E_A_0 CPU/inner split ready 164/66 days 751s
+E_A_1 CPU/inner split ready 162/65 days 797s
+E_A_2 CPU/inner split ready 163/66 days 830s
+E_A_3 CPU/inner split ready 164/66 days 865s
+E_A_4 CPU/inner split ready 164/68 days 909s
+E_B_0 CPU/inner split ready 160/67 days 942s
+E_B_1 CPU/inner split ready 160/65 days 979s
+E_B_2 CPU/inner split ready 162/70 days 1010s
+E_B_3 CPU/inner split ready 164/65 days 1051s
+E_B_4 CPU/inner split ready 166/70 days 1087s
+E_EXT10_0 CPU/inner split ready 125/50 days 1120s
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\statistical_experiments_20261003_v1\prepare.py", line 41, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\statistical_experiments_20261003_v1\prepare.py", line 25, in main
+    tr,va=lab[tm].copy(),lab[vm].copy();im,iv=inner(tr);a,b=seasonal(tr[im],tr[iv],wv);prefix=f'E_{name}_{k}';gp=OUT/f'{prefix}_input.npz';cp=OUT/f'{prefix}_cpu.npz'
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\statistical_experiments_20261003_v1\support.py", line 75, in seasonal
+    td=a[['farm','day']].drop_duplicates();qd=b[['farm','day']].drop_duplicates();keys=set(td.itertuples(index=False,name=None));sv={k:wv[k] for k in keys};s,q,_=mapping(td,qd,sv);qs=dict(zip(qd.itertuples(index=False,name=None),q));a=a.copy();b=b.copy();a['season']=[s[(f,int(d))] for f,d in zip(a.farm,a.day)];b['season']=[qs[(f,int(d))] for f,d in zip(b.farm,b.day)];return a,b
+                                                                                                                                                                  ^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_submission10_season_20261002_v1\season.py", line 48, in mapping
+    assert len(x)>0
+           ^^^^^^^^
+AssertionError

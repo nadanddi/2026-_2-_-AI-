@@ -1,0 +1,1223 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "submission_sha",
+      "passed": true
+    },
+    {
+      "name": "unique_zip_suffix:/submission_11.csv",
+      "passed": true
+    },
+    {
+      "name": "zip_submission_bytes",
+      "passed": true
+    },
+    {
+      "name": "unique_zip_suffix:/temp_candidate_v12.csv",
+      "passed": true
+    },
+    {
+      "name": "unique_zip_suffix:/EC/submission_10.csv",
+      "passed": true
+    },
+    {
+      "name": "unique_zip_suffix:/config/manifest_12.json",
+      "passed": true
+    },
+    {
+      "name": "unique_zip_suffix:/EC/manifest.json",
+      "passed": true
+    },
+    {
+      "name": "temp_component_hash",
+      "passed": true
+    },
+    {
+      "name": "ec_component_hash",
+      "passed": true
+    },
+    {
+      "name": "explanation_readme_copy",
+      "passed": true
+    },
+    {
+      "name": "submitted_rows_ids",
+      "passed": true
+    },
+    {
+      "name": "temperature_rows_ids",
+      "passed": true
+    },
+    {
+      "name": "EC_rows_ids",
+      "passed": true
+    },
+    {
+      "name": "finite_submission",
+      "passed": true
+    },
+    {
+      "name": "merge:sub_temp",
+      "passed": true,
+      "max_abs_diff": 0.0
+    },
+    {
+      "name": "merge:sub_ec",
+      "passed": true,
+      "max_abs_diff": 4.995677286290245e-07
+    },
+    {
+      "name": "TS1_unique_public_rows",
+      "passed": true
+    },
+    {
+      "name": "TS1_DIAG10_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_DIAG10_ts_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_DIAG10_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_DIAG10_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_DIAG10_ts_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_DIAG10_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_DIAG10_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_DIAG10_ts_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_DIAG10_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_A_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_A_ts_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_A_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_A_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_A_ts_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_A_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_A_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_A_ts_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_A_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_B_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_B_ts_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_B_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_B_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_B_ts_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_B_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_B_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_B_ts_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_B_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT10_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT10_ts_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT10_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT10_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT10_ts_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT10_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT10_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT10_ts_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT10_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT12_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT12_ts_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT12_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT12_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT12_ts_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT12_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT12_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT12_ts_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EXT12_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_EL1_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EL1_ts_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EL1_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_EL1_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EL1_ts_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EL1_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_EL1_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EL1_ts_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "TS1_EL1_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_unique_public_rows",
+      "passed": true
+    },
+    {
+      "name": "LG1_same_labels_baseline",
+      "passed": true
+    },
+    {
+      "name": "LG1_DIAG10_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_DIAG10_lg_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_DIAG10_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_DIAG10_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_DIAG10_lg_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_DIAG10_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_DIAG10_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_DIAG10_lg_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_DIAG10_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_A_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_A_lg_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_A_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_A_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_A_lg_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_A_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_A_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_A_lg_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_A_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_B_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_B_lg_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_B_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_B_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_B_lg_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_B_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_B_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_B_lg_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_B_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT10_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT10_lg_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT10_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT10_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT10_lg_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT10_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT10_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT10_lg_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT10_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT12_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT12_lg_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT12_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT12_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT12_lg_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT12_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT12_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT12_lg_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EXT12_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_EL1_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EL1_lg_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EL1_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_EL1_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EL1_lg_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EL1_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LG1_EL1_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EL1_lg_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LG1_EL1_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_unique_public_rows",
+      "passed": true
+    },
+    {
+      "name": "LR1_same_labels_baseline",
+      "passed": true
+    },
+    {
+      "name": "LR1_DIAG10_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_DIAG10_lr_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_DIAG10_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_DIAG10_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_DIAG10_lr_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_DIAG10_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_DIAG10_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_DIAG10_lr_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_DIAG10_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_A_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_A_lr_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_A_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_A_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_A_lr_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_A_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_A_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_A_lr_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_A_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_B_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_B_lr_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_B_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_B_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_B_lr_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_B_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_B_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_B_lr_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_B_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT10_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT10_lr_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT10_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT10_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT10_lr_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT10_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT10_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT10_lr_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT10_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT12_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT12_lr_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT12_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT12_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT12_lr_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT12_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT12_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT12_lr_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EXT12_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_EL1_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EL1_lr_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EL1_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_EL1_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EL1_lr_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EL1_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "LR1_EL1_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EL1_lr_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "LR1_EL1_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_unique_public_rows",
+      "passed": true
+    },
+    {
+      "name": "DI1_same_labels_baseline",
+      "passed": true
+    },
+    {
+      "name": "DI1_DIAG10_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_DIAG10_di_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_DIAG10_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_DIAG10_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_DIAG10_di_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_DIAG10_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_DIAG10_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_DIAG10_di_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_DIAG10_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_A_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_A_di_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_A_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_A_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_A_di_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_A_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_A_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_A_di_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_A_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_B_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_B_di_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_B_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_B_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_B_di_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_B_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_B_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_B_di_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_B_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT10_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT10_di_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT10_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT10_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT10_di_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT10_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT10_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT10_di_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT10_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT12_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT12_di_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT12_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT12_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT12_di_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT12_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT12_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT12_di_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EXT12_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_EL1_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EL1_di_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EL1_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_EL1_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EL1_di_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EL1_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "DI1_EL1_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EL1_di_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "DI1_EL1_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_unique_public_rows",
+      "passed": true
+    },
+    {
+      "name": "MW1_same_labels_baseline",
+      "passed": true
+    },
+    {
+      "name": "MW1_DIAG10_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_DIAG10_mw_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_DIAG10_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_DIAG10_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_DIAG10_mw_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_DIAG10_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_DIAG10_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_DIAG10_mw_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_DIAG10_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_A_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_A_mw_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_A_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_A_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_A_mw_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_A_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_A_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_A_mw_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_A_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_B_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_B_mw_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_B_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_B_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_B_mw_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_B_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_B_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_B_mw_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_B_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT10_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT10_mw_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT10_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT10_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT10_mw_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT10_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT10_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT10_mw_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT10_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT12_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT12_mw_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT12_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT12_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT12_mw_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT12_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT12_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT12_mw_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EXT12_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_EL1_r3s_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EL1_mw_7_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EL1_7_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_EL1_r3s_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EL1_mw_101_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EL1_101_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "MW1_EL1_r3s_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EL1_mw_2024_independent_rmse",
+      "passed": true
+    },
+    {
+      "name": "MW1_EL1_2024_log_rounding",
+      "passed": true
+    },
+    {
+      "name": "TS1_all_direction_rule_fails",
+      "passed": true
+    },
+    {
+      "name": "LG1_all_direction_rule_fails",
+      "passed": true
+    },
+    {
+      "name": "LR1_all_direction_rule_fails",
+      "passed": true
+    },
+    {
+      "name": "DI1_all_direction_rule_fails",
+      "passed": true
+    },
+    {
+      "name": "MW1_all_direction_rule_fails",
+      "passed": true
+    }
+  ],
+  "metric_cells": 90,
+  "saved_extra_files": 38,
+  "submission_sha256": "ab7ab734e5a3016a8f7679b9a96cca6597de493eff490134f0f6c72e6c98c17e",
+  "archive_sha256": "26e9e644910268859a65c7fbc55ed7ee98c848155ffbb5eca19f00e4f3aa2215",
+  "merge_max_diff": {
+    "sub_temp": 0.0,
+    "sub_ec": 4.995677286290245e-07
+  },
+  "temp_formula": "0.4*BASE + (0.2+0.4(1-g))*CODEX + 0.4g*TABPFN, g=clip((in_temp-8)/2,0,1)",
+  "EC_recipe": "season_v2_fixed",
+  "limitations": [
+    "No model retraining or full package reproduction",
+    "No reserved labels or lock files read",
+    "Stored public OOF only; bootstrap p-values compared to logs, not recomputed",
+    "Local literature notes reviewed; original papers not freshly verified"
+  ]
+}
