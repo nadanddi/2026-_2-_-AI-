@@ -1,0 +1,141 @@
+{
+  "coverage": [
+    {
+      "farm": "F13",
+      "late": false,
+      "scope": "all",
+      "n": 165,
+      "warm_n": 1,
+      "warm_days": [
+        109
+      ],
+      "max_gap": 3.119166666666667,
+      "median_gap": -0.7458333333333332
+    },
+    {
+      "farm": "F13",
+      "late": false,
+      "scope": "train",
+      "n": 144,
+      "warm_n": 1,
+      "warm_days": [
+        109
+      ],
+      "max_gap": 3.119166666666667,
+      "median_gap": -0.7491666666666668
+    },
+    {
+      "farm": "F13",
+      "late": false,
+      "scope": "heldout",
+      "n": 21,
+      "warm_n": 0,
+      "warm_days": [],
+      "max_gap": 0.42333333333333356,
+      "median_gap": -0.5083333333333334
+    },
+    {
+      "farm": "F13",
+      "late": true,
+      "scope": "all",
+      "n": 29,
+      "warm_n": 0,
+      "warm_days": [],
+      "max_gap": 0.05791666666666676,
+      "median_gap": -0.8237500000000001
+    },
+    {
+      "farm": "F13",
+      "late": true,
+      "scope": "train",
+      "n": 22,
+      "warm_n": 0,
+      "warm_days": [],
+      "max_gap": 0.05791666666666676,
+      "median_gap": -0.7210416666666668
+    },
+    {
+      "farm": "F13",
+      "late": true,
+      "scope": "heldout",
+      "n": 7,
+      "warm_n": 0,
+      "warm_days": [],
+      "max_gap": -0.6029166666666669,
+      "median_gap": -1.1116666666666668
+    },
+    {
+      "farm": "F47",
+      "late": false,
+      "scope": "all",
+      "n": 167,
+      "warm_n": 1,
+      "warm_days": [
+        178
+      ],
+      "max_gap": 2.5308333333333337,
+      "median_gap": -0.6395833333333331
+    },
+    {
+      "farm": "F47",
+      "late": false,
+      "scope": "train",
+      "n": 148,
+      "warm_n": 1,
+      "warm_days": [
+        178
+      ],
+      "max_gap": 2.5308333333333337,
+      "median_gap": -0.6595833333333332
+    },
+    {
+      "farm": "F47",
+      "late": false,
+      "scope": "heldout",
+      "n": 19,
+      "warm_n": 0,
+      "warm_days": [],
+      "max_gap": 0.7604166666666664,
+      "median_gap": -0.37291666666666656
+    },
+    {
+      "farm": "F47",
+      "late": true,
+      "scope": "all",
+      "n": 27,
+      "warm_n": 1,
+      "warm_days": [
+        191
+      ],
+      "max_gap": 2.3329166666666663,
+      "median_gap": -0.45541666666666664
+    },
+    {
+      "farm": "F47",
+      "late": true,
+      "scope": "train",
+      "n": 20,
+      "warm_n": 0,
+      "warm_days": [],
+      "max_gap": -0.028333333333333616,
+      "median_gap": -0.9493750000000001
+    },
+    {
+      "farm": "F47",
+      "late": true,
+      "scope": "heldout",
+      "n": 7,
+      "warm_n": 1,
+      "warm_days": [
+        191
+      ],
+      "max_gap": 2.3329166666666663,
+      "median_gap": 0.14458333333333365
+    }
+  ],
+  "pair_delta": {
+    "air": -3.179166666666667,
+    "truth": 1.1712500000000006,
+    "pred": -2.2054673164834213
+  }
+}

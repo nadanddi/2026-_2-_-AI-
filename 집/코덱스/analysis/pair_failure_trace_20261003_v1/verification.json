@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scalar_checks": 278,
+  "method": "raw CSV dictionaries/math.fsum; manual distance/ranking and outer train coverage",
+  "limitations": [
+    "Two selected days: no causal identification",
+    "Raw day aggregates diagnostic only; not causal prediction features",
+    "Same weather does not prove date/location identity",
+    "Oracle uses true labels and is not achievable validation score",
+    "No new training or EC labels/lock access"
+  ]
+}
