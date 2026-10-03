@@ -1,0 +1,16 @@
+
+[temp W40G]
+  F13 A   n  84 | lag1-3 rho 0.20 (n 83) | lag4-7 rho -0.05 (n 81) | lag8-14 rho -0.05 (n 77) | mean sign-run 2.33 vs shuffle 1.97
+  F13 B   n  87 | lag1-3 rho 0.12 (n 85) | lag4-7 rho -0.02 (n 85) | lag8-14 rho -0.05 (n 81) | mean sign-run 2.17 vs shuffle 1.99
+  F13 all n 171 | lag1-3 rho 0.10 (n 170) | lag4-7 rho -0.02 (n 166) | lag8-14 rho -0.04 (n 159) | mean sign-run 1.90 vs shuffle 2.00
+  F47 A   n  85 | lag1-3 rho 0.23 (n 83) | lag4-7 rho 0.13 (n 82) | lag8-14 rho 0.02 (n 80) | mean sign-run 2.12 vs shuffle 1.99
+  F47 B   n  88 | lag1-3 rho 0.26 (n 86) | lag4-7 rho -0.10 (n 86) | lag8-14 rho -0.10 (n 82) | mean sign-run 2.38 vs shuffle 1.99
+  F47 all n 173 | lag1-3 rho 0.21 (n 172) | lag4-7 rho 0.01 (n 169) | lag8-14 rho -0.05 (n 163) | mean sign-run 2.04 vs shuffle 1.99
+
+[EC R3S]
+  F13 A   n  75 | lag1-3 rho 0.33 (n 73) | lag4-7 rho 0.14 (n 72) | lag8-14 rho 0.08 (n 68) | mean sign-run 3.00 vs shuffle 1.98
+  F13 B   n  81 | lag1-3 rho 0.31 (n 79) | lag4-7 rho 0.08 (n 79) | lag8-14 rho -0.26 (n 76) | mean sign-run 2.70 vs shuffle 2.26
+  F13 all n 156 | lag1-3 rho 0.10 (n 155) | lag4-7 rho 0.08 (n 151) | lag8-14 rho -0.08 (n 145) | mean sign-run 2.23 vs shuffle 2.03
+  F47 A   n  75 | lag1-3 rho 0.40 (n 73) | lag4-7 rho 0.26 (n 72) | lag8-14 rho -0.28 (n 70) | mean sign-run 3.57 vs shuffle 2.21
+  F47 B   n  83 | lag1-3 rho 0.24 (n 80) | lag4-7 rho 0.02 (n 81) | lag8-14 rho 0.02 (n 78) | mean sign-run 2.59 vs shuffle 2.07
+  F47 all n 158 | lag1-3 rho -0.08 (n 157) | lag4-7 rho 0.02 (n 154) | lag8-14 rho -0.21 (n 149) | mean sign-run 1.98 vs shuffle 2.14
