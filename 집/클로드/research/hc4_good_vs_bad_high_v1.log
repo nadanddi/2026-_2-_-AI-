@@ -1,0 +1,36 @@
+
+[all above-mean high days] good 4 vs bad 11 | chance perfect split per feature-direction 1/1365, features 51
+       feature  auc  good_higher  perfect  good_med  bad_med      good_rng       bad_rng
+ out_rad_night 0.81        False    False      4.00     4.57     4.00~4.57     4.00~5.00
+  out_wspd_day 0.80        False    False      1.31     2.09     1.05~1.44     0.95~3.44
+        recday 0.77        False    False    140.00   154.00 136.00~153.00 132.00~243.00
+  in_co2_night 0.75         True    False    429.14   388.57 370.80~449.43 326.29~442.29
+    in_hum_day 0.73         True    False     64.69    60.50   60.62~70.88   51.00~73.88
+ out_temp_mean 0.70        False    False      1.23     3.85    -0.08~2.56   -3.24~10.07
+  out_temp_day 0.70        False    False      4.01     7.68     3.75~5.65   -0.75~14.11
+   in_co2_mean 0.70         True    False    437.79   392.50 359.62~447.46 315.83~446.92
+ in_temp_range 0.70         True    False     14.15    12.70   10.70~15.40    8.80~15.50
+out_wspd_night 0.68        False    False      0.81     1.13     0.66~1.43     0.59~5.71
+   out_rad_day 0.68        False    False    258.44   300.38 171.00~318.50 124.25~377.50
+          late 0.68        False    False      0.00     0.00     0.00~0.00     0.00~1.00
+   out_hum_day 0.68         True    False     52.12    48.12   42.12~65.12   34.25~66.25
+    in_co2_day 0.68         True    False    447.62   422.38 369.50~468.50 300.25~462.00
+   act_co2_day 0.68        False    False      3.00     3.38     3.00~3.12    0.00~50.00
+
+[pass 1 only] good 4 vs bad 7 | chance perfect split per feature-direction 1/330, features 50
+       feature  auc  good_higher  perfect  good_med  bad_med      good_rng       bad_rng
+  in_co2_night 0.75         True    False    429.14   379.29 370.80~449.43 331.57~442.29
+ out_temp_mean 0.71        False    False      1.23     4.45    -0.08~2.56    -3.24~6.78
+  in_temp_mean 0.71        False    False     14.52    16.23   13.89~14.58   12.07~18.98
+ out_rad_night 0.71        False    False      4.00     4.43     4.00~4.57     4.00~5.00
+  out_temp_day 0.71        False    False      4.01     8.09     3.75~5.65   -0.75~12.29
+ in_temp_range 0.71         True    False     14.15    12.60   10.70~15.40    8.80~15.50
+out_wspd_night 0.68        False    False      0.81     0.94     0.66~1.43     0.73~5.71
+  out_wspd_day 0.68        False    False      1.31     1.41     1.05~1.44     0.95~2.67
+   out_rad_day 0.68        False    False    258.44   300.38 171.00~318.50 124.25~377.50
+  out_rad_mean 0.68        False    False     91.73   106.33  60.75~112.46  45.46~133.67
+    in_co2_day 0.68         True    False    447.62   422.62 369.50~468.50 300.25~462.00
+   act_co2_day 0.68        False    False      3.00     3.38     3.00~3.12    0.00~26.38
+  out_hum_mean 0.68        False    False     61.73    64.29   56.92~64.25   51.50~69.96
+   in_co2_mean 0.68         True    False    437.79   393.88 359.62~447.46 315.83~446.92
+ act_vent_zero 0.68         True    False      0.98     0.88     0.92~1.00     0.58~1.00
