@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "replay_maxdiff": 0.0,
+  "columns": 42,
+  "checks": [
+    {
+      "farm": "F13",
+      "hour": 0,
+      "rows": 20,
+      "future_and_other_farm_weather_invariance": "PASS"
+    },
+    {
+      "farm": "F13",
+      "hour": 6,
+      "rows": 140,
+      "future_and_other_farm_weather_invariance": "PASS"
+    },
+    {
+      "farm": "F13",
+      "hour": 12,
+      "rows": 260,
+      "future_and_other_farm_weather_invariance": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 0,
+      "rows": 18,
+      "future_and_other_farm_weather_invariance": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 6,
+      "rows": 126,
+      "future_and_other_farm_weather_invariance": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 12,
+      "rows": 234,
+      "future_and_other_farm_weather_invariance": "PASS"
+    }
+  ],
+  "first8_batch_invariance": "PASS",
+  "scope": "first fold seed7 inference audit; current-row W4 only; training transform fixed; no test values or targets read"
+}

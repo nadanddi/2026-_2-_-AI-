@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "maxdiff": 0.0,
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "full_vs_first8_maxdiff": [
+    1.5795230865478516e-05,
+    1.5795230865478516e-05
+  ],
+  "embedding_shapes": [
+    [
+      54,
+      192
+    ],
+    [
+      54,
+      192
+    ],
+    [
+      19,
+      192
+    ],
+    [
+      19,
+      192
+    ],
+    [
+      54,
+      192
+    ],
+    [
+      54,
+      192
+    ],
+    [
+      19,
+      192
+    ],
+    [
+      19,
+      192
+    ],
+    [
+      54,
+      192
+    ],
+    [
+      54,
+      192
+    ],
+    [
+      19,
+      192
+    ],
+    [
+      19,
+      192
+    ],
+    [
+      54,
+      192
+    ],
+    [
+      54,
+      192
+    ],
+    [
+      19,
+      192
+    ],
+    [
+      19,
+      192
+    ]
+  ],
+  "adapter": "CPU-seeded column embeddings + highest FP32; installed package files unchanged",
+  "warning": "CPU numerical equivalence not established until CPU checkpoint finishes"
+}

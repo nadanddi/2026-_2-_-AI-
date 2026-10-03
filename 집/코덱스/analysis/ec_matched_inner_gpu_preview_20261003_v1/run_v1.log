@@ -1,0 +1,18 @@
+DIAG10 0 canonical CPU cache reused
+DIAG10 0 GPU bundle reused 1
+DIAG10 0 GPU bundle reused 2
+DIAG10 0 GPU bundle reused 3
+DIAG10 0 GPU bundle reused 4
+DIAG10 0 FOLD COMPLETE
+DIAG10 1 canonical CPU cache reused
+Traceback (most recent call last):
+  File "C:\work\farmai\집\코덱스\analysis\ec_matched_inner_gpu_preview_20261003_v1\run.py", line 93, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_matched_inner_gpu_preview_20261003_v1\run.py", line 77, in main
+    pred=fit();assert np.isfinite(pred).all()
+         ^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_matched_inner_gpu_preview_20261003_v1\run.py", line 76, in fit
+    assert np.array_equal(pred[:8],small);return pred
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,5 +1,7 @@
 # HANDOFF — 지금 상태 (세션마다 갱신)
 
+> **2026-10-03 집 코덱스 최신 갱신:** 미검토 SB1/VW1/NB0·Git49a1015까지 반영. SB1 공개15비교 83,190검산 기각 유지. 현재외기4 ET(c356ff2) 66학습 완료·86,702검산·6/15개선 기각, 인과6대조 PASS. CPU 정식 tool60252 진행(앞3폴드 완료), GPU 보조19414는 배치불변 검사 실패로 종료(전체/첫8 차이1.5795e-5)하여 아래 진행 중 표기 정정. 실제 W40G·EC계절v2 유지, 새채택/잠금/EL1/test예측/제출0·목표active. 상세 집/코덱스/analysis/ec_running_review_20261003_v1/추가작업_갱신과_외기실험결과_v1.md.
+
 > **2026-10-03 집 코덱스 입력가용성 정정:** 이전query외기가려짐설명오류·철회. 실제MASK외기4각1440/1440존재. ST5현재이전weatherprefix 허용·공개15점수독립재계산기각유지. 현재외기4 ET추가사전c356ff2/tool24514 진행, CPU정식60252/GPU보조19414 유지·family12. 실제W40G·EC계절v2/목표active,새채택없음. 가용성오류와global분류기/非nested독립성은구분. 정정문서 집/코덱스/analysis/ec_running_review_20261003_v1/외기_가용성_정정과_ST5검토_v1.md.
 
 > **2026-10-03 집 코덱스 최신:** median748a721완료기각(2/15개선,86702+1825검산). CPU내부정합0bf4f13/tool60252 진행·첫fold완료. GPU장치난수임베딩을CPU방식으로맞추면첫fold최종보정차3.04e-7, raw1e-5동등성은여전히미통과. GPU보조14a740f 새실행 local/ec_matched_inner_gpu_preview_20261003_v1, CPU실험유지·family11·CPU전체/후속기준전채택금지. 실제W40G·EC계절v2/목표active 유지,원시EC/잠금/EL1/test/제출0. 보고서 집/코덱스/analysis/ec_running_review_20261003_v1/진행과_검산보고서_v1.md.
