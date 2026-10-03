@@ -1,0 +1,140 @@
+{
+  "status": "WAIT_FOR_COMPLETE_INNER",
+  "missing": [
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\B_4_cpu.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\EXT10_0_cpu.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\EXT12_0_cpu.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\B_3_pfn_1.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\B_3_pfn_2.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\B_3_pfn_3.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\B_3_pfn_4.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\B_4_pfn_1.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\B_4_pfn_2.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\B_4_pfn_3.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\B_4_pfn_4.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\EXT10_0_pfn_1.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\EXT10_0_pfn_2.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\EXT10_0_pfn_3.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\EXT10_0_pfn_4.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\EXT12_0_pfn_1.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\EXT12_0_pfn_2.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\EXT12_0_pfn_3.npz",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\EXT12_0_pfn_4.npz",
+    "집\\코덱스\\analysis\\ec_matched_inner_calibration_20261003_v1\\fit_audit_v1.json",
+    "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\oof.csv"
+  ],
+  "required_cpu": 22,
+  "required_pfn": 88,
+  "source_sha256": "0ceb89e38692f76466000a4b3a83e056c99a04df10c519ddba59e70a55c2bbaf",
+  "matched_source_sha256": "b1041713e093ca9b8f17437e05b194f284a7e44e8a681a06ce033bc6fc8a7e40",
+  "ready_fold_id_audit": [
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "n_inner_train": 4128,
+      "n_inner_query": 1680
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "n_inner_train": 4296,
+      "n_inner_query": 1704
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "n_inner_train": 4032,
+      "n_inner_query": 1680
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "n_inner_train": 4176,
+      "n_inner_query": 1728
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "n_inner_train": 3936,
+      "n_inner_query": 1656
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "n_inner_train": 4272,
+      "n_inner_query": 1680
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "n_inner_train": 4056,
+      "n_inner_query": 1680
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "n_inner_train": 4272,
+      "n_inner_query": 1680
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "n_inner_train": 4008,
+      "n_inner_query": 1656
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "n_inner_train": 4008,
+      "n_inner_query": 1680
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "n_inner_train": 3936,
+      "n_inner_query": 1584
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "n_inner_train": 3888,
+      "n_inner_query": 1560
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "n_inner_train": 3912,
+      "n_inner_query": 1584
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "n_inner_train": 3936,
+      "n_inner_query": 1584
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "n_inner_train": 3936,
+      "n_inner_query": 1632
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "n_inner_train": 3840,
+      "n_inner_query": 1608
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "n_inner_train": 3840,
+      "n_inner_query": 1560
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "n_inner_train": 3888,
+      "n_inner_query": 1680
+    }
+  ]
+}
