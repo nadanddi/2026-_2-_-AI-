@@ -1,5 +1,7 @@
 # HANDOFF — 지금 상태 (세션마다 갱신)
 
+> **2026-10-03 집 코덱스 최신 갱신:** SE3 완료 공개15비교 재계산 기각 유지. POWER2_PARTITION_ET/FARM_ET/NESTED_CONVEX20/GB_CONST20/GB_LINEAR20 완료 모두기각·각86702검산PASS. 아래 이전 실행중 표기는 과거 상태. 현재 기록 구간 표지 ET 실험 de05a3f/tool71972 진행 중, local/ec_record_phase_20261003_v1 체크포인트 확인. 기존 W40G·EC계절v2 유지, 목표active. 상세 analysis/ec_active_goal_20261003_v1/최신_검토와_완료실험_v1.md.
+
 > **2026-10-03 집·코덱스 지속목표 진행:** EC 유의미 개선까지 목표active. 제곱목표 POWER2_ET(c83ac91) 완료기각:DIAG+.723~+1.839%,고EC개선이나일반일악화,83193검산PASS. 후속 POWER2_PARTITION_ET(0f2e6d8) 각트리원단위복원평균 실행중(tool session43265);local/ec_power_partition_20261003_v1 체크포인트 확인 후 재개,살아있으면재시작금지. 새제출/잠금/EL1없음. 최신보고서 집/코덱스/analysis/ec_power_target_20261003_v1/결과와_후속진행_v2.md. ClaudeSE3는EXT12로그완료·최종판정미검토.
 
 > **最新 2026-10-03 집·코덱스:** 미검토 구조/주기/계절/잔차 작업6.207~6.211 검토, ST8공개15점수재계산기각유지·query외기/분류기fit/非nested감사. 사전431826b MASK안전 SOFT_RESID10 계열확률×과거nested잔차 단일비교 기각(DIAG+.068~+.075%,p .763~.796). 96+2742검산PASS. 실제W40G·EC계절v2유지,새제출/잠금/EL1채점없음. 코덱스프로세스종료,상대Claude SE3(46e7c92)는진행중확인·완료결과미검토. 상세 집/코덱스/analysis/source_history_20261003_v1/검토와_실험보고서_v2.md. 次:SE3완료결과의가용입력감사·fold가용과거잔차/후반전이분해.

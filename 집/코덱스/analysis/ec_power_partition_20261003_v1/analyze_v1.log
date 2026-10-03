@@ -1,0 +1,185 @@
+validator  seed    n  baseline  candidate  change_pct
+        A     7 6336  0.214685   0.215368    0.317969
+        A   101 6336  0.216246   0.216486    0.111140
+        A  2024 6336  0.215872   0.215751   -0.055983
+        B     7 6312  0.200013   0.200190    0.088468
+        B   101 6312  0.199782   0.201282    0.751026
+        B  2024 6312  0.199705   0.199599   -0.052942
+   DIAG10     7 8640  0.181125   0.181591    0.257299
+   DIAG10   101 8640  0.181679   0.180225   -0.800291
+   DIAG10  2024 8640  0.181728   0.179845   -1.036036
+    EXT10     7 1800  0.396781   0.392923   -0.972133
+    EXT10   101 1800  0.400067   0.392569   -1.874313
+    EXT10  2024 1800  0.399158   0.393198   -1.493247
+    EXT12     7 4632  0.414170   0.411855   -0.558786
+    EXT12   101 4632  0.412661   0.411732   -0.225061
+    EXT12  2024 4632  0.410576   0.408382   -0.534305
+{
+  "status": "PASS",
+  "decision": "REJECT",
+  "public_pass": false,
+  "family": 4,
+  "alpha": 0.00625,
+  "bootstrap": {
+    "7": {
+      "p_worse": 0.72685,
+      "ci": [
+        -0.0005434032036082943,
+        0.0008842666831246306
+      ]
+    },
+    "101": {
+      "p_worse": 0.0996,
+      "ci": [
+        -0.0017817615722081214,
+        0.0003857157087716929
+      ]
+    },
+    "2024": {
+      "p_worse": 0.1009,
+      "ci": [
+        -0.0022411933991253953,
+        0.0005407904165827611
+      ]
+    }
+  },
+  "checks": 86702,
+  "rows": 83160,
+  "scalar_clipped_maxdiff": 2.220446049250313e-16,
+  "split_audit": [
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "train_days": 262,
+      "valid_days": 38
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "train_days": 273,
+      "valid_days": 30
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "train_days": 259,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "train_days": 267,
+      "valid_days": 33
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "train_days": 255,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "train_days": 274,
+      "valid_days": 28
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "train_days": 262,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "train_days": 274,
+      "valid_days": 31
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "train_days": 258,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "train_days": 258,
+      "valid_days": 40
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "train_days": 253,
+      "valid_days": 53
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "train_days": 247,
+      "valid_days": 55
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "train_days": 250,
+      "valid_days": 53
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "train_days": 251,
+      "valid_days": 52
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "train_days": 254,
+      "valid_days": 51
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "train_days": 248,
+      "valid_days": 53
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "train_days": 246,
+      "valid_days": 55
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "train_days": 255,
+      "valid_days": 51
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "train_days": 249,
+      "valid_days": 54
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "train_days": 255,
+      "valid_days": 50
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "train_days": 191,
+      "valid_days": 75
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "train_days": 100,
+      "valid_days": 193
+    }
+  ],
+  "source_sha256": "f967bcc1f75c1b119b456b5951b7f7917aed2453ba1359bafc23b1f18f1050aa",
+  "analyzer_sha256": "44996cdc31cbdcab30fe5cf069aaf22a81c3a49376a5519e701ba29fc0d22c03"
+}

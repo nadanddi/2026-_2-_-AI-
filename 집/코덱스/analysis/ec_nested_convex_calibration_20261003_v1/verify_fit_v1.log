@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\집\코덱스\analysis\ec_nested_convex_calibration_20261003_v1\verify_fit.py", line 27, in <module>
+    xp=q.loc[(row.farm,row.day)];pred=.2*max(-.3,min(.3,float(R.basis(np.array([xp]))@beta)));assert abs(pred-row.correction)<1e-12;checks+=1
+                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: only 0-dimensional arrays can be converted to Python scalars

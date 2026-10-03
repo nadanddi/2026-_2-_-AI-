@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": 30,
+  "public_rows": 27720,
+  "limitations": [
+    "Source structure uses current validation weather to override pB and all train_X to fit classifier",
+    "R3S baseline differs from current season_v2",
+    "No EL1 or final lock re-score"
+  ]
+}
