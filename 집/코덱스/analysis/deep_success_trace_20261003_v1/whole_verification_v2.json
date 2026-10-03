@@ -1,0 +1,15 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_TEMP_PFN_NUMERICAL_APPROXIMATION",
+  "checks": 4048,
+  "contexts": 40,
+  "temp_small_batch_maxdiff": 0.000179290771484375,
+  "ec_cpu_replay_maxdiff": 0.0,
+  "first_exact_temp_full_batch_replay": 0.0,
+  "first_temp_response_batch_difference": 0.000118255615234375,
+  "notes": [
+    "Full mixture assembled with source formula and matching donor; manual fsum arithmetic",
+    "Temperature PFN small-batch sensitivity approximate; context/donor counts do not constitute independent samples",
+    "EC GPU supplementary failed and excluded; native CPU outputs match exactly",
+    "No adopted model, reserved EC access or test predictions"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "APPROXIMATE_PASS",
+  "contexts": 40,
+  "native_original_whole_batch_difference": 0.0,
+  "first_context_full_vs_small_response_max_difference": 0.000118255615234375,
+  "maximum_small_batch_original_difference": 0.000179290771484375,
+  "whole_baseline_replay_maxdiff": 1.4210854715202004e-14,
+  "effect_rows": 128,
+  "precision_note": "Native whole batch replays exactly; small batches have documented float32 variation. PFN sensitivities approximate, not adopted model scores."
+}

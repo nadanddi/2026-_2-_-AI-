@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scalar_and_split_checks": 3706,
+  "independent_source_refits": [
+    {
+      "target": "TEMP",
+      "fold": 2,
+      "source_refit_max_difference": 0.0
+    },
+    {
+      "target": "EC",
+      "fold": 3,
+      "source_refit_max_difference": 0.0
+    }
+  ],
+  "replay": {
+    "status": "PASS",
+    "fits": 18,
+    "max_difference": 2.4868995751603507e-14,
+    "effects": 1040,
+    "baseline_rows": 22,
+    "invalid_ec_v2": "Column order used replace(day) vs original remove(day)+append(season); excluded, correct ec_v3 reproduces source"
+  },
+  "limits": [
+    "Selected posthoc cases, no causal identification",
+    "CPU replacement: correlated derived groups can form hybrid states",
+    "Donors picked without labels; donors change different amounts across groups",
+    "PFN supplement requires separate native validation",
+    "All success cases close to severity threshold; temperature n4/EC n2",
+    "No new model adoption or reserved EC read"
+  ]
+}
