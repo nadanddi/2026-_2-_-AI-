@@ -1,0 +1,13 @@
+{
+  "status": "VERIFIED_NUMERIC_COMPARISON",
+  "rows": 1680,
+  "maxdiff": 3.3289194107055664e-05,
+  "rmsdiff": 1.1413028571761441e-05,
+  "threshold": 1e-05,
+  "equivalence_first_context_only": false,
+  "limitations": [
+    "first fold/context only, not all GPU outputs certified",
+    "candidate gain requires full public + future confirmation",
+    "CPU baseline retained"
+  ]
+}

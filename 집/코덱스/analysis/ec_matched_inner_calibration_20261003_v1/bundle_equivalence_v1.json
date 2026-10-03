@@ -1,0 +1,34 @@
+{
+  "status": "COMPUTATION_MATCH",
+  "raw_PFN_bag_maxdiff": 3.0256807804107666e-05,
+  "results": [
+    {
+      "seed": 7,
+      "rows": 912,
+      "inner_baseline_maxdiff": 4.698336124431268e-06,
+      "candidate_maxdiff": 3.0394258818122744e-07,
+      "candidate_rmsdiff": 2.8665241560835454e-07
+    },
+    {
+      "seed": 101,
+      "rows": 912,
+      "inner_baseline_maxdiff": 4.698336124431268e-06,
+      "candidate_maxdiff": 3.0346074156306635e-07,
+      "candidate_rmsdiff": 2.869241589176694e-07
+    },
+    {
+      "seed": 2024,
+      "rows": 912,
+      "inner_baseline_maxdiff": 4.698336124375757e-06,
+      "candidate_maxdiff": 3.030215583454954e-07,
+      "candidate_rmsdiff": 2.862573332090551e-07
+    }
+  ],
+  "all_under_1e_5": true,
+  "limitations": [
+    "first fold only",
+    "individual raw PFN equivalence earlier failed",
+    "no model performance judgment or CPU replacement",
+    "full CPU experiment still running"
+  ]
+}

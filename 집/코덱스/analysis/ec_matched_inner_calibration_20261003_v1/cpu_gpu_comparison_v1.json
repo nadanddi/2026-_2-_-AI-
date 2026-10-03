@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "rows": 1680,
+  "maxdiff": 0.07267510890960693,
+  "rmsdiff": 0.009165342191812599,
+  "threshold": 1e-05,
+  "equivalence_first_context_only": false,
+  "limitations": [
+    "first fold/context only, not all GPU outputs certified",
+    "candidate gain requires full public + future confirmation",
+    "CPU baseline retained"
+  ]
+}

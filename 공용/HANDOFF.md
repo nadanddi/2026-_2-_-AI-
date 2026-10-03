@@ -1,5 +1,9 @@
 # HANDOFF — 지금 상태 (세션마다 갱신)
 
+> **2026-10-03 집 코덱스 입력가용성 정정:** 이전query외기가려짐설명오류·철회. 실제MASK외기4각1440/1440존재. ST5현재이전weatherprefix 허용·공개15점수독립재계산기각유지. 현재외기4 ET추가사전c356ff2/tool24514 진행, CPU정식60252/GPU보조19414 유지·family12. 실제W40G·EC계절v2/목표active,새채택없음. 가용성오류와global분류기/非nested독립성은구분. 정정문서 집/코덱스/analysis/ec_running_review_20261003_v1/외기_가용성_정정과_ST5검토_v1.md.
+
+> **2026-10-03 집 코덱스 최신:** median748a721완료기각(2/15개선,86702+1825검산). CPU내부정합0bf4f13/tool60252 진행·첫fold완료. GPU장치난수임베딩을CPU방식으로맞추면첫fold최종보정차3.04e-7, raw1e-5동등성은여전히미통과. GPU보조14a740f 새실행 local/ec_matched_inner_gpu_preview_20261003_v1, CPU실험유지·family11·CPU전체/후속기준전채택금지. 실제W40G·EC계절v2/목표active 유지,원시EC/잠금/EL1/test/제출0. 보고서 집/코덱스/analysis/ec_running_review_20261003_v1/진행과_검산보고서_v1.md.
+
 > **2026-10-03 집 코덱스 최신 지속목표:** 기록 구간 ET 완료기각(8/15개선,86702검산PASS). 내부보정표본 방향반전 및season열순서/GPU 대현재레시피 불일치 확인. 동일보정 정합성수정 사전0bf4f13/tool60252 진행 중,local/ec_matched_inner_calibration_20261003_v1. 기존W40G·EC계절v2유지·목표active,새채택/잠금/EL1/test/제출0. 상세 집/코덱스/analysis/ec_calibration_shift_20261003_v1/진단과_후속진행_v1.md. 아래tool71972는완료된과거상태.
 
 > **2026-10-03 집 코덱스 최신 갱신:** SE3 완료 공개15비교 재계산 기각 유지. POWER2_PARTITION_ET/FARM_ET/NESTED_CONVEX20/GB_CONST20/GB_LINEAR20 완료 모두기각·각86702검산PASS. 아래 이전 실행중 표기는 과거 상태. 현재 기록 구간 표지 ET 실험 de05a3f/tool71972 진행 중, local/ec_record_phase_20261003_v1 체크포인트 확인. 기존 W40G·EC계절v2 유지, 목표active. 상세 analysis/ec_active_goal_20261003_v1/최신_검토와_완료실험_v1.md.

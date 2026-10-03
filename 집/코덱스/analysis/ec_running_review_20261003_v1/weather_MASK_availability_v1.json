@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "rows": 1440,
+  "nonmissing": {
+    "out_temp": 1440,
+    "out_hum": 1440,
+    "out_rad": 1440,
+    "out_wspd": 1440
+  },
+  "allowed_if_all_present": true,
+  "scope": "MASK missingness only; no values, distributions, frequencies, or parameters used for model fit; no targets read"
+}
