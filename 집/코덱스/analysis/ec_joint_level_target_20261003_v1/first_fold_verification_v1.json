@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "repeat_maxdiff": 0.0,
+  "batch_maxdiff": 0.0,
+  "original_et_maxdiff": 2.220446049250313e-16,
+  "target_mean_checks": 262,
+  "tree_mean_maxdiff": 0.0,
+  "causal": [
+    {
+      "farm": "F13",
+      "hour": 0,
+      "rows": 20,
+      "status": "PASS"
+    },
+    {
+      "farm": "F13",
+      "hour": 6,
+      "rows": 140,
+      "status": "PASS"
+    },
+    {
+      "farm": "F13",
+      "hour": 12,
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 0,
+      "rows": 18,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 6,
+      "rows": 126,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 12,
+      "rows": 234,
+      "status": "PASS"
+    }
+  ]
+}

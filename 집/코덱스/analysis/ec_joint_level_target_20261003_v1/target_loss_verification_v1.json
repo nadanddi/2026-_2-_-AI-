@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "checks": 132,
+  "folds": 22,
+  "scope": "root variance identity on complete training days; not a performance check",
+  "threat": "After a tree split selects only part of a day, within-day covariance may be nonzero; identity does not generally hold for every node",
+  "median_day_fraction": 0.9467127379795829,
+  "median_joint_day_fraction": 0.9726268362940604
+}

@@ -1,0 +1,20 @@
+ seed           scope    prediction    n  high_days      auc  segment  sse_change  candidate_bias
+    7      hour0_rank      baseline  360         31 0.983332      NaN         NaN             NaN
+    7      hour0_rank     candidate  360         31 0.975292      NaN         NaN             NaN
+    7      hour0_rank old_et_shrunk  360         31 0.978920      NaN         NaN             NaN
+    7      hour0_rank    new_et_raw  360         31 0.948524      NaN         NaN             NaN
+    7 all_hours_error           NaN  744         31      NaN     high   30.232505       -0.358121
+    7 all_hours_error           NaN 7896         31      NaN ordinary   -4.495060        0.026586
+  101      hour0_rank      baseline  360         31 0.985097      NaN         NaN             NaN
+  101      hour0_rank     candidate  360         31 0.977939      NaN         NaN             NaN
+  101      hour0_rank old_et_shrunk  360         31 0.978723      NaN         NaN             NaN
+  101      hour0_rank    new_et_raw  360         31 0.951564      NaN         NaN             NaN
+  101 all_hours_error           NaN  744         31      NaN     high   28.456862       -0.354731
+  101 all_hours_error           NaN 7896         31      NaN ordinary   -6.763742        0.026425
+ 2024      hour0_rank      baseline  360         31 0.984704      NaN         NaN             NaN
+ 2024      hour0_rank     candidate  360         31 0.976566      NaN         NaN             NaN
+ 2024      hour0_rank old_et_shrunk  360         31 0.978527      NaN         NaN             NaN
+ 2024      hour0_rank    new_et_raw  360         31 0.947348      NaN         NaN             NaN
+ 2024 all_hours_error           NaN  744         31      NaN     high   28.999047       -0.354662
+ 2024 all_hours_error           NaN 7896         31      NaN ordinary   -7.804801        0.026433
+CHECKS 27
