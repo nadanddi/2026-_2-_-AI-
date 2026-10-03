@@ -1,0 +1,23 @@
+C:\work\farmai\집\클로드\research\mn3_midnight_trace_v1.py:29: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  R = pd.DataFrame({k: {f: spearmanr(S[f], S.res, nan_policy="omit").correlation for f in feats} for k, S in sets.items()})
+C:\work\farmai\집\클로드\research\mn3_midnight_trace_v1.py:30: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  R["early_EC_high"] = {f: spearmanr(sets["a_high"][f], sets["a_high"].y_early, nan_policy="omit").correlation for f in feats}
+{'a_high': 31, 'b_pred_hi': 42, 'c_sealed': 85}
+                     a_high  b_pred_hi  c_sealed  early_EC_high
+in_hum_e               0.24       0.11      0.12          -0.08
+act_thermal_prevEve   -0.23       0.13      0.30          -0.18
+act_vent_prevEve      -0.23      -0.01      0.10           0.15
+act_shade_e           -0.22      -0.21      0.01          -0.18
+act_shade_d02          0.22       0.06      0.02           0.18
+out_temp_e             0.22       0.16      0.09          -0.00
+in_co2_d02            -0.20      -0.11     -0.02          -0.15
+act_heating_e          0.18      -0.07     -0.12           0.36
+in_temp_d02            0.17       0.42      0.34          -0.06
+in_hum_d02            -0.15      -0.12      0.05          -0.24
+act_circfan_e          0.15       0.20     -0.00          -0.51
+act_heating_d02       -0.14      -0.14     -0.02           0.11
+act_circfan_d02       -0.13      -0.12     -0.03           0.37
+in_hum_prevEve        -0.12      -0.00      0.05           0.11
+out_temp_prevEve       0.09       0.14      0.06          -0.04
+
+MN3 trace features meeting the fixed reading: none
