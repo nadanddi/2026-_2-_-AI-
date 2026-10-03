@@ -1,0 +1,4116 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "EC_DAY20_complete_folds",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_A_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21468522746943028
+    },
+    {
+      "name": "EC_DAY20_A_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.2152176410620092
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_A_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21624582241083695
+    },
+    {
+      "name": "EC_DAY20_A_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.2160692971475088
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_A_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21587226460361367
+    },
+    {
+      "name": "EC_DAY20_A_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.21610940152769673
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_B_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.20001294637985037
+    },
+    {
+      "name": "EC_DAY20_B_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.19815192029854017
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_B_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.19978200327411105
+    },
+    {
+      "name": "EC_DAY20_B_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.19817976080221528
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_B_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.199704936653692
+    },
+    {
+      "name": "EC_DAY20_B_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.19788514776575805
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_DIAG10_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18112483710525534
+    },
+    {
+      "name": "EC_DAY20_DIAG10_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18017129496624534
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_DIAG10_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18167907699926716
+    },
+    {
+      "name": "EC_DAY20_DIAG10_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.1808233131438674
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_DIAG10_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18172772536614717
+    },
+    {
+      "name": "EC_DAY20_DIAG10_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18079675193301256
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_EXT10_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.3967806227013143
+    },
+    {
+      "name": "EC_DAY20_EXT10_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.39800095371388033
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_EXT10_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.40006701351859786
+    },
+    {
+      "name": "EC_DAY20_EXT10_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.3994166192259244
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_EXT10_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.39915814533792693
+    },
+    {
+      "name": "EC_DAY20_EXT10_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.3995376120695128
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_EXT12_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.4141697247001226
+    },
+    {
+      "name": "EC_DAY20_EXT12_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4087977740566793
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_EXT12_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.41266052021081456
+    },
+    {
+      "name": "EC_DAY20_EXT12_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.40737198627381355
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_DAY20_EXT12_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.41057611429228097
+    },
+    {
+      "name": "EC_DAY20_EXT12_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4056972129874171
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "independent_block_bootstrap_EC_DAY20",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_complete_folds",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_A_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21468522746943028
+    },
+    {
+      "name": "EC_STATE20_A_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.21889089624036004
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_A_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21624582241083695
+    },
+    {
+      "name": "EC_STATE20_A_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.22012421094665657
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_A_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21587226460361367
+    },
+    {
+      "name": "EC_STATE20_A_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.21984718784961135
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_B_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.20001294637985037
+    },
+    {
+      "name": "EC_STATE20_B_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.20315550822839026
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_B_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.19978200327411105
+    },
+    {
+      "name": "EC_STATE20_B_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.20311082188167803
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_B_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.199704936653692
+    },
+    {
+      "name": "EC_STATE20_B_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.20261525789536464
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_DIAG10_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18112483710525534
+    },
+    {
+      "name": "EC_STATE20_DIAG10_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18297706675194195
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_DIAG10_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18167907699926716
+    },
+    {
+      "name": "EC_STATE20_DIAG10_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18325676484302342
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_DIAG10_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18172772536614717
+    },
+    {
+      "name": "EC_STATE20_DIAG10_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18317668247655186
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_EXT10_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.3967806227013143
+    },
+    {
+      "name": "EC_STATE20_EXT10_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4027844328092805
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_EXT10_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.40006701351859786
+    },
+    {
+      "name": "EC_STATE20_EXT10_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.40560184929558996
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_EXT10_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.39915814533792693
+    },
+    {
+      "name": "EC_STATE20_EXT10_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.40494388289443
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_EXT12_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.4141697247001226
+    },
+    {
+      "name": "EC_STATE20_EXT12_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.40697431999225203
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_EXT12_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.41266052021081456
+    },
+    {
+      "name": "EC_STATE20_EXT12_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.40642654777474346
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_STATE20_EXT12_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.41057611429228097
+    },
+    {
+      "name": "EC_STATE20_EXT12_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.40449190933458895
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_complete_folds",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_DIAG10_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.6539837558187487
+    },
+    {
+      "name": "T_DIRECT20_DIAG10_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.6632904242671097
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_DIAG10_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.6564360201646793
+    },
+    {
+      "name": "T_DIRECT20_DIAG10_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.6654555962178815
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_DIAG10_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.6541728644381395
+    },
+    {
+      "name": "T_DIRECT20_DIAG10_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.6635454725196929
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_DIAG10_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.6566666564714696
+    },
+    {
+      "name": "T_DIRECT20_DIAG10_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.6657364760989399
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_EXT10_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8456238444726382
+    },
+    {
+      "name": "T_DIRECT20_EXT10_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.8796788444126564
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_EXT10_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.846157978717934
+    },
+    {
+      "name": "T_DIRECT20_EXT10_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8812252611256232
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_EXT10_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8450363299682597
+    },
+    {
+      "name": "T_DIRECT20_EXT10_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.8799516354478903
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_EXT10_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.846303875779037
+    },
+    {
+      "name": "T_DIRECT20_EXT10_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8819476789019804
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_EXT12_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8100619692014134
+    },
+    {
+      "name": "T_DIRECT20_EXT12_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.8863933555413952
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_EXT12_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.8112773417378313
+    },
+    {
+      "name": "T_DIRECT20_EXT12_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8872435729667751
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_EXT12_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8132214050609796
+    },
+    {
+      "name": "T_DIRECT20_EXT12_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.889216757304312
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_DIRECT20_EXT12_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.8143162435886685
+    },
+    {
+      "name": "T_DIRECT20_EXT12_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8899964543025816
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_complete_folds",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_DIAG10_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.6539837558187487
+    },
+    {
+      "name": "T_GAP20_DIAG10_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.6745138778981096
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_DIAG10_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.6564360201646793
+    },
+    {
+      "name": "T_GAP20_DIAG10_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.676831436171025
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_DIAG10_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.6541728644381395
+    },
+    {
+      "name": "T_GAP20_DIAG10_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.6748528389436453
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_DIAG10_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.6566666564714696
+    },
+    {
+      "name": "T_GAP20_DIAG10_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.6771954471468945
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_EXT10_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8456238444726382
+    },
+    {
+      "name": "T_GAP20_EXT10_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.8597500141495071
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_EXT10_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.846157978717934
+    },
+    {
+      "name": "T_GAP20_EXT10_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8592685077204533
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_EXT10_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8450363299682597
+    },
+    {
+      "name": "T_GAP20_EXT10_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.8603698203095267
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_EXT10_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.846303875779037
+    },
+    {
+      "name": "T_GAP20_EXT10_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8603500713569692
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_EXT12_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8100619692014134
+    },
+    {
+      "name": "T_GAP20_EXT12_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.840977742137677
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_EXT12_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.8112773417378313
+    },
+    {
+      "name": "T_GAP20_EXT12_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8421657289472835
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_EXT12_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8132214050609796
+    },
+    {
+      "name": "T_GAP20_EXT12_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.8426786472509112
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAP20_EXT12_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.8143162435886685
+    },
+    {
+      "name": "T_GAP20_EXT12_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8437927025949006
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_complete_folds",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_DIAG10_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.6539837558187487
+    },
+    {
+      "name": "T_GAPSPLIT20_DIAG10_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.6767498465547973
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_DIAG10_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.6564360201646793
+    },
+    {
+      "name": "T_GAPSPLIT20_DIAG10_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.6790737751539522
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_DIAG10_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.6541728644381395
+    },
+    {
+      "name": "T_GAPSPLIT20_DIAG10_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.6776390947070788
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_DIAG10_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.6566666564714696
+    },
+    {
+      "name": "T_GAPSPLIT20_DIAG10_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.6800043793581648
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT10_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8456238444726382
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT10_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.8647313139192532
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT10_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.846157978717934
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT10_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8638528486777235
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT10_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8450363299682597
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT10_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.8647944325412524
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT10_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.846303875779037
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT10_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8644101541442952
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT12_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8100619692014134
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT12_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.843833076050083
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT12_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.8112773417378313
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT12_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.844936595123077
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT12_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8132214050609796
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT12_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.8449124315807522
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT12_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.8143162435886685
+    },
+    {
+      "name": "T_GAPSPLIT20_EXT12_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8459423496797235
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_complete_folds",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_A_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21468522746943028
+    },
+    {
+      "name": "EC_RARE_ET_A_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.2155062811905544
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_A_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21624582241083695
+    },
+    {
+      "name": "EC_RARE_ET_A_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.21768662239750167
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_A_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21587226460361367
+    },
+    {
+      "name": "EC_RARE_ET_A_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.21597425607166315
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_B_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.20001294637985037
+    },
+    {
+      "name": "EC_RARE_ET_B_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.199767358214336
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_B_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.19978200327411105
+    },
+    {
+      "name": "EC_RARE_ET_B_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.20057543101588307
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_B_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.199704936653692
+    },
+    {
+      "name": "EC_RARE_ET_B_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.199196019215131
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_DIAG10_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18112483710525534
+    },
+    {
+      "name": "EC_RARE_ET_DIAG10_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18238048285051528
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_DIAG10_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18167907699926716
+    },
+    {
+      "name": "EC_RARE_ET_DIAG10_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18121163698814166
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_DIAG10_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18172772536614717
+    },
+    {
+      "name": "EC_RARE_ET_DIAG10_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18159962869648216
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_EXT10_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.3967806227013143
+    },
+    {
+      "name": "EC_RARE_ET_EXT10_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.40124574567229265
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_EXT10_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.40006701351859786
+    },
+    {
+      "name": "EC_RARE_ET_EXT10_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4007630099342731
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_EXT10_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.39915814533792693
+    },
+    {
+      "name": "EC_RARE_ET_EXT10_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.401997310598659
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_EXT12_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.4141697247001226
+    },
+    {
+      "name": "EC_RARE_ET_EXT12_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4124908147500229
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_EXT12_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.41266052021081456
+    },
+    {
+      "name": "EC_RARE_ET_EXT12_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.41259624123286787
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_RARE_ET_EXT12_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.41057611429228097
+    },
+    {
+      "name": "EC_RARE_ET_EXT12_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.41022276996374896
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "independent_block_bootstrap_EC_RARE_ET",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_complete_folds",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_DIAG10_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.6539837558187487
+    },
+    {
+      "name": "T_RARE_GAP20_DIAG10_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.6759645278591846
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_DIAG10_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.6564360201646793
+    },
+    {
+      "name": "T_RARE_GAP20_DIAG10_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.678204151754503
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_DIAG10_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.6541728644381395
+    },
+    {
+      "name": "T_RARE_GAP20_DIAG10_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.6762843590764709
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_DIAG10_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.6566666564714696
+    },
+    {
+      "name": "T_RARE_GAP20_DIAG10_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.6785490850031601
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_EXT10_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8456238444726382
+    },
+    {
+      "name": "T_RARE_GAP20_EXT10_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.8570058161817151
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_EXT10_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.846157978717934
+    },
+    {
+      "name": "T_RARE_GAP20_EXT10_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8565545815937174
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_EXT10_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8450363299682597
+    },
+    {
+      "name": "T_RARE_GAP20_EXT10_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.857387315671877
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_EXT10_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.846303875779037
+    },
+    {
+      "name": "T_RARE_GAP20_EXT10_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8573992812041338
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_EXT12_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8100619692014134
+    },
+    {
+      "name": "T_RARE_GAP20_EXT12_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.8465997287489675
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_EXT12_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.8112773417378313
+    },
+    {
+      "name": "T_RARE_GAP20_EXT12_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8479262674982603
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_EXT12_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8132214050609796
+    },
+    {
+      "name": "T_RARE_GAP20_EXT12_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.848236926512331
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_RARE_GAP20_EXT12_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.8143162435886685
+    },
+    {
+      "name": "T_RARE_GAP20_EXT12_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.8494898516593637
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_complete_folds",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_A_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21468522746943028
+    },
+    {
+      "name": "EC_KNN20_A_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.21918121969209078
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_A_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21624582241083695
+    },
+    {
+      "name": "EC_KNN20_A_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.2206858189858825
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_A_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21587226460361367
+    },
+    {
+      "name": "EC_KNN20_A_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.22030148109923015
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_B_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.20001294637985037
+    },
+    {
+      "name": "EC_KNN20_B_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.2024258214051339
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_B_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.19978200327411105
+    },
+    {
+      "name": "EC_KNN20_B_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.20243708038016506
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_B_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.199704936653692
+    },
+    {
+      "name": "EC_KNN20_B_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.20243480361606
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_DIAG10_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18112483710525534
+    },
+    {
+      "name": "EC_KNN20_DIAG10_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.1825630753066433
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_DIAG10_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18167907699926716
+    },
+    {
+      "name": "EC_KNN20_DIAG10_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18299493454308663
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_DIAG10_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18172772536614717
+    },
+    {
+      "name": "EC_KNN20_DIAG10_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.1829002744275062
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_EXT10_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.3967806227013143
+    },
+    {
+      "name": "EC_KNN20_EXT10_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.40611469229671027
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_EXT10_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.40006701351859786
+    },
+    {
+      "name": "EC_KNN20_EXT10_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4088554846281762
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_EXT10_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.39915814533792693
+    },
+    {
+      "name": "EC_KNN20_EXT10_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4081256188198544
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_EXT12_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.4141697247001226
+    },
+    {
+      "name": "EC_KNN20_EXT12_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4093978805492682
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_EXT12_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.41266052021081456
+    },
+    {
+      "name": "EC_KNN20_EXT12_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4086916197040149
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_KNN20_EXT12_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.41057611429228097
+    },
+    {
+      "name": "EC_KNN20_EXT12_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4065693958062737
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_complete_folds",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_DIAG10_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.6539837558187487
+    },
+    {
+      "name": "T_KNN20_DIAG10_7_1-8_candidate",
+      "passed": true,
+      "rmse": 0.9606684616466713
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_DIAG10_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.6564360201646793
+    },
+    {
+      "name": "T_KNN20_DIAG10_7_17-24_candidate",
+      "passed": true,
+      "rmse": 0.9623599728717294
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_DIAG10_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.6541728644381395
+    },
+    {
+      "name": "T_KNN20_DIAG10_101_1-8_candidate",
+      "passed": true,
+      "rmse": 0.9613815239806562
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_DIAG10_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.6566666564714696
+    },
+    {
+      "name": "T_KNN20_DIAG10_101_17-24_candidate",
+      "passed": true,
+      "rmse": 0.96309021214446
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_EXT10_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8456238444726382
+    },
+    {
+      "name": "T_KNN20_EXT10_7_1-8_candidate",
+      "passed": true,
+      "rmse": 1.12906893451926
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_EXT10_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.846157978717934
+    },
+    {
+      "name": "T_KNN20_EXT10_7_17-24_candidate",
+      "passed": true,
+      "rmse": 1.1354912040426492
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_EXT10_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8450363299682597
+    },
+    {
+      "name": "T_KNN20_EXT10_101_1-8_candidate",
+      "passed": true,
+      "rmse": 1.130628433910789
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_EXT10_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.846303875779037
+    },
+    {
+      "name": "T_KNN20_EXT10_101_17-24_candidate",
+      "passed": true,
+      "rmse": 1.137390877044374
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_EXT12_7_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8100619692014134
+    },
+    {
+      "name": "T_KNN20_EXT12_7_1-8_candidate",
+      "passed": true,
+      "rmse": 1.11286273373218
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_EXT12_7_17-24_baseline",
+      "passed": true,
+      "rmse": 0.8112773417378313
+    },
+    {
+      "name": "T_KNN20_EXT12_7_17-24_candidate",
+      "passed": true,
+      "rmse": 1.1112788026264315
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_EXT12_101_1-8_baseline",
+      "passed": true,
+      "rmse": 0.8132214050609796
+    },
+    {
+      "name": "T_KNN20_EXT12_101_1-8_candidate",
+      "passed": true,
+      "rmse": 1.1138027685143062
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "T_KNN20_EXT12_101_17-24_baseline",
+      "passed": true,
+      "rmse": 0.8143162435886685
+    },
+    {
+      "name": "T_KNN20_EXT12_101_17-24_candidate",
+      "passed": true,
+      "rmse": 1.1121659005582591
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_complete_folds",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_A_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21468522746943028
+    },
+    {
+      "name": "EC_H0CHANGE_A_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.22840051796255997
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_A_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21624582241083695
+    },
+    {
+      "name": "EC_H0CHANGE_A_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.22842255713821477
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_A_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.21587226460361367
+    },
+    {
+      "name": "EC_H0CHANGE_A_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.2274952443876619
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_B_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.20001294637985037
+    },
+    {
+      "name": "EC_H0CHANGE_B_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.20291837595850754
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_B_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.19978200327411105
+    },
+    {
+      "name": "EC_H0CHANGE_B_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.20297787406994208
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_B_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.199704936653692
+    },
+    {
+      "name": "EC_H0CHANGE_B_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.20339468398219715
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_DIAG10_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18112483710525534
+    },
+    {
+      "name": "EC_H0CHANGE_DIAG10_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18719863713864338
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_DIAG10_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18167907699926716
+    },
+    {
+      "name": "EC_H0CHANGE_DIAG10_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18791974296765476
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_DIAG10_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.18172772536614717
+    },
+    {
+      "name": "EC_H0CHANGE_DIAG10_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.18676235338185262
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_EXT10_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.3967806227013143
+    },
+    {
+      "name": "EC_H0CHANGE_EXT10_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.3801668909201698
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_EXT10_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.40006701351859786
+    },
+    {
+      "name": "EC_H0CHANGE_EXT10_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.3832437927851474
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_EXT10_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.39915814533792693
+    },
+    {
+      "name": "EC_H0CHANGE_EXT10_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.3824163721182349
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_EXT12_7_1-4_baseline",
+      "passed": true,
+      "rmse": 0.4141697247001226
+    },
+    {
+      "name": "EC_H0CHANGE_EXT12_7_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4171407974515748
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_EXT12_101_1-4_baseline",
+      "passed": true,
+      "rmse": 0.41266052021081456
+    },
+    {
+      "name": "EC_H0CHANGE_EXT12_101_1-4_candidate",
+      "passed": true,
+      "rmse": 0.41704158094224014
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "EC_H0CHANGE_EXT12_2024_1-4_baseline",
+      "passed": true,
+      "rmse": 0.41057611429228097
+    },
+    {
+      "name": "EC_H0CHANGE_EXT12_2024_1-4_candidate",
+      "passed": true,
+      "rmse": 0.4157628544515951
+    },
+    {
+      "name": "score_denominators",
+      "passed": true
+    },
+    {
+      "name": "independent_block_bootstrap_EC_H0CHANGE",
+      "passed": true
+    },
+    {
+      "name": "EC_DIAG10_0_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_DIAG10_1_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_DIAG10_2_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_DIAG10_3_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_DIAG10_4_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_DIAG10_5_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_DIAG10_6_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_DIAG10_7_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_DIAG10_8_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_DIAG10_9_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_A_0_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_A_1_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_A_2_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_A_3_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_A_4_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_B_0_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_B_1_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_B_2_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_B_3_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_B_4_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_EXT10_0_buffer",
+      "passed": true
+    },
+    {
+      "name": "EC_EXT12_0_buffer",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_mean",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_h0",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_current",
+      "passed": true
+    },
+    {
+      "name": "scalar_prefix_delta",
+      "passed": true
+    },
+    {
+      "name": "future_other_farm_invariance",
+      "passed": true
+    },
+    {
+      "name": "original_ET_fresh_reproduction",
+      "passed": true,
+      "maxdiff": 2.220446049250313e-16
+    },
+    {
+      "name": "TEMP_DIAG10_0_buffer",
+      "passed": true
+    },
+    {
+      "name": "TEMP_DIAG10_1_buffer",
+      "passed": true
+    },
+    {
+      "name": "TEMP_DIAG10_2_buffer",
+      "passed": true
+    },
+    {
+      "name": "TEMP_DIAG10_3_buffer",
+      "passed": true
+    },
+    {
+      "name": "TEMP_DIAG10_4_buffer",
+      "passed": true
+    },
+    {
+      "name": "TEMP_DIAG10_5_buffer",
+      "passed": true
+    },
+    {
+      "name": "TEMP_DIAG10_6_buffer",
+      "passed": true
+    },
+    {
+      "name": "TEMP_DIAG10_7_buffer",
+      "passed": true
+    },
+    {
+      "name": "TEMP_DIAG10_8_buffer",
+      "passed": true
+    },
+    {
+      "name": "TEMP_DIAG10_9_buffer",
+      "passed": true
+    },
+    {
+      "name": "TEMP_EXT10_0_buffer",
+      "passed": true
+    },
+    {
+      "name": "TEMP_EXT12_0_buffer",
+      "passed": true
+    },
+    {
+      "name": "W40G_fail_count",
+      "passed": true
+    },
+    {
+      "name": "W40G_still_fail_count",
+      "passed": true
+    },
+    {
+      "name": "risk_auc_pairwise",
+      "passed": true
+    },
+    {
+      "name": "risk_auc_pairwise",
+      "passed": true
+    },
+    {
+      "name": "risk_auc_pairwise",
+      "passed": true
+    },
+    {
+      "name": "risk_auc_pairwise",
+      "passed": true
+    },
+    {
+      "name": "risk_auc_pairwise",
+      "passed": true
+    },
+    {
+      "name": "risk_auc_pairwise",
+      "passed": true
+    },
+    {
+      "name": "risk_auc_pairwise",
+      "passed": true
+    },
+    {
+      "name": "risk_auc_pairwise",
+      "passed": true
+    }
+  ],
+  "count": 955,
+  "baseline_ET_maxdiff": 2.220446049250313e-16,
+  "source_hashes": {
+    "analyze.py": "bd0b0dc06d4e25e96a3921fd8414b1497dc78fe2ea29561ed9e86f52acf46758",
+    "analyze_v2.py": "a1ad80af232041dda250c4681b5dc3a283dd69459d26fc874d92535fedd4045d",
+    "replay_et_v3.py": "078bfafd9b7a1f69c4bfff04bc0ca1eabed2aae9815f5debb70133a5c55d5dc8",
+    "report.py": "519bc2c58869a80e34ab79e8f4cef620b5efc92d4c3fe12d8d0eca0c32029cdf",
+    "report_v2.py": "7f69375d6737f28b0c46e35545b042bcff8401587addd5ae68dd259910f32776",
+    "run.py": "1030c64a1a41d8d66543aed5b588a1054d9334f508567c1e9171f76c11d95ebe",
+    "run_v2.py": "4c7b7475fe1190e1e9cf0823098e3becc056ead8fa543498c7e8897a0d7fc306",
+    "run_v3.py": "07dad7b6cd6da3815ec0489966264597614ec410cb9da7e6865c57b6ba5dbda6",
+    "verify.py": "32becd5cf7ed83d50114d1851be03229a05dc286539ba0c0ce7e31271b1e72b2",
+    "verify_v2.py": "64f82fd5a187192e9b968e63ead04814fbf1f2d66c295471fc690c313c0dfd29"
+  },
+  "limitations": [
+    "Public OOF reused across prior studies",
+    "No new lock scoring",
+    "EL1 guard required if public criteria pass",
+    "Temperature contexts reuse fixed PFN; new PFN target training not tested"
+  ]
+}

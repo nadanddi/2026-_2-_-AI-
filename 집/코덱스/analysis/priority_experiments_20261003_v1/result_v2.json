@@ -1,0 +1,82 @@
+{
+  "decisions": [
+    {
+      "arm": "EC_DAY20",
+      "score_cells": 15,
+      "same_direction": false,
+      "bootstrap_pass": false,
+      "status": "REJECT"
+    },
+    {
+      "arm": "EC_STATE20",
+      "score_cells": 15,
+      "same_direction": false,
+      "bootstrap_pass": false,
+      "status": "REJECT"
+    },
+    {
+      "arm": "T_DIRECT20",
+      "score_cells": 12,
+      "same_direction": false,
+      "bootstrap_pass": false,
+      "status": "REJECT"
+    },
+    {
+      "arm": "T_GAP20",
+      "score_cells": 12,
+      "same_direction": false,
+      "bootstrap_pass": false,
+      "status": "REJECT"
+    },
+    {
+      "arm": "T_GAPSPLIT20",
+      "score_cells": 12,
+      "same_direction": false,
+      "bootstrap_pass": false,
+      "status": "REJECT"
+    },
+    {
+      "arm": "EC_RARE_ET",
+      "score_cells": 15,
+      "same_direction": false,
+      "bootstrap_pass": false,
+      "status": "REJECT"
+    },
+    {
+      "arm": "T_RARE_GAP20",
+      "score_cells": 12,
+      "same_direction": false,
+      "bootstrap_pass": false,
+      "status": "REJECT"
+    },
+    {
+      "arm": "EC_KNN20",
+      "score_cells": 15,
+      "same_direction": false,
+      "bootstrap_pass": false,
+      "status": "REJECT"
+    },
+    {
+      "arm": "T_KNN20",
+      "score_cells": 12,
+      "same_direction": false,
+      "bootstrap_pass": false,
+      "status": "REJECT"
+    },
+    {
+      "arm": "EC_H0CHANGE",
+      "score_cells": 15,
+      "same_direction": false,
+      "bootstrap_pass": false,
+      "status": "REJECT"
+    }
+  ],
+  "family_k": 10,
+  "score_cells": 135,
+  "W40G_old_failure_days": 16,
+  "W40G_old_failures_still_fail": 16,
+  "W40G_old_failures_old_rmse": 1.8970500492637936,
+  "W40G_old_failures_new_rmse": 1.8682649205181157,
+  "leakage_scope": "stored public EC labels only, MASK training, causal within-day features",
+  "new_submission": false
+}

@@ -1,0 +1,192 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "target": "EC",
+      "hour": 0,
+      "signal": "risk",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 0,
+      "signal": "baseline_ascending",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 0,
+      "signal": "baseline_descending",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 0,
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 6,
+      "signal": "risk",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 6,
+      "signal": "baseline_ascending",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 6,
+      "signal": "baseline_descending",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 6,
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 12,
+      "signal": "risk",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 12,
+      "signal": "baseline_ascending",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 12,
+      "signal": "baseline_descending",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 12,
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 23,
+      "signal": "risk",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 23,
+      "signal": "baseline_ascending",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 23,
+      "signal": "baseline_descending",
+      "passed": true
+    },
+    {
+      "target": "EC",
+      "hour": 23,
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 0,
+      "signal": "risk",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 0,
+      "signal": "baseline_ascending",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 0,
+      "signal": "baseline_descending",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 0,
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 6,
+      "signal": "risk",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 6,
+      "signal": "baseline_ascending",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 6,
+      "signal": "baseline_descending",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 6,
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 12,
+      "signal": "risk",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 12,
+      "signal": "baseline_ascending",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 12,
+      "signal": "baseline_descending",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 12,
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 23,
+      "signal": "risk",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 23,
+      "signal": "baseline_ascending",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 23,
+      "signal": "baseline_descending",
+      "passed": true
+    },
+    {
+      "target": "TEMP",
+      "hour": 23,
+      "passed": true
+    }
+  ],
+  "posthoc": true,
+  "selection": "both ascending and descending preserved; no model change",
+  "scope": "DIAG10 only, seed7, fixed context"
+}
