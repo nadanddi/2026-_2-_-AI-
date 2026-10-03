@@ -1,0 +1,32 @@
+{
+  "decision": "REJECT",
+  "public_pass": false,
+  "bootstrap": {
+    "7": {
+      "p_worse": 0.88585,
+      "mse_diff_ci97_5": [
+        -0.0010828113785199506,
+        0.0035196521828395077
+      ]
+    },
+    "101": {
+      "p_worse": 0.6813,
+      "mse_diff_ci97_5": [
+        -0.00211948302817812,
+        0.0027409017357500117
+      ]
+    },
+    "2024": {
+      "p_worse": 0.6771,
+      "mse_diff_ci97_5": [
+        -0.0021638023136769553,
+        0.0029179226645565924
+      ]
+    }
+  },
+  "rows": 83160,
+  "checks": 83193,
+  "scalar_nonclipped_maxdiff": 4.440892098500626e-16,
+  "source_sha256": "b913aeeb0b0d732fcb0a9d3251ec5976e43a284bb2dfef7f4b211679a3971a5c",
+  "protocol_sha256": "c2d9cf19b6ee55a65465c2f50ec6b1b37e5815e12427d8c405b7407ddec02fe2"
+}
