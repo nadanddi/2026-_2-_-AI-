@@ -1,0 +1,45 @@
+DIAG10/0 done
+DIAG10/1 done
+DIAG10/2 done
+DIAG10/3 done
+DIAG10/4 done
+DIAG10/5 done
+DIAG10/6 done
+DIAG10/7 done
+DIAG10/8 done
+DIAG10/9 done
+A/0 done
+A/1 done
+A/2 done
+A/3 done
+A/4 done
+B/0 done
+B/1 done
+B/2 done
+B/3 done
+B/4 done
+EXT10/0 done
+   F47: <2 same-farm exact-twin anchors -> nearest same-farm match
+EXT12/0 done
+EL1/0 done
+EL1/1 done
+EL1/2 done
+EL1/3 done
+EL1/4 done
+EL1/5 done
+EL1/6 done
+EL1/7 done
+EL1/8 done
+EL1/9 done
+
+pooled RMSE R3S (DC4 anchors) -> DC6 (same-farm anchors)
+  DIAG10 s7 0.1877->0.1985 (+5.8%)  s101 0.1885->0.1972 (+4.6%)  s2024 0.1885->0.1971 (+4.5%)
+  A      s7 0.2209->0.2178 (-1.4%)  s101 0.2228->0.2176 (-2.3%)  s2024 0.2223->0.2182 (-1.8%)
+  B      s7 0.2036->0.2011 (-1.2%)  s101 0.2035->0.2006 (-1.4%)  s2024 0.2034->0.2009 (-1.2%)
+  EXT10  s7 0.4084->0.4322 (+5.8%)  s101 0.4134->0.4319 (+4.5%)  s2024 0.4115->0.4340 (+5.5%)
+  EXT12  s7 0.4112->0.4120 (+0.2%)  s101 0.4095->0.4143 (+1.2%)  s2024 0.4068->0.4109 (+1.0%)
+  EL1    s7 0.3051->0.3324 (+9.0%)  s101 0.3103->0.3353 (+8.1%)  s2024 0.3087->0.3333 (+8.0%)
+  DIAG10 late R3S 0.2681 -> DC6 0.3283
+  DIAG10 P(worse) by seed: [0.9164, 0.8311, 0.8386]
+
+DC6 decision: FAIL (rule False, EL1 False)
