@@ -1,0 +1,17 @@
+seed 7 fold0 coef x 0.283 cm -0.218 intercept 0.227 (fit rows 782)
+seed 101 fold0 coef x 0.277 cm -0.191 intercept 0.189 (fit rows 795)
+seed 2024 fold0 coef x 0.267 cm -0.157 intercept 0.154 (fit rows 799)
+flagged share by validator (seed 7): {'A': 0.173, 'B': 0.11, 'DIAG10': 0.094, 'EL1': 0.005, 'EXT10': 0.031, 'EXT12': 0.008}
+
+pooled RMSE R3S -> R3S + high-flag same-dong level correction
+  DIAG10 s7 0.1877->0.1837 (-2.1%)  s101 0.1885->0.1849 (-1.9%)  s2024 0.1885->0.1850 (-1.9%)
+  A      s7 0.2209->0.2619 (+18.6%)  s101 0.2228->0.2594 (+16.4%)  s2024 0.2223->0.2583 (+16.2%)
+  B      s7 0.2036->0.2079 (+2.1%)  s101 0.2035->0.2056 (+1.0%)  s2024 0.2034->0.2047 (+0.6%)
+  EXT10  s7 0.4084->0.3914 (-4.2%)  s101 0.4134->0.4046 (-2.1%)  s2024 0.4115->0.3974 (-3.4%)
+  EXT12  s7 0.4112->0.4112 (+0.0%)  s101 0.4095->0.4095 (+0.0%)  s2024 0.4068->0.4068 (+0.0%)
+  EL1    s7 0.3051->0.3067 (+0.5%)  s101 0.3103->0.3108 (+0.2%)  s2024 0.3087->0.3087 (+0.0%)
+  DIAG10 late R3S 0.2681 -> HG1 0.2572
+  DIAG10 high-EC days (rows 744): label 1.549  R3S 1.224  HG1 1.319
+  DIAG10 P(worse) by seed: [0.2528, 0.264, 0.2591]
+
+HG1 decision: FAIL (rule False, EL1 False)
