@@ -1,0 +1,19 @@
+[이레] farm-days 1353 farms 18 | drain EC day mean q05 0.36 med 0.99 q95 1.71 | within-farm share of variance 0.58 | lag1 0.92
+  Spearman of within-farm day deviation of drain EC with:
+   irr    same day -0.13 | previous day -0.14
+   drn    same day -0.30 | previous day -0.31
+   ratio  same day -0.14 | previous day -0.14
+   wt     same day +0.22 | previous day +0.21
+   st     same day -0.30 | previous day -0.31
+   ti     same day -0.28 | previous day -0.28
+   tmax   same day -0.19 | previous day -0.19
+   tmin   same day -0.24 | previous day -0.24
+   hi     same day +0.07 | previous day +0.06
+
+(b) transfer check (within-farm day deviation target)
+  cross-farm R2 이레 climate-only                    -0.025 (n 1353)
+  cross-farm R2 이레 climate+irrigation (not in comp) -0.030 (n 1353)
+  cross-farm R2 골든 climate-only                    -0.033 (n 4162)
+  cross-farm R2 골든 climate+moisture (not in comp)  -0.014 (n 4162)
+
+X1 transfer worth a model test (climate-only R2 >= .10): False
