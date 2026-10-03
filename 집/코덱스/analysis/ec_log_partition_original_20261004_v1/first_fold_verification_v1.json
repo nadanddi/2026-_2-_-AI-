@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "original_et_maxdiff": 2.220446049250313e-16,
+  "prior_partition_maxdiff": 0.0,
+  "manual_leaf_checks": [
+    {
+      "n": 1,
+      "mean": 0.334
+    },
+    {
+      "n": 1,
+      "mean": 0.31
+    },
+    {
+      "n": 1,
+      "mean": 0.3
+    }
+  ],
+  "replay_maxdiff": 0.0,
+  "batch_maxdiff": 0.0,
+  "causal": [
+    {
+      "farm": "F13",
+      "hour": 0,
+      "status": "PASS"
+    },
+    {
+      "farm": "F13",
+      "hour": 6,
+      "status": "PASS"
+    },
+    {
+      "farm": "F13",
+      "hour": 12,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 0,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 6,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 12,
+      "status": "PASS"
+    }
+  ]
+}

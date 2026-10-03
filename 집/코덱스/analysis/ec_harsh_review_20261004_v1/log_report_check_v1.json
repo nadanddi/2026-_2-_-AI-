@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "scope": "Saved aggregate arithmetic and metadata only; no raw-model replay or bootstrap recomputation",
+  "cells": [
+    {
+      "seed": 7,
+      "change_pct": {
+        "overall": -2.870911488556205,
+        "high": -7.383082796643093,
+        "ordinary": 5.323230851724192
+      },
+      "delta_sse": {
+        "high": -26.587329813249614,
+        "ordinary": 10.546003427577565
+      },
+      "ordinary_bias_before": 0.019309596273410206,
+      "ordinary_bias_after": 0.025451400475226107
+    },
+    {
+      "seed": 101,
+      "change_pct": {
+        "overall": -3.2001782853257277,
+        "high": -7.163865221155097,
+        "ordinary": 3.977888060929291
+      },
+      "delta_sse": {
+        "high": -25.892428463081487,
+        "ordinary": 7.931762046057669
+      },
+      "ordinary_bias_before": 0.01989126599547136,
+      "ordinary_bias_after": 0.02492156696125529
+    },
+    {
+      "seed": 2024,
+      "change_pct": {
+        "overall": -3.4544367172701596,
+        "high": -7.224051039553315,
+        "ordinary": 3.2345603535801626
+      },
+      "delta_sse": {
+        "high": -25.902976946294064,
+        "ordinary": 6.529988934980587
+      },
+      "ordinary_bias_before": 0.019617998362584994,
+      "ordinary_bias_after": 0.025141797887815873
+    }
+  ],
+  "improved_score_cells": 4,
+  "total_score_cells": 15,
+  "family": 16,
+  "threshold": 0.0015625,
+  "stored_p_worse": {
+    "7": 0.1356,
+    "101": 0.1069,
+    "2024": 0.09345
+  },
+  "stored_leaf_diagnostic_scope": "First DIAG0 seed7 fixed-partition diagnostic only; no validation score or candidate",
+  "query_multirow_fraction": 0.15929824561403508,
+  "hashes": {
+    "scores_v1.csv": "b2ad3bd0c271f95a95f8c0f89e27d2091f5519138d34976b885fe12a092edaa6",
+    "segments_v1.csv": "2b636818a1102e3421cf42af9a56c8bb63f19146baa477365c06607a3cfef848",
+    "run.py": "26c098b2d9cc0b18b816f37e0d8eb0985ae4d828bbcb945d0341ecf453c421f8",
+    "result_v1.json": "1f49c8e2c158c3de75827b6c55461d72f5df5d8d0c3ad23a819b3d44dff2b8c7",
+    "leaf_diagnostic_v1.json": "d63f3cddff7e62b084ef20ba7376458dab791ec86d00e7d68ec758f373139086"
+  }
+}

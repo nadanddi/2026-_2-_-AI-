@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "First DIAG0 seed7 fixed-partition diagnostic only; no validation score or candidate",
+  "stats": {
+    "occupied_leaves": 3330422,
+    "multirow_leaves": 306629,
+    "varying_b_leaves": 0,
+    "train_visits": 3772800,
+    "multirow_train_visits": 749007,
+    "query_visits": 547200,
+    "multirow_query_visits": 87168,
+    "varying_b_query_visits": 0
+  },
+  "query_multirow_fraction": 0.15929824561403508,
+  "query_varying_b_fraction": 0.0,
+  "stored_arithmetic_maxdiff": 0.0,
+  "stored_geometric_maxdiff": 0.0,
+  "max_leaf_ratio_change": 8.881784197001252e-16,
+  "weighted_vs_arithmetic_raw_maxdiff": 1.0547118733938987e-15,
+  "weighted_vs_arithmetic_raw_mean_absdiff": 2.22927183535616e-17,
+  "unnormalized_original_leaf_mean_vs_arithmetic_raw_maxdiff": 0.2218210481527959,
+  "summed_leaf_training_sse": {
+    "arithmetic_ratio": 5.775990051628678e-27,
+    "weighted_ratio": 1.4179428296550692e-26
+  },
+  "manual_leaf_checks": [],
+  "source_sha256": "26c098b2d9cc0b18b816f37e0d8eb0985ae4d828bbcb945d0341ecf453c421f8"
+}

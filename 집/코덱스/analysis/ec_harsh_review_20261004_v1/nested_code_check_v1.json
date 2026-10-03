@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "scope": "Isolated code helpers on synthetic fixtures only; no real predictions, labels, fit or original-script import",
+  "source_sha256": "644b5e4a8176ef48760633ea7bbd168688739b879f53ad6c865a96f1cd73e040",
+  "prefix_rows": 6,
+  "prefix_maxdiff": 0.0,
+  "weight_cases": [
+    {
+      "name": "interior",
+      "weight": 0.16666666666666669,
+      "gradient": 0.0
+    },
+    {
+      "name": "zero",
+      "weight": 0.0,
+      "gradient": 0.030000000000000006
+    },
+    {
+      "name": "upper",
+      "weight": 0.5,
+      "gradient": -0.5650000000000001
+    },
+    {
+      "name": "all_gate_zero",
+      "weight": -0.0,
+      "gradient": 0.0
+    }
+  ],
+  "fallback_returns_none_model": true,
+  "existing_full_inner_accepts_duplicate_ids": true,
+  "duplicated_train_rows": 2,
+  "duplicated_query_rows": 2
+}

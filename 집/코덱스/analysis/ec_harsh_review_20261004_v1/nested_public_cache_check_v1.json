@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "scope": "Snapshot of completed public CPU ID caches only; no fit/prediction scoring",
+  "public_rows": 8640,
+  "completed_cpu_caches": 18,
+  "cells": [
+    {
+      "validator": "A",
+      "fold": 0,
+      "train_rows": 3936,
+      "query_rows": 1584,
+      "inner_high_days": 27
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "train_rows": 3888,
+      "query_rows": 1560,
+      "inner_high_days": 21
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "train_rows": 3912,
+      "query_rows": 1584,
+      "inner_high_days": 13
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "train_rows": 3936,
+      "query_rows": 1584,
+      "inner_high_days": 13
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "train_rows": 3936,
+      "query_rows": 1632,
+      "inner_high_days": 20
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "train_rows": 3840,
+      "query_rows": 1608,
+      "inner_high_days": 21
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "train_rows": 3840,
+      "query_rows": 1560,
+      "inner_high_days": 20
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "train_rows": 3888,
+      "query_rows": 1680,
+      "inner_high_days": 20
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "train_rows": 4128,
+      "query_rows": 1680,
+      "inner_high_days": 28
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "train_rows": 4296,
+      "query_rows": 1704,
+      "inner_high_days": 28
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "train_rows": 4032,
+      "query_rows": 1680,
+      "inner_high_days": 21
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "train_rows": 4176,
+      "query_rows": 1728,
+      "inner_high_days": 24
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "train_rows": 3936,
+      "query_rows": 1656,
+      "inner_high_days": 28
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "train_rows": 4272,
+      "query_rows": 1680,
+      "inner_high_days": 25
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "train_rows": 4056,
+      "query_rows": 1680,
+      "inner_high_days": 26
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "train_rows": 4272,
+      "query_rows": 1680,
+      "inner_high_days": 27
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "train_rows": 4008,
+      "query_rows": 1656,
+      "inner_high_days": 31
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "train_rows": 4008,
+      "query_rows": 1680,
+      "inner_high_days": 28
+    }
+  ],
+  "firstfold_inner_high_days": 28,
+  "firstfold_outer_high_days": 40,
+  "firstfold_fallback_executed_if_current_snapshot_used": false
+}
