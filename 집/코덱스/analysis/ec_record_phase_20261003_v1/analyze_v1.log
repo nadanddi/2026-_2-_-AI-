@@ -1,0 +1,185 @@
+validator  seed    n  baseline  candidate  change_pct
+        A     7 6336  0.214685   0.214920    0.109445
+        A   101 6336  0.216246   0.215551   -0.321171
+        A  2024 6336  0.215872   0.214985   -0.410802
+        B     7 6312  0.200013   0.203304    1.645574
+        B   101 6312  0.199782   0.203999    2.110800
+        B  2024 6312  0.199705   0.203917    2.109117
+   DIAG10     7 8640  0.181125   0.182392    0.699581
+   DIAG10   101 8640  0.181679   0.182153    0.260621
+   DIAG10  2024 8640  0.181728   0.181356   -0.204327
+    EXT10     7 1800  0.396781   0.398491    0.431160
+    EXT10   101 1800  0.400067   0.398910   -0.289268
+    EXT10  2024 1800  0.399158   0.397217   -0.486295
+    EXT12     7 4632  0.414170   0.410296   -0.935228
+    EXT12   101 4632  0.412661   0.409900   -0.668949
+    EXT12  2024 4632  0.410576   0.409074   -0.365846
+{
+  "status": "PASS",
+  "decision": "REJECT",
+  "public_pass": false,
+  "family": 9,
+  "alpha": 0.002777777777777778,
+  "bootstrap": {
+    "7": {
+      "p_worse": 0.85375,
+      "ci": [
+        -0.0007406594304331979,
+        0.0017638562667931024
+      ]
+    },
+    "101": {
+      "p_worse": 0.647,
+      "ci": [
+        -0.0011818117669493687,
+        0.0015704186100415614
+      ]
+    },
+    "2024": {
+      "p_worse": 0.4051,
+      "ci": [
+        -0.0015573563497158366,
+        0.0010174490416281906
+      ]
+    }
+  },
+  "checks": 86702,
+  "rows": 83160,
+  "scalar_clipped_maxdiff": 2.220446049250313e-16,
+  "split_audit": [
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "train_days": 262,
+      "valid_days": 38
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "train_days": 273,
+      "valid_days": 30
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "train_days": 259,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "train_days": 267,
+      "valid_days": 33
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "train_days": 255,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "train_days": 274,
+      "valid_days": 28
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "train_days": 262,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "train_days": 274,
+      "valid_days": 31
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "train_days": 258,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "train_days": 258,
+      "valid_days": 40
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "train_days": 253,
+      "valid_days": 53
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "train_days": 247,
+      "valid_days": 55
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "train_days": 250,
+      "valid_days": 53
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "train_days": 251,
+      "valid_days": 52
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "train_days": 254,
+      "valid_days": 51
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "train_days": 248,
+      "valid_days": 53
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "train_days": 246,
+      "valid_days": 55
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "train_days": 255,
+      "valid_days": 51
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "train_days": 249,
+      "valid_days": 54
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "train_days": 255,
+      "valid_days": 50
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "train_days": 191,
+      "valid_days": 75
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "train_days": 100,
+      "valid_days": 193
+    }
+  ],
+  "source_sha256": "6a801847b2e19ea30e769798cf4718753c41f56273bdf43de2b6c8dc198b7d1e",
+  "analyzer_sha256": "44996cdc31cbdcab30fe5cf069aaf22a81c3a49376a5519e701ba29fc0d22c03"
+}

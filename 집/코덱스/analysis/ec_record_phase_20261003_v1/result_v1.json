@@ -1,0 +1,169 @@
+{
+  "status": "PASS",
+  "decision": "REJECT",
+  "public_pass": false,
+  "family": 9,
+  "alpha": 0.002777777777777778,
+  "bootstrap": {
+    "7": {
+      "p_worse": 0.85375,
+      "ci": [
+        -0.0007406594304331979,
+        0.0017638562667931024
+      ]
+    },
+    "101": {
+      "p_worse": 0.647,
+      "ci": [
+        -0.0011818117669493687,
+        0.0015704186100415614
+      ]
+    },
+    "2024": {
+      "p_worse": 0.4051,
+      "ci": [
+        -0.0015573563497158366,
+        0.0010174490416281906
+      ]
+    }
+  },
+  "checks": 86702,
+  "rows": 83160,
+  "scalar_clipped_maxdiff": 2.220446049250313e-16,
+  "split_audit": [
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "train_days": 262,
+      "valid_days": 38
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "train_days": 273,
+      "valid_days": 30
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "train_days": 259,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "train_days": 267,
+      "valid_days": 33
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "train_days": 255,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "train_days": 274,
+      "valid_days": 28
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "train_days": 262,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "train_days": 274,
+      "valid_days": 31
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "train_days": 258,
+      "valid_days": 40
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "train_days": 258,
+      "valid_days": 40
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "train_days": 253,
+      "valid_days": 53
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "train_days": 247,
+      "valid_days": 55
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "train_days": 250,
+      "valid_days": 53
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "train_days": 251,
+      "valid_days": 52
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "train_days": 254,
+      "valid_days": 51
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "train_days": 248,
+      "valid_days": 53
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "train_days": 246,
+      "valid_days": 55
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "train_days": 255,
+      "valid_days": 51
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "train_days": 249,
+      "valid_days": 54
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "train_days": 255,
+      "valid_days": 50
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "train_days": 191,
+      "valid_days": 75
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "train_days": 100,
+      "valid_days": 193
+    }
+  ],
+  "source_sha256": "6a801847b2e19ea30e769798cf4718753c41f56273bdf43de2b6c8dc198b7d1e",
+  "analyzer_sha256": "44996cdc31cbdcab30fe5cf069aaf22a81c3a49376a5519e701ba29fc0d22c03"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "checks": 264,
+  "paired_DIAG0": [
+    {
+      "seed": 7,
+      "paired_folds": 9,
+      "opposite_bias_folds": 7,
+      "correction_at_1_2_min": -0.02194584644526721,
+      "correction_at_1_2_max": 0.01054230833462857,
+      "negative_corrections": 8
+    },
+    {
+      "seed": 101,
+      "paired_folds": 9,
+      "opposite_bias_folds": 7,
+      "correction_at_1_2_min": -0.02278795058127564,
+      "correction_at_1_2_max": 0.008732483897181243,
+      "negative_corrections": 8
+    },
+    {
+      "seed": 2024,
+      "paired_folds": 9,
+      "opposite_bias_folds": 7,
+      "correction_at_1_2_min": -0.02234874394124371,
+      "correction_at_1_2_max": 0.011266917813092619,
+      "negative_corrections": 8
+    }
+  ],
+  "warning": "synthetic prediction level 1.2 is for reading fitted rule only; no tuning; day-fold-seed observations are dependent"
+}

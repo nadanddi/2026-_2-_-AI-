@@ -1,0 +1,53 @@
+DIAG10 0 done
+DIAG10 1 done
+DIAG10 2 done
+DIAG10 3 done
+DIAG10 4 done
+DIAG10 5 done
+DIAG10 6 done
+DIAG10 7 done
+DIAG10 8 done
+DIAG10 9 done
+A 0 done
+A 1 done
+A 2 done
+A 3 done
+A 4 done
+B 0 done
+B 1 done
+B 2 done
+B 3 done
+B 4 done
+EXT10 0 done
+EXT12 0 done
+validator sample  hour     group  observations  weighted_bias  pooled_rmse
+        A  inner     0       all         993.0       0.010430     0.162953
+        A  inner     0 pred_high          45.0       0.103605     0.402767
+        A  inner     0 true_high          51.0      -0.310909     0.412729
+        A  outer     0       all         792.0       0.007015     0.207937
+        A  outer     0 pred_high         116.0      -0.104867     0.379863
+        A  outer     0 true_high         129.0      -0.193061     0.406369
+        B  inner     0       all        1011.0      -0.009454     0.208646
+        B  inner     0 pred_high          60.0      -0.011115     0.397953
+        B  inner     0 true_high          93.0      -0.410345     0.556582
+        B  outer     0       all         789.0      -0.004529     0.196947
+        B  outer     0 pred_high          87.0      -0.069601     0.438508
+        B  outer     0 true_high          87.0      -0.296458     0.438990
+   DIAG10  inner     0       all        2103.0       0.014786     0.188774
+   DIAG10  inner     0 pred_high         168.0       0.098050     0.452841
+   DIAG10  inner     0 true_high         138.0      -0.273875     0.507866
+   DIAG10  outer     0       all        1080.0      -0.007078     0.180245
+   DIAG10  outer     0 pred_high          94.0      -0.082043     0.466545
+   DIAG10  outer     0 true_high          93.0      -0.300475     0.471528
+    EXT10  inner     0       all         150.0      -0.018991     0.136772
+    EXT10  inner     0 pred_high           3.0      -0.169381     0.169878
+    EXT10  inner     0 true_high           6.0      -0.478083     0.569202
+    EXT10  outer     0       all         225.0      -0.108805     0.401436
+    EXT10  outer     0 pred_high           9.0      -0.150278     0.830487
+    EXT10  outer     0 true_high          30.0      -0.949622     1.035284
+    EXT12  inner     0       all          87.0      -0.056657     0.232864
+    EXT12  inner     0 pred_high           0.0            NaN          NaN
+    EXT12  inner     0 true_high           3.0      -1.131457     1.131473
+    EXT12  outer     0       all         579.0      -0.058438     0.401568
+    EXT12  outer     0 pred_high          28.0       0.485532     0.510180
+    EXT12  outer     0 true_high          54.0      -0.994311     1.115467
