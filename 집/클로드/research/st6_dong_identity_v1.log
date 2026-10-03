@@ -1,0 +1,26 @@
+
+F13: pair records 126, LOPO AUC 0.793, second ranked above first in 79% of pairs
+  pass-2 sequence (day:role:P(B)):
+    179.0.0  180.1.0  181.0.9  182.0.0  183.0.9  185.1.0  186.0.4  187.0.4  188.0.5  189.1.0
+    191.0.0  192.0.1  193.0.9  194.0.3  195.0.3  196.0.6  197.0.4  198.1.0  200.0.6  201.0.5
+    202.0.2  203[0.0  204]1.0  205.0.7  206.0.8  207.0.8  208.0.8  209.0.9  211.0.6  212.0.1
+    213[0.0  214]1.0  215.0.1  216[0.0  217]1.0  218.0.3  220[0.0  221]1.0  222[0.0  223]1.0
+    224.0.9  225.1.0  226.0.5  227.0.6  228.0.7  229.0.4  231[0.0  232]1.0  233.0.7  235[0.0
+    236]1.0  237[0.0  238]1.0  239.0.7  241.0.2  242.0.4  243.0.2  244.0.1  245.0.3
+  singletons early: n 61, mean P(B) 0.54, agreement dong==parity(odd=B) 0.51
+  singletons late: n 43, mean P(B) 0.53, agreement dong==parity(odd=B) 0.58
+  EC persistence early: same-dong rho 0.68 (n 168) | other-dong 0.41 (n 170) | same-parity 0.67 (n 169)
+  EC persistence late: same-dong rho 0.41 (n 20) | other-dong -0.13 (n 19) | same-parity 0.15 (n 19)
+
+F47: pair records 128, LOPO AUC 0.924, second ranked above first in 88% of pairs
+  pass-2 sequence (day:role:P(B)):
+    179.1.0  180.1.0  181.0.0  183.0.3  184.0.7  185[0.0  186]1.0  187.1.0  189.0.7  190[0.0
+    191]1.0  192.0.0  193.0.9  194.0.7  195.0.1  196.0.1  198.0.5  199.0.6  200.0.1  201.0.6
+    202.0.2  203.0.7  204.0.2  205.0.5  206.0.9  207.0.4  209.0.4  210.1.0  211[0.0  212]1.0
+    213.0.3  214.0.7  215[0.0  216]1.0  218.0.4  219.0.3  220[0.0  221]1.0  222[0.0  223]1.0
+    224[0.0  225]1.0  226[0.0  227]1.0  229.0.5  230[0.0  231]1.0  233.0.1  234.0.4  235.0.9
+    236.0.4  237.0.6  239.0.0  240.0.0  241.0.7  242.0.8  243.0.2
+  singletons early: n 63, mean P(B) 0.47, agreement dong==parity(odd=B) 0.52
+  singletons late: n 39, mean P(B) 0.47, agreement dong==parity(odd=B) 0.51
+  EC persistence early: same-dong rho 0.90 (n 171) | other-dong 0.44 (n 171) | same-parity 0.81 (n 171)
+  EC persistence late: same-dong rho 0.87 (n 17) | other-dong 0.53 (n 19) | same-parity 0.82 (n 17)
