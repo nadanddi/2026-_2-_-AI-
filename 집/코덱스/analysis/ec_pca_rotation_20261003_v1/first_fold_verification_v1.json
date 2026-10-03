@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "repeat_maxdiff": 0.0,
+  "batch_maxdiff": 0.0,
+  "inverse_maxdiff": 1.5987211554602254e-14,
+  "orthogonality_maxdiff": 1.7763568394002505e-15,
+  "causal": [
+    {
+      "farm": "F13",
+      "hour": 0,
+      "rows": 20,
+      "status": "PASS"
+    },
+    {
+      "farm": "F13",
+      "hour": 6,
+      "rows": 140,
+      "status": "PASS"
+    },
+    {
+      "farm": "F13",
+      "hour": 12,
+      "rows": 260,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 0,
+      "rows": 18,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 6,
+      "rows": 126,
+      "status": "PASS"
+    },
+    {
+      "farm": "F47",
+      "hour": 12,
+      "rows": 234,
+      "status": "PASS"
+    }
+  ],
+  "scope": "first fold seed7 frozen query transform; all38 principal axes retained"
+}
