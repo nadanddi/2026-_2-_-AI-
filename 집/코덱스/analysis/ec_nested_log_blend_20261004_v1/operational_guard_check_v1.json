@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "run_sha256": "0b3bec17176fa4674105745c817a3eb40c07767b9cee43e299715354c0b97f16",
+  "cases": [
+    {
+      "case": "raw_input",
+      "status": "PASS"
+    },
+    {
+      "case": "season",
+      "status": "PASS"
+    },
+    {
+      "case": "copy_and_column_order",
+      "status": "PASS"
+    },
+    {
+      "case": "empty_first_cell",
+      "status": "PASS"
+    },
+    {
+      "case": "partial_first_cell_rejected",
+      "status": "PASS"
+    },
+    {
+      "case": "four_first_artifacts",
+      "status": "PASS"
+    },
+    {
+      "case": "changed_signature_rejected",
+      "status": "PASS"
+    }
+  ],
+  "model_fit": 0,
+  "scope": "synthetic operational guards only"
+}
