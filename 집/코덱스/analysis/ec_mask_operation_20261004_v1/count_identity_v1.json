@@ -1,0 +1,37 @@
+{
+  "status": "PASS_ALGEBRA_ONLY",
+  "rows": 9600,
+  "days": 400,
+  "core_sha256": "057ff4d8da6f3af29105b049251498f79f7fcd6b88d980a8222e5629eb5ce3b2",
+  "dp1_source_sha256": "40d650c639550c09ef96a6be3aae3ef0f969fa1cbd899c787e7724a7f563e86d",
+  "input_sha256": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+  "checks": [
+    {
+      "feature": "vent_open_hours",
+      "existing_feature": "act_vent_tdz",
+      "rows": 9600,
+      "max_abs_error": 1.7763568394002505e-15,
+      "ET_FULL_contains_inputs": true,
+      "LGB_MLP_BASE_contains_history": false
+    },
+    {
+      "feature": "co2_hours",
+      "existing_feature": "act_co2_tdz",
+      "rows": 9600,
+      "max_abs_error": 1.7763568394002505e-15,
+      "ET_FULL_contains_inputs": true,
+      "LGB_MLP_BASE_contains_history": false
+    }
+  ],
+  "comparisons": 19200,
+  "target_use": 0,
+  "fit": 0,
+  "predict": 0,
+  "scores": 0,
+  "limitations": [
+    "Identities rely on observed finite nonnegative controls and complete hour0..h rows.",
+    "Deterministic transforms can improve tree representation despite containing no new information.",
+    "Counts are reconstructible in ET FULL, but history is absent from LGB/MLP BASE.",
+    "No performance attribution, original training-frame replay or feature-removal decision."
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "status": "PASS_FRESH_INPUT_REPLAY",
+  "input_sha256": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+  "dp1_source_sha256": "40d650c639550c09ef96a6be3aae3ef0f969fa1cbd899c787e7724a7f563e86d",
+  "audit_v1_sha256": "958e263bbc43f615559a57e4522da747c5ba487757a5151169e4b91e36e6d886",
+  "audit_v2_sha256": "2b2144a60b1acbb7a21c9e79ddd26454023c5e07d8664cfd30145bc90abb4087",
+  "full_input": {
+    "rows": 9600,
+    "days": 400,
+    "columns": {
+      "act_vent": {
+        "missing": 0,
+        "observed_zero": 4769,
+        "observed_positive": 4831,
+        "negative": 0
+      },
+      "act_thermal": {
+        "missing": 0,
+        "observed_zero": 4111,
+        "observed_positive": 5489,
+        "negative": 0
+      },
+      "act_shade": {
+        "missing": 0,
+        "observed_zero": 3802,
+        "observed_positive": 5798,
+        "negative": 0
+      },
+      "act_heating": {
+        "missing": 0,
+        "observed_zero": 6236,
+        "observed_positive": 3364,
+        "negative": 0
+      },
+      "act_co2": {
+        "missing": 0,
+        "observed_zero": 9074,
+        "observed_positive": 526,
+        "negative": 0
+      }
+    },
+    "incomplete_hour_grids": [],
+    "zero_vs_positive_missing_completion_changed_cells": {
+      "seal_run": 0,
+      "vent_open_hours": 0,
+      "first_open_hour": 0,
+      "thermal_switches": 0,
+      "shade_switches": 0,
+      "since_curtain_change": 0,
+      "heat_run": 0,
+      "co2_hours": 0,
+      "vent_max": 0
+    },
+    "affected_days": [],
+    "independent_replay_elements": 86400
+  },
+  "public_input": {
+    "rows": 8640,
+    "days": 360,
+    "columns": {
+      "act_vent": {
+        "missing": 0,
+        "observed_zero": 4328,
+        "observed_positive": 4312,
+        "negative": 0
+      },
+      "act_thermal": {
+        "missing": 0,
+        "observed_zero": 3728,
+        "observed_positive": 4912,
+        "negative": 0
+      },
+      "act_shade": {
+        "missing": 0,
+        "observed_zero": 3419,
+        "observed_positive": 5221,
+        "negative": 0
+      },
+      "act_heating": {
+        "missing": 0,
+        "observed_zero": 5690,
+        "observed_positive": 2950,
+        "negative": 0
+      },
+      "act_co2": {
+        "missing": 0,
+        "observed_zero": 8163,
+        "observed_positive": 477,
+        "negative": 0
+      }
+    },
+    "incomplete_hour_grids": [],
+    "zero_vs_positive_missing_completion_changed_cells": {
+      "seal_run": 0,
+      "vent_open_hours": 0,
+      "first_open_hour": 0,
+      "thermal_switches": 0,
+      "shade_switches": 0,
+      "since_curtain_change": 0,
+      "heat_run": 0,
+      "co2_hours": 0,
+      "vent_max": 0
+    },
+    "affected_days": [],
+    "independent_replay_elements": 77760
+  },
+  "full_extra": {
+    "finite_values": true,
+    "prefix_comparison_elements": 162000,
+    "strata": [
+      {
+        "farm": "F13",
+        "late": false,
+        "rows": 4104,
+        "days": 171,
+        "missing": {
+          "act_vent": 0,
+          "act_thermal": 0,
+          "act_shade": 0,
+          "act_heating": 0,
+          "act_co2": 0
+        }
+      },
+      {
+        "farm": "F13",
+        "late": true,
+        "rows": 696,
+        "days": 29,
+        "missing": {
+          "act_vent": 0,
+          "act_thermal": 0,
+          "act_shade": 0,
+          "act_heating": 0,
+          "act_co2": 0
+        }
+      },
+      {
+        "farm": "F47",
+        "late": false,
+        "rows": 4152,
+        "days": 173,
+        "missing": {
+          "act_vent": 0,
+          "act_thermal": 0,
+          "act_shade": 0,
+          "act_heating": 0,
+          "act_co2": 0
+        }
+      },
+      {
+        "farm": "F47",
+        "late": true,
+        "rows": 648,
+        "days": 27,
+        "missing": {
+          "act_vent": 0,
+          "act_thermal": 0,
+          "act_shade": 0,
+          "act_heating": 0,
+          "act_co2": 0
+        }
+      }
+    ]
+  },
+  "public_extra": {
+    "finite_values": true,
+    "prefix_comparison_elements": 145800,
+    "strata": [
+      {
+        "farm": "F13",
+        "late": false,
+        "rows": 3744,
+        "days": 156,
+        "missing": {
+          "act_vent": 0,
+          "act_thermal": 0,
+          "act_shade": 0,
+          "act_heating": 0,
+          "act_co2": 0
+        }
+      },
+      {
+        "farm": "F13",
+        "late": true,
+        "rows": 576,
+        "days": 24,
+        "missing": {
+          "act_vent": 0,
+          "act_thermal": 0,
+          "act_shade": 0,
+          "act_heating": 0,
+          "act_co2": 0
+        }
+      },
+      {
+        "farm": "F47",
+        "late": false,
+        "rows": 3792,
+        "days": 158,
+        "missing": {
+          "act_vent": 0,
+          "act_thermal": 0,
+          "act_shade": 0,
+          "act_heating": 0,
+          "act_co2": 0
+        }
+      },
+      {
+        "farm": "F47",
+        "late": true,
+        "rows": 528,
+        "days": 22,
+        "missing": {
+          "act_vent": 0,
+          "act_thermal": 0,
+          "act_shade": 0,
+          "act_heating": 0,
+          "act_co2": 0
+        }
+      }
+    ]
+  },
+  "numeric_targets_used": 0,
+  "target_fields_queried": 0,
+  "test_reads": 0,
+  "fit": 0,
+  "predict": 0,
+  "scores": 0,
+  "limitations": [
+    "Public CSV lines are parsed as strings, but target fields are never queried or converted.",
+    "Same-implementation rerun confirms reproducibility; v1 scalar and CSV parser are separate numerical checks.",
+    "Prefix replay covers these operation features only, not all model features or predictions.",
+    "No original DP1 training-frame replay, unseen holdout or causal effect test."
+  ]
+}
