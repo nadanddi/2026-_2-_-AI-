@@ -1,5 +1,7 @@
 # HANDOFF — 지금 상태 (세션마다 갱신)
 
+> **2026-10-04 21:03 집 코덱스:** 사용자 「1,2번 진행해봐」 실행 준비. family22 최종 prefix·clip 손실 잔차MLP와 family23 같은MLP/raw손실 대조, family24 정규화 정확 Tweedie 잎을 각각 사전 고정한다(모두 엄격15·alpha .025/24). 기존 matched inner22CPU/88PFN 재사용은 orderedID/purge/문맥/SHA로 검증, 새로운 외부 정답 선택0. #1 실제ECfit아직0, #2 own-local C++ overlay 빌드 중(한글컴파일러경로 오류 v1 보존, ASCII 임시별명으로 새v2 보완); 전역설치/원DLL변경0. family21 별도 Decimal/scalar/bootstrap 검산까지 완료·기각, 카탈로그6.292. 실제계절v2 일수준오차 진단 own ec_daily_level_audit 최종v3/독립핵심3숫자 PASS: 일반329일 92.3194%·상위10일42.8153%, 고EC31일78.4076% 일수준(사후통계/인과·달성가능성 증거 아님). Claude 최신5c05307 SI1 진행중 readonly 확인·중복0. family20 기존20860 직접poll live·재시작0, monitor ACTIVE·EC연구목표미완료·새제출0.
+
 > **2026-10-04 20:31 집 코덱스:** family21 tool70793/whole10249 정상exit0·66셀83160행/2987894검산PASS이나고정엄격15방향불충족으로whole REJECT. DIAG시드혼합/B3악화·새후처리/문턱완화0. 독립fresh결과비평진행중,그뒤정식보고서/카탈로그새번호. Claude완료시각재갱신91ef6c2 이후새결과없음. 다음LGB Newton잎vs정확잎근거검토(정보준비만). family20 기존live worker20860/monitor ACTIVE·목표미완료·새제출0.
 
 > **2026-10-04 20:26 집 코덱스:** family21 run_v3 actual tool70793 시작·직접poll live, 원LGB14再現→운영23 first감사→전체66 순서/부분점수0. main ca9d339/07bc82a 최초fit전등록·wholev3 a888c783… pins/합성40292+혼합120060/19오염거부·독립비평수용. 전체완료후verify_full_v3 --verify/독립교차검산→Claude새갱신. family20 tool20860도live·재시작0. 카탈로그6.290·monitor ACTIVE·전체EC목표미완료·새제출0.

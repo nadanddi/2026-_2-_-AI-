@@ -1,0 +1,16 @@
+{
+  "status": "PASS_SYNTHETIC_CACHE_DIVERGENCE",
+  "rows": 80,
+  "trees": 1,
+  "leaf_count": 4,
+  "added_raw_score": 0.125,
+  "inference_delta_error": 0.0,
+  "cached_training_output_delta": 0.0,
+  "ec_reads": 0,
+  "ec_fit": 0,
+  "ec_score": 0,
+  "synthetic_fit": 1,
+  "lightgbm_version": "4.7.0",
+  "source_sha256": "8fae4deea041092ed5624f3b64a4472830138bcd54696f7c9057f795b54d9660",
+  "limitation": "One synthetic tree; private cache accessor; does not test a custom optimizer or EC improvement."
+}

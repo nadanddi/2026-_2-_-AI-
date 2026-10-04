@@ -1,0 +1,54 @@
+{
+  "scope": "primary literature and official tag source only; actual EC data/score zero",
+  "papers": [
+    {
+      "title": "TDboost",
+      "url": "https://arxiv.org/pdf/1508.06378v3",
+      "version": "v3; arXiv 2016-04-20",
+      "read": "4.1 equations 11-19; 5; 6.2-6.3",
+      "limits": "not full appendix or author package execution; no EC RMSE evidence"
+    },
+    {
+      "title": "Gradient and Newton Boosting",
+      "url": "https://arxiv.org/pdf/1808.03064v7",
+      "version": "v7; arXiv 2020-10-20",
+      "read": "2.1.1-2.1.5; 2.4-2.4.1; 3; 4.2-4.3; 5",
+      "limits": "not full appendix recomputation; regression metric mostly NLL"
+    },
+    {
+      "title": "Autocalibration and Tweedie-dominance",
+      "url": "https://arxiv.org/pdf/2103.03635v2",
+      "version": "v2; arXiv 2021-07-09",
+      "read": "3-5.2; 6; 7",
+      "limits": "no author code execution; local calibration overlaps existing attempts"
+    }
+  ],
+  "official_sources": [
+    "https://github.com/lightgbm-org/LightGBM/blob/v4.7.0/src/objective/regression_objective.hpp",
+    "https://github.com/lightgbm-org/LightGBM/blob/v4.7.0/include/LightGBM/objective_function.h",
+    "https://github.com/lightgbm-org/LightGBM/blob/v4.7.0/src/treelearner/feature_histogram.hpp"
+  ],
+  "duplicate_catalog": [
+    "6.143",
+    "6.177",
+    "6.257",
+    "6.259-6.266",
+    "6.267-6.268",
+    "6.271",
+    "6.292"
+  ],
+  "catalog_latest_at_final_guard": "6.293",
+  "local_dll_build_audit": false,
+  "actual_data_reads": 0,
+  "fit": 0,
+  "predict": 0,
+  "ec_score": 0,
+  "report": "문헌후속_v2.md",
+  "artifact_hashes": {
+    "검산_문헌수식_v1a.py": "1337b984e0fae634cdb9f3fd0806e542890a820f3e735e07d86f3723517a16e9",
+    "문헌수식_합성검산_v1.json": "c93316ca678375d38fcd90a7c5164432f8b0cdb73a327f2049ab87a1fa218ce5",
+    "문헌_독립검산_v2.py": "a6eaa8f36406755e3cf5ad382c4c2b9f77d3308b51422936ff69363f42c6028a",
+    "문헌후속_v1.md": "a548a6851184e5841506a096b78556c5ec3c854b4b922841f315ba21acb2a270",
+    "문헌후속_v2.md": "d1a73254ecf1dda5ba6a947174bc208c15a71939289deaa1a5a540a36bb30368"
+  }
+}

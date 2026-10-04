@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "scope": "synthetic algebra only; zero EC data or score",
+  "checks": 20,
+  "catalog_latest_at_execution": "6.291",
+  "source_sha256": "1337b984e0fae634cdb9f3fd0806e542890a820f3e735e07d86f3723517a16e9",
+  "synthetic_leaf": {
+    "y": [
+      0.25,
+      0.25,
+      4.0
+    ],
+    "mu": [
+      0.25,
+      0.25,
+      0.25
+    ],
+    "aa": 9.0,
+    "bb": 1.5,
+    "expected_mean": 1.5,
+    "exact_unregularized_log_increment": 1.791759469228055,
+    "comparisons": [
+      {
+        "lambda_l2": 0.0,
+        "newton_log_increment": 1.4285714285714286,
+        "exact_log_increment": 1.791759469228055,
+        "derivative_at_newton": -1.3417843306133657,
+        "derivative_at_exact": -4.440892098500626e-16
+      },
+      {
+        "lambda_l2": 1.0,
+        "newton_log_increment": 1.2,
+        "exact_log_increment": 1.4102545997122466,
+        "derivative_at_newton": -1.0061265242604749,
+        "derivative_at_exact": -4.440892098500626e-16
+      }
+    ]
+  },
+  "prefix_constant_level_preserved": true,
+  "coupled_gradient": [
+    -0.14774305555555553,
+    -0.12274305555555554,
+    -0.02690972222222223,
+    -0.023437499999999986
+  ],
+  "coupled_hessian": [
+    [
+      1.1059027777777777,
+      0.2309027777777778,
+      0.1267361111111111,
+      0.078125
+    ],
+    [
+      0.2309027777777778,
+      0.6059027777777778,
+      0.1267361111111111,
+      0.078125
+    ],
+    [
+      0.1267361111111111,
+      0.1267361111111111,
+      0.4600694444444444,
+      0.078125
+    ],
+    [
+      0.078125,
+      0.078125,
+      0.078125,
+      0.390625
+    ]
+  ],
+  "coupled_hessian_is_diagonal": false,
+  "experiment_fit": 0,
+  "experiment_predict": 0,
+  "EC_score": 0,
+  "limits": [
+    "No installed LightGBM source or actual fitted leaf was audited.",
+    "Exact scalar leaf minimization does not establish EC RMSE improvement.",
+    "Gradient/Hessian proof omits final clipping; it is not a full clipped-loss optimizer."
+  ]
+}

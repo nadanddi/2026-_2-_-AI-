@@ -1,0 +1,43 @@
+{
+  "config": {
+    "kind": "POSTHOC_DESCRIPTIVE_NO_ADOPTION",
+    "validator": "DIAG10",
+    "seeds": [
+      7,
+      101,
+      2024
+    ],
+    "models": [
+      "baseline",
+      "candidate"
+    ],
+    "seedmean": "mean predictions per row before calculating error; not mean losses",
+    "error": "prediction minus public y",
+    "daykey": [
+      "farm",
+      "day"
+    ],
+    "sse_identity": "sum(e^2)=n*mean(e)^2+sum((e-mean(e))^2) per farm/day",
+    "high": "mean public y per farm/day >=1",
+    "ordinary": "mean public y per farm/day <1",
+    "closed": "mean of raw act_vent==0 across 24hours; closed if fraction>=.8",
+    "pass2": "day>=179",
+    "concentration": "rank daily SSE descending within segment; ties farm/day ascending; top10 and top65 capped at segment days",
+    "groups": [
+      "all",
+      "high",
+      "ordinary",
+      "farm x pass within each segment",
+      "closed>=.8 vs rest within each segment",
+      "closed x farm x pass within each segment"
+    ],
+    "inference": "no hypothesis tests; no causal or information-absence claim",
+    "no_dong": true,
+    "adoption_changes": 0,
+    "nd0_original_sealed": "mean raw act_circfan<10 AND ventzero fraction>.85; distinct from alternative closed>=.8",
+    "sd0_error_group": "closed>=.8 days; OVER daybias>=.15, UNDER daybias<=-.15, OK otherwise; purely diagnostic"
+  },
+  "source_sha256": "9805b35d5a57df0c09da83a53801cb9d55fdf15131a65f4e7fe8585d2a311558",
+  "fit": 0,
+  "predict": 0
+}

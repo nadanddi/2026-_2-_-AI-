@@ -1,0 +1,90 @@
+{
+  "status": "PASS_MATH_ONLY",
+  "checks": [
+    {
+      "A": 1.0,
+      "B": 1.0,
+      "lambda_l2": 0.0,
+      "newton": 0.0,
+      "exact": 1.1102230246251565e-16,
+      "eta03_newton": 0.0,
+      "eta03_exact": 3.3306690738754695e-18,
+      "gradient_finite_difference": 0.0
+    },
+    {
+      "A": 1.0,
+      "B": 1.0,
+      "lambda_l2": 1.0,
+      "newton": 0.0,
+      "exact": 3.111507638930571e-59,
+      "eta03_newton": 0.0,
+      "eta03_exact": 9.334522916791713e-61,
+      "gradient_finite_difference": 0.0
+    },
+    {
+      "A": 100.0,
+      "B": 1.0,
+      "lambda_l2": 0.0,
+      "newton": 1.9603960396039604,
+      "exact": 4.605170185988092,
+      "eta03_newton": 0.05881188118811881,
+      "eta03_exact": 0.13815510557964275,
+      "gradient_finite_difference": -99.00000000158114
+    },
+    {
+      "A": 100.0,
+      "B": 1.0,
+      "lambda_l2": 1.0,
+      "newton": 1.9223300970873787,
+      "exact": 4.189249631264033,
+      "eta03_newton": 0.057669902912621356,
+      "eta03_exact": 0.125677488937921,
+      "gradient_finite_difference": -99.00000000158114
+    },
+    {
+      "A": 1.0,
+      "B": 100.0,
+      "lambda_l2": 0.0,
+      "newton": -1.9603960396039604,
+      "exact": -4.605170185988092,
+      "eta03_newton": -0.05881188118811881,
+      "eta03_exact": -0.13815510557964275,
+      "gradient_finite_difference": 99.00000000158114
+    },
+    {
+      "A": 1.0,
+      "B": 100.0,
+      "lambda_l2": 1.0,
+      "newton": -1.9223300970873787,
+      "exact": -4.189249631264033,
+      "eta03_newton": -0.057669902912621356,
+      "eta03_exact": -0.125677488937921,
+      "gradient_finite_difference": 99.00000000158114
+    },
+    {
+      "A": 3.0,
+      "B": 2.0,
+      "lambda_l2": 0.0,
+      "newton": 0.4,
+      "exact": 0.4054651081081644,
+      "eta03_newton": 0.012,
+      "eta03_exact": 0.012163953243244931,
+      "gradient_finite_difference": -1.0000000000509601
+    },
+    {
+      "A": 3.0,
+      "B": 2.0,
+      "lambda_l2": 1.0,
+      "newton": 0.2857142857142857,
+      "exact": 0.28796960582539155,
+      "eta03_newton": 0.00857142857142857,
+      "eta03_exact": 0.008639088174761746,
+      "gradient_finite_difference": -1.0000000000509601
+    }
+  ],
+  "actual_data_reads": 0,
+  "fit": 0,
+  "predict": 0,
+  "scores": 0,
+  "source_core_sha256": "057ff4d8da6f3af29105b049251498f79f7fcd6b88d980a8222e5629eb5ce3b2"
+}

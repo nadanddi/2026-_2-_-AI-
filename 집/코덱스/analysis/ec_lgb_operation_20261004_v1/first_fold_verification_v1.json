@@ -1,0 +1,230 @@
+{
+  "status": "PASS",
+  "original_lgb_maxdiff": 0.0,
+  "raw_errors": {
+    "repeat": 0.0,
+    "fresh_fit": 0.0,
+    "single": 0.0,
+    "reversed": 0.0,
+    "other_query": 0.0
+  },
+  "scalar_maxdiff": 1.1102230246251565e-16,
+  "prefix": [
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 0,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 6,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 12,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 0,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 6,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 12,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    }
+  ],
+  "feature_causal": [
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 0,
+      "feature_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 6,
+      "feature_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 12,
+      "feature_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 0,
+      "feature_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 6,
+      "feature_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 12,
+      "feature_maxdiff": 0.0
+    }
+  ],
+  "atol": 1e-12,
+  "signature": {
+    "validator": "DIAG10",
+    "fold": 0,
+    "runtime": {
+      "python": "3.12.14",
+      "numpy": "2.5.3",
+      "pandas": "3.0.1",
+      "sklearn": "1.9.1",
+      "lightgbm": "4.7.0"
+    },
+    "dependencies": {
+      "run": "03f9f6030fe3fbe84625b1c9dfef592ba6c265a87016ef1a61ac7cbae2f7e5a4",
+      "core": "057ff4d8da6f3af29105b049251498f79f7fcd6b88d980a8222e5629eb5ce3b2",
+      "support": "82074e7a04ea681bc94e94e1c90354a743609e0f008b1a378a5a9a23575debed",
+      "dp1": "40d650c639550c09ef96a6be3aae3ef0f969fa1cbd899c787e7724a7f563e86d",
+      "season": "7d58feeb6a0e7653796a6775f762b659cab3e64078b299d36b52ae69faeff162",
+      "env": "82ca7b4bda2e9f50069b53b92d8418a7c0d4dd5ce7127fade16dd6ea78a8dcd2",
+      "original_guard": "e5398b7c29eae32a4efc75381f7478cb1937e28bb4e61db1c1989016d732d9d9"
+    },
+    "inputs": {
+      "train_X": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+      "public_oof": "a3c375e3bd8926598ece14f218de505d120ccad2baba92ae4fa9093693de92fa"
+    },
+    "cache_hashes": {
+      "집\\코덱스\\local\\ec_tabpfn35_20261003_v1\\DIAG10_0_baseline.npz": "1d2e0730247ef58325e3fbcb061feb15f4027846d9445b92a2d443788fb5139a",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_1.npz": "5cc6223bfce0abe81c75fbd27b0830ba3ea9eaad267d0ea9e5e289c4811528d5",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_2.npz": "490fdea2022748c65f76636aefe143d7f9f5591f1df6b2c7f08e076e4b17ada0",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_3.npz": "f32c566cde91e8e712c24ab26abd3a97e8a9b7489734013c5bc7a3f5057c5fc8",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_4.npz": "e1d7a17cc486c94bc738eb38912779b1a42d9cee54668f1f84beb8be7e786e70",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_7.npz": "b94ecacf52b5fdde4d2764519416f02bc07583e37a2c8f720507d0fb05d4fa75",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_7.json": "11280ebd82f8b33e1e4dfec9d1087a58d3bd898b2f52758b2b75097a67d2464d",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_101.npz": "e692b4893698f8eb0a23a6c448f8591f306a59f56a5041cf6ba2316cd0c1bef4",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_101.json": "2cd1550a120e0510a25131afbb570617afafeb4a532236f7b09026d69e403d56",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_2024.npz": "756ae0603b86f70f23980900d799bee37a577558adaba390e864351835191644",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_2024.json": "afc59fe2159a4a36f60512703a6b76b77586c7098a5dfc44b606622ba1904346"
+    },
+    "full_features": [
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "act_vent",
+      "act_shade",
+      "act_thermal",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "hr_sin",
+      "hr_cos",
+      "midnight",
+      "act_vent_h0",
+      "act_shade_h0",
+      "act_thermal_h0",
+      "act_heating_h0",
+      "act_circfan_h0",
+      "act_co2_h0",
+      "act_fog_h0",
+      "in_temp_h0",
+      "in_hum_h0",
+      "in_co2_h0",
+      "act_vent_tdm",
+      "act_vent_tdz",
+      "act_shade_tdm",
+      "act_shade_tdz",
+      "act_thermal_tdm",
+      "act_thermal_tdz",
+      "act_heating_tdm",
+      "act_heating_tdz",
+      "act_circfan_tdm",
+      "act_circfan_tdz",
+      "act_co2_tdm",
+      "act_co2_tdz",
+      "act_fog_tdm",
+      "act_fog_tdz",
+      "season"
+    ],
+    "old_lgb_features": [
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "act_vent",
+      "act_shade",
+      "act_thermal",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "hr_sin",
+      "hr_cos",
+      "midnight",
+      "season"
+    ],
+    "new_lgb_features": [
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "act_vent",
+      "act_shade",
+      "act_thermal",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "hr_sin",
+      "hr_cos",
+      "midnight",
+      "season",
+      "seal_run",
+      "vent_open_hours",
+      "first_open_hour",
+      "thermal_switches",
+      "shade_switches",
+      "since_curtain_change",
+      "heat_run",
+      "co2_hours",
+      "vent_max"
+    ],
+    "train_ids": "4b08a7dbef6931b84977e26293e2e14143716eb5fced45dc1ba5890d5bf3df4f",
+    "query_ids": "634c7ed25fa65d2b333da560f82657121b41dcf7e3c5ba5dc57a23639e82e5e6",
+    "bounds": [
+      0.063,
+      3.232
+    ],
+    "train_targets": "f8c4414a1b07b8021dc9a1a42c2846b19f63b7ee615230d5a681ae55aa1e9f63",
+    "train_full38": "8f13f1d639d531ee5a9caa6766c91541783f0b26ae34f6740161f22e1b0db092",
+    "train_old14": "afd754472d95ca763207feaf8e8169db1e48956cbd4c014c96a85d43a1c96a6c",
+    "train_new23": "1768639228ff39f84fe694b22d2b59a48af58df982137f2d39f6444a14276f09",
+    "query_targets": "fb68669a9f95e5634faf969bac79d6ed8ee0ad5c61514cf5c82afe04c1197fb1",
+    "query_full38": "49f5ff2c435e7f637bdd3cca66036c8a72afa1356dace17f02e4e2b089e625df",
+    "query_old14": "df48b016fc6291399743851882749b0c0ee22c4b0c2ba83c3fbdbfbfec07080b",
+    "query_new23": "a181a6b2e207cb0faa99e767c8ab6c1062b938b11d6dafe2ada1837c6691cb99",
+    "seed": 7,
+    "preparation_sha256": "6a5bf8b1f30b73d11d63cad8b52a8f2c61aa5b4299355bd825b9232c9aebdea2",
+    "preregistration_sha256": "381719e67e40495a9f07d74a26184f543950965dd82f701ef4aaef118879bff3"
+  }
+}
