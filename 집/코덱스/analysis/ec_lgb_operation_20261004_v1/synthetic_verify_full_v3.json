@@ -1,0 +1,43 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "corruption_rejected": 13,
+  "checks": 40292,
+  "bootstrap": {
+    "p_worse": 0.0,
+    "ci_adjusted": [
+      -0.18999999999999992,
+      -0.18999999999999992
+    ],
+    "ci95": [
+      -0.18999999999999992,
+      -0.18999999999999992
+    ],
+    "independent": {
+      "p_worse": 0.0,
+      "ci_adjusted": [
+        -0.18999999999999992,
+        -0.18999999999999992
+      ],
+      "ci95": [
+        -0.18999999999999992,
+        -0.18999999999999992
+      ]
+    },
+    "draws": 20000,
+    "rng_seed": 20261010,
+    "block_days": 5,
+    "blocks": {
+      "F13": 36,
+      "F47": 36
+    },
+    "quantile_method": "linear",
+    "adjusted_quantiles": [
+      0.0011904761904761906,
+      0.9988095238095238
+    ]
+  },
+  "fit": 0,
+  "predict": 0,
+  "actual_candidate_reads": 0,
+  "real_score": 0
+}
