@@ -1,0 +1,14 @@
+{
+  "status": "STOP_BEFORE_CANDIDATE_CSV_OR_SCORE",
+  "reason": "Public original v2 CSV has UTF8 BOM; stdlib csv header required utf-8-sig",
+  "failed_source_sha256": "0259e287cd76aa0301078a9ab0c3fde0b354de3332a5fab6b1c43a8c55a6249c",
+  "replacement_source_sha256": "9643a9ae6958a93d205f43e99175b137e0813347c53511964bf200e685c3d803",
+  "changes": [
+    "CSV decoding utf-8 -> utf-8-sig",
+    "new result filename v5"
+  ],
+  "actual_fit": 0,
+  "native_predict": 0,
+  "candidate_score": 0,
+  "source_model_threshold_modified": false
+}

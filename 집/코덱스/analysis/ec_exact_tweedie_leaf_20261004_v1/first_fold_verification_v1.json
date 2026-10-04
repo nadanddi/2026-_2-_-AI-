@@ -1,0 +1,4240 @@
+{
+  "status": "PASS",
+  "original_lgb_maxdiff": 0.0,
+  "raw_errors": {
+    "repeat": 0.0,
+    "fresh_fit": 0.0,
+    "single": 0.0,
+    "reversed": 0.0,
+    "other_query": 0.0
+  },
+  "scalar_maxdiff": 1.1102230246251565e-16,
+  "prefix": [
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 0,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 6,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 12,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 0,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 6,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 12,
+      "raw_maxdiff": 0.0,
+      "final_maxdiff": 0.0
+    }
+  ],
+  "feature_causal": [
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 0,
+      "feature_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 6,
+      "feature_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 12,
+      "feature_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 0,
+      "feature_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 6,
+      "feature_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 12,
+      "feature_maxdiff": 0.0
+    }
+  ],
+  "atol": 1e-12,
+  "cpp_audit": {
+    "status": "PASS",
+    "tree_count": 800,
+    "groups": [
+      {
+        "iteration": 0,
+        "inbag_count": 5039,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 1,
+        "inbag_count": 5004,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 2,
+        "inbag_count": 5037,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 3,
+        "inbag_count": 4982,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 4,
+        "inbag_count": 5059,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 5,
+        "inbag_count": 5051,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 6,
+        "inbag_count": 4963,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 7,
+        "inbag_count": 5039,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 8,
+        "inbag_count": 4963,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 9,
+        "inbag_count": 5044,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 10,
+        "inbag_count": 4987,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 11,
+        "inbag_count": 5059,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 12,
+        "inbag_count": 4971,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 13,
+        "inbag_count": 5103,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 14,
+        "inbag_count": 5055,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 15,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 16,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 17,
+        "inbag_count": 5000,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 18,
+        "inbag_count": 5034,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 19,
+        "inbag_count": 5010,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 20,
+        "inbag_count": 5054,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 21,
+        "inbag_count": 5017,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 22,
+        "inbag_count": 4975,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 23,
+        "inbag_count": 4997,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 24,
+        "inbag_count": 5019,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 25,
+        "inbag_count": 5067,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 26,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 27,
+        "inbag_count": 5024,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 28,
+        "inbag_count": 5004,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 29,
+        "inbag_count": 5085,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 30,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 31,
+        "inbag_count": 5005,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 32,
+        "inbag_count": 5062,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 33,
+        "inbag_count": 5084,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 34,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 35,
+        "inbag_count": 4979,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 36,
+        "inbag_count": 5028,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 37,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 38,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 39,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 40,
+        "inbag_count": 5013,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 41,
+        "inbag_count": 4985,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 42,
+        "inbag_count": 5003,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 43,
+        "inbag_count": 5075,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 44,
+        "inbag_count": 5013,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 45,
+        "inbag_count": 5063,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 46,
+        "inbag_count": 5011,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 47,
+        "inbag_count": 5044,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 48,
+        "inbag_count": 4964,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 49,
+        "inbag_count": 4994,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 50,
+        "inbag_count": 5115,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 51,
+        "inbag_count": 5071,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 52,
+        "inbag_count": 4994,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 53,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 54,
+        "inbag_count": 5088,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 55,
+        "inbag_count": 5062,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 56,
+        "inbag_count": 5016,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 57,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 58,
+        "inbag_count": 5016,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 59,
+        "inbag_count": 5006,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 60,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 61,
+        "inbag_count": 5074,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 62,
+        "inbag_count": 5040,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 63,
+        "inbag_count": 5010,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 64,
+        "inbag_count": 4990,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 65,
+        "inbag_count": 4987,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 66,
+        "inbag_count": 4993,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 67,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 68,
+        "inbag_count": 5036,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 69,
+        "inbag_count": 4997,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 70,
+        "inbag_count": 5004,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 71,
+        "inbag_count": 5056,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 72,
+        "inbag_count": 5073,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 73,
+        "inbag_count": 5006,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 74,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 75,
+        "inbag_count": 5025,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 76,
+        "inbag_count": 5013,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 77,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 78,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 79,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 80,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 81,
+        "inbag_count": 5056,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 82,
+        "inbag_count": 5022,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 83,
+        "inbag_count": 5089,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 84,
+        "inbag_count": 4987,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 85,
+        "inbag_count": 4993,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 86,
+        "inbag_count": 5091,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 87,
+        "inbag_count": 5025,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 88,
+        "inbag_count": 5065,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 89,
+        "inbag_count": 5051,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 90,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 91,
+        "inbag_count": 5057,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 92,
+        "inbag_count": 5012,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 93,
+        "inbag_count": 5058,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 94,
+        "inbag_count": 4982,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 95,
+        "inbag_count": 5002,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 96,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 97,
+        "inbag_count": 4994,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 98,
+        "inbag_count": 5019,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 99,
+        "inbag_count": 5009,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 100,
+        "inbag_count": 5022,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 101,
+        "inbag_count": 4999,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 102,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 103,
+        "inbag_count": 4992,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 104,
+        "inbag_count": 5063,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 105,
+        "inbag_count": 5018,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 106,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 107,
+        "inbag_count": 5083,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 108,
+        "inbag_count": 5083,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 109,
+        "inbag_count": 4982,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 110,
+        "inbag_count": 4967,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 111,
+        "inbag_count": 4984,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 112,
+        "inbag_count": 4994,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 113,
+        "inbag_count": 5031,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 114,
+        "inbag_count": 5007,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 115,
+        "inbag_count": 4993,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 116,
+        "inbag_count": 5063,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 117,
+        "inbag_count": 5033,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 118,
+        "inbag_count": 5042,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 119,
+        "inbag_count": 5011,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 120,
+        "inbag_count": 5024,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 121,
+        "inbag_count": 5083,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 122,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 123,
+        "inbag_count": 4990,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 124,
+        "inbag_count": 5071,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 125,
+        "inbag_count": 5058,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 126,
+        "inbag_count": 5017,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 127,
+        "inbag_count": 5072,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 128,
+        "inbag_count": 5047,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 129,
+        "inbag_count": 5029,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 130,
+        "inbag_count": 5006,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 131,
+        "inbag_count": 5070,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 132,
+        "inbag_count": 4998,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 133,
+        "inbag_count": 5062,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 134,
+        "inbag_count": 4996,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 135,
+        "inbag_count": 4990,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 136,
+        "inbag_count": 5045,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 137,
+        "inbag_count": 5035,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 138,
+        "inbag_count": 4992,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 139,
+        "inbag_count": 5049,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 140,
+        "inbag_count": 5035,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 141,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 142,
+        "inbag_count": 5031,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 143,
+        "inbag_count": 5015,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 144,
+        "inbag_count": 5016,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 145,
+        "inbag_count": 4992,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 146,
+        "inbag_count": 5071,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 147,
+        "inbag_count": 5010,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 148,
+        "inbag_count": 5056,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 149,
+        "inbag_count": 5006,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 150,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 151,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 152,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 153,
+        "inbag_count": 4968,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 154,
+        "inbag_count": 5036,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 155,
+        "inbag_count": 4994,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 156,
+        "inbag_count": 4975,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 157,
+        "inbag_count": 5037,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 158,
+        "inbag_count": 5073,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 159,
+        "inbag_count": 5051,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 160,
+        "inbag_count": 4971,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 161,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 162,
+        "inbag_count": 5039,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 163,
+        "inbag_count": 4969,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 164,
+        "inbag_count": 5071,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 165,
+        "inbag_count": 4986,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 166,
+        "inbag_count": 5000,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 167,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 168,
+        "inbag_count": 5001,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 169,
+        "inbag_count": 5132,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 170,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 171,
+        "inbag_count": 5054,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 172,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 173,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 174,
+        "inbag_count": 5070,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 175,
+        "inbag_count": 5000,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 176,
+        "inbag_count": 5111,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 177,
+        "inbag_count": 5063,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 178,
+        "inbag_count": 4996,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 179,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 180,
+        "inbag_count": 5039,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 181,
+        "inbag_count": 5052,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 182,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 183,
+        "inbag_count": 5058,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 184,
+        "inbag_count": 4983,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 185,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 186,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 187,
+        "inbag_count": 5078,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 188,
+        "inbag_count": 5002,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 189,
+        "inbag_count": 5036,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 190,
+        "inbag_count": 5012,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 191,
+        "inbag_count": 5006,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 192,
+        "inbag_count": 5076,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 193,
+        "inbag_count": 4998,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 194,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 195,
+        "inbag_count": 5018,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 196,
+        "inbag_count": 5017,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 197,
+        "inbag_count": 5094,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 198,
+        "inbag_count": 5002,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 199,
+        "inbag_count": 5041,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 200,
+        "inbag_count": 5079,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 201,
+        "inbag_count": 5000,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 202,
+        "inbag_count": 4984,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 203,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 204,
+        "inbag_count": 5058,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 205,
+        "inbag_count": 5079,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 206,
+        "inbag_count": 5007,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 207,
+        "inbag_count": 5001,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 208,
+        "inbag_count": 5023,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 209,
+        "inbag_count": 5028,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 210,
+        "inbag_count": 5051,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 211,
+        "inbag_count": 5044,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 212,
+        "inbag_count": 4999,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 213,
+        "inbag_count": 5020,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 214,
+        "inbag_count": 5012,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 215,
+        "inbag_count": 5047,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 216,
+        "inbag_count": 5049,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 217,
+        "inbag_count": 5064,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 218,
+        "inbag_count": 5029,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 219,
+        "inbag_count": 5022,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 220,
+        "inbag_count": 5020,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 221,
+        "inbag_count": 5025,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 222,
+        "inbag_count": 5017,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 223,
+        "inbag_count": 5062,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 224,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 225,
+        "inbag_count": 5028,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 226,
+        "inbag_count": 5036,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 227,
+        "inbag_count": 4992,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 228,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 229,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 230,
+        "inbag_count": 4975,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 231,
+        "inbag_count": 5017,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 232,
+        "inbag_count": 5020,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 233,
+        "inbag_count": 4989,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 234,
+        "inbag_count": 4986,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 235,
+        "inbag_count": 5039,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 236,
+        "inbag_count": 5047,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 237,
+        "inbag_count": 5001,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 238,
+        "inbag_count": 5109,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 239,
+        "inbag_count": 5039,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 240,
+        "inbag_count": 5010,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 241,
+        "inbag_count": 5028,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 242,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 243,
+        "inbag_count": 5039,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 244,
+        "inbag_count": 5059,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 245,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 246,
+        "inbag_count": 5039,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 247,
+        "inbag_count": 5003,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 248,
+        "inbag_count": 5039,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 249,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 250,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 251,
+        "inbag_count": 5047,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 252,
+        "inbag_count": 5083,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 253,
+        "inbag_count": 5068,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 254,
+        "inbag_count": 5031,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 255,
+        "inbag_count": 5045,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 256,
+        "inbag_count": 4998,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 257,
+        "inbag_count": 5028,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 258,
+        "inbag_count": 4991,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 259,
+        "inbag_count": 5059,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 260,
+        "inbag_count": 5061,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 261,
+        "inbag_count": 5002,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 262,
+        "inbag_count": 4963,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 263,
+        "inbag_count": 4986,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 264,
+        "inbag_count": 5047,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 265,
+        "inbag_count": 5065,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 266,
+        "inbag_count": 5074,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 267,
+        "inbag_count": 4976,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 268,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 269,
+        "inbag_count": 5079,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 270,
+        "inbag_count": 5036,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 271,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 272,
+        "inbag_count": 5071,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 273,
+        "inbag_count": 5014,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 274,
+        "inbag_count": 5018,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 275,
+        "inbag_count": 5029,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 276,
+        "inbag_count": 5042,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 277,
+        "inbag_count": 5025,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 278,
+        "inbag_count": 5040,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 279,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 280,
+        "inbag_count": 5050,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 281,
+        "inbag_count": 5020,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 282,
+        "inbag_count": 5050,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 283,
+        "inbag_count": 4959,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 284,
+        "inbag_count": 5071,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 285,
+        "inbag_count": 5003,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 286,
+        "inbag_count": 5000,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 287,
+        "inbag_count": 5016,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 288,
+        "inbag_count": 5009,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 289,
+        "inbag_count": 5049,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 290,
+        "inbag_count": 5008,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 291,
+        "inbag_count": 5048,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 292,
+        "inbag_count": 5011,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 293,
+        "inbag_count": 5077,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 294,
+        "inbag_count": 5020,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 295,
+        "inbag_count": 4972,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 296,
+        "inbag_count": 5050,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 297,
+        "inbag_count": 5091,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 298,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 299,
+        "inbag_count": 5059,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 300,
+        "inbag_count": 5061,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 301,
+        "inbag_count": 5037,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 302,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 303,
+        "inbag_count": 5009,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 304,
+        "inbag_count": 5033,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 305,
+        "inbag_count": 5010,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 306,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 307,
+        "inbag_count": 5023,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 308,
+        "inbag_count": 5031,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 309,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 310,
+        "inbag_count": 5003,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 311,
+        "inbag_count": 4972,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 312,
+        "inbag_count": 4999,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 313,
+        "inbag_count": 5061,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 314,
+        "inbag_count": 5044,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 315,
+        "inbag_count": 4988,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 316,
+        "inbag_count": 4974,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 317,
+        "inbag_count": 4974,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 318,
+        "inbag_count": 5058,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 319,
+        "inbag_count": 5059,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 320,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 321,
+        "inbag_count": 5049,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 322,
+        "inbag_count": 5018,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 323,
+        "inbag_count": 5033,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 324,
+        "inbag_count": 5051,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 325,
+        "inbag_count": 5054,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 326,
+        "inbag_count": 5036,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 327,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 328,
+        "inbag_count": 5073,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 329,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 330,
+        "inbag_count": 4973,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 331,
+        "inbag_count": 5010,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 332,
+        "inbag_count": 4963,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 333,
+        "inbag_count": 4974,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 334,
+        "inbag_count": 4949,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 335,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 336,
+        "inbag_count": 5018,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 337,
+        "inbag_count": 5006,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 338,
+        "inbag_count": 5007,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 339,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 340,
+        "inbag_count": 5041,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 341,
+        "inbag_count": 5048,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 342,
+        "inbag_count": 5057,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 343,
+        "inbag_count": 4978,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 344,
+        "inbag_count": 5034,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 345,
+        "inbag_count": 4991,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 346,
+        "inbag_count": 5052,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 347,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 348,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 349,
+        "inbag_count": 5036,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 350,
+        "inbag_count": 5069,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 351,
+        "inbag_count": 5062,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 352,
+        "inbag_count": 5059,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 353,
+        "inbag_count": 4993,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 354,
+        "inbag_count": 4993,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 355,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 356,
+        "inbag_count": 5095,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 357,
+        "inbag_count": 5031,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 358,
+        "inbag_count": 5033,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 359,
+        "inbag_count": 5014,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 360,
+        "inbag_count": 5022,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 361,
+        "inbag_count": 5051,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 362,
+        "inbag_count": 5023,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 363,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 364,
+        "inbag_count": 5034,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 365,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 366,
+        "inbag_count": 5035,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 367,
+        "inbag_count": 5007,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 368,
+        "inbag_count": 5062,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 369,
+        "inbag_count": 5068,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 370,
+        "inbag_count": 5015,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 371,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 372,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 373,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 374,
+        "inbag_count": 5067,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 375,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 376,
+        "inbag_count": 5024,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 377,
+        "inbag_count": 5024,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 378,
+        "inbag_count": 5052,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 379,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 380,
+        "inbag_count": 5008,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 381,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 382,
+        "inbag_count": 5035,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 383,
+        "inbag_count": 4978,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 384,
+        "inbag_count": 5095,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 385,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 386,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 387,
+        "inbag_count": 5002,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 388,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 389,
+        "inbag_count": 5045,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 390,
+        "inbag_count": 4980,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 391,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 392,
+        "inbag_count": 4983,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 393,
+        "inbag_count": 5076,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 394,
+        "inbag_count": 5055,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 395,
+        "inbag_count": 4948,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 396,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 397,
+        "inbag_count": 5068,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 398,
+        "inbag_count": 5013,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 399,
+        "inbag_count": 5055,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 400,
+        "inbag_count": 5087,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 401,
+        "inbag_count": 5061,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 402,
+        "inbag_count": 5052,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 403,
+        "inbag_count": 5034,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 404,
+        "inbag_count": 5025,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 405,
+        "inbag_count": 5055,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 406,
+        "inbag_count": 5010,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 407,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 408,
+        "inbag_count": 5005,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 409,
+        "inbag_count": 5008,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 410,
+        "inbag_count": 4971,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 411,
+        "inbag_count": 5068,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 412,
+        "inbag_count": 5044,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 413,
+        "inbag_count": 5042,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 414,
+        "inbag_count": 5035,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 415,
+        "inbag_count": 5047,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 416,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 417,
+        "inbag_count": 5034,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 418,
+        "inbag_count": 5042,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 419,
+        "inbag_count": 5037,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 420,
+        "inbag_count": 5009,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 421,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 422,
+        "inbag_count": 5010,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 423,
+        "inbag_count": 5068,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 424,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 425,
+        "inbag_count": 5035,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 426,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 427,
+        "inbag_count": 5042,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 428,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 429,
+        "inbag_count": 4965,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 430,
+        "inbag_count": 5049,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 431,
+        "inbag_count": 5017,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 432,
+        "inbag_count": 5034,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 433,
+        "inbag_count": 4994,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 434,
+        "inbag_count": 5096,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 435,
+        "inbag_count": 5068,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 436,
+        "inbag_count": 5036,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 437,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 438,
+        "inbag_count": 5091,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 439,
+        "inbag_count": 4962,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 440,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 441,
+        "inbag_count": 5015,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 442,
+        "inbag_count": 5019,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 443,
+        "inbag_count": 5048,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 444,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 445,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 446,
+        "inbag_count": 5041,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 447,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 448,
+        "inbag_count": 4946,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 449,
+        "inbag_count": 5041,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 450,
+        "inbag_count": 5063,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 451,
+        "inbag_count": 5047,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 452,
+        "inbag_count": 5012,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 453,
+        "inbag_count": 5055,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 454,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 455,
+        "inbag_count": 5031,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 456,
+        "inbag_count": 4998,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 457,
+        "inbag_count": 5042,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 458,
+        "inbag_count": 4987,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 459,
+        "inbag_count": 5029,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 460,
+        "inbag_count": 4995,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 461,
+        "inbag_count": 4990,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 462,
+        "inbag_count": 5010,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 463,
+        "inbag_count": 4975,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 464,
+        "inbag_count": 5062,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 465,
+        "inbag_count": 5094,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 466,
+        "inbag_count": 4993,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 467,
+        "inbag_count": 4994,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 468,
+        "inbag_count": 5143,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 469,
+        "inbag_count": 5082,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 470,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 471,
+        "inbag_count": 5063,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 472,
+        "inbag_count": 5072,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 473,
+        "inbag_count": 5009,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 474,
+        "inbag_count": 5024,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 475,
+        "inbag_count": 5050,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 476,
+        "inbag_count": 5059,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 477,
+        "inbag_count": 5031,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 478,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 479,
+        "inbag_count": 5009,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 480,
+        "inbag_count": 4987,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 481,
+        "inbag_count": 5077,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 482,
+        "inbag_count": 4993,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 483,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 484,
+        "inbag_count": 4989,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 485,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 486,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 487,
+        "inbag_count": 5078,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 488,
+        "inbag_count": 5010,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 489,
+        "inbag_count": 5048,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 490,
+        "inbag_count": 5070,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 491,
+        "inbag_count": 5019,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 492,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 493,
+        "inbag_count": 5015,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 494,
+        "inbag_count": 5078,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 495,
+        "inbag_count": 4988,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 496,
+        "inbag_count": 4920,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 497,
+        "inbag_count": 5012,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 498,
+        "inbag_count": 5054,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 499,
+        "inbag_count": 5023,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 500,
+        "inbag_count": 5044,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 501,
+        "inbag_count": 5033,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 502,
+        "inbag_count": 4990,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 503,
+        "inbag_count": 5089,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 504,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 505,
+        "inbag_count": 5059,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 506,
+        "inbag_count": 4988,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 507,
+        "inbag_count": 5054,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 508,
+        "inbag_count": 4986,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 509,
+        "inbag_count": 4937,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 510,
+        "inbag_count": 5018,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 511,
+        "inbag_count": 5024,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 512,
+        "inbag_count": 5075,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 513,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 514,
+        "inbag_count": 4997,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 515,
+        "inbag_count": 5039,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 516,
+        "inbag_count": 5064,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 517,
+        "inbag_count": 5069,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 518,
+        "inbag_count": 4979,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 519,
+        "inbag_count": 5049,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 520,
+        "inbag_count": 4981,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 521,
+        "inbag_count": 5073,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 522,
+        "inbag_count": 5049,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 523,
+        "inbag_count": 5074,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 524,
+        "inbag_count": 4971,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 525,
+        "inbag_count": 4984,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 526,
+        "inbag_count": 4998,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 527,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 528,
+        "inbag_count": 5015,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 529,
+        "inbag_count": 5063,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 530,
+        "inbag_count": 5012,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 531,
+        "inbag_count": 4997,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 532,
+        "inbag_count": 4967,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 533,
+        "inbag_count": 4976,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 534,
+        "inbag_count": 4960,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 535,
+        "inbag_count": 5024,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 536,
+        "inbag_count": 5072,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 537,
+        "inbag_count": 5008,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 538,
+        "inbag_count": 4935,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 539,
+        "inbag_count": 5003,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 540,
+        "inbag_count": 5068,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 541,
+        "inbag_count": 5076,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 542,
+        "inbag_count": 5029,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 543,
+        "inbag_count": 5050,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 544,
+        "inbag_count": 4987,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 545,
+        "inbag_count": 5005,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 546,
+        "inbag_count": 5004,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 547,
+        "inbag_count": 5022,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 548,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 549,
+        "inbag_count": 4999,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 550,
+        "inbag_count": 5040,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 551,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 552,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 553,
+        "inbag_count": 5014,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 554,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 555,
+        "inbag_count": 4976,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 556,
+        "inbag_count": 5049,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 557,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 558,
+        "inbag_count": 5008,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 559,
+        "inbag_count": 4994,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 560,
+        "inbag_count": 5011,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 561,
+        "inbag_count": 5033,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 562,
+        "inbag_count": 5028,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 563,
+        "inbag_count": 5017,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 564,
+        "inbag_count": 4987,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 565,
+        "inbag_count": 5031,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 566,
+        "inbag_count": 5028,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 567,
+        "inbag_count": 5049,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 568,
+        "inbag_count": 4993,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 569,
+        "inbag_count": 5016,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 570,
+        "inbag_count": 4983,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 571,
+        "inbag_count": 5067,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 572,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 573,
+        "inbag_count": 4992,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 574,
+        "inbag_count": 5015,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 575,
+        "inbag_count": 5001,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 576,
+        "inbag_count": 5048,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 577,
+        "inbag_count": 5002,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 578,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 579,
+        "inbag_count": 5005,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 580,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 581,
+        "inbag_count": 5044,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 582,
+        "inbag_count": 5106,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 583,
+        "inbag_count": 4995,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 584,
+        "inbag_count": 5037,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 585,
+        "inbag_count": 4974,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 586,
+        "inbag_count": 4958,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 587,
+        "inbag_count": 5057,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 588,
+        "inbag_count": 5005,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 589,
+        "inbag_count": 5024,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 590,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 591,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 592,
+        "inbag_count": 5031,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 593,
+        "inbag_count": 5071,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 594,
+        "inbag_count": 5017,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 595,
+        "inbag_count": 4990,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 596,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 597,
+        "inbag_count": 5075,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 598,
+        "inbag_count": 4989,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 599,
+        "inbag_count": 5058,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 600,
+        "inbag_count": 5082,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 601,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 602,
+        "inbag_count": 5039,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 603,
+        "inbag_count": 5031,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 604,
+        "inbag_count": 5024,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 605,
+        "inbag_count": 4996,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 606,
+        "inbag_count": 5061,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 607,
+        "inbag_count": 5051,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 608,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 609,
+        "inbag_count": 5077,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 610,
+        "inbag_count": 5051,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 611,
+        "inbag_count": 5029,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 612,
+        "inbag_count": 5037,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 613,
+        "inbag_count": 5012,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 614,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 615,
+        "inbag_count": 4994,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 616,
+        "inbag_count": 5052,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 617,
+        "inbag_count": 4989,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 618,
+        "inbag_count": 5074,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 619,
+        "inbag_count": 4979,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 620,
+        "inbag_count": 4975,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 621,
+        "inbag_count": 5059,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 622,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 623,
+        "inbag_count": 5075,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 624,
+        "inbag_count": 5016,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 625,
+        "inbag_count": 5029,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 626,
+        "inbag_count": 5069,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 627,
+        "inbag_count": 5029,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 628,
+        "inbag_count": 5022,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 629,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 630,
+        "inbag_count": 5071,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 631,
+        "inbag_count": 5096,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 632,
+        "inbag_count": 4990,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 633,
+        "inbag_count": 5058,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 634,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 635,
+        "inbag_count": 5025,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 636,
+        "inbag_count": 4996,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 637,
+        "inbag_count": 5047,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 638,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 639,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 640,
+        "inbag_count": 5080,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 641,
+        "inbag_count": 4996,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 642,
+        "inbag_count": 4948,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 643,
+        "inbag_count": 5011,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 644,
+        "inbag_count": 4985,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 645,
+        "inbag_count": 5078,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 646,
+        "inbag_count": 5020,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 647,
+        "inbag_count": 5063,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 648,
+        "inbag_count": 4998,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 649,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 650,
+        "inbag_count": 5005,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 651,
+        "inbag_count": 5084,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 652,
+        "inbag_count": 5042,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 653,
+        "inbag_count": 5055,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 654,
+        "inbag_count": 5086,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 655,
+        "inbag_count": 5049,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 656,
+        "inbag_count": 5060,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 657,
+        "inbag_count": 5033,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 658,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 659,
+        "inbag_count": 5079,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 660,
+        "inbag_count": 5047,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 661,
+        "inbag_count": 4985,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 662,
+        "inbag_count": 5015,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 663,
+        "inbag_count": 5027,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 664,
+        "inbag_count": 5029,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 665,
+        "inbag_count": 5042,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 666,
+        "inbag_count": 5084,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 667,
+        "inbag_count": 5091,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 668,
+        "inbag_count": 5025,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 669,
+        "inbag_count": 5054,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 670,
+        "inbag_count": 4972,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 671,
+        "inbag_count": 5034,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 672,
+        "inbag_count": 5079,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 673,
+        "inbag_count": 5007,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 674,
+        "inbag_count": 5016,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 675,
+        "inbag_count": 4987,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 676,
+        "inbag_count": 4979,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 677,
+        "inbag_count": 5022,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 678,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 679,
+        "inbag_count": 5057,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 680,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 681,
+        "inbag_count": 5073,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 682,
+        "inbag_count": 5065,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 683,
+        "inbag_count": 4969,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 684,
+        "inbag_count": 5036,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 685,
+        "inbag_count": 4997,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 686,
+        "inbag_count": 5055,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 687,
+        "inbag_count": 5014,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 688,
+        "inbag_count": 5035,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 689,
+        "inbag_count": 5041,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 690,
+        "inbag_count": 5057,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 691,
+        "inbag_count": 5045,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 692,
+        "inbag_count": 5107,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 693,
+        "inbag_count": 5015,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 694,
+        "inbag_count": 5019,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 695,
+        "inbag_count": 5057,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 696,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 697,
+        "inbag_count": 4987,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 698,
+        "inbag_count": 4988,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 699,
+        "inbag_count": 5003,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 700,
+        "inbag_count": 5016,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 701,
+        "inbag_count": 5019,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 702,
+        "inbag_count": 5050,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 703,
+        "inbag_count": 5037,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 704,
+        "inbag_count": 5023,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 705,
+        "inbag_count": 5025,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 706,
+        "inbag_count": 5083,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 707,
+        "inbag_count": 5053,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 708,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 709,
+        "inbag_count": 5025,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 710,
+        "inbag_count": 5073,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 711,
+        "inbag_count": 5066,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 712,
+        "inbag_count": 5036,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 713,
+        "inbag_count": 5009,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 714,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 715,
+        "inbag_count": 5014,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 716,
+        "inbag_count": 5017,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 717,
+        "inbag_count": 5062,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 718,
+        "inbag_count": 4986,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 719,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 720,
+        "inbag_count": 5006,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 721,
+        "inbag_count": 5025,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 722,
+        "inbag_count": 5065,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 723,
+        "inbag_count": 5012,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 724,
+        "inbag_count": 5007,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 725,
+        "inbag_count": 5049,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 726,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 727,
+        "inbag_count": 5040,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 728,
+        "inbag_count": 4974,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 729,
+        "inbag_count": 5062,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 730,
+        "inbag_count": 4991,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 731,
+        "inbag_count": 5057,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 732,
+        "inbag_count": 5024,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 733,
+        "inbag_count": 5051,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 734,
+        "inbag_count": 5033,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 735,
+        "inbag_count": 5015,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 736,
+        "inbag_count": 5015,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 737,
+        "inbag_count": 5028,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 738,
+        "inbag_count": 5004,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 739,
+        "inbag_count": 5031,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 740,
+        "inbag_count": 5065,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 741,
+        "inbag_count": 5006,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 742,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 743,
+        "inbag_count": 5040,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 744,
+        "inbag_count": 5092,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 745,
+        "inbag_count": 5022,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 746,
+        "inbag_count": 4987,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 747,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 748,
+        "inbag_count": 5020,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 749,
+        "inbag_count": 5052,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 750,
+        "inbag_count": 4972,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 751,
+        "inbag_count": 5057,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 752,
+        "inbag_count": 4984,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 753,
+        "inbag_count": 5018,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 754,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 755,
+        "inbag_count": 5019,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 756,
+        "inbag_count": 4986,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 757,
+        "inbag_count": 5008,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 758,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 759,
+        "inbag_count": 4968,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 760,
+        "inbag_count": 5028,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 761,
+        "inbag_count": 5042,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 762,
+        "inbag_count": 5040,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 763,
+        "inbag_count": 5101,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 764,
+        "inbag_count": 4964,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 765,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 766,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 767,
+        "inbag_count": 4999,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 768,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 769,
+        "inbag_count": 5035,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 770,
+        "inbag_count": 5030,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 771,
+        "inbag_count": 5036,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 772,
+        "inbag_count": 5011,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 773,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 774,
+        "inbag_count": 5038,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 775,
+        "inbag_count": 4970,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 776,
+        "inbag_count": 5041,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 777,
+        "inbag_count": 5032,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 778,
+        "inbag_count": 4970,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 779,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 780,
+        "inbag_count": 5037,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 781,
+        "inbag_count": 5024,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 782,
+        "inbag_count": 5009,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 783,
+        "inbag_count": 4999,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 784,
+        "inbag_count": 5012,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 785,
+        "inbag_count": 5046,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 786,
+        "inbag_count": 5078,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 787,
+        "inbag_count": 5021,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 788,
+        "inbag_count": 5043,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 789,
+        "inbag_count": 5034,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 790,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 791,
+        "inbag_count": 5059,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 792,
+        "inbag_count": 5026,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 793,
+        "inbag_count": 5085,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 794,
+        "inbag_count": 4974,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 795,
+        "inbag_count": 5028,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 796,
+        "inbag_count": 4988,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 797,
+        "inbag_count": 4968,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 798,
+        "inbag_count": 5004,
+        "leaf_count": 31
+      },
+      {
+        "iteration": 799,
+        "inbag_count": 5058,
+        "leaf_count": 31
+      }
+    ],
+    "max_F_error": 2.220446049250313e-16,
+    "max_sum_error": 1.1823431123048067e-11,
+    "max_root_error": 1.3100631690576847e-14,
+    "raw_final_error": 0.0,
+    "cache_evidence": "synthetic_result_v4.json; sklearn frees training Dataset"
+  },
+  "cpp_trace_sha256": "97a78d26fac0fd06e9d5ab5b4f32fb8c6e5f84955784d0c3ac965bbfa0c008cf",
+  "signature": {
+    "library": {
+      "dll": "C:\\work\\farmai\\집\\코덱스\\local\\ec_exact_tweedie_leaf_20261004_v1\\overlay_v1\\lib_lightgbm.dll",
+      "dll_sha256": "25806c5faae08b55142c8d7670be8a88461604865eba353f7094f008e3c94ac8",
+      "build_sha256": "7df7b303ae55d132a2f5d158f6b58145042a1bb61f2fc2cf94df454646edce1d",
+      "overlay_sha256": "8d9f373db3272f24cdafa61b890ed93f55ae6e1e1551fda60977dda3c4853d9b",
+      "synthetic_sha256": "b4b0d2fad9da053d991efab80db93fb08c8c95528cb5480b2345f24e8f49a654",
+      "cpp_audit_source_sha256": "fd9998282b2b2ad1e3d54c26ffac1d273d7d6eb2c4795d16da00f3f3cdcee9a4"
+    },
+    "validator": "DIAG10",
+    "fold": 0,
+    "runtime": {
+      "python": "3.12.14",
+      "numpy": "2.5.3",
+      "pandas": "3.0.1",
+      "sklearn": "1.9.1",
+      "lightgbm": "4.7.0"
+    },
+    "dependencies": {
+      "run": "74246a838fa27e2f83e5cbb6a50f705bf0669f0a3ae0f578b9a6cd1aaf4eea63",
+      "core": "057ff4d8da6f3af29105b049251498f79f7fcd6b88d980a8222e5629eb5ce3b2",
+      "support": "82074e7a04ea681bc94e94e1c90354a743609e0f008b1a378a5a9a23575debed",
+      "season": "7d58feeb6a0e7653796a6775f762b659cab3e64078b299d36b52ae69faeff162",
+      "env": "82ca7b4bda2e9f50069b53b92d8418a7c0d4dd5ce7127fade16dd6ea78a8dcd2",
+      "original_guard": "e5398b7c29eae32a4efc75381f7478cb1937e28bb4e61db1c1989016d732d9d9"
+    },
+    "inputs": {
+      "train_X": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+      "public_oof": "a3c375e3bd8926598ece14f218de505d120ccad2baba92ae4fa9093693de92fa"
+    },
+    "cache_hashes": {
+      "집\\코덱스\\local\\ec_tabpfn35_20261003_v1\\DIAG10_0_baseline.npz": "1d2e0730247ef58325e3fbcb061feb15f4027846d9445b92a2d443788fb5139a",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_1.npz": "5cc6223bfce0abe81c75fbd27b0830ba3ea9eaad267d0ea9e5e289c4811528d5",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_2.npz": "490fdea2022748c65f76636aefe143d7f9f5591f1df6b2c7f08e076e4b17ada0",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_3.npz": "f32c566cde91e8e712c24ab26abd3a97e8a9b7489734013c5bc7a3f5057c5fc8",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_4.npz": "e1d7a17cc486c94bc738eb38912779b1a42d9cee54668f1f84beb8be7e786e70",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_7.npz": "b94ecacf52b5fdde4d2764519416f02bc07583e37a2c8f720507d0fb05d4fa75",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_7.json": "11280ebd82f8b33e1e4dfec9d1087a58d3bd898b2f52758b2b75097a67d2464d",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_101.npz": "e692b4893698f8eb0a23a6c448f8591f306a59f56a5041cf6ba2316cd0c1bef4",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_101.json": "2cd1550a120e0510a25131afbb570617afafeb4a532236f7b09026d69e403d56",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_2024.npz": "756ae0603b86f70f23980900d799bee37a577558adaba390e864351835191644",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_2024.json": "afc59fe2159a4a36f60512703a6b76b77586c7098a5dfc44b606622ba1904346"
+    },
+    "full_features": [
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "act_vent",
+      "act_shade",
+      "act_thermal",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "hr_sin",
+      "hr_cos",
+      "midnight",
+      "act_vent_h0",
+      "act_shade_h0",
+      "act_thermal_h0",
+      "act_heating_h0",
+      "act_circfan_h0",
+      "act_co2_h0",
+      "act_fog_h0",
+      "in_temp_h0",
+      "in_hum_h0",
+      "in_co2_h0",
+      "act_vent_tdm",
+      "act_vent_tdz",
+      "act_shade_tdm",
+      "act_shade_tdz",
+      "act_thermal_tdm",
+      "act_thermal_tdz",
+      "act_heating_tdm",
+      "act_heating_tdz",
+      "act_circfan_tdm",
+      "act_circfan_tdz",
+      "act_co2_tdm",
+      "act_co2_tdz",
+      "act_fog_tdm",
+      "act_fog_tdz",
+      "season"
+    ],
+    "old_lgb_features": [
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "act_vent",
+      "act_shade",
+      "act_thermal",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "hr_sin",
+      "hr_cos",
+      "midnight",
+      "season"
+    ],
+    "new_lgb_features": [
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "act_vent",
+      "act_shade",
+      "act_thermal",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "hr_sin",
+      "hr_cos",
+      "midnight",
+      "season"
+    ],
+    "train_ids": "4b08a7dbef6931b84977e26293e2e14143716eb5fced45dc1ba5890d5bf3df4f",
+    "query_ids": "634c7ed25fa65d2b333da560f82657121b41dcf7e3c5ba5dc57a23639e82e5e6",
+    "bounds": [
+      0.063,
+      3.232
+    ],
+    "train_targets": "f8c4414a1b07b8021dc9a1a42c2846b19f63b7ee615230d5a681ae55aa1e9f63",
+    "train_full38": "8f13f1d639d531ee5a9caa6766c91541783f0b26ae34f6740161f22e1b0db092",
+    "train_old14": "afd754472d95ca763207feaf8e8169db1e48956cbd4c014c96a85d43a1c96a6c",
+    "train_new14": "afd754472d95ca763207feaf8e8169db1e48956cbd4c014c96a85d43a1c96a6c",
+    "query_targets": "fb68669a9f95e5634faf969bac79d6ed8ee0ad5c61514cf5c82afe04c1197fb1",
+    "query_full38": "49f5ff2c435e7f637bdd3cca66036c8a72afa1356dace17f02e4e2b089e625df",
+    "query_old14": "df48b016fc6291399743851882749b0c0ee22c4b0c2ba83c3fbdbfbfec07080b",
+    "query_new14": "df48b016fc6291399743851882749b0c0ee22c4b0c2ba83c3fbdbfbfec07080b",
+    "seed": 7,
+    "preparation_sha256": "9f25648fcdda6ee06c3414a91edba15803df5ee1f1e5e2e3cf3e7cdeb9f7ea30",
+    "preregistration_sha256": "54e75b181e9054eb479991589dd8b84cc6317b404ae88f24ee57e6a34a7311ae"
+  }
+}
