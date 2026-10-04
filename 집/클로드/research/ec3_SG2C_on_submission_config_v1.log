@@ -1,0 +1,15 @@
+TabPFN identical across seed rows (max SD of season_pfn): 0.0  season_r3 SD across seeds 0.11013511675997048
+
+DIAG10 pass-2 rows, full config (0.8 R3_DP1 + 0.2 TabPFN, shrink):
+  s7 0.2474->0.2376 (-3.9%)  s101 0.2492->0.2398 (-3.8%)  s2024 0.2516->0.2427 (-3.5%)
+  normal days s7 0.1481->0.1414  s101 0.1478->0.1430  s2024 0.1480->0.1420
+  high days   s7 0.6190->0.5963  s101 0.6263->0.6010  s2024 0.6345->0.6138
+  seed-mean 0.2493 -> 0.2399  P(worse) 0.0633
+
+EL1 pass-2 rows, R3_DP1 + shrink (no stored TabPFN):
+  s7 0.2997->0.2967 (-1.0%)  s101 0.3056->0.3029 (-0.9%)  s2024 0.3096->0.3060 (-1.2%)
+  normal days s7 0.1597->0.1520  s101 0.1645->0.1576  s2024 0.1660->0.1574
+  high days   s7 0.7858->0.7875  s101 0.7983->0.8004  s2024 0.8097->0.8115
+  seed-mean 0.3049 -> 0.3015  P(worse) 0.1025
+
+SG2C: helps the submission configuration on DIAG10 pass-2 (all seeds): True | EL1 descriptive all seeds: True
