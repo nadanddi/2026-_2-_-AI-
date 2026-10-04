@@ -1,0 +1,10 @@
+{
+  "status": "FAIL_SYNTHETIC_ONLY",
+  "actual_ec_fit": 0,
+  "synthetic_fit": 1,
+  "dll": "C:\\work\\farmai\\\uc9d1\\\ucf54\ub371\uc2a4\\local\\ec_exact_tweedie_leaf_20261004_v1\\overlay_v1\\lib_lightgbm.dll",
+  "dll_sha256": "25806c5faae08b55142c8d7670be8a88461604865eba353f7094f008e3c94ac8",
+  "original_dll": "C:\\work\\farmai\\.analysis-tools\\python\\lightgbm\\bin\\lib_lightgbm.dll",
+  "original_sha256": "7e366d2e49cd061aac3ab21676b2f99b0c7a758dc3e888d4b23812af1b7d301c",
+  "error": "TypeError('Booster.__inner_predict() takes 1 positional argument but 2 were given')"
+}

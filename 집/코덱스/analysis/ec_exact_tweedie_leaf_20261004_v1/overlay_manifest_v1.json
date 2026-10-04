@@ -1,0 +1,27 @@
+{
+  "status": "PASS_OVERLAY_PREP_ONLY",
+  "commit": "8f7036f03627054d5a54a6f965b13f4b9ff2cb63",
+  "changes": {
+    "src/objective/regression_objective.hpp": {
+      "original_sha256": "0e8200eafcf075e93f736fa2d59863a8b34dfb62c19df476af60183f8584408d",
+      "overlay_sha256": "d6a0f5befbc3e78fce010c3009d0d747ac3ced3a40acc38b9b1c9396658ad032"
+    },
+    "src/objective/objective_function.cpp": {
+      "original_sha256": "1b5555652e64a30de3cabe736b9da0da70b9e6d58dc5dd47462f625f40deb5e0",
+      "overlay_sha256": "b7f2c94c69d42b981aab6880516a7b611563fcd09d48ffbb518adfa4c9fa7353"
+    },
+    "src/io/config.cpp": {
+      "original_sha256": "2335f222503bbaf9186fe1aa320c8043934beb929e38a48df1e89b50168a2b35",
+      "overlay_sha256": "0f891920389881e0373467db90ac1760daae9eedfd1b7f36f1f1f939d41e05e2"
+    },
+    "src/boosting/bagging.hpp": {
+      "original_sha256": "8feae67b152c4853b80181841625fb34cf252ce9d020f9026654229cefe57d49",
+      "overlay_sha256": "1497477d6e0b72fabfc382c80e5f4b2b354c48e7b82f07b3a72bb732bb7cab6c"
+    }
+  },
+  "extra_header_sha256": "9831e1ef183a7ea2b490514934fb27ca3b21ce29f2ba7e056453f6f4d255fd04",
+  "patch_script_sha256": "5b2f9704f2b330fc551a055b385aee32a3a1d2cb29641d2fca922c8298be16a1",
+  "class_sha256": "de3d7d16ec2ac391311660e8b8ec65eb526a6c0d6e64f04b84ddda29d19ab914",
+  "compile": 0,
+  "fit": 0
+}

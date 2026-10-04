@@ -1,0 +1,36 @@
+{
+  "status": "FAIL_BUILD_ONLY",
+  "commands": [
+    [
+      "C:\\work\\farmai\\\uc9d1\\\ucf54\ub371\uc2a4\\local\\ec_exact_tweedie_leaf_20261004_v1\\toolchain_v1\\mingw64\\bin\\cmake.exe",
+      "-S",
+      "C:\\work\\farmai\\\uc9d1\\\ucf54\ub371\uc2a4\\local\\ec_exact_tweedie_leaf_20261004_v1\\overlay_v1",
+      "-B",
+      "C:\\work\\farmai\\\uc9d1\\\ucf54\ub371\uc2a4\\local\\ec_exact_tweedie_leaf_20261004_v1\\build_v1",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DUSE_GPU=OFF",
+      "-DUSE_CUDA=OFF",
+      "-DUSE_OPENMP=ON",
+      "-DBUILD_CLI=OFF",
+      "-D__BUILD_FOR_PYTHON=ON",
+      "-DCMAKE_C_COMPILER=C:\\work\\farmai\\\uc9d1\\\ucf54\ub371\uc2a4\\local\\ec_exact_tweedie_leaf_20261004_v1\\toolchain_v1\\mingw64\\bin\\gcc.exe",
+      "-DCMAKE_CXX_COMPILER=C:\\work\\farmai\\\uc9d1\\\ucf54\ub371\uc2a4\\local\\ec_exact_tweedie_leaf_20261004_v1\\toolchain_v1\\mingw64\\bin\\g++.exe",
+      "-DCMAKE_MAKE_PROGRAM=C:\\work\\farmai\\\uc9d1\\\ucf54\ub371\uc2a4\\local\\ec_exact_tweedie_leaf_20261004_v1\\toolchain_v1\\mingw64\\bin\\ninja.exe"
+    ],
+    [
+      "C:\\work\\farmai\\\uc9d1\\\ucf54\ub371\uc2a4\\local\\ec_exact_tweedie_leaf_20261004_v1\\toolchain_v1\\mingw64\\bin\\cmake.exe",
+      "--build",
+      "C:\\work\\farmai\\\uc9d1\\\ucf54\ub371\uc2a4\\local\\ec_exact_tweedie_leaf_20261004_v1\\build_v1",
+      "--parallel",
+      "2"
+    ]
+  ],
+  "compiler_sha256": "fadac447401f77fd88d77624ccd6028d57db5ca028a731db9de6a039cf86c62a",
+  "cmake_sha256": "474b48d3458a081a882f13b8b136b7e14bdd74b3ab2853d601269e1e56113271",
+  "overlay_manifest_sha256": "8d9f373db3272f24cdafa61b890ed93f55ae6e1e1551fda60977dda3c4853d9b",
+  "fit": 0,
+  "install": 0,
+  "error": "('build stage failed', 0, 1)"
+}

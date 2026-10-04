@@ -1,0 +1,11 @@
+--- a/src/io/config.cpp
++++ b/src/io/config.cpp
+@@ -164,7 +164,7 @@
+   }
+   // add names of objective function if not providing metric
+   if (metric->empty() && value.size() == 0) {
+-    ParseMetrics(objective, metric);
++    ParseMetrics(objective == "tweedie_exact_leaf" ? "tweedie" : objective, metric);
+   }
+ }
+ 

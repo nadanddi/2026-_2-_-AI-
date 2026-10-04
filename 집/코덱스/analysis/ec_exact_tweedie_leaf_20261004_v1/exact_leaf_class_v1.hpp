@@ -1,0 +1,65 @@
+
+// Farmai fixed-rho exact penalized leaf. Original Newton objective is unchanged.
+class RegressionTweedieExactLeaf final : public RegressionTweedieLoss {
+ public:
+  explicit RegressionTweedieExactLeaf(const Config& config) : RegressionTweedieLoss(config) {
+    CHECK(config.tweedie_variance_power==1.5);
+    CHECK(config.lambda_l2==1.0);
+    CHECK(config.lambda_l1==0.0);
+    CHECK(config.max_delta_step==0.0);
+    CHECK(config.path_smooth==0.0);
+    CHECK(config.monotone_constraints.empty());
+    CHECK(config.device_type=="cpu");
+    CHECK(config.boosting=="gbdt");
+    CHECK(config.data_sample_strategy=="bagging");
+    CHECK(!config.linear_tree);
+    CHECK(!config.use_quantized_grad);
+    CHECK(config.num_machines==1);
+  }
+  explicit RegressionTweedieExactLeaf(const std::vector<std::string>& strs)
+      : RegressionTweedieLoss(Config()) {
+    CHECK(strs.size()==3);
+    CHECK(strs[0]=="tweedie_exact_leaf");
+    CHECK(strs[1]=="rho:1.5");
+    CHECK(strs[2]=="lambda_l2:1");
+  }
+  const char* GetName() const override { return "tweedie_exact_leaf"; }
+  std::string ToString() const override { return "tweedie_exact_leaf rho:1.5 lambda_l2:1"; }
+  bool IsRenewTreeOutput() const override { return true; }
+  double RenewTreeOutput(double original,std::function<double(const label_t*,int)> getter,
+      const data_size_t* index_mapper,const data_size_t* bagging_mapper,data_size_t count) const override {
+    CHECK(count>0);CHECK(std::isfinite(original));
+    double A=0.0,B=0.0;
+    std::vector<data_size_t> ids;std::vector<double> scores,targets,weights;
+    const bool audit=std::getenv("FARMAI_LGB_AUDIT_PATH")!=nullptr;
+    for(data_size_t k=0;k<count;++k){
+      data_size_t j=bagging_mapper==nullptr?index_mapper[k]:bagging_mapper[index_mapper[k]];
+      CHECK(j>=0 && j<num_data_);
+      const double y=static_cast<double>(label_[j]);
+      const double F=y-getter(label_,j);
+      const double w=weights_==nullptr?1.0:static_cast<double>(weights_[j]);
+      CHECK(std::isfinite(y)&&y>=0.0&&std::isfinite(F)&&std::isfinite(w)&&w>=0.0);
+      A+=w*y*std::exp(-0.5*F);B+=w*std::exp(0.5*F);
+      if(audit){ids.push_back(j);scores.push_back(F);targets.push_back(y);weights.push_back(w);}
+    }
+    CHECK(std::isfinite(A)&&std::isfinite(B)&&A>=0.0&&B>0.0);
+    auto gradient=[A,B](double t){return -A*std::exp(-0.5*t)+B*std::exp(0.5*t)+t;};
+    double lo=-1.0,hi=1.0;
+    for(int i=0;i<16 && gradient(lo)>0.0;++i)lo*=2.0;
+    for(int i=0;i<16 && gradient(hi)<0.0;++i)hi*=2.0;
+    CHECK(std::isfinite(lo)&&std::isfinite(hi));CHECK(gradient(lo)<=0.0&&gradient(hi)>=0.0);
+    for(int i=0;i<100;++i){double mid=0.5*(lo+hi);if(gradient(mid)>0.0)hi=mid;else lo=mid;}
+    double root=0.5*(lo+hi);CHECK(std::isfinite(root));
+    double neg=A*std::exp(-0.5*root),pos=B*std::exp(0.5*root);
+    CHECK(std::isfinite(neg)&&std::isfinite(pos));
+    CHECK(std::fabs(-neg+pos+root)<=1e-10*std::max(1.0,neg+pos+std::fabs(root)));
+    CHECK(2.0*neg+2.0*pos+0.5*root*root<=2.0*A+2.0*B+1e-10*std::max(1.0,2.0*A+2.0*B));
+    if(audit){
+      std::ostringstream out;out<<std::setprecision(17)<<"{\"kind\":\"leaf\",\"A\":"<<A<<",\"B\":"<<B<<",\"newton\":"<<original<<",\"root\":"<<root;
+      auto ints=[&out](const char* name,const std::vector<data_size_t>& v){out<<",\""<<name<<"\":[";for(size_t i=0;i<v.size();++i){if(i)out<<",";out<<v[i];}out<<"]";};
+      auto doubles=[&out](const char* name,const std::vector<double>& v){out<<",\""<<name<<"\":[";for(size_t i=0;i<v.size();++i){if(i)out<<",";out<<v[i];}out<<"]";};
+      ints("ids",ids);doubles("F",scores);doubles("y",targets);doubles("w",weights);out<<"}";FarmaiAudit(out.str());
+    }
+    return root;
+  }
+};

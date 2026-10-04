@@ -1,0 +1,41 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "seeds": [
+    {
+      "seed": 7,
+      "p_worse": 0.0,
+      "ci_adjusted": [
+        -0.0003259317064972257,
+        -9.510198798079162e-05
+      ],
+      "manual_quantile_gate": true
+    },
+    {
+      "seed": 101,
+      "p_worse": 0.0,
+      "ci_adjusted": [
+        -0.0003253064274475311,
+        -8.72503523044681e-05
+      ],
+      "manual_quantile_gate": true
+    },
+    {
+      "seed": 2024,
+      "p_worse": 0.0,
+      "ci_adjusted": [
+        -0.00032591463486009327,
+        -8.688006199146041e-05
+      ],
+      "manual_quantile_gate": true
+    }
+  ],
+  "actual_data_reads": 0,
+  "actual_fit": 0,
+  "actual_predict": 0,
+  "actual_score": 0,
+  "source_sha256": {
+    "independent_bootstrap_critic_v1.py": "c9cca30df2f8f915246141ad6cb68721d0dfbd09b6e4b93652939b3aba4bf504",
+    "verify_full_v2.py": "9ec3800c9a16ee43a3782e4bb80b61cc7250ca867f3613e7a1679523d35b1662",
+    "verification_math_v4.py": "6e16ecf93a3d15cf8fe0c77bda55f647c6a360668c694adbf461b0cc0a8152ba"
+  }
+}
