@@ -1,0 +1,50 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\aozks\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "results": [
+    {
+      "name": "tabdpt",
+      "metadata_version": null,
+      "selected_path": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\tabdpt-1.3.0.dist-info",
+      "direct_metadata_read": "FAIL",
+      "error_type": "PermissionError",
+      "error": "[Errno 13] Permission denied: 'C:\\\\work\\\\farmai\\\\집\\\\코덱스\\\\local\\\\tabdpt130_cpu_v1\\\\site\\\\tabdpt-1.3.0.dist-info\\\\METADATA'"
+    },
+    {
+      "name": "faiss-cpu",
+      "metadata_version": null,
+      "selected_path": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\faiss_cpu-1.12.0.dist-info",
+      "direct_metadata_read": "FAIL",
+      "error_type": "PermissionError",
+      "error": "[Errno 13] Permission denied: 'C:\\\\work\\\\farmai\\\\집\\\\코덱스\\\\local\\\\tabdpt130_cpu_v1\\\\site\\\\faiss_cpu-1.12.0.dist-info\\\\METADATA'"
+    },
+    {
+      "name": "omegaconf",
+      "metadata_version": null,
+      "selected_path": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\omegaconf-2.3.0.dist-info",
+      "direct_metadata_read": "FAIL",
+      "error_type": "PermissionError",
+      "error": "[Errno 13] Permission denied: 'C:\\\\work\\\\farmai\\\\집\\\\코덱스\\\\local\\\\tabdpt130_cpu_v1\\\\site\\\\omegaconf-2.3.0.dist-info\\\\METADATA'"
+    },
+    {
+      "name": "antlr4-python3-runtime",
+      "metadata_version": null,
+      "selected_path": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\antlr4_python3_runtime-4.9.3.dist-info",
+      "direct_metadata_read": "FAIL",
+      "error_type": "PermissionError",
+      "error": "[Errno 13] Permission denied: 'C:\\\\work\\\\farmai\\\\집\\\\코덱스\\\\local\\\\tabdpt130_cpu_v1\\\\site\\\\antlr4_python3_runtime-4.9.3.dist-info\\\\METADATA'"
+    },
+    {
+      "name": "huggingface-hub",
+      "metadata_version": null,
+      "selected_path": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\huggingface_hub-0.36.0.dist-info",
+      "direct_metadata_read": "FAIL",
+      "error_type": "PermissionError",
+      "error": "[Errno 13] Permission denied: 'C:\\\\work\\\\farmai\\\\집\\\\코덱스\\\\local\\\\tabdpt130_cpu_v1\\\\site\\\\huggingface_hub-0.36.0.dist-info\\\\METADATA'"
+    }
+  ],
+  "third_party_imports": 0,
+  "model_fit": 0,
+  "weight_reads": 0,
+  "data_reads": 0
+}

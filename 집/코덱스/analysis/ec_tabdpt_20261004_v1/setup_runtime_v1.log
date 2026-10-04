@@ -1,0 +1,47 @@
+Installing fixed 5-package own-local overlay; no model/data access.
+Collecting tabdpt @ git+https://github.com/layer6ai-labs/TabDPT-inference.git@97e5494431e9527c7edb31cb4dcfc5f00b232fdf
+  Cloning https://github.com/layer6ai-labs/TabDPT-inference.git (to revision 97e5494431e9527c7edb31cb4dcfc5f00b232fdf) to C:\Users\aozks\AppData\Local\Temp\pip-install-zd27uov1\tabdpt_ee819e4af83843faa2caa871b8da4339
+  Running command git clone --filter=blob:none --quiet https://github.com/layer6ai-labs/TabDPT-inference.git 'C:\Users\aozks\AppData\Local\Temp\pip-install-zd27uov1\tabdpt_ee819e4af83843faa2caa871b8da4339'
+  Running command git rev-parse -q --verify '97e5494431e9527c7edb31cb4dcfc5f00b232fdf^{commit}'
+  97e5494431e9527c7edb31cb4dcfc5f00b232fdf
+  Running command git checkout -q 97e5494431e9527c7edb31cb4dcfc5f00b232fdf
+  Resolved https://github.com/layer6ai-labs/TabDPT-inference.git to commit 97e5494431e9527c7edb31cb4dcfc5f00b232fdf
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting faiss-cpu==1.12.0
+  Downloading faiss_cpu-1.12.0-cp312-cp312-win_amd64.whl.metadata (5.2 kB)
+Collecting omegaconf==2.3.0
+  Downloading omegaconf-2.3.0-py3-none-any.whl.metadata (3.9 kB)
+Collecting antlr4-python3-runtime==4.9.3
+  Downloading antlr4-python3-runtime-4.9.3.tar.gz (117 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting huggingface-hub==0.36.0
+  Downloading huggingface_hub-0.36.0-py3-none-any.whl.metadata (14 kB)
+Downloading faiss_cpu-1.12.0-cp312-cp312-win_amd64.whl (18.2 MB)
+   ---------------------------------------- 18.2/18.2 MB 11.5 MB/s  0:00:01
+Downloading omegaconf-2.3.0-py3-none-any.whl (79 kB)
+Downloading huggingface_hub-0.36.0-py3-none-any.whl (566 kB)
+   ---------------------------------------- 566.1/566.1 kB 9.5 MB/s  0:00:00
+Building wheels for collected packages: tabdpt, antlr4-python3-runtime
+  Building wheel for tabdpt (pyproject.toml): started
+  Building wheel for tabdpt (pyproject.toml): finished with status 'done'
+  Created wheel for tabdpt: filename=tabdpt-1.3.0-py3-none-any.whl size=27108 sha256=a426a84bbf390da45697c61a2981af14c1e8c81b0406813fb78780005277b468
+  Stored in directory: c:\work\farmai\��\�ڵ���\local\tabdpt130_cpu_v1\pip_cache\wheels\87\70\6f\469aa8932a1dd1d0a70a2c48e88948a9add6d87649665fbb8a
+  Building wheel for antlr4-python3-runtime (pyproject.toml): started
+  Building wheel for antlr4-python3-runtime (pyproject.toml): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.3-py3-none-any.whl size=144613 sha256=0445b891d2b340e9a2edf7261b62e67b6eaabc5359eab5633feb116d1d6cf06a
+  Stored in directory: c:\work\farmai\��\�ڵ���\local\tabdpt130_cpu_v1\pip_cache\wheels\1f\be\48\13754633f1d08d1fbfc60d5e80ae1e5d7329500477685286cd
+Successfully built tabdpt antlr4-python3-runtime
+Installing collected packages: antlr4-python3-runtime, tabdpt, omegaconf, huggingface-hub, faiss-cpu
+
+Successfully installed antlr4-python3-runtime-4.9.3 faiss-cpu-1.12.0 huggingface-hub-0.36.0 omegaconf-2.3.0 tabdpt-1.3.0
+OVERLAY_INSTALL_COMPLETE

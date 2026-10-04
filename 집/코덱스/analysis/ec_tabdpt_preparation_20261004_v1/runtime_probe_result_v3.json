@@ -1,0 +1,646 @@
+{
+  "status": "PASS_IMPORT_ONLY_FIT_PREDICT_UNTESTED",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\aozks\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "site": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site",
+  "exact_five_pins": {
+    "tabdpt": "1.3.0",
+    "faiss-cpu": "1.12.0",
+    "omegaconf": "2.3.0",
+    "antlr4-python3-runtime": "4.9.3",
+    "huggingface-hub": "0.36.0"
+  },
+  "metadata": {
+    "tabdpt": {
+      "name": "tabdpt",
+      "version": "1.3.0",
+      "dist_info": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\tabdpt-1.3.0.dist-info",
+      "metadata_sha256": "cde247f0ef72d8752ed65aaab9fe3ea69d298eada06975f94acd7a62d0723d8a",
+      "root": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site"
+    },
+    "faiss-cpu": {
+      "name": "faiss-cpu",
+      "version": "1.12.0",
+      "dist_info": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\faiss_cpu-1.12.0.dist-info",
+      "metadata_sha256": "0eb6ffd0ebbe904370e7ff28d73d897d7938d66ff6db00e0ed4cfdea5ab88717",
+      "root": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site"
+    },
+    "omegaconf": {
+      "name": "omegaconf",
+      "version": "2.3.0",
+      "dist_info": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\omegaconf-2.3.0.dist-info",
+      "metadata_sha256": "ab2dcbf0e3e70cc75dca1d894f8953e7de8b651dc2dc28f08f350bfa5787badb",
+      "root": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site"
+    },
+    "antlr4-python3-runtime": {
+      "name": "antlr4-python3-runtime",
+      "version": "4.9.3",
+      "dist_info": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\antlr4_python3_runtime-4.9.3.dist-info",
+      "metadata_sha256": "bf325e5155318385a2fcc4680742da710bbadf13a3d1c0979a98b3487980f261",
+      "root": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site"
+    },
+    "huggingface-hub": {
+      "name": "huggingface-hub",
+      "version": "0.36.0",
+      "dist_info": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\huggingface_hub-0.36.0.dist-info",
+      "metadata_sha256": "26ce80563d3402f2935b7d881835b9b1a64d897dc2f986f52bf4114642de71ad",
+      "root": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site"
+    },
+    "numpy": {
+      "name": "numpy",
+      "version": "2.5.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\numpy-2.5.3.dist-info",
+      "metadata_sha256": "451a9b8028000588e66b0b415587b6aef0bbc51a96d8e8a0cba0dc23acf64f99",
+      "root": "C:\\work\\farmai\\.analysis-tools\\python"
+    },
+    "scikit-learn": {
+      "name": "scikit-learn",
+      "version": "1.9.1",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\scikit_learn-1.9.1.dist-info",
+      "metadata_sha256": "32e503c710a61e4e04be4edb450f9f8141233ac6af3f3db59a877667538fa4ec",
+      "root": "C:\\work\\farmai\\.analysis-tools\\python"
+    },
+    "scipy": {
+      "name": "scipy",
+      "version": "1.18.1",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\scipy-1.18.1.dist-info",
+      "metadata_sha256": "c8313d18ca0168ff291fe0a3b50532f3a18b14547695e9aa7ca1c1ce6eca92dc",
+      "root": "C:\\work\\farmai\\.analysis-tools\\python"
+    },
+    "torch": {
+      "name": "torch",
+      "version": "2.14.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\torch-2.14.0.dist-info",
+      "metadata_sha256": "2022ffa4b3908c676206828d888cb173af67653492b2d7759e8e631fd896ada1",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "safetensors": {
+      "name": "safetensors",
+      "version": "0.8.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\safetensors-0.8.0.dist-info",
+      "metadata_sha256": "645be7b8d55e91534f991d144dc9e279581ea8dbea1a8c5b0be14e529d01e345",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "tqdm": {
+      "name": "tqdm",
+      "version": "4.70.1",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\tqdm-4.70.1.dist-info",
+      "metadata_sha256": "a5da70b966afea3a759716041bad7187f2ece02c22348cf9e7c0a512bbf15f57",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "packaging": {
+      "name": "packaging",
+      "version": "26.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\packaging-26.3.dist-info",
+      "metadata_sha256": "70fdb89fc4d4a9a043bf7372b8972bcc883fddff34ab55e9cf80d73875384763",
+      "root": "C:\\work\\farmai\\.analysis-tools\\python"
+    },
+    "PyYAML": {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\pyyaml-6.0.3.dist-info",
+      "metadata_sha256": "03c3b415ed38d09faedc49360e930769b40c58f68585e6de00e2e4916a858d34",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "filelock": {
+      "name": "filelock",
+      "version": "4.0.4",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\filelock-4.0.4.dist-info",
+      "metadata_sha256": "9d12d8d076209fc586902c76336c2b97edaa116ba2d34bdc91089ea20bbe51eb",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "fsspec": {
+      "name": "fsspec",
+      "version": "2026.9.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\fsspec-2026.9.0.dist-info",
+      "metadata_sha256": "68f5a262767510638e9b1933b1493f2baadc9616fe1e696f62aedd59c8c0a37c",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "pyyaml": {
+      "name": "PyYAML",
+      "version": "6.0.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\pyyaml-6.0.3.dist-info",
+      "metadata_sha256": "03c3b415ed38d09faedc49360e930769b40c58f68585e6de00e2e4916a858d34",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "requests": {
+      "name": "requests",
+      "version": "2.34.2",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\requests-2.34.2.dist-info",
+      "metadata_sha256": "8c384ba3e979480faae2859d3c5e6c1276dd2c3616e322e124d52c8cfc556f27",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "typing-extensions": {
+      "name": "typing_extensions",
+      "version": "4.16.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\typing_extensions-4.16.0.dist-info",
+      "metadata_sha256": "b05084ca1d50879865178d9fff9fabeab61bdfb1f361bfbde95421ffc8f9be46",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "joblib": {
+      "name": "joblib",
+      "version": "1.6.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\joblib-1.6.0.dist-info",
+      "metadata_sha256": "c5fd6509906c5795fd6724d97bc1709d1f266b78aff92c0156d6cf5ad7c045e3",
+      "root": "C:\\work\\farmai\\.analysis-tools\\python"
+    },
+    "narwhals": {
+      "name": "narwhals",
+      "version": "2.26.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\narwhals-2.26.0.dist-info",
+      "metadata_sha256": "7e09d821259f98ca6ce639ddf38d5314fca112911dc3ba58d8546381ac1b2861",
+      "root": "C:\\work\\farmai\\.analysis-tools\\python"
+    },
+    "threadpoolctl": {
+      "name": "threadpoolctl",
+      "version": "3.7.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\threadpoolctl-3.7.0.dist-info",
+      "metadata_sha256": "09b19e721560cd12246402d44e53c1ede5194b8398ef60822f02cab86ccf8d1f",
+      "root": "C:\\work\\farmai\\.analysis-tools\\python"
+    },
+    "setuptools": {
+      "name": "setuptools",
+      "version": "84.0.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\setuptools-84.0.0.dist-info",
+      "metadata_sha256": "3ef2975718dd31cabdd5829455e9b868ca14dbf79ed8fed2de0af4e87347006e",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "sympy": {
+      "name": "sympy",
+      "version": "1.14.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\sympy-1.14.0.dist-info",
+      "metadata_sha256": "b756c2fbfd5be05ac5bdb0ebca61f55618f30f633ed92d88a5687429313a7595",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "networkx": {
+      "name": "networkx",
+      "version": "3.7",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\networkx-3.7.dist-info",
+      "metadata_sha256": "ffcf42a343af6ffc54ff9cc4c09cf9638cd73b131370f395abd11b630186c90c",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "jinja2": {
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\jinja2-3.1.6.dist-info",
+      "metadata_sha256": "68c5548fb67c4132a13898d9b31ec50c6bea2abdd915d921f214355c3a6499c8",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "colorama": {
+      "name": "colorama",
+      "version": "0.4.6",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\colorama-0.4.6.dist-info",
+      "metadata_sha256": "7baed29eb50c3b29bdb33ff84e3177bf1bc05784f7685ecdcaa4471c7dd810cc",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "charset_normalizer": {
+      "name": "charset-normalizer",
+      "version": "3.5.1",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\charset_normalizer-3.5.1.dist-info",
+      "metadata_sha256": "955c93827d59f1280f6d6a76b1e11bfb999cc65a55df83a6f9b28b7bc0e467f6",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "idna": {
+      "name": "idna",
+      "version": "3.20",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\idna-3.20.dist-info",
+      "metadata_sha256": "dbd8c14c1e4ca1e0c9824a6dbc7cbbf78884f38eb52d91148cd3025f671e4b85",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "urllib3": {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\urllib3-2.8.0.dist-info",
+      "metadata_sha256": "10898c620e8007c030e07fa5622b68358a43010025dfbd78a1cb797699de2bb4",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "certifi": {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\certifi-2026.7.22.dist-info",
+      "metadata_sha256": "ef5af1638fbb23676ac3c5777dfcfc2cd9c348fe4172ed5ba3d277655b248090",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "cloudpickle": {
+      "name": "cloudpickle",
+      "version": "3.1.2",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\cloudpickle-3.1.2.dist-info",
+      "metadata_sha256": "3d0263bfe9ee4f23b244bdcaff73acbe7a1957ebf82743b6ae42693adc48d721",
+      "root": "C:\\work\\farmai\\.analysis-tools\\python"
+    },
+    "mpmath": {
+      "name": "mpmath",
+      "version": "1.3.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\mpmath-1.3.0.dist-info",
+      "metadata_sha256": "44b66ea444b9c0d19ae94815d356bf047ae6b680c19268b5c265687cd6a81406",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    "MarkupSafe": {
+      "name": "MarkupSafe",
+      "version": "3.0.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\markupsafe-3.0.3.dist-info",
+      "metadata_sha256": "12b4cc61a7fa288cf7667ee3f213786d9619db57fb33ff6f934afbcb5c12ec81",
+      "root": "C:\\work\\farmai\\.analysis-tools\\extra"
+    }
+  },
+  "module_paths": {
+    "tabdpt": {
+      "module": "tabdpt",
+      "module_path": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\tabdpt\\__init__.py",
+      "module_version": null,
+      "metadata_version": "1.3.0"
+    },
+    "faiss-cpu": {
+      "module": "faiss",
+      "module_path": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\faiss\\__init__.py",
+      "module_version": "1.12.0",
+      "metadata_version": "1.12.0"
+    },
+    "omegaconf": {
+      "module": "omegaconf",
+      "module_path": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\omegaconf\\__init__.py",
+      "module_version": "2.3.0",
+      "metadata_version": "2.3.0"
+    },
+    "antlr4-python3-runtime": {
+      "module": "antlr4",
+      "module_path": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\antlr4\\__init__.py",
+      "module_version": null,
+      "metadata_version": "4.9.3"
+    },
+    "huggingface-hub": {
+      "module": "huggingface_hub",
+      "module_path": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\huggingface_hub\\__init__.py",
+      "module_version": "0.36.0",
+      "metadata_version": "0.36.0"
+    },
+    "numpy": {
+      "module": "numpy",
+      "module_path": "C:\\work\\farmai\\.analysis-tools\\python\\numpy\\__init__.py",
+      "module_version": "2.5.3",
+      "metadata_version": "2.5.3"
+    },
+    "scikit-learn": {
+      "module": "sklearn",
+      "module_path": "C:\\work\\farmai\\.analysis-tools\\python\\sklearn\\__init__.py",
+      "module_version": "1.9.1",
+      "metadata_version": "1.9.1"
+    },
+    "scipy": {
+      "module": "scipy",
+      "module_path": "C:\\work\\farmai\\.analysis-tools\\python\\scipy\\__init__.py",
+      "module_version": "1.18.1",
+      "metadata_version": "1.18.1"
+    },
+    "torch": {
+      "module": "torch",
+      "module_path": "C:\\work\\farmai\\.analysis-tools\\extra\\torch\\__init__.py",
+      "module_version": "2.14.0+cpu",
+      "metadata_version": "2.14.0"
+    },
+    "safetensors": {
+      "module": "safetensors",
+      "module_path": "C:\\work\\farmai\\.analysis-tools\\extra\\safetensors\\__init__.py",
+      "module_version": "0.8.0",
+      "metadata_version": "0.8.0"
+    },
+    "tqdm": {
+      "module": "tqdm",
+      "module_path": "C:\\work\\farmai\\.analysis-tools\\extra\\tqdm\\__init__.py",
+      "module_version": "4.70.1",
+      "metadata_version": "4.70.1"
+    }
+  },
+  "tabdpt_direct_url": {
+    "url": "https://github.com/layer6ai-labs/TabDPT-inference.git",
+    "vcs_info": {
+      "commit_id": "97e5494431e9527c7edb31cb4dcfc5f00b232fdf",
+      "requested_revision": "97e5494431e9527c7edb31cb4dcfc5f00b232fdf",
+      "vcs": "git"
+    }
+  },
+  "tabdpt_source_record_checks": [
+    "tabdpt/__init__.py",
+    "tabdpt/bar_distribution.py",
+    "tabdpt/classifier.py",
+    "tabdpt/estimator.py",
+    "tabdpt/model.py",
+    "tabdpt/regressor.py",
+    "tabdpt/utils.py"
+  ],
+  "source_sha256": {
+    "tabdpt/__init__.py": "62a9a8df86d9b12d40e1d7a8f6064b6d440b3fc59cd9449a69e49821c98e5c6b",
+    "tabdpt/bar_distribution.py": "0c60ae9712aaf14315c222758bb45703be82774d21be1dadb911251a91ace2ad",
+    "tabdpt/classifier.py": "6a5600cbe2ad5218b7e50f731cf5d26374db26c5c0655605cc9bf128156ec952",
+    "tabdpt/estimator.py": "e9ce1270ca2cf097f618b6c7f80d26f37af8efdf68d92ffa7d333543ad11d94e",
+    "tabdpt/model.py": "43f8db4248633c10c8b545a0efea81ee6960d22e85c956454f2640d25cab5339",
+    "tabdpt/regressor.py": "1f986f0e5183dbe3e0a0d9fa928d25f52b2b7f4f3f1eee5d985015ecf9c14e3a",
+    "tabdpt/utils.py": "b3e1d3991382bd4022d104a2623df6442e0d25ecf8297b2e3e1515cf55c49b55"
+  },
+  "source_commit": "97e5494431e9527c7edb31cb4dcfc5f00b232fdf",
+  "versions": {
+    "tabdpt": "1.3.0",
+    "faiss-cpu": "1.12.0",
+    "omegaconf": "2.3.0",
+    "antlr4-python3-runtime": "4.9.3",
+    "huggingface-hub": "0.36.0",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "torch": "2.14.0",
+    "safetensors": "0.8.0",
+    "tqdm": "4.70.1",
+    "packaging": "26.3",
+    "PyYAML": "6.0.3",
+    "filelock": "4.0.4",
+    "fsspec": "2026.9.0",
+    "pyyaml": "6.0.3",
+    "requests": "2.34.2",
+    "typing-extensions": "4.16.0",
+    "joblib": "1.6.0",
+    "narwhals": "2.26.0",
+    "threadpoolctl": "3.7.0",
+    "setuptools": "84.0.0",
+    "sympy": "1.14.0",
+    "networkx": "3.7",
+    "jinja2": "3.1.6",
+    "colorama": "0.4.6",
+    "charset_normalizer": "3.5.1",
+    "idna": "3.20",
+    "urllib3": "2.8.0",
+    "certifi": "2026.7.22",
+    "cloudpickle": "3.1.2",
+    "mpmath": "1.3.0",
+    "MarkupSafe": "3.0.3"
+  },
+  "active_dependency_checks": [
+    {
+      "parent": "tabdpt",
+      "requirement": "faiss-cpu<1.13.0,>=1.11.0",
+      "selected_version": "1.12.0",
+      "dist_info": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\faiss_cpu-1.12.0.dist-info"
+    },
+    {
+      "parent": "tabdpt",
+      "requirement": "huggingface-hub<2.0,>=0.33.2",
+      "selected_version": "0.36.0",
+      "dist_info": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\huggingface_hub-0.36.0.dist-info"
+    },
+    {
+      "parent": "tabdpt",
+      "requirement": "numpy<3.0,>=1.25.0",
+      "selected_version": "2.5.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\numpy-2.5.3.dist-info"
+    },
+    {
+      "parent": "tabdpt",
+      "requirement": "omegaconf<3.0,>=2.1.1",
+      "selected_version": "2.3.0",
+      "dist_info": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\omegaconf-2.3.0.dist-info"
+    },
+    {
+      "parent": "tabdpt",
+      "requirement": "safetensors<1.0,>=0.5.3",
+      "selected_version": "0.8.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\safetensors-0.8.0.dist-info"
+    },
+    {
+      "parent": "tabdpt",
+      "requirement": "scikit-learn<2.0,>=1.4.0",
+      "selected_version": "1.9.1",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\scikit_learn-1.9.1.dist-info"
+    },
+    {
+      "parent": "tabdpt",
+      "requirement": "scipy<2.0,>=1.9.0",
+      "selected_version": "1.18.1",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\scipy-1.18.1.dist-info"
+    },
+    {
+      "parent": "tabdpt",
+      "requirement": "torch<3.0,>=2.6.0",
+      "selected_version": "2.14.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\torch-2.14.0.dist-info"
+    },
+    {
+      "parent": "tabdpt",
+      "requirement": "tqdm<5.0,>=4.38.0",
+      "selected_version": "4.70.1",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\tqdm-4.70.1.dist-info"
+    },
+    {
+      "parent": "faiss-cpu",
+      "requirement": "numpy<3.0,>=1.25.0",
+      "selected_version": "2.5.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\numpy-2.5.3.dist-info"
+    },
+    {
+      "parent": "faiss-cpu",
+      "requirement": "packaging",
+      "selected_version": "26.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\packaging-26.3.dist-info"
+    },
+    {
+      "parent": "omegaconf",
+      "requirement": "antlr4-python3-runtime==4.9.*",
+      "selected_version": "4.9.3",
+      "dist_info": "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\antlr4_python3_runtime-4.9.3.dist-info"
+    },
+    {
+      "parent": "omegaconf",
+      "requirement": "PyYAML>=5.1.0",
+      "selected_version": "6.0.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\pyyaml-6.0.3.dist-info"
+    },
+    {
+      "parent": "huggingface-hub",
+      "requirement": "filelock",
+      "selected_version": "4.0.4",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\filelock-4.0.4.dist-info"
+    },
+    {
+      "parent": "huggingface-hub",
+      "requirement": "fsspec>=2023.5.0",
+      "selected_version": "2026.9.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\fsspec-2026.9.0.dist-info"
+    },
+    {
+      "parent": "huggingface-hub",
+      "requirement": "packaging>=20.9",
+      "selected_version": "26.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\packaging-26.3.dist-info"
+    },
+    {
+      "parent": "huggingface-hub",
+      "requirement": "pyyaml>=5.1",
+      "selected_version": "6.0.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\pyyaml-6.0.3.dist-info"
+    },
+    {
+      "parent": "huggingface-hub",
+      "requirement": "requests",
+      "selected_version": "2.34.2",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\requests-2.34.2.dist-info"
+    },
+    {
+      "parent": "huggingface-hub",
+      "requirement": "tqdm>=4.42.1",
+      "selected_version": "4.70.1",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\tqdm-4.70.1.dist-info"
+    },
+    {
+      "parent": "huggingface-hub",
+      "requirement": "typing-extensions>=3.7.4.3",
+      "selected_version": "4.16.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\typing_extensions-4.16.0.dist-info"
+    },
+    {
+      "parent": "scikit-learn",
+      "requirement": "numpy>=1.24.1",
+      "selected_version": "2.5.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\numpy-2.5.3.dist-info"
+    },
+    {
+      "parent": "scikit-learn",
+      "requirement": "scipy>=1.10.0",
+      "selected_version": "1.18.1",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\scipy-1.18.1.dist-info"
+    },
+    {
+      "parent": "scikit-learn",
+      "requirement": "joblib>=1.4.0",
+      "selected_version": "1.6.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\joblib-1.6.0.dist-info"
+    },
+    {
+      "parent": "scikit-learn",
+      "requirement": "narwhals>=2.0.1",
+      "selected_version": "2.26.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\narwhals-2.26.0.dist-info"
+    },
+    {
+      "parent": "scikit-learn",
+      "requirement": "threadpoolctl>=3.5.0",
+      "selected_version": "3.7.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\threadpoolctl-3.7.0.dist-info"
+    },
+    {
+      "parent": "scipy",
+      "requirement": "numpy<2.8,>=2.0.0",
+      "selected_version": "2.5.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\numpy-2.5.3.dist-info"
+    },
+    {
+      "parent": "torch",
+      "requirement": "filelock",
+      "selected_version": "4.0.4",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\filelock-4.0.4.dist-info"
+    },
+    {
+      "parent": "torch",
+      "requirement": "typing-extensions>=4.10.0",
+      "selected_version": "4.16.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\typing_extensions-4.16.0.dist-info"
+    },
+    {
+      "parent": "torch",
+      "requirement": "setuptools>=77.0.3",
+      "selected_version": "84.0.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\setuptools-84.0.0.dist-info"
+    },
+    {
+      "parent": "torch",
+      "requirement": "sympy>=1.13.3",
+      "selected_version": "1.14.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\sympy-1.14.0.dist-info"
+    },
+    {
+      "parent": "torch",
+      "requirement": "networkx>=2.5.1",
+      "selected_version": "3.7",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\networkx-3.7.dist-info"
+    },
+    {
+      "parent": "torch",
+      "requirement": "jinja2",
+      "selected_version": "3.1.6",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\jinja2-3.1.6.dist-info"
+    },
+    {
+      "parent": "torch",
+      "requirement": "fsspec>=0.8.5",
+      "selected_version": "2026.9.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\fsspec-2026.9.0.dist-info"
+    },
+    {
+      "parent": "tqdm",
+      "requirement": "colorama; platform_system == \"Windows\"",
+      "selected_version": "0.4.6",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\colorama-0.4.6.dist-info"
+    },
+    {
+      "parent": "requests",
+      "requirement": "charset_normalizer<4,>=2",
+      "selected_version": "3.5.1",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\charset_normalizer-3.5.1.dist-info"
+    },
+    {
+      "parent": "requests",
+      "requirement": "idna<4,>=2.5",
+      "selected_version": "3.20",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\idna-3.20.dist-info"
+    },
+    {
+      "parent": "requests",
+      "requirement": "urllib3<3,>=1.26",
+      "selected_version": "2.8.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\urllib3-2.8.0.dist-info"
+    },
+    {
+      "parent": "requests",
+      "requirement": "certifi>=2023.5.7",
+      "selected_version": "2026.7.22",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\certifi-2026.7.22.dist-info"
+    },
+    {
+      "parent": "joblib",
+      "requirement": "cloudpickle>=3.0",
+      "selected_version": "3.1.2",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\python\\cloudpickle-3.1.2.dist-info"
+    },
+    {
+      "parent": "sympy",
+      "requirement": "mpmath<1.4,>=1.1.0",
+      "selected_version": "1.3.0",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\mpmath-1.3.0.dist-info"
+    },
+    {
+      "parent": "jinja2",
+      "requirement": "MarkupSafe>=2.0",
+      "selected_version": "3.0.3",
+      "dist_info": "C:\\work\\farmai\\.analysis-tools\\extra\\markupsafe-3.0.3.dist-info"
+    }
+  ],
+  "dll_dirs_with_live_handles": [
+    "C:\\work\\farmai\\.analysis-tools\\extra\\numpy.libs",
+    "C:\\work\\farmai\\.analysis-tools\\extra\\pandas.libs",
+    "C:\\work\\farmai\\.analysis-tools\\extra\\scipy.libs",
+    "C:\\work\\farmai\\.analysis-tools\\extra\\sklearn\\.libs",
+    "C:\\work\\farmai\\.analysis-tools\\extra\\torch\\lib",
+    "C:\\work\\farmai\\.analysis-tools\\msvc",
+    "C:\\work\\farmai\\.analysis-tools\\python\\numpy.libs",
+    "C:\\work\\farmai\\.analysis-tools\\python\\pandas.libs",
+    "C:\\work\\farmai\\.analysis-tools\\python\\scipy.libs",
+    "C:\\work\\farmai\\.analysis-tools\\python\\sklearn\\.libs",
+    "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\faiss",
+    "C:\\work\\farmai\\집\\코덱스\\local\\tabdpt130_cpu_v1\\site\\faiss_cpu.libs"
+  ],
+  "constructor_signature": "(self, normalizer: Optional[Literal['standard', 'minmax', 'robust', 'power', 'quantile-uniform', 'quantile-normal', 'log1p']] = 'standard', missing_indicators: bool = False, clip_sigma: float = 8.0, feature_reduction: Literal['pca', 'subsample'] = 'pca', context_reduction: Literal['retrieval', 'subsample', 'subsample-balanced'] = 'subsample', faiss_metric: Literal['l2', 'ip'] = 'l2', device: str = None, use_flash: bool = True, compile: bool = True, model_weight_path: str | None = None, verbose: bool = True)",
+  "predict_signature": "(self, X: numpy.ndarray, n_ensembles: int = 8, context_size: int | None = None, batch_size: int | None = None, seed: int | None = None, *, output_type: Literal['mean', 'full'] = 'mean') -> numpy.ndarray | tabdpt.bar_distribution.FullPrediction",
+  "new_installs": 0,
+  "weight_reads": 0,
+  "new_weight_downloads": 0,
+  "data_reads": 0,
+  "fit": 0,
+  "predict": 0
+}

@@ -1,0 +1,90 @@
+{
+  "scope": "read-only distribution metadata; no third-party imports",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\aozks\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "machine": "AMD64",
+  "search_paths": [
+    "C:\\work\\farmai\\.analysis-tools\\python",
+    "C:\\work\\farmai\\.analysis-tools\\extra"
+  ],
+  "distributions": [
+    {
+      "name": "numpy",
+      "version": "2.5.3",
+      "metadata_path": "C:\\work\\farmai\\.analysis-tools\\python\\numpy-2.5.3.dist-info",
+      "search_path": "C:\\work\\farmai\\.analysis-tools\\python"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.9.1",
+      "metadata_path": "C:\\work\\farmai\\.analysis-tools\\python\\scikit_learn-1.9.1.dist-info",
+      "search_path": "C:\\work\\farmai\\.analysis-tools\\python"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1",
+      "metadata_path": "C:\\work\\farmai\\.analysis-tools\\python\\scipy-1.18.1.dist-info",
+      "search_path": "C:\\work\\farmai\\.analysis-tools\\python"
+    },
+    {
+      "name": "huggingface-hub",
+      "version": "2.0.0",
+      "metadata_path": "C:\\work\\farmai\\.analysis-tools\\extra\\huggingface_hub-2.0.0.dist-info",
+      "search_path": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.3",
+      "metadata_path": "C:\\work\\farmai\\.analysis-tools\\extra\\numpy-2.5.3.dist-info",
+      "search_path": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    {
+      "name": "safetensors",
+      "version": "0.8.0",
+      "metadata_path": "C:\\work\\farmai\\.analysis-tools\\extra\\safetensors-0.8.0.dist-info",
+      "search_path": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.9.1",
+      "metadata_path": "C:\\work\\farmai\\.analysis-tools\\extra\\scikit_learn-1.9.1.dist-info",
+      "search_path": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.1",
+      "metadata_path": "C:\\work\\farmai\\.analysis-tools\\extra\\scipy-1.18.1.dist-info",
+      "search_path": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    {
+      "name": "torch",
+      "version": "2.14.0",
+      "metadata_path": "C:\\work\\farmai\\.analysis-tools\\extra\\torch-2.14.0.dist-info",
+      "search_path": "C:\\work\\farmai\\.analysis-tools\\extra"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1",
+      "metadata_path": "C:\\work\\farmai\\.analysis-tools\\extra\\tqdm-4.70.1.dist-info",
+      "search_path": "C:\\work\\farmai\\.analysis-tools\\extra"
+    }
+  ],
+  "effective_versions": {
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "scipy": "1.18.1",
+    "huggingface-hub": "2.0.0",
+    "safetensors": "0.8.0",
+    "torch": "2.14.0",
+    "tqdm": "4.70.1"
+  },
+  "absent": [
+    "faiss-cpu",
+    "omegaconf",
+    "tabdpt"
+  ],
+  "imports_of_candidate_packages": 0,
+  "installs": 0,
+  "fits": 0
+}

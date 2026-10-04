@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\집\코덱스\analysis\ec_tabdpt_preparation_20261004_v1\runtime_probe_draft_v1.py", line 89, in <module>
+    result = import_probe(args.runtime_root) if args.check_imports else {
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_tabdpt_preparation_20261004_v1\runtime_probe_draft_v1.py", line 55, in import_probe
+    versions = adapter.verify_package_pin(execution_authorized=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_tabdpt_preparation_20261004_v1\adapter_draft_v1.py", line 98, in verify_package_pin
+    if Version(value) not in SpecifierSet(spec):
+       ^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\packaging\version.py", line 421, in __init__
+    raise InvalidVersion(f"Invalid version: {version!r}") from None
+packaging.version.InvalidVersion: Invalid version: None

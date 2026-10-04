@@ -1,0 +1,428 @@
+{
+  "version": "1",
+  "pip_version": "26.2.1",
+  "install": [
+    {
+      "download_info": {
+        "url": "https://github.com/layer6ai-labs/TabDPT-inference.git",
+        "vcs_info": {
+          "vcs": "git",
+          "commit_id": "97e5494431e9527c7edb31cb4dcfc5f00b232fdf",
+          "requested_revision": "97e5494431e9527c7edb31cb4dcfc5f00b232fdf"
+        }
+      },
+      "is_direct": true,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "tabdpt",
+        "version": "1.3.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "TabDPT: Scaling Tabular Foundation Models on Real Data",
+        "description": "<div align=\"center\">\n\n# TabDPT: Scaling Tabular Foundation Models on Real Data\n\n[![arxiv](https://img.shields.io/static/v1?label=arXiv&message=2410.18164&color=B31B1B&logo=arXiv)](https://arxiv.org/abs/2410.18164)\n[![huggingface](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-FFD21E)](https://huggingface.co/Layer6/TabDPT)\n[![pypi](https://img.shields.io/badge/PyPI-tabdpt-3775A9?logo=pypi)](https://pypi.org/project/tabdpt/)\n\n</div>\n\n**TabDPT** is an open-source foundation model for tabular data based on in-context learning (ICL). It is trained on real-world data and can generalize to new tasks **without** additional training or hyperparameter tuning.\n\nThis repository provides lightweight interface code to generate predictions on new tabular datasets. Full training code is available [here](https://github.com/layer6ai-labs/TabDPT-training/).\n\n## News\n\n### September 8, 2026: TabDPT v1.3\n\nAfter minor architectural tweaks and improvements to our training recipe, we're releasing TabDPT v1.3, which is similar to v1.2 but with improved predictive performance. We've also added an option for full probabilistic regression outputs, with helper functions for calculating quantiles and other statistics of the output distributions. See the [release notes](https://github.com/layer6ai-labs/TabDPT-inference/releases/tag/v1.3.0) for full details.\n\n### June 17, 2026: TabDPT v1.2\n\nWe're pleased to announce TabDPT v1.2, or TabDPT-Turbo! This release accelerates TabDPT fitting and inference by multiple orders of magnitude (~120x on average on TabArena) while improving predictive performance. In our experiments, TabDPT-Turbo is the fastest model overall among leading foundation models.\n\nMore details and experimental results are provided in our [TabDPT-Turbo paper](https://openreview.net/forum?id=Y00pwFyrHR). As part of this release, we have made some API changes and changed some default hyperparameter values; see the [release notes](https://github.com/layer6ai-labs/TabDPT-inference/releases/tag/v1.2.0) for full details.\n\n## Usage\n\nTabDPT is available on PyPI, and can be installed with:\n```\npip install tabdpt\n```\n\nModel weights are available on [Hugging Face](https://huggingface.co/Layer6/TabDPT). They will be automatically downloaded on first use.\n\nWe currently update the minor version number when a new model version is released, while the patch version number is used for library changes that don't involve changes to the underlying model. To install a previous model version, use `pip install tabdpt==x.y.*` where `x.y` is the model version, e.g., `pip install tabdpt==1.1.*`.\n\n### Installation From Source\n\nTo set up this repo, first ensure you have Python 3.10 or newer. Then, run the following:\n```\ngit clone git@github.com:layer6ai-labs/TabDPT.git\ncd TabDPT\npip install -e .\npip install --group dev\n```\n\nAlternatively, if you are using a package manager such as `uv`, you can run\n```\nuv sync\n```\n\nYou may also need a C++ compiler such as `g++` for building dependencies. On Ubuntu, you can install it with:\n```\nsudo apt-get update\nsudo apt-get install g++\n```\n\nLastly, you will need a `python-dev` system package. On Ubuntu, it can be installed with:\n```\nsudo apt-get update\nsudo apt-get install python-dev\n```\n\n### Tips\n\nIf you experience errors caused by `torch compile` (e.g., `InductorError`), try updating package versions and system drivers. \n\nFor better runtime performance, adjust `context_size` or `n_ensembles` to trade off speed and accuracy.\n\n### Working Examples\n\nSee the scripts in `examples/` for how to use TabDPT once installed:\n\n- `examples/cls_example.py` — classification with a point prediction and accuracy\n- `examples/reg_example.py` — regression with a point prediction and R²\n- `examples/reg_probabilistic_example.py` — regression with full distributional outputs (logits, quantiles, intervals, calibration)\n\n### Unit Tests\n\nUnit tests are in the `tests/` directory and can be run using `pytest`.\n\n## Overview\n\nTabDPT uses retrieval and self-supervised learning to remove constraints on dataset size and to enable effective generalization from pre-training on real data. We find this to be competitive with existing ICL training approaches, and outperform leading deep learning and tree-based models:\n\n<table align=\"center\">\n\t<colgroup>\n\t\t<col />\n\t\t<col />\n\t\t<col />\n\t\t<col />\n\t\t<col />\n\t</colgroup>\n\t<thead>\n\t\t<tr class=\"header\">\n\t\t\t<td style=\"text-align: center;\" rowspan=2><strong>Algorithm</strong></th>\n\t\t\t<th style=\"text-align: center;\" colspan=2><strong>CC18</strong></th>\n\t\t\t<th style=\"text-align: center;\" colspan=2><strong>CTR23</strong></th>\n\t\t</tr>\n\t\t<tr class=\"header\">\n\t\t\t<th style=\"text-align: center;\"><strong>AUC</strong></th>\n\t\t\t<th style=\"text-align: center;\"><strong>Accuracy</strong></th>\n\t\t\t<th style=\"text-align: center;\"><strong>Correlation</strong></th>\n\t\t\t<th style=\"text-align: center;\"><strong><span class=\"math inline\"><em>R</em><sup>2</sup></span></strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr class=\"odd\">\n\t\t\t<td style=\"text-align: center;\"><strong>TabDPT v1.3</strong></td>\n\t\t\t<td><strong>0.980 <sub><sup>[0.978, 0.982]</sup></sub></strong></td>\n\t\t\t<td><strong>0.934 <sub><sup>[0.931, 0.937]</sup></sub></strong></td>\n\t\t\t<td><strong>0.926 <sub><sup>[0.922, 0.930]</sup></sub></strong></td>\n\t\t\t<td><strong>0.860 <sub><sup>[0.853, 0.866]</sup></sub></strong></td>\n\t\t</tr>\n\t\t<tr class=\"even\">\n\t\t\t<td style=\"text-align: center;\">TabDPT v1.2</td>\n\t\t\t<td>0.978 <sub><sup>[0.976, 0.980]</sup></sub></td>\n\t\t\t<td>0.930 <sub><sup>[0.926, 0.933]</sup></sub></td>\n\t\t\t<td>0.924 <sub><sup>[0.918, 0.928]</sup></sub></td>\n\t\t\t<td>0.855 <sub><sup>[0.846, 0.863]</sup></sub></td>\n\t\t</tr>\n\t\t<tr class=\"odd\">\n\t\t\t<td style=\"text-align: center;\">TabDPT v1.1</td>\n\t\t\t<td>0.976 <sub><sup>[0.974, 0.978]</sup></sub></td>\n\t\t\t<td>0.928 <sub><sup>[0.926, 0.931]</sup></sub></td>\n\t\t\t<td>0.920 <sub><sup>[0.918, 0.922]</sup></sub></td>\n\t\t\t<td>0.847 <sub><sup>[0.843, 0.851]</sup></sub></td>\n\t\t</tr>\n\t\t<tr class=\"even\">\n\t\t\t<td style=\"text-align: center;\">TabDPT v1.0</td>\n\t\t\t<td>0.972 <sub><sup>[0.971, 0.973]</sup></sub></td>\n\t\t\t<td>0.917 <sub><sup>[0.915, 0.919]</sup></sub></td>\n\t\t\t<td>0.911 <sub><sup>[0.908, 0.913]</sup></sub></td>\n\t\t\t<td>0.831 <sub><sup>[0.826, 0.835]</sup></sub></td>\n\t\t</tr>\n\t\t<tr class=\"odd\">\n\t\t\t<td style=\"text-align: center;\"><a href=\"https://www.nature.com/articles/s41586-024-08328-6\">TabPFN v2</a></td>\n\t\t\t<td>0.972 <sub><sup>[0.970, 0.974]</sup></sub></td>\n\t\t\t<td>0.917 <sub><sup>[0.915, 0.919]</sup></sub></td>\n\t\t\t<td>0.917 <sub><sup>[0.911, 0.921]</sup></sub></td>\n\t\t\t<td>0.841 <sub><sup>[0.831, 0.848]</sup></sub></td>\n\t\t</tr>\n\t\t<!---\n\t\t<tr class=\"even\">\n\t\t\t<td style=\"text-align: center;\"><a href=\"https://arxiv.org/abs/2406.05207\">TabPFN (kNN)</a></td>\n\t\t\t<td>0.959 <sub><sup>[0.956, 0.962]</sup></sub></td>\n\t\t\t<td>0.884 <sub><sup>[0.881, 0.887]</sup></sub></td>\n\t\t\t<td style=\"text-align: center;\">N/A</td>\n\t\t\t<td style=\"text-align: center;\">N/A</td>\n\t\t</tr>\n\t\t--->\n\t\t<tr class=\"odd\">\n\t\t\t<td style=\"text-align: center;\"><a href=\"https://arxiv.org/abs/2207.01848\">TabPFN</a></td>\n\t\t\t<td>0.939 <sub><sup>[0.935, 0.943]</sup></sub></td>\n\t\t\t<td>0.852 <sub><sup>[0.849, 0.856]</sup></sub></td>\n\t\t\t<td style=\"text-align: center;\">N/A</td>\n\t\t\t<td style=\"text-align: center;\">N/A</td>\n\t\t</tr>\n\t\t<tr class=\"even\">\n\t\t\t<td style=\"text-align: center;\"><a href=\"https://arxiv.org/abs/2307.14338\">TabR</a></td>\n\t\t\t<td>0.967 <sub><sup>[0.965, 0.969]</sup></sub></td>\n\t\t\t<td>0.923 <sub><sup>[0.920, 0.926]</sup></sub></td>\n\t\t\t<td>0.909 <sub><sup>[0.905, 0.912]</sup></sub></td>\n\t\t\t<td>0.825 <sub><sup>[0.817, 0.831]</sup></sub></td>\n\t\t</tr>\n\t\t<tr class=\"odd\">\n\t\t\t<td style=\"text-align: center;\"><a href=\"https://arxiv.org/abs/2203.05556\">MLP-PLR</a></td>\n\t\t\t<td>0.967 <sub><sup>[0.965, 0.968]</sup></sub></td>\n\t\t\t<td>0.914 <sub><sup>[0.911, 0.917]</sup></sub></td>\n\t\t\t<td>0.907 <sub><sup>[0.904, 0.910]</sup></sub></td>\n\t\t\t<td>0.827 <sub><sup>[0.822, 0.832]</sup></sub></td>\n\t\t</tr>\n\t\t<tr class=\"even\">\n\t\t\t<td style=\"text-align: center;\">MLP</td>\n\t\t\t<td>0.915 <sub><sup>[0.909, 0.920]</sup></sub></td>\n\t\t\t<td>0.865 <sub><sup>[0.860, 0.870]</sup></sub></td>\n\t\t\t<td style=\"text-align: center;\">N/A</td>\n\t\t\t<td style=\"text-align: center;\">N/A</td>\n\t\t</tr>\n\t\t<tr class=\"odd\">\n\t\t\t<td style=\"text-align: center;\"><a href=\"https://arxiv.org/abs/1603.02754\">XGBoost</a></td>\n\t\t\t<td>0.965 <sub><sup>[0.963, 0.967]</sup></sub></td>\n\t\t\t<td>0.910 <sub><sup>[0.906, 0.913]</sup></sub></td>\n\t\t\t<td>0.904 <sub><sup>[0.900, 0.907]</sup></sub></td>\n\t\t\t<td>0.820 <sub><sup>[0.814, 0.825]</sup></sub></td>\n\t\t</tr>\n\t\t<tr class=\"even\">\n\t\t\t<td style=\"text-align: center;\"><a href=\"https://github.com/microsoft/LightGBM\">LightGBM</a></td>\n\t\t\t<td>0.964 <sub><sup>[0.962, 0.967]</sup></sub></td>\n\t\t\t<td>0.906 <sub><sup>[0.902, 0.909]</sup></sub></td>\n\t\t\t<td>0.900 <sub><sup>[0.896, 0.904]</sup></sub></td>\n\t\t\t<td>0.809 <sub><sup>[0.803, 0.815]</sup></sub></td>\n\t\t</tr>\n\t\t<tr class=\"odd\">\n\t\t\t<td style=\"text-align: center;\"><a href=\"https://arxiv.org/abs/1810.11363\">CatBoost</a></td>\n\t\t\t<td>0.964 <sub><sup>[0.962, 0.967]</sup></sub></td>\n\t\t\t<td>0.908 <sub><sup>[0.905, 0.910]</sup></sub></td>\n\t\t\t<td>0.897 <sub><sup>[0.890, 0.903]</sup></sub></td>\n\t\t\t<td>0.802 <sub><sup>[0.794, 0.810]</sup></sub></td>\n\t\t</tr>\n\t</tbody>\n</table>\n<p>\n\t<b>Table 1:</b> Model performance comparison on the <a href=\"https://new.openml.org/search?type=study&study_type=task&id=99\">CC18</a> and <a href=\"https://www.openml.org/search?type=study&study_type=task&id=353\">CTR23</a> benchmarks, with 95% confidence intervals. Tree-based models are taken from <a href=\"https://arxiv.org/abs/2305.02997\">McElfresh et al.</a>, MLP-PLR and TabR are taken from the <a href=\"https://github.com/yandex-research/tabular-dl-tabr\">official implementation</a>. TabPFN-v2 was run with the default setting <code>SUBSAMPLE_SAMPLES = 10000</code> for inference. TabDPT has context size 2048 and ensemble size 8.\n</p>\n\nTabDPT is trained on real-world tabular data and we observe scaling laws similar to LLMs opening the door to training Internet-scale tabular foundation models:\n\n<p align=\"center\">\n<img\nsrc=\"https://raw.githubusercontent.com/layer6ai-labs/TabDPT-inference/main/figures/scaling.png\" width=\"50%\">\n<br />\n<p>\n<b>Figure 1:</b> Increasing model or pre-training data size (number of cells) leads to consistent improvements predictable by power laws (fitted solid lines).\n</p>\n</p>\n\nTabDPT also stands out in head-to-head model comparisons and is significantly faster than other models in total time taken to generate a prediction:\n\n<p align=\"center\">\n<img\nsrc=\"https://github.com/layer6ai-labs/TabDPT-inference/raw/main/figures/performance-comparison.png\" width=\"100%\">\n<br />\n<p>\n<b>Figure 2:</b> (<i>left</i>) Pairwise win-rate comparison in terms of classification/regression accuracy/R<sup>2</sup>. (<i>right</i>) Total runtime vs performance. TabDPT models are ordered by context size.\n</p>\n</p>\n\nFor full details, please see our paper [*TabDPT: Scaling Tabular Foundation Models on Real Data*](https://arxiv.org/abs/2410.18164).\n\n## Reproducing TabDPT Paper Numbers\n\nIt is impossible to exactly replicate the results of TabDPT between runs, but this section describes how to generate results using the same evaluation approach as in the paper.\n\nTo install the dependency versions used in the paper, run\n```\npip install .[reproduce-results]\n```\nThis requires Python 3.11.\n\nRunning the `paper_evaluation.py` script will enable calculation of results similar to the paper. Run the following two commands:\n```\npython paper_evaluation.py --fold 0\npython paper_evaluation.py --fold 1\n```\nand then use `notebooks/analysis.ipynb` with the resulting CSV outputs to reproduce the numbers (including confidence intervals) from the Appendix.\n\nYou can do something similar to get the ranked table from this README and the paper but will need to also compute the baseline results beforehand (code not provided in this repository).\n\n\n## Citation\n```\n@inproceedings{\n    ma2025tabdpt,\n    title={Tab{DPT}: Scaling Tabular Foundation Models on Real Data},\n    author={Junwei Ma and Valentin Thomas and Rasa Hosseinzadeh and Alex Labach and Hamidreza Kamkari and Jesse C. Cresswell and Keyvan Golestan and Guangwei Yu and Anthony L. Caterini and Maksims Volkovs},\n    booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},\n    year={2025},\n    url={https://openreview.net/forum?id=pIZxEOZCId}\n}\n```\n\n© Copyright 2024-2026 The Toronto-Dominion Bank and/or its affiliates\n",
+        "description_content_type": "text/markdown",
+        "license_expression": "Apache-2.0",
+        "license_file": [
+          "LICENSE"
+        ],
+        "requires_dist": [
+          "faiss-cpu<1.13.0,>=1.11.0",
+          "huggingface-hub<2.0,>=0.33.2",
+          "numpy<3.0,>=1.25.0",
+          "omegaconf<3.0,>=2.1.1",
+          "safetensors<1.0,>=0.5.3",
+          "scikit-learn<2.0,>=1.4.0",
+          "scipy<2.0,>=1.9.0",
+          "torch<3.0,>=2.6.0",
+          "tqdm<5.0,>=4.38.0",
+          "faiss-cpu==1.11.0; extra == \"reproduce-results\"",
+          "numpy==2.3.0; python_version >= \"3.11\" and extra == \"reproduce-results\"",
+          "omegaconf==2.3.0; extra == \"reproduce-results\"",
+          "scikit-learn==1.7.0; extra == \"reproduce-results\"",
+          "scipy==1.15.3; extra == \"reproduce-results\"",
+          "torch==2.7.1; extra == \"reproduce-results\"",
+          "rliable==1.2.0; extra == \"reproduce-results\"",
+          "pandas==2.3.2; extra == \"reproduce-results\"",
+          "openml==0.15.1; extra == \"reproduce-results\"",
+          "jupyter==1.1.1; extra == \"reproduce-results\"",
+          "tenacity==9.1.2; extra == \"reproduce-results\"",
+          "gdown==5.2.0; extra == \"reproduce-results\""
+        ],
+        "requires_python": ">=3.10",
+        "project_url": [
+          "Repository, https://github.com/layer6ai-labs/TabDPT-inference",
+          "Paper, https://arxiv.org/abs/2410.18164",
+          "Model, https://huggingface.co/Layer6/TabDPT"
+        ],
+        "provides_extra": [
+          "reproduce-results"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/c9/b8/6911de6b8fdcfa76144680c2195df6ce7e0cc920a8be8c5bbd2dfe5e3c37/faiss_cpu-1.12.0-cp312-cp312-win_amd64.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "6b8012353d50d9bc81bcfe35b226d0e5bfad345fdebe0da31848395ebc83816d"
+          },
+          "hash": "sha256=6b8012353d50d9bc81bcfe35b226d0e5bfad345fdebe0da31848395ebc83816d"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "faiss-cpu",
+        "version": "1.12.0",
+        "dynamic": [
+          "license-file"
+        ],
+        "summary": "A library for efficient similarity search and clustering of dense vectors.",
+        "description": "# faiss-wheels\n\n[![Build](https://github.com/kyamagu/faiss-wheels/actions/workflows/build.yml/badge.svg)](https://github.com/kyamagu/faiss-wheels/actions/workflows/build.yml)\n[![PyPI](https://img.shields.io/pypi/v/faiss-cpu?label=faiss-cpu)](https://pypi.org/project/faiss-cpu/)\n\nfaiss python wheel packages.\n\n- [faiss](https://github.com/facebookresearch/faiss)\n\n## Overview\n\nThis repository provides scripts to build wheel packages for the\n[faiss](https://github.com/facebookresearch/faiss) library.\n\n- Builds CPU-only version with [cibuildwheel](https://github.com/pypa/cibuildwheel/).\n- Bundles [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS) in Linux/Windows\n- Uses Accelerate framework in macOS\n\nThere is also a source package to customize the build process.\n\n> **Note**\n> GPU binary package is discontinued as of 1.7.3 release. Build a source package to support GPU features.\n\n### Install\n\nInstall the CPU-only binary package by:\n\n```bash\npip install faiss-cpu\n```\n\nNote that the package name is `faiss-cpu`.\n\n## Supporting GPU or customized build configuration\n\nThe PyPI binary package does not support GPU.\nTo support GPU methods or use faiss with different build configuration, build a source package.\nFor building the source package, swig 3.0.12 or later needs to be available.\nAlso, there should be all the required prerequisites for building faiss itself, such as `nvcc` and CUDA toolkit.\n\n## Building faiss\n\n*The source package assumes faiss and OpenBLAS are already built and installed in the system.*\nIf not done so elsewhere, build and install the faiss library first.\nThe following example builds and installs faiss with GPU support and avx512 instruction set.\n\n```bash\ngit clone https://github.com/facebookresearch/faiss.git\ncd faiss\ncmake . -B build -DFAISS_ENABLE_GPU=ON -DFAISS_ENABLE_PYTHON=OFF -DFAISS_OPT_LEVEL=avx512\ncmake --build build --config Release -j\ncmake --install build install\ncd ..\n```\n\nSee the official\n[faiss installation instruction](https://github.com/facebookresearch/faiss/blob/master/INSTALL.md)\nfor more on how to build and install faiss.\n\n### Building and installing a source package\n\nOnce faiss is built and installed, build the source package.\nThe following builds and installs the faiss-cpu source package with GPU and AVX512.\n\n```bash\nexport FAISS_ENABLE_GPU=ON FAISS_OPT_LEVEL=avx512\npip install --no-binary :all: faiss-cpu\n```\n\nThere are a few environment variables that specifies build-time options.\n- `FAISS_INSTALL_PREFIX`: Specifies the install location of faiss library, default to `/usr/local`.\n- `FAISS_OPT_LEVEL`: Faiss SIMD optimization, one of `generic`, `avx2`, `avx512`. Note that AVX option is only available in x86_64 arch.\n- `FAISS_ENABLE_GPU`: Setting this variable to `ON` builds GPU wrappers. Set this variable if faiss is built with GPU support.\n- `CUDA_HOME`: Specifies CUDA install location for building GPU wrappers, default to `/usr/local/cuda`.\n\nNote that you can build a custom wheel package without installing it. The resulting package can be installed in the other python environment as long as the ABI is the same. Otherwise, use [`auditwheel`](https://github.com/pypa/auditwheel) or similar tools to package the binary dependency after building a wheel.\n\n```bash\nexport FAISS_ENABLE_GPU=ON FAISS_OPT_LEVEL=avx512\npip wheel --no-binary :all: faiss-cpu\n```\n\n> **Note**\n> Currently, the source package only supports the OpenBLAS backend; other BLAS implementation is not supported.\n\n## Development\n\nThis repository is intended to support PyPI distribution for the official [faiss](https://github.com/facebookresearch/faiss) library.\nThe repository contains the CI workflow based on [cibuildwheel](https://github.com/pypa/cibuildwheel/).\nFeel free to make a pull request to fix packaging problems.\n\nOther relevant resources:\n\n- [Packaging projects with GPU code](https://pypackaging-native.github.io/key-issues/gpus/)\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "faiss",
+          "similarity search",
+          "clustering",
+          "machine learning"
+        ],
+        "author_email": "Kota Yamaguchi <yamaguchi_kota@cyberagent.co.jp>",
+        "license_expression": "MIT AND BSD-3-Clause",
+        "license_file": [
+          "LICENSE",
+          "NOTICE"
+        ],
+        "classifier": [
+          "Development Status :: 4 - Beta",
+          "Intended Audience :: Developers",
+          "Intended Audience :: Science/Research",
+          "Operating System :: MacOS :: MacOS X",
+          "Operating System :: Microsoft :: Windows",
+          "Operating System :: POSIX",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Programming Language :: Python :: 3.14",
+          "Topic :: Scientific/Engineering :: Artificial Intelligence"
+        ],
+        "requires_dist": [
+          "numpy<3.0,>=1.25.0",
+          "packaging"
+        ],
+        "requires_python": "<3.15,>=3.9",
+        "project_url": [
+          "Repository, https://github.com/kyamagu/faiss-wheels"
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/e3/94/1843518e420fa3ed6919835845df698c7e27e183cb997394e4a670973a65/omegaconf-2.3.0-py3-none-any.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "7b4df175cdb08ba400f45cae3bdcae7ba8365db4d165fc65fd04b050ab63b46b"
+          },
+          "hash": "sha256=7b4df175cdb08ba400f45cae3bdcae7ba8365db4d165fc65fd04b050ab63b46b"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "omegaconf",
+        "version": "2.3.0",
+        "summary": "A flexible configuration library",
+        "description": "# OmegaConf\n|  | Description |\n| --- | --- |\n| Project | [![PyPI version](https://badge.fury.io/py/omegaconf.svg)](https://badge.fury.io/py/omegaconf)[![Downloads](https://pepy.tech/badge/omegaconf/month)](https://pepy.tech/project/omegaconf?versions=1.4.*&versions=2.0.*&versions=2.1.*)![PyPI - Python Version](https://img.shields.io/pypi/pyversions/omegaconf.svg) |\n| Code quality| [![CircleCI](https://img.shields.io/circleci/build/github/omry/omegaconf?logo=s&token=5de2f8dc2a0dd78438520575431aa533150806e3)](https://circleci.com/gh/omry/omegaconf)[![Coverage Status](https://coveralls.io/repos/github/omry/omegaconf/badge.svg)](https://coveralls.io/github/omry/omegaconf)[![Total alerts](https://img.shields.io/lgtm/alerts/g/omry/omegaconf.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/omry/omegaconf/alerts/)[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/omry/omegaconf.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/omry/omegaconf/context:python)|\n| Docs and support |[![Documentation Status](https://readthedocs.org/projects/omegaconf/badge/?version=2.0_branch)](https://omegaconf.readthedocs.io/en/2.1_branch/)[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/omry/omegaconf/master?filepath=docs%2Fnotebook%2FTutorial.ipynb)|\n\n\nOmegaConf is a hierarchical configuration system, with support for merging configurations from multiple sources (YAML config files, dataclasses/objects and CLI arguments)\nproviding a consistent API regardless of how the configuration was created.\n\n## Releases\n\n### Stable (2.2)\nOmegaConf 2.2 is the current stable version.\n* [What's new](https://github.com/omry/omegaconf/releases/tag/v2.2.1)\n* [Documentation](https://omegaconf.readthedocs.io/en/2.2_branch/)\n* [Source code](https://github.com/omry/omegaconf/tree/2.2_branch)\n\nInstall with `pip install --upgrade omegaconf`\n\n### Previous release (2.1)\nOmegaConf 2.1 is the current stable version.\n* [What's new](https://github.com/omry/omegaconf/releases/tag/v2.1.1)\n* [Documentation](https://omegaconf.readthedocs.io/en/2.1_branch/)\n* [Slides](https://docs.google.com/presentation/d/e/2PACX-1vT_UIV7hCnquIbLUm4NnkUpXvPEh33IKiUEvPRF850WKA8opOlZOszjKdZ3tPmf8u7hGNP6HpqS-NT5/pub?start=false&loop=false&delayms=3000)\n* [Source code](https://github.com/omry/omegaconf/tree/2.1_branch)\n\nInstall with `pip install omegaconf==2.1`\n\n### Previous release (2.0)\n\n* [What's new](https://github.com/omry/omegaconf/releases/tag/v2.0.0)\n* [Documentation](https://omegaconf.readthedocs.io/en/2.0_branch/)\n* [Slides](https://docs.google.com/presentation/d/e/2PACX-1vT_UIV7hCnquIbLUm4NnkUpXvPEh33IKiUEvPRF850WKA8opOlZOszjKdZ3tPmf8u7hGNP6HpqS-NT5/pub?start=false&loop=false&delayms=3000)\n* [Source code](https://github.com/omry/omegaconf/tree/2.0_branch)\n\nInstall with `pip install omegaconf==2.0.6`\n\n## Live tutorial\nRun the live tutorial: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/omry/omegaconf/master?filepath=docs%2Fnotebook%2FTutorial.ipynb)\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "yaml",
+          "configuration",
+          "config"
+        ],
+        "home_page": "https://github.com/omry/omegaconf",
+        "author": "Omry Yadan",
+        "author_email": "omry@yadan.net",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Programming Language :: Python :: 3.6",
+          "Programming Language :: Python :: 3.7",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "License :: OSI Approved :: BSD License",
+          "Operating System :: OS Independent"
+        ],
+        "requires_dist": [
+          "antlr4-python3-runtime (==4.9.*)",
+          "PyYAML (>=5.1.0)",
+          "dataclasses ; python_version == \"3.6\""
+        ],
+        "requires_python": ">=3.6"
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/3e/38/7859ff46355f76f8d19459005ca000b6e7012f2f1ca597746cbcd1fbfe5e/antlr4-python3-runtime-4.9.3.tar.gz",
+        "archive_info": {
+          "hashes": {
+            "sha256": "f224469b4168294902bb1efa80a8bf7855f24c99aef99cbefc1bcd3cce77881b"
+          },
+          "hash": "sha256=f224469b4168294902bb1efa80a8bf7855f24c99aef99cbefc1bcd3cce77881b"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.4",
+        "name": "antlr4-python3-runtime",
+        "version": "4.9.3",
+        "dynamic": [
+          "author",
+          "author-email",
+          "home-page",
+          "license",
+          "requires-dist",
+          "summary"
+        ],
+        "summary": "ANTLR 4.9.3 runtime for Python 3.7",
+        "home_page": "http://www.antlr.org",
+        "author": "Eric Vergnaud, Terence Parr, Sam Harwell",
+        "author_email": "eric.vergnaud@wanadoo.fr",
+        "license": "BSD",
+        "requires_dist": [
+          "typing; python_version < \"3.5\""
+        ]
+      }
+    },
+    {
+      "download_info": {
+        "url": "https://files.pythonhosted.org/packages/cb/bd/1a875e0d592d447cbc02805fd3fe0f497714d6a2583f59d14fa9ebad96eb/huggingface_hub-0.36.0-py3-none-any.whl",
+        "archive_info": {
+          "hashes": {
+            "sha256": "7bcc9ad17d5b3f07b57c78e79d527102d08313caa278a641993acddcb894548d"
+          },
+          "hash": "sha256=7bcc9ad17d5b3f07b57c78e79d527102d08313caa278a641993acddcb894548d"
+        }
+      },
+      "is_direct": false,
+      "is_yanked": false,
+      "requested": true,
+      "metadata": {
+        "metadata_version": "2.1",
+        "name": "huggingface-hub",
+        "version": "0.36.0",
+        "platform": [
+          "UNKNOWN"
+        ],
+        "summary": "Client library to download and publish models, datasets and other repos on the huggingface.co hub",
+        "description": "<p align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://huggingface.co/datasets/huggingface/documentation-images/raw/main/huggingface_hub-dark.svg\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"https://huggingface.co/datasets/huggingface/documentation-images/raw/main/huggingface_hub.svg\">\n    <img alt=\"huggingface_hub library logo\" src=\"https://huggingface.co/datasets/huggingface/documentation-images/raw/main/huggingface_hub.svg\" width=\"352\" height=\"59\" style=\"max-width: 100%;\">\n  </picture>\n  <br/>\n  <br/>\n</p> \n\n<p align=\"center\">\n    <i>The official Python client for the Huggingface Hub.</i>\n</p>\n\n<p align=\"center\">\n    <a href=\"https://huggingface.co/docs/huggingface_hub/en/index\"><img alt=\"Documentation\" src=\"https://img.shields.io/website/http/huggingface.co/docs/huggingface_hub/index.svg?down_color=red&down_message=offline&up_message=online&label=doc\"></a>\n    <a href=\"https://github.com/huggingface/huggingface_hub/releases\"><img alt=\"GitHub release\" src=\"https://img.shields.io/github/release/huggingface/huggingface_hub.svg\"></a>\n    <a href=\"https://github.com/huggingface/huggingface_hub\"><img alt=\"PyPi version\" src=\"https://img.shields.io/pypi/pyversions/huggingface_hub.svg\"></a>\n    <a href=\"https://pypi.org/project/huggingface-hub\"><img alt=\"PyPI - Downloads\" src=\"https://img.shields.io/pypi/dm/huggingface_hub\"></a>\n    <a href=\"https://codecov.io/gh/huggingface/huggingface_hub\"><img alt=\"Code coverage\" src=\"https://codecov.io/gh/huggingface/huggingface_hub/branch/main/graph/badge.svg?token=RXP95LE2XL\"></a>\n</p>\n\n<h4 align=\"center\">\n    <p>\n        <b>English</b> |\n        <a href=\"https://github.com/huggingface/huggingface_hub/blob/main/i18n/README_de.md\">Deutsch</a> |\n        <a href=\"https://github.com/huggingface/huggingface_hub/blob/main/i18n/README_hi.md\">हिंदी</a> |\n        <a href=\"https://github.com/huggingface/huggingface_hub/blob/main/i18n/README_ko.md\">한국어</a> |\n        <a href=\"https://github.com/huggingface/huggingface_hub/blob/main/i18n/README_cn.md\">中文（简体）</a>\n    <p>\n</h4>\n\n---\n\n**Documentation**: <a href=\"https://hf.co/docs/huggingface_hub\" target=\"_blank\">https://hf.co/docs/huggingface_hub</a>\n\n**Source Code**: <a href=\"https://github.com/huggingface/huggingface_hub\" target=\"_blank\">https://github.com/huggingface/huggingface_hub</a>\n\n---\n\n## Welcome to the huggingface_hub library\n\nThe `huggingface_hub` library allows you to interact with the [Hugging Face Hub](https://huggingface.co/), a platform democratizing open-source Machine Learning for creators and collaborators. Discover pre-trained models and datasets for your projects or play with the thousands of machine learning apps hosted on the Hub. You can also create and share your own models, datasets and demos with the community. The `huggingface_hub` library provides a simple way to do all these things with Python.\n\n## Key features\n\n- [Download files](https://huggingface.co/docs/huggingface_hub/en/guides/download) from the Hub.\n- [Upload files](https://huggingface.co/docs/huggingface_hub/en/guides/upload) to the Hub.\n- [Manage your repositories](https://huggingface.co/docs/huggingface_hub/en/guides/repository).\n- [Run Inference](https://huggingface.co/docs/huggingface_hub/en/guides/inference) on deployed models.\n- [Search](https://huggingface.co/docs/huggingface_hub/en/guides/search) for models, datasets and Spaces.\n- [Share Model Cards](https://huggingface.co/docs/huggingface_hub/en/guides/model-cards) to document your models.\n- [Engage with the community](https://huggingface.co/docs/huggingface_hub/en/guides/community) through PRs and comments.\n\n## Installation\n\nInstall the `huggingface_hub` package with [pip](https://pypi.org/project/huggingface-hub/):\n\n```bash\npip install huggingface_hub\n```\n\nIf you prefer, you can also install it with [conda](https://huggingface.co/docs/huggingface_hub/en/installation#install-with-conda).\n\nIn order to keep the package minimal by default, `huggingface_hub` comes with optional dependencies useful for some use cases. For example, if you want have a complete experience for Inference, run:\n\n```bash\npip install \"huggingface_hub[inference]\"\n```\n\nTo learn more installation and optional dependencies, check out the [installation guide](https://huggingface.co/docs/huggingface_hub/en/installation).\n\n## Quick start\n\n### Download files\n\nDownload a single file\n\n```py\nfrom huggingface_hub import hf_hub_download\n\nhf_hub_download(repo_id=\"tiiuae/falcon-7b-instruct\", filename=\"config.json\")\n```\n\nOr an entire repository\n\n```py\nfrom huggingface_hub import snapshot_download\n\nsnapshot_download(\"stabilityai/stable-diffusion-2-1\")\n```\n\nFiles will be downloaded in a local cache folder. More details in [this guide](https://huggingface.co/docs/huggingface_hub/en/guides/manage-cache).\n\n### Login\n\nThe Hugging Face Hub uses tokens to authenticate applications (see [docs](https://huggingface.co/docs/hub/security-tokens)). To log in your machine, run the following CLI:\n\n```bash\nhf auth login\n# or using an environment variable\nhf auth login --token $HUGGINGFACE_TOKEN\n```\n\n### Create a repository\n\n```py\nfrom huggingface_hub import create_repo\n\ncreate_repo(repo_id=\"super-cool-model\")\n```\n\n### Upload files\n\nUpload a single file\n\n```py\nfrom huggingface_hub import upload_file\n\nupload_file(\n    path_or_fileobj=\"/home/lysandre/dummy-test/README.md\",\n    path_in_repo=\"README.md\",\n    repo_id=\"lysandre/test-model\",\n)\n```\n\nOr an entire folder\n\n```py\nfrom huggingface_hub import upload_folder\n\nupload_folder(\n    folder_path=\"/path/to/local/space\",\n    repo_id=\"username/my-cool-space\",\n    repo_type=\"space\",\n)\n```\n\nFor details in the [upload guide](https://huggingface.co/docs/huggingface_hub/en/guides/upload).\n\n## Integrating to the Hub.\n\nWe're partnering with cool open source ML libraries to provide free model hosting and versioning. You can find the existing integrations [here](https://huggingface.co/docs/hub/libraries).\n\nThe advantages are:\n\n- Free model or dataset hosting for libraries and their users.\n- Built-in file versioning, even with very large files, thanks to a git-based approach.\n- In-browser widgets to play with the uploaded models.\n- Anyone can upload a new model for your library, they just need to add the corresponding tag for the model to be discoverable.\n- Fast downloads! We use Cloudfront (a CDN) to geo-replicate downloads so they're blazing fast from anywhere on the globe.\n- Usage stats and more features to come.\n\nIf you would like to integrate your library, feel free to open an issue to begin the discussion. We wrote a [step-by-step guide](https://huggingface.co/docs/hub/adding-a-library) with ❤️ showing how to do this integration.\n\n## Contributions (feature requests, bugs, etc.) are super welcome 💙💚💛💜🧡❤️\n\nEveryone is welcome to contribute, and we value everybody's contribution. Code is not the only way to help the community.\nAnswering questions, helping others, reaching out and improving the documentations are immensely valuable to the community.\nWe wrote a [contribution guide](https://github.com/huggingface/huggingface_hub/blob/main/CONTRIBUTING.md) to summarize\nhow to get started to contribute to this repository.\n\n\n",
+        "description_content_type": "text/markdown",
+        "keywords": [
+          "model-hub",
+          "machine-learning",
+          "models",
+          "natural-language-processing",
+          "deep-learning",
+          "pytorch",
+          "pretrained-models"
+        ],
+        "home_page": "https://github.com/huggingface/huggingface_hub",
+        "author": "Hugging Face, Inc.",
+        "author_email": "julien@huggingface.co",
+        "license": "Apache",
+        "license_file": [
+          "LICENSE"
+        ],
+        "classifier": [
+          "Intended Audience :: Developers",
+          "Intended Audience :: Education",
+          "Intended Audience :: Science/Research",
+          "License :: OSI Approved :: Apache Software License",
+          "Operating System :: OS Independent",
+          "Programming Language :: Python :: 3",
+          "Programming Language :: Python :: 3 :: Only",
+          "Programming Language :: Python :: 3.8",
+          "Programming Language :: Python :: 3.9",
+          "Programming Language :: Python :: 3.10",
+          "Programming Language :: Python :: 3.11",
+          "Programming Language :: Python :: 3.12",
+          "Programming Language :: Python :: 3.13",
+          "Topic :: Scientific/Engineering :: Artificial Intelligence"
+        ],
+        "requires_dist": [
+          "filelock",
+          "fsspec>=2023.5.0",
+          "packaging>=20.9",
+          "pyyaml>=5.1",
+          "requests",
+          "tqdm>=4.42.1",
+          "typing-extensions>=3.7.4.3",
+          "hf-xet<2.0.0,>=1.1.3; platform_machine == \"x86_64\" or platform_machine == \"amd64\" or platform_machine == \"arm64\" or platform_machine == \"aarch64\"",
+          "InquirerPy==0.3.4; extra == \"all\"",
+          "aiohttp; extra == \"all\"",
+          "authlib>=1.3.2; extra == \"all\"",
+          "fastapi; extra == \"all\"",
+          "httpx; extra == \"all\"",
+          "itsdangerous; extra == \"all\"",
+          "jedi; extra == \"all\"",
+          "Jinja2; extra == \"all\"",
+          "pytest<8.2.2,>=8.1.1; extra == \"all\"",
+          "pytest-cov; extra == \"all\"",
+          "pytest-env; extra == \"all\"",
+          "pytest-xdist; extra == \"all\"",
+          "pytest-vcr; extra == \"all\"",
+          "pytest-asyncio; extra == \"all\"",
+          "pytest-rerunfailures<16.0; extra == \"all\"",
+          "pytest-mock; extra == \"all\"",
+          "urllib3<2.0; extra == \"all\"",
+          "soundfile; extra == \"all\"",
+          "Pillow; extra == \"all\"",
+          "gradio>=4.0.0; extra == \"all\"",
+          "numpy; extra == \"all\"",
+          "ruff>=0.9.0; extra == \"all\"",
+          "libcst>=1.4.0; extra == \"all\"",
+          "ty; extra == \"all\"",
+          "typing-extensions>=4.8.0; extra == \"all\"",
+          "types-PyYAML; extra == \"all\"",
+          "types-requests; extra == \"all\"",
+          "types-simplejson; extra == \"all\"",
+          "types-toml; extra == \"all\"",
+          "types-tqdm; extra == \"all\"",
+          "types-urllib3; extra == \"all\"",
+          "mypy<1.15.0,>=1.14.1; python_version == \"3.8\" and extra == \"all\"",
+          "mypy==1.15.0; python_version >= \"3.9\" and extra == \"all\"",
+          "InquirerPy==0.3.4; extra == \"cli\"",
+          "InquirerPy==0.3.4; extra == \"dev\"",
+          "aiohttp; extra == \"dev\"",
+          "authlib>=1.3.2; extra == \"dev\"",
+          "fastapi; extra == \"dev\"",
+          "httpx; extra == \"dev\"",
+          "itsdangerous; extra == \"dev\"",
+          "jedi; extra == \"dev\"",
+          "Jinja2; extra == \"dev\"",
+          "pytest<8.2.2,>=8.1.1; extra == \"dev\"",
+          "pytest-cov; extra == \"dev\"",
+          "pytest-env; extra == \"dev\"",
+          "pytest-xdist; extra == \"dev\"",
+          "pytest-vcr; extra == \"dev\"",
+          "pytest-asyncio; extra == \"dev\"",
+          "pytest-rerunfailures<16.0; extra == \"dev\"",
+          "pytest-mock; extra == \"dev\"",
+          "urllib3<2.0; extra == \"dev\"",
+          "soundfile; extra == \"dev\"",
+          "Pillow; extra == \"dev\"",
+          "gradio>=4.0.0; extra == \"dev\"",
+          "numpy; extra == \"dev\"",
+          "ruff>=0.9.0; extra == \"dev\"",
+          "libcst>=1.4.0; extra == \"dev\"",
+          "ty; extra == \"dev\"",
+          "typing-extensions>=4.8.0; extra == \"dev\"",
+          "types-PyYAML; extra == \"dev\"",
+          "types-requests; extra == \"dev\"",
+          "types-simplejson; extra == \"dev\"",
+          "types-toml; extra == \"dev\"",
+          "types-tqdm; extra == \"dev\"",
+          "types-urllib3; extra == \"dev\"",
+          "mypy<1.15.0,>=1.14.1; python_version == \"3.8\" and extra == \"dev\"",
+          "mypy==1.15.0; python_version >= \"3.9\" and extra == \"dev\"",
+          "toml; extra == \"fastai\"",
+          "fastai>=2.4; extra == \"fastai\"",
+          "fastcore>=1.3.27; extra == \"fastai\"",
+          "hf-transfer>=0.1.4; extra == \"hf-transfer\"",
+          "hf-xet<2.0.0,>=1.1.2; extra == \"hf-xet\"",
+          "aiohttp; extra == \"inference\"",
+          "mcp>=1.8.0; extra == \"mcp\"",
+          "typer; extra == \"mcp\"",
+          "aiohttp; extra == \"mcp\"",
+          "authlib>=1.3.2; extra == \"oauth\"",
+          "fastapi; extra == \"oauth\"",
+          "httpx; extra == \"oauth\"",
+          "itsdangerous; extra == \"oauth\"",
+          "ruff>=0.9.0; extra == \"quality\"",
+          "libcst>=1.4.0; extra == \"quality\"",
+          "ty; extra == \"quality\"",
+          "mypy<1.15.0,>=1.14.1; python_version == \"3.8\" and extra == \"quality\"",
+          "mypy==1.15.0; python_version >= \"3.9\" and extra == \"quality\"",
+          "tensorflow; extra == \"tensorflow\"",
+          "pydot; extra == \"tensorflow\"",
+          "graphviz; extra == \"tensorflow\"",
+          "tensorflow; extra == \"tensorflow-testing\"",
+          "keras<3.0; extra == \"tensorflow-testing\"",
+          "InquirerPy==0.3.4; extra == \"testing\"",
+          "aiohttp; extra == \"testing\"",
+          "authlib>=1.3.2; extra == \"testing\"",
+          "fastapi; extra == \"testing\"",
+          "httpx; extra == \"testing\"",
+          "itsdangerous; extra == \"testing\"",
+          "jedi; extra == \"testing\"",
+          "Jinja2; extra == \"testing\"",
+          "pytest<8.2.2,>=8.1.1; extra == \"testing\"",
+          "pytest-cov; extra == \"testing\"",
+          "pytest-env; extra == \"testing\"",
+          "pytest-xdist; extra == \"testing\"",
+          "pytest-vcr; extra == \"testing\"",
+          "pytest-asyncio; extra == \"testing\"",
+          "pytest-rerunfailures<16.0; extra == \"testing\"",
+          "pytest-mock; extra == \"testing\"",
+          "urllib3<2.0; extra == \"testing\"",
+          "soundfile; extra == \"testing\"",
+          "Pillow; extra == \"testing\"",
+          "gradio>=4.0.0; extra == \"testing\"",
+          "numpy; extra == \"testing\"",
+          "torch; extra == \"torch\"",
+          "safetensors[torch]; extra == \"torch\"",
+          "typing-extensions>=4.8.0; extra == \"typing\"",
+          "types-PyYAML; extra == \"typing\"",
+          "types-requests; extra == \"typing\"",
+          "types-simplejson; extra == \"typing\"",
+          "types-toml; extra == \"typing\"",
+          "types-tqdm; extra == \"typing\"",
+          "types-urllib3; extra == \"typing\""
+        ],
+        "requires_python": ">=3.8.0",
+        "provides_extra": [
+          "all",
+          "cli",
+          "dev",
+          "fastai",
+          "hf_transfer",
+          "hf_xet",
+          "inference",
+          "mcp",
+          "oauth",
+          "quality",
+          "tensorflow",
+          "tensorflow-testing",
+          "testing",
+          "torch",
+          "typing"
+        ]
+      }
+    }
+  ],
+  "environment": {
+    "implementation_name": "cpython",
+    "implementation_version": "3.12.14",
+    "os_name": "nt",
+    "platform_machine": "AMD64",
+    "platform_release": "10",
+    "platform_system": "Windows",
+    "platform_version": "10.0.19045",
+    "python_full_version": "3.12.14",
+    "platform_python_implementation": "CPython",
+    "python_version": "3.12",
+    "sys_platform": "win32"
+  }
+}
