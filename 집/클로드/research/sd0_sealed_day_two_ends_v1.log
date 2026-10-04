@@ -1,0 +1,47 @@
+sealed days 85 (F13 55, F47 30); groups {'OK': 48, 'OVER': 20, 'UNDER': 17}
+label mean by group: {'OK': 0.697, 'OVER': 0.584, 'UNDER': 1.654}  pred: {'OK': 0.685, 'OVER': 0.871, 'UNDER': 1.198}
+pass-2 share by group: {'OK': 0.15, 'OVER': 0.15, 'UNDER': 0.29}  동B share: {'OK': 0.52, 'OVER': 0.5, 'UNDER': 0.71}  second share: {'OK': 0.33, 'OVER': 0.25, 'UNDER': 0.53}
+C:\work\farmai\집\클로드\research\sd0_sealed_day_two_ends_v1.py:42: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  f = [spearmanr(z[z.farm == fm][c], z[z.farm == fm].eday).correlation for fm in ("F13", "F47")]
+C:\work\farmai\집\클로드\research\sd0_sealed_day_two_ends_v1.py:42: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  f = [spearmanr(z[z.farm == fm][c], z[z.farm == fm].eday).correlation for fm in ("F13", "F47")]
+
+Spearman(feature, day error) on sealed days, top 20 (positive = more OVER-predicted):
+            feat   rho   F13   F47  n  same
+   act_shade_day  0.32  0.31  0.40 85  True
+ act_circfan_day -0.32 -0.31 -0.35 85  True
+ act_heating_day -0.31 -0.29 -0.37 85  True
+        in_co2_3 -0.28 -0.35 -0.20 82  True
+    in_temp_mean -0.24 -0.19 -0.35 85  True
+       h0_in_co2 -0.23 -0.30 -0.18 85  True
+       in_temp_3 -0.22 -0.17 -0.35 82  True
+     in_temp_day -0.21 -0.08 -0.41 85  True
+    act_co2_mean  0.21  0.16  0.25 85  True
+act_circfan_mean -0.21 -0.27 -0.13 85  True
+act_circfan_zero  0.20  0.26  0.12 85  True
+       is_second -0.20 -0.34  0.02 85 False
+    in_co2_night -0.20 -0.26 -0.14 85  True
+  act_shade_zero -0.19 -0.11 -0.32 85  True
+ act_thermal_day -0.19 -0.17 -0.25 85  True
+        in_hum_3 -0.19 -0.23 -0.09 82  True
+act_thermal_on_7  0.18  0.20  0.26 84  True
+  act_shade_mean  0.18  0.07  0.38 85  True
+          recday -0.18 -0.07 -0.37 85  True
+            late -0.18 -0.18 -0.19 85  True
+
+best act_shade_day rho +0.32 (F13 +0.31, F47 +0.40), family-wise p 0.1195 over 82 features
+
+OVER vs UNDER medians of top 10 features:
+grp                    OK     OVER    UNDER
+act_shade_day     100.000  100.000   93.750
+act_circfan_day     0.000    0.000    1.875
+act_heating_day     0.000    0.000   12.625
+in_co2_3          398.667  397.361  422.708
+in_temp_mean       13.760   12.910   14.133
+h0_in_co2         377.000  362.000  414.000
+in_temp_3          13.729   12.456   14.106
+in_temp_day        18.888   17.962   18.562
+act_co2_mean        2.417    3.021    2.125
+act_circfan_mean    0.000    0.000    0.625
+
+SD0 clue: False
