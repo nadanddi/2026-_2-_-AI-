@@ -1,0 +1,13 @@
+[LightGBM] [Fatal] Could not open C:\work\farmai\집\코덱스\local\ec_exact_tweedie_leaf_20261004_v1\DIAG10_0_7_model.txt
+Traceback (most recent call last):
+  File "C:\work\farmai\집\코덱스\analysis\ec_exact_tweedie_leaf_20261004_v1\verify_full_v3.py", line 365, in <module>
+    synthetic() if args.synthetic else verify()
+                                       ^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_exact_tweedie_leaf_20261004_v1\verify_full_v3.py", line 266, in verify
+    model=lightgbm.Booster(model_file=str(checkpoint));ntrees=validate_model(model,bs,s,params[str(s)])
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\lightgbm\basic.py", line 3799, in __init__
+    _safe_call(
+  File "C:\work\farmai\.analysis-tools\python\lightgbm\basic.py", line 297, in _safe_call
+    raise LightGBMError(_LIB.LGBM_GetLastError().decode("utf-8"))
+lightgbm.basic.LightGBMError: Could not open C:\work\farmai\집\코덱스\local\ec_exact_tweedie_leaf_20261004_v1\DIAG10_0_7_model.txt
