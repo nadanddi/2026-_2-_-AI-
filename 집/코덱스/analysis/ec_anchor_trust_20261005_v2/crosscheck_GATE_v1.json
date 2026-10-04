@@ -1,0 +1,212 @@
+{
+  "status": "PASS_DECIMAL30_MANUAL_BOOT3",
+  "mode": "GATE",
+  "decimal_scores": [
+    {
+      "validator": "DIAG10",
+      "seed": 7,
+      "column": "baseline",
+      "decimal_rmse": 0.18112483710525534
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 7,
+      "column": "candidate",
+      "decimal_rmse": 0.18712824518021448
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 101,
+      "column": "baseline",
+      "decimal_rmse": 0.18167907699926716
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 101,
+      "column": "candidate",
+      "decimal_rmse": 0.18806802095482406
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 2024,
+      "column": "baseline",
+      "decimal_rmse": 0.18172772536614717
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 2024,
+      "column": "candidate",
+      "decimal_rmse": 0.1873224950118331
+    },
+    {
+      "validator": "A",
+      "seed": 7,
+      "column": "baseline",
+      "decimal_rmse": 0.21468522746943028
+    },
+    {
+      "validator": "A",
+      "seed": 7,
+      "column": "candidate",
+      "decimal_rmse": 0.21468522746943028
+    },
+    {
+      "validator": "A",
+      "seed": 101,
+      "column": "baseline",
+      "decimal_rmse": 0.21624582241083692
+    },
+    {
+      "validator": "A",
+      "seed": 101,
+      "column": "candidate",
+      "decimal_rmse": 0.21624582241083692
+    },
+    {
+      "validator": "A",
+      "seed": 2024,
+      "column": "baseline",
+      "decimal_rmse": 0.21587226460361367
+    },
+    {
+      "validator": "A",
+      "seed": 2024,
+      "column": "candidate",
+      "decimal_rmse": 0.21587226460361367
+    },
+    {
+      "validator": "B",
+      "seed": 7,
+      "column": "baseline",
+      "decimal_rmse": 0.20001294637985037
+    },
+    {
+      "validator": "B",
+      "seed": 7,
+      "column": "candidate",
+      "decimal_rmse": 0.20001294637985037
+    },
+    {
+      "validator": "B",
+      "seed": 101,
+      "column": "baseline",
+      "decimal_rmse": 0.19978200327411105
+    },
+    {
+      "validator": "B",
+      "seed": 101,
+      "column": "candidate",
+      "decimal_rmse": 0.19978200327411105
+    },
+    {
+      "validator": "B",
+      "seed": 2024,
+      "column": "baseline",
+      "decimal_rmse": 0.199704936653692
+    },
+    {
+      "validator": "B",
+      "seed": 2024,
+      "column": "candidate",
+      "decimal_rmse": 0.199704936653692
+    },
+    {
+      "validator": "EXT10",
+      "seed": 7,
+      "column": "baseline",
+      "decimal_rmse": 0.39678062270131437
+    },
+    {
+      "validator": "EXT10",
+      "seed": 7,
+      "column": "candidate",
+      "decimal_rmse": 0.39678086777325117
+    },
+    {
+      "validator": "EXT10",
+      "seed": 101,
+      "column": "baseline",
+      "decimal_rmse": 0.4000670135185979
+    },
+    {
+      "validator": "EXT10",
+      "seed": 101,
+      "column": "candidate",
+      "decimal_rmse": 0.4000670135185979
+    },
+    {
+      "validator": "EXT10",
+      "seed": 2024,
+      "column": "baseline",
+      "decimal_rmse": 0.39915814533792693
+    },
+    {
+      "validator": "EXT10",
+      "seed": 2024,
+      "column": "candidate",
+      "decimal_rmse": 0.399332746572955
+    },
+    {
+      "validator": "EXT12",
+      "seed": 7,
+      "column": "baseline",
+      "decimal_rmse": 0.4141697247001226
+    },
+    {
+      "validator": "EXT12",
+      "seed": 7,
+      "column": "candidate",
+      "decimal_rmse": 0.4141697247001226
+    },
+    {
+      "validator": "EXT12",
+      "seed": 101,
+      "column": "baseline",
+      "decimal_rmse": 0.41266052021081456
+    },
+    {
+      "validator": "EXT12",
+      "seed": 101,
+      "column": "candidate",
+      "decimal_rmse": 0.41266052021081456
+    },
+    {
+      "validator": "EXT12",
+      "seed": 2024,
+      "column": "baseline",
+      "decimal_rmse": 0.41057611429228097
+    },
+    {
+      "validator": "EXT12",
+      "seed": 2024,
+      "column": "candidate",
+      "decimal_rmse": 0.41057611429228097
+    }
+  ],
+  "bootstrap": {
+    "7": {
+      "p_worse": 0.98885,
+      "ci_adjusted": [
+        -7.214536960903479e-05,
+        0.009103380435374491
+      ]
+    },
+    "101": {
+      "p_worse": 0.98545,
+      "ci_adjusted": [
+        -0.0001009038938186391,
+        0.01024593883847272
+      ]
+    },
+    "2024": {
+      "p_worse": 0.9896,
+      "ci_adjusted": [
+        -8.659956349326293e-05,
+        0.008821163613668786
+      ]
+    }
+  },
+  "fit": 0,
+  "predict": 0,
+  "source": "8455ca657187bb1f5c3ee4764ae4d8f250b83521c14da8010a3c979f868eae32"
+}

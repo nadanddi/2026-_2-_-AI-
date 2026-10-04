@@ -1,0 +1,1 @@
+실험 재현 묶음. main c9337f0 및 같은 Python 환경과 Drive 기존 캐시가 필요합니다. 저장된 GATE/RIDGE 출력은 재학습하지 않습니다. 각 mode별 verify_learning_v4.py -> verify_v5.py -> crosscheck_v1.py로 검산합니다. 검사 결과는 이미 존재하므로 기존 파일을 덮어쓰지 말고 새작업폴더/새결과버전을 준비하세요. 새로운 모델 fit 재현은새이름으로 --prepare 후 등록과 --mode 순서. 원입력/의존코드/기존큰캐시는repo/Drive에서 공급하며 이ZIP은독립standalone환경이아닙니다. test 예측/제출물0.
