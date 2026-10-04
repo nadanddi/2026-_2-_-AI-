@@ -1,0 +1,63 @@
+FIT 1 COMPLETE
+FIT 2 COMPLETE
+{
+  "status": "AUDIT_COMPLETE",
+  "query_invariance_pass": true,
+  "cpu_raw_equivalence_pass": false,
+  "repeat_maxdiff": 0.0,
+  "cpu_raw_maxdiff": 3.68952751159668e-05,
+  "batch_size": 2048,
+  "query_rows": 1704,
+  "checks": [
+    {
+      "fit": 1,
+      "kind": "prefix8",
+      "maxdiff": 0.0,
+      "bit_equal": true
+    },
+    {
+      "fit": 1,
+      "kind": "prefix17",
+      "maxdiff": 0.0,
+      "bit_equal": true
+    },
+    {
+      "fit": 1,
+      "kind": "other_query_changed_prefix8",
+      "maxdiff": 0.0,
+      "bit_equal": true
+    },
+    {
+      "fit": 1,
+      "kind": "row_order",
+      "maxdiff": 0.0,
+      "bit_equal": true
+    },
+    {
+      "fit": 2,
+      "kind": "prefix8",
+      "maxdiff": 0.0,
+      "bit_equal": true
+    },
+    {
+      "fit": 2,
+      "kind": "prefix17",
+      "maxdiff": 0.0,
+      "bit_equal": true
+    },
+    {
+      "fit": 2,
+      "kind": "other_query_changed_prefix8",
+      "maxdiff": 0.0,
+      "bit_equal": true
+    },
+    {
+      "fit": 2,
+      "kind": "row_order",
+      "maxdiff": 0.0,
+      "bit_equal": true
+    }
+  ],
+  "source_sha256": "62218e0ad8e2efc6cd2001d98e1f908dd77832fd04083308d11b3ad1627c085c",
+  "warning": "Not a score or adopted model; CPU experiment retained; padding is a fixed training input only"
+}

@@ -18,3 +18,5 @@ User decision (2026-09-28): "넌 온도 개선만 집중해서 분석하고 코�
 - Temperature is Claude's: current candidate G_C2 (catalog 6.70). Avoid heavy CPU jobs at the same time as Codex's runs when possible (GPU is fine).
 - Codex's work is in 집/코덱스/ and 연구실/코덱스/ on branch main (its old worktree / codex-ec branch were merged 2026-09-29); read its reports there, never edit them.
 - Related: [[explore-autonomously]], [[skill-not-luck]], [[no-submission-prep-until-asked]].
+
+**Override 2026-10-02 (current):** the user said "클로드 너는 코덱스랑 같이 EC만 쭉 파보자 일단" — Claude now works on EC together with Codex, temperature paused (a teammate is building the temperature model). Split EC work with Codex through request files in my folder so the two do not duplicate (e.g. Codex = TabPFN/v2 pipeline and its artifacts, Claude = post-processing/stacking/validator evidence on Codex's saved OOF). Revert to the temperature-only rule only when the user says so.

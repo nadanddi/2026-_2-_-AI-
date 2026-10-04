@@ -1,0 +1,3464 @@
+{
+  "cleaning": "None: raw data preserved; crop filtering only",
+  "files": [
+    {
+      "file": "2022_11_ds.zip",
+      "rows": 410585,
+      "farms": 14,
+      "groups": [
+        {
+          "item": "내부습도",
+          "n": 59052,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 38937,
+          "nunique": 672,
+          "min": 29.5,
+          "max": 100.0,
+          "start": "2022-09-21 09:00:00",
+          "end": "2023-03-31 23:00:00",
+          "farms": 13
+        },
+        {
+          "item": "내부온도",
+          "n": 61006,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 54800,
+          "nunique": 381,
+          "min": 0.2,
+          "max": 41.7,
+          "start": "2022-09-21 09:00:00",
+          "end": "2023-03-31 23:00:00",
+          "farms": 14
+        },
+        {
+          "item": "이슬점온도",
+          "n": 59013,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 53114,
+          "nunique": 326,
+          "min": 0.1,
+          "max": 36.1,
+          "start": "2022-09-21 09:00:00",
+          "end": "2023-03-31 23:00:00",
+          "farms": 13
+        },
+        {
+          "item": "지습",
+          "n": 59048,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 53362,
+          "nunique": 432,
+          "min": 0.1,
+          "max": 49.0,
+          "start": "2022-09-21 09:00:00",
+          "end": "2023-03-31 23:00:00",
+          "farms": 13
+        },
+        {
+          "item": "지중온도",
+          "n": 56613,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 50761,
+          "nunique": 234,
+          "min": 7.6,
+          "max": 33.5,
+          "start": "2022-09-21 09:00:00",
+          "end": "2023-03-31 23:00:00",
+          "farms": 13
+        },
+        {
+          "item": "토양EC",
+          "n": 56801,
+          "zero": 2413,
+          "negative": 0,
+          "fractional": 54388,
+          "nunique": 8,
+          "min": 0.0,
+          "max": 0.7,
+          "start": "2022-09-21 09:00:00",
+          "end": "2023-03-31 23:00:00",
+          "farms": 13,
+          "farm_details": [
+            {
+              "farm": "farmep006_01",
+              "n": 4384,
+              "unique": 4,
+              "min": 0.0,
+              "max": 0.3,
+              "zero": 169,
+              "fractional": 4215
+            },
+            {
+              "farm": "farmep011_01",
+              "n": 4544,
+              "unique": 4,
+              "min": 0.0,
+              "max": 0.3,
+              "zero": 23,
+              "fractional": 4521
+            },
+            {
+              "farm": "farmep012_01",
+              "n": 4599,
+              "unique": 5,
+              "min": 0.3,
+              "max": 0.7,
+              "zero": 0,
+              "fractional": 4599
+            },
+            {
+              "farm": "farmep014_01",
+              "n": 4597,
+              "unique": 3,
+              "min": 0.0,
+              "max": 0.2,
+              "zero": 2221,
+              "fractional": 2376
+            },
+            {
+              "farm": "farmep015_01",
+              "n": 4598,
+              "unique": 2,
+              "min": 0.3,
+              "max": 0.4,
+              "zero": 0,
+              "fractional": 4598
+            },
+            {
+              "farm": "farmep017_01",
+              "n": 4555,
+              "unique": 2,
+              "min": 0.1,
+              "max": 0.2,
+              "zero": 0,
+              "fractional": 4555
+            },
+            {
+              "farm": "farmep018_01",
+              "n": 2160,
+              "unique": 2,
+              "min": 0.1,
+              "max": 0.2,
+              "zero": 0,
+              "fractional": 2160
+            },
+            {
+              "farm": "farmep020_01",
+              "n": 4584,
+              "unique": 5,
+              "min": 0.1,
+              "max": 0.5,
+              "zero": 0,
+              "fractional": 4584
+            },
+            {
+              "farm": "farmep025_01",
+              "n": 4572,
+              "unique": 7,
+              "min": 0.1,
+              "max": 0.7,
+              "zero": 0,
+              "fractional": 4572
+            },
+            {
+              "farm": "farmep026_01",
+              "n": 4570,
+              "unique": 5,
+              "min": 0.1,
+              "max": 0.5,
+              "zero": 0,
+              "fractional": 4570
+            },
+            {
+              "farm": "farmep027_01",
+              "n": 4568,
+              "unique": 2,
+              "min": 0.1,
+              "max": 0.2,
+              "zero": 0,
+              "fractional": 4568
+            },
+            {
+              "farm": "farmep029_01",
+              "n": 4520,
+              "unique": 2,
+              "min": 0.1,
+              "max": 0.2,
+              "zero": 0,
+              "fractional": 4520
+            },
+            {
+              "farm": "farmep031_01",
+              "n": 4550,
+              "unique": 4,
+              "min": 0.1,
+              "max": 0.4,
+              "zero": 0,
+              "fractional": 4550
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "2022_9_ds.zip",
+      "rows": 271640,
+      "farms": 18,
+      "groups": [
+        {
+          "item": "(양액)공급량",
+          "n": 33955,
+          "zero": 12275,
+          "negative": 0,
+          "fractional": 6752,
+          "nunique": 6646,
+          "min": 0.0,
+          "max": 147400.0,
+          "start": "2022-08-19 10:00:00",
+          "end": "2022-11-30 23:00:00",
+          "farms": 18
+        },
+        {
+          "item": "(양액)배액EC",
+          "n": 33955,
+          "zero": 1440,
+          "negative": 727,
+          "fractional": 29795,
+          "nunique": 77,
+          "min": -2.2,
+          "max": 7.8,
+          "start": "2022-08-19 10:00:00",
+          "end": "2022-11-30 23:00:00",
+          "farms": 18,
+          "farm_details": [
+            {
+              "farm": "IRE220095_01",
+              "n": 1656,
+              "unique": 10,
+              "min": 0.7,
+              "max": 1.6,
+              "zero": 0,
+              "fractional": 1574
+            },
+            {
+              "farm": "IRE220101_01",
+              "n": 2123,
+              "unique": 20,
+              "min": 0.1,
+              "max": 2.0,
+              "zero": 0,
+              "fractional": 1969
+            },
+            {
+              "farm": "IRE221201_01",
+              "n": 1501,
+              "unique": 15,
+              "min": 0.0,
+              "max": 1.6,
+              "zero": 221,
+              "fractional": 1207
+            },
+            {
+              "farm": "IRE221382_01",
+              "n": 2146,
+              "unique": 11,
+              "min": 0.4,
+              "max": 1.4,
+              "zero": 0,
+              "fractional": 1789
+            },
+            {
+              "farm": "IRE221855_01",
+              "n": 2326,
+              "unique": 15,
+              "min": 0.0,
+              "max": 1.4,
+              "zero": 113,
+              "fractional": 1943
+            },
+            {
+              "farm": "IRE222146_01",
+              "n": 1667,
+              "unique": 7,
+              "min": 0.0,
+              "max": 0.6,
+              "zero": 116,
+              "fractional": 1551
+            },
+            {
+              "farm": "IRE223579_01",
+              "n": 2087,
+              "unique": 26,
+              "min": 0.2,
+              "max": 3.8,
+              "zero": 0,
+              "fractional": 1905
+            },
+            {
+              "farm": "IRE224519_01",
+              "n": 1692,
+              "unique": 6,
+              "min": -0.1,
+              "max": 0.4,
+              "zero": 880,
+              "fractional": 812
+            },
+            {
+              "farm": "IRE225265_01",
+              "n": 2100,
+              "unique": 15,
+              "min": 0.0,
+              "max": 1.4,
+              "zero": 29,
+              "fractional": 2044
+            },
+            {
+              "farm": "IRE225682_01",
+              "n": 1670,
+              "unique": 12,
+              "min": 0.5,
+              "max": 1.6,
+              "zero": 0,
+              "fractional": 1416
+            },
+            {
+              "farm": "IRE225882_01",
+              "n": 2184,
+              "unique": 16,
+              "min": 0.6,
+              "max": 2.1,
+              "zero": 0,
+              "fractional": 2152
+            },
+            {
+              "farm": "IRE226069_01",
+              "n": 1629,
+              "unique": 67,
+              "min": 0.1,
+              "max": 7.8,
+              "zero": 0,
+              "fractional": 1451
+            },
+            {
+              "farm": "IRE227927_01",
+              "n": 2198,
+              "unique": 20,
+              "min": 0.3,
+              "max": 2.2,
+              "zero": 0,
+              "fractional": 1777
+            },
+            {
+              "farm": "IRE228038_01",
+              "n": 2433,
+              "unique": 15,
+              "min": 0.0,
+              "max": 1.4,
+              "zero": 56,
+              "fractional": 2321
+            },
+            {
+              "farm": "IRE228114_01",
+              "n": 1663,
+              "unique": 9,
+              "min": 0.7,
+              "max": 1.5,
+              "zero": 0,
+              "fractional": 1436
+            },
+            {
+              "farm": "IRE228500_01",
+              "n": 1306,
+              "unique": 19,
+              "min": -2.2,
+              "max": 1.3,
+              "zero": 1,
+              "fractional": 1243
+            },
+            {
+              "farm": "IRE229225_01",
+              "n": 2151,
+              "unique": 16,
+              "min": 0.0,
+              "max": 1.5,
+              "zero": 24,
+              "fractional": 1917
+            },
+            {
+              "farm": "IRE229715_01",
+              "n": 1423,
+              "unique": 14,
+              "min": 0.6,
+              "max": 1.9,
+              "zero": 0,
+              "fractional": 1288
+            }
+          ]
+        },
+        {
+          "item": "(양액)배액량",
+          "n": 33955,
+          "zero": 6978,
+          "negative": 0,
+          "fractional": 17080,
+          "nunique": 14495,
+          "min": 0.0,
+          "max": 235415.0,
+          "start": "2022-08-19 10:00:00",
+          "end": "2022-11-30 23:00:00",
+          "farms": 18
+        },
+        {
+          "item": "내부습도",
+          "n": 33955,
+          "zero": 1,
+          "negative": 0,
+          "fractional": 30788,
+          "nunique": 787,
+          "min": 0.0,
+          "max": 100.0,
+          "start": "2022-08-19 10:00:00",
+          "end": "2022-11-30 23:00:00",
+          "farms": 18
+        },
+        {
+          "item": "내부온도",
+          "n": 33955,
+          "zero": 1,
+          "negative": 71,
+          "fractional": 30739,
+          "nunique": 386,
+          "min": -39.5,
+          "max": 48.9,
+          "start": "2022-08-19 10:00:00",
+          "end": "2022-11-30 23:00:00",
+          "farms": 18
+        },
+        {
+          "item": "배지무게",
+          "n": 33955,
+          "zero": 16,
+          "negative": 1,
+          "fractional": 30026,
+          "nunique": 278,
+          "min": -0.4,
+          "max": 37.0,
+          "start": "2022-08-19 10:00:00",
+          "end": "2022-11-30 23:00:00",
+          "farms": 18
+        },
+        {
+          "item": "배지온도",
+          "n": 33955,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 31200,
+          "nunique": 316,
+          "min": 5.8,
+          "max": 40.8,
+          "start": "2022-08-19 10:00:00",
+          "end": "2022-11-30 23:00:00",
+          "farms": 18
+        }
+      ]
+    },
+    {
+      "file": "2022_1_ds.zip",
+      "rows": 688600,
+      "farms": 50,
+      "groups": [
+        {
+          "item": "내부습도",
+          "n": 98607,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 88724,
+          "nunique": 808,
+          "min": 16.6,
+          "max": 100.0,
+          "start": "2022-08-15 00:00:00",
+          "end": "2022-12-01 00:00:00",
+          "farms": 50
+        },
+        {
+          "item": "내부온도",
+          "n": 98607,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 89036,
+          "nunique": 475,
+          "min": 2.6,
+          "max": 50.5,
+          "start": "2022-08-15 00:00:00",
+          "end": "2022-12-01 00:00:00",
+          "farms": 50
+        },
+        {
+          "item": "지습",
+          "n": 98607,
+          "zero": 403,
+          "negative": 0,
+          "fractional": 88189,
+          "nunique": 707,
+          "min": 0.0,
+          "max": 95.3,
+          "start": "2022-08-15 00:00:00",
+          "end": "2022-12-01 00:00:00",
+          "farms": 50
+        },
+        {
+          "item": "토양EC",
+          "n": 98607,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 83351,
+          "nunique": 2255,
+          "min": 2.7,
+          "max": 336.7,
+          "start": "2022-08-15 00:00:00",
+          "end": "2022-12-01 00:00:00",
+          "farms": 50,
+          "farm_details": [
+            {
+              "farm": "NSG091_01",
+              "n": 2089,
+              "unique": 354,
+              "min": 25.7,
+              "max": 230.6,
+              "zero": 0,
+              "fractional": 1815
+            },
+            {
+              "farm": "NSG092_01",
+              "n": 2089,
+              "unique": 537,
+              "min": 7.2,
+              "max": 119.2,
+              "zero": 0,
+              "fractional": 1827
+            },
+            {
+              "farm": "NSG093_01",
+              "n": 1694,
+              "unique": 244,
+              "min": 61.8,
+              "max": 199.4,
+              "zero": 0,
+              "fractional": 1522
+            },
+            {
+              "farm": "NSG094_01",
+              "n": 1897,
+              "unique": 103,
+              "min": 2.7,
+              "max": 102.4,
+              "zero": 0,
+              "fractional": 1697
+            },
+            {
+              "farm": "NSG095_01",
+              "n": 2089,
+              "unique": 422,
+              "min": 13.3,
+              "max": 111.1,
+              "zero": 0,
+              "fractional": 1739
+            },
+            {
+              "farm": "NSG096_01",
+              "n": 2041,
+              "unique": 294,
+              "min": 5.7,
+              "max": 180.2,
+              "zero": 0,
+              "fractional": 1709
+            },
+            {
+              "farm": "NSG097_01",
+              "n": 1729,
+              "unique": 84,
+              "min": 93.2,
+              "max": 274.1,
+              "zero": 0,
+              "fractional": 1567
+            },
+            {
+              "farm": "NSG098_01",
+              "n": 2425,
+              "unique": 534,
+              "min": 26.3,
+              "max": 111.0,
+              "zero": 0,
+              "fractional": 1806
+            },
+            {
+              "farm": "NSG099_01",
+              "n": 1825,
+              "unique": 144,
+              "min": 29.0,
+              "max": 171.2,
+              "zero": 0,
+              "fractional": 1671
+            },
+            {
+              "farm": "NSG100_01",
+              "n": 2113,
+              "unique": 367,
+              "min": 93.3,
+              "max": 166.7,
+              "zero": 0,
+              "fractional": 1878
+            },
+            {
+              "farm": "NSG101_01",
+              "n": 2377,
+              "unique": 357,
+              "min": 27.0,
+              "max": 124.4,
+              "zero": 0,
+              "fractional": 1948
+            },
+            {
+              "farm": "NSG102_01",
+              "n": 2401,
+              "unique": 493,
+              "min": 12.2,
+              "max": 104.7,
+              "zero": 0,
+              "fractional": 2088
+            },
+            {
+              "farm": "NSG103_01",
+              "n": 2041,
+              "unique": 97,
+              "min": 2.7,
+              "max": 107.1,
+              "zero": 0,
+              "fractional": 1843
+            },
+            {
+              "farm": "NSG104_01",
+              "n": 2089,
+              "unique": 526,
+              "min": 4.5,
+              "max": 153.6,
+              "zero": 0,
+              "fractional": 1857
+            },
+            {
+              "farm": "NSG105_01",
+              "n": 1849,
+              "unique": 357,
+              "min": 8.3,
+              "max": 146.1,
+              "zero": 0,
+              "fractional": 1570
+            },
+            {
+              "farm": "NSG106_01",
+              "n": 2089,
+              "unique": 484,
+              "min": 93.1,
+              "max": 170.4,
+              "zero": 0,
+              "fractional": 1722
+            },
+            {
+              "farm": "NSG107_01",
+              "n": 2593,
+              "unique": 497,
+              "min": 26.4,
+              "max": 248.0,
+              "zero": 0,
+              "fractional": 2190
+            },
+            {
+              "farm": "NSG108_01",
+              "n": 2113,
+              "unique": 341,
+              "min": 29.4,
+              "max": 119.8,
+              "zero": 0,
+              "fractional": 1762
+            },
+            {
+              "farm": "NSG109_01",
+              "n": 2161,
+              "unique": 523,
+              "min": 30.0,
+              "max": 193.7,
+              "zero": 0,
+              "fractional": 1635
+            },
+            {
+              "farm": "NSG110_01",
+              "n": 2233,
+              "unique": 264,
+              "min": 3.1,
+              "max": 127.6,
+              "zero": 0,
+              "fractional": 2002
+            },
+            {
+              "farm": "NSG111_01",
+              "n": 2113,
+              "unique": 431,
+              "min": 4.9,
+              "max": 106.2,
+              "zero": 0,
+              "fractional": 1870
+            },
+            {
+              "farm": "NSG112_01",
+              "n": 2137,
+              "unique": 117,
+              "min": 92.4,
+              "max": 229.2,
+              "zero": 0,
+              "fractional": 1914
+            },
+            {
+              "farm": "NSG113_01",
+              "n": 1849,
+              "unique": 499,
+              "min": 8.1,
+              "max": 126.5,
+              "zero": 0,
+              "fractional": 1564
+            },
+            {
+              "farm": "NSG114_01",
+              "n": 1969,
+              "unique": 351,
+              "min": 7.5,
+              "max": 99.3,
+              "zero": 0,
+              "fractional": 1767
+            },
+            {
+              "farm": "NSG115_01",
+              "n": 2233,
+              "unique": 547,
+              "min": 7.3,
+              "max": 143.1,
+              "zero": 0,
+              "fractional": 1869
+            },
+            {
+              "farm": "NSG116_01",
+              "n": 1873,
+              "unique": 322,
+              "min": 49.7,
+              "max": 150.0,
+              "zero": 0,
+              "fractional": 1133
+            },
+            {
+              "farm": "NSG117_01",
+              "n": 1969,
+              "unique": 71,
+              "min": 92.7,
+              "max": 206.0,
+              "zero": 0,
+              "fractional": 1721
+            },
+            {
+              "farm": "NSG118_01",
+              "n": 1945,
+              "unique": 533,
+              "min": 27.0,
+              "max": 331.7,
+              "zero": 0,
+              "fractional": 1363
+            },
+            {
+              "farm": "NSG119_01",
+              "n": 1945,
+              "unique": 392,
+              "min": 5.3,
+              "max": 100.0,
+              "zero": 0,
+              "fractional": 1744
+            },
+            {
+              "farm": "NSG120_01",
+              "n": 2185,
+              "unique": 466,
+              "min": 13.1,
+              "max": 203.5,
+              "zero": 0,
+              "fractional": 1865
+            },
+            {
+              "farm": "NSG121_01",
+              "n": 2377,
+              "unique": 292,
+              "min": 33.2,
+              "max": 128.1,
+              "zero": 0,
+              "fractional": 2129
+            },
+            {
+              "farm": "NSG122_01",
+              "n": 1849,
+              "unique": 186,
+              "min": 7.9,
+              "max": 196.2,
+              "zero": 0,
+              "fractional": 1671
+            },
+            {
+              "farm": "NST019_01",
+              "n": 1849,
+              "unique": 223,
+              "min": 5.2,
+              "max": 110.6,
+              "zero": 0,
+              "fractional": 1557
+            },
+            {
+              "farm": "NST020_01",
+              "n": 2017,
+              "unique": 332,
+              "min": 93.3,
+              "max": 177.8,
+              "zero": 0,
+              "fractional": 1800
+            },
+            {
+              "farm": "YPG001_01",
+              "n": 1777,
+              "unique": 208,
+              "min": 3.4,
+              "max": 110.5,
+              "zero": 0,
+              "fractional": 1610
+            },
+            {
+              "farm": "YPG002_01",
+              "n": 1921,
+              "unique": 181,
+              "min": 85.8,
+              "max": 254.9,
+              "zero": 0,
+              "fractional": 1716
+            },
+            {
+              "farm": "YPG003_01",
+              "n": 1705,
+              "unique": 495,
+              "min": 29.3,
+              "max": 190.2,
+              "zero": 0,
+              "fractional": 1172
+            },
+            {
+              "farm": "YPG004_01",
+              "n": 1993,
+              "unique": 684,
+              "min": 91.6,
+              "max": 200.0,
+              "zero": 0,
+              "fractional": 1721
+            },
+            {
+              "farm": "YPG005_01",
+              "n": 2065,
+              "unique": 139,
+              "min": 92.7,
+              "max": 211.4,
+              "zero": 0,
+              "fractional": 1870
+            },
+            {
+              "farm": "YPG006_01",
+              "n": 1801,
+              "unique": 277,
+              "min": 93.3,
+              "max": 336.7,
+              "zero": 0,
+              "fractional": 1633
+            },
+            {
+              "farm": "YPG007_01",
+              "n": 1849,
+              "unique": 266,
+              "min": 62.6,
+              "max": 206.1,
+              "zero": 0,
+              "fractional": 1332
+            },
+            {
+              "farm": "YPG008_01",
+              "n": 1441,
+              "unique": 207,
+              "min": 28.0,
+              "max": 256.2,
+              "zero": 0,
+              "fractional": 1236
+            },
+            {
+              "farm": "YPG009_01",
+              "n": 1753,
+              "unique": 281,
+              "min": 4.6,
+              "max": 138.8,
+              "zero": 0,
+              "fractional": 1581
+            },
+            {
+              "farm": "YPG010_01",
+              "n": 1753,
+              "unique": 84,
+              "min": 93.0,
+              "max": 247.2,
+              "zero": 0,
+              "fractional": 1595
+            },
+            {
+              "farm": "YPG011_01",
+              "n": 1801,
+              "unique": 589,
+              "min": 26.3,
+              "max": 200.0,
+              "zero": 0,
+              "fractional": 1353
+            },
+            {
+              "farm": "YPG012_01",
+              "n": 1921,
+              "unique": 84,
+              "min": 93.0,
+              "max": 257.5,
+              "zero": 0,
+              "fractional": 1745
+            },
+            {
+              "farm": "YPT001_01",
+              "n": 1657,
+              "unique": 119,
+              "min": 91.0,
+              "max": 120.3,
+              "zero": 0,
+              "fractional": 1401
+            },
+            {
+              "farm": "YPT002_01",
+              "n": 1585,
+              "unique": 345,
+              "min": 27.5,
+              "max": 140.0,
+              "zero": 0,
+              "fractional": 800
+            },
+            {
+              "farm": "YPT003_01",
+              "n": 1585,
+              "unique": 218,
+              "min": 5.0,
+              "max": 113.3,
+              "zero": 0,
+              "fractional": 1217
+            },
+            {
+              "farm": "YPT004_01",
+              "n": 1753,
+              "unique": 77,
+              "min": 3.9,
+              "max": 195.6,
+              "zero": 0,
+              "fractional": 1554
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "2023_17_ds.zip",
+      "rows": 1198419,
+      "farms": 33,
+      "groups": [
+        {
+          "item": "내부습도",
+          "n": 198630,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 161464,
+          "nunique": 5028,
+          "min": 17.9,
+          "max": 99.46,
+          "start": "2023-09-11 00:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 33
+        },
+        {
+          "item": "내부온도",
+          "n": 198630,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 145576,
+          "nunique": 2818,
+          "min": 2.0,
+          "max": 50.0,
+          "start": "2023-09-11 00:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 33
+        },
+        {
+          "item": "외부습도",
+          "n": 17213,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 13483,
+          "nunique": 1095,
+          "min": 14.5,
+          "max": 97.0,
+          "start": "2023-09-11 00:00:00",
+          "end": "2024-05-20 23:00:00",
+          "farms": 3
+        },
+        {
+          "item": "외부온도",
+          "n": 17213,
+          "zero": 428,
+          "negative": 2716,
+          "fractional": 10772,
+          "nunique": 774,
+          "min": -11.0,
+          "max": 32.67,
+          "start": "2023-09-11 00:00:00",
+          "end": "2024-05-20 23:00:00",
+          "farms": 3
+        },
+        {
+          "item": "지중온도",
+          "n": 95027,
+          "zero": 14,
+          "negative": 0,
+          "fractional": 52187,
+          "nunique": 1545,
+          "min": 0.0,
+          "max": 40.67,
+          "start": "2023-09-11 00:00:00",
+          "end": "2024-05-31 23:00:00",
+          "farms": 16
+        },
+        {
+          "item": "토양EC",
+          "n": 175583,
+          "zero": 92688,
+          "negative": 0,
+          "fractional": 10906,
+          "nunique": 254,
+          "min": 0.0,
+          "max": 262.0,
+          "start": "2023-09-11 11:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 33,
+          "farm_details": [
+            {
+              "farm": "PF_0023311_01",
+              "n": 6247,
+              "unique": 45,
+              "min": 0.0,
+              "max": 3.67,
+              "zero": 4253,
+              "fractional": 248
+            },
+            {
+              "farm": "PF_0023331_01",
+              "n": 4283,
+              "unique": 48,
+              "min": 0.0,
+              "max": 81.0,
+              "zero": 1716,
+              "fractional": 288
+            },
+            {
+              "farm": "PF_0023333_01",
+              "n": 3897,
+              "unique": 36,
+              "min": 0.0,
+              "max": 1.22,
+              "zero": 1413,
+              "fractional": 211
+            },
+            {
+              "farm": "PF_0023335_01",
+              "n": 6119,
+              "unique": 37,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 2195,
+              "fractional": 301
+            },
+            {
+              "farm": "PF_0023338_01",
+              "n": 5259,
+              "unique": 36,
+              "min": 0.0,
+              "max": 1.24,
+              "zero": 680,
+              "fractional": 399
+            },
+            {
+              "farm": "PF_0023343_01",
+              "n": 5915,
+              "unique": 35,
+              "min": 0.0,
+              "max": 6.33,
+              "zero": 1376,
+              "fractional": 385
+            },
+            {
+              "farm": "PF_0023344_01",
+              "n": 4386,
+              "unique": 26,
+              "min": 0.0,
+              "max": 1.03,
+              "zero": 2694,
+              "fractional": 503
+            },
+            {
+              "farm": "PF_0023345_01",
+              "n": 5963,
+              "unique": 37,
+              "min": 0.0,
+              "max": 1.3,
+              "zero": 2597,
+              "fractional": 403
+            },
+            {
+              "farm": "PF_0023346_01",
+              "n": 5801,
+              "unique": 32,
+              "min": 0.0,
+              "max": 1.27,
+              "zero": 1832,
+              "fractional": 301
+            },
+            {
+              "farm": "PF_0023347_01",
+              "n": 3342,
+              "unique": 10,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 3318,
+              "fractional": 11
+            },
+            {
+              "farm": "PF_0023348_01",
+              "n": 3008,
+              "unique": 16,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 1251,
+              "fractional": 129
+            },
+            {
+              "farm": "PF_0023349_01",
+              "n": 4250,
+              "unique": 39,
+              "min": 0.0,
+              "max": 1.01,
+              "zero": 4004,
+              "fractional": 218
+            },
+            {
+              "farm": "PF_0023351_01",
+              "n": 6295,
+              "unique": 31,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 5754,
+              "fractional": 272
+            },
+            {
+              "farm": "PF_0023353_01",
+              "n": 5186,
+              "unique": 10,
+              "min": 0.0,
+              "max": 2.5,
+              "zero": 5158,
+              "fractional": 7
+            },
+            {
+              "farm": "PF_0023354_01",
+              "n": 5856,
+              "unique": 28,
+              "min": 0.0,
+              "max": 14.67,
+              "zero": 3964,
+              "fractional": 421
+            },
+            {
+              "farm": "PF_0023355_01",
+              "n": 5154,
+              "unique": 24,
+              "min": 0.0,
+              "max": 16.5,
+              "zero": 4932,
+              "fractional": 218
+            },
+            {
+              "farm": "PF_0023358_01",
+              "n": 271,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 271,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0023371_01",
+              "n": 5934,
+              "unique": 30,
+              "min": 0.0,
+              "max": 34.17,
+              "zero": 3882,
+              "fractional": 405
+            },
+            {
+              "farm": "PF_0023372_01",
+              "n": 5242,
+              "unique": 35,
+              "min": 0.0,
+              "max": 33.33,
+              "zero": 4500,
+              "fractional": 319
+            },
+            {
+              "farm": "PF_0023373_01",
+              "n": 6082,
+              "unique": 26,
+              "min": 0.0,
+              "max": 1.43,
+              "zero": 503,
+              "fractional": 240
+            },
+            {
+              "farm": "PF_0023374_01",
+              "n": 6005,
+              "unique": 43,
+              "min": 0.0,
+              "max": 66.5,
+              "zero": 717,
+              "fractional": 156
+            },
+            {
+              "farm": "PF_0023375_01",
+              "n": 6318,
+              "unique": 29,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 3913,
+              "fractional": 286
+            },
+            {
+              "farm": "PF_0023376_01",
+              "n": 5934,
+              "unique": 27,
+              "min": 0.0,
+              "max": 33.33,
+              "zero": 5714,
+              "fractional": 220
+            },
+            {
+              "farm": "PF_0023377_01",
+              "n": 5934,
+              "unique": 27,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 3470,
+              "fractional": 354
+            },
+            {
+              "farm": "PF_0023378_01",
+              "n": 5934,
+              "unique": 39,
+              "min": 0.0,
+              "max": 33.33,
+              "zero": 4050,
+              "fractional": 379
+            },
+            {
+              "farm": "PF_0023379_01",
+              "n": 5697,
+              "unique": 39,
+              "min": 0.0,
+              "max": 175.33,
+              "zero": 1633,
+              "fractional": 355
+            },
+            {
+              "farm": "PF_0023380_01",
+              "n": 5790,
+              "unique": 49,
+              "min": 0.0,
+              "max": 262.0,
+              "zero": 2001,
+              "fractional": 466
+            },
+            {
+              "farm": "PF_0023383_01",
+              "n": 6318,
+              "unique": 51,
+              "min": 0.0,
+              "max": 34.17,
+              "zero": 2779,
+              "fractional": 359
+            },
+            {
+              "farm": "PF_0023384_01",
+              "n": 6026,
+              "unique": 78,
+              "min": 0.0,
+              "max": 99.33,
+              "zero": 903,
+              "fractional": 425
+            },
+            {
+              "farm": "PF_0023386_01",
+              "n": 6318,
+              "unique": 62,
+              "min": 0.0,
+              "max": 40.8,
+              "zero": 1725,
+              "fractional": 307
+            },
+            {
+              "farm": "PF_0023388_01",
+              "n": 4850,
+              "unique": 25,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 2055,
+              "fractional": 393
+            },
+            {
+              "farm": "PF_0023389_01",
+              "n": 6275,
+              "unique": 32,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 5616,
+              "fractional": 241
+            },
+            {
+              "farm": "PF_0023390_01",
+              "n": 5694,
+              "unique": 54,
+              "min": 0.0,
+              "max": 1.2,
+              "zero": 1819,
+              "fractional": 1686
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "2024_19_ds.zip",
+      "rows": 955565,
+      "farms": 25,
+      "groups": [
+        {
+          "item": "(양액)공급EC",
+          "n": 76818,
+          "zero": 46831,
+          "negative": 0,
+          "fractional": 3483,
+          "nunique": 81,
+          "min": 0.0,
+          "max": 8.17,
+          "start": "2024-12-05 15:00:00",
+          "end": "2025-04-28 14:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 76818
+          },
+          "flag_groups": {
+            "original": {
+              "n": 76818,
+              "fractional": 3483,
+              "zero": 46831
+            }
+          },
+          "farm_details": [
+            {
+              "farm": "PF_0024661_01",
+              "n": 3067,
+              "unique": 9,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 404,
+              "fractional": 225
+            },
+            {
+              "farm": "PF_0024662_01",
+              "n": 3067,
+              "unique": 5,
+              "min": 0.0,
+              "max": 1.33,
+              "zero": 3000,
+              "fractional": 67
+            },
+            {
+              "farm": "PF_0024663_01",
+              "n": 3068,
+              "unique": 7,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 40,
+              "fractional": 92
+            },
+            {
+              "farm": "PF_0024664_01",
+              "n": 3070,
+              "unique": 20,
+              "min": 0.0,
+              "max": 4.0,
+              "zero": 1577,
+              "fractional": 287
+            },
+            {
+              "farm": "PF_0024665_01",
+              "n": 3069,
+              "unique": 34,
+              "min": 0.0,
+              "max": 5.0,
+              "zero": 371,
+              "fractional": 467
+            },
+            {
+              "farm": "PF_0024666_01",
+              "n": 3069,
+              "unique": 2,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 3068,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024667_01",
+              "n": 3068,
+              "unique": 7,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 417,
+              "fractional": 93
+            },
+            {
+              "farm": "PF_0024668_01",
+              "n": 3069,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3069,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024669_01",
+              "n": 3067,
+              "unique": 7,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 40,
+              "fractional": 96
+            },
+            {
+              "farm": "PF_0024670_01",
+              "n": 3068,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3068,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024671_01",
+              "n": 3068,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3068,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024672_01",
+              "n": 3068,
+              "unique": 10,
+              "min": 0.0,
+              "max": 3.5,
+              "zero": 3016,
+              "fractional": 41
+            },
+            {
+              "farm": "PF_0024673_01",
+              "n": 3069,
+              "unique": 11,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 1238,
+              "fractional": 314
+            },
+            {
+              "farm": "PF_0024674_01",
+              "n": 3068,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3068,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024675_01",
+              "n": 3068,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3068,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024676_01",
+              "n": 3067,
+              "unique": 17,
+              "min": 0.0,
+              "max": 3.17,
+              "zero": 1235,
+              "fractional": 447
+            },
+            {
+              "farm": "PF_0024677_01",
+              "n": 3067,
+              "unique": 17,
+              "min": 0.0,
+              "max": 2.83,
+              "zero": 2234,
+              "fractional": 26
+            },
+            {
+              "farm": "PF_0024678_01",
+              "n": 3188,
+              "unique": 35,
+              "min": 0.0,
+              "max": 5.0,
+              "zero": 4,
+              "fractional": 132
+            },
+            {
+              "farm": "PF_0024679_01",
+              "n": 3067,
+              "unique": 8,
+              "min": 0.0,
+              "max": 1.17,
+              "zero": 2689,
+              "fractional": 139
+            },
+            {
+              "farm": "PF_0024680_01",
+              "n": 3067,
+              "unique": 5,
+              "min": 0.0,
+              "max": 0.5,
+              "zero": 2984,
+              "fractional": 83
+            },
+            {
+              "farm": "PF_0024681_01",
+              "n": 3069,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3069,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024682_01",
+              "n": 3068,
+              "unique": 8,
+              "min": 0.0,
+              "max": 1.83,
+              "zero": 2400,
+              "fractional": 135
+            },
+            {
+              "farm": "PF_0024683_01",
+              "n": 3068,
+              "unique": 16,
+              "min": 0.0,
+              "max": 2.83,
+              "zero": 2235,
+              "fractional": 24
+            },
+            {
+              "farm": "PF_0024684_01",
+              "n": 3067,
+              "unique": 48,
+              "min": 0.0,
+              "max": 8.17,
+              "zero": 983,
+              "fractional": 794
+            },
+            {
+              "farm": "PF_0024685_01",
+              "n": 3067,
+              "unique": 7,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 486,
+              "fractional": 21
+            }
+          ]
+        },
+        {
+          "item": "(양액)공급량",
+          "n": 76818,
+          "zero": 50312,
+          "negative": 0,
+          "fractional": 3497,
+          "nunique": 1975,
+          "min": 0.0,
+          "max": 20160.0,
+          "start": "2024-12-05 15:00:00",
+          "end": "2025-04-28 14:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 76818
+          },
+          "flag_groups": {
+            "original": {
+              "n": 76818,
+              "fractional": 3497,
+              "zero": 50312
+            }
+          }
+        },
+        {
+          "item": "내부습도",
+          "n": 83544,
+          "zero": 15892,
+          "negative": 0,
+          "fractional": 40370,
+          "nunique": 4098,
+          "min": 0.0,
+          "max": 100.0,
+          "start": "2024-12-05 15:00:00",
+          "end": "2025-04-28 14:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 76818,
+            "interpolated": 6726
+          },
+          "flag_groups": {
+            "interpolated": {
+              "n": 6726,
+              "fractional": 6726,
+              "zero": 0
+            },
+            "original": {
+              "n": 76818,
+              "fractional": 33644,
+              "zero": 15892
+            }
+          }
+        },
+        {
+          "item": "내부온도",
+          "n": 83544,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 62863,
+          "nunique": 5788,
+          "min": 2.0,
+          "max": 50.0,
+          "start": "2024-12-05 15:00:00",
+          "end": "2025-04-28 14:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 76818,
+            "interpolated": 6726
+          },
+          "flag_groups": {
+            "interpolated": {
+              "n": 6726,
+              "fractional": 6726,
+              "zero": 0
+            },
+            "original": {
+              "n": 76818,
+              "fractional": 56137,
+              "zero": 0
+            }
+          }
+        },
+        {
+          "item": "외부온도",
+          "n": 119,
+          "zero": 4,
+          "negative": 40,
+          "fractional": 101,
+          "nunique": 68,
+          "min": -4.83,
+          "max": 15.5,
+          "start": "2024-12-05 15:00:00",
+          "end": "2024-12-10 13:00:00",
+          "farms": 1,
+          "interpolation_flags": {
+            "original": 119
+          },
+          "flag_groups": {
+            "original": {
+              "n": 119,
+              "fractional": 101,
+              "zero": 4
+            }
+          }
+        },
+        {
+          "item": "지중온도",
+          "n": 76818,
+          "zero": 22378,
+          "negative": 0,
+          "fractional": 27305,
+          "nunique": 1425,
+          "min": 0.0,
+          "max": 41.0,
+          "start": "2024-12-05 15:00:00",
+          "end": "2025-04-28 14:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 76818
+          },
+          "flag_groups": {
+            "original": {
+              "n": 76818,
+              "fractional": 27305,
+              "zero": 22378
+            }
+          }
+        },
+        {
+          "item": "토양EC",
+          "n": 76818,
+          "zero": 56474,
+          "negative": 5029,
+          "fractional": 2611,
+          "nunique": 287,
+          "min": -1950.0,
+          "max": 3111.0,
+          "start": "2024-12-05 15:00:00",
+          "end": "2025-04-28 14:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 76818
+          },
+          "flag_groups": {
+            "original": {
+              "n": 76818,
+              "fractional": 2611,
+              "zero": 56474
+            }
+          },
+          "farm_details": [
+            {
+              "farm": "PF_0024661_01",
+              "n": 3067,
+              "unique": 3,
+              "min": 0.0,
+              "max": 0.33,
+              "zero": 3008,
+              "fractional": 59
+            },
+            {
+              "farm": "PF_0024662_01",
+              "n": 3067,
+              "unique": 9,
+              "min": 0.0,
+              "max": 1.33,
+              "zero": 762,
+              "fractional": 590
+            },
+            {
+              "farm": "PF_0024663_01",
+              "n": 3068,
+              "unique": 46,
+              "min": 0.0,
+              "max": 20.0,
+              "zero": 1613,
+              "fractional": 374
+            },
+            {
+              "farm": "PF_0024664_01",
+              "n": 3070,
+              "unique": 22,
+              "min": 0.0,
+              "max": 3.0,
+              "zero": 504,
+              "fractional": 349
+            },
+            {
+              "farm": "PF_0024665_01",
+              "n": 3069,
+              "unique": 8,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 3032,
+              "fractional": 32
+            },
+            {
+              "farm": "PF_0024666_01",
+              "n": 3069,
+              "unique": 10,
+              "min": 0.0,
+              "max": 5.33,
+              "zero": 2941,
+              "fractional": 82
+            },
+            {
+              "farm": "PF_0024667_01",
+              "n": 3068,
+              "unique": 2,
+              "min": 0.0,
+              "max": 1.67,
+              "zero": 3067,
+              "fractional": 1
+            },
+            {
+              "farm": "PF_0024668_01",
+              "n": 3069,
+              "unique": 25,
+              "min": 0.0,
+              "max": 5.33,
+              "zero": 1896,
+              "fractional": 70
+            },
+            {
+              "farm": "PF_0024669_01",
+              "n": 3067,
+              "unique": 46,
+              "min": 0.0,
+              "max": 20.0,
+              "zero": 1613,
+              "fractional": 377
+            },
+            {
+              "farm": "PF_0024670_01",
+              "n": 3068,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3068,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024671_01",
+              "n": 3068,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3068,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024672_01",
+              "n": 3187,
+              "unique": 60,
+              "min": -28.88,
+              "max": 0.0,
+              "zero": 3068,
+              "fractional": 116
+            },
+            {
+              "farm": "PF_0024673_01",
+              "n": 3069,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3069,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024674_01",
+              "n": 3068,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3068,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024675_01",
+              "n": 3068,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3068,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024676_01",
+              "n": 3067,
+              "unique": 40,
+              "min": 0.0,
+              "max": 27.5,
+              "zero": 2868,
+              "fractional": 54
+            },
+            {
+              "farm": "PF_0024677_01",
+              "n": 3067,
+              "unique": 8,
+              "min": -1950.0,
+              "max": 0.83,
+              "zero": 612,
+              "fractional": 1
+            },
+            {
+              "farm": "PF_0024678_01",
+              "n": 3069,
+              "unique": 4,
+              "min": 0.0,
+              "max": 3111.0,
+              "zero": 1633,
+              "fractional": 2
+            },
+            {
+              "farm": "PF_0024679_01",
+              "n": 3067,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3067,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024680_01",
+              "n": 3067,
+              "unique": 10,
+              "min": 0.0,
+              "max": 3.0,
+              "zero": 1609,
+              "fractional": 88
+            },
+            {
+              "farm": "PF_0024681_01",
+              "n": 3069,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3069,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024682_01",
+              "n": 3068,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3068,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0024683_01",
+              "n": 3068,
+              "unique": 9,
+              "min": -1950.0,
+              "max": 0.83,
+              "zero": 611,
+              "fractional": 1
+            },
+            {
+              "farm": "PF_0024684_01",
+              "n": 3067,
+              "unique": 139,
+              "min": 0.0,
+              "max": 50.33,
+              "zero": 25,
+              "fractional": 415
+            },
+            {
+              "farm": "PF_0024685_01",
+              "n": 3067,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 3067,
+              "fractional": 0
+            }
+          ]
+        },
+        {
+          "item": "토양함수율",
+          "n": 76818,
+          "zero": 23498,
+          "negative": 0,
+          "fractional": 1729,
+          "nunique": 543,
+          "min": 0.0,
+          "max": 471.0,
+          "start": "2024-12-05 15:00:00",
+          "end": "2025-04-28 14:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 76818
+          },
+          "flag_groups": {
+            "original": {
+              "n": 76818,
+              "fractional": 1729,
+              "zero": 23498
+            }
+          }
+        }
+      ]
+    },
+    {
+      "file": "2024_21_ds.zip",
+      "rows": 88801,
+      "farms": 9,
+      "groups": [
+        {
+          "item": "내부습도",
+          "n": 14017,
+          "zero": 283,
+          "negative": 0,
+          "fractional": 11062,
+          "nunique": 3313,
+          "min": 0.0,
+          "max": 100.0,
+          "start": "2025-03-04 17:00:00",
+          "end": "2025-06-10 23:00:00",
+          "farms": 9,
+          "interpolation_flags": {
+            "original": 11675,
+            "interpolated": 2342
+          },
+          "flag_groups": {
+            "interpolated": {
+              "n": 2342,
+              "fractional": 2342,
+              "zero": 0
+            },
+            "original": {
+              "n": 11675,
+              "fractional": 8720,
+              "zero": 283
+            }
+          }
+        },
+        {
+          "item": "내부온도",
+          "n": 14017,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 9963,
+          "nunique": 2957,
+          "min": 4.0,
+          "max": 49.67,
+          "start": "2025-03-04 17:00:00",
+          "end": "2025-06-10 23:00:00",
+          "farms": 9,
+          "interpolation_flags": {
+            "original": 11676,
+            "interpolated": 2341
+          },
+          "flag_groups": {
+            "interpolated": {
+              "n": 2341,
+              "fractional": 2341,
+              "zero": 0
+            },
+            "original": {
+              "n": 11676,
+              "fractional": 7622,
+              "zero": 0
+            }
+          }
+        },
+        {
+          "item": "지습",
+          "n": 11704,
+          "zero": 2,
+          "negative": 0,
+          "fractional": 9755,
+          "nunique": 1052,
+          "min": 0.0,
+          "max": 100.0,
+          "start": "2025-03-04 17:00:00",
+          "end": "2025-06-10 23:00:00",
+          "farms": 9,
+          "interpolation_flags": {
+            "original": 11704
+          },
+          "flag_groups": {
+            "original": {
+              "n": 11704,
+              "fractional": 9755,
+              "zero": 2
+            }
+          }
+        },
+        {
+          "item": "지중온도",
+          "n": 11689,
+          "zero": 1,
+          "negative": 0,
+          "fractional": 4124,
+          "nunique": 476,
+          "min": 0.0,
+          "max": 36.33,
+          "start": "2025-03-04 17:00:00",
+          "end": "2025-06-10 23:00:00",
+          "farms": 9,
+          "interpolation_flags": {
+            "original": 11689
+          },
+          "flag_groups": {
+            "original": {
+              "n": 11689,
+              "fractional": 4124,
+              "zero": 1
+            }
+          }
+        },
+        {
+          "item": "토양EC",
+          "n": 11681,
+          "zero": 11681,
+          "negative": 0,
+          "fractional": 0,
+          "nunique": 1,
+          "min": 0.0,
+          "max": 0.0,
+          "start": "2025-03-04 17:00:00",
+          "end": "2025-06-10 23:00:00",
+          "farms": 9,
+          "interpolation_flags": {
+            "original": 11681
+          },
+          "flag_groups": {
+            "original": {
+              "n": 11681,
+              "fractional": 0,
+              "zero": 11681
+            }
+          },
+          "farm_details": [
+            {
+              "farm": "PF_0025423_01",
+              "n": 1567,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 1567,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0025424_01",
+              "n": 1855,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 1855,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0025427_01",
+              "n": 1087,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 1087,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0025430_01",
+              "n": 1596,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 1596,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0025439_01",
+              "n": 755,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 755,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0025443_01",
+              "n": 275,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 275,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0025446_01",
+              "n": 1905,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 1905,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0025447_01",
+              "n": 2358,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 2358,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0025448_01",
+              "n": 283,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 283,
+              "fractional": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "2024_23_ds.zip",
+      "rows": 3041801,
+      "farms": 72,
+      "groups": [
+        {
+          "item": "(양액)배액EC",
+          "n": 4487,
+          "zero": 4487,
+          "negative": 0,
+          "fractional": 0,
+          "nunique": 1,
+          "min": 0.0,
+          "max": 0.0,
+          "start": "2024-09-11 00:00:00",
+          "end": "2025-05-31 23:00:00",
+          "farms": 1,
+          "interpolation_flags": {
+            "original": 4487
+          },
+          "flag_groups": {
+            "original": {
+              "n": 4487,
+              "fractional": 0,
+              "zero": 4487
+            }
+          },
+          "farm_details": [
+            {
+              "farm": "PF_0023355_01",
+              "n": 4487,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 4487,
+              "fractional": 0
+            }
+          ]
+        },
+        {
+          "item": "내부습도",
+          "n": 435722,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 8018,
+          "nunique": 3891,
+          "min": 12.0,
+          "max": 100.0,
+          "start": "2024-09-01 00:00:00",
+          "end": "2025-06-30 23:00:00",
+          "farms": 72,
+          "interpolation_flags": {
+            "original": 433009,
+            "interpolated": 2713
+          },
+          "flag_groups": {
+            "interpolated": {
+              "n": 2713,
+              "fractional": 2713,
+              "zero": 0
+            },
+            "original": {
+              "n": 433009,
+              "fractional": 5305,
+              "zero": 0
+            }
+          }
+        },
+        {
+          "item": "내부온도",
+          "n": 434078,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 9692,
+          "nunique": 4009,
+          "min": 2.0,
+          "max": 50.0,
+          "start": "2024-09-01 00:00:00",
+          "end": "2025-06-30 23:00:00",
+          "farms": 72,
+          "interpolation_flags": {
+            "original": 430308,
+            "interpolated": 3770
+          },
+          "flag_groups": {
+            "interpolated": {
+              "n": 3770,
+              "fractional": 3770,
+              "zero": 0
+            },
+            "original": {
+              "n": 430308,
+              "fractional": 5922,
+              "zero": 0
+            }
+          }
+        },
+        {
+          "item": "이슬점온도",
+          "n": 294019,
+          "zero": 1665,
+          "negative": 1195,
+          "fractional": 7037,
+          "nunique": 3634,
+          "min": -70130.0,
+          "max": 164712.0,
+          "start": "2024-09-11 00:00:00",
+          "end": "2025-06-30 23:00:00",
+          "farms": 54,
+          "interpolation_flags": {
+            "original": 290414,
+            "interpolated": 3605
+          },
+          "flag_groups": {
+            "interpolated": {
+              "n": 3605,
+              "fractional": 3605,
+              "zero": 0
+            },
+            "original": {
+              "n": 290414,
+              "fractional": 3432,
+              "zero": 1665
+            }
+          }
+        },
+        {
+          "item": "지중온도",
+          "n": 311157,
+          "zero": 236,
+          "negative": 0,
+          "fractional": 3810,
+          "nunique": 1291,
+          "min": 0.0,
+          "max": 41.0,
+          "start": "2024-09-01 00:00:00",
+          "end": "2025-06-30 23:00:00",
+          "farms": 53,
+          "interpolation_flags": {
+            "original": 311157
+          },
+          "flag_groups": {
+            "original": {
+              "n": 311157,
+              "fractional": 3810,
+              "zero": 236
+            }
+          }
+        },
+        {
+          "item": "토양EC",
+          "n": 402477,
+          "zero": 197762,
+          "negative": 0,
+          "fractional": 2131,
+          "nunique": 386,
+          "min": 0.0,
+          "max": 210.0,
+          "start": "2024-09-01 00:00:00",
+          "end": "2025-06-30 23:00:00",
+          "farms": 69,
+          "interpolation_flags": {
+            "original": 402477
+          },
+          "flag_groups": {
+            "original": {
+              "n": 402477,
+              "fractional": 2131,
+              "zero": 197762
+            }
+          },
+          "farm_details": [
+            {
+              "farm": "PF_0023306_01",
+              "n": 5607,
+              "unique": 7,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 1104,
+              "fractional": 4
+            },
+            {
+              "farm": "PF_0023307_01",
+              "n": 5736,
+              "unique": 3,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 2150,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0023308_01",
+              "n": 6528,
+              "unique": 10,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 1150,
+              "fractional": 65
+            },
+            {
+              "farm": "PF_0023310_01",
+              "n": 7056,
+              "unique": 22,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 771,
+              "fractional": 83
+            },
+            {
+              "farm": "PF_0023311_01",
+              "n": 6336,
+              "unique": 16,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 4037,
+              "fractional": 65
+            },
+            {
+              "farm": "PF_0023313_01",
+              "n": 5712,
+              "unique": 6,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 4590,
+              "fractional": 15
+            },
+            {
+              "farm": "PF_0023314_01",
+              "n": 5712,
+              "unique": 15,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 1205,
+              "fractional": 60
+            },
+            {
+              "farm": "PF_0023315_01",
+              "n": 5068,
+              "unique": 13,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 143,
+              "fractional": 17
+            },
+            {
+              "farm": "PF_0023316_01",
+              "n": 5712,
+              "unique": 23,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 1631,
+              "fractional": 56
+            },
+            {
+              "farm": "PF_0023317_01",
+              "n": 5712,
+              "unique": 12,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 1770,
+              "fractional": 26
+            },
+            {
+              "farm": "PF_0023318_01",
+              "n": 5026,
+              "unique": 14,
+              "min": 0.0,
+              "max": 3.0,
+              "zero": 1423,
+              "fractional": 46
+            },
+            {
+              "farm": "PF_0023319_01",
+              "n": 5026,
+              "unique": 17,
+              "min": 0.0,
+              "max": 3.0,
+              "zero": 1791,
+              "fractional": 43
+            },
+            {
+              "farm": "PF_0023320_01",
+              "n": 5712,
+              "unique": 23,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 3603,
+              "fractional": 63
+            },
+            {
+              "farm": "PF_0023321_01",
+              "n": 5712,
+              "unique": 5,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 4778,
+              "fractional": 12
+            },
+            {
+              "farm": "PF_0023323_01",
+              "n": 5712,
+              "unique": 8,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 4721,
+              "fractional": 26
+            },
+            {
+              "farm": "PF_0023324_01",
+              "n": 5712,
+              "unique": 8,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 854,
+              "fractional": 15
+            },
+            {
+              "farm": "PF_0023325_01",
+              "n": 5712,
+              "unique": 10,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 3062,
+              "fractional": 35
+            },
+            {
+              "farm": "PF_0023326_01",
+              "n": 5197,
+              "unique": 5,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 1647,
+              "fractional": 44
+            },
+            {
+              "farm": "PF_0023329_01",
+              "n": 7096,
+              "unique": 10,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 1350,
+              "fractional": 20
+            },
+            {
+              "farm": "PF_0023331_01",
+              "n": 5464,
+              "unique": 24,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 1779,
+              "fractional": 37
+            },
+            {
+              "farm": "PF_0023332_01",
+              "n": 6312,
+              "unique": 12,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 1479,
+              "fractional": 63
+            },
+            {
+              "farm": "PF_0023334_01",
+              "n": 6336,
+              "unique": 21,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 3121,
+              "fractional": 54
+            },
+            {
+              "farm": "PF_0023335_01",
+              "n": 6295,
+              "unique": 16,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 1274,
+              "fractional": 26
+            },
+            {
+              "farm": "PF_0023337_01",
+              "n": 6096,
+              "unique": 70,
+              "min": 0.0,
+              "max": 21.0,
+              "zero": 1251,
+              "fractional": 57
+            },
+            {
+              "farm": "PF_0023338_01",
+              "n": 6096,
+              "unique": 12,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 616,
+              "fractional": 13
+            },
+            {
+              "farm": "PF_0023340_01",
+              "n": 6336,
+              "unique": 17,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 446,
+              "fractional": 25
+            },
+            {
+              "farm": "PF_0023341_01",
+              "n": 6336,
+              "unique": 17,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 2732,
+              "fractional": 48
+            },
+            {
+              "farm": "PF_0023342_01",
+              "n": 6576,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 6576,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0023343_01",
+              "n": 6320,
+              "unique": 7,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 6035,
+              "fractional": 6
+            },
+            {
+              "farm": "PF_0023344_01",
+              "n": 5847,
+              "unique": 10,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 4981,
+              "fractional": 14
+            },
+            {
+              "farm": "PF_0023346_01",
+              "n": 6216,
+              "unique": 12,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 5033,
+              "fractional": 19
+            },
+            {
+              "farm": "PF_0023347_01",
+              "n": 4245,
+              "unique": 9,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 3460,
+              "fractional": 15
+            },
+            {
+              "farm": "PF_0023348_01",
+              "n": 6552,
+              "unique": 23,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 1124,
+              "fractional": 40
+            },
+            {
+              "farm": "PF_0023349_01",
+              "n": 5544,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 5544,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0023350_01",
+              "n": 6216,
+              "unique": 14,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 3427,
+              "fractional": 39
+            },
+            {
+              "farm": "PF_0023351_01",
+              "n": 4904,
+              "unique": 9,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 3738,
+              "fractional": 18
+            },
+            {
+              "farm": "PF_0023352_01",
+              "n": 6312,
+              "unique": 12,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 2535,
+              "fractional": 50
+            },
+            {
+              "farm": "PF_0023354_01",
+              "n": 6024,
+              "unique": 10,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 1601,
+              "fractional": 24
+            },
+            {
+              "farm": "PF_0023355_01",
+              "n": 4187,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "zero": 4187,
+              "fractional": 0
+            },
+            {
+              "farm": "PF_0023356_01",
+              "n": 6336,
+              "unique": 5,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 5143,
+              "fractional": 15
+            },
+            {
+              "farm": "PF_0023359_01",
+              "n": 4178,
+              "unique": 3,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 4168,
+              "fractional": 1
+            },
+            {
+              "farm": "PF_0023360_01",
+              "n": 5712,
+              "unique": 13,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 2903,
+              "fractional": 41
+            },
+            {
+              "farm": "PF_0023361_01",
+              "n": 5799,
+              "unique": 8,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 5690,
+              "fractional": 6
+            },
+            {
+              "farm": "PF_0023362_01",
+              "n": 5712,
+              "unique": 21,
+              "min": 0.0,
+              "max": 3.0,
+              "zero": 1015,
+              "fractional": 28
+            },
+            {
+              "farm": "PF_0023363_01",
+              "n": 6216,
+              "unique": 12,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 1529,
+              "fractional": 32
+            },
+            {
+              "farm": "PF_0023364_01",
+              "n": 6456,
+              "unique": 13,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 652,
+              "fractional": 19
+            },
+            {
+              "farm": "PF_0023365_01",
+              "n": 5712,
+              "unique": 11,
+              "min": 0.0,
+              "max": 16.0,
+              "zero": 4479,
+              "fractional": 20
+            },
+            {
+              "farm": "PF_0023366_01",
+              "n": 6336,
+              "unique": 10,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 1039,
+              "fractional": 17
+            },
+            {
+              "farm": "PF_0023367_01",
+              "n": 5701,
+              "unique": 13,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 710,
+              "fractional": 29
+            },
+            {
+              "farm": "PF_0023368_01",
+              "n": 5292,
+              "unique": 5,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 4795,
+              "fractional": 3
+            },
+            {
+              "farm": "PF_0023369_01",
+              "n": 5712,
+              "unique": 27,
+              "min": 0.0,
+              "max": 1.0,
+              "zero": 3947,
+              "fractional": 36
+            },
+            {
+              "farm": "PF_0023370_01",
+              "n": 6082,
+              "unique": 17,
+              "min": 0.0,
+              "max": 2.0,
+              "zero": 1927,
+              "fractional": 33
+            },
+            {
+              "farm": "PF_0023372_01",
+              "n": 4595,
+              "unique": 21,
+              "min": 0.0,
+              "max": 27.0,
+              "zero": 4219,
+              "fractional": 16
+            },
+            {
+              "farm": "PF_0023373_01",
+              "n": 6573,
+              "unique": 11,
+              "min": 0.0,
+              "max": 10.0,
+              "zero": 6552,
+              "fractional": 10
+            },
+            {
+              "farm": "PF_0023374_01",
+              "n": 6204,
+              "unique": 27,
+              "min": 0.0,
+              "max": 11.0,
+              "zero": 69,
+              "fractional": 26
+            },
+            {
+              "farm": "PF_0023376_01",
+              "n": 5729,
+              "unique": 15,
+              "min": 0.0,
+              "max": 27.0,
+              "zero": 5696,
+              "fractional": 11
+            },
+            {
+              "farm": "PF_0023377_01",
+              "n": 6576,
+              "unique": 23,
+              "min": 0.0,
+              "max": 7.0,
+              "zero": 2443,
+              "fractional": 47
+            },
+            {
+              "farm": "PF_0023378_01",
+              "n": 2563,
+              "unique": 16,
+              "min": 0.0,
+              "max": 7.0,
+              "zero": 1060,
+              "fractional": 14
+            },
+            {
+              "farm": "PF_0023379_01",
+              "n": 5485,
+              "unique": 29,
+              "min": 0.0,
+              "max": 88.0,
+              "zero": 720,
+              "fractional": 66
+            },
+            {
+              "farm": "PF_0023380_01",
+              "n": 6552,
+              "unique": 26,
+              "min": 0.0,
+              "max": 8.0,
+              "zero": 3765,
+              "fractional": 44
+            },
+            {
+              "farm": "PF_0023382_01",
+              "n": 5866,
+              "unique": 53,
+              "min": 0.0,
+              "max": 200.0,
+              "zero": 1622,
+              "fractional": 67
+            },
+            {
+              "farm": "PF_0023383_01",
+              "n": 6416,
+              "unique": 21,
+              "min": 0.0,
+              "max": 33.0,
+              "zero": 6147,
+              "fractional": 24
+            },
+            {
+              "farm": "PF_0023384_01",
+              "n": 6561,
+              "unique": 25,
+              "min": 0.0,
+              "max": 6.0,
+              "zero": 5030,
+              "fractional": 23
+            },
+            {
+              "farm": "PF_0023385_01",
+              "n": 6575,
+              "unique": 16,
+              "min": 0.0,
+              "max": 5.0,
+              "zero": 6100,
+              "fractional": 15
+            },
+            {
+              "farm": "PF_0023386_01",
+              "n": 3302,
+              "unique": 32,
+              "min": 0.0,
+              "max": 6.0,
+              "zero": 835,
+              "fractional": 42
+            },
+            {
+              "farm": "PF_0023387_01",
+              "n": 6229,
+              "unique": 24,
+              "min": 0.0,
+              "max": 8.0,
+              "zero": 1659,
+              "fractional": 38
+            },
+            {
+              "farm": "PF_0023388_01",
+              "n": 6567,
+              "unique": 17,
+              "min": 0.0,
+              "max": 5.0,
+              "zero": 5868,
+              "fractional": 24
+            },
+            {
+              "farm": "PF_0023389_01",
+              "n": 6575,
+              "unique": 33,
+              "min": 0.0,
+              "max": 9.0,
+              "zero": 3799,
+              "fractional": 90
+            },
+            {
+              "farm": "PF_0023390_01",
+              "n": 6567,
+              "unique": 166,
+              "min": 0.0,
+              "max": 210.0,
+              "zero": 1462,
+              "fractional": 51
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "2024_20_ds.zip",
+      "rows": 1343541,
+      "farms": 25,
+      "groups": [
+        {
+          "item": "내부습도",
+          "n": 118199,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 91557,
+          "nunique": 8948,
+          "min": 17.17,
+          "max": 99.0,
+          "start": "2024-09-02 09:00:00",
+          "end": "2025-05-30 23:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 107508,
+            "interpolated": 10691
+          },
+          "flag_groups": {
+            "interpolated": {
+              "n": 10691,
+              "fractional": 10691,
+              "zero": 0
+            },
+            "original": {
+              "n": 107508,
+              "fractional": 80866,
+              "zero": 0
+            }
+          }
+        },
+        {
+          "item": "내부온도",
+          "n": 118199,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 76779,
+          "nunique": 8333,
+          "min": 2.0,
+          "max": 46.5,
+          "start": "2024-09-02 09:00:00",
+          "end": "2025-05-30 23:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 107508,
+            "interpolated": 10691
+          },
+          "flag_groups": {
+            "interpolated": {
+              "n": 10691,
+              "fractional": 10691,
+              "zero": 0
+            },
+            "original": {
+              "n": 107508,
+              "fractional": 66088,
+              "zero": 0
+            }
+          }
+        },
+        {
+          "item": "외부습도",
+          "n": 118197,
+          "zero": 5055,
+          "negative": 0,
+          "fractional": 84213,
+          "nunique": 8365,
+          "min": 0.0,
+          "max": 99.7599105834961,
+          "start": "2024-09-02 10:00:00",
+          "end": "2025-05-30 23:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 107506,
+            "interpolated": 10691
+          },
+          "flag_groups": {
+            "interpolated": {
+              "n": 10691,
+              "fractional": 10691,
+              "zero": 0
+            },
+            "original": {
+              "n": 107506,
+              "fractional": 73522,
+              "zero": 5055
+            }
+          }
+        },
+        {
+          "item": "외부온도",
+          "n": 118197,
+          "zero": 5646,
+          "negative": 23005,
+          "fractional": 65510,
+          "nunique": 7996,
+          "min": -16.82162094116211,
+          "max": 35.5,
+          "start": "2024-09-02 10:00:00",
+          "end": "2025-05-30 23:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 107506,
+            "interpolated": 10691
+          },
+          "flag_groups": {
+            "interpolated": {
+              "n": 10691,
+              "fractional": 10691,
+              "zero": 0
+            },
+            "original": {
+              "n": 107506,
+              "fractional": 54819,
+              "zero": 5646
+            }
+          }
+        },
+        {
+          "item": "우측이중측창 개도",
+          "n": 107508,
+          "zero": 60620,
+          "negative": 0,
+          "fractional": 0,
+          "nunique": 22,
+          "min": 0.0,
+          "max": 100.0,
+          "start": "2024-09-02 09:00:00",
+          "end": "2025-05-30 23:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 107508
+          },
+          "flag_groups": {
+            "original": {
+              "n": 107508,
+              "fractional": 0,
+              "zero": 60620
+            }
+          }
+        },
+        {
+          "item": "우측일중측창 개도",
+          "n": 107508,
+          "zero": 38521,
+          "negative": 0,
+          "fractional": 0,
+          "nunique": 23,
+          "min": 0.0,
+          "max": 100.0,
+          "start": "2024-09-02 09:00:00",
+          "end": "2025-05-30 23:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 107508
+          },
+          "flag_groups": {
+            "original": {
+              "n": 107508,
+              "fractional": 0,
+              "zero": 38521
+            }
+          }
+        },
+        {
+          "item": "좌측이중측창 개도",
+          "n": 107508,
+          "zero": 58780,
+          "negative": 0,
+          "fractional": 0,
+          "nunique": 23,
+          "min": 0.0,
+          "max": 100.0,
+          "start": "2024-09-02 09:00:00",
+          "end": "2025-05-30 23:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 107508
+          },
+          "flag_groups": {
+            "original": {
+              "n": 107508,
+              "fractional": 0,
+              "zero": 58780
+            }
+          }
+        },
+        {
+          "item": "좌측일중측창 개도",
+          "n": 107508,
+          "zero": 33368,
+          "negative": 0,
+          "fractional": 0,
+          "nunique": 22,
+          "min": 0.0,
+          "max": 100.0,
+          "start": "2024-09-02 09:00:00",
+          "end": "2025-05-30 23:00:00",
+          "farms": 25,
+          "interpolation_flags": {
+            "original": 107508
+          },
+          "flag_groups": {
+            "original": {
+              "n": 107508,
+              "fractional": 0,
+              "zero": 33368
+            }
+          }
+        }
+      ]
+    },
+    {
+      "file": "2023_13_ds.zip",
+      "rows": 332812,
+      "farms": 2,
+      "groups": [
+        {
+          "item": "(양액)공급EC",
+          "n": 5603,
+          "zero": 12,
+          "negative": 0,
+          "fractional": 2156,
+          "nunique": 154,
+          "min": 0.0,
+          "max": 14.0,
+          "start": "2023-09-15 11:00:00",
+          "end": "2024-05-15 23:00:00",
+          "farms": 1,
+          "farm_details": [
+            {
+              "farm": "PF_0023622_01",
+              "n": 5603,
+              "unique": 154,
+              "min": 0.0,
+              "max": 14.0,
+              "zero": 12,
+              "fractional": 2156
+            }
+          ]
+        },
+        {
+          "item": "(양액)공급량",
+          "n": 5603,
+          "zero": 2172,
+          "negative": 0,
+          "fractional": 3384,
+          "nunique": 1540,
+          "min": 0.0,
+          "max": 1107.28,
+          "start": "2023-09-15 11:00:00",
+          "end": "2024-05-15 23:00:00",
+          "farms": 1
+        },
+        {
+          "item": "내부습도",
+          "n": 18620,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 18032,
+          "nunique": 1610,
+          "min": 27.29,
+          "max": 100.0,
+          "start": "2023-09-15 00:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 2
+        },
+        {
+          "item": "내부온도",
+          "n": 18620,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 16274,
+          "nunique": 1342,
+          "min": 2.2,
+          "max": 36.5,
+          "start": "2023-09-15 00:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 2
+        },
+        {
+          "item": "냉방기작동여부",
+          "n": 18539,
+          "zero": 18043,
+          "negative": 0,
+          "fractional": 0,
+          "nunique": 2,
+          "min": 0.0,
+          "max": 1.0,
+          "start": "2023-09-15 00:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 2
+        },
+        {
+          "item": "보온커튼개도",
+          "n": 18546,
+          "zero": 3646,
+          "negative": 0,
+          "fractional": 1328,
+          "nunique": 143,
+          "min": 0.0,
+          "max": 100.0,
+          "start": "2023-09-15 00:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 2
+        },
+        {
+          "item": "외부온도",
+          "n": 18620,
+          "zero": 437,
+          "negative": 1942,
+          "fractional": 12229,
+          "nunique": 788,
+          "min": -11.0,
+          "max": 47.0,
+          "start": "2023-09-15 00:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 2
+        },
+        {
+          "item": "우측일중천창 개도",
+          "n": 18546,
+          "zero": 9668,
+          "negative": 0,
+          "fractional": 1393,
+          "nunique": 444,
+          "min": 0.0,
+          "max": 100.0,
+          "start": "2023-09-15 00:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 2
+        },
+        {
+          "item": "이슬점온도",
+          "n": 18620,
+          "zero": 1,
+          "negative": 0,
+          "fractional": 11682,
+          "nunique": 627,
+          "min": 0.0,
+          "max": 654.0,
+          "start": "2023-09-15 00:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 2
+        },
+        {
+          "item": "절대습도",
+          "n": 18620,
+          "zero": 0,
+          "negative": 0,
+          "fractional": 10515,
+          "nunique": 605,
+          "min": 4.0,
+          "max": 382.67,
+          "start": "2023-09-15 00:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 2
+        },
+        {
+          "item": "좌측일중천창 개도",
+          "n": 18546,
+          "zero": 10036,
+          "negative": 0,
+          "fractional": 1508,
+          "nunique": 432,
+          "min": 0.0,
+          "max": 100.0,
+          "start": "2023-09-15 00:00:00",
+          "end": "2024-06-10 23:00:00",
+          "farms": 2
+        }
+      ]
+    }
+  ],
+  "rda2022": {
+    "all_rows": 833135,
+    "crop_counts": {
+      "완숙토마토": 188921,
+      "딸기": 159187,
+      "파프리카": 145453,
+      "방울토마토": 122191,
+      "참외": 114710,
+      "오이": 65631,
+      "국화": 19938,
+      "가지": 17104
+    },
+    "strawberry_rows": 159187,
+    "farms": 42,
+    "fields": {
+      "도": 159187,
+      "시군": 159187,
+      "품목": 159187,
+      "작기": 159187,
+      "농가명": 159187,
+      "측정시간": 159187,
+      "온도_외부": 142990,
+      "풍향_외부": 41965,
+      "풍속_외부": 62294,
+      "일사량_외부": 90643,
+      "누적일사량_외부": 76428,
+      "강우감지": 159187,
+      "온도_내부": 158045,
+      "상대습도_내부": 142307,
+      "잔존이산화탄소(CO2)": 110447,
+      "토양온도": 23491
+    },
+    "columns": [
+      "도",
+      "시군",
+      "품목",
+      "작기",
+      "농가명",
+      "측정시간",
+      "온도_외부",
+      "풍향_외부",
+      "풍속_외부",
+      "일사량_외부",
+      "누적일사량_외부",
+      "강우감지",
+      "온도_내부",
+      "상대습도_내부",
+      "잔존이산화탄소(CO2)",
+      "토양온도"
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "source_file": "C:\\Users\\aozks\\Downloads\\2024_data (1).zip",
+  "sha256": "fe9c802980913a11223503527e843ac29544c7c57b99930315ed29fa6502fa31",
+  "members": [
+    {
+      "name": "24_생육정보.csv",
+      "bytes": 285333,
+      "rows": 4200,
+      "columns": [
+        "측정일자",
+        "온실명",
+        "측정라인",
+        "표본번호",
+        "품목코드",
+        "단체표준분류명",
+        "단체표준항목명",
+        "단체표준항목2명",
+        "조사항목명",
+        "단위",
+        "조사항목값"
+      ],
+      "duplicates": 0,
+      "fields": [
+        {
+          "name": "측정일자",
+          "missing": 0,
+          "unique": 15,
+          "numeric": 0,
+          "time_valid": 4200,
+          "start": "2024-11-01 00:00:00",
+          "end": "2025-02-03 00:00:00"
+        },
+        {
+          "name": "온실명",
+          "missing": 0,
+          "unique": 4,
+          "numeric": 0
+        },
+        {
+          "name": "측정라인",
+          "missing": 0,
+          "unique": 5,
+          "numeric": 4200,
+          "min": 1.0,
+          "max": 5.0,
+          "median": 3.0,
+          "zero": 0,
+          "fractional": 0
+        },
+        {
+          "name": "표본번호",
+          "missing": 0,
+          "unique": 2,
+          "numeric": 4200,
+          "min": 1.0,
+          "max": 2.0,
+          "median": 1.5,
+          "zero": 0,
+          "fractional": 0
+        },
+        {
+          "name": "품목코드",
+          "missing": 0,
+          "unique": 1,
+          "numeric": 4200,
+          "min": 80400.0,
+          "max": 80400.0,
+          "median": 80400.0,
+          "zero": 0,
+          "fractional": 0
+        },
+        {
+          "name": "단체표준분류명",
+          "missing": 0,
+          "unique": 3,
+          "numeric": 0
+        },
+        {
+          "name": "단체표준항목명",
+          "missing": 0,
+          "unique": 7,
+          "numeric": 0
+        },
+        {
+          "name": "단체표준항목2명",
+          "missing": 4200,
+          "unique": 0,
+          "numeric": 0
+        },
+        {
+          "name": "조사항목명",
+          "missing": 0,
+          "unique": 7,
+          "numeric": 0
+        },
+        {
+          "name": "단위",
+          "missing": 0,
+          "unique": 2,
+          "numeric": 0
+        },
+        {
+          "name": "조사항목값",
+          "missing": 0,
+          "unique": 32,
+          "numeric": 4200,
+          "min": 0.0,
+          "max": 31.0,
+          "median": 9.0,
+          "zero": 111,
+          "fractional": 0
+        }
+      ]
+    },
+    {
+      "name": "24_환경정보.csv",
+      "bytes": 11291622,
+      "rows": 110628,
+      "columns": [
+        "측정일시",
+        "온실명",
+        "품목코드",
+        "단체표준분류명",
+        "단체표준항목명",
+        "단체표준항목2명",
+        "항목명",
+        "측정데이터",
+        "단위"
+      ],
+      "duplicates": 0,
+      "fields": [
+        {
+          "name": "측정일시",
+          "missing": 0,
+          "unique": 3085,
+          "numeric": 0,
+          "time_valid": 110628,
+          "start": "2024-09-29 00:00:00",
+          "end": "2025-02-07 23:00:00"
+        },
+        {
+          "name": "온실명",
+          "missing": 0,
+          "unique": 4,
+          "numeric": 0
+        },
+        {
+          "name": "품목코드",
+          "missing": 0,
+          "unique": 1,
+          "numeric": 110628,
+          "min": 80400.0,
+          "max": 80400.0,
+          "median": 80400.0,
+          "zero": 0,
+          "fractional": 0
+        },
+        {
+          "name": "단체표준분류명",
+          "missing": 0,
+          "unique": 3,
+          "numeric": 0
+        },
+        {
+          "name": "단체표준항목명",
+          "missing": 0,
+          "unique": 8,
+          "numeric": 0
+        },
+        {
+          "name": "단체표준항목2명",
+          "missing": 110628,
+          "unique": 0,
+          "numeric": 0
+        },
+        {
+          "name": "항목명",
+          "missing": 0,
+          "unique": 9,
+          "numeric": 0
+        },
+        {
+          "name": "측정데이터",
+          "missing": 0,
+          "unique": 2143,
+          "numeric": 110628,
+          "min": -5.39,
+          "max": 1946.0,
+          "median": 12.0,
+          "zero": 13873,
+          "fractional": 59085
+        },
+        {
+          "name": "단위",
+          "missing": 0,
+          "unique": 6,
+          "numeric": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\ec3_ST5_is_second_feature_v1.py", line 115, in <module>
+    main()
+  File "C:\work\farmai\집\클로드\research\ec3_ST5_is_second_feature_v1.py", line 106, in main
+    G = D[m] if m is not None else E.merge(roles, on=["farm", "day"])[lambda x: x.role == "second"]
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\frame.py", line 4340, in __getitem__
+    key = com.apply_if_callable(key, self)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\common.py", line 391, in apply_if_callable
+    return maybe_callable(obj, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\집\클로드\research\ec3_ST5_is_second_feature_v1.py", line 106, in <lambda>
+    G = D[m] if m is not None else E.merge(roles, on=["farm", "day"])[lambda x: x.role == "second"]
+                                                                                ^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\generic.py", line 6206, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'role'. Did you mean: 'role_x'?

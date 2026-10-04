@@ -1,0 +1,115 @@
+{
+  "source_file": "C:\\Users\\aozks\\Downloads\\2022_11_ds.zip",
+  "sha256": "c5031d607c83d698e5a0a68d21b45bcb24ec27bc3258ea67d35147883b7f1de1",
+  "members": [
+    {
+      "name": "팜커넥트_env.csv",
+      "bytes": 119539414,
+      "rows": 842503,
+      "columns": [
+        "수집일자",
+        "기업명",
+        "농가id",
+        "시도",
+        "시군구",
+        "온실형태",
+        "품목명",
+        "장비코드",
+        "장비명",
+        "단체표준 장비명(국문)",
+        "단체표준 장비명(영문)",
+        "단위",
+        "측정값"
+      ],
+      "duplicates": 0,
+      "fields": [
+        {
+          "name": "수집일자",
+          "missing": 0,
+          "unique": 4622,
+          "numeric": 0,
+          "time_valid": 842503,
+          "start": "2022-09-20 10:00:00",
+          "end": "2023-03-31 23:00:00"
+        },
+        {
+          "name": "기업명",
+          "missing": 0,
+          "unique": 1,
+          "numeric": 0
+        },
+        {
+          "name": "농가id",
+          "missing": 0,
+          "unique": 28,
+          "numeric": 0
+        },
+        {
+          "name": "시도",
+          "missing": 0,
+          "unique": 2,
+          "numeric": 0
+        },
+        {
+          "name": "시군구",
+          "missing": 0,
+          "unique": 3,
+          "numeric": 0
+        },
+        {
+          "name": "온실형태",
+          "missing": 842503,
+          "unique": 0,
+          "numeric": 0
+        },
+        {
+          "name": "품목명",
+          "missing": 0,
+          "unique": 3,
+          "numeric": 0
+        },
+        {
+          "name": "장비코드",
+          "missing": 0,
+          "unique": 7,
+          "numeric": 0
+        },
+        {
+          "name": "장비명",
+          "missing": 0,
+          "unique": 7,
+          "numeric": 0
+        },
+        {
+          "name": "단체표준 장비명(국문)",
+          "missing": 0,
+          "unique": 7,
+          "numeric": 0
+        },
+        {
+          "name": "단체표준 장비명(영문)",
+          "missing": 0,
+          "unique": 7,
+          "numeric": 0
+        },
+        {
+          "name": "단위",
+          "missing": 0,
+          "unique": 4,
+          "numeric": 0
+        },
+        {
+          "name": "측정값",
+          "missing": 0,
+          "unique": 11450,
+          "numeric": 842503,
+          "min": 0.0,
+          "max": 4907.0,
+          "median": 19.2,
+          "zero": 4254,
+          "fractional": 729853
+        }
+      ]
+    }
+  ]
+}

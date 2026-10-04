@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "checks": 396,
+  "folds": 22,
+  "baseline_maxdiff": 4.440892098500626e-16,
+  "audit": [
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "train_days": 262,
+      "validation_rows": 912
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "train_days": 273,
+      "validation_rows": 720
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "train_days": 259,
+      "validation_rows": 960
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "train_days": 267,
+      "validation_rows": 792
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "train_days": 255,
+      "validation_rows": 960
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "train_days": 274,
+      "validation_rows": 672
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "train_days": 262,
+      "validation_rows": 960
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "train_days": 274,
+      "validation_rows": 744
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "train_days": 258,
+      "validation_rows": 960
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "train_days": 258,
+      "validation_rows": 960
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "train_days": 253,
+      "validation_rows": 1272
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "train_days": 247,
+      "validation_rows": 1320
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "train_days": 250,
+      "validation_rows": 1272
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "train_days": 251,
+      "validation_rows": 1248
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "train_days": 254,
+      "validation_rows": 1224
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "train_days": 248,
+      "validation_rows": 1272
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "train_days": 246,
+      "validation_rows": 1320
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "train_days": 255,
+      "validation_rows": 1224
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "train_days": 249,
+      "validation_rows": 1296
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "train_days": 255,
+      "validation_rows": 1200
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "train_days": 191,
+      "validation_rows": 1800
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "train_days": 100,
+      "validation_rows": 4632
+    }
+  ],
+  "scope": "Existing public V2 raw-cache and context replay; no new weights downloaded or model fit"
+}

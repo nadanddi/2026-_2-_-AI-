@@ -1,0 +1,848 @@
+{
+  "source": "2023_13_ds.zip",
+  "sha256": "2d18541560e8a1f5b1ccf257153fe709430be7d62a3024d8ed700328510c11cc",
+  "members": [
+    {
+      "member": "그린씨에스_env.csv",
+      "rows": 1154115,
+      "columns": [
+        "수집일자",
+        "기업명",
+        "농가id",
+        "시도",
+        "시군구",
+        "온실형태",
+        "품목명",
+        "장비코드",
+        "장비명",
+        "단체표준 장비명(국문)",
+        "단체표준 장비명(영문)",
+        "단위",
+        "측정값"
+      ],
+      "duplicates": 108621,
+      "missing": {
+        "수집일자": 0,
+        "기업명": 0,
+        "농가id": 0,
+        "시도": 0,
+        "시군구": 0,
+        "온실형태": 0,
+        "품목명": 0,
+        "장비코드": 0,
+        "장비명": 0,
+        "단체표준 장비명(국문)": 0,
+        "단체표준 장비명(영문)": 0,
+        "단위": 0,
+        "측정값": 0
+      },
+      "crop_counts": {
+        "토마토": 821303,
+        "딸기": 332812
+      },
+      "all_items": {
+        "강우감지": 61121,
+        "내부CO2": 61121,
+        "내부습도": 61121,
+        "내부온도": 61121,
+        "외부온도": 61121,
+        "외부일사량": 61121,
+        "외부풍속": 61121,
+        "외부풍향": 61121,
+        "이슬점온도": 61121,
+        "절대습도": 61121,
+        "우측일중천창 개도": 60914,
+        "좌측일중천창 개도": 60913,
+        "보온커튼개도": 60911,
+        "CO2발생장치작동여부": 60899,
+        "훈증기작동여부": 60899,
+        "보광등작동여부": 60891,
+        "냉방기작동여부": 60886,
+        "(양액)공급EC": 38864,
+        "(양액)공급PH": 38864,
+        "(양액)공급량": 38864
+      },
+      "crop_selection": "literal 딸기 or official strawberry code 080400/80400",
+      "strawberry_rows": 332812,
+      "strawberry_farms": 2,
+      "groups": [
+        {
+          "item": "(양액)공급EC",
+          "n": 5603,
+          "missing": 0,
+          "zero": 12,
+          "fractional": 2156,
+          "unique": 154,
+          "min": 0.0,
+          "p01": 2.0,
+          "median": 6.0,
+          "p99": 11.67,
+          "max": 14.0,
+          "units": [
+            "dS/m"
+          ]
+        },
+        {
+          "item": "(양액)공급PH",
+          "n": 5603,
+          "missing": 0,
+          "zero": 806,
+          "fractional": 553,
+          "unique": 60,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 1.0,
+          "p99": 2.0,
+          "max": 2.1,
+          "units": [
+            "ph"
+          ]
+        },
+        {
+          "item": "(양액)공급량",
+          "n": 5603,
+          "missing": 0,
+          "zero": 2172,
+          "fractional": 3384,
+          "unique": 1540,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 109.18,
+          "p99": 609.17,
+          "max": 1107.28,
+          "units": [
+            "cc"
+          ]
+        },
+        {
+          "item": "CO2발생장치작동여부",
+          "n": 18542,
+          "missing": 0,
+          "zero": 16839,
+          "fractional": 0,
+          "unique": 2,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 0.0,
+          "p99": 1.0,
+          "max": 1.0,
+          "units": [
+            "ON/OFF"
+          ]
+        },
+        {
+          "item": "강우감지",
+          "n": 18620,
+          "missing": 0,
+          "zero": 18618,
+          "fractional": 0,
+          "unique": 2,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 0.0,
+          "p99": 0.0,
+          "max": 1.0,
+          "units": [
+            "Y/N"
+          ]
+        },
+        {
+          "item": "내부CO2",
+          "n": 18620,
+          "missing": 0,
+          "zero": 0,
+          "fractional": 15407,
+          "unique": 3332,
+          "min": 200.33,
+          "p01": 230.33,
+          "median": 396.33,
+          "p99": 757.5146000000022,
+          "max": 2000.0,
+          "units": [
+            "ppm"
+          ]
+        },
+        {
+          "item": "내부습도",
+          "n": 18620,
+          "missing": 0,
+          "zero": 0,
+          "fractional": 18032,
+          "unique": 1610,
+          "min": 27.29,
+          "p01": 50.97,
+          "median": 95.0,
+          "p99": 99.73,
+          "max": 100.0,
+          "units": [
+            "%"
+          ]
+        },
+        {
+          "item": "내부온도",
+          "n": 18620,
+          "missing": 0,
+          "zero": 0,
+          "fractional": 16274,
+          "unique": 1342,
+          "min": 2.2,
+          "p01": 6.0,
+          "median": 14.7,
+          "p99": 30.494300000000038,
+          "max": 36.5,
+          "units": [
+            "도"
+          ]
+        },
+        {
+          "item": "냉방기작동여부",
+          "n": 18539,
+          "missing": 0,
+          "zero": 18043,
+          "fractional": 0,
+          "unique": 2,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 0.0,
+          "p99": 1.0,
+          "max": 1.0,
+          "units": [
+            "ON/OFF"
+          ]
+        },
+        {
+          "item": "보광등작동여부",
+          "n": 18539,
+          "missing": 0,
+          "zero": 18147,
+          "fractional": 0,
+          "unique": 2,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 0.0,
+          "p99": 1.0,
+          "max": 1.0,
+          "units": [
+            "ON/OFF"
+          ]
+        },
+        {
+          "item": "보온커튼개도",
+          "n": 18546,
+          "missing": 0,
+          "zero": 3646,
+          "fractional": 1328,
+          "unique": 143,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 100.0,
+          "p99": 100.0,
+          "max": 100.0,
+          "units": [
+            "%"
+          ]
+        },
+        {
+          "item": "외부온도",
+          "n": 18620,
+          "missing": 0,
+          "zero": 437,
+          "fractional": 12229,
+          "unique": 788,
+          "min": -11.0,
+          "p01": -6.0,
+          "median": 10.0,
+          "p99": 43.67,
+          "max": 47.0,
+          "units": [
+            "도"
+          ]
+        },
+        {
+          "item": "외부일사량",
+          "n": 18620,
+          "missing": 0,
+          "zero": 6882,
+          "fractional": 9694,
+          "unique": 3197,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 7.33,
+          "p99": 880.0,
+          "max": 1035.17,
+          "units": [
+            "w/㎡"
+          ]
+        },
+        {
+          "item": "외부풍속",
+          "n": 18620,
+          "missing": 0,
+          "zero": 7923,
+          "fractional": 9752,
+          "unique": 185,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 0.17,
+          "p99": 2.83,
+          "max": 6.55,
+          "units": [
+            "m/s"
+          ]
+        },
+        {
+          "item": "외부풍향",
+          "n": 18620,
+          "missing": 0,
+          "zero": 0,
+          "fractional": 4110,
+          "unique": 1690,
+          "min": 2.0,
+          "p01": 34.0,
+          "median": 275.0,
+          "p99": 358.0,
+          "max": 359.0,
+          "units": [
+            "도"
+          ]
+        },
+        {
+          "item": "우측일중천창 개도",
+          "n": 18546,
+          "missing": 0,
+          "zero": 9668,
+          "fractional": 1393,
+          "unique": 444,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 0.0,
+          "p99": 100.0,
+          "max": 100.0,
+          "units": [
+            "%"
+          ]
+        },
+        {
+          "item": "이슬점온도",
+          "n": 18620,
+          "missing": 0,
+          "zero": 1,
+          "fractional": 11682,
+          "unique": 627,
+          "min": 0.0,
+          "p01": 5.0,
+          "median": 13.29,
+          "p99": 26.67,
+          "max": 654.0,
+          "units": [
+            "도"
+          ]
+        },
+        {
+          "item": "절대습도",
+          "n": 18620,
+          "missing": 0,
+          "zero": 0,
+          "fractional": 10515,
+          "unique": 605,
+          "min": 4.0,
+          "p01": 6.0,
+          "median": 11.33,
+          "p99": 26.67,
+          "max": 382.67,
+          "units": [
+            "g/m3"
+          ]
+        },
+        {
+          "item": "좌측일중천창 개도",
+          "n": 18546,
+          "missing": 0,
+          "zero": 10036,
+          "fractional": 1508,
+          "unique": 432,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 0.0,
+          "p99": 100.0,
+          "max": 100.0,
+          "units": [
+            "%"
+          ]
+        },
+        {
+          "item": "훈증기작동여부",
+          "n": 18545,
+          "missing": 0,
+          "zero": 17637,
+          "fractional": 0,
+          "unique": 2,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 0.0,
+          "p99": 1.0,
+          "max": 1.0,
+          "units": [
+            "ON/OFF"
+          ]
+        }
+      ],
+      "farms": [
+        {
+          "farm": "PF_0023621_01",
+          "fields": {
+            "CO2발생장치작동여부": {
+              "n": 12754,
+              "zero": 12754,
+              "missing": 0,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6377,
+              "gaps_over_hour": 10
+            },
+            "강우감지": {
+              "n": 12796,
+              "zero": 12796,
+              "missing": 0,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6398,
+              "gaps_over_hour": 6
+            },
+            "내부CO2": {
+              "n": 12796,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2711,
+              "min": 200.33,
+              "max": 2000.0,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6398,
+              "gaps_over_hour": 6
+            },
+            "내부습도": {
+              "n": 12796,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1446,
+              "min": 27.29,
+              "max": 100.0,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6398,
+              "gaps_over_hour": 6
+            },
+            "내부온도": {
+              "n": 12796,
+              "zero": 0,
+              "missing": 0,
+              "unique": 977,
+              "min": 6.67,
+              "max": 36.43,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6398,
+              "gaps_over_hour": 6
+            },
+            "냉방기작동여부": {
+              "n": 12752,
+              "zero": 12752,
+              "missing": 0,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6376,
+              "gaps_over_hour": 11
+            },
+            "보광등작동여부": {
+              "n": 12752,
+              "zero": 12752,
+              "missing": 0,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6376,
+              "gaps_over_hour": 11
+            },
+            "보온커튼개도": {
+              "n": 12756,
+              "zero": 3644,
+              "missing": 0,
+              "unique": 115,
+              "min": 0.0,
+              "max": 100.0,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6378,
+              "gaps_over_hour": 9
+            },
+            "외부온도": {
+              "n": 12796,
+              "zero": 288,
+              "missing": 0,
+              "unique": 560,
+              "min": -10.0,
+              "max": 32.17,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6398,
+              "gaps_over_hour": 6
+            },
+            "외부일사량": {
+              "n": 12796,
+              "zero": 6118,
+              "missing": 0,
+              "unique": 2117,
+              "min": 0.0,
+              "max": 991.83,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6398,
+              "gaps_over_hour": 6
+            },
+            "외부풍속": {
+              "n": 12796,
+              "zero": 5050,
+              "missing": 0,
+              "unique": 140,
+              "min": 0.0,
+              "max": 5.93,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6398,
+              "gaps_over_hour": 6
+            },
+            "외부풍향": {
+              "n": 12796,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1170,
+              "min": 2.0,
+              "max": 359.0,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6398,
+              "gaps_over_hour": 6
+            },
+            "우측일중천창 개도": {
+              "n": 12756,
+              "zero": 6858,
+              "missing": 0,
+              "unique": 212,
+              "min": 0.0,
+              "max": 100.0,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6378,
+              "gaps_over_hour": 9
+            },
+            "이슬점온도": {
+              "n": 12796,
+              "zero": 0,
+              "missing": 0,
+              "unique": 412,
+              "min": 4.5,
+              "max": 28.83,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6398,
+              "gaps_over_hour": 6
+            },
+            "절대습도": {
+              "n": 12796,
+              "zero": 0,
+              "missing": 0,
+              "unique": 391,
+              "min": 6.0,
+              "max": 32.5,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6398,
+              "gaps_over_hour": 6
+            },
+            "좌측일중천창 개도": {
+              "n": 12756,
+              "zero": 6912,
+              "missing": 0,
+              "unique": 194,
+              "min": 0.0,
+              "max": 100.0,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6378,
+              "gaps_over_hour": 9
+            },
+            "훈증기작동여부": {
+              "n": 12756,
+              "zero": 11848,
+              "missing": 0,
+              "unique": 2,
+              "min": 0.0,
+              "max": 1.0,
+              "start": "2023-09-15 00:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 6378,
+              "gaps_over_hour": 9
+            }
+          }
+        },
+        {
+          "farm": "PF_0023622_01",
+          "fields": {
+            "(양액)공급EC": {
+              "n": 5603,
+              "zero": 12,
+              "missing": 0,
+              "unique": 154,
+              "min": 0.0,
+              "max": 14.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 9
+            },
+            "(양액)공급PH": {
+              "n": 5603,
+              "zero": 806,
+              "missing": 0,
+              "unique": 60,
+              "min": 0.0,
+              "max": 2.1,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 9
+            },
+            "(양액)공급량": {
+              "n": 5603,
+              "zero": 2172,
+              "missing": 0,
+              "unique": 1540,
+              "min": 0.0,
+              "max": 1107.28,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 9
+            },
+            "CO2발생장치작동여부": {
+              "n": 5788,
+              "zero": 4085,
+              "missing": 0,
+              "unique": 2,
+              "min": 0.0,
+              "max": 1.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 12
+            },
+            "강우감지": {
+              "n": 5824,
+              "zero": 5822,
+              "missing": 0,
+              "unique": 2,
+              "min": 0.0,
+              "max": 1.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "내부CO2": {
+              "n": 5824,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2142,
+              "min": 201.5,
+              "max": 2000.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "내부습도": {
+              "n": 5824,
+              "zero": 0,
+              "missing": 0,
+              "unique": 775,
+              "min": 72.13,
+              "max": 100.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "내부온도": {
+              "n": 5824,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1084,
+              "min": 2.2,
+              "max": 36.5,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "냉방기작동여부": {
+              "n": 5787,
+              "zero": 5291,
+              "missing": 0,
+              "unique": 2,
+              "min": 0.0,
+              "max": 1.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 14
+            },
+            "보광등작동여부": {
+              "n": 5787,
+              "zero": 5395,
+              "missing": 0,
+              "unique": 2,
+              "min": 0.0,
+              "max": 1.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 13
+            },
+            "보온커튼개도": {
+              "n": 5790,
+              "zero": 2,
+              "missing": 0,
+              "unique": 53,
+              "min": 0.0,
+              "max": 100.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 11
+            },
+            "외부온도": {
+              "n": 5824,
+              "zero": 149,
+              "missing": 0,
+              "unique": 504,
+              "min": -11.0,
+              "max": 47.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "외부일사량": {
+              "n": 5824,
+              "zero": 764,
+              "missing": 0,
+              "unique": 1984,
+              "min": 0.0,
+              "max": 1035.17,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "외부풍속": {
+              "n": 5824,
+              "zero": 2873,
+              "missing": 0,
+              "unique": 128,
+              "min": 0.0,
+              "max": 6.55,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "외부풍향": {
+              "n": 5824,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1126,
+              "min": 3.0,
+              "max": 359.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "우측일중천창 개도": {
+              "n": 5790,
+              "zero": 2810,
+              "missing": 0,
+              "unique": 354,
+              "min": 0.0,
+              "max": 100.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 11
+            },
+            "이슬점온도": {
+              "n": 5824,
+              "zero": 1,
+              "missing": 0,
+              "unique": 418,
+              "min": 0.0,
+              "max": 654.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "절대습도": {
+              "n": 5824,
+              "zero": 0,
+              "missing": 0,
+              "unique": 412,
+              "min": 4.0,
+              "max": 382.67,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "좌측일중천창 개도": {
+              "n": 5790,
+              "zero": 3124,
+              "missing": 0,
+              "unique": 354,
+              "min": 0.0,
+              "max": 100.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 11
+            },
+            "훈증기작동여부": {
+              "n": 5789,
+              "zero": 5789,
+              "missing": 0,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "start": "2023-09-15 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 12
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+C:\work\farmai\집\코덱스\local\tabdpt130_cpu_v1\site\tabdpt\utils.py:71: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  return torch.from_numpy(input)
+DIAG10 0 7 COMPLETE
+DIAG10 0 101 COMPLETE
+DIAG10 0 2024 COMPLETE

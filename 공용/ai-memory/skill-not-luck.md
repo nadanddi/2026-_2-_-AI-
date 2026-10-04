@@ -5,7 +5,7 @@ metadata:
   node_type: memory
   type: feedback
   originSessionId: 0f62f980-d110-4c91-abd7-dffbf0ff506c
-  modified: 2026-09-27T05:57:47.762Z
+  modified: 2026-10-04T08:29:59.542Z
 ---
 
 The user said (2026-09-27): "모델이 운에 의해 맞추는게 아닌 철저한 실력으로 정답을 맞추는 게 중요한 것 같아."
@@ -16,5 +16,7 @@ The user said (2026-09-27): "모델이 운에 의해 맞추는게 아닌 철저�
 - Evaluate every candidate with ≥2–3 random seeds (average + spread) and on several validators (DIAG10 non-overlapping, EXT10/EXT12, EC geometry A); report block-bootstrap CIs.
 - Fix decision criteria and blend weights BEFORE looking at results; label post-hoc findings as such.
 - Adoption rule (user chose 2026-09-27, replacing the old flat "<1% = 판별 불가"): adopt REGARDLESS of size if the gain has the same direction for every seed × every validator AND the DIAG10 CI excludes 0; when k variants are tested at once, use a Bonferroni-tightened CI (level 1−0.05/k). Label sub-1% passes "작지만 확실한 개선"; when stacking several, re-validate the combination.
+- **EC-only validator set (user decided 2026-10-04, after audit VA1 / catalog 6.246; applies to NEW candidates only, never re-judge already-seen ones):** judge = every seed × DIAG10·A·B same direction + DIAG10 P(worse) < .025 (/k). Guard (not a pass condition): if EL1 or DIAG10 pass-2 rows (day >= 179) get worse by >= 2 %, hold adoption and investigate; EXT10·EXT12 reported only. Reason: A 4/4, DIAG10 2/2, B 2/3 matched EC leaderboard direction, EXT10·12 1/3; EXT10 moves independently of all others. **Temperature keeps the old set (EXT10 matched temp LB).**
+- **EC pass-2-only protocol (user decided 2026-10-04, catalog 6.278 → protocol entry):** for EC changes whose benefit is specific to pass 2 (record day ≥ 179; all 60 evaluation days are pass 2), apply the candidate ONLY to pass-2 rows (pass-1 rows keep the baseline). Judge on pass-2 rows of DIAG10 (original layout), a FRESH layout never used before, and EL1: every new seed × all three better, and seed-mean block-bootstrap P(worse) < .025 on the fresh layout's pass-2 rows. Baseline = R3S refitted with the same new seeds. A candidate found/tuned on earlier runs must pass ONE confirmation run with new seeds + fresh layout, decided by this rule regardless of outcome.
 - Prefer changes with a physical/agronomic mechanism and consistent direction across subsets (farm × pass, cold days, hours) over changes that win only on one slice.
 - Related: [[analysis-before-answers]], [[rule5-interpretation]].

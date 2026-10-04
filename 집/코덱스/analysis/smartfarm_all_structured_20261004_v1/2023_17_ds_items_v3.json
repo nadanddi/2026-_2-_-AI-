@@ -1,0 +1,2884 @@
+{
+  "source": "2023_17_ds.zip",
+  "sha256": "3e1c7e051fbcb4bda6550a371bf1ecc21823a4454cf11d8a20d94fa4c40bf522",
+  "members": [
+    {
+      "member": "팜한농_env.csv",
+      "rows": 1198419,
+      "columns": [
+        "수집일자",
+        "기업명",
+        "농가id",
+        "시도",
+        "시군구",
+        "온실형태",
+        "품목명",
+        "장비코드",
+        "장비명",
+        "단체표준 장비명(국문)",
+        "단체표준 장비명(영문)",
+        "단위",
+        "측정값"
+      ],
+      "duplicates": 0,
+      "missing": {
+        "수집일자": 0,
+        "기업명": 0,
+        "농가id": 0,
+        "시도": 0,
+        "시군구": 0,
+        "온실형태": 0,
+        "품목명": 0,
+        "장비코드": 0,
+        "장비명": 0,
+        "단체표준 장비명(국문)": 0,
+        "단체표준 장비명(영문)": 0,
+        "단위": 0,
+        "측정값": 0
+      },
+      "crop_counts": {
+        "딸기": 1198419
+      },
+      "all_items": {
+        "내부습도": 198630,
+        "내부온도": 198630,
+        "내부CO2": 198619,
+        "토양EC": 175583,
+        "토양PH": 175583,
+        "내부일사량": 106714,
+        "지중온도": 95027,
+        "외부습도": 17213,
+        "외부온도": 17213,
+        "외부일사량": 15207
+      },
+      "crop_selection": "literal 딸기 or official strawberry code 080400/80400",
+      "strawberry_rows": 1198419,
+      "strawberry_farms": 33,
+      "groups": [
+        {
+          "item": "내부CO2",
+          "n": 198619,
+          "missing": 0,
+          "zero": 0,
+          "fractional": 172077,
+          "unique": 25034,
+          "min": 200.08,
+          "p01": 228.0,
+          "median": 418.17,
+          "p99": 3179.9100000000035,
+          "max": 4994.58,
+          "units": [
+            "ppm"
+          ]
+        },
+        {
+          "item": "내부습도",
+          "n": 198630,
+          "missing": 0,
+          "zero": 0,
+          "fractional": 161464,
+          "unique": 5028,
+          "min": 17.9,
+          "p01": 34.17,
+          "median": 86.38,
+          "p99": 98.0,
+          "max": 99.46,
+          "units": [
+            "%"
+          ]
+        },
+        {
+          "item": "내부온도",
+          "n": 198630,
+          "missing": 0,
+          "zero": 0,
+          "fractional": 145576,
+          "unique": 2818,
+          "min": 2.0,
+          "p01": 5.67,
+          "median": 14.0,
+          "p99": 31.13,
+          "max": 50.0,
+          "units": [
+            "도"
+          ]
+        },
+        {
+          "item": "내부일사량",
+          "n": 106714,
+          "missing": 0,
+          "zero": 53150,
+          "fractional": 47715,
+          "unique": 8895,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 0.08,
+          "p99": 501.6478999999992,
+          "max": 900.5,
+          "units": [
+            "W/m-2·s"
+          ]
+        },
+        {
+          "item": "외부습도",
+          "n": 17213,
+          "missing": 0,
+          "zero": 0,
+          "fractional": 13483,
+          "unique": 1095,
+          "min": 14.5,
+          "p01": 26.83,
+          "median": 77.83,
+          "p99": 94.17,
+          "max": 97.0,
+          "units": [
+            "%"
+          ]
+        },
+        {
+          "item": "외부온도",
+          "n": 17213,
+          "missing": 0,
+          "zero": 428,
+          "fractional": 10772,
+          "unique": 774,
+          "min": -11.0,
+          "p01": -7.17,
+          "median": 8.0,
+          "p99": 27.67,
+          "max": 32.67,
+          "units": [
+            "도"
+          ]
+        },
+        {
+          "item": "외부일사량",
+          "n": 15207,
+          "missing": 0,
+          "zero": 8021,
+          "fractional": 5513,
+          "unique": 3334,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 0.0,
+          "p99": 746.518,
+          "max": 1120.83,
+          "units": [
+            "w/㎡"
+          ]
+        },
+        {
+          "item": "지중온도",
+          "n": 95027,
+          "missing": 0,
+          "zero": 14,
+          "fractional": 52187,
+          "unique": 1545,
+          "min": 0.0,
+          "p01": 7.17,
+          "median": 15.0,
+          "p99": 27.67,
+          "max": 40.67,
+          "units": [
+            "도"
+          ]
+        },
+        {
+          "item": "토양EC",
+          "n": 175583,
+          "missing": 0,
+          "zero": 92688,
+          "fractional": 10906,
+          "unique": 254,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 0.0,
+          "p99": 2.0,
+          "max": 262.0,
+          "units": [
+            "dS/m"
+          ]
+        },
+        {
+          "item": "토양PH",
+          "n": 175583,
+          "missing": 0,
+          "zero": 6,
+          "fractional": 14175,
+          "unique": 436,
+          "min": 0.0,
+          "p01": 4.0,
+          "median": 6.0,
+          "p99": 7.63,
+          "max": 26.67,
+          "units": [
+            "ph"
+          ]
+        }
+      ],
+      "farms": [
+        {
+          "farm": "PF_0023311_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6247,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2528,
+              "min": 201.5,
+              "max": 895.33,
+              "start": "2023-09-14 10:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6258,
+              "zero": 0,
+              "missing": 0,
+              "unique": 642,
+              "min": 25.0,
+              "max": 99.0,
+              "start": "2023-09-11 13:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "내부온도": {
+              "n": 6258,
+              "zero": 0,
+              "missing": 0,
+              "unique": 401,
+              "min": 5.0,
+              "max": 40.67,
+              "start": "2023-09-11 13:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "내부일사량": {
+              "n": 6247,
+              "zero": 3130,
+              "missing": 0,
+              "unique": 1748,
+              "min": 0.0,
+              "max": 663.33,
+              "start": "2023-09-14 10:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 6247,
+              "zero": 4253,
+              "missing": 0,
+              "unique": 45,
+              "min": 0.0,
+              "max": 3.67,
+              "start": "2023-09-14 10:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 6247,
+              "zero": 0,
+              "missing": 0,
+              "unique": 38,
+              "min": 5.0,
+              "max": 7.31,
+              "start": "2023-09-14 10:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023331_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 4358,
+              "min": 200.33,
+              "max": 4977.25,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1013,
+              "min": 29.25,
+              "max": 96.67,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 602,
+              "min": 4.5,
+              "max": 38.63,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 5934,
+              "zero": 3060,
+              "missing": 0,
+              "unique": 1775,
+              "min": 0.0,
+              "max": 581.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 407,
+              "min": 7.42,
+              "max": 36.7,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 4283,
+              "zero": 1716,
+              "missing": 0,
+              "unique": 48,
+              "min": 0.0,
+              "max": 81.0,
+              "start": "2023-10-12 17:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 42
+            },
+            "토양PH": {
+              "n": 4283,
+              "zero": 0,
+              "missing": 0,
+              "unique": 34,
+              "min": 3.8,
+              "max": 26.67,
+              "start": "2023-10-12 17:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 44
+            }
+          }
+        },
+        {
+          "farm": "PF_0023333_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5598,
+              "zero": 0,
+              "missing": 0,
+              "unique": 4178,
+              "min": 201.67,
+              "max": 4991.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-01 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5598,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1271,
+              "min": 30.0,
+              "max": 97.94,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-01 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5598,
+              "zero": 0,
+              "missing": 0,
+              "unique": 806,
+              "min": 5.67,
+              "max": 37.83,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-01 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 5598,
+              "zero": 2881,
+              "missing": 0,
+              "unique": 1845,
+              "min": 0.0,
+              "max": 652.83,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-01 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 5598,
+              "zero": 0,
+              "missing": 0,
+              "unique": 308,
+              "min": 10.0,
+              "max": 38.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-01 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 3897,
+              "zero": 1413,
+              "missing": 0,
+              "unique": 36,
+              "min": 0.0,
+              "max": 1.22,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-01 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 5
+            },
+            "토양PH": {
+              "n": 3897,
+              "zero": 0,
+              "missing": 0,
+              "unique": 74,
+              "min": 3.75,
+              "max": 7.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-01 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 5
+            }
+          }
+        },
+        {
+          "farm": "PF_0023335_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 4230,
+              "min": 201.0,
+              "max": 4989.92,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1036,
+              "min": 24.58,
+              "max": 96.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 609,
+              "min": 4.08,
+              "max": 35.58,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 6318,
+              "zero": 3162,
+              "missing": 0,
+              "unique": 2219,
+              "min": 0.0,
+              "max": 643.25,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 370,
+              "min": 3.5,
+              "max": 32.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 6119,
+              "zero": 2195,
+              "missing": 0,
+              "unique": 37,
+              "min": 0.0,
+              "max": 2.0,
+              "start": "2023-09-16 07:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "토양PH": {
+              "n": 6119,
+              "zero": 0,
+              "missing": 0,
+              "unique": 49,
+              "min": 3.0,
+              "max": 10.68,
+              "start": "2023-09-16 07:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            }
+          }
+        },
+        {
+          "farm": "PF_0023338_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5814,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2959,
+              "min": 202.25,
+              "max": 1811.08,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5814,
+              "zero": 0,
+              "missing": 0,
+              "unique": 913,
+              "min": 29.08,
+              "max": 95.08,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5814,
+              "zero": 0,
+              "missing": 0,
+              "unique": 527,
+              "min": 4.0,
+              "max": 38.25,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 5814,
+              "zero": 1496,
+              "missing": 0,
+              "unique": 1960,
+              "min": 0.0,
+              "max": 556.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 5814,
+              "zero": 0,
+              "missing": 0,
+              "unique": 452,
+              "min": 7.75,
+              "max": 28.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5259,
+              "zero": 680,
+              "missing": 0,
+              "unique": 36,
+              "min": 0.0,
+              "max": 1.24,
+              "start": "2023-09-12 09:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 4
+            },
+            "토양PH": {
+              "n": 5259,
+              "zero": 0,
+              "missing": 0,
+              "unique": 20,
+              "min": 5.2,
+              "max": 7.32,
+              "start": "2023-09-12 09:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 4
+            }
+          }
+        },
+        {
+          "farm": "PF_0023343_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 4061,
+              "min": 247.33,
+              "max": 1672.08,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1002,
+              "min": 25.83,
+              "max": 95.08,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 561,
+              "min": 6.5,
+              "max": 35.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 5967,
+              "zero": 3000,
+              "missing": 0,
+              "unique": 2203,
+              "min": 0.0,
+              "max": 699.1,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-17 08:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 318,
+              "min": 9.17,
+              "max": 29.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5915,
+              "zero": 1376,
+              "missing": 0,
+              "unique": 35,
+              "min": 0.0,
+              "max": 6.33,
+              "start": "2023-09-11 17:00:00",
+              "end": "2024-05-17 08:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 4
+            },
+            "토양PH": {
+              "n": 5915,
+              "zero": 0,
+              "missing": 0,
+              "unique": 68,
+              "min": 5.5,
+              "max": 8.0,
+              "start": "2023-09-11 17:00:00",
+              "end": "2024-05-17 08:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 4
+            }
+          }
+        },
+        {
+          "farm": "PF_0023344_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 3916,
+              "min": 200.5,
+              "max": 3354.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1013,
+              "min": 20.5,
+              "max": 97.92,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 548,
+              "min": 4.17,
+              "max": 40.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 6054,
+              "zero": 2934,
+              "missing": 0,
+              "unique": 2235,
+              "min": 0.0,
+              "max": 787.75,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 392,
+              "min": 9.5,
+              "max": 29.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 4386,
+              "zero": 2694,
+              "missing": 0,
+              "unique": 26,
+              "min": 0.0,
+              "max": 1.03,
+              "start": "2023-09-24 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 4
+            },
+            "토양PH": {
+              "n": 4386,
+              "zero": 0,
+              "missing": 0,
+              "unique": 90,
+              "min": 4.17,
+              "max": 6.4,
+              "start": "2023-09-24 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 4
+            }
+          }
+        },
+        {
+          "farm": "PF_0023345_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 3166,
+              "min": 201.83,
+              "max": 723.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1077,
+              "min": 17.9,
+              "max": 95.58,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1218,
+              "min": 2.0,
+              "max": 34.88,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 6054,
+              "zero": 3167,
+              "missing": 0,
+              "unique": 1567,
+              "min": 0.0,
+              "max": 479.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 474,
+              "min": 8.0,
+              "max": 31.67,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5963,
+              "zero": 2597,
+              "missing": 0,
+              "unique": 37,
+              "min": 0.0,
+              "max": 1.3,
+              "start": "2023-09-15 06:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 5963,
+              "zero": 0,
+              "missing": 0,
+              "unique": 40,
+              "min": 5.8,
+              "max": 7.78,
+              "start": "2023-09-15 06:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023346_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6065,
+              "zero": 0,
+              "missing": 0,
+              "unique": 3072,
+              "min": 200.25,
+              "max": 757.75,
+              "start": "2023-09-11 00:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6065,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1652,
+              "min": 24.04,
+              "max": 94.28,
+              "start": "2023-09-11 00:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6065,
+              "zero": 0,
+              "missing": 0,
+              "unique": 979,
+              "min": 3.04,
+              "max": 34.71,
+              "start": "2023-09-11 00:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 6059,
+              "zero": 3238,
+              "missing": 0,
+              "unique": 1953,
+              "min": 0.0,
+              "max": 717.33,
+              "start": "2023-09-11 06:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "외부습도": {
+              "n": 6065,
+              "zero": 0,
+              "missing": 0,
+              "unique": 672,
+              "min": 19.17,
+              "max": 97.0,
+              "start": "2023-09-11 00:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "외부온도": {
+              "n": 6065,
+              "zero": 131,
+              "missing": 0,
+              "unique": 459,
+              "min": -10.0,
+              "max": 32.33,
+              "start": "2023-09-11 00:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "외부일사량": {
+              "n": 4083,
+              "zero": 2313,
+              "missing": 0,
+              "unique": 1076,
+              "min": 0.0,
+              "max": 902.0,
+              "start": "2023-09-11 12:00:00",
+              "end": "2024-04-30 07:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 532
+            },
+            "지중온도": {
+              "n": 6065,
+              "zero": 11,
+              "missing": 0,
+              "unique": 331,
+              "min": 0.0,
+              "max": 31.0,
+              "start": "2023-09-11 00:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5801,
+              "zero": 1832,
+              "missing": 0,
+              "unique": 32,
+              "min": 0.0,
+              "max": 1.27,
+              "start": "2023-09-16 17:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "토양PH": {
+              "n": 5801,
+              "zero": 0,
+              "missing": 0,
+              "unique": 34,
+              "min": 5.0,
+              "max": 7.82,
+              "start": "2023-09-16 17:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            }
+          }
+        },
+        {
+          "farm": "PF_0023347_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2503,
+              "min": 200.17,
+              "max": 662.18,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1682,
+              "min": 23.56,
+              "max": 95.87,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1160,
+              "min": 4.83,
+              "max": 46.39,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 5574,
+              "zero": 3009,
+              "missing": 0,
+              "unique": 1762,
+              "min": 0.0,
+              "max": 640.42,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "외부습도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 657,
+              "min": 14.5,
+              "max": 93.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "외부온도": {
+              "n": 5574,
+              "zero": 130,
+              "missing": 0,
+              "unique": 449,
+              "min": -11.0,
+              "max": 31.83,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "외부일사량": {
+              "n": 5562,
+              "zero": 2834,
+              "missing": 0,
+              "unique": 1925,
+              "min": 0.0,
+              "max": 1120.83,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 11:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 5574,
+              "zero": 3,
+              "missing": 0,
+              "unique": 394,
+              "min": 0.0,
+              "max": 40.67,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 3342,
+              "zero": 3318,
+              "missing": 0,
+              "unique": 10,
+              "min": 0.0,
+              "max": 1.0,
+              "start": "2023-09-25 08:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 5
+            },
+            "토양PH": {
+              "n": 3342,
+              "zero": 0,
+              "missing": 0,
+              "unique": 10,
+              "min": 5.83,
+              "max": 7.17,
+              "start": "2023-09-25 08:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 5
+            }
+          }
+        },
+        {
+          "farm": "PF_0023348_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2733,
+              "min": 200.08,
+              "max": 886.08,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1357,
+              "min": 29.75,
+              "max": 95.94,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 914,
+              "min": 3.33,
+              "max": 39.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 5562,
+              "zero": 3148,
+              "missing": 0,
+              "unique": 1379,
+              "min": 0.0,
+              "max": 291.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 11:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 331,
+              "min": 9.0,
+              "max": 30.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 3008,
+              "zero": 1251,
+              "missing": 0,
+              "unique": 16,
+              "min": 0.0,
+              "max": 1.0,
+              "start": "2023-09-11 16:00:00",
+              "end": "2024-02-06 00:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 11
+            },
+            "토양PH": {
+              "n": 3008,
+              "zero": 0,
+              "missing": 0,
+              "unique": 23,
+              "min": 5.0,
+              "max": 7.0,
+              "start": "2023-09-11 16:00:00",
+              "end": "2024-02-06 00:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 11
+            }
+          }
+        },
+        {
+          "farm": "PF_0023349_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2772,
+              "min": 200.08,
+              "max": 2429.08,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1687,
+              "min": 25.17,
+              "max": 92.58,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1115,
+              "min": 2.04,
+              "max": 35.92,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 5574,
+              "zero": 2789,
+              "missing": 0,
+              "unique": 2051,
+              "min": 0.0,
+              "max": 586.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "외부습도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 662,
+              "min": 18.0,
+              "max": 94.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "외부온도": {
+              "n": 5574,
+              "zero": 167,
+              "missing": 0,
+              "unique": 441,
+              "min": -10.0,
+              "max": 32.67,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "외부일사량": {
+              "n": 5562,
+              "zero": 2874,
+              "missing": 0,
+              "unique": 1675,
+              "min": 0.0,
+              "max": 568.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 11:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 359,
+              "min": 4.0,
+              "max": 30.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 4250,
+              "zero": 4004,
+              "missing": 0,
+              "unique": 39,
+              "min": 0.0,
+              "max": 1.01,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 15
+            },
+            "토양PH": {
+              "n": 4250,
+              "zero": 6,
+              "missing": 0,
+              "unique": 103,
+              "min": 0.0,
+              "max": 6.24,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 15
+            }
+          }
+        },
+        {
+          "farm": "PF_0023351_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 4722,
+              "min": 201.89,
+              "max": 4993.06,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1316,
+              "min": 28.83,
+              "max": 98.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 768,
+              "min": 6.33,
+              "max": 32.94,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 6318,
+              "zero": 3128,
+              "missing": 0,
+              "unique": 2311,
+              "min": 0.0,
+              "max": 900.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 255,
+              "min": 11.0,
+              "max": 25.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 6295,
+              "zero": 5754,
+              "missing": 0,
+              "unique": 31,
+              "min": 0.0,
+              "max": 1.0,
+              "start": "2023-09-12 10:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 6295,
+              "zero": 0,
+              "missing": 0,
+              "unique": 75,
+              "min": 4.0,
+              "max": 8.07,
+              "start": "2023-09-12 10:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023353_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 3715,
+              "min": 200.75,
+              "max": 4994.58,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 920,
+              "min": 29.92,
+              "max": 97.25,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 582,
+              "min": 2.5,
+              "max": 34.67,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 5934,
+              "zero": 3174,
+              "missing": 0,
+              "unique": 1781,
+              "min": 0.0,
+              "max": 717.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 408,
+              "min": 1.0,
+              "max": 36.6,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5186,
+              "zero": 5158,
+              "missing": 0,
+              "unique": 10,
+              "min": 0.0,
+              "max": 2.5,
+              "start": "2023-10-12 15:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 5186,
+              "zero": 0,
+              "missing": 0,
+              "unique": 53,
+              "min": 5.0,
+              "max": 7.0,
+              "start": "2023-10-12 15:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023354_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6174,
+              "zero": 0,
+              "missing": 0,
+              "unique": 3460,
+              "min": 200.08,
+              "max": 2889.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-25 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6174,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1006,
+              "min": 26.92,
+              "max": 97.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-25 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6174,
+              "zero": 0,
+              "missing": 0,
+              "unique": 579,
+              "min": 6.0,
+              "max": 48.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-25 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 6174,
+              "zero": 3162,
+              "missing": 0,
+              "unique": 1845,
+              "min": 0.0,
+              "max": 465.83,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-25 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 6174,
+              "zero": 0,
+              "missing": 0,
+              "unique": 303,
+              "min": 10.0,
+              "max": 32.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-25 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5856,
+              "zero": 3964,
+              "missing": 0,
+              "unique": 28,
+              "min": 0.0,
+              "max": 14.67,
+              "start": "2023-09-24 17:00:00",
+              "end": "2024-05-25 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 5856,
+              "zero": 0,
+              "missing": 0,
+              "unique": 66,
+              "min": 3.0,
+              "max": 22.0,
+              "start": "2023-09-24 17:00:00",
+              "end": "2024-05-25 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023355_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 3581,
+              "min": 204.33,
+              "max": 3013.58,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 898,
+              "min": 28.0,
+              "max": 99.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 570,
+              "min": 4.25,
+              "max": 50.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 5934,
+              "zero": 2947,
+              "missing": 0,
+              "unique": 2019,
+              "min": 0.0,
+              "max": 591.75,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 515,
+              "min": 6.0,
+              "max": 40.67,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5154,
+              "zero": 4932,
+              "missing": 0,
+              "unique": 24,
+              "min": 0.0,
+              "max": 16.5,
+              "start": "2023-09-13 13:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "토양PH": {
+              "n": 5154,
+              "zero": 0,
+              "missing": 0,
+              "unique": 66,
+              "min": 5.0,
+              "max": 10.2,
+              "start": "2023-09-13 13:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            }
+          }
+        },
+        {
+          "farm": "PF_0023358_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 3350,
+              "min": 200.25,
+              "max": 771.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1213,
+              "min": 21.92,
+              "max": 96.25,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 810,
+              "min": 5.25,
+              "max": 40.06,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 6054,
+              "zero": 2992,
+              "missing": 0,
+              "unique": 2255,
+              "min": 0.0,
+              "max": 714.67,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "지중온도": {
+              "n": 6054,
+              "zero": 0,
+              "missing": 0,
+              "unique": 361,
+              "min": 8.0,
+              "max": 35.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-20 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 271,
+              "zero": 271,
+              "missing": 0,
+              "unique": 1,
+              "min": 0.0,
+              "max": 0.0,
+              "start": "2023-09-15 10:00:00",
+              "end": "2023-10-14 17:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 5
+            },
+            "토양PH": {
+              "n": 271,
+              "zero": 0,
+              "missing": 0,
+              "unique": 16,
+              "min": 5.0,
+              "max": 7.0,
+              "start": "2023-09-15 10:00:00",
+              "end": "2023-10-14 17:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 5
+            }
+          }
+        },
+        {
+          "farm": "PF_0023371_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 3023,
+              "min": 201.5,
+              "max": 3305.83,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 821,
+              "min": 22.5,
+              "max": 99.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 597,
+              "min": 5.0,
+              "max": 33.83,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5934,
+              "zero": 3882,
+              "missing": 0,
+              "unique": 30,
+              "min": 0.0,
+              "max": 34.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 84,
+              "min": 1.67,
+              "max": 7.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023372_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5687,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2268,
+              "min": 254.17,
+              "max": 1775.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-05 16:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5687,
+              "zero": 0,
+              "missing": 0,
+              "unique": 641,
+              "min": 19.83,
+              "max": 98.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-05 16:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5687,
+              "zero": 0,
+              "missing": 0,
+              "unique": 379,
+              "min": 5.17,
+              "max": 36.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-05 16:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5242,
+              "zero": 4500,
+              "missing": 0,
+              "unique": 35,
+              "min": 0.0,
+              "max": 33.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-05 16:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "토양PH": {
+              "n": 5242,
+              "zero": 0,
+              "missing": 0,
+              "unique": 95,
+              "min": 1.33,
+              "max": 8.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-05 16:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            }
+          }
+        },
+        {
+          "farm": "PF_0023373_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6494,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1925,
+              "min": 206.17,
+              "max": 745.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "내부습도": {
+              "n": 6494,
+              "zero": 0,
+              "missing": 0,
+              "unique": 665,
+              "min": 19.17,
+              "max": 99.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "내부온도": {
+              "n": 6494,
+              "zero": 0,
+              "missing": 0,
+              "unique": 366,
+              "min": 6.67,
+              "max": 41.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "토양EC": {
+              "n": 6082,
+              "zero": 503,
+              "missing": 0,
+              "unique": 26,
+              "min": 0.0,
+              "max": 1.43,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            },
+            "토양PH": {
+              "n": 6082,
+              "zero": 0,
+              "missing": 0,
+              "unique": 51,
+              "min": 3.0,
+              "max": 7.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-06-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 3
+            }
+          }
+        },
+        {
+          "farm": "PF_0023374_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2355,
+              "min": 201.17,
+              "max": 1134.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 646,
+              "min": 27.67,
+              "max": 98.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 400,
+              "min": 5.5,
+              "max": 34.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 6005,
+              "zero": 717,
+              "missing": 0,
+              "unique": 43,
+              "min": 0.0,
+              "max": 66.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "토양PH": {
+              "n": 6005,
+              "zero": 0,
+              "missing": 0,
+              "unique": 47,
+              "min": 3.83,
+              "max": 7.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            }
+          }
+        },
+        {
+          "farm": "PF_0023375_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2373,
+              "min": 205.67,
+              "max": 1339.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 681,
+              "min": 22.0,
+              "max": 99.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 405,
+              "min": 6.0,
+              "max": 36.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 6318,
+              "zero": 3913,
+              "missing": 0,
+              "unique": 29,
+              "min": 0.0,
+              "max": 2.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 85,
+              "min": 5.0,
+              "max": 7.67,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023376_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2487,
+              "min": 201.67,
+              "max": 3304.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 641,
+              "min": 29.83,
+              "max": 99.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 423,
+              "min": 4.0,
+              "max": 38.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5934,
+              "zero": 5714,
+              "missing": 0,
+              "unique": 27,
+              "min": 0.0,
+              "max": 33.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 62,
+              "min": 5.0,
+              "max": 7.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023377_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1573,
+              "min": 273.17,
+              "max": 2373.67,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 651,
+              "min": 20.0,
+              "max": 99.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 382,
+              "min": 4.5,
+              "max": 35.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5934,
+              "zero": 3470,
+              "missing": 0,
+              "unique": 27,
+              "min": 0.0,
+              "max": 1.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 55,
+              "min": 1.0,
+              "max": 8.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023378_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2244,
+              "min": 209.17,
+              "max": 834.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 654,
+              "min": 22.5,
+              "max": 98.67,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 423,
+              "min": 3.0,
+              "max": 41.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5934,
+              "zero": 4050,
+              "missing": 0,
+              "unique": 39,
+              "min": 0.0,
+              "max": 33.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 5934,
+              "zero": 0,
+              "missing": 0,
+              "unique": 49,
+              "min": 4.0,
+              "max": 7.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-15 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023379_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2301,
+              "min": 228.33,
+              "max": 3300.83,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 661,
+              "min": 23.17,
+              "max": 99.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 406,
+              "min": 6.0,
+              "max": 49.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5697,
+              "zero": 1633,
+              "missing": 0,
+              "unique": 39,
+              "min": 0.0,
+              "max": 175.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "토양PH": {
+              "n": 5697,
+              "zero": 0,
+              "missing": 0,
+              "unique": 43,
+              "min": 3.0,
+              "max": 7.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            }
+          }
+        },
+        {
+          "farm": "PF_0023380_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5814,
+              "zero": 0,
+              "missing": 0,
+              "unique": 3231,
+              "min": 202.83,
+              "max": 3305.83,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5814,
+              "zero": 0,
+              "missing": 0,
+              "unique": 746,
+              "min": 28.0,
+              "max": 99.46,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5814,
+              "zero": 0,
+              "missing": 0,
+              "unique": 509,
+              "min": 4.0,
+              "max": 36.8,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 5790,
+              "zero": 2001,
+              "missing": 0,
+              "unique": 49,
+              "min": 0.0,
+              "max": 262.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "토양PH": {
+              "n": 5790,
+              "zero": 0,
+              "missing": 0,
+              "unique": 34,
+              "min": 6.0,
+              "max": 7.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-10 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            }
+          }
+        },
+        {
+          "farm": "PF_0023383_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2079,
+              "min": 200.17,
+              "max": 850.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 661,
+              "min": 20.5,
+              "max": 97.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 424,
+              "min": 2.0,
+              "max": 36.83,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 6318,
+              "zero": 2779,
+              "missing": 0,
+              "unique": 51,
+              "min": 0.0,
+              "max": 34.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 33,
+              "min": 4.67,
+              "max": 7.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023384_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2550,
+              "min": 201.83,
+              "max": 1017.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 619,
+              "min": 20.0,
+              "max": 96.46,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 399,
+              "min": 2.17,
+              "max": 37.83,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 6026,
+              "zero": 903,
+              "missing": 0,
+              "unique": 78,
+              "min": 0.0,
+              "max": 99.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "토양PH": {
+              "n": 6026,
+              "zero": 0,
+              "missing": 0,
+              "unique": 61,
+              "min": 5.0,
+              "max": 7.14,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            }
+          }
+        },
+        {
+          "farm": "PF_0023386_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2549,
+              "min": 201.17,
+              "max": 1225.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 698,
+              "min": 26.17,
+              "max": 99.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 442,
+              "min": 3.0,
+              "max": 36.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 6318,
+              "zero": 1725,
+              "missing": 0,
+              "unique": 62,
+              "min": 0.0,
+              "max": 40.8,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 6318,
+              "zero": 0,
+              "missing": 0,
+              "unique": 83,
+              "min": 1.17,
+              "max": 6.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-31 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        },
+        {
+          "farm": "PF_0023388_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2237,
+              "min": 252.33,
+              "max": 3101.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 680,
+              "min": 24.67,
+              "max": 99.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5574,
+              "zero": 0,
+              "missing": 0,
+              "unique": 385,
+              "min": 4.17,
+              "max": 34.17,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 4850,
+              "zero": 2055,
+              "missing": 0,
+              "unique": 25,
+              "min": 0.0,
+              "max": 1.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "토양PH": {
+              "n": 4850,
+              "zero": 0,
+              "missing": 0,
+              "unique": 77,
+              "min": 6.0,
+              "max": 7.6,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-04-30 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            }
+          }
+        },
+        {
+          "farm": "PF_0023389_01",
+          "fields": {
+            "내부CO2": {
+              "n": 6438,
+              "zero": 0,
+              "missing": 0,
+              "unique": 2449,
+              "min": 206.0,
+              "max": 3302.33,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-06-05 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 6438,
+              "zero": 0,
+              "missing": 0,
+              "unique": 643,
+              "min": 26.67,
+              "max": 99.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-06-05 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 6438,
+              "zero": 0,
+              "missing": 0,
+              "unique": 399,
+              "min": 2.0,
+              "max": 34.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-06-05 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양EC": {
+              "n": 6275,
+              "zero": 5616,
+              "missing": 0,
+              "unique": 32,
+              "min": 0.0,
+              "max": 1.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-06-05 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            },
+            "토양PH": {
+              "n": 6275,
+              "zero": 0,
+              "missing": 0,
+              "unique": 55,
+              "min": 5.0,
+              "max": 7.81,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-06-05 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 2
+            }
+          }
+        },
+        {
+          "farm": "PF_0023390_01",
+          "fields": {
+            "내부CO2": {
+              "n": 5694,
+              "zero": 0,
+              "missing": 0,
+              "unique": 3875,
+              "min": 274.17,
+              "max": 3136.92,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-05 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부습도": {
+              "n": 5694,
+              "zero": 0,
+              "missing": 0,
+              "unique": 1403,
+              "min": 26.25,
+              "max": 99.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-05 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부온도": {
+              "n": 5694,
+              "zero": 0,
+              "missing": 0,
+              "unique": 900,
+              "min": 2.0,
+              "max": 33.08,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-05 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "내부일사량": {
+              "n": 5545,
+              "zero": 2733,
+              "missing": 0,
+              "unique": 1451,
+              "min": 0.0,
+              "max": 442.5,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-05 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 18
+            },
+            "토양EC": {
+              "n": 5694,
+              "zero": 1819,
+              "missing": 0,
+              "unique": 54,
+              "min": 0.0,
+              "max": 1.2,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-05 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            },
+            "토양PH": {
+              "n": 5694,
+              "zero": 0,
+              "missing": 0,
+              "unique": 92,
+              "min": 4.45,
+              "max": 7.0,
+              "start": "2023-09-11 11:00:00",
+              "end": "2024-05-05 23:00:00",
+              "duplicate_times": 0,
+              "gaps_over_hour": 1
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
