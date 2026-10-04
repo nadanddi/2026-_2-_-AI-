@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "written_at_kst": "2026-10-04T19:38:07.877275+09:00",
+  "verified_git_range": [
+    "283fc25",
+    "8f13110"
+  ],
+  "additional_code_read_only_commit": "8f2139a",
+  "latest_submission_code_scope": "model.py text only; not imported, executed, rescored or copied into a new submission artifact",
+  "authorized_validation_scope": "DPR DIAG10s/A/B, DPC DIAG10/DIAG10t, DCP1 DIAG10/DIAG10u; original DP1 DIAG10 for baseline comparison; prior public cache only",
+  "EL1": "discarded before target/prediction numeric conversion; colleague logs quoted with log-only provenance",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "numpy_module_path": "C:\\work\\farmai\\.analysis-tools\\python\\numpy\\__init__.py",
+    "pandas": "3.0.1",
+    "pandas_module_path": "C:\\work\\farmai\\.analysis-tools\\python\\pandas\\__init__.py"
+  },
+  "permission_provenance": "Default pandas/__init__.py PermissionError produced namespace-only module; require_escalated existing-package import/public arithmetic run succeeded. No package installed or changed.",
+  "hashes": {
+    "집/코덱스/analysis/claude_work_review_20261004_v1/verify_reload_v6b.py": "da1c59fc455f1b2a9b3d252321b3ae453ed1b11fd12619ee4ed7f411c41cd525",
+    "집/코덱스/analysis/claude_work_review_20261004_v1/reload_verification_v6.json": "67b242fc6cdffdbf516ce5ebde8e3545a084e286482407de3ec76f82a1478d5a",
+    "집/클로드/submission13_ec_dp1/model.py": "db399360a6df87034c63ffb5dfd1d2c7c52c7844ac2cdbf78ea0cf7efb10836f",
+    "공용/ai-memory/skill-not-luck.md": "8f39eb9e68fd44d6f09010945ff87a8236d4b9d20f806c549224467e1111777e",
+    "공용/HANDOFF.md": "1d9bb22aea0cda300785d9e922c1fdd3adec12972254b186336f38301bef38e5"
+  },
+  "failed_attempts_preserved": [
+    "verify_reload_v6.py syntax missing closing dictionary brace; no data run",
+    "verify_reload_v6a.py reference A repeated row_id guard too narrow; no final score artifact",
+    "verify_reload_v6b.log default pandas ACL failure; no final score artifact"
+  ],
+  "successful_execution_log": "verify_reload_v6b_retry1.log",
+  "fresh_verification_checks": 305894,
+  "catalog_latest_before_execution": "6.281",
+  "family20": "strict 15 seed-validator directions, DIAG p<.00125 and adjusted CI upper<0 are unchanged",
+  "training/prediction/test/submission_execution": 0
+}

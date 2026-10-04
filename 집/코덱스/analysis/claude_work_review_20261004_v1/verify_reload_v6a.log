@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\claude_work_review_20261004_v1\verify_reload_v6a.py", line 304, in <module>
+    main()
+  File "C:\work\farmai\��\�ڵ���\analysis\claude_work_review_20261004_v1\verify_reload_v6a.py", line 189, in main
+    TARGETS, LAYOUTS, ACTUAL_V2 = public_reference()
+                                  ^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\claude_work_review_20261004_v1\verify_reload_v6a.py", line 66, in public_reference
+    check(key not in layout, ('reference unique', row['validator'], key))
+  File "C:\work\farmai\��\�ڵ���\analysis\claude_work_review_20261004_v1\verify_reload_v6a.py", line 34, in check
+    assert bool(ok), detail
+           ^^^^^^^^
+AssertionError: ('reference unique', 'A', 'F13_085_00')

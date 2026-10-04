@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "files": {
+    "집\\코덱스\\analysis\\claude_work_review_20261004_v1\\verify_reload_v6b.py": "da1c59fc455f1b2a9b3d252321b3ae453ed1b11fd12619ee4ed7f411c41cd525",
+    "집\\코덱스\\analysis\\claude_work_review_20261004_v1\\reload_verification_v6.json": "67b242fc6cdffdbf516ce5ebde8e3545a084e286482407de3ec76f82a1478d5a",
+    "집\\코덱스\\analysis\\claude_work_review_20261004_v1\\read_scope_v6.json": "351c9264dcf10ad696de129d35085516a265427313318e81f96f76983cf60fa7",
+    "집\\코덱스\\analysis\\claude_work_review_20261004_v1\\verify_reload_v6b_retry1.log": "e53995e74b9619d762f6f52598f26918a471e68d545c95d08ece4d4afc9ee51f",
+    "집\\코덱스\\analysis\\claude_work_review_20261004_v1\\불러온_작업내용_v6.md": "c8d4e73104bb50be405515405563832db43668d180a1203ac16cdd5d40416ba1"
+  },
+  "scope": "public arithmetic and colleague source review only",
+  "cautions": [
+    "R3S vs actual-v2 numerical comparison uses original7/101/2024, not the new DPC/DCP1 seeds.",
+    "DPC/DCP1 saved CSVs contain late rows only; early-baseline preservation is a declared procedure, not independently replayed runtime evidence.",
+    "Latest submission13 model.py was read only; no submission execution or score validation."
+  ]
+}
