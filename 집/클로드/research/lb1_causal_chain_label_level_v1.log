@@ -1,0 +1,26 @@
+C:\work\farmai\집\클로드\research\lb1_causal_chain_label_level_v1.py:58: RuntimeWarning: Mean of empty slice
+  dd = np.sqrt(np.nanmean((a - b) ** 2)) + 0.25 * (r.date - c.date - 1)
+C:\work\farmai\집\클로드\research\lb1_causal_chain_label_level_v1.py:58: RuntimeWarning: Mean of empty slice
+  dd = np.sqrt(np.nanmean((a - b) ** 2)) + 0.25 * (r.date - c.date - 1)
+causal links 455; both labelled 317; label corr along link 0.530, mean |diff| 0.183
+link keeps the same 동 (st_dong_assign): 0.64
+anchor availability: cc_prev 317/360 (pass-2 23/46)  cc_prev2 317/360 (pass-2 23/46)  ch_prev 285/360 (pass-2 43/46)  ch_lin 342/360 (pass-2 43/46)
+CC first anchor steps back (pass 2): {1.0: 5, 2.0: 5, 3.0: 4, 4.0: 4, 5.0: 2, 6.0: 3}
+
+day-level RMSE
+segment           n        pm   cc_prev  cc_prev2   ch_prev    ch_lin b_cc_prev b_cc_prev2 b_ch_prev  b_ch_lin
+all             360    0.1724    0.3915    0.3207    0.2541    0.2388    0.2485    0.2239    0.1807    0.1676
+pass-2           46    0.2570    0.4764    0.4784    0.3027    0.3025    0.3335    0.3377    0.1979    0.1977
+pass-2 normal    41    0.1390    0.4099    0.3947    0.1796    0.1793    0.2369    0.2302    0.1174    0.1169
+pass-2 high       5    0.6702    0.8424    0.9099    0.7606    0.7606    0.7504    0.7840    0.4973    0.4973
+pass-1          314    0.1562    0.3775    0.2904    0.2462    0.2279    0.2335    0.2019    0.1781    0.1627
+pass-1 normal   288    0.1028    0.3013    0.2208    0.1532    0.1751    0.1692    0.1358    0.1058    0.1122
+
+row-level RMSE (R3S hourly shape + blended level)
+  all            R3S 0.1881  cc_prev 0.2597  cc_prev2 0.2362  ch_prev 0.1958  ch_lin 0.1837
+  pass-2         R3S 0.2680  cc_prev 0.3420  cc_prev2 0.3461  ch_prev 0.2119  ch_lin 0.2117
+  pass-2 normal  R3S 0.1452  cc_prev 0.2405  cc_prev2 0.2340  ch_prev 0.1246  ch_lin 0.1242
+
+pass-2 P(worse) (cluster bootstrap): cc_prev 0.9981  cc_prev2 0.9983  ch_prev 0.0859  ch_lin 0.0806
+
+LB1 clue (causal chain, previous labels): False
