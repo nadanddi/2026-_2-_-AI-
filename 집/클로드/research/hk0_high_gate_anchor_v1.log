@@ -1,0 +1,15 @@
+
+rows gated: HGA 6.8%, HGB 4.5% (of all rows); on high days 63% / 46%
+high days with anchor at 23h: 30 of 31; Spearman(a1 - pm, y - pm) 0.60; anchor mean 1.528 vs label 1.567 vs pm 1.234
+
+segment          rows      R3S      SG2      HGA      HGB
+all              8640   0.1881   0.1835   0.1746   0.1721
+pass-2           1104   0.2680   0.2643   0.2240   0.2293
+high days         744   0.5253   0.5151   0.4393   0.4518
+normal days      7896   0.1127   0.1089   0.1231   0.1148
+pass-2 high       120   0.6984   0.6938   0.4069   0.4850
+pass-2 normal     984   0.1452   0.1403   0.1901   0.1741
+HGA vs SG2: P(worse) 0.2006, high -14.7%, all -4.9%, pass-2 -15.2%, normal +13.0% -> no
+HGB vs SG2: P(worse) 0.0951, high -12.3%, all -6.2%, pass-2 -13.3%, normal +5.4% -> no
+
+HK0 clue: False
