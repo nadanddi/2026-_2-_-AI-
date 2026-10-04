@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\집\코덱스\analysis\ec_matched_inner_calibration_20261003_v1\run.py", line 16, in <module>
+    from tabpfn import TabPFNRegressor
+  File "C:\work\farmai\.analysis-tools\extra\tabpfn\__init__.py", line 8, in <module>
+    from tabpfn import model_loading
+  File "C:\work\farmai\.analysis-tools\extra\tabpfn\model_loading.py", line 33, in <module>
+    from tabpfn.architectures import ARCHITECTURES
+  File "C:\work\farmai\.analysis-tools\extra\tabpfn\architectures\__init__.py", line 16, in <module>
+    from . import tabpfn_v2, tabpfn_v2_5, tabpfn_v2_6, tabpfn_v3, tabpfn_v3_5
+  File "C:\work\farmai\.analysis-tools\extra\tabpfn\architectures\tabpfn_v2.py", line 42, in <module>
+    from tabpfn.preprocessing.torch.ops import select_features, torch_nanmean
+  File "C:\work\farmai\.analysis-tools\extra\tabpfn\preprocessing\__init__.py", line 5, in <module>
+    from .clean import clean_data
+  File "C:\work\farmai\.analysis-tools\extra\tabpfn\preprocessing\clean.py", line 52, in <module>
+    PANDAS_BELOW_3 = Version(pd.__version__) < Version("3.0.0")
+                             ^^^^^^^^^^^^^^
+AttributeError: module 'pandas' has no attribute '__version__'

@@ -1,0 +1,157 @@
+{
+  "status": "PASS",
+  "checks": 31236,
+  "day_occurrences": 31236,
+  "selected_high_prediction": [
+    {
+      "seed": 7,
+      "hour": 0,
+      "domain": "inner",
+      "occurrences": 72,
+      "unique_days": 32,
+      "prediction_mean": 1.2365420853056106,
+      "label_mean": 1.1791041666666666,
+      "required_shift": -0.05743791863894391,
+      "learned_correction": -0.00491496570089731,
+      "high_fraction": 0.5416666666666666
+    },
+    {
+      "seed": 7,
+      "hour": 0,
+      "domain": "outer",
+      "occurrences": 39,
+      "unique_days": 39,
+      "prediction_mean": 1.245601667773881,
+      "label_mean": 1.3189273504273507,
+      "required_shift": 0.07332568265346903,
+      "learned_correction": -0.008164549052580109,
+      "high_fraction": 0.6666666666666666
+    },
+    {
+      "seed": 7,
+      "hour": 23,
+      "domain": "inner",
+      "occurrences": 77,
+      "unique_days": 32,
+      "prediction_mean": 1.2017415181098556,
+      "label_mean": 1.1571655844155844,
+      "required_shift": -0.04457593369427151,
+      "learned_correction": -0.0023531425421644448,
+      "high_fraction": 0.5194805194805194
+    },
+    {
+      "seed": 7,
+      "hour": 23,
+      "domain": "outer",
+      "occurrences": 42,
+      "unique_days": 42,
+      "prediction_mean": 1.211074367820656,
+      "label_mean": 1.327015873015873,
+      "required_shift": 0.11594150519521702,
+      "learned_correction": -0.005351209115762079,
+      "high_fraction": 0.7142857142857143
+    },
+    {
+      "seed": 101,
+      "hour": 0,
+      "domain": "inner",
+      "occurrences": 72,
+      "unique_days": 32,
+      "prediction_mean": 1.2380857828999372,
+      "label_mean": 1.1871134259259257,
+      "required_shift": -0.0509723569740113,
+      "learned_correction": -0.004942302732324587,
+      "high_fraction": 0.5555555555555556
+    },
+    {
+      "seed": 101,
+      "hour": 0,
+      "domain": "outer",
+      "occurrences": 39,
+      "unique_days": 39,
+      "prediction_mean": 1.2431026430363492,
+      "label_mean": 1.3151773504273507,
+      "required_shift": 0.07207470739100119,
+      "learned_correction": -0.008585565477767508,
+      "high_fraction": 0.6666666666666666
+    },
+    {
+      "seed": 101,
+      "hour": 23,
+      "domain": "inner",
+      "occurrences": 76,
+      "unique_days": 32,
+      "prediction_mean": 1.2024565298643963,
+      "label_mean": 1.1651885964912283,
+      "required_shift": -0.037267933373168076,
+      "learned_correction": -0.0019920835458766563,
+      "high_fraction": 0.5263157894736842
+    },
+    {
+      "seed": 101,
+      "hour": 23,
+      "domain": "outer",
+      "occurrences": 41,
+      "unique_days": 41,
+      "prediction_mean": 1.219750051232463,
+      "label_mean": 1.3372378048780487,
+      "required_shift": 0.11748775364558584,
+      "learned_correction": -0.005274687994487161,
+      "high_fraction": 0.7317073170731707
+    },
+    {
+      "seed": 2024,
+      "hour": 0,
+      "domain": "inner",
+      "occurrences": 73,
+      "unique_days": 34,
+      "prediction_mean": 1.239589547667406,
+      "label_mean": 1.1776952054794523,
+      "required_shift": -0.061894342187953734,
+      "learned_correction": -0.00598835478618512,
+      "high_fraction": 0.547945205479452
+    },
+    {
+      "seed": 2024,
+      "hour": 0,
+      "domain": "outer",
+      "occurrences": 38,
+      "unique_days": 38,
+      "prediction_mean": 1.2578107454461591,
+      "label_mean": 1.3253157894736842,
+      "required_shift": 0.06750504402752516,
+      "learned_correction": -0.008912287035182848,
+      "high_fraction": 0.6842105263157895
+    },
+    {
+      "seed": 2024,
+      "hour": 23,
+      "domain": "inner",
+      "occurrences": 77,
+      "unique_days": 33,
+      "prediction_mean": 1.202171245818815,
+      "label_mean": 1.1594199134199135,
+      "required_shift": -0.04275133239890167,
+      "learned_correction": -0.002703182227437573,
+      "high_fraction": 0.5194805194805194
+    },
+    {
+      "seed": 2024,
+      "hour": 23,
+      "domain": "outer",
+      "occurrences": 41,
+      "unique_days": 41,
+      "prediction_mean": 1.2209399889496932,
+      "label_mean": 1.3372378048780487,
+      "required_shift": 0.11629781592835545,
+      "learned_correction": -0.005838888724990359,
+      "high_fraction": 0.7317073170731707
+    }
+  ],
+  "scope": "same completed candidate, descriptive transfer diagnostic; no new fit or threshold selection",
+  "limitations": [
+    "inner days repeat across outer folds; counts are occurrences, not independent days",
+    "yday uses full-day labels for diagnosis only; never inference features",
+    "association and transport mismatch do not identify a causal mechanism"
+  ]
+}

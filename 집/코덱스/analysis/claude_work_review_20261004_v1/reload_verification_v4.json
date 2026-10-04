@@ -1,0 +1,484 @@
+{
+  "status": "PASS",
+  "git_checked": "d5d3bcb",
+  "checks": 1152,
+  "experiments": {
+    "DB1": {
+      "source_sha256": "b430c4edfd7f2f309f5cbfeefafb606b429f35a4d9ff39af224b4cf3ff76f9bd",
+      "rows": 27720,
+      "cells": [
+        {
+          "validator": "DIAG10",
+          "seed": 7,
+          "n": 8640,
+          "baseline": 0.18769935141936087,
+          "candidate": 0.2019774842389623,
+          "change_pct": 7.606916439312039
+        },
+        {
+          "validator": "DIAG10",
+          "seed": 101,
+          "n": 8640,
+          "baseline": 0.18851748789786701,
+          "candidate": 0.20309221371603706,
+          "change_pct": 7.731232778821129
+        },
+        {
+          "validator": "DIAG10",
+          "seed": 2024,
+          "n": 8640,
+          "baseline": 0.18853462920615585,
+          "candidate": 0.20252592802134214,
+          "change_pct": 7.421076368886759
+        },
+        {
+          "validator": "A",
+          "seed": 7,
+          "n": 6336,
+          "baseline": 0.22086654769660277,
+          "candidate": 0.24767901759065986,
+          "change_pct": 12.139669938106024
+        },
+        {
+          "validator": "A",
+          "seed": 101,
+          "n": 6336,
+          "baseline": 0.22280580784723064,
+          "candidate": 0.24550244383411668,
+          "change_pct": 10.186734451037394
+        },
+        {
+          "validator": "A",
+          "seed": 2024,
+          "n": 6336,
+          "baseline": 0.22228258530742678,
+          "candidate": 0.2485343444738885,
+          "change_pct": 11.81008360603435
+        },
+        {
+          "validator": "B",
+          "seed": 7,
+          "n": 6312,
+          "baseline": 0.20364073458011234,
+          "candidate": 0.22108014041991428,
+          "change_pct": 8.563810121663696
+        },
+        {
+          "validator": "B",
+          "seed": 101,
+          "n": 6312,
+          "baseline": 0.20345724793709874,
+          "candidate": 0.2205403504743624,
+          "change_pct": 8.396408931347143
+        },
+        {
+          "validator": "B",
+          "seed": 2024,
+          "n": 6312,
+          "baseline": 0.2033641426483253,
+          "candidate": 0.22192437800420373,
+          "change_pct": 9.126601727411888
+        },
+        {
+          "validator": "EXT10",
+          "seed": 7,
+          "n": 1800,
+          "baseline": 0.4083760796498703,
+          "candidate": 0.3664984524295205,
+          "change_pct": -10.254671932855242
+        },
+        {
+          "validator": "EXT10",
+          "seed": 101,
+          "n": 1800,
+          "baseline": 0.4133898629527141,
+          "candidate": 0.36434694425762626,
+          "change_pct": -11.863599737252795
+        },
+        {
+          "validator": "EXT10",
+          "seed": 2024,
+          "n": 1800,
+          "baseline": 0.4114804381396567,
+          "candidate": 0.3653129988830556,
+          "change_pct": -11.219838169058194
+        },
+        {
+          "validator": "EXT12",
+          "seed": 7,
+          "n": 4632,
+          "baseline": 0.4111766330876965,
+          "candidate": 0.40619800123752875,
+          "change_pct": -1.2108255794550105
+        },
+        {
+          "validator": "EXT12",
+          "seed": 101,
+          "n": 4632,
+          "baseline": 0.40950234668729085,
+          "candidate": 0.40383612680889813,
+          "change_pct": -1.383684348631986
+        },
+        {
+          "validator": "EXT12",
+          "seed": 2024,
+          "n": 4632,
+          "baseline": 0.4067669415681547,
+          "candidate": 0.4043423208110285,
+          "change_pct": -0.5960712411335223
+        }
+      ],
+      "segments": [
+        {
+          "segment": "high",
+          "seed": 7,
+          "n": 744,
+          "days": 31,
+          "baseline": 0.5255300430864083,
+          "candidate": 0.5747791271589946,
+          "change_pct": 9.371316582273636,
+          "baseline_bias": -0.32492813114146957,
+          "candidate_bias": -0.36858082075815024
+        },
+        {
+          "segment": "high",
+          "seed": 101,
+          "n": 744,
+          "days": 31,
+          "baseline": 0.526548040706917,
+          "candidate": 0.57543624763139,
+          "change_pct": 9.284662204580263,
+          "baseline_bias": -0.32401498084160624,
+          "candidate_bias": -0.3694921213892079
+        },
+        {
+          "segment": "high",
+          "seed": 2024,
+          "n": 744,
+          "days": 31,
+          "baseline": 0.5243809887001887,
+          "candidate": 0.5767697098059889,
+          "change_pct": 9.990583609001336,
+          "baseline_bias": -0.3239189075638629,
+          "candidate_bias": -0.3708456763080571
+        },
+        {
+          "segment": "ordinary",
+          "seed": 7,
+          "n": 7896,
+          "days": 329,
+          "baseline": 0.11192621506518417,
+          "candidate": 0.11623086625127639,
+          "change_pct": 3.845972262695785,
+          "baseline_bias": 0.019468310881781546,
+          "candidate_bias": 0.029291898081812522
+        },
+        {
+          "segment": "ordinary",
+          "seed": 101,
+          "n": 7896,
+          "days": 329,
+          "baseline": 0.11297504301499559,
+          "candidate": 0.1180359521014876,
+          "change_pct": 4.479669979696532,
+          "baseline_bias": 0.02019539803435796,
+          "candidate_bias": 0.029925899107310104
+        },
+        {
+          "segment": "ordinary",
+          "seed": 2024,
+          "n": 7896,
+          "days": 329,
+          "baseline": 0.11395184082410027,
+          "candidate": 0.11634594030906659,
+          "change_pct": 2.1009748220407687,
+          "baseline_bias": 0.019853813493249984,
+          "candidate_bias": 0.029086705514622887
+        },
+        {
+          "segment": "late",
+          "seed": 7,
+          "n": 1104,
+          "days": 46,
+          "baseline": 0.2668333530194839,
+          "candidate": 0.2820081034957761,
+          "change_pct": 5.686976648374298,
+          "baseline_bias": -0.0658360139589681,
+          "candidate_bias": -0.06328637850886391
+        },
+        {
+          "segment": "late",
+          "seed": 101,
+          "n": 1104,
+          "days": 46,
+          "baseline": 0.2664895432394729,
+          "candidate": 0.2835474575010129,
+          "change_pct": 6.400969454254124,
+          "baseline_bias": -0.06339920461146988,
+          "candidate_bias": -0.06192166848707628
+        },
+        {
+          "segment": "late",
+          "seed": 2024,
+          "n": 1104,
+          "days": 46,
+          "baseline": 0.2710941135815608,
+          "candidate": 0.28151933648763694,
+          "change_pct": 3.8456102083306964,
+          "baseline_bias": -0.0636875606861618,
+          "candidate_bias": -0.061093126861075465
+        }
+      ],
+      "p_worse": [
+        0.9899,
+        0.99045,
+        0.9824
+      ],
+      "decision": "REJECT",
+      "all_primary_improve": false
+    },
+    "DP1": {
+      "source_sha256": "4c9a62a957c8f6a9fdf9344e24c53a0c7ff267cedc4d5a0e18f711364b586925",
+      "rows": 27720,
+      "cells": [
+        {
+          "validator": "DIAG10",
+          "seed": 7,
+          "n": 8640,
+          "baseline": 0.18769935141936087,
+          "candidate": 0.18442611916092988,
+          "change_pct": -1.743869775616791
+        },
+        {
+          "validator": "DIAG10",
+          "seed": 101,
+          "n": 8640,
+          "baseline": 0.18851748789786701,
+          "candidate": 0.18541792778647853,
+          "change_pct": -1.6441764347442045
+        },
+        {
+          "validator": "DIAG10",
+          "seed": 2024,
+          "n": 8640,
+          "baseline": 0.18853462920615585,
+          "candidate": 0.1860575406085608,
+          "change_pct": -1.3138639877592118
+        },
+        {
+          "validator": "A",
+          "seed": 7,
+          "n": 6336,
+          "baseline": 0.22086654769660277,
+          "candidate": 0.21963486947044128,
+          "change_pct": -0.5576572092997112
+        },
+        {
+          "validator": "A",
+          "seed": 101,
+          "n": 6336,
+          "baseline": 0.22280580784723064,
+          "candidate": 0.2195887381889712,
+          "change_pct": -1.4438894970212113
+        },
+        {
+          "validator": "A",
+          "seed": 2024,
+          "n": 6336,
+          "baseline": 0.22228258530742678,
+          "candidate": 0.21918582867898534,
+          "change_pct": -1.393162052780017
+        },
+        {
+          "validator": "B",
+          "seed": 7,
+          "n": 6312,
+          "baseline": 0.20364073458011234,
+          "candidate": 0.20530357626147172,
+          "change_pct": 0.8165565130120012
+        },
+        {
+          "validator": "B",
+          "seed": 101,
+          "n": 6312,
+          "baseline": 0.20345724793709874,
+          "candidate": 0.20459595556333138,
+          "change_pct": 0.5596790666237084
+        },
+        {
+          "validator": "B",
+          "seed": 2024,
+          "n": 6312,
+          "baseline": 0.2033641426483253,
+          "candidate": 0.20376801901651903,
+          "change_pct": 0.19859763030700694
+        },
+        {
+          "validator": "EXT10",
+          "seed": 7,
+          "n": 1800,
+          "baseline": 0.4083760796498703,
+          "candidate": 0.4048304452857315,
+          "change_pct": -0.8682277294935536
+        },
+        {
+          "validator": "EXT10",
+          "seed": 101,
+          "n": 1800,
+          "baseline": 0.4133898629527141,
+          "candidate": 0.401882749575991,
+          "change_pct": -2.78359834334867
+        },
+        {
+          "validator": "EXT10",
+          "seed": 2024,
+          "n": 1800,
+          "baseline": 0.4114804381396567,
+          "candidate": 0.40270101320230217,
+          "change_pct": -2.133619031088607
+        },
+        {
+          "validator": "EXT12",
+          "seed": 7,
+          "n": 4632,
+          "baseline": 0.4111766330876965,
+          "candidate": 0.4111681185739426,
+          "change_pct": -0.0020707679057374584
+        },
+        {
+          "validator": "EXT12",
+          "seed": 101,
+          "n": 4632,
+          "baseline": 0.40950234668729085,
+          "candidate": 0.4134390367863686,
+          "change_pct": 0.9613351744926613
+        },
+        {
+          "validator": "EXT12",
+          "seed": 2024,
+          "n": 4632,
+          "baseline": 0.4067669415681547,
+          "candidate": 0.41647883415032977,
+          "change_pct": 2.3875815828921843
+        }
+      ],
+      "segments": [
+        {
+          "segment": "high",
+          "seed": 7,
+          "n": 744,
+          "days": 31,
+          "baseline": 0.5255300430864083,
+          "candidate": 0.5138183684957882,
+          "change_pct": -2.228545207775001,
+          "baseline_bias": -0.32492813114146957,
+          "candidate_bias": -0.3142200225352472
+        },
+        {
+          "segment": "high",
+          "seed": 101,
+          "n": 744,
+          "days": 31,
+          "baseline": 0.526548040706917,
+          "candidate": 0.5189898864580785,
+          "change_pct": -1.435415890768721,
+          "baseline_bias": -0.32401498084160624,
+          "candidate_bias": -0.31667320061230436
+        },
+        {
+          "segment": "high",
+          "seed": 2024,
+          "n": 744,
+          "days": 31,
+          "baseline": 0.5243809887001887,
+          "candidate": 0.5208494159532661,
+          "change_pct": -0.6734745963381528,
+          "baseline_bias": -0.3239189075638629,
+          "candidate_bias": -0.3198529375609728
+        },
+        {
+          "segment": "ordinary",
+          "seed": 7,
+          "n": 7896,
+          "days": 329,
+          "baseline": 0.11192621506518417,
+          "candidate": 0.11109278747924907,
+          "change_pct": -0.7446223259222395,
+          "baseline_bias": 0.019468310881781546,
+          "candidate_bias": 0.016759754797749056
+        },
+        {
+          "segment": "ordinary",
+          "seed": 101,
+          "n": 7896,
+          "days": 329,
+          "baseline": 0.11297504301499559,
+          "candidate": 0.11063323248022303,
+          "change_pct": -2.0728565108505626,
+          "baseline_bias": 0.02019539803435796,
+          "candidate_bias": 0.016170994818299898
+        },
+        {
+          "segment": "ordinary",
+          "seed": 2024,
+          "n": 7896,
+          "days": 329,
+          "baseline": 0.11395184082410027,
+          "candidate": 0.11098426040774535,
+          "change_pct": -2.6042408748234047,
+          "baseline_bias": 0.019853813493249984,
+          "candidate_bias": 0.016508567249177392
+        },
+        {
+          "segment": "late",
+          "seed": 7,
+          "n": 1104,
+          "days": 46,
+          "baseline": 0.2668333530194839,
+          "candidate": 0.25275719696957594,
+          "change_pct": -5.275261091097616,
+          "baseline_bias": -0.0658360139589681,
+          "candidate_bias": -0.06692991560124678
+        },
+        {
+          "segment": "late",
+          "seed": 101,
+          "n": 1104,
+          "days": 46,
+          "baseline": 0.2664895432394729,
+          "candidate": 0.2551249353789746,
+          "change_pct": -4.2645605235946515,
+          "baseline_bias": -0.06339920461146988,
+          "candidate_bias": -0.06937659859862591
+        },
+        {
+          "segment": "late",
+          "seed": 2024,
+          "n": 1104,
+          "days": 46,
+          "baseline": 0.2710941135815608,
+          "candidate": 0.25776038532530926,
+          "change_pct": -4.9184868236690775,
+          "baseline_bias": -0.0636875606861618,
+          "candidate_bias": -0.0682894392067407
+        }
+      ],
+      "p_worse": [
+        0.047,
+        0.05835,
+        0.1074
+      ],
+      "decision": "REJECT",
+      "all_primary_improve": false
+    }
+  },
+  "scope": "stored public OOF only; no EL1 scoring or new fit",
+  "limitations": [
+    "Baseline is R3S, not actual .8R3+.2PFN season-v2.",
+    "Existing same public data reused; no untouched holdout, independent refit, or causal claims.",
+    "DB1 global structure classifier/feature availability still require nested scrutiny.",
+    "DP1 causal prefix code inspected, missing actions are filled with zero; no independent full feature replay here.",
+    "DP2 is active; no new training or partial performance read.",
+    "EL1 values in colleague log were read as reports only, not independently rescored."
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "scope": "공개 논문과 공식 코드로 읽은 계산 방식의 합성 반례 검산. 실제 EC 데이터/모델 실행 없음.",
+  "date": "2026-10-04",
+  "ensemble": {
+    "pointMean": 0.7,
+    "distributionMean": 0.75,
+    "rationalPointMean": 0.7,
+    "rationalDistributionMean": 0.75
+  },
+  "quantileMean": {
+    "original": 2,
+    "sorted": 2,
+    "equalWeightPAVA": 2
+  },
+  "sse": {
+    "baseline": 0.6600000000000001,
+    "candidate": 0.4724000000000001,
+    "directDelta": -0.18760000000000004,
+    "expansionDelta": -0.18760000000000007,
+    "rd": 0.5100000000000001,
+    "dd": 0.41000000000000014,
+    "coefficient": 0.2
+  },
+  "shapeArithmetic": {
+    "days": 360,
+    "hours": 24,
+    "total": 8640,
+    "sumViaArray": 8640
+  },
+  "assertions": {
+    "ensembleMeansDiffer": true,
+    "pointIndependentCrossCheck": true,
+    "fullIndependentCrossCheck": true,
+    "quantileSortingPreservesMean": true,
+    "equalWeightPAVAPreservesMean": true,
+    "sseIdentityIndependentCrossCheck": true
+  }
+}

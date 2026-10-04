@@ -1,0 +1,33 @@
+{
+  "status": "ACCESS_NOT_FULLY_VERIFIED",
+  "checks": [
+    {
+      "name": "metadata",
+      "url": "https://huggingface.co/api/models/Layer6/TabDPT/revision/a5ca6e01c0fa09ec68c73e958e5199d1932abb3a?blobs=true",
+      "status": "ERROR",
+      "error": "URLError: <urlopen error [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다>"
+    },
+    {
+      "name": "card",
+      "url": "https://huggingface.co/Layer6/TabDPT/raw/a5ca6e01c0fa09ec68c73e958e5199d1932abb3a/README.md",
+      "status": "ERROR",
+      "error": "URLError: <urlopen error [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다>"
+    },
+    {
+      "name": "license",
+      "url": "https://huggingface.co/Layer6/TabDPT/raw/a5ca6e01c0fa09ec68c73e958e5199d1932abb3a/LICENSE",
+      "status": "ERROR",
+      "error": "URLError: <urlopen error [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다>"
+    },
+    {
+      "name": "weight_head",
+      "url": "https://huggingface.co/Layer6/TabDPT/resolve/a5ca6e01c0fa09ec68c73e958e5199d1932abb3a/tabdpt1_3.safetensors",
+      "status": "ERROR",
+      "error": "URLError: <urlopen error [WinError 10013] 액세스 권한에 의해 숨겨진 소켓에 액세스를 시도했습니다>"
+    }
+  ],
+  "model_download": 0,
+  "installation": 0,
+  "fit": 0,
+  "authentication_or_agreement_action": 0
+}
