@@ -1,0 +1,208 @@
+{
+  "status": "PASS_PUBLIC_ARITHMETIC_ONLY",
+  "reports": {
+    "SG1": {
+      "rows": 2208,
+      "scores": [
+        {
+          "validator": "DIAG10",
+          "seed": 17,
+          "baseline": 0.26392255662774633,
+          "candidate": 0.2570030214758921,
+          "change_pct": -2.6218051386998287
+        },
+        {
+          "validator": "DIAG10",
+          "seed": 606,
+          "baseline": 0.2617532202573161,
+          "candidate": 0.251430719802217,
+          "change_pct": -3.943600176132167
+        },
+        {
+          "validator": "DIAG10",
+          "seed": 7070,
+          "baseline": 0.2716488382829849,
+          "candidate": 0.26993624210439054,
+          "change_pct": -0.6304448748683078
+        },
+        {
+          "validator": "DIAG10x",
+          "seed": 17,
+          "baseline": 0.2757639096897149,
+          "candidate": 0.26713615216596914,
+          "change_pct": -3.12867537070155
+        },
+        {
+          "validator": "DIAG10x",
+          "seed": 606,
+          "baseline": 0.2708799685453532,
+          "candidate": 0.26483990497540383,
+          "change_pct": -2.2297933665545555
+        },
+        {
+          "validator": "DIAG10x",
+          "seed": 7070,
+          "baseline": 0.2768419614883226,
+          "candidate": 0.2726845875882956,
+          "change_pct": -1.501713785611336
+        }
+      ],
+      "bootstrap": {
+        "p_worse": 0.1602,
+        "draws": 20000,
+        "blocks": 19,
+        "resampling": "author pooled farm_calendar_day//5",
+        "seedmean_baseline": 0.274354245087221,
+        "seedmean_candidate": 0.26786235395421193
+      },
+      "all_public_six_improve": true,
+      "whole_adoption": false
+    },
+    "SG2": {
+      "rows": 2208,
+      "scores": [
+        {
+          "validator": "DIAG10",
+          "seed": 23,
+          "baseline": 0.26551704935508885,
+          "candidate": 0.2563460876319313,
+          "change_pct": -3.4540010690209177
+        },
+        {
+          "validator": "DIAG10",
+          "seed": 808,
+          "baseline": 0.26603399935320826,
+          "candidate": 0.2613097504127999,
+          "change_pct": -1.7758064577813815
+        },
+        {
+          "validator": "DIAG10",
+          "seed": 9090,
+          "baseline": 0.26656395327592924,
+          "candidate": 0.25627061267062806,
+          "change_pct": -3.8614900772596994
+        },
+        {
+          "validator": "DIAG10y",
+          "seed": 23,
+          "baseline": 0.28954468883441264,
+          "candidate": 0.2775277765307743,
+          "change_pct": -4.1502789610866175
+        },
+        {
+          "validator": "DIAG10y",
+          "seed": 808,
+          "baseline": 0.2891251156637749,
+          "candidate": 0.27675053613853845,
+          "change_pct": -4.280008499720555
+        },
+        {
+          "validator": "DIAG10y",
+          "seed": 9090,
+          "baseline": 0.2876464813952424,
+          "candidate": 0.2753259827847897,
+          "change_pct": -4.283208524120152
+        }
+      ],
+      "bootstrap": {
+        "p_worse": 0.0,
+        "draws": 20000,
+        "blocks": 19,
+        "resampling": "author pooled farm_calendar_day//5",
+        "seedmean_baseline": 0.28859281325287334,
+        "seedmean_candidate": 0.2760461385502881
+      },
+      "all_public_six_improve": true,
+      "whole_adoption": false
+    },
+    "HK0": {
+      "rows": 8640,
+      "segments": [
+        {
+          "segment": "all",
+          "rows": 8640,
+          "days": 360,
+          "p": 0.1881030829444682,
+          "sg": 0.18354765994703984,
+          "hga": 0.17456191160676343,
+          "hgb": 0.1721334532440496
+        },
+        {
+          "segment": "high",
+          "rows": 744,
+          "days": 31,
+          "p": 0.5253498343884763,
+          "sg": 0.5151128299687634,
+          "hga": 0.4393484724203042,
+          "hgb": 0.4518472083013416
+        },
+        {
+          "segment": "ordinary",
+          "rows": 7896,
+          "days": 329,
+          "p": 0.11274458356442281,
+          "sg": 0.10891464540143837,
+          "hga": 0.12310608353643959,
+          "hgb": 0.11482284983985125
+        },
+        {
+          "segment": "late",
+          "rows": 1104,
+          "days": 46,
+          "p": 0.267951977478534,
+          "sg": 0.2643417736864406,
+          "hga": 0.2240371728454302,
+          "hgb": 0.2293049242193399
+        }
+      ],
+      "bootstrap": {
+        "hga": {
+          "p_worse": 0.20055,
+          "draws": 20000,
+          "blocks": 87,
+          "resampling": "author pooled farm_calendar_day//5",
+          "seedmean_baseline": 0.18354765994703984,
+          "seedmean_candidate": 0.17456191160676343
+        },
+        "hgb": {
+          "p_worse": 0.09515,
+          "draws": 20000,
+          "blocks": 87,
+          "resampling": "author pooled farm_calendar_day//5",
+          "seedmean_baseline": 0.18354765994703984,
+          "seedmean_candidate": 0.1721334532440496
+        }
+      },
+      "adoption": false
+    }
+  },
+  "sources": {
+    "SG1": {
+      "csv": "5674fbf732afada7c5b56cf3bddb378e1d544be1ad839978e9e974ee1061f7b2",
+      "source": "754d022b514ad1a89b136ce0bdfe796dfc110bf49c2ac19ef5f6c057ffc5f543"
+    },
+    "SG2": {
+      "csv": "a0648704bfe31d9d3e12d919c970d467375144ee87799a31549f2d68a70ba402",
+      "source": "8ab8a254f5989958693165df2fe6cad0a813220d2464ead6393e6067c93c8c88"
+    },
+    "HK0": {
+      "csv": "5a45896b5faa274b141369cc31b91b13602bd201d4140747855dec7d887ae45e",
+      "source": "df4f0052a0aa675a741284aedee2cd4d7137074de5f7c6910cea65de8f9b3e6b"
+    }
+  },
+  "public_sha256": "a3c375e3bd8926598ece14f218de505d120ccad2baba92ae4fa9093693de92fa",
+  "verifier_sha256": "85a7aed0ea6e3643109f0fabb76f45da35fd84996245a4de46ee2fb964dfb8bb",
+  "fit": 0,
+  "predict": 0,
+  "raw_EC_reads": 0,
+  "test_reads": 0,
+  "EL1_rescore": 0,
+  "limitations": [
+    "source/runtime leakage audit separate; arithmetic PASS is not model adoption",
+    "R3S differs from actual EC season_v2",
+    "same46days reused in different layouts",
+    "author bootstrap differs from Codex protocol",
+    "p=0 in20000 draws is not true probability0",
+    "SG2C scores log only; no candidate saved CSV replay"
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "status": "PASS_PUBLIC_HG1_RECHECK",
+  "rows": 2208,
+  "scores": [
+    {
+      "validator": "DIAG10",
+      "seed": 29,
+      "baseline": 0.2674570332450264,
+      "candidate": 0.23077009168487422,
+      "change_pct": -13.716947771024602
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 909,
+      "baseline": 0.2542008603897692,
+      "candidate": 0.22799911290253638,
+      "change_pct": -10.307497561989898
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 1111,
+      "baseline": 0.25646566366493007,
+      "candidate": 0.2237271992555351,
+      "change_pct": -12.765242700156321
+    },
+    {
+      "validator": "DIAG10z",
+      "seed": 29,
+      "baseline": 0.27230795148068215,
+      "candidate": 0.21821178037837427,
+      "change_pct": -19.865806638461503
+    },
+    {
+      "validator": "DIAG10z",
+      "seed": 909,
+      "baseline": 0.2783306528483413,
+      "candidate": 0.22454939712429398,
+      "change_pct": -19.32279293483066
+    },
+    {
+      "validator": "DIAG10z",
+      "seed": 1111,
+      "baseline": 0.27934877123314444,
+      "candidate": 0.22727671813657854,
+      "change_pct": -18.64051625024209
+    }
+  ],
+  "segments": [
+    {
+      "validator": "DIAG10",
+      "seed": 29,
+      "segment": "high",
+      "rows": 120,
+      "baseline": 0.7038728057708581,
+      "candidate": 0.49082895360918616,
+      "change_pct": -30.267379335440214
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 29,
+      "segment": "ordinary",
+      "rows": 984,
+      "baseline": 0.140846356313982,
+      "candidate": 0.17426900368373854,
+      "change_pct": 23.72986298292945
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 909,
+      "segment": "high",
+      "rows": 120,
+      "baseline": 0.6660716653272146,
+      "candidate": 0.4819094035420712,
+      "change_pct": -27.64901607016593
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 909,
+      "segment": "ordinary",
+      "rows": 984,
+      "baseline": 0.13562630192199715,
+      "candidate": 0.17320944787561765,
+      "change_pct": 27.710809349675934
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 1111,
+      "segment": "high",
+      "rows": 120,
+      "baseline": 0.6718111322021026,
+      "candidate": 0.48154801052920004,
+      "change_pct": -28.32092422303971
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 1111,
+      "segment": "ordinary",
+      "rows": 984,
+      "baseline": 0.1369513264653099,
+      "candidate": 0.166969773324559,
+      "change_pct": 21.91906251222242
+    },
+    {
+      "validator": "DIAG10z",
+      "seed": 29,
+      "segment": "high",
+      "rows": 120,
+      "baseline": 0.7181026121282253,
+      "candidate": 0.5051653294665149,
+      "change_pct": -29.652765366029342
+    },
+    {
+      "validator": "DIAG10z",
+      "seed": 29,
+      "segment": "ordinary",
+      "rows": 984,
+      "baseline": 0.1425052615626793,
+      "candidate": 0.14933947903500625,
+      "change_pct": 4.795765010628061
+    },
+    {
+      "validator": "DIAG10z",
+      "seed": 909,
+      "segment": "high",
+      "rows": 120,
+      "baseline": 0.733278967035887,
+      "candidate": 0.5130190920902421,
+      "change_pct": -30.037664360672345
+    },
+    {
+      "validator": "DIAG10z",
+      "seed": 909,
+      "segment": "ordinary",
+      "rows": 984,
+      "baseline": 0.1460901483300696,
+      "candidate": 0.15644596325757237,
+      "change_pct": 7.088647007261084
+    },
+    {
+      "validator": "DIAG10z",
+      "seed": 1111,
+      "segment": "high",
+      "rows": 120,
+      "baseline": 0.7374989434517913,
+      "candidate": 0.5158814572421371,
+      "change_pct": -30.049871688275974
+    },
+    {
+      "validator": "DIAG10z",
+      "seed": 1111,
+      "segment": "ordinary",
+      "rows": 984,
+      "baseline": 0.1456792666126658,
+      "candidate": 0.15968323172712745,
+      "change_pct": 9.612874529150117
+    }
+  ],
+  "bootstrap": {
+    "p_worse": 0.03995,
+    "draws": 20000,
+    "blocks": 19,
+    "resampling": "author pooled farm_calendar_day//5",
+    "seedmean_baseline": 0.27641578009417156,
+    "seedmean_candidate": 0.22250697511839349
+  },
+  "author_public_threshold_failed": true,
+  "source_sha256": "3a49df9959af64d77a3019b2d258ea30aaf45244822054bbd75c881796401d87",
+  "csv_sha256": "90736f65245df7527b3f958f4733c1797b959dfa5b70cd998a15e8234bec3466",
+  "public_sha256": "a3c375e3bd8926598ece14f218de505d120ccad2baba92ae4fa9093693de92fa",
+  "verifier_sha256": "e5b466c598d52e13d86ee226f458e6e9a9bc0920803592315dd8b74dd14ec6a9",
+  "fit": 0,
+  "predict": 0,
+  "raw_EC_reads": 0,
+  "test_reads": 0,
+  "EL1_rescore": 0,
+  "limitations": [
+    "Arithmetic only; same SG2 preprocessing/reference caveats",
+    "R3S+SG2 baseline, not actual EC season_v2",
+    "Same46days and author pooled bootstrap; not Codex adoption"
+  ]
+}
