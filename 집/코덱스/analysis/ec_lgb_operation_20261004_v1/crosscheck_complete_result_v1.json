@@ -1,0 +1,200 @@
+{
+  "status": "PASS_INDEPENDENT_COMPLETE_PUBLIC_CROSSCHECK",
+  "public_pass": false,
+  "parent_report_sha256": "65bea79134458e88f7eedc2889ec3cf202c6a62bd13d8f1e94c13f9caa7cfa8e",
+  "crosschecker_sha256": "8498db739a06429e02f8401d88896ed7df8fd8ee30b338c8e2ab6fb8e7b52c02",
+  "rows": 83160,
+  "cells": 66,
+  "metrics": [
+    {
+      "validator": "DIAG10",
+      "seed": 7,
+      "n": 8640,
+      "baseline": 0.18112483710525534,
+      "candidate": 0.18066046262438473,
+      "change_pct": -0.25638365687018494
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 101,
+      "n": 8640,
+      "baseline": 0.18167907699926716,
+      "candidate": 0.1822427916368759,
+      "change_pct": 0.31028043895831026
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 2024,
+      "n": 8640,
+      "baseline": 0.18172772536614717,
+      "candidate": 0.18226102005129147,
+      "change_pct": 0.2934580752990801
+    },
+    {
+      "validator": "A",
+      "seed": 7,
+      "n": 6336,
+      "baseline": 0.21468522746943028,
+      "candidate": 0.21343136803846782,
+      "change_pct": -0.5840455096711272
+    },
+    {
+      "validator": "A",
+      "seed": 101,
+      "n": 6336,
+      "baseline": 0.21624582241083692,
+      "candidate": 0.21513904357529337,
+      "change_pct": -0.5118151292841322
+    },
+    {
+      "validator": "A",
+      "seed": 2024,
+      "n": 6336,
+      "baseline": 0.21587226460361367,
+      "candidate": 0.21462410716538458,
+      "change_pct": -0.5781925901972462
+    },
+    {
+      "validator": "B",
+      "seed": 7,
+      "n": 6312,
+      "baseline": 0.20001294637985037,
+      "candidate": 0.20134787222993047,
+      "change_pct": 0.6674197216938627
+    },
+    {
+      "validator": "B",
+      "seed": 101,
+      "n": 6312,
+      "baseline": 0.19978200327411105,
+      "candidate": 0.2010678140715294,
+      "change_pct": 0.6436069197154559
+    },
+    {
+      "validator": "B",
+      "seed": 2024,
+      "n": 6312,
+      "baseline": 0.199704936653692,
+      "candidate": 0.20040090099770716,
+      "change_pct": 0.34849631445117435
+    },
+    {
+      "validator": "EXT10",
+      "seed": 7,
+      "n": 1800,
+      "baseline": 0.39678062270131437,
+      "candidate": 0.39341420814055605,
+      "change_pct": -0.8484321985886001
+    },
+    {
+      "validator": "EXT10",
+      "seed": 101,
+      "n": 1800,
+      "baseline": 0.4000670135185979,
+      "candidate": 0.39675448437480737,
+      "change_pct": -0.8279935690415408
+    },
+    {
+      "validator": "EXT10",
+      "seed": 2024,
+      "n": 1800,
+      "baseline": 0.39915814533792693,
+      "candidate": 0.39572926437225503,
+      "change_pct": -0.8590281836210578
+    },
+    {
+      "validator": "EXT12",
+      "seed": 7,
+      "n": 4632,
+      "baseline": 0.4141697247001226,
+      "candidate": 0.4089923514536417,
+      "change_pct": -1.2500607692243815
+    },
+    {
+      "validator": "EXT12",
+      "seed": 101,
+      "n": 4632,
+      "baseline": 0.41266052021081456,
+      "candidate": 0.4082989621832572,
+      "change_pct": -1.0569361046046333
+    },
+    {
+      "validator": "EXT12",
+      "seed": 2024,
+      "n": 4632,
+      "baseline": 0.41057611429228097,
+      "candidate": 0.40663344903831367,
+      "change_pct": -0.9602763328703023
+    }
+  ],
+  "bootstrap": {
+    "7": {
+      "p_worse": 0.3641,
+      "ci_adjusted": [
+        -0.0017739900452156054,
+        0.001374834521948154
+      ],
+      "ci95": [
+        -0.0011460502950644076,
+        0.0007659619082181594
+      ],
+      "draws": 20000,
+      "blocks": {
+        "F13": 36,
+        "F47": 36
+      }
+    },
+    "101": {
+      "p_worse": 0.66575,
+      "ci_adjusted": [
+        -0.0013170594067871734,
+        0.0017186721837675043
+      ],
+      "ci95": [
+        -0.0007502954316042764,
+        0.0011706619499498023
+      ],
+      "draws": 20000,
+      "blocks": {
+        "F13": 36,
+        "F47": 36
+      }
+    },
+    "2024": {
+      "p_worse": 0.67545,
+      "ci_adjusted": [
+        -0.0010978188632522062,
+        0.001575416423804874
+      ],
+      "ci95": [
+        -0.0006140776059069868,
+        0.0010486505105328696
+      ],
+      "draws": 20000,
+      "blocks": {
+        "F13": 36,
+        "F47": 36
+      }
+    }
+  },
+  "high_days": 31,
+  "ordinary_days": 329,
+  "prefix_maxdiff": 8.881784197001252e-16,
+  "method": [
+    "stdlib csv exact aggregate text equality",
+    "Decimal45 squared loss/RMSE",
+    "scalar fsum clipped prefix mixing",
+    "row->farm/day->five-day scalar block totals",
+    "20k same pinned RNG but scalar draw sums/manual sorted quantiles"
+  ],
+  "fit": 0,
+  "predict": 0,
+  "test_reads": 0,
+  "raw_ec_reads": 0,
+  "EL1_rescore": 0,
+  "limitations": [
+    "public repeated validation",
+    "saved audits checked; no fit/predict replay",
+    "RNG intentionally identical for reproducibility; independent statistic and quantile arithmetic"
+  ]
+}
