@@ -13,7 +13,7 @@ Sets (pass-2 rows only): DIAG10 original layout, DIAG10w fresh layout (chunk =
 (day+3)//5, fold = chunk % 10, +-1 purge, lock excluded; never used before), EL1.
 PASS iff every seed x all three sets improve AND seed-mean block bootstrap (farm x
 5-day, 20000) P(worse) on DIAG10w pass-2 rows < .025.
-Descriptive extra: sealed pass-2 days and high days RMSE.
+Descriptive extra: DIAG10 pass-2 high days (label day mean >= 1) and other days RMSE.
 Run (detached, checkpointed):  cd 집/클로드/research && PYTHONPATH="" py -3.12 -u ec3_SI1_sealed_active_interaction_v1.py
 """
 import env  # noqa: F401
@@ -86,7 +86,11 @@ def main():
     idx = np.random.default_rng(20261004).integers(0, len(sm), (20000, len(sm)))
     p = float(((sm[idx].sum(1) / n[idx].sum(1)) >= 0).mean())
     print("  DIAG10w pass-2 seed-mean RMSE %.4f -> %.4f  P(worse) %.4f" % (r(bm - T.sub_ec), r(dm - T.sub_ec), p))
-    print("\nDPC decision:", "PASS" if ok and p < 0.025 else "FAIL", "(all seeds x sets better %s, P %.4f)" % (ok, p))
+    A = O[O.validator == "DIAG10"].copy(); A["dm"] = A.groupby(["farm", "day"]).sub_ec.transform("mean")
+    for nm, m in (("high days (label mean >= 1)", A.dm >= 1), ("other days", A.dm < 1)):
+        G = A[m]
+        print("  DIAG10 pass-2 %s: %s" % (nm, "  ".join("s%d %.4f->%.4f" % (s, r(G["base_%d" % s] - G.sub_ec), r(G["dp_%d" % s] - G.sub_ec)) for s in SEEDS)))
+    print("\nSI1 decision:", "PASS" if ok and p < 0.025 else "FAIL", "(all seeds x sets better %s, P %.4f)" % (ok, p))
 
 
 if __name__ == "__main__":
