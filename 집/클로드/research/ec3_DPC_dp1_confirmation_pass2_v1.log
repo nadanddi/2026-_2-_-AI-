@@ -1,0 +1,80 @@
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 9 of 16 pass-2 training days
+DIAG10/4 done
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+DIAG10/5 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 6 of 11 pass-2 training days
+DIAG10/6 done
+   F13 anchors 12 of 17 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+DIAG10/7 done
+   F13 anchors 14 of 17 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/8 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+DIAG10/9 done
+   F13 anchors 11 of 18 pass-2 training days
+   F47 anchors 9 of 15 pass-2 training days
+DIAG10t/0 done
+   F13 anchors 15 of 21 pass-2 training days
+   F47 anchors 9 of 16 pass-2 training days
+DIAG10t/2 done
+   F13 anchors 8 of 17 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+DIAG10t/3 done
+   F13 anchors 13 of 20 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+DIAG10t/4 done
+   F13 anchors 13 of 18 pass-2 training days
+   F47 anchors 9 of 13 pass-2 training days
+DIAG10t/6 done
+   F13 anchors 12 of 14 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+DIAG10t/7 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+DIAG10t/8 done
+   F13 anchors 11 of 15 pass-2 training days
+   F47 anchors 3 of 8 pass-2 training days
+DIAG10t/9 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/20 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/21 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/22 done
+   F13 anchors 14 of 15 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/23 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/24 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 13 pass-2 training days
+EL1/25 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+EL1/26 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 13 pass-2 training days
+EL1/27 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 10 pass-2 training days
+EL1/28 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+EL1/29 done
+
+PASS-2 rows: refitted R3S -> DP1 (new seeds)
+  DIAG10   days 46  s31 0.2684->0.2588 (-3.6%)  s404 0.2671->0.2594 (-2.9%)  s5050 0.2698->0.2545 (-5.6%)
+  DIAG10t  days 46  s31 0.3130->0.3040 (-2.9%)  s404 0.3118->0.3066 (-1.7%)  s5050 0.3167->0.3028 (-4.4%)
+  EL1      days 46  s31 0.3149->0.3042 (-3.4%)  s404 0.3077->0.2969 (-3.5%)  s5050 0.3082->0.2980 (-3.3%)
+  DIAG10t pass-2 seed-mean RMSE 0.3137 -> 0.3044  P(worse) 0.1436
+
+DPC decision: FAIL (all seeds x sets better True, P 0.1436)
