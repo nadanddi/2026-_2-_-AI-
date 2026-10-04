@@ -1,0 +1,26 @@
+pass-2 cal: exact twin / carried {'F13': [42, 17], 'F47': [38, 19]}
+pass-2 cal_c vs deep cal: exact 0.12, |diff|<=1 0.33; pass-1 Spearman 0.982
+causal links 377; both labelled 266; label corr along link 0.409, mean |diff| 0.192
+links cc: 377, same CH1 chain 0.68, pass-2 records linked to a pass-1 record 0.28
+links cr: 354, same CH1 chain 0.79, pass-2 records linked to a pass-1 record 0.52
+link keeps the same µ¿ (st_dong_assign): 0.65
+anchor availability: cc_prev 238/360 (pass-2 20/46)  cc_prev2 238/360 (pass-2 20/46)  cr_prev 213/360 (pass-2 31/46)  ch_prev 285/360 (pass-2 43/46)  ch_lin 342/360 (pass-2 43/46)
+CC first anchor steps back (pass 2): {1.0: 12, 2.0: 5, 3.0: 3}
+
+day-level RMSE
+segment           n        pm   cc_prev  cc_prev2   cr_prev   ch_prev    ch_lin b_cc_prev b_cc_prev2 b_cr_prev b_ch_prev  b_ch_lin
+all             360    0.1724    0.3041    0.2514    0.2897    0.2541    0.2388    0.2136    0.1959    0.2051    0.1807    0.1676
+pass-2           46    0.2570    0.2567    0.2598    0.3164    0.3027    0.3025    0.2528    0.2542    0.2477    0.1979    0.1977
+pass-2 normal    41    0.1390    0.1384    0.1446    0.2825    0.1796    0.1793    0.1300    0.1331    0.1710    0.1174    0.1169
+pass-2 high       5    0.6702    0.6702    0.6702    0.5164    0.7606    0.7606    0.6702    0.6702    0.5700    0.4973    0.4973
+pass-1          314    0.1562    0.3105    0.2502    0.2856    0.2462    0.2279    0.2072    0.1858    0.1981    0.1781    0.1627
+pass-1 normal   288    0.1028    0.2651    0.1870    0.2477    0.1532    0.1751    0.1554    0.1221    0.1520    0.1058    0.1122
+
+row-level RMSE (R3S hourly shape + blended level)
+  all            R3S 0.1881  cc_prev 0.2264  cc_prev2 0.2098  cr_prev 0.2185  ch_prev 0.1958  ch_lin 0.1837
+  pass-2         R3S 0.2680  cc_prev 0.2639  cc_prev2 0.2653  cr_prev 0.2591  ch_prev 0.2119  ch_lin 0.2117
+  pass-2 normal  R3S 0.1452  cc_prev 0.1366  cc_prev2 0.1395  cr_prev 0.1760  ch_prev 0.1246  ch_lin 0.1242
+
+pass-2 P(worse) (cluster bootstrap): cc_prev 0.0938  cc_prev2 0.2406  cr_prev 0.3160  ch_prev 0.0819  ch_lin 0.0812
+
+LB3 clue (calendar causal chain, previous labels): False
