@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\집\코덱스\analysis\ec_anchor_trust_20261005_v1\run_v1.py", line 113, in <module>
+    if args.prepare:refs,p=preparation();save(H/'preparation_v1.json',p)
+                           ^^^^^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_anchor_trust_20261005_v1\run_v1.py", line 58, in preparation
+    sig=signatures(raw);idx=lab.set_index('row_id');records=[];refs={}
+        ^^^^^^^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_anchor_trust_20261005_v1\run_v1.py", line 35, in signatures
+    a=raw.copy().sort_values(['farm','day','hour']).reset_index(drop=True);x=a[CC].to_numpy(float);assert np.isfinite(x).all();return pd.DataFrame(prefix(a,x),index=a.row_id,columns=CC)
+                                                                                                          ^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\집\코덱스\analysis\ec_anchor_trust_20261005_v1\run_v4.py", line 152, in <module>
+    if args.prepare:refs,p=preparation();save(H/'preparation_v4.json',p)
+                           ^^^^^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_anchor_trust_20261005_v1\run_v4.py", line 75, in preparation
+    assert sha(PREV)=='df4ff2c3b7617676c61e4cee4b8e9690f9312a7cca448c0caec189cb5051b860'; old=load(PREV);assert old['status']=='PASS_PREPARATION_MODEL_FIT0_PREDICT0_SCORE0'
+           ^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_anchor_trust_20261005_v1\run_v4.py", line 18, in sha
+    def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+                                     ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aozks\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1019, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aozks\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\work\\farmai\\집\\코덱스\\analysis\\ec_final_output_loss_20261004_v1\\preparation_v4.json'
