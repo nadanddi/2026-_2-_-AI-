@@ -1,0 +1,108 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "config": {
+    "modes": [
+      "FINAL_LOSS",
+      "RAW_LOSS"
+    ],
+    "families": {
+      "FINAL_LOSS": 22,
+      "RAW_LOSS": 23
+    },
+    "alpha": 0.0010416666666666667,
+    "features": "original BASE: remove day; append season; exactly14",
+    "hidden": [
+      64,
+      32
+    ],
+    "activation": "ReLU",
+    "head": "zero weight and bias at initialization",
+    "delta": "unbounded additive residual to complete raw mixture",
+    "dtype": "float64",
+    "device": "cpu",
+    "optimizer": "torch.optim.Adam coupled weight_decay",
+    "lr": 0.001,
+    "weight_decay": 0.01,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "amsgrad": false,
+    "foreach": false,
+    "fused": false,
+    "capturable": false,
+    "maximize": false,
+    "differentiable": false,
+    "epochs": 400,
+    "batch": "full inner-query b",
+    "loss": "mean squared error; FINAL clip(shrink(base_raw+delta)), RAW base_raw+delta",
+    "preprocessing": "SimpleImputer median keep_empty_features=True -> StandardScaler; fit b only",
+    "train_target": "inner-query b public hourly sub_ec",
+    "train_bounds": "inner-training a target min/max",
+    "query_bounds": "outer-training tr target min/max",
+    "query_base": "unchanged cached original .8R3+.2PFN4bag",
+    "train_base": "matched-inner heldout .8R3+.2PFN4bag",
+    "inner_selection": "existing full_inner single heldout subset; no claim complete crossfit of all outer rows",
+    "threads": 2,
+    "deterministic": true,
+    "selection": "last step400 only; no validation stopping/best epoch",
+    "strict_15": true,
+    "bootstrap": "DIAG each seed farm sortedday5 block20k rng20261003+seed adjusted quantile[alpha,1-alpha]"
+  },
+  "initial_weights_sha256": {
+    "7": "1610001b35f5021f871f8380324beae34789fd0bcac23eee001b7ef036ba75d5",
+    "101": "b85b41d9ea4ee0eb32822bd2fab7432de74b06665355e738920a7c99b36f72f7",
+    "2024": "5e5355d352382ab4a831d3174c51bc40a2f0fa9bb7715bfb08087d1c9fe51c80"
+  },
+  "source_sha256": "f27328da26aa48983387ef380be6bcad84242babd0cc2cb0b0324d689b57f033",
+  "runtime": {
+    "versions": {
+      "python": "3.12.14",
+      "numpy": "2.5.3",
+      "pandas": "3.0.1",
+      "sklearn": "1.9.1",
+      "lightgbm": "4.7.0",
+      "torch": "2.14.0+cpu"
+    },
+    "module_paths": {
+      "numpy": "C:\\work\\farmai\\.analysis-tools\\python\\numpy\\__init__.py",
+      "pandas": "C:\\Users\\aozks\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\__init__.py",
+      "sklearn": "C:\\work\\farmai\\.analysis-tools\\python\\sklearn\\__init__.py",
+      "lightgbm": "C:\\work\\farmai\\.analysis-tools\\python\\lightgbm\\__init__.py",
+      "torch": "C:\\work\\farmai\\.analysis-tools\\extra\\torch\\__init__.py"
+    },
+    "module_init_sha256": {
+      "numpy": "a6958cb364663b7acce81ccfd58eeb65a2b34d5376157f924777b97211a73be4",
+      "pandas": "3f0e93be963b0ccf84860992e2b9c5597132e1fbb51a14ba749a1b4f1b0df14b",
+      "sklearn": "4ca68db4b3be340b1ef586b6c6d1cbf394bf1e5c0b2a998f997f02800a50c2c9",
+      "lightgbm": "ebdcaed150dcbec52107d6c0e696031dfd5120c7231d05c9ad5fdf7ce21ff94e",
+      "torch": "2d89482562a491093a10c2dcf9a83eea070f02b69b65aa4ae1b95ad23bcdbcaf"
+    },
+    "torch_threads": 2,
+    "torch_interop_threads": 1,
+    "deterministic": true
+  },
+  "autograd_fd_maxdiff": 3.453425696450796e-13,
+  "training": {
+    "FINAL_LOSS": {
+      "initial": 0.002007815012712276,
+      "final": 0.0018984230380074943,
+      "fresh_maxdiff": 0.0,
+      "steps": 400
+    },
+    "RAW_LOSS": {
+      "initial": 0.0007197626236019977,
+      "final": 0.0007170017317109648,
+      "fresh_maxdiff": 0.0,
+      "steps": 400
+    }
+  },
+  "synthetic_training_steps": 1600,
+  "real_ec_fit": 0,
+  "real_ec_predict": 0,
+  "real_score": 0,
+  "raw_ec_reads": 0,
+  "test_reads": 0,
+  "EL1_rescore": 0
+}

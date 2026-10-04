@@ -1,0 +1,173 @@
+{
+  "status": "PASS_INDEPENDENT_PREPARED_IDS_FEATURES_MOMENTS",
+  "records": [
+    {
+      "validator": "DIAG10",
+      "fold": 0,
+      "inner_a": 4128,
+      "inner_b": 1680,
+      "outer_query": 912
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 1,
+      "inner_a": 4296,
+      "inner_b": 1704,
+      "outer_query": 720
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 2,
+      "inner_a": 4032,
+      "inner_b": 1680,
+      "outer_query": 960
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 3,
+      "inner_a": 4176,
+      "inner_b": 1728,
+      "outer_query": 792
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 4,
+      "inner_a": 3936,
+      "inner_b": 1656,
+      "outer_query": 960
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 5,
+      "inner_a": 4272,
+      "inner_b": 1680,
+      "outer_query": 672
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 6,
+      "inner_a": 4056,
+      "inner_b": 1680,
+      "outer_query": 960
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 7,
+      "inner_a": 4272,
+      "inner_b": 1680,
+      "outer_query": 744
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 8,
+      "inner_a": 4008,
+      "inner_b": 1656,
+      "outer_query": 960
+    },
+    {
+      "validator": "DIAG10",
+      "fold": 9,
+      "inner_a": 4008,
+      "inner_b": 1680,
+      "outer_query": 960
+    },
+    {
+      "validator": "A",
+      "fold": 0,
+      "inner_a": 3936,
+      "inner_b": 1584,
+      "outer_query": 1272
+    },
+    {
+      "validator": "A",
+      "fold": 1,
+      "inner_a": 3888,
+      "inner_b": 1560,
+      "outer_query": 1320
+    },
+    {
+      "validator": "A",
+      "fold": 2,
+      "inner_a": 3912,
+      "inner_b": 1584,
+      "outer_query": 1272
+    },
+    {
+      "validator": "A",
+      "fold": 3,
+      "inner_a": 3936,
+      "inner_b": 1584,
+      "outer_query": 1248
+    },
+    {
+      "validator": "A",
+      "fold": 4,
+      "inner_a": 3936,
+      "inner_b": 1632,
+      "outer_query": 1224
+    },
+    {
+      "validator": "B",
+      "fold": 0,
+      "inner_a": 3840,
+      "inner_b": 1608,
+      "outer_query": 1272
+    },
+    {
+      "validator": "B",
+      "fold": 1,
+      "inner_a": 3840,
+      "inner_b": 1560,
+      "outer_query": 1320
+    },
+    {
+      "validator": "B",
+      "fold": 2,
+      "inner_a": 3888,
+      "inner_b": 1680,
+      "outer_query": 1224
+    },
+    {
+      "validator": "B",
+      "fold": 3,
+      "inner_a": 3936,
+      "inner_b": 1560,
+      "outer_query": 1296
+    },
+    {
+      "validator": "B",
+      "fold": 4,
+      "inner_a": 3984,
+      "inner_b": 1680,
+      "outer_query": 1200
+    },
+    {
+      "validator": "EXT10",
+      "fold": 0,
+      "inner_a": 3000,
+      "inner_b": 1200,
+      "outer_query": 1800
+    },
+    {
+      "validator": "EXT12",
+      "fold": 0,
+      "inner_a": 1512,
+      "inner_b": 696,
+      "outer_query": 4632
+    }
+  ],
+  "cache_hash_checks": 462,
+  "checks": 84392,
+  "source_sha256": "7163fad86aebe29f4e4fab678c1e485aafdbbed550555f8e61dbada4b3fd1e20",
+  "runner_sha256": "be6bab3303e37decad5bd078e56edf569cda5bf0baaea470df971bc53043b172",
+  "preparation_sha256": "df4ff2c3b7617676c61e4cee4b8e9690f9312a7cca448c0caec189cb5051b860",
+  "real_model_fit": 0,
+  "real_model_predict": 0,
+  "real_score": 0,
+  "preprocessor_fit": 22,
+  "zero_fixture_replays": 22,
+  "limitations": [
+    "No optimization performed; zero fixture is not a trained EC model",
+    "Existing inner/full guard source reused; preprocessor moments independently recomputed"
+  ]
+}

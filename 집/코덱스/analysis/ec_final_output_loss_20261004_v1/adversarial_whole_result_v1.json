@@ -1,0 +1,93 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "rejections": [
+    {
+      "name": "checkpoint_missing_key",
+      "rejected": true
+    },
+    {
+      "name": "feature_order",
+      "rejected": true
+    },
+    {
+      "name": "weight_dtype",
+      "rejected": true
+    },
+    {
+      "name": "weight_nonfinite",
+      "rejected": true
+    },
+    {
+      "name": "scaler_variance",
+      "rejected": true
+    },
+    {
+      "name": "scaler_zero",
+      "rejected": true
+    },
+    {
+      "name": "training_count",
+      "rejected": true
+    },
+    {
+      "name": "bounds_reversed",
+      "rejected": true
+    },
+    {
+      "name": "bounds_nonfinite",
+      "rejected": true
+    },
+    {
+      "name": "duplicate_group_hour",
+      "rejected": true
+    },
+    {
+      "name": "source_signature_mismatch",
+      "rejected": true
+    },
+    {
+      "name": "first_signature_seed",
+      "rejected": true
+    },
+    {
+      "name": "first_future_prefix",
+      "rejected": true
+    },
+    {
+      "name": "first_nonfinite",
+      "rejected": true
+    },
+    {
+      "name": "first_tolerance_relaxed",
+      "rejected": true
+    },
+    {
+      "name": "first_missing_key",
+      "rejected": true
+    },
+    {
+      "name": "first_finite_flag",
+      "rejected": true
+    },
+    {
+      "name": "duplicate_json",
+      "rejected": true
+    },
+    {
+      "name": "nan_json",
+      "rejected": true
+    }
+  ],
+  "all_nan_column_supported": true,
+  "prefix_future_perturbation_pass": true,
+  "actual_fit": 0,
+  "actual_predict": 0,
+  "actual_score": 0,
+  "actual_data_reads": 0,
+  "source_sha256": {
+    "adversarial_whole_v1.py": "986a526b8bfceffc19adfa11a50557df4824de204d73fb0fca90e6d6177b44c8",
+    "verify_full_v3.py": "6875fc1d4062d52edbbda6733c72977d45fe9f52b3daf3046317042e212979bd",
+    "verification_math_v4.py": "6e16ecf93a3d15cf8fe0c77bda55f647c6a360668c694adbf461b0cc0a8152ba"
+  },
+  "limitations": "Source mismatch fixture exercises exact signature comparison, not a full actual runtime/manifest traversal. Fresh-native evidence is recorded audit verification, not fresh training replay."
+}

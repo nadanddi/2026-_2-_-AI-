@@ -1,0 +1,36 @@
+{
+  "status": "PASS_SYNTHETIC",
+  "checks": 20142,
+  "scalar_matrix_maxdiff": 4.440892098500626e-16,
+  "prefix": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "bootstrap": {
+    "p_worse": 0.0,
+    "ci_adjusted": [
+      -0.00032549496084050006,
+      -9.465977253092945e-05
+    ],
+    "ci95": [
+      -0.00027762694881130703,
+      -0.00012473160088864336
+    ],
+    "draws": 20000,
+    "rng_seed": 20261010,
+    "blocks": {
+      "F13": 36,
+      "F47": 36
+    },
+    "alpha": 0.0010416666666666667,
+    "pass_gate": true,
+    "block_unit": "5 ordered observed days per farm"
+  },
+  "source_sha256": "d16f4892f9e6e5a5f16eb1a3aa3bedea0e9caa3316aa7d1a37c66f46ec1a595a",
+  "fit": 0,
+  "EC_reads": 0
+}

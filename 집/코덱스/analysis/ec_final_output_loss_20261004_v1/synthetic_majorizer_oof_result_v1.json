@@ -1,0 +1,18 @@
+{
+  "status": "PASS_SYNTHETIC_LOCAL_MAJORIZE_AND_OOF_SCHEMA",
+  "source_sha256": "6fbd0d599e1fac0c0fe1eaf57bd64f77b75065a431b0f59acc639b3fe42dd823",
+  "majorizer_cases": 100,
+  "minimum_q_minus_exact_hessian_eigenvalue": 9.999999733494761e-10,
+  "oof_corruptions_rejected": 7,
+  "formula": "h=GN rowsum + abs(g) + eps; PSD bound at same smooth-region point only",
+  "limitations": [
+    "not a global clipped loss upper bound",
+    "synthetic provenance schema rejects contamination; real provenance requires source/cache checks"
+  ],
+  "fit": 0,
+  "predict": 0,
+  "real_score": 0,
+  "raw_ec_reads": 0,
+  "test_reads": 0,
+  "EL1_rescore": 0
+}

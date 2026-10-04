@@ -1,0 +1,281 @@
+{
+  "status": "SCHEMA_DESCRIPTION_PRE_ACTUAL_FIT",
+  "runner_file": "run_v3.py",
+  "runner_sha256": "be6bab3303e37decad5bd078e56edf569cda5bf0baaea470df971bc53043b172",
+  "preparation_file": "preparation_v3.json",
+  "preparation_sha256": "df4ff2c3b7617676c61e4cee4b8e9690f9312a7cca448c0caec189cb5051b860",
+  "csv_columns": [
+    "row_id",
+    "farm",
+    "day",
+    "hour",
+    "y",
+    "baseline",
+    "candidate",
+    "base_raw",
+    "delta",
+    "validator",
+    "fold",
+    "seed",
+    "clip_lo",
+    "clip_hi",
+    "mode"
+  ],
+  "checkpoint_keys": [
+    "imputer_statistics",
+    "scaler_mean",
+    "scaler_scale",
+    "scaler_var",
+    "scaler_n_samples_seen",
+    "model__0.weight",
+    "model__0.bias",
+    "model__2.weight",
+    "model__2.bias",
+    "model__4.weight",
+    "model__4.bias",
+    "feature_names",
+    "format",
+    "loss_trace"
+  ],
+  "meta_keys": [
+    "status",
+    "signature",
+    "csv_sha256",
+    "checkpoint_sha256",
+    "train_seconds",
+    "train",
+    "first_audit_sha256 only first"
+  ],
+  "train_keys": [
+    "initial_weights_sha256",
+    "all_gradients_finite",
+    "all_parameters_finite",
+    "epochs",
+    "loss_initial",
+    "loss_final",
+    "loss_trace_sha256",
+    "training_rows",
+    "training_days",
+    "inner_bounds",
+    "outer_bounds",
+    "config"
+  ],
+  "first_keys": [
+    "initial_weights_sha256",
+    "all_gradients_finite",
+    "all_parameters_finite",
+    "status",
+    "atol",
+    "zero_query_baseline_maxdiff",
+    "zero_inner_baseline_maxdiff",
+    "errors",
+    "scalar_maxdiff",
+    "prefix",
+    "loss_initial",
+    "loss_final",
+    "fresh_loss_trace_maxdiff",
+    "epochs",
+    "limitations",
+    "signature"
+  ],
+  "signature_sample": {
+    "initial_weights_sha256": {
+      "7": "1610001b35f5021f871f8380324beae34789fd0bcac23eee001b7ef036ba75d5",
+      "101": "b85b41d9ea4ee0eb32822bd2fab7432de74b06665355e738920a7c99b36f72f7",
+      "2024": "5e5355d352382ab4a831d3174c51bc40a2f0fa9bb7715bfb08087d1c9fe51c80"
+    },
+    "validator": "DIAG10",
+    "fold": 0,
+    "dependencies": {
+      "run": "be6bab3303e37decad5bd078e56edf569cda5bf0baaea470df971bc53043b172",
+      "support": "82074e7a04ea681bc94e94e1c90354a743609e0f008b1a378a5a9a23575debed",
+      "core": "057ff4d8da6f3af29105b049251498f79f7fcd6b88d980a8222e5629eb5ce3b2",
+      "env": "82ca7b4bda2e9f50069b53b92d8418a7c0d4dd5ce7127fade16dd6ea78a8dcd2",
+      "env_extra": "8b83d9e2651b3ac2787db59042267951f42b7f5e098a91d90785dc81dd6cbffb",
+      "season": "7d58feeb6a0e7653796a6775f762b659cab3e64078b299d36b52ae69faeff162",
+      "nested_source": "0ceb89e38692f76466000a4b3a83e056c99a04df10c519ddba59e70a55c2bbaf",
+      "matched_source": "b1041713e093ca9b8f17437e05b194f284a7e44e8a681a06ce033bc6fc8a7e40",
+      "original_guard": "e5398b7c29eae32a4efc75381f7478cb1937e28bb4e61db1c1989016d732d9d9"
+    },
+    "inputs": {
+      "train_X": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+      "public_oof": "a3c375e3bd8926598ece14f218de505d120ccad2baba92ae4fa9093693de92fa"
+    },
+    "runtime": {
+      "versions": {
+        "python": "3.12.14",
+        "numpy": "2.5.3",
+        "pandas": "3.0.1",
+        "sklearn": "1.9.1",
+        "lightgbm": "4.7.0",
+        "torch": "2.14.0+cpu"
+      },
+      "module_paths": {
+        "numpy": "C:\\work\\farmai\\.analysis-tools\\python\\numpy\\__init__.py",
+        "pandas": "C:\\Users\\aozks\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\pandas\\__init__.py",
+        "sklearn": "C:\\work\\farmai\\.analysis-tools\\python\\sklearn\\__init__.py",
+        "lightgbm": "C:\\work\\farmai\\.analysis-tools\\python\\lightgbm\\__init__.py",
+        "torch": "C:\\work\\farmai\\.analysis-tools\\extra\\torch\\__init__.py"
+      },
+      "module_init_sha256": {
+        "numpy": "a6958cb364663b7acce81ccfd58eeb65a2b34d5376157f924777b97211a73be4",
+        "pandas": "3f0e93be963b0ccf84860992e2b9c5597132e1fbb51a14ba749a1b4f1b0df14b",
+        "sklearn": "4ca68db4b3be340b1ef586b6c6d1cbf394bf1e5c0b2a998f997f02800a50c2c9",
+        "lightgbm": "ebdcaed150dcbec52107d6c0e696031dfd5120c7231d05c9ad5fdf7ce21ff94e",
+        "torch": "2d89482562a491093a10c2dcf9a83eea070f02b69b65aa4ae1b95ad23bcdbcaf"
+      },
+      "torch_threads": 2,
+      "torch_interop_threads": 1,
+      "deterministic": true
+    },
+    "config": {
+      "modes": [
+        "FINAL_LOSS",
+        "RAW_LOSS"
+      ],
+      "families": {
+        "FINAL_LOSS": 22,
+        "RAW_LOSS": 23
+      },
+      "alpha": 0.0010416666666666667,
+      "features": "original BASE: remove day; append season; exactly14",
+      "hidden": [
+        64,
+        32
+      ],
+      "activation": "ReLU",
+      "head": "zero weight and bias at initialization",
+      "delta": "unbounded additive residual to complete raw mixture",
+      "dtype": "float64",
+      "device": "cpu",
+      "optimizer": "torch.optim.Adam coupled weight_decay",
+      "lr": 0.001,
+      "weight_decay": 0.01,
+      "betas": [
+        0.9,
+        0.999
+      ],
+      "eps": 1e-08,
+      "amsgrad": false,
+      "foreach": false,
+      "fused": false,
+      "capturable": false,
+      "maximize": false,
+      "differentiable": false,
+      "epochs": 400,
+      "batch": "full inner-query b",
+      "loss": "mean squared error; FINAL clip(shrink(base_raw+delta)), RAW base_raw+delta",
+      "preprocessing": "SimpleImputer median keep_empty_features=True -> StandardScaler; fit b only",
+      "train_target": "inner-query b public hourly sub_ec",
+      "train_bounds": "inner-training a target min/max",
+      "query_bounds": "outer-training tr target min/max",
+      "query_base": "unchanged cached original .8R3+.2PFN4bag",
+      "train_base": "matched-inner heldout .8R3+.2PFN4bag",
+      "inner_selection": "existing full_inner single heldout subset; no claim complete crossfit of all outer rows",
+      "threads": 2,
+      "deterministic": true,
+      "selection": "last step400 only; no validation stopping/best epoch",
+      "strict_15": true,
+      "bootstrap": "DIAG each seed farm sortedday5 block20k rng20261003+seed adjusted quantile[alpha,1-alpha]"
+    },
+    "features": [
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "act_vent",
+      "act_shade",
+      "act_thermal",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "hr_sin",
+      "hr_cos",
+      "midnight",
+      "season"
+    ],
+    "cache_hashes": {
+      "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\DIAG10_0_cpu.npz": "0ac6146deb5f35b46f09be044071c034957f80496ac715dd8c1cb8c67b1728aa",
+      "집\\코덱스\\local\\statistical_experiments_20261003_v1\\E_DIAG10_0_cpu.npz": "bece283a1e1d9c757d33b366ccf5391493e7c5ec65d36b53a3e1fa74cfcf82cf",
+      "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\DIAG10_0_pfn_1.npz": "84406b04b35cdcaf7d0aa20e197300b7fbb1188c499dee553925c8f413b3cfa3",
+      "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\DIAG10_0_pfn_2.npz": "dd5ad1a18064c4a621815778a22fe4ec39f7b10cea548b35fee23d1a1342b882",
+      "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\DIAG10_0_pfn_3.npz": "842643868ca163620e924ffe391edf2a4d7da0b463de59060e7893091ceb9687",
+      "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\DIAG10_0_pfn_4.npz": "b045b586e1a74a528cdf3f03ac23c454e291ab63a80dc4f787df37582719fe3e",
+      "집\\코덱스\\analysis\\ec_matched_inner_calibration_20261003_v1\\fit_audit_v1.json": "fa2dbd92c15a779a05687929f70ee18b9d356ec5473e329e103c2c5babfbef24",
+      "집\\코덱스\\analysis\\ec_matched_inner_calibration_20261003_v1\\cpu_reproduction_v1.json": "7812b07c312f253a7548b5840d3222459e1066d4788269c9df695b0461c4fbaa",
+      "집\\코덱스\\analysis\\ec_matched_inner_calibration_20261003_v1\\pfn_reproduction_v1.json": "42e9b944a24040da36caca10ced6f7e84c1ee67aaad86e016a6cb6111ebe9da9",
+      "집\\코덱스\\local\\ec_matched_inner_calibration_20261003_v1\\source_sha.txt": "89f27b5f498a19f99f1ca02af838bee86767c6d48bb1257fb57f8e5da2389724",
+      "집\\코덱스\\local\\ec_tabpfn35_20261003_v1\\DIAG10_0_baseline.npz": "1d2e0730247ef58325e3fbcb061feb15f4027846d9445b92a2d443788fb5139a",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_1.npz": "5cc6223bfce0abe81c75fbd27b0830ba3ea9eaad267d0ea9e5e289c4811528d5",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_2.npz": "490fdea2022748c65f76636aefe143d7f9f5591f1df6b2c7f08e076e4b17ada0",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_3.npz": "f32c566cde91e8e712c24ab26abd3a97e8a9b7489734013c5bc7a3f5057c5fc8",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_pfn_4.npz": "e1d7a17cc486c94bc738eb38912779b1a42d9cee54668f1f84beb8be7e786e70",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_7.npz": "b94ecacf52b5fdde4d2764519416f02bc07583e37a2c8f720507d0fb05d4fa75",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_7.json": "11280ebd82f8b33e1e4dfec9d1087a58d3bd898b2f52758b2b75097a67d2464d",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_101.npz": "e692b4893698f8eb0a23a6c448f8591f306a59f56a5041cf6ba2316cd0c1bef4",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_101.json": "2cd1550a120e0510a25131afbb570617afafeb4a532236f7b09026d69e403d56",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_2024.npz": "756ae0603b86f70f23980900d799bee37a577558adaba390e864351835191644",
+      "집\\코덱스\\local\\ec_dc4_integration_20261002_v1\\DIAG10_0_r3_2024.json": "afc59fe2159a4a36f60512703a6b76b77586c7098a5dfc44b606622ba1904346"
+    },
+    "inner_bounds": [
+      0.063,
+      3.232
+    ],
+    "outer_bounds": [
+      0.063,
+      3.232
+    ],
+    "preprocessing": {
+      "imputer_statistics": "37d564e6503bfa2c2ba668416cdeb43709f5e27f8669d663964887e2726bb730",
+      "scaler_mean": "b3d138fe798ade2b0f47218fd2e03938255ba53d921c12fec6f541dacae78605",
+      "scaler_scale": "adcc67041b748c89b17fcb01baf9636a9881d7659557fb9f2f40772b06976249",
+      "scaler_var": "05ce3fd48cf2fac8091f5da2d039d6dc3ac6e2bcfd447db01b17d207bedb4ccc",
+      "scaler_n_samples_seen": "f06dd45d71518e4ce5f0f70f4b692b6a19e09325400a9b2540b62ea72e1e0c49"
+    },
+    "inner_a_ids": "02e3467daebcc6ec13b1659bcd5306d5a20e1b230d2786be040f92d14780c3b6",
+    "inner_a_rows": 4128,
+    "inner_a_days": 172,
+    "inner_a_features": "e3fabd4260ca7146cfb4d955b1bc8b790c608b40205a8ebcc5cfaee1a8d36b1c",
+    "inner_a_targets": "0e06671bece2dd0649a96afc4724d0105dc30b6e81c12e6cfe5568bb439b4600",
+    "inner_b_ids": "135034300f0b63b7fa10eb520bfbd88bbdbd21b3cf6b6a01754e116985afffc1",
+    "inner_b_rows": 1680,
+    "inner_b_days": 70,
+    "inner_b_features": "ec19522806b20c848eb757e59e87d4a4e161d4e6faa1ec97870848a4caa691c4",
+    "inner_b_targets": "21da085909368996519a076be68b0f34d5bdf866b6ef92b24bbdaf9e8ad690d5",
+    "outer_train_ids": "4b08a7dbef6931b84977e26293e2e14143716eb5fced45dc1ba5890d5bf3df4f",
+    "outer_train_rows": 6288,
+    "outer_train_days": 262,
+    "outer_train_features": "afd754472d95ca763207feaf8e8169db1e48956cbd4c014c96a85d43a1c96a6c",
+    "outer_train_targets": "f8c4414a1b07b8021dc9a1a42c2846b19f63b7ee615230d5a681ae55aa1e9f63",
+    "outer_query_ids": "634c7ed25fa65d2b333da560f82657121b41dcf7e3c5ba5dc57a23639e82e5e6",
+    "outer_query_rows": 912,
+    "outer_query_days": 38,
+    "outer_query_features": "df48b016fc6291399743851882749b0c0ee22c4b0c2ba83c3fbdbfbfec07080b",
+    "outer_query_targets": "fb68669a9f95e5634faf969bac79d6ed8ee0ad5c61514cf5c82afe04c1197fb1",
+    "inner_b_transformed_features": "2b78b3f62fd4ee58b5a9c9fc6bb8710c7dc1bc1de2d4c8901bcecd3d8e258226",
+    "outer_query_transformed_features": "206ecb042ebd4bf269274355f31aa0a912f37e057491854ed27c472236fa5997",
+    "inner_base_raw": {
+      "7": "c0433a0d1c9aee8b15d2af8fbbb5a75d1121464e85e504f1f9ac09fa27ca3f05",
+      "101": "b264449fe36ffbf215be477b9127cf854ea5c741c017172912f28431ac9deb7b",
+      "2024": "a94aab17b5fa1f76d309327e58e1b6a4c417f8936eac38b6f138fd6c139f8da8"
+    },
+    "outer_base_raw": {
+      "7": "f13d336b3790401027524e8cf6845f9cd3163bff694d9b5a950c6bec38baed21",
+      "101": "f97163f2a243674614aac138818581dac9b6994faa3132b27def96af0c9c53e3",
+      "2024": "62ea1d58da399b29278eb3782510c688465aaf5e2439c86cbc248c2103f08a77"
+    },
+    "outer_baseline": {
+      "7": "4845451a21c4bfb37d238eefb61c1c9ec4ad52a0d7b8210bb7809f5cd7253b7e",
+      "101": "44081a665858191fec3528a6035eca1d4e10cede5eaed92433772b9a0d7bb10c",
+      "2024": "cfda82277256ad2e20ce40386372e3e5318542254cf7ebe995c383cb76088d52"
+    },
+    "seed": 7,
+    "mode": "FINAL_LOSS",
+    "family": 22,
+    "preparation_sha256": "df4ff2c3b7617676c61e4cee4b8e9690f9312a7cca448c0caec189cb5051b860",
+    "preregistration_sha256": "25b265f4ac96fabf944b48e20b12357f77547347e2c66fedd51efe2c552ee755"
+  },
+  "real_ec_model_fit": 0,
+  "real_ec_predict": 0,
+  "real_score": 0
+}

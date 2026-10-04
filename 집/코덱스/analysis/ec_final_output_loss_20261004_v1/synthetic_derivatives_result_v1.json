@@ -1,0 +1,63 @@
+{
+  "status": "PASS_SYNTHETIC_DERIVATIVES_AND_COUNTEREXAMPLES",
+  "source_sha256": "ca7a4342bb73064988911bfa680fce6e6e737d077a54ecc6b51fe7869530a387",
+  "loss": ".5 sum squared final clipped residual",
+  "cases": [
+    {
+      "name": "interior",
+      "n": 12,
+      "gradient_maxdiff": 4.728413494081707e-11,
+      "hessian_maxdiff": 2.010490252057906e-08,
+      "offdiag_max": 0.014987064626239175,
+      "chain_term_max": 0.14709788884033037,
+      "active_count": 12
+    },
+    {
+      "name": "clipped",
+      "n": 6,
+      "gradient_maxdiff": 4.791980701135401e-11,
+      "hessian_maxdiff": 1.653201830986717e-08,
+      "offdiag_max": 0.012399999999999998,
+      "chain_term_max": 0.11213333333333333,
+      "active_count": 2
+    }
+  ],
+  "clipped_output0_raw_gradient": 0.04733333333333334,
+  "negative_exact_hessian": -0.34080000000000005,
+  "positive_gauss_newton": 0.0576,
+  "kink_left_derivative": 0.03359999542484893,
+  "kink_right_derivative": 0.0,
+  "leaf_hessian": [
+    [
+      0.5278544421928957,
+      0.044781499747348234,
+      0.0468483685978764
+    ],
+    [
+      0.04478149974734823,
+      0.39174594333811397,
+      0.03748421788733934
+    ],
+    [
+      0.0468483685978764,
+      0.03748421788733934,
+      0.47340610197930894
+    ]
+  ],
+  "diagonal_surrogate_leaf_hessian": [
+    0.5047031650039677,
+    0.379938572586044,
+    0.4587753105851406
+  ],
+  "joint_step": {
+    "scale": 1.0,
+    "old_loss": 0.7007358408659817,
+    "new_loss": 0.3471137722148369
+  },
+  "fit": 0,
+  "predict": 0,
+  "real_score": 0,
+  "raw_ec_reads": 0,
+  "test_reads": 0,
+  "EL1_rescore": 0
+}
