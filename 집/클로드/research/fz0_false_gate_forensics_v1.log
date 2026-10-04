@@ -1,0 +1,42 @@
+STEP 1 oracle (vs SG2, DIAG10 R3S rows):
+  all     SG2 0.1835 | HGB 0.1721 (-6.2%) | HGB on true highs only 0.1686 (-8.2%)
+  pass-2  SG2 0.2643 | HGB 0.2293 (-13.3%) | HGB on true highs only 0.2077 (-21.4%)
+  high    SG2 0.5151 | HGB 0.4518 (-12.3%) | HGB on true highs only 0.4518 (-12.3%)
+  normal  SG2 0.1089 | HGB 0.1148 (+5.4%) | HGB on true highs only 0.1089 (+0.0%)
+
+STEP 2 gated days 32: true 23, false 9
+H2 pair sibling label: true highs (n with sibling 11) median 0.70; false days (n 6) median 0.77
+farm  day   dm   role  sib  false
+ F13  130 0.77  first 0.74      1
+ F13  137 1.08  first 0.72      0
+ F13  139 1.30  first 0.71      0
+ F13  146 1.50 second 0.69      0
+ F13  150 0.82  first 1.68      1
+ F13  151 1.68 second 0.82      0
+ F13  156 0.75 second 0.81      1
+ F13  231 0.62  first 0.74      1
+ F47  136 1.65 second 0.49      0
+ F47  138 1.71 second 0.51      0
+ F47  141 1.87 second 0.40      0
+ F47  146 0.70  first 1.75      1
+ F47  147 1.75 second 0.70      0
+ F47  157 1.21 second 0.83      0
+ F47  177 1.49 second 0.98      0
+ F47  216 0.56 second 0.71      1
+ F47  231 2.18 second 0.46      0
+
+H1/H3 univariate AUC (false vs true), top 10 (farm-wise AUC):
+  in_co2_day           AUC 0.21  F13 0.26  F47 0.05  median true 422.38 false 337.88
+  in_co2_mean          AUC 0.21  F13 0.27  F47 0.09  median true 389.79 false 351.58
+  act_thermal_mean     AUC 0.29  F13 0.18  F47 0.36  median true 34.83 false 32.96
+  in_temp_day          AUC 0.29  F13 0.40  F47 0.00  median true 19.25 false 18.30
+  in_co2_night         AUC 0.29  F13 0.39  F47 0.18  median true 388.57 false 352.57
+  act_heating_day      AUC 0.35  F13 0.48  F47 0.20  median true 0.00 false 0.00
+  out_hum_mean         AUC 0.65  F13 0.52  F47 0.89  median true 63.04 false 63.96
+  act_thermal_day      AUC 0.36  F13 0.28  F47 0.41  median true 93.75 false 97.00
+  act_circfan_night    AUC 0.64  F13 0.61  F47 0.73  median true 0.00 false 0.00
+  out_hum_day          AUC 0.64  F13 0.52  F47 0.80  median true 50.50 false 50.50
+family-wise permutation p (max |AUC-.5| over 48 features): 0.1814
+multivariate leave-one-day-out L2 logistic AUC (non-causal upper bound): 0.74
+
+FZ0 reading: H1 needs best AUC >= .85, same direction both farms, family-wise p < .05; H3 = none of that and multivariate AUC < .75
