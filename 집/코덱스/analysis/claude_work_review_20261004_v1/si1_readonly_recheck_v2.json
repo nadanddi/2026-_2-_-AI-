@@ -1,0 +1,69 @@
+{
+  "status": "PASS_PUBLIC_SI1_READONLY_RECHECK",
+  "rows": 2208,
+  "score_cells": 6,
+  "scores": [
+    {
+      "validator": "DIAG10",
+      "seed": 13,
+      "baseline": 0.26835553995488887,
+      "candidate": 0.26398176972336485,
+      "change_pct": -1.6298416020251616
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 505,
+      "baseline": 0.26491054459528723,
+      "candidate": 0.2680205382041753,
+      "change_pct": 1.1739787910818533
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 6060,
+      "baseline": 0.2679432515948529,
+      "candidate": 0.266213094675273,
+      "change_pct": -0.6457176694250166
+    },
+    {
+      "validator": "DIAG10w",
+      "seed": 13,
+      "baseline": 0.32759970004564337,
+      "candidate": 0.3306526919480047,
+      "change_pct": 0.9319275634061652
+    },
+    {
+      "validator": "DIAG10w",
+      "seed": 505,
+      "baseline": 0.3240929725712171,
+      "candidate": 0.3303626128119085,
+      "change_pct": 1.9345190335201323
+    },
+    {
+      "validator": "DIAG10w",
+      "seed": 6060,
+      "baseline": 0.32836153338289903,
+      "candidate": 0.3342617754587722,
+      "change_pct": 1.7968737126687007
+    }
+  ],
+  "p_worse": 0.8862,
+  "seedmean_baseline": 0.32658795008894187,
+  "seedmean_candidate": 0.3316440320239417,
+  "public_fail": true,
+  "source_sha256": "a2446a14cf505b137da930c6305248326ebc8e94b03d13cad370e4634c9dc1a0",
+  "input_sha256": "4aa4d27a90134016ab5b0c887ad0c4f1fd1a923144351d38d361ac14399240e0",
+  "public_labels_sha256": "a3c375e3bd8926598ece14f218de505d120ccad2baba92ae4fa9093693de92fa",
+  "verifier_sha256": "0fc2aa79c6cd3093f4a3dd341e01bb489222807bed163d23f26e71b3227a034a",
+  "fit": 0,
+  "predict": 0,
+  "raw_EC_reads": 0,
+  "test_reads": 0,
+  "EL1_rescore": 0,
+  "limitations": [
+    "R3S baseline differs from actual .8R3+.2PFN season_v2",
+    "same46days in two layouts are not independent labels",
+    "Author resampling pools calendar day//5 blocks across farms, distinct from our farm-stratified5observedday protocol",
+    "Only fixed3interactions tested; rejection does not establish no information in controls",
+    "EL1 numeric labels/predictions skipped; no new full training/source causal replay"
+  ]
+}

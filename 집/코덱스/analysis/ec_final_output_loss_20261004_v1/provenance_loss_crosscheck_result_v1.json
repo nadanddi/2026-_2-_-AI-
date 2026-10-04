@@ -1,0 +1,42 @@
+{
+  "status": "PASS_132_METADATA_AND_REGISTERED_DIGESTS",
+  "cells": 132,
+  "registered_files": 11,
+  "config_sha256": "cf0ed1736bc4bac3cfc4c5cf74038814220e193ef0a0e9342f4f4912ac7975be",
+  "init_same_across_modes": {
+    "7": "1610001b35f5021f871f8380324beae34789fd0bcac23eee001b7ef036ba75d5",
+    "101": "b85b41d9ea4ee0eb32822bd2fab7432de74b06665355e738920a7c99b36f72f7",
+    "2024": "5e5355d352382ab4a831d3174c51bc40a2f0fa9bb7715bfb08087d1c9fe51c80"
+  },
+  "firsts": [
+    {
+      "mode": "FINAL_LOSS",
+      "sha256": "4f8a7f7955293f831ac19d82c94e25e9f9827c0c7a1ef52cf59e8816dd33e880",
+      "errors": {
+        "repeat": 0.0,
+        "fresh": 0.0,
+        "reversed": 0.0,
+        "single": 1.3877787807814457e-17,
+        "other_query": 0.0
+      }
+    },
+    {
+      "mode": "RAW_LOSS",
+      "sha256": "2bb630ae1094da9e913cda6df8b368a0dfa97bd772126b4a6e17abdf2a884fa2",
+      "errors": {
+        "repeat": 0.0,
+        "fresh": 0.0,
+        "reversed": 0.0,
+        "single": 6.938893903907228e-18,
+        "other_query": 0.0
+      }
+    }
+  ],
+  "actual_fit": 0,
+  "actual_predict": 0,
+  "actual_score": 0,
+  "raw_ec_reads": 0,
+  "test_reads": 0,
+  "EL1_reads": 0,
+  "limitations": "Timing of preregistration still requires parent git evidence; this is digest verification, not optimizer replay. Public/cache feature/purge reconstruction is parent whole evidence."
+}

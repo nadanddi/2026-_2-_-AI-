@@ -1,0 +1,160 @@
+{
+  "status": "PASS_WHOLE_NUMPY_CHECKPOINT_AND_PUBLIC_ARITHMETIC",
+  "candidate_pass": {
+    "FINAL_LOSS": false,
+    "RAW_LOSS": false
+  },
+  "cells": 132,
+  "cells_per_mode": 66,
+  "rows": 166320,
+  "score_cells_per_mode": 15,
+  "alpha": 0.0010416666666666667,
+  "bootstrap": {
+    "FINAL_LOSS": {
+      "7": {
+        "p_worse": 0.98445,
+        "ci_adjusted": [
+          -0.0020333053277616217,
+          0.015745322492616568
+        ],
+        "ci95": [
+          0.00041010757611286227,
+          0.011635508475474784
+        ],
+        "draws": 20000,
+        "rng_seed": 20261010,
+        "blocks": {
+          "F13": 36,
+          "F47": 36
+        },
+        "alpha": 0.0010416666666666667,
+        "pass_gate": false,
+        "block_unit": "5 ordered observed days per farm"
+      },
+      "101": {
+        "p_worse": 0.9835,
+        "ci_adjusted": [
+          -0.0019174496773811478,
+          0.01542379947251875
+        ],
+        "ci95": [
+          0.000392001301482899,
+          0.011494576533318146
+        ],
+        "draws": 20000,
+        "rng_seed": 20261104,
+        "blocks": {
+          "F13": 36,
+          "F47": 36
+        },
+        "alpha": 0.0010416666666666667,
+        "pass_gate": false,
+        "block_unit": "5 ordered observed days per farm"
+      },
+      "2024": {
+        "p_worse": 0.98675,
+        "ci_adjusted": [
+          -0.0016647685928507163,
+          0.015878925615422815
+        ],
+        "ci95": [
+          0.0006121751624545058,
+          0.011729066209136047
+        ],
+        "draws": 20000,
+        "rng_seed": 20263027,
+        "blocks": {
+          "F13": 36,
+          "F47": 36
+        },
+        "alpha": 0.0010416666666666667,
+        "pass_gate": false,
+        "block_unit": "5 ordered observed days per farm"
+      }
+    },
+    "RAW_LOSS": {
+      "7": {
+        "p_worse": 0.97135,
+        "ci_adjusted": [
+          -0.002212919549981947,
+          0.012786693285829275
+        ],
+        "ci95": [
+          -0.00010195849691668102,
+          0.009350509821174776
+        ],
+        "draws": 20000,
+        "rng_seed": 20261010,
+        "blocks": {
+          "F13": 36,
+          "F47": 36
+        },
+        "alpha": 0.0010416666666666667,
+        "pass_gate": false,
+        "block_unit": "5 ordered observed days per farm"
+      },
+      "101": {
+        "p_worse": 0.9726,
+        "ci_adjusted": [
+          -0.0019819972397441695,
+          0.01248462689635788
+        ],
+        "ci95": [
+          -5.727788953772385e-05,
+          0.009250444887239693
+        ],
+        "draws": 20000,
+        "rng_seed": 20261104,
+        "blocks": {
+          "F13": 36,
+          "F47": 36
+        },
+        "alpha": 0.0010416666666666667,
+        "pass_gate": false,
+        "block_unit": "5 ordered observed days per farm"
+      },
+      "2024": {
+        "p_worse": 0.97565,
+        "ci_adjusted": [
+          -0.0020350485390839388,
+          0.013120127673249663
+        ],
+        "ci95": [
+          1.9994308559015963e-05,
+          0.009517843671998543
+        ],
+        "draws": 20000,
+        "rng_seed": 20263027,
+        "blocks": {
+          "F13": 36,
+          "F47": 36
+        },
+        "alpha": 0.0010416666666666667,
+        "pass_gate": false,
+        "block_unit": "5 ordered observed days per farm"
+      }
+    }
+  },
+  "checks": 4908202,
+  "checkpoint_maxdiff": 8.881784197001252e-16,
+  "scalar_prefix_maxdiff": 8.881784197001252e-16,
+  "verification_fit": 0,
+  "checkpoint_replays": 264,
+  "raw_EC_reads": 0,
+  "test_reads": 0,
+  "EL1_rescore": 0,
+  "receipt_sha256": "9d00158d60769569861d60f35e456d85adf458a4561fb4494c01e13008bd2679",
+  "verifier_sha256": "6875fc1d4062d52edbbda6733c72977d45fe9f52b3daf3046317042e212979bd",
+  "fit_audit_sha256": "a25b270ecca1bba30fd940b23109943544c8474be1f740ec844c1de3101550b8",
+  "outputs_sha256": {
+    "full_scores_v3.csv": "274b9f47b2aab1fae26df8009fe3ba60d1187ff7c05a729e6ba18b75b1c91ef0",
+    "full_segments_v3.csv": "1df274159a16c9956c5e44c454ab68325ef1e6ededcdfb3a0d7947e592a0d4f9",
+    "training_and_outer_loss_v3.csv": "e7a2d487f6cc3c92ce64845e98d9267db1e55eb8633ded116b51b1bc452fcedb",
+    "matched_loss_comparison_v3.csv": "c457244b9e6919cffc1ad03ca1cd55c6717cada98dfbf90085e69642ffa4d1d5"
+  },
+  "limitations": [
+    "Repeated public validation, not new independent holdout",
+    "Inner residual training only heldout subset; training loss can differ from outer generalization",
+    "Native first-audit receipt verified, no independent full optimizer training replay"
+  ]
+}
