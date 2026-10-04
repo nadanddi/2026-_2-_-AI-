@@ -1,0 +1,60 @@
+PREP DIAG10 0
+PREP DIAG10 1
+PREP DIAG10 2
+PREP DIAG10 3
+PREP DIAG10 4
+PREP DIAG10 5
+PREP DIAG10 6
+PREP DIAG10 7
+PREP DIAG10 8
+PREP DIAG10 9
+PREP A 0
+PREP A 1
+PREP A 2
+PREP A 3
+PREP A 4
+PREP B 0
+PREP B 1
+PREP B 2
+PREP B 3
+PREP B 4
+PREP EXT10 0
+PREP EXT12 0
+GATE DIAG10 0 COMPLETE
+GATE DIAG10 1 COMPLETE
+GATE DIAG10 2 COMPLETE
+GATE DIAG10 3 COMPLETE
+GATE DIAG10 4 COMPLETE
+GATE DIAG10 5 COMPLETE
+GATE DIAG10 6 COMPLETE
+Traceback (most recent call last):
+  File "C:\work\farmai\집\코덱스\analysis\ec_anchor_trust_20261005_v1\run_v6.py", line 153, in <module>
+    else:assert args.mode;actual(args.mode)
+                          ^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_anchor_trust_20261005_v1\run_v6.py", line 135, in actual
+    with threadpool_limits(limits=2):p,d,z,fit=fit_predict(mode,ref,seed)
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_anchor_trust_20261005_v1\run_v6.py", line 114, in fit_predict
+    scale=StandardScaler();xx=scale.fit_transform(xb[eligible]);test=scale.transform(xq);assert len(xx)>0
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\sklearn\utils\_set_output.py", line 327, in wrapped
+    data_to_wrap = f(self, X, *args, **kwargs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\sklearn\base.py", line 969, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\sklearn\preprocessing\_data.py", line 928, in fit
+    return self.partial_fit(X, y, sample_weight)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\sklearn\base.py", line 1403, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\sklearn\preprocessing\_data.py", line 965, in partial_fit
+    X = validate_data(
+        ^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\sklearn\utils\validation.py", line 3041, in validate_data
+    out = check_array(X, input_name="X", **check_params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\sklearn\utils\validation.py", line 1113, in check_array
+    raise ValueError(
+ValueError: Found array with 0 sample(s) (shape=(0, 23)) while a minimum of 1 is required by StandardScaler.
