@@ -1,0 +1,112 @@
+{
+  "status": "PASS_STATIC_AND_SYNTHETIC_FINDINGS_NEED_FIX",
+  "features": 38,
+  "unique_features": 38,
+  "prepared_folds": 22,
+  "prepared_fit_count": 0,
+  "registered_predict": {
+    "context_size": 512,
+    "n_ensembles": 8,
+    "batch_size": 8,
+    "output_type": "mean"
+  },
+  "identical_nan_feature_arrays_rejected": true,
+  "first_resume_bad_audits_accepted": [
+    "PASS_missing_checks",
+    "FAIL_status",
+    "PASS_exceeded_threshold"
+  ],
+  "three_file_presence_cases": [
+    {
+      "present": [
+        false,
+        false,
+        false
+      ],
+      "accepted": true
+    },
+    {
+      "present": [
+        true,
+        false,
+        false
+      ],
+      "accepted": false
+    },
+    {
+      "present": [
+        false,
+        true,
+        false
+      ],
+      "accepted": false
+    },
+    {
+      "present": [
+        true,
+        true,
+        false
+      ],
+      "accepted": false
+    },
+    {
+      "present": [
+        false,
+        false,
+        true
+      ],
+      "accepted": false
+    },
+    {
+      "present": [
+        true,
+        false,
+        true
+      ],
+      "accepted": false
+    },
+    {
+      "present": [
+        false,
+        true,
+        true
+      ],
+      "accepted": false
+    },
+    {
+      "present": [
+        true,
+        true,
+        true
+      ],
+      "accepted": true
+    }
+  ],
+  "provenance_keys": [
+    "run_sha256",
+    "support_sha256",
+    "adapter_sha256",
+    "runtime_probe_sha256",
+    "weight_sha256",
+    "input_sha256",
+    "runtime"
+  ],
+  "explicit_core_season_env_hash_keys_present": false,
+  "stored_import_probe_status": "PASS_IMPORT_ONLY_FIT_PREDICT_UNTESTED",
+  "stored_import_source_files": 7,
+  "source_hashes": {
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_tabdpt_20261004_v1\\run_v1.py": "bf669e4bfcd244a5f87b48c56af40100067f3a3f1eff183a2f387325cbdd3579",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_tabdpt_preparation_20261004_v1\\runtime_probe_v3.py": "b4392835d3681f1b24ccef90fbefb6d45ddea73019e82ffa3f6d09ba5e433506",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_tabdpt_preparation_20261004_v1\\adapter_draft_v1.py": "db919f630d0993e4a8d9bf547524d02563d481536a93ca61628f733f1dd7c97f",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\codex_independent\\rl_ec_v1\\run.py": "057ff4d8da6f3af29105b049251498f79f7fcd6b88d980a8222e5629eb5ce3b2"
+  },
+  "real_dataset_reads": 0,
+  "weight_reads": 0,
+  "model_imports": 0,
+  "model_fits": 0,
+  "model_predictions": 0,
+  "limitations": [
+    "Static/synthetic checks do not establish real-data NaN frequency or runtime prediction invariance.",
+    "Preparation and import results are stored parent evidence, not re-executed here."
+  ]
+}

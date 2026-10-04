@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scope": "Static source and existing public metadata audit only; no model fit/raw targets/experiment import",
+  "unchanged_helpers": [
+    "module",
+    "finite",
+    "maxdiff",
+    "vector_id_sha",
+    "features_sha",
+    "first_artifact_guard",
+    "quant",
+    "support",
+    "spans",
+    "endpoint",
+    "outer_reference",
+    "fit_direction",
+    "weight",
+    "check_first",
+    "validate_saved"
+  ],
+  "lambda_seeds_unchanged": true,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0"
+  },
+  "public_r3_metadata_cells": 66,
+  "runtime_input_core_metadata_match": true,
+  "source_sha256": "f3a66402c3dba9fff5585d9c64e478d2f271fb57593c2f683682d72db0d9f542"
+}

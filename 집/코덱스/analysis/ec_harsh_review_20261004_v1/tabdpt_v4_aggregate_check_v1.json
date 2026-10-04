@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "source_v3_sha256": "9685a4e940de9c744ec87d0862588854edd5c08b61c38dd11fb857d688698369",
+  "source_v4_sha256": "136f72ce14cf7afc078185f0e1c421052910153d6f156ebe8eed604cc3a6d2f2",
+  "normalized_full_ast_equal": true,
+  "allowed_delta": {
+    "new_oof_asserts": [
+      "Aggregate already exists: preserve and verify separately.",
+      "Preserve existing aggregate."
+    ],
+    "exclusive_open_mode": "x",
+    "prepare_name_changed_constants": 2
+  },
+  "prepare_source_hash_matches_all_22": true,
+  "prepare_fit_count": 0,
+  "preregistration_v6_adjusted_ci_correction_confirmed": true,
+  "first_guard_precedes_runtime_import": true,
+  "python_debug_guards_enabled": true,
+  "synthetic_cases": [
+    {
+      "case": "start_absent",
+      "status": "PASS",
+      "imports_fit_predict": 0
+    },
+    {
+      "case": "start_existing_stops_before_runtime_import",
+      "status": "PASS",
+      "preserved_sha256": "0a62ebee1e85d1f374982a72c495e7b56becc6c86bc7aa30c2545e741d278b85"
+    },
+    {
+      "case": "final_absent_exclusive_creates",
+      "status": "PASS",
+      "new_sha256": "4aef674df0fdb87e5a2bcd5a23f60f8df11e4ff32396f8473445c4ce6e429b8e"
+    },
+    {
+      "case": "final_existing_assert_rejects",
+      "status": "PASS",
+      "preserved_sha256": "0a62ebee1e85d1f374982a72c495e7b56becc6c86bc7aa30c2545e741d278b85"
+    },
+    {
+      "case": "exclusive_alone_rejects_existing",
+      "status": "PASS",
+      "preserved_sha256": "0a62ebee1e85d1f374982a72c495e7b56becc6c86bc7aa30c2545e741d278b85"
+    },
+    {
+      "case": "file_appears_between_assert_and_open",
+      "status": "PASS",
+      "preserved_sha256": "0a62ebee1e85d1f374982a72c495e7b56becc6c86bc7aa30c2545e741d278b85"
+    }
+  ],
+  "synthetic_case_count": 6,
+  "actual_model_fit_count": 0,
+  "actual_model_predict_count": 0,
+  "real_data_or_weight_reads": 0,
+  "limits": [
+    "Aggregate creation is exclusive, not an atomic transaction; an interrupted write can leave a partial aggregate that blocks future fitting.",
+    "Existing assertions presume non-optimized Python; audit ran with __debug__ true.",
+    "First audit day and all-fold season causality scopes remain unchanged."
+  ]
+}

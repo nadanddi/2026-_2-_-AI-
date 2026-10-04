@@ -1,0 +1,314 @@
+{
+  "status": "PASS_CODE_GUARDS_SYNTHETIC_ONLY",
+  "source_sha256": "9685a4e940de9c744ec87d0862588854edd5c08b61c38dd11fb857d688698369",
+  "synthetic_cases": 70,
+  "cases": [
+    {
+      "name": "nullable_same_finite",
+      "accepted": true
+    },
+    {
+      "name": "nullable_same_nan",
+      "accepted": true
+    },
+    {
+      "name": "nullable_all_nan",
+      "accepted": true
+    },
+    {
+      "name": "nullable_changed_nan_mask",
+      "accepted": false
+    },
+    {
+      "name": "nullable_changed_finite",
+      "accepted": false
+    },
+    {
+      "name": "nullable_inf_equal",
+      "accepted": false
+    },
+    {
+      "name": "nullable_shape_difference",
+      "accepted": false
+    },
+    {
+      "name": "first_valid",
+      "accepted": true
+    },
+    {
+      "name": "first_failed_status",
+      "accepted": false
+    },
+    {
+      "name": "first_changed_signature",
+      "accepted": false
+    },
+    {
+      "name": "first_changed_raw_atol",
+      "accepted": false
+    },
+    {
+      "name": "first_changed_final_atol",
+      "accepted": false
+    },
+    {
+      "name": "first_missing_raw_key",
+      "accepted": false
+    },
+    {
+      "name": "first_extra_raw_key",
+      "accepted": false
+    },
+    {
+      "name": "first_raw_over",
+      "accepted": false
+    },
+    {
+      "name": "first_raw_negative",
+      "accepted": false
+    },
+    {
+      "name": "first_raw_nan",
+      "accepted": false
+    },
+    {
+      "name": "first_raw_inf",
+      "accepted": false
+    },
+    {
+      "name": "first_scalar_over",
+      "accepted": false
+    },
+    {
+      "name": "first_scalar_nan",
+      "accepted": false
+    },
+    {
+      "name": "first_prefix_missing",
+      "accepted": false
+    },
+    {
+      "name": "first_prefix_duplicate",
+      "accepted": false
+    },
+    {
+      "name": "first_prefix_wrong_hour",
+      "accepted": false
+    },
+    {
+      "name": "first_prefix_raw_over",
+      "accepted": false
+    },
+    {
+      "name": "first_prefix_final_over",
+      "accepted": false
+    },
+    {
+      "name": "first_prefix_nan",
+      "accepted": false
+    },
+    {
+      "name": "first_feature_missing",
+      "accepted": false
+    },
+    {
+      "name": "first_feature_duplicate",
+      "accepted": false
+    },
+    {
+      "name": "first_feature_wrong_farm",
+      "accepted": false
+    },
+    {
+      "name": "first_feature_over",
+      "accepted": false
+    },
+    {
+      "name": "first_feature_inf",
+      "accepted": false
+    },
+    {
+      "name": "first_changed_day_scope_limit",
+      "accepted": true
+    },
+    {
+      "name": "partial3_0",
+      "accepted": true
+    },
+    {
+      "name": "partial3_1",
+      "accepted": false
+    },
+    {
+      "name": "partial3_2",
+      "accepted": false
+    },
+    {
+      "name": "partial3_3",
+      "accepted": false
+    },
+    {
+      "name": "partial3_4",
+      "accepted": false
+    },
+    {
+      "name": "partial3_5",
+      "accepted": false
+    },
+    {
+      "name": "partial3_6",
+      "accepted": false
+    },
+    {
+      "name": "partial3_7",
+      "accepted": true
+    },
+    {
+      "name": "first_digest_True",
+      "accepted": true
+    },
+    {
+      "name": "first_digest_False",
+      "accepted": false
+    },
+    {
+      "name": "prepare_exact",
+      "accepted": true
+    },
+    {
+      "name": "prepare_dependency_core",
+      "accepted": false
+    },
+    {
+      "name": "prepare_dependency_season",
+      "accepted": false
+    },
+    {
+      "name": "prepare_dependency_env",
+      "accepted": false
+    },
+    {
+      "name": "prepare_dependency_support",
+      "accepted": false
+    },
+    {
+      "name": "prepare_dependency_adapter",
+      "accepted": false
+    },
+    {
+      "name": "prepare_dependency_runtime_probe",
+      "accepted": false
+    },
+    {
+      "name": "prepare_dependency_run",
+      "accepted": false
+    },
+    {
+      "name": "prepare_input_sha256",
+      "accepted": false
+    },
+    {
+      "name": "prepare_public_cache_sha256",
+      "accepted": false
+    },
+    {
+      "name": "prepare_manifest_train_ids",
+      "accepted": false
+    },
+    {
+      "name": "prepare_manifest_query_ids",
+      "accepted": false
+    },
+    {
+      "name": "prepare_manifest_train_features",
+      "accepted": false
+    },
+    {
+      "name": "prepare_manifest_query_features",
+      "accepted": false
+    },
+    {
+      "name": "prepare_manifest_train_targets",
+      "accepted": false
+    },
+    {
+      "name": "prepare_manifest_query_targets",
+      "accepted": false
+    },
+    {
+      "name": "prepare_manifest_baseline_sha256",
+      "accepted": false
+    },
+    {
+      "name": "prepare_manifest_bounds",
+      "accepted": false
+    },
+    {
+      "name": "prepare_manifest_features",
+      "accepted": false
+    },
+    {
+      "name": "prepare_manifest_runtime",
+      "accepted": false
+    },
+    {
+      "name": "R3_provenance_exact",
+      "accepted": true
+    },
+    {
+      "name": "R3_input_changed",
+      "accepted": false
+    },
+    {
+      "name": "R3_core_changed",
+      "accepted": false
+    },
+    {
+      "name": "R3_runtime_python",
+      "accepted": false
+    },
+    {
+      "name": "R3_runtime_numpy",
+      "accepted": false
+    },
+    {
+      "name": "R3_runtime_pandas",
+      "accepted": false
+    },
+    {
+      "name": "R3_runtime_sklearn",
+      "accepted": false
+    },
+    {
+      "name": "R3_runtime_lightgbm",
+      "accepted": false
+    }
+  ],
+  "unchanged_helpers": [
+    "compare",
+    "array_sha",
+    "ids_sha",
+    "runtime_core",
+    "first_audit"
+  ],
+  "prepared_folds": 22,
+  "prepared_dependencies": {
+    "core": "057ff4d8da6f3af29105b049251498f79f7fcd6b88d980a8222e5629eb5ce3b2",
+    "season": "7d58feeb6a0e7653796a6775f762b659cab3e64078b299d36b52ae69faeff162",
+    "env": "82ca7b4bda2e9f50069b53b92d8418a7c0d4dd5ce7127fade16dd6ea78a8dcd2",
+    "support": "82074e7a04ea681bc94e94e1c90354a743609e0f008b1a378a5a9a23575debed",
+    "adapter": "db919f630d0993e4a8d9bf547524d02563d481536a93ca61628f733f1dd7c97f",
+    "runtime_probe": "b4392835d3681f1b24ccef90fbefb6d45ddea73019e82ffa3f6d09ba5e433506",
+    "run": "9685a4e940de9c744ec87d0862588854edd5c08b61c38dd11fb857d688698369"
+  },
+  "residual_scope_limits": [
+    "validate_first checks farm/hour coverage but not the day value; first artifact digest and original execution still bind the generated audit.",
+    "Feature audit covers 37 core features on six selected prefixes; season causality is inherited, not newly demonstrated.",
+    "Final oof.csv is rewritten if it exists without fit_audit; an immutable aggregate guard would preserve that interrupted boundary."
+  ],
+  "real_data_reads": 0,
+  "weight_reads": 0,
+  "model_imports": 0,
+  "model_fits": 0,
+  "model_predictions": 0
+}

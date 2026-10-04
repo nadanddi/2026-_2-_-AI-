@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "scope": "Actual v2 helper extraction on synthetic data only; no import/model/prediction/real scoring",
+  "source_sha256": "0b3bec17176fa4674105745c817a3eb40c07767b9cee43e299715354c0b97f16",
+  "weight_checks": [
+    {
+      "case": "interior",
+      "weight": 0.2444444444444444,
+      "gradient": 0.0
+    },
+    {
+      "case": "zero",
+      "weight": 0.0,
+      "gradient": 0.04000000000000001
+    },
+    {
+      "case": "upper",
+      "weight": 1.0,
+      "gradient": -0.53
+    },
+    {
+      "case": "all_zero",
+      "weight": -0.0,
+      "gradient": 0.0
+    }
+  ],
+  "feature_hash_detects_value_season_order_column_changes": true,
+  "feature_hash_canonicalizes_nan_payload": true,
+  "first_artifact_combinations": [
+    {
+      "present_pattern": 0,
+      "stopped_before_fit": false
+    },
+    {
+      "present_pattern": 1,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 2,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 3,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 4,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 5,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 6,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 7,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 8,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 9,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 10,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 11,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 12,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 13,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 14,
+      "stopped_before_fit": true
+    },
+    {
+      "present_pattern": 15,
+      "stopped_before_fit": false
+    }
+  ],
+  "changed_first_signature_stopped": true,
+  "first_guard_precedes_fit_direction": true
+}

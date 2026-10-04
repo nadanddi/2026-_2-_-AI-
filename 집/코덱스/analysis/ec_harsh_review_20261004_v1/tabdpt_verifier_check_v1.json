@@ -1,0 +1,177 @@
+{
+  "status": "PASS_SYNTHETIC_AND_SOURCE_ONLY",
+  "verifier_sha256": "e7891ee0dfcee43a24c12124b5075b05ee94c1775dbca7292a6f8f7323519eca",
+  "run_sha256": "136f72ce14cf7afc078185f0e1c421052910153d6f156ebe8eed604cc3a6d2f2",
+  "cases": [
+    {
+      "case": "independent_fraction_prefix_and_actual_shrink",
+      "status": "PASS",
+      "values": [
+        2.0,
+        2.0,
+        0.8,
+        0.1,
+        1.7
+      ]
+    },
+    {
+      "case": "prefix_duplicate_hour",
+      "status": "PASS"
+    },
+    {
+      "case": "prefix_nonfinite_raw",
+      "status": "PASS"
+    },
+    {
+      "case": "decimal_and_scalar_bootstrap_nonconstant_variable_count",
+      "status": "PASS",
+      "p_worse": 0.0,
+      "ci": [
+        -0.029752777777777784,
+        -0.018694907407407427
+      ],
+      "blocks_per_farm": {
+        "F13": 3,
+        "F47": 3
+      }
+    },
+    {
+      "case": "bootstrap_input_order_invariance",
+      "status": "PASS"
+    },
+    {
+      "case": "bootstrap_ties_count_as_worse",
+      "status": "PASS"
+    },
+    {
+      "case": "bootstrap_duplicate_hour",
+      "status": "PASS"
+    },
+    {
+      "case": "full_15_cell_scoring_and_inclusive_high_31",
+      "status": "PASS",
+      "score_cells": 15,
+      "diag_rows_per_seed": 8640,
+      "high_days": 31,
+      "ordinary_days": 329,
+      "all_scores_negative": true,
+      "public_pass": true
+    },
+    {
+      "case": "decision_all_negative_and_below_threshold",
+      "status": "PASS",
+      "expected": true
+    },
+    {
+      "case": "decision_one_score_tie",
+      "status": "PASS",
+      "expected": false
+    },
+    {
+      "case": "decision_one_score_worse",
+      "status": "PASS",
+      "expected": false
+    },
+    {
+      "case": "decision_p_exact_alpha",
+      "status": "PASS",
+      "expected": false
+    },
+    {
+      "case": "decision_ci_exact_zero",
+      "status": "PASS",
+      "expected": false
+    },
+    {
+      "case": "decision_ci_positive",
+      "status": "PASS",
+      "expected": false
+    },
+    {
+      "case": "decision_all_three_bootstrap_seeds_required",
+      "status": "PASS"
+    },
+    {
+      "case": "first_audit_valid",
+      "status": "PASS"
+    },
+    {
+      "case": "first_audit_wrong_query_day",
+      "status": "PASS"
+    },
+    {
+      "case": "first_audit_wrong_train_day",
+      "status": "PASS"
+    },
+    {
+      "case": "first_audit_nonfinite_error",
+      "status": "PASS"
+    },
+    {
+      "case": "first_audit_error_above_tol",
+      "status": "PASS"
+    },
+    {
+      "case": "first_audit_wrong_status",
+      "status": "PASS"
+    },
+    {
+      "case": "first_audit_wrong_signature",
+      "status": "PASS"
+    },
+    {
+      "case": "first_audit_duplicate_prefix_pair",
+      "status": "PASS"
+    },
+    {
+      "case": "first_audit_wrong_final_atol",
+      "status": "PASS"
+    },
+    {
+      "case": "all_manifest_fields_ast_match_runner_except_equivalent_baseline_path",
+      "status": "PASS"
+    },
+    {
+      "case": "pinned_run_source_sha",
+      "status": "PASS"
+    }
+  ],
+  "case_count": 26,
+  "numerical_comparisons": 120146,
+  "actual_result_or_data_reads": 0,
+  "actual_model_fit": 0,
+  "actual_model_predict": 0,
+  "actual_full_verification_runs": 0,
+  "independent_bootstrap": {
+    "p_worse": 0.0,
+    "ci": [
+      -0.029752777777777784,
+      -0.018694907407407427
+    ],
+    "ci_family20": [
+      -0.029752777777777784,
+      -0.018694907407407427
+    ],
+    "ci95": [
+      -0.02725398550724638,
+      -0.019296581196581217
+    ],
+    "alpha": 0.00125,
+    "adjusted_quantiles": [
+      0.00125,
+      0.99875
+    ],
+    "n_bootstrap": 20000,
+    "rng_seed": 20261104,
+    "blocks_per_farm": {
+      "F13": 3,
+      "F47": 3
+    },
+    "independent_sample_maxdiff": 0.0
+  },
+  "limitations": [
+    "Verifier v1 original R3 replay omits saved train IDs, prediction digest, original labels, raw-component identity and original target bounds.",
+    "Source/manifest replay reuses feature/season implementation; it is not independent all-fold causal recomputation.",
+    "Stratified nonoverlapping sorted five-day blocks and finite 20000 draws inherit previous protocol assumptions."
+  ]
+}

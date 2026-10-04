@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scope": "Fixed completed public OOF only; reproduce registered farm-stratified 5-record bootstrap and outer-prefix diagnostic stage; no fit or tuning",
+  "bootstrap": [
+    {
+      "seed": 7,
+      "p_worse": 0.8788,
+      "ci": [
+        -0.0003044568620667706,
+        0.000928277090982272
+      ]
+    },
+    {
+      "seed": 101,
+      "p_worse": 0.866,
+      "ci": [
+        -0.0002881957805743207,
+        0.0009028049188501844
+      ]
+    },
+    {
+      "seed": 2024,
+      "p_worse": 0.86245,
+      "ci": [
+        -0.0003068208733786256,
+        0.0009480027748835761
+      ]
+    }
+  ],
+  "bootstrap_replicates": 20000,
+  "alpha": 0.0013157894736842105,
+  "shift_outer_stage_rows": 13860,
+  "shift_outer_stage_maxdiff": 2.220446049250313e-16
+}

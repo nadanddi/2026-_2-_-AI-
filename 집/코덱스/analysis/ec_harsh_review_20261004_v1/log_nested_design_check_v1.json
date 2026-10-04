@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "scope": "Synthetic algebra only; no data/model import, fit, real prediction or new validation score",
+  "convex_cases": [
+    {
+      "weight": 0.0,
+      "clip_maxdiff": 0.0
+    },
+    {
+      "weight": 0.125,
+      "clip_maxdiff": 0.0
+    },
+    {
+      "weight": 0.37,
+      "clip_maxdiff": 0.0
+    },
+    {
+      "weight": 1.0,
+      "clip_maxdiff": 0.0
+    }
+  ],
+  "weight_cases": [
+    {
+      "case": "interior",
+      "weight": 0.2444444444444444,
+      "gradient": 0.0,
+      "synthetic_mse0": 0.0036999999999999997,
+      "synthetic_msew": 0.0017580246913580246
+    },
+    {
+      "case": "zero",
+      "weight": 0.0,
+      "gradient": 0.04000000000000001,
+      "synthetic_mse0": 0.025000000000000005,
+      "synthetic_msew": 0.025000000000000005
+    },
+    {
+      "case": "upper",
+      "weight": 1.0,
+      "gradient": -0.53,
+      "synthetic_mse0": 4.0,
+      "synthetic_msew": 3.425
+    },
+    {
+      "case": "zero_direction",
+      "weight": 0.0,
+      "gradient": 0.0,
+      "synthetic_mse0": 0.065,
+      "synthetic_msew": 0.065
+    }
+  ],
+  "clipping_order_example": {
+    "endpoint_mixture": 0.95,
+    "raw_delta_then_clip": 1.0
+  }
+}

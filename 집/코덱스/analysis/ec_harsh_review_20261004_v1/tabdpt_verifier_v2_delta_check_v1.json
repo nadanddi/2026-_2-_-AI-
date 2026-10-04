@@ -1,0 +1,176 @@
+{
+  "status": "PASS_DELTA_AND_SYNTHETIC_ONLY",
+  "verifier_v1_sha256": "e7891ee0dfcee43a24c12124b5075b05ee94c1775dbca7292a6f8f7323519eca",
+  "verifier_v2_sha256": "e5398b7c29eae32a4efc75381f7478cb1937e28bb4e61db1c1989016d732d9d9",
+  "normalized_full_ast_equal": true,
+  "unchanged_functions": [
+    "sha",
+    "readj",
+    "array_sha",
+    "ids_sha",
+    "bootstrap_runtime",
+    "compare",
+    "rmse_both",
+    "prefix_scalar",
+    "boot_diag",
+    "validate_first",
+    "check_runtime",
+    "calculate_scores"
+  ],
+  "new_guard": "guard_original_r3",
+  "source_constants_and_main_ast_unchanged": true,
+  "cases": [
+    {
+      "case": "valid_with_original_canonical_unicode_key",
+      "status": "PASS"
+    },
+    {
+      "case": "train_order",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "stored_target",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "member_arithmetic",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "file_sha",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "train_target_bounds",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "metadata_seed",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "metadata_fold",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "metadata_kind",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "metadata_key",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "provenance_train_rows",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "provenance_validation_rows",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "provenance_train_days",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "provenance_validation_days",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "query_order",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "query_member_nan",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "train_prediction_inf",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "required_member_missing",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "wrong_array_shape",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "tiny_member_identity_change",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "public_train_target",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "public_query_target",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "train_query_overlap",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "duplicate_train_id",
+      "status": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "finite_train_raw_not_recomputed_scope_limit",
+      "status": "ACCEPTED_SCOPE_LIMIT"
+    }
+  ],
+  "case_count": 25,
+  "reject_count": 23,
+  "comparisons": 87,
+  "one_original_metadata_schema": {
+    "top": {
+      "provenance": "dict",
+      "kind": "str",
+      "seed": "int",
+      "fold": "list",
+      "elapsed_seconds": "float",
+      "train_raw_rmse": "float",
+      "train_post_rmse": "float",
+      "raw_validation_rmse": "float",
+      "post_validation_rmse": "float",
+      "key": "str",
+      "prediction_sha256": "str"
+    },
+    "provenance": {
+      "code": "str",
+      "protocol": "str",
+      "source": "str",
+      "engine": "str",
+      "shared": "dict",
+      "environment": "dict",
+      "seeds": "list",
+      "pfn_contexts": "list",
+      "feature_order": "str",
+      "train_hash": "str",
+      "validation_hash": "str",
+      "train_rows": "int",
+      "validation_rows": "int",
+      "train_days": "int",
+      "validation_days": "int",
+      "train_target_bounds": "list",
+      "season_checks": "dict"
+    },
+    "fold_length": 2,
+    "train_target_bounds_length": 2
+  },
+  "actual_tabdpt_output_reads": 0,
+  "actual_data_or_score_reads": 0,
+  "original_npz_reads": 0,
+  "original_metadata_structure_reads": 1,
+  "actual_fit": 0,
+  "actual_predict": 0,
+  "full_verify_runs": 0,
+  "limits": [
+    "guard compares the supplied digest; whole-verifier path computes actual NPZ SHA before load, tested by source inspection only",
+    "metadata key is a consistency digest, not an independent original fit replay",
+    "finite train_raw_r3 is shape/finite checked; not decomposed or refitted and not used in candidate query predictions",
+    "same season/core and stored first audit scope limits from v18 remain unchanged"
+  ]
+}

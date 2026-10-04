@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": 249480,
+  "public_rows_each": 27720,
+  "matching": "same ordered keys/labels/farm/day/hour/three R3S baselines; both labels agree with prior permitted public cache",
+  "limitations": [
+    "Paired outputs do not identify individual feature contributions; six features removed simultaneously and tree randomness may change.",
+    "No refit/no EL1 scoring/no new candidate."
+  ]
+}

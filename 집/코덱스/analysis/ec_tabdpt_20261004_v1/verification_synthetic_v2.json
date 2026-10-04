@@ -1,0 +1,27 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "checks": 40036,
+  "original_r3_tamper_rejections": [
+    "train_order",
+    "stored_target",
+    "member_arithmetic",
+    "file_sha",
+    "train_target_bounds"
+  ],
+  "source_shrink_hash": "057ff4d8da6f3af29105b049251498f79f7fcd6b88d980a8222e5629eb5ce3b2",
+  "family": 20,
+  "alpha": 0.00125,
+  "adjusted_quantiles": [
+    0.00125,
+    0.99875
+  ],
+  "toy_blocks_per_farm": {
+    "F13": 3,
+    "F47": 3
+  },
+  "model_fit": 0,
+  "model_predict": 0,
+  "actual_data_reads": 0,
+  "actual_score_reads": 0,
+  "weight_reads": 0
+}

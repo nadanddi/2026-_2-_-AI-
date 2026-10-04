@@ -1,0 +1,93 @@
+{
+  "status": "PASS_FIRST_CELL_INTEGRITY_ONLY",
+  "validator": "DIAG10",
+  "fold": 0,
+  "seed": 7,
+  "source_sha256": "136f72ce14cf7afc078185f0e1c421052910153d6f156ebe8eed604cc3a6d2f2",
+  "verifier_sha256": "e5398b7c29eae32a4efc75381f7478cb1937e28bb4e61db1c1989016d732d9d9",
+  "first_audit_sha256": "7ff68c8f7f18287eb5aef8f2b01dae3db11fa11164a56698f2da9387062e1a2d",
+  "metadata_sha256": "541286af0cc9f42be9dbf4981de7fb856d6e28f04636d0d49fde06ca765a90cc",
+  "csv_sha256": "f8fa4e8581e253977b5ffdee20e0ba8ae41bbd5ee213aa322712369769874b1c",
+  "train_rows": 6288,
+  "query_rows": 912,
+  "train_days": 262,
+  "query_days": 38,
+  "fresh_signature_equal": true,
+  "fresh_full38_feature_hashes_equal": true,
+  "public_label_id_baseline_equal": true,
+  "source_and_core_runtime_equal": true,
+  "stored_overlay_runtime_and_seven_source_hashes_equal": true,
+  "first_v2_day_validation": "PASS",
+  "raw_errors": {
+    "repeat": 0.0,
+    "single": 5.960464477539063e-08,
+    "reversed": 0.0,
+    "other_query": 0.0,
+    "fresh_fit": 0.0
+  },
+  "saved_prefix_raw_max": 5.960464477539063e-08,
+  "saved_prefix_final_max": 1.1920928966180355e-08,
+  "saved_scalar_maxdiff": 2.220446049250313e-16,
+  "vector_candidate_maxdiff": 0.0,
+  "independent_scalar_maxdiff": 2.220446049250313e-16,
+  "independent_decimal_maxdiff": 2.220446049250313e-16,
+  "postprocess_prefix": [
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 0,
+      "rows": 1,
+      "postprocess_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 6,
+      "rows": 7,
+      "postprocess_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "day": 8,
+      "hour": 12,
+      "rows": 13,
+      "postprocess_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 0,
+      "rows": 1,
+      "postprocess_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 6,
+      "rows": 7,
+      "postprocess_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 6,
+      "hour": 12,
+      "rows": 13,
+      "postprocess_maxdiff": 0.0
+    }
+  ],
+  "numerical_comparison_elements": 12812,
+  "fit_predict_seconds": 11985.423031100072,
+  "saved_audit_seconds": 1108.0920295000542,
+  "new_fit": 0,
+  "new_predict": 0,
+  "partial_rmse_or_score_calculations": 0,
+  "bootstrap_or_adoption_calculations": 0,
+  "full_experiment_verification": 0,
+  "limitations": [
+    "First completed seed/fold only; all 66 cells and model performance remain unverified.",
+    "Saved batch/single/order/other/fresh/prefix raw errors were SHA/signature/day/tolerance checked, not recomputed by fresh model prediction.",
+    "Fresh FULL38 hashes reuse fixed core/season; saved 37-core causality metrics are not independent all-fold season causality proof.",
+    "Runtime metadata and seven installed source hashes checked without reimporting TabDPT/torch or rereading weights.",
+    "Existing public baseline and labels are consistency evidence, not independent untouched holdout validation."
+  ]
+}
