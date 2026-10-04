@@ -1,0 +1,60 @@
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 9 of 16 pass-2 training days
+DIAG10/4 done (reference pairs 182)
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+DIAG10/5 done (reference pairs 197)
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 6 of 11 pass-2 training days
+DIAG10/6 done (reference pairs 191)
+   F13 anchors 12 of 17 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+DIAG10/7 done (reference pairs 193)
+   F13 anchors 14 of 17 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/8 done (reference pairs 185)
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+DIAG10/9 done (reference pairs 193)
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/10 done (reference pairs 217)
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/11 done (reference pairs 217)
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/12 done (reference pairs 215)
+   F13 anchors 14 of 15 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/13 done (reference pairs 215)
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/14 done (reference pairs 217)
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 13 pass-2 training days
+EL1/15 done (reference pairs 217)
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+EL1/16 done (reference pairs 217)
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 13 pass-2 training days
+EL1/17 done (reference pairs 215)
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 10 pass-2 training days
+EL1/18 done (reference pairs 215)
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+EL1/19 done (reference pairs 217)
+pB(23h) >= .5 agrees with st_dong_assign µ¿B on validation records: 0.76 (n 265)
+best-anchor |dpB| < .5 share on pass-2 rows: 0.78
+
+PASS-2 rows: R3S+SG2 | AF0 | AF0b
+  DIAG10  all    s7 0.2603 | 0.2688 | 0.2573 (-1.2%)  s101 0.2628 | 0.2632 | 0.2600 (-1.1%)  s2024 0.2697 | 0.2681 | 0.2562 (-5.0%)
+  DIAG10  normal s7 0.1346 | 0.1951 | 0.1857 (+37.9%)  s101 0.1371 | 0.1972 | 0.1974 (+43.9%)  s2024 0.1497 | 0.2024 | 0.1874 (+25.2%)
+  DIAG10  high   s7 0.6892 | 0.5935 | 0.5714 (-17.1%)  s101 0.6935 | 0.5644 | 0.5498 (-20.7%)  s2024 0.6967 | 0.5706 | 0.5622 (-19.3%)
+  EL1     all    s7 0.3019 | 0.2990 | 0.3013 (-0.2%)  s101 0.3081 | 0.2877 | 0.3009 (-2.3%)  s2024 0.3061 | 0.2909 | 0.3026 (-1.1%)
+  EL1     normal s7 0.1468 | 0.2266 | 0.2182 (+48.6%)  s101 0.1577 | 0.2154 | 0.2165 (+37.3%)  s2024 0.1494 | 0.2145 | 0.2202 (+47.4%)
+  EL1     high   s7 0.8133 | 0.6333 | 0.6669 (-18.0%)  s101 0.8179 | 0.6174 | 0.6699 (-18.1%)  s2024 0.8240 | 0.6337 | 0.6670 (-19.0%)
+
+AF0b clue: False
