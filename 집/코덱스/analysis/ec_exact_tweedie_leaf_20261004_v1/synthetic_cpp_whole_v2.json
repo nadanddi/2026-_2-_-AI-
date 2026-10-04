@@ -1,0 +1,24 @@
+{
+  "status": "PASS_SYNTHETIC_ONLY",
+  "result": {
+    "status": "PASS",
+    "trees": 1,
+    "max_F_error": 0.0,
+    "max_AB_error": 0.0,
+    "max_root_error": 5.551115123125783e-17,
+    "max_final_raw_error": 0.0
+  },
+  "rejected": [
+    "missingbag",
+    "duplicate",
+    "root",
+    "score",
+    "label",
+    "weight",
+    "sum",
+    "iteration"
+  ],
+  "fit": 0,
+  "real_predict": 0,
+  "real_score": 0
+}

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\집\코덱스\analysis\ec_exact_tweedie_leaf_20261004_v1\verify_full_v4.py", line 365, in <module>
+    synthetic() if args.synthetic else verify()
+                                       ^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_exact_tweedie_leaf_20261004_v1\verify_full_v4.py", line 271, in verify
+    cpp_independent=independent_cpp(OUT/'first_exact_cpp_trace_v1.ndjson',model,tr,bs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_exact_tweedie_leaf_20261004_v1\whole_cpp_recheck_v1.py", line 48, in independent_cpp
+    maxRoot=max(maxRoot,abs(x-z));assert maxRoot<=1e-12
+                                         ^^^^^^^^^^^^^^
+AssertionError
