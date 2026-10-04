@@ -1,0 +1,47 @@
+
+HIGH-EC days (label >= 1): residual vs same-dong previous operation: n 31 (mean label 1.549, pred 1.225, residual 0.324)
+   sealed_3               rho -0.04  F13 +0.09  F47 -0.15  n 31
+   act_heating_on_3       rho +0.09  F13 +0.14  F47 +0.05  n 31
+   act_co2_on_3           rho +0.25  F13 +0.14  F47 +0.34  n 31
+   act_thermal_on_3       rho -0.02  F13 -0.10  F47 -0.02  n 31
+   in_temp_3              rho -0.04  F13 -0.07  F47 -0.05  n 31
+   in_hum_3               rho +0.19  F13 +0.23  F47 +0.01  n 31
+   in_co2_3               rho +0.03  F13 -0.01  F47 -0.02  n 31
+   out_rad_3              rho +0.21  F13 +0.15  F47 +0.26  n 31
+   sealed_7               rho +0.05  F13 +0.11  F47 -0.02  n 31
+   act_heating_on_7       rho +0.12  F13 +0.03  F47 +0.15  n 31
+   act_co2_on_7           rho +0.19  F13 +0.29  F47 -0.05  n 31
+   act_thermal_on_7       rho -0.14  F13 -0.36  F47 -0.01  n 31
+   in_temp_7              rho -0.18  F13 -0.09  F47 -0.27  n 31
+   in_hum_7               rho +0.25  F13 +0.20  F47 +0.47  n 31
+   in_co2_7               rho -0.01  F13 -0.18  F47 +0.18  n 31
+   out_rad_7              rho +0.02  F13 +0.13  F47 -0.19  n 31
+   seal_streak            rho -0.08  F13 -0.13  F47 -0.12  n 31
+   bench_prev_ec_mean     rho -0.02  F13 +0.35  F47 -0.22  n 30
+   bench_prev_ec_min      rho +0.35  F13 +0.57  F47 +0.21  n 30
+
+PASS-2 labelled days: residual vs same-dong previous operation: n 46 (mean label 0.599, pred 0.535, residual 0.064)
+   sealed_3               rho +0.09  F13 -0.14  F47 +0.22  n 45
+   act_heating_on_3       rho +0.22  F13 +0.04  F47 +0.40  n 45
+   act_co2_on_3           rho +0.13  F13 -0.12  F47 +0.31  n 45
+   act_thermal_on_3       rho -0.01  F13 +0.07  F47 -0.13  n 45
+   in_temp_3              rho -0.08  F13 +0.23  F47 -0.51  n 45
+   in_hum_3               rho +0.01  F13 -0.27  F47 +0.45  n 45
+   in_co2_3               rho +0.29  F13 +0.47  F47 +0.10  n 45
+   out_rad_3              rho -0.24  F13 +0.06  F47 -0.54  n 45
+   sealed_7               rho +0.03  F13 -0.19  F47 +0.13  n 46
+   act_heating_on_7       rho +0.13  F13 -0.22  F47 +0.64  n 46
+   act_co2_on_7           rho +0.30  F13 +0.17  F47 +0.38  n 46
+   act_thermal_on_7       rho -0.08  F13 +0.05  F47 -0.12  n 46
+   in_temp_7              rho -0.05  F13 +0.35  F47 -0.50  n 46
+   in_hum_7               rho -0.11  F13 -0.26  F47 +0.33  n 46
+   in_co2_7               rho +0.25  F13 +0.32  F47 +0.03  n 46
+   out_rad_7              rho -0.12  F13 +0.04  F47 -0.30  n 46
+   seal_streak            rho +0.12  F13 -0.10  F47 +0.31  n 46
+   bench_prev_ec_mean     rho +0.10  F13 -0.15  F47 +0.18  n 38
+   bench_prev_ec_min      rho +0.19  F13 +0.02  F47 +0.40  n 38
+
+best operation feature on high days: in_hum_7 rho +0.25 (F13 +0.20, F47 +0.47), family-wise p 0.8141
+benchmark (labels, not usable in pass 2): prev_ec_mean rho -0.02, prev_ec_min rho +0.35
+
+OP0 clue: False
