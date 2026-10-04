@@ -1,0 +1,20 @@
+cc: anchor 320/360 (pass-2 46/46); best candidate same CH1 chain 0.60 (pass-2 0.76), same µ¿ 0.74 (pass-2 0.80)
+cr: anchor 309/360 (pass-2 44/46); best candidate same CH1 chain 0.61 (pass-2 0.84), same µ¿ 0.74 (pass-2 0.82)
+hy: anchor 308/360 (pass-2 43/46); best candidate same CH1 chain 0.60 (pass-2 0.79), same µ¿ 0.73 (pass-2 0.79)
+
+day-level RMSE
+segment           n       pm    cr_k1    hy_k1    cc_k1    cc_k2  b_cr_k1  b_hy_k1  b_cc_k1  b_cc_k2
+all             360   0.1724   0.2338   0.2377   0.3093   0.3022   0.1692   0.1719   0.2024   0.2097
+pass-2           46   0.2570   0.1868   0.2216   0.3983   0.2925   0.1318   0.1565   0.2235   0.2165
+pass-2 normal    41   0.1390   0.0942   0.1496   0.3811   0.3003   0.0988   0.1251   0.2102   0.1802
+pass-2 high       5   0.6702   0.4983   0.5182   0.5182   0.2183   0.2823   0.3115   0.3115   0.4063
+pass-1 normal   288   0.1028   0.1383   0.1383   0.1819   0.1990   0.0994   0.0994   0.1149   0.1247
+
+row-level RMSE (R3S shape + blended level)
+  all            R3S 0.1881  cr_k1 0.1852  hy_k1 0.1877  cc_k1 0.2159  cc_k2 0.2229
+  pass-2         R3S 0.2680  cr_k1 0.1520  hy_k1 0.1739  cc_k1 0.2360  cc_k2 0.2294
+  pass-2 normal  R3S 0.1452  cr_k1 0.1073  hy_k1 0.1319  cc_k1 0.2144  cc_k2 0.1850
+
+pass-2 P(worse): cr_k1 0.0001  hy_k1 0.0008  cc_k1 0.2918  cc_k2 0.1860
+
+LB8 clue (G calendar = cc, signature kNN, previous labels): False

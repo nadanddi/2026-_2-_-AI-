@@ -1,0 +1,21 @@
+own calendar: {'F13': {'n_dates': 110, 'moved': 38, 'gaps': 3}, 'F47': {'n_dates': 108, 'moved': 61, 'gaps': 3}}
+cr: anchor 309/360 (pass-2 44/46); best candidate same CH1 chain 0.61 (pass-2 0.84), same µ¿ 0.74 (pass-2 0.82)
+hy: anchor 308/360 (pass-2 43/46); best candidate same CH1 chain 0.60 (pass-2 0.79), same µ¿ 0.73 (pass-2 0.79)
+ow: anchor 311/360 (pass-2 46/46); best candidate same CH1 chain 0.51 (pass-2 0.52), same µ¿ 0.74 (pass-2 0.78)
+
+day-level RMSE
+segment           n       pm    cr_k1    hy_k1    ow_k1    ow_k2  b_cr_k1  b_hy_k1  b_ow_k1  b_ow_k2
+all             360   0.1724   0.2338   0.2377   0.3042   0.3078   0.1692   0.1719   0.2144   0.2192
+pass-2           46   0.2570   0.1868   0.2216   0.4945   0.4125   0.1318   0.1565   0.3436   0.3143
+pass-2 normal    41   0.1390   0.0942   0.1496   0.4138   0.2855   0.0988   0.1251   0.2409   0.1834
+pass-2 high       5   0.6702   0.4983   0.5182   0.9197   0.9470   0.2823   0.3115   0.7810   0.7955
+pass-1 normal   288   0.1028   0.1383   0.1383   0.1862   0.2113   0.0994   0.0994   0.1258   0.1367
+
+row-level RMSE (R3S shape + blended level)
+  all            R3S 0.1881  cr_k1 0.1852  hy_k1 0.1877  ow_k1 0.2272  ow_k2 0.2318
+  pass-2         R3S 0.2680  cr_k1 0.1520  hy_k1 0.1739  ow_k1 0.3518  ow_k2 0.3233
+  pass-2 normal  R3S 0.1452  cr_k1 0.1073  hy_k1 0.1319  ow_k1 0.2445  ow_k2 0.1881
+
+pass-2 P(worse): cr_k1 0.0001  hy_k1 0.0008  ow_k1 0.9938  ow_k2 0.9877
+
+LB7 clue (OWN calendar, signature kNN, previous labels): False
