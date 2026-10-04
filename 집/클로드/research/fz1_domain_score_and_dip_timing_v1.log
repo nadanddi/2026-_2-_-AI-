@@ -1,0 +1,46 @@
+(A) gated days 32 (true 23, false 9)
+    S_low median true -0.82 vs false 1.19; AUC 0.77 (F13 0.65, F47 0.95); one-sided p 0.0217
+    component AUCs (sign-adjusted, >.5 = domain direction): {'in_hum_mean': 0.56, 'act_shade_mean': 0.49, 'act_thermal_mean': 0.35, 'act_fog_mean': 0.53, 'in_temp_mean': 0.59, 'in_co2_mean': 0.79}
+farm  day   dm  false  S_low
+ F47  216 0.56      1   3.12
+ F13  233 0.63      1   2.51
+ F13  178 1.84      0   2.28
+ F13  231 0.62      1   2.12
+ F13  150 0.82      1   1.80
+ F47  177 1.49      0   1.60
+ F13  153 1.64      0   1.23
+ F13  148 0.74      1   1.19
+ F13  139 1.30      0   0.93
+ F13  156 0.75      1   0.37
+ F47  146 0.70      1   0.14
+ F13  243 1.72      0  -0.08
+ F13  151 1.68      0  -0.11
+ F13  241 1.43      0  -0.15
+ F13  143 1.53      0  -0.18
+ F47  147 1.75      0  -0.52
+ F13  146 1.50      0  -0.53
+ F13  121 1.32      0  -0.67
+ F13  217 1.69      0  -0.82
+ F13  132 0.87      1  -0.95
+ F47  157 1.21      0  -0.96
+ F47  132 2.71      0  -1.16
+ F47  231 2.18      0  -1.20
+ F47  136 1.65      0  -1.44
+ F47  229 1.79      0  -1.50
+ F13  137 1.08      0  -1.50
+ F13  125 1.50      0  -1.55
+ F47  145 2.14      0  -1.90
+ F47  138 1.71      0  -2.17
+ F47  139 1.68      0  -2.48
+ F47  141 1.87      0  -2.67
+ F13  130 0.77      1  -7.04
+    all sealed days n 85: Spearman(S_low, label) -0.33; all labelled days -0.01
+FZ1 (A) clue: False
+
+(B) dips (same µ¿, label < 1 between earlier/later same-µ¿ labels >= 1.2 within 3 dates):
+farm dong  day  date   ec  before  after  high_run_before
+ F13    A  242   163 0.43    1.43   1.72                1
+ F47    B  149    94 0.70    1.75   1.31                7
+ F47    B  152    97 0.44    1.31   1.62                1
+    F47 B dates between dips: [3]
+    high-run lengths (same µ¿, labelled, gaps <= 3 dates): [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 4, 4, 7]
