@@ -1,0 +1,11 @@
+# family21 실제 첫 감사 독립 확인
+
+2026-10-04 · 집 코덱스. review_first_only_v1.py를실행하여first_only_independent_v1.json PASS_FIRST_RECORD_ONLY를저장했다. first DIAG10/0/seed7만검토했고실제prediction배열을적재·사용하지않았다. fit/predict/score0이며부분RMSE0이다. 기본sandbox에서pandas.read_csv부재오류가나서동일스크립트를읽기실행권한으로재실행했고완료exit0이었다. 원train_y/test/EL1을읽지않는다.
+
+원run/preparation/prereg SHA고정3개를현재디스크와비교했다. train6,288행/query912행의orderedID 및FULL38/old14/new23 train/query의6개특징서명을공개입력에서다시구성해대조했다. first signature는준비첫manifest+seed/prep/prereg와완전히맞았다.11개원cache SHA,첫cell meta schema/서명/csvSHA/firstauditSHA도대조했다. firstpredictionCSV에서는row_id/farm/day/hour4열만적재하여query순서와확인했다.
+
+저장firstaudit의원14LGB재현최대차는0,repeat/freshfit/single/reversed/otherquery는모두0,scalar후처리최대차는1.1102230246251565e-16으로고정1e-12이하다. prefix6개는F13/day8와F47/day6의h0/6/12이며raw/final차0이다. featurecausal6개는같은lab최소day와시각이며차0이다. strict schema·정확한farm/day/hour목록·양수prefix행수·유한비음수오차·문턱을wholev3의validate_first로독립호출하여확인했다.
+
+이수치는runner가실제모델에서계산한저장감사값을검증한것이다. 본검토가모델을freshfit또는predict로재실행한것은아니다. 원14재현이candidatefit이전이라는실행순서는고정소스에서확인했고실행기록의별도시간추적을수행하지않았다. source/ID/특징결속과저장숫자확인은PASS지만전체66셀완료·일반인과안전성·성능개선은미판정이다. 살아있는family21/family20worker를재시작하거나변경하지않았다.
+
+첫감사SHA:55670c8648d854dad1a4ba4da7fac423596e6e9897e2dfdea4c8fd3692089a81. 근거:review_first_only_v1.py,first_only_independent_v1.json,first_fold_verification_v1.json.

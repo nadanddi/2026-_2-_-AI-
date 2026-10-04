@@ -1,5 +1,9 @@
 # HANDOFF — 지금 상태 (세션마다 갱신)
 
+> **2026-10-04 20:26 집 코덱스:** family21 run_v3 actual tool70793 시작·직접poll live, 원LGB14再現→운영23 first감사→전체66 순서/부분점수0. main ca9d339/07bc82a 최초fit전등록·wholev3 a888c783… pins/합성40292+혼합120060/19오염거부·독립비평수용. 전체완료후verify_full_v3 --verify/독립교차검산→Claude새갱신. family20 tool20860도live·재시작0. 카탈로그6.290·monitor ACTIVE·전체EC목표미완료·새제출0.
+
+> **2026-10-04 20:20 집 코덱스:** family21 LGB_OPERATION_ONLY 준비v3 PASS(22기준/66原R3 guard, fit/predict/score0). actual 계절v2에서 LGB14→당일운영9추가23열만 변경, ET/MLP/PFN 유지. run_v3 source03f9f603…/prep6a5bf8b1…; 원LGB재현 먼저·매fit직전SHA·실패raw보존 추가. 독립whole v1은 검사누락으로 사용불가, 새v2 보완/합성·비평 중이므로 실제학습 아직0. 준비·최종검산 검토 후main등록하고 실행. Claude91ef6c2/OP0 소스로그readonly 갱신·날짜streak/시간순열/기준선한계 own OP0읽기검토v1 저장(독립채점0). family20 session20860 직접poll live, 재시작0·monitor ACTIVE. 전체EC목표미완료·새제출0.
+
 > **2026-10-04 20:00 집 코덱스:** TabDPT family20/session20860을 직접 poll해 실행 중 확인, 설정·source 변경 없이 첫 셀 PASS/전체 대기 유지. 별도 입력 재생 감사 완료: 제어5열은 원입력9600행400일·공개8640행360일에서 명시 결측/비유한/음수/시간 누락0. 결측0치환 의심은 해당 입력의 실패설명으로 지지되지 않음(6.285 범위 정정6.287). 누적 count 두 열은 ET FULL에서 재구성 가능하지만 LGB/MLP BASE에는 새 이력(6.288); 중복을 무용·삭제·성능효과로 해석하지 않음. 독립 비평v1~v4/재생·prefix·수식 근거를 집/코덱스/analysis/ec_mask_operation_20261004_v1/입력재생과_특징정보_점검_v1.md에 저장. 다음은 actual계절v2에서 구성원별 운영 특징 전달 단일 대조 검토·학습 전 고정; 새 모델 학습/채점/제출0. 중간 Claude Git bfa3747/카탈로그6.286 제작 기록은 읽었고 동료 CSV/ZIP/test 예측·재현·성능은 독립 확인하지 않음. family20 종료 후 whole v2/독립검산/그때Claude 재갱신, ec heartbeat ACTIVE·전체 연구 목표 미완료.
 
 > **2026-10-04 19:45 집 코덱스 갱신:** family20 TabDPT run_v4/tool20860/PID9496은15:25:38 시작한동일worker로live. DIAG10/0/seed7 첫셀 완료·first 감사PASS, 독립v20公開ID/FULL38/서명/SHA·후처리12812대조PASS(부분점수0). 全66셀未완료·개선미판정·재시작/설정변경금지. 최신verify_full_v2 준비/독립비평v19 완료,원R3-only66캐시558336대조PASS·main3a02a0c에저장. 정상fit_audit/firstPASS/66셀후whole검산·Claude재갱신. 이번중간Claude Git283fc25→8f13110/추가8f2139a readonly 갱신완료: DPR/DPC/DCP1 공개305894검사PASS·기각유지(DPC p.14355,DCP1 .0618). 같은46일재사용/actualv2와R3S 기준선차이·MASK0/coverage·기여분담한계 기록,불러온작업v6/카탈로그6.282~6.285. family20엄격15칸·p.00125/조정CI 고정·타제작코드실행/新제출0. ec heartbeat ACTIVE·family20종료처리와그때Claude갱신완료후이확인만일시중지·EC연구목표未완료.
@@ -457,3 +461,5 @@
     - `stage/…/submission_13.csv`
   - 사용자가 팀원 온도와 합쳐 제출할 예정이다.
   - 재현 검산은 생략했다. 최종 답안이 되면 팀원 온도까지 포함한 최종 패키지로 수행한다.
+
+
