@@ -1,0 +1,54 @@
+{
+  "status": "PASS_PREPARE_ONLY_V3",
+  "family": 21,
+  "folds": 22,
+  "original_r3_cache_guards": 66,
+  "fit": 0,
+  "predict": 0,
+  "scores": 0,
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0"
+  },
+  "source_sha256": "03f9f6030fe3fbe84625b1c9dfef592ba6c265a87016ef1a61ac7cbae2f7e5a4",
+  "preparation_sha256": "6a5bf8b1f30b73d11d63cad8b52a8f2c61aa5b4299355bd825b9232c9aebdea2",
+  "preregistration_sha256": "381719e67e40495a9f07d74a26184f543950965dd82f701ef4aaef118879bff3",
+  "api": "preflight()->core,lab,fs,bs,cols,refs,prepared; refs[(v,k)]=(tr,q,old,r3s,signature)",
+  "manifest_fields": [
+    "validator",
+    "fold",
+    "runtime",
+    "dependencies",
+    "inputs",
+    "cache_hashes",
+    "full_features",
+    "old_lgb_features",
+    "new_lgb_features",
+    "train_ids",
+    "query_ids",
+    "bounds",
+    "train_targets",
+    "train_full38",
+    "train_old14",
+    "train_new23",
+    "query_targets",
+    "query_full38",
+    "query_old14",
+    "query_new23"
+  ],
+  "signature_extra_fields": [
+    "seed",
+    "preparation_sha256",
+    "preregistration_sha256"
+  ],
+  "changes": [
+    "per-model-fit runtime/source/input/cache/prep/prereg freshness",
+    "exclusive ordered failed original/candidate raw NPZ",
+    "failed raw restart stop",
+    "guard fixed SHA",
+    "unused TabDPT constants removed"
+  ]
+}
