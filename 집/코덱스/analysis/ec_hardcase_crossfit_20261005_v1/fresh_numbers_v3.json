@@ -1,0 +1,6703 @@
+{
+  "status": "PASS_STDLIB_COUNTS_RATIOS_SUPPORT_BOOTSTRAP",
+  "results": [
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 30,
+        "fn": 13,
+        "fp": 41,
+        "tn": 180,
+        "recall": 0.6976744186046512,
+        "precision": 0.4225352112676056
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 29,
+        "fn": 14,
+        "fp": 8,
+        "tn": 213,
+        "recall": 0.6744186046511628,
+        "precision": 0.7837837837837838
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 30,
+        "fn": 13,
+        "fp": 40,
+        "tn": 181,
+        "recall": 0.6976744186046512,
+        "precision": 0.42857142857142855
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 38,
+        "fn": 5,
+        "fp": 7,
+        "tn": 214,
+        "recall": 0.8837209302325582,
+        "precision": 0.8444444444444444
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 28,
+        "fn": 15,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.6511627906976745,
+        "precision": 0.8235294117647058
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 38,
+        "fn": 5,
+        "fp": 7,
+        "tn": 214,
+        "recall": 0.8837209302325582,
+        "precision": 0.8444444444444444
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 22,
+        "fn": 21,
+        "fp": 24,
+        "tn": 197,
+        "recall": 0.5116279069767442,
+        "precision": 0.4782608695652174
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 21,
+        "fn": 22,
+        "fp": 3,
+        "tn": 218,
+        "recall": 0.4883720930232558,
+        "precision": 0.875
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 19,
+        "fn": 24,
+        "fp": 24,
+        "tn": 197,
+        "recall": 0.4418604651162791,
+        "precision": 0.4418604651162791
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 19,
+        "fn": 24,
+        "fp": 4,
+        "tn": 217,
+        "recall": 0.4418604651162791,
+        "precision": 0.8260869565217391
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 33,
+        "fn": 10,
+        "fp": 26,
+        "tn": 195,
+        "recall": 0.7674418604651163,
+        "precision": 0.559322033898305
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 32,
+        "fn": 11,
+        "fp": 7,
+        "tn": 214,
+        "recall": 0.7441860465116279,
+        "precision": 0.8205128205128205
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 31,
+        "fn": 12,
+        "fp": 22,
+        "tn": 199,
+        "recall": 0.7209302325581395,
+        "precision": 0.5849056603773585
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 38,
+        "fn": 5,
+        "fp": 7,
+        "tn": 214,
+        "recall": 0.8837209302325582,
+        "precision": 0.8444444444444444
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 29,
+        "fn": 14,
+        "fp": 4,
+        "tn": 217,
+        "recall": 0.6744186046511628,
+        "precision": 0.8787878787878788
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 38,
+        "fn": 5,
+        "fp": 7,
+        "tn": 214,
+        "recall": 0.8837209302325582,
+        "precision": 0.8444444444444444
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 24,
+        "fn": 19,
+        "fp": 20,
+        "tn": 201,
+        "recall": 0.5581395348837209,
+        "precision": 0.5454545454545454
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 24,
+        "fn": 19,
+        "fp": 3,
+        "tn": 218,
+        "recall": 0.5581395348837209,
+        "precision": 0.8888888888888888
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 21,
+        "fn": 22,
+        "fp": 15,
+        "tn": 206,
+        "recall": 0.4883720930232558,
+        "precision": 0.5833333333333334
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 21,
+        "fn": 22,
+        "fp": 3,
+        "tn": 218,
+        "recall": 0.4883720930232558,
+        "precision": 0.875
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 29,
+        "fn": 14,
+        "fp": 40,
+        "tn": 181,
+        "recall": 0.6744186046511628,
+        "precision": 0.42028985507246375
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 28,
+        "fn": 15,
+        "fp": 8,
+        "tn": 213,
+        "recall": 0.6511627906976745,
+        "precision": 0.7777777777777778
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 31,
+        "fn": 12,
+        "fp": 41,
+        "tn": 180,
+        "recall": 0.7209302325581395,
+        "precision": 0.4305555555555556
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 37,
+        "fn": 6,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.8604651162790697,
+        "precision": 0.8604651162790697
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 29,
+        "fn": 14,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.6744186046511628,
+        "precision": 0.8285714285714286
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 37,
+        "fn": 6,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.8604651162790697,
+        "precision": 0.8604651162790697
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 21,
+        "fn": 22,
+        "fp": 25,
+        "tn": 196,
+        "recall": 0.4883720930232558,
+        "precision": 0.45652173913043476
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 21,
+        "fn": 22,
+        "fp": 3,
+        "tn": 218,
+        "recall": 0.4883720930232558,
+        "precision": 0.875
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 19,
+        "fn": 24,
+        "fp": 24,
+        "tn": 197,
+        "recall": 0.4418604651162791,
+        "precision": 0.4418604651162791
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 19,
+        "fn": 24,
+        "fp": 4,
+        "tn": 217,
+        "recall": 0.4418604651162791,
+        "precision": 0.8260869565217391
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 33,
+        "fn": 10,
+        "fp": 26,
+        "tn": 195,
+        "recall": 0.7674418604651163,
+        "precision": 0.559322033898305
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 32,
+        "fn": 11,
+        "fp": 7,
+        "tn": 214,
+        "recall": 0.7441860465116279,
+        "precision": 0.8205128205128205
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 30,
+        "fn": 13,
+        "fp": 23,
+        "tn": 198,
+        "recall": 0.6976744186046512,
+        "precision": 0.5660377358490566
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 37,
+        "fn": 6,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.8604651162790697,
+        "precision": 0.8604651162790697
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 28,
+        "fn": 15,
+        "fp": 4,
+        "tn": 217,
+        "recall": 0.6511627906976745,
+        "precision": 0.875
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 37,
+        "fn": 6,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.8604651162790697,
+        "precision": 0.8604651162790697
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 24,
+        "fn": 19,
+        "fp": 20,
+        "tn": 201,
+        "recall": 0.5581395348837209,
+        "precision": 0.5454545454545454
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 24,
+        "fn": 19,
+        "fp": 3,
+        "tn": 218,
+        "recall": 0.5581395348837209,
+        "precision": 0.8888888888888888
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 20,
+        "fn": 23,
+        "fp": 15,
+        "tn": 206,
+        "recall": 0.46511627906976744,
+        "precision": 0.5714285714285714
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 20,
+        "fn": 23,
+        "fp": 3,
+        "tn": 218,
+        "recall": 0.46511627906976744,
+        "precision": 0.8695652173913043
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 10,
+        "tn": 211,
+        "recall": 0.9534883720930233,
+        "precision": 0.803921568627451
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 29,
+        "fn": 14,
+        "fp": 40,
+        "tn": 181,
+        "recall": 0.6744186046511628,
+        "precision": 0.42028985507246375
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 40,
+        "fn": 3,
+        "fp": 9,
+        "tn": 212,
+        "recall": 0.9302325581395349,
+        "precision": 0.8163265306122449
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 27,
+        "fn": 16,
+        "fp": 7,
+        "tn": 214,
+        "recall": 0.627906976744186,
+        "precision": 0.7941176470588235
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 40,
+        "fn": 3,
+        "fp": 9,
+        "tn": 212,
+        "recall": 0.9302325581395349,
+        "precision": 0.8163265306122449
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 31,
+        "fn": 12,
+        "fp": 44,
+        "tn": 177,
+        "recall": 0.7209302325581395,
+        "precision": 0.41333333333333333
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 37,
+        "fn": 6,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.8604651162790697,
+        "precision": 0.8604651162790697
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 29,
+        "fn": 14,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.6744186046511628,
+        "precision": 0.8285714285714286
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 37,
+        "fn": 6,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.8604651162790697,
+        "precision": 0.8604651162790697
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 22,
+        "fn": 21,
+        "fp": 25,
+        "tn": 196,
+        "recall": 0.5116279069767442,
+        "precision": 0.46808510638297873
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 21,
+        "fn": 22,
+        "fp": 3,
+        "tn": 218,
+        "recall": 0.4883720930232558,
+        "precision": 0.875
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 19,
+        "fn": 24,
+        "fp": 26,
+        "tn": 195,
+        "recall": 0.4418604651162791,
+        "precision": 0.4222222222222222
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 8,
+        "tn": 213,
+        "recall": 0.9534883720930233,
+        "precision": 0.8367346938775511
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 19,
+        "fn": 24,
+        "fp": 3,
+        "tn": 218,
+        "recall": 0.4418604651162791,
+        "precision": 0.8636363636363636
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 8,
+        "tn": 213,
+        "recall": 0.9534883720930233,
+        "precision": 0.8367346938775511
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 33,
+        "fn": 10,
+        "fp": 26,
+        "tn": 195,
+        "recall": 0.7674418604651163,
+        "precision": 0.559322033898305
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 40,
+        "fn": 3,
+        "fp": 9,
+        "tn": 212,
+        "recall": 0.9302325581395349,
+        "precision": 0.8163265306122449
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 31,
+        "fn": 12,
+        "fp": 7,
+        "tn": 214,
+        "recall": 0.7209302325581395,
+        "precision": 0.8157894736842105
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 40,
+        "fn": 3,
+        "fp": 9,
+        "tn": 212,
+        "recall": 0.9302325581395349,
+        "precision": 0.8163265306122449
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 32,
+        "fn": 11,
+        "fp": 22,
+        "tn": 199,
+        "recall": 0.7441860465116279,
+        "precision": 0.5925925925925926
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 37,
+        "fn": 6,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.8604651162790697,
+        "precision": 0.8604651162790697
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 30,
+        "fn": 13,
+        "fp": 4,
+        "tn": 217,
+        "recall": 0.6976744186046512,
+        "precision": 0.8823529411764706
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 37,
+        "fn": 6,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.8604651162790697,
+        "precision": 0.8604651162790697
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 25,
+        "fn": 18,
+        "fp": 20,
+        "tn": 201,
+        "recall": 0.5813953488372093,
+        "precision": 0.5555555555555556
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 25,
+        "fn": 18,
+        "fp": 3,
+        "tn": 218,
+        "recall": 0.5813953488372093,
+        "precision": 0.8928571428571429
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 39,
+        "fn": 4,
+        "fp": 6,
+        "tn": 215,
+        "recall": 0.9069767441860465,
+        "precision": 0.8666666666666667
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 21,
+        "fn": 22,
+        "fp": 15,
+        "tn": 206,
+        "recall": 0.4883720930232558,
+        "precision": 0.5833333333333334
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 8,
+        "tn": 213,
+        "recall": 0.9534883720930233,
+        "precision": 0.8367346938775511
+      }
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 264,
+        "high": 43,
+        "tp": 21,
+        "fn": 22,
+        "fp": 2,
+        "tn": 219,
+        "recall": 0.4883720930232558,
+        "precision": 0.9130434782608695
+      },
+      "baseline": {
+        "n": 264,
+        "high": 43,
+        "tp": 41,
+        "fn": 2,
+        "fp": 8,
+        "tn": 213,
+        "recall": 0.9534883720930233,
+        "precision": 0.8367346938775511
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 23,
+        "fn": 6,
+        "fp": 53,
+        "tn": 181,
+        "recall": 0.7931034482758621,
+        "precision": 0.3026315789473684
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 19,
+        "fn": 10,
+        "fp": 10,
+        "tn": 224,
+        "recall": 0.6551724137931034,
+        "precision": 0.6551724137931034
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 68,
+        "tn": 166,
+        "recall": 0.8275862068965517,
+        "precision": 0.2608695652173913
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 20,
+        "fn": 9,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.6896551724137931,
+        "precision": 0.6896551724137931
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 46,
+        "tn": 188,
+        "recall": 0.8275862068965517,
+        "precision": 0.34285714285714286
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 8,
+        "tn": 226,
+        "recall": 0.8620689655172413,
+        "precision": 0.7575757575757576
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 6,
+        "tn": 228,
+        "recall": 0.7586206896551724,
+        "precision": 0.7857142857142857
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 8,
+        "tn": 226,
+        "recall": 0.8620689655172413,
+        "precision": 0.7575757575757576
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 51,
+        "tn": 183,
+        "recall": 0.7586206896551724,
+        "precision": 0.3013698630136986
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 19,
+        "fn": 10,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.6551724137931034,
+        "precision": 0.6785714285714286
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 21,
+        "fn": 8,
+        "fp": 40,
+        "tn": 194,
+        "recall": 0.7241379310344828,
+        "precision": 0.3442622950819672
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 20,
+        "fn": 9,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.6896551724137931,
+        "precision": 0.6896551724137931
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 45,
+        "tn": 189,
+        "recall": 0.8275862068965517,
+        "precision": 0.34782608695652173
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 8,
+        "tn": 226,
+        "recall": 0.7586206896551724,
+        "precision": 0.7333333333333333
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 23,
+        "fn": 6,
+        "fp": 34,
+        "tn": 200,
+        "recall": 0.7931034482758621,
+        "precision": 0.40350877192982454
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 8,
+        "tn": 226,
+        "recall": 0.8620689655172413,
+        "precision": 0.7575757575757576
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 6,
+        "tn": 228,
+        "recall": 0.7586206896551724,
+        "precision": 0.7857142857142857
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 8,
+        "tn": 226,
+        "recall": 0.8620689655172413,
+        "precision": 0.7575757575757576
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 41,
+        "tn": 193,
+        "recall": 0.7586206896551724,
+        "precision": 0.3492063492063492
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 21,
+        "fn": 8,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.7241379310344828,
+        "precision": 0.7
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 23,
+        "fn": 6,
+        "fp": 52,
+        "tn": 182,
+        "recall": 0.7931034482758621,
+        "precision": 0.30666666666666664
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 13,
+        "tn": 221,
+        "recall": 0.8620689655172413,
+        "precision": 0.6578947368421053
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 19,
+        "fn": 10,
+        "fp": 10,
+        "tn": 224,
+        "recall": 0.6551724137931034,
+        "precision": 0.6551724137931034
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 13,
+        "tn": 221,
+        "recall": 0.8620689655172413,
+        "precision": 0.6578947368421053
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 66,
+        "tn": 168,
+        "recall": 0.8275862068965517,
+        "precision": 0.26666666666666666
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 20,
+        "fn": 9,
+        "fp": 8,
+        "tn": 226,
+        "recall": 0.6896551724137931,
+        "precision": 0.7142857142857143
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 23,
+        "fn": 6,
+        "fp": 43,
+        "tn": 191,
+        "recall": 0.7931034482758621,
+        "precision": 0.3484848484848485
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 7,
+        "tn": 227,
+        "recall": 0.8620689655172413,
+        "precision": 0.78125
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 5,
+        "tn": 229,
+        "recall": 0.7586206896551724,
+        "precision": 0.8148148148148148
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 7,
+        "tn": 227,
+        "recall": 0.8620689655172413,
+        "precision": 0.78125
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 52,
+        "tn": 182,
+        "recall": 0.7586206896551724,
+        "precision": 0.2972972972972973
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 12,
+        "tn": 222,
+        "recall": 0.8620689655172413,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 19,
+        "fn": 10,
+        "fp": 10,
+        "tn": 224,
+        "recall": 0.6551724137931034,
+        "precision": 0.6551724137931034
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 12,
+        "tn": 222,
+        "recall": 0.8620689655172413,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 21,
+        "fn": 8,
+        "fp": 38,
+        "tn": 196,
+        "recall": 0.7241379310344828,
+        "precision": 0.3559322033898305
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 13,
+        "tn": 221,
+        "recall": 0.8620689655172413,
+        "precision": 0.6578947368421053
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 20,
+        "fn": 9,
+        "fp": 8,
+        "tn": 226,
+        "recall": 0.6896551724137931,
+        "precision": 0.7142857142857143
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 13,
+        "tn": 221,
+        "recall": 0.8620689655172413,
+        "precision": 0.6578947368421053
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 23,
+        "fn": 6,
+        "fp": 44,
+        "tn": 190,
+        "recall": 0.7931034482758621,
+        "precision": 0.34328358208955223
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 21,
+        "fn": 8,
+        "fp": 7,
+        "tn": 227,
+        "recall": 0.7241379310344828,
+        "precision": 0.75
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 23,
+        "fn": 6,
+        "fp": 33,
+        "tn": 201,
+        "recall": 0.7931034482758621,
+        "precision": 0.4107142857142857
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 7,
+        "tn": 227,
+        "recall": 0.8620689655172413,
+        "precision": 0.78125
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 5,
+        "tn": 229,
+        "recall": 0.7586206896551724,
+        "precision": 0.8148148148148148
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 7,
+        "tn": 227,
+        "recall": 0.8620689655172413,
+        "precision": 0.78125
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 39,
+        "tn": 195,
+        "recall": 0.7586206896551724,
+        "precision": 0.36065573770491804
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 12,
+        "tn": 222,
+        "recall": 0.8620689655172413,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 21,
+        "fn": 8,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.7241379310344828,
+        "precision": 0.7
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 12,
+        "tn": 222,
+        "recall": 0.8620689655172413,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 53,
+        "tn": 181,
+        "recall": 0.7586206896551724,
+        "precision": 0.29333333333333333
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 12,
+        "tn": 222,
+        "recall": 0.8620689655172413,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 19,
+        "fn": 10,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.6551724137931034,
+        "precision": 0.6785714285714286
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 12,
+        "tn": 222,
+        "recall": 0.8620689655172413,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 65,
+        "tn": 169,
+        "recall": 0.8275862068965517,
+        "precision": 0.2696629213483146
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 20,
+        "fn": 9,
+        "fp": 8,
+        "tn": 226,
+        "recall": 0.6896551724137931,
+        "precision": 0.7142857142857143
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 23,
+        "fn": 6,
+        "fp": 46,
+        "tn": 188,
+        "recall": 0.7931034482758621,
+        "precision": 0.3333333333333333
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 7,
+        "tn": 227,
+        "recall": 0.8620689655172413,
+        "precision": 0.78125
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 5,
+        "tn": 229,
+        "recall": 0.7586206896551724,
+        "precision": 0.8148148148148148
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 7,
+        "tn": 227,
+        "recall": 0.8620689655172413,
+        "precision": 0.78125
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 52,
+        "tn": 182,
+        "recall": 0.7586206896551724,
+        "precision": 0.2972972972972973
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 19,
+        "fn": 10,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.6551724137931034,
+        "precision": 0.6785714285714286
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 21,
+        "fn": 8,
+        "fp": 37,
+        "tn": 197,
+        "recall": 0.7241379310344828,
+        "precision": 0.3620689655172414
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 12,
+        "tn": 222,
+        "recall": 0.8620689655172413,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 20,
+        "fn": 9,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.6896551724137931,
+        "precision": 0.6896551724137931
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 12,
+        "tn": 222,
+        "recall": 0.8620689655172413,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 43,
+        "tn": 191,
+        "recall": 0.8275862068965517,
+        "precision": 0.3582089552238806
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 7,
+        "tn": 227,
+        "recall": 0.7586206896551724,
+        "precision": 0.7586206896551724
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 24,
+        "fn": 5,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.8275862068965517,
+        "precision": 0.7272727272727273
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 23,
+        "fn": 6,
+        "fp": 33,
+        "tn": 201,
+        "recall": 0.7931034482758621,
+        "precision": 0.4107142857142857
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 7,
+        "tn": 227,
+        "recall": 0.8620689655172413,
+        "precision": 0.78125
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 4,
+        "tn": 230,
+        "recall": 0.7586206896551724,
+        "precision": 0.8461538461538461
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 7,
+        "tn": 227,
+        "recall": 0.8620689655172413,
+        "precision": 0.78125
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 22,
+        "fn": 7,
+        "fp": 40,
+        "tn": 194,
+        "recall": 0.7586206896551724,
+        "precision": 0.3548387096774194
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 263,
+        "high": 29,
+        "tp": 21,
+        "fn": 8,
+        "fp": 9,
+        "tn": 225,
+        "recall": 0.7241379310344828,
+        "precision": 0.7
+      },
+      "baseline": {
+        "n": 263,
+        "high": 29,
+        "tp": 25,
+        "fn": 4,
+        "fp": 11,
+        "tn": 223,
+        "recall": 0.8620689655172413,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 50,
+        "tn": 279,
+        "recall": 0.8387096774193549,
+        "precision": 0.34210526315789475
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 13,
+        "tn": 316,
+        "recall": 0.8387096774193549,
+        "precision": 0.6666666666666666
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 22,
+        "fn": 9,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.7096774193548387,
+        "precision": 0.6666666666666666
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 13,
+        "tn": 316,
+        "recall": 0.8387096774193549,
+        "precision": 0.6666666666666666
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 65,
+        "tn": 264,
+        "recall": 0.967741935483871,
+        "precision": 0.3157894736842105
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8387096774193549,
+        "precision": 0.6842105263157895
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 10,
+        "tn": 319,
+        "recall": 0.8387096774193549,
+        "precision": 0.7222222222222222
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8387096774193549,
+        "precision": 0.6842105263157895
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 28,
+        "fn": 3,
+        "fp": 39,
+        "tn": 290,
+        "recall": 0.9032258064516129,
+        "precision": 0.417910447761194
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8064516129032258,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 23,
+        "fn": 8,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.7419354838709677,
+        "precision": 0.71875
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8064516129032258,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 27,
+        "fn": 4,
+        "fp": 41,
+        "tn": 288,
+        "recall": 0.8709677419354839,
+        "precision": 0.39705882352941174
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.967741935483871,
+        "precision": 0.7142857142857143
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 27,
+        "fn": 4,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.8709677419354839,
+        "precision": 0.75
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.967741935483871,
+        "precision": 0.7142857142857143
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 27,
+        "tn": 302,
+        "recall": 0.8387096774193549,
+        "precision": 0.49056603773584906
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 13,
+        "tn": 316,
+        "recall": 0.8387096774193549,
+        "precision": 0.6666666666666666
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 23,
+        "fn": 8,
+        "fp": 10,
+        "tn": 319,
+        "recall": 0.7419354838709677,
+        "precision": 0.696969696969697
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 13,
+        "tn": 316,
+        "recall": 0.8387096774193549,
+        "precision": 0.6666666666666666
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 27,
+        "fn": 4,
+        "fp": 30,
+        "tn": 299,
+        "recall": 0.8709677419354839,
+        "precision": 0.47368421052631576
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8387096774193549,
+        "precision": 0.6842105263157895
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 24,
+        "fn": 7,
+        "fp": 10,
+        "tn": 319,
+        "recall": 0.7741935483870968,
+        "precision": 0.7058823529411765
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8387096774193549,
+        "precision": 0.6842105263157895
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 24,
+        "tn": 305,
+        "recall": 0.8064516129032258,
+        "precision": 0.5102040816326531
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8064516129032258,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 21,
+        "fn": 10,
+        "fp": 10,
+        "tn": 319,
+        "recall": 0.6774193548387096,
+        "precision": 0.6774193548387096
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8064516129032258,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 24,
+        "fn": 7,
+        "fp": 23,
+        "tn": 306,
+        "recall": 0.7741935483870968,
+        "precision": 0.5106382978723404
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.967741935483871,
+        "precision": 0.7142857142857143
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 24,
+        "fn": 7,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.7741935483870968,
+        "precision": 0.7272727272727273
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.967741935483871,
+        "precision": 0.7142857142857143
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 28,
+        "fn": 3,
+        "fp": 51,
+        "tn": 278,
+        "recall": 0.9032258064516129,
+        "precision": 0.35443037974683544
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 13,
+        "tn": 316,
+        "recall": 0.8387096774193549,
+        "precision": 0.6666666666666666
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 24,
+        "fn": 7,
+        "fp": 10,
+        "tn": 319,
+        "recall": 0.7741935483870968,
+        "precision": 0.7058823529411765
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 13,
+        "tn": 316,
+        "recall": 0.8387096774193549,
+        "precision": 0.6666666666666666
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 66,
+        "tn": 263,
+        "recall": 0.967741935483871,
+        "precision": 0.3125
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 10,
+        "tn": 319,
+        "recall": 0.8064516129032258,
+        "precision": 0.7142857142857143
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 39,
+        "tn": 290,
+        "recall": 0.8387096774193549,
+        "precision": 0.4
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 21,
+        "fn": 10,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.6774193548387096,
+        "precision": 0.7
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 29,
+        "fn": 2,
+        "fp": 44,
+        "tn": 285,
+        "recall": 0.9354838709677419,
+        "precision": 0.3972602739726027
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.967741935483871,
+        "precision": 0.7317073170731707
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 28,
+        "fn": 3,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.9032258064516129,
+        "precision": 0.7567567567567568
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.967741935483871,
+        "precision": 0.7317073170731707
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 27,
+        "tn": 302,
+        "recall": 0.8387096774193549,
+        "precision": 0.49056603773584906
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 13,
+        "tn": 316,
+        "recall": 0.8387096774193549,
+        "precision": 0.6666666666666666
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 22,
+        "fn": 9,
+        "fp": 10,
+        "tn": 319,
+        "recall": 0.7096774193548387,
+        "precision": 0.6875
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 13,
+        "tn": 316,
+        "recall": 0.8387096774193549,
+        "precision": 0.6666666666666666
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 29,
+        "tn": 300,
+        "recall": 0.8387096774193549,
+        "precision": 0.4727272727272727
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 22,
+        "fn": 9,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.7096774193548387,
+        "precision": 0.7096774193548387
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 25,
+        "tn": 304,
+        "recall": 0.8064516129032258,
+        "precision": 0.5
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 21,
+        "fn": 10,
+        "fp": 10,
+        "tn": 319,
+        "recall": 0.6774193548387096,
+        "precision": 0.6774193548387096
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 24,
+        "fn": 7,
+        "fp": 24,
+        "tn": 305,
+        "recall": 0.7741935483870968,
+        "precision": 0.5
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.967741935483871,
+        "precision": 0.7317073170731707
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 24,
+        "fn": 7,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.7741935483870968,
+        "precision": 0.7272727272727273
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.967741935483871,
+        "precision": 0.7317073170731707
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 27,
+        "fn": 4,
+        "fp": 47,
+        "tn": 282,
+        "recall": 0.8709677419354839,
+        "precision": 0.36486486486486486
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8387096774193549,
+        "precision": 0.6842105263157895
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 23,
+        "fn": 8,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.7419354838709677,
+        "precision": 0.6764705882352942
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8387096774193549,
+        "precision": 0.6842105263157895
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 67,
+        "tn": 262,
+        "recall": 0.967741935483871,
+        "precision": 0.30927835051546393
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8064516129032258,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8064516129032258,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 28,
+        "fn": 3,
+        "fp": 41,
+        "tn": 288,
+        "recall": 0.9032258064516129,
+        "precision": 0.4057971014492754
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 23,
+        "fn": 8,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.7419354838709677,
+        "precision": 0.71875
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 28,
+        "fn": 3,
+        "fp": 42,
+        "tn": 287,
+        "recall": 0.9032258064516129,
+        "precision": 0.4
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.967741935483871,
+        "precision": 0.7317073170731707
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 27,
+        "fn": 4,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.8709677419354839,
+        "precision": 0.75
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.967741935483871,
+        "precision": 0.7317073170731707
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 26,
+        "tn": 303,
+        "recall": 0.8387096774193549,
+        "precision": 0.5
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8387096774193549,
+        "precision": 0.6842105263157895
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 0,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 23,
+        "fn": 8,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.7419354838709677,
+        "precision": 0.71875
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 26,
+        "fn": 5,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8387096774193549,
+        "precision": 0.6842105263157895
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 27,
+        "fn": 4,
+        "fp": 29,
+        "tn": 300,
+        "recall": 0.8709677419354839,
+        "precision": 0.48214285714285715
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8064516129032258,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 6,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 23,
+        "fn": 8,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.7419354838709677,
+        "precision": 0.71875
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 12,
+        "tn": 317,
+        "recall": 0.8064516129032258,
+        "precision": 0.6756756756756757
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 23,
+        "tn": 306,
+        "recall": 0.8064516129032258,
+        "precision": 0.5208333333333334
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 12,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 21,
+        "fn": 10,
+        "fp": 9,
+        "tn": 320,
+        "recall": 0.6774193548387096,
+        "precision": 0.7
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 25,
+        "fn": 6,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.8064516129032258,
+        "precision": 0.6944444444444444
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "DIRECT",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 24,
+        "fn": 7,
+        "fp": 23,
+        "tn": 306,
+        "recall": 0.7741935483870968,
+        "precision": 0.5106382978723404
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.967741935483871,
+        "precision": 0.7317073170731707
+      }
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "hour": 23,
+      "selection": "GUARD",
+      "model": {
+        "n": 360,
+        "high": 31,
+        "tp": 24,
+        "fn": 7,
+        "fp": 8,
+        "tn": 321,
+        "recall": 0.7741935483870968,
+        "precision": 0.75
+      },
+      "baseline": {
+        "n": 360,
+        "high": 31,
+        "tp": 30,
+        "fn": 1,
+        "fp": 11,
+        "tn": 318,
+        "recall": 0.967741935483871,
+        "precision": 0.7317073170731707
+      }
+    }
+  ],
+  "support": [
+    {
+      "v": "A",
+      "k": 0,
+      "seed": 7,
+      "n": 253,
+      "high": 25,
+      "hard_high": 16,
+      "hard_low": 5
+    },
+    {
+      "v": "A",
+      "k": 0,
+      "seed": 101,
+      "n": 253,
+      "high": 25,
+      "hard_high": 15,
+      "hard_low": 7
+    },
+    {
+      "v": "A",
+      "k": 0,
+      "seed": 2024,
+      "n": 253,
+      "high": 25,
+      "hard_high": 16,
+      "hard_low": 5
+    },
+    {
+      "v": "A",
+      "k": 1,
+      "seed": 7,
+      "n": 247,
+      "high": 19,
+      "hard_high": 13,
+      "hard_low": 10
+    },
+    {
+      "v": "A",
+      "k": 1,
+      "seed": 101,
+      "n": 247,
+      "high": 19,
+      "hard_high": 13,
+      "hard_low": 10
+    },
+    {
+      "v": "A",
+      "k": 1,
+      "seed": 2024,
+      "n": 247,
+      "high": 19,
+      "hard_high": 14,
+      "hard_low": 10
+    },
+    {
+      "v": "A",
+      "k": 2,
+      "seed": 7,
+      "n": 250,
+      "high": 13,
+      "hard_high": 10,
+      "hard_low": 12
+    },
+    {
+      "v": "A",
+      "k": 2,
+      "seed": 101,
+      "n": 250,
+      "high": 13,
+      "hard_high": 10,
+      "hard_low": 10
+    },
+    {
+      "v": "A",
+      "k": 2,
+      "seed": 2024,
+      "n": 250,
+      "high": 13,
+      "hard_high": 10,
+      "hard_low": 10
+    },
+    {
+      "v": "A",
+      "k": 3,
+      "seed": 7,
+      "n": 251,
+      "high": 15,
+      "hard_high": 14,
+      "hard_low": 11
+    },
+    {
+      "v": "A",
+      "k": 3,
+      "seed": 101,
+      "n": 251,
+      "high": 15,
+      "hard_high": 14,
+      "hard_low": 11
+    },
+    {
+      "v": "A",
+      "k": 3,
+      "seed": 2024,
+      "n": 251,
+      "high": 15,
+      "hard_high": 14,
+      "hard_low": 11
+    },
+    {
+      "v": "A",
+      "k": 4,
+      "seed": 7,
+      "n": 254,
+      "high": 18,
+      "hard_high": 11,
+      "hard_low": 11
+    },
+    {
+      "v": "A",
+      "k": 4,
+      "seed": 101,
+      "n": 254,
+      "high": 18,
+      "hard_high": 11,
+      "hard_low": 11
+    },
+    {
+      "v": "A",
+      "k": 4,
+      "seed": 2024,
+      "n": 254,
+      "high": 18,
+      "hard_high": 11,
+      "hard_low": 11
+    },
+    {
+      "v": "B",
+      "k": 0,
+      "seed": 7,
+      "n": 248,
+      "high": 26,
+      "hard_high": 15,
+      "hard_low": 8
+    },
+    {
+      "v": "B",
+      "k": 0,
+      "seed": 101,
+      "n": 248,
+      "high": 26,
+      "hard_high": 17,
+      "hard_low": 7
+    },
+    {
+      "v": "B",
+      "k": 0,
+      "seed": 2024,
+      "n": 248,
+      "high": 26,
+      "hard_high": 17,
+      "hard_low": 7
+    },
+    {
+      "v": "B",
+      "k": 1,
+      "seed": 7,
+      "n": 246,
+      "high": 23,
+      "hard_high": 15,
+      "hard_low": 7
+    },
+    {
+      "v": "B",
+      "k": 1,
+      "seed": 101,
+      "n": 246,
+      "high": 23,
+      "hard_high": 15,
+      "hard_low": 6
+    },
+    {
+      "v": "B",
+      "k": 1,
+      "seed": 2024,
+      "n": 246,
+      "high": 23,
+      "hard_high": 15,
+      "hard_low": 6
+    },
+    {
+      "v": "B",
+      "k": 2,
+      "seed": 7,
+      "n": 255,
+      "high": 20,
+      "hard_high": 17,
+      "hard_low": 6
+    },
+    {
+      "v": "B",
+      "k": 2,
+      "seed": 101,
+      "n": 255,
+      "high": 20,
+      "hard_high": 17,
+      "hard_low": 6
+    },
+    {
+      "v": "B",
+      "k": 2,
+      "seed": 2024,
+      "n": 255,
+      "high": 20,
+      "hard_high": 17,
+      "hard_low": 6
+    },
+    {
+      "v": "B",
+      "k": 3,
+      "seed": 7,
+      "n": 249,
+      "high": 19,
+      "hard_high": 17,
+      "hard_low": 6
+    },
+    {
+      "v": "B",
+      "k": 3,
+      "seed": 101,
+      "n": 249,
+      "high": 19,
+      "hard_high": 17,
+      "hard_low": 7
+    },
+    {
+      "v": "B",
+      "k": 3,
+      "seed": 2024,
+      "n": 249,
+      "high": 19,
+      "hard_high": 17,
+      "hard_low": 7
+    },
+    {
+      "v": "B",
+      "k": 4,
+      "seed": 7,
+      "n": 255,
+      "high": 14,
+      "hard_high": 7,
+      "hard_low": 18
+    },
+    {
+      "v": "B",
+      "k": 4,
+      "seed": 101,
+      "n": 255,
+      "high": 14,
+      "hard_high": 7,
+      "hard_low": 17
+    },
+    {
+      "v": "B",
+      "k": 4,
+      "seed": 2024,
+      "n": 255,
+      "high": 14,
+      "hard_high": 7,
+      "hard_low": 18
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "seed": 7,
+      "n": 262,
+      "high": 26,
+      "hard_high": 15,
+      "hard_low": 6
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "seed": 101,
+      "n": 262,
+      "high": 26,
+      "hard_high": 15,
+      "hard_low": 6
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "seed": 2024,
+      "n": 262,
+      "high": 26,
+      "hard_high": 14,
+      "hard_low": 6
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "seed": 7,
+      "n": 273,
+      "high": 26,
+      "hard_high": 20,
+      "hard_low": 8
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "seed": 101,
+      "n": 273,
+      "high": 26,
+      "hard_high": 20,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "seed": 2024,
+      "n": 273,
+      "high": 26,
+      "hard_high": 20,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "seed": 7,
+      "n": 259,
+      "high": 24,
+      "hard_high": 13,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "seed": 101,
+      "n": 259,
+      "high": 24,
+      "hard_high": 13,
+      "hard_low": 8
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "seed": 2024,
+      "n": 259,
+      "high": 24,
+      "hard_high": 13,
+      "hard_low": 7
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "seed": 7,
+      "n": 267,
+      "high": 23,
+      "hard_high": 6,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "seed": 101,
+      "n": 267,
+      "high": 23,
+      "hard_high": 6,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "seed": 2024,
+      "n": 267,
+      "high": 23,
+      "hard_high": 6,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 4,
+      "seed": 7,
+      "n": 255,
+      "high": 24,
+      "hard_high": 16,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 4,
+      "seed": 101,
+      "n": 255,
+      "high": 24,
+      "hard_high": 17,
+      "hard_low": 8
+    },
+    {
+      "v": "DIAG10",
+      "k": 4,
+      "seed": 2024,
+      "n": 255,
+      "high": 24,
+      "hard_high": 17,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 5,
+      "seed": 7,
+      "n": 274,
+      "high": 23,
+      "hard_high": 11,
+      "hard_low": 2
+    },
+    {
+      "v": "DIAG10",
+      "k": 5,
+      "seed": 101,
+      "n": 274,
+      "high": 23,
+      "hard_high": 11,
+      "hard_low": 1
+    },
+    {
+      "v": "DIAG10",
+      "k": 5,
+      "seed": 2024,
+      "n": 274,
+      "high": 23,
+      "hard_high": 13,
+      "hard_low": 1
+    },
+    {
+      "v": "DIAG10",
+      "k": 6,
+      "seed": 7,
+      "n": 262,
+      "high": 22,
+      "hard_high": 12,
+      "hard_low": 17
+    },
+    {
+      "v": "DIAG10",
+      "k": 6,
+      "seed": 101,
+      "n": 262,
+      "high": 22,
+      "hard_high": 12,
+      "hard_low": 16
+    },
+    {
+      "v": "DIAG10",
+      "k": 6,
+      "seed": 2024,
+      "n": 262,
+      "high": 22,
+      "hard_high": 12,
+      "hard_low": 16
+    },
+    {
+      "v": "DIAG10",
+      "k": 7,
+      "seed": 7,
+      "n": 274,
+      "high": 25,
+      "hard_high": 11,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 7,
+      "seed": 101,
+      "n": 274,
+      "high": 25,
+      "hard_high": 11,
+      "hard_low": 11
+    },
+    {
+      "v": "DIAG10",
+      "k": 7,
+      "seed": 2024,
+      "n": 274,
+      "high": 25,
+      "hard_high": 13,
+      "hard_low": 12
+    },
+    {
+      "v": "DIAG10",
+      "k": 8,
+      "seed": 7,
+      "n": 258,
+      "high": 20,
+      "hard_high": 12,
+      "hard_low": 8
+    },
+    {
+      "v": "DIAG10",
+      "k": 8,
+      "seed": 101,
+      "n": 258,
+      "high": 20,
+      "hard_high": 13,
+      "hard_low": 7
+    },
+    {
+      "v": "DIAG10",
+      "k": 8,
+      "seed": 2024,
+      "n": 258,
+      "high": 20,
+      "hard_high": 12,
+      "hard_low": 7
+    },
+    {
+      "v": "DIAG10",
+      "k": 9,
+      "seed": 7,
+      "n": 258,
+      "high": 22,
+      "hard_high": 13,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 9,
+      "seed": 101,
+      "n": 258,
+      "high": 22,
+      "hard_high": 13,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 9,
+      "seed": 2024,
+      "n": 258,
+      "high": 22,
+      "hard_high": 13,
+      "hard_low": 10
+    }
+  ],
+  "changes": [
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.33370419665809514,
+      "prefix_A": 1.06586880485384
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.19895695342405972,
+      "prefix_A": 0.9602960453270829
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.3192654566329633,
+      "prefix_A": 1.1235609747813757
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.3094205957773613,
+      "prefix_A": 1.0416202024168728
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_125_23",
+      "high": 1,
+      "p": 0.2404553935870039,
+      "prefix_A": 1.469206223308935
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_128_23",
+      "high": 0,
+      "p": 0.30131432297826427,
+      "prefix_A": 0.9452626223329926
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_118_23",
+      "high": 1,
+      "p": 0.012838660308675658,
+      "prefix_A": 1.118346856961023
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.0053855517591897654,
+      "prefix_A": 1.1992573863034954
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_135_23",
+      "high": 1,
+      "p": 0.38431594442820977,
+      "prefix_A": 0.9568129220593974
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.01395569290684232,
+      "prefix_A": 1.2407669925889098
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_139_23",
+      "high": 1,
+      "p": 0.17872622735377808,
+      "prefix_A": 1.140637519135382
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_140_23",
+      "high": 0,
+      "p": 0.06297576113844867,
+      "prefix_A": 0.93918767447248
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_141_23",
+      "high": 0,
+      "p": 0.3949122050359129,
+      "prefix_A": 0.9069256064529768
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_143_23",
+      "high": 1,
+      "p": 0.33710994324299604,
+      "prefix_A": 1.29288434028748
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_151_23",
+      "high": 1,
+      "p": 0.07242626908115322,
+      "prefix_A": 1.3238079581957907
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_153_23",
+      "high": 1,
+      "p": 0.4121609793239471,
+      "prefix_A": 1.2289695072555613
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_136_23",
+      "high": 1,
+      "p": 0.3662146168532885,
+      "prefix_A": 1.6275511603159936
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_138_23",
+      "high": 1,
+      "p": 0.13254333831317056,
+      "prefix_A": 1.4947080982401395
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.10350178361464474,
+      "prefix_A": 1.8752482474516976
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_151_23",
+      "high": 1,
+      "p": 0.04455920360537995,
+      "prefix_A": 1.1641864980354493
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_153_23",
+      "high": 0,
+      "p": 0.07989451785768123,
+      "prefix_A": 0.9226587356111807
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.15971814636701953,
+      "prefix_A": 1.1474305667554299
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_116_23",
+      "high": 0,
+      "p": 0.38755293456070705,
+      "prefix_A": 0.9918962154768254
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_132_23",
+      "high": 0,
+      "p": 0.113298621762459,
+      "prefix_A": 1.040223870726855
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_132_23",
+      "high": 1,
+      "p": 0.14407998188834217,
+      "prefix_A": 1.152478667552623
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.08970671350381285,
+      "prefix_A": 1.0899772404483317
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_178_23",
+      "high": 1,
+      "p": 0.00030746270164599043,
+      "prefix_A": 0.985703231723437
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_177_23",
+      "high": 1,
+      "p": 0.09879205957010515,
+      "prefix_A": 0.9785467628553245
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.26047361037884104,
+      "prefix_A": 1.06586880485384
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.14205651822795218,
+      "prefix_A": 0.9602960453270829
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.360500793296201,
+      "prefix_A": 1.1235609747813757
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.4183477184136154,
+      "prefix_A": 1.0416202024168728
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_125_23",
+      "high": 1,
+      "p": 0.35652438977525297,
+      "prefix_A": 1.469206223308935
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_128_23",
+      "high": 0,
+      "p": 0.36231703253119163,
+      "prefix_A": 0.9452626223329926
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_118_23",
+      "high": 1,
+      "p": 0.008225673597636308,
+      "prefix_A": 1.118346856961023
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.0038240809304615733,
+      "prefix_A": 1.1992573863034954
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_135_23",
+      "high": 1,
+      "p": 0.2685750884252593,
+      "prefix_A": 0.9568129220593974
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.010563415970824849,
+      "prefix_A": 1.2407669925889098
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_140_23",
+      "high": 0,
+      "p": 0.07204327068541937,
+      "prefix_A": 0.93918767447248
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_141_23",
+      "high": 0,
+      "p": 0.2992809329786302,
+      "prefix_A": 0.9069256064529768
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_151_23",
+      "high": 1,
+      "p": 0.27773343368215936,
+      "prefix_A": 1.3238079581957907
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_153_23",
+      "high": 1,
+      "p": 0.39334201503282745,
+      "prefix_A": 1.2289695072555613
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_136_23",
+      "high": 1,
+      "p": 0.39251696702664374,
+      "prefix_A": 1.6275511603159936
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_138_23",
+      "high": 1,
+      "p": 0.2971418978334016,
+      "prefix_A": 1.4947080982401395
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.46684136697061424,
+      "prefix_A": 1.8752482474516976
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_151_23",
+      "high": 1,
+      "p": 0.16071348985903103,
+      "prefix_A": 1.1641864980354493
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_153_23",
+      "high": 0,
+      "p": 0.03104462664177527,
+      "prefix_A": 0.9226587356111807
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.2059007610564333,
+      "prefix_A": 1.1474305667554299
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_116_23",
+      "high": 0,
+      "p": 0.12466221790325598,
+      "prefix_A": 0.9918962154768254
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_132_23",
+      "high": 0,
+      "p": 0.03186625245578787,
+      "prefix_A": 1.040223870726855
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_132_23",
+      "high": 1,
+      "p": 0.08271271613890699,
+      "prefix_A": 1.152478667552623
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.06294667690753468,
+      "prefix_A": 1.0899772404483317
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_178_23",
+      "high": 1,
+      "p": 0.0005241364158639798,
+      "prefix_A": 0.985703231723437
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_161_23",
+      "high": 0,
+      "p": 0.4335454999503774,
+      "prefix_A": 1.2464450664055702
+    },
+    {
+      "v": "A",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_177_23",
+      "high": 1,
+      "p": 0.08336509408462975,
+      "prefix_A": 0.9785467628553245
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.2778199748676875,
+      "prefix_A": 1.0457703315644233
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.17865184905664028,
+      "prefix_A": 0.9461000116176637
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.31248166228804963,
+      "prefix_A": 1.0843030671067289
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.3216047564779781,
+      "prefix_A": 1.0059567615901415
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_125_23",
+      "high": 1,
+      "p": 0.21814020595044684,
+      "prefix_A": 1.4408544339921354
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_128_23",
+      "high": 0,
+      "p": 0.2813144763522825,
+      "prefix_A": 0.9465217268929288
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_118_23",
+      "high": 1,
+      "p": 0.01757181410705881,
+      "prefix_A": 1.1183133035732264
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.006593805551551371,
+      "prefix_A": 1.189087575934449
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_135_23",
+      "high": 1,
+      "p": 0.442093698383203,
+      "prefix_A": 0.9788121581521042
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.02161511012336739,
+      "prefix_A": 1.2158490640118427
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_139_23",
+      "high": 1,
+      "p": 0.2578035531727039,
+      "prefix_A": 1.1404392868258413
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_140_23",
+      "high": 0,
+      "p": 0.06911813330449014,
+      "prefix_A": 0.9407100839347825
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_141_23",
+      "high": 0,
+      "p": 0.41010400865686086,
+      "prefix_A": 0.9135236628475009
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_143_23",
+      "high": 1,
+      "p": 0.35231010938722235,
+      "prefix_A": 1.2642909931013966
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_151_23",
+      "high": 1,
+      "p": 0.07320262983468584,
+      "prefix_A": 1.2896746296069945
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_153_23",
+      "high": 1,
+      "p": 0.4084399566745734,
+      "prefix_A": 1.2192402401997213
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_136_23",
+      "high": 1,
+      "p": 0.420696979299428,
+      "prefix_A": 1.642923296151748
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_138_23",
+      "high": 1,
+      "p": 0.14675944777604694,
+      "prefix_A": 1.5075092515208803
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.1232635893500624,
+      "prefix_A": 1.879316036343886
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_151_23",
+      "high": 1,
+      "p": 0.046147055205666525,
+      "prefix_A": 1.1734927674728355
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_153_23",
+      "high": 0,
+      "p": 0.10022384038888969,
+      "prefix_A": 0.9258020097048011
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.1838593029049441,
+      "prefix_A": 1.1263011068294262
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_116_23",
+      "high": 0,
+      "p": 0.42978898868996085,
+      "prefix_A": 0.9919291461377625
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_132_23",
+      "high": 0,
+      "p": 0.12536853867159012,
+      "prefix_A": 1.014267964116765
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_132_23",
+      "high": 1,
+      "p": 0.1301536957444707,
+      "prefix_A": 1.1663218356983809
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.10903992123577948,
+      "prefix_A": 1.0654914306832108
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_178_23",
+      "high": 1,
+      "p": 0.0002307438909756452,
+      "prefix_A": 0.9850055997637144
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_177_23",
+      "high": 1,
+      "p": 0.08728249916929406,
+      "prefix_A": 0.9789238567397639
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.2420633198149235,
+      "prefix_A": 1.0457703315644233
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.13385949186529467,
+      "prefix_A": 0.9461000116176637
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.3438087567331274,
+      "prefix_A": 1.0843030671067289
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.4156884395172533,
+      "prefix_A": 1.0059567615901415
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_125_23",
+      "high": 1,
+      "p": 0.30230545770685735,
+      "prefix_A": 1.4408544339921354
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_139_23",
+      "high": 1,
+      "p": 0.4873227131680883,
+      "prefix_A": 1.0649409848802553
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_128_23",
+      "high": 0,
+      "p": 0.31341557222103195,
+      "prefix_A": 0.9465217268929288
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_118_23",
+      "high": 1,
+      "p": 0.007844204275756304,
+      "prefix_A": 1.1183133035732264
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.0036290066061462774,
+      "prefix_A": 1.189087575934449
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_135_23",
+      "high": 1,
+      "p": 0.31176961251855756,
+      "prefix_A": 0.9788121581521042
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.014033207076927323,
+      "prefix_A": 1.2158490640118427
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_140_23",
+      "high": 0,
+      "p": 0.08176527910874117,
+      "prefix_A": 0.9407100839347825
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_141_23",
+      "high": 0,
+      "p": 0.3090892113242601,
+      "prefix_A": 0.9135236628475009
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_151_23",
+      "high": 1,
+      "p": 0.2418396091219502,
+      "prefix_A": 1.2896746296069945
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_153_23",
+      "high": 1,
+      "p": 0.39104628036312195,
+      "prefix_A": 1.2192402401997213
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_136_23",
+      "high": 1,
+      "p": 0.4851861566848139,
+      "prefix_A": 1.642923296151748
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_138_23",
+      "high": 1,
+      "p": 0.3298432521668943,
+      "prefix_A": 1.5075092515208803
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.4225072924655028,
+      "prefix_A": 1.879316036343886
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_151_23",
+      "high": 1,
+      "p": 0.15023133044825213,
+      "prefix_A": 1.1734927674728355
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_153_23",
+      "high": 0,
+      "p": 0.033597884265920454,
+      "prefix_A": 0.9258020097048011
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.19805845392287233,
+      "prefix_A": 1.1263011068294262
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_116_23",
+      "high": 0,
+      "p": 0.14799011169735354,
+      "prefix_A": 0.9919291461377625
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_132_23",
+      "high": 0,
+      "p": 0.03813161208250287,
+      "prefix_A": 1.014267964116765
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_132_23",
+      "high": 1,
+      "p": 0.08596311665380447,
+      "prefix_A": 1.1663218356983809
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.07649883336006277,
+      "prefix_A": 1.0654914306832108
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_178_23",
+      "high": 1,
+      "p": 0.00048528517520775083,
+      "prefix_A": 0.9850055997637144
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_161_23",
+      "high": 0,
+      "p": 0.44061571239651254,
+      "prefix_A": 1.254983464946927
+    },
+    {
+      "v": "A",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_177_23",
+      "high": 1,
+      "p": 0.07799789710891068,
+      "prefix_A": 0.9789238567397639
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.3662221956005612,
+      "prefix_A": 1.0784861145781195
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.23050741278108164,
+      "prefix_A": 0.9479457407640184
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.31248257617255354,
+      "prefix_A": 1.0947103717709104
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.3393862249182818,
+      "prefix_A": 1.0140354661841589
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_125_23",
+      "high": 1,
+      "p": 0.2443934388010301,
+      "prefix_A": 1.4569168321185961
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_128_23",
+      "high": 0,
+      "p": 0.3157064431282339,
+      "prefix_A": 0.9635950686899143
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_118_23",
+      "high": 1,
+      "p": 0.019465757773787045,
+      "prefix_A": 1.1320364092623507
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.006829840123468851,
+      "prefix_A": 1.1993309393806746
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_135_23",
+      "high": 1,
+      "p": 0.38060974907791606,
+      "prefix_A": 1.0126887790777899
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.019971508396152873,
+      "prefix_A": 1.2501742133379206
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_139_23",
+      "high": 1,
+      "p": 0.24473492588732884,
+      "prefix_A": 1.1407318879390658
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_140_23",
+      "high": 0,
+      "p": 0.07821787145038003,
+      "prefix_A": 0.9347512124241816
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_143_23",
+      "high": 1,
+      "p": 0.23762198374512775,
+      "prefix_A": 1.2912846888903078
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_151_23",
+      "high": 1,
+      "p": 0.06673064118302285,
+      "prefix_A": 1.3001797372369432
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_153_23",
+      "high": 1,
+      "p": 0.4222212127675589,
+      "prefix_A": 1.2048946807874072
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_136_23",
+      "high": 1,
+      "p": 0.3820713266175915,
+      "prefix_A": 1.6615396188776128
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_138_23",
+      "high": 1,
+      "p": 0.20255708819374843,
+      "prefix_A": 1.5401388467120818
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.16307825226536948,
+      "prefix_A": 1.8444583543282054
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_151_23",
+      "high": 1,
+      "p": 0.037335482348792665,
+      "prefix_A": 1.1805805272704115
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_153_23",
+      "high": 0,
+      "p": 0.1059575348301123,
+      "prefix_A": 0.9375622422255591
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.15643968290904933,
+      "prefix_A": 1.1385290614349104
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_116_23",
+      "high": 0,
+      "p": 0.3747023348153236,
+      "prefix_A": 0.9951919917721216
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_132_23",
+      "high": 0,
+      "p": 0.19970371105347975,
+      "prefix_A": 1.031501566706431
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_132_23",
+      "high": 1,
+      "p": 0.1699799207597056,
+      "prefix_A": 1.1459455084791628
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.10337905165545944,
+      "prefix_A": 1.0872791792234096
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_178_23",
+      "high": 1,
+      "p": 0.0006619993698389179,
+      "prefix_A": 0.9803977566058989
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_177_23",
+      "high": 1,
+      "p": 0.13093770168692276,
+      "prefix_A": 0.9743926878505306
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.28380142003954106,
+      "prefix_A": 1.0784861145781195
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.16025399025315892,
+      "prefix_A": 0.9479457407640184
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.3205042260807862,
+      "prefix_A": 1.0947103717709104
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.42797278195965716,
+      "prefix_A": 1.0140354661841589
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_125_23",
+      "high": 1,
+      "p": 0.3589765924304769,
+      "prefix_A": 1.4569168321185961
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_128_23",
+      "high": 0,
+      "p": 0.401915688803057,
+      "prefix_A": 0.9635950686899143
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_118_23",
+      "high": 1,
+      "p": 0.010125083915438803,
+      "prefix_A": 1.1320364092623507
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.004416425505518517,
+      "prefix_A": 1.1993309393806746
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_135_23",
+      "high": 1,
+      "p": 0.2748778737161405,
+      "prefix_A": 1.0126887790777899
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.012262863560205126,
+      "prefix_A": 1.2501742133379206
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_140_23",
+      "high": 0,
+      "p": 0.07387661761663147,
+      "prefix_A": 0.9347512124241816
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_151_23",
+      "high": 1,
+      "p": 0.2177122244775579,
+      "prefix_A": 1.3001797372369432
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_153_23",
+      "high": 1,
+      "p": 0.3763350256118653,
+      "prefix_A": 1.2048946807874072
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_136_23",
+      "high": 1,
+      "p": 0.4963315391997527,
+      "prefix_A": 1.6615396188776128
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_138_23",
+      "high": 1,
+      "p": 0.44186254871703373,
+      "prefix_A": 1.5401388467120818
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.4529105411918244,
+      "prefix_A": 1.8444583543282054
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_151_23",
+      "high": 1,
+      "p": 0.13021698038715834,
+      "prefix_A": 1.1805805272704115
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_153_23",
+      "high": 0,
+      "p": 0.03705284688099208,
+      "prefix_A": 0.9375622422255591
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.16768384882456377,
+      "prefix_A": 1.1385290614349104
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_116_23",
+      "high": 0,
+      "p": 0.12454633901310576,
+      "prefix_A": 0.9951919917721216
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_132_23",
+      "high": 0,
+      "p": 0.06956996011070841,
+      "prefix_A": 1.031501566706431
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_132_23",
+      "high": 1,
+      "p": 0.12580177947757526,
+      "prefix_A": 1.1459455084791628
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_154_23",
+      "high": 1,
+      "p": 0.07353144246308964,
+      "prefix_A": 1.0872791792234096
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_178_23",
+      "high": 1,
+      "p": 0.0005281293527091436,
+      "prefix_A": 0.9803977566058989
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_161_23",
+      "high": 0,
+      "p": 0.42112235860735187,
+      "prefix_A": 1.250419139336765
+    },
+    {
+      "v": "A",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_177_23",
+      "high": 1,
+      "p": 0.08372439627762135,
+      "prefix_A": 0.9743926878505306
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_116_23",
+      "high": 0,
+      "p": 0.4938460852291354,
+      "prefix_A": 1.0064899817893518
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.18577889094521033,
+      "prefix_A": 0.9159771141265701
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.07354757955898349,
+      "prefix_A": 1.0808134216425058
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.13938206946232629,
+      "prefix_A": 1.0230121846314877
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.10336365452397013,
+      "prefix_A": 1.3755669796545789
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_143_23",
+      "high": 1,
+      "p": 0.41799473233253254,
+      "prefix_A": 1.2089177602738854
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_136_23",
+      "high": 1,
+      "p": 0.21418016232091283,
+      "prefix_A": 1.7819479012020867
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.17150055724119592,
+      "prefix_A": 1.682566205540405
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_132_23",
+      "high": 0,
+      "p": 0.3851811452751552,
+      "prefix_A": 1.0896395564520562
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.13688948064675743,
+      "prefix_A": 0.9159771141265701
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.06592468170369735,
+      "prefix_A": 1.0808134216425058
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.09860690428768559,
+      "prefix_A": 1.0230121846314877
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.2805925156250878,
+      "prefix_A": 1.3755669796545789
+    },
+    {
+      "v": "B",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.3704507001202726,
+      "prefix_A": 1.682566205540405
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_132_23",
+      "high": 0,
+      "p": 0.49877411292188034,
+      "prefix_A": 1.0908419061787644
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.20124199061765716,
+      "prefix_A": 0.9166326025448527
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.07518307040066434,
+      "prefix_A": 1.0974270698238113
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.14329409432658163,
+      "prefix_A": 1.0090224892808293
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.15183894114898588,
+      "prefix_A": 1.385340723507352
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_143_23",
+      "high": 1,
+      "p": 0.4222834722746093,
+      "prefix_A": 1.21396330694249
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_136_23",
+      "high": 1,
+      "p": 0.2552336621851682,
+      "prefix_A": 1.7580831848537848
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.23682016678217666,
+      "prefix_A": 1.6686941642760138
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_132_23",
+      "high": 0,
+      "p": 0.3585834691270424,
+      "prefix_A": 1.0908419061787644
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.15065192779894387,
+      "prefix_A": 0.9166326025448527
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.07068233625486826,
+      "prefix_A": 1.0974270698238113
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.10761486971500576,
+      "prefix_A": 1.0090224892808293
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.27820561763703416,
+      "prefix_A": 1.385340723507352
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_159_23",
+      "high": 0,
+      "p": 0.4996056672383113,
+      "prefix_A": 0.9074699312407289
+    },
+    {
+      "v": "B",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.3591239478226836,
+      "prefix_A": 1.6686941642760138
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_132_23",
+      "high": 0,
+      "p": 0.37935004520124965,
+      "prefix_A": 1.0674181712982163
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.2604746682919922,
+      "prefix_A": 0.9181535889009326
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.06442474366195582,
+      "prefix_A": 1.0966205128265807
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.1568719931955948,
+      "prefix_A": 0.992376723721622
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.1487903398182512,
+      "prefix_A": 1.3766305889970791
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_143_23",
+      "high": 1,
+      "p": 0.4370290791190329,
+      "prefix_A": 1.2058845635059674
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_136_23",
+      "high": 1,
+      "p": 0.2777267220141243,
+      "prefix_A": 1.7767239241176
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.24465542479032404,
+      "prefix_A": 1.6437369210395019
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_132_23",
+      "high": 0,
+      "p": 0.21646664659513387,
+      "prefix_A": 1.0674181712982163
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.2119558906754204,
+      "prefix_A": 0.9181535889009326
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.0687320977240094,
+      "prefix_A": 1.0966205128265807
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_121_23",
+      "high": 1,
+      "p": 0.11030458120149501,
+      "prefix_A": 0.992376723721622
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.3034142869073267,
+      "prefix_A": 1.3766305889970791
+    },
+    {
+      "v": "B",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_141_23",
+      "high": 1,
+      "p": 0.3649364565565267,
+      "prefix_A": 1.6437369210395019
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.3907782331751869,
+      "prefix_A": 0.9219249915804694
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.4680905650710139,
+      "prefix_A": 1.1649290522279323
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_117_23",
+      "high": 0,
+      "p": 0.084040820215566,
+      "prefix_A": 0.9018273620050358
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_177_23",
+      "high": 1,
+      "p": 0.32497705216775424,
+      "prefix_A": 0.9379982645730905
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F47_130_23",
+      "high": 0,
+      "p": 0.1346691031615597,
+      "prefix_A": 1.062864222237528
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "HARD",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.2767225789689296,
+      "prefix_A": 1.3065909775221123
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_157_23",
+      "high": 1,
+      "p": 0.2883804011904013,
+      "prefix_A": 0.9324849931309352
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.13011159759697316,
+      "prefix_A": 0.9219249915804694
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_161_23",
+      "high": 0,
+      "p": 0.3167673613889691,
+      "prefix_A": 1.143033852593695
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_118_23",
+      "high": 1,
+      "p": 0.12808005797480615,
+      "prefix_A": 1.1136738056627389
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.1759920766263602,
+      "prefix_A": 1.1649290522279323
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F47_117_23",
+      "high": 0,
+      "p": 0.030046301356628703,
+      "prefix_A": 0.9018273620050358
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_177_23",
+      "high": 1,
+      "p": 0.3491819158062342,
+      "prefix_A": 0.9379982645730905
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_135_23",
+      "high": 1,
+      "p": 0.4586937634297545,
+      "prefix_A": 1.1258510361053145
+    },
+    {
+      "v": "DIAG10",
+      "seed": 7,
+      "mode": "UNIFORM",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.2378062865845659,
+      "prefix_A": 1.3065909775221123
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.3465020119882079,
+      "prefix_A": 0.9364046826293144
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_177_23",
+      "high": 1,
+      "p": 0.28309081564699884,
+      "prefix_A": 0.9326704800991413
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F47_130_23",
+      "high": 0,
+      "p": 0.18425885038817635,
+      "prefix_A": 1.0498159342673805
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "HARD",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.2198221151158388,
+      "prefix_A": 1.2999825616320215
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_157_23",
+      "high": 1,
+      "p": 0.32641605846140515,
+      "prefix_A": 0.947446305371404
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.17826295355668242,
+      "prefix_A": 0.9364046826293144
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F47_161_23",
+      "high": 0,
+      "p": 0.2867786531806995,
+      "prefix_A": 1.133805547796671
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_118_23",
+      "high": 1,
+      "p": 0.14360455442760875,
+      "prefix_A": 1.0808127775989964
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.22339108507920744,
+      "prefix_A": 1.1522574425804948
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_177_23",
+      "high": 1,
+      "p": 0.29756616612972125,
+      "prefix_A": 0.9326704800991413
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_135_23",
+      "high": 1,
+      "p": 0.4579243653643396,
+      "prefix_A": 1.159105971017973
+    },
+    {
+      "v": "DIAG10",
+      "seed": 101,
+      "mode": "UNIFORM",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.1689522071816046,
+      "prefix_A": 1.2999825616320215
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.4853915329762681,
+      "prefix_A": 0.9312010832701704
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.42166742358055503,
+      "prefix_A": 1.1529354354751165
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_177_23",
+      "high": 1,
+      "p": 0.2576751438735816,
+      "prefix_A": 0.936964203100526
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F47_130_23",
+      "high": 0,
+      "p": 0.08408582330358068,
+      "prefix_A": 1.0552023159667603
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "HARD",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.33208379953621403,
+      "prefix_A": 1.3083335096969921
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_157_23",
+      "high": 1,
+      "p": 0.3805454085222044,
+      "prefix_A": 0.9426601794808112
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_114_23",
+      "high": 0,
+      "p": 0.13549533211907533,
+      "prefix_A": 0.9312010832701704
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_161_23",
+      "high": 0,
+      "p": 0.2668067147864852,
+      "prefix_A": 1.1296132392832883
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_118_23",
+      "high": 1,
+      "p": 0.13720828778038702,
+      "prefix_A": 1.0918634773907332
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_120_23",
+      "high": 1,
+      "p": 0.19237036946406105,
+      "prefix_A": 1.1529354354751165
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_177_23",
+      "high": 1,
+      "p": 0.3047712368295682,
+      "prefix_A": 0.936964203100526
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F47_130_23",
+      "high": 0,
+      "p": 0.4260559586112149,
+      "prefix_A": 1.0552023159667603
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_135_23",
+      "high": 1,
+      "p": 0.4485948224640066,
+      "prefix_A": 1.1291358158346962
+    },
+    {
+      "v": "DIAG10",
+      "seed": 2024,
+      "mode": "UNIFORM",
+      "row_id": "F13_137_23",
+      "high": 1,
+      "p": 0.2160962868708408,
+      "prefix_A": 1.3083335096969921
+    }
+  ],
+  "bootstrap": {
+    "UNIFORM": {
+      "blocks": 72,
+      "replicates": 10000,
+      "error_change": 3.3333333333333335,
+      "fp_change": -2.6666666666666665,
+      "error_ci95": [
+        -3.0,
+        10.666666666666666
+      ],
+      "fp_ci95": [
+        -6.333333333333333,
+        0.0
+      ],
+      "p_error_non_improvement": 0.8423,
+      "diagnostic_only": true
+    },
+    "HARD": {
+      "blocks": 72,
+      "replicates": 10000,
+      "error_change": 0.33333333333333337,
+      "fp_change": -2.333333333333333,
+      "error_ci95": [
+        -4.333333333333333,
+        4.666666666666667
+      ],
+      "fp_ci95": [
+        -6.0,
+        0.0
+      ],
+      "p_error_non_improvement": 0.5849,
+      "diagnostic_only": true
+    }
+  }
+}

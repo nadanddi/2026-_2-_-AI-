@@ -1,0 +1,3541 @@
+{
+  "status": "COMPLETE_PROXY300_CLASSIFIER120_SAME_SPEC",
+  "files": [
+    {
+      "path": "outer_HARD_A_0_7_resume_v2.csv",
+      "sha": "0c4cfed524520984989b4a237339852b7dd14c0453612f0cb23367d57a8d4be1",
+      "model": "model_HARD_A_0_7_resume_v2.json",
+      "model_sha": "358c1788b2acf76b8c4385d9be8611a972e11304f9d8ba15ae515a1ce93e7565",
+      "v": "A",
+      "k": 0,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_0_7_resume_v2.csv",
+      "sha": "2cd02c59d1bd92963196eaebd821cbe684d3caa594e808d8c7677a3e1b89da0f",
+      "model": "model_HARD_A_0_7_resume_v2.json",
+      "model_sha": "358c1788b2acf76b8c4385d9be8611a972e11304f9d8ba15ae515a1ce93e7565",
+      "v": "A",
+      "k": 0,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_0_7_resume_v2.csv",
+      "sha": "4b72946d2e74d31078c270885b50bcd64f24f99de41de6d7195e0fc0ef565266",
+      "model": "model_UNIFORM_A_0_7_resume_v2.json",
+      "model_sha": "526ef8dd64856c823c0c33d167399b76247c781923488ce860b57a5f5c7db0eb",
+      "v": "A",
+      "k": 0,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_0_7_resume_v2.csv",
+      "sha": "769eb3128522384dbc33fe03ee7adba38c080797e96b98b8761df1cf185c696c",
+      "model": "model_UNIFORM_A_0_7_resume_v2.json",
+      "model_sha": "526ef8dd64856c823c0c33d167399b76247c781923488ce860b57a5f5c7db0eb",
+      "v": "A",
+      "k": 0,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_0_101_resume_v2.csv",
+      "sha": "7c4a4e3fd0e2826d7a814dee32b7830cf8e27559275efc418f861ba778c93960",
+      "model": "model_HARD_A_0_101_resume_v2.json",
+      "model_sha": "1153c652b6f5f06635a86206ba050eec260c3d23fbeb21e6f49848996a40b83b",
+      "v": "A",
+      "k": 0,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_0_101_resume_v2.csv",
+      "sha": "65cc64238ac32bbc68ebe317f021002db5bec374726f3cdfbc6114b0429eaa87",
+      "model": "model_HARD_A_0_101_resume_v2.json",
+      "model_sha": "1153c652b6f5f06635a86206ba050eec260c3d23fbeb21e6f49848996a40b83b",
+      "v": "A",
+      "k": 0,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_0_101_resume_v2.csv",
+      "sha": "f89307d9249564d9407a81c6250a39ef7319fe8c1a2ef6235e018e47cca7cc4c",
+      "model": "model_UNIFORM_A_0_101_resume_v2.json",
+      "model_sha": "570d8fa7c4b38aaa04b04218217372f9ef5f2f7e4e9df3f92bbe41f94d4e5e85",
+      "v": "A",
+      "k": 0,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_0_101_resume_v2.csv",
+      "sha": "ee7f75191205c036fdc2017d9a1015dcf67474397ea71779a97a3666a1426e50",
+      "model": "model_UNIFORM_A_0_101_resume_v2.json",
+      "model_sha": "570d8fa7c4b38aaa04b04218217372f9ef5f2f7e4e9df3f92bbe41f94d4e5e85",
+      "v": "A",
+      "k": 0,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_0_2024_resume_v2.csv",
+      "sha": "9d4d96f1544f0d25edecb1e9a0cbd66a2d80f2478517f10b3bdbb238daadb1f6",
+      "model": "model_HARD_A_0_2024_resume_v2.json",
+      "model_sha": "b3b6c2e26f5227aeacad35c279e90c0bde56c267f570992aaec351a3dd220c52",
+      "v": "A",
+      "k": 0,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_0_2024_resume_v2.csv",
+      "sha": "70dd99712d0413d371ad5a5d64f245e7a54946450b205d2aae749888eeed0890",
+      "model": "model_HARD_A_0_2024_resume_v2.json",
+      "model_sha": "b3b6c2e26f5227aeacad35c279e90c0bde56c267f570992aaec351a3dd220c52",
+      "v": "A",
+      "k": 0,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_0_2024_resume_v2.csv",
+      "sha": "5e313d7ff54c94c029aee24cd03a87ac1c5944051c40558b0c346bf7173dcbfd",
+      "model": "model_UNIFORM_A_0_2024_resume_v2.json",
+      "model_sha": "f498d9d00575a941d7e65f096219d4fdf4da7af6d6e7ba76e10098332b434e77",
+      "v": "A",
+      "k": 0,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_0_2024_resume_v2.csv",
+      "sha": "6ae8cedcf740dd14eebfbac55688f446d3ad1425187e87b87edaddbd5c700536",
+      "model": "model_UNIFORM_A_0_2024_resume_v2.json",
+      "model_sha": "f498d9d00575a941d7e65f096219d4fdf4da7af6d6e7ba76e10098332b434e77",
+      "v": "A",
+      "k": 0,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_1_7_resume_v2.csv",
+      "sha": "6bf1f74853890ab7eee0ca37d5bf233dbb9953dcc80eb9b961257f731b99dfcc",
+      "model": "model_HARD_A_1_7_resume_v2.json",
+      "model_sha": "7c90e991a2b0709eb242645de76ceb4da74cb3127e628be116852e2f0fa29c87",
+      "v": "A",
+      "k": 1,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_1_7_resume_v2.csv",
+      "sha": "12d05668fc6e8cf0755420acd9aac1763e7b9f91e15667c3b8463ec36cef9322",
+      "model": "model_HARD_A_1_7_resume_v2.json",
+      "model_sha": "7c90e991a2b0709eb242645de76ceb4da74cb3127e628be116852e2f0fa29c87",
+      "v": "A",
+      "k": 1,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_1_7_resume_v2.csv",
+      "sha": "0edd969d7f2d497b0e26d9b9fb2160165fce923efb29ef1cde7ca23cd90697d1",
+      "model": "model_UNIFORM_A_1_7_resume_v2.json",
+      "model_sha": "cec854a41efeff1b67d4e51d0eb06e5b62315e91c7ee75a2fec442fbbb4788de",
+      "v": "A",
+      "k": 1,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_1_7_resume_v2.csv",
+      "sha": "fc86bc13827c0d0503b722bbcc5d1229917eca2eef14da31193feccefa89e453",
+      "model": "model_UNIFORM_A_1_7_resume_v2.json",
+      "model_sha": "cec854a41efeff1b67d4e51d0eb06e5b62315e91c7ee75a2fec442fbbb4788de",
+      "v": "A",
+      "k": 1,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_1_101_resume_v2.csv",
+      "sha": "caf5da978fa8d5b0063b70a13734ab8a6a38efdbbf9052216b2c26b9554d7545",
+      "model": "model_HARD_A_1_101_resume_v2.json",
+      "model_sha": "2cef58dd3cb80e83af9b2e8eec1b27b2a04f0e152cbd313c73ef31e002f14222",
+      "v": "A",
+      "k": 1,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_1_101_resume_v2.csv",
+      "sha": "bd5b6c8a221ffa8f9d411d954a24d8e4ab89b84369b73fba37d8de0ac8e055cc",
+      "model": "model_HARD_A_1_101_resume_v2.json",
+      "model_sha": "2cef58dd3cb80e83af9b2e8eec1b27b2a04f0e152cbd313c73ef31e002f14222",
+      "v": "A",
+      "k": 1,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_1_101_resume_v2.csv",
+      "sha": "27557e61488c7605d496df89a46bde1cc887a8e05e382c5253a1741aa7710f43",
+      "model": "model_UNIFORM_A_1_101_resume_v2.json",
+      "model_sha": "d060536d4a46e32e9eae41b2ab110184b477f1e9cfa7cb975bfcf74447621eab",
+      "v": "A",
+      "k": 1,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_1_101_resume_v2.csv",
+      "sha": "301a802ba9e22b00837dae6430bc18bc841f5568e55e876b2cf6182e4ef47a7d",
+      "model": "model_UNIFORM_A_1_101_resume_v2.json",
+      "model_sha": "d060536d4a46e32e9eae41b2ab110184b477f1e9cfa7cb975bfcf74447621eab",
+      "v": "A",
+      "k": 1,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_1_2024_resume_v2.csv",
+      "sha": "c0e0e9aec2375ff2b557a6c8c5fea3d1c37e440927df9d0e97ba93dc10c45849",
+      "model": "model_HARD_A_1_2024_resume_v2.json",
+      "model_sha": "3eb5bad7b6bbf2089a7becedc0cc61c2510fb93bfb5674f6968b6b2612f0bc3c",
+      "v": "A",
+      "k": 1,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_1_2024_resume_v2.csv",
+      "sha": "f5c2f70614cbf7086e6eefc6486b879820063c7c8abbffadd939706d6caa8246",
+      "model": "model_HARD_A_1_2024_resume_v2.json",
+      "model_sha": "3eb5bad7b6bbf2089a7becedc0cc61c2510fb93bfb5674f6968b6b2612f0bc3c",
+      "v": "A",
+      "k": 1,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_1_2024_resume_v2.csv",
+      "sha": "fe3342ede9458639104835256f65757224824d9374011a7f5b977a05bfbe5b0f",
+      "model": "model_UNIFORM_A_1_2024_resume_v2.json",
+      "model_sha": "e2ca165483e68858e1e88e9d8cd0300cd40947706470e39fcf8a41983c0eaf73",
+      "v": "A",
+      "k": 1,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_1_2024_resume_v2.csv",
+      "sha": "ce442d38f9f386317158b710ea5f1210c21af63d6832622f70f7f44e639fb510",
+      "model": "model_UNIFORM_A_1_2024_resume_v2.json",
+      "model_sha": "e2ca165483e68858e1e88e9d8cd0300cd40947706470e39fcf8a41983c0eaf73",
+      "v": "A",
+      "k": 1,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_2_7_resume_v2.csv",
+      "sha": "4306646328b5be02939d8e0ce94c155cec9102f485b637becb026d9186d2b591",
+      "model": "model_HARD_A_2_7_resume_v2.json",
+      "model_sha": "8b6d34c0608b7e6835d55477f3a6d2cd782ff3958d966e208cb572a68d4af19c",
+      "v": "A",
+      "k": 2,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_2_7_resume_v2.csv",
+      "sha": "18886747b6ea5fb41bb811c0eea1ae1d8c9b2619bc59c6c686ce4971b871dc7e",
+      "model": "model_HARD_A_2_7_resume_v2.json",
+      "model_sha": "8b6d34c0608b7e6835d55477f3a6d2cd782ff3958d966e208cb572a68d4af19c",
+      "v": "A",
+      "k": 2,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_2_7_resume_v2.csv",
+      "sha": "b79406e9749752d0f72330c65fdb7226b838107a7b851c1c112f913076397c47",
+      "model": "model_UNIFORM_A_2_7_resume_v2.json",
+      "model_sha": "1368b2e27004bed9c6292667c04030990d86d4649fcbd85b8564bf9b693ad4ad",
+      "v": "A",
+      "k": 2,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_2_7_resume_v2.csv",
+      "sha": "72cd718a2e7898e9bcff72f705874421f9ebe11ee14b47bb4ddf644825384c1d",
+      "model": "model_UNIFORM_A_2_7_resume_v2.json",
+      "model_sha": "1368b2e27004bed9c6292667c04030990d86d4649fcbd85b8564bf9b693ad4ad",
+      "v": "A",
+      "k": 2,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_2_101_resume_v2.csv",
+      "sha": "b07f612e574ee71c6c1830a3cfb3e860d8e64dd6632bd3b8f6928cee0d7c67fb",
+      "model": "model_HARD_A_2_101_resume_v2.json",
+      "model_sha": "b932540820025ed3a0acc2149919450946168d242d902ee4417a3afab7d6208a",
+      "v": "A",
+      "k": 2,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_2_101_resume_v2.csv",
+      "sha": "0c0f5fcd52dddfa63e9d3f6b10fd328d7e075605da491f5f99e3db201286a512",
+      "model": "model_HARD_A_2_101_resume_v2.json",
+      "model_sha": "b932540820025ed3a0acc2149919450946168d242d902ee4417a3afab7d6208a",
+      "v": "A",
+      "k": 2,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_2_101_resume_v2.csv",
+      "sha": "c97f7f0f48e34ffde527fe118866a0a66433833d2f742189e8d68447ae37de6f",
+      "model": "model_UNIFORM_A_2_101_resume_v2.json",
+      "model_sha": "c8063f4debbb6ef91b0a064e0bf45c07520f3ac34d2a2c9ef72ecd1adca21b64",
+      "v": "A",
+      "k": 2,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_2_101_resume_v2.csv",
+      "sha": "a35ba262de6c59092f2ec7e96fa9e6e08ce5af86980ba5e7de91f72c9da67708",
+      "model": "model_UNIFORM_A_2_101_resume_v2.json",
+      "model_sha": "c8063f4debbb6ef91b0a064e0bf45c07520f3ac34d2a2c9ef72ecd1adca21b64",
+      "v": "A",
+      "k": 2,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_2_2024_resume_v2.csv",
+      "sha": "07fa6f28187ef0be66355f5cd7f674122d7a7e4b3dcd4be079ab285754415354",
+      "model": "model_HARD_A_2_2024_resume_v2.json",
+      "model_sha": "1f4f673df7b39409735dd25a0d5bbcd710fe3bca551c7faada83588fcfb9e417",
+      "v": "A",
+      "k": 2,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_2_2024_resume_v2.csv",
+      "sha": "d0b90f1bdae84b86c4e3b84c5e93d3dda9b5007536e382574ef6c55c24d2f4dd",
+      "model": "model_HARD_A_2_2024_resume_v2.json",
+      "model_sha": "1f4f673df7b39409735dd25a0d5bbcd710fe3bca551c7faada83588fcfb9e417",
+      "v": "A",
+      "k": 2,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_2_2024_resume_v2.csv",
+      "sha": "20d77c8b14df06b8a04f01550d88cfdd1d68ebf29f77fd0dd38fc8caccc9df7f",
+      "model": "model_UNIFORM_A_2_2024_resume_v2.json",
+      "model_sha": "82c7f9eebc40c35e5ff30b6aa5bc04420c401688552d1b0680f462ef8f523008",
+      "v": "A",
+      "k": 2,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_2_2024_resume_v2.csv",
+      "sha": "0cacb64025b00ce5a6e03e384113d08d4f6420d7f72fd982bb24618f4c94f6fe",
+      "model": "model_UNIFORM_A_2_2024_resume_v2.json",
+      "model_sha": "82c7f9eebc40c35e5ff30b6aa5bc04420c401688552d1b0680f462ef8f523008",
+      "v": "A",
+      "k": 2,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_3_7_resume_v2.csv",
+      "sha": "74586c45bb4db7466c3ea9bd1821bcb6170f189f99ddc3ff04089417a60e01c8",
+      "model": "model_HARD_A_3_7_resume_v2.json",
+      "model_sha": "3cc2976736b7386026e6cc7b17af3ec2b73587a7fd10184f50b176d7d2cfec6c",
+      "v": "A",
+      "k": 3,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_3_7_resume_v2.csv",
+      "sha": "90726b255d4696033d8d31ddfa14c54557251e3865be1fccb1fe8f1915c060f5",
+      "model": "model_HARD_A_3_7_resume_v2.json",
+      "model_sha": "3cc2976736b7386026e6cc7b17af3ec2b73587a7fd10184f50b176d7d2cfec6c",
+      "v": "A",
+      "k": 3,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_3_7_resume_v2.csv",
+      "sha": "400cf73e4e3a6d69d2634a190de90a59dfd72818f93019933c30cd987aeb88e1",
+      "model": "model_UNIFORM_A_3_7_resume_v2.json",
+      "model_sha": "9febf3faa3a8a495a7e96e80e2f0576646e53603dc31bb8d52b1197be2e127fc",
+      "v": "A",
+      "k": 3,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_3_7_resume_v2.csv",
+      "sha": "f11870852c96666e70cc42fe367cbd536d319035b40e0c507f0ee3eee8a0a941",
+      "model": "model_UNIFORM_A_3_7_resume_v2.json",
+      "model_sha": "9febf3faa3a8a495a7e96e80e2f0576646e53603dc31bb8d52b1197be2e127fc",
+      "v": "A",
+      "k": 3,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_3_101_resume_v2.csv",
+      "sha": "55da70b3d00a679db0769ada9434455726bb1b4a567721b3a37699a3e971adb6",
+      "model": "model_HARD_A_3_101_resume_v2.json",
+      "model_sha": "3764c55cdaa0f26efe092b466a1294281a2a2281e6e9a5b3f775068094521b21",
+      "v": "A",
+      "k": 3,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_3_101_resume_v2.csv",
+      "sha": "87c7699b455654c9fdd10a6f657247cdbc6c304c94b13bbc0b8c318149292a6b",
+      "model": "model_HARD_A_3_101_resume_v2.json",
+      "model_sha": "3764c55cdaa0f26efe092b466a1294281a2a2281e6e9a5b3f775068094521b21",
+      "v": "A",
+      "k": 3,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_3_101_resume_v2.csv",
+      "sha": "c782792d7e3d4e6cfd0c34be362e100f16de1c85ea9c01d54ce5cb4cf346c387",
+      "model": "model_UNIFORM_A_3_101_resume_v2.json",
+      "model_sha": "29969fad92b4f235be0280661d49412fcb107a6a6bef5f49c3fc2ae792b0e3f9",
+      "v": "A",
+      "k": 3,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_3_101_resume_v2.csv",
+      "sha": "d8fb4a0fd3ac01b7eec3050b7d70bc304378c62b6072ccccda4db840c033f532",
+      "model": "model_UNIFORM_A_3_101_resume_v2.json",
+      "model_sha": "29969fad92b4f235be0280661d49412fcb107a6a6bef5f49c3fc2ae792b0e3f9",
+      "v": "A",
+      "k": 3,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_3_2024_resume_v2.csv",
+      "sha": "84d6fcd53ecd43b04af9a7d2e93df3d95dff4f8a7d3c4a273901650d20e31367",
+      "model": "model_HARD_A_3_2024_resume_v2.json",
+      "model_sha": "e4ea777f5cde839785667737c06c84799af17d993be9293e3764eec34de7a549",
+      "v": "A",
+      "k": 3,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_3_2024_resume_v2.csv",
+      "sha": "55339976793a303c17ea2e0742c979345d74aab61bf6d227c6ece46f96cea6ad",
+      "model": "model_HARD_A_3_2024_resume_v2.json",
+      "model_sha": "e4ea777f5cde839785667737c06c84799af17d993be9293e3764eec34de7a549",
+      "v": "A",
+      "k": 3,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_3_2024_resume_v2.csv",
+      "sha": "29c83d3dd438ed72d9224ec439f60025fc1e1b1326b0e096d667d0f3ef9f7560",
+      "model": "model_UNIFORM_A_3_2024_resume_v2.json",
+      "model_sha": "db874ea3f3ba251feff4304949395a7ae5e9e56620a69ec2d54e6b2e41b3dbbf",
+      "v": "A",
+      "k": 3,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_3_2024_resume_v2.csv",
+      "sha": "b712251d16f8e7c41a0b306c8dde95d150cff734ae75c864b04e6df59a260cc2",
+      "model": "model_UNIFORM_A_3_2024_resume_v2.json",
+      "model_sha": "db874ea3f3ba251feff4304949395a7ae5e9e56620a69ec2d54e6b2e41b3dbbf",
+      "v": "A",
+      "k": 3,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_4_7_resume_v2.csv",
+      "sha": "71f9f7b1b6330ec32e2348be1f26060a1cd7a43f3143ba0e94087c0fdce91c27",
+      "model": "model_HARD_A_4_7_resume_v2.json",
+      "model_sha": "bc16afc914e730632eafc0fbba382c50d0801fc8c95fceb88932acf17c4075ca",
+      "v": "A",
+      "k": 4,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_4_7_resume_v2.csv",
+      "sha": "9b989b9c7db762034426244c77b0daf5fc13942c3a5725b2cb63f8fac133f063",
+      "model": "model_HARD_A_4_7_resume_v2.json",
+      "model_sha": "bc16afc914e730632eafc0fbba382c50d0801fc8c95fceb88932acf17c4075ca",
+      "v": "A",
+      "k": 4,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_4_7_resume_v2.csv",
+      "sha": "c88a14867553a0064e42c3d45d6fe3c938af52cf0aa7406b1e9583fb70e7857f",
+      "model": "model_UNIFORM_A_4_7_resume_v2.json",
+      "model_sha": "b7d2728382374d59e42f7058cb29bb2155e31b9dcc277fcf9891f7306ca12047",
+      "v": "A",
+      "k": 4,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_4_7_resume_v2.csv",
+      "sha": "4b4565c1f0d290b479eec8286ad308bd089f476ba974fe1fb456d369119db9b8",
+      "model": "model_UNIFORM_A_4_7_resume_v2.json",
+      "model_sha": "b7d2728382374d59e42f7058cb29bb2155e31b9dcc277fcf9891f7306ca12047",
+      "v": "A",
+      "k": 4,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_4_101_resume_v2.csv",
+      "sha": "db3643b4a16f6b2026638b12a16cacdc306fa615a4b8ff693202defa3a30296e",
+      "model": "model_HARD_A_4_101_resume_v2.json",
+      "model_sha": "c220525fbcbe08ac4d57f3812d9fe157fed899d9927ad1543c9d2c7153bc31b2",
+      "v": "A",
+      "k": 4,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_4_101_resume_v2.csv",
+      "sha": "083dd58d0b892c091f369feff6a72d9ff0ca2d4bce7f5f8e2bb37f4028e175e4",
+      "model": "model_HARD_A_4_101_resume_v2.json",
+      "model_sha": "c220525fbcbe08ac4d57f3812d9fe157fed899d9927ad1543c9d2c7153bc31b2",
+      "v": "A",
+      "k": 4,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_4_101_resume_v2.csv",
+      "sha": "6282d6e07e46ec111f779cdde41add6cb5e0055b40832d6e126eebb1dfc5c98c",
+      "model": "model_UNIFORM_A_4_101_resume_v2.json",
+      "model_sha": "14f9b7e8c78d4c138861da7b9f90aa28f15fcc7199111dc72ec9c238034f1498",
+      "v": "A",
+      "k": 4,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_4_101_resume_v2.csv",
+      "sha": "3cf12f6f574f3493d68f1ee4315d95c5b587ad70be1af025bcc8fa93e9c8c6d9",
+      "model": "model_UNIFORM_A_4_101_resume_v2.json",
+      "model_sha": "14f9b7e8c78d4c138861da7b9f90aa28f15fcc7199111dc72ec9c238034f1498",
+      "v": "A",
+      "k": 4,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_A_4_2024_resume_v2.csv",
+      "sha": "151ede1706a851fbbb8fbcecdddd008b0ed4c75c8c4f2e0d01ecfdec67aa989d",
+      "model": "model_HARD_A_4_2024_resume_v2.json",
+      "model_sha": "fc0c0a150c8e1ee913f8d0e37c03778fe9a17b1cde0f774ee981815de5a5d513",
+      "v": "A",
+      "k": 4,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_A_4_2024_resume_v2.csv",
+      "sha": "dfe0e7edadce09f62ec05f5c4f4c051ab073746aa949ef0818092bd03a902996",
+      "model": "model_HARD_A_4_2024_resume_v2.json",
+      "model_sha": "fc0c0a150c8e1ee913f8d0e37c03778fe9a17b1cde0f774ee981815de5a5d513",
+      "v": "A",
+      "k": 4,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_A_4_2024_resume_v2.csv",
+      "sha": "69385c4375a68e8878e33702ec54830e4bdbbb050e9649b6e547b1613e2f08df",
+      "model": "model_UNIFORM_A_4_2024_resume_v2.json",
+      "model_sha": "6b7f4423a366c675a80c37d6bea5ef84973397b1ea8f9bb3afc1a620c2bc7cbe",
+      "v": "A",
+      "k": 4,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_A_4_2024_resume_v2.csv",
+      "sha": "34256f4a7639ecd5bf242ef3aa4d43b85c5bc5787ad54095e4adfc44bb0a9291",
+      "model": "model_UNIFORM_A_4_2024_resume_v2.json",
+      "model_sha": "6b7f4423a366c675a80c37d6bea5ef84973397b1ea8f9bb3afc1a620c2bc7cbe",
+      "v": "A",
+      "k": 4,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_0_7_resume_v2.csv",
+      "sha": "2312a36434933d164ac46d8c22c7d1b73cad4011ae572e31749ba6c02eeafb01",
+      "model": "model_HARD_B_0_7_resume_v2.json",
+      "model_sha": "4f6a5e7e653e416a667ebe92cc0caaf6b0cf3237656a1cb2e238eb013575e594",
+      "v": "B",
+      "k": 0,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_0_7_resume_v2.csv",
+      "sha": "f5fba022cd1249cacf8909cb62bf292756ce9b8876886beb61a695eaccbcff25",
+      "model": "model_HARD_B_0_7_resume_v2.json",
+      "model_sha": "4f6a5e7e653e416a667ebe92cc0caaf6b0cf3237656a1cb2e238eb013575e594",
+      "v": "B",
+      "k": 0,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_0_7_resume_v2.csv",
+      "sha": "ddefe4081fdcfa90b9d1feed6c376cedee8911535ec94eba0b11aa0ba23d634c",
+      "model": "model_UNIFORM_B_0_7_resume_v2.json",
+      "model_sha": "4d7006b83d1e4a539e670e064469528e75c3dd2a8600adf631dbb4dc4004ce9e",
+      "v": "B",
+      "k": 0,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_0_7_resume_v2.csv",
+      "sha": "0f176da8736007b11a8546f0936741242b6c9d29445bfe2f14b53f3fd49de09e",
+      "model": "model_UNIFORM_B_0_7_resume_v2.json",
+      "model_sha": "4d7006b83d1e4a539e670e064469528e75c3dd2a8600adf631dbb4dc4004ce9e",
+      "v": "B",
+      "k": 0,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_0_101_resume_v2.csv",
+      "sha": "3c04599867ae629b99e309d3ed5a9cfad4e5048194488952d4481da2ae901330",
+      "model": "model_HARD_B_0_101_resume_v2.json",
+      "model_sha": "36e82307d0c29bfc60564206cff512ad8498b77613145a4290a794693f543925",
+      "v": "B",
+      "k": 0,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_0_101_resume_v2.csv",
+      "sha": "eb8b122e42663a1fdba2df97cae5e033657ecac36455e9a05ef63dd4c64a4287",
+      "model": "model_HARD_B_0_101_resume_v2.json",
+      "model_sha": "36e82307d0c29bfc60564206cff512ad8498b77613145a4290a794693f543925",
+      "v": "B",
+      "k": 0,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_0_101_resume_v2.csv",
+      "sha": "36c409da0f7da5e321af0ff5c157c1f754f7f8c5d1132f8d09362ee820fc80f4",
+      "model": "model_UNIFORM_B_0_101_resume_v2.json",
+      "model_sha": "0c4cf5688050daee5d5a72cb96a47a05176534ae4e1abbbe7f9829c5944dfb2d",
+      "v": "B",
+      "k": 0,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_0_101_resume_v2.csv",
+      "sha": "ddfea1eb38465f089088a091aaaf78696d1dff95f11d5d881c7f3c603c5cf51e",
+      "model": "model_UNIFORM_B_0_101_resume_v2.json",
+      "model_sha": "0c4cf5688050daee5d5a72cb96a47a05176534ae4e1abbbe7f9829c5944dfb2d",
+      "v": "B",
+      "k": 0,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_0_2024_resume_v2.csv",
+      "sha": "9b88f54089fc0c1453ed8e5b955140417bdc75af2ebffb6a2f25e1f8b40e4964",
+      "model": "model_HARD_B_0_2024_resume_v2.json",
+      "model_sha": "5a1758732fb94632fa59a13dcd95071e9ec511433ab9594e817f3dd8bab2f5c5",
+      "v": "B",
+      "k": 0,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_0_2024_resume_v2.csv",
+      "sha": "049c9abb8648687d6034415b833c584f694b5fce7fdadb3b2b73f80f37cfb3dd",
+      "model": "model_HARD_B_0_2024_resume_v2.json",
+      "model_sha": "5a1758732fb94632fa59a13dcd95071e9ec511433ab9594e817f3dd8bab2f5c5",
+      "v": "B",
+      "k": 0,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_0_2024_resume_v2.csv",
+      "sha": "077ba4352ee94b2423040e1f1f2b3943db1a84dbc8827f913be9e989e2893cb6",
+      "model": "model_UNIFORM_B_0_2024_resume_v2.json",
+      "model_sha": "a55e9419797e38b0b79f630d50cd4b339ac99791f8e4cf3bbf24846844c41664",
+      "v": "B",
+      "k": 0,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_0_2024_resume_v2.csv",
+      "sha": "5b64b2751bffd818804d7318d4553c86d9e5ba5eb632051d18d4032a7b06a60e",
+      "model": "model_UNIFORM_B_0_2024_resume_v2.json",
+      "model_sha": "a55e9419797e38b0b79f630d50cd4b339ac99791f8e4cf3bbf24846844c41664",
+      "v": "B",
+      "k": 0,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_1_7_resume_v2.csv",
+      "sha": "d565afb53a645b60122d01c7e9af4b0d44c62ce16faf674674c2608eef927beb",
+      "model": "model_HARD_B_1_7_resume_v2.json",
+      "model_sha": "41cb4c621e7c1535d2d1da9881af51af2eed14cb0613481bb3396a2f2cee6cc9",
+      "v": "B",
+      "k": 1,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_1_7_resume_v2.csv",
+      "sha": "fe8aa1bb4880eca435bd2987977d5967f0f5b88697ea5bbf3f6e82fe1109ebc0",
+      "model": "model_HARD_B_1_7_resume_v2.json",
+      "model_sha": "41cb4c621e7c1535d2d1da9881af51af2eed14cb0613481bb3396a2f2cee6cc9",
+      "v": "B",
+      "k": 1,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_1_7_resume_v2.csv",
+      "sha": "86213e300aaacec404ef6b37f6674a3a3886edd2a3ed767208e11cc2ae85dd89",
+      "model": "model_UNIFORM_B_1_7_resume_v2.json",
+      "model_sha": "36cb9f46cd07405ba2eaafffdb38c86585925279ee4bb30dfcc24c22f13f96b0",
+      "v": "B",
+      "k": 1,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_1_7_resume_v2.csv",
+      "sha": "12294c71b95de0e7ab2c9a880a657a65946b7b2c47eb959d927506706f23f57a",
+      "model": "model_UNIFORM_B_1_7_resume_v2.json",
+      "model_sha": "36cb9f46cd07405ba2eaafffdb38c86585925279ee4bb30dfcc24c22f13f96b0",
+      "v": "B",
+      "k": 1,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_1_101_resume_v2.csv",
+      "sha": "792499bdf154439df9f6d4b2d64a7234a2d0fb047f711c376703ed5a9660219b",
+      "model": "model_HARD_B_1_101_resume_v2.json",
+      "model_sha": "36076c3a38a5a137018ab633a9f5caaf4c9dd9a0ae458ba2d0ebe9999969338f",
+      "v": "B",
+      "k": 1,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_1_101_resume_v2.csv",
+      "sha": "ff8872d609e9479cceda59a98d9b1fdec6a8771f4e973b71ce4eb04a9401638c",
+      "model": "model_HARD_B_1_101_resume_v2.json",
+      "model_sha": "36076c3a38a5a137018ab633a9f5caaf4c9dd9a0ae458ba2d0ebe9999969338f",
+      "v": "B",
+      "k": 1,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_1_101_resume_v2.csv",
+      "sha": "9f67ebdaca76c759d2eec2cc308de1e216cd50ad6faa06f9bd886a9210e9a6e4",
+      "model": "model_UNIFORM_B_1_101_resume_v2.json",
+      "model_sha": "faa0e227c66654d4f58658837d93b9bb805d8676b0c29980bb25a84752c7bdba",
+      "v": "B",
+      "k": 1,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_1_101_resume_v2.csv",
+      "sha": "86b1d34f2dee152d012495b72b89126c7136d1238458cd9a34f84796f88c74a9",
+      "model": "model_UNIFORM_B_1_101_resume_v2.json",
+      "model_sha": "faa0e227c66654d4f58658837d93b9bb805d8676b0c29980bb25a84752c7bdba",
+      "v": "B",
+      "k": 1,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_1_2024_resume_v2.csv",
+      "sha": "a590d729faada1083c52ffc9a58a9a66e1cd084c71fafc0af2153f9dadca11e2",
+      "model": "model_HARD_B_1_2024_resume_v2.json",
+      "model_sha": "8966641ed7f2a7453f7a97576acc812ea108a6d5c07a2a6b928c6262e187284a",
+      "v": "B",
+      "k": 1,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_1_2024_resume_v2.csv",
+      "sha": "e9bdf3ef40c6e437bc48e444a8aa369f298c50233ffe8886291749ba95ea9a39",
+      "model": "model_HARD_B_1_2024_resume_v2.json",
+      "model_sha": "8966641ed7f2a7453f7a97576acc812ea108a6d5c07a2a6b928c6262e187284a",
+      "v": "B",
+      "k": 1,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_1_2024_resume_v2.csv",
+      "sha": "21f179a83dcad238cb9ea89e3521d084b3f5612b044995a0ca5959d12823ae5e",
+      "model": "model_UNIFORM_B_1_2024_resume_v2.json",
+      "model_sha": "d0f2220f10878f458439b46c2eaaee647016cacb2e9c336a660e11866d2bab5e",
+      "v": "B",
+      "k": 1,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_1_2024_resume_v2.csv",
+      "sha": "cc37518213582e030711798f72752de7ecc0859177780bf3a86aa6feb1450b9b",
+      "model": "model_UNIFORM_B_1_2024_resume_v2.json",
+      "model_sha": "d0f2220f10878f458439b46c2eaaee647016cacb2e9c336a660e11866d2bab5e",
+      "v": "B",
+      "k": 1,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_2_7_resume_v2.csv",
+      "sha": "bc0d2abfbd421c9beaf593749eef9622c7a6175dfa80fec0b35833cf8595d3b8",
+      "model": "model_HARD_B_2_7_resume_v2.json",
+      "model_sha": "8ff068c8d37a826c5f0a41eb29942e4503b6e8cd7028be8efb4861cfbb46ded5",
+      "v": "B",
+      "k": 2,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_2_7_resume_v2.csv",
+      "sha": "7a33f42fb012f1dfc555ad52d91b094e5caf1c1f798b797c9eb00d184e51d016",
+      "model": "model_HARD_B_2_7_resume_v2.json",
+      "model_sha": "8ff068c8d37a826c5f0a41eb29942e4503b6e8cd7028be8efb4861cfbb46ded5",
+      "v": "B",
+      "k": 2,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_2_7_resume_v2.csv",
+      "sha": "0fe94a0a4611797610fd0298e358ad594d9880507193d6e977569a81cb7a656f",
+      "model": "model_UNIFORM_B_2_7_resume_v2.json",
+      "model_sha": "ccd73e681c9231981e7bbfb07ab4c01949641609ba62936cdefe13f359a68803",
+      "v": "B",
+      "k": 2,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_2_7_resume_v2.csv",
+      "sha": "634ed6b61e359868fecb998a1aba7448af4ebdf7b9afcdac73d838652a13d01c",
+      "model": "model_UNIFORM_B_2_7_resume_v2.json",
+      "model_sha": "ccd73e681c9231981e7bbfb07ab4c01949641609ba62936cdefe13f359a68803",
+      "v": "B",
+      "k": 2,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_2_101_resume_v2.csv",
+      "sha": "8774d0dce5fd351231f5d3997cd6cba42d12ef5edfc7a3c154bbfd42de738c9c",
+      "model": "model_HARD_B_2_101_resume_v2.json",
+      "model_sha": "bee4ce8fee3d0dedc363194be7a7fc7a904c046afa162fe327691b803d04cd24",
+      "v": "B",
+      "k": 2,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_2_101_resume_v2.csv",
+      "sha": "a05ff8b4e2326460893f024e5e44a0a9e631553cefad6472d96476f2af096210",
+      "model": "model_HARD_B_2_101_resume_v2.json",
+      "model_sha": "bee4ce8fee3d0dedc363194be7a7fc7a904c046afa162fe327691b803d04cd24",
+      "v": "B",
+      "k": 2,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_2_101_resume_v2.csv",
+      "sha": "e7abdc7f62bf5ac23f8378d9a4152b5ac9862e1ea8dc6818e51fb41adff89657",
+      "model": "model_UNIFORM_B_2_101_resume_v2.json",
+      "model_sha": "3131057c68a6d53531a5e2071477ca1ba09fe3d239a756e48ecebceaf6abd4bd",
+      "v": "B",
+      "k": 2,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_2_101_resume_v2.csv",
+      "sha": "9c100de3e8fea1f5e500566f20a3a7053b7f511f5551ac01f0a34ae708447773",
+      "model": "model_UNIFORM_B_2_101_resume_v2.json",
+      "model_sha": "3131057c68a6d53531a5e2071477ca1ba09fe3d239a756e48ecebceaf6abd4bd",
+      "v": "B",
+      "k": 2,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_2_2024_resume_v2.csv",
+      "sha": "484f0cffb002d0fec164a9e1f6b1450b70e615335dba800da5c9cbdf291f6a9c",
+      "model": "model_HARD_B_2_2024_resume_v2.json",
+      "model_sha": "29cc2d8961d5c40b363cf236877293b392d52f29e4a0ef776bd62ca41fd4b79b",
+      "v": "B",
+      "k": 2,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_2_2024_resume_v2.csv",
+      "sha": "3e589e38e8ca93cb40cfc2ce16c2944a74ff9d7a3ed0b9bf2303c65b7df3a52d",
+      "model": "model_HARD_B_2_2024_resume_v2.json",
+      "model_sha": "29cc2d8961d5c40b363cf236877293b392d52f29e4a0ef776bd62ca41fd4b79b",
+      "v": "B",
+      "k": 2,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_2_2024_resume_v2.csv",
+      "sha": "d0be2bfd2cd497fd30d65aecad96648ab6268749bcc37511380b3fc7aeca7b55",
+      "model": "model_UNIFORM_B_2_2024_resume_v2.json",
+      "model_sha": "f3e0df67cabecb3dc7b224b5405db50338cdfea93f13bff82ad797dad6d8856d",
+      "v": "B",
+      "k": 2,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_2_2024_resume_v2.csv",
+      "sha": "9d72fc4418f885188dd719adb80a9fd0f9801bcb8b1726b10650864c0d6c9075",
+      "model": "model_UNIFORM_B_2_2024_resume_v2.json",
+      "model_sha": "f3e0df67cabecb3dc7b224b5405db50338cdfea93f13bff82ad797dad6d8856d",
+      "v": "B",
+      "k": 2,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_3_7_resume_v2.csv",
+      "sha": "321c362f3798939f9a90cc727edf6561c79c2d0e0307dba92a3fe5574cf55fcc",
+      "model": "model_HARD_B_3_7_resume_v2.json",
+      "model_sha": "ab8c0e2ef222bda71f3495d08f080c552a800d36cde0e3e8c24dbf6d0ba93709",
+      "v": "B",
+      "k": 3,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_3_7_resume_v2.csv",
+      "sha": "cd74a4b54f8cafcce8c7d266a598d25deaad8157143ccfb58d1fc954471eba0f",
+      "model": "model_HARD_B_3_7_resume_v2.json",
+      "model_sha": "ab8c0e2ef222bda71f3495d08f080c552a800d36cde0e3e8c24dbf6d0ba93709",
+      "v": "B",
+      "k": 3,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_3_7_resume_v2.csv",
+      "sha": "3d8b43c45909b2457fb454a54b6f845ef6b58538486e07b54aac42ec8fed33a4",
+      "model": "model_UNIFORM_B_3_7_resume_v2.json",
+      "model_sha": "9230d0e842a8f24576814440b89a02b93069aabbe920a6280f1cfd489abf91d4",
+      "v": "B",
+      "k": 3,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_3_7_resume_v2.csv",
+      "sha": "b591a152243dada5d5cc297c1c01ed4dac493ac48b060d7d419b76b10e9a7007",
+      "model": "model_UNIFORM_B_3_7_resume_v2.json",
+      "model_sha": "9230d0e842a8f24576814440b89a02b93069aabbe920a6280f1cfd489abf91d4",
+      "v": "B",
+      "k": 3,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_3_101_resume_v2.csv",
+      "sha": "8b4bc01fcf6a523889322b8f00ee4f7f59b5afa80008f9c422eea7f160c3463c",
+      "model": "model_HARD_B_3_101_resume_v2.json",
+      "model_sha": "16e582a86cc993691341e6b4ad6cde0caff1ff73543fc685af2b8b88e6b9f3eb",
+      "v": "B",
+      "k": 3,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_3_101_resume_v2.csv",
+      "sha": "2e5892237afab8a2d1f21ff0126a348d77ca148dd352d5739ed42b6f6a6a9708",
+      "model": "model_HARD_B_3_101_resume_v2.json",
+      "model_sha": "16e582a86cc993691341e6b4ad6cde0caff1ff73543fc685af2b8b88e6b9f3eb",
+      "v": "B",
+      "k": 3,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_3_101_resume_v2.csv",
+      "sha": "63c921ce718ee5c0be3c771339055b0701065733aa1279c47675813273916e9b",
+      "model": "model_UNIFORM_B_3_101_resume_v2.json",
+      "model_sha": "15e2c34cb97fab9d96966a32878a8c92192587ff603a30e29ee6745f92e699e9",
+      "v": "B",
+      "k": 3,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_3_101_resume_v2.csv",
+      "sha": "0dd530a1c1a8640a03c6debe02dabbafbeb194dcbf9f318c4beef073307e63b1",
+      "model": "model_UNIFORM_B_3_101_resume_v2.json",
+      "model_sha": "15e2c34cb97fab9d96966a32878a8c92192587ff603a30e29ee6745f92e699e9",
+      "v": "B",
+      "k": 3,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_3_2024_resume_v2.csv",
+      "sha": "96efa5378ec3ecb0ee8e5724403201657cd4cb251a61896425ce8486d5d71ebd",
+      "model": "model_HARD_B_3_2024_resume_v2.json",
+      "model_sha": "d371a4911879246382244e050c0e5766ae99a2f211fec6d7138a9532c414987b",
+      "v": "B",
+      "k": 3,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_3_2024_resume_v2.csv",
+      "sha": "3fab3aa93b627a1939f01e659dc7bf17aae3726144422bc47c0294760af3da7c",
+      "model": "model_HARD_B_3_2024_resume_v2.json",
+      "model_sha": "d371a4911879246382244e050c0e5766ae99a2f211fec6d7138a9532c414987b",
+      "v": "B",
+      "k": 3,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_3_2024_resume_v2.csv",
+      "sha": "6c17c16dbaf1c8b78f944be11a0ea65a3f817a0451150067498e55558468e1bf",
+      "model": "model_UNIFORM_B_3_2024_resume_v2.json",
+      "model_sha": "9fe4a174564d143270469c01ba8b23d718a238e6c638164af51226140898ec07",
+      "v": "B",
+      "k": 3,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_3_2024_resume_v2.csv",
+      "sha": "275e7ca873a2a393a68e5557fd851570a0068c4feaa5ec9ba4e571b852e94f80",
+      "model": "model_UNIFORM_B_3_2024_resume_v2.json",
+      "model_sha": "9fe4a174564d143270469c01ba8b23d718a238e6c638164af51226140898ec07",
+      "v": "B",
+      "k": 3,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_4_7_resume_v2.csv",
+      "sha": "b0118a74a85f2a47c1d404c1a1144f93debba14bb2dd4e4099ac89cdee0cc005",
+      "model": "model_HARD_B_4_7_resume_v2.json",
+      "model_sha": "6cab861d5977576b59bcd1c386869542e209d89f65cab96ee37f21e458cbd520",
+      "v": "B",
+      "k": 4,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_4_7_resume_v2.csv",
+      "sha": "815651a4deec8ea92e07c79b9ba5041b7611cc65175e3377870ba09711cfca17",
+      "model": "model_HARD_B_4_7_resume_v2.json",
+      "model_sha": "6cab861d5977576b59bcd1c386869542e209d89f65cab96ee37f21e458cbd520",
+      "v": "B",
+      "k": 4,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_4_7_resume_v2.csv",
+      "sha": "d3c187a461e53204256395e25c38eb02c610f854adf2f0c18465f757b97db5fd",
+      "model": "model_UNIFORM_B_4_7_resume_v2.json",
+      "model_sha": "39494e8aec708910e7a37d4a7200af7716e872b79758cb1f9108de1727261989",
+      "v": "B",
+      "k": 4,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_4_7_resume_v2.csv",
+      "sha": "eb5d344c25afb8a3c39da8f5855376f0953e9b7da3b7c8aab03e2529b1aeab7d",
+      "model": "model_UNIFORM_B_4_7_resume_v2.json",
+      "model_sha": "39494e8aec708910e7a37d4a7200af7716e872b79758cb1f9108de1727261989",
+      "v": "B",
+      "k": 4,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_4_101_resume_v2.csv",
+      "sha": "86a4bcf4e5d6c5d07de9e1f64361a64a541966626efa6ee5354ef6dd24e35b1e",
+      "model": "model_HARD_B_4_101_resume_v2.json",
+      "model_sha": "6d8747b9c77917d6e6263a745a80b4ea3c07b73643efbb82f914b7aa2f0ebbe5",
+      "v": "B",
+      "k": 4,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_4_101_resume_v2.csv",
+      "sha": "eb2673b26434848c560ace574f5c90500fa07d8f27d0417980b1d2f7b01168a5",
+      "model": "model_HARD_B_4_101_resume_v2.json",
+      "model_sha": "6d8747b9c77917d6e6263a745a80b4ea3c07b73643efbb82f914b7aa2f0ebbe5",
+      "v": "B",
+      "k": 4,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_4_101_resume_v2.csv",
+      "sha": "7b8c9192b204448ffacc339b801d2eae49497ae6de84f9e994d31266ca713525",
+      "model": "model_UNIFORM_B_4_101_resume_v2.json",
+      "model_sha": "b01143980606e43ba8e2947dec119ef3195335878c23e204756aa6e7e7006bc4",
+      "v": "B",
+      "k": 4,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_4_101_resume_v2.csv",
+      "sha": "7f4369f922fc4384c3b529af510e9ed41a1a7d62f24f71477f60dd1b23279431",
+      "model": "model_UNIFORM_B_4_101_resume_v2.json",
+      "model_sha": "b01143980606e43ba8e2947dec119ef3195335878c23e204756aa6e7e7006bc4",
+      "v": "B",
+      "k": 4,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_B_4_2024_resume_v2.csv",
+      "sha": "50a99ec59d78855a2e08ec12bbe2795eaea597fbfa0b94c49bcc9a3e50c0d710",
+      "model": "model_HARD_B_4_2024_resume_v2.json",
+      "model_sha": "f9c15805225e631e57533e998ec4655ceb50e13a02979066661237809a8fd3a9",
+      "v": "B",
+      "k": 4,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_B_4_2024_resume_v2.csv",
+      "sha": "11edb43d0953262eb73b4f6fb5f19490b45306534fb766d86075c40750cf63ba",
+      "model": "model_HARD_B_4_2024_resume_v2.json",
+      "model_sha": "f9c15805225e631e57533e998ec4655ceb50e13a02979066661237809a8fd3a9",
+      "v": "B",
+      "k": 4,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_B_4_2024_resume_v2.csv",
+      "sha": "c4cdfdc729b5c6289777078e7b167602b5632bccbdb88c5980946f4ac677fcb0",
+      "model": "model_UNIFORM_B_4_2024_resume_v2.json",
+      "model_sha": "7b4afe6f9c3060862453a864071a621555db81fe12310af897537017ef605e85",
+      "v": "B",
+      "k": 4,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_B_4_2024_resume_v2.csv",
+      "sha": "90d559cd90867c31c08e3e32adc3ff0d84015011e4125a22f3d634b0d731e354",
+      "model": "model_UNIFORM_B_4_2024_resume_v2.json",
+      "model_sha": "7b4afe6f9c3060862453a864071a621555db81fe12310af897537017ef605e85",
+      "v": "B",
+      "k": 4,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_0_7.csv",
+      "sha": "35e97f111867080105804be6ca86512116d5a62d12c553dac17e403d0bdf4569",
+      "model": "model_HARD_DIAG10_0_7.json",
+      "model_sha": "f89a481d0f056ba6c39a618475ff2827f2ba2b50f7738f329fd788493ed7f7b5",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_0_7.csv",
+      "sha": "6b0da0f70727b9696282f2f8da9a1f694174ef14741d1bcd061c55f6bee9d1f4",
+      "model": "model_HARD_DIAG10_0_7.json",
+      "model_sha": "f89a481d0f056ba6c39a618475ff2827f2ba2b50f7738f329fd788493ed7f7b5",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_0_7.csv",
+      "sha": "cd2b82fc211f73f19edab1a332e2c6d77f1ce7d181052533fcff2bca9c5fd33b",
+      "model": "model_UNIFORM_DIAG10_0_7.json",
+      "model_sha": "f26665ddd85d577fb14e205d5c54a72f078e11c01d29ffdd22e1935aa16a32f6",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_0_7.csv",
+      "sha": "46977af2117616ea88623a7d369df0114a4589a1e883dcdde4dd3651910a532a",
+      "model": "model_UNIFORM_DIAG10_0_7.json",
+      "model_sha": "f26665ddd85d577fb14e205d5c54a72f078e11c01d29ffdd22e1935aa16a32f6",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_0_101.csv",
+      "sha": "94beefbd9d021d7a3d4deacc0d8804fedb75a2a16a880dbff1a89cefdf77c72f",
+      "model": "model_HARD_DIAG10_0_101.json",
+      "model_sha": "e5849a3c0f8c31ec7f863ab0c7a20e93a40af200d0582b047a15864f0a605d25",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_0_101.csv",
+      "sha": "a2a48c4fc98517aa5918ecd35ebae840817b048f05ec92da14519c8b7a5f50eb",
+      "model": "model_HARD_DIAG10_0_101.json",
+      "model_sha": "e5849a3c0f8c31ec7f863ab0c7a20e93a40af200d0582b047a15864f0a605d25",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_0_101.csv",
+      "sha": "1530ff206063518e9e55da013043900e59c852989adae6c273d0be884404e425",
+      "model": "model_UNIFORM_DIAG10_0_101.json",
+      "model_sha": "6f12322af93d1a80dc67fa92263c9e98eb00540299959ea5e66d78152a52cc91",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_0_101.csv",
+      "sha": "2fb96aeb9c438886b5adac953ccbeae787eb8f99535587bbe2e428a670604d38",
+      "model": "model_UNIFORM_DIAG10_0_101.json",
+      "model_sha": "6f12322af93d1a80dc67fa92263c9e98eb00540299959ea5e66d78152a52cc91",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_0_2024.csv",
+      "sha": "7920677e2178e275dd8fe21bd86d1f49f41615342fa04735d8e400990efdef0d",
+      "model": "model_HARD_DIAG10_0_2024.json",
+      "model_sha": "5e75fe599e5b8d75b36b2a5b861b361e22bb004d15d06b6c34ad6d2c6df91f95",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_0_2024.csv",
+      "sha": "b329887646cb4c9c0c54919bf58089be276c3d6ebf126beaad670d677138a27a",
+      "model": "model_HARD_DIAG10_0_2024.json",
+      "model_sha": "5e75fe599e5b8d75b36b2a5b861b361e22bb004d15d06b6c34ad6d2c6df91f95",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_0_2024.csv",
+      "sha": "249e8c8434dc47a7c1895901385870de7d03400cfc9a980c21655ca48b4bc4b7",
+      "model": "model_UNIFORM_DIAG10_0_2024.json",
+      "model_sha": "1e15cdce94ff420c29ae66a3636c5133e87979d353b5a472f879a410f6110bfe",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_0_2024.csv",
+      "sha": "f8b34997025cfefe9de298f3708b716c86d9ef7feaf084ca5fd364ddb9bbed0f",
+      "model": "model_UNIFORM_DIAG10_0_2024.json",
+      "model_sha": "1e15cdce94ff420c29ae66a3636c5133e87979d353b5a472f879a410f6110bfe",
+      "v": "DIAG10",
+      "k": 0,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_1_7.csv",
+      "sha": "66cc372e8cb8aa8504fcb10e95c5fa8434c3d61613f4c301df444e2141ee82c5",
+      "model": "model_HARD_DIAG10_1_7.json",
+      "model_sha": "8d9654767e6c5ac9d01c1d2a6ba6e113ded6dba85ec83c8a5b62775d7b2c78e5",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_1_7.csv",
+      "sha": "2b794490263814dc2eb7b63d6328c7df391c9655f257f2304e660902d6032743",
+      "model": "model_HARD_DIAG10_1_7.json",
+      "model_sha": "8d9654767e6c5ac9d01c1d2a6ba6e113ded6dba85ec83c8a5b62775d7b2c78e5",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_1_7.csv",
+      "sha": "0fd8a7e159e246d449f8f516d76cc93eca199c9ff6fb61e9a1bc3bc3d913f6fa",
+      "model": "model_UNIFORM_DIAG10_1_7.json",
+      "model_sha": "e8da8bed3f5a78b9406a1dc397dc530424e4f2542370ee1fef583af5857043ec",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_1_7.csv",
+      "sha": "9ddd41c275b378583bbf5f8c2b93724b44c66a87b190ae14f2eec1f063a7686a",
+      "model": "model_UNIFORM_DIAG10_1_7.json",
+      "model_sha": "e8da8bed3f5a78b9406a1dc397dc530424e4f2542370ee1fef583af5857043ec",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_1_101.csv",
+      "sha": "180da2021b06e85c71845a0414018f1d2d6a393dd1c5148926562fd78c455d3f",
+      "model": "model_HARD_DIAG10_1_101.json",
+      "model_sha": "a17b2faed312083ecd543d89b3d2fad05321d881dfd9361fd515b4fbe0a92fce",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_1_101.csv",
+      "sha": "b70feefc8048429e858c7899e9ae8c3ad5740a83149a5a098d56eab6739026d3",
+      "model": "model_HARD_DIAG10_1_101.json",
+      "model_sha": "a17b2faed312083ecd543d89b3d2fad05321d881dfd9361fd515b4fbe0a92fce",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_1_101.csv",
+      "sha": "6872bab452ee1176afa461eb41b2ec35cfafd327fcac06dea2621e7743323e91",
+      "model": "model_UNIFORM_DIAG10_1_101.json",
+      "model_sha": "4ad029209b92ddff23af76ac3ca16c320dfcf41db427ecf72c7a3b8f267d0912",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_1_101.csv",
+      "sha": "2231ca811a259d6b9f40b09f12236f11b0ae18f993d471a699b7d160b2406e77",
+      "model": "model_UNIFORM_DIAG10_1_101.json",
+      "model_sha": "4ad029209b92ddff23af76ac3ca16c320dfcf41db427ecf72c7a3b8f267d0912",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_1_2024.csv",
+      "sha": "bc519d5758f171a0e57fdb61fea33fd3ecfb355d6c8cdab232fcbbe2734e17de",
+      "model": "model_HARD_DIAG10_1_2024.json",
+      "model_sha": "09ed7d8add7494fdc0326d1a7e632712f01d4993a0e7bbce04ae90b31013b232",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_1_2024.csv",
+      "sha": "dcae0f3483d0f84bbce1b436ef89c53bf203e13603178cbc349087ddeb8c29f7",
+      "model": "model_HARD_DIAG10_1_2024.json",
+      "model_sha": "09ed7d8add7494fdc0326d1a7e632712f01d4993a0e7bbce04ae90b31013b232",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_1_2024.csv",
+      "sha": "377e30b7a28c30771cd588fcb474868dfdf885f7f47bb6a044e7bf40743a4e3a",
+      "model": "model_UNIFORM_DIAG10_1_2024.json",
+      "model_sha": "018b12e22e0f443ad673aa9712b3cf5ccfbc54d7132a08cea12ae2312e84c104",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_1_2024.csv",
+      "sha": "ff22c4bcd5b9ee357c90c5c3df955b2179c7d1d6b7588fdf1b8364505f5ae5d5",
+      "model": "model_UNIFORM_DIAG10_1_2024.json",
+      "model_sha": "018b12e22e0f443ad673aa9712b3cf5ccfbc54d7132a08cea12ae2312e84c104",
+      "v": "DIAG10",
+      "k": 1,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_2_7.csv",
+      "sha": "6a2fa21a13e7142c5ba59e51935b1e551b4020c4638767f4fcce00ab03316d79",
+      "model": "model_HARD_DIAG10_2_7.json",
+      "model_sha": "f6f1342844d2b1872b627bead96e38bf36ecc6937e65636630a926d921a2d121",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_2_7.csv",
+      "sha": "8cb222e9cdd2cc92f66693d230d3c23a6c8602dd523a7e19061b39f004cb1472",
+      "model": "model_HARD_DIAG10_2_7.json",
+      "model_sha": "f6f1342844d2b1872b627bead96e38bf36ecc6937e65636630a926d921a2d121",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_2_7.csv",
+      "sha": "a5699f41495adac07178d9734546947a04b9528b5111fd7ea470b8766220a11f",
+      "model": "model_UNIFORM_DIAG10_2_7.json",
+      "model_sha": "384772ed94666aa3c27514447c782e88d4e74a5b86e460f2f2d5a70f341bdf79",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_2_7.csv",
+      "sha": "c5fd7ac56cf6a776494aa90d6a15e92841fd62613d9870296f66f1cba8e744f2",
+      "model": "model_UNIFORM_DIAG10_2_7.json",
+      "model_sha": "384772ed94666aa3c27514447c782e88d4e74a5b86e460f2f2d5a70f341bdf79",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_2_101.csv",
+      "sha": "b25be2cb81d2ceabbb6e896e786ee05d3a591da596aaee064f7b2ae9b4a8ef04",
+      "model": "model_HARD_DIAG10_2_101.json",
+      "model_sha": "6c5357bbb9695ec57bc727151e0e1e73502782f94b02d725bc149b85a7dc5fdd",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_2_101.csv",
+      "sha": "d034d3dd4329f2d3004ec51dcf366b2a68d8a0bb40420228db2090cc96c2340a",
+      "model": "model_HARD_DIAG10_2_101.json",
+      "model_sha": "6c5357bbb9695ec57bc727151e0e1e73502782f94b02d725bc149b85a7dc5fdd",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_2_101.csv",
+      "sha": "4a1ad019bba6a6273381819cd27fb3705c90ba9edc39216796a9d039b267c249",
+      "model": "model_UNIFORM_DIAG10_2_101.json",
+      "model_sha": "401fbb9bcaf8720dcf77096cb19d521d8993a6edaf37b16955bbd4b5bc8d5316",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_2_101.csv",
+      "sha": "240308360c869280b1fe7828287d4c2463539088b14af7e7bcb374394fec45e9",
+      "model": "model_UNIFORM_DIAG10_2_101.json",
+      "model_sha": "401fbb9bcaf8720dcf77096cb19d521d8993a6edaf37b16955bbd4b5bc8d5316",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_2_2024.csv",
+      "sha": "1acf29dcfc734f5d67bbce0167dc84d6f7d9e29bc046ec143cf1451965d2be81",
+      "model": "model_HARD_DIAG10_2_2024.json",
+      "model_sha": "3af4c726d85cec5bee5e528f788dcf7c02e4289ee3f3cf5d912341f638e409f0",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_2_2024.csv",
+      "sha": "7c49f36d00109a962fabf8f7b766a2d295dac62f8ee6e0818bc4a2ef22bdb859",
+      "model": "model_HARD_DIAG10_2_2024.json",
+      "model_sha": "3af4c726d85cec5bee5e528f788dcf7c02e4289ee3f3cf5d912341f638e409f0",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_2_2024.csv",
+      "sha": "e71f912099a15ad9391ee1e96a21f52467ee84c40ac85047defbf0bf9c9fe12b",
+      "model": "model_UNIFORM_DIAG10_2_2024.json",
+      "model_sha": "9c5b63e7422493c9ad89047d0c27205b8225bfd932f135e7ef05445afe08ecd2",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_2_2024.csv",
+      "sha": "3217408abdb4f84b9070f20590f4b3d795293b12eb941c67e8712911c2df46d1",
+      "model": "model_UNIFORM_DIAG10_2_2024.json",
+      "model_sha": "9c5b63e7422493c9ad89047d0c27205b8225bfd932f135e7ef05445afe08ecd2",
+      "v": "DIAG10",
+      "k": 2,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_3_7.csv",
+      "sha": "bdc00a9eec6b862822ea57f96364395db954b818dcab31049f96530602ab87d6",
+      "model": "model_HARD_DIAG10_3_7.json",
+      "model_sha": "6ada500cc9ca5ec5d95aa36e97f4748599188b6d46b89fbe94b7e027cb1e0ed8",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_3_7.csv",
+      "sha": "7d3ff6e71015d21384634f1a0c14850fc4d330f3ac42150d3d92ef8feac17d14",
+      "model": "model_HARD_DIAG10_3_7.json",
+      "model_sha": "6ada500cc9ca5ec5d95aa36e97f4748599188b6d46b89fbe94b7e027cb1e0ed8",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_3_7.csv",
+      "sha": "52bbb1b9b18f9011f7395c45d155e70a0e05a4b2da7a5696367121a0f23d6b69",
+      "model": "model_UNIFORM_DIAG10_3_7.json",
+      "model_sha": "a5ea8b7a9ac17e6a3180cd1d292a477640137adea7bb9deb39582fe29951c13e",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_3_7.csv",
+      "sha": "57ce5389e4649d734252bd9ec904bdc45efacb771206877f3b2aa1bd38fca7d2",
+      "model": "model_UNIFORM_DIAG10_3_7.json",
+      "model_sha": "a5ea8b7a9ac17e6a3180cd1d292a477640137adea7bb9deb39582fe29951c13e",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_3_101_resume_v2.csv",
+      "sha": "08c781a0cb0f16d61ab48950dc1bf2ccc62d122aff3149349f47d4d21a296c98",
+      "model": "model_HARD_DIAG10_3_101_resume_v2.json",
+      "model_sha": "7c1b54217a34a5ce9f9516b39af6ee95ad2838ffb8248af885b7cc70c69e93a3",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_3_101_resume_v2.csv",
+      "sha": "e40816827dae052f307f4108ec0da6029dffff588c9f673b11de3b9a4a799c3d",
+      "model": "model_HARD_DIAG10_3_101_resume_v2.json",
+      "model_sha": "7c1b54217a34a5ce9f9516b39af6ee95ad2838ffb8248af885b7cc70c69e93a3",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_3_101_resume_v2.csv",
+      "sha": "5b47c6db2e972e385738c998dd9af609ea72d4bdf627f35e7b9554875da8ccc8",
+      "model": "model_UNIFORM_DIAG10_3_101_resume_v2.json",
+      "model_sha": "308f001ae1261f3d1a31a8dec9c8cd699c70d19ee76cde6721f52f0726c515f1",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_3_101_resume_v2.csv",
+      "sha": "3a0622fe44bfa8105f0bc153b0f7b7f7b34822af29f298dbc5189aa243f449d2",
+      "model": "model_UNIFORM_DIAG10_3_101_resume_v2.json",
+      "model_sha": "308f001ae1261f3d1a31a8dec9c8cd699c70d19ee76cde6721f52f0726c515f1",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_3_2024_resume_v2.csv",
+      "sha": "020b524cc0efa292e484b06564041486f7ab37ae152d1cd1211651907a5fa7a0",
+      "model": "model_HARD_DIAG10_3_2024_resume_v2.json",
+      "model_sha": "98ff04522845dc925e5c5002b3a1eec3c3715f0795d0d498a1532ddcd892743e",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_3_2024_resume_v2.csv",
+      "sha": "b4db86c9ad47e44d027d280d4dcbf9ace9b7c85e51988467f913e7cd8b91212e",
+      "model": "model_HARD_DIAG10_3_2024_resume_v2.json",
+      "model_sha": "98ff04522845dc925e5c5002b3a1eec3c3715f0795d0d498a1532ddcd892743e",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_3_2024_resume_v2.csv",
+      "sha": "0ab378cb92c2f862f2ff3f5b588d19aa26a3228e162974e95ab5733c1b6fb9f0",
+      "model": "model_UNIFORM_DIAG10_3_2024_resume_v2.json",
+      "model_sha": "c2078e1c5fda84a48b9880d2b3117c728f61450ae300beb27685e2c384e9a3e8",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_3_2024_resume_v2.csv",
+      "sha": "38da02ec749cef72f961e603bd74ab9f385a24376342d88ffcfed8ffd74952a0",
+      "model": "model_UNIFORM_DIAG10_3_2024_resume_v2.json",
+      "model_sha": "c2078e1c5fda84a48b9880d2b3117c728f61450ae300beb27685e2c384e9a3e8",
+      "v": "DIAG10",
+      "k": 3,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_4_7_resume_v2.csv",
+      "sha": "5174f65b544fa26386314b71adefcfea59d381a6e12bbc3a25c9cf9fbeddccd5",
+      "model": "model_HARD_DIAG10_4_7_resume_v2.json",
+      "model_sha": "09bb9ce905c38edeaf371f723e040cde778764e66d21c75fd0c141578ea21b3f",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_4_7_resume_v2.csv",
+      "sha": "05f044e3b4f836b25c1609347b816b9a7bb139743e865b716d834151c212e6d8",
+      "model": "model_HARD_DIAG10_4_7_resume_v2.json",
+      "model_sha": "09bb9ce905c38edeaf371f723e040cde778764e66d21c75fd0c141578ea21b3f",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_4_7_resume_v2.csv",
+      "sha": "06e7c92656bdd37b4984badb7c41430ba6775bf691205e48f193cdcbbc9e548a",
+      "model": "model_UNIFORM_DIAG10_4_7_resume_v2.json",
+      "model_sha": "eff25d10cc5c398e55ee8e79f529ac45edc86f3d2a9624f420e5ec6e1f7011b0",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_4_7_resume_v2.csv",
+      "sha": "dafd0820d85b5ec81439f341157cfcb58bdc3b7a63f46d9d713052bd83b4cc53",
+      "model": "model_UNIFORM_DIAG10_4_7_resume_v2.json",
+      "model_sha": "eff25d10cc5c398e55ee8e79f529ac45edc86f3d2a9624f420e5ec6e1f7011b0",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_4_101_resume_v2.csv",
+      "sha": "3859f1b1c00c24b872641a332f20f8be07efffc806674a6fa5692072dfb864a4",
+      "model": "model_HARD_DIAG10_4_101_resume_v2.json",
+      "model_sha": "fc65647a156f0b328bde435832cd8b77a555cce69bf36edd15059cae97776856",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_4_101_resume_v2.csv",
+      "sha": "5e49d8d7d3edeff6f79f6ff04094df391b138870e0ac60870e69d86fa3518a15",
+      "model": "model_HARD_DIAG10_4_101_resume_v2.json",
+      "model_sha": "fc65647a156f0b328bde435832cd8b77a555cce69bf36edd15059cae97776856",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_4_101_resume_v2.csv",
+      "sha": "d462e8caa6888e448c0a832b896e770ffb840b41f37363291311d90c11f8a652",
+      "model": "model_UNIFORM_DIAG10_4_101_resume_v2.json",
+      "model_sha": "1e2625643a25bba4e4aa6db5d23f449608d51be371a7358f3ae9a4330041952e",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_4_101_resume_v2.csv",
+      "sha": "0072197811b1f3ee3a36ff93eb6fa85e6f79551afd9715adf9aed95ff834d2c1",
+      "model": "model_UNIFORM_DIAG10_4_101_resume_v2.json",
+      "model_sha": "1e2625643a25bba4e4aa6db5d23f449608d51be371a7358f3ae9a4330041952e",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_4_2024_resume_v2.csv",
+      "sha": "5166d5bd4bbbe1f227d88d85193c1e6aedf09e1e70aaf2ed0e935a7a2baa7a8d",
+      "model": "model_HARD_DIAG10_4_2024_resume_v2.json",
+      "model_sha": "2197e759be1c41a40984249c66b20af2b8f1ef128090797189c528d356867f55",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_4_2024_resume_v2.csv",
+      "sha": "5323dcaa3c3bd84affc297345977235526eca54e795305fd3bf916b33aaabfc6",
+      "model": "model_HARD_DIAG10_4_2024_resume_v2.json",
+      "model_sha": "2197e759be1c41a40984249c66b20af2b8f1ef128090797189c528d356867f55",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_4_2024_resume_v2.csv",
+      "sha": "56bfc1d9b881ac3b0219d4626acf25e6e7e00e83b168aad8e2b1f3b78bf15274",
+      "model": "model_UNIFORM_DIAG10_4_2024_resume_v2.json",
+      "model_sha": "87966a01fb5bc7b1f8479b161ef3a02cb03576255c7feebc326cf90fe209d782",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_4_2024_resume_v2.csv",
+      "sha": "08f9bb186fcee848abee77c4ec29251efb986f04fc71f4f4cb48e456a3716e2e",
+      "model": "model_UNIFORM_DIAG10_4_2024_resume_v2.json",
+      "model_sha": "87966a01fb5bc7b1f8479b161ef3a02cb03576255c7feebc326cf90fe209d782",
+      "v": "DIAG10",
+      "k": 4,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_5_7_resume_v2.csv",
+      "sha": "f1bbd4f12b7e81fa8e5341c96dcb487def2e8dbd863aa1fd1bc26ef25017a64c",
+      "model": "model_HARD_DIAG10_5_7_resume_v2.json",
+      "model_sha": "15137db2039e2b3e9151af2048040c046aeb31fbd814d508c4d4681ba88cc59d",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_5_7_resume_v2.csv",
+      "sha": "2e2ef0d3105ae0f6983d97c7f90316b0ef69cb6659a989c0afc7cb6bba41c998",
+      "model": "model_HARD_DIAG10_5_7_resume_v2.json",
+      "model_sha": "15137db2039e2b3e9151af2048040c046aeb31fbd814d508c4d4681ba88cc59d",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_5_7_resume_v2.csv",
+      "sha": "319947bd5bd5a54ecbbfc28e5392f95d7e934536c0ceb0e433b11ef3b96f3e46",
+      "model": "model_UNIFORM_DIAG10_5_7_resume_v2.json",
+      "model_sha": "1c88bdeb4cf52891ff4a5718e51d60dbf28cca9a561250473dbef9f3636e9099",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_5_7_resume_v2.csv",
+      "sha": "1095f238011a8bfd7420467bfb9facab832baf5d338c2d11f8336acf91d5c611",
+      "model": "model_UNIFORM_DIAG10_5_7_resume_v2.json",
+      "model_sha": "1c88bdeb4cf52891ff4a5718e51d60dbf28cca9a561250473dbef9f3636e9099",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_5_101_resume_v2.csv",
+      "sha": "6f0329935c693cd95f041ece520be67c2648b46f668e2ec11dbe3f7b90ad48e3",
+      "model": "model_HARD_DIAG10_5_101_resume_v2.json",
+      "model_sha": "00a26bbd67d2cf81b6169ea0364460dadbb244bf2698f8026933bd321d1dae6a",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_5_101_resume_v2.csv",
+      "sha": "c7e10f8756736e9baebdb5ce119172575463de0fab7d2b3fefbea0f9ad5c94ca",
+      "model": "model_HARD_DIAG10_5_101_resume_v2.json",
+      "model_sha": "00a26bbd67d2cf81b6169ea0364460dadbb244bf2698f8026933bd321d1dae6a",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_5_101_resume_v2.csv",
+      "sha": "02499ab8ba3ac72b866ddbbb63baac78a2df7fac114fe2e6cbff282e370c0bbb",
+      "model": "model_UNIFORM_DIAG10_5_101_resume_v2.json",
+      "model_sha": "b33eefc3fd6a29d53beac6f055f3b33e5cdfc14c855c862673a6ceff3b2bb12c",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_5_101_resume_v2.csv",
+      "sha": "e973241fb2cc20bcc81ff35084cf271b42a4547b7c69007925d8b39e2c13ac95",
+      "model": "model_UNIFORM_DIAG10_5_101_resume_v2.json",
+      "model_sha": "b33eefc3fd6a29d53beac6f055f3b33e5cdfc14c855c862673a6ceff3b2bb12c",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_5_2024_resume_v2.csv",
+      "sha": "9a863592170b5955eff0a52375d7b2dcce22a79ea92317e1b0b78d9ddaf5260c",
+      "model": "model_HARD_DIAG10_5_2024_resume_v2.json",
+      "model_sha": "013e543c71d857ec4280c89534d8d2a1985d9abbd0618b3fed94eb2f0d784ae9",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_5_2024_resume_v2.csv",
+      "sha": "079f1590df53891ceacc517a89ce23e02f58a94a194c75af848db56ec79d74e4",
+      "model": "model_HARD_DIAG10_5_2024_resume_v2.json",
+      "model_sha": "013e543c71d857ec4280c89534d8d2a1985d9abbd0618b3fed94eb2f0d784ae9",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_5_2024_resume_v2.csv",
+      "sha": "7b78d1d5b965fed643bc3ca1aa9a4c3b301cdab3acf310f9521bc7a441617401",
+      "model": "model_UNIFORM_DIAG10_5_2024_resume_v2.json",
+      "model_sha": "79fbd6cabc914fe169de485c6dcb0c5888a7b797ce60126f5cedc9ba4750f02e",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_5_2024_resume_v2.csv",
+      "sha": "10e64cad0e58307bdf65c9e2efdf8ee105ef0012a19f1aa524aa361b6a57c670",
+      "model": "model_UNIFORM_DIAG10_5_2024_resume_v2.json",
+      "model_sha": "79fbd6cabc914fe169de485c6dcb0c5888a7b797ce60126f5cedc9ba4750f02e",
+      "v": "DIAG10",
+      "k": 5,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_6_7_resume_v2.csv",
+      "sha": "1fa430d72df4f280d7a0e8358e771d78fd688391e223c68bc328f09df014c16f",
+      "model": "model_HARD_DIAG10_6_7_resume_v2.json",
+      "model_sha": "1b3f21297176286abb8401febb84728c838e22533b5a59bbd59e40271113e669",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_6_7_resume_v2.csv",
+      "sha": "0d1c220a9d02cf4a2e199af3a4b3dd86b95898deee1664fa91b24495289c1c1d",
+      "model": "model_HARD_DIAG10_6_7_resume_v2.json",
+      "model_sha": "1b3f21297176286abb8401febb84728c838e22533b5a59bbd59e40271113e669",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_6_7_resume_v2.csv",
+      "sha": "37df6c576606fd8ada49766e7215e48725abdaf9570155af7eff98ab7557f031",
+      "model": "model_UNIFORM_DIAG10_6_7_resume_v2.json",
+      "model_sha": "4a6332d83a04eab147b6ee16f9b649b4bf5165bc8054f77a8adb36262ffaaf23",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_6_7_resume_v2.csv",
+      "sha": "5617648070b415e03d5f5327c93650fb839c804b9b77daf5e09062393ef79e1c",
+      "model": "model_UNIFORM_DIAG10_6_7_resume_v2.json",
+      "model_sha": "4a6332d83a04eab147b6ee16f9b649b4bf5165bc8054f77a8adb36262ffaaf23",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_6_101_resume_v2.csv",
+      "sha": "16c5885d8279ed0f8e4cd33e23731920598761093c28bd96ab4726ae390c5d7a",
+      "model": "model_HARD_DIAG10_6_101_resume_v2.json",
+      "model_sha": "70f5b18286886288e79eba6f6cba8b51f1da31039193068e7ed0a231ea25ae7e",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_6_101_resume_v2.csv",
+      "sha": "fda424ecf24b40fea8cec6da86696b724b95ff85bd3d360b0028e5d0f5bcabfa",
+      "model": "model_HARD_DIAG10_6_101_resume_v2.json",
+      "model_sha": "70f5b18286886288e79eba6f6cba8b51f1da31039193068e7ed0a231ea25ae7e",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_6_101_resume_v2.csv",
+      "sha": "a5cc4018c987cbe5c2dcfb09ba8d02ece2a6f4ede1c88d01d8b6f6f761f1ecf9",
+      "model": "model_UNIFORM_DIAG10_6_101_resume_v2.json",
+      "model_sha": "7b1531144487e25cb63b6d9e75d382ca60d49635c619604574a146b5d108b31b",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_6_101_resume_v2.csv",
+      "sha": "ffaa8329e5727b28e3a5bf9c14edcf00b152db4a9c2ffa16e153db06ecf5bf55",
+      "model": "model_UNIFORM_DIAG10_6_101_resume_v2.json",
+      "model_sha": "7b1531144487e25cb63b6d9e75d382ca60d49635c619604574a146b5d108b31b",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_6_2024_resume_v2.csv",
+      "sha": "d3efdf3d1b5342280e2c94543113c14b7b820de029a4e952a01d5ea57bce370b",
+      "model": "model_HARD_DIAG10_6_2024_resume_v2.json",
+      "model_sha": "76520900a3c1ea5392c4a691798d63b8ea06ed6c6d43d6695295cac6376313e6",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_6_2024_resume_v2.csv",
+      "sha": "ec97ae6320dbbfb43bd7da4cc0c17e6599842beecf3212511fa12cae7ebdbf40",
+      "model": "model_HARD_DIAG10_6_2024_resume_v2.json",
+      "model_sha": "76520900a3c1ea5392c4a691798d63b8ea06ed6c6d43d6695295cac6376313e6",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_6_2024_resume_v2.csv",
+      "sha": "936bcfd6d525928d8728cc39282fbce1fa1156e46ecb16a280d8d0913030e15a",
+      "model": "model_UNIFORM_DIAG10_6_2024_resume_v2.json",
+      "model_sha": "05c0651c32fcdb58d2d020ee18769522fb2b5ae2d6f6b072ccc04380d80b6399",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_6_2024_resume_v2.csv",
+      "sha": "4f4fe20f734e0a6fe385128bbc525c9ecadd8f4374ef1dfcd17b19e4851a6d12",
+      "model": "model_UNIFORM_DIAG10_6_2024_resume_v2.json",
+      "model_sha": "05c0651c32fcdb58d2d020ee18769522fb2b5ae2d6f6b072ccc04380d80b6399",
+      "v": "DIAG10",
+      "k": 6,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_7_7_resume_v2.csv",
+      "sha": "471b5bc8fbcf19b351cc54c4392b9f2ce935fdd4b0d81841668c9180b6511fe6",
+      "model": "model_HARD_DIAG10_7_7_resume_v2.json",
+      "model_sha": "c7afbc6552420f447e54584a323d178f097b980705ce8f9c0db4af1f477b3dc4",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_7_7_resume_v2.csv",
+      "sha": "c1c6842b71055440154ba1ffbf11f6bdc55fe9a05dce590cebdbc2bb48206488",
+      "model": "model_HARD_DIAG10_7_7_resume_v2.json",
+      "model_sha": "c7afbc6552420f447e54584a323d178f097b980705ce8f9c0db4af1f477b3dc4",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_7_7_resume_v2.csv",
+      "sha": "987a65c45bb94e4e2dc2dc13e0df51c5cad6738d75dd1ff8ae424bdb4c962ba1",
+      "model": "model_UNIFORM_DIAG10_7_7_resume_v2.json",
+      "model_sha": "473ac2ae15ef2d851c631da82777e1d905a0a78112a17858d7d86c99fcb24970",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_7_7_resume_v2.csv",
+      "sha": "fbf97ca547d05d87a40ed487704f2a34fbc3cac0f955ed8c959313cb96515235",
+      "model": "model_UNIFORM_DIAG10_7_7_resume_v2.json",
+      "model_sha": "473ac2ae15ef2d851c631da82777e1d905a0a78112a17858d7d86c99fcb24970",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_7_101_resume_v2.csv",
+      "sha": "8e83d24999bd2c47c45f8f5c0aa72827a1e696f0151da6ab5edc0669db95d00d",
+      "model": "model_HARD_DIAG10_7_101_resume_v2.json",
+      "model_sha": "e626b6c3680072c1d60d0b5fe5dcea429038faef96ee82ba7c5fa0301fd6d8bc",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_7_101_resume_v2.csv",
+      "sha": "597737201ab8ac13e4fed9744737781dd987d03e58b0a4c09ba7099c60e676e6",
+      "model": "model_HARD_DIAG10_7_101_resume_v2.json",
+      "model_sha": "e626b6c3680072c1d60d0b5fe5dcea429038faef96ee82ba7c5fa0301fd6d8bc",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_7_101_resume_v2.csv",
+      "sha": "43fd73de02286a793915e963b16be9786c6a3b78e1074bcdb90b539feaec0add",
+      "model": "model_UNIFORM_DIAG10_7_101_resume_v2.json",
+      "model_sha": "6135e82fea78688857c07267e82e2788b11159bbc91877549118593ef51277e9",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_7_101_resume_v2.csv",
+      "sha": "bfb0ebc582452410073b32f5e9c8a79cac59d2a03797b7b2c4270f3887879acf",
+      "model": "model_UNIFORM_DIAG10_7_101_resume_v2.json",
+      "model_sha": "6135e82fea78688857c07267e82e2788b11159bbc91877549118593ef51277e9",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_7_2024_resume_v2.csv",
+      "sha": "63098199ce575f99d1ead83ee618eb8e44832715e4dc4ba64cad6f6736544b62",
+      "model": "model_HARD_DIAG10_7_2024_resume_v2.json",
+      "model_sha": "917ce1ff2e4e739c76e6cbf2cf5db5c577ddb3dae9a0089c4ddc58ff0b25589b",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_7_2024_resume_v2.csv",
+      "sha": "e998cf154fbf5d13a166ecc74cdba50092e38f774859d1dcff3643a91e889f80",
+      "model": "model_HARD_DIAG10_7_2024_resume_v2.json",
+      "model_sha": "917ce1ff2e4e739c76e6cbf2cf5db5c577ddb3dae9a0089c4ddc58ff0b25589b",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_7_2024_resume_v2.csv",
+      "sha": "cf223468b2eed90949c87717f1559f9157d021d5aa59926c59982d3dbeaeabef",
+      "model": "model_UNIFORM_DIAG10_7_2024_resume_v2.json",
+      "model_sha": "bcdd7d4fc92433ac028e55d84ca7ad4151eda674543ff1f2c73f220d26e4727e",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_7_2024_resume_v2.csv",
+      "sha": "f7120c1bca141322626f39ac66f9346dc83ab041dba1ab9655867cb99dca5fb2",
+      "model": "model_UNIFORM_DIAG10_7_2024_resume_v2.json",
+      "model_sha": "bcdd7d4fc92433ac028e55d84ca7ad4151eda674543ff1f2c73f220d26e4727e",
+      "v": "DIAG10",
+      "k": 7,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_8_7_resume_v2.csv",
+      "sha": "d90bb449902502f9063e71f28ec438f36176301111fe487a5780b56aa36f021c",
+      "model": "model_HARD_DIAG10_8_7_resume_v2.json",
+      "model_sha": "93a7c7fb7627416ae3d30bbf9294748501a0bd4034f1fe275e16107729b0232d",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_8_7_resume_v2.csv",
+      "sha": "b0d49005d4b495384e4265c1f717660f028023620d24cf2b84bc02c014ce3340",
+      "model": "model_HARD_DIAG10_8_7_resume_v2.json",
+      "model_sha": "93a7c7fb7627416ae3d30bbf9294748501a0bd4034f1fe275e16107729b0232d",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_8_7_resume_v2.csv",
+      "sha": "7cb56c635738b80626b54d13b2b68244b4ccd2f6555e271d2b576c9888304e3a",
+      "model": "model_UNIFORM_DIAG10_8_7_resume_v2.json",
+      "model_sha": "d76516d059e72798f459aa1c3b1b768ff3b8880fc5ec3c460727c2ce1aae9760",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_8_7_resume_v2.csv",
+      "sha": "1afe6a62dbe8482b96e63891f96fe191b499dca186a928620a2e8db88df3d4b9",
+      "model": "model_UNIFORM_DIAG10_8_7_resume_v2.json",
+      "model_sha": "d76516d059e72798f459aa1c3b1b768ff3b8880fc5ec3c460727c2ce1aae9760",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_8_101_resume_v2.csv",
+      "sha": "0c780367355203d19d62e190dfe5420e6acffdab580ba098afbe7e1f42fa23a2",
+      "model": "model_HARD_DIAG10_8_101_resume_v2.json",
+      "model_sha": "bf8e9c61f4a90b7a8e4aba3b30e3410dc9b1a0772807b8b5736a2c7a73be0c9e",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_8_101_resume_v2.csv",
+      "sha": "7f44dba0c6d5c8e588fa5719136ed36f3c878eccbcdb8868b3ee075259e8fafe",
+      "model": "model_HARD_DIAG10_8_101_resume_v2.json",
+      "model_sha": "bf8e9c61f4a90b7a8e4aba3b30e3410dc9b1a0772807b8b5736a2c7a73be0c9e",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_8_101_resume_v2.csv",
+      "sha": "c873f16f16d63ebf4c8bbcf24f4d5dade7be006792d5f320f9d7887eeff7ae5a",
+      "model": "model_UNIFORM_DIAG10_8_101_resume_v2.json",
+      "model_sha": "1726c2f59e7df734a9e9870ab591ecb245a24c85182acf98aa52b0bc5dda8d3f",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_8_101_resume_v2.csv",
+      "sha": "9d586ad35dbd47ec64807e91093f67d2f773b0c1770cb3cb39ba9107fd136e1d",
+      "model": "model_UNIFORM_DIAG10_8_101_resume_v2.json",
+      "model_sha": "1726c2f59e7df734a9e9870ab591ecb245a24c85182acf98aa52b0bc5dda8d3f",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_8_2024_resume_v2.csv",
+      "sha": "bab4d0491f62507a50282c1ba4104a521091df65c6edbf644117ace2624e4e96",
+      "model": "model_HARD_DIAG10_8_2024_resume_v2.json",
+      "model_sha": "e56fcceb5d9ada664a04add890aea392a2f5061758bbd5fa2897f6d134ff93ba",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_8_2024_resume_v2.csv",
+      "sha": "08269d15b9cb525fe0be9e77c93b78019983d2042aa37d31d2f894f21753b8ff",
+      "model": "model_HARD_DIAG10_8_2024_resume_v2.json",
+      "model_sha": "e56fcceb5d9ada664a04add890aea392a2f5061758bbd5fa2897f6d134ff93ba",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_8_2024_resume_v2.csv",
+      "sha": "773914f8b87280bf8d2eaeacaee48027b884844f2682ac2fd060265f340dae07",
+      "model": "model_UNIFORM_DIAG10_8_2024_resume_v2.json",
+      "model_sha": "876ff395293b79d3b75d85193419e5c99a9c51467bdfcdca867dcec86ba71d62",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_8_2024_resume_v2.csv",
+      "sha": "e8ca0de9607c3447cf0b8a6dca46477046954c8353e1c5f059e0c406ffc0480f",
+      "model": "model_UNIFORM_DIAG10_8_2024_resume_v2.json",
+      "model_sha": "876ff395293b79d3b75d85193419e5c99a9c51467bdfcdca867dcec86ba71d62",
+      "v": "DIAG10",
+      "k": 8,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_9_7_resume_v2.csv",
+      "sha": "dd791d2c3052d4f309bbf342f29530c49bea7ca66bac0316ae2ce457ff24536f",
+      "model": "model_HARD_DIAG10_9_7_resume_v2.json",
+      "model_sha": "957ccdded032ec133b0e29670fe3bfb77649f30825f1b9c1348a94e3a90b50ce",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 7,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_9_7_resume_v2.csv",
+      "sha": "7328ea5f49f120bec42f3f16df1328fb2f0d8e1b3f87a0de533695c43bb5d037",
+      "model": "model_HARD_DIAG10_9_7_resume_v2.json",
+      "model_sha": "957ccdded032ec133b0e29670fe3bfb77649f30825f1b9c1348a94e3a90b50ce",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 7,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_9_7_resume_v2.csv",
+      "sha": "8140fd4f05b49bb79944de39e3e03fbfd63dca6344eaffd0e3367f3bdbabc7e0",
+      "model": "model_UNIFORM_DIAG10_9_7_resume_v2.json",
+      "model_sha": "9e18571f26ad18619b5de8e83b861d96fce0b8024d4f81f9e3578424369142b1",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_9_7_resume_v2.csv",
+      "sha": "7a5e2b3235e124d27cfb5dee7d9c7c9327cc219c5cff66f765883d2b7642968b",
+      "model": "model_UNIFORM_DIAG10_9_7_resume_v2.json",
+      "model_sha": "9e18571f26ad18619b5de8e83b861d96fce0b8024d4f81f9e3578424369142b1",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 7,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_9_101_resume_v2.csv",
+      "sha": "5906593a7d0fe19e4f2ad257f26a4022dbaa5b20c24c985901b03916df9012ae",
+      "model": "model_HARD_DIAG10_9_101_resume_v2.json",
+      "model_sha": "362ad05263145262ba135788a31be7f146f8f87ddca17f248b9d73cf37b9da8c",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 101,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_9_101_resume_v2.csv",
+      "sha": "104046e85076812e82cd0063a67579ab81cd317441a1cd7cafe90c828ba5df67",
+      "model": "model_HARD_DIAG10_9_101_resume_v2.json",
+      "model_sha": "362ad05263145262ba135788a31be7f146f8f87ddca17f248b9d73cf37b9da8c",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 101,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_9_101_resume_v2.csv",
+      "sha": "cfda35a36fe91c6647b24af13029fd9c6441e6f00699b25f42979d451a582e06",
+      "model": "model_UNIFORM_DIAG10_9_101_resume_v2.json",
+      "model_sha": "6be874c7dbe8e2035b347b8a9cc77d12c1e54db0bc1d77fdc79e45c904925faf",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_9_101_resume_v2.csv",
+      "sha": "8d3624b52ae10ce2fbb1394077fb572337b3ea686e23973c350aef5256f012f8",
+      "model": "model_UNIFORM_DIAG10_9_101_resume_v2.json",
+      "model_sha": "6be874c7dbe8e2035b347b8a9cc77d12c1e54db0bc1d77fdc79e45c904925faf",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 101,
+      "mode": "UNIFORM",
+      "context": "train"
+    },
+    {
+      "path": "outer_HARD_DIAG10_9_2024_resume_v2.csv",
+      "sha": "96789b3f1a21d20c38a96000844ad2ee5647009b988ac346ef7f0b5c9713fce4",
+      "model": "model_HARD_DIAG10_9_2024_resume_v2.json",
+      "model_sha": "89dd05fb1bb9137c8993c668a215962780c6608f5c867a76e3a06678e27102fa",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "outer"
+    },
+    {
+      "path": "train_HARD_DIAG10_9_2024_resume_v2.csv",
+      "sha": "62043c7d73ba30ed81482747677540b24196942e06c796f2236c535a55f9c3fd",
+      "model": "model_HARD_DIAG10_9_2024_resume_v2.json",
+      "model_sha": "89dd05fb1bb9137c8993c668a215962780c6608f5c867a76e3a06678e27102fa",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 2024,
+      "mode": "HARD",
+      "context": "train"
+    },
+    {
+      "path": "outer_UNIFORM_DIAG10_9_2024_resume_v2.csv",
+      "sha": "c42db61794b23699ab97a3696a9e20996c8c86230b6968996c45d359c3ae92bf",
+      "model": "model_UNIFORM_DIAG10_9_2024_resume_v2.json",
+      "model_sha": "55ec55151794859d11d358d3cc1611824853982eb45081006838ea737d9ced09",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "outer"
+    },
+    {
+      "path": "train_UNIFORM_DIAG10_9_2024_resume_v2.csv",
+      "sha": "9e6e4787491c4299d03c9ee1130cf92c63319f81b843a4cb2d47bada40a1b813",
+      "model": "model_UNIFORM_DIAG10_9_2024_resume_v2.json",
+      "model_sha": "55ec55151794859d11d358d3cc1611824853982eb45081006838ea737d9ced09",
+      "v": "DIAG10",
+      "k": 9,
+      "s": 2024,
+      "mode": "UNIFORM",
+      "context": "train"
+    }
+  ],
+  "models": [
+    {
+      "path": "model_HARD_A_0_101_resume_v2.json",
+      "sha": "1153c652b6f5f06635a86206ba050eec260c3d23fbeb21e6f49848996a40b83b"
+    },
+    {
+      "path": "model_HARD_A_0_2024_resume_v2.json",
+      "sha": "b3b6c2e26f5227aeacad35c279e90c0bde56c267f570992aaec351a3dd220c52"
+    },
+    {
+      "path": "model_HARD_A_0_7_resume_v2.json",
+      "sha": "358c1788b2acf76b8c4385d9be8611a972e11304f9d8ba15ae515a1ce93e7565"
+    },
+    {
+      "path": "model_HARD_A_1_101_resume_v2.json",
+      "sha": "2cef58dd3cb80e83af9b2e8eec1b27b2a04f0e152cbd313c73ef31e002f14222"
+    },
+    {
+      "path": "model_HARD_A_1_2024_resume_v2.json",
+      "sha": "3eb5bad7b6bbf2089a7becedc0cc61c2510fb93bfb5674f6968b6b2612f0bc3c"
+    },
+    {
+      "path": "model_HARD_A_1_7_resume_v2.json",
+      "sha": "7c90e991a2b0709eb242645de76ceb4da74cb3127e628be116852e2f0fa29c87"
+    },
+    {
+      "path": "model_HARD_A_2_101_resume_v2.json",
+      "sha": "b932540820025ed3a0acc2149919450946168d242d902ee4417a3afab7d6208a"
+    },
+    {
+      "path": "model_HARD_A_2_2024_resume_v2.json",
+      "sha": "1f4f673df7b39409735dd25a0d5bbcd710fe3bca551c7faada83588fcfb9e417"
+    },
+    {
+      "path": "model_HARD_A_2_7_resume_v2.json",
+      "sha": "8b6d34c0608b7e6835d55477f3a6d2cd782ff3958d966e208cb572a68d4af19c"
+    },
+    {
+      "path": "model_HARD_A_3_101_resume_v2.json",
+      "sha": "3764c55cdaa0f26efe092b466a1294281a2a2281e6e9a5b3f775068094521b21"
+    },
+    {
+      "path": "model_HARD_A_3_2024_resume_v2.json",
+      "sha": "e4ea777f5cde839785667737c06c84799af17d993be9293e3764eec34de7a549"
+    },
+    {
+      "path": "model_HARD_A_3_7_resume_v2.json",
+      "sha": "3cc2976736b7386026e6cc7b17af3ec2b73587a7fd10184f50b176d7d2cfec6c"
+    },
+    {
+      "path": "model_HARD_A_4_101_resume_v2.json",
+      "sha": "c220525fbcbe08ac4d57f3812d9fe157fed899d9927ad1543c9d2c7153bc31b2"
+    },
+    {
+      "path": "model_HARD_A_4_2024_resume_v2.json",
+      "sha": "fc0c0a150c8e1ee913f8d0e37c03778fe9a17b1cde0f774ee981815de5a5d513"
+    },
+    {
+      "path": "model_HARD_A_4_7_resume_v2.json",
+      "sha": "bc16afc914e730632eafc0fbba382c50d0801fc8c95fceb88932acf17c4075ca"
+    },
+    {
+      "path": "model_HARD_B_0_101_resume_v2.json",
+      "sha": "36e82307d0c29bfc60564206cff512ad8498b77613145a4290a794693f543925"
+    },
+    {
+      "path": "model_HARD_B_0_2024_resume_v2.json",
+      "sha": "5a1758732fb94632fa59a13dcd95071e9ec511433ab9594e817f3dd8bab2f5c5"
+    },
+    {
+      "path": "model_HARD_B_0_7_resume_v2.json",
+      "sha": "4f6a5e7e653e416a667ebe92cc0caaf6b0cf3237656a1cb2e238eb013575e594"
+    },
+    {
+      "path": "model_HARD_B_1_101_resume_v2.json",
+      "sha": "36076c3a38a5a137018ab633a9f5caaf4c9dd9a0ae458ba2d0ebe9999969338f"
+    },
+    {
+      "path": "model_HARD_B_1_2024_resume_v2.json",
+      "sha": "8966641ed7f2a7453f7a97576acc812ea108a6d5c07a2a6b928c6262e187284a"
+    },
+    {
+      "path": "model_HARD_B_1_7_resume_v2.json",
+      "sha": "41cb4c621e7c1535d2d1da9881af51af2eed14cb0613481bb3396a2f2cee6cc9"
+    },
+    {
+      "path": "model_HARD_B_2_101_resume_v2.json",
+      "sha": "bee4ce8fee3d0dedc363194be7a7fc7a904c046afa162fe327691b803d04cd24"
+    },
+    {
+      "path": "model_HARD_B_2_2024_resume_v2.json",
+      "sha": "29cc2d8961d5c40b363cf236877293b392d52f29e4a0ef776bd62ca41fd4b79b"
+    },
+    {
+      "path": "model_HARD_B_2_7_resume_v2.json",
+      "sha": "8ff068c8d37a826c5f0a41eb29942e4503b6e8cd7028be8efb4861cfbb46ded5"
+    },
+    {
+      "path": "model_HARD_B_3_101_resume_v2.json",
+      "sha": "16e582a86cc993691341e6b4ad6cde0caff1ff73543fc685af2b8b88e6b9f3eb"
+    },
+    {
+      "path": "model_HARD_B_3_2024_resume_v2.json",
+      "sha": "d371a4911879246382244e050c0e5766ae99a2f211fec6d7138a9532c414987b"
+    },
+    {
+      "path": "model_HARD_B_3_7_resume_v2.json",
+      "sha": "ab8c0e2ef222bda71f3495d08f080c552a800d36cde0e3e8c24dbf6d0ba93709"
+    },
+    {
+      "path": "model_HARD_B_4_101_resume_v2.json",
+      "sha": "6d8747b9c77917d6e6263a745a80b4ea3c07b73643efbb82f914b7aa2f0ebbe5"
+    },
+    {
+      "path": "model_HARD_B_4_2024_resume_v2.json",
+      "sha": "f9c15805225e631e57533e998ec4655ceb50e13a02979066661237809a8fd3a9"
+    },
+    {
+      "path": "model_HARD_B_4_7_resume_v2.json",
+      "sha": "6cab861d5977576b59bcd1c386869542e209d89f65cab96ee37f21e458cbd520"
+    },
+    {
+      "path": "model_HARD_DIAG10_0_101.json",
+      "sha": "e5849a3c0f8c31ec7f863ab0c7a20e93a40af200d0582b047a15864f0a605d25"
+    },
+    {
+      "path": "model_HARD_DIAG10_0_2024.json",
+      "sha": "5e75fe599e5b8d75b36b2a5b861b361e22bb004d15d06b6c34ad6d2c6df91f95"
+    },
+    {
+      "path": "model_HARD_DIAG10_0_7.json",
+      "sha": "f89a481d0f056ba6c39a618475ff2827f2ba2b50f7738f329fd788493ed7f7b5"
+    },
+    {
+      "path": "model_HARD_DIAG10_1_101.json",
+      "sha": "a17b2faed312083ecd543d89b3d2fad05321d881dfd9361fd515b4fbe0a92fce"
+    },
+    {
+      "path": "model_HARD_DIAG10_1_2024.json",
+      "sha": "09ed7d8add7494fdc0326d1a7e632712f01d4993a0e7bbce04ae90b31013b232"
+    },
+    {
+      "path": "model_HARD_DIAG10_1_7.json",
+      "sha": "8d9654767e6c5ac9d01c1d2a6ba6e113ded6dba85ec83c8a5b62775d7b2c78e5"
+    },
+    {
+      "path": "model_HARD_DIAG10_2_101.json",
+      "sha": "6c5357bbb9695ec57bc727151e0e1e73502782f94b02d725bc149b85a7dc5fdd"
+    },
+    {
+      "path": "model_HARD_DIAG10_2_2024.json",
+      "sha": "3af4c726d85cec5bee5e528f788dcf7c02e4289ee3f3cf5d912341f638e409f0"
+    },
+    {
+      "path": "model_HARD_DIAG10_2_7.json",
+      "sha": "f6f1342844d2b1872b627bead96e38bf36ecc6937e65636630a926d921a2d121"
+    },
+    {
+      "path": "model_HARD_DIAG10_3_101_resume_v2.json",
+      "sha": "7c1b54217a34a5ce9f9516b39af6ee95ad2838ffb8248af885b7cc70c69e93a3"
+    },
+    {
+      "path": "model_HARD_DIAG10_3_2024_resume_v2.json",
+      "sha": "98ff04522845dc925e5c5002b3a1eec3c3715f0795d0d498a1532ddcd892743e"
+    },
+    {
+      "path": "model_HARD_DIAG10_3_7.json",
+      "sha": "6ada500cc9ca5ec5d95aa36e97f4748599188b6d46b89fbe94b7e027cb1e0ed8"
+    },
+    {
+      "path": "model_HARD_DIAG10_4_101_resume_v2.json",
+      "sha": "fc65647a156f0b328bde435832cd8b77a555cce69bf36edd15059cae97776856"
+    },
+    {
+      "path": "model_HARD_DIAG10_4_2024_resume_v2.json",
+      "sha": "2197e759be1c41a40984249c66b20af2b8f1ef128090797189c528d356867f55"
+    },
+    {
+      "path": "model_HARD_DIAG10_4_7_resume_v2.json",
+      "sha": "09bb9ce905c38edeaf371f723e040cde778764e66d21c75fd0c141578ea21b3f"
+    },
+    {
+      "path": "model_HARD_DIAG10_5_101_resume_v2.json",
+      "sha": "00a26bbd67d2cf81b6169ea0364460dadbb244bf2698f8026933bd321d1dae6a"
+    },
+    {
+      "path": "model_HARD_DIAG10_5_2024_resume_v2.json",
+      "sha": "013e543c71d857ec4280c89534d8d2a1985d9abbd0618b3fed94eb2f0d784ae9"
+    },
+    {
+      "path": "model_HARD_DIAG10_5_7_resume_v2.json",
+      "sha": "15137db2039e2b3e9151af2048040c046aeb31fbd814d508c4d4681ba88cc59d"
+    },
+    {
+      "path": "model_HARD_DIAG10_6_101_resume_v2.json",
+      "sha": "70f5b18286886288e79eba6f6cba8b51f1da31039193068e7ed0a231ea25ae7e"
+    },
+    {
+      "path": "model_HARD_DIAG10_6_2024_resume_v2.json",
+      "sha": "76520900a3c1ea5392c4a691798d63b8ea06ed6c6d43d6695295cac6376313e6"
+    },
+    {
+      "path": "model_HARD_DIAG10_6_7_resume_v2.json",
+      "sha": "1b3f21297176286abb8401febb84728c838e22533b5a59bbd59e40271113e669"
+    },
+    {
+      "path": "model_HARD_DIAG10_7_101_resume_v2.json",
+      "sha": "e626b6c3680072c1d60d0b5fe5dcea429038faef96ee82ba7c5fa0301fd6d8bc"
+    },
+    {
+      "path": "model_HARD_DIAG10_7_2024_resume_v2.json",
+      "sha": "917ce1ff2e4e739c76e6cbf2cf5db5c577ddb3dae9a0089c4ddc58ff0b25589b"
+    },
+    {
+      "path": "model_HARD_DIAG10_7_7_resume_v2.json",
+      "sha": "c7afbc6552420f447e54584a323d178f097b980705ce8f9c0db4af1f477b3dc4"
+    },
+    {
+      "path": "model_HARD_DIAG10_8_101_resume_v2.json",
+      "sha": "bf8e9c61f4a90b7a8e4aba3b30e3410dc9b1a0772807b8b5736a2c7a73be0c9e"
+    },
+    {
+      "path": "model_HARD_DIAG10_8_2024_resume_v2.json",
+      "sha": "e56fcceb5d9ada664a04add890aea392a2f5061758bbd5fa2897f6d134ff93ba"
+    },
+    {
+      "path": "model_HARD_DIAG10_8_7_resume_v2.json",
+      "sha": "93a7c7fb7627416ae3d30bbf9294748501a0bd4034f1fe275e16107729b0232d"
+    },
+    {
+      "path": "model_HARD_DIAG10_9_101_resume_v2.json",
+      "sha": "362ad05263145262ba135788a31be7f146f8f87ddca17f248b9d73cf37b9da8c"
+    },
+    {
+      "path": "model_HARD_DIAG10_9_2024_resume_v2.json",
+      "sha": "89dd05fb1bb9137c8993c668a215962780c6608f5c867a76e3a06678e27102fa"
+    },
+    {
+      "path": "model_HARD_DIAG10_9_7_resume_v2.json",
+      "sha": "957ccdded032ec133b0e29670fe3bfb77649f30825f1b9c1348a94e3a90b50ce"
+    },
+    {
+      "path": "model_UNIFORM_A_0_101_resume_v2.json",
+      "sha": "570d8fa7c4b38aaa04b04218217372f9ef5f2f7e4e9df3f92bbe41f94d4e5e85"
+    },
+    {
+      "path": "model_UNIFORM_A_0_2024_resume_v2.json",
+      "sha": "f498d9d00575a941d7e65f096219d4fdf4da7af6d6e7ba76e10098332b434e77"
+    },
+    {
+      "path": "model_UNIFORM_A_0_7_resume_v2.json",
+      "sha": "526ef8dd64856c823c0c33d167399b76247c781923488ce860b57a5f5c7db0eb"
+    },
+    {
+      "path": "model_UNIFORM_A_1_101_resume_v2.json",
+      "sha": "d060536d4a46e32e9eae41b2ab110184b477f1e9cfa7cb975bfcf74447621eab"
+    },
+    {
+      "path": "model_UNIFORM_A_1_2024_resume_v2.json",
+      "sha": "e2ca165483e68858e1e88e9d8cd0300cd40947706470e39fcf8a41983c0eaf73"
+    },
+    {
+      "path": "model_UNIFORM_A_1_7_resume_v2.json",
+      "sha": "cec854a41efeff1b67d4e51d0eb06e5b62315e91c7ee75a2fec442fbbb4788de"
+    },
+    {
+      "path": "model_UNIFORM_A_2_101_resume_v2.json",
+      "sha": "c8063f4debbb6ef91b0a064e0bf45c07520f3ac34d2a2c9ef72ecd1adca21b64"
+    },
+    {
+      "path": "model_UNIFORM_A_2_2024_resume_v2.json",
+      "sha": "82c7f9eebc40c35e5ff30b6aa5bc04420c401688552d1b0680f462ef8f523008"
+    },
+    {
+      "path": "model_UNIFORM_A_2_7_resume_v2.json",
+      "sha": "1368b2e27004bed9c6292667c04030990d86d4649fcbd85b8564bf9b693ad4ad"
+    },
+    {
+      "path": "model_UNIFORM_A_3_101_resume_v2.json",
+      "sha": "29969fad92b4f235be0280661d49412fcb107a6a6bef5f49c3fc2ae792b0e3f9"
+    },
+    {
+      "path": "model_UNIFORM_A_3_2024_resume_v2.json",
+      "sha": "db874ea3f3ba251feff4304949395a7ae5e9e56620a69ec2d54e6b2e41b3dbbf"
+    },
+    {
+      "path": "model_UNIFORM_A_3_7_resume_v2.json",
+      "sha": "9febf3faa3a8a495a7e96e80e2f0576646e53603dc31bb8d52b1197be2e127fc"
+    },
+    {
+      "path": "model_UNIFORM_A_4_101_resume_v2.json",
+      "sha": "14f9b7e8c78d4c138861da7b9f90aa28f15fcc7199111dc72ec9c238034f1498"
+    },
+    {
+      "path": "model_UNIFORM_A_4_2024_resume_v2.json",
+      "sha": "6b7f4423a366c675a80c37d6bea5ef84973397b1ea8f9bb3afc1a620c2bc7cbe"
+    },
+    {
+      "path": "model_UNIFORM_A_4_7_resume_v2.json",
+      "sha": "b7d2728382374d59e42f7058cb29bb2155e31b9dcc277fcf9891f7306ca12047"
+    },
+    {
+      "path": "model_UNIFORM_B_0_101_resume_v2.json",
+      "sha": "0c4cf5688050daee5d5a72cb96a47a05176534ae4e1abbbe7f9829c5944dfb2d"
+    },
+    {
+      "path": "model_UNIFORM_B_0_2024_resume_v2.json",
+      "sha": "a55e9419797e38b0b79f630d50cd4b339ac99791f8e4cf3bbf24846844c41664"
+    },
+    {
+      "path": "model_UNIFORM_B_0_7_resume_v2.json",
+      "sha": "4d7006b83d1e4a539e670e064469528e75c3dd2a8600adf631dbb4dc4004ce9e"
+    },
+    {
+      "path": "model_UNIFORM_B_1_101_resume_v2.json",
+      "sha": "faa0e227c66654d4f58658837d93b9bb805d8676b0c29980bb25a84752c7bdba"
+    },
+    {
+      "path": "model_UNIFORM_B_1_2024_resume_v2.json",
+      "sha": "d0f2220f10878f458439b46c2eaaee647016cacb2e9c336a660e11866d2bab5e"
+    },
+    {
+      "path": "model_UNIFORM_B_1_7_resume_v2.json",
+      "sha": "36cb9f46cd07405ba2eaafffdb38c86585925279ee4bb30dfcc24c22f13f96b0"
+    },
+    {
+      "path": "model_UNIFORM_B_2_101_resume_v2.json",
+      "sha": "3131057c68a6d53531a5e2071477ca1ba09fe3d239a756e48ecebceaf6abd4bd"
+    },
+    {
+      "path": "model_UNIFORM_B_2_2024_resume_v2.json",
+      "sha": "f3e0df67cabecb3dc7b224b5405db50338cdfea93f13bff82ad797dad6d8856d"
+    },
+    {
+      "path": "model_UNIFORM_B_2_7_resume_v2.json",
+      "sha": "ccd73e681c9231981e7bbfb07ab4c01949641609ba62936cdefe13f359a68803"
+    },
+    {
+      "path": "model_UNIFORM_B_3_101_resume_v2.json",
+      "sha": "15e2c34cb97fab9d96966a32878a8c92192587ff603a30e29ee6745f92e699e9"
+    },
+    {
+      "path": "model_UNIFORM_B_3_2024_resume_v2.json",
+      "sha": "9fe4a174564d143270469c01ba8b23d718a238e6c638164af51226140898ec07"
+    },
+    {
+      "path": "model_UNIFORM_B_3_7_resume_v2.json",
+      "sha": "9230d0e842a8f24576814440b89a02b93069aabbe920a6280f1cfd489abf91d4"
+    },
+    {
+      "path": "model_UNIFORM_B_4_101_resume_v2.json",
+      "sha": "b01143980606e43ba8e2947dec119ef3195335878c23e204756aa6e7e7006bc4"
+    },
+    {
+      "path": "model_UNIFORM_B_4_2024_resume_v2.json",
+      "sha": "7b4afe6f9c3060862453a864071a621555db81fe12310af897537017ef605e85"
+    },
+    {
+      "path": "model_UNIFORM_B_4_7_resume_v2.json",
+      "sha": "39494e8aec708910e7a37d4a7200af7716e872b79758cb1f9108de1727261989"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_0_101.json",
+      "sha": "6f12322af93d1a80dc67fa92263c9e98eb00540299959ea5e66d78152a52cc91"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_0_2024.json",
+      "sha": "1e15cdce94ff420c29ae66a3636c5133e87979d353b5a472f879a410f6110bfe"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_0_7.json",
+      "sha": "f26665ddd85d577fb14e205d5c54a72f078e11c01d29ffdd22e1935aa16a32f6"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_1_101.json",
+      "sha": "4ad029209b92ddff23af76ac3ca16c320dfcf41db427ecf72c7a3b8f267d0912"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_1_2024.json",
+      "sha": "018b12e22e0f443ad673aa9712b3cf5ccfbc54d7132a08cea12ae2312e84c104"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_1_7.json",
+      "sha": "e8da8bed3f5a78b9406a1dc397dc530424e4f2542370ee1fef583af5857043ec"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_2_101.json",
+      "sha": "401fbb9bcaf8720dcf77096cb19d521d8993a6edaf37b16955bbd4b5bc8d5316"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_2_2024.json",
+      "sha": "9c5b63e7422493c9ad89047d0c27205b8225bfd932f135e7ef05445afe08ecd2"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_2_7.json",
+      "sha": "384772ed94666aa3c27514447c782e88d4e74a5b86e460f2f2d5a70f341bdf79"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_3_101_resume_v2.json",
+      "sha": "308f001ae1261f3d1a31a8dec9c8cd699c70d19ee76cde6721f52f0726c515f1"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_3_2024_resume_v2.json",
+      "sha": "c2078e1c5fda84a48b9880d2b3117c728f61450ae300beb27685e2c384e9a3e8"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_3_7.json",
+      "sha": "a5ea8b7a9ac17e6a3180cd1d292a477640137adea7bb9deb39582fe29951c13e"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_4_101_resume_v2.json",
+      "sha": "1e2625643a25bba4e4aa6db5d23f449608d51be371a7358f3ae9a4330041952e"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_4_2024_resume_v2.json",
+      "sha": "87966a01fb5bc7b1f8479b161ef3a02cb03576255c7feebc326cf90fe209d782"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_4_7_resume_v2.json",
+      "sha": "eff25d10cc5c398e55ee8e79f529ac45edc86f3d2a9624f420e5ec6e1f7011b0"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_5_101_resume_v2.json",
+      "sha": "b33eefc3fd6a29d53beac6f055f3b33e5cdfc14c855c862673a6ceff3b2bb12c"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_5_2024_resume_v2.json",
+      "sha": "79fbd6cabc914fe169de485c6dcb0c5888a7b797ce60126f5cedc9ba4750f02e"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_5_7_resume_v2.json",
+      "sha": "1c88bdeb4cf52891ff4a5718e51d60dbf28cca9a561250473dbef9f3636e9099"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_6_101_resume_v2.json",
+      "sha": "7b1531144487e25cb63b6d9e75d382ca60d49635c619604574a146b5d108b31b"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_6_2024_resume_v2.json",
+      "sha": "05c0651c32fcdb58d2d020ee18769522fb2b5ae2d6f6b072ccc04380d80b6399"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_6_7_resume_v2.json",
+      "sha": "4a6332d83a04eab147b6ee16f9b649b4bf5165bc8054f77a8adb36262ffaaf23"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_7_101_resume_v2.json",
+      "sha": "6135e82fea78688857c07267e82e2788b11159bbc91877549118593ef51277e9"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_7_2024_resume_v2.json",
+      "sha": "bcdd7d4fc92433ac028e55d84ca7ad4151eda674543ff1f2c73f220d26e4727e"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_7_7_resume_v2.json",
+      "sha": "473ac2ae15ef2d851c631da82777e1d905a0a78112a17858d7d86c99fcb24970"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_8_101_resume_v2.json",
+      "sha": "1726c2f59e7df734a9e9870ab591ecb245a24c85182acf98aa52b0bc5dda8d3f"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_8_2024_resume_v2.json",
+      "sha": "876ff395293b79d3b75d85193419e5c99a9c51467bdfcdca867dcec86ba71d62"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_8_7_resume_v2.json",
+      "sha": "d76516d059e72798f459aa1c3b1b768ff3b8880fc5ec3c460727c2ce1aae9760"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_9_101_resume_v2.json",
+      "sha": "6be874c7dbe8e2035b347b8a9cc77d12c1e54db0bc1d77fdc79e45c904925faf"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_9_2024_resume_v2.json",
+      "sha": "55ec55151794859d11d358d3cc1611824853982eb45081006838ea737d9ced09"
+    },
+    {
+      "path": "model_UNIFORM_DIAG10_9_7_resume_v2.json",
+      "sha": "9e18571f26ad18619b5de8e83b861d96fce0b8024d4f81f9e3578424369142b1"
+    }
+  ],
+  "resume": [
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 7,
+      "status": "REUSED_SERIAL_COMPLETE"
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 101,
+      "status": "REUSED_SERIAL_COMPLETE"
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 2024,
+      "status": "REUSED_SERIAL_COMPLETE"
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 7,
+      "status": "REUSED_SERIAL_COMPLETE"
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 101,
+      "status": "REUSED_SERIAL_COMPLETE"
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 2024,
+      "status": "REUSED_SERIAL_COMPLETE"
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 7,
+      "status": "REUSED_SERIAL_COMPLETE"
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 101,
+      "status": "REUSED_SERIAL_COMPLETE"
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 2024,
+      "status": "REUSED_SERIAL_COMPLETE"
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 7,
+      "status": "REUSED_SERIAL_COMPLETE"
+    },
+    {
+      "v": "DIAG10",
+      "k": 4,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 4,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 5,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 4,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 5,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 6,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 5,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 6,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 7,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 6,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 7,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 8,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 7,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 8,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 8,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 9,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 9,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 0,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "DIAG10",
+      "k": 9,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 0,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 1,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 0,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 1,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 1,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 2,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 2,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 2,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 3,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 3,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 3,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 4,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 4,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "A",
+      "k": 4,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 0,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 0,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 0,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 1,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 1,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 1,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 2,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 2,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 2,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 3,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 3,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 3,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 4,
+      "s": 7,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 4,
+      "s": 101,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    },
+    {
+      "v": "B",
+      "k": 4,
+      "s": 2024,
+      "status": "SAME_SPEC_PARALLEL_RESUME",
+      "reused_proxy": false
+    }
+  ],
+  "workers": 3,
+  "runtime_registration_sha": "b09aaf97f07453174cf18eb2c6d6fd412388c5e5d9944ac55815ca8d31645370"
+}
