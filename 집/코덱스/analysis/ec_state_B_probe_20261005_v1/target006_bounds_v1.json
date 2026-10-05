@@ -1,0 +1,63 @@
+{
+  "status": "PASS_SCALAR_DAY_ORACLE_DECOMPOSITION",
+  "purpose": "y-used error budget only; not attainable prediction, training feature or score forecast",
+  "records": [
+    {
+      "seed": 7,
+      "n": 8640,
+      "days": 360,
+      "high_days": 31,
+      "baseline_rmse": 0.18112483710525534,
+      "sse": 283.44562516574166,
+      "level_sse": 235.2823348179214,
+      "shape_sse": 48.1632903478203,
+      "level_share": 0.8300792601062115,
+      "high_level_share": 0.5165497119956809,
+      "ordinary_level_share": 0.3135295481105305,
+      "perfect_all_day_levels_rmse": 0.07466227227568212,
+      "perfect_high_day_levels_rmse": 0.12593716702002763,
+      "perfect_ordinary_day_levels_rmse": 0.15006828939100705,
+      "target_sse": 31.104,
+      "required_sse_reduction": 0.8902646672291651,
+      "remaining_shape_reduction_if_levels_perfect": 0.3541969459441706
+    },
+    {
+      "seed": 101,
+      "n": 8640,
+      "days": 360,
+      "high_days": 31,
+      "baseline_rmse": 0.18167907699926716,
+      "sse": 285.1829598468008,
+      "level_sse": 237.44839471974169,
+      "shape_sse": 47.73456512705912,
+      "level_share": 0.8326177512404599,
+      "high_level_share": 0.5162778339616751,
+      "ordinary_level_share": 0.3163399172787848,
+      "perfect_all_day_levels_rmse": 0.07432922659857934,
+      "perfect_high_day_levels_rmse": 0.1263580483072891,
+      "perfect_ordinary_day_levels_rmse": 0.15021905529599563,
+      "target_sse": 31.104,
+      "required_sse_reduction": 0.89093317491091,
+      "remaining_shape_reduction_if_levels_perfect": 0.34839670336981476
+    },
+    {
+      "seed": 2024,
+      "n": 8640,
+      "days": 360,
+      "high_days": 31,
+      "baseline_rmse": 0.18172772536614717,
+      "sse": 285.3357076807529,
+      "level_sse": 237.38871951328858,
+      "shape_sse": 47.94698816746432,
+      "level_share": 0.8319628883563719,
+      "high_level_share": 0.5106022328024209,
+      "ordinary_level_share": 0.321360655553951,
+      "perfect_all_day_levels_rmse": 0.07449442883054981,
+      "perfect_high_day_levels_rmse": 0.12713121058097773,
+      "perfect_ordinary_day_levels_rmse": 0.14970651752598732,
+      "target_sse": 31.104,
+      "required_sse_reduction": 0.8909915612987329,
+      "remaining_shape_reduction_if_levels_perfect": 0.35128354900284575
+    }
+  ]
+}
