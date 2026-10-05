@@ -1,0 +1,14 @@
+pass-2 query days: neighbours within +-3 dates (same farm, labelled, not same date)
+         days  n_mean  n_zero  ge2_high10  n10_mean
+layout                                             
+DIAG10     46    9.07     0.0        0.37      1.35
+DIAG10q    46    9.00     0.0        0.37      1.17
+EL1        46    9.30     0.0        0.43      1.50
+TEST       60   11.67     0.0        0.48      2.07
+
+high days only (label >= 1):
+         days  n_mean  ge2_high10
+layout                           
+DIAG10      5    11.0         1.0
+DIAG10q     5    10.8         0.6
+EL1         5    11.2         1.0
