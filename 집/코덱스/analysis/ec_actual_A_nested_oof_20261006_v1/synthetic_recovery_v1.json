@@ -1,0 +1,11 @@
+{
+  "status": "PASS_SYNTHETIC_RECOVERY_ONLY",
+  "tests": [
+    "JSON same-value resume; changed-value rejection and preservation",
+    "CSV exact-match resume; 1e-10 change rejection and preservation",
+    "interrupted staging ignored; complete NPZ+JSON directory published and reusable",
+    "changed component signature rejected"
+  ],
+  "real_model_fit": 0,
+  "source_sha": "aa9482c972f4558fd1629dbbce12379972240b048079f9a23ab2c868443c7b50"
+}
