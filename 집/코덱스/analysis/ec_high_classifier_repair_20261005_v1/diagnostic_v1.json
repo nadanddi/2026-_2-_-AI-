@@ -1,0 +1,39 @@
+{
+  "status": "PASS_RAW_CALIBRATION_SUPPORT_CHECK",
+  "items": [
+    {
+      "seed": 7,
+      "meta_high_days": 5,
+      "meta_high_prefix_min": 1.2510560608740993,
+      "meta_high_score_min": 0.9456475798028771,
+      "guard_cut": 0.9456475798028771,
+      "missed_day": "F47_157_23",
+      "missed_prefix": 0.9324849931309352,
+      "missed_score": 0.24273720813430716,
+      "train_high_min": 2
+    },
+    {
+      "seed": 101,
+      "meta_high_days": 5,
+      "meta_high_prefix_min": 1.2541765855663913,
+      "meta_high_score_min": 0.9578706334858471,
+      "guard_cut": 0.9578706334858471,
+      "missed_day": "F47_157_23",
+      "missed_prefix": 0.947446305371404,
+      "missed_score": 0.23959122373884975,
+      "train_high_min": 2
+    },
+    {
+      "seed": 2024,
+      "meta_high_days": 5,
+      "meta_high_prefix_min": 1.2459495319528184,
+      "meta_high_score_min": 0.9333044574917287,
+      "guard_cut": 0.9333044574917287,
+      "missed_day": "F47_157_23",
+      "missed_prefix": 0.9426601794808112,
+      "missed_score": 0.27159606511675627,
+      "train_high_min": 2
+    }
+  ],
+  "caution": "Observed calibration support mismatch, not proof of a unique causal mechanism; no threshold retuning."
+}
