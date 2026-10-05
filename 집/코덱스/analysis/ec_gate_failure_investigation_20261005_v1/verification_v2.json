@@ -1,0 +1,31 @@
+{
+  "status": "PASS_DIAGNOSIS_AND_META270_WITH_MLP_FLAGS",
+  "mlp_optimization_flags": [
+    {
+      "seed": 101,
+      "n": 936,
+      "gradient": 0.0014218122681695878
+    }
+  ],
+  "mlp_synthetic_gradient_error": 1.9190614375386161e-10,
+  "summary_rows": 12438,
+  "checked_rows": 12438,
+  "meta_models": 270,
+  "fresh_repeat_checks": 3,
+  "max_scalar_error": 1.4551915228366852e-11,
+  "gradient_max": {
+    "LR": 6.928325258490943e-08,
+    "LGB": 0.0,
+    "MLP": 0.0014218122681695878
+  },
+  "source_sha": "9b8c37fa760b5d0c8521c9ae46efc93ecbf21789dc6ef3049fbdf48eac9c087b",
+  "verifier_sha": "07c299373a591b7a9d3db1dff86a28793a3ea7cbedfd646a2c7bf275d1a6ec70",
+  "pooled_sha": "c2fc51268ee695ba3275fd2fb64c78336098d2e29b4f5f4c853035a78b95f70c",
+  "adoption": false,
+  "limitations": [
+    "posthoc public diagnostics",
+    "meta b repeats across outer folds: occurrence counts are not independent days",
+    "reference intervention holds outer A fixed, not smaller-a base retraining",
+    "oracle reads outer y; never deploy"
+  ]
+}

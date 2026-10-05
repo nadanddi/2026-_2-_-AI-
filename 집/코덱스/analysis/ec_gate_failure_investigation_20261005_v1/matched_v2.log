@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_gate_failure_investigation_20261005_v1\matched_v2.py", line 33, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_gate_failure_investigation_20261005_v1\matched_v2.py", line 16, in main
+    ig=inner.groupby(['seed']+keys)[columns].mean().reset_index().rename(columns={c:'inner_'+c for c in columns});mg=meta.groupby(['seed']+keys)[columns].mean().reset_index().rename(columns={c:'meta_'+c for c in columns});og=outer[['seed']+keys+columns].rename(columns={c:'outer_'+c for c in columns});assert not og.duplicated(['seed','row_id']).any();matched=og.merge(ig,on=['seed']+keys,validate='one_to_one').merge(mg,on=['seed']+keys,validate='one_to_one')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\util\_decorators.py", line 336, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\frame.py", line 10817, in groupby
+    return DataFrameGroupBy(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\groupby\groupby.py", line 1095, in __init__
+    grouper, exclusions, obj = get_grouper(
+                               ^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\groupby\grouper.py", line 901, in get_grouper
+    raise KeyError(gpr)
+KeyError: 'seed'
