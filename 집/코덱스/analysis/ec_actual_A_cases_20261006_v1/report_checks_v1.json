@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "segment_cells": 240,
+  "residual_definition_check": [
+    {
+      "seed": 7,
+      "hard_high_below_actual": 12,
+      "hard_high_at_or_above_actual": 2
+    },
+    {
+      "seed": 101,
+      "hard_high_below_actual": 13,
+      "hard_high_at_or_above_actual": 1
+    },
+    {
+      "seed": 2024,
+      "hard_high_below_actual": 13,
+      "hard_high_at_or_above_actual": 1
+    }
+  ]
+}

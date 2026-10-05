@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_actual_A_cases_20261006_v1\run_v1.py", line 54, in <module>
+    if __name__=='__main__':actual()
+                            ^^^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_actual_A_cases_20261006_v1\run_v1.py", line 27, in actual
+    refs,p=prep();OUT.mkdir(parents=True,exist_ok=False);pd,np=F.pd,F.np;frames=[];days=[];manifest=[]
+           ^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_actual_A_cases_20261006_v1\run_v1.py", line 11, in prep
+    F.bootstrap(support=True);refs,p,cols=F.preparation();old=load(H.parent/'ec_final_output_loss_20261004_v1/preparation_v3.json')
+                                          ^^^^^^^^^^^^^
+AttributeError: module 'actual_A_audit' has no attribute 'preparation'

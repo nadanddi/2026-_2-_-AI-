@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_actual_A_cases_20261006_v1\run_v2.py", line 54, in <module>
+    if __name__=='__main__':actual()
+                            ^^^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_actual_A_cases_20261006_v1\run_v2.py", line 27, in actual
+    refs,p=prep();OUT.mkdir(parents=True,exist_ok=False);pd,np=F.pd,F.np;frames=[];days=[];manifest=[]
+           ^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_actual_A_cases_20261006_v1\run_v2.py", line 12, in prep
+    for key in ['source_sha256','config','dependencies','inputs','features','manifest','original_r3_guard']:assert p[key]==old[key],key
+                                                                                                                   ^^^^^^^^^^^^^^^^
+AssertionError: manifest
