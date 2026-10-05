@@ -1,0 +1,42 @@
+
+variants 108; better than R3S on BOTH sets: 68 (63%)
+current SG2 (3, all13, 1, .3): DIAG10 -1.35%, EL1 -0.88%, rank by average 63 of 108
+
+by knob (mean change %): 
+   DIAG10   EL1  DIAG10_normal  EL1_normal
+W                                         
+2   -2.99 -0.01          -4.32        1.67
+3   -2.89 -0.06          -4.22       -0.17
+4   -2.69 -0.23          -4.26       -0.91
+5   -2.69 -0.20          -4.27       -0.79 
+
+       DIAG10   EL1  DIAG10_normal  EL1_normal
+sig                                           
+all13   -3.16 -0.08          -3.85       -0.28
+clim6   -1.69 -0.72          -2.71       -0.98
+ops7    -3.58  0.42          -6.26        1.12 
+
+   DIAG10   EL1  DIAG10_normal  EL1_normal
+k                                         
+1   -2.11 -0.10          -3.77       -1.24
+2   -2.79 -0.22          -5.18       -0.50
+3   -3.55 -0.06          -3.86        1.59 
+
+     DIAG10   EL1  DIAG10_normal  EL1_normal
+G                                           
+0.2   -1.12 -0.59          -3.72       -2.69
+0.3   -2.18 -0.04          -4.48       -0.17
+0.4   -5.14  0.26          -4.61        2.71 
+
+best 8 by average:
+ W   sig  k   G  DIAG10  DIAG10_normal   EL1  EL1_normal   avg
+ 2 all13  3 0.4   -8.76          -2.09 -1.67        8.19 -5.21
+ 2  ops7  3 0.4   -9.29          -5.96 -0.29       10.13 -4.79
+ 3  ops7  3 0.4  -11.51         -10.56  2.43        7.38 -4.54
+ 3 all13  3 0.4   -9.08          -1.97  1.25        5.04 -3.92
+ 2 clim6  3 0.4   -1.99          -3.60 -4.37       -0.16 -3.18
+ 4  ops7  3 0.4   -7.58          -5.92  1.85        4.87 -2.87
+ 3 clim6  1 0.4   -4.77          -3.96 -0.66       -3.65 -2.71
+ 2 all13  2 0.4   -6.63          -5.51  1.32        6.20 -2.65
+
+SG2S robust (>= 80% of variants better on both): False
