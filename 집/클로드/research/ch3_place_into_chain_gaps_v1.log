@@ -1,0 +1,9 @@
+pass-2 held-out days 46; with candidates 44 (median 10), with OPEN candidates 24, exactly one OPEN 12
+  open   level within .05 of true 0h EC: 16 of 44 days with a value (36%)
+  all    level within .05 of true 0h EC: 17 of 44 days with a value (39%)
+  orc    level within .05 of true 0h EC: 33 of 44 days with a value (75%)
+  guard  level within .05 of true 0h EC: 3 of 12 days with a value (25%)
+  pass-2  model 0.2680 | open 0.6476 | all 0.4549 | guard 0.5175 | oracle 0.2769
+  normal  model 0.1452 | open 0.6161 | all 0.3757 | guard 0.4638 | oracle 0.0828
+  high    model 0.6984 | open 0.8638 | all 0.8638 | guard 0.8369 | oracle 0.8059
+CH3 clue: False
