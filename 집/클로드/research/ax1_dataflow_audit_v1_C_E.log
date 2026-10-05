@@ -1,0 +1,24 @@
+C. model features (FULL + DP1) P2T vs TEST
+  features with missing share differing by > 1 point: []
+  largest |SMD| features:
+farm            feat  miss_P2T%  miss_TEST%   SMD
+ F13      in_temp_h0        0.0         0.0 -1.23
+ F13         in_temp        0.0         0.0 -0.62
+ F13    act_vent_tdm        0.0         0.0 -0.59
+ F13     act_vent_h0        0.0         0.0 -0.59
+ F13 act_thermal_tdz        0.0         0.0  0.56
+ F13 first_open_hour        0.0         0.0  0.55
+ F13        vent_max        0.0         0.0 -0.52
+ F13  act_thermal_h0        0.0         0.0 -0.49
+ F13       in_hum_h0        0.0         0.0  0.44
+ F13        seal_run        0.0         0.0  0.42
+  season F13: TEST 34.3..147.1 (median 117.7) | P2T 7.0..154.0 (median 117.0)
+  season F47: TEST 24.6..148.9 (median 124.4) | P2T 10.0..177.5 (median 128.8)
+
+D. pass-2 NORMAL days (984 rows): RMSE by hour block / bias
+blk           0-5   6-11  12-17  18-23
+<lambda_0>  0.161  0.139  0.144  0.136
+mean        0.027  0.014 -0.011 -0.002
+  day-level share of SSE 92%; day-level bias mean +0.007; by farm: {'F13': '0.150 (bias -0.014)', 'F47': '0.140 (bias +0.030)'}
+E. P1 labels: flat>=6h rows 1.6%, |hourly jump|>.2 rows 0.67%, decimals .001 grid 100%
+E. P2T labels: flat>=6h rows 1.3%, |hourly jump|>.2 rows 0.67%, decimals .001 grid 100%

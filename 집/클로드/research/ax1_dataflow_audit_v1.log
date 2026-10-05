@@ -1,0 +1,24 @@
+A. raw input integrity (missing % | stuck>=6h share of hours %)
+           miss_in_temp  miss_in_hum  miss_in_co2  stuck_in_temp  stuck_in_hum  stuck_in_co2  stuck_out_temp
+farm seg                                                                                                    
+F13  P1             1.0          1.0          1.1            0.3           1.9           0.0             0.0
+     P2T            0.0          0.0          0.0            0.0           2.9           0.0             0.0
+     TEST           0.0          0.0          0.0            0.0           1.2           0.0             0.0
+F47  P1             0.7          0.6          0.7            0.1           2.1           0.1             0.0
+     P2T            0.0          0.0          0.0            0.0           0.9           0.0             0.0
+     TEST           0.0          0.0          0.0            0.0           3.6           0.0             0.0
+
+B. distribution shift P2T vs TEST (SMD = mean diff / pooled SD; KS p) per farm
+  F13 top shifts: in_temp -0.62 (p 0.000); out_temp -0.48 (p 0.000); act_vent -0.38 (p 0.000); out_hum -0.31 (p 0.000); act_heating +0.21 (p 0.000)
+  F47 top shifts: in_hum +0.37 (p 0.000); in_temp -0.26 (p 0.000); act_vent -0.25 (p 0.000); out_wspd +0.24 (p 0.000); act_circfan +0.20 (p 0.000)
+  adversarial AUC F13 P2T vs TEST (days 29/30): 0.77
+  adversarial AUC F13 P1 vs P2T (days 171/29): 0.62
+  adversarial AUC F47 P2T vs TEST (days 27/30): 0.57
+  adversarial AUC F47 P1 vs P2T (days 173/27): 0.41
+
+C. model features (FULL + DP1) P2T vs TEST
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\ax1_dataflow_audit_v1.py", line 74, in <module>
+    exec(src.split("def shrink")[0].replace("import env\nimport env_extra", "").replace("import sklearn,lightgbm,torch,tabpfn", "").replace("from tabpfn import TabPFNRegressor", "").replace("from tabpfn.constants import ModelVersion", "").replace("import sg2post", ""), ns)
+  File "<string>", line 8, in <module>
+NameError: name '__file__' is not defined. Did you mean: '__name__'?
