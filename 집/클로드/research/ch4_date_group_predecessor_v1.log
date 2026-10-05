@@ -1,0 +1,8 @@
+pass-2 held-out days 46: chosen date-group size {2: 32, 1: 14}; TRUE predecessor inside the chosen group: 37%
+  rule A  used 46 days, level within .05 of true 0h EC 30%
+  rule B  used 46 days, level within .05 of true 0h EC 30%
+  rule gA used 14 days, level within .05 of true 0h EC 21%
+  pass-2  model 0.2680 | A 0.4900 | B 0.5227 | guarded A 0.2894
+  normal  model 0.1452 | A 0.2321 | B 0.3608 | guarded A 0.1858
+  high    model 0.6984 | A 1.3293 | B 1.2023 | guarded A 0.6984
+CH4 clue: False
