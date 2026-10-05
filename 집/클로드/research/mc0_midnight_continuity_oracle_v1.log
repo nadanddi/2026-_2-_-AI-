@@ -1,0 +1,12 @@
+all            P23: rows  6936 (80% of segment)  oracle 0.2404  vs R3S same rows 0.1738
+all            INT: rows  8088 (94% of segment)  oracle 0.2411  vs R3S same rows 0.1835
+pass-2         P23: rows   840 (76% of segment)  oracle 0.3053  vs R3S same rows 0.2426
+pass-2         INT: rows  1032 (93% of segment)  oracle 0.3028  vs R3S same rows 0.2763
+pass-2 normal  P23: rows   792 (80% of segment)  oracle 0.3051  vs R3S same rows 0.1388
+pass-2 normal  INT: rows   912 (93% of segment)  oracle 0.2287  vs R3S same rows 0.1491
+pass-2 high    P23: rows    48 (40% of segment)  oracle 0.3098  vs R3S same rows 0.8440
+pass-2 high    INT: rows   120 (100% of segment)  oracle 0.6251  vs R3S same rows 0.6984
+pass-1         P23: rows  6096 (81% of segment)  oracle 0.2301  vs R3S same rows 0.1621
+pass-1         INT: rows  7056 (94% of segment)  oracle 0.2307  vs R3S same rows 0.1657
+
+pass-2 days with labelled predecessor via chain: 35 of 46
