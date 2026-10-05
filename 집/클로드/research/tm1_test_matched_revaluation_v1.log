@@ -1,0 +1,19 @@
+TM set: 111 labelled days (F13 56, F47 55); pass-1 share 0.91; mean day-temp TM 14.2 vs all labelled 15.9
+
+(1) DP1 on TM rows (per seed, then seed mean):
+  seed 7 R3S -> R3S+DP1              all 0.2191->0.2188 (-0.1%) | normal 0.1077->0.1113 (+3.3%) | high 0.7189->0.7105 (-1.2%)  P(worse) 0.4395
+  seed 101 R3S -> R3S+DP1            all 0.2218->0.2212 (-0.3%) | normal 0.1097->0.1113 (+1.5%) | high 0.7265->0.7206 (-0.8%)  P(worse) 0.3661
+  seed 2024 R3S -> R3S+DP1           all 0.2221->0.2202 (-0.9%) | normal 0.1125->0.1119 (-0.6%) | high 0.7223->0.7154 (-1.0%)  P(worse) 0.2054
+  seed mean                          all 0.2208->0.2199 (-0.4%) | normal 0.1097->0.1113 (+1.5%) | high 0.7224->0.7153 (-1.0%)  P(worse) 0.3323
+
+(2)(3) SG2 / HG3 / HG4 on TM rows (R3S seed mean, corrections on all rows):
+  R3S -> R3S+SG2                     all 0.2208->0.2176 (-1.5%) | normal 0.1097->0.1066 (-2.8%) | high 0.7224->0.7146 (-1.1%)  P(worse) 0.0795
+  SG2 -> SG2+HG3                     all 0.2176->0.2020 (-7.2%) | normal 0.1066->0.1066 (+0.0%) | high 0.7146->0.6479 (-9.3%)  P(worse) 0.1316
+  SG2 -> SG2+HG4                     all 0.2176->0.2051 (-5.7%) | normal 0.1066->0.1066 (+0.0%) | high 0.7146->0.6615 (-7.4%)  P(worse) 0.1316
+    pass-1 TM rows: R3S -> SG2       all 0.2044->0.2005 (-1.9%) | normal 0.0967->0.0906 (-6.4%) | high 0.7449->0.7396 (-0.7%)  P(worse) 0.0496
+    pass-2 TM rows: R3S -> SG2       all 0.3458->0.3457 (-0.0%) | normal 0.2091->0.2213 (+5.8%) | high 0.6503->0.6337 (-2.6%)  P(worse) 0.5047
+
+(4) TabPFN share on TM rows (Codex v2 integration, DIAG10; seeds stacked rows):
+  seed 7 R3(season) only -> v2 (0.8/0.2) all 0.2191->0.2103 (-4.0%) | normal 0.1077->0.1068 (-0.8%) | high 0.7189->0.6833 (-4.9%)  P(worse) 0.0051
+  seed 101 R3(season) only -> v2 (0.8/0.2) all 0.2218->0.2123 (-4.3%) | normal 0.1097->0.1083 (-1.3%) | high 0.7265->0.6887 (-5.2%)  P(worse) 0.0026
+  seed 2024 R3(season) only -> v2 (0.8/0.2) all 0.2221->0.2127 (-4.3%) | normal 0.1125->0.1108 (-1.5%) | high 0.7223->0.6853 (-5.1%)  P(worse) 0.0014
