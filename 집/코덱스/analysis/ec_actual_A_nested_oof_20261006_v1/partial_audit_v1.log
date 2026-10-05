@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_actual_A_nested_oof_20261006_v1\verify_v4.py", line 154, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_actual_A_nested_oof_20261006_v1\verify_v4.py", line 35, in main
+    public={r['row_id']:float(r['sub_ec']) for r in rows(public_path) if r['validator']=='DIAG10' and int(r['seed'])==7};assert len(public)==8640
+            ~^^^^^^^^^^
+KeyError: 'row_id'
