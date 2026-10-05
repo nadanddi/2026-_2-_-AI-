@@ -1,0 +1,11 @@
+Q1 day-mean EC, consecutive same-chain (next date) vs the two µ¿ of one date:
+  other_same_date  n 117  |diff| median 0.141  mean 0.305  Spearman 0.61  | hour-12 |diff| median 0.133
+  same             n 373  |diff| median 0.015  mean 0.040  Spearman 0.99  | hour-12 |diff| median 0.016
+
+Q2 chain groups: high-group mean EC 0.82 vs low 0.31; agreement of high-group with old µ¿B label 0.58
+  hour  0 leave-one-chain-out accuracy F13 0.47 F47 0.84
+  hour  5 leave-one-chain-out accuracy F13 0.57 F47 0.82
+  hour 11 leave-one-chain-out accuracy F13 0.49 F47 0.91
+  hour 23 leave-one-chain-out accuracy F13 0.47 F47 0.90
+
+Q3 day residual lag-1 Spearman: within chain 0.54 (n 300) vs record order 0.03 (n 323)
