@@ -1,0 +1,25 @@
+{
+  "status": "PASS_ALL198",
+  "cells": 198,
+  "rows": 249480,
+  "results": [
+    {
+      "mode": "LR",
+      "decision": "REJECT",
+      "direction_pass": 0,
+      "verification_sha": "e00bb038eb0c05b1fd9299be501a3e66539157cd7be1b116e6626d27c44a658c"
+    },
+    {
+      "mode": "LGB",
+      "decision": "REJECT",
+      "direction_pass": 0,
+      "verification_sha": "6fa660d3c77d47354a83622b5c5f7d223535a128eadb157aeefadd765a2ac66e"
+    },
+    {
+      "mode": "MLP",
+      "decision": "REJECT",
+      "direction_pass": 0,
+      "verification_sha": "c60348afb596555a3561494c8989f4a358f1516aeb4adb2835008ad316a1a6d3"
+    }
+  ]
+}

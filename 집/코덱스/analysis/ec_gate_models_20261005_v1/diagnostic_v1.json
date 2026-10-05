@@ -1,0 +1,807 @@
+{
+  "status": "PASS_POSTHOC_SCALAR_ORACLE_AND_DAILY_SUM",
+  "label": "oracle uses outer y and is never an inference rule or adoption candidate",
+  "rows": [
+    {
+      "mode": "LR",
+      "seed": 7,
+      "n": 8640,
+      "days": 360,
+      "B_better_rows": 3164,
+      "A_better_rows": 5092,
+      "gate_mean_when_B_better": 0.27452090439011034,
+      "gate_mean_when_A_better": 0.26656998928454045,
+      "weighted_gate_B_better": 0.5485734163037423,
+      "weighted_gate_A_better": 0.341836801507909,
+      "actual_improved_rows": 3840,
+      "baseline_rmse": 0.18112483710525534,
+      "candidate_rmse": 0.18980869508342268,
+      "oracle_rmse": 0.16391659994289867,
+      "oracle_change_pct": -9.500760601019397,
+      "top_loss_days": [
+        {
+          "farm": "F47",
+          "day": 231,
+          "loss_change": 10.327581433509541,
+          "mean_y": 2.1767083333333335,
+          "mean_gate": 0.7837133059682756
+        },
+        {
+          "farm": "F47",
+          "day": 229,
+          "loss_change": 9.153479713779193,
+          "mean_y": 1.78825,
+          "mean_gate": 0.997152927285922
+        },
+        {
+          "farm": "F47",
+          "day": 154,
+          "loss_change": 5.0269227463774,
+          "mean_y": 1.6209999999999998,
+          "mean_gate": 0.9969915646154427
+        },
+        {
+          "farm": "F13",
+          "day": 151,
+          "loss_change": 4.926408118790985,
+          "mean_y": 1.676875,
+          "mean_gate": 0.9962934133374687
+        },
+        {
+          "farm": "F47",
+          "day": 147,
+          "loss_change": 3.1907436024821485,
+          "mean_y": 1.7504583333333334,
+          "mean_gate": 0.5510667127198695
+        },
+        {
+          "farm": "F13",
+          "day": 241,
+          "loss_change": 2.920160107647401,
+          "mean_y": 1.4315,
+          "mean_gate": 0.5307125097758013
+        },
+        {
+          "farm": "F13",
+          "day": 153,
+          "loss_change": 1.9578777509582774,
+          "mean_y": 1.6374166666666667,
+          "mean_gate": 0.9991993385354783
+        },
+        {
+          "farm": "F13",
+          "day": 243,
+          "loss_change": 1.4395663520397621,
+          "mean_y": 1.7187916666666665,
+          "mean_gate": 0.18960965178897618
+        },
+        {
+          "farm": "F47",
+          "day": 209,
+          "loss_change": 1.2494584361473442,
+          "mean_y": 0.6549583333333334,
+          "mean_gate": 0.9870926382316232
+        },
+        {
+          "farm": "F47",
+          "day": 151,
+          "loss_change": 1.0796001240885156,
+          "mean_y": 1.3133333333333332,
+          "mean_gate": 0.9494923202941115
+        }
+      ]
+    },
+    {
+      "mode": "LR",
+      "seed": 101,
+      "n": 8640,
+      "days": 360,
+      "B_better_rows": 3132,
+      "A_better_rows": 5124,
+      "gate_mean_when_B_better": 0.27234766516083797,
+      "gate_mean_when_A_better": 0.264109588199347,
+      "weighted_gate_B_better": 0.5528929403765903,
+      "weighted_gate_A_better": 0.34273990675355975,
+      "actual_improved_rows": 3869,
+      "baseline_rmse": 0.18167907699926716,
+      "candidate_rmse": 0.19016597531604515,
+      "oracle_rmse": 0.16408090663677194,
+      "oracle_change_pct": -9.686404539894378,
+      "top_loss_days": [
+        {
+          "farm": "F47",
+          "day": 231,
+          "loss_change": 10.631142673251679,
+          "mean_y": 2.1767083333333335,
+          "mean_gate": 0.7969768455445352
+        },
+        {
+          "farm": "F47",
+          "day": 229,
+          "loss_change": 9.369377308479105,
+          "mean_y": 1.78825,
+          "mean_gate": 0.9971308243984519
+        },
+        {
+          "farm": "F47",
+          "day": 154,
+          "loss_change": 5.1522665877134886,
+          "mean_y": 1.6209999999999998,
+          "mean_gate": 0.9952949157476078
+        },
+        {
+          "farm": "F13",
+          "day": 151,
+          "loss_change": 5.001734146561502,
+          "mean_y": 1.676875,
+          "mean_gate": 0.9973534717931019
+        },
+        {
+          "farm": "F13",
+          "day": 241,
+          "loss_change": 3.042180418629085,
+          "mean_y": 1.4315,
+          "mean_gate": 0.5495554061624487
+        },
+        {
+          "farm": "F47",
+          "day": 147,
+          "loss_change": 2.8291543405354305,
+          "mean_y": 1.7504583333333334,
+          "mean_gate": 0.4779461256101774
+        },
+        {
+          "farm": "F13",
+          "day": 153,
+          "loss_change": 1.9798371374942347,
+          "mean_y": 1.6374166666666667,
+          "mean_gate": 0.999272620109451
+        },
+        {
+          "farm": "F13",
+          "day": 243,
+          "loss_change": 1.5105012234585327,
+          "mean_y": 1.7187916666666665,
+          "mean_gate": 0.19724448121977314
+        },
+        {
+          "farm": "F47",
+          "day": 209,
+          "loss_change": 1.2582307765309468,
+          "mean_y": 0.6549583333333334,
+          "mean_gate": 0.9855872020236354
+        },
+        {
+          "farm": "F13",
+          "day": 162,
+          "loss_change": 1.1449183050917764,
+          "mean_y": 0.585875,
+          "mean_gate": 0.8273117669199088
+        }
+      ]
+    },
+    {
+      "mode": "LR",
+      "seed": 2024,
+      "n": 8640,
+      "days": 360,
+      "B_better_rows": 3179,
+      "A_better_rows": 5077,
+      "gate_mean_when_B_better": 0.2770273894445125,
+      "gate_mean_when_A_better": 0.27025597828333997,
+      "weighted_gate_B_better": 0.5613427187360528,
+      "weighted_gate_A_better": 0.3435862369324703,
+      "actual_improved_rows": 3888,
+      "baseline_rmse": 0.18172772536614717,
+      "candidate_rmse": 0.189868287958609,
+      "oracle_rmse": 0.1637987049578982,
+      "oracle_change_pct": -9.865869598117394,
+      "top_loss_days": [
+        {
+          "farm": "F47",
+          "day": 231,
+          "loss_change": 11.39884501756736,
+          "mean_y": 2.1767083333333335,
+          "mean_gate": 0.8471509529163516
+        },
+        {
+          "farm": "F47",
+          "day": 229,
+          "loss_change": 9.343289481767448,
+          "mean_y": 1.78825,
+          "mean_gate": 0.99815233000604
+        },
+        {
+          "farm": "F47",
+          "day": 154,
+          "loss_change": 5.067230050709057,
+          "mean_y": 1.6209999999999998,
+          "mean_gate": 0.995185735368274
+        },
+        {
+          "farm": "F13",
+          "day": 151,
+          "loss_change": 4.870680193898099,
+          "mean_y": 1.676875,
+          "mean_gate": 0.9971716470640152
+        },
+        {
+          "farm": "F47",
+          "day": 147,
+          "loss_change": 3.5663478533381463,
+          "mean_y": 1.7504583333333334,
+          "mean_gate": 0.6173134445395839
+        },
+        {
+          "farm": "F13",
+          "day": 241,
+          "loss_change": 2.0329067758989896,
+          "mean_y": 1.4315,
+          "mean_gate": 0.39030064779794177
+        },
+        {
+          "farm": "F13",
+          "day": 153,
+          "loss_change": 2.0040347532268497,
+          "mean_y": 1.6374166666666667,
+          "mean_gate": 0.9989183375046448
+        },
+        {
+          "farm": "F47",
+          "day": 209,
+          "loss_change": 1.277761259977224,
+          "mean_y": 0.6549583333333334,
+          "mean_gate": 0.9928646932144057
+        },
+        {
+          "farm": "F13",
+          "day": 217,
+          "loss_change": 1.1731505999710092,
+          "mean_y": 1.69325,
+          "mean_gate": 0.19213836443246476
+        },
+        {
+          "farm": "F47",
+          "day": 151,
+          "loss_change": 1.1281091353430535,
+          "mean_y": 1.3133333333333332,
+          "mean_gate": 0.9271973997924835
+        }
+      ]
+    },
+    {
+      "mode": "LGB",
+      "seed": 7,
+      "n": 8640,
+      "days": 360,
+      "B_better_rows": 3164,
+      "A_better_rows": 5092,
+      "gate_mean_when_B_better": 0.36564402225869325,
+      "gate_mean_when_A_better": 0.3345121404778853,
+      "weighted_gate_B_better": 0.5581101501492857,
+      "weighted_gate_A_better": 0.46870179821156444,
+      "actual_improved_rows": 3811,
+      "baseline_rmse": 0.18112483710525534,
+      "candidate_rmse": 0.19532321996886337,
+      "oracle_rmse": 0.16391659994289867,
+      "oracle_change_pct": -9.500760601019397,
+      "top_loss_days": [
+        {
+          "farm": "F47",
+          "day": 132,
+          "loss_change": 16.34544351869077,
+          "mean_y": 2.7121666666666666,
+          "mean_gate": 0.8987714194333719
+        },
+        {
+          "farm": "F13",
+          "day": 243,
+          "loss_change": 6.812720645179266,
+          "mean_y": 1.7187916666666665,
+          "mean_gate": 0.866941490806595
+        },
+        {
+          "farm": "F47",
+          "day": 147,
+          "loss_change": 5.8478402763803485,
+          "mean_y": 1.7504583333333334,
+          "mean_gate": 0.9201169949634168
+        },
+        {
+          "farm": "F13",
+          "day": 241,
+          "loss_change": 5.289429625174794,
+          "mean_y": 1.4315,
+          "mean_gate": 0.8766480552228276
+        },
+        {
+          "farm": "F47",
+          "day": 154,
+          "loss_change": 4.866501699854793,
+          "mean_y": 1.6209999999999998,
+          "mean_gate": 0.9733871927219654
+        },
+        {
+          "farm": "F13",
+          "day": 151,
+          "loss_change": 4.7983933521592155,
+          "mean_y": 1.676875,
+          "mean_gate": 0.9714289008066923
+        },
+        {
+          "farm": "F47",
+          "day": 231,
+          "loss_change": 4.5604922774335375,
+          "mean_y": 2.1767083333333335,
+          "mean_gate": 0.3687724864279081
+        },
+        {
+          "farm": "F13",
+          "day": 178,
+          "loss_change": 2.2556168358635547,
+          "mean_y": 1.8420416666666668,
+          "mean_gate": 0.8693024855006822
+        },
+        {
+          "farm": "F13",
+          "day": 217,
+          "loss_change": 2.0127772012834773,
+          "mean_y": 1.69325,
+          "mean_gate": 0.31124219284923477
+        },
+        {
+          "farm": "F47",
+          "day": 229,
+          "loss_change": 1.9869306214456457,
+          "mean_y": 1.78825,
+          "mean_gate": 0.25222043644812564
+        }
+      ]
+    },
+    {
+      "mode": "LGB",
+      "seed": 101,
+      "n": 8640,
+      "days": 360,
+      "B_better_rows": 3132,
+      "A_better_rows": 5124,
+      "gate_mean_when_B_better": 0.35444960059259956,
+      "gate_mean_when_A_better": 0.32915527593535077,
+      "weighted_gate_B_better": 0.5476299321241672,
+      "weighted_gate_A_better": 0.44737186230713527,
+      "actual_improved_rows": 3843,
+      "baseline_rmse": 0.18167907699926716,
+      "candidate_rmse": 0.19465706213286696,
+      "oracle_rmse": 0.16408090663677194,
+      "oracle_change_pct": -9.686404539894378,
+      "top_loss_days": [
+        {
+          "farm": "F47",
+          "day": 132,
+          "loss_change": 15.249929398051034,
+          "mean_y": 2.7121666666666666,
+          "mean_gate": 0.8604651342946349
+        },
+        {
+          "farm": "F13",
+          "day": 243,
+          "loss_change": 6.94650576410719,
+          "mean_y": 1.7187916666666665,
+          "mean_gate": 0.864804403305986
+        },
+        {
+          "farm": "F47",
+          "day": 147,
+          "loss_change": 5.84729151191924,
+          "mean_y": 1.7504583333333334,
+          "mean_gate": 0.9008193022411208
+        },
+        {
+          "farm": "F13",
+          "day": 241,
+          "loss_change": 5.3960365924421065,
+          "mean_y": 1.4315,
+          "mean_gate": 0.8919403433257599
+        },
+        {
+          "farm": "F47",
+          "day": 154,
+          "loss_change": 4.971012786557637,
+          "mean_y": 1.6209999999999998,
+          "mean_gate": 0.9695996286902614
+        },
+        {
+          "farm": "F13",
+          "day": 151,
+          "loss_change": 4.883129740403368,
+          "mean_y": 1.676875,
+          "mean_gate": 0.9754032599277614
+        },
+        {
+          "farm": "F47",
+          "day": 231,
+          "loss_change": 3.8562020240614077,
+          "mean_y": 2.1767083333333335,
+          "mean_gate": 0.31242258979852583
+        },
+        {
+          "farm": "F13",
+          "day": 178,
+          "loss_change": 2.0874854893453954,
+          "mean_y": 1.8420416666666668,
+          "mean_gate": 0.8666135331524009
+        },
+        {
+          "farm": "F13",
+          "day": 217,
+          "loss_change": 1.879873358289885,
+          "mean_y": 1.69325,
+          "mean_gate": 0.2987868118205506
+        },
+        {
+          "farm": "F13",
+          "day": 153,
+          "loss_change": 1.7973216203607203,
+          "mean_y": 1.6374166666666667,
+          "mean_gate": 0.9219461244117771
+        }
+      ]
+    },
+    {
+      "mode": "LGB",
+      "seed": 2024,
+      "n": 8640,
+      "days": 360,
+      "B_better_rows": 3179,
+      "A_better_rows": 5077,
+      "gate_mean_when_B_better": 0.36222355121797206,
+      "gate_mean_when_A_better": 0.3324527067508717,
+      "weighted_gate_B_better": 0.5527603508637908,
+      "weighted_gate_A_better": 0.43459376045532433,
+      "actual_improved_rows": 3830,
+      "baseline_rmse": 0.18172772536614717,
+      "candidate_rmse": 0.19374148829681934,
+      "oracle_rmse": 0.1637987049578982,
+      "oracle_change_pct": -9.865869598117394,
+      "top_loss_days": [
+        {
+          "farm": "F47",
+          "day": 132,
+          "loss_change": 15.489523993241738,
+          "mean_y": 2.7121666666666666,
+          "mean_gate": 0.8492084696829102
+        },
+        {
+          "farm": "F13",
+          "day": 243,
+          "loss_change": 6.092821963478406,
+          "mean_y": 1.7187916666666665,
+          "mean_gate": 0.7826139829287352
+        },
+        {
+          "farm": "F47",
+          "day": 147,
+          "loss_change": 5.540050011083081,
+          "mean_y": 1.7504583333333334,
+          "mean_gate": 0.8930314840900423
+        },
+        {
+          "farm": "F47",
+          "day": 154,
+          "loss_change": 4.914419518728902,
+          "mean_y": 1.6209999999999998,
+          "mean_gate": 0.9723648087152307
+        },
+        {
+          "farm": "F13",
+          "day": 151,
+          "loss_change": 4.737810318314271,
+          "mean_y": 1.676875,
+          "mean_gate": 0.9721846884110029
+        },
+        {
+          "farm": "F13",
+          "day": 241,
+          "loss_change": 4.731757380873812,
+          "mean_y": 1.4315,
+          "mean_gate": 0.8067855495155349
+        },
+        {
+          "farm": "F47",
+          "day": 231,
+          "loss_change": 3.3750274219120087,
+          "mean_y": 2.1767083333333335,
+          "mean_gate": 0.27596347898481316
+        },
+        {
+          "farm": "F13",
+          "day": 178,
+          "loss_change": 2.204799908792246,
+          "mean_y": 1.8420416666666668,
+          "mean_gate": 0.8792817011207413
+        },
+        {
+          "farm": "F13",
+          "day": 217,
+          "loss_change": 2.1015772309434175,
+          "mean_y": 1.69325,
+          "mean_gate": 0.3306212802344855
+        },
+        {
+          "farm": "F13",
+          "day": 153,
+          "loss_change": 1.8295781945552427,
+          "mean_y": 1.6374166666666667,
+          "mean_gate": 0.9232770945399333
+        }
+      ]
+    },
+    {
+      "mode": "MLP",
+      "seed": 7,
+      "n": 8640,
+      "days": 360,
+      "B_better_rows": 3164,
+      "A_better_rows": 5092,
+      "gate_mean_when_B_better": 0.29174067199273007,
+      "gate_mean_when_A_better": 0.2761569264760488,
+      "weighted_gate_B_better": 0.527293180824397,
+      "weighted_gate_A_better": 0.4352280737136029,
+      "actual_improved_rows": 3878,
+      "baseline_rmse": 0.18112483710525534,
+      "candidate_rmse": 0.19454230021372773,
+      "oracle_rmse": 0.16391659994289867,
+      "oracle_change_pct": -9.500760601019397,
+      "top_loss_days": [
+        {
+          "farm": "F47",
+          "day": 231,
+          "loss_change": 11.688804351764922,
+          "mean_y": 2.1767083333333335,
+          "mean_gate": 0.8510102189209995
+        },
+        {
+          "farm": "F47",
+          "day": 229,
+          "loss_change": 7.8291901841078815,
+          "mean_y": 1.78825,
+          "mean_gate": 0.8754470585071189
+        },
+        {
+          "farm": "F47",
+          "day": 132,
+          "loss_change": 6.038866783219841,
+          "mean_y": 2.7121666666666666,
+          "mean_gate": 0.32082353368004074
+        },
+        {
+          "farm": "F47",
+          "day": 147,
+          "loss_change": 5.826382779654726,
+          "mean_y": 1.7504583333333334,
+          "mean_gate": 0.9185602065931008
+        },
+        {
+          "farm": "F47",
+          "day": 154,
+          "loss_change": 5.001894000545244,
+          "mean_y": 1.6209999999999998,
+          "mean_gate": 0.9943465263462142
+        },
+        {
+          "farm": "F13",
+          "day": 151,
+          "loss_change": 4.84199052794389,
+          "mean_y": 1.676875,
+          "mean_gate": 0.9834799702324085
+        },
+        {
+          "farm": "F13",
+          "day": 241,
+          "loss_change": 4.718999020019359,
+          "mean_y": 1.4315,
+          "mean_gate": 0.7782316886164805
+        },
+        {
+          "farm": "F13",
+          "day": 243,
+          "loss_change": 2.5216732115891762,
+          "mean_y": 1.7187916666666665,
+          "mean_gate": 0.32389250937881253
+        },
+        {
+          "farm": "F47",
+          "day": 163,
+          "loss_change": 2.2159730988000454,
+          "mean_y": 0.56975,
+          "mean_gate": 0.7858410540269912
+        },
+        {
+          "farm": "F13",
+          "day": 153,
+          "loss_change": 1.9311404016032774,
+          "mean_y": 1.6374166666666667,
+          "mean_gate": 0.9890034937389148
+        }
+      ]
+    },
+    {
+      "mode": "MLP",
+      "seed": 101,
+      "n": 8640,
+      "days": 360,
+      "B_better_rows": 3132,
+      "A_better_rows": 5124,
+      "gate_mean_when_B_better": 0.2932634411488545,
+      "gate_mean_when_A_better": 0.27002083675327865,
+      "weighted_gate_B_better": 0.5510968344961223,
+      "weighted_gate_A_better": 0.43807464073841657,
+      "actual_improved_rows": 3902,
+      "baseline_rmse": 0.18167907699926716,
+      "candidate_rmse": 0.19485726042530144,
+      "oracle_rmse": 0.16408090663677194,
+      "oracle_change_pct": -9.686404539894378,
+      "top_loss_days": [
+        {
+          "farm": "F47",
+          "day": 231,
+          "loss_change": 12.534225494067298,
+          "mean_y": 2.1767083333333335,
+          "mean_gate": 0.9062101327279924
+        },
+        {
+          "farm": "F47",
+          "day": 229,
+          "loss_change": 9.009172324620234,
+          "mean_y": 1.78825,
+          "mean_gate": 0.9650940711128145
+        },
+        {
+          "farm": "F47",
+          "day": 154,
+          "loss_change": 5.149710792021568,
+          "mean_y": 1.6209999999999998,
+          "mean_gate": 0.9958214539418755
+        },
+        {
+          "farm": "F13",
+          "day": 151,
+          "loss_change": 4.9902239213646835,
+          "mean_y": 1.676875,
+          "mean_gate": 0.9939147865009046
+        },
+        {
+          "farm": "F13",
+          "day": 241,
+          "loss_change": 4.9197746256374755,
+          "mean_y": 1.4315,
+          "mean_gate": 0.810485117252469
+        },
+        {
+          "farm": "F13",
+          "day": 243,
+          "loss_change": 4.725870001296545,
+          "mean_y": 1.7187916666666665,
+          "mean_gate": 0.5966641455148
+        },
+        {
+          "farm": "F47",
+          "day": 132,
+          "loss_change": 4.198423121807591,
+          "mean_y": 2.7121666666666666,
+          "mean_gate": 0.22296963913235743
+        },
+        {
+          "farm": "F47",
+          "day": 147,
+          "loss_change": 4.145065121163789,
+          "mean_y": 1.7504583333333334,
+          "mean_gate": 0.6775770169288635
+        },
+        {
+          "farm": "F47",
+          "day": 163,
+          "loss_change": 2.404268659133516,
+          "mean_y": 0.56975,
+          "mean_gate": 0.8418733538259312
+        },
+        {
+          "farm": "F13",
+          "day": 178,
+          "loss_change": 2.0239285423050286,
+          "mean_y": 1.8420416666666668,
+          "mean_gate": 0.8272429824803474
+        }
+      ]
+    },
+    {
+      "mode": "MLP",
+      "seed": 2024,
+      "n": 8640,
+      "days": 360,
+      "B_better_rows": 3179,
+      "A_better_rows": 5077,
+      "gate_mean_when_B_better": 0.29738246335627744,
+      "gate_mean_when_A_better": 0.27827008054017144,
+      "weighted_gate_B_better": 0.5349338363348661,
+      "weighted_gate_A_better": 0.41993785505317244,
+      "actual_improved_rows": 3906,
+      "baseline_rmse": 0.18172772536614717,
+      "candidate_rmse": 0.19373474085428524,
+      "oracle_rmse": 0.1637987049578982,
+      "oracle_change_pct": -9.865869598117394,
+      "top_loss_days": [
+        {
+          "farm": "F47",
+          "day": 231,
+          "loss_change": 11.908071111760558,
+          "mean_y": 2.1767083333333335,
+          "mean_gate": 0.8587880473932367
+        },
+        {
+          "farm": "F47",
+          "day": 229,
+          "loss_change": 8.226688696883555,
+          "mean_y": 1.78825,
+          "mean_gate": 0.8967454224110768
+        },
+        {
+          "farm": "F47",
+          "day": 154,
+          "loss_change": 5.064954845427055,
+          "mean_y": 1.6209999999999998,
+          "mean_gate": 0.9961105849852712
+        },
+        {
+          "farm": "F47",
+          "day": 147,
+          "loss_change": 4.895644152486096,
+          "mean_y": 1.7504583333333334,
+          "mean_gate": 0.8126263888367294
+        },
+        {
+          "farm": "F47",
+          "day": 132,
+          "loss_change": 4.837587951161629,
+          "mean_y": 2.7121666666666666,
+          "mean_gate": 0.2538900123347519
+        },
+        {
+          "farm": "F13",
+          "day": 151,
+          "loss_change": 4.784111755212673,
+          "mean_y": 1.676875,
+          "mean_gate": 0.9843184043714898
+        },
+        {
+          "farm": "F13",
+          "day": 241,
+          "loss_change": 4.451622407463994,
+          "mean_y": 1.4315,
+          "mean_gate": 0.7351297006913046
+        },
+        {
+          "farm": "F47",
+          "day": 163,
+          "loss_change": 2.1045648209436374,
+          "mean_y": 0.56975,
+          "mean_gate": 0.7851634788181805
+        },
+        {
+          "farm": "F13",
+          "day": 178,
+          "loss_change": 2.048969641539542,
+          "mean_y": 1.8420416666666668,
+          "mean_gate": 0.8087020410043403
+        },
+        {
+          "farm": "F13",
+          "day": 153,
+          "loss_change": 1.9837857864352577,
+          "mean_y": 1.6374166666666667,
+          "mean_gate": 0.9894480455658267
+        }
+      ]
+    }
+  ]
+}
