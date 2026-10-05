@@ -1,0 +1,14 @@
+sealed rows 3580 (41%); b0 range 0.006..0.022, b1 range -0.011..0.001 (negative = lower EC when S_low high)
+
+segment            rows      SG2      SD1   change
+all                8640   0.1835   0.1846    +0.6%
+pass-2             1104   0.2643   0.2632    -0.4%
+high                744   0.5151   0.5101    -1.0%
+normal             7896   0.1089   0.1130    +3.8%
+pass-2 high         120   0.6938   0.6869    -1.0%
+pass-2 normal       984   0.1403   0.1420    +1.2%
+sealed F13         2062   0.1905   0.1937    +1.7%
+sealed F47         1518   0.3074   0.3083    +0.3%
+cluster bootstrap P(worse) all rows: 0.9162
+
+SD1 clue: False
