@@ -1,0 +1,690 @@
+{
+  "status": "PASS_READY_OUTER_OOF_ONLY",
+  "outer_groups": 4,
+  "oof_csv": 12,
+  "total_outer_groups": 20,
+  "total_oof_csv": 60,
+  "hourly_occurrences": 76392,
+  "maxdiff": {
+    "R3": 4.440892098500626e-16,
+    "PFN": 0.0,
+    "raw_A": 4.440892098500626e-16,
+    "A": 2.220446049250313e-16,
+    "prefix_A": 2.220446049250313e-16,
+    "y_day": 5.551115123125783e-17,
+    "public_y": 0.0
+  },
+  "coverage": [
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 7,
+      "rows": 6288,
+      "days": 262
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 101,
+      "rows": 6288,
+      "days": 262
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 2024,
+      "rows": 6288,
+      "days": 262
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 7,
+      "rows": 6552,
+      "days": 273
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 101,
+      "rows": 6552,
+      "days": 273
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 2024,
+      "rows": 6552,
+      "days": 273
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 7,
+      "rows": 6216,
+      "days": 259
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 101,
+      "rows": 6216,
+      "days": 259
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 2024,
+      "rows": 6216,
+      "days": 259
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 7,
+      "rows": 6408,
+      "days": 267
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 101,
+      "rows": 6408,
+      "days": 267
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 2024,
+      "rows": 6408,
+      "days": 267
+    }
+  ],
+  "files": [
+    {
+      "path": "OOF_DIAG10_0_7.csv",
+      "sha": "9454fa3f12dc3c6b7ae15fff686da5a5638bff0a1015bb5e59d976e73c4db386"
+    },
+    {
+      "path": "OOF_DIAG10_0_101.csv",
+      "sha": "43912eec33a31df83df83e3fb5161c5ee1ec83e33e74ed3000f932b9bfb83e87"
+    },
+    {
+      "path": "OOF_DIAG10_0_2024.csv",
+      "sha": "340e45bce7f2adee8eb6c5f1169dbcb787d2cc053d4efb8e6c4af700b5848ea3"
+    },
+    {
+      "path": "OOF_DIAG10_1_7.csv",
+      "sha": "e9b9045117e370d0231f43267dbd85a8662b0a81b423dbebd8f77be6039228cc"
+    },
+    {
+      "path": "OOF_DIAG10_1_101.csv",
+      "sha": "d97c04e8957b93366559fc1d6818edfdaaa8d3b0e77dec1e2f341e5208750d38"
+    },
+    {
+      "path": "OOF_DIAG10_1_2024.csv",
+      "sha": "c6085feb3a56c3a5cab110e590e38c20e1104f299575a39dba8b2c07d090c9a8"
+    },
+    {
+      "path": "OOF_DIAG10_2_7.csv",
+      "sha": "f16c81a963b66171a971d422c19c66e9aa887395e754df52489faa1c85e3530c"
+    },
+    {
+      "path": "OOF_DIAG10_2_101.csv",
+      "sha": "9014fe80f20b56cbc29fad073c285c84e0d9e5116c0809c42226f9e60140567d"
+    },
+    {
+      "path": "OOF_DIAG10_2_2024.csv",
+      "sha": "9bb32878ad59b7664031bd84dd459df0bc0e758ebb687b1470559062dc50432d"
+    },
+    {
+      "path": "OOF_DIAG10_3_7.csv",
+      "sha": "cd69686b3014839855e14bf51d6a914e0643f14dd639c40850fa12b06f93bc19"
+    },
+    {
+      "path": "OOF_DIAG10_3_101.csv",
+      "sha": "c26f63ade472b8aea81192131ee939f046a9c65965496b896f2997e4183a82e2"
+    },
+    {
+      "path": "OOF_DIAG10_3_2024.csv",
+      "sha": "9a091e14b0ff5a85e5faf7aa974e40f1c9ab60f4b01e916486244f572f6dc32b"
+    }
+  ],
+  "case_counts": [
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 7,
+      "hour": 0,
+      "n": 262,
+      "high": 26,
+      "hard_high": 8,
+      "missed_high": 3,
+      "hard_low": 12
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 7,
+      "hour": 6,
+      "n": 262,
+      "high": 26,
+      "hard_high": 10,
+      "missed_high": 4,
+      "hard_low": 11
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 7,
+      "hour": 12,
+      "n": 262,
+      "high": 26,
+      "hard_high": 10,
+      "missed_high": 3,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 7,
+      "hour": 23,
+      "n": 262,
+      "high": 26,
+      "hard_high": 8,
+      "missed_high": 0,
+      "hard_low": 12
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 101,
+      "hour": 0,
+      "n": 262,
+      "high": 26,
+      "hard_high": 7,
+      "missed_high": 2,
+      "hard_low": 12
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 101,
+      "hour": 6,
+      "n": 262,
+      "high": 26,
+      "hard_high": 9,
+      "missed_high": 3,
+      "hard_low": 11
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 101,
+      "hour": 12,
+      "n": 262,
+      "high": 26,
+      "hard_high": 8,
+      "missed_high": 3,
+      "hard_low": 11
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 101,
+      "hour": 23,
+      "n": 262,
+      "high": 26,
+      "hard_high": 7,
+      "missed_high": 0,
+      "hard_low": 13
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 2024,
+      "hour": 0,
+      "n": 262,
+      "high": 26,
+      "hard_high": 8,
+      "missed_high": 3,
+      "hard_low": 11
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 2024,
+      "hour": 6,
+      "n": 262,
+      "high": 26,
+      "hard_high": 9,
+      "missed_high": 4,
+      "hard_low": 11
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 2024,
+      "hour": 12,
+      "n": 262,
+      "high": 26,
+      "hard_high": 9,
+      "missed_high": 3,
+      "hard_low": 11
+    },
+    {
+      "v": "DIAG10",
+      "k": 0,
+      "s": 2024,
+      "hour": 23,
+      "n": 262,
+      "high": 26,
+      "hard_high": 7,
+      "missed_high": 0,
+      "hard_low": 13
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 7,
+      "hour": 0,
+      "n": 273,
+      "high": 26,
+      "hard_high": 16,
+      "missed_high": 6,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 7,
+      "hour": 6,
+      "n": 273,
+      "high": 26,
+      "hard_high": 19,
+      "missed_high": 6,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 7,
+      "hour": 12,
+      "n": 273,
+      "high": 26,
+      "hard_high": 19,
+      "missed_high": 6,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 7,
+      "hour": 23,
+      "n": 273,
+      "high": 26,
+      "hard_high": 18,
+      "missed_high": 3,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 101,
+      "hour": 0,
+      "n": 273,
+      "high": 26,
+      "hard_high": 16,
+      "missed_high": 6,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 101,
+      "hour": 6,
+      "n": 273,
+      "high": 26,
+      "hard_high": 18,
+      "missed_high": 6,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 101,
+      "hour": 12,
+      "n": 273,
+      "high": 26,
+      "hard_high": 18,
+      "missed_high": 6,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 101,
+      "hour": 23,
+      "n": 273,
+      "high": 26,
+      "hard_high": 18,
+      "missed_high": 3,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 2024,
+      "hour": 0,
+      "n": 273,
+      "high": 26,
+      "hard_high": 15,
+      "missed_high": 6,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 2024,
+      "hour": 6,
+      "n": 273,
+      "high": 26,
+      "hard_high": 18,
+      "missed_high": 7,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 2024,
+      "hour": 12,
+      "n": 273,
+      "high": 26,
+      "hard_high": 18,
+      "missed_high": 6,
+      "hard_low": 9
+    },
+    {
+      "v": "DIAG10",
+      "k": 1,
+      "s": 2024,
+      "hour": 23,
+      "n": 273,
+      "high": 26,
+      "hard_high": 18,
+      "missed_high": 3,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 7,
+      "hour": 0,
+      "n": 259,
+      "high": 24,
+      "hard_high": 10,
+      "missed_high": 3,
+      "hard_low": 13
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 7,
+      "hour": 6,
+      "n": 259,
+      "high": 24,
+      "hard_high": 10,
+      "missed_high": 4,
+      "hard_low": 12
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 7,
+      "hour": 12,
+      "n": 259,
+      "high": 24,
+      "hard_high": 11,
+      "missed_high": 4,
+      "hard_low": 13
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 7,
+      "hour": 23,
+      "n": 259,
+      "high": 24,
+      "hard_high": 10,
+      "missed_high": 3,
+      "hard_low": 13
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 101,
+      "hour": 0,
+      "n": 259,
+      "high": 24,
+      "hard_high": 10,
+      "missed_high": 3,
+      "hard_low": 14
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 101,
+      "hour": 6,
+      "n": 259,
+      "high": 24,
+      "hard_high": 11,
+      "missed_high": 4,
+      "hard_low": 13
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 101,
+      "hour": 12,
+      "n": 259,
+      "high": 24,
+      "hard_high": 11,
+      "missed_high": 4,
+      "hard_low": 12
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 101,
+      "hour": 23,
+      "n": 259,
+      "high": 24,
+      "hard_high": 10,
+      "missed_high": 3,
+      "hard_low": 12
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 2024,
+      "hour": 0,
+      "n": 259,
+      "high": 24,
+      "hard_high": 10,
+      "missed_high": 3,
+      "hard_low": 15
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 2024,
+      "hour": 6,
+      "n": 259,
+      "high": 24,
+      "hard_high": 11,
+      "missed_high": 4,
+      "hard_low": 13
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 2024,
+      "hour": 12,
+      "n": 259,
+      "high": 24,
+      "hard_high": 11,
+      "missed_high": 4,
+      "hard_low": 13
+    },
+    {
+      "v": "DIAG10",
+      "k": 2,
+      "s": 2024,
+      "hour": 23,
+      "n": 259,
+      "high": 24,
+      "hard_high": 11,
+      "missed_high": 3,
+      "hard_low": 13
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 7,
+      "hour": 0,
+      "n": 267,
+      "high": 23,
+      "hard_high": 6,
+      "missed_high": 2,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 7,
+      "hour": 6,
+      "n": 267,
+      "high": 23,
+      "hard_high": 7,
+      "missed_high": 2,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 7,
+      "hour": 12,
+      "n": 267,
+      "high": 23,
+      "hard_high": 7,
+      "missed_high": 2,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 7,
+      "hour": 23,
+      "n": 267,
+      "high": 23,
+      "hard_high": 5,
+      "missed_high": 2,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 101,
+      "hour": 0,
+      "n": 267,
+      "high": 23,
+      "hard_high": 5,
+      "missed_high": 2,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 101,
+      "hour": 6,
+      "n": 267,
+      "high": 23,
+      "hard_high": 6,
+      "missed_high": 2,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 101,
+      "hour": 12,
+      "n": 267,
+      "high": 23,
+      "hard_high": 6,
+      "missed_high": 2,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 101,
+      "hour": 23,
+      "n": 267,
+      "high": 23,
+      "hard_high": 5,
+      "missed_high": 2,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 2024,
+      "hour": 0,
+      "n": 267,
+      "high": 23,
+      "hard_high": 5,
+      "missed_high": 2,
+      "hard_low": 11
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 2024,
+      "hour": 6,
+      "n": 267,
+      "high": 23,
+      "hard_high": 6,
+      "missed_high": 2,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 2024,
+      "hour": 12,
+      "n": 267,
+      "high": 23,
+      "hard_high": 6,
+      "missed_high": 2,
+      "hard_low": 10
+    },
+    {
+      "v": "DIAG10",
+      "k": 3,
+      "s": 2024,
+      "hour": 23,
+      "n": 267,
+      "high": 23,
+      "hard_high": 5,
+      "missed_high": 2,
+      "hard_low": 10
+    }
+  ],
+  "partial": true,
+  "performance_scored": false,
+  "limitations": [
+    "Completion-order sample; no extrapolation to pending folds",
+    "Repeated day occurrences across outer folds/seeds are not independent samples",
+    "Case counts are training-sample diagnostics, not classifier validation performance"
+  ]
+}
