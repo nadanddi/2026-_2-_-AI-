@@ -1,0 +1,22 @@
+high days 31, normal days 329
+              var  median_high  median_normal  AUC  high_on_side  normal_on_side
+    act_vent_zero         0.92           0.58 0.87          0.97            0.47
+    act_vent_mean         0.38          11.25 0.14          1.00            0.50
+     act_vent_day         1.12          23.62 0.18          0.97            0.50
+     act_co2_zero         0.88           1.00 0.22          0.87            0.30
+      act_co2_day         6.38           0.00 0.78          0.87            0.29
+     act_co2_mean         2.12           0.00 0.77          0.87            0.30
+ act_thermal_zero         0.58           0.54 0.75          0.68            0.45
+ act_circfan_mean         0.62          21.79 0.26          0.87            0.50
+   act_shade_zero         0.62           0.42 0.74          0.68            0.45
+ act_circfan_zero         0.96           0.42 0.73          0.87            0.48
+act_circfan_night         0.00          19.29 0.28          0.87            0.50
+   act_vent_night         0.00           0.00 0.28          0.00            0.44
+  act_shade_night         0.00           0.00 0.28          0.03            0.46
+act_thermal_night         0.00           0.00 0.30          0.00            0.41
+
+actuator-profile neighbours (10 nearest days by 24h x 7 actuators):
+  high days: mean share of high neighbours 0.38; high days with >= 5/10 high neighbours: 10 of 31
+  normal days: mean share 0.06; normal days with >= 5/10 high neighbours ('look like high'): 8 of 329 (their EC mean 0.76, sealed 0.78)
+  normal days with >= 3/10 high neighbours: 29 (EC mean 0.62)
+  high days with 0 high neighbours (actuator pattern unlike other high days): []
