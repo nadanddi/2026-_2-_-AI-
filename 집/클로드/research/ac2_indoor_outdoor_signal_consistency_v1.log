@@ -1,0 +1,41 @@
+           var  median_high  median_normal  AUC  normal_on_side  high_on_side
+   in_out_diff        12.68           5.71 0.82            0.87          0.48
+ out_temp_mean         2.56           9.75 0.23            0.78          0.48
+  out_temp_day         5.69          14.52 0.24            0.78          0.48
+out_temp_night        -0.06           6.47 0.25            0.79          0.48
+  in_co2_night       379.29         422.00 0.31            0.74          0.45
+    in_co2_day       422.38         403.62 0.67            0.76          0.48
+ out_hum_night        74.14          80.00 0.33            0.67          0.48
+  out_hum_mean        64.25          67.92 0.35            0.65          0.45
+  in_hum_night        71.14          76.07 0.36            0.63          0.48
+out_wspd_night         1.13           0.86 0.62            0.63          0.48
+ out_rad_night         4.29           4.71 0.40            0.58          0.48
+  out_rad_mean       102.33         115.21 0.40            0.68          0.48
+ out_wspd_mean         1.25           1.19 0.60            0.54          0.45
+   in_hum_mean        67.50          70.00 0.41            0.60          0.48
+   in_temp_day        19.25          20.62 0.42            0.61          0.48
+   out_rad_day       290.62         318.00 0.42            0.66          0.48
+   in_co2_mean       389.79         409.46 0.42            0.69          0.48
+ in_temp_night        11.51          11.90 0.43            0.56          0.48
+   out_hum_day        51.50          52.00 0.43            0.53          0.45
+  in_temp_mean        14.46          15.28 0.43            0.57          0.48
+ in_temp_range        13.20          12.60 0.56            0.58          0.48
+  out_wspd_day         1.44           1.49 0.56            0.50          0.48
+    in_hum_day        60.62          58.94 0.51            0.57          0.48
+
+within SEALED days only (n 85, high 24): AUC of the strongest indoor/outdoor variables: {'in_temp_mean': 0.64, 'in_hum_mean': 0.42, 'in_co2_mean': 0.61, 'out_temp_mean': 0.39, 'out_rad_mean': 0.5, 'in_out_diff': 0.67}
+
+indoor+outdoor profile neighbours (10 nearest):
+  normal days: mean share of normal neighbours 0.94; normal days with all 10 normal 206 of 329
+  high days: mean share of normal neighbours 0.80; high days with >= 9/10 normal neighbours ('look normal'): 12 of 31 (EC mean 1.46); all 10 normal: 3
+
+[corrected metric] threshold = midpoint of the two medians; share on the NORMAL side:
+  in_out_diff     normal days 0.71 | high days 0.19  (medians normal 5.71, high 12.68)
+  out_temp_mean   normal days 0.67 | high days 0.19  (medians normal 9.75, high 2.56)
+  out_temp_night  normal days 0.68 | high days 0.23  (medians normal 6.47, high -0.06)
+  in_co2_night    normal days 0.61 | high days 0.42  (medians normal 422.00, high 379.29)
+  in_co2_day      normal days 0.63 | high days 0.26  (medians normal 403.62, high 422.38)
+  out_hum_night   normal days 0.57 | high days 0.29  (medians normal 80.00, high 74.14)
+  in_hum_night    normal days 0.56 | high days 0.32  (medians normal 76.07, high 71.14)
+  out_rad_mean    normal days 0.66 | high days 0.45  (medians normal 115.21, high 102.33)
+  in_temp_mean    normal days 0.55 | high days 0.35  (medians normal 15.28, high 14.46)
