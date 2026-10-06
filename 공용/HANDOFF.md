@@ -480,3 +480,60 @@
 
 
 
+
+### 2026-10-05 집·코덱스 — 공유 전략 문의 대기
+- 공유 링크 6ac36b37-d088-83e8-b0bc-d24f770e16c6 본문 접근 실패(웹 조회 및 인앱 브라우저). 전략 본문을 받은 뒤 적용 가능성 검토. 기존 후보·실험 상태 변경 없음; 새 학습/제출0.
+
+
+### 2026-10-05 집·코덱스 — A B 전략 문서 검토 완료
+- 앞선 공유전략 본문 대기는 사용자 DOCX 제공으로 해소. 회귀 soft gate 적용 가능성 및 기존 family25 hard gate 차이를 정리. 새 학습/채택/제출0. 보고서 집/코덱스/analysis/ab_dynamic_ensemble_review_20261005_v1/적용검토_v1.md. 실행한다면 실제 A/B 최종출력 고정과 nested OOF 확보부터 진행.
+
+
+### 2026-10-05 집·코덱스 — family27 연속 soft gate 완료 기각
+- 사용자 해보자에 따라 direct-MSE sigmoid A/B 혼합 사전b2c097a·전체66셀83160행 및 독립 검산 완료. 필수DIAG/A/B1/9개선, DIAG+1.167~1.980%, p .9109~.94645; 일반 개선이나 고EC+3.213~4.718% 및 2차+2.685~4.616% 악화. 실제계절v2 유지/새채택·제출0. SG2/submission14 위 효과 미시험.
+- 근거 집/코덱스/analysis/ec_soft_gate_20261005_v1/실험결과_v1.md·verification_v2.json, 카탈로그6.334. 클로드WT0(Git6d440d1) 진행 읽기갱신/중복0, TabDPT 기존worker 변경0. 다음: 내부외부 보정방향 일반화 경로 확인; 두AI 종료후 sync_end로 local 동기화.
+
+
+### 2026-10-05 집·코덱스 — family28~30 게이트 3모델 완료 기각
+- 사용자 다른 모델들도 요청으로 LR/LGB/MLP 각66셀·총198셀249480행, 사전dcd0c20/독립PASS_ALL198 및 사후진단 완료. 필수27칸 개선0, DIAG LR+4.48~4.79%,LGB+6.61~7.84%,MLP+6.61~7.41%; 일반날 개선이나 고EC+10.43~14.99%·2차guard발동. 실제계절v2 유지/새제출0/SG2최신합본 위 효과 미시험.
+- 근거 집/코덱스/analysis/ec_gate_models_20261005_v1/실험결과_v1.md·verification_all_v1.json·diagnostic_v1.json, 카탈로그6.335. WT0진행 P2LOO25 readonly갱신/중복0, 기존TabDPT변경0. 다음: 다른B/입력정보와 더 충실한inner crossfit 검토, 모든MoE불가능으로 일반화하지 않음. 두AI종료후sync_end로 local동기화.
+
+### 2026-10-05 집·코덱스 — A/B 실패 원인 분해 조사 완료
+- 사전39f9487·메타270fit·12,438집계scalar검산 완료. 외부양의추가손실97.98~99.11% 반대방향보정. 고EC744행중564~568행 A/B모두낮음, 정답오라클혼합도고ECSSE95.16~95.26%잔존. no_down/참조일치개입단독해결못함.
+- 내부학습이득9~12%는 날짜밖에서LR+8.40~8.85/LGB+6.47~7.00/MLP+7.83~8.01%악화. 동일2차35일잔차도문맥변화;학습량감소·A변화별도분리필요. metaMLP1개gradient경고보존,사전3e87c03 동일목적함수90정밀대조PASS후에도+7.83~8.13%악화유지.
+- 최종원인조사_보고서_v2.md/claims_v2.json/verification_v2.json/precision_v1.json,카탈로그6.336. 후보채택·제출·잠금0/SG2합본효과미시험. 다음 B방향·표현력+입력근거→날짜밖동일학습량/fullcrossfit부터,공개실패일사후튜닝채택금지. WT0 EL1/58 readonly갱신·중복0/TabDPTworker변경0;두AI종료후sync_end.
+
+
+### 2026-10-05 집·코덱스 — B 선행 관문 중단·동일 학습량 대조 완료
+- 사전15c152b,STATE 잔차tree1개/MEAN대조·17prefix열·492모델/평균(실제tree246)·CSV252/368208행 독립scalar4.44e-16/훈련ID/purge/2재학습/stdlib검산PASS. STATE필수0/9·DIAG+12.56~13.87/A+10.22~11.45/B+6.59~8.92%,pass2+11.66~12.14%全guard.
+- 같은학습량·같은target日期포함−31.32~−31.01%→날짜제외meta+17.75~18.19%;학습량감소만으로설명못하나학습구성혼재. 同meta高EC日期포함+.104~+.109보정→제외−.108~−.103(필요+.276~+.279). MEAN도날짜밖실패. 사전STOP_NO_GATE/새채택·제출0/EL1미채점/SG2합본위효과미시험/fullA-Bcrossfit미실행.
+- 근거 ec_state_B_probe_20261005_v1/실험결과_v1.md·verification_v1.json·fresh_numbers_v2.json,카탈로그6.339. 다음 유사입력/상이잔차·문맥분리의원인진단,기존실험중복확인후가설고정. WT0作者FAIL읽기/HG4 P2LOO20進行읽기·중복0/TabDPT변경0. 두AI종료후sync_end.
+
+2026-10-05 집코덱스 추가: 사용자0.06목표 질의→실제계절v2 공개DIAG 오차예산 재계산. 공개DIAG 실제계절v2 3seed/360일8640행 scalar분해: 수준SSE83.01~83.26%(고EC51.06~51.65/일반31.35~32.14),모양16.74~16.99%. high하루수준만완전교정 RMSE.12594~.12713,전체하루수준완전교정 .07433~.07466. .06목표는총SSE89.03~89.10%제거필요;수준완전교정해도모양SSE34.84~35.42%이상추가제거필요. 정답사용오라클/달성예상이나LB환산아님. 근거target006_bounds_v1.json/카탈로그6.340;후속모델채택아님.
+
+## 추가 안내 기반 고EC 구별 모델 실험 완료
+- 사용자 새 구별 모델 요청. 확인된10/5안내(전체 public train_y 참조허용)를 기준으로 DIAG10 직접 고EC 하루평균≥1 분류 LR22특징 PAST/ALL. 공식PDF원문미확보/현장조사DOCX를운영위자료로사용0. 사전464356a,240모델/상수,120CSV,scalar/gradient/분할/2재학습/stdlib3지표검산PASS.
+- 外23시360일(고31): 기존A포착30/오탐11~12,PAST25/112~113,ALL25/130~158;사전0/3 실패/채택0/혼합RMSE미시험. ALL뒤public정답참조7366/8640행;입력미래사용0. ALL AUC.96215~.96598 vs既A.98990~.99020.
+- 2fold 메타훈련고EC0→상수0→고EC校正점수0→문턱0;外일반73일전부선택(3seed/2mode). 정보부재증명아님. 다음 희소高EC분할확보·특징문맥/문턱검증을선행후전문가결합. 보고서analysis/ec_high_classifier_20261005_v1/실험결과_v1.md. raw/EL1/제출0/HG4完6.341읽기만/TabDPT변경0. 두AI종료후sync_end.
+
+## 고EC 구별기 분할·문턱 보완 완료
+- 사용자 그래그렇게 승인. 사전bfdaabd/ALL22열LR 유지: SPLIT은高EC≥2train/≥1valid날·±1purge·3→2분할,불가능fold既A fallback. GUARD는既A선택에만메타高EC≥3일min점수문턱 적용. DIAG/A/B3seed 外60셀/CSV120, 실제LR60fit(15eligible×4);既fallback45셀. DIAG2/10만eligible,A0/5,B3/5.
+- 독립검산verification_v3 PASS/scalar1.11e-15/gradient2.26e-8/2재학습/stdlibcounts·비율/쌍AUC·문턱PASS. 검산v1모듈연결·v2 A/B중복ID조건오류 새버전수정/失敗보존/학습규칙변경0.
+- 外23시DIAG360日高31:既30포착/11~12오탐→SPLIT/GUARD29/11~12. GUARD변경은F47_157 진짜高1일(3seed);오탐감소0. A전체fallback같음,B GUARD같음/SPLIT오탐18으로악화. primary SPLIT非악화3/9/GUARD6/9·DIAGstrict0/3 모두FAIL.
+- 内문턱高EC5일既Amin1.246~1.254 vs外오제외日A.932~.947,분류p.240~.272 vscut.933~.958. 희소고EC분할 불가능/교정문맥 차이 남음;정보없음증명아님. 次넓은학습기록독립OOF와 낮게예측된진짜高EC+일반오탐 사례를 함께학습/교정부터. 채택·전문가연결·결합RMSE·제출·EL1잠금0/TabDPT변경0.
+- 보고서analysis/ec_high_classifier_repair_20261005_v1/실험결과_v1.md·fresh_numbers_v3.json·diagnostic_v1.json. 카탈로그6.343. 두AI 종료후sync_end로local동기화.
+
+### 2026-10-06 집·코덱스 — 경계 사례 공동 학습 완료·두 후보 기각
+- 사용자 진행 요청. 사전94c2ba9, 외부tr전체4fold 날짜OOF의 LightGBM 대리EC+22열LR, UNIFORM/HARD4배·문턱.5 고정. 최종300대리/120분류기/CSV240, 독립검산v5(gradient·트리scalar·2대리+2LR재학습·rawcounts/쌍AUC) PASS.
+- DIAG23시 기존30/31고EC포착·오탐11~12→UNIFORM24/8~9,HARD27~28/9. HARD는DIAG에서동일비중보다좋지만A/B는덜포착(41기준→19,25기준→19);비악화0/9로둘다FAIL. 기존A유지/채택·제출·전문가결합RMSE0.
+- 사례는tr246~274일,hardhigh6~20/hardlow1~18;각3일이상57/60. F13_137 실제A1.307→대리.875로고EC신호상실단서. 학습범위확대만의효과분리못함/입력부재증명아님. 다음같은A독립OOF로경계정의정합·새미탐과제거오탐의특징/출처대조.
+- 보고서 집/코덱스/analysis/ec_hardcase_crossfit_20261005_v1/실험결과_v1.md·verification_v5.json·fresh_numbers_v3.json·diagnostic_v1.json. 카탈로그6.347. 6.344~346읽기만/Claude사슬중복0/TabDPT기존worker변경0. 두AI종료후sync_end로local모델동기화.
+
+> **2026-10-06 집 코덱스 — 실제 A 경계 정의 완료(6.351):** seasonv2 A 원 R3/PFN/후처리 OOF 재조립·기존 baseline/context/purge/SHA 감사 및 stdlib fsum·집합·시드합의·세그먼트 독립 PASS. DIAG23시360일/고31, 모든3seed 포착30·미탐1(F13_121), 고EC경계 동일14(포착13+미탐1), 일반FP12/11/11. 대리경계와 고EC 공통12/10/12·A-only2/4/2·proxy-only4씩, 실제A만의 F13_241/243 및 FP F47_114/161·F13_133 누락 확인. 1.2미만 절대수준경계·실제과소잔차와 구분(12/13/13). own ec_actual_A_cases_20261006_v1/정의결과_v1.md·verification_v1.json, local CSV3개. 새모델/채택/RMSE개선/제출0·원A유지·TabDPT변경0. **다음: 실제 학습은 각 외부tr 안에서 동일A 중첩OOF를 생성; 전체OOF registry를 바로 재분할하면 간접누수 위험.** pandas 동일버전/initSHA·경로차이만 감사했고 API명 오류 및 중단 로그 보존. Claude6.348~350 읽기만/재채점0. 두AI 종료후 sync_end로 local Drive동기화.
+
+> **2026-10-06 02:26 집 코덱스 — 실제 A 중첩 OOF 실제 학습 진행 중:** 사전441d975, run_v4.py/verify_v4.py/preparation_v4.json. 외부DIAG10/A/B20×내부4=80, 실제R33seed/PFN V2 4context, group24h/±1day purge/outerquery제외/innerseason 재fit·전체tr정확1회OOF. independentprelaunch PASS·80records/모델 AST변경0. 사용자 새규칙 **결과마다혹독비평→문제확인→개선책피드백→재검증** (own analysis/critic_workflow_20261006_v1.md). 독립비평3차 P1/P2 보완/최종실행차단없음; 원정답SHA/finite/문맥/rawR3/runtime·standalone검산·atomic저장/재개·consensus추가. **worker PID5860/시작02:26:47, launch_v4.json·run_v4.log/err·local worker.lock. 중복/재시작금지.** 이기록시점 첫R3 계산중/성과판정0, 기존TabDPT변경0. 예상OOF60/370800시간행·61800case행, firstR3/PFNrepeat추가. 완료후verify4→독립full감사→혹독결과비평/개선책피드백이필요(자동검산문서는최종보고아님). globalnested OOF pooling재분할금지. 원A유지/새분류기·채택·결합RMSE·제출0. 최종등록prep4만main; 초안준비들은보존. 진행산출물Drive대상,두AI종료후sync_end.
+
+> **2026-10-06 집 코덱스 추가(6.354):** 첫R3 3seed실제저장/independentcritic·partial3component PASS(train4128/query1680, mix/repeat2.22e-16). 원public CSV BOM으로partial verify4 KeyError 확인→**학습worker4/source/data변경0**, 등록된별도 verify_v5.py utf8-sig/검산출력5로보완(main874031f). **worker5860 정상진행·현재PFN계산; 단발완료helper43048(02:34:37)**는worker끝난뒤receipt4완료→verify5→bundleSHA→동일ownerlock해제→finalization5(최종혹독비평대기). worker4가끝에서기존verify4오류로exit해도학습재시작금지,helper상태먼저확인. source/모델/분할구성모두유지. 완료후전체독립감사/혹독비평/개선피드백필요·부분성능판정0. 분석결과마다혹독비평절차사용자규칙지속.
+
+> **2026-10-06 집 코덱스 — 중첩 OOF 계속/완료부분 감사(6.356):** worker5860/helper43048 live유지·DIAG10_4_2진행/중복재시작·source·계수·분할변경0. fresh partial18/80문맥·130구성원PASS. 완성DIAG10외부0~3 OOF12CSV·76392시간행출현/12732case출현, 원y/targetSHA/ID/범위/구성원부터후처리prefixflags를두독립코드로전수검산PASS(최대4.44e-16). 첫PFNseed1 worker재적합0.0·나머지repeat미실시,첫4문맥contextRNG/순서/배제PASS. 혹독critic_ready_oof_v1.md 새차단결함0/부분범위·반복행·기록출처·BOM경로·fold짝지음 피드백 반영 own 중간점검_v1.md. 전체80/전체A/A·B/성능개선/새분류기·채택·제출 미판정. 다음원worker완료receipt4→별도finish5/verify5→전체독립감사/혹독결과비평/개선피드백필요. Claude6.355읽기만/독립재채점0·이번baseline .8/.2고정유지.
+> **2026-10-06 집 코덱스 저장 요청:** 지금까지 최근 전략검토·구별기/경계실험·실제A사례·현재nested 코드/검산/비평/개선책·완료캐시를 own work_history_save_20261006_v1 / local work_history_backup_20261006_v1 스냅샷으로보존·SHA검증하고 Drive에선택백업한다. source/공유기록은main기록. 진행worker5860/helper43048 유지, .staging/partial/worker.lock 복원산출물제외. 전체sync_end/rebase/동료변경삭제없이저장. 완료증거 snapshot_proof_v1.json·Drive확인기록, 전체학습완료본은아님.
