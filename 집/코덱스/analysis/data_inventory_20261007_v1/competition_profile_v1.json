@@ -1,0 +1,1125 @@
+{
+  "sample_submission.csv": {
+    "sha256": "a5a6777a6ceab18eb6a61215ae1399eb35b22b62622c3c3a0469f39df84c109f",
+    "encoding": "utf-8-sig",
+    "rows": 1440,
+    "columns": [
+      "row_id",
+      "sub_temp",
+      "sub_ec"
+    ],
+    "dtypes": {
+      "row_id": "str",
+      "sub_temp": "float64",
+      "sub_ec": "float64"
+    },
+    "missing": {
+      "row_id": 0,
+      "sub_temp": 0,
+      "sub_ec": 0
+    },
+    "duplicate_rows": 0,
+    "fields": [
+      {
+        "column": "row_id",
+        "unique": 1440,
+        "missing": 0,
+        "top": {
+          "F47_183_00": 1,
+          "F47_183_01": 1,
+          "F47_183_02": 1
+        }
+      },
+      {
+        "column": "sub_temp",
+        "unique": 1,
+        "missing": 0,
+        "top": {
+          "16.59": 1440
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 16.59,
+        "p01": 16.59,
+        "median": 16.59,
+        "p99": 16.59,
+        "max": 16.59
+      },
+      {
+        "column": "sub_ec",
+        "unique": 1,
+        "missing": 0,
+        "top": {
+          "0.523": 1440
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 0.523,
+        "p01": 0.523,
+        "median": 0.523,
+        "p99": 0.523,
+        "max": 0.523
+      }
+    ],
+    "key_row_id": {
+      "missing": 0,
+      "duplicates": 0
+    }
+  },
+  "test_X.csv": {
+    "sha256": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad",
+    "encoding": "utf-8-sig",
+    "rows": 1440,
+    "columns": [
+      "row_id",
+      "out_temp",
+      "out_hum",
+      "out_rad",
+      "out_wspd",
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "in_rad",
+      "act_vent",
+      "act_side",
+      "act_shade",
+      "act_thermal",
+      "act_valve",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "act_cool",
+      "act_pump"
+    ],
+    "dtypes": {
+      "row_id": "str",
+      "out_temp": "float64",
+      "out_hum": "float64",
+      "out_rad": "float64",
+      "out_wspd": "float64",
+      "in_temp": "float64",
+      "in_hum": "float64",
+      "in_co2": "float64",
+      "in_rad": "float64",
+      "act_vent": "float64",
+      "act_side": "float64",
+      "act_shade": "float64",
+      "act_thermal": "float64",
+      "act_valve": "float64",
+      "act_heating": "float64",
+      "act_circfan": "float64",
+      "act_co2": "float64",
+      "act_fog": "float64",
+      "act_cool": "float64",
+      "act_pump": "float64"
+    },
+    "missing": {
+      "row_id": 0,
+      "out_temp": 0,
+      "out_hum": 0,
+      "out_rad": 0,
+      "out_wspd": 0,
+      "in_temp": 0,
+      "in_hum": 0,
+      "in_co2": 0,
+      "in_rad": 1440,
+      "act_vent": 0,
+      "act_side": 1440,
+      "act_shade": 0,
+      "act_thermal": 0,
+      "act_valve": 1440,
+      "act_heating": 0,
+      "act_circfan": 0,
+      "act_co2": 0,
+      "act_fog": 0,
+      "act_cool": 1440,
+      "act_pump": 1440
+    },
+    "duplicate_rows": 0,
+    "fields": [
+      {
+        "column": "row_id",
+        "unique": 1440,
+        "missing": 0,
+        "top": {
+          "F47_183_00": 1,
+          "F47_183_01": 1,
+          "F47_183_02": 1
+        }
+      },
+      {
+        "column": "out_temp",
+        "unique": 286,
+        "missing": 0,
+        "top": {
+          "6.9": 24,
+          "5.6": 19,
+          "3.1": 17
+        },
+        "nonfinite": 0,
+        "zero": 4,
+        "negative": 265,
+        "min": -6.2,
+        "p01": -5.3,
+        "median": 5.9,
+        "p99": 24.7,
+        "max": 29.6
+      },
+      {
+        "column": "out_hum",
+        "unique": 71,
+        "missing": 0,
+        "top": {
+          "74.0": 53,
+          "76.0": 43,
+          "73.0": 43
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 25.0,
+        "p01": 30.39,
+        "median": 70.0,
+        "p99": 93.0,
+        "max": 95.0
+      },
+      {
+        "column": "out_rad",
+        "unique": 273,
+        "missing": 0,
+        "top": {
+          "5.0": 436,
+          "4.0": 343,
+          "7.0": 35
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 2.0,
+        "p01": 4.0,
+        "median": 5.0,
+        "p99": 620.0,
+        "max": 680.0
+      },
+      {
+        "column": "out_wspd",
+        "unique": 50,
+        "missing": 0,
+        "top": {
+          "0.9": 93,
+          "0.6": 89,
+          "0.7": 78
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 0.1,
+        "p01": 0.2,
+        "median": 1.2,
+        "p99": 4.3,
+        "max": 5.8
+      },
+      {
+        "column": "in_temp",
+        "unique": 271,
+        "missing": 0,
+        "top": {
+          "9.9": 33,
+          "13.3": 23,
+          "10.0": 23
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 0.3,
+        "p01": 2.1390000000000002,
+        "median": 12.1,
+        "p99": 28.26099999999999,
+        "max": 30.1
+      },
+      {
+        "column": "in_hum",
+        "unique": 63,
+        "missing": 0,
+        "top": {
+          "82.0": 60,
+          "67.0": 52,
+          "83.0": 50
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 34.0,
+        "p01": 42.0,
+        "median": 73.0,
+        "p99": 95.6099999999999,
+        "max": 100.0
+      },
+      {
+        "column": "in_co2",
+        "unique": 231,
+        "missing": 0,
+        "top": {
+          "408.0": 22,
+          "407.0": 20,
+          "403.0": 20
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 296.0,
+        "p01": 312.0,
+        "median": 396.0,
+        "p99": 916.8799999999892,
+        "max": 1615.0
+      },
+      {
+        "column": "in_rad",
+        "unique": 0,
+        "missing": 1440,
+        "top": {
+          "nan": 1440
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0
+      },
+      {
+        "column": "act_vent",
+        "unique": 67,
+        "missing": 0,
+        "top": {
+          "0.0": 909,
+          "30.0": 44,
+          "4.0": 39
+        },
+        "nonfinite": 0,
+        "zero": 909,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_side",
+        "unique": 0,
+        "missing": 1440,
+        "top": {
+          "nan": 1440
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0
+      },
+      {
+        "column": "act_shade",
+        "unique": 92,
+        "missing": 0,
+        "top": {
+          "0.0": 635,
+          "100.0": 446,
+          "1.0": 57
+        },
+        "nonfinite": 0,
+        "zero": 635,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 7.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_thermal",
+        "unique": 96,
+        "missing": 0,
+        "top": {
+          "0.0": 714,
+          "100.0": 317,
+          "1.0": 59
+        },
+        "nonfinite": 0,
+        "zero": 714,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 1.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_valve",
+        "unique": 0,
+        "missing": 1440,
+        "top": {
+          "nan": 1440
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0
+      },
+      {
+        "column": "act_heating",
+        "unique": 59,
+        "missing": 0,
+        "top": {
+          "0.0": 789,
+          "100.0": 280,
+          "17.0": 26
+        },
+        "nonfinite": 0,
+        "zero": 789,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_circfan",
+        "unique": 55,
+        "missing": 0,
+        "top": {
+          "0.0": 711,
+          "100.0": 110,
+          "40.0": 45
+        },
+        "nonfinite": 0,
+        "zero": 711,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 8.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_co2",
+        "unique": 32,
+        "missing": 0,
+        "top": {
+          "0.0": 1305,
+          "100.0": 31,
+          "17.0": 22
+        },
+        "nonfinite": 0,
+        "zero": 1305,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_fog",
+        "unique": 18,
+        "missing": 0,
+        "top": {
+          "0.0": 1318,
+          "3.0": 18,
+          "10.0": 11
+        },
+        "nonfinite": 0,
+        "zero": 1318,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 22.0,
+        "max": 30.0
+      },
+      {
+        "column": "act_cool",
+        "unique": 0,
+        "missing": 1440,
+        "top": {
+          "nan": 1440
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0
+      },
+      {
+        "column": "act_pump",
+        "unique": 0,
+        "missing": 1440,
+        "top": {
+          "nan": 1440
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0
+      }
+    ],
+    "key_row_id": {
+      "missing": 0,
+      "duplicates": 0
+    }
+  },
+  "train_X.csv": {
+    "sha256": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "encoding": "utf-8-sig",
+    "rows": 309990,
+    "columns": [
+      "row_id",
+      "out_temp",
+      "out_hum",
+      "out_rad",
+      "out_wspd",
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "in_rad",
+      "act_vent",
+      "act_side",
+      "act_shade",
+      "act_thermal",
+      "act_valve",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "act_cool",
+      "act_pump"
+    ],
+    "dtypes": {
+      "row_id": "str",
+      "out_temp": "float64",
+      "out_hum": "float64",
+      "out_rad": "float64",
+      "out_wspd": "float64",
+      "in_temp": "float64",
+      "in_hum": "float64",
+      "in_co2": "float64",
+      "in_rad": "float64",
+      "act_vent": "float64",
+      "act_side": "float64",
+      "act_shade": "float64",
+      "act_thermal": "float64",
+      "act_valve": "float64",
+      "act_heating": "float64",
+      "act_circfan": "float64",
+      "act_co2": "float64",
+      "act_fog": "float64",
+      "act_cool": "float64",
+      "act_pump": "float64"
+    },
+    "missing": {
+      "row_id": 0,
+      "out_temp": 294875,
+      "out_hum": 300390,
+      "out_rad": 294875,
+      "out_wspd": 294875,
+      "in_temp": 2043,
+      "in_hum": 2108,
+      "in_co2": 2088,
+      "in_rad": 15115,
+      "act_vent": 294976,
+      "act_side": 304576,
+      "act_shade": 300390,
+      "act_thermal": 300390,
+      "act_valve": 304576,
+      "act_heating": 300390,
+      "act_circfan": 294976,
+      "act_co2": 294976,
+      "act_fog": 300390,
+      "act_cool": 304576,
+      "act_pump": 304576
+    },
+    "duplicate_rows": 0,
+    "fields": [
+      {
+        "column": "row_id",
+        "unique": 309990,
+        "missing": 0,
+        "top": {
+          "F47_006_00": 1,
+          "F47_006_01": 1,
+          "F47_006_02": 1
+        }
+      },
+      {
+        "column": "out_temp",
+        "unique": 436,
+        "missing": 294875,
+        "top": {
+          "nan": 294875,
+          "-0.0": 230,
+          "-1.0": 158
+        },
+        "nonfinite": 0,
+        "zero": 230,
+        "negative": 2958,
+        "min": -15.0,
+        "p01": -8.0,
+        "median": 7.4,
+        "p99": 28.1,
+        "max": 34.0
+      },
+      {
+        "column": "out_hum",
+        "unique": 74,
+        "missing": 300390,
+        "top": {
+          "nan": 300390,
+          "76.0": 296,
+          "81.0": 280
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 24.0,
+        "p01": 31.0,
+        "median": 70.0,
+        "p99": 95.0,
+        "max": 97.0
+      },
+      {
+        "column": "out_rad",
+        "unique": 882,
+        "missing": 294875,
+        "top": {
+          "nan": 294875,
+          "0.0": 3032,
+          "4.0": 2638
+        },
+        "nonfinite": 0,
+        "zero": 3032,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 5.0,
+        "p99": 836.0,
+        "max": 1145.0
+      },
+      {
+        "column": "out_wspd",
+        "unique": 90,
+        "missing": 294875,
+        "top": {
+          "nan": 294875,
+          "0.0": 1034,
+          "0.8": 901
+        },
+        "nonfinite": 0,
+        "zero": 1034,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 1.0,
+        "p99": 6.3,
+        "max": 12.7
+      },
+      {
+        "column": "in_temp",
+        "unique": 354,
+        "missing": 2043,
+        "top": {
+          "9.0": 22029,
+          "10.0": 20418,
+          "11.0": 17041
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 2.0,
+        "p01": 4.3,
+        "median": 15.0,
+        "p99": 33.0,
+        "max": 50.0
+      },
+      {
+        "column": "in_hum",
+        "unique": 90,
+        "missing": 2108,
+        "top": {
+          "96.0": 14791,
+          "95.0": 14708,
+          "94.0": 14359
+        },
+        "nonfinite": 0,
+        "zero": 6,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 25.0,
+        "median": 88.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "in_co2",
+        "unique": 4073,
+        "missing": 2088,
+        "top": {
+          "nan": 2088,
+          "442.0": 1171,
+          "474.0": 1125
+        },
+        "nonfinite": 0,
+        "zero": 20,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 232.0,
+        "median": 494.0,
+        "p99": 2834.9899999999907,
+        "max": 5000.0
+      },
+      {
+        "column": "in_rad",
+        "unique": 973,
+        "missing": 15115,
+        "top": {
+          "0.0": 132602,
+          "nan": 15115,
+          "1.0": 5468
+        },
+        "nonfinite": 0,
+        "zero": 132602,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 8.0,
+        "p99": 686.0,
+        "max": 1782.0
+      },
+      {
+        "column": "act_vent",
+        "unique": 101,
+        "missing": 294976,
+        "top": {
+          "nan": 294976,
+          "0.0": 6797,
+          "2.0": 1328
+        },
+        "nonfinite": 0,
+        "zero": 6797,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 2.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_side",
+        "unique": 72,
+        "missing": 304576,
+        "top": {
+          "nan": 304576,
+          "100.0": 2772,
+          "0.0": 2052
+        },
+        "nonfinite": 0,
+        "zero": 2052,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 100.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_shade",
+        "unique": 101,
+        "missing": 300390,
+        "top": {
+          "nan": 300390,
+          "0.0": 3802,
+          "100.0": 3033
+        },
+        "nonfinite": 0,
+        "zero": 3802,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 28.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_thermal",
+        "unique": 101,
+        "missing": 300390,
+        "top": {
+          "nan": 300390,
+          "0.0": 4111,
+          "100.0": 2166
+        },
+        "nonfinite": 0,
+        "zero": 4111,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 17.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_valve",
+        "unique": 30,
+        "missing": 304576,
+        "top": {
+          "nan": 304576,
+          "100.0": 4223,
+          "0.0": 1155
+        },
+        "nonfinite": 0,
+        "zero": 1155,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 100.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_heating",
+        "unique": 62,
+        "missing": 300390,
+        "top": {
+          "nan": 300390,
+          "0.0": 6236,
+          "100.0": 673
+        },
+        "nonfinite": 0,
+        "zero": 6236,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_circfan",
+        "unique": 62,
+        "missing": 294976,
+        "top": {
+          "nan": 294976,
+          "0.0": 7436,
+          "100.0": 3379
+        },
+        "nonfinite": 0,
+        "zero": 7436,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 7.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_co2",
+        "unique": 54,
+        "missing": 294976,
+        "top": {
+          "nan": 294976,
+          "0.0": 14260,
+          "100.0": 280
+        },
+        "nonfinite": 0,
+        "zero": 14260,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_fog",
+        "unique": 24,
+        "missing": 300390,
+        "top": {
+          "nan": 300390,
+          "0.0": 8677,
+          "3.0": 109
+        },
+        "nonfinite": 0,
+        "zero": 8677,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 27.0,
+        "max": 38.0
+      },
+      {
+        "column": "act_cool",
+        "unique": 2,
+        "missing": 304576,
+        "top": {
+          "nan": 304576,
+          "0.0": 3348,
+          "100.0": 2066
+        },
+        "nonfinite": 0,
+        "zero": 3348,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 100.0,
+        "max": 100.0
+      },
+      {
+        "column": "act_pump",
+        "unique": 2,
+        "missing": 304576,
+        "top": {
+          "nan": 304576,
+          "100.0": 2949,
+          "0.0": 2465
+        },
+        "nonfinite": 0,
+        "zero": 2465,
+        "negative": 0,
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 100.0,
+        "p99": 100.0,
+        "max": 100.0
+      }
+    ],
+    "key_row_id": {
+      "missing": 0,
+      "duplicates": 0
+    }
+  },
+  "train_y.csv": {
+    "sha256": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "encoding": "utf-8-sig",
+    "rows": 304965,
+    "columns": [
+      "row_id",
+      "sub_temp",
+      "sub_ec"
+    ],
+    "dtypes": {
+      "row_id": "str",
+      "sub_temp": "float64",
+      "sub_ec": "float64"
+    },
+    "missing": {
+      "row_id": 0,
+      "sub_temp": 0,
+      "sub_ec": 295365
+    },
+    "duplicate_rows": 0,
+    "fields": [
+      {
+        "column": "row_id",
+        "unique": 304965,
+        "missing": 0,
+        "top": {
+          "F47_006_00": 1,
+          "F47_006_01": 1,
+          "F47_006_02": 1
+        }
+      },
+      {
+        "column": "sub_temp",
+        "unique": 2041,
+        "missing": 0,
+        "top": {
+          "14.0": 29812,
+          "15.0": 27911,
+          "13.0": 26878
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 0.33,
+        "p01": 6.0,
+        "median": 16.0,
+        "p99": 31.0,
+        "max": 43.57
+      },
+      {
+        "column": "sub_ec",
+        "unique": 1454,
+        "missing": 295365,
+        "top": {
+          "nan": 295365,
+          "0.196": 42,
+          "0.202": 39
+        },
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "min": 0.062,
+        "p01": 0.10899,
+        "median": 0.41,
+        "p99": 2.0570700000000013,
+        "max": 3.46
+      }
+    ],
+    "key_row_id": {
+      "missing": 0,
+      "duplicates": 0
+    }
+  },
+  "alignment": {
+    "key": "row_id",
+    "train_order_equal": false,
+    "train_unmatched": 5025,
+    "y_unmatched": 0,
+    "train_test_id_overlap": 0,
+    "test_submission_order_equal": true,
+    "train_test_column_equal": true
+  },
+  "mask_pattern": {
+    "test_all_missing_columns": [
+      "in_rad",
+      "act_side",
+      "act_valve",
+      "act_cool",
+      "act_pump"
+    ],
+    "test_part_missing_columns": []
+  },
+  "train_coordinates": {
+    "farms": {
+      "F37": 7104,
+      "F05": 7008,
+      "F08": 6768,
+      "F20": 6768,
+      "F36": 6744,
+      "F40": 6731,
+      "F21": 6696,
+      "F26": 6639,
+      "F25": 6624,
+      "F28": 6576,
+      "F51": 6576,
+      "F02": 6576,
+      "F41": 6576,
+      "F03": 6576,
+      "F42": 6576,
+      "F09": 6576,
+      "F27": 6576,
+      "F44": 6576,
+      "F24": 6576,
+      "F50": 6576,
+      "F38": 6542,
+      "F12": 6504,
+      "F19": 6484,
+      "F04": 6480,
+      "F15": 6463,
+      "F39": 6456,
+      "F11": 6456,
+      "F30": 6456,
+      "F10": 6447,
+      "F18": 6432,
+      "F07": 6417,
+      "F16": 6408,
+      "F31": 6384,
+      "F29": 6336,
+      "F34": 6048,
+      "F17": 6024,
+      "F23": 6024,
+      "F43": 6000,
+      "F48": 5983,
+      "F32": 5515,
+      "F45": 5284,
+      "F35": 4866,
+      "F33": 4805,
+      "F47": 4800,
+      "F13": 4800,
+      "F06": 4560,
+      "F14": 4442,
+      "F49": 4439,
+      "F22": 4438,
+      "F01": 4152,
+      "F46": 4127
+    },
+    "farm_days": 12932,
+    "duplicates": 0,
+    "hour_counts": {
+      "0": 12917,
+      "1": 12916,
+      "2": 12916,
+      "3": 12916,
+      "4": 12916,
+      "5": 12916,
+      "6": 12916,
+      "7": 12915,
+      "8": 12914,
+      "9": 12915,
+      "10": 12915,
+      "11": 12916,
+      "12": 12916,
+      "13": 12917,
+      "14": 12917,
+      "15": 12915,
+      "16": 12916,
+      "17": 12916,
+      "18": 12916,
+      "19": 12918,
+      "20": 12918,
+      "21": 12918,
+      "22": 12918,
+      "23": 12917
+    },
+    "days_per_farm": {
+      "F01": 174,
+      "F02": 274,
+      "F03": 274,
+      "F04": 270,
+      "F05": 292,
+      "F06": 190,
+      "F07": 268,
+      "F08": 282,
+      "F09": 274,
+      "F10": 269,
+      "F11": 269,
+      "F12": 271,
+      "F13": 200,
+      "F14": 186,
+      "F15": 270,
+      "F16": 267,
+      "F17": 251,
+      "F18": 268,
+      "F19": 271,
+      "F20": 282,
+      "F21": 279,
+      "F22": 186,
+      "F23": 251,
+      "F24": 274,
+      "F25": 276,
+      "F26": 277,
+      "F27": 274,
+      "F28": 274,
+      "F29": 264,
+      "F30": 269,
+      "F31": 266,
+      "F32": 233,
+      "F33": 201,
+      "F34": 252,
+      "F35": 204,
+      "F36": 281,
+      "F37": 296,
+      "F38": 273,
+      "F39": 269,
+      "F40": 281,
+      "F41": 274,
+      "F42": 274,
+      "F43": 250,
+      "F44": 274,
+      "F45": 221,
+      "F46": 173,
+      "F47": 200,
+      "F48": 250,
+      "F49": 186,
+      "F50": 274,
+      "F51": 274
+    },
+    "bad_day_hour_coverage": 29
+  }
+}

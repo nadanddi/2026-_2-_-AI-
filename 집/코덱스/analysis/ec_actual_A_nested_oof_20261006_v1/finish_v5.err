@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\Áý\ÄÚµ¦½º\analysis\ec_actual_A_nested_oof_20261006_v1\finish_v5.py", line 36, in <module>
+    try:main()
+        ^^^^^^
+  File "C:\work\farmai\Áý\ÄÚµ¦½º\analysis\ec_actual_A_nested_oof_20261006_v1\finish_v5.py", line 28, in main
+    receipt=load(H/'receipt_v4.json');assert receipt['status']=='COMPLETE_80_CONTEXTS_ACTUAL_A_OOF'
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\Áý\ÄÚµ¦½º\analysis\ec_actual_A_nested_oof_20261006_v1\finish_v5.py", line 6, in load
+    def load(p):return json.loads(Path(p).read_text(encoding='utf-8'))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aozks\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1027, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aozks\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\work\\farmai\\Áý\\ÄÚµ¦½º\\analysis\\ec_actual_A_nested_oof_20261006_v1\\receipt_v4.json'
