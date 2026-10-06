@@ -1,0 +1,10 @@
+
+ET (seed 47) DIAG10 row RMSE by feature set:  all / normal days / high days
+  ALL                  0.1932 / 0.1186 / 0.5330   (vs ALL +0% / +0% / +0%)
+  no INDOOR            0.2234 / 0.1420 / 0.6045   (vs ALL +16% / +20% / +13%)
+  no ACT               0.2586 / 0.1653 / 0.6976   (vs ALL +34% / +39% / +31%)
+  no SEASON            0.2364 / 0.1453 / 0.6519   (vs ALL +22% / +23% / +22%)
+  INDOOR+SEASON+TIME   0.2579 / 0.1668 / 0.6909   (vs ALL +34% / +41% / +30%)
+  ACT+TIME only        0.2666 / 0.1728 / 0.7131   (vs ALL +38% / +46% / +34%)
+  ACT+SEASON+TIME      0.2221 / 0.1407 / 0.6022   (vs ALL +15% / +19% / +13%)
+  SEASON+TIME only     0.4003 / 0.3277 / 0.8489   (vs ALL +107% / +176% / +59%)
