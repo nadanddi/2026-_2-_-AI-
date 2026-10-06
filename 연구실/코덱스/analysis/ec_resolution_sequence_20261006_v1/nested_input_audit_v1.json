@@ -1,0 +1,107 @@
+{
+  "status": "PASS_PARTIAL_NESTED_INPUTS",
+  "files": [
+    {
+      "k": 0,
+      "s": 7,
+      "sha": "9454fa3f12dc3c6b7ae15fff686da5a5638bff0a1015bb5e59d976e73c4db386",
+      "rows": 6288,
+      "train_days": 262,
+      "outer_query_rows": 912
+    },
+    {
+      "k": 0,
+      "s": 101,
+      "sha": "43912eec33a31df83df83e3fb5161c5ee1ec83e33e74ed3000f932b9bfb83e87",
+      "rows": 6288,
+      "train_days": 262,
+      "outer_query_rows": 912
+    },
+    {
+      "k": 0,
+      "s": 2024,
+      "sha": "340e45bce7f2adee8eb6c5f1169dbcb787d2cc053d4efb8e6c4af700b5848ea3",
+      "rows": 6288,
+      "train_days": 262,
+      "outer_query_rows": 912
+    },
+    {
+      "k": 1,
+      "s": 7,
+      "sha": "e9b9045117e370d0231f43267dbd85a8662b0a81b423dbebd8f77be6039228cc",
+      "rows": 6552,
+      "train_days": 273,
+      "outer_query_rows": 720
+    },
+    {
+      "k": 1,
+      "s": 101,
+      "sha": "d97c04e8957b93366559fc1d6818edfdaaa8d3b0e77dec1e2f341e5208750d38",
+      "rows": 6552,
+      "train_days": 273,
+      "outer_query_rows": 720
+    },
+    {
+      "k": 1,
+      "s": 2024,
+      "sha": "c6085feb3a56c3a5cab110e590e38c20e1104f299575a39dba8b2c07d090c9a8",
+      "rows": 6552,
+      "train_days": 273,
+      "outer_query_rows": 720
+    },
+    {
+      "k": 2,
+      "s": 7,
+      "sha": "f16c81a963b66171a971d422c19c66e9aa887395e754df52489faa1c85e3530c",
+      "rows": 6216,
+      "train_days": 259,
+      "outer_query_rows": 960
+    },
+    {
+      "k": 2,
+      "s": 101,
+      "sha": "9014fe80f20b56cbc29fad073c285c84e0d9e5116c0809c42226f9e60140567d",
+      "rows": 6216,
+      "train_days": 259,
+      "outer_query_rows": 960
+    },
+    {
+      "k": 2,
+      "s": 2024,
+      "sha": "9bb32878ad59b7664031bd84dd459df0bc0e758ebb687b1470559062dc50432d",
+      "rows": 6216,
+      "train_days": 259,
+      "outer_query_rows": 960
+    },
+    {
+      "k": 3,
+      "s": 7,
+      "sha": "cd69686b3014839855e14bf51d6a914e0643f14dd639c40850fa12b06f93bc19",
+      "rows": 6408,
+      "train_days": 267,
+      "outer_query_rows": 792
+    },
+    {
+      "k": 3,
+      "s": 101,
+      "sha": "c26f63ade472b8aea81192131ee939f046a9c65965496b896f2997e4183a82e2",
+      "rows": 6408,
+      "train_days": 267,
+      "outer_query_rows": 792
+    },
+    {
+      "k": 3,
+      "s": 2024,
+      "sha": "9a091e14b0ff5a85e5faf7aa974e40f1c9ab60f4b01e916486244f572f6dc32b",
+      "rows": 6408,
+      "train_days": 267,
+      "outer_query_rows": 792
+    }
+  ],
+  "outer_folds": 4,
+  "inner_contexts": 16,
+  "full80": false,
+  "fit": 0,
+  "raw_y_reads": 0,
+  "test_reads": 0
+}

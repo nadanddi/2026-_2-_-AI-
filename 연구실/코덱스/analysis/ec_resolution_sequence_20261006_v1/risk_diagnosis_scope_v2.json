@@ -1,0 +1,92 @@
+{
+  "status": "COMPLETE_POSTHOC_SCOPE_DIAGNOSIS",
+  "coverage": [
+    {
+      "seed": 7,
+      "all_days": 141,
+      "pass1_days": 141,
+      "pass2_days": 0,
+      "pass2_status": "UNTESTED_ZERO_QUERY_ROWS",
+      "F13_98_status": "ABSENT_FROM_PARTIAL_OUTER_QUERY"
+    },
+    {
+      "seed": 101,
+      "all_days": 141,
+      "pass1_days": 141,
+      "pass2_days": 0,
+      "pass2_status": "UNTESTED_ZERO_QUERY_ROWS",
+      "F13_98_status": "ABSENT_FROM_PARTIAL_OUTER_QUERY"
+    },
+    {
+      "seed": 2024,
+      "all_days": 141,
+      "pass1_days": 141,
+      "pass2_days": 0,
+      "pass2_status": "UNTESTED_ZERO_QUERY_ROWS",
+      "F13_98_status": "ABSENT_FROM_PARTIAL_OUTER_QUERY"
+    }
+  ],
+  "selected_case_excluded": [
+    {
+      "seed": 7,
+      "excluded_case": "F47_161",
+      "posthoc": true,
+      "all_remaining": {
+        "rows": 3360,
+        "days": 140,
+        "baseline": 0.12608800152713093,
+        "candidate": 0.1260874380436545,
+        "change_pct": -0.00044689698434075
+      },
+      "ordinary_remaining": {
+        "rows": 3168,
+        "days": 132,
+        "baseline": 0.09998993676467355,
+        "candidate": 0.09998918314292422,
+        "change_pct": -0.000753697595690106
+      }
+    },
+    {
+      "seed": 101,
+      "excluded_case": "F47_161",
+      "posthoc": true,
+      "all_remaining": {
+        "rows": 3360,
+        "days": 140,
+        "baseline": 0.1254884612987219,
+        "candidate": 0.1254908379576385,
+        "change_pct": 0.001893926255847056
+      },
+      "ordinary_remaining": {
+        "rows": 3168,
+        "days": 132,
+        "baseline": 0.10001630151513995,
+        "candidate": 0.10001882913571072,
+        "change_pct": 0.002527208597480346
+      }
+    },
+    {
+      "seed": 2024,
+      "excluded_case": "F47_161",
+      "posthoc": true,
+      "all_remaining": {
+        "rows": 3360,
+        "days": 140,
+        "baseline": 0.12525892780937423,
+        "candidate": 0.1252593432229961,
+        "change_pct": 0.00033164392281292976
+      },
+      "ordinary_remaining": {
+        "rows": 3168,
+        "days": 132,
+        "baseline": 0.10015846656460392,
+        "candidate": 0.1001590175694095,
+        "change_pct": 0.000550133028665023
+      }
+    }
+  ],
+  "source_rows_sha": "7b32054ee5cc26b6745ed1d6c7a5350d1370fdcaeb250a60f8a9c87d7e508d59",
+  "registered_decision_unchanged": "SCREEN_REJECT",
+  "candidate_tuning": false,
+  "new_fit": 0
+}

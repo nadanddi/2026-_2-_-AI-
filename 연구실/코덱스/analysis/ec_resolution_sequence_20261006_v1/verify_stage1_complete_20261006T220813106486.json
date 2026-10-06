@@ -1,0 +1,227 @@
+{
+  "status": "PASS_COMPLETE_DIAGNOSTIC",
+  "cache_pairs": 32,
+  "checked_caches": [
+    "common_intersection_pfn_1",
+    "common_intersection_pfn_2",
+    "common_intersection_pfn_3",
+    "common_intersection_pfn_4",
+    "common_intersection_r3_101",
+    "common_intersection_r3_2024",
+    "common_intersection_r3_7",
+    "replay_fold0_pfn_1",
+    "replay_fold0_r3_101",
+    "replay_fold0_r3_2024",
+    "replay_fold0_r3_7",
+    "trainfold0_purged_pfn_1",
+    "trainfold0_purged_pfn_2",
+    "trainfold0_purged_pfn_3",
+    "trainfold0_purged_pfn_4",
+    "trainfold0_purged_r3_101",
+    "trainfold0_purged_r3_2024",
+    "trainfold0_purged_r3_7",
+    "trainfold1_purged_pfn_1",
+    "trainfold1_purged_pfn_2",
+    "trainfold1_purged_pfn_3",
+    "trainfold1_purged_pfn_4",
+    "trainfold1_purged_r3_101",
+    "trainfold1_purged_r3_2024",
+    "trainfold1_purged_r3_7",
+    "trainfold8_purged_pfn_1",
+    "trainfold8_purged_pfn_2",
+    "trainfold8_purged_pfn_3",
+    "trainfold8_purged_pfn_4",
+    "trainfold8_purged_r3_101",
+    "trainfold8_purged_r3_2024",
+    "trainfold8_purged_r3_7"
+  ],
+  "incomplete_unsigned_npz": [],
+  "replay": [
+    {
+      "kind": "pfn",
+      "seed": 1,
+      "maxdiff": 5.424022674560547e-06,
+      "rows": 48
+    },
+    {
+      "kind": "r3",
+      "seed": 101,
+      "maxdiff": 2.4424906541753444e-15,
+      "rows": 48
+    },
+    {
+      "kind": "r3",
+      "seed": 2024,
+      "maxdiff": 1.7763568394002505e-15,
+      "rows": 48
+    },
+    {
+      "kind": "r3",
+      "seed": 7,
+      "maxdiff": 1.9984014443252818e-15,
+      "rows": 48
+    }
+  ],
+  "traces": [
+    {
+      "context": "common_intersection",
+      "farm": "F47",
+      "trees": 600
+    },
+    {
+      "context": "common_intersection",
+      "farm": "F13",
+      "trees": 600
+    },
+    {
+      "context": "trainfold0_purged",
+      "farm": "F47",
+      "trees": 600
+    },
+    {
+      "context": "trainfold0_purged",
+      "farm": "F13",
+      "trees": 600
+    },
+    {
+      "context": "trainfold1_purged",
+      "farm": "F47",
+      "trees": 600
+    },
+    {
+      "context": "trainfold1_purged",
+      "farm": "F13",
+      "trees": 600
+    },
+    {
+      "context": "trainfold8_purged",
+      "farm": "F47",
+      "trees": 600
+    },
+    {
+      "context": "trainfold8_purged",
+      "farm": "F13",
+      "trees": 600
+    }
+  ],
+  "daily_ensemble_scores": [
+    {
+      "context": "trainfold0_purged",
+      "farm": "F13",
+      "day": 98,
+      "bias": 0.04293774190691393,
+      "rmse": 0.04921798115644193
+    },
+    {
+      "context": "trainfold0_purged",
+      "farm": "F13",
+      "day": 112,
+      "bias": 0.2849574968883024,
+      "rmse": 0.2855035372231337
+    },
+    {
+      "context": "trainfold0_purged",
+      "farm": "F47",
+      "day": 160,
+      "bias": 0.04996130568759427,
+      "rmse": 0.05641351395443895
+    },
+    {
+      "context": "trainfold0_purged",
+      "farm": "F47",
+      "day": 161,
+      "bias": 0.5083465503740503,
+      "rmse": 0.509176384036902
+    },
+    {
+      "context": "trainfold1_purged",
+      "farm": "F13",
+      "day": 98,
+      "bias": 0.04757612122325913,
+      "rmse": 0.05405133663112244
+    },
+    {
+      "context": "trainfold1_purged",
+      "farm": "F13",
+      "day": 112,
+      "bias": 0.14167577312476307,
+      "rmse": 0.14287096397251672
+    },
+    {
+      "context": "trainfold1_purged",
+      "farm": "F47",
+      "day": 160,
+      "bias": 0.010597594236648045,
+      "rmse": 0.029082662799318214
+    },
+    {
+      "context": "trainfold1_purged",
+      "farm": "F47",
+      "day": 161,
+      "bias": 0.4746874773571084,
+      "rmse": 0.47508109050939296
+    },
+    {
+      "context": "trainfold8_purged",
+      "farm": "F13",
+      "day": 98,
+      "bias": 0.013039075265763242,
+      "rmse": 0.028114023629052735
+    },
+    {
+      "context": "trainfold8_purged",
+      "farm": "F13",
+      "day": 112,
+      "bias": 0.1762126486296224,
+      "rmse": 0.17666752636252214
+    },
+    {
+      "context": "trainfold8_purged",
+      "farm": "F47",
+      "day": 160,
+      "bias": -0.0029649904002896216,
+      "rmse": 0.026653151182887892
+    },
+    {
+      "context": "trainfold8_purged",
+      "farm": "F47",
+      "day": 161,
+      "bias": 0.3928621346957603,
+      "rmse": 0.3937604850999015
+    },
+    {
+      "context": "common_intersection",
+      "farm": "F13",
+      "day": 98,
+      "bias": 0.007373464701731146,
+      "rmse": 0.023804116579790157
+    },
+    {
+      "context": "common_intersection",
+      "farm": "F13",
+      "day": 112,
+      "bias": 0.2788839991049988,
+      "rmse": 0.27930087211936255
+    },
+    {
+      "context": "common_intersection",
+      "farm": "F47",
+      "day": 160,
+      "bias": 0.04472894363407176,
+      "rmse": 0.05261587692541656
+    },
+    {
+      "context": "common_intersection",
+      "farm": "F47",
+      "day": 161,
+      "bias": 0.3942143485415938,
+      "rmse": 0.39557332018951413
+    }
+  ],
+  "limitations": [
+    "no fitting",
+    "not model adoption or utility validation",
+    "first split earlier-node correctness cannot be reconstructed without serialized full tree",
+    "replay covers heldout48 rows, not wholefold; float32PFN tolerance1e-5"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS_FUNCTION_DECOMPOSITION",
+  "models": [
+    {
+      "model": "ET",
+      "farm": "F47",
+      "n_groups": 5,
+      "subsets": 32,
+      "good_prediction": 0.690989999999999,
+      "bad_prediction": 1.2342333333333364,
+      "total_difference": 0.5432433333333374,
+      "sum_contributions": 0.5432433333333375,
+      "max_cache_diff": 2.220446049250313e-16
+    },
+    {
+      "model": "ET",
+      "farm": "F13",
+      "n_groups": 5,
+      "subsets": 32,
+      "good_prediction": 0.4076116666666678,
+      "bad_prediction": 0.6719333333333344,
+      "total_difference": 0.26432166666666657,
+      "sum_contributions": 0.26432166666666657,
+      "max_cache_diff": 2.220446049250313e-16
+    },
+    {
+      "model": "LGB",
+      "farm": "F47",
+      "n_groups": 5,
+      "subsets": 32,
+      "good_prediction": 0.6474926460476093,
+      "bad_prediction": 0.6828884399111932,
+      "total_difference": 0.035395793863583935,
+      "sum_contributions": 0.03539579386358393,
+      "max_cache_diff": 0.0
+    },
+    {
+      "model": "LGB",
+      "farm": "F13",
+      "n_groups": 5,
+      "subsets": 32,
+      "good_prediction": 0.39605632479330144,
+      "bad_prediction": 0.7204827257409324,
+      "total_difference": 0.324426400947631,
+      "sum_contributions": 0.324426400947631,
+      "max_cache_diff": 0.0
+    }
+  ],
+  "fit": 2,
+  "season_transformation": "common training recipe unchanged",
+  "posthoc": true,
+  "physical_causality": false,
+  "PFN_explained": false
+}

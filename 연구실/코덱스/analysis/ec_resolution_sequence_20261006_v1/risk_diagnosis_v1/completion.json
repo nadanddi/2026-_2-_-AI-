@@ -1,0 +1,54 @@
+{
+  "status": "COMPLETE_POSTHOC_DIAGNOSIS_ONLY",
+  "unique_modified_time_rows": 22,
+  "modified_row_occurrences": 57,
+  "unique_modified_days": 4,
+  "pass2_query_rows": 0,
+  "loss_breakdown": [
+    {
+      "seed": 7,
+      "total_sse_change": -0.8212246351443738,
+      "F47_161_sse_change": -0.8207471902546811,
+      "case_fraction_of_net_change": 0.9994186184032232,
+      "other_days_sse_change": -0.00047744488969270193,
+      "improved_days": 2,
+      "worsened_days": 1,
+      "unchanged_days": 138
+    },
+    {
+      "seed": 101,
+      "total_sse_change": -0.40178651427666134,
+      "F47_161_sse_change": -0.40379072803324767,
+      "case_fraction_of_net_change": 1.0049882554176677,
+      "other_days_sse_change": 0.002004213756586326,
+      "improved_days": 1,
+      "worsened_days": 2,
+      "unchanged_days": 138
+    },
+    {
+      "seed": 2024,
+      "total_sse_change": -0.593291840329419,
+      "F47_161_sse_change": -0.5936415111692059,
+      "case_fraction_of_net_change": 1.0005893740921716,
+      "other_days_sse_change": 0.0003496708397869863,
+      "improved_days": 1,
+      "worsened_days": 1,
+      "unchanged_days": 139
+    }
+  ],
+  "high_modified": [
+    {
+      "row_id": "F13_177_00",
+      "seed": 101,
+      "sub_ec": 0.979,
+      "A": 0.8949201128475881,
+      "candidate": 0.892560081688208,
+      "delta": 0.002360031159380105,
+      "risk": 0.8256953103446159,
+      "smooth_lgb": 0.8765507596253209,
+      "sse_change": 0.0004024320541869547
+    }
+  ],
+  "new_fit": 0,
+  "new_candidates": 0
+}

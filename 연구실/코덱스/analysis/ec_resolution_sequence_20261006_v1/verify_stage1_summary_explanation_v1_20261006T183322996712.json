@@ -1,0 +1,65 @@
+{
+  "status": "PASS_SUMMARY_AND_STORED_COALITION_ARITHMETIC",
+  "daily_scores": 16,
+  "same_model_pairs": 8,
+  "training_variation_targets": 4,
+  "et_trace_pairs": 8,
+  "shapley_models": [
+    {
+      "model": "ET",
+      "farm": "F47",
+      "coalitions": 32,
+      "delta": 0.5432433333333374
+    },
+    {
+      "model": "ET",
+      "farm": "F13",
+      "coalitions": 32,
+      "delta": 0.26432166666666657
+    },
+    {
+      "model": "LGB",
+      "farm": "F47",
+      "coalitions": 32,
+      "delta": 0.035395793863583935
+    },
+    {
+      "model": "LGB",
+      "farm": "F13",
+      "coalitions": 32,
+      "delta": 0.324426400947631
+    }
+  ],
+  "fit": 0,
+  "limitations": [
+    "Shapley recomputed from stored32 coalition predictions; model hybrid predictions not independently re-fit",
+    "first split buckets are tree-gap accounting, not causal feature attribution",
+    "seed7 common training ET/LGB at0h only; PFN/MLP and daily ensemble not explained"
+  ],
+  "severe_counts_by_target": [
+    {
+      "farm": "F13",
+      "day": 98,
+      "non_success": 0,
+      "severe": 0
+    },
+    {
+      "farm": "F13",
+      "day": 112,
+      "non_success": 4,
+      "severe": 2
+    },
+    {
+      "farm": "F47",
+      "day": 160,
+      "non_success": 0,
+      "severe": 0
+    },
+    {
+      "farm": "F47",
+      "day": 161,
+      "non_success": 4,
+      "severe": 4
+    }
+  ]
+}

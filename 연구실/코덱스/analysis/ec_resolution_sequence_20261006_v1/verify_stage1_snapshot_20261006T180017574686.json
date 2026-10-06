@@ -1,0 +1,62 @@
+{
+  "status": "PASS_COMPLETED_CACHE_SNAPSHOT_ONLY",
+  "cache_pairs": 10,
+  "checked_caches": [
+    "replay_fold0_pfn_1",
+    "replay_fold0_r3_101",
+    "replay_fold0_r3_2024",
+    "replay_fold0_r3_7",
+    "trainfold0_purged_pfn_1",
+    "trainfold0_purged_pfn_2",
+    "trainfold0_purged_pfn_3",
+    "trainfold0_purged_r3_101",
+    "trainfold0_purged_r3_2024",
+    "trainfold0_purged_r3_7"
+  ],
+  "incomplete_unsigned_npz": [],
+  "replay": [
+    {
+      "kind": "pfn",
+      "seed": 1,
+      "maxdiff": 5.424022674560547e-06,
+      "rows": 48
+    },
+    {
+      "kind": "r3",
+      "seed": 101,
+      "maxdiff": 2.4424906541753444e-15,
+      "rows": 48
+    },
+    {
+      "kind": "r3",
+      "seed": 2024,
+      "maxdiff": 1.7763568394002505e-15,
+      "rows": 48
+    },
+    {
+      "kind": "r3",
+      "seed": 7,
+      "maxdiff": 1.9984014443252818e-15,
+      "rows": 48
+    }
+  ],
+  "traces": [
+    {
+      "context": "trainfold0_purged",
+      "farm": "F47",
+      "trees": 600
+    },
+    {
+      "context": "trainfold0_purged",
+      "farm": "F13",
+      "trees": 600
+    }
+  ],
+  "daily_ensemble_scores": [],
+  "limitations": [
+    "no fitting",
+    "not model adoption or utility validation",
+    "first split earlier-node correctness cannot be reconstructed without serialized full tree",
+    "replay covers heldout48 rows, not wholefold; float32PFN tolerance1e-5"
+  ]
+}

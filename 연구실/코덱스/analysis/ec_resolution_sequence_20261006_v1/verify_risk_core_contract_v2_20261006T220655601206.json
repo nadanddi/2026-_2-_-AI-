@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FINITE_BOUNDED_HELPER_CONTRACT",
+  "core_source_sha256": "7204dc33cc9b8717e49e85d65366502f90453fef1ba2b18e39636ad773d6619a",
+  "finite_grid_cases": 3200,
+  "rejected_parameter_cases": 16,
+  "numpy_scalar": "PASS",
+  "v1_nan_cap_defect": "FIX_CONFIRMED",
+  "risk_fit": 0,
+  "candidate_selected": false,
+  "limitations": [
+    "generic helper only; caller feature whitelist/candidate protocol still required",
+    "stage1 complete audit not run"
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "status": "FINAL_AUDIT_COMPLETE_CANDIDATE_REJECTED",
+  "time": "2026-10-06T22:17:12.027541",
+  "checks": [
+    {
+      "scope": "stage1_complete",
+      "code": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_stage1_v1.py",
+      "code_sha256": "7fa0d90d6ea59a3af8a32e4006261378a24182e4b1c8df15b0e48c17feb4c236",
+      "receipt": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_stage1_complete_20261006T220813106486.json",
+      "receipt_sha256": "53593f8ebac27ee77f695c0438bd24e6fdc02edc7bb615c5d7ed438f8a493ba8",
+      "status": "PASS_COMPLETE_DIAGNOSTIC",
+      "expected_legacy_defect": false
+    },
+    {
+      "scope": "summary_and_explanation",
+      "code": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_stage1_summary_explanation_v1.py",
+      "code_sha256": "2662e15ed13ca00b6e471a84230219c83ee4ea151463a34a4718c129885635e1",
+      "receipt": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_stage1_summary_explanation_v1_20261006T220707454691.json",
+      "receipt_sha256": "f9930fa27c6b568b4bacd1f967fb9f878381528f0b30dde0cdd6c9ab27d6780a",
+      "status": "PASS_SUMMARY_AND_STORED_COALITION_ARITHMETIC",
+      "expected_legacy_defect": false
+    },
+    {
+      "scope": "nested_risk_inputs",
+      "code": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_inputs_v1.py",
+      "code_sha256": "90646aabcb7b925048f1b97801116b835f678db2177b5e3660d2e0ee6cef2458",
+      "receipt": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_inputs_v1_20261006T221000974939.json",
+      "receipt_sha256": "a7d0beff1a5939b9bfd4f8fa819d57cd0b059d1fcc7f6ddf49bf1835b733a5f9",
+      "status": "PASS_PARTIAL_INPUT_AUDIT_ONLY",
+      "expected_legacy_defect": false
+    },
+    {
+      "scope": "legacy_helper_defect",
+      "code": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_core_contract_v1.py",
+      "code_sha256": "0c70b5ba05590dedacfdca06f8432b4eb7175b0bf68af8a740dd17df56542242",
+      "receipt": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_core_contract_v1_20261006T220644407701.json",
+      "receipt_sha256": "32e49220e3314580a740d26239019dc598fa22866ba162c32629804387f49dc3",
+      "status": "PASS_FINITE_PARAMETER_CONTRACT_WITH_CAP_NAN_DEFECT",
+      "expected_legacy_defect": true
+    },
+    {
+      "scope": "corrected_helper",
+      "code": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_core_contract_v2.py",
+      "code_sha256": "b1f0261cf21e3c4cfadbc2ab3d82748d30c83a068e2060c305b92e0688b5374b",
+      "receipt": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_core_contract_v2_20261006T220655601206.json",
+      "receipt_sha256": "a9e66c19c322114d3a7e2f8ba628c45073c8635f4cefe4ee97971ff8c20a8146",
+      "status": "PASS_FINITE_BOUNDED_HELPER_CONTRACT",
+      "expected_legacy_defect": false
+    },
+    {
+      "scope": "real_feature_boundary",
+      "code": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_real_design_v1.py",
+      "code_sha256": "bbbce9b3a3c4ee2d2825b2bbf93c1d77d450ce9f8c9cf0265565001231b24302",
+      "receipt": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_real_design_v1_20261006T220928807505.json",
+      "receipt_sha256": "e7050cfe20d61298ae7e5fee9193c90af8e51ed602fff22a72d364cda9d88408",
+      "status": "PASS_REAL_DESIGN_BOUNDARY_ONLY",
+      "expected_legacy_defect": false
+    },
+    {
+      "scope": "risk_fit_correction_screen",
+      "code": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_result_v1.py",
+      "code_sha256": "57aa8bb90691b9e3eafa96c7c0bcc57574116bb85b8748ef3f8b659a2d9e435d",
+      "receipt": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_result_v1_20261006T220909369148.json",
+      "receipt_sha256": "5cf934485c7e17bdd2b96b4621ee6ab046e4c51624a268b83f3028a580a6f2f3",
+      "status": "PASS_AUDIT_SCREEN_REJECT",
+      "expected_legacy_defect": false
+    },
+    {
+      "scope": "posthoc_concentration",
+      "code": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_diagnosis_v2.py",
+      "code_sha256": "b1e9464bc65618c05f2d784b585dc855488af6a4621f00008f6ba0277cf4518c",
+      "receipt": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_diagnosis_v2_20261006T220720191648.json",
+      "receipt_sha256": "fc7547ed9b676cb0c64534ed150d607a567309b48f3fb3cf475b9fb9aa80d67a",
+      "status": "PASS_POSTHOC_DIAGNOSIS_ARITHMETIC_ONLY",
+      "expected_legacy_defect": false
+    },
+    {
+      "scope": "coverage_and_case_exclusion",
+      "code": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_scope_v3.py",
+      "code_sha256": "33c056e022fbf6bd3a7efdf09f34dd46c0f7070eae926b6959765f90d7c987f2",
+      "receipt": "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\verify_risk_scope_v3_20261006T221004825148.json",
+      "receipt_sha256": "574f7b06033b0e8c2bab439b0c79461015cde228f839ac0b24f4f135ce45ff9e",
+      "status": "PASS_SCOPE_AND_SELECTED_CASE_SENSITIVITY",
+      "expected_legacy_defect": false
+    }
+  ],
+  "audit_new_fit": 0,
+  "candidate_status": "SCREEN_REJECT",
+  "reject_reason": "101:high:protection_failed",
+  "pass2": "UNTESTED_ZERO_ROWS",
+  "baseline": "original EC season-v2, not current EC14",
+  "full80": false,
+  "adoption": false,
+  "new_candidate": false,
+  "parameters_retuned": false
+}

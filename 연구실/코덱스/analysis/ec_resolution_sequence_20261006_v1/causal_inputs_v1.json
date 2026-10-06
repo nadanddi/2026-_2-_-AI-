@@ -1,0 +1,47 @@
+{
+  "status": "PASS_CAUSAL_NON_SEASON_INPUT_FEATURES",
+  "checks": [
+    {
+      "farm": "F13",
+      "cut": 1151,
+      "rows": 960,
+      "future_other_farm_unchanged": true
+    },
+    {
+      "farm": "F13",
+      "cut": 2591,
+      "rows": 2400,
+      "future_other_farm_unchanged": true
+    },
+    {
+      "farm": "F13",
+      "cut": 4031,
+      "rows": 3840,
+      "future_other_farm_unchanged": true
+    },
+    {
+      "farm": "F47",
+      "cut": 1103,
+      "rows": 960,
+      "future_other_farm_unchanged": true
+    },
+    {
+      "farm": "F47",
+      "cut": 2543,
+      "rows": 2400,
+      "future_other_farm_unchanged": true
+    },
+    {
+      "farm": "F47",
+      "cut": 3983,
+      "rows": 3840,
+      "future_other_farm_unchanged": true
+    }
+  ],
+  "order_invariant": true,
+  "fit": 0,
+  "season_checked": false,
+  "model_predictions_checked": false,
+  "scope": "Non-season FULL columns only; season and PFN prediction causality are separate claims",
+  "source_sha": "9f5bbb20405b0a2836261e28a4d51fda0d1a13f8ac1dc913023f65bb11e15efb"
+}

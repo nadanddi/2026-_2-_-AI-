@@ -1,0 +1,63 @@
+{
+  "status": "PASS_SCOPE_AND_SELECTED_CASE_SENSITIVITY",
+  "pass2": "UNTESTED_ZERO_ROWS",
+  "F13_98": "ABSENT",
+  "registered_decision": "SCREEN_REJECT_UNCHANGED",
+  "sensitivity": [
+    {
+      "seed": 7,
+      "all_remaining": {
+        "rows": 3360,
+        "days": 140,
+        "baseline": 0.12608800152713093,
+        "candidate": 0.1260874380436545,
+        "change_pct": -0.00044689698434075
+      },
+      "ordinary_remaining": {
+        "rows": 3168,
+        "days": 132,
+        "baseline": 0.09998993676467355,
+        "candidate": 0.09998918314292422,
+        "change_pct": -0.000753697595690106
+      }
+    },
+    {
+      "seed": 101,
+      "all_remaining": {
+        "rows": 3360,
+        "days": 140,
+        "baseline": 0.1254884612987219,
+        "candidate": 0.1254908379576385,
+        "change_pct": 0.001893926255847056
+      },
+      "ordinary_remaining": {
+        "rows": 3168,
+        "days": 132,
+        "baseline": 0.10001630151513995,
+        "candidate": 0.10001882913571072,
+        "change_pct": 0.002527208597480346
+      }
+    },
+    {
+      "seed": 2024,
+      "all_remaining": {
+        "rows": 3360,
+        "days": 140,
+        "baseline": 0.12525892780937423,
+        "candidate": 0.1252593432229961,
+        "change_pct": 0.00033164392281292976
+      },
+      "ordinary_remaining": {
+        "rows": 3168,
+        "days": 132,
+        "baseline": 0.10015846656460392,
+        "candidate": 0.1001590175694095,
+        "change_pct": 0.000550133028665023
+      }
+    }
+  ],
+  "F13_177_day_mean_ec": 1.0051249999999998,
+  "fit": 0,
+  "tuning": false,
+  "scope": "posthoc loss concentration, not a new acceptance rule"
+}

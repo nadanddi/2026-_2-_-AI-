@@ -1,0 +1,21 @@
+model,farm,good,bad,hour,group,columns,prediction_change,mix_weight,mix_change,good_value,bad_value,definition
+ET,F47,160,161,0,season,['season'],-0.0024907222222220714,0.48,-0.0011955466666665941,160.0,161.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+ET,F47,160,161,0,in_temp,"['in_temp', 'in_temp_h0']",0.0329280277777771,0.48,0.015805453333333008,9.7,11.8,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+ET,F47,160,161,0,in_hum,"['in_hum', 'in_hum_h0']",-0.013148500000000625,0.48,-0.0063112800000003,69.0,64.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+ET,F47,160,161,0,in_co2,"['in_co2', 'in_co2_h0']",0.2758919166666692,0.48,0.1324281200000012,319.0,480.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+ET,F47,160,161,0,act_heating,"['act_heating', 'act_heating_h0', 'act_heating_tdm', 'act_heating_tdz']",0.2500626111111139,0.48,0.12003005333333466,97.0,0.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+ET,F13,98,112,0,season,['season'],0.10213624999999994,0.48,0.04902539999999997,98.0,112.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+ET,F13,98,112,0,in_temp,"['in_temp', 'in_temp_h0']",0.0067679166666667085,0.48,0.00324860000000002,9.9,11.3,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+ET,F13,98,112,0,in_hum,"['in_hum', 'in_hum_h0']",0.03997652777777799,0.48,0.019188733333333437,69.0,77.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+ET,F13,98,112,0,in_co2,"['in_co2', 'in_co2_h0']",-0.04338472222222263,0.48,-0.020824666666666863,382.0,364.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+ET,F13,98,112,0,act_heating,"['act_heating', 'act_heating_h0', 'act_heating_tdm', 'act_heating_tdz']",0.15882569444444455,0.48,0.07623633333333338,32.0,0.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+LGB,F47,160,161,0,season,['season'],0.0,0.24,0.0,160.0,161.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+LGB,F47,160,161,0,in_temp,['in_temp'],0.005781800379351415,0.24,0.0013876320910443396,9.7,11.8,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+LGB,F47,160,161,0,in_hum,['in_hum'],-0.002396104599342669,0.24,-0.0005750651038422405,69.0,64.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+LGB,F47,160,161,0,in_co2,['in_co2'],-0.032691695275690484,0.24,-0.007846006866165716,319.0,480.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+LGB,F47,160,161,0,act_heating,['act_heating'],0.06470179335926567,0.24,0.015528430406223759,97.0,0.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+LGB,F13,98,112,0,season,['season'],0.18366201461242976,0.24,0.04407888350698314,98.0,112.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+LGB,F13,98,112,0,in_temp,['in_temp'],0.02526457187668712,0.24,0.006063497250404908,9.9,11.3,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+LGB,F13,98,112,0,in_hum,['in_hum'],0.05756612128038931,0.24,0.013815869107293433,69.0,77.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+LGB,F13,98,112,0,in_co2,['in_co2'],-0.0008424258209923414,0.24,-0.00020218219703816193,382.0,364.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect
+LGB,F13,98,112,0,act_heating,['act_heating'],0.05877611899911715,0.24,0.014106268559788117,32.0,0.0,exact interventional grouped Shapley along two model inputs; model arithmetic not physical causal effect

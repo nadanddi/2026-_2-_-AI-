@@ -1,0 +1,647 @@
+{
+  "status": "PASS_REAL_DESIGN_BOUNDARY_ONLY",
+  "files": 24,
+  "base_columns": [
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog",
+    "hr_sin",
+    "hr_cos",
+    "midnight",
+    "act_vent_h0",
+    "act_shade_h0",
+    "act_thermal_h0",
+    "act_heating_h0",
+    "act_circfan_h0",
+    "act_co2_h0",
+    "act_fog_h0",
+    "in_temp_h0",
+    "in_hum_h0",
+    "in_co2_h0",
+    "act_vent_tdm",
+    "act_vent_tdz",
+    "act_shade_tdm",
+    "act_shade_tdz",
+    "act_thermal_tdm",
+    "act_thermal_tdz",
+    "act_heating_tdm",
+    "act_heating_tdz",
+    "act_circfan_tdm",
+    "act_circfan_tdz",
+    "act_co2_tdm",
+    "act_co2_tdz",
+    "act_fog_tdm",
+    "act_fog_tdz",
+    "season"
+  ],
+  "base_count": 38,
+  "design_columns": [
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog",
+    "hr_sin",
+    "hr_cos",
+    "midnight",
+    "act_vent_h0",
+    "act_shade_h0",
+    "act_thermal_h0",
+    "act_heating_h0",
+    "act_circfan_h0",
+    "act_co2_h0",
+    "act_fog_h0",
+    "in_temp_h0",
+    "in_hum_h0",
+    "in_co2_h0",
+    "act_vent_tdm",
+    "act_vent_tdz",
+    "act_shade_tdm",
+    "act_shade_tdz",
+    "act_thermal_tdm",
+    "act_thermal_tdz",
+    "act_heating_tdm",
+    "act_heating_tdz",
+    "act_circfan_tdm",
+    "act_circfan_tdz",
+    "act_co2_tdm",
+    "act_co2_tdz",
+    "act_fog_tdm",
+    "act_fog_tdz",
+    "season",
+    "farm_F47",
+    "A",
+    "smooth_et",
+    "smooth_lgb",
+    "smooth_mlp",
+    "smooth_pfn",
+    "prefix_A",
+    "et_minus_lgb",
+    "mlp_minus_lgb",
+    "pfn_minus_lgb",
+    "member_range",
+    "A_minus_lgb"
+  ],
+  "design_count": 50,
+  "extra_labels_added_to_design": false,
+  "known_labels_metadata_excluded": [
+    "day",
+    "farm",
+    "hard_high",
+    "hard_low",
+    "high",
+    "hour",
+    "inner_j",
+    "missed_high",
+    "row_id",
+    "sub_ec",
+    "y",
+    "y_day"
+  ],
+  "helper_sha256": "7204dc33cc9b8717e49e85d65366502f90453fef1ba2b18e39636ad773d6619a",
+  "checks": [
+    {
+      "file": "query_0_101.csv",
+      "sha256": "9dc6f1ab723ae22860f31dd1afee137bd63b40a5da24368dbb6ab54bb71e88e4",
+      "rows": 912,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2051,
+          "allowed_rows": 240,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2015,
+          "allowed_rows": 216,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "query_0_2024.csv",
+      "sha256": "27eedd5e8c3c6530304089d08fbdc38a45f5c231f77981b0a1c54a171e40bed6",
+      "rows": 912,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2051,
+          "allowed_rows": 240,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2015,
+          "allowed_rows": 216,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "query_0_7.csv",
+      "sha256": "cd9eacc97e16e9b237dd5cfb855d588654e40cc669ce3deff4ea060321839549",
+      "rows": 912,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2051,
+          "allowed_rows": 240,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2015,
+          "allowed_rows": 216,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "query_1_101.csv",
+      "sha256": "619884a06116480cc97d998099e7b08f6469f059af82c337734ce005c553bb57",
+      "rows": 720,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 1583,
+          "allowed_rows": 168,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 1559,
+          "allowed_rows": 192,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "query_1_2024.csv",
+      "sha256": "ffb00505d0d2aaee5c6069803f411565d593937946a15f509b9a5d3454eafcba",
+      "rows": 720,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 1583,
+          "allowed_rows": 168,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 1559,
+          "allowed_rows": 192,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "query_1_7.csv",
+      "sha256": "52e85b66359f7c52f9213e1b4f6be1fc64ac33aa4c6cc87e633e5791da4099e3",
+      "rows": 720,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 1583,
+          "allowed_rows": 168,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 1559,
+          "allowed_rows": 192,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "query_2_101.csv",
+      "sha256": "222c2f3ceb1b4cff6996155cffacb7ed73484904d20fd57f874bef2825935e9b",
+      "rows": 960,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2291,
+          "allowed_rows": 240,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2243,
+          "allowed_rows": 240,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "query_2_2024.csv",
+      "sha256": "6d402f041daeeb7bd79ac6968b08d54c851b4c5f2b3b3ed51f7570ef9f0cacca",
+      "rows": 960,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2291,
+          "allowed_rows": 240,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2243,
+          "allowed_rows": 240,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "query_2_7.csv",
+      "sha256": "3ee95a82e4fcd65dcde4015ac7efa293ac091a2956edcffc131babd1b62fcf6a",
+      "rows": 960,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2291,
+          "allowed_rows": 240,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2243,
+          "allowed_rows": 240,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "query_3_101.csv",
+      "sha256": "fa01fc6be9d1eb99ee0e10698cf1d4a5ebaf62ddbd1fd8a11897095aaeda9d21",
+      "rows": 792,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2435,
+          "allowed_rows": 168,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 1811,
+          "allowed_rows": 228,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "query_3_2024.csv",
+      "sha256": "10a870ed934ede5d6d5c4ed5bae35368e470969173ef728bb6b03249cac58677",
+      "rows": 792,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2435,
+          "allowed_rows": 168,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 1811,
+          "allowed_rows": 228,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "query_3_7.csv",
+      "sha256": "9615e4cf21fa29567451b2289ef509fce257fba42757b909aac7e8346e6563ed",
+      "rows": 792,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2435,
+          "allowed_rows": 168,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 1811,
+          "allowed_rows": 228,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_0_101.csv",
+      "sha256": "654ae7121c9da7204295b172a31959d572d0e6d4e0985466280e562938b7f454",
+      "rows": 6288,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2483,
+          "allowed_rows": 1596,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2411,
+          "allowed_rows": 1548,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_0_2024.csv",
+      "sha256": "93ae39c6ef48fd1420d57678e4fc0775322dcc99e98f9a1e37df610392ff0499",
+      "rows": 6288,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2483,
+          "allowed_rows": 1596,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2411,
+          "allowed_rows": 1548,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_0_7.csv",
+      "sha256": "494d7253c18ed93d666795ae79e8762baf6ccb89444dab7d33b294150728cc5f",
+      "rows": 6288,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2483,
+          "allowed_rows": 1596,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2411,
+          "allowed_rows": 1548,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_1_101.csv",
+      "sha256": "5fda188b01f85b1e09811d5f2555d664b7d92182d1dd2bb55fab87d2b84b271e",
+      "rows": 6552,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2531,
+          "allowed_rows": 1692,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2471,
+          "allowed_rows": 1584,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_1_2024.csv",
+      "sha256": "005e5abf2230e3ceb2597cc56bbefd86b0d12866d483a83f03f15c49f29166ea",
+      "rows": 6552,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2531,
+          "allowed_rows": 1692,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2471,
+          "allowed_rows": 1584,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_1_7.csv",
+      "sha256": "4d6a843e2855d5421636ebc339df7e5b9c3b3210c8b23a19a40483d233688475",
+      "rows": 6552,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2531,
+          "allowed_rows": 1692,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2471,
+          "allowed_rows": 1584,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_2_101.csv",
+      "sha256": "3955c8614716d7dce5da10260eec4d87384f2699cf04fa0cd31276d29e89071e",
+      "rows": 6216,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2447,
+          "allowed_rows": 1608,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2459,
+          "allowed_rows": 1500,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_2_2024.csv",
+      "sha256": "6e5f71f526f1626d5edd17917786f4a056c521a030bdc45af58b1bbc39fa9e42",
+      "rows": 6216,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2447,
+          "allowed_rows": 1608,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2459,
+          "allowed_rows": 1500,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_2_7.csv",
+      "sha256": "2fc702de0a6985b0f4d15cb9de0f241f169258b19435982a66929553a8e7de4d",
+      "rows": 6216,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2447,
+          "allowed_rows": 1608,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2459,
+          "allowed_rows": 1500,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_3_101.csv",
+      "sha256": "6748072e4cce5bff8be711e9f2d799417513ff43ac9324f850794abece810a53",
+      "rows": 6408,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2459,
+          "allowed_rows": 1716,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2447,
+          "allowed_rows": 1488,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_3_2024.csv",
+      "sha256": "be13d7213ed3d886d3f4914b2bb3748d81690020a2c2822c4e37dbc5e478d846",
+      "rows": 6408,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2459,
+          "allowed_rows": 1716,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2447,
+          "allowed_rows": 1488,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    },
+    {
+      "file": "train_3_7.csv",
+      "sha256": "71bd1640ebb601db7ee721cca1c7a5892223cc5f2e39b5d41fc030af16fa41e7",
+      "rows": 6408,
+      "columns": 50,
+      "label_metadata_order": "PASS",
+      "prefix_same": "PASS",
+      "cuts": [
+        {
+          "farm": "F13",
+          "cut": 2459,
+          "allowed_rows": 1716,
+          "future_otherfarm_unchanged": true
+        },
+        {
+          "farm": "F47",
+          "cut": 2447,
+          "allowed_rows": 1488,
+          "future_otherfarm_unchanged": true
+        }
+      ]
+    }
+  ],
+  "risk_fit": 0,
+  "candidate_selection": false,
+  "scope": "helper accepts supplied frozen FULL and model scores; this audit does not regenerate season or model predictions under input perturbation"
+}

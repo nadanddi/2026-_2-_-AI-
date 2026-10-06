@@ -1,0 +1,127 @@
+{
+  "status": "PASS_PARTIAL_INPUT_AUDIT_ONLY",
+  "risk_model_fit": 0,
+  "partial_outer_folds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "full80": false,
+  "train_query_pairs": 12,
+  "audited_component_cache_pairs": 112,
+  "splitchecks": [
+    {
+      "outer_fold": 0,
+      "inner_jobs": 4,
+      "outer_train_rows": 6288,
+      "outer_query_rows": 912,
+      "query_coverage": "exactly once",
+      "outer_and_inner_adjacent_day_purge": true
+    },
+    {
+      "outer_fold": 1,
+      "inner_jobs": 4,
+      "outer_train_rows": 6552,
+      "outer_query_rows": 720,
+      "query_coverage": "exactly once",
+      "outer_and_inner_adjacent_day_purge": true
+    },
+    {
+      "outer_fold": 2,
+      "inner_jobs": 4,
+      "outer_train_rows": 6216,
+      "outer_query_rows": 960,
+      "query_coverage": "exactly once",
+      "outer_and_inner_adjacent_day_purge": true
+    },
+    {
+      "outer_fold": 3,
+      "inner_jobs": 4,
+      "outer_train_rows": 6408,
+      "outer_query_rows": 792,
+      "query_coverage": "exactly once",
+      "outer_and_inner_adjacent_day_purge": true
+    }
+  ],
+  "files": [
+    {
+      "k": 0,
+      "seed": 7,
+      "train_rows": 6288,
+      "query_rows": 912
+    },
+    {
+      "k": 0,
+      "seed": 101,
+      "train_rows": 6288,
+      "query_rows": 912
+    },
+    {
+      "k": 0,
+      "seed": 2024,
+      "train_rows": 6288,
+      "query_rows": 912
+    },
+    {
+      "k": 1,
+      "seed": 7,
+      "train_rows": 6552,
+      "query_rows": 720
+    },
+    {
+      "k": 1,
+      "seed": 101,
+      "train_rows": 6552,
+      "query_rows": 720
+    },
+    {
+      "k": 1,
+      "seed": 2024,
+      "train_rows": 6552,
+      "query_rows": 720
+    },
+    {
+      "k": 2,
+      "seed": 7,
+      "train_rows": 6216,
+      "query_rows": 960
+    },
+    {
+      "k": 2,
+      "seed": 101,
+      "train_rows": 6216,
+      "query_rows": 960
+    },
+    {
+      "k": 2,
+      "seed": 2024,
+      "train_rows": 6216,
+      "query_rows": 960
+    },
+    {
+      "k": 3,
+      "seed": 7,
+      "train_rows": 6408,
+      "query_rows": 792
+    },
+    {
+      "k": 3,
+      "seed": 101,
+      "train_rows": 6408,
+      "query_rows": 792
+    },
+    {
+      "k": 3,
+      "seed": 2024,
+      "train_rows": 6408,
+      "query_rows": 792
+    }
+  ],
+  "feature_boundary": "sub_ec is label/evaluation only; inner_j is split metadata; explicit causal feature whitelist required before risk fitting",
+  "limitations": [
+    "source dataset assembly was audited, not a trained risk model",
+    "12 seed-fold outputs share4 outer splits",
+    "inner OOF training scores and outer-fit query scores have different model training sizes/distributions"
+  ]
+}

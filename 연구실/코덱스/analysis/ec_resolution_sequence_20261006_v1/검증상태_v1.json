@@ -1,0 +1,78 @@
+{
+  "execution": "COMPLETE_PARTIAL_PILOT",
+  "numeric_audit": "PASS",
+  "independent_final_review": "COMPLETE",
+  "candidate": "SCREEN_REJECT",
+  "candidate_reason": "seed101 고EC 무악화 조건 위반",
+  "baseline": "기존 실제 계절v2",
+  "current_EC14_efficacy": "UNTESTED",
+  "pass2_protection": "UNTESTED_ZERO_QUERY_ROWS",
+  "full_DIAG10_A_B": "UNTESTED",
+  "full80_nested": "UNAVAILABLE_IN_LAB",
+  "adoption": false,
+  "submission": false,
+  "unique_days": 141,
+  "unique_rows": 3384,
+  "seed_rows": 10152,
+  "coverage": [
+    {
+      "farm": "F13",
+      "period": "pass1",
+      "ec_group": "일반",
+      "days": 62,
+      "status": "지원 있음"
+    },
+    {
+      "farm": "F13",
+      "period": "pass1",
+      "ec_group": "고EC",
+      "days": 6,
+      "status": "지원 있음"
+    },
+    {
+      "farm": "F13",
+      "period": "pass2",
+      "ec_group": "일반",
+      "days": 0,
+      "status": "검증 지원 없음"
+    },
+    {
+      "farm": "F13",
+      "period": "pass2",
+      "ec_group": "고EC",
+      "days": 0,
+      "status": "검증 지원 없음"
+    },
+    {
+      "farm": "F47",
+      "period": "pass1",
+      "ec_group": "일반",
+      "days": 71,
+      "status": "지원 있음"
+    },
+    {
+      "farm": "F47",
+      "period": "pass1",
+      "ec_group": "고EC",
+      "days": 2,
+      "status": "지원 있음"
+    },
+    {
+      "farm": "F47",
+      "period": "pass2",
+      "ec_group": "일반",
+      "days": 0,
+      "status": "검증 지원 없음"
+    },
+    {
+      "farm": "F47",
+      "period": "pass2",
+      "ec_group": "고EC",
+      "days": 0,
+      "status": "검증 지원 없음"
+    }
+  ],
+  "new_fit": 0,
+  "source_rows_sha": "7b32054ee5cc26b6745ed1d6c7a5350d1370fdcaeb250a60f8a9c87d7e508d59",
+  "note": "최종비평의 상태·분모 분리 권고를 완료자료에 적용했다. 다음 실험에서는 학습 전에 같은 coverage를 등록해야 한다."
+}

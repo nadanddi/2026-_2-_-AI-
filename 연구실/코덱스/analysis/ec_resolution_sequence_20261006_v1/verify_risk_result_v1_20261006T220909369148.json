@@ -1,0 +1,198 @@
+{
+  "status": "PASS_AUDIT_SCREEN_REJECT",
+  "candidate_status": "SCREEN_REJECT",
+  "reasons": [
+    "101:high:protection_failed"
+  ],
+  "fit_cells": 12,
+  "audit_new_fit": 0,
+  "fit_parameter_checks": [
+    {
+      "k": 0,
+      "seed": 7,
+      "rows": 6288,
+      "positives": 759,
+      "weight_sum": 262.0,
+      "iterations": 85,
+      "normalized_L2_gradient_max": 3.715345145533422e-08
+    },
+    {
+      "k": 0,
+      "seed": 101,
+      "rows": 6288,
+      "positives": 792,
+      "weight_sum": 262.0,
+      "iterations": 81,
+      "normalized_L2_gradient_max": 2.3540253590085753e-08
+    },
+    {
+      "k": 0,
+      "seed": 2024,
+      "rows": 6288,
+      "positives": 776,
+      "weight_sum": 262.0,
+      "iterations": 87,
+      "normalized_L2_gradient_max": 2.0370464876081908e-08
+    },
+    {
+      "k": 1,
+      "seed": 7,
+      "rows": 6552,
+      "positives": 586,
+      "weight_sum": 273.0,
+      "iterations": 76,
+      "normalized_L2_gradient_max": 1.5153904140382572e-08
+    },
+    {
+      "k": 1,
+      "seed": 101,
+      "rows": 6552,
+      "positives": 593,
+      "weight_sum": 273.0,
+      "iterations": 78,
+      "normalized_L2_gradient_max": 7.713617185648898e-08
+    },
+    {
+      "k": 1,
+      "seed": 2024,
+      "rows": 6552,
+      "positives": 593,
+      "weight_sum": 273.0,
+      "iterations": 79,
+      "normalized_L2_gradient_max": 1.9877698264356035e-08
+    },
+    {
+      "k": 2,
+      "seed": 7,
+      "rows": 6216,
+      "positives": 651,
+      "weight_sum": 259.0,
+      "iterations": 75,
+      "normalized_L2_gradient_max": 1.2780125605584372e-08
+    },
+    {
+      "k": 2,
+      "seed": 101,
+      "rows": 6216,
+      "positives": 649,
+      "weight_sum": 259.0,
+      "iterations": 77,
+      "normalized_L2_gradient_max": 1.380400193079222e-08
+    },
+    {
+      "k": 2,
+      "seed": 2024,
+      "rows": 6216,
+      "positives": 657,
+      "weight_sum": 259.0,
+      "iterations": 76,
+      "normalized_L2_gradient_max": 9.739699319926106e-09
+    },
+    {
+      "k": 3,
+      "seed": 7,
+      "rows": 6408,
+      "positives": 710,
+      "weight_sum": 267.0,
+      "iterations": 80,
+      "normalized_L2_gradient_max": 1.3733068357062896e-08
+    },
+    {
+      "k": 3,
+      "seed": 101,
+      "rows": 6408,
+      "positives": 721,
+      "weight_sum": 267.0,
+      "iterations": 78,
+      "normalized_L2_gradient_max": 1.989389591658761e-08
+    },
+    {
+      "k": 3,
+      "seed": 2024,
+      "rows": 6408,
+      "positives": 733,
+      "weight_sum": 267.0,
+      "iterations": 84,
+      "normalized_L2_gradient_max": 1.6024374126415285e-08
+    }
+  ],
+  "max_risk_reconstruction_error": 4.440892098500626e-16,
+  "rows": 10152,
+  "unique_days": 141,
+  "ordinary_days": 133,
+  "high_days": 8,
+  "modified_seed_rows": 57,
+  "modified_unique_days": 4,
+  "modified_days": [
+    "F13_177",
+    "F47_161",
+    "F47_170",
+    "F47_173"
+  ],
+  "high_modified_rows": [
+    {
+      "row_id": "F13_177_00",
+      "seed": 101,
+      "y": 0.979,
+      "A": 0.8949201128475881,
+      "candidate": 0.892560081688208,
+      "risk": 0.8256953103446159,
+      "delta": 0.002360031159380105,
+      "sse_change": 0.0004024320541869547
+    }
+  ],
+  "risk_checks": [
+    {
+      "seed": 7,
+      "auc": 0.8451071789233854,
+      "high_modified_rows": 0,
+      "pass2_tested": false
+    },
+    {
+      "seed": 101,
+      "auc": 0.8535986223780576,
+      "high_modified_rows": 1,
+      "pass2_tested": false
+    },
+    {
+      "seed": 2024,
+      "auc": 0.8375185596362049,
+      "high_modified_rows": 0,
+      "pass2_tested": false
+    }
+  ],
+  "seed_mean": {
+    "all": {
+      "rows": 3384,
+      "days": 141,
+      "baseline": 0.13168850459792728,
+      "candidate": 0.13100605550130823,
+      "change_pct": -0.5182298171755417,
+      "mse_delta": -0.0001792756652264616
+    },
+    "ordinary": {
+      "rows": 3192,
+      "days": 133,
+      "baseline": 0.10824889289982054,
+      "candidate": 0.10736725030462822,
+      "change_pct": -0.814458764033954,
+      "mse_delta": -0.00019009637606012881
+    },
+    "high": {
+      "rows": 192,
+      "days": 8,
+      "baseline": 0.33292869770224554,
+      "candidate": 0.3329296268073727,
+      "change_pct": 0.0002790703035104869,
+      "mse_delta": 6.186523832557656e-07
+    }
+  },
+  "pass2_status": "UNTESTED_ZERO_ROWS_ALL_SEEDS",
+  "full80": false,
+  "adoption": false,
+  "limitations": [
+    "audit pass is arithmetic/provenance verification, not efficacy pass",
+    "three seeds share dates;57 modifications are seed-row events",
+    "gradient threshold1e-6 is audit stationarity check, not a changed candidate acceptance rule"
+  ]
+}
