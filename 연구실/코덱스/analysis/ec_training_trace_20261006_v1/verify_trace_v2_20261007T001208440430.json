@@ -1,0 +1,342 @@
+{
+  "status": "PASS_FULL_TREE_SUPPORT_TRACE",
+  "new_fit": 0,
+  "models": [
+    {
+      "name": "common_7",
+      "train_rows": 4632,
+      "query_rows": 96,
+      "trees": 600,
+      "nodes": 4846618,
+      "replay_maxdiff": 4.218847493575595e-15,
+      "node_mean_maxdiff": 4.440892098500626e-15,
+      "weighted_prediction_maxdiff": 5.551115123125783e-16
+    },
+    {
+      "name": "common_101",
+      "train_rows": 4632,
+      "query_rows": 96,
+      "trees": 600,
+      "nodes": 4846420,
+      "replay_maxdiff": 4.884981308350689e-15,
+      "node_mean_maxdiff": 4.440892098500626e-15,
+      "weighted_prediction_maxdiff": 6.661338147750939e-16
+    },
+    {
+      "name": "common_2024",
+      "train_rows": 4632,
+      "query_rows": 96,
+      "trees": 600,
+      "nodes": 4847772,
+      "replay_maxdiff": 3.552713678800501e-15,
+      "node_mean_maxdiff": 3.774758283725532e-15,
+      "weighted_prediction_maxdiff": 4.440892098500626e-16
+    },
+    {
+      "name": "purged1_7",
+      "train_rows": 6432,
+      "query_rows": 96,
+      "trees": 600,
+      "nodes": 6719974,
+      "replay_maxdiff": 5.551115123125783e-15,
+      "node_mean_maxdiff": 5.551115123125783e-15,
+      "weighted_prediction_maxdiff": 5.551115123125783e-16
+    },
+    {
+      "name": "actual0_7",
+      "train_rows": 6288,
+      "query_rows": 48,
+      "trees": 600,
+      "nodes": 6578758,
+      "replay_maxdiff": 2.886579864025407e-15,
+      "node_mean_maxdiff": 6.661338147750939e-15,
+      "weighted_prediction_maxdiff": 3.3306690738754696e-16
+    },
+    {
+      "name": "actual1_7",
+      "train_rows": 6552,
+      "query_rows": 24,
+      "trees": 600,
+      "nodes": 6850080,
+      "replay_maxdiff": 4.6629367034256575e-15,
+      "node_mean_maxdiff": 6.772360450213455e-15,
+      "weighted_prediction_maxdiff": 4.440892098500626e-16
+    }
+  ],
+  "query_rows": 456,
+  "trees": 3600,
+  "nodes_reconstructed": 34689622,
+  "first_split_child_rows": 9542,
+  "support_rows": 13990,
+  "support_day_rows": 1729,
+  "pair_delta_rows": 8936,
+  "phi_rows": 2945,
+  "phi_checks": [
+    {
+      "farm": "F47",
+      "group": "season",
+      "model_prediction_change": -0.0024907222222222266
+    },
+    {
+      "farm": "F47",
+      "group": "in_temp",
+      "model_prediction_change": 0.03292802777777737
+    },
+    {
+      "farm": "F47",
+      "group": "in_hum",
+      "model_prediction_change": -0.013148500000000153
+    },
+    {
+      "farm": "F47",
+      "group": "in_co2",
+      "model_prediction_change": 0.2758919166666669
+    },
+    {
+      "farm": "F47",
+      "group": "act_heating",
+      "model_prediction_change": 0.2500626111111116
+    },
+    {
+      "farm": "F13",
+      "group": "season",
+      "model_prediction_change": 0.10213625000000023
+    },
+    {
+      "farm": "F13",
+      "group": "in_temp",
+      "model_prediction_change": 0.006767916666666673
+    },
+    {
+      "farm": "F13",
+      "group": "in_hum",
+      "model_prediction_change": 0.03997652777777776
+    },
+    {
+      "farm": "F13",
+      "group": "in_co2",
+      "model_prediction_change": -0.043384722222221964
+    },
+    {
+      "farm": "F13",
+      "group": "act_heating",
+      "model_prediction_change": 0.15882569444444433
+    }
+  ],
+  "smooth_day_profiles": [
+    {
+      "context": "common_7",
+      "farm": "F13",
+      "day": 98,
+      "prediction": 0.4262295427044082,
+      "true_day": 0.39937500000000004,
+      "high_row_weight": 0.00608542040881644,
+      "high_day_weight": 0.005882408830624333,
+      "F13_weight": 0.8886283256996022,
+      "support_days": 50
+    },
+    {
+      "context": "common_7",
+      "farm": "F13",
+      "day": 112,
+      "prediction": 0.6833140428773311,
+      "true_day": 0.39633333333333337,
+      "high_row_weight": 0.07684241201300474,
+      "high_day_weight": 0.059298343199840224,
+      "F13_weight": 0.45447452767287533,
+      "support_days": 66
+    },
+    {
+      "context": "common_7",
+      "farm": "F47",
+      "day": 160,
+      "prediction": 0.7264585610710125,
+      "true_day": 0.6937083333333334,
+      "high_row_weight": 0.02719025350844629,
+      "high_day_weight": 0.02345223852538479,
+      "F13_weight": 0.12485127409754589,
+      "support_days": 56
+    },
+    {
+      "context": "common_7",
+      "farm": "F47",
+      "day": 161,
+      "prediction": 1.2261751130115268,
+      "true_day": 0.646,
+      "high_row_weight": 0.5504273878324605,
+      "high_day_weight": 0.6283213732731474,
+      "F13_weight": 0.35745661369703396,
+      "support_days": 66
+    },
+    {
+      "context": "common_101",
+      "farm": "F13",
+      "day": 98,
+      "prediction": 0.4204266588012059,
+      "true_day": 0.39937500000000004,
+      "high_row_weight": 0.004519587341488317,
+      "high_day_weight": 0.00425553312769813,
+      "F13_weight": 0.9006983591091487,
+      "support_days": 53
+    },
+    {
+      "context": "common_101",
+      "farm": "F13",
+      "day": 112,
+      "prediction": 0.6833349357604837,
+      "true_day": 0.39633333333333337,
+      "high_row_weight": 0.07707933488769254,
+      "high_day_weight": 0.07193266860782502,
+      "F13_weight": 0.4634230436852822,
+      "support_days": 70
+    },
+    {
+      "context": "common_101",
+      "farm": "F47",
+      "day": 160,
+      "prediction": 0.7059149564651217,
+      "true_day": 0.6937083333333334,
+      "high_row_weight": 0.020134732780320033,
+      "high_day_weight": 0.018029898576922207,
+      "F13_weight": 0.10849583892477464,
+      "support_days": 53
+    },
+    {
+      "context": "common_101",
+      "farm": "F47",
+      "day": 161,
+      "prediction": 1.1685762135287057,
+      "true_day": 0.646,
+      "high_row_weight": 0.5121459163209746,
+      "high_day_weight": 0.5865212751534977,
+      "F13_weight": 0.3742528398170089,
+      "support_days": 65
+    },
+    {
+      "context": "common_2024",
+      "farm": "F13",
+      "day": 98,
+      "prediction": 0.4230313948408333,
+      "true_day": 0.39937500000000004,
+      "high_row_weight": 0.008966771233303784,
+      "high_day_weight": 0.008591700444612702,
+      "F13_weight": 0.8819871703536151,
+      "support_days": 57
+    },
+    {
+      "context": "common_2024",
+      "farm": "F13",
+      "day": 112,
+      "prediction": 0.6928628520979877,
+      "true_day": 0.39633333333333337,
+      "high_row_weight": 0.07773085789361708,
+      "high_day_weight": 0.05993660059167646,
+      "F13_weight": 0.4789122943762485,
+      "support_days": 64
+    },
+    {
+      "context": "common_2024",
+      "farm": "F47",
+      "day": 160,
+      "prediction": 0.717908684892414,
+      "true_day": 0.6937083333333334,
+      "high_row_weight": 0.024080003600019648,
+      "high_day_weight": 0.018546648561814004,
+      "F13_weight": 0.13551082879969023,
+      "support_days": 52
+    },
+    {
+      "context": "common_2024",
+      "farm": "F47",
+      "day": 161,
+      "prediction": 1.195564895514491,
+      "true_day": 0.646,
+      "high_row_weight": 0.5170632114151382,
+      "high_day_weight": 0.5866891310261648,
+      "F13_weight": 0.3990791851701736,
+      "support_days": 64
+    },
+    {
+      "context": "purged1_7",
+      "farm": "F13",
+      "day": 98,
+      "prediction": 0.4611807500206985,
+      "true_day": 0.39937500000000004,
+      "high_row_weight": 0.0036052195795489603,
+      "high_day_weight": 0.003491727498918315,
+      "F13_weight": 0.7646375863178989,
+      "support_days": 50
+    },
+    {
+      "context": "purged1_7",
+      "farm": "F13",
+      "day": 112,
+      "prediction": 0.5911018464705428,
+      "true_day": 0.39633333333333337,
+      "high_row_weight": 0.025475803022689945,
+      "high_day_weight": 0.02206115507292325,
+      "F13_weight": 0.5148625602296749,
+      "support_days": 61
+    },
+    {
+      "context": "purged1_7",
+      "farm": "F47",
+      "day": 160,
+      "prediction": 0.7214963598839133,
+      "true_day": 0.6937083333333334,
+      "high_row_weight": 0.03183087465838726,
+      "high_day_weight": 0.03471827998946264,
+      "F13_weight": 0.30793944996270745,
+      "support_days": 63
+    },
+    {
+      "context": "purged1_7",
+      "farm": "F47",
+      "day": 161,
+      "prediction": 1.3650746581996707,
+      "true_day": 0.646,
+      "high_row_weight": 0.6030054507036234,
+      "high_day_weight": 0.6920854377884652,
+      "F13_weight": 0.3098174833615829,
+      "support_days": 61
+    },
+    {
+      "context": "actual0_7",
+      "farm": "F13",
+      "day": 112,
+      "prediction": 0.6870730058415774,
+      "true_day": 0.39633333333333337,
+      "high_row_weight": 0.039639820950951046,
+      "high_day_weight": 0.036781778376000565,
+      "F13_weight": 0.33162875074696574,
+      "support_days": 72
+    },
+    {
+      "context": "actual0_7",
+      "farm": "F47",
+      "day": 160,
+      "prediction": 0.7343686285021782,
+      "true_day": 0.6937083333333334,
+      "high_row_weight": 0.035778779483427586,
+      "high_day_weight": 0.037329543716815974,
+      "F13_weight": 0.44599355829297255,
+      "support_days": 47
+    },
+    {
+      "context": "actual1_7",
+      "farm": "F47",
+      "day": 161,
+      "prediction": 1.4113613901974928,
+      "true_day": 0.646,
+      "high_row_weight": 0.6250372334208446,
+      "high_day_weight": 0.7021292899851324,
+      "F13_weight": 0.28834533163779247,
+      "support_days": 62
+    }
+  ],
+  "limitations": [
+    "saved fixed ET arithmetic and real training support, not retraining removal effect",
+    "raw ET and linearly smoothed support are distinct",
+    "no PFN/full-ensemble/physical causality or adoption proof"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS_EXAMPLES_AND_FINAL_SIGNED_BIAS_LINK",
+  "example_rows": 14,
+  "feature_columns": 38,
+  "composition_rows": [
+    {
+      "context": "actual0_7",
+      "farm": "F47",
+      "day": 160,
+      "signed_bias": 0.06389671811257713,
+      "ET_signed_bias": 0.01951694168104579,
+      "ET_fraction_of_signed_bias": 0.3054451348605988
+    },
+    {
+      "context": "actual1_7",
+      "farm": "F47",
+      "day": 161,
+      "signed_bias": 0.4970338525936949,
+      "ET_signed_bias": 0.3673734672947971,
+      "ET_fraction_of_signed_bias": 0.7391316816303658
+    },
+    {
+      "context": "actual0_7",
+      "farm": "F13",
+      "day": 112,
+      "signed_bias": 0.282784019778261,
+      "ET_signed_bias": 0.1395550428039575,
+      "ET_fraction_of_signed_bias": 0.4935039925996758
+    }
+  ],
+  "clipping_active": false,
+  "new_fit": 0,
+  "scope": "seed7 actual OOF signed mean bias; not RMSE/SSE attribution or full3seed attribution; PFN support not traced"
+}
