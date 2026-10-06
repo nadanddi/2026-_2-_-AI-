@@ -1,0 +1,52 @@
+
+=== DIAG10: 360 days, row RMSE 0.1785
+SSE concentration: top 5 days 41%, top 10 54%, top 20 70%
+classes: {'ok': 310, 'over': 28, 'under': 22} | SSE share: high days 66%, sealed>=.8 days 68%, TM days 43%
+       days     y     p  sealed    hi  sse_share
+cls                                             
+ok      310  0.45  0.45    0.45  0.04      13.97
+over     28  0.58  0.86    0.82  0.07      22.35
+under    22  1.49  1.05    0.85  0.77      63.68
+top 15 days:
+farm  day  pass    y    p   res   cls  sealed    TM  share%
+ F47  132     1 2.71 1.24  1.47 under    1.00  True   20.58
+ F13  178     1 1.84 1.08  0.76 under    0.58 False    7.26
+ F47  231     2 2.18 1.50  0.68 under    1.00 False    5.15
+ F13  243     2 1.72 0.99  0.73 under    0.79 False    4.71
+ F47  145     1 2.14 1.60  0.54 under    0.88 False    3.52
+ F47  177     1 1.49 1.03  0.46 under    0.67  True    3.13
+ F47  130     1 0.49 1.05 -0.56  over    0.88 False    2.83
+ F13  217     2 1.69 1.19  0.50 under    1.00  True    2.28
+ F47  161     1 0.65 1.15 -0.51  over    0.83 False    2.26
+ F13  233     2 0.63 1.12 -0.49  over    1.00  True    2.14
+ F13  175     1 1.27 0.95  0.32 under    0.71 False    2.12
+ F13  139     1 1.30 0.95  0.35 under    1.00  True    1.87
+ F13  121     1 1.32 0.89  0.43 under    1.00 False    1.84
+ F47  229     2 1.79 1.34  0.45 under    1.00  True    1.81
+ F13  241     2 1.43 0.99  0.44 under    0.83 False    1.78
+
+=== P2LOO: 46 days, row RMSE 0.1944
+SSE concentration: top 5 days 69%, top 10 92%, top 20 98%
+classes: {'ok': 35, 'over': 7, 'under': 4} | SSE share: high days 56%, sealed>=.8 days 80%, TM days 55%
+       days     y     p  sealed    hi  sse_share
+cls                                             
+ok       35  0.43  0.43    0.42  0.00       6.42
+over      7  0.75  1.04    0.82  0.14      41.26
+under     4  1.84  1.41    0.95  1.00      52.32
+top 15 days:
+farm  day  pass    y    p   res   cls  sealed    TM  share%
+ F47  231     2 2.18 1.67  0.51 under    1.00 False   20.44
+ F13  217     2 1.69 1.19  0.50 under    1.00  True   15.12
+ F13  233     2 0.63 1.11 -0.48  over    1.00  True   13.04
+ F47  229     2 1.79 1.34  0.45 under    1.00  True   12.02
+ F13  214     2 0.92 1.28 -0.36  over    1.00  True    8.71
+ F47  241     2 0.65 1.00 -0.34  over    0.79 False    7.09
+ F47  216     2 0.56 0.84 -0.28  over    1.00  True    4.76
+ F13  243     2 1.72 1.46  0.26 under    0.79 False    4.74
+ F13  241     2 1.43 1.66 -0.23  over    0.83 False    3.63
+ F13  231     2 0.62 0.80 -0.18  over    0.92 False    2.06
+ F47  243     2 0.45 0.61 -0.16  over    0.21 False    1.98
+ F13  212     2 0.29 0.42 -0.13    ok    0.33 False    0.92
+ F47  209     2 0.65 0.55  0.10    ok    0.17 False    0.67
+ F13  180     2 0.29 0.37 -0.08    ok    0.04 False    0.65
+ F13  213     2 0.29 0.38 -0.08    ok    0.62  True    0.63
