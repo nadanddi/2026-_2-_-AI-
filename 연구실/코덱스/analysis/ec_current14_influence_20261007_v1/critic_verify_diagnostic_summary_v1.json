@@ -1,0 +1,122 @@
+{
+  "status": "PASS_DIAGNOSTIC_ARITHMETIC_AND_PARENT_SUPPORT_RECEIPT_REVIEW",
+  "fit": 0,
+  "day_changes": 2880,
+  "summary_cells": 8,
+  "support_profiles": 9,
+  "largest_changes": 48,
+  "important_support": {
+    "BASE": {
+      "smooth_high_day_weight": 0.701606209424876,
+      "smooth_ET": 1.4060482247986386,
+      "top_support": [
+        {
+          "farm": "F47",
+          "day": 139,
+          "weight": 0.17867833996849178,
+          "weighted_ec": 1.637094476034933
+        },
+        {
+          "farm": "F47",
+          "day": 231,
+          "weight": 0.16201370669138204,
+          "weighted_ec": 2.021594490511463
+        },
+        {
+          "farm": "F47",
+          "day": 145,
+          "weight": 0.1316909424017775,
+          "weighted_ec": 2.1070281588216453
+        },
+        {
+          "farm": "F13",
+          "day": 137,
+          "weight": 0.10088268497460433,
+          "weighted_ec": 1.0436847351622325
+        },
+        {
+          "farm": "F47",
+          "day": 241,
+          "weight": 0.08685444889650658,
+          "weighted_ec": 0.6320740957365716
+        }
+      ]
+    },
+    "D1": {
+      "smooth_high_day_weight": 0.6963178865916315,
+      "smooth_ET": 1.4129226470355905,
+      "top_support": [
+        {
+          "farm": "F47",
+          "day": 231,
+          "weight": 0.23389920485811982,
+          "weighted_ec": 2.015454786650795
+        },
+        {
+          "farm": "F47",
+          "day": 145,
+          "weight": 0.13562488247974425,
+          "weighted_ec": 2.1259748559067497
+        },
+        {
+          "farm": "F13",
+          "day": 137,
+          "weight": 0.10007628652241618,
+          "weighted_ec": 1.0350258187866583
+        },
+        {
+          "farm": "F47",
+          "day": 241,
+          "weight": 0.08371246560203652,
+          "weighted_ec": 0.6375971627789812
+        },
+        {
+          "farm": "F47",
+          "day": 138,
+          "weight": 0.06355672554633165,
+          "weighted_ec": 1.725505809935601
+        }
+      ]
+    },
+    "D2": {
+      "smooth_high_day_weight": 0.6230300355028602,
+      "smooth_ET": 1.2605586647642826,
+      "top_support": [
+        {
+          "farm": "F47",
+          "day": 145,
+          "weight": 0.17824615168018285,
+          "weighted_ec": 2.097957752328861
+        },
+        {
+          "farm": "F13",
+          "day": 137,
+          "weight": 0.1304010710231413,
+          "weighted_ec": 1.030252779861992
+        },
+        {
+          "farm": "F47",
+          "day": 241,
+          "weight": 0.10738538506099626,
+          "weighted_ec": 0.6293353602756103
+        },
+        {
+          "farm": "F47",
+          "day": 138,
+          "weight": 0.09069108658901912,
+          "weighted_ec": 1.7327873823824305
+        },
+        {
+          "farm": "F13",
+          "day": 159,
+          "weight": 0.06825498887777046,
+          "weighted_ec": 0.6023342129127393
+        }
+      ]
+    }
+  },
+  "parent_audit_trees": 1800,
+  "parent_audit_nodes": 20321234,
+  "parent_audit_ownership": "Parent wrote/executed routing/count/mean/weights audit; critic code+receipt/hash review only, no duplicate tree routing.",
+  "ratio_warning": "selected_fraction with a negative net gain is a signed arithmetic ratio, not a share of improvement."
+}

@@ -1,0 +1,118 @@
+{
+  "status": "COMPLETE_DIAGNOSTIC_SUMMARY",
+  "source_sha": "d9d0c281bde3726872daadaefbde0a697602c5e3db56ce28a422edb8529f1c2d",
+  "source_scores_sha": "1de4e5f4a8f235f2d45704fd5ced9fafb7adaaa9582c2f4c220eb9601c215ba2",
+  "summaries": [
+    {
+      "arm": "D1",
+      "seed": "7",
+      "ordinary_net_sse_gain": -0.4735860520211901,
+      "F47_161_sse_gain": -0.07804596219287152,
+      "selected_fraction_of_ordinary_net_gain": 0.164797847951357,
+      "ordinary_remaining_delta_sse": 0.3955400898283159,
+      "improved_days": 163,
+      "worse_days": 157,
+      "unchanged_days": 40,
+      "positive_loss_sum": 4.903709598201688,
+      "negative_loss_sum": -4.55509952537735
+    },
+    {
+      "arm": "D1",
+      "seed": "101",
+      "ordinary_net_sse_gain": 0.5664272670052668,
+      "F47_161_sse_gain": 0.025616442416656504,
+      "selected_fraction_of_ordinary_net_gain": 0.045224592650866,
+      "ordinary_remaining_delta_sse": -0.5408108245886183,
+      "improved_days": 149,
+      "worse_days": 171,
+      "unchanged_days": 40,
+      "positive_loss_sum": 4.391734036451319,
+      "negative_loss_sum": -5.278084019536695
+    },
+    {
+      "arm": "D1",
+      "seed": "2024",
+      "ordinary_net_sse_gain": -1.5754751674878946,
+      "F47_161_sse_gain": -0.5091826542370947,
+      "selected_fraction_of_ordinary_net_gain": 0.3231930688244295,
+      "ordinary_remaining_delta_sse": 1.0662925132507723,
+      "improved_days": 148,
+      "worse_days": 172,
+      "unchanged_days": 40,
+      "positive_loss_sum": 5.665333068659155,
+      "negative_loss_sum": -4.2331608822564135
+    },
+    {
+      "arm": "D1",
+      "seed": "ensemble",
+      "ordinary_net_sse_gain": -0.29284731135390984,
+      "F47_161_sse_gain": -0.18639750047384762,
+      "selected_fraction_of_ordinary_net_gain": 0.6365006378651152,
+      "ordinary_remaining_delta_sse": 0.10644981088006489,
+      "improved_days": 143,
+      "worse_days": 177,
+      "unchanged_days": 40,
+      "positive_loss_sum": 3.3477450348025095,
+      "negative_loss_sum": -3.291703630844118
+    },
+    {
+      "arm": "D2",
+      "seed": "7",
+      "ordinary_net_sse_gain": 0.8124713069073408,
+      "F47_161_sse_gain": 1.591938954920968,
+      "selected_fraction_of_ordinary_net_gain": 1.959378677606054,
+      "ordinary_remaining_delta_sse": 0.7794676480136218,
+      "improved_days": 188,
+      "worse_days": 172,
+      "unchanged_days": 0,
+      "positive_loss_sum": 14.203138026351215,
+      "negative_loss_sum": -5.806892337222901
+    },
+    {
+      "arm": "D2",
+      "seed": "101",
+      "ordinary_net_sse_gain": 2.2390852772858665,
+      "F47_161_sse_gain": 1.449352945914553,
+      "selected_fraction_of_ordinary_net_gain": 0.6472968942350438,
+      "ordinary_remaining_delta_sse": -0.7897323313713116,
+      "improved_days": 173,
+      "worse_days": 187,
+      "unchanged_days": 0,
+      "positive_loss_sum": 12.77496108718788,
+      "negative_loss_sum": -8.330627015589965
+    },
+    {
+      "arm": "D2",
+      "seed": "2024",
+      "ordinary_net_sse_gain": 0.3720765280312577,
+      "F47_161_sse_gain": 1.3346370685210012,
+      "selected_fraction_of_ordinary_net_gain": 3.586996136474591,
+      "ordinary_remaining_delta_sse": 0.9625605404897328,
+      "improved_days": 165,
+      "worse_days": 195,
+      "unchanged_days": 0,
+      "positive_loss_sum": 13.415596206320854,
+      "negative_loss_sum": -5.267080179558965
+    },
+    {
+      "arm": "D2",
+      "seed": "ensemble",
+      "ordinary_net_sse_gain": 1.3588224612093711,
+      "F47_161_sse_gain": 1.457455570066716,
+      "selected_fraction_of_ordinary_net_gain": 1.0725871934509825,
+      "ordinary_remaining_delta_sse": 0.09863310885734222,
+      "improved_days": 165,
+      "worse_days": 195,
+      "unchanged_days": 0,
+      "positive_loss_sum": 12.278538034377377,
+      "negative_loss_sum": -5.132230692628192
+    }
+  ],
+  "files": {
+    "day_changes_v1.csv": "b1fcf09c9d357ecb3822c10823e2dc0a01ef9a99432f8ca537c67ceadee3082d",
+    "largest_losses_v1.csv": "75c952a46e0ed28e1df7b28c1c1950081f7c568d54abcb70e555d50a9c597e63",
+    "largest_gains_v1.csv": "299fb8e5e0192013498bf4f5777419275ed49c3ab389b10664c5fd6ab086d755",
+    "support_shifts_v1.csv": "0cb0459f309ad979c2a606f96e4956d89bee054c54652688b3852ae9ec29dc5f"
+  },
+  "adoption": false
+}

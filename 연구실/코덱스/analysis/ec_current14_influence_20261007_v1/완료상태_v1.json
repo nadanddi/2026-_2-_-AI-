@@ -1,0 +1,73 @@
+{
+  "status": "COMPLETE_CURRENT14_AND_ET_DELETION_DIAGNOSTICS",
+  "completed_at": "2026-10-07T03:28:44.943878",
+  "counts": {
+    "baseline_rows.csv": {
+      "rows": 34560,
+      "unique_row_ids": 8640,
+      "unique_days": 360
+    },
+    "ablation_rows.csv": {
+      "rows": 69120,
+      "unique_row_ids": 8640,
+      "unique_days": 360
+    }
+  },
+  "new_fits": {
+    "baseline_classic": 90,
+    "deletion_ET": 57,
+    "baseline_trace_ET": 1,
+    "PFN": 0
+  },
+  "source_registration": [
+    "b8d40fb",
+    "f570b01",
+    "42dd5ad"
+  ],
+  "selected_case_tags": {
+    "D1": {
+      "SELECTED_CASE_DEPENDENCE": false,
+      "RESIDUAL_STATE_CONFUSION": true,
+      "raw_et_day_bias": {
+        "101": 0.7490122222222225,
+        "2024": 0.798070833333333,
+        "7": 0.7704211805555553
+      }
+    },
+    "D2": {
+      "SELECTED_CASE_DEPENDENCE": true,
+      "RESIDUAL_STATE_CONFUSION": true,
+      "raw_et_day_bias": {
+        "101": 0.6177774305555565,
+        "2024": 0.6256748611111115,
+        "7": 0.6275882638888889
+      }
+    }
+  },
+  "adoption": false,
+  "submission_created": false,
+  "new_followup_fit": 0,
+  "final_report": "진단결과_v3.md",
+  "independent_critic": "최종혹독비평_v1.md",
+  "checked_report_links": 7,
+  "files": {
+    "진단결과_v3.md": "f0741fac04cf99066a97635513c877d7cbc472c82051da9aa22497c2bfee2da3",
+    "최종혹독비평_v1.md": "1fdaaa388ef6c05808bebd7fc9247a32111d891e0e720d245ceac7c9734953fc",
+    "보완기록_v2.md": "251f1406b355b0d7bffd681916ad3495d6e3bbe9c5468cbbed11775a55ae29a6",
+    "진단비교_v2.png": "089d25af004871648c0372c562b01021374355545eee4ce33210eea4ffe5956d",
+    "baseline_receipt_v4.json": "de7120b4e34c513db632fc418bc2389197edad8f246cfab4f3796b95076c8f4e",
+    "ablation_receipt_v1.json": "bceb203b7ee38cd6b371a347a92557e74521dcc2f1971877a71827144896223c",
+    "support_audit_v1.json": "3ad29d13caa36909a6d8981f87dc4f330201634cba8a66b33cc3d9fa1e2fb04d",
+    "critic_verify_baseline_v1.json": "5af104510c7914527184ea14f230a1957b48c704f12389ddbdc948e5817c0ef3",
+    "critic_verify_ablation_v1.json": "bd171b0fb2a331344b46663ac5cb331ba06912ea20089514008a75a8fc5d4096",
+    "critic_verify_diagnostic_summary_v1.json": "2a1e7345e4ebf9a445e300e4d9318f8fb13bffe771cdae62cd4803e82644c100",
+    "diagnostic_summary_v1.json": "ee7219bd28690a51216e947202c6afd80c9464bda5ba889167f2cb5c9015abe9",
+    "ablation_score_v1/completion.json": "1de4e5f4a8f235f2d45704fd5ced9fafb7adaaa9582c2f4c220eb9601c215ba2"
+  },
+  "limitations": [
+    "public360days only; actual evaluation60days/A/B/EL1/lock efficacy untested",
+    "tree numeric routing by root; independent critic reviews code/receipt and independently recomputes support summaries",
+    "selected161 diagnostic is not independent generalization evidence",
+    "physical EC cause and label defects unproven"
+  ]
+}

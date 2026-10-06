@@ -1,0 +1,91 @@
+{
+  "status": "PASS_BASELINE_SCOPE_AND_CASE_SUBSET",
+  "fit": 0,
+  "SG2_by_seed_farm": [
+    {
+      "seed": "7",
+      "farm": "F13",
+      "pass1_inactive": 3744,
+      "rows": 4320,
+      "pass2_gate_false": 130,
+      "pass2_gate_true": 446,
+      "nonzero_delta": 446
+    },
+    {
+      "seed": "7",
+      "farm": "F47",
+      "pass1_inactive": 3792,
+      "rows": 4320,
+      "pass2_gate_true": 394,
+      "nonzero_delta": 394,
+      "pass2_gate_false": 134
+    },
+    {
+      "seed": "101",
+      "farm": "F13",
+      "pass1_inactive": 3744,
+      "rows": 4320,
+      "pass2_gate_false": 128,
+      "pass2_gate_true": 448,
+      "nonzero_delta": 448
+    },
+    {
+      "seed": "101",
+      "farm": "F47",
+      "pass1_inactive": 3792,
+      "rows": 4320,
+      "pass2_gate_true": 394,
+      "nonzero_delta": 394,
+      "pass2_gate_false": 134
+    },
+    {
+      "seed": "2024",
+      "farm": "F13",
+      "pass1_inactive": 3744,
+      "rows": 4320,
+      "pass2_gate_false": 125,
+      "pass2_gate_true": 451,
+      "nonzero_delta": 451
+    },
+    {
+      "seed": "2024",
+      "farm": "F47",
+      "pass1_inactive": 3792,
+      "rows": 4320,
+      "pass2_gate_true": 395,
+      "nonzero_delta": 395,
+      "pass2_gate_false": 133
+    },
+    {
+      "seed": "ensemble",
+      "farm": "F13",
+      "pass1_inactive": 3744,
+      "rows": 4320,
+      "pass2_gate_false": 129,
+      "pass2_gate_true": 447,
+      "nonzero_delta": 447
+    },
+    {
+      "seed": "ensemble",
+      "farm": "F47",
+      "pass1_inactive": 3792,
+      "rows": 4320,
+      "pass2_gate_true": 395,
+      "nonzero_delta": 395,
+      "pass2_gate_false": 133
+    }
+  ],
+  "cases": 32,
+  "scope": {
+    "all": 360,
+    "ordinary": 329,
+    "high": 31,
+    "ordinary_closed61": 61,
+    "ordinary_other268": 268,
+    "ordinary_closed_fanlow50": 50,
+    "pass1": 314,
+    "pass2_public46": 46,
+    "F13": 180,
+    "F47": 180
+  }
+}

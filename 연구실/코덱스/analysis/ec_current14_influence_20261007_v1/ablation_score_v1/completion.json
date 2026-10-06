@@ -1,0 +1,32 @@
+{
+  "status": "SCORED_ABLATION",
+  "input_sha": "86bdbe9cca5c0e2fbd2034950a47afee14f8be26fc60b0f82d49320b6f76254b",
+  "source_sha": "74eb5365d1f3b88dd0410dd2b444e737335f7c380806ca6e12746f35030af3ec",
+  "tags": {
+    "D1": {
+      "SELECTED_CASE_DEPENDENCE": false,
+      "RESIDUAL_STATE_CONFUSION": true,
+      "raw_et_day_bias": {
+        "101": 0.7490122222222225,
+        "2024": 0.798070833333333,
+        "7": 0.7704211805555553
+      }
+    },
+    "D2": {
+      "SELECTED_CASE_DEPENDENCE": true,
+      "RESIDUAL_STATE_CONFUSION": true,
+      "raw_et_day_bias": {
+        "101": 0.6177774305555565,
+        "2024": 0.6256748611111115,
+        "7": 0.6275882638888889
+      }
+    }
+  },
+  "files": {
+    "cases.csv": "a95d8b6a57b1106ba298002676ea90255e56d740d90c722f254104042da9b9e5",
+    "days.csv": "36f33372291ac615bf616e11dde4b0f1b36d46d6902d1edbef274fdcf9ebbf9c",
+    "groups.csv": "aea8c54ed1bdfd58df090c0a0500a733e3f22587a272c8bd57407dbe6737edea",
+    "interactions.csv": "5326ce0aaba49f7b8ef299d5ac3339bdc9644689172b37a1ce45f2d5b082a912"
+  },
+  "adoption": false
+}

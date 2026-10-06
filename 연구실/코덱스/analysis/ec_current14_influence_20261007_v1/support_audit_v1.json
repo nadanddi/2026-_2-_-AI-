@@ -1,0 +1,38 @@
+{
+  "status": "PASS_ALL_SAVED_TREE_PATHS_AND_SUPPORT",
+  "new_fit": 0,
+  "models": [
+    {
+      "arm": "BASE",
+      "trees": 600,
+      "nodes": 6801578,
+      "train_rows": 6552,
+      "query_rows": 24,
+      "node_mean_maxdiff": 5.88418203051333e-15,
+      "replay_maxdiff": 3.552713678800501e-15,
+      "sha": "699b9e97b10ac52cd2901a741833ad7c2a37fd03b393f81fe7ba5baa079baccb"
+    },
+    {
+      "arm": "D1",
+      "trees": 600,
+      "nodes": 6773714,
+      "train_rows": 6528,
+      "query_rows": 24,
+      "node_mean_maxdiff": 6.106226635438361e-15,
+      "replay_maxdiff": 3.1086244689504383e-15,
+      "sha": "c982e5f84f61c7b12e91370c1489eaaed3dbe09850e8513a93d8819b5f54dacc"
+    },
+    {
+      "arm": "D2",
+      "trees": 600,
+      "nodes": 6745942,
+      "train_rows": 6504,
+      "query_rows": 24,
+      "node_mean_maxdiff": 5.551115123125783e-15,
+      "replay_maxdiff": 2.6645352591003757e-15,
+      "sha": "865b33da2f2f6464502ec10da4f4c03d1aed1a347b637b82388205a32d6f560f"
+    }
+  ],
+  "total_nodes": 20321234,
+  "source_sha": "058ced25b15ea31aad2e03de10e845873184ee4d38d18f75da4474dde9ceb851"
+}

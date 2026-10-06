@@ -1,0 +1,80 @@
+{
+  "status": "PASS_BASELINE_CACHE_PIPELINE_AND_FSUM_SCORES",
+  "fit": 0,
+  "caches": 30,
+  "rows": 34560,
+  "days": 360,
+  "score_daily_rows": 2880,
+  "group_rows": 96,
+  "max_errors": {
+    "labels": 0.0,
+    "raw_mix": 8.881784197001252e-16,
+    "smooth": 4.440892098500626e-16,
+    "pre_sg2": 4.440892098500626e-16,
+    "sg2_raw_original_function": 4.440892098500626e-16,
+    "final": 4.440892098500626e-16,
+    "candidate_ec": 0.0,
+    "prefix_model": 4.440892098500626e-16,
+    "trace_delta": 2.220446049250313e-16,
+    "daily_truth": 5.551115123125783e-17,
+    "daily_prediction": 4.440892098500626e-16,
+    "daily_bias": 2.220446049250313e-16,
+    "daily_sse": 7.105427357601002e-15,
+    "daily_rmse": 2.220446049250313e-16,
+    "daily_sse_day": 7.105427357601002e-15,
+    "daily_sse_shape": 7.105427357601002e-15,
+    "daily_raw_et": 5.551115123125783e-17,
+    "group_sse": 5.684341886080802e-14,
+    "group_rmse": 1.1102230246251565e-16,
+    "group_bias": 5.551115123125783e-17,
+    "day_fraction": 5.551115123125783e-16,
+    "delta_sse": 5.684341886080802e-14,
+    "rmse_percent": 2.220446049250313e-14,
+    "ensemble_maxdiff": 0.0,
+    "ensemble_mean_absdiff": 0.0
+  },
+  "SG2_status": {
+    "7": {
+      "pass1_inactive": 7536,
+      "pass2_no_candidate": 0,
+      "pass2_gate_false": 264,
+      "pass2_gate_true": 840,
+      "nonzero_delta": 840,
+      "preclip_rows": 0,
+      "postclip_rows": 0
+    },
+    "101": {
+      "pass1_inactive": 7536,
+      "pass2_no_candidate": 0,
+      "pass2_gate_false": 262,
+      "pass2_gate_true": 842,
+      "nonzero_delta": 842,
+      "preclip_rows": 0,
+      "postclip_rows": 0
+    },
+    "2024": {
+      "pass1_inactive": 7536,
+      "pass2_no_candidate": 0,
+      "pass2_gate_false": 258,
+      "pass2_gate_true": 846,
+      "nonzero_delta": 846,
+      "preclip_rows": 0,
+      "postclip_rows": 0
+    },
+    "ensemble": {
+      "pass1_inactive": 7536,
+      "pass2_no_candidate": 0,
+      "pass2_gate_false": 262,
+      "pass2_gate_true": 842,
+      "nonzero_delta": 842,
+      "preclip_rows": 0,
+      "postclip_rows": 0
+    }
+  },
+  "ensemble_vs_mean_post": {
+    "changed_rows": 6,
+    "maxdiff": 0.1001152504461082,
+    "mean_absdiff": 4.4960486910440966e-05
+  },
+  "limitation": "No model refit. Current immutable features and original SG2 correct reused; saved candidate ranking/delta independently recomputed. Physical causality/adoption not tested."
+}

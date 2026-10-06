@@ -1,0 +1,55 @@
+{
+  "status": "PASS_ACTUAL_ENSEMBLE_SG2_SIX_NONVACUOUS_PREFIX_PERTURBATIONS",
+  "checks": [
+    {
+      "fold": 4,
+      "farm": "F13",
+      "cut": 4315,
+      "allowed_rows": 404,
+      "active_correction_rows": 15,
+      "maxdiff": 0.0
+    },
+    {
+      "fold": 4,
+      "farm": "F13",
+      "cut": 4343,
+      "allowed_rows": 432,
+      "active_correction_rows": 43,
+      "maxdiff": 0.0
+    },
+    {
+      "fold": 4,
+      "farm": "F13",
+      "cut": 4372,
+      "allowed_rows": 461,
+      "active_correction_rows": 72,
+      "maxdiff": 0.0
+    },
+    {
+      "fold": 4,
+      "farm": "F47",
+      "cut": 4305,
+      "allowed_rows": 442,
+      "active_correction_rows": 10,
+      "maxdiff": 0.0
+    },
+    {
+      "fold": 4,
+      "farm": "F47",
+      "cut": 4319,
+      "allowed_rows": 456,
+      "active_correction_rows": 24,
+      "maxdiff": 0.0
+    },
+    {
+      "fold": 4,
+      "farm": "F47",
+      "cut": 4333,
+      "allowed_rows": 470,
+      "active_correction_rows": 38,
+      "maxdiff": 0.0
+    }
+  ],
+  "fit": 0,
+  "scope": "SG2 only, ensemble, one public-P2-containing fold per farm, three cutoff fractions. Not an exhaustive test of all models/folds/hours."
+}
