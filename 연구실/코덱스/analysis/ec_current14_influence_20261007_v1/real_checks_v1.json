@@ -1,0 +1,93 @@
+{
+  "status": "PASS_REAL_INPUT_AND_SG2_CAUSALITY",
+  "checks": [
+    {
+      "kind": "nonseason_features",
+      "farm": "F13",
+      "cut": 1151,
+      "rows": 960
+    },
+    {
+      "kind": "nonseason_features",
+      "farm": "F13",
+      "cut": 2591,
+      "rows": 2400
+    },
+    {
+      "kind": "nonseason_features",
+      "farm": "F13",
+      "cut": 4031,
+      "rows": 3840
+    },
+    {
+      "kind": "nonseason_features",
+      "farm": "F47",
+      "cut": 1103,
+      "rows": 960
+    },
+    {
+      "kind": "nonseason_features",
+      "farm": "F47",
+      "cut": 2543,
+      "rows": 2400
+    },
+    {
+      "kind": "nonseason_features",
+      "farm": "F47",
+      "cut": 3983,
+      "rows": 3840
+    },
+    {
+      "kind": "SG2_future_other_farm_predictions",
+      "fold": 4,
+      "farm": "F13",
+      "cut": 4315,
+      "rows": 404,
+      "changed_rows_in_tested_prefix": 2
+    },
+    {
+      "kind": "SG2_future_other_farm_predictions",
+      "fold": 4,
+      "farm": "F13",
+      "cut": 4343,
+      "rows": 432,
+      "changed_rows_in_tested_prefix": 2
+    },
+    {
+      "kind": "SG2_future_other_farm_predictions",
+      "fold": 4,
+      "farm": "F13",
+      "cut": 4372,
+      "rows": 461,
+      "changed_rows_in_tested_prefix": 2
+    },
+    {
+      "kind": "SG2_future_other_farm_predictions",
+      "fold": 4,
+      "farm": "F47",
+      "cut": 4305,
+      "rows": 442,
+      "changed_rows_in_tested_prefix": 0
+    },
+    {
+      "kind": "SG2_future_other_farm_predictions",
+      "fold": 4,
+      "farm": "F47",
+      "cut": 4319,
+      "rows": 456,
+      "changed_rows_in_tested_prefix": 0
+    },
+    {
+      "kind": "SG2_future_other_farm_predictions",
+      "fold": 4,
+      "farm": "F47",
+      "cut": 4333,
+      "rows": 470,
+      "changed_rows_in_tested_prefix": 0
+    }
+  ],
+  "fullref_package_equivalence": true,
+  "fit": 0,
+  "model_predictions_recomputed": false,
+  "season_held_by_training_recipe": true
+}
