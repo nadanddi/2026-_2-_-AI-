@@ -1,0 +1,79 @@
+DIAG10/0 done
+DIAG10/1 done
+DIAG10/2 done
+DIAG10/3 done
+DIAG10/4 done
+DIAG10/5 done
+DIAG10/6 done
+DIAG10/7 done
+DIAG10/8 done
+DIAG10/9 done
+EL1/56 done
+EL1/57 done
+EL1/58 done
+EL1/59 done
+EL1/60 done
+EL1/61 done
+EL1/62 done
+EL1/63 done
+EL1/64 done
+EL1/65 done
+P2LOO/10 done
+P2LOO/11 done
+P2LOO/12 done
+P2LOO/13 done
+P2LOO/14 done
+P2LOO/15 done
+P2LOO/16 done
+P2LOO/17 done
+P2LOO/18 done
+P2LOO/19 done
+P2LOO/20 done
+P2LOO/21 done
+P2LOO/22 done
+P2LOO/23 done
+P2LOO/24 done
+P2LOO/25 done
+P2LOO/26 done
+P2LOO/27 done
+P2LOO/28 done
+P2LOO/29 done
+P2LOO/30 done
+P2LOO/31 done
+P2LOO/32 done
+P2LOO/33 done
+P2LOO/34 done
+P2LOO/35 done
+P2LOO/36 done
+P2LOO/37 done
+P2LOO/38 done
+P2LOO/39 done
+P2LOO/40 done
+P2LOO/41 done
+P2LOO/42 done
+P2LOO/43 done
+P2LOO/44 done
+P2LOO/45 done
+P2LOO/46 done
+P2LOO/47 done
+P2LOO/48 done
+P2LOO/49 done
+P2LOO/50 done
+P2LOO/51 done
+P2LOO/52 done
+P2LOO/53 done
+P2LOO/54 done
+P2LOO/55 done
+
+seed-mean RMSE with SG2 (normal / high) by PFN share:
+  TM     w0.4 0.1960 (0.1011/0.6335)  w0.5 0.1925 (0.1012/0.6184)  w0.6 0.1894 (0.1015/0.6045)  w0.8 0.1844 (0.1020/0.5811)  w1.0 0.1816 (0.1043/0.5634)
+  P2LOO  w0.4 0.1856 (0.1369/0.4041)  w0.5 0.1828 (0.1385/0.3875)  w0.6 0.1820 (0.1423/0.3723)  w0.8 0.1815 (0.1491/0.3473)  w1.0 0.1836 (0.1566/0.3304)
+  EL1    w0.4 0.2811 (0.1638/0.7120)  w0.5 0.2779 (0.1692/0.6898)  w0.6 0.2760 (0.1730/0.6748)  w0.8 0.2738 (0.1791/0.6531)  w1.0 0.2738 (0.1860/0.6373)
+
+w 0.5 vs .4: TM s47 -1.9%, TM s1414 -1.7%, TM s6464 -1.7%, P2LOO s47 -1.8%, P2LOO s1414 -0.9%, P2LOO s6464 -1.7%, EL1 s47 -1.0%, EL1 s1414 -1.3%, EL1 s6464 -1.1% | TM P(worse) 0.0305 -> FAIL
+
+w 0.6 vs .4: TM s47 -3.4%, TM s1414 -3.3%, TM s6464 -3.3%, P2LOO s47 -2.3%, P2LOO s1414 -1.7%, P2LOO s6464 -1.9%, EL1 s47 -1.8%, EL1 s1414 -1.7%, EL1 s6464 -2.0% | TM P(worse) 0.0425 -> FAIL
+
+w 0.8 vs .4: TM s47 -6.3%, TM s1414 -5.9%, TM s6464 -5.7%, P2LOO s47 -2.4%, P2LOO s1414 -2.1%, P2LOO s6464 -2.4%, EL1 s47 -2.6%, EL1 s1414 -2.6%, EL1 s6464 -2.8% | TM P(worse) 0.0766 -> FAIL
+
+WT2 decision: keep .4
