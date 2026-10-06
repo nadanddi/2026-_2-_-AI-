@@ -1,0 +1,36 @@
+from pathlib import Path
+import sys,json
+sys.dont_write_bytecode=True
+H=Path(__file__).resolve().parent;sys.path.insert(0,str(H));import run_v1 as R
+np,pd,B=R.np,R.pd,R.B
+def main():
+    receipt=json.loads((H/'receipt_v1.json').read_text(encoding='utf-8'));assert receipt['rows_sha']==B.sha(R.L/'rows.csv') and not (R.L/'worker.lock').exists()
+    raw,_,_=R.prepare();rows=pd.read_csv(R.L/'rows.csv',float_precision='round_trip',dtype={'seed':str});assert len(rows)==69120 and not rows[['arm','seed','row_id']].duplicated().any()
+    rows['error']=rows.prediction-rows.sub_ec;rows['squared_error']=rows.error**2
+    days=rows.groupby(['arm','seed','farm','day']).agg(n=('row_id','size'),truth=('sub_ec','mean'),prediction=('prediction','mean'),bias=('error','mean'),sse=('squared_error','sum'),raw_et=('raw_et','mean')).reset_index();assert (days.n==24).all()
+    x=raw[['row_id','act_vent','act_circfan']].copy();x['farm']=x.row_id.str[:3];x['day']=x.row_id.str[4:7].astype(int);state=x.groupby(['farm','day']).agg(ventzero=('act_vent',lambda s:float((s==0).mean())),fanmean=('act_circfan','mean')).reset_index()
+    days=days.merge(state,on=['farm','day'],validate='many_to_one');days['rmse']=np.sqrt(days.sse/days.n);days['ordinary']=days.truth<1;days['pass2']=days.day>=179;days['closed']=days.ventzero>=.8;days['fanlow']=days.fanmean<10;days['sse_day']=days.n*days.bias**2;days['sse_shape']=days.sse-days.sse_day
+    selected=days.farm.eq('F47')&days.day.eq(161);masks={'all':np.ones(len(days),bool),'ordinary':days.ordinary,'high':~days.ordinary,'ordinary_closed61':days.ordinary&days.closed,'ordinary_other268':days.ordinary&~days.closed,'ordinary_closed_fanlow50':days.ordinary&days.closed&days.fanlow,'pass1':~days.pass2,'pass2_public46':days.pass2,'F13':days.farm.eq('F13'),'F47':days.farm.eq('F47'),'excluding_F47_161':~selected,'ordinary_excluding_F47_161':days.ordinary&~selected}
+    stats=[]
+    for group,mask in masks.items():
+        for (arm,seed),d in days[mask].groupby(['arm','seed']):stats.append(dict(group=group,arm=arm,seed=seed,days=len(d),rows=int(d.n.sum()),sse=float(d.sse.sum()),rmse=float(np.sqrt(d.sse.sum()/d.n.sum())),bias=float(d.bias.mean()),good_days=int((d.rmse<=.1).sum()),severe_days=int((d.rmse>=.2).sum()),day_level_sse_fraction=float(d.sse_day.sum()/d.sse.sum())))
+    stats=pd.DataFrame(stats);base=stats[stats.arm.eq('BASE')][['group','seed','sse','rmse']].rename(columns={'sse':'base_sse','rmse':'base_rmse'});stats=stats.merge(base,on=['group','seed'],validate='many_to_one');stats['delta_sse']=stats.sse-stats.base_sse;stats['rmse_percent']=100*(stats.rmse/stats.base_rmse-1)
+    cases=days[[(f,int(d)) in [('F47',160),('F47',161),('F13',98),('F13',112)] for f,d in zip(days.farm,days.day)]]
+    base=days[days.arm.eq('BASE')].set_index(['seed','farm','day']);alt=days[days.arm.eq(R.ARM)].set_index(['seed','farm','day']).loc[base.index];change=alt[['truth','prediction','raw_et','sse','rmse','ordinary','pass2']].copy();change['delta_sse']=alt.sse-base.sse;change['prediction_change']=alt.prediction-base.prediction;change=change.reset_index()
+    c=cases[cases.farm.eq('F47')&cases.day.eq(161)&cases.seed.ne('ensemble')];b=c[c.arm.eq('BASE')].set_index('seed');a=c[c.arm.eq(R.ARM)].set_index('seed');bias=a.raw_et-a.truth;oldbias=b.raw_et-b.truth;tags=dict(SELECTED_CASE_BIAS_REDUCED_ALL_SEEDS=bool((abs(bias)<abs(oldbias)).all()),RESIDUAL_BIAS_GT_POINT2_ALL_SEEDS=bool((bias>.2).all()),raw_et_bias=bias.to_dict())
+    ensemble_base=days[days.arm.eq('BASE')&days.seed.eq('ensemble')].set_index(['farm','day']);ensemble_alt=days[days.arm.eq(R.ARM)&days.seed.eq('ensemble')].set_index(['farm','day']).loc[ensemble_base.index]
+    rng=np.random.default_rng(32617);draw_arrays={};tot_base=np.zeros(20000);tot_alt=np.zeros(20000);tot_n=np.zeros(20000);block_records=[]
+    for farm in ['F13','F47']:
+        b=ensemble_base.xs(farm,level='farm').copy();a=ensemble_alt.xs(farm,level='farm').loc[b.index];d=pd.DataFrame({'day':b.index,'base_sse':b.sse.to_numpy(),'alt_sse':a.sse.to_numpy(),'n':b.n.to_numpy()});d['block']=d.day//5;blocks=d.groupby('block')[['base_sse','alt_sse','n']].sum();ix=rng.integers(0,len(blocks),size=(20000,len(blocks)),dtype=np.int32);draw_arrays[farm+'_index']=ix;draw_arrays[farm+'_block']=blocks.index.to_numpy();draw_arrays[farm+'_sse']=blocks[['base_sse','alt_sse','n']].to_numpy();tot_base+=blocks.base_sse.to_numpy()[ix].sum(axis=1);tot_alt+=blocks.alt_sse.to_numpy()[ix].sum(axis=1);tot_n+=blocks.n.to_numpy()[ix].sum(axis=1);block_records.extend(dict(farm=farm,block=int(k),**r.to_dict()) for k,r in blocks.iterrows())
+    delta=100*(np.sqrt(tot_alt/tot_n)/np.sqrt(tot_base/tot_n)-1);p=float(np.mean(delta>=0));ci=np.percentile(delta,[2.5,97.5]).tolist();assert np.isfinite(delta).all()
+    s=stats[stats.arm.eq(R.ARM)&stats.seed.ne('ensemble')];allgain=bool((s[s.group.eq('all')].delta_sse<0).all());guard=bool((s[s.group.eq('pass2_public46')].rmse_percent>=2).any());screen=allgain and p<.025
+    interactions=[]
+    for seed in [*map(str,B.SEEDS),'ensemble']:
+        b=rows[rows.arm.eq('BASE')&rows.seed.eq(seed)].set_index('row_id');a=rows[rows.arm.eq(R.ARM)&rows.seed.eq(seed)].set_index('row_id').loc[b.index]
+        interactions.append(dict(seed=seed,gate_flips=int((a.gate!=b.gate).sum()),candidate_changes=int(((a.candidate_day.fillna(-1)!=b.candidate_day.fillna(-1))|(a.candidate_ec.fillna(-1)!=b.candidate_ec.fillna(-1))).sum()),max_sg2_interaction=float(abs((a.sg2_raw-a.pre_sg2)-(b.sg2_raw-b.pre_sg2)).max()),base_preclip=int((abs(b.smooth-b.pre_sg2)>1e-12).sum()),alt_preclip=int((abs(a.smooth-a.pre_sg2)>1e-12).sum()),base_postclip=int((abs(b.sg2_raw-b.prediction)>1e-12).sum()),alt_postclip=int((abs(a.sg2_raw-a.prediction)>1e-12).sum())))
+    O=H/'score_v1';O.mkdir(exist_ok=False)
+    for name,frame in [('days',days),('groups',stats),('cases',cases),('day_changes',change),('interactions',pd.DataFrame(interactions)),('bootstrap_blocks',pd.DataFrame(block_records))]:frame.to_csv(O/(name+'.csv'),index=False)
+    np.savez_compressed(O/'bootstrap_draws.npz',**draw_arrays,rmse_change_percent=delta);pd.DataFrame({'replicate':np.arange(20000),'rmse_change_percent':delta}).to_csv(O/'bootstrap_results.csv',index=False)
+    remaining=float(stats[(stats.arm==R.ARM)&(stats.seed=='ensemble')&(stats.group=='ordinary_excluding_F47_161')].delta_sse.iloc[0]);ordinary=float(stats[(stats.arm==R.ARM)&(stats.seed=='ensemble')&(stats.group=='ordinary')].delta_sse.iloc[0]);selecteddelta=float(change[(change.seed=='ensemble')&(change.farm=='F47')&(change.day==161)].delta_sse.iloc[0])
+    B.write(O/'completion.json',dict(status='SCORED_TWO_H0_DIAGNOSTIC',input_sha=B.sha(R.L/'rows.csv'),source_sha=B.sha(__file__),tags=tags,bootstrap=dict(repeats=20000,RNG=32617,p_worse=p,worse_or_equal_count=int((delta>=0).sum()),CI95_percent=ci,method='farm-stratified replacement of fixed observed farm-day//5 blocks'),DIAG_EXPANSION_SCREEN=bool(screen),PASS2_ADOPTION_HOLD_FLAG=guard,ordinary_delta_sse=ordinary,selected161_delta_sse=selecteddelta,ordinary_remaining_delta_sse=remaining,files={p.name:B.sha(p) for p in O.iterdir()},adoption=False));print('SCORE_TWO_H0_COMPLETE',flush=True)
+if __name__=='__main__':main()
