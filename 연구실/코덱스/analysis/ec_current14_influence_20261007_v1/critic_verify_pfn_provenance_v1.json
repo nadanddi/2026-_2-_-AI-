@@ -1,0 +1,414 @@
+{
+  "status": "PASS_FULL_FEATURE_HASH_AND_40_PFN_CONTEXTS",
+  "fit": 0,
+  "performance_scores": 0,
+  "folds": 10,
+  "caches": 40,
+  "FULL_R3": 47,
+  "BASE_R3": 23,
+  "FULL_PFN": 38,
+  "records": [
+    {
+      "fold": 0,
+      "context_seed": 1,
+      "train_hash": "8bf9c6c64497ef51df950f062843e09c900dd7403e271325c6871a516a9b1012",
+      "query_hash": "8e0f7eeb1151304d2a3319c8d751ad4485b97027dc1c12ef3a448d7429289946",
+      "npz_sha": "5cc6223bfce0abe81c75fbd27b0830ba3ea9eaad267d0ea9e5e289c4811528d5",
+      "context_rows": 2000,
+      "train_rows": 6288,
+      "query_rows": 912
+    },
+    {
+      "fold": 0,
+      "context_seed": 2,
+      "train_hash": "8bf9c6c64497ef51df950f062843e09c900dd7403e271325c6871a516a9b1012",
+      "query_hash": "8e0f7eeb1151304d2a3319c8d751ad4485b97027dc1c12ef3a448d7429289946",
+      "npz_sha": "490fdea2022748c65f76636aefe143d7f9f5591f1df6b2c7f08e076e4b17ada0",
+      "context_rows": 2000,
+      "train_rows": 6288,
+      "query_rows": 912
+    },
+    {
+      "fold": 0,
+      "context_seed": 3,
+      "train_hash": "8bf9c6c64497ef51df950f062843e09c900dd7403e271325c6871a516a9b1012",
+      "query_hash": "8e0f7eeb1151304d2a3319c8d751ad4485b97027dc1c12ef3a448d7429289946",
+      "npz_sha": "f32c566cde91e8e712c24ab26abd3a97e8a9b7489734013c5bc7a3f5057c5fc8",
+      "context_rows": 2000,
+      "train_rows": 6288,
+      "query_rows": 912
+    },
+    {
+      "fold": 0,
+      "context_seed": 4,
+      "train_hash": "8bf9c6c64497ef51df950f062843e09c900dd7403e271325c6871a516a9b1012",
+      "query_hash": "8e0f7eeb1151304d2a3319c8d751ad4485b97027dc1c12ef3a448d7429289946",
+      "npz_sha": "e1d7a17cc486c94bc738eb38912779b1a42d9cee54668f1f84beb8be7e786e70",
+      "context_rows": 2000,
+      "train_rows": 6288,
+      "query_rows": 912
+    },
+    {
+      "fold": 1,
+      "context_seed": 1,
+      "train_hash": "ff3b4e265f9669e34f873707e8dee8360f4b60abf0c4bb27a5bf0b639aa2f60b",
+      "query_hash": "d99fe751d10169fd848e58371ce5aacb8c4d4b2ea5e966f3be5211c46f1d99d9",
+      "npz_sha": "8c60e573be9256dd8e44b9b626fbf00e88b050b1a7e65638b60807d605e025ef",
+      "context_rows": 2000,
+      "train_rows": 6552,
+      "query_rows": 720
+    },
+    {
+      "fold": 1,
+      "context_seed": 2,
+      "train_hash": "ff3b4e265f9669e34f873707e8dee8360f4b60abf0c4bb27a5bf0b639aa2f60b",
+      "query_hash": "d99fe751d10169fd848e58371ce5aacb8c4d4b2ea5e966f3be5211c46f1d99d9",
+      "npz_sha": "67fd5b1b8b3eb2650183315b0d236491fc5c432c652d08cfd8f39733cec1ea62",
+      "context_rows": 2000,
+      "train_rows": 6552,
+      "query_rows": 720
+    },
+    {
+      "fold": 1,
+      "context_seed": 3,
+      "train_hash": "ff3b4e265f9669e34f873707e8dee8360f4b60abf0c4bb27a5bf0b639aa2f60b",
+      "query_hash": "d99fe751d10169fd848e58371ce5aacb8c4d4b2ea5e966f3be5211c46f1d99d9",
+      "npz_sha": "3873245c34212a59a2bfc34c1b76edca813a3052600b5d97e56670cc2d99da5f",
+      "context_rows": 2000,
+      "train_rows": 6552,
+      "query_rows": 720
+    },
+    {
+      "fold": 1,
+      "context_seed": 4,
+      "train_hash": "ff3b4e265f9669e34f873707e8dee8360f4b60abf0c4bb27a5bf0b639aa2f60b",
+      "query_hash": "d99fe751d10169fd848e58371ce5aacb8c4d4b2ea5e966f3be5211c46f1d99d9",
+      "npz_sha": "7b2c6de96a4fa596cee0cb5bcee491c92daeed6751f6c6ef9e79373b40a740a3",
+      "context_rows": 2000,
+      "train_rows": 6552,
+      "query_rows": 720
+    },
+    {
+      "fold": 2,
+      "context_seed": 1,
+      "train_hash": "4d769904d808ae83af87878787c595ccbb372a9fbd4843c6cde42dc00a61e59d",
+      "query_hash": "93e091eeec61c2b7bfb7308f2c0e3f76e02bec7b4e89a6932e1a5c475f046f4d",
+      "npz_sha": "4eff22319a2e7223a7ccd42db886b4bf3e52382619f5666bb724b6eda709d568",
+      "context_rows": 2000,
+      "train_rows": 6216,
+      "query_rows": 960
+    },
+    {
+      "fold": 2,
+      "context_seed": 2,
+      "train_hash": "4d769904d808ae83af87878787c595ccbb372a9fbd4843c6cde42dc00a61e59d",
+      "query_hash": "93e091eeec61c2b7bfb7308f2c0e3f76e02bec7b4e89a6932e1a5c475f046f4d",
+      "npz_sha": "93e7492d029fafb169006c962793d475378d1af90d0635ca0d8a98e9c2638439",
+      "context_rows": 2000,
+      "train_rows": 6216,
+      "query_rows": 960
+    },
+    {
+      "fold": 2,
+      "context_seed": 3,
+      "train_hash": "4d769904d808ae83af87878787c595ccbb372a9fbd4843c6cde42dc00a61e59d",
+      "query_hash": "93e091eeec61c2b7bfb7308f2c0e3f76e02bec7b4e89a6932e1a5c475f046f4d",
+      "npz_sha": "bc3c5cf95218d2f592dd8cfacc7a8f56bc2ed69fe2133c070746e4aa732044af",
+      "context_rows": 2000,
+      "train_rows": 6216,
+      "query_rows": 960
+    },
+    {
+      "fold": 2,
+      "context_seed": 4,
+      "train_hash": "4d769904d808ae83af87878787c595ccbb372a9fbd4843c6cde42dc00a61e59d",
+      "query_hash": "93e091eeec61c2b7bfb7308f2c0e3f76e02bec7b4e89a6932e1a5c475f046f4d",
+      "npz_sha": "0c8becf89286d636465350ee70d885ed6aed793c4ff58ab23dac6345fc0f2e9d",
+      "context_rows": 2000,
+      "train_rows": 6216,
+      "query_rows": 960
+    },
+    {
+      "fold": 3,
+      "context_seed": 1,
+      "train_hash": "65ae61718e1cb5255f899326e976e95b5b33beec6b7564362f66960331a3971e",
+      "query_hash": "734c8903992c114d1f32c3856e229ec2a250f091f76371ed9d4b265be8070ca0",
+      "npz_sha": "d03a8f8f8f339536a05e1aa4cd8374f1c302fe5bb60e7b415bab4df1979493ed",
+      "context_rows": 2000,
+      "train_rows": 6408,
+      "query_rows": 792
+    },
+    {
+      "fold": 3,
+      "context_seed": 2,
+      "train_hash": "65ae61718e1cb5255f899326e976e95b5b33beec6b7564362f66960331a3971e",
+      "query_hash": "734c8903992c114d1f32c3856e229ec2a250f091f76371ed9d4b265be8070ca0",
+      "npz_sha": "19e3d2908fe42da2d1c318154c865583856c666c17488a5aa2e43e68e8d9951f",
+      "context_rows": 2000,
+      "train_rows": 6408,
+      "query_rows": 792
+    },
+    {
+      "fold": 3,
+      "context_seed": 3,
+      "train_hash": "65ae61718e1cb5255f899326e976e95b5b33beec6b7564362f66960331a3971e",
+      "query_hash": "734c8903992c114d1f32c3856e229ec2a250f091f76371ed9d4b265be8070ca0",
+      "npz_sha": "c0d4a2c41e742aa40a9cfb45cd29734fc20c7b35f05e16ec97dd635f3a61c7fe",
+      "context_rows": 2000,
+      "train_rows": 6408,
+      "query_rows": 792
+    },
+    {
+      "fold": 3,
+      "context_seed": 4,
+      "train_hash": "65ae61718e1cb5255f899326e976e95b5b33beec6b7564362f66960331a3971e",
+      "query_hash": "734c8903992c114d1f32c3856e229ec2a250f091f76371ed9d4b265be8070ca0",
+      "npz_sha": "be25800c550ecc9dbc9f430c09f757a61d92a0b63e008621304c0f654496c5c2",
+      "context_rows": 2000,
+      "train_rows": 6408,
+      "query_rows": 792
+    },
+    {
+      "fold": 4,
+      "context_seed": 1,
+      "train_hash": "c9c6249a2d92295021580af200f69b5c7a3fba4cf9302cbdb5bc26cab71f4a05",
+      "query_hash": "d049db0d96a8b3440eb97f28f0383d6d67085b10e88ba0b4cc39a63f2855975a",
+      "npz_sha": "04406c476cd587e05f3efee8da929b926018ec38d5fe69a6a11fa728f98727a5",
+      "context_rows": 2000,
+      "train_rows": 6120,
+      "query_rows": 960
+    },
+    {
+      "fold": 4,
+      "context_seed": 2,
+      "train_hash": "c9c6249a2d92295021580af200f69b5c7a3fba4cf9302cbdb5bc26cab71f4a05",
+      "query_hash": "d049db0d96a8b3440eb97f28f0383d6d67085b10e88ba0b4cc39a63f2855975a",
+      "npz_sha": "3a4be8ef302826de0ad8524e59cec2a046e483ad810cbd7b528455165f3971ba",
+      "context_rows": 2000,
+      "train_rows": 6120,
+      "query_rows": 960
+    },
+    {
+      "fold": 4,
+      "context_seed": 3,
+      "train_hash": "c9c6249a2d92295021580af200f69b5c7a3fba4cf9302cbdb5bc26cab71f4a05",
+      "query_hash": "d049db0d96a8b3440eb97f28f0383d6d67085b10e88ba0b4cc39a63f2855975a",
+      "npz_sha": "20f06e0e16c9ebdc4d0245274800420b02e8b770cca26a00e66e4880d6a07c84",
+      "context_rows": 2000,
+      "train_rows": 6120,
+      "query_rows": 960
+    },
+    {
+      "fold": 4,
+      "context_seed": 4,
+      "train_hash": "c9c6249a2d92295021580af200f69b5c7a3fba4cf9302cbdb5bc26cab71f4a05",
+      "query_hash": "d049db0d96a8b3440eb97f28f0383d6d67085b10e88ba0b4cc39a63f2855975a",
+      "npz_sha": "fd3792a35de1f25ce857720c3deb70339d21f0c75e7678d502e9fcad583d9091",
+      "context_rows": 2000,
+      "train_rows": 6120,
+      "query_rows": 960
+    },
+    {
+      "fold": 5,
+      "context_seed": 1,
+      "train_hash": "737900c90be7fa49ae016180d907f740f0635a99ace94d025426b89b2d506d6c",
+      "query_hash": "069c695c3b0b6ce2ce99be4a955d5beb21d505e4c465e6423caafee2e14fdf52",
+      "npz_sha": "960c7c0f4592c6e8a733fd1184952d65fd060fa194185eb59e29430fd0229b40",
+      "context_rows": 2000,
+      "train_rows": 6576,
+      "query_rows": 672
+    },
+    {
+      "fold": 5,
+      "context_seed": 2,
+      "train_hash": "737900c90be7fa49ae016180d907f740f0635a99ace94d025426b89b2d506d6c",
+      "query_hash": "069c695c3b0b6ce2ce99be4a955d5beb21d505e4c465e6423caafee2e14fdf52",
+      "npz_sha": "e4a973b0ae8662d11cf2510a8e20e3feb4bcd47f98a3c0679c242db15181f59b",
+      "context_rows": 2000,
+      "train_rows": 6576,
+      "query_rows": 672
+    },
+    {
+      "fold": 5,
+      "context_seed": 3,
+      "train_hash": "737900c90be7fa49ae016180d907f740f0635a99ace94d025426b89b2d506d6c",
+      "query_hash": "069c695c3b0b6ce2ce99be4a955d5beb21d505e4c465e6423caafee2e14fdf52",
+      "npz_sha": "3921eb64200acf3ad6135d415319c090bb9ddde1a2756c4972c8444e3200e3b7",
+      "context_rows": 2000,
+      "train_rows": 6576,
+      "query_rows": 672
+    },
+    {
+      "fold": 5,
+      "context_seed": 4,
+      "train_hash": "737900c90be7fa49ae016180d907f740f0635a99ace94d025426b89b2d506d6c",
+      "query_hash": "069c695c3b0b6ce2ce99be4a955d5beb21d505e4c465e6423caafee2e14fdf52",
+      "npz_sha": "708bcf3108b2ed775dc9446463767cfb3839d48e09bdeb2ede8dfa60322e3a60",
+      "context_rows": 2000,
+      "train_rows": 6576,
+      "query_rows": 672
+    },
+    {
+      "fold": 6,
+      "context_seed": 1,
+      "train_hash": "7431298c05f00cf7d992aa1774c064f8fb8c248300f0ed6dbade91c5f247344a",
+      "query_hash": "962bcaedb3e6d7a7c1bf32d0fd16132e5241f2338e84580ba6db6ce02bdef506",
+      "npz_sha": "212c8444e3cabc46334c151b7d65b949b0e020bdc2e1030439898fdc355363f0",
+      "context_rows": 2000,
+      "train_rows": 6288,
+      "query_rows": 960
+    },
+    {
+      "fold": 6,
+      "context_seed": 2,
+      "train_hash": "7431298c05f00cf7d992aa1774c064f8fb8c248300f0ed6dbade91c5f247344a",
+      "query_hash": "962bcaedb3e6d7a7c1bf32d0fd16132e5241f2338e84580ba6db6ce02bdef506",
+      "npz_sha": "d37509a9d62126351114ed9e3ce62cec58bc2a3552b885f97a67d76c04d8d893",
+      "context_rows": 2000,
+      "train_rows": 6288,
+      "query_rows": 960
+    },
+    {
+      "fold": 6,
+      "context_seed": 3,
+      "train_hash": "7431298c05f00cf7d992aa1774c064f8fb8c248300f0ed6dbade91c5f247344a",
+      "query_hash": "962bcaedb3e6d7a7c1bf32d0fd16132e5241f2338e84580ba6db6ce02bdef506",
+      "npz_sha": "99cb790bd7103064ee4a16f4f1e96bfb5e6cbb5b382e90ddb52345e2d4126678",
+      "context_rows": 2000,
+      "train_rows": 6288,
+      "query_rows": 960
+    },
+    {
+      "fold": 6,
+      "context_seed": 4,
+      "train_hash": "7431298c05f00cf7d992aa1774c064f8fb8c248300f0ed6dbade91c5f247344a",
+      "query_hash": "962bcaedb3e6d7a7c1bf32d0fd16132e5241f2338e84580ba6db6ce02bdef506",
+      "npz_sha": "2d19d751ac903c0e8634ae921738160782f9b85e5744cc452c959e5e6892977f",
+      "context_rows": 2000,
+      "train_rows": 6288,
+      "query_rows": 960
+    },
+    {
+      "fold": 7,
+      "context_seed": 1,
+      "train_hash": "661a220461474cece5b06dadab60b78fbe76aa7784d18694c762474a6ebf82c8",
+      "query_hash": "58b5d7019f81b2638361ae5c17c6c4de738b5f8038a3ea2ab243726116805293",
+      "npz_sha": "aef3a321be81b0b4481437a788bbe5657b79a760116e2794cb495cdac0031c0f",
+      "context_rows": 2000,
+      "train_rows": 6576,
+      "query_rows": 744
+    },
+    {
+      "fold": 7,
+      "context_seed": 2,
+      "train_hash": "661a220461474cece5b06dadab60b78fbe76aa7784d18694c762474a6ebf82c8",
+      "query_hash": "58b5d7019f81b2638361ae5c17c6c4de738b5f8038a3ea2ab243726116805293",
+      "npz_sha": "59efe4ea1c02ac9749b36500a832c030013e4e0201228531d01dbcfbf128f201",
+      "context_rows": 2000,
+      "train_rows": 6576,
+      "query_rows": 744
+    },
+    {
+      "fold": 7,
+      "context_seed": 3,
+      "train_hash": "661a220461474cece5b06dadab60b78fbe76aa7784d18694c762474a6ebf82c8",
+      "query_hash": "58b5d7019f81b2638361ae5c17c6c4de738b5f8038a3ea2ab243726116805293",
+      "npz_sha": "8bc9560a3f5297240f57783f70f24bf4934b1cb54b5f2cf771c36ec84b73b579",
+      "context_rows": 2000,
+      "train_rows": 6576,
+      "query_rows": 744
+    },
+    {
+      "fold": 7,
+      "context_seed": 4,
+      "train_hash": "661a220461474cece5b06dadab60b78fbe76aa7784d18694c762474a6ebf82c8",
+      "query_hash": "58b5d7019f81b2638361ae5c17c6c4de738b5f8038a3ea2ab243726116805293",
+      "npz_sha": "41aabea00587f0a82abfd893488f4d3e9bd0d312ed4c518768e077aeaaf34158",
+      "context_rows": 2000,
+      "train_rows": 6576,
+      "query_rows": 744
+    },
+    {
+      "fold": 8,
+      "context_seed": 1,
+      "train_hash": "73856171f120439e70b98511da017c1ee9917a62c4887acda8833441243b6b2d",
+      "query_hash": "d70f4a2e8bb0b73666774f584cb949cdffc999e3dfbbe95d46db235b0dbb463d",
+      "npz_sha": "445f1cfcfe2bd68248c571ef924349ffb6db12991d45b1246d252cb73f3ff899",
+      "context_rows": 2000,
+      "train_rows": 6192,
+      "query_rows": 960
+    },
+    {
+      "fold": 8,
+      "context_seed": 2,
+      "train_hash": "73856171f120439e70b98511da017c1ee9917a62c4887acda8833441243b6b2d",
+      "query_hash": "d70f4a2e8bb0b73666774f584cb949cdffc999e3dfbbe95d46db235b0dbb463d",
+      "npz_sha": "84d761c29386d4a40d6b0cd0a45dd4bd6094fb43e65e6dbd7958028fd78112df",
+      "context_rows": 2000,
+      "train_rows": 6192,
+      "query_rows": 960
+    },
+    {
+      "fold": 8,
+      "context_seed": 3,
+      "train_hash": "73856171f120439e70b98511da017c1ee9917a62c4887acda8833441243b6b2d",
+      "query_hash": "d70f4a2e8bb0b73666774f584cb949cdffc999e3dfbbe95d46db235b0dbb463d",
+      "npz_sha": "0abe43f87bc1807f96eda619d4fefe6ecb7717be431252b282499cc97168aff3",
+      "context_rows": 2000,
+      "train_rows": 6192,
+      "query_rows": 960
+    },
+    {
+      "fold": 8,
+      "context_seed": 4,
+      "train_hash": "73856171f120439e70b98511da017c1ee9917a62c4887acda8833441243b6b2d",
+      "query_hash": "d70f4a2e8bb0b73666774f584cb949cdffc999e3dfbbe95d46db235b0dbb463d",
+      "npz_sha": "12d26dce409e8e14f78ed8c610c4c3ca7ba2cef783fc932bacdadfdc05e25d09",
+      "context_rows": 2000,
+      "train_rows": 6192,
+      "query_rows": 960
+    },
+    {
+      "fold": 9,
+      "context_seed": 1,
+      "train_hash": "0025f12bb952fec90eb1965482c838b99c43b94280d251008330129c0810deed",
+      "query_hash": "d208705190c7370a711b6eccb335cba5271bad7786178d08c335ce6245572099",
+      "npz_sha": "0ea8bbc3fefc09d07dcadc5050ac653a8d950975eab5267a56c883870882e364",
+      "context_rows": 2000,
+      "train_rows": 6192,
+      "query_rows": 960
+    },
+    {
+      "fold": 9,
+      "context_seed": 2,
+      "train_hash": "0025f12bb952fec90eb1965482c838b99c43b94280d251008330129c0810deed",
+      "query_hash": "d208705190c7370a711b6eccb335cba5271bad7786178d08c335ce6245572099",
+      "npz_sha": "847cd2ad1cb8b276a9f32a7b89ce752c1fb0e0b75daf2a7bc3e7d1a4f3b913fb",
+      "context_rows": 2000,
+      "train_rows": 6192,
+      "query_rows": 960
+    },
+    {
+      "fold": 9,
+      "context_seed": 3,
+      "train_hash": "0025f12bb952fec90eb1965482c838b99c43b94280d251008330129c0810deed",
+      "query_hash": "d208705190c7370a711b6eccb335cba5271bad7786178d08c335ce6245572099",
+      "npz_sha": "18771444467e454d7e353edb2c2ac574a798fa0700c90020e91fcd90de588bfb",
+      "context_rows": 2000,
+      "train_rows": 6192,
+      "query_rows": 960
+    },
+    {
+      "fold": 9,
+      "context_seed": 4,
+      "train_hash": "0025f12bb952fec90eb1965482c838b99c43b94280d251008330129c0810deed",
+      "query_hash": "d208705190c7370a711b6eccb335cba5271bad7786178d08c335ce6245572099",
+      "npz_sha": "9001a8c46873cc0d7d12eeb27f6b63dc438a00264b3c89fea5e4044d7b573d4d",
+      "context_rows": 2000,
+      "train_rows": 6192,
+      "query_rows": 960
+    }
+  ],
+  "method": "Independent csv label reader, frame ordering/hash calculation, direct season.mapping replay; current immutable features function reused. No PFN inference replay.",
+  "ablation_bias_definition": "raw ET 24h mean minus truth 24h mean; smoothing auxiliary only"
+}
