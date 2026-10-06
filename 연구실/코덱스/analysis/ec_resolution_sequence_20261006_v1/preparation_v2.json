@@ -1,0 +1,89 @@
+{
+  "status": "PREPARED_SAME_MODEL_DIAGNOSTIC",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "torch": "2.14.0+cpu",
+    "tabpfn": "9.0.0"
+  },
+  "sha": {
+    "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\stage1_v2.py": "c9d29f1e51fa95730dc4427d8217b4303f71bcc17cd3f8eeb34b76ca5e4f558a",
+    "C:\\work\\farmai\\연구실\\코덱스\\analysis\\ec_resolution_sequence_20261006_v1\\PLAN.md": "8de185fab159a8817ca9cb79d70cad68fded9fe215a17b0fb351008cc916646b",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_submission10_season_20261002_v1\\model.py": "42f1f0638fee876479806833b55a24541ca1d23e2e0d0029f6145dc2f4807179",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_submission10_season_20261002_v1\\season.py": "c225c9cdb1635845f4f7468a872e10c142140743dd794efe5a5be43c9c55c434",
+    "C:\\work\\farmai\\연구실\\코덱스\\local\\ec_vent_gap_20261006_v1\\inputs\\oof.csv": "5b9d6c484bfb6ee8536dae7a1a651cb614c830a1b7ddeea3eb1393ac9140d88b"
+  },
+  "checkpoint": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736",
+  "original_reproduction": [
+    {
+      "fold": 0,
+      "train_hash": "8bf9c6c64497ef51df950f062843e09c900dd7403e271325c6871a516a9b1012",
+      "query_hash": "8e0f7eeb1151304d2a3319c8d751ad4485b97027dc1c12ef3a448d7429289946",
+      "train_rows": 6288,
+      "query_rows": 912
+    },
+    {
+      "fold": 1,
+      "train_hash": "ff3b4e265f9669e34f873707e8dee8360f4b60abf0c4bb27a5bf0b639aa2f60b",
+      "query_hash": "d99fe751d10169fd848e58371ce5aacb8c4d4b2ea5e966f3be5211c46f1d99d9",
+      "train_rows": 6552,
+      "query_rows": 720
+    },
+    {
+      "fold": 8,
+      "train_hash": "73856171f120439e70b98511da017c1ee9917a62c4887acda8833441243b6b2d",
+      "query_hash": "d70f4a2e8bb0b73666774f584cb949cdffc999e3dfbbe95d46db235b0dbb463d",
+      "train_rows": 6192,
+      "query_rows": 960
+    }
+  ],
+  "targets": [
+    [
+      "F13",
+      98
+    ],
+    [
+      "F13",
+      112
+    ],
+    [
+      "F47",
+      160
+    ],
+    [
+      "F47",
+      161
+    ]
+  ],
+  "jobs": {
+    "trainfold0_purged": {
+      "rows": 6216,
+      "days": 259,
+      "train_hash": "0b94af7f11ce5b87dbcbd789f85b248332a7cab9823849c858e28f7e75e2fe48",
+      "query_hash": "32b5432df1f6dfb70f1312c6b043b31435db67d747ad56a6b987393bd95cda82"
+    },
+    "trainfold1_purged": {
+      "rows": 6432,
+      "days": 268,
+      "train_hash": "55ee4812f0d43f8e418a261f56ca0c6a4dbef21729d2eddde00ee6be5f86d9cb",
+      "query_hash": "32b5432df1f6dfb70f1312c6b043b31435db67d747ad56a6b987393bd95cda82"
+    },
+    "trainfold8_purged": {
+      "rows": 6096,
+      "days": 254,
+      "train_hash": "c1f44ab6be9d27df6e9e10c77d3681ba0b32fb47e49ee58c13a4391e93c9e542",
+      "query_hash": "32b5432df1f6dfb70f1312c6b043b31435db67d747ad56a6b987393bd95cda82"
+    },
+    "common_intersection": {
+      "rows": 4632,
+      "days": 193,
+      "train_hash": "f321a8298999248b2339961b31b7b31b53a87c86d511f66fba2ef869257b97d6",
+      "query_hash": "32b5432df1f6dfb70f1312c6b043b31435db67d747ad56a6b987393bd95cda82"
+    }
+  },
+  "fit": 0,
+  "test_reads": 0,
+  "raw_y_reads": 0
+}
