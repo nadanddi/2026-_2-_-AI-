@@ -1,0 +1,15 @@
+
+RMSE increase (%) when a feature group is permuted, by day type
+seg             high  normal
+model group                 
+ET    ACT_HIST  62.0    85.0
+      ACT_NOW    0.7     0.4
+      INDOOR    21.2    58.7
+      OPS       14.8     7.6
+      SEASON    86.3   172.8
+      TIME       0.1    -0.1
+LGB   ACT_NOW   39.6    15.8
+      INDOOR    15.2    12.0
+      OPS       50.5    27.2
+      SEASON    79.7    80.1
+      TIME       3.9     0.1
