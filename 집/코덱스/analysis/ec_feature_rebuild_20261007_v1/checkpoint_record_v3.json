@@ -1,0 +1,29 @@
+{
+  "checkpoint_version": 3,
+  "recorded_at": "2026-10-07T09:27:57.7831140+09:00",
+  "goal_complete": false,
+  "pfn_raw_contexts_complete": 4,
+  "R3_raw_members_complete": 9,
+  "whole_pipeline_gate_passed": false,
+  "performance_evaluated": false,
+  "context8_v1_status": "FAIL_PRESERVE_DO_NOT_SCORE",
+  "fixed_atol": 1E-06,
+  "repair_experiment": "minbatch8 current-row copies; pending actual result",
+  "current_tool_session": 61602,
+  "session_last_poll": "running; no terminal output",
+  "GPU_used": false,
+  "heldout_truth_loaded": false,
+  "independent_padding_review": "unavailable: agent service workspace out of credits; self review separate",
+  "evidence_sha256": {
+    "BLK_PFN_context5_query_audit_v1.json": "e8a3a90b009b50012d302b35e347f576f4c0071dbbd07ddd8ef6d918a0234c93",
+    "BLK_PFN_context6_query_audit_v1.json": "7371b43c1aebb332741bf55157a4e7cb9d6725e2f6de5c245f69e48115da1a38",
+    "BLK_PFN_context7_query_audit_v1.json": "297c442dae0bcc2cc4a093313f6bb36d8347d69ae2f55f67b756ca761909fb3b",
+    "BLK_PFN_context8_query_audit_v1.json": "16d14ed2d698b07074efdfd297d480f5afeff91270077397290e8b60557769c2",
+    "BLK_R3_full_future_audit_v1.json": "4232c186f4c550d31ca2d77d212a6b037f0117d54717ce3c4055810ffa06e765",
+    "original_validator_integrity_audit_v2.json": "142baa2be62db4f7e1e11acf2c2726419eca2fc30936d561ad071d843103369c",
+    "CH2_reference_diagnostics_v1.json": "7b5850112716963f5f769141a5787341b0d5baee6d8a94fcc28b1ed2a482eab9",
+    "blk_pfn_minbatch_v1.py": "72e8a67a9cb9f23a3e83a5133395d19f226c4bcdc7aaf9ad74f7305ba80b4114",
+    "blk_pfn_query_audit_v2.py": "6d78bcd3e9584b2cd43a75eba98e72f316dc7bea1a6c5b1db5c8c2129fa56cd1",
+    "CPU_minbatch_self_review_v1.md": "c1b0060aca73e332c8ac79e8434474c3e9a5a14d52eabef1f49a6bfef203dda0"
+  }
+}

@@ -1,0 +1,31 @@
+# CPU 최소8행 정책 독립 비평 v1 — 2026-10-07
+
+blk_pfn_minbatch_v1.py, query_audit_v2/v3.py, CPU_minbatch_self_review_v1.md와로컬TabPFN원소스를읽었다. 실험실행/모델fit/GPU/성능정답열람은없다. 도구서비스는이번읽기·문서작성에서사용가능했다. 이전credits오류를성공으로바꾸어기록하지않는다. 문맥8원v1 FAIL 2.0265579223632812e-6와고정atol1e-6을보존하며신규audit결과를추정하지않는다.
+
+## 정책의범위
+
+adapter는float32비어있지않은2D query행렬을받고1~7행이면자신의마지막행을복사해8행으로predict한뒤원래행수출력만반환한다. fit/정답/newfeature/다른날짜센서조회는없다. 단일질의는그질의값만8회복제하므로미래관측을추가하지않는다. 8행이상은복제하지않고원래m.predict를호출한다. 기존Q1440은이미float32이므로변환조건까지같다면원fullbatch입력은변하지않는다. 이를일반dtype입력까지항상bit불변이라고확대하지않는다.
+
+숫자8은정답없이관측한batch8일치에따른수치정책가설이며RMSE최적계수가아니다. 하지만원fail을보고정책을선택한수치적사후repair다. 수치한도를완화하지않은점은타당하고원실패/수정전후lineage를명시한다. 실제GEMV/GEMM어떤커널차이인지특정한증거는없으므로'CPU연산경로차이가능성'으로제한한다.
+
+## CP01 · P1 · query fit 없음이라는포괄주장은원소스와맞지않음
+
+로컬`.analysis-tools/extra/tabpfn/architectures/tabpfn_v2.py`의attention(219~234)은K/V를학습행[:N]에서만계산하며testquery는그K/V만attend한다. featureattention은한sample내feature에한정하고layernorm은token단위다. `preprocessing/ensemble.py:69`는fit된cpu_preprocessor.transform(X)를사용하며fingerprintstep의test중복행은동일hash를사용한다. 이러한부분은행복제에새query정보가추가되지않고query-queryattention이없다는주장을지지한다.
+
+**그러나같은architecture `_embed_features`(647~697)는constant-feature mask와feature-group scaling통계를'all rows'에서fit한다고명시하고실제 `_constant_feature_mask(x_RSF)` / `_fit_feature_group_scaling(x_RSF)`를호출한다. trainmeanimpute와standardscaler만[:num_train_labels]로fit한다.** `fitting=feature_cache is None`이고기본regressor fit_mode는fit_preprocessors다. 일반forward는train+testtensor를받고KVcache가있을때에만frozenfeaturecache를재사용한다. 따라서현재engine이uncached경로라면'query normalization/fitting이전혀없다'는포괄결론은틀리다.
+
+필수조치: 실제적용중인architecture/modulepath·engineclass·fit_mode·featurecache유무를등록한다. 4context의actualpreprocessedtensor에서train-onlymask/scaling과train+querymask/scaling이같은지확인하고futurequery교란에변하지않는지감사한다. 같다면현재자료범위에서공용정책에영향없는조건을증명한것이지모든입력에fit없음을증명한것은아니다. 다르면query통계fit규정문제가남으므로gate를열지않고별도train-frozenpolicy를새version으로설계한다. fit_with_cache전환은새실행정책이며기존출력과동일하다고미리보증하지않는다.
+
+padding자체는같은배치에이미있는마지막행을복제하므로단순constantmask의유일값집합은바꾸지않는다. 다만이사실이기존allrowsmask의미래query의존성을없애지는않는다. fingerprint의학습collision처리는test분기와다르며실제transform(is_test=True)경로를pin한다.
+
+## CP02 · P1 · 감사범위와sourcepin
+
+v3는문맥별96scatter/8reverse/lastsingle+8독립single/2~7행forward·reverse/poisonbatch를검사한다. policy4context에모두같이적용해야하며context8의v2는2~7행을검사하지않는다. context8도v3동일coverage또는동등한추가증거를필요로한다. 2~7행에서는마지막원행이순서에따라바뀌므로reversecheck가중요하다. 각작은batch원행이full1440원출력에1e-6이내인지검증해야한다. actualfull1440의정확입력SHA·출력SHA도보존한다.
+
+auditv3는wrapper/template/adapterSHA를기록하고문자치환횟수assert도추가한다. 실제transformedsourceSHA와런타임TabPFN핵심architecture/preprocessor/torch버전·경로·소스SHA를추가pin한다. 부모verifier가새v3증거와adapterSHA를검사하게하고v1FAIL파일을대체하지않는다. v2는치환횟수의대부분을assert하지않으므로v3를최종공통감사명세로사용하는편이명확하다.
+
+## CP03 · P2 · 미검증조건
+
+변수변경/NaN/중복query/동일행N번복제에대한featurecache불변성은구조코드와유한감사로만지원되며전체domain증명이아니다. replayfit의weights/context/전처리상태SHA가원rawoutput과맞아야한다. adapter가model.predict내부상태를갱신하지않는지단일call전후traincache/fitstats상태를확인한다. 마지막행copypolicy의base출력이passing되더라도반복batchshape선택으로RMSE선별하면안된다.
+
+새gate필수조건: 고정1e-6유지,원FAIL보존,4context정책전체coveragePASS,actualsource/runtime/adapter/predlineagepin,CP01 allrows전처리경로해소/범위증거,최종통합adapter정책불변성. 미충족이면채점0을유지한다. 통과하더라도CPU수치재현성보완이지EC성능개선·최종채택·원기초재검토완료가아니다.

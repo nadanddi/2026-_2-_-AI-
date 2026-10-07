@@ -1,0 +1,35 @@
+{
+  "checkpoint_version": 4,
+  "recorded_at": "2026-10-07T09:45:02.5208934+09:00",
+  "goal_complete": false,
+  "previous_turn_classification": "progress",
+  "old_uncached_policy": "preserved, not permitted for score gate",
+  "old_padding_workers": "four exact own PIDs stopped; four original sessions terminal exit1",
+  "current_session": 55543,
+  "current_pid": 45840,
+  "current_status": "running; context5 cache built; full1440 and broad query audit pending",
+  "current_last_authoritative_observation": "original tool handle running; exact process exists CPU1341.484375s WorkingSet1393.5MiB",
+  "replacement": "CPU reference-only explicit KV cache; identical weights/context/features/seed; mathematical identity with old output not claimed",
+  "cached_context_audits_passed": 0,
+  "whole_pipeline_gate_passed": false,
+  "heldout_truth_loaded": false,
+  "performance_evaluated": false,
+  "GPU_used": false,
+  "independent_reviews": "source and runner reviewed; actual four-context and whole-pipeline PASS pending",
+  "remaining": [
+    "Poll original55543",
+    "All4 cached context receipts and strict verifier",
+    "New methodregistration/assembly/final gate and BLK score",
+    "Original TM/P2LOO/EL1 plus new-seed/layout confirmation",
+    "Domain24/literature24/data142 and final ranked report"
+  ],
+  "evidence_sha256": {
+    "BLK_CPU_policy_supersession_v1.json": "54b0b2f60e0b04a5f3d7b46f5cdabf5d1a1305dfd467135519be776e0a98ad8b",
+    "critique_BLK_CPU_padding_v1.md": "4bc49808f99b51fd819fc98bceefd4c70677a9d5ed3eb8fbd43d2f858cb2f272",
+    "critique_BLK_CPU_cache_source_v1.md": "d105cf33cedf3a4581c524b2559a54fcdb7711f733adc057bcf95f0394f23e72",
+    "critique_BLK_refonly_cache_runner_v2.md": "44c2ce413d2eca030bddcde46923b948875b5fe449e064807ec554dc93e426b2",
+    "blk_pfn_refonly_cache_v3.py": "8b1caddf9ef514d0fcbcccbf4ff1c99e9d4851209312ef26c9429c23c1c3bb68",
+    "blk_cached_pfn_receipt_v1.py": "dbda2dbfe237086d3aa40b037fcc3a1c0c9043046944739d354cce2912bbe3e0",
+    "checkpoints/BLK_PFN_CPU_REFONLY_v3/registration.json": "e02982689a667d72e7adddc7f393b0345f42191f53b0154c88536cc3763de018"
+  }
+}

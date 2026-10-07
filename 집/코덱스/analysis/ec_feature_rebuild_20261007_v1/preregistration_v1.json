@@ -1,0 +1,39 @@
+{
+  "primary_metric": "RMSE",
+  "baseline": "season_v2 + DP1 + PFN .4 + SG2",
+  "baseline_status": "저장 OOF 산술 재검산 완료; 정확한 CPU 재현·전체 인과성 감사는 아직 미완료",
+  "exploration_seeds": [
+    47,
+    1414,
+    6464
+  ],
+  "validators": [
+    "TM111 on DIAG10 layout",
+    "P2LOO",
+    "EL1"
+  ],
+  "stage_candidate_caps": {
+    "domain": 24,
+    "literature": 24,
+    "data_driven_initial_batch": 256
+  },
+  "initial_registry_count": 182,
+  "raw_subset_universe": 16383,
+  "coverage": "이번 목록은 모든 수학적 변환의 전수가 아님. 16383개 원열 비공집합과 특징군 조합을 후속 배치로 등록",
+  "confirmation": {
+    "new_seeds": "시드 전체 사용 이력 대조 후 처음 쓰는 시드를 봉인",
+    "new_folds": "전체 사용 이력 대조 후 처음 쓰는 폴드 배치를 봉인",
+    "one_run_only": true,
+    "all_seed_validator_cells_better": true,
+    "p_worse": "TM seedmean paired farm×5-day block bootstrap < .025 / total finalist count",
+    "bootstrap_draws": 200000,
+    "alpha": 0.025,
+    "selection": "선별·반복검증 횟수를 모두 기록. 새 배치 확인을 탐색 p값으로 대체하지 않음"
+  },
+  "causality": "same farm 0..h query prefix, public training stores isolated, fit training only, no test adaptation",
+  "temperature": "observed current evaluation temp unavailable; aux/anchor/crossfit OOF candidates only; outer+inner hide both labels",
+  "neighbours": "PF1/PF2는 클로드 진행. GPU 및 이웃 중복 학습 금지; 결과 파일 읽기 전용 독립 감사",
+  "restart": "reuse only matching input/code/env/fold/training/anchor/context/postprocess/seed hashes; atomic receipt after prediction verification",
+  "checkpoint": "RUNNING은 PID·시작시각·명령/도구 핸들 대조. 파일 존재만으로 완료 판단 금지",
+  "baseline_gate": "정확한 기준선 재현과 미래 입력 교란 감사 전 후보 개선 주장 금지"
+}

@@ -1,0 +1,796 @@
+{
+  "rows": 9600,
+  "columns": 838,
+  "checks": [
+    {
+      "check": "row_order",
+      "rows": 9600,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:8:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:8:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:8:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:8:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:8:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:8:1",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:8:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:8:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:8:2",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:8:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:8:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:8:3",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:8:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:8:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:8:6",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:8:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:8:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:8:12",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:8:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:8:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:8:23",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:9:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:9:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:9:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:9:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:9:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:9:1",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:9:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:9:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:9:2",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:9:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:9:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:9:3",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:9:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:9:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:9:6",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:9:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:9:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:9:12",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:9:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:9:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:9:23",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:10:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:10:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:10:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:10:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:10:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:10:1",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:10:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:10:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:10:2",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:10:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:10:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:10:3",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:10:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:10:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:10:6",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:10:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:10:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:10:12",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F13:10:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F13:10:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F13:10:23",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:6:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:6:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:6:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:6:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:6:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:6:1",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:6:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:6:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:6:2",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:6:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:6:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:6:3",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:6:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:6:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:6:6",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:6:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:6:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:6:12",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:6:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:6:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:6:23",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:7:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:7:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:7:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:7:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:7:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:7:1",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:7:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:7:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:7:2",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:7:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:7:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:7:3",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:7:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:7:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:7:6",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:7:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:7:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:7:12",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:7:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:7:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:7:23",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:8:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:8:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:8:0",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:8:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:8:1",
+      "rows": 2,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:8:1",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:8:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:8:2",
+      "rows": 3,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:8:2",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:8:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:8:3",
+      "rows": 4,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:8:3",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:8:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:8:6",
+      "rows": 7,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:8:6",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:8:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:8:12",
+      "rows": 13,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:8:12",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "prefix:F47:8:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "future:F47:8:23",
+      "rows": 24,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "single_query_with_prefix:F47:8:23",
+      "rows": 1,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "other_farm",
+      "rows": 4800,
+      "columns": 838,
+      "status": "PASS"
+    },
+    {
+      "check": "missing_hour_does_not_become_previous_row",
+      "status": "PASS"
+    },
+    {
+      "check": "day_reset_no_cross_midnight",
+      "rows": 400,
+      "status": "PASS"
+    }
+  ],
+  "all_checks_pass": true,
+  "label_inputs": false,
+  "fitted_preprocessing": false,
+  "test_inputs_read": false,
+  "matrix_saved": false,
+  "performance_tested": false,
+  "limitations": [
+    "특징 생성기의 입력 인과성만 검사. 달력·이웃·모델·후처리 전체는 아직 미검사",
+    "상호작용은 실측 함수율/광합성/관수 추정값이 아닌 검정할 대리 변수",
+    "1시간 창은 현재값과 동일, 1차 rate는 차분과 동일. 중복 제거는 학습 내부에서만 적용",
+    "짧은 prefix 부분 창의 관측 수를 별도 특징으로 남김"
+  ],
+  "code_sha256": "194bcb11a5adb5731e01a3f08ed0ca4c3d2d7035bccd2416e7b05c5f1f00de59"
+}

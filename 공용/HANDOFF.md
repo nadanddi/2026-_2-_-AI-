@@ -539,3 +539,145 @@
 > **2026-10-06 집 코덱스 저장 요청:** 지금까지 최근 전략검토·구별기/경계실험·실제A사례·현재nested 코드/검산/비평/개선책·완료캐시를 own work_history_save_20261006_v1 / local work_history_backup_20261006_v1 스냅샷으로보존·SHA검증하고 Drive에선택백업한다. source/공유기록은main기록. 진행worker5860/helper43048 유지, .staging/partial/worker.lock 복원산출물제외. 전체sync_end/rebase/동료변경삭제없이저장. 완료증거 snapshot_proof_v1.json·Drive확인기록, 전체학습완료본은아님.
 > **2026-10-06 저장 검증:** own work_history_save_20261006_v1/snapshot_proof_v1.json PASS(1215파일·ZIP1,130,710,075byte·SHA c630a560…). Drive farmai_sync/home_codex_local/work_history_backup_20261006_v1 ZIP+manifest 복사 SHA일치(drive_copy_v1.json); 서비스원격업로드ACK 별도. 사용자 GitHub 업로드 명시승인받아 원 main push 진행. 스냅샷09:56:42 KST/완료18문맥·개별NPZ132·OOF12, 학습worker/helper 계속유지. 큰ZIP Git제외, 동료삭제/전체sync_end/rebase0. 저장내용_v1.md·원격저장_승인_v1.md 참조.
 > **저장 완료:** GitHub 승인 후 afbefc6 main push/원격SHA일치확인. 저장위치·1215파일ZIP/Drive해시증거·Git승인은 own work_history_save_20261006_v1/저장완료_v1.md에기록했다. 이번스냅샷시점이후의nested학습은계속저장중이며,전체학습완료/최종비평완료아님. 완료기록추가main커밋도일반push한다.
+
+
+### 2026-10-07 집 코덱스 현재 데이터 전수 검사 완료
+- 사용자 요청 sync_start 직접 실행: 잔류 rebase-merge/autostash만 남은 상태를 확인해 stash+own폴더에 보존한 뒤 재시도, main/Drive7경로/AI메모리 3단계 정상완료. 기존 로컬변경·다른AI 작업은 별도 수정0.
+- 현재 가용 표·캐시·문서12101파일/CSV5489/숫자배열·ZIP2588 전체검사 및 독립검산 완료. EC공개정답9600행400기록일, 입력-정답 ID미대응5025행; 외부12원본12표10843652행 재검사·SHA/CSV독립/openpyxl PASS. 공개이미지21개별도무결성PASS.
+- 원본파싱오류0. 실제 EC baseline 캐시6fb2…NPZ 62418바이트전부0으로 재사용불가; 삭제0. 나머지오류는합성/빈결과/JSONC로분류. 객체/모델pickle 내용역직렬화0·NaN을손상으로단정0. 분석코드호환오류새버전보완/실패보존.
+- 보고서 `집/코덱스/analysis/data_inventory_20261007_v1/전수검사_보고서_v3.md`, 카탈로그6.370. 정제/학습/성능채점/채택/제출0, 기존모델유지. 이번전수검사완료; 기존모델실험의진행상태는변경하지않음.
+- 다음 EC학습 재사용 전: 손상캐시 참조여부·완료receipt/ID/문맥/SHA대조. 외부자료는센서정의·척도·이용조건확인부터(대회EC에바로합칠추가정답확정0). 다른AI종료후 사용자 sync_end 권장.
+- 전체프로필3JSON은 집/코덱스/local/data_inventory_20261007_v1에 SHA검증 복제해 Drive동기화대상으로 보존(analysis원본보존·gitignore), heavy_preservation_v1.json.
+
+### 2026-10-07 집 코덱스 사용자 범위 정정 EC 바닐라 자료
+- 외부·파생·예측·합성 제외하고 배포 train_X+train_y.sub_ec row_id결합만재확인: 9600행/14입력/400기록일. test1440행. 5개100%결측열MASK제외, sub_temp는평가관측값없어바닐라EC입력제외. vanilla_inventory_v1.json에원본SHA/독립집계/결측저장. 원본복원값미표시한계유지. 학습/채택/제출0; 다음실험은이범위를기초자료로삼음.
+
+- 2026-10-07 집 코덱스 바닐라 목록 재보완: 공개 배지온도 정답의 보조학습/이웃 참조·row_id·정답없는 학습입력을 포함. 현재 평가 온도 미제공을 전면 활용 불가로 오해하지 않음. available_sources_v2.json 참조. 새학습/채택/제출0.
+
+### 2026-10-07 집 코덱스 EC 기초 재점검 및 BLK 최우선 재개
+
+## EC 기초 재점검 새 목표 및 BLK 최우선
+- 카탈로그6.371, 결과물 ec_feature_rebuild_20261007_v1/만 생성. PROGRESS.md 재개지점·후보196·비평/수정/근거 연결. 도메인24/문헌대기24/나머지142+BLK6.
+- BLK8덩어리 query1440/gap384/train5520, locked±1 보호·gap 입력과양정답숫자파싱전차단·양끝8쌍·문맥1560+독립PASS. pass2구조불가/pass1만. 원일차변조금지/SG2 적용범위두baseline구분.
+- 시간별838특징9600행 입력인과PASS. ET기준선한셀재현PASS, 전체모델/사슬개선/후보채택0. 실행own worker모두exit0·재시작대상없음. PF1/PF2 GPU와이웃중복0.
+- 다음:PROGRESS부터 BLK 기준선·3방법 수식봉인/CPU실행→TM/P2LOO/EL1 유지·새확인1회, 이후도메인→문헌→자료순.
+
+### 2026-10-07 집 코덱스 BLK CPU 기준선 진행 (6.372)
+- R3raw9개완료. SG2 BLKquery통계혼입방지ref-only adapterv2/source대조PASS. CPU PFN문맥5..8 실행중(마지막확인handle2936/PID20072),GPU0·이웃PF1/PF2중복0. 성능채점/후보채택/제출0. ec_feature_rebuild_20261007_v1/PROGRESS.md 최신체크포인트부터재개;원handle확인없이재시작금지.
+### 2026-10-07 집 코덱스 BLK 원예측 완료·수치 게이트 보류 (6.373)
+- 과거 PFN handle2936/PID20072 실행중 기록은 오래됨. 원 PFN4문맥 및 R3 9개 계산 완료, 전체조합경계PASS/whole_pipeline_gate=false.
+- 문맥8 단일행 차2.02656e-6가 고정1e-6 초과. 실패보존/채점0/허용오차 변경0. CPU 최소8행 자기행복사 수치조사 새코드 실행중 tool61602; 재개시 원handle부터 poll. GPU0.
+- 기존66fold endpoint 구조등록/integrity PASS, 효과시험미완료. CH2 원방법 재구성은 단순component guard와구분. padding 독립비평은workspace credits 부족으로 errored,자체검토만기록.
+- ec_feature_rebuild_20261007_v1/PROGRESS.md 최신v3 및 checkpoint_record_v3.json부터 재개. 전체후보196/원검증기/최초확정1회 남음,채택/제출0.
+
+### 2026-10-07 집 코덱스 TabPFN 내부 처리 정책 정정 (6.374)
+- 기본 TabPFN9.0.0 v2 uncached 모델의 상수열/groupcount fit가 train+query 전체를읽는것을독립소스비평으로확인. 패딩수치PASS만으로채점불가. 이전raw/assembly/FAIL보존·미채점.
+- 이전패딩감사4개정확ownPID중단/원handle exit1. 새fit_with_cache/kv_cache_precisionauto/동일weight·2000context5..8·38FULL/float32 CPU로재생성(tool55543). 마지막상태context5 cache built/full1440검사중. 원handle확인없이재시작금지.
+- PROGRESS 최신v5 및 BLK_CPU_policy_supersession_v1.json 참조. 캐시규정/runtimeguard/통계+KV불변·수치/4receipt 검증 후 새assemblygate 필요. 전체목표/원검증기/도메인·문헌·자료 탐색 계속미완료,채택/제출0.
+
+- 6.374 후속 진행: 새cached 문맥5 18검사 max0/4fit·104predict/통계+KV+target불변 PASS(독립PowerShell metadata 재대조), 현재원tool55543 문맥6 build중. checkpoint_record_v5.json/PROGRESS 최신행. 4문맥/전체gate/성능PASS아님.
+
+### 2026-10-07 집 코덱스 바닐라 누락·기록 불일치 정정
+- v3 결과 저장 주장과 달리 실제 파일 부재 확인. available_sources_check_v4.py를 실제 실행해 원본 SHA와 정답/ID/온실 합계를 교차검산. 공개 온도·EC 무정답 온실 원입력·동일온실 이력·학습 이웃·row_id를 포함한 available_sources_v4.json 저장. 성능 효과 미검증, 외부·파생 제외 유지.
+
+### 2026-10-07 집 코덱스 BLK 학습 전용 캐시 기준선 실제 검증 완료
+- 원 PFN55543/receipt60444/assembly84873/verify57695 각각 정상 exit0. cached 문맥5~8 각18검사 PASS, 전체 assembly 후 causal288검사 및 독립 mix/shrink/clip 최대1.11e-16 검증. BLK_verified_baseline_receipt_v4.json diagnostic gate=true, 성능 채점/채택은 아직 없음. CPU-only, 이전 uncached·수치FAIL 보존. 과거 GPU/제출본과 출력 동일성 미주장. 독립 비평에 실제 gate 점검 재요청. 전체 원검증기/196후보/미사용 seed-layout 최종1회는 미완료.
+
+### 2026-10-07 집 코덱스 BLK 첫6진단 완료 (6.375)
+- 등록 score 정상exit0 후 Decimal60 독립 RMSE/블록SSE/P/CI 검산exit0 PASS. 두scope×세방법 전부선별FAIL,guard0同値. BOTH는일반악화/고EC개선,고EC3일뿐. 결과/원FAIL 보존; cached baseline과원제출동일성미주장. 상세 ec_feature_rebuild_20261007_v1/BLK_첫진단_보고서_v1.md. 독립사후비평진행중,CH2제한후속또는도메인24 다음범위검토. 원TM/P2LOO/EL1·미사용seed/layout확정1회·전체196후보 미완료. 채택/제출/GPU0.
+
+### 2026-10-07 집 코덱스 도메인24 실제 진입 (6.376)
+- BLK 사후독립비평 완료,6개 선별실패 유지·CH2 미시험후속 유지. 도메인24 원선언과v1구현 불일치 fit전발견→이벤트반응 v2 완성. 준비20171 exit0(160/17856),event 별도exit0(1792),실1187열6960행·exact24map/91sourceSHA·runner3 봉인 및독립비평확인. CPU runner session65421 실행중,최초baseline replay 결과아직미로그. 중복재시작금지. 모든24원TM/P2LOO/EL1 필수·BLK로후보제외금지·최종미사용1회/196전체미완료. DOMAIN24 효과/채택/GPU/제출0. v5 CSV formula 설명이정본,prep/reg.family_map의旧difference문구는수정전참고텍스트로구분.
+
+- 도메인 runner 원65421 계속running 직접확인. seed47 기준ET replay max0.0 PASS, raw 후보 snapshot 4/72개 저장감사 PASS(각1440행/fit5520/정답미로드). checkpoint_record_v10.json에 실제완료파일SHA 기록. 부분RMSE/채택/제출0.
+
+## 최신 실제 상태 v11 (2026-10-07)
+- 원 handle65421을 직접 poll하여 running 확인. seed47 도메인24 완료, seed1414 D20 완료/D21 fitting까지 출력 확인. 파일 스냅샷 46/72개는 checkpoint_record_v11.json에 SHA 저장; 성능 채점 아님.
+- DOMAIN24_BLK_pipeline_registration_v2.json 실제 생성,100 source pins. 조립v2/whole verifierv1/scorerv1/executorv1 연결; DPOST01 flag 수정 독립 재검토 요청.
+- raw partial 실제13fit/1replay NumPy median/열/행렬/ID/SHA검사 PASS는 부분검사이며 전체 gate 아님. absent gate scorer 실제 거부, spec/result 생성0 확인.
+- 다음: 원worker 유지 -> complete72+3 -> raw_receipt -> assemble -> verify -> score 순차. 원 TM/P2LOO/EL1 전24x3seed/CH2후속/문헌24/데이터142/최초미사용seed-layout확정1회/전체보고서 미완료. GPU/제출/채택0.
+
+
+### v11 후속: 독립 검사와 원검증기 준비 (2026-10-07)
+- critique_DOMAIN24_pipeline_v2.md:100 SHA 일치/DPOST01닫힘/새coreblocker0. source검토이며actualgate/scorePASS아님.
+- crosscheck_DOMAIN24_score_v2.py 새작성/AST통과,48안 exactgrid864cell 및1728RMSE/Decimal60/block SSE/20k bootstrap/54보정·pred/gate/spec/codeSHA 경로 연결. 아직채점/검산실행0.
+- prepare_domain_original_probe_v1.py 실제78893 terminalexit0:DIAG10fold0 train6288/query912,P2LOOfold10 train7272/query24,EL1fold56 train7200/query120. 각1187domain열·exact24additionalmap·3rid×2prefix비교 총18 PASS. registry SHA는 이전integrityaudit와현파일 일치. 원66전체모델검증/성능 아님; 향후fit등록은원registry start/endpin 별도필수.
+- raw 원65421 running 유지;세번째seed D16완료/D17fitting 확인. fullraw/조립/whole gate/효과채점 대기.
+
+
+## 최신 실제 상태 v12 (2026-10-07)
+- 원65421 실제terminalexit0. complete.json raw72/ETbaseline replay3,75파일 SHA 독립PowerShell재계산 불일치0/heldout_truth_loaded=false. raw파일완료는최종효과gate아님.
+- 등록raw_receipt stage 실제session2528 running(원handle확인). 전체train-only NumPy median/모델실효열/행렬/ID/3batch감사 대조중. 이stage정상종료후에만assemble→verify→score.
+- 원검증기probe78893 정상exit0/3fold18checks. Decimal checker2 exact48/864cell/source연결 보완. checkpoint_record_v12.json이최신. 전체목표미완료/GPU/채택/제출0.
+
+
+## 최신 재개 상태 v13 (2026-10-07)
+- raw 원65421/전체 raw receipt2528 모두실제terminalexit0. receiptfullgate=true/72후보/3replay/배치차max0,등록sources unchanged=true. 전체혼합gate/효과채점은아직아님.
+- 등록assemble escalated 명령은자동승인검토 credits 부족으로 실행되지 않음. unsafe판정아니고review failure이며우회금지. assembly session/receipt/predictions없음 직접확인. 해당차단첫확인,goal active유지.
+- 영향없는준비: prepare_domain_original_all_v1.py 작성/AST·원66 train/query정렬검사 실제PASS. 원66 모두특징행렬체크포인트 준비용초안/독립비평요청,model fit/score0·등록/실행아직0. 단순metadata resume검산이모델검증이아님을명시.
+- latestcheckpoint_record_v13.json. credits복구뒤 exact등록assemble→verify→score→Decimal checker2. 원24×TM/P2LOO/EL1×3seed·CH2후속·문헌24·데이터142·최초미사용seed/layout확정1회·전체보고서미완료. 새GPU/채택/제출0.
+
+
+## 최신 실제 상태 v14 (2026-10-07)
+- 원 raw72 +3replay 및fullreceipt PASS 유지. assemble 명령은credits 승인서비스실패로실행되지않음;충전요청비동기질문pending/우회0. 이번turn은원66 feature-only 등록으로추가 progress.
+- OP01 독립권고를새 prepare_domain_original_all_v2.py에반영:resume exactschema/fold/domain1187/emptylist,expected66파일/실prefix합396. registrar실제정상exit0·DOMAIN24_original_preparation_registration_v2.json 생성,109source/currentSHA독립PS 불일치0. registry66 record train/query disjoint/24h/원fold일치/TM111일2664행 봉인. 새actualv2비평요청.
+- 이등록은원66 특징준비용이며모델fit등록/성능판정아님. 실제66prep실행0. 향후각modelrunner savedmatrix를fresh재구성·대조필수. 원cachedCPUbaseline per-fold등록/검증·24×3seed전체평가 여전히남음.
+- latestcheckpoint_record_v14.json. goal active유지;전체66검증/CH2연결후속/문헌24/데이터142/최초미사용seed-layout확정1회/전체추천보고서미완료. GPU/채택/제출0.
+
+
+### v14 후속 독립비평 완료
+- critique_DOMAIN24_original_preparation_v2.md 실제작성:109 currentSHA불일치0/OP01닫힘/새coreblocker0. 준비실행/모델검증완료아님. 카탈로그6.378. PROGRESS맨앞현재재개지점정리,승인오류로assemble미실행/goal active유지.
+
+
+### 2026-10-07 집 코덱스 누락 재점검 (checkpoint v15)
+- 원자료 목록의 EC 무정답 온실 train_X·공개 온도 정답·row_id·같은 온실 과거 입력·공개 학습 이웃 원입력/정답을 재확인. 이웃 거리/보간/예측은 파생이며 바닐라 원천 목록과 구분한다. sync_start는 앞선 세션에서 실제 완료; 재실행하지 않음.
+- CH2 학습 cost/assignment 독립 stdlib audit actual exit0: 201 links/46 components/17 cycles. 이는 정답 기반 비용의 최적성 확인이며 실제 출처·예측 유효성 증거 아님. prefix v2 synthetic36 PASS; 실제 query/model/score0, 독립 비평 요청.
+- ignored local 경로 재검색으로 PF1/PF2 CSV 발견. v2 metadata actual exit0: PF1 10848행66fold 전체키 일치; PF2 6648행34fold/4200행 미포함. 공통6648키 공유예측 최대4.44e-16. 파일 존재를 완료/live/causal gate로 해석하지 않음. v1 full assertion 실패 보존; target 숫자 변환·재채점0.
+- DOMAIN assemble 자동승인 credits 실패 미실행 상태 유지/승인우회0. 원검증기·CH2·문헌24·데이터142·미사용seed-layout1회·전체보고서 남음; goal active/GPU·새채택·제출0. 카탈로그6.379.
+
+### 2026-10-07 집 코덱스 CH2 경계 보완·학습 참조 실제 준비 (checkpoint v16)
+- 직전 goal turn은progress(PF실제메타데이터·누락정정). 이번도progress: prefix3에서 same-block 과거 모든24h/current0..h exact packet과 전체ID/schema검사를 수치변환 전에 강제. 다른block·중간hour·이전day 누락은 거부. synthetic v2 actual48검사 PASS; 독립critic CP01/CP02 닫힘/새packetblocker0.
+- prepare_ch2_training_reference_v1 실제exit0: 허용train5520행230기록/원201links/17cyclecomponent, 공개학습숫자만 변환. 원graph·train-onlyscale 보존·immutable JSON roundtrip exact. 독립준비비평 current8SHA/파일SHA일치·핵심blocker0.
+- ch2_reference_loader_v1 실제exit0: 저장파일 재읽기 SHA/canonicaldigest/전이적pin/import경로/scale/records replay 검사. 별도 실제 -O 실행은 파일읽기 전 RuntimeError exit1(의도한 negative PASS). PowerShell independent check48/파일SHA일치·5520행/query numeric0. loader비평요청중.
+- 실제query예측/학습/후처리/효과채점/3방법사전등록은 아직0. 다음은 정확3방법×2scope/기존6+도메인48+새6 비교누적60 계획·runner 및gate를 실제코드로 봉인 후비평. 기존도메인alpha54/등록은수정하지않음. 원검증기는fold별graph/scale재생성 필수·전체원24시험필수.
+- 도메인assemble 승인credits오류 미실행/복구확인없음/우회0. 원TM/P2LOO/EL1×3seed·CH2실효과·문헌24·데이터142·최초미사용seed-layout1회·최종보고서 모두남음. goal active/GPU·채택·제출0. 카탈로그6.380.
+
+### 2026-10-07 집 코덱스 CH2 실제 진단 완료·원66/도메인조립 재개 (checkpoint v17)
+- CH2 exact3×2scope×3seed 등록3/94pins/CSV202,8lazy-context+48prefixsynthetic PASS. actualrunner31873 terminalexit0;360query경계검사. verifier2 tuple/list mismatch 실패보존→원인JSONexact확인→verifier3 actualexit0/25920scalar max1.11e-16/1440prefix/1560consumption/98pins. 독립gate비평PASS.
+- score2+Decimalchecker3 실제exit0:6안전부FAIL alpha.025/60. QUERY_ROLE FLANK -0.00119145098/p.318684,PASTQUERY -0.000280008123/p동일; RAW -0.00106063236/-0.000223016144. guard0행/p1;지원25/14행·같은1block에효과집중. 1152RMSE/48SSE/allpCI+독립사후비평PASS·튜닝/채택0. 보고서/CSVv9 저장·카탈로그6.381.
+- 원66특징prep default는pandas파일sandbox접근거부로version확인전exit1(모델0/저장폴드0). 정식require_escalated승인성공→session77114 actualrunning/DIAG10fold0 PASS 확인. 승인경로현재성공을근거로원등록도메인assemble 동일정식경로재요청승인성공→session55500 actualrunning. 이전credits미실행상태는이전시점이며새실행을우회하지않음.
+- 다음원77114/55500을직접poll;완료/누락handle확인없이재시작금지. 도메인조립완료후등록verify→actualgate독립비평→score/Decimal;원66prep완료후modelrunner전체24×3seed준비. 문헌24/데이터142/최초미사용seed-layout1회/전체최종보고서남음·goal active/GPU·제출0.
+
+### v17 마지막 직접 실행 확인
+- 집 코덱스: 원77114 running, 원66특징 준비 DIAG10fold0/1/2 완료(3/66); 원55500 도메인assemble running/종료출력 없음. 원handle 직접poll 근거, lock/파일만으로 live 판단하지 않음. CH2 원31873 terminalexit0·score/Decimal각exit0/6안진단FAIL; 미채택. 이전 credits오류는 정식승인 재요청 성공으로 실행 재개된 상태. 다음 원두handle 확인부터. 전체goal active/원검증기·문헌·데이터·최종1회 미완료/GPU·제출0.
+
+### 2026-10-07 집 코덱스 도메인 BLK48 실제 진단 완료 (checkpoint v18)
+- 등록assemble/verify/score actualexit0·source불변. actualgate독립180핀/source-future22464/scalar518400 max4.44e-16; Decimalchecker2 actualexit0/48안864cell1728RMSE/allpCI PASS. 도메인48전부screenFAIL alpha.025/54,새채택0·BLK순위로원24제외금지. DOMAIN24_BLK_진단보고서_v1.md/CSVv10 저장.
+- 원77114 직접poll running/P2LOO_fold12 PASS,66준비 아직미완료. EL1fold65는fold번호이며전체완료아님. firstfold전24freshSHAprobe actualPASS. 원rawrunner2 OR01/02 resume보완·fit등록0; source비평/통계/runtime계약 및complete66검산 남음. 전체원검증기/문헌/자료/최종firstunused1회/전체보고서 미완료. goal active/GPU·제출0.
+
+### v18 후속 독립 사후 비평 완료
+- critique_DOMAIN24_scored_diagnostics_v1.md 실제작성:QUERY 평균감소22/24·전seed감소5/24/통과0,RAW21/5/0. D22 QUERY p.0018499도54보정FAIL. 도메인전체효과를CH2단일block으로일반화금지. 보고서table형식새v2로수정·v1보존/점수정책변경0.
+- critique_DOMAIN24_original_raw_plan_v2.md:OR01/OR02 source닫힘,OR03실행등록·runtime·통계코드/draw봉인 여전히남음. DOMAIN24_original_statistics_plan_v1.json은prospective초안/fit등록아님. 원66prep live77114·다음원handle확인부터. 전범위목표계속미완료.
+
+- v18 마지막 원handle77114 직접poll: running/P2LOO_fold16 PASS. 원66prep 아직완료아님, 재개시동일handle부터확인. DOMAIN24 사후critic actual완료/48FAIL수용·보고서v2테이블연결검사PASS. 전체goal active.
+
+
+# 현재 재개 지점 — 2026-10-07 집 코덱스 (checkpoint v19)
+
+- 직전goalturn은도메인48 actualscore/Decimal/보고서·사후비평완료로progress. 이번도통계봉인·독립검사/합성resume/actualruntime계약실행으로progress.
+- 통계v1 syntaxextra] exit1/파일보존→새v2actualexit0. 원dayfloor/5·87block(F13 42/F47 45) shared200k binary34800000byte 생성/등록2(정답값0). 원block/8640ID·TM2664/200k전체Counter재생+synthetic8 actualexit0. integrity전수 farm합·SHA/layout/Python3.12 actualPASS,손상/잘못된count등합성10PASS. 독립critic source5pin/draw일치·봉인core오류0.
+- 원rawrunner3 source에actualySHA/modelcontract/실runtime/stat2/draw/crosscheck 연결. syntheticresume13actualPASS(학습금지/실query·정답0), 실제environment/modulepaths/9constructor계약capture actualexit0. registrar3 ASTPASS/미실행;66complete+독립prep전fit등록금지. 원raw3/registrarcritic요청중.
+- 원77114 직접poll running/P2LOO_fold26 PASS,파일snapshot38/66/complete존재False. 같은handle부터재개·lock/파일로live추측하거나중복재시작금지.
+- OS01/02 futurefullscorer는여전히필수: fullmodelgate/source/draw/layout검사후truthparse,24전체·두p교집합+3seed×TM/P2/EL방향 강제. 통계integrity는fullmodelgate아님. alpha84prospective탐색/oldBLK54·최종firstunused확정상위규칙유지.
+- 다음원77114완료→독립full66prep→raw3source/등록최종비평→registrar3→CPU원24×3seed·594baseline/4752candidatefit. PFN66참조전용cache·전체mix/shrink/SG2/gates 별도필수. 문헌24/자료142·원열subset/interaction/CH2원검증/미사용확정1회·전체보고서미완료. goal active/GPU·채택·제출0.
+
+이하 이전 시점 기록.
+
+
+### v19 원학습등록 후속 — 최신 실행등록기는 v5
+- ORR01 저장PASS와현감사sourceSHA연결누락/ORR02 -O허용을새v4로보완. actual-O negative exit1(RuntimeError파일읽기전)/등록생성0. critic planv2 actual확인 ORR01/02닫힘/runtime19핀정식승인독립검산전부MATCH.
+- 추가inheritedextras핀충돌거부와nofit/no-target flags/runtime일치→새registrar5 source/AST PASS/독립diff요청중. 다음은 **register_original_raw_fit_v5.py** →등록파일v3 →run_domain_original_raw_v3.py. 과거v3/4보존,실등록/fit0.
+- 원77114 마지막직접poll running/P2LOO_fold29 PASS. 현파일snapshot41/66/complete존재False. 완료뒤stdllib crosscheck_original_preparation_v1.py와최신등록기비평/등록필수. partialprep으로학습금지. goal active/전체원검증·PFN/후처리·문헌·자료·최종미사용1회/전체보고서미완료.
+
+- v19 최신독립비평도착: critique_DOMAIN24_original_raw_registration_plan_v3.md actual작성/읽기대조. registrar5 inherited핀충돌/nofit·no-target/Python일치검사수용·ORR01닫힘/새coreblocker0. 준비66/독립crosscheck완료전fit0조건유지. 다음원77114→실완료66→crosscheck→registrar5→runner3.
+

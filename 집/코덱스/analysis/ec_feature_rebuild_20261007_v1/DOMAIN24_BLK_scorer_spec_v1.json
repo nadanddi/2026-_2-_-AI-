@@ -1,0 +1,28 @@
+{
+  "code_sha256": "daa8886114d6b5016feac0986a59f772ea4bc3a5f8438bd9f8ac1ffc24d78b18",
+  "gate_sha256": "473bdafb44f74536425021de605eba344e3aef4f76b19aaf0376356ddffcb9ae",
+  "predictions_sha256": "3e2fabce0395852db71606c595f13feb057f2cd4fa0d1831094d70cd167e4d96",
+  "registration_sha256": "81d368f6a12a41c8ff7c40b46c6b125d83d2020247dc5e30e9a847fc76a0499c",
+  "statistics": {
+    "scopes": [
+      "BLK_QUERY_ROLE",
+      "BLK_RAW_PASS"
+    ],
+    "variant_count": 48,
+    "previous_BLK_variants": 6,
+    "cumulative_current_BLK_variant_count": 54,
+    "comparison_alpha": 0.000462962962962963,
+    "seedmean_loss": "row mean over3seed of candidate squared error minus baseline squared error",
+    "draws": 20000,
+    "rng_seed": 2026100702,
+    "sampling": "4blocks replacement per farm; sum block loss / sum rows",
+    "p": "(1+count(delta>=0))/20001; ties worse",
+    "screen": "all3seed overall RMSE smaller and p<.025/54; diagnostics only",
+    "normal_high": "score-only full24hour dailymean EC>=1",
+    "position": "same frozen floor(3*day_index/block_length) front/middle/back",
+    "CI": "individual descriptive95 linear percentiles; not multiplicity adjusted"
+  },
+  "adoption_permitted": false,
+  "scope": "Already exposed BLK diagnostic only; all24 original validators remain",
+  "engine": "Python3.12 random.Random MT19937 randrange"
+}

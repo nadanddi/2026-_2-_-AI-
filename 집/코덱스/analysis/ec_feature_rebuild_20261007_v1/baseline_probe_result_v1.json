@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "max_abs_difference_ET_shrunk": 2.220446049250313e-16,
+  "atol": 1e-06,
+  "train_rows": 6288,
+  "query_rows": 912,
+  "features": 47,
+  "CPU_only": true,
+  "candidate_trained": false,
+  "entire_baseline_reproduced": false,
+  "receipt_RMSE": 0.1445857323784848,
+  "remaining": [
+    "LGB/MLP/PFN 혼합/SG2 재현 및 전체 인과성 감사",
+    "후보별 실제학습/참조/문맥/inner fold contract"
+  ]
+}

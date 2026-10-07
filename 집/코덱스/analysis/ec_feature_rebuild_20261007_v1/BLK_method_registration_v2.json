@@ -1,0 +1,89 @@
+{
+  "status": "SEALED_PRE_SCORE_V2",
+  "layout_sha256": "987f303964586b888402dd02af17d76734676832a0b1cde44bf792d7c5ca192e",
+  "method_code_sha256": {
+    "blk_endpoint_methods_v1.py": "0d31ef5d447ebb37d5a6dd4c32952d2145f5cdaba377675c260eed460ac4bd6a",
+    "blk_endpoint_methods_v2.py": "8295069028b57b4d8f746448aa488a971712947efea359c8ed0ef455ef01ba84",
+    "blk_sg2_refonly_v1.py": "a3dc5ad3e1dbfa5e73d3cf36e6f507f6bfcb5d5b0ce9ab5da5d6d036962f20a0",
+    "blk_baseline_data_v1.py": "d0735fb9350b59ab503c61a2535620d09b08ade23b24c2e9c558718f1cadaa6e"
+  },
+  "context_code_sha256": "dfb1b28e2ab258efff7011c3162a4e8f36a2158aab7a313c6abea2552694bfbc",
+  "previous_trials": {
+    "6.345": "자정 EC 연속성 단서",
+    "6.346": "학습 EC 연결",
+    "6.348": "앞날 찾기 기존 실패"
+  },
+  "difference_from_previous": "구조만으로 고정한 BLK에서 빈칸 양쪽 입력·양정답 제거 및 공개 양끝 정답을 함께 참조. 기존 단일 보류일 조건과 구분한다.",
+  "methods": {
+    "PAST_ENDPOINT": "0.8*baseline+0.2*왼쪽 공개 기록 23h EC",
+    "BOTH_ENDPOINT": "0.8*baseline+0.2*양끝 EC의 원본 record-hour 선형보간",
+    "CHAIN_PREFIX_GUARD": "동일 온실 train EC endpoint mutual best gap<=.05와 차순위 margin>=.005로 사슬 연결. 현재 query 0..h의 원14열 평균+현재값으로 train 사슬에 배정, 양끝과 같은 사슬일 때 BOTH, 아니면 baseline"
+  },
+  "fixed_unsearched_settings": {
+    "blend_alpha": 0.2,
+    "chain_gap": 0.05,
+    "EC_second_margin": 0.005,
+    "input_coverage": 0.75,
+    "input_relative_second_margin": 0.1
+  },
+  "settings_provenance": "연결 .05는 과거 단서 기준, .005는 과거 자정 차 단서의 척도. blend·배정 margin·coverage는 성능을 보기 전 임의 고정한 가설; 최적 계수라는 주장 없음. BLK 결과로 재조정하지 않는다.",
+  "primary_baseline": "BLK_QUERY_ROLE",
+  "diagnostic_baseline": "BLK_RAW_PASS",
+  "baseline_not_yet_reproduced": true,
+  "screened_variant_count": 6,
+  "seeds": [
+    47,
+    1414,
+    6464
+  ],
+  "normal_high_split": "사후 채점에만 공개 보류일 EC 평균 >=1을 high로 사용; 방법·문맥·배치에 전달 금지",
+  "position": "0-based block index i: floor(3*i/n), 0=앞 1=가운데 2=뒤",
+  "selection": "모든 seed×검증기 같은 개선 방향. BLK는8블록을 재표집 단위로 seed-mean squared error bootstrap 20000, seed2026100702, p_worse<.025/6. TM/P2LOO/EL1 유지. 새로운 seed/layout 최종1회는 아직 별도 봉인 전.",
+  "limitations": [
+    "원 recordday 보간은 실제 날짜 보간과 다를 수 있음",
+    "EC 연속성 사슬이 진짜 동 정체성을 증명하지 않음",
+    "현재일 prefix만 사용하는 guard로 앞쪽 query 전체를 쓰는 더 강한 방법까지 시험한 것은 아님",
+    "BLK 모두 pass1; 실제 pass2 대표성 미확보",
+    "정답 사슬 수치 자체로 query 배정 정확성을 증명하지 않음"
+  ],
+  "pipeline": [
+    "raw R3 .6ET+.3LGB+.1MLP, per seed47/1414/6464",
+    "PFN context5..8 CPU mean, FULL38",
+    "raw .6R3+.4PFN",
+    "one .5current+.5same-day-prefix shrink",
+    "train EC minmax clip",
+    "SG2 ref-only fit; scope QUERY_ROLE or RAW_PASS",
+    "train EC minmax clip baseline",
+    "endpoint blend on final baseline",
+    "train EC minmax clip candidate"
+  ],
+  "statistics": {
+    "loss": "per row mean across seeds of squared error; NOT squared error of mean predictions",
+    "block_delta": "sum over rows of mean_seed(SE_candidate-SE_baseline), with row count",
+    "bootstrap": "farm-stratified: sample4 blocks with replacement independently per farm, pool8 sampled SSE sums / pooled sampled row counts",
+    "weighting": "row-weighted, so 10-record blocks contribute twice 5-record blocks when each sampled once",
+    "draws": 20000,
+    "rng_seed": 2026100702,
+    "p_worse": "(1 + count(delta>=0))/(20000+1); ties count worse; MC estimate",
+    "CI": "2.5/97.5 percentile of bootstrap mean squared-error delta",
+    "comparison_alpha": 0.004166666666666667,
+    "dependency_limit": "8 selected blocks; farm stratification does not establish independence of blocks sharing training references"
+  },
+  "cross_validator_status": "BLK diagnostic only until original TM/P2LOO/EL1 same-fold safe endpoint selector preregistered; full adoption forbidden now",
+  "graph_name": "train-only EC endpoint similarity connected components, not proven directed chronology or greenhouse identity",
+  "guard_diagnostic_requirement": [
+    "component sizes",
+    "link count",
+    "same-component endpoint blocks",
+    "cycle components",
+    "guard coverage by hour/block",
+    "absolute nearest distances and finite dimensions"
+  ],
+  "critic_fixes": {
+    "M01": "baseline pipeline/ref-only SG2/scope/finalclip now specified, whole output audit still required",
+    "M02": "loss/bootstrap weighting/farm stratification exact; old validators pending hence BLK diagnostic only",
+    "M03": "undirected component terminology explicit",
+    "M04": "diagnostics required; no post-score threshold changes",
+    "M05": "immutable copies/structural assertions/independent raw ID weight recompute"
+  }
+}

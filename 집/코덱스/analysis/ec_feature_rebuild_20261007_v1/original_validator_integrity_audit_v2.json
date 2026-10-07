@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "folds": 66,
+  "F13_F47_X_equals_EC_label_keys": 9600,
+  "both_labels_present": 9600,
+  "evaluation_all_empty_MASK_columns": [
+    "in_rad",
+    "act_side",
+    "act_valve",
+    "act_cool",
+    "act_pump"
+  ],
+  "model_original_inputs": [
+    "out_temp",
+    "out_hum",
+    "out_rad",
+    "out_wspd",
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog"
+  ],
+  "validator_query_rows": {
+    "DIAG10": 8640,
+    "EL1": 1104,
+    "P2LOO": 1104
+  },
+  "TM_query_rows": 2664,
+  "duplicate_query_ids_within_each_validator": 0,
+  "train_query_gap_disjoint": true,
+  "numeric_heldout_labels_parsed": false,
+  "source_sha256": {
+    "train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "test_X.csv": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad"
+  },
+  "registry_sha256": "d72c7b0fdfd61ba45abcd3386a7bf43302b2635a8aebc9b7adb333fb939b191d",
+  "limits": [
+    "structural loader/population check; actual per-fold model/context execution pending",
+    "validators are separate populations with repeated IDs across them; never pool as independent rows"
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "status": "ORIGINAL_PFN_STRICT_METADATA_SYNTHETIC_PASS",
+  "tests": [
+    {
+      "case": "valid_synthetic_contract_with_prior_cache_shapes",
+      "PASS": true
+    },
+    {
+      "case": "empty_identical_cache_rejected",
+      "PASS": true
+    },
+    {
+      "case": "missing_cache_rejected",
+      "PASS": true
+    },
+    {
+      "case": "wrong_train_shape_rejected",
+      "PASS": true
+    },
+    {
+      "case": "missing_stat_rejected",
+      "PASS": true
+    },
+    {
+      "case": "missing_KV_layer_rejected",
+      "PASS": true
+    },
+    {
+      "case": "wrong_KV_dtype_rejected",
+      "PASS": true
+    },
+    {
+      "case": "original_GPU_device_rejected",
+      "PASS": true
+    },
+    {
+      "case": "invalid_hash_rejected",
+      "PASS": true
+    },
+    {
+      "case": "unknown_extra_phase_rejected",
+      "PASS": true
+    },
+    {
+      "case": "query_labels_rejected",
+      "PASS": true
+    },
+    {
+      "case": "query_refit_flag_rejected",
+      "PASS": true
+    },
+    {
+      "case": "unexpected_batch_rows_rejected",
+      "PASS": true
+    },
+    {
+      "case": "missing_predict_trace_rejected",
+      "PASS": true
+    },
+    {
+      "case": "wrong_architecture_count_rejected",
+      "PASS": true
+    },
+    {
+      "case": "engine_suffix_only_rejected",
+      "PASS": true
+    },
+    {
+      "case": "wrong_memory_policy_rejected",
+      "PASS": true
+    },
+    {
+      "case": "missing_numerical_check_rejected",
+      "PASS": true
+    },
+    {
+      "case": "nonfinite_difference_rejected",
+      "PASS": true
+    },
+    {
+      "case": "wrong_fit_rows_rejected",
+      "PASS": true
+    },
+    {
+      "case": "heldout_flag_rejected",
+      "PASS": true
+    }
+  ],
+  "code_sha256": "abc5bfc5407f87d37d1faee4ef49475fbedb4df4685e8a2604dc76dfc4bf0bc9",
+  "rules_sha256": "b357bcb72819adbcf30f64c3c57c959755411a36cdcaa480369c99a0ed0ad340",
+  "parent_metadata_sha256": "40b4dbbe8aeaa283dc990bb87efbedbb2cafea2f7a451a6123762d697246650e",
+  "PFN_import": false,
+  "model_fit": false,
+  "real_query_predictions": 0,
+  "target_values_read": false,
+  "limits": [
+    "Synthetic trace/check values; cache shapes copied from earlier audited BLK metadata",
+    "Not evidence of actual original66 PFN fit or numerical accuracy"
+  ]
+}

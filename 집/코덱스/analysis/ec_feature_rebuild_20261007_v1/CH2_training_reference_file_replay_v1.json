@@ -1,0 +1,30 @@
+{
+  "status": "FRESH_TRAIN_REFERENCE_FILE_REPLAY_PASS_NO_QUERY_OR_SCORE",
+  "direct_and_transitive_source_sha256": {
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\prepare_ch2_training_reference_v1.py": "8b3774971369f29c7be6487891b7b71b8b9919991208da6bf7c26c38522a8177",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\ch2_prefix_sources_v3.py": "0c96a95610819a019d87539a4fcab26a3e36f1163bb603944763abf780d44a3f",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\BLK_layout_v2.json": "987f303964586b888402dd02af17d76734676832a0b1cde44bf792d7c5ca192e",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\CH2_reference_diagnostics_v1.json": "7b5850112716963f5f769141a5787341b0d5baee6d8a94fcc28b1ed2a482eab9",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\CH2_reference_independent_audit_v1.json": "33cab0c1602b72b5e60327fe99b321176d5bd1b3a381efe1e2bd8af6af4f2214",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\CH2_prefix_synthetic_audit_v2.json": "fbf89987cb88d264616c642ddc133ea38a097cc317a5b9974ccb6cba437f9e01",
+    "C:\\work\\farmai\\공용\\대회자료\\정형데이터\\참가자_배포\\train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "C:\\work\\farmai\\공용\\대회자료\\정형데이터\\참가자_배포\\train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\ch2_reference_graph_v1.py": "359b57d88cc1642c4bb556ef4e5c05fd45213a8e588d5d48f086ad0061edcee6",
+    "C:\\work\\farmai\\집\\클로드\\research\\ch2_label_chains_training_v1.py": "2a2e8edd029242997ab844b401797f1315974b91b58b0b33317957c3210609fe",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\ch2_training_assignment_crosscheck_v1.py": "b57aa776f68a7cc406fcacb57210853246f13d0618a37cfaec495a2d79ef19b2",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\audit_ch2_prefix_synthetic_v2.py": "06f63aa525b9cee4ac2fcd0ee7ef3667352fee09b3770e423a822155b7a0d597"
+  },
+  "reference_file_sha256": "d4ed86f2060a9f22d0c63382457583bda2ef409b18446b70d16e4c39b0a4479c",
+  "reference_payload_digest": "85fb31eb1133f7caa81b78ffd680c78cb09c25afb6b06394bc7f2506ffa06907",
+  "import_path": "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\ch2_prefix_sources_v3.py",
+  "import_source_sha256": "0c96a95610819a019d87539a4fcab26a3e36f1163bb603944763abf780d44a3f",
+  "Python_optimization": 0,
+  "scales_explicit_replay_exact": true,
+  "loader_source_sha256": "5e0f3136f6c454953fd9ec583cd3a512128793c15690e79e0bc32eda54a9e006",
+  "train_rows": 5520,
+  "train_records": 230,
+  "cyclic_components": 17,
+  "query_inputs_parsed": 0,
+  "heldout_labels_parsed": 0,
+  "performance_evaluated": false
+}

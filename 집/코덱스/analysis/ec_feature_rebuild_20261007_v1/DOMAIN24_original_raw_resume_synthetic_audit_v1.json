@@ -1,0 +1,65 @@
+{
+  "status": "SYNTHETIC_ORIGINAL_RAW_RESUME_PASS",
+  "code_sha256": "067f65b9636f16f6578668e16ddc5f294b2fa1b2e3394596690d285ee0ea2e8f",
+  "runner_sha256": "f50dd2341aa3008d3125275d6a306682978ed1ab3084c76398af625d6df5b064",
+  "tests": [
+    {
+      "case": "valid_resume_no_fit",
+      "PASS": true
+    },
+    {
+      "case": "imputer_hash_rejected",
+      "PASS": true
+    },
+    {
+      "case": "effective_columns_rejected",
+      "PASS": true
+    },
+    {
+      "case": "reference_only_flag_rejected",
+      "PASS": true
+    },
+    {
+      "case": "fit_rows_rejected",
+      "PASS": true
+    },
+    {
+      "case": "missing_prefix_error_rejected",
+      "PASS": true
+    },
+    {
+      "case": "negative_error_rejected",
+      "PASS": true
+    },
+    {
+      "case": "nonfinite_error_rejected",
+      "PASS": true
+    },
+    {
+      "case": "inconsistent_max_rejected",
+      "PASS": true
+    },
+    {
+      "case": "model_contract_rejected",
+      "PASS": true
+    },
+    {
+      "case": "heldout_flag_rejected",
+      "PASS": true
+    },
+    {
+      "case": "actual_y_mismatch_rejected",
+      "PASS": true
+    },
+    {
+      "case": "probe_bypass_rejected",
+      "PASS": true
+    }
+  ],
+  "model_fits": 0,
+  "real_query_predictions": 0,
+  "real_heldout_labels_read": 0,
+  "limits": [
+    "Synthetic contract checks, not actual66 preparation completion or full model gate"
+  ]
+}

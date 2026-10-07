@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "query_rows": 1440,
+  "train_rows": 5520,
+  "gap_rows_absent": 384,
+  "query_checks_and_future_other_farm_perturbations": 1560,
+  "both_endpoint_anchor_pairs": 8,
+  "hidden_labels_exposed": 0,
+  "gap_values_parsed": false,
+  "numeric_labels_used_to_choose_layout": false,
+  "performance_tested": false,
+  "whole_chain_model_causality_tested": false,
+  "limitations": [
+    "문맥 API 검사. 이 API 밖에서 CSV를 직접 읽는 사슬/모델 구현은 별도 감사 필요",
+    "가짜 평가 전 시각의 앞쪽 query 기록은 입력만 전달하며 정답은 없음"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "rows": 9600,
+  "columns": 838,
+  "comparisons": 40,
+  "reference_method": "v1 pandas逐시각 reindex/mean/std 대조; 2일만, 전체 v1 감사 별도 진행",
+  "future_prefix_atol": 0,
+  "reference_atol": 1e-10,
+  "CPU_only": true,
+  "elapsed_seconds": 87.71296099992469,
+  "performance_tested": false,
+  "whole_model_causality_tested": false
+}

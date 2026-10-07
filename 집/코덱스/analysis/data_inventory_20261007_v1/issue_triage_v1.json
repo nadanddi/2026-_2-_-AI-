@@ -1,0 +1,145 @@
+{
+  "issues": [
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_04/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')",
+      "bytes": 54,
+      "classification": "synthetic_invalid_fixture",
+      "evidence": "synthetic path and file signature"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_05/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')",
+      "bytes": 54,
+      "classification": "synthetic_invalid_fixture",
+      "evidence": "synthetic path and file signature"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_06/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')",
+      "bytes": 54,
+      "classification": "synthetic_invalid_fixture",
+      "evidence": "synthetic path and file signature"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_07/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')",
+      "bytes": 54,
+      "classification": "synthetic_invalid_fixture",
+      "evidence": "synthetic path and file signature"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_12/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')",
+      "bytes": 54,
+      "classification": "synthetic_invalid_fixture",
+      "evidence": "synthetic path and file signature"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_13/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')",
+      "bytes": 54,
+      "classification": "synthetic_invalid_fixture",
+      "evidence": "synthetic path and file signature"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_14/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')",
+      "bytes": 54,
+      "classification": "synthetic_invalid_fixture",
+      "evidence": "synthetic path and file signature"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_15/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')",
+      "bytes": 54,
+      "classification": "synthetic_invalid_fixture",
+      "evidence": "synthetic path and file signature"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_src_X1_20261002_v1/all_primary_pairs.csv",
+      "error": "EmptyDataError('No columns to parse from file')",
+      "bytes": 0,
+      "classification": "empty_result_table_no_observations",
+      "evidence": "writecsv source writes zero bytes for empty list"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_src_X1_20261002_v1/all_scope_shape_matches.csv",
+      "error": "EmptyDataError('No columns to parse from file')",
+      "bytes": 0,
+      "classification": "empty_result_table_no_observations",
+      "evidence": "writecsv source writes zero bytes for empty list"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_src_X1_20261002_v1/raw_pair_examples.csv",
+      "error": "EmptyDataError('No columns to parse from file')",
+      "bytes": 0,
+      "classification": "empty_result_table_no_observations",
+      "evidence": "writecsv source writes zero bytes for empty list"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_src_X1_20261002_v1/selected_pairs.csv",
+      "error": "EmptyDataError('No columns to parse from file')",
+      "bytes": 0,
+      "classification": "empty_result_table_no_observations",
+      "evidence": "writecsv source writes zero bytes for empty list"
+    },
+    {
+      "path": "집/코덱스/analysis/local/ec_baseline_cache/6fb2fb99f59aa1abc8b707848f25e938c8d67ec42c516667993c5a7307c6af07.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')",
+      "bytes": 62418,
+      "classification": "invalid_real_npz_requires_regeneration",
+      "evidence": {
+        "path": "집/코덱스/analysis/local/ec_baseline_cache/6fb2fb99f59aa1abc8b707848f25e938c8d67ec42c516667993c5a7307c6af07.npz",
+        "classification": "invalid_real_npz_requires_regeneration",
+        "bytes": 62418,
+        "sha256": "cffc7b938ade80f85e3630d9c6ffaaff44f96787e4f0a28cb979d03d875a21cd",
+        "all_bytes_zero": true
+      }
+    },
+    {
+      "path": "집/코덱스/local/ec_actual_A_nested_oof_synthetic_20261006_v1/.staging/interrupted_example/unfinished.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')",
+      "bytes": 26,
+      "classification": "synthetic_invalid_fixture",
+      "evidence": "synthetic path and file signature"
+    },
+    {
+      "path": "집/코덱스/local/ec_exact_tweedie_leaf_20261004_v1/overlay_v1/external_libs/nanoarrow/dev/benchmarks/asv.conf.json",
+      "error": "JSONDecodeError('Expecting property name enclosed in double quotes: line 2 column 5 (char 6)')",
+      "bytes": 8633,
+      "classification": "commented_software_configuration_not_dataset",
+      "evidence": "JSON configuration includes line comments; not strict JSON"
+    },
+    {
+      "path": "집/코덱스/local/ec_exact_tweedie_leaf_20261004_v1/source/external_libs/nanoarrow/dev/benchmarks/asv.conf.json",
+      "error": "JSONDecodeError('Expecting property name enclosed in double quotes: line 2 column 5 (char 6)')",
+      "bytes": 8633,
+      "classification": "commented_software_configuration_not_dataset",
+      "evidence": "JSON configuration includes line comments; not strict JSON"
+    },
+    {
+      "path": "집/코덱스/local/ec_nested_log_blend_guard_synthetic_20261004_v1/cell.json",
+      "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')",
+      "bytes": 9,
+      "classification": "synthetic_invalid_fixture",
+      "evidence": "synthetic path and file signature"
+    },
+    {
+      "path": "집/코덱스/local/ec_nested_log_blend_guard_synthetic_20261004_v1/cell_inner.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')",
+      "bytes": 9,
+      "classification": "synthetic_invalid_fixture",
+      "evidence": "synthetic path and file signature"
+    }
+  ],
+  "classifications": {
+    "synthetic_invalid_fixture": 11,
+    "empty_result_table_no_observations": 4,
+    "invalid_real_npz_requires_regeneration": 1,
+    "commented_software_configuration_not_dataset": 2
+  },
+  "unclassified": 0,
+  "source_data_errors": 0,
+  "original_files_modified": 0
+}

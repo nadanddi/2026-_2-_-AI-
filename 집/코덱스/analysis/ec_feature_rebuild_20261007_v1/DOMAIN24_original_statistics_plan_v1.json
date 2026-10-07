@@ -1,0 +1,29 @@
+{
+  "status": "PROSPECTIVE_DRAFT_NOT_FIT_REGISTRATION",
+  "scope": "All24 original domain families; no family excluded from BLK ranking",
+  "seeds": [47, 1414, 6464],
+  "validator_directions_required": ["TM111_on_DIAG10", "P2LOO", "EL1"],
+  "direction": "Each seed x each named validator has strictly negative aggregate RMSE delta",
+  "diagnostic_p_tests_joint_requirement": ["DIAG10_all_rows", "TM111_subset_of_same_DIAG10_predictions"],
+  "candidate_level_intersection": true,
+  "diagnostic_alpha": "0.025 / 84",
+  "multiplicity_accounting": "60 earlier BLK diagnostic variants + 24 original-domain families; conservative prospective family accounting, not global correction for every future search",
+  "bootstrap_draws": 200000,
+  "random_generator": "stdlib random.Random(2026100703)",
+  "bootstrap_membership": "Unique DIAG10 query row IDs; each belongs to (farm, floor(original_record_day / 5)), offset zero. Same block ID applies to TM subset. Duplicate query ID across DIAG folds is an error.",
+  "block_population": "All nonempty original DIAG10 blocks per farm, sorted farm then numeric block ID. TM retains the same population and zero contributions for blocks outside TM. No label-dependent blocks.",
+  "sampling": "For each draw sample each farm's original number of blocks with replacement using randrange. Draws shared across DIAG and TM and all24 families. If TM sampled denominator is zero, discard and redraw before any candidate losses are read; seal exact accepted draw list before fit.",
+  "loss": "Per-row arithmetic mean over three seeds of candidate squared error minus baseline squared error. Sum block losses and divide by total sampled row count of the tested subset; do not average block means.",
+  "p_worse": "(1 + count(draw mean loss >= 0)) / (200000 + 1); ties count as worse",
+  "CI": "Individual unadjusted 95% loss CI reported as diagnostic only. Joint pass requires both p values below .025/84; do not advertise two independent successes.",
+  "baseline_required": "Same-fold train-only cached CPU PFN4 contexts and registered R3 weights/shrink/clip/reference-only SG2; R3-only raw output cannot be scored as full baseline",
+  "adoption_permitted": false,
+  "final_confirmation": "Keep preregistration_v2.json: first-unused seeds/layout checked against entire history, one run, all cells improve, TM 200000 draw P(worse) < .025/finalist_count",
+  "limits": [
+    "Prospective to original fitting, but designed after BLK exposure: exploration, not fresh confirmation",
+    "Nominal record-day blocks do not establish physical five-day continuity",
+    "DIAG10 and TM subset are correlated, not independent validators",
+    "Executable block/draw generation and exact source/output SHA registration must be completed before fitting",
+    "Future literature/data/subset/interaction searches require separate prospective registrations and full search-history accounting"
+  ]
+}

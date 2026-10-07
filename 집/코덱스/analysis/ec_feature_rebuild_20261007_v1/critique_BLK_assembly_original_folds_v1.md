@@ -1,0 +1,37 @@
+# BLK 통합·원검증기 anchor 구조 독립 비평 v1 — 2026-10-07
+
+blk_assemble_predictions_v1.py와original_validator_anchor_selector_v1.py를읽었다. 통합은아직실행/최종gate통과로취급하지않는다. PFN진행은부모가확인한liveworker를유지한다. 본검토는신규fit/채점/GPU없이소스기반이다.
+
+## 확인한 설계
+
+assembly는4PFNcontext완료와R3완료를필수로하고6scope×seed에대해rawR3→.6R3+.4PFN→oneprefixshrink→trainclip→ref-onlySG2→clip→endpoint→clip순서를사용한다. shrink를각행fsum으로검산한다. querytruth를읽는코드없고미래query교란하에후처리출력을재계산한다. broaderPFN감사미완료를명시해whole_pipeline_gate=False로저장하는것은타당하다. **이검사는미래교란후rawR3/PFN을재예측하지않으므로최종모델전체인과감사가아닌최종후처리경계감사다.**
+
+원validatorselector는queryID를유지하고query/locked±1을train에서제외한다. 각동일farm contiguousqueryrun에가장가까운양쪽trainrecord를찾아연속3기록support를요구하며없으면모든방법을baselinefallback한다. anchor선택에numeric정답을읽지않는다. TM은DIAG전체보류fold로anchor를고정하고111일만score한다는명세가맞다. 이는원검증조건이고exactBLKgap1과는다름을명시했다.
+
+## AS01 · P1 · R3/PFN registration 상호계약 확인 추가
+
+assembly load는각파일의ownregistrationSHA/predSHA/queryIDs를검사한다. 그러나PFNregistration과R3registration의layoutSHA·현재원본/dependencies·orderedtrainIDs·FULL38·context5..8orderedIDs·checkpointweightSHA·deviceCPU가같은실험인지교차검사하지않는다. 같은queryIDS만맞는다른train/context캐시도독립registration이맞으면통과할수있다. complete파일존재도내용/전체출력hash검증을대체하지않는다.
+
+필수조치: PFNregistration의실제source/dependency/checkpointSHA와layout·orderedtrain/query·feature/seasonmapping·contextIDs를R3/BLK현재계약과대조한다. member9/context4각length1440/finite를assembly입구에서assert하고각member/contextSHA를통합manifest에기록한다. rules.context_codeSHA/layoutSHA도현재파일과검사한다. assembly가참조하는v3규칙의adapterv2SHApin을확인한다.
+
+## AS02 · P1 · 원검증기 전체baseline·fallback과score 모집단
+
+selector는EC라벨있는yID만으로train을만들며rawX의현재ID/24h·온도라벨가용성·MASK를직접검사하지않는다. 현재원자료에는해당EC9,600행이완전한것으로알려져있으나새loader에서실제로assert해야한다. input_forbidden_ids=available−train−query는EC유정답ID만포함한다. 49온실보조/추가입력이있다면이목록하나로outerquery입력/정답차단을보장할수없다.
+
+필수조치: selectorregistry를원fold학습·달력·anchor·PFN문맥loader가모두사용하게하고query온도/EC양정답을숨긴다. 현재X/ySHA와ID조인을검증한다. 원foldbaseline을같은train/queryorderedID로재학습하거나동등성검증한저장캐시로맞춘다. covered만score하지말고covered+fallback 전체원query를포함한다. TM은원DIAG111일2664행, P2LOO/EL1은각1104행이기대모집단이며각validator내ID중복/누락을assert한다. validator들을한데pool하면반복행과서로다른학습모델을이중계산하므로개별보고한다. fallback후보는baseline과bit/tolerance동일인지검증한다.
+
+## AS03 · P2 · 기준선 완료표시와immutable lineage
+
+assembly는hiddenlabel없이저장하지만실행직전/fit후reference값불변성SHA·전체모델인과·baseline동등성은아직필요하다. postprocessfuturechecks는baseprefix를fixedmembercache에서만들어뒤memberprediction을API에주지않으며이는적절한경계이나broaderPFN/sourcefeatureaudit를대신하지않는다. 첫8querysubset만으로나머지시간대/블록PFN배치독립성을보장하지않는다.
+
+조치: PFNscatteredhours/blocks/single/reverse/partitionquery감사와R3featurefuture교란출력을확인한다. 최종assemblyscorer는whole_pipeline_gate_true의별도verifiedreceipt를요구하도록한다. 감사후predSHA를바꾼output은score하지않는다. sourcepin·referencefitstats/calendarSHA·4context/9memberlineage를manifest에보존한다.
+
+## AS04 · P2 · 원validator anchor조건 해석
+
+가장가까운한쪽endpoint가3연속support를갖지않으면더먼supportedendpoint를찾지않고fallback한다. 이규칙은등록된대로보수적이며결과보고변경하면새variant다. queryrun양옆gap이1보다길거나다른보류run이끼면BLK와다른coverage/record거리다. run별gap거리·support/coverage·samecomponent가능성·guard활성률을유지해야한다. 행RMSE를covered부분만보고'전체개선'이라부르면안된다.
+
+## AS05 · P2 · 손실합산과보고
+
+BLK6variants는각scopebaseline과paired비교한다. 각seedRMSE는전체1440행에서독립계산하고bootstrap은등록대로perrowmeanseedSEdelta를블록SSE/count로합산해farm층화재표집한다. 평균predictionRMSE와meanseedSE를혼동하지않는다. 원3validator는각자동일baseline/모집단과paired비교하고BLK8blockbootstrap을원validator의서로다른block단위에그대로복사하지말고판정/CI명세를별도봉인한다. 명세확정전에는진단수치만보고한다.
+
+다음은PFN기존worker완료확인→AS01교차pin→broaderPFN/전체인과감사→assembly gate검증→BLK진단채점이다. 원3validator후속fit/효과확인은등록selector가실제loader/runner에적용된증거가필요하다. 전체기초재검토와최종채택은여전히미완료다.

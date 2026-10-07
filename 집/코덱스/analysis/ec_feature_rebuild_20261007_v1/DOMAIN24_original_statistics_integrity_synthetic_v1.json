@@ -1,0 +1,50 @@
+{
+  "status": "SYNTHETIC_DRAW_INTEGRITY_NEGATIVE_PASS",
+  "cases": [
+    {
+      "case": "valid_tiny_draws",
+      "PASS": true
+    },
+    {
+      "case": "wrong_SHA_rejected",
+      "PASS": true
+    },
+    {
+      "case": "truncated_rejected",
+      "PASS": true
+    },
+    {
+      "case": "extra_byte_rejected",
+      "PASS": true
+    },
+    {
+      "case": "wrong_farm_total_rejected",
+      "PASS": true
+    },
+    {
+      "case": "layout_width_rejected",
+      "PASS": true
+    },
+    {
+      "case": "duplicate_group_rejected",
+      "PASS": true
+    },
+    {
+      "case": "empty_group_rejected",
+      "PASS": true
+    },
+    {
+      "case": "zero_TM_denominator_rejected",
+      "PASS": true
+    },
+    {
+      "case": "TM_exceeds_rows_rejected",
+      "PASS": true
+    }
+  ],
+  "code_sha256": "f5e3df7877ad7f1f8ea3f96625e436e9e265951818f649e42b5e6d6d0a1a0d20",
+  "guard_sha256": "868fea308b7f7b0602f83b1042ad6ad466a37b798112e1b3d781f71ba3fec3c6",
+  "model_fit": false,
+  "heldout_truth_loaded": false,
+  "full_model_score_gate": false
+}

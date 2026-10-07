@@ -1,0 +1,48 @@
+[
+  {
+    "issue": "C01",
+    "fix": "도메인 candidate=한 고정 family 묶음. 창별 결과를 보고 우승자 선택 금지",
+    "evidence": "feature_candidates_v2.csv"
+  },
+  {
+    "issue": "C02",
+    "fix": "원열 함께 투입과 곱/비율/교차지연을 다른 탐색 공간으로 명시",
+    "evidence": "preregistration_v2.json interaction_grammar",
+    "remaining": "실제 후속 후보 등록"
+  },
+  {
+    "issue": "C03",
+    "fix": "row_id/쌍/순서/달력/온도3경로/전체온실 보조학습8개 등록",
+    "evidence": "feature_candidates_v2.csv M01..U04"
+  },
+  {
+    "issue": "C04",
+    "fix": "실제 학습/참조/문맥/inner ID contract 없으면 fit 차단",
+    "remaining": "실제 runner ID 생성"
+  },
+  {
+    "issue": "C05",
+    "fix": "원열 직접/간접 전체 경로 제거를 분리",
+    "remaining": "전체 처리 source audit"
+  },
+  {
+    "issue": "C06",
+    "fix": "CPU 동등성 절대허용오차1e-6 사전고정, 실패 시 별도 기준선",
+    "remaining": "실제 재현"
+  },
+  {
+    "issue": "C07",
+    "fix": "fresh seed/fold는 새 정답이 아님 명시, 탐색횟수 공개",
+    "remaining": "confirmation seed/layout 봉인"
+  },
+  {
+    "issue": "C08",
+    "fix": "atomic checkpoint/strict schema/오염거부 selftest 구현",
+    "remaining": "실제 runner 및 process start audit"
+  },
+  {
+    "issue": "C09",
+    "fix": "문헌 슬롯 출처 읽기·중복·차이 검토 후에만 활성화",
+    "remaining": "②에서 실제 문헌별 등록"
+  }
+]

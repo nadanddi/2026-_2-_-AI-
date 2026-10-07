@@ -1,0 +1,48 @@
+{
+  "status": "SUPERSEDED_DO_NOT_USE_FOR_SCORE_GATE",
+  "superseded_registration": "BLK_CPU_numerical_policy_registration_v1.json",
+  "reason": "Independent source review found uncached internal constant masks and feature-group counts fit over train plus query rows; padding does not remove this path",
+  "evidence": [
+    "critique_BLK_CPU_padding_v1.md",
+    "critique_BLK_CPU_cache_source_v1.md"
+  ],
+  "old_outputs_preserved": true,
+  "aborted_audits": [
+    {
+      "context": 8,
+      "script": "blk_pfn_query_audit_v2.py",
+      "session": 61602,
+      "pid": 36140,
+      "terminal_exit": 1
+    },
+    {
+      "context": 5,
+      "script": "blk_pfn_query_audit_v3.py",
+      "session": 62806,
+      "pid": 35632,
+      "terminal_exit": 1
+    },
+    {
+      "context": 6,
+      "script": "blk_pfn_query_audit_v3.py",
+      "session": 23127,
+      "pid": 38528,
+      "terminal_exit": 1
+    },
+    {
+      "context": 7,
+      "script": "blk_pfn_query_audit_v3.py",
+      "session": 47284,
+      "pid": 11056,
+      "terminal_exit": 1
+    }
+  ],
+  "replacement_script": "blk_pfn_refonly_cache_v3.py",
+  "replacement_folder": "checkpoints/BLK_PFN_CPU_REFONLY_v3",
+  "replacement_registration_sha256": "e02982689a667d72e7adddc7f393b0345f42191f53b0154c88536cc3763de018",
+  "replacement_current_session": 55543,
+  "replacement_runtime": "Torch2.14.0+cpu, TabPFN9.0.0, CPU4threads, fit_with_cache, kv_cache_precisionauto",
+  "whole_pipeline_gate_passed": false,
+  "heldout_truth_loaded": false,
+  "GPU_used": false
+}

@@ -1,0 +1,404 @@
+{
+  "status": "TRAIN_ONLY_CH2_COST_ASSIGNMENT_AUDIT_PASS_NOT_PREDICTIVE_VALIDATION",
+  "source_sha256": {
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\ch2_reference_graph_v1.py": "359b57d88cc1642c4bb556ef4e5c05fd45213a8e588d5d48f086ad0061edcee6",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\BLK_layout_v2.json": "987f303964586b888402dd02af17d76734676832a0b1cde44bf792d7c5ca192e",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\CH2_reference_diagnostics_v1.json": "7b5850112716963f5f769141a5787341b0d5baee6d8a94fcc28b1ed2a482eab9",
+    "C:\\work\\farmai\\집\\클로드\\research\\ch2_label_chains_training_v1.py": "2a2e8edd029242997ab844b401797f1315974b91b58b0b33317957c3210609fe",
+    "C:\\work\\farmai\\공용\\대회자료\\정형데이터\\참가자_배포\\train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "C:\\work\\farmai\\공용\\대회자료\\정형데이터\\참가자_배포\\train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\ch2_training_assignment_crosscheck_v1.py": "b57aa776f68a7cc406fcacb57210853246f13d0618a37cfaec495a2d79ef19b2"
+  },
+  "train_rows": 5520,
+  "train_records": 230,
+  "links_checked": 201,
+  "maximum_original_link_cost_difference": 3.552713678800501e-15,
+  "farms": [
+    {
+      "farm": "F13",
+      "train_records": 119,
+      "original_link_count": 107,
+      "independent_optimal_assignment_cost": 837.2543014939673,
+      "original_assignment_recomputed_cost": 837.2543014939673,
+      "original_primal_optimal_gap": 0.0,
+      "certificate": {
+        "dual_violation": 1.0658141036401503e-14,
+        "assigned_edge_tightness": 1.0658141036401503e-14,
+        "primal_dual_gap": 1.1368683772161603e-13
+      },
+      "weather_scales_train_only": {
+        "out_temp": 1.1928709330869167,
+        "out_hum": 4.710624611814806,
+        "out_wspd": 0.5455154053803732,
+        "out_rad": 73.15109904897972
+      }
+    },
+    {
+      "farm": "F47",
+      "train_records": 111,
+      "original_link_count": 94,
+      "independent_optimal_assignment_cost": 906.0394365040246,
+      "original_assignment_recomputed_cost": 906.0394365040245,
+      "original_primal_optimal_gap": 1.1368683772161603e-13,
+      "certificate": {
+        "dual_violation": 8.881784197001252e-15,
+        "assigned_edge_tightness": 2.1316282072803006e-14,
+        "primal_dual_gap": 3.410605131648481e-13
+      },
+      "weather_scales_train_only": {
+        "out_temp": 1.199545482072551,
+        "out_hum": 4.913363635547615,
+        "out_wspd": 0.5286818302674976,
+        "out_rad": 70.72649657725617
+      }
+    }
+  ],
+  "synthetic_checks": [
+    {
+      "kind": "exhaustive_assignment",
+      "size": 2,
+      "permutations": 2
+    },
+    {
+      "kind": "exhaustive_assignment",
+      "size": 3,
+      "permutations": 6
+    },
+    {
+      "kind": "exhaustive_assignment",
+      "size": 4,
+      "permutations": 24
+    },
+    {
+      "kind": "exhaustive_assignment",
+      "size": 5,
+      "permutations": 120
+    },
+    {
+      "kind": "exhaustive_assignment",
+      "size": 6,
+      "permutations": 720
+    },
+    {
+      "kind": "combined_dummy24",
+      "edge_cost": 11.0,
+      "linked": true
+    },
+    {
+      "kind": "combined_dummy24",
+      "edge_cost": 13.0,
+      "linked": true
+    },
+    {
+      "kind": "combined_dummy24",
+      "edge_cost": 20.0,
+      "linked": true
+    },
+    {
+      "kind": "combined_dummy24",
+      "edge_cost": 25.0,
+      "linked": false
+    }
+  ],
+  "components_checked": 46,
+  "cycle_count_checked": 17,
+  "cycles": [
+    [
+      [
+        "F13",
+        9
+      ],
+      [
+        "F13",
+        10
+      ],
+      [
+        "F13",
+        12
+      ],
+      [
+        "F13",
+        26
+      ],
+      [
+        "F13",
+        27
+      ],
+      [
+        "F13",
+        28
+      ],
+      [
+        "F13",
+        179
+      ],
+      [
+        "F13",
+        182
+      ],
+      [
+        "F13",
+        183
+      ]
+    ],
+    [
+      [
+        "F13",
+        11
+      ],
+      [
+        "F13",
+        13
+      ],
+      [
+        "F13",
+        17
+      ],
+      [
+        "F13",
+        19
+      ],
+      [
+        "F13",
+        21
+      ],
+      [
+        "F13",
+        181
+      ]
+    ],
+    [
+      [
+        "F13",
+        33
+      ],
+      [
+        "F13",
+        43
+      ]
+    ],
+    [
+      [
+        "F13",
+        42
+      ],
+      [
+        "F13",
+        44
+      ],
+      [
+        "F13",
+        45
+      ],
+      [
+        "F13",
+        49
+      ]
+    ],
+    [
+      [
+        "F13",
+        67
+      ],
+      [
+        "F13",
+        71
+      ],
+      [
+        "F13",
+        77
+      ],
+      [
+        "F13",
+        79
+      ],
+      [
+        "F13",
+        80
+      ],
+      [
+        "F13",
+        81
+      ],
+      [
+        "F13",
+        83
+      ],
+      [
+        "F13",
+        85
+      ],
+      [
+        "F13",
+        89
+      ]
+    ],
+    [
+      [
+        "F13",
+        76
+      ],
+      [
+        "F13",
+        78
+      ],
+      [
+        "F13",
+        91
+      ]
+    ],
+    [
+      [
+        "F13",
+        82
+      ],
+      [
+        "F13",
+        84
+      ],
+      [
+        "F13",
+        90
+      ]
+    ],
+    [
+      [
+        "F13",
+        93
+      ],
+      [
+        "F13",
+        94
+      ],
+      [
+        "F13",
+        96
+      ]
+    ],
+    [
+      [
+        "F13",
+        110
+      ],
+      [
+        "F13",
+        111
+      ],
+      [
+        "F13",
+        112
+      ]
+    ],
+    [
+      [
+        "F13",
+        196
+      ],
+      [
+        "F13",
+        197
+      ]
+    ],
+    [
+      [
+        "F13",
+        231
+      ],
+      [
+        "F13",
+        233
+      ]
+    ],
+    [
+      [
+        "F47",
+        58
+      ],
+      [
+        "F47",
+        60
+      ],
+      [
+        "F47",
+        62
+      ]
+    ],
+    [
+      [
+        "F47",
+        77
+      ],
+      [
+        "F47",
+        194
+      ]
+    ],
+    [
+      [
+        "F47",
+        89
+      ],
+      [
+        "F47",
+        91
+      ]
+    ],
+    [
+      [
+        "F47",
+        96
+      ],
+      [
+        "F47",
+        98
+      ],
+      [
+        "F47",
+        100
+      ],
+      [
+        "F47",
+        102
+      ],
+      [
+        "F47",
+        104
+      ]
+    ],
+    [
+      [
+        "F47",
+        109
+      ],
+      [
+        "F47",
+        111
+      ],
+      [
+        "F47",
+        113
+      ]
+    ],
+    [
+      [
+        "F47",
+        121
+      ],
+      [
+        "F47",
+        122
+      ]
+    ]
+  ],
+  "query_inputs_parsed": 0,
+  "heldout_labels_parsed": 0,
+  "gap_inputs_parsed": 0,
+  "model_fit": false,
+  "performance_evaluated": false,
+  "adoption_permitted": false,
+  "limits": [
+    "Training-label-conditioned graph optimality does not establish physical source identity or predictive gain",
+    "Original chosen assignment may tie with other optima; original graph remains unchanged",
+    "Future query-prefix source assignment, cycle fallback and full predictive validation remain"
+  ]
+}

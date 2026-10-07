@@ -1,0 +1,1021 @@
+{
+  "file": "2023_13_ds.zip",
+  "sha256": "2d18541560e8a1f5b1ccf257153fe709430be7d62a3024d8ed700328510c11cc",
+  "matches_previous_sha": true,
+  "bytes": 5816876,
+  "members": [
+    {
+      "member": "그린씨에스_env.csv",
+      "encoding": "cp949",
+      "rows": 1154115,
+      "columns": [
+        "수집일자",
+        "기업명",
+        "농가id",
+        "시도",
+        "시군구",
+        "온실형태",
+        "품목명",
+        "장비코드",
+        "장비명",
+        "단체표준 장비명(국문)",
+        "단체표준 장비명(영문)",
+        "단위",
+        "측정값"
+      ],
+      "dtypes": {
+        "수집일자": "str",
+        "기업명": "str",
+        "농가id": "str",
+        "시도": "str",
+        "시군구": "str",
+        "온실형태": "str",
+        "품목명": "str",
+        "장비코드": "str",
+        "장비명": "str",
+        "단체표준 장비명(국문)": "str",
+        "단체표준 장비명(영문)": "str",
+        "단위": "str",
+        "측정값": "float64"
+      },
+      "missing": {
+        "수집일자": 0,
+        "기업명": 0,
+        "농가id": 0,
+        "시도": 0,
+        "시군구": 0,
+        "온실형태": 0,
+        "품목명": 0,
+        "장비코드": 0,
+        "장비명": 0,
+        "단체표준 장비명(국문)": 0,
+        "단체표준 장비명(영문)": 0,
+        "단위": 0,
+        "측정값": 0
+      },
+      "duplicate_rows": 108621,
+      "fields": [
+        {
+          "column": "수집일자",
+          "unique": 7786,
+          "missing": 0,
+          "top": {
+            "2023-10-09 00:00:00": 211,
+            "2023-10-09 01:00:00": 211,
+            "2023-10-09 02:00:00": 211
+          }
+        },
+        {
+          "column": "기업명",
+          "unique": 1,
+          "missing": 0,
+          "top": {
+            "그린씨에스": 1154115
+          }
+        },
+        {
+          "column": "농가id",
+          "unique": 10,
+          "missing": 0,
+          "top": {
+            "PF_0023621_01": 217242,
+            "PF_0023627_01": 155250,
+            "PF_0023616_01": 129221
+          }
+        },
+        {
+          "column": "시도",
+          "unique": 4,
+          "missing": 0,
+          "top": {
+            "전라남도": 524493,
+            "전라북도": 483856,
+            "광주광역시": 75558
+          }
+        },
+        {
+          "column": "시군구",
+          "unique": 7,
+          "missing": 0,
+          "top": {
+            "김제시": 354635,
+            "담양군": 332092,
+            "남원시": 129221
+          }
+        },
+        {
+          "column": "온실형태",
+          "unique": 1,
+          "missing": 0,
+          "top": {
+            "비닐": 1154115
+          }
+        },
+        {
+          "column": "품목명",
+          "unique": 2,
+          "missing": 0,
+          "top": {
+            "토마토": 821303,
+            "딸기": 332812
+          }
+        },
+        {
+          "column": "장비코드",
+          "unique": 20,
+          "missing": 0,
+          "top": {
+            "FG-EO-RP": 61121,
+            "FG-EI-CI": 61121,
+            "FG-EI-HI": 61121
+          }
+        },
+        {
+          "column": "장비명",
+          "unique": 20,
+          "missing": 0,
+          "top": {
+            "강우감지": 61121,
+            "내부CO2": 61121,
+            "내부습도": 61121
+          }
+        },
+        {
+          "column": "단체표준 장비명(국문)",
+          "unique": 20,
+          "missing": 0,
+          "top": {
+            "외부강우감지": 61121,
+            "내부CO2": 61121,
+            "내부습도": 61121
+          }
+        },
+        {
+          "column": "단체표준 장비명(영문)",
+          "unique": 20,
+          "missing": 0,
+          "top": {
+            "ExternalEnvironment_RainfallDetection": 61121,
+            "InternalEnvironment_CarbonDioxide": 61121,
+            "InternalEnvironment_Humidity": 61121
+          }
+        },
+        {
+          "column": "단위",
+          "unique": 11,
+          "missing": 0,
+          "top": {
+            "도": 244484,
+            "%": 243859,
+            "ON/OFF": 243575
+          }
+        },
+        {
+          "column": "측정값",
+          "unique": 20004,
+          "missing": 0,
+          "top": {
+            "0.0": 435358,
+            "100.0": 52083,
+            "1.0": 21198
+          },
+          "nonfinite": 0,
+          "zero": 435358,
+          "negative": 6445,
+          "min": -11.83,
+          "p01": 0.0,
+          "median": 6.0,
+          "p99": 570.0,
+          "max": 260690.46
+        }
+      ],
+      "sensor": {
+        "crop_column": "품목명",
+        "item_column": "장비명",
+        "value_column": "측정값",
+        "farm_column": "농가id",
+        "time_column": "수집일자",
+        "strawberry_rows": 332812,
+        "farms": 2,
+        "groups": [
+          {
+            "item": "(양액)공급EC",
+            "n": 5603,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 12,
+            "negative": 0,
+            "unique": 154,
+            "fractional": 2156,
+            "units": [
+              "dS/m"
+            ],
+            "min": 0.0,
+            "p01": 2.0,
+            "median": 6.0,
+            "p99": 11.67,
+            "max": 14.0
+          },
+          {
+            "item": "(양액)공급PH",
+            "n": 5603,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 806,
+            "negative": 0,
+            "unique": 60,
+            "fractional": 553,
+            "units": [
+              "ph"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 1.0,
+            "p99": 2.0,
+            "max": 2.1
+          },
+          {
+            "item": "(양액)공급량",
+            "n": 5603,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 2172,
+            "negative": 0,
+            "unique": 1540,
+            "fractional": 3384,
+            "units": [
+              "cc"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 109.18,
+            "p99": 609.17,
+            "max": 1107.28
+          },
+          {
+            "item": "CO2발생장치작동여부",
+            "n": 18542,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 16839,
+            "negative": 0,
+            "unique": 2,
+            "fractional": 0,
+            "units": [
+              "ON/OFF"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 0.0,
+            "p99": 1.0,
+            "max": 1.0
+          },
+          {
+            "item": "강우감지",
+            "n": 18620,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 18618,
+            "negative": 0,
+            "unique": 2,
+            "fractional": 0,
+            "units": [
+              "Y/N"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 0.0,
+            "p99": 0.0,
+            "max": 1.0
+          },
+          {
+            "item": "내부CO2",
+            "n": 18620,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 0,
+            "negative": 0,
+            "unique": 3332,
+            "fractional": 15407,
+            "units": [
+              "ppm"
+            ],
+            "min": 200.33,
+            "p01": 230.33,
+            "median": 396.33,
+            "p99": 757.5146000000022,
+            "max": 2000.0
+          },
+          {
+            "item": "내부습도",
+            "n": 18620,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 0,
+            "negative": 0,
+            "unique": 1610,
+            "fractional": 18032,
+            "units": [
+              "%"
+            ],
+            "min": 27.29,
+            "p01": 50.97,
+            "median": 95.0,
+            "p99": 99.73,
+            "max": 100.0
+          },
+          {
+            "item": "내부온도",
+            "n": 18620,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 0,
+            "negative": 0,
+            "unique": 1342,
+            "fractional": 16274,
+            "units": [
+              "도"
+            ],
+            "min": 2.2,
+            "p01": 6.0,
+            "median": 14.7,
+            "p99": 30.494300000000038,
+            "max": 36.5
+          },
+          {
+            "item": "냉방기작동여부",
+            "n": 18539,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 18043,
+            "negative": 0,
+            "unique": 2,
+            "fractional": 0,
+            "units": [
+              "ON/OFF"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 0.0,
+            "p99": 1.0,
+            "max": 1.0
+          },
+          {
+            "item": "보광등작동여부",
+            "n": 18539,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 18147,
+            "negative": 0,
+            "unique": 2,
+            "fractional": 0,
+            "units": [
+              "ON/OFF"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 0.0,
+            "p99": 1.0,
+            "max": 1.0
+          },
+          {
+            "item": "보온커튼개도",
+            "n": 18546,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 3646,
+            "negative": 0,
+            "unique": 143,
+            "fractional": 1328,
+            "units": [
+              "%"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 100.0,
+            "p99": 100.0,
+            "max": 100.0
+          },
+          {
+            "item": "외부온도",
+            "n": 18620,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 437,
+            "negative": 1942,
+            "unique": 788,
+            "fractional": 12229,
+            "units": [
+              "도"
+            ],
+            "min": -11.0,
+            "p01": -6.0,
+            "median": 10.0,
+            "p99": 43.67,
+            "max": 47.0
+          },
+          {
+            "item": "외부일사량",
+            "n": 18620,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 6882,
+            "negative": 0,
+            "unique": 3197,
+            "fractional": 9694,
+            "units": [
+              "w/㎡"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 7.33,
+            "p99": 880.0,
+            "max": 1035.17
+          },
+          {
+            "item": "외부풍속",
+            "n": 18620,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 7923,
+            "negative": 0,
+            "unique": 185,
+            "fractional": 9752,
+            "units": [
+              "m/s"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 0.17,
+            "p99": 2.83,
+            "max": 6.55
+          },
+          {
+            "item": "외부풍향",
+            "n": 18620,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 0,
+            "negative": 0,
+            "unique": 1690,
+            "fractional": 4110,
+            "units": [
+              "도"
+            ],
+            "min": 2.0,
+            "p01": 34.0,
+            "median": 275.0,
+            "p99": 358.0,
+            "max": 359.0
+          },
+          {
+            "item": "우측일중천창 개도",
+            "n": 18546,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 9668,
+            "negative": 0,
+            "unique": 444,
+            "fractional": 1393,
+            "units": [
+              "%"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 0.0,
+            "p99": 100.0,
+            "max": 100.0
+          },
+          {
+            "item": "이슬점온도",
+            "n": 18620,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 1,
+            "negative": 0,
+            "unique": 627,
+            "fractional": 11682,
+            "units": [
+              "도"
+            ],
+            "min": 0.0,
+            "p01": 5.0,
+            "median": 13.29,
+            "p99": 26.67,
+            "max": 654.0
+          },
+          {
+            "item": "절대습도",
+            "n": 18620,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 0,
+            "negative": 0,
+            "unique": 605,
+            "fractional": 10515,
+            "units": [
+              "g/m3"
+            ],
+            "min": 4.0,
+            "p01": 6.0,
+            "median": 11.33,
+            "p99": 26.67,
+            "max": 382.67
+          },
+          {
+            "item": "좌측일중천창 개도",
+            "n": 18546,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 10036,
+            "negative": 0,
+            "unique": 432,
+            "fractional": 1508,
+            "units": [
+              "%"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 0.0,
+            "p99": 100.0,
+            "max": 100.0
+          },
+          {
+            "item": "훈증기작동여부",
+            "n": 18545,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 17637,
+            "negative": 0,
+            "unique": 2,
+            "fractional": 0,
+            "units": [
+              "ON/OFF"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 0.0,
+            "p99": 1.0,
+            "max": 1.0
+          }
+        ],
+        "farm_item_times": [
+          {
+            "farm": "PF_0023621_01",
+            "item": "CO2발생장치작동여부",
+            "n": 12754,
+            "invalid": 0,
+            "duplicate_times": 6377,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 10,
+            "unique_values": 1
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "강우감지",
+            "n": 12796,
+            "invalid": 0,
+            "duplicate_times": 6398,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 6,
+            "unique_values": 1
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "내부CO2",
+            "n": 12796,
+            "invalid": 0,
+            "duplicate_times": 6398,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 6,
+            "unique_values": 2711
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "내부습도",
+            "n": 12796,
+            "invalid": 0,
+            "duplicate_times": 6398,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 6,
+            "unique_values": 1446
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "내부온도",
+            "n": 12796,
+            "invalid": 0,
+            "duplicate_times": 6398,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 6,
+            "unique_values": 977
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "냉방기작동여부",
+            "n": 12752,
+            "invalid": 0,
+            "duplicate_times": 6376,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 11,
+            "unique_values": 1
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "보광등작동여부",
+            "n": 12752,
+            "invalid": 0,
+            "duplicate_times": 6376,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 11,
+            "unique_values": 1
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "보온커튼개도",
+            "n": 12756,
+            "invalid": 0,
+            "duplicate_times": 6378,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 9,
+            "unique_values": 115
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "외부온도",
+            "n": 12796,
+            "invalid": 0,
+            "duplicate_times": 6398,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 6,
+            "unique_values": 560
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "외부일사량",
+            "n": 12796,
+            "invalid": 0,
+            "duplicate_times": 6398,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 6,
+            "unique_values": 2117
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "외부풍속",
+            "n": 12796,
+            "invalid": 0,
+            "duplicate_times": 6398,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 6,
+            "unique_values": 140
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "외부풍향",
+            "n": 12796,
+            "invalid": 0,
+            "duplicate_times": 6398,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 6,
+            "unique_values": 1170
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "우측일중천창 개도",
+            "n": 12756,
+            "invalid": 0,
+            "duplicate_times": 6378,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 9,
+            "unique_values": 212
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "이슬점온도",
+            "n": 12796,
+            "invalid": 0,
+            "duplicate_times": 6398,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 6,
+            "unique_values": 412
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "절대습도",
+            "n": 12796,
+            "invalid": 0,
+            "duplicate_times": 6398,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 6,
+            "unique_values": 391
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "좌측일중천창 개도",
+            "n": 12756,
+            "invalid": 0,
+            "duplicate_times": 6378,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 9,
+            "unique_values": 194
+          },
+          {
+            "farm": "PF_0023621_01",
+            "item": "훈증기작동여부",
+            "n": 12756,
+            "invalid": 0,
+            "duplicate_times": 6378,
+            "start": "2023-09-15 00:00:00",
+            "end": "2024-06-10 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 9,
+            "unique_values": 2
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "(양액)공급EC",
+            "n": 5603,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 9,
+            "unique_values": 154
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "(양액)공급PH",
+            "n": 5603,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 9,
+            "unique_values": 60
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "(양액)공급량",
+            "n": 5603,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 9,
+            "unique_values": 1540
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "CO2발생장치작동여부",
+            "n": 5788,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 12,
+            "unique_values": 2
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "강우감지",
+            "n": 5824,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 3,
+            "unique_values": 2
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "내부CO2",
+            "n": 5824,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 3,
+            "unique_values": 2142
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "내부습도",
+            "n": 5824,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 3,
+            "unique_values": 775
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "내부온도",
+            "n": 5824,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 3,
+            "unique_values": 1084
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "냉방기작동여부",
+            "n": 5787,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 14,
+            "unique_values": 2
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "보광등작동여부",
+            "n": 5787,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 13,
+            "unique_values": 2
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "보온커튼개도",
+            "n": 5790,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 11,
+            "unique_values": 53
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "외부온도",
+            "n": 5824,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 3,
+            "unique_values": 504
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "외부일사량",
+            "n": 5824,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 3,
+            "unique_values": 1984
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "외부풍속",
+            "n": 5824,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 3,
+            "unique_values": 128
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "외부풍향",
+            "n": 5824,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 3,
+            "unique_values": 1126
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "우측일중천창 개도",
+            "n": 5790,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 11,
+            "unique_values": 354
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "이슬점온도",
+            "n": 5824,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 3,
+            "unique_values": 418
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "절대습도",
+            "n": 5824,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 3,
+            "unique_values": 412
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "좌측일중천창 개도",
+            "n": 5790,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 11,
+            "unique_values": 354
+          },
+          {
+            "farm": "PF_0023622_01",
+            "item": "훈증기작동여부",
+            "n": 5789,
+            "invalid": 0,
+            "duplicate_times": 0,
+            "start": "2023-09-15 11:00:00",
+            "end": "2024-05-15 23:00:00",
+            "median_interval_seconds": 3600.0,
+            "gaps_over_1h": 12,
+            "unique_values": 1
+          }
+        ],
+        "start": "2023-09-15 00:00:00",
+        "end": "2024-06-10 23:00:00",
+        "invalid_time": 0
+      }
+    }
+  ],
+  "zip_bad_member": null,
+  "member_manifest": [
+    {
+      "name": "그린씨에스_env.csv",
+      "bytes": 176511382
+    }
+  ]
+}

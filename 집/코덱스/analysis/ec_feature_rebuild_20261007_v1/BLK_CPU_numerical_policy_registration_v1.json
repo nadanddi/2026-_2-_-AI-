@@ -1,0 +1,42 @@
+{
+  "status": "REGISTERED_BEFORE_RESULTS",
+  "contexts": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "minimum_inference_rows": 8,
+  "padding": "copies of own last supplied query row",
+  "fit_changed": false,
+  "feature_changed": false,
+  "original_full_query_prediction_changed": false,
+  "whole_query_count": 1440,
+  "atol": 1E-06,
+  "rtol": 0,
+  "acceptance": "all four v3 audits PASS; current code/registration/weights/source pins match; no widening tolerance",
+  "original_failure_preserved": "BLK_PFN_context8_query_audit_v1.json",
+  "performance_evaluated": false,
+  "heldout_truth_loaded": false,
+  "GPU_used": false,
+  "policy_selection_evidence": "context8 original reversed8/scattered96/poisonbatch differences0; original single difference2.0265579223632812e-6",
+  "original_PFN_registration_sha256": "37fe340caa21f9502b46be8d83c342ce477f7ccfd547abbc4e7566819a68ca97",
+  "source_sha256": {
+    "blk_pfn_minbatch_v1.py": "72e8a67a9cb9f23a3e83a5133395d19f226c4bcdc7aaf9ad74f7305ba80b4114",
+    "blk_pfn_query_audit_v1.py": "f27835faf6d73e420e2ffd92e24cb061a8c6324e39133c9315768f8c30adc09b",
+    "blk_pfn_query_audit_v2.py": "6d78bcd3e9584b2cd43a75eba98e72f316dc7bea1a6c5b1db5c8c2129fa56cd1",
+    "blk_pfn_query_audit_v3.py": "805aadb9629b4ebb1209f6dcc3e37bc484b04bd2b8c58f453d9f14dab3c560ee"
+  },
+  "library_sha256": {
+    ".analysis-tools/extra/tabpfn/architectures/tabpfn_v2.py": "bc4f947a605dbb05aac1f0654e4bb376542d10981c8df2562455b6091c9cd6ac",
+    ".analysis-tools/extra/tabpfn/preprocessing/ensemble.py": "567939f71b7a26b79d41319411c82088bfa87f6c55ce800727cff40d1a8f4344",
+    ".analysis-tools/extra/tabpfn/preprocessing/pipeline_interface.py": "75205bd18c078013dcbef643626fe0becf0191a370fe9ac09d0429e2c9dbf247",
+    ".analysis-tools/extra/tabpfn/preprocessing/steps/add_fingerprint_features_step.py": "6dcf5c6723f1cd0bf418b83090e551ca6c93434e5831a8b356a9a3b35c822dce"
+  },
+  "limits": [
+    "Float operation responsible for original discrepancy not traced yet",
+    "Finite probe tests, not exhaustive numerical-domain proof",
+    "CPU recipe, no historical GPU byte identity claim",
+    "Whole-goal original validators and new seed/layout confirmation remain"
+  ]
+}

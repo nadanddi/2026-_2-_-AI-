@@ -1,0 +1,542 @@
+{
+  "file": "2024_data (1).zip",
+  "sha256": "fe9c802980913a11223503527e843ac29544c7c57b99930315ed29fa6502fa31",
+  "matches_previous_sha": true,
+  "bytes": 553301,
+  "members": [
+    {
+      "member": "24_생육정보.csv",
+      "encoding": "utf-8-sig",
+      "rows": 4200,
+      "columns": [
+        "측정일자",
+        "온실명",
+        "측정라인",
+        "표본번호",
+        "품목코드",
+        "단체표준분류명",
+        "단체표준항목명",
+        "단체표준항목2명",
+        "조사항목명",
+        "단위",
+        "조사항목값"
+      ],
+      "dtypes": {
+        "측정일자": "str",
+        "온실명": "str",
+        "측정라인": "int64",
+        "표본번호": "int64",
+        "품목코드": "int64",
+        "단체표준분류명": "str",
+        "단체표준항목명": "str",
+        "단체표준항목2명": "float64",
+        "조사항목명": "str",
+        "단위": "str",
+        "조사항목값": "int64"
+      },
+      "missing": {
+        "측정일자": 0,
+        "온실명": 0,
+        "측정라인": 0,
+        "표본번호": 0,
+        "품목코드": 0,
+        "단체표준분류명": 0,
+        "단체표준항목명": 0,
+        "단체표준항목2명": 4200,
+        "조사항목명": 0,
+        "단위": 0,
+        "조사항목값": 0
+      },
+      "duplicate_rows": 0,
+      "fields": [
+        {
+          "column": "측정일자",
+          "unique": 15,
+          "missing": 0,
+          "top": {
+            "2024-11-01": 280,
+            "2024-11-04": 280,
+            "2024-11-11": 280
+          }
+        },
+        {
+          "column": "온실명",
+          "unique": 4,
+          "missing": 0,
+          "top": {
+            "1온실": 1050,
+            "2온실": 1050,
+            "3온실": 1050
+          }
+        },
+        {
+          "column": "측정라인",
+          "unique": 5,
+          "missing": 0,
+          "top": {
+            "1": 840,
+            "2": 840,
+            "3": 840
+          },
+          "nonfinite": 0,
+          "zero": 0,
+          "negative": 0,
+          "min": 1.0,
+          "p01": 1.0,
+          "median": 3.0,
+          "p99": 5.0,
+          "max": 5.0
+        },
+        {
+          "column": "표본번호",
+          "unique": 2,
+          "missing": 0,
+          "top": {
+            "1": 2100,
+            "2": 2100
+          },
+          "nonfinite": 0,
+          "zero": 0,
+          "negative": 0,
+          "min": 1.0,
+          "p01": 1.0,
+          "median": 1.5,
+          "p99": 2.0,
+          "max": 2.0
+        },
+        {
+          "column": "품목코드",
+          "unique": 1,
+          "missing": 0,
+          "top": {
+            "80400": 4200
+          },
+          "nonfinite": 0,
+          "zero": 0,
+          "negative": 0,
+          "min": 80400.0,
+          "p01": 80400.0,
+          "median": 80400.0,
+          "p99": 80400.0,
+          "max": 80400.0
+        },
+        {
+          "column": "단체표준분류명",
+          "unique": 3,
+          "missing": 0,
+          "top": {
+            "leafinfo": 2400,
+            "steminfo": 1200,
+            "plantobjectinfo": 600
+          }
+        },
+        {
+          "column": "단체표준항목명",
+          "unique": 7,
+          "missing": 0,
+          "top": {
+            "plantheight": 600,
+            "leafnumber": 600,
+            "leaflength": 600
+          }
+        },
+        {
+          "column": "단체표준항목2명",
+          "unique": 0,
+          "missing": 4200,
+          "top": {
+            "nan": 4200
+          },
+          "nonfinite": 0,
+          "zero": 0,
+          "negative": 0
+        },
+        {
+          "column": "조사항목명",
+          "unique": 7,
+          "missing": 0,
+          "top": {
+            "초장": 600,
+            "엽수": 600,
+            "엽장": 600
+          }
+        },
+        {
+          "column": "단위",
+          "unique": 2,
+          "missing": 0,
+          "top": {
+            "cm": 3000,
+            "개": 1200
+          }
+        },
+        {
+          "column": "조사항목값",
+          "unique": 32,
+          "missing": 0,
+          "top": {
+            "2": 520,
+            "7": 421,
+            "10": 362
+          },
+          "nonfinite": 0,
+          "zero": 111,
+          "negative": 0,
+          "min": 0.0,
+          "p01": 0.0,
+          "median": 9.0,
+          "p99": 30.0,
+          "max": 31.0
+        }
+      ],
+      "sensor": {
+        "crop_column": null,
+        "item_column": null,
+        "value_column": null,
+        "farm_column": null,
+        "time_column": "측정일자",
+        "strawberry_rows": null,
+        "farms": null,
+        "groups": [],
+        "farm_item_times": [],
+        "start": "2024-11-01 00:00:00",
+        "end": "2025-02-03 00:00:00",
+        "invalid_time": 0
+      }
+    },
+    {
+      "member": "24_환경정보.csv",
+      "encoding": "utf-8-sig",
+      "rows": 110628,
+      "columns": [
+        "측정일시",
+        "온실명",
+        "품목코드",
+        "단체표준분류명",
+        "단체표준항목명",
+        "단체표준항목2명",
+        "항목명",
+        "측정데이터",
+        "단위"
+      ],
+      "dtypes": {
+        "측정일시": "str",
+        "온실명": "str",
+        "품목코드": "int64",
+        "단체표준분류명": "str",
+        "단체표준항목명": "str",
+        "단체표준항목2명": "float64",
+        "항목명": "str",
+        "측정데이터": "float64",
+        "단위": "str"
+      },
+      "missing": {
+        "측정일시": 0,
+        "온실명": 0,
+        "품목코드": 0,
+        "단체표준분류명": 0,
+        "단체표준항목명": 0,
+        "단체표준항목2명": 110628,
+        "항목명": 0,
+        "측정데이터": 0,
+        "단위": 0
+      },
+      "duplicate_rows": 0,
+      "fields": [
+        {
+          "column": "측정일시",
+          "unique": 3085,
+          "missing": 0,
+          "top": {
+            "2024-09-30 00:00:00": 36,
+            "2024-09-30 01:00:00": 36,
+            "2024-09-30 02:00:00": 36
+          }
+        },
+        {
+          "column": "온실명",
+          "unique": 4,
+          "missing": 0,
+          "top": {
+            "3온실": 27765,
+            "4온실": 27765,
+            "1온실": 27549
+          }
+        },
+        {
+          "column": "품목코드",
+          "unique": 1,
+          "missing": 0,
+          "top": {
+            "80400": 110628
+          },
+          "nonfinite": 0,
+          "zero": 0,
+          "negative": 0,
+          "min": 80400.0,
+          "p01": 80400.0,
+          "median": 80400.0,
+          "p99": 80400.0,
+          "max": 80400.0
+        },
+        {
+          "column": "단체표준분류명",
+          "unique": 3,
+          "missing": 0,
+          "top": {
+            "externalenvironment": 49168,
+            "internalenvironment": 36876,
+            "watercultureenvironment": 24584
+          }
+        },
+        {
+          "column": "단체표준항목명",
+          "unique": 8,
+          "missing": 0,
+          "top": {
+            "temperature": 24584,
+            "carbondioxide": 12292,
+            "humidity": 12292
+          }
+        },
+        {
+          "column": "단체표준항목2명",
+          "unique": 0,
+          "missing": 110628,
+          "top": {
+            "nan": 110628
+          },
+          "nonfinite": 0,
+          "zero": 0,
+          "negative": 0
+        },
+        {
+          "column": "항목명",
+          "unique": 9,
+          "missing": 0,
+          "top": {
+            "내부CO2": 12292,
+            "내부습도": 12292,
+            "내부온도": 12292
+          }
+        },
+        {
+          "column": "측정데이터",
+          "unique": 2143,
+          "missing": 0,
+          "top": {
+            "0.0": 13873,
+            "1.0": 4066,
+            "6.1": 2527
+          },
+          "nonfinite": 0,
+          "zero": 13873,
+          "negative": 1922,
+          "min": -5.39,
+          "p01": -0.91,
+          "median": 12.0,
+          "p99": 491.0,
+          "max": 1946.0
+        },
+        {
+          "column": "단위",
+          "unique": 6,
+          "missing": 0,
+          "top": {
+            "도": 36876,
+            "dS/m": 24584,
+            "ppm": 12292
+          }
+        }
+      ],
+      "sensor": {
+        "crop_column": null,
+        "item_column": "항목명",
+        "value_column": "측정데이터",
+        "farm_column": null,
+        "time_column": "측정일시",
+        "strawberry_rows": null,
+        "farms": null,
+        "groups": [
+          {
+            "item": "급액EC",
+            "n": 12292,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 0,
+            "negative": 0,
+            "unique": 25,
+            "fractional": 10182,
+            "units": [
+              "dS/m"
+            ],
+            "min": 0.2,
+            "p01": 0.4,
+            "median": 1.0,
+            "p99": 2.3,
+            "max": 4.3
+          },
+          {
+            "item": "급액PH",
+            "n": 12292,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 0,
+            "negative": 0,
+            "unique": 32,
+            "fractional": 10643,
+            "units": [
+              "dS/m"
+            ],
+            "min": 3.7,
+            "p01": 4.6,
+            "median": 6.2,
+            "p99": 6.6,
+            "max": 6.8
+          },
+          {
+            "item": "내부CO2",
+            "n": 12292,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 0,
+            "negative": 0,
+            "unique": 407,
+            "fractional": 0,
+            "units": [
+              "ppm"
+            ],
+            "min": 85.0,
+            "p01": 107.0,
+            "median": 431.0,
+            "p99": 582.0900000000001,
+            "max": 1946.0
+          },
+          {
+            "item": "내부습도",
+            "n": 12292,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 0,
+            "negative": 0,
+            "unique": 690,
+            "fractional": 11304,
+            "units": [
+              "%"
+            ],
+            "min": 10.2,
+            "p01": 15.7,
+            "median": 91.9,
+            "p99": 99.9,
+            "max": 99.9
+          },
+          {
+            "item": "내부온도",
+            "n": 12292,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 0,
+            "negative": 0,
+            "unique": 432,
+            "fractional": 10875,
+            "units": [
+              "도"
+            ],
+            "min": 5.3,
+            "p01": 7.0,
+            "median": 15.6,
+            "p99": 32.5,
+            "max": 35.2
+          },
+          {
+            "item": "외부온도",
+            "n": 12292,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 65,
+            "negative": 1922,
+            "unique": 690,
+            "fractional": 11978,
+            "units": [
+              "도"
+            ],
+            "min": -5.39,
+            "p01": -4.63,
+            "median": 9.1,
+            "p99": 23.62,
+            "max": 24.58
+          },
+          {
+            "item": "외부일사량",
+            "n": 12292,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 7385,
+            "negative": 0,
+            "unique": 447,
+            "fractional": 0,
+            "units": [
+              "w/㎡"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 0.0,
+            "p99": 666.0,
+            "max": 809.0
+          },
+          {
+            "item": "외부풍속",
+            "n": 12292,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 6355,
+            "negative": 0,
+            "unique": 12,
+            "fractional": 4103,
+            "units": [
+              "m/s"
+            ],
+            "min": 0.0,
+            "p01": 0.0,
+            "median": 0.0,
+            "p99": 3.6,
+            "max": 5.7
+          },
+          {
+            "item": "외부풍향",
+            "n": 12292,
+            "missing_or_nonnumeric": 0,
+            "nonfinite": 0,
+            "zero": 68,
+            "negative": 0,
+            "unique": 360,
+            "fractional": 0,
+            "units": [
+              "도"
+            ],
+            "min": 0.0,
+            "p01": 5.0,
+            "median": 97.0,
+            "p99": 359.0,
+            "max": 360.0
+          }
+        ],
+        "farm_item_times": [],
+        "start": "2024-09-29 00:00:00",
+        "end": "2025-02-07 23:00:00",
+        "invalid_time": 0
+      }
+    }
+  ],
+  "zip_bad_member": null,
+  "member_manifest": [
+    {
+      "name": "24_생육정보.csv",
+      "bytes": 285333
+    },
+    {
+      "name": "24_환경정보.csv",
+      "bytes": 11291622
+    }
+  ]
+}

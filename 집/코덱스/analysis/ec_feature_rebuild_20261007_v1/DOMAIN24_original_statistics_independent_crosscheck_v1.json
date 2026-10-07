@@ -1,0 +1,60 @@
+{
+  "status": "INDEPENDENT_ORIGINAL_STATISTICS_DRAW_AND_SYNTHETIC_PASS",
+  "code_sha256": "eed57a2fa4839a21898d44681508969e5c3704e99f086a3b793000a82b22f99e",
+  "registration_sha256": "b077d939ca30aa22cafdb24394bd74e8ae1f6327f4d1138ce415641813eccf37",
+  "draws_replayed": 200000,
+  "blocks_checked": 87,
+  "row_membership_checked": 8640,
+  "synthetic_tests": [
+    {
+      "subset": "DIAG10",
+      "synthetic_constant_delta": 0.0,
+      "p_worse": 1.0,
+      "PASS": true
+    },
+    {
+      "subset": "DIAG10",
+      "synthetic_constant_delta": 1.0,
+      "p_worse": 1.0,
+      "PASS": true
+    },
+    {
+      "subset": "DIAG10",
+      "synthetic_constant_delta": -1.0,
+      "p_worse": 4.9999750001249995e-06,
+      "PASS": true
+    },
+    {
+      "subset": "TM111",
+      "synthetic_constant_delta": 0.0,
+      "p_worse": 1.0,
+      "PASS": true
+    },
+    {
+      "subset": "TM111",
+      "synthetic_constant_delta": 1.0,
+      "p_worse": 1.0,
+      "PASS": true
+    },
+    {
+      "subset": "TM111",
+      "synthetic_constant_delta": -1.0,
+      "p_worse": 4.9999750001249995e-06,
+      "PASS": true
+    },
+    {
+      "case": "missing_loss_row_rejected",
+      "PASS": true
+    },
+    {
+      "case": "nonfinite_loss_rejected",
+      "PASS": true
+    }
+  ],
+  "target_values_read": false,
+  "model_fit": false,
+  "limits": [
+    "Full draw replay uses same specified random generator; count implementation differs",
+    "Synthetic loss cases test statistic boundaries, not model effects or fresh validation"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "checkpoint_version": 12,
+  "recorded_at": "2026-10-07T10:42:05.6940689+09:00",
+  "previous_goal_turn": "progress",
+  "raw_original_session": 65421,
+  "raw_status": "terminal exit0 confirmed by original handle",
+  "raw_candidate_fits": 72,
+  "baseline_replays": 3,
+  "complete_sha256": "2e6d88cdea244fb28d778768a57edd818bacd613b5da088643dd0a62ade0c878",
+  "independent_PS_file_hashes": 75,
+  "file_hash_mismatches": 0,
+  "raw_receipt_original_session": 2528,
+  "raw_receipt_status": "running verified by original handle",
+  "original_probe_session": 78893,
+  "original_probe_status": "terminal exit0",
+  "original_probe_checks": 18,
+  "postprocess_critic": "critique_DOMAIN24_pipeline_v2.md",
+  "decimal_crosscheck_source": "crosscheck_DOMAIN24_score_v2.py",
+  "heldout_truth_scored": false,
+  "goal_complete": false,
+  "next": "raw_receipt complete -> registered assemble -> verify -> score -> independent Decimal; retain all24 original validators and full goal"
+}

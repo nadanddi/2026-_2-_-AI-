@@ -1,0 +1,33 @@
+{
+  "checkpoint_version": 6,
+  "recorded_at": "2026-10-07T10:02:53.0775613+09:00",
+  "goal_complete": false,
+  "previous_turn_classification": "progress",
+  "pfn_original_session": 55543,
+  "pfn_terminal_exit_code": 0,
+  "cached_contexts_passed": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "all_context_max_difference": 0.0,
+  "strict_receipt_stage_session": 60444,
+  "strict_receipt_terminal_exit_code": 0,
+  "assembly_current_session": 84873,
+  "assembly_status": "running",
+  "whole_pipeline_gate_passed": false,
+  "performance_evaluated": false,
+  "heldout_truth_loaded": false,
+  "GPU_used": false,
+  "pipeline": "registered49source → receiptv2 → assemblyv4 → verifier4 → scorer6",
+  "independent_IN01": "core source issue closed; actual pipeline gate pending",
+  "evidence_sha256": {
+    "BLK_execution_registration_v1.json": "8ba30ed99b5eea8e5152996a0fa8675e70c73783c7cf7136ea3f4e12ec1770e1",
+    "BLK_cached_PFN_receipt_v2.json": "11072b71e3eded8276e6289e57a83cee620ac4d2ab8747e87f3d62f021bf3e02",
+    "BLK_method_registration_v4.json": "6f34a17dbe14919c646cbe3ed9c7b75f5bd06f33fb26a802b756b579cb19e8dd",
+    "critique_BLK_refonly_integration_v2.md": "8664a606d4366a02b71b370123f05ec5d83f9ee8751502b8108ef01c0bcc8a36",
+    "blk_score_v6.py": "19979076a8fe731f6763268ff34fac89ce11163fed4e8c973e551781c6b4292c",
+    "verify_BLK_baseline_v4.py": "ba76b8f34d47e156bacf87b82107135d2a761f4bcd9b9ab4ac27064cfaf45cf5"
+  }
+}

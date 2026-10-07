@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "synthetic_checks": [
+    "synthetic first record: no negative-index wrap to later record",
+    "all-missing weather does not yield a false exact twin",
+    "no finite standardized signature falls back to baseline",
+    "incomplete baseline prediction prefix rejected",
+    "nonfinite baseline prediction rejected"
+  ],
+  "actual_layout_changed": false,
+  "heldout_truth_loaded": false,
+  "performance_evaluated": false,
+  "code_sha256": {
+    "blk_sg2_refonly_v1.py": "a3dc5ad3e1dbfa5e73d3cf36e6f507f6bfcb5d5b0ce9ab5da5d6d036962f20a0",
+    "blk_sg2_refonly_v2.py": "244ca4e77d8f64134a652a72de92d5a9c004cf87df777d96b2808139a20be3bb"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "SYNTHETIC_LAZY_CONTEXT_BOUNDARIES_PASS_NOT_REAL_QUERY_GATE",
+  "check_count": 8,
+  "checks": [
+    "exact_complete_prefix_numeric_values",
+    "F13_015_02_all_forbidden_values_never_accessed",
+    "F13_044_00_all_forbidden_values_never_accessed",
+    "F47_015_02_all_forbidden_values_never_accessed",
+    "bad_schema_last_row_rejected_before_first_row_numeric_access",
+    "missing_row_last_row_rejected_before_first_row_numeric_access",
+    "blank_value_preserved_as_missing",
+    "nonfinite_allowed_observation_rejected"
+  ],
+  "source_sha256": {
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\audit_ch2_query_context_synthetic_v1.py": "79c98801073c068ec61951d2ca9de6d0563a8493d320709b468662be3286e4be",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\ch2_query_context_v2.py": "6d9976e87bbff45de9c8f36a1acd562a89c1b02b647e9334e456bd05c639dc59",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\blk_context_v1.py": "dfb1b28e2ab258efff7011c3162a4e8f36a2158aab7a313c6abea2552694bfbc"
+  },
+  "competition_rows_parsed": 0,
+  "model_fit": false,
+  "performance_evaluated": false
+}

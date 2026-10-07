@@ -1,0 +1,1030 @@
+{
+  "status": "BLK_DIAGNOSIS_ONLY",
+  "rows": 1440,
+  "blocks": 8,
+  "scorer_spec_sha256": "c41a647bdcd30df285b98f2dbd4e7b6d118392ca1d9d73890728dd7e3faaea3e",
+  "high_rows": 72,
+  "results": [
+    {
+      "scope": "BLK_QUERY_ROLE",
+      "method": "CHAIN_PREFIX_GUARD",
+      "mean_seed_delta_RMSE": 0.0,
+      "all_three_seeds_improve": false,
+      "p_worse": 1.0,
+      "individual95_MSE_delta_CI": [
+        0.0,
+        0.0
+      ],
+      "BLK_screen_pass": false,
+      "adopted": false,
+      "cells": [
+        {
+          "seed": 47,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.093002678033638,
+          "candidate_RMSE": 0.093002678033638,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 47,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.06982628305405343,
+          "candidate_RMSE": 0.06982628305405343,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 47,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2834633594149686,
+          "candidate_RMSE": 0.2834633594149686,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 47,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.07595463323849845,
+          "candidate_RMSE": 0.07595463323849845,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 47,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.12640285955996375,
+          "candidate_RMSE": 0.12640285955996375,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 47,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06172402173056188,
+          "candidate_RMSE": 0.06172402173056188,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09301605011197832,
+          "candidate_RMSE": 0.09301605011197832,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.0693807911692483,
+          "candidate_RMSE": 0.0693807911692483,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2856212913746719,
+          "candidate_RMSE": 0.2856212913746719,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.07753131062083136,
+          "candidate_RMSE": 0.07753131062083136,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.12524632554234727,
+          "candidate_RMSE": 0.12524632554234727,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.061806044622896184,
+          "candidate_RMSE": 0.061806044622896184,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09275651142299216,
+          "candidate_RMSE": 0.09275651142299216,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.06908103693923061,
+          "candidate_RMSE": 0.06908103693923061,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.28531351983368386,
+          "candidate_RMSE": 0.28531351983368386,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.07615162435056444,
+          "candidate_RMSE": 0.07615162435056444,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.12604263377439878,
+          "candidate_RMSE": 0.12604263377439878,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.060885977817437875,
+          "candidate_RMSE": 0.060885977817437875,
+          "delta_RMSE": 0.0
+        }
+      ],
+      "block_MSE_delta_sums": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scope": "BLK_QUERY_ROLE",
+      "method": "BOTH_ENDPOINT",
+      "mean_seed_delta_RMSE": 0.002566859183753457,
+      "all_three_seeds_improve": false,
+      "p_worse": 0.5752712364381781,
+      "individual95_MSE_delta_CI": [
+        -0.0037271539641502496,
+        0.005092609414644237
+      ],
+      "BLK_screen_pass": false,
+      "adopted": false,
+      "cells": [
+        {
+          "seed": 47,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.093002678033638,
+          "candidate_RMSE": 0.09556071563465453,
+          "delta_RMSE": 0.0025580376010165273
+        },
+        {
+          "seed": 47,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.06982628305405343,
+          "candidate_RMSE": 0.0818879850688836,
+          "delta_RMSE": 0.012061702014830172
+        },
+        {
+          "seed": 47,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2834633594149686,
+          "candidate_RMSE": 0.2350102286666556,
+          "delta_RMSE": -0.04845313074831298
+        },
+        {
+          "seed": 47,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.07595463323849845,
+          "candidate_RMSE": 0.09413959014931852,
+          "delta_RMSE": 0.018184956910820074
+        },
+        {
+          "seed": 47,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.12640285955996375,
+          "candidate_RMSE": 0.11633452378668296,
+          "delta_RMSE": -0.010068335773280784
+        },
+        {
+          "seed": 47,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06172402173056188,
+          "candidate_RMSE": 0.06351293936051156,
+          "delta_RMSE": 0.0017889176299496767
+        },
+        {
+          "seed": 1414,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09301605011197832,
+          "candidate_RMSE": 0.09547722319046255,
+          "delta_RMSE": 0.00246117307848423
+        },
+        {
+          "seed": 1414,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.0693807911692483,
+          "candidate_RMSE": 0.08166582956438027,
+          "delta_RMSE": 0.01228503839513198
+        },
+        {
+          "seed": 1414,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2856212913746719,
+          "candidate_RMSE": 0.2357989743677827,
+          "delta_RMSE": -0.049822317006889216
+        },
+        {
+          "seed": 1414,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.07753131062083136,
+          "candidate_RMSE": 0.09472303211702711,
+          "delta_RMSE": 0.017191721496195744
+        },
+        {
+          "seed": 1414,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.12524632554234727,
+          "candidate_RMSE": 0.11554752517992946,
+          "delta_RMSE": -0.009698800362417812
+        },
+        {
+          "seed": 1414,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.061806044622896184,
+          "candidate_RMSE": 0.06353666749548788,
+          "delta_RMSE": 0.0017306228725916944
+        },
+        {
+          "seed": 6464,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09275651142299216,
+          "candidate_RMSE": 0.09543787829475177,
+          "delta_RMSE": 0.0026813668717596134
+        },
+        {
+          "seed": 6464,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.06908103693923061,
+          "candidate_RMSE": 0.08156579874745337,
+          "delta_RMSE": 0.012484761808222763
+        },
+        {
+          "seed": 6464,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.28531351983368386,
+          "candidate_RMSE": 0.23613801321935815,
+          "delta_RMSE": -0.04917550661432571
+        },
+        {
+          "seed": 6464,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.07615162435056444,
+          "candidate_RMSE": 0.09444556552642151,
+          "delta_RMSE": 0.018293941175857073
+        },
+        {
+          "seed": 6464,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.12604263377439878,
+          "candidate_RMSE": 0.11597895394845852,
+          "delta_RMSE": -0.010063679825940267
+        },
+        {
+          "seed": 6464,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.060885977817437875,
+          "candidate_RMSE": 0.06294928776509505,
+          "delta_RMSE": 0.0020633099476571742
+        }
+      ],
+      "block_MSE_delta_sums": [
+        -0.3382879569359633,
+        0.611304767489858,
+        0.06291541180146618,
+        -2.0044615838336197,
+        0.06294071858189541,
+        -0.06453847595025407,
+        -0.34000243473441716,
+        2.7065543645952537
+      ]
+    },
+    {
+      "scope": "BLK_QUERY_ROLE",
+      "method": "PAST_ENDPOINT",
+      "mean_seed_delta_RMSE": 0.022142500966624058,
+      "all_three_seeds_improve": false,
+      "p_worse": 0.8049597520123993,
+      "individual95_MSE_delta_CI": [
+        -0.002185453148449085,
+        0.016699847521595493
+      ],
+      "BLK_screen_pass": false,
+      "adopted": false,
+      "cells": [
+        {
+          "seed": 47,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.093002678033638,
+          "candidate_RMSE": 0.11509013792361117,
+          "delta_RMSE": 0.02208745988997317
+        },
+        {
+          "seed": 47,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.06982628305405343,
+          "candidate_RMSE": 0.10411364910135938,
+          "delta_RMSE": 0.03428736604730595
+        },
+        {
+          "seed": 47,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2834633594149686,
+          "candidate_RMSE": 0.24281970737709488,
+          "delta_RMSE": -0.040643652037873707
+        },
+        {
+          "seed": 47,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.07595463323849845,
+          "candidate_RMSE": 0.11148460059622838,
+          "delta_RMSE": 0.035529967357729925
+        },
+        {
+          "seed": 47,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.12640285955996375,
+          "candidate_RMSE": 0.1408077436593363,
+          "delta_RMSE": 0.014404884099372545
+        },
+        {
+          "seed": 47,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06172402173056188,
+          "candidate_RMSE": 0.07902388454822919,
+          "delta_RMSE": 0.017299862817667308
+        },
+        {
+          "seed": 1414,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09301605011197832,
+          "candidate_RMSE": 0.11514859832759078,
+          "delta_RMSE": 0.02213254821561246
+        },
+        {
+          "seed": 1414,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.0693807911692483,
+          "candidate_RMSE": 0.10397132962481129,
+          "delta_RMSE": 0.034590538455562994
+        },
+        {
+          "seed": 1414,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2856212913746719,
+          "candidate_RMSE": 0.24452665221015224,
+          "delta_RMSE": -0.041094639164519664
+        },
+        {
+          "seed": 1414,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.07753131062083136,
+          "candidate_RMSE": 0.11210745281323115,
+          "delta_RMSE": 0.03457614219239978
+        },
+        {
+          "seed": 1414,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.12524632554234727,
+          "candidate_RMSE": 0.14058331983435374,
+          "delta_RMSE": 0.015336994292006467
+        },
+        {
+          "seed": 1414,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.061806044622896184,
+          "candidate_RMSE": 0.07851936149171514,
+          "delta_RMSE": 0.016713316868818953
+        },
+        {
+          "seed": 6464,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09275651142299216,
+          "candidate_RMSE": 0.1149640062172787,
+          "delta_RMSE": 0.022207494794286547
+        },
+        {
+          "seed": 6464,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.06908103693923061,
+          "candidate_RMSE": 0.1037980782310538,
+          "delta_RMSE": 0.034717041291823195
+        },
+        {
+          "seed": 6464,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.28531351983368386,
+          "candidate_RMSE": 0.24418778566052518,
+          "delta_RMSE": -0.04112573417315868
+        },
+        {
+          "seed": 6464,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.07615162435056444,
+          "candidate_RMSE": 0.11178942684896809,
+          "delta_RMSE": 0.03563780249840365
+        },
+        {
+          "seed": 6464,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.12604263377439878,
+          "candidate_RMSE": 0.14051695682175483,
+          "delta_RMSE": 0.014474323047356047
+        },
+        {
+          "seed": 6464,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.060885977817437875,
+          "candidate_RMSE": 0.07833343695277607,
+          "delta_RMSE": 0.017447459135338197
+        }
+      ],
+      "block_MSE_delta_sums": [
+        -0.22800347192360834,
+        0.6453569068634616,
+        0.08030837802966143,
+        -1.4664442622807508,
+        0.24469778344939266,
+        0.1845380516118896,
+        -0.14680505219806467,
+        7.318227582472776
+      ]
+    },
+    {
+      "scope": "BLK_RAW_PASS",
+      "method": "CHAIN_PREFIX_GUARD",
+      "mean_seed_delta_RMSE": 0.0,
+      "all_three_seeds_improve": false,
+      "p_worse": 1.0,
+      "individual95_MSE_delta_CI": [
+        0.0,
+        0.0
+      ],
+      "BLK_screen_pass": false,
+      "adopted": false,
+      "cells": [
+        {
+          "seed": 47,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09825531530295846,
+          "candidate_RMSE": 0.09825531530295846,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 47,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.07702722129045851,
+          "candidate_RMSE": 0.07702722129045851,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 47,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2834633594149686,
+          "candidate_RMSE": 0.2834633594149686,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 47,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.08606229396153166,
+          "candidate_RMSE": 0.08606229396153166,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 47,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.13077769998657765,
+          "candidate_RMSE": 0.13077769998657765,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 47,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06094518040590594,
+          "candidate_RMSE": 0.06094518040590594,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09867405298520779,
+          "candidate_RMSE": 0.09867405298520779,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.07717098328558498,
+          "candidate_RMSE": 0.07717098328558498,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2856212913746719,
+          "candidate_RMSE": 0.2856212913746719,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.08779693397661238,
+          "candidate_RMSE": 0.08779693397661238,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.13020680254021647,
+          "candidate_RMSE": 0.13020680254021647,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 1414,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06129776536509612,
+          "candidate_RMSE": 0.06129776536509612,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09825728297005407,
+          "candidate_RMSE": 0.09825728297005407,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.07666951241092806,
+          "candidate_RMSE": 0.07666951241092806,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.28531351983368386,
+          "candidate_RMSE": 0.28531351983368386,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.08656059112812259,
+          "candidate_RMSE": 0.08656059112812259,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.1306910940105471,
+          "candidate_RMSE": 0.1306910940105471,
+          "delta_RMSE": 0.0
+        },
+        {
+          "seed": 6464,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06012524212589655,
+          "candidate_RMSE": 0.06012524212589655,
+          "delta_RMSE": 0.0
+        }
+      ],
+      "block_MSE_delta_sums": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "scope": "BLK_RAW_PASS",
+      "method": "BOTH_ENDPOINT",
+      "mean_seed_delta_RMSE": 0.00022746534042029457,
+      "all_three_seeds_improve": false,
+      "p_worse": 0.4823758812059397,
+      "individual95_MSE_delta_CI": [
+        -0.0043561907707119814,
+        0.005058852419409406
+      ],
+      "BLK_screen_pass": false,
+      "adopted": false,
+      "cells": [
+        {
+          "seed": 47,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09825531530295846,
+          "candidate_RMSE": 0.09849984360166818,
+          "delta_RMSE": 0.0002445282987097175
+        },
+        {
+          "seed": 47,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.07702722129045851,
+          "candidate_RMSE": 0.08547531998773497,
+          "delta_RMSE": 0.00844809869727646
+        },
+        {
+          "seed": 47,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2834633594149686,
+          "candidate_RMSE": 0.2350102286666556,
+          "delta_RMSE": -0.04845313074831298
+        },
+        {
+          "seed": 47,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.08606229396153166,
+          "candidate_RMSE": 0.10047044562945694,
+          "delta_RMSE": 0.014408151667925279
+        },
+        {
+          "seed": 47,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.13077769998657765,
+          "candidate_RMSE": 0.11822487769201695,
+          "delta_RMSE": -0.0125528222945607
+        },
+        {
+          "seed": 47,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06094518040590594,
+          "candidate_RMSE": 0.06140402398651196,
+          "delta_RMSE": 0.0004588435806060151
+        },
+        {
+          "seed": 1414,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09867405298520779,
+          "candidate_RMSE": 0.09874629596414715,
+          "delta_RMSE": 7.224297893936027e-05
+        },
+        {
+          "seed": 1414,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.07717098328558498,
+          "candidate_RMSE": 0.08566011877422755,
+          "delta_RMSE": 0.008489135488642566
+        },
+        {
+          "seed": 1414,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2856212913746719,
+          "candidate_RMSE": 0.2357989743677827,
+          "delta_RMSE": -0.049822317006889216
+        },
+        {
+          "seed": 1414,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.08779693397661238,
+          "candidate_RMSE": 0.10113249536198479,
+          "delta_RMSE": 0.01333556138537241
+        },
+        {
+          "seed": 1414,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.13020680254021647,
+          "candidate_RMSE": 0.11808930016743842,
+          "delta_RMSE": -0.012117502372778047
+        },
+        {
+          "seed": 1414,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06129776536509612,
+          "candidate_RMSE": 0.06158400912687493,
+          "delta_RMSE": 0.00028624376177881217
+        },
+        {
+          "seed": 6464,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09825728297005407,
+          "candidate_RMSE": 0.09862290771366587,
+          "delta_RMSE": 0.00036562474361180597
+        },
+        {
+          "seed": 6464,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.07666951241092806,
+          "candidate_RMSE": 0.0854611014102413,
+          "delta_RMSE": 0.008791588999313232
+        },
+        {
+          "seed": 6464,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.28531351983368386,
+          "candidate_RMSE": 0.23613801321935815,
+          "delta_RMSE": -0.04917550661432571
+        },
+        {
+          "seed": 6464,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.08656059112812259,
+          "candidate_RMSE": 0.1009868812388003,
+          "delta_RMSE": 0.014426290110677711
+        },
+        {
+          "seed": 6464,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.1306910940105471,
+          "candidate_RMSE": 0.1181723312065489,
+          "delta_RMSE": -0.012518762803998204
+        },
+        {
+          "seed": 6464,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06012524212589655,
+          "candidate_RMSE": 0.060999115732289624,
+          "delta_RMSE": 0.0008738736063930719
+        }
+      ],
+      "block_MSE_delta_sums": [
+        -0.5357550920932356,
+        0.7224581425655475,
+        -0.030787300960513343,
+        -2.0420370437508124,
+        -0.09199328451611516,
+        -0.40161805273935797,
+        -0.3118595504408425,
+        2.7560843615937154
+      ]
+    },
+    {
+      "scope": "BLK_RAW_PASS",
+      "method": "PAST_ENDPOINT",
+      "mean_seed_delta_RMSE": 0.01884296359138869,
+      "all_three_seeds_improve": false,
+      "p_worse": 0.7292635368231588,
+      "individual95_MSE_delta_CI": [
+        -0.003209647706151891,
+        0.016898569999278936
+      ],
+      "BLK_screen_pass": false,
+      "adopted": false,
+      "cells": [
+        {
+          "seed": 47,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09825531530295846,
+          "candidate_RMSE": 0.11707687236179595,
+          "delta_RMSE": 0.018821557058837493
+        },
+        {
+          "seed": 47,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.07702722129045851,
+          "candidate_RMSE": 0.10641984147944832,
+          "delta_RMSE": 0.029392620188989804
+        },
+        {
+          "seed": 47,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2834633594149686,
+          "candidate_RMSE": 0.24281970737709488,
+          "delta_RMSE": -0.040643652037873707
+        },
+        {
+          "seed": 47,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.08606229396153166,
+          "candidate_RMSE": 0.11634600313912387,
+          "delta_RMSE": 0.03028370917759221
+        },
+        {
+          "seed": 47,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.13077769998657765,
+          "candidate_RMSE": 0.1405990601475648,
+          "delta_RMSE": 0.009821360160987141
+        },
+        {
+          "seed": 47,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06094518040590594,
+          "candidate_RMSE": 0.07991570149181748,
+          "delta_RMSE": 0.01897052108591154
+        },
+        {
+          "seed": 1414,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09867405298520779,
+          "candidate_RMSE": 0.11746736060114463,
+          "delta_RMSE": 0.01879330761593684
+        },
+        {
+          "seed": 1414,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.07717098328558498,
+          "candidate_RMSE": 0.10666680352014081,
+          "delta_RMSE": 0.029495820234555825
+        },
+        {
+          "seed": 1414,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.2856212913746719,
+          "candidate_RMSE": 0.24452665221015224,
+          "delta_RMSE": -0.041094639164519664
+        },
+        {
+          "seed": 1414,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.08779693397661238,
+          "candidate_RMSE": 0.1170279798149276,
+          "delta_RMSE": 0.02923104583831522
+        },
+        {
+          "seed": 1414,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.13020680254021647,
+          "candidate_RMSE": 0.14130705415576153,
+          "delta_RMSE": 0.011100251615545065
+        },
+        {
+          "seed": 1414,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06129776536509612,
+          "candidate_RMSE": 0.07900475613960677,
+          "delta_RMSE": 0.01770699077451065
+        },
+        {
+          "seed": 6464,
+          "segment": "전체",
+          "rows": 1440,
+          "baseline_RMSE": 0.09825728297005407,
+          "candidate_RMSE": 0.1171713090694458,
+          "delta_RMSE": 0.01891402609939173
+        },
+        {
+          "seed": 6464,
+          "segment": "일반",
+          "rows": 1368,
+          "baseline_RMSE": 0.07666951241092806,
+          "candidate_RMSE": 0.10636447732979308,
+          "delta_RMSE": 0.029694964918865016
+        },
+        {
+          "seed": 6464,
+          "segment": "고EC",
+          "rows": 72,
+          "baseline_RMSE": 0.28531351983368386,
+          "candidate_RMSE": 0.24418778566052518,
+          "delta_RMSE": -0.04112573417315868
+        },
+        {
+          "seed": 6464,
+          "segment": "앞",
+          "rows": 576,
+          "baseline_RMSE": 0.08656059112812259,
+          "candidate_RMSE": 0.11682446864204968,
+          "delta_RMSE": 0.03026387751392709
+        },
+        {
+          "seed": 6464,
+          "segment": "가운데",
+          "rows": 480,
+          "baseline_RMSE": 0.1306910940105471,
+          "candidate_RMSE": 0.14068612520002505,
+          "delta_RMSE": 0.009995031189477949
+        },
+        {
+          "seed": 6464,
+          "segment": "뒤",
+          "rows": 384,
+          "baseline_RMSE": 0.06012524212589655,
+          "candidate_RMSE": 0.07919290857732271,
+          "delta_RMSE": 0.019067666451426157
+        }
+      ],
+      "block_MSE_delta_sums": [
+        -0.4063826449994891,
+        0.7678407262357809,
+        -0.025961685100073368,
+        -1.5735016270152098,
+        0.1316071893909865,
+        -0.5232007037312402,
+        -0.13052855440572456,
+        7.611097448360271
+      ]
+    }
+  ],
+  "whole_goal_complete": false,
+  "adoption_permitted": false,
+  "remaining": [
+    "TM/P2LOO/EL1 originalfold effect checks",
+    "newseed/layout single confirmation",
+    "domain/literature/data feature stages"
+  ]
+}

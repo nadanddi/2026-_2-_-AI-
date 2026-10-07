@@ -1,0 +1,51 @@
+{
+  "SHA256": {
+    "train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "test_X.csv": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad"
+  },
+  "train_X_rows": 309990,
+  "train_y_rows": 304965,
+  "EC_label_rows": 9600,
+  "temperature_label_rows": 304965,
+  "temperature_labels_without_EC": 295365,
+  "X_without_y": 5025,
+  "farms": 51,
+  "primary_raw_inputs": [
+    "out_temp",
+    "out_hum",
+    "out_rad",
+    "out_wspd",
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog"
+  ],
+  "MASK_excluded": [
+    "in_rad",
+    "act_side",
+    "act_valve",
+    "act_cool",
+    "act_pump"
+  ],
+  "allowed_sources": [
+    "row_id 온실/상대기록일/시각",
+    "같은 온실 현재/이전 입력 prefix",
+    "공개 학습 EC 및 온도 정답 참조",
+    "전체 온실 공개 입력/온도 보조학습 후보"
+  ],
+  "limitations": [
+    "복원/변환 관측 표시 없음",
+    "일차 연속이 물리적 연속을 보장하지 않음",
+    "평가 실제 온도 없음",
+    "양 정답 검증 보류",
+    "현재 데이터의 예측 효과는 별도 검증 필요"
+  ],
+  "verification": "정답 수: 직접 y / X ID 결합 / 온실 합계 일치"
+}

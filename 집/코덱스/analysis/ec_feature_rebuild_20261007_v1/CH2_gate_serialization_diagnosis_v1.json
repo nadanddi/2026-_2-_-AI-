@@ -1,0 +1,15 @@
+{
+  "status": "FIRST_GATE_DIAG_MISMATCH_IS_JSON_TUPLE_LIST_ONLY",
+  "row_index": 600,
+  "row_id": "F13_134_00",
+  "method": "FLANK_SOURCE_MATCH",
+  "differing_value_types": {
+    "component": [
+      "tuple",
+      "list"
+    ]
+  },
+  "JSON_normalized_exact": true,
+  "predictions_changed": false,
+  "heldout_truth_loaded": false
+}

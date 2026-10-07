@@ -1,0 +1,59 @@
+{
+  "scope": "대회 배포 원본만. 외부·예측·파생·합성 자료 제외",
+  "counts": {
+    "train_X": 309990,
+    "train_y": 304965,
+    "test_X": 1440,
+    "EC_label_rows": 9600,
+    "temperature_label_rows": 304965,
+    "temperature_label_without_EC_rows": 295365,
+    "X_rows_without_y": 5025
+  },
+  "sources": [
+    "평가에서 관측 가능한 원입력 14열",
+    "row_id: 온실·상대 기록일·시각·결합키",
+    "동일 온실 현재·과거 원입력",
+    "공개 학습 이웃의 원입력과 EC·온도 정답",
+    "EC 무정답 온실을 포함한 전체 train_X와 공개 온도 정답"
+  ],
+  "raw_columns": [
+    "out_temp",
+    "out_hum",
+    "out_rad",
+    "out_wspd",
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog"
+  ],
+  "masked_columns": [
+    "in_rad",
+    "act_side",
+    "act_valve",
+    "act_cool",
+    "act_pump"
+  ],
+  "constraints": [
+    "평가 행 실제 온도는 미제공. 공개 온도는 보조 목표·학습 이웃 참조 후보",
+    "검증 보류 행의 EC·온도 정답은 함께 숨김",
+    "평가 입력은 동일 온실 현재·과거만. test 전체 통계 fit 금지",
+    "공개 학습 이후 날짜 정답 참조 허용은 운영 안내 저장 요약 근거",
+    "유사도·거리·평균·차분·보정·온도 예측은 파생값",
+    "상대 기록일 연속은 물리적 연속을 보장하지 않음",
+    "배포 원본의 주최측 복원값은 표시가 없어 순수 센서값과 분리 불가"
+  ],
+  "sha256": {
+    "train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "test_X.csv": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad"
+  },
+  "verification": "정답 수 직접집계/ID결합/온실합계 및 y없는 행 세 방법 일치",
+  "performance_tested": false,
+  "record_correction": "v3 결과 존재를 기록했으나 이번 확인에서 파일 부재. v4를 실제 실행함"
+}

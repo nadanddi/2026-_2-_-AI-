@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "path": "C:\\work\\farmai\\공용\\대회자료\\정형데이터\\참가자_배포\\train_X.csv",
+      "SHA256": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+      "matches_registration": true
+    },
+    {
+      "path": "C:\\work\\farmai\\공용\\대회자료\\정형데이터\\참가자_배포\\train_y.csv",
+      "SHA256": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+      "matches_registration": true
+    },
+    {
+      "path": "C:\\work\\farmai\\공용\\대회자료\\정형데이터\\참가자_배포\\test_X.csv",
+      "SHA256": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad",
+      "matches_registration": true
+    },
+    {
+      "path": "집\\코덱스\\analysis\\codex_independent\\rl_ec_v1\\run.py",
+      "SHA256": "057ff4d8da6f3af29105b049251498f79f7fcd6b88d980a8222e5629eb5ce3b2",
+      "matches_probe": true
+    },
+    {
+      "path": "집\\클로드\\research\\ec2_DC4_exact_twin_anchor_v1.py",
+      "SHA256": "15d25a8280d45980e15afab1b6675505104474f8ac73a94e288647e60d79b1d5",
+      "matches_probe": true
+    },
+    {
+      "path": "집\\클로드\\research\\ec3_DP1_daily_operation_pattern_v1.py",
+      "SHA256": "40d650c639550c09ef96a6be3aae3ef0f969fa1cbd899c787e7724a7f563e86d",
+      "matches_probe": true
+    },
+    {
+      "path": "집\\코덱스\\analysis\\codex_independent\\ec_final_lock\\locked_days.json",
+      "SHA256": "0256c719eb3cfadbc6f121392868371a85440c82d72693da8900d92872c36034",
+      "matches_probe": true
+    },
+    {
+      "path": "집\\클로드\\research\\local\\ec3_WT1_all.csv",
+      "SHA256": "ea8ca83b163649fc1243902b850b6301df2234f90bdbacdd634e5ae9492e0f13",
+      "matches_probe": true
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\checkpoint_v1.py",
+      "SHA256": "8ce638fdf266341a3b7b81da332d9a5e852fc2403dfc728fe48a2dd76510e000",
+      "pin_status": "새 실행 전 다시 대조해야 함"
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\클로드\\research\\env.py",
+      "SHA256": "82ca7b4bda2e9f50069b53b92d8418a7c0d4dd5ce7127fade16dd6ea78a8dcd2",
+      "pin_status": "새 실행 전 다시 대조해야 함"
+    },
+    {
+      "path": "C:\\work\\farmai\\연구실\\클로드\\code\\common.py",
+      "SHA256": "01ff23603e5f8c6f79b47ba92edfe0eb63bb2c2f7dee219161c8a8783bc07537",
+      "pin_status": "새 실행 전 다시 대조해야 함"
+    }
+  ],
+  "limitation": "현재 파일 해시 재검산. runner가 fit 직전 이 검사를 실행하도록 연결하는 작업은 남음"
+}

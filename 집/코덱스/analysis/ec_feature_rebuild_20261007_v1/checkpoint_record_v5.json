@@ -1,0 +1,21 @@
+{
+  "checkpoint_version": 5,
+  "previous_checkpoint_sha256": "1d75ae7283403f4a3b1e2a651076bbfc10a2a8c92a5b4e5fd9a81cd3be7db9d2",
+  "recorded_at": "2026-10-07T09:46:16.2704392+09:00",
+  "goal_complete": false,
+  "current_session": 55543,
+  "current_pid": 45840,
+  "current_status": "running context6 cache build; context5 completed PASS",
+  "cached_contexts_passed": [
+    5
+  ],
+  "context5_audit_sha256": "40b4dbbe8aeaa283dc990bb87efbedbb2cafea2f7a451a6123762d697246650e",
+  "context5_crosscheck_sha256": "4a5ffe6a518b7c99aa1238dbe6e19e491762cb5f4c4cb0fc3e0c512c3ef59bd0",
+  "context5_max_batch_difference": 0.0,
+  "whole_pipeline_gate_passed": false,
+  "performance_evaluated": false,
+  "heldout_truth_loaded": false,
+  "GPU_used": false,
+  "next": "Poll original55543; all4 cached contexts plus strict receipts then new assembly/gate/scoring",
+  "scope": "one cached context only; full EC rebuild goal incomplete"
+}

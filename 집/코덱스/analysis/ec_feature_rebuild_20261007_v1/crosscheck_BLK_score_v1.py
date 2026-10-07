@@ -1,0 +1,105 @@
+"""Independent Decimal loss sums and explicit MT19937 block resampling."""
+import csv
+import hashlib
+import json
+import math
+import random
+from decimal import Decimal, getcontext
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[3]
+getcontext().prec = 60
+def read(name):
+    return json.loads((HERE / name).read_text(encoding='utf-8'))
+def digest(path):
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+result = read('BLK_diagnostic_results_v1.json')
+stage = read('BLK_execution_score_v1.json')
+assert stage['returncode'] == 0 and stage['frozen_sources_unchanged']
+pred = read('checkpoints/BLK_ASSEMBLED_REFONLY_v1/predictions.json')
+layout = read('BLK_layout_v2.json')
+ids = pred['row_ids']
+source = ROOT / '공용/대회자료/정형데이터/참가자_배포/train_y.csv'
+assert digest(source) == layout['source_sha256']['train_y.csv']
+truth = {}
+with source.open(encoding='utf-8-sig', newline='') as handle:
+    for row in csv.DictReader(handle):
+        if row['row_id'] in set(ids):
+            assert row['row_id'] not in truth
+            truth[row['row_id']] = Decimal.from_float(float(row['sub_ec']))
+assert set(truth) == set(ids)
+days = {}
+for rid in ids:
+    days.setdefault(rid[:7], []).append(truth[rid])
+high = {d for d, values in days.items() if sum(values) / len(values) >= 1}
+positions = {}
+block_ids = []
+farm_blocks = {'F13': [], 'F47': []}
+for index, block in enumerate(layout['blocks']):
+    farm_blocks[block['farm']].append(index)
+    current = []
+    for day_index, day in enumerate(block['query_days']):
+        for hour in range(24):
+            rid = f'{block["farm"]}_{day:03d}_{hour:02d}'
+            current.append(rid)
+            positions[rid] = ['앞', '가운데', '뒤'][3 * day_index // len(block['query_days'])]
+    block_ids.append(current)
+subsets = {'전체': ids, '일반': [r for r in ids if r[:7] not in high],
+           '고EC': [r for r in ids if r[:7] in high]}
+subsets.update({p: [r for r in ids if positions[r] == p] for p in ['앞', '가운데', '뒤']})
+assert len(subsets['고EC']) == result['high_rows']
+rng = random.Random(2026100702)
+samples = []
+for _ in range(20000):
+    sample = []
+    for farm in ['F13', 'F47']:
+        for _ in range(4):
+            choices = farm_blocks[farm]
+            sample.append(choices[rng.randrange(len(choices))])
+    samples.append(sample)
+checks = []
+for entry in result['results']:
+    scope, method = entry['scope'], entry['method']
+    losses, rmse_delta = [], []
+    for seed in [47, 1414, 6464]:
+        b = dict(zip(ids, map(Decimal.from_float, pred['baseline'][f'{scope}_seed{seed}'])))
+        c = dict(zip(ids, map(Decimal.from_float, pred['candidate'][f'{scope}_seed{seed}'][method])))
+        delta = {r: (c[r]-truth[r])**2 - (b[r]-truth[r])**2 for r in ids}
+        losses.append(delta)
+        for cell in [v for v in entry['cells'] if v['seed'] == seed]:
+            selected = subsets[cell['segment']]
+            assert cell['rows'] == len(selected)
+            if not selected:
+                assert cell['baseline_RMSE'] is None and cell['candidate_RMSE'] is None
+                continue
+            br = float((sum((b[r]-truth[r])**2 for r in selected) / len(selected)).sqrt())
+            cr = float((sum((c[r]-truth[r])**2 for r in selected) / len(selected)).sqrt())
+            assert abs(br-cell['baseline_RMSE']) < 1e-12
+            assert abs(cr-cell['candidate_RMSE']) < 1e-12
+            if cell['segment'] == '전체':
+                rmse_delta.append(cr-br)
+    block_sse = [sum(sum(v[r] for v in losses)/3 for r in rows) for rows in block_ids]
+    assert max(abs(float(a)-b) for a, b in zip(block_sse, entry['block_MSE_delta_sums'])) < 1e-10
+    boots = [float(sum(block_sse[b] for b in draw) / sum(len(block_ids[b]) for b in draw)) for draw in samples]
+    p = (1 + sum(v >= 0 for v in boots)) / 20001
+    assert p == entry['p_worse']
+    ordered = sorted(boots)
+    ci = []
+    for q in [.025, .975]:
+        point = q * (len(ordered)-1)
+        low = int(point)
+        ci.append(ordered[low] + (ordered[min(low+1, len(ordered)-1)]-ordered[low])*(point-low))
+    assert max(abs(a-b) for a,b in zip(ci,entry['individual95_MSE_delta_CI'])) < 1e-12
+    assert abs(sum(rmse_delta)/3-entry['mean_seed_delta_RMSE']) < 1e-12
+    assert entry['BLK_screen_pass'] == (all(v < 0 for v in rmse_delta) and p < .025/6)
+    checks.append({'scope':scope,'method':method,'cell_RMSEs':len(entry['cells'])*2,'p_worse':p,'PASS':True})
+out = HERE / 'BLK_score_independent_crosscheck_v1.json'
+assert not out.exists()
+out.write_text(json.dumps({'status':'PASS','method':'Decimal60 direct ID loss / explicit randrange farm-block bootstrap',
+    'counts':{'rows':len(ids),'days':len(days),'high_days':len(high),'high_rows':len(subsets['고EC'])},
+    'checks':checks,'result_sha256':digest(HERE/'BLK_diagnostic_results_v1.json'),
+    'limits':['Same frozen sample and public heldout labels; not new validation data',
+              'Checks score arithmetic, not independent model fit or feature legality']},ensure_ascii=False,indent=2),encoding='utf-8')
+print('Independent Decimal RMSE/block bootstrap checks PASS for all six variants', flush=True)

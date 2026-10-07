@@ -1,0 +1,35 @@
+# 도메인24 독립점수검산·원검증기 probe 사전비평
+
+2026-10-07. crosscheck_DOMAIN24_score_v1.py와prepare_domain_original_probe_v1.py 및BLKContext경계를읽었다. 코드실행·model fit·GPU·query정답값열람·채점0. 본확인시원probe완료receipt는읽을결과로확인되지않았다. 실행중status를완료로판정하지않는다.
+
+## 핵심 판정
+
+새정답경계누수나명백한계산차단결함은발견하지못했다. Decimal검산은원float/fSum scorer와다른고정밀ID기반계산을사용하고원probe는3fold feature/context적합성만검사한다. 둘다전체원검증기모델효과·최종채택의대체가아니다.
+
+## Decimal 검산의 충분성과 한계
+
+checker는등록scorestage의정상exit/sourceunchanged와fullgate/adoptionFalse/transitivecurrentSHA를먼저확인한뒤공개queryEC를float변환한다. 같은float대상값을Decimal.from_float로받아60자리로각seed각ID의SEdelta를독립계산한다.108? 이번은48안×3seed×6segment=864cell,cell당baseline/candidateRMSE합계1728값이예상된다. checker출력의cell_RMSEs는entry.cells수×2로기록한다.
+
+seedmeanrowloss→각block SSE를Decimal합으로다시계산하고,PythonRandom동일seed에서choice대신명시randrange로farm별4block복원추출을구성하여p/CI/seed평균ΔRMSE/.025/54선별을확인한다. 이는산술·index/grouping·bootstrapweighting검산에충분한독립방법이다. 같은표본/동일labels/같은설계이므로새검증데이터나별도모델재fit이아니다. RNG자체는같은MT19937 engine으로고정된재현을확인하는것이다.
+
+### 좁은 강화 권고 (P2)
+
+- len(results)==48외에exact{2scope×D01..D24}집합과중복0,각entry의exact3seed×6segment cell집합/행수를검사하면'모든48'coverage주장이강해진다. 현재scorer소스는그집합을생성하지만검산기자체는정확집합양성검사가없다.
+- gate.status/codeSHA/predictionsSHA와현재pred파일,scorer spec/result→spec/currentcoderSHA,stage.pipeline_registrationSHA를직접연결하면검산receipt의lineage가더명확하다. 현재transitiveSHA검사에prediction이포함되어있다는fullgateproducer근거를사용한다.
+- ids1440unique/60days×24h/8block×farm4및truthfinite를직접assert하면producer의전제에의존하지않는분모검산이된다. Decimal고EC평균과floatfSum평균이정확한경계1근처에서다르면threshold를바꾸지말고경계차이를진단한다.
+
+이들은현재registeredscore를바꾸거나새가중·문턱을선택하는사항이아니다. 실제검산이후모든체크성공및결과SHA를독립리뷰로다시확인한다. 기존100pin파일은본리뷰에서고치지않았다.
+
+## 원검증기 첫fold probe
+
+DIAG10/P2LOO/EL1에서첫fold만선택한다. ordered train/query/input-forbidden IDs를BLKContext의필터·prefixloader로재사용하며labelmap과queryIDs가disjoint임을검사한다. domainbuild에는inputframe만들어가고공개reference라벨은baselineprepare에만붙는다. numericqueryEC를파싱하는source경로는없다.
+
+fullframedomain행집합=train∪query,forbiddengap제외,1187열/exact24추가열,orderedquery,단일queryprefix3개×domain/base2종=fold당6개비교를확인한다. 즉3fold18prefixcomparison이예상되며66fold의MASK모델검증완료가아니다. query가whole-recordholdout이라는원registry전제및실제MASK(test_XNaN)정책은원integrityregistry와연결해야한다. train/query가같은record에섞이는다른fold형태로확장하면trainfeature에query가들어가지않는별도MASK생성이필요하다.
+
+probe는registry를처음읽고마지막SHA를receipt로기록하지만시작시registrySHA를고정한뒤마지막불변을assert하지않는다. 현재probe는nofit이므로즉시차단결함은아니나원66fold모델등록전registry/integrityreceiptSHA를명시봉인한다. fitregistrationsource검사는전후유지된다.
+
+## CPU 비용·운영
+
+build_domain이1187열을모든reference/query행에서만들고,query_prefix에앞query기록도포함되면같은daylocal현재행비교를위해앞record전체를반복build할수있다. 첫3foldprobe의준비CPU비용은가능하지만끝없는추가fold반복으로늘리지않는다. pandasgroup/concat및중간densefloat배열메모리도여러fold동시실행보다적절한순차probe가안전하다. 이것은작은창/lag/feature검사를생략할근거가아니다.
+
+실제cachedbaseline의원검증기정책등록·전체24candidate×3seed원fold모델fit·effects/direction/statistics는모두남는다. 이probe를원TM111/P2LOO/EL1전체baseline재현이나원submission동일성으로설명하지않는다. 원validator준비가느려도노출BLK에서좋은가족만골라원validator를실행할수없다.

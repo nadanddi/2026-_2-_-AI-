@@ -1,0 +1,4604 @@
+{
+  "out_temp": {
+    "operator": "current",
+    "origin": "out_temp"
+  },
+  "out_temp__lag1": {
+    "operator": "lag",
+    "origin": "out_temp",
+    "hours": 1
+  },
+  "out_temp__rate1": {
+    "operator": "rate",
+    "origin": "out_temp",
+    "hours": 1
+  },
+  "out_temp__lag2": {
+    "operator": "lag",
+    "origin": "out_temp",
+    "hours": 2
+  },
+  "out_temp__rate2": {
+    "operator": "rate",
+    "origin": "out_temp",
+    "hours": 2
+  },
+  "out_temp__lag3": {
+    "operator": "lag",
+    "origin": "out_temp",
+    "hours": 3
+  },
+  "out_temp__rate3": {
+    "operator": "rate",
+    "origin": "out_temp",
+    "hours": 3
+  },
+  "out_temp__lag4": {
+    "operator": "lag",
+    "origin": "out_temp",
+    "hours": 4
+  },
+  "out_temp__rate4": {
+    "operator": "rate",
+    "origin": "out_temp",
+    "hours": 4
+  },
+  "out_temp__lag6": {
+    "operator": "lag",
+    "origin": "out_temp",
+    "hours": 6
+  },
+  "out_temp__rate6": {
+    "operator": "rate",
+    "origin": "out_temp",
+    "hours": 6
+  },
+  "out_temp__d2": {
+    "operator": "second_difference",
+    "origin": "out_temp"
+  },
+  "out_temp__mean1": {
+    "operator": "mean",
+    "origin": "out_temp",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__std1": {
+    "operator": "std",
+    "origin": "out_temp",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__sum1": {
+    "operator": "sum",
+    "origin": "out_temp",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__count1": {
+    "operator": "count",
+    "origin": "out_temp",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__mean2": {
+    "operator": "mean",
+    "origin": "out_temp",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__std2": {
+    "operator": "std",
+    "origin": "out_temp",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__sum2": {
+    "operator": "sum",
+    "origin": "out_temp",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__count2": {
+    "operator": "count",
+    "origin": "out_temp",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__mean3": {
+    "operator": "mean",
+    "origin": "out_temp",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__std3": {
+    "operator": "std",
+    "origin": "out_temp",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__sum3": {
+    "operator": "sum",
+    "origin": "out_temp",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__count3": {
+    "operator": "count",
+    "origin": "out_temp",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__mean4": {
+    "operator": "mean",
+    "origin": "out_temp",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__std4": {
+    "operator": "std",
+    "origin": "out_temp",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__sum4": {
+    "operator": "sum",
+    "origin": "out_temp",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__count4": {
+    "operator": "count",
+    "origin": "out_temp",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__mean6": {
+    "operator": "mean",
+    "origin": "out_temp",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__std6": {
+    "operator": "std",
+    "origin": "out_temp",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__sum6": {
+    "operator": "sum",
+    "origin": "out_temp",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_temp__count6": {
+    "operator": "count",
+    "origin": "out_temp",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_hum": {
+    "operator": "current",
+    "origin": "out_hum"
+  },
+  "out_hum__lag1": {
+    "operator": "lag",
+    "origin": "out_hum",
+    "hours": 1
+  },
+  "out_hum__rate1": {
+    "operator": "rate",
+    "origin": "out_hum",
+    "hours": 1
+  },
+  "out_hum__lag2": {
+    "operator": "lag",
+    "origin": "out_hum",
+    "hours": 2
+  },
+  "out_hum__rate2": {
+    "operator": "rate",
+    "origin": "out_hum",
+    "hours": 2
+  },
+  "out_hum__lag3": {
+    "operator": "lag",
+    "origin": "out_hum",
+    "hours": 3
+  },
+  "out_hum__rate3": {
+    "operator": "rate",
+    "origin": "out_hum",
+    "hours": 3
+  },
+  "out_hum__lag4": {
+    "operator": "lag",
+    "origin": "out_hum",
+    "hours": 4
+  },
+  "out_hum__rate4": {
+    "operator": "rate",
+    "origin": "out_hum",
+    "hours": 4
+  },
+  "out_hum__lag6": {
+    "operator": "lag",
+    "origin": "out_hum",
+    "hours": 6
+  },
+  "out_hum__rate6": {
+    "operator": "rate",
+    "origin": "out_hum",
+    "hours": 6
+  },
+  "out_hum__d2": {
+    "operator": "second_difference",
+    "origin": "out_hum"
+  },
+  "out_hum__mean1": {
+    "operator": "mean",
+    "origin": "out_hum",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__std1": {
+    "operator": "std",
+    "origin": "out_hum",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__sum1": {
+    "operator": "sum",
+    "origin": "out_hum",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__count1": {
+    "operator": "count",
+    "origin": "out_hum",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__mean2": {
+    "operator": "mean",
+    "origin": "out_hum",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__std2": {
+    "operator": "std",
+    "origin": "out_hum",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__sum2": {
+    "operator": "sum",
+    "origin": "out_hum",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__count2": {
+    "operator": "count",
+    "origin": "out_hum",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__mean3": {
+    "operator": "mean",
+    "origin": "out_hum",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__std3": {
+    "operator": "std",
+    "origin": "out_hum",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__sum3": {
+    "operator": "sum",
+    "origin": "out_hum",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__count3": {
+    "operator": "count",
+    "origin": "out_hum",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__mean4": {
+    "operator": "mean",
+    "origin": "out_hum",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__std4": {
+    "operator": "std",
+    "origin": "out_hum",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__sum4": {
+    "operator": "sum",
+    "origin": "out_hum",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__count4": {
+    "operator": "count",
+    "origin": "out_hum",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__mean6": {
+    "operator": "mean",
+    "origin": "out_hum",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__std6": {
+    "operator": "std",
+    "origin": "out_hum",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__sum6": {
+    "operator": "sum",
+    "origin": "out_hum",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_hum__count6": {
+    "operator": "count",
+    "origin": "out_hum",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_rad": {
+    "operator": "current",
+    "origin": "out_rad"
+  },
+  "out_rad__lag1": {
+    "operator": "lag",
+    "origin": "out_rad",
+    "hours": 1
+  },
+  "out_rad__rate1": {
+    "operator": "rate",
+    "origin": "out_rad",
+    "hours": 1
+  },
+  "out_rad__lag2": {
+    "operator": "lag",
+    "origin": "out_rad",
+    "hours": 2
+  },
+  "out_rad__rate2": {
+    "operator": "rate",
+    "origin": "out_rad",
+    "hours": 2
+  },
+  "out_rad__lag3": {
+    "operator": "lag",
+    "origin": "out_rad",
+    "hours": 3
+  },
+  "out_rad__rate3": {
+    "operator": "rate",
+    "origin": "out_rad",
+    "hours": 3
+  },
+  "out_rad__lag4": {
+    "operator": "lag",
+    "origin": "out_rad",
+    "hours": 4
+  },
+  "out_rad__rate4": {
+    "operator": "rate",
+    "origin": "out_rad",
+    "hours": 4
+  },
+  "out_rad__lag6": {
+    "operator": "lag",
+    "origin": "out_rad",
+    "hours": 6
+  },
+  "out_rad__rate6": {
+    "operator": "rate",
+    "origin": "out_rad",
+    "hours": 6
+  },
+  "out_rad__d2": {
+    "operator": "second_difference",
+    "origin": "out_rad"
+  },
+  "out_rad__mean1": {
+    "operator": "mean",
+    "origin": "out_rad",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__std1": {
+    "operator": "std",
+    "origin": "out_rad",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__sum1": {
+    "operator": "sum",
+    "origin": "out_rad",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__count1": {
+    "operator": "count",
+    "origin": "out_rad",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__mean2": {
+    "operator": "mean",
+    "origin": "out_rad",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__std2": {
+    "operator": "std",
+    "origin": "out_rad",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__sum2": {
+    "operator": "sum",
+    "origin": "out_rad",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__count2": {
+    "operator": "count",
+    "origin": "out_rad",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__mean3": {
+    "operator": "mean",
+    "origin": "out_rad",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__std3": {
+    "operator": "std",
+    "origin": "out_rad",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__sum3": {
+    "operator": "sum",
+    "origin": "out_rad",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__count3": {
+    "operator": "count",
+    "origin": "out_rad",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__mean4": {
+    "operator": "mean",
+    "origin": "out_rad",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__std4": {
+    "operator": "std",
+    "origin": "out_rad",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__sum4": {
+    "operator": "sum",
+    "origin": "out_rad",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__count4": {
+    "operator": "count",
+    "origin": "out_rad",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__mean6": {
+    "operator": "mean",
+    "origin": "out_rad",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__std6": {
+    "operator": "std",
+    "origin": "out_rad",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__sum6": {
+    "operator": "sum",
+    "origin": "out_rad",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_rad__count6": {
+    "operator": "count",
+    "origin": "out_rad",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd": {
+    "operator": "current",
+    "origin": "out_wspd"
+  },
+  "out_wspd__lag1": {
+    "operator": "lag",
+    "origin": "out_wspd",
+    "hours": 1
+  },
+  "out_wspd__rate1": {
+    "operator": "rate",
+    "origin": "out_wspd",
+    "hours": 1
+  },
+  "out_wspd__lag2": {
+    "operator": "lag",
+    "origin": "out_wspd",
+    "hours": 2
+  },
+  "out_wspd__rate2": {
+    "operator": "rate",
+    "origin": "out_wspd",
+    "hours": 2
+  },
+  "out_wspd__lag3": {
+    "operator": "lag",
+    "origin": "out_wspd",
+    "hours": 3
+  },
+  "out_wspd__rate3": {
+    "operator": "rate",
+    "origin": "out_wspd",
+    "hours": 3
+  },
+  "out_wspd__lag4": {
+    "operator": "lag",
+    "origin": "out_wspd",
+    "hours": 4
+  },
+  "out_wspd__rate4": {
+    "operator": "rate",
+    "origin": "out_wspd",
+    "hours": 4
+  },
+  "out_wspd__lag6": {
+    "operator": "lag",
+    "origin": "out_wspd",
+    "hours": 6
+  },
+  "out_wspd__rate6": {
+    "operator": "rate",
+    "origin": "out_wspd",
+    "hours": 6
+  },
+  "out_wspd__d2": {
+    "operator": "second_difference",
+    "origin": "out_wspd"
+  },
+  "out_wspd__mean1": {
+    "operator": "mean",
+    "origin": "out_wspd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__std1": {
+    "operator": "std",
+    "origin": "out_wspd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__sum1": {
+    "operator": "sum",
+    "origin": "out_wspd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__count1": {
+    "operator": "count",
+    "origin": "out_wspd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__mean2": {
+    "operator": "mean",
+    "origin": "out_wspd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__std2": {
+    "operator": "std",
+    "origin": "out_wspd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__sum2": {
+    "operator": "sum",
+    "origin": "out_wspd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__count2": {
+    "operator": "count",
+    "origin": "out_wspd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__mean3": {
+    "operator": "mean",
+    "origin": "out_wspd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__std3": {
+    "operator": "std",
+    "origin": "out_wspd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__sum3": {
+    "operator": "sum",
+    "origin": "out_wspd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__count3": {
+    "operator": "count",
+    "origin": "out_wspd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__mean4": {
+    "operator": "mean",
+    "origin": "out_wspd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__std4": {
+    "operator": "std",
+    "origin": "out_wspd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__sum4": {
+    "operator": "sum",
+    "origin": "out_wspd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__count4": {
+    "operator": "count",
+    "origin": "out_wspd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__mean6": {
+    "operator": "mean",
+    "origin": "out_wspd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__std6": {
+    "operator": "std",
+    "origin": "out_wspd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__sum6": {
+    "operator": "sum",
+    "origin": "out_wspd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "out_wspd__count6": {
+    "operator": "count",
+    "origin": "out_wspd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_temp": {
+    "operator": "current",
+    "origin": "in_temp"
+  },
+  "in_temp__lag1": {
+    "operator": "lag",
+    "origin": "in_temp",
+    "hours": 1
+  },
+  "in_temp__rate1": {
+    "operator": "rate",
+    "origin": "in_temp",
+    "hours": 1
+  },
+  "in_temp__lag2": {
+    "operator": "lag",
+    "origin": "in_temp",
+    "hours": 2
+  },
+  "in_temp__rate2": {
+    "operator": "rate",
+    "origin": "in_temp",
+    "hours": 2
+  },
+  "in_temp__lag3": {
+    "operator": "lag",
+    "origin": "in_temp",
+    "hours": 3
+  },
+  "in_temp__rate3": {
+    "operator": "rate",
+    "origin": "in_temp",
+    "hours": 3
+  },
+  "in_temp__lag4": {
+    "operator": "lag",
+    "origin": "in_temp",
+    "hours": 4
+  },
+  "in_temp__rate4": {
+    "operator": "rate",
+    "origin": "in_temp",
+    "hours": 4
+  },
+  "in_temp__lag6": {
+    "operator": "lag",
+    "origin": "in_temp",
+    "hours": 6
+  },
+  "in_temp__rate6": {
+    "operator": "rate",
+    "origin": "in_temp",
+    "hours": 6
+  },
+  "in_temp__d2": {
+    "operator": "second_difference",
+    "origin": "in_temp"
+  },
+  "in_temp__mean1": {
+    "operator": "mean",
+    "origin": "in_temp",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__std1": {
+    "operator": "std",
+    "origin": "in_temp",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__sum1": {
+    "operator": "sum",
+    "origin": "in_temp",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__count1": {
+    "operator": "count",
+    "origin": "in_temp",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__mean2": {
+    "operator": "mean",
+    "origin": "in_temp",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__std2": {
+    "operator": "std",
+    "origin": "in_temp",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__sum2": {
+    "operator": "sum",
+    "origin": "in_temp",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__count2": {
+    "operator": "count",
+    "origin": "in_temp",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__mean3": {
+    "operator": "mean",
+    "origin": "in_temp",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__std3": {
+    "operator": "std",
+    "origin": "in_temp",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__sum3": {
+    "operator": "sum",
+    "origin": "in_temp",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__count3": {
+    "operator": "count",
+    "origin": "in_temp",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__mean4": {
+    "operator": "mean",
+    "origin": "in_temp",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__std4": {
+    "operator": "std",
+    "origin": "in_temp",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__sum4": {
+    "operator": "sum",
+    "origin": "in_temp",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__count4": {
+    "operator": "count",
+    "origin": "in_temp",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__mean6": {
+    "operator": "mean",
+    "origin": "in_temp",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__std6": {
+    "operator": "std",
+    "origin": "in_temp",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__sum6": {
+    "operator": "sum",
+    "origin": "in_temp",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_temp__count6": {
+    "operator": "count",
+    "origin": "in_temp",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_hum": {
+    "operator": "current",
+    "origin": "in_hum"
+  },
+  "in_hum__lag1": {
+    "operator": "lag",
+    "origin": "in_hum",
+    "hours": 1
+  },
+  "in_hum__rate1": {
+    "operator": "rate",
+    "origin": "in_hum",
+    "hours": 1
+  },
+  "in_hum__lag2": {
+    "operator": "lag",
+    "origin": "in_hum",
+    "hours": 2
+  },
+  "in_hum__rate2": {
+    "operator": "rate",
+    "origin": "in_hum",
+    "hours": 2
+  },
+  "in_hum__lag3": {
+    "operator": "lag",
+    "origin": "in_hum",
+    "hours": 3
+  },
+  "in_hum__rate3": {
+    "operator": "rate",
+    "origin": "in_hum",
+    "hours": 3
+  },
+  "in_hum__lag4": {
+    "operator": "lag",
+    "origin": "in_hum",
+    "hours": 4
+  },
+  "in_hum__rate4": {
+    "operator": "rate",
+    "origin": "in_hum",
+    "hours": 4
+  },
+  "in_hum__lag6": {
+    "operator": "lag",
+    "origin": "in_hum",
+    "hours": 6
+  },
+  "in_hum__rate6": {
+    "operator": "rate",
+    "origin": "in_hum",
+    "hours": 6
+  },
+  "in_hum__d2": {
+    "operator": "second_difference",
+    "origin": "in_hum"
+  },
+  "in_hum__mean1": {
+    "operator": "mean",
+    "origin": "in_hum",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__std1": {
+    "operator": "std",
+    "origin": "in_hum",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__sum1": {
+    "operator": "sum",
+    "origin": "in_hum",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__count1": {
+    "operator": "count",
+    "origin": "in_hum",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__mean2": {
+    "operator": "mean",
+    "origin": "in_hum",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__std2": {
+    "operator": "std",
+    "origin": "in_hum",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__sum2": {
+    "operator": "sum",
+    "origin": "in_hum",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__count2": {
+    "operator": "count",
+    "origin": "in_hum",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__mean3": {
+    "operator": "mean",
+    "origin": "in_hum",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__std3": {
+    "operator": "std",
+    "origin": "in_hum",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__sum3": {
+    "operator": "sum",
+    "origin": "in_hum",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__count3": {
+    "operator": "count",
+    "origin": "in_hum",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__mean4": {
+    "operator": "mean",
+    "origin": "in_hum",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__std4": {
+    "operator": "std",
+    "origin": "in_hum",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__sum4": {
+    "operator": "sum",
+    "origin": "in_hum",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__count4": {
+    "operator": "count",
+    "origin": "in_hum",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__mean6": {
+    "operator": "mean",
+    "origin": "in_hum",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__std6": {
+    "operator": "std",
+    "origin": "in_hum",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__sum6": {
+    "operator": "sum",
+    "origin": "in_hum",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_hum__count6": {
+    "operator": "count",
+    "origin": "in_hum",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_co2": {
+    "operator": "current",
+    "origin": "in_co2"
+  },
+  "in_co2__lag1": {
+    "operator": "lag",
+    "origin": "in_co2",
+    "hours": 1
+  },
+  "in_co2__rate1": {
+    "operator": "rate",
+    "origin": "in_co2",
+    "hours": 1
+  },
+  "in_co2__lag2": {
+    "operator": "lag",
+    "origin": "in_co2",
+    "hours": 2
+  },
+  "in_co2__rate2": {
+    "operator": "rate",
+    "origin": "in_co2",
+    "hours": 2
+  },
+  "in_co2__lag3": {
+    "operator": "lag",
+    "origin": "in_co2",
+    "hours": 3
+  },
+  "in_co2__rate3": {
+    "operator": "rate",
+    "origin": "in_co2",
+    "hours": 3
+  },
+  "in_co2__lag4": {
+    "operator": "lag",
+    "origin": "in_co2",
+    "hours": 4
+  },
+  "in_co2__rate4": {
+    "operator": "rate",
+    "origin": "in_co2",
+    "hours": 4
+  },
+  "in_co2__lag6": {
+    "operator": "lag",
+    "origin": "in_co2",
+    "hours": 6
+  },
+  "in_co2__rate6": {
+    "operator": "rate",
+    "origin": "in_co2",
+    "hours": 6
+  },
+  "in_co2__d2": {
+    "operator": "second_difference",
+    "origin": "in_co2"
+  },
+  "in_co2__mean1": {
+    "operator": "mean",
+    "origin": "in_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__std1": {
+    "operator": "std",
+    "origin": "in_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__sum1": {
+    "operator": "sum",
+    "origin": "in_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__count1": {
+    "operator": "count",
+    "origin": "in_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__mean2": {
+    "operator": "mean",
+    "origin": "in_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__std2": {
+    "operator": "std",
+    "origin": "in_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__sum2": {
+    "operator": "sum",
+    "origin": "in_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__count2": {
+    "operator": "count",
+    "origin": "in_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__mean3": {
+    "operator": "mean",
+    "origin": "in_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__std3": {
+    "operator": "std",
+    "origin": "in_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__sum3": {
+    "operator": "sum",
+    "origin": "in_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__count3": {
+    "operator": "count",
+    "origin": "in_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__mean4": {
+    "operator": "mean",
+    "origin": "in_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__std4": {
+    "operator": "std",
+    "origin": "in_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__sum4": {
+    "operator": "sum",
+    "origin": "in_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__count4": {
+    "operator": "count",
+    "origin": "in_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__mean6": {
+    "operator": "mean",
+    "origin": "in_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__std6": {
+    "operator": "std",
+    "origin": "in_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__sum6": {
+    "operator": "sum",
+    "origin": "in_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "in_co2__count6": {
+    "operator": "count",
+    "origin": "in_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_vent": {
+    "operator": "current",
+    "origin": "act_vent"
+  },
+  "act_vent__lag1": {
+    "operator": "lag",
+    "origin": "act_vent",
+    "hours": 1
+  },
+  "act_vent__rate1": {
+    "operator": "rate",
+    "origin": "act_vent",
+    "hours": 1
+  },
+  "act_vent__lag2": {
+    "operator": "lag",
+    "origin": "act_vent",
+    "hours": 2
+  },
+  "act_vent__rate2": {
+    "operator": "rate",
+    "origin": "act_vent",
+    "hours": 2
+  },
+  "act_vent__lag3": {
+    "operator": "lag",
+    "origin": "act_vent",
+    "hours": 3
+  },
+  "act_vent__rate3": {
+    "operator": "rate",
+    "origin": "act_vent",
+    "hours": 3
+  },
+  "act_vent__lag4": {
+    "operator": "lag",
+    "origin": "act_vent",
+    "hours": 4
+  },
+  "act_vent__rate4": {
+    "operator": "rate",
+    "origin": "act_vent",
+    "hours": 4
+  },
+  "act_vent__lag6": {
+    "operator": "lag",
+    "origin": "act_vent",
+    "hours": 6
+  },
+  "act_vent__rate6": {
+    "operator": "rate",
+    "origin": "act_vent",
+    "hours": 6
+  },
+  "act_vent__d2": {
+    "operator": "second_difference",
+    "origin": "act_vent"
+  },
+  "act_vent__mean1": {
+    "operator": "mean",
+    "origin": "act_vent",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__std1": {
+    "operator": "std",
+    "origin": "act_vent",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__sum1": {
+    "operator": "sum",
+    "origin": "act_vent",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__count1": {
+    "operator": "count",
+    "origin": "act_vent",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__mean2": {
+    "operator": "mean",
+    "origin": "act_vent",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__std2": {
+    "operator": "std",
+    "origin": "act_vent",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__sum2": {
+    "operator": "sum",
+    "origin": "act_vent",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__count2": {
+    "operator": "count",
+    "origin": "act_vent",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__mean3": {
+    "operator": "mean",
+    "origin": "act_vent",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__std3": {
+    "operator": "std",
+    "origin": "act_vent",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__sum3": {
+    "operator": "sum",
+    "origin": "act_vent",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__count3": {
+    "operator": "count",
+    "origin": "act_vent",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__mean4": {
+    "operator": "mean",
+    "origin": "act_vent",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__std4": {
+    "operator": "std",
+    "origin": "act_vent",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__sum4": {
+    "operator": "sum",
+    "origin": "act_vent",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__count4": {
+    "operator": "count",
+    "origin": "act_vent",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__mean6": {
+    "operator": "mean",
+    "origin": "act_vent",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__std6": {
+    "operator": "std",
+    "origin": "act_vent",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__sum6": {
+    "operator": "sum",
+    "origin": "act_vent",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__count6": {
+    "operator": "count",
+    "origin": "act_vent",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_shade": {
+    "operator": "current",
+    "origin": "act_shade"
+  },
+  "act_shade__lag1": {
+    "operator": "lag",
+    "origin": "act_shade",
+    "hours": 1
+  },
+  "act_shade__rate1": {
+    "operator": "rate",
+    "origin": "act_shade",
+    "hours": 1
+  },
+  "act_shade__lag2": {
+    "operator": "lag",
+    "origin": "act_shade",
+    "hours": 2
+  },
+  "act_shade__rate2": {
+    "operator": "rate",
+    "origin": "act_shade",
+    "hours": 2
+  },
+  "act_shade__lag3": {
+    "operator": "lag",
+    "origin": "act_shade",
+    "hours": 3
+  },
+  "act_shade__rate3": {
+    "operator": "rate",
+    "origin": "act_shade",
+    "hours": 3
+  },
+  "act_shade__lag4": {
+    "operator": "lag",
+    "origin": "act_shade",
+    "hours": 4
+  },
+  "act_shade__rate4": {
+    "operator": "rate",
+    "origin": "act_shade",
+    "hours": 4
+  },
+  "act_shade__lag6": {
+    "operator": "lag",
+    "origin": "act_shade",
+    "hours": 6
+  },
+  "act_shade__rate6": {
+    "operator": "rate",
+    "origin": "act_shade",
+    "hours": 6
+  },
+  "act_shade__d2": {
+    "operator": "second_difference",
+    "origin": "act_shade"
+  },
+  "act_shade__mean1": {
+    "operator": "mean",
+    "origin": "act_shade",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__std1": {
+    "operator": "std",
+    "origin": "act_shade",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__sum1": {
+    "operator": "sum",
+    "origin": "act_shade",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__count1": {
+    "operator": "count",
+    "origin": "act_shade",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__mean2": {
+    "operator": "mean",
+    "origin": "act_shade",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__std2": {
+    "operator": "std",
+    "origin": "act_shade",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__sum2": {
+    "operator": "sum",
+    "origin": "act_shade",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__count2": {
+    "operator": "count",
+    "origin": "act_shade",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__mean3": {
+    "operator": "mean",
+    "origin": "act_shade",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__std3": {
+    "operator": "std",
+    "origin": "act_shade",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__sum3": {
+    "operator": "sum",
+    "origin": "act_shade",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__count3": {
+    "operator": "count",
+    "origin": "act_shade",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__mean4": {
+    "operator": "mean",
+    "origin": "act_shade",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__std4": {
+    "operator": "std",
+    "origin": "act_shade",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__sum4": {
+    "operator": "sum",
+    "origin": "act_shade",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__count4": {
+    "operator": "count",
+    "origin": "act_shade",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__mean6": {
+    "operator": "mean",
+    "origin": "act_shade",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__std6": {
+    "operator": "std",
+    "origin": "act_shade",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__sum6": {
+    "operator": "sum",
+    "origin": "act_shade",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_shade__count6": {
+    "operator": "count",
+    "origin": "act_shade",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal": {
+    "operator": "current",
+    "origin": "act_thermal"
+  },
+  "act_thermal__lag1": {
+    "operator": "lag",
+    "origin": "act_thermal",
+    "hours": 1
+  },
+  "act_thermal__rate1": {
+    "operator": "rate",
+    "origin": "act_thermal",
+    "hours": 1
+  },
+  "act_thermal__lag2": {
+    "operator": "lag",
+    "origin": "act_thermal",
+    "hours": 2
+  },
+  "act_thermal__rate2": {
+    "operator": "rate",
+    "origin": "act_thermal",
+    "hours": 2
+  },
+  "act_thermal__lag3": {
+    "operator": "lag",
+    "origin": "act_thermal",
+    "hours": 3
+  },
+  "act_thermal__rate3": {
+    "operator": "rate",
+    "origin": "act_thermal",
+    "hours": 3
+  },
+  "act_thermal__lag4": {
+    "operator": "lag",
+    "origin": "act_thermal",
+    "hours": 4
+  },
+  "act_thermal__rate4": {
+    "operator": "rate",
+    "origin": "act_thermal",
+    "hours": 4
+  },
+  "act_thermal__lag6": {
+    "operator": "lag",
+    "origin": "act_thermal",
+    "hours": 6
+  },
+  "act_thermal__rate6": {
+    "operator": "rate",
+    "origin": "act_thermal",
+    "hours": 6
+  },
+  "act_thermal__d2": {
+    "operator": "second_difference",
+    "origin": "act_thermal"
+  },
+  "act_thermal__mean1": {
+    "operator": "mean",
+    "origin": "act_thermal",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__std1": {
+    "operator": "std",
+    "origin": "act_thermal",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__sum1": {
+    "operator": "sum",
+    "origin": "act_thermal",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__count1": {
+    "operator": "count",
+    "origin": "act_thermal",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__mean2": {
+    "operator": "mean",
+    "origin": "act_thermal",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__std2": {
+    "operator": "std",
+    "origin": "act_thermal",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__sum2": {
+    "operator": "sum",
+    "origin": "act_thermal",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__count2": {
+    "operator": "count",
+    "origin": "act_thermal",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__mean3": {
+    "operator": "mean",
+    "origin": "act_thermal",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__std3": {
+    "operator": "std",
+    "origin": "act_thermal",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__sum3": {
+    "operator": "sum",
+    "origin": "act_thermal",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__count3": {
+    "operator": "count",
+    "origin": "act_thermal",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__mean4": {
+    "operator": "mean",
+    "origin": "act_thermal",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__std4": {
+    "operator": "std",
+    "origin": "act_thermal",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__sum4": {
+    "operator": "sum",
+    "origin": "act_thermal",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__count4": {
+    "operator": "count",
+    "origin": "act_thermal",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__mean6": {
+    "operator": "mean",
+    "origin": "act_thermal",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__std6": {
+    "operator": "std",
+    "origin": "act_thermal",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__sum6": {
+    "operator": "sum",
+    "origin": "act_thermal",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_thermal__count6": {
+    "operator": "count",
+    "origin": "act_thermal",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_heating": {
+    "operator": "current",
+    "origin": "act_heating"
+  },
+  "act_heating__lag1": {
+    "operator": "lag",
+    "origin": "act_heating",
+    "hours": 1
+  },
+  "act_heating__rate1": {
+    "operator": "rate",
+    "origin": "act_heating",
+    "hours": 1
+  },
+  "act_heating__lag2": {
+    "operator": "lag",
+    "origin": "act_heating",
+    "hours": 2
+  },
+  "act_heating__rate2": {
+    "operator": "rate",
+    "origin": "act_heating",
+    "hours": 2
+  },
+  "act_heating__lag3": {
+    "operator": "lag",
+    "origin": "act_heating",
+    "hours": 3
+  },
+  "act_heating__rate3": {
+    "operator": "rate",
+    "origin": "act_heating",
+    "hours": 3
+  },
+  "act_heating__lag4": {
+    "operator": "lag",
+    "origin": "act_heating",
+    "hours": 4
+  },
+  "act_heating__rate4": {
+    "operator": "rate",
+    "origin": "act_heating",
+    "hours": 4
+  },
+  "act_heating__lag6": {
+    "operator": "lag",
+    "origin": "act_heating",
+    "hours": 6
+  },
+  "act_heating__rate6": {
+    "operator": "rate",
+    "origin": "act_heating",
+    "hours": 6
+  },
+  "act_heating__d2": {
+    "operator": "second_difference",
+    "origin": "act_heating"
+  },
+  "act_heating__mean1": {
+    "operator": "mean",
+    "origin": "act_heating",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__std1": {
+    "operator": "std",
+    "origin": "act_heating",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__sum1": {
+    "operator": "sum",
+    "origin": "act_heating",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__count1": {
+    "operator": "count",
+    "origin": "act_heating",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__mean2": {
+    "operator": "mean",
+    "origin": "act_heating",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__std2": {
+    "operator": "std",
+    "origin": "act_heating",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__sum2": {
+    "operator": "sum",
+    "origin": "act_heating",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__count2": {
+    "operator": "count",
+    "origin": "act_heating",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__mean3": {
+    "operator": "mean",
+    "origin": "act_heating",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__std3": {
+    "operator": "std",
+    "origin": "act_heating",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__sum3": {
+    "operator": "sum",
+    "origin": "act_heating",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__count3": {
+    "operator": "count",
+    "origin": "act_heating",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__mean4": {
+    "operator": "mean",
+    "origin": "act_heating",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__std4": {
+    "operator": "std",
+    "origin": "act_heating",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__sum4": {
+    "operator": "sum",
+    "origin": "act_heating",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__count4": {
+    "operator": "count",
+    "origin": "act_heating",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__mean6": {
+    "operator": "mean",
+    "origin": "act_heating",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__std6": {
+    "operator": "std",
+    "origin": "act_heating",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__sum6": {
+    "operator": "sum",
+    "origin": "act_heating",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_heating__count6": {
+    "operator": "count",
+    "origin": "act_heating",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan": {
+    "operator": "current",
+    "origin": "act_circfan"
+  },
+  "act_circfan__lag1": {
+    "operator": "lag",
+    "origin": "act_circfan",
+    "hours": 1
+  },
+  "act_circfan__rate1": {
+    "operator": "rate",
+    "origin": "act_circfan",
+    "hours": 1
+  },
+  "act_circfan__lag2": {
+    "operator": "lag",
+    "origin": "act_circfan",
+    "hours": 2
+  },
+  "act_circfan__rate2": {
+    "operator": "rate",
+    "origin": "act_circfan",
+    "hours": 2
+  },
+  "act_circfan__lag3": {
+    "operator": "lag",
+    "origin": "act_circfan",
+    "hours": 3
+  },
+  "act_circfan__rate3": {
+    "operator": "rate",
+    "origin": "act_circfan",
+    "hours": 3
+  },
+  "act_circfan__lag4": {
+    "operator": "lag",
+    "origin": "act_circfan",
+    "hours": 4
+  },
+  "act_circfan__rate4": {
+    "operator": "rate",
+    "origin": "act_circfan",
+    "hours": 4
+  },
+  "act_circfan__lag6": {
+    "operator": "lag",
+    "origin": "act_circfan",
+    "hours": 6
+  },
+  "act_circfan__rate6": {
+    "operator": "rate",
+    "origin": "act_circfan",
+    "hours": 6
+  },
+  "act_circfan__d2": {
+    "operator": "second_difference",
+    "origin": "act_circfan"
+  },
+  "act_circfan__mean1": {
+    "operator": "mean",
+    "origin": "act_circfan",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__std1": {
+    "operator": "std",
+    "origin": "act_circfan",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__sum1": {
+    "operator": "sum",
+    "origin": "act_circfan",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__count1": {
+    "operator": "count",
+    "origin": "act_circfan",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__mean2": {
+    "operator": "mean",
+    "origin": "act_circfan",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__std2": {
+    "operator": "std",
+    "origin": "act_circfan",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__sum2": {
+    "operator": "sum",
+    "origin": "act_circfan",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__count2": {
+    "operator": "count",
+    "origin": "act_circfan",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__mean3": {
+    "operator": "mean",
+    "origin": "act_circfan",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__std3": {
+    "operator": "std",
+    "origin": "act_circfan",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__sum3": {
+    "operator": "sum",
+    "origin": "act_circfan",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__count3": {
+    "operator": "count",
+    "origin": "act_circfan",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__mean4": {
+    "operator": "mean",
+    "origin": "act_circfan",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__std4": {
+    "operator": "std",
+    "origin": "act_circfan",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__sum4": {
+    "operator": "sum",
+    "origin": "act_circfan",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__count4": {
+    "operator": "count",
+    "origin": "act_circfan",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__mean6": {
+    "operator": "mean",
+    "origin": "act_circfan",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__std6": {
+    "operator": "std",
+    "origin": "act_circfan",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__sum6": {
+    "operator": "sum",
+    "origin": "act_circfan",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_circfan__count6": {
+    "operator": "count",
+    "origin": "act_circfan",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_co2": {
+    "operator": "current",
+    "origin": "act_co2"
+  },
+  "act_co2__lag1": {
+    "operator": "lag",
+    "origin": "act_co2",
+    "hours": 1
+  },
+  "act_co2__rate1": {
+    "operator": "rate",
+    "origin": "act_co2",
+    "hours": 1
+  },
+  "act_co2__lag2": {
+    "operator": "lag",
+    "origin": "act_co2",
+    "hours": 2
+  },
+  "act_co2__rate2": {
+    "operator": "rate",
+    "origin": "act_co2",
+    "hours": 2
+  },
+  "act_co2__lag3": {
+    "operator": "lag",
+    "origin": "act_co2",
+    "hours": 3
+  },
+  "act_co2__rate3": {
+    "operator": "rate",
+    "origin": "act_co2",
+    "hours": 3
+  },
+  "act_co2__lag4": {
+    "operator": "lag",
+    "origin": "act_co2",
+    "hours": 4
+  },
+  "act_co2__rate4": {
+    "operator": "rate",
+    "origin": "act_co2",
+    "hours": 4
+  },
+  "act_co2__lag6": {
+    "operator": "lag",
+    "origin": "act_co2",
+    "hours": 6
+  },
+  "act_co2__rate6": {
+    "operator": "rate",
+    "origin": "act_co2",
+    "hours": 6
+  },
+  "act_co2__d2": {
+    "operator": "second_difference",
+    "origin": "act_co2"
+  },
+  "act_co2__mean1": {
+    "operator": "mean",
+    "origin": "act_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__std1": {
+    "operator": "std",
+    "origin": "act_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__sum1": {
+    "operator": "sum",
+    "origin": "act_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__count1": {
+    "operator": "count",
+    "origin": "act_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__mean2": {
+    "operator": "mean",
+    "origin": "act_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__std2": {
+    "operator": "std",
+    "origin": "act_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__sum2": {
+    "operator": "sum",
+    "origin": "act_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__count2": {
+    "operator": "count",
+    "origin": "act_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__mean3": {
+    "operator": "mean",
+    "origin": "act_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__std3": {
+    "operator": "std",
+    "origin": "act_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__sum3": {
+    "operator": "sum",
+    "origin": "act_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__count3": {
+    "operator": "count",
+    "origin": "act_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__mean4": {
+    "operator": "mean",
+    "origin": "act_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__std4": {
+    "operator": "std",
+    "origin": "act_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__sum4": {
+    "operator": "sum",
+    "origin": "act_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__count4": {
+    "operator": "count",
+    "origin": "act_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__mean6": {
+    "operator": "mean",
+    "origin": "act_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__std6": {
+    "operator": "std",
+    "origin": "act_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__sum6": {
+    "operator": "sum",
+    "origin": "act_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_co2__count6": {
+    "operator": "count",
+    "origin": "act_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_fog": {
+    "operator": "current",
+    "origin": "act_fog"
+  },
+  "act_fog__lag1": {
+    "operator": "lag",
+    "origin": "act_fog",
+    "hours": 1
+  },
+  "act_fog__rate1": {
+    "operator": "rate",
+    "origin": "act_fog",
+    "hours": 1
+  },
+  "act_fog__lag2": {
+    "operator": "lag",
+    "origin": "act_fog",
+    "hours": 2
+  },
+  "act_fog__rate2": {
+    "operator": "rate",
+    "origin": "act_fog",
+    "hours": 2
+  },
+  "act_fog__lag3": {
+    "operator": "lag",
+    "origin": "act_fog",
+    "hours": 3
+  },
+  "act_fog__rate3": {
+    "operator": "rate",
+    "origin": "act_fog",
+    "hours": 3
+  },
+  "act_fog__lag4": {
+    "operator": "lag",
+    "origin": "act_fog",
+    "hours": 4
+  },
+  "act_fog__rate4": {
+    "operator": "rate",
+    "origin": "act_fog",
+    "hours": 4
+  },
+  "act_fog__lag6": {
+    "operator": "lag",
+    "origin": "act_fog",
+    "hours": 6
+  },
+  "act_fog__rate6": {
+    "operator": "rate",
+    "origin": "act_fog",
+    "hours": 6
+  },
+  "act_fog__d2": {
+    "operator": "second_difference",
+    "origin": "act_fog"
+  },
+  "act_fog__mean1": {
+    "operator": "mean",
+    "origin": "act_fog",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__std1": {
+    "operator": "std",
+    "origin": "act_fog",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__sum1": {
+    "operator": "sum",
+    "origin": "act_fog",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__count1": {
+    "operator": "count",
+    "origin": "act_fog",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__mean2": {
+    "operator": "mean",
+    "origin": "act_fog",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__std2": {
+    "operator": "std",
+    "origin": "act_fog",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__sum2": {
+    "operator": "sum",
+    "origin": "act_fog",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__count2": {
+    "operator": "count",
+    "origin": "act_fog",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__mean3": {
+    "operator": "mean",
+    "origin": "act_fog",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__std3": {
+    "operator": "std",
+    "origin": "act_fog",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__sum3": {
+    "operator": "sum",
+    "origin": "act_fog",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__count3": {
+    "operator": "count",
+    "origin": "act_fog",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__mean4": {
+    "operator": "mean",
+    "origin": "act_fog",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__std4": {
+    "operator": "std",
+    "origin": "act_fog",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__sum4": {
+    "operator": "sum",
+    "origin": "act_fog",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__count4": {
+    "operator": "count",
+    "origin": "act_fog",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__mean6": {
+    "operator": "mean",
+    "origin": "act_fog",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__std6": {
+    "operator": "std",
+    "origin": "act_fog",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__sum6": {
+    "operator": "sum",
+    "origin": "act_fog",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_fog__count6": {
+    "operator": "count",
+    "origin": "act_fog",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vpd": {
+    "operator": "current",
+    "origin": "vpd"
+  },
+  "vpd__lag1": {
+    "operator": "lag",
+    "origin": "vpd",
+    "hours": 1
+  },
+  "vpd__rate1": {
+    "operator": "rate",
+    "origin": "vpd",
+    "hours": 1
+  },
+  "vpd__lag2": {
+    "operator": "lag",
+    "origin": "vpd",
+    "hours": 2
+  },
+  "vpd__rate2": {
+    "operator": "rate",
+    "origin": "vpd",
+    "hours": 2
+  },
+  "vpd__lag3": {
+    "operator": "lag",
+    "origin": "vpd",
+    "hours": 3
+  },
+  "vpd__rate3": {
+    "operator": "rate",
+    "origin": "vpd",
+    "hours": 3
+  },
+  "vpd__lag4": {
+    "operator": "lag",
+    "origin": "vpd",
+    "hours": 4
+  },
+  "vpd__rate4": {
+    "operator": "rate",
+    "origin": "vpd",
+    "hours": 4
+  },
+  "vpd__lag6": {
+    "operator": "lag",
+    "origin": "vpd",
+    "hours": 6
+  },
+  "vpd__rate6": {
+    "operator": "rate",
+    "origin": "vpd",
+    "hours": 6
+  },
+  "vpd__d2": {
+    "operator": "second_difference",
+    "origin": "vpd"
+  },
+  "vpd__mean1": {
+    "operator": "mean",
+    "origin": "vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vpd__std1": {
+    "operator": "std",
+    "origin": "vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vpd__sum1": {
+    "operator": "sum",
+    "origin": "vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vpd__count1": {
+    "operator": "count",
+    "origin": "vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vpd__mean2": {
+    "operator": "mean",
+    "origin": "vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vpd__std2": {
+    "operator": "std",
+    "origin": "vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vpd__sum2": {
+    "operator": "sum",
+    "origin": "vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vpd__count2": {
+    "operator": "count",
+    "origin": "vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vpd__mean3": {
+    "operator": "mean",
+    "origin": "vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vpd__std3": {
+    "operator": "std",
+    "origin": "vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vpd__sum3": {
+    "operator": "sum",
+    "origin": "vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vpd__count3": {
+    "operator": "count",
+    "origin": "vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vpd__mean4": {
+    "operator": "mean",
+    "origin": "vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vpd__std4": {
+    "operator": "std",
+    "origin": "vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vpd__sum4": {
+    "operator": "sum",
+    "origin": "vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vpd__count4": {
+    "operator": "count",
+    "origin": "vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vpd__mean6": {
+    "operator": "mean",
+    "origin": "vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vpd__std6": {
+    "operator": "std",
+    "origin": "vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vpd__sum6": {
+    "operator": "sum",
+    "origin": "vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vpd__count6": {
+    "operator": "count",
+    "origin": "vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap": {
+    "operator": "current",
+    "origin": "temp_gap"
+  },
+  "temp_gap__lag1": {
+    "operator": "lag",
+    "origin": "temp_gap",
+    "hours": 1
+  },
+  "temp_gap__rate1": {
+    "operator": "rate",
+    "origin": "temp_gap",
+    "hours": 1
+  },
+  "temp_gap__lag2": {
+    "operator": "lag",
+    "origin": "temp_gap",
+    "hours": 2
+  },
+  "temp_gap__rate2": {
+    "operator": "rate",
+    "origin": "temp_gap",
+    "hours": 2
+  },
+  "temp_gap__lag3": {
+    "operator": "lag",
+    "origin": "temp_gap",
+    "hours": 3
+  },
+  "temp_gap__rate3": {
+    "operator": "rate",
+    "origin": "temp_gap",
+    "hours": 3
+  },
+  "temp_gap__lag4": {
+    "operator": "lag",
+    "origin": "temp_gap",
+    "hours": 4
+  },
+  "temp_gap__rate4": {
+    "operator": "rate",
+    "origin": "temp_gap",
+    "hours": 4
+  },
+  "temp_gap__lag6": {
+    "operator": "lag",
+    "origin": "temp_gap",
+    "hours": 6
+  },
+  "temp_gap__rate6": {
+    "operator": "rate",
+    "origin": "temp_gap",
+    "hours": 6
+  },
+  "temp_gap__d2": {
+    "operator": "second_difference",
+    "origin": "temp_gap"
+  },
+  "temp_gap__mean1": {
+    "operator": "mean",
+    "origin": "temp_gap",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__std1": {
+    "operator": "std",
+    "origin": "temp_gap",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__sum1": {
+    "operator": "sum",
+    "origin": "temp_gap",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__count1": {
+    "operator": "count",
+    "origin": "temp_gap",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__mean2": {
+    "operator": "mean",
+    "origin": "temp_gap",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__std2": {
+    "operator": "std",
+    "origin": "temp_gap",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__sum2": {
+    "operator": "sum",
+    "origin": "temp_gap",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__count2": {
+    "operator": "count",
+    "origin": "temp_gap",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__mean3": {
+    "operator": "mean",
+    "origin": "temp_gap",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__std3": {
+    "operator": "std",
+    "origin": "temp_gap",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__sum3": {
+    "operator": "sum",
+    "origin": "temp_gap",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__count3": {
+    "operator": "count",
+    "origin": "temp_gap",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__mean4": {
+    "operator": "mean",
+    "origin": "temp_gap",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__std4": {
+    "operator": "std",
+    "origin": "temp_gap",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__sum4": {
+    "operator": "sum",
+    "origin": "temp_gap",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__count4": {
+    "operator": "count",
+    "origin": "temp_gap",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__mean6": {
+    "operator": "mean",
+    "origin": "temp_gap",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__std6": {
+    "operator": "std",
+    "origin": "temp_gap",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__sum6": {
+    "operator": "sum",
+    "origin": "temp_gap",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "temp_gap__count6": {
+    "operator": "count",
+    "origin": "temp_gap",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap": {
+    "operator": "current",
+    "origin": "humidity_gap"
+  },
+  "humidity_gap__lag1": {
+    "operator": "lag",
+    "origin": "humidity_gap",
+    "hours": 1
+  },
+  "humidity_gap__rate1": {
+    "operator": "rate",
+    "origin": "humidity_gap",
+    "hours": 1
+  },
+  "humidity_gap__lag2": {
+    "operator": "lag",
+    "origin": "humidity_gap",
+    "hours": 2
+  },
+  "humidity_gap__rate2": {
+    "operator": "rate",
+    "origin": "humidity_gap",
+    "hours": 2
+  },
+  "humidity_gap__lag3": {
+    "operator": "lag",
+    "origin": "humidity_gap",
+    "hours": 3
+  },
+  "humidity_gap__rate3": {
+    "operator": "rate",
+    "origin": "humidity_gap",
+    "hours": 3
+  },
+  "humidity_gap__lag4": {
+    "operator": "lag",
+    "origin": "humidity_gap",
+    "hours": 4
+  },
+  "humidity_gap__rate4": {
+    "operator": "rate",
+    "origin": "humidity_gap",
+    "hours": 4
+  },
+  "humidity_gap__lag6": {
+    "operator": "lag",
+    "origin": "humidity_gap",
+    "hours": 6
+  },
+  "humidity_gap__rate6": {
+    "operator": "rate",
+    "origin": "humidity_gap",
+    "hours": 6
+  },
+  "humidity_gap__d2": {
+    "operator": "second_difference",
+    "origin": "humidity_gap"
+  },
+  "humidity_gap__mean1": {
+    "operator": "mean",
+    "origin": "humidity_gap",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__std1": {
+    "operator": "std",
+    "origin": "humidity_gap",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__sum1": {
+    "operator": "sum",
+    "origin": "humidity_gap",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__count1": {
+    "operator": "count",
+    "origin": "humidity_gap",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__mean2": {
+    "operator": "mean",
+    "origin": "humidity_gap",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__std2": {
+    "operator": "std",
+    "origin": "humidity_gap",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__sum2": {
+    "operator": "sum",
+    "origin": "humidity_gap",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__count2": {
+    "operator": "count",
+    "origin": "humidity_gap",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__mean3": {
+    "operator": "mean",
+    "origin": "humidity_gap",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__std3": {
+    "operator": "std",
+    "origin": "humidity_gap",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__sum3": {
+    "operator": "sum",
+    "origin": "humidity_gap",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__count3": {
+    "operator": "count",
+    "origin": "humidity_gap",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__mean4": {
+    "operator": "mean",
+    "origin": "humidity_gap",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__std4": {
+    "operator": "std",
+    "origin": "humidity_gap",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__sum4": {
+    "operator": "sum",
+    "origin": "humidity_gap",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__count4": {
+    "operator": "count",
+    "origin": "humidity_gap",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__mean6": {
+    "operator": "mean",
+    "origin": "humidity_gap",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__std6": {
+    "operator": "std",
+    "origin": "humidity_gap",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__sum6": {
+    "operator": "sum",
+    "origin": "humidity_gap",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "humidity_gap__count6": {
+    "operator": "count",
+    "origin": "humidity_gap",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade": {
+    "operator": "current",
+    "origin": "rad_shade"
+  },
+  "rad_shade__lag1": {
+    "operator": "lag",
+    "origin": "rad_shade",
+    "hours": 1
+  },
+  "rad_shade__rate1": {
+    "operator": "rate",
+    "origin": "rad_shade",
+    "hours": 1
+  },
+  "rad_shade__lag2": {
+    "operator": "lag",
+    "origin": "rad_shade",
+    "hours": 2
+  },
+  "rad_shade__rate2": {
+    "operator": "rate",
+    "origin": "rad_shade",
+    "hours": 2
+  },
+  "rad_shade__lag3": {
+    "operator": "lag",
+    "origin": "rad_shade",
+    "hours": 3
+  },
+  "rad_shade__rate3": {
+    "operator": "rate",
+    "origin": "rad_shade",
+    "hours": 3
+  },
+  "rad_shade__lag4": {
+    "operator": "lag",
+    "origin": "rad_shade",
+    "hours": 4
+  },
+  "rad_shade__rate4": {
+    "operator": "rate",
+    "origin": "rad_shade",
+    "hours": 4
+  },
+  "rad_shade__lag6": {
+    "operator": "lag",
+    "origin": "rad_shade",
+    "hours": 6
+  },
+  "rad_shade__rate6": {
+    "operator": "rate",
+    "origin": "rad_shade",
+    "hours": 6
+  },
+  "rad_shade__d2": {
+    "operator": "second_difference",
+    "origin": "rad_shade"
+  },
+  "rad_shade__mean1": {
+    "operator": "mean",
+    "origin": "rad_shade",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__std1": {
+    "operator": "std",
+    "origin": "rad_shade",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__sum1": {
+    "operator": "sum",
+    "origin": "rad_shade",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__count1": {
+    "operator": "count",
+    "origin": "rad_shade",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__mean2": {
+    "operator": "mean",
+    "origin": "rad_shade",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__std2": {
+    "operator": "std",
+    "origin": "rad_shade",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__sum2": {
+    "operator": "sum",
+    "origin": "rad_shade",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__count2": {
+    "operator": "count",
+    "origin": "rad_shade",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__mean3": {
+    "operator": "mean",
+    "origin": "rad_shade",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__std3": {
+    "operator": "std",
+    "origin": "rad_shade",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__sum3": {
+    "operator": "sum",
+    "origin": "rad_shade",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__count3": {
+    "operator": "count",
+    "origin": "rad_shade",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__mean4": {
+    "operator": "mean",
+    "origin": "rad_shade",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__std4": {
+    "operator": "std",
+    "origin": "rad_shade",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__sum4": {
+    "operator": "sum",
+    "origin": "rad_shade",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__count4": {
+    "operator": "count",
+    "origin": "rad_shade",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__mean6": {
+    "operator": "mean",
+    "origin": "rad_shade",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__std6": {
+    "operator": "std",
+    "origin": "rad_shade",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__sum6": {
+    "operator": "sum",
+    "origin": "rad_shade",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "rad_shade__count6": {
+    "operator": "count",
+    "origin": "rad_shade",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal": {
+    "operator": "current",
+    "origin": "rad_thermal"
+  },
+  "rad_thermal__lag1": {
+    "operator": "lag",
+    "origin": "rad_thermal",
+    "hours": 1
+  },
+  "rad_thermal__rate1": {
+    "operator": "rate",
+    "origin": "rad_thermal",
+    "hours": 1
+  },
+  "rad_thermal__lag2": {
+    "operator": "lag",
+    "origin": "rad_thermal",
+    "hours": 2
+  },
+  "rad_thermal__rate2": {
+    "operator": "rate",
+    "origin": "rad_thermal",
+    "hours": 2
+  },
+  "rad_thermal__lag3": {
+    "operator": "lag",
+    "origin": "rad_thermal",
+    "hours": 3
+  },
+  "rad_thermal__rate3": {
+    "operator": "rate",
+    "origin": "rad_thermal",
+    "hours": 3
+  },
+  "rad_thermal__lag4": {
+    "operator": "lag",
+    "origin": "rad_thermal",
+    "hours": 4
+  },
+  "rad_thermal__rate4": {
+    "operator": "rate",
+    "origin": "rad_thermal",
+    "hours": 4
+  },
+  "rad_thermal__lag6": {
+    "operator": "lag",
+    "origin": "rad_thermal",
+    "hours": 6
+  },
+  "rad_thermal__rate6": {
+    "operator": "rate",
+    "origin": "rad_thermal",
+    "hours": 6
+  },
+  "rad_thermal__d2": {
+    "operator": "second_difference",
+    "origin": "rad_thermal"
+  },
+  "rad_thermal__mean1": {
+    "operator": "mean",
+    "origin": "rad_thermal",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__std1": {
+    "operator": "std",
+    "origin": "rad_thermal",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__sum1": {
+    "operator": "sum",
+    "origin": "rad_thermal",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__count1": {
+    "operator": "count",
+    "origin": "rad_thermal",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__mean2": {
+    "operator": "mean",
+    "origin": "rad_thermal",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__std2": {
+    "operator": "std",
+    "origin": "rad_thermal",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__sum2": {
+    "operator": "sum",
+    "origin": "rad_thermal",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__count2": {
+    "operator": "count",
+    "origin": "rad_thermal",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__mean3": {
+    "operator": "mean",
+    "origin": "rad_thermal",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__std3": {
+    "operator": "std",
+    "origin": "rad_thermal",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__sum3": {
+    "operator": "sum",
+    "origin": "rad_thermal",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__count3": {
+    "operator": "count",
+    "origin": "rad_thermal",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__mean4": {
+    "operator": "mean",
+    "origin": "rad_thermal",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__std4": {
+    "operator": "std",
+    "origin": "rad_thermal",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__sum4": {
+    "operator": "sum",
+    "origin": "rad_thermal",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__count4": {
+    "operator": "count",
+    "origin": "rad_thermal",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__mean6": {
+    "operator": "mean",
+    "origin": "rad_thermal",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__std6": {
+    "operator": "std",
+    "origin": "rad_thermal",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__sum6": {
+    "operator": "sum",
+    "origin": "rad_thermal",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "rad_thermal__count6": {
+    "operator": "count",
+    "origin": "rad_thermal",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux": {
+    "operator": "current",
+    "origin": "moisture_flux"
+  },
+  "moisture_flux__lag1": {
+    "operator": "lag",
+    "origin": "moisture_flux",
+    "hours": 1
+  },
+  "moisture_flux__rate1": {
+    "operator": "rate",
+    "origin": "moisture_flux",
+    "hours": 1
+  },
+  "moisture_flux__lag2": {
+    "operator": "lag",
+    "origin": "moisture_flux",
+    "hours": 2
+  },
+  "moisture_flux__rate2": {
+    "operator": "rate",
+    "origin": "moisture_flux",
+    "hours": 2
+  },
+  "moisture_flux__lag3": {
+    "operator": "lag",
+    "origin": "moisture_flux",
+    "hours": 3
+  },
+  "moisture_flux__rate3": {
+    "operator": "rate",
+    "origin": "moisture_flux",
+    "hours": 3
+  },
+  "moisture_flux__lag4": {
+    "operator": "lag",
+    "origin": "moisture_flux",
+    "hours": 4
+  },
+  "moisture_flux__rate4": {
+    "operator": "rate",
+    "origin": "moisture_flux",
+    "hours": 4
+  },
+  "moisture_flux__lag6": {
+    "operator": "lag",
+    "origin": "moisture_flux",
+    "hours": 6
+  },
+  "moisture_flux__rate6": {
+    "operator": "rate",
+    "origin": "moisture_flux",
+    "hours": 6
+  },
+  "moisture_flux__d2": {
+    "operator": "second_difference",
+    "origin": "moisture_flux"
+  },
+  "moisture_flux__mean1": {
+    "operator": "mean",
+    "origin": "moisture_flux",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__std1": {
+    "operator": "std",
+    "origin": "moisture_flux",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__sum1": {
+    "operator": "sum",
+    "origin": "moisture_flux",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__count1": {
+    "operator": "count",
+    "origin": "moisture_flux",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__mean2": {
+    "operator": "mean",
+    "origin": "moisture_flux",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__std2": {
+    "operator": "std",
+    "origin": "moisture_flux",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__sum2": {
+    "operator": "sum",
+    "origin": "moisture_flux",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__count2": {
+    "operator": "count",
+    "origin": "moisture_flux",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__mean3": {
+    "operator": "mean",
+    "origin": "moisture_flux",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__std3": {
+    "operator": "std",
+    "origin": "moisture_flux",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__sum3": {
+    "operator": "sum",
+    "origin": "moisture_flux",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__count3": {
+    "operator": "count",
+    "origin": "moisture_flux",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__mean4": {
+    "operator": "mean",
+    "origin": "moisture_flux",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__std4": {
+    "operator": "std",
+    "origin": "moisture_flux",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__sum4": {
+    "operator": "sum",
+    "origin": "moisture_flux",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__count4": {
+    "operator": "count",
+    "origin": "moisture_flux",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__mean6": {
+    "operator": "mean",
+    "origin": "moisture_flux",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__std6": {
+    "operator": "std",
+    "origin": "moisture_flux",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__sum6": {
+    "operator": "sum",
+    "origin": "moisture_flux",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "moisture_flux__count6": {
+    "operator": "count",
+    "origin": "moisture_flux",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd": {
+    "operator": "current",
+    "origin": "fan_vpd"
+  },
+  "fan_vpd__lag1": {
+    "operator": "lag",
+    "origin": "fan_vpd",
+    "hours": 1
+  },
+  "fan_vpd__rate1": {
+    "operator": "rate",
+    "origin": "fan_vpd",
+    "hours": 1
+  },
+  "fan_vpd__lag2": {
+    "operator": "lag",
+    "origin": "fan_vpd",
+    "hours": 2
+  },
+  "fan_vpd__rate2": {
+    "operator": "rate",
+    "origin": "fan_vpd",
+    "hours": 2
+  },
+  "fan_vpd__lag3": {
+    "operator": "lag",
+    "origin": "fan_vpd",
+    "hours": 3
+  },
+  "fan_vpd__rate3": {
+    "operator": "rate",
+    "origin": "fan_vpd",
+    "hours": 3
+  },
+  "fan_vpd__lag4": {
+    "operator": "lag",
+    "origin": "fan_vpd",
+    "hours": 4
+  },
+  "fan_vpd__rate4": {
+    "operator": "rate",
+    "origin": "fan_vpd",
+    "hours": 4
+  },
+  "fan_vpd__lag6": {
+    "operator": "lag",
+    "origin": "fan_vpd",
+    "hours": 6
+  },
+  "fan_vpd__rate6": {
+    "operator": "rate",
+    "origin": "fan_vpd",
+    "hours": 6
+  },
+  "fan_vpd__d2": {
+    "operator": "second_difference",
+    "origin": "fan_vpd"
+  },
+  "fan_vpd__mean1": {
+    "operator": "mean",
+    "origin": "fan_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__std1": {
+    "operator": "std",
+    "origin": "fan_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__sum1": {
+    "operator": "sum",
+    "origin": "fan_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__count1": {
+    "operator": "count",
+    "origin": "fan_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__mean2": {
+    "operator": "mean",
+    "origin": "fan_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__std2": {
+    "operator": "std",
+    "origin": "fan_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__sum2": {
+    "operator": "sum",
+    "origin": "fan_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__count2": {
+    "operator": "count",
+    "origin": "fan_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__mean3": {
+    "operator": "mean",
+    "origin": "fan_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__std3": {
+    "operator": "std",
+    "origin": "fan_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__sum3": {
+    "operator": "sum",
+    "origin": "fan_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__count3": {
+    "operator": "count",
+    "origin": "fan_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__mean4": {
+    "operator": "mean",
+    "origin": "fan_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__std4": {
+    "operator": "std",
+    "origin": "fan_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__sum4": {
+    "operator": "sum",
+    "origin": "fan_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__count4": {
+    "operator": "count",
+    "origin": "fan_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__mean6": {
+    "operator": "mean",
+    "origin": "fan_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__std6": {
+    "operator": "std",
+    "origin": "fan_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__sum6": {
+    "operator": "sum",
+    "origin": "fan_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "fan_vpd__count6": {
+    "operator": "count",
+    "origin": "fan_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd": {
+    "operator": "current",
+    "origin": "heating_vpd"
+  },
+  "heating_vpd__lag1": {
+    "operator": "lag",
+    "origin": "heating_vpd",
+    "hours": 1
+  },
+  "heating_vpd__rate1": {
+    "operator": "rate",
+    "origin": "heating_vpd",
+    "hours": 1
+  },
+  "heating_vpd__lag2": {
+    "operator": "lag",
+    "origin": "heating_vpd",
+    "hours": 2
+  },
+  "heating_vpd__rate2": {
+    "operator": "rate",
+    "origin": "heating_vpd",
+    "hours": 2
+  },
+  "heating_vpd__lag3": {
+    "operator": "lag",
+    "origin": "heating_vpd",
+    "hours": 3
+  },
+  "heating_vpd__rate3": {
+    "operator": "rate",
+    "origin": "heating_vpd",
+    "hours": 3
+  },
+  "heating_vpd__lag4": {
+    "operator": "lag",
+    "origin": "heating_vpd",
+    "hours": 4
+  },
+  "heating_vpd__rate4": {
+    "operator": "rate",
+    "origin": "heating_vpd",
+    "hours": 4
+  },
+  "heating_vpd__lag6": {
+    "operator": "lag",
+    "origin": "heating_vpd",
+    "hours": 6
+  },
+  "heating_vpd__rate6": {
+    "operator": "rate",
+    "origin": "heating_vpd",
+    "hours": 6
+  },
+  "heating_vpd__d2": {
+    "operator": "second_difference",
+    "origin": "heating_vpd"
+  },
+  "heating_vpd__mean1": {
+    "operator": "mean",
+    "origin": "heating_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__std1": {
+    "operator": "std",
+    "origin": "heating_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__sum1": {
+    "operator": "sum",
+    "origin": "heating_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__count1": {
+    "operator": "count",
+    "origin": "heating_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__mean2": {
+    "operator": "mean",
+    "origin": "heating_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__std2": {
+    "operator": "std",
+    "origin": "heating_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__sum2": {
+    "operator": "sum",
+    "origin": "heating_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__count2": {
+    "operator": "count",
+    "origin": "heating_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__mean3": {
+    "operator": "mean",
+    "origin": "heating_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__std3": {
+    "operator": "std",
+    "origin": "heating_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__sum3": {
+    "operator": "sum",
+    "origin": "heating_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__count3": {
+    "operator": "count",
+    "origin": "heating_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__mean4": {
+    "operator": "mean",
+    "origin": "heating_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__std4": {
+    "operator": "std",
+    "origin": "heating_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__sum4": {
+    "operator": "sum",
+    "origin": "heating_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__count4": {
+    "operator": "count",
+    "origin": "heating_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__mean6": {
+    "operator": "mean",
+    "origin": "heating_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__std6": {
+    "operator": "std",
+    "origin": "heating_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__sum6": {
+    "operator": "sum",
+    "origin": "heating_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "heating_vpd__count6": {
+    "operator": "count",
+    "origin": "heating_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd": {
+    "operator": "current",
+    "origin": "fog_vpd"
+  },
+  "fog_vpd__lag1": {
+    "operator": "lag",
+    "origin": "fog_vpd",
+    "hours": 1
+  },
+  "fog_vpd__rate1": {
+    "operator": "rate",
+    "origin": "fog_vpd",
+    "hours": 1
+  },
+  "fog_vpd__lag2": {
+    "operator": "lag",
+    "origin": "fog_vpd",
+    "hours": 2
+  },
+  "fog_vpd__rate2": {
+    "operator": "rate",
+    "origin": "fog_vpd",
+    "hours": 2
+  },
+  "fog_vpd__lag3": {
+    "operator": "lag",
+    "origin": "fog_vpd",
+    "hours": 3
+  },
+  "fog_vpd__rate3": {
+    "operator": "rate",
+    "origin": "fog_vpd",
+    "hours": 3
+  },
+  "fog_vpd__lag4": {
+    "operator": "lag",
+    "origin": "fog_vpd",
+    "hours": 4
+  },
+  "fog_vpd__rate4": {
+    "operator": "rate",
+    "origin": "fog_vpd",
+    "hours": 4
+  },
+  "fog_vpd__lag6": {
+    "operator": "lag",
+    "origin": "fog_vpd",
+    "hours": 6
+  },
+  "fog_vpd__rate6": {
+    "operator": "rate",
+    "origin": "fog_vpd",
+    "hours": 6
+  },
+  "fog_vpd__d2": {
+    "operator": "second_difference",
+    "origin": "fog_vpd"
+  },
+  "fog_vpd__mean1": {
+    "operator": "mean",
+    "origin": "fog_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__std1": {
+    "operator": "std",
+    "origin": "fog_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__sum1": {
+    "operator": "sum",
+    "origin": "fog_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__count1": {
+    "operator": "count",
+    "origin": "fog_vpd",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__mean2": {
+    "operator": "mean",
+    "origin": "fog_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__std2": {
+    "operator": "std",
+    "origin": "fog_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__sum2": {
+    "operator": "sum",
+    "origin": "fog_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__count2": {
+    "operator": "count",
+    "origin": "fog_vpd",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__mean3": {
+    "operator": "mean",
+    "origin": "fog_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__std3": {
+    "operator": "std",
+    "origin": "fog_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__sum3": {
+    "operator": "sum",
+    "origin": "fog_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__count3": {
+    "operator": "count",
+    "origin": "fog_vpd",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__mean4": {
+    "operator": "mean",
+    "origin": "fog_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__std4": {
+    "operator": "std",
+    "origin": "fog_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__sum4": {
+    "operator": "sum",
+    "origin": "fog_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__count4": {
+    "operator": "count",
+    "origin": "fog_vpd",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__mean6": {
+    "operator": "mean",
+    "origin": "fog_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__std6": {
+    "operator": "std",
+    "origin": "fog_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__sum6": {
+    "operator": "sum",
+    "origin": "fog_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "fog_vpd__count6": {
+    "operator": "count",
+    "origin": "fog_vpd",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2": {
+    "operator": "current",
+    "origin": "vent_co2"
+  },
+  "vent_co2__lag1": {
+    "operator": "lag",
+    "origin": "vent_co2",
+    "hours": 1
+  },
+  "vent_co2__rate1": {
+    "operator": "rate",
+    "origin": "vent_co2",
+    "hours": 1
+  },
+  "vent_co2__lag2": {
+    "operator": "lag",
+    "origin": "vent_co2",
+    "hours": 2
+  },
+  "vent_co2__rate2": {
+    "operator": "rate",
+    "origin": "vent_co2",
+    "hours": 2
+  },
+  "vent_co2__lag3": {
+    "operator": "lag",
+    "origin": "vent_co2",
+    "hours": 3
+  },
+  "vent_co2__rate3": {
+    "operator": "rate",
+    "origin": "vent_co2",
+    "hours": 3
+  },
+  "vent_co2__lag4": {
+    "operator": "lag",
+    "origin": "vent_co2",
+    "hours": 4
+  },
+  "vent_co2__rate4": {
+    "operator": "rate",
+    "origin": "vent_co2",
+    "hours": 4
+  },
+  "vent_co2__lag6": {
+    "operator": "lag",
+    "origin": "vent_co2",
+    "hours": 6
+  },
+  "vent_co2__rate6": {
+    "operator": "rate",
+    "origin": "vent_co2",
+    "hours": 6
+  },
+  "vent_co2__d2": {
+    "operator": "second_difference",
+    "origin": "vent_co2"
+  },
+  "vent_co2__mean1": {
+    "operator": "mean",
+    "origin": "vent_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__std1": {
+    "operator": "std",
+    "origin": "vent_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__sum1": {
+    "operator": "sum",
+    "origin": "vent_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__count1": {
+    "operator": "count",
+    "origin": "vent_co2",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__mean2": {
+    "operator": "mean",
+    "origin": "vent_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__std2": {
+    "operator": "std",
+    "origin": "vent_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__sum2": {
+    "operator": "sum",
+    "origin": "vent_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__count2": {
+    "operator": "count",
+    "origin": "vent_co2",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__mean3": {
+    "operator": "mean",
+    "origin": "vent_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__std3": {
+    "operator": "std",
+    "origin": "vent_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__sum3": {
+    "operator": "sum",
+    "origin": "vent_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__count3": {
+    "operator": "count",
+    "origin": "vent_co2",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__mean4": {
+    "operator": "mean",
+    "origin": "vent_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__std4": {
+    "operator": "std",
+    "origin": "vent_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__sum4": {
+    "operator": "sum",
+    "origin": "vent_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__count4": {
+    "operator": "count",
+    "origin": "vent_co2",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__mean6": {
+    "operator": "mean",
+    "origin": "vent_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__std6": {
+    "operator": "std",
+    "origin": "vent_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__sum6": {
+    "operator": "sum",
+    "origin": "vent_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vent_co2__count6": {
+    "operator": "count",
+    "origin": "vent_co2",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad": {
+    "operator": "current",
+    "origin": "vpd_rad"
+  },
+  "vpd_rad__lag1": {
+    "operator": "lag",
+    "origin": "vpd_rad",
+    "hours": 1
+  },
+  "vpd_rad__rate1": {
+    "operator": "rate",
+    "origin": "vpd_rad",
+    "hours": 1
+  },
+  "vpd_rad__lag2": {
+    "operator": "lag",
+    "origin": "vpd_rad",
+    "hours": 2
+  },
+  "vpd_rad__rate2": {
+    "operator": "rate",
+    "origin": "vpd_rad",
+    "hours": 2
+  },
+  "vpd_rad__lag3": {
+    "operator": "lag",
+    "origin": "vpd_rad",
+    "hours": 3
+  },
+  "vpd_rad__rate3": {
+    "operator": "rate",
+    "origin": "vpd_rad",
+    "hours": 3
+  },
+  "vpd_rad__lag4": {
+    "operator": "lag",
+    "origin": "vpd_rad",
+    "hours": 4
+  },
+  "vpd_rad__rate4": {
+    "operator": "rate",
+    "origin": "vpd_rad",
+    "hours": 4
+  },
+  "vpd_rad__lag6": {
+    "operator": "lag",
+    "origin": "vpd_rad",
+    "hours": 6
+  },
+  "vpd_rad__rate6": {
+    "operator": "rate",
+    "origin": "vpd_rad",
+    "hours": 6
+  },
+  "vpd_rad__d2": {
+    "operator": "second_difference",
+    "origin": "vpd_rad"
+  },
+  "vpd_rad__mean1": {
+    "operator": "mean",
+    "origin": "vpd_rad",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__std1": {
+    "operator": "std",
+    "origin": "vpd_rad",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__sum1": {
+    "operator": "sum",
+    "origin": "vpd_rad",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__count1": {
+    "operator": "count",
+    "origin": "vpd_rad",
+    "hours": 1,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__mean2": {
+    "operator": "mean",
+    "origin": "vpd_rad",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__std2": {
+    "operator": "std",
+    "origin": "vpd_rad",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__sum2": {
+    "operator": "sum",
+    "origin": "vpd_rad",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__count2": {
+    "operator": "count",
+    "origin": "vpd_rad",
+    "hours": 2,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__mean3": {
+    "operator": "mean",
+    "origin": "vpd_rad",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__std3": {
+    "operator": "std",
+    "origin": "vpd_rad",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__sum3": {
+    "operator": "sum",
+    "origin": "vpd_rad",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__count3": {
+    "operator": "count",
+    "origin": "vpd_rad",
+    "hours": 3,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__mean4": {
+    "operator": "mean",
+    "origin": "vpd_rad",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__std4": {
+    "operator": "std",
+    "origin": "vpd_rad",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__sum4": {
+    "operator": "sum",
+    "origin": "vpd_rad",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__count4": {
+    "operator": "count",
+    "origin": "vpd_rad",
+    "hours": 4,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__mean6": {
+    "operator": "mean",
+    "origin": "vpd_rad",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__std6": {
+    "operator": "std",
+    "origin": "vpd_rad",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__sum6": {
+    "operator": "sum",
+    "origin": "vpd_rad",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "vpd_rad__count6": {
+    "operator": "count",
+    "origin": "vpd_rad",
+    "hours": 6,
+    "partial_prefix_allowed": true
+  },
+  "act_vent__on_run": {
+    "operator": "on_run",
+    "origin": "act_vent"
+  },
+  "act_vent__off_run": {
+    "operator": "off_run",
+    "origin": "act_vent"
+  },
+  "act_vent__onoff_switch": {
+    "operator": "onoff_switch",
+    "origin": "act_vent"
+  },
+  "act_vent__since_value_change": {
+    "operator": "since_value_change",
+    "origin": "act_vent"
+  },
+  "act_vent__value_change": {
+    "operator": "value_change",
+    "origin": "act_vent"
+  },
+  "act_shade__on_run": {
+    "operator": "on_run",
+    "origin": "act_shade"
+  },
+  "act_shade__off_run": {
+    "operator": "off_run",
+    "origin": "act_shade"
+  },
+  "act_shade__onoff_switch": {
+    "operator": "onoff_switch",
+    "origin": "act_shade"
+  },
+  "act_shade__since_value_change": {
+    "operator": "since_value_change",
+    "origin": "act_shade"
+  },
+  "act_shade__value_change": {
+    "operator": "value_change",
+    "origin": "act_shade"
+  },
+  "act_thermal__on_run": {
+    "operator": "on_run",
+    "origin": "act_thermal"
+  },
+  "act_thermal__off_run": {
+    "operator": "off_run",
+    "origin": "act_thermal"
+  },
+  "act_thermal__onoff_switch": {
+    "operator": "onoff_switch",
+    "origin": "act_thermal"
+  },
+  "act_thermal__since_value_change": {
+    "operator": "since_value_change",
+    "origin": "act_thermal"
+  },
+  "act_thermal__value_change": {
+    "operator": "value_change",
+    "origin": "act_thermal"
+  },
+  "act_heating__on_run": {
+    "operator": "on_run",
+    "origin": "act_heating"
+  },
+  "act_heating__off_run": {
+    "operator": "off_run",
+    "origin": "act_heating"
+  },
+  "act_heating__onoff_switch": {
+    "operator": "onoff_switch",
+    "origin": "act_heating"
+  },
+  "act_heating__since_value_change": {
+    "operator": "since_value_change",
+    "origin": "act_heating"
+  },
+  "act_heating__value_change": {
+    "operator": "value_change",
+    "origin": "act_heating"
+  },
+  "act_circfan__on_run": {
+    "operator": "on_run",
+    "origin": "act_circfan"
+  },
+  "act_circfan__off_run": {
+    "operator": "off_run",
+    "origin": "act_circfan"
+  },
+  "act_circfan__onoff_switch": {
+    "operator": "onoff_switch",
+    "origin": "act_circfan"
+  },
+  "act_circfan__since_value_change": {
+    "operator": "since_value_change",
+    "origin": "act_circfan"
+  },
+  "act_circfan__value_change": {
+    "operator": "value_change",
+    "origin": "act_circfan"
+  },
+  "act_co2__on_run": {
+    "operator": "on_run",
+    "origin": "act_co2"
+  },
+  "act_co2__off_run": {
+    "operator": "off_run",
+    "origin": "act_co2"
+  },
+  "act_co2__onoff_switch": {
+    "operator": "onoff_switch",
+    "origin": "act_co2"
+  },
+  "act_co2__since_value_change": {
+    "operator": "since_value_change",
+    "origin": "act_co2"
+  },
+  "act_co2__value_change": {
+    "operator": "value_change",
+    "origin": "act_co2"
+  },
+  "act_fog__on_run": {
+    "operator": "on_run",
+    "origin": "act_fog"
+  },
+  "act_fog__off_run": {
+    "operator": "off_run",
+    "origin": "act_fog"
+  },
+  "act_fog__onoff_switch": {
+    "operator": "onoff_switch",
+    "origin": "act_fog"
+  },
+  "act_fog__since_value_change": {
+    "operator": "since_value_change",
+    "origin": "act_fog"
+  },
+  "act_fog__value_change": {
+    "operator": "value_change",
+    "origin": "act_fog"
+  },
+  "sealed_run": {
+    "operator": "on_run",
+    "origin": "vent==0 and fan==0; daily reset"
+  },
+  "co2_dose_response": {
+    "operator": "masked_delta",
+    "origin": "CO2 change while dosing; not causal effect"
+  },
+  "co2_uptake_proxy": {
+    "operator": "masked_delta",
+    "origin": "CO2 decrease, dosing and vent zero; uptake unverified"
+  }
+}

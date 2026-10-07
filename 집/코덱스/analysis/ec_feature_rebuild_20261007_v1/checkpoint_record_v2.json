@@ -1,0 +1,59 @@
+{
+  "goal_complete": false,
+  "new_candidate_performance_tested": false,
+  "R3_members_complete": 9,
+  "whole_baseline_complete": false,
+  "R3_member_files": [
+    {
+      "file": "checkpoints\\BLK_R3_v1\\ET_seed47.json",
+      "sha256": "52d0bd607a0a9e92d48194df40dcf7c4f50e17c2b0a6f4d523ba7a78ed297799"
+    },
+    {
+      "file": "checkpoints\\BLK_R3_v1\\LGB_seed47.json",
+      "sha256": "c54c6bed98e58baecb09a1fe6496e5e6b804dc7838bbfb66e2f283c457069edf"
+    },
+    {
+      "file": "checkpoints\\BLK_R3_v1\\MLP_seed47.json",
+      "sha256": "376a76f9e33a9528f2ada128a173681d3365ddb7ce57b7d5cb8a1ba2bb9ba285"
+    },
+    {
+      "file": "checkpoints\\BLK_R3_v1\\ET_seed1414.json",
+      "sha256": "19c6ee9fac912846291c1a0aff9661bc64a86856f6d4f2c3b13f3015b2c1b41b"
+    },
+    {
+      "file": "checkpoints\\BLK_R3_v1\\LGB_seed1414.json",
+      "sha256": "2a4276e9c926a325405e5891d84c73ba5b520faeba818a2ce48fac7e7aa75231"
+    },
+    {
+      "file": "checkpoints\\BLK_R3_v1\\MLP_seed1414.json",
+      "sha256": "8998f0c9c3c04073932ac0aab8217b4677168e5224b9cb082263737e2de8feea"
+    },
+    {
+      "file": "checkpoints\\BLK_R3_v1\\ET_seed6464.json",
+      "sha256": "ae3c51639e1e627dfa549208420efddaa1a86f1206c96d486296fcf9c2da4740"
+    },
+    {
+      "file": "checkpoints\\BLK_R3_v1\\LGB_seed6464.json",
+      "sha256": "d2e65acc3fa2037e7f10d26285021117c7fa8f61a00696417edcfe4bacf3e5a0"
+    },
+    {
+      "file": "checkpoints\\BLK_R3_v1\\MLP_seed6464.json",
+      "sha256": "3ee3dea7f0d9eaade3a536017aaf69a323fcf7f1e7c6735cf7d17777fd859afa"
+    }
+  ],
+  "SG2_nonconstant_source_max_difference": 2.220446049250313e-16,
+  "SG2_future_other_farm_checks": 48,
+  "endpoint_independent_formula_checks": 1440,
+  "PFN_live_handle_last_verified_by_parent": 2936,
+  "PFN_live_PID_last_verified_by_parent": 20072,
+  "PFN_progress": "context5 running, contexts6..8 pending at recording; poll original handle before restart",
+  "next": [
+    "poll PFN handle2936",
+    "close independent critique of v2 fixes",
+    "PFN broader final query invariance audit",
+    "assemble .6R3+.4PFN one shrink/clip/ref-only SG2",
+    "full-pipeline causal audit",
+    "BLK six variant diagnosis",
+    "original TM/P2LOO/EL1 safe endpoint selector before adoption"
+  ]
+}

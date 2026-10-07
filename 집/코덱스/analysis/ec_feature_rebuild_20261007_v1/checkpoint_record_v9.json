@@ -1,0 +1,23 @@
+{
+  "checkpoint_version": 9,
+  "recorded_at": "2026-10-07T10:20:56.4263087+09:00",
+  "previous_turn_classification": "progress",
+  "domain_preparation_session": 20171,
+  "domain_preparation_terminal_exit_code": 0,
+  "domain_event_audit": "PASS exit0",
+  "domain_fit_registration": "DOMAIN24_BLK_fit_registration_v3.json",
+  "raw_runner_original_session": 65421,
+  "raw_runner_status": "running, original handle re-polled",
+  "latest_runner_output": "anchors reference preparation, baseline replay not yet logged",
+  "raw_candidate_fits_completed_confirmed": 0,
+  "registered_raw_candidate_fits": 72,
+  "registered_baseline_replays": 3,
+  "domain_performance_evaluated": false,
+  "domain_heldout_truth_loaded": false,
+  "GPU_used": false,
+  "goal_complete": false,
+  "catalog_entry": "6.376",
+  "latest_candidates": "feature_candidates_v5.csv",
+  "independent_review": "critique_DOMAIN24_registration_v1.md; no new core fit blocking issue",
+  "next": "poll original65421 without duplicate restart; baseline replays then72raw; full mixed audit then diagnostic scoring; all24 original validators remain"
+}

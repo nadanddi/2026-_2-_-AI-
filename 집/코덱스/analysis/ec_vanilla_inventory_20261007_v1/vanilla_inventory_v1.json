@@ -1,0 +1,93 @@
+{
+  "scope": "competition distributed original CSV only; no external/features/OOF/predictions/synthetic additions",
+  "source_files": {
+    "train_X.csv": {
+      "path": "C:\\work\\farmai\\공용\\대회자료\\정형데이터\\참가자_배포\\train_X.csv",
+      "sha256": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300"
+    },
+    "train_y.csv": {
+      "path": "C:\\work\\farmai\\공용\\대회자료\\정형데이터\\참가자_배포\\train_y.csv",
+      "sha256": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9"
+    },
+    "test_X.csv": {
+      "path": "C:\\work\\farmai\\공용\\대회자료\\정형데이터\\참가자_배포\\test_X.csv",
+      "sha256": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad"
+    }
+  },
+  "training_ec_rows": 9600,
+  "by_farm": {
+    "F47": 4800,
+    "F13": 4800
+  },
+  "farm_days": 400,
+  "usable_original_input_columns": [
+    "out_temp",
+    "out_hum",
+    "out_rad",
+    "out_wspd",
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog"
+  ],
+  "test_all_missing_excluded_columns": [
+    "in_rad",
+    "act_side",
+    "act_valve",
+    "act_cool",
+    "act_pump"
+  ],
+  "complete14_rows": 9511,
+  "missing_input_rows": 89,
+  "missing_cells_by_column": {
+    "out_temp": 0,
+    "out_hum": 0,
+    "out_rad": 0,
+    "out_wspd": 0,
+    "in_temp": 73,
+    "in_hum": 67,
+    "in_co2": 77,
+    "act_vent": 0,
+    "act_shade": 0,
+    "act_thermal": 0,
+    "act_heating": 0,
+    "act_circfan": 0,
+    "act_co2": 0,
+    "act_fog": 0
+  },
+  "test_rows": 1440,
+  "test_missing_in_usable": {
+    "out_temp": 0,
+    "out_hum": 0,
+    "out_rad": 0,
+    "out_wspd": 0,
+    "in_temp": 0,
+    "in_hum": 0,
+    "in_co2": 0,
+    "act_vent": 0,
+    "act_shade": 0,
+    "act_thermal": 0,
+    "act_heating": 0,
+    "act_circfan": 0,
+    "act_co2": 0,
+    "act_fog": 0
+  },
+  "other_farms_ec_label_rows": 0,
+  "join_key": "row_id",
+  "secondary_observed_label": "train_y.sub_temp exists; unavailable as observed input for evaluation rows, so excluded from vanilla EC input",
+  "raw_definition_limit": "organizer says some train inputs reconstructed/transformed without markers; original distributed data is not guaranteed entirely raw sensor observation",
+  "checks": [
+    "EC label count independent y-list / X-key lookup / farm counts agree",
+    "complete rows agree with missing-row set complement",
+    "all 400 farm-days have 24 hours"
+  ],
+  "created_training_dataset": false,
+  "cleaning": false,
+  "model_training": false
+}

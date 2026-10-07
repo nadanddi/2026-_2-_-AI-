@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "rejected_cases": [
+    "code_sha256",
+    "anchor_ids_sha256",
+    "postprocess_sha256",
+    "candidate_id",
+    "baseline_sha256",
+    "train_ids_sha256",
+    "context_ids_sha256",
+    "validator",
+    "fold",
+    "environment_sha256",
+    "input_sha256",
+    "seed",
+    "fold_sha256",
+    "query_ids_sha256",
+    "corrupt_predictions",
+    "missing_receipt_partial_cell"
+  ],
+  "synthetic_only": true,
+  "limitations": "실제 학습 runner·프로세스 생존/재시작 감사는 별도 필요"
+}

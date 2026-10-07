@@ -1,0 +1,18 @@
+{
+  "scorer_sha256": "19c59467e60352acc7111b0193a0fac498a8c4da354bf031acf78baf65ecc5dd",
+  "verifier_sha256": "a711fcfd19165849713917e7728e1c1f782792c409c69181b8e30fde680db383",
+  "registration_sha256": "712c30532db5de53f6612bbe1ee4a22081a3cfda77495161ca3fd11ee257021a",
+  "cumulative_comparisons": 60,
+  "alpha": 0.0004166666666666667,
+  "draws": 20000,
+  "rng_seed": 2026100702,
+  "segments": 32,
+  "loss": "mean_seed squared-error delta",
+  "bootstrap": "farm-stratified4blocks per farm row-weighted",
+  "p": "plusone/ties>=0",
+  "individual_CI": "95% descriptive",
+  "adjusted_CI": "1-.05/60",
+  "adoption_permitted": false,
+  "created_before_inference": false,
+  "repair_scope": "JSON tuple/list equivalence only; original statistics/method/predictions unchanged; before truth score"
+}

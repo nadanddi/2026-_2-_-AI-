@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "reference_fit_rows": 5520,
+  "query_rows": 1440,
+  "independent_source_max_difference": 2.220446049250313e-16,
+  "future_other_farm_checks": 48,
+  "query_role_activation": 1440,
+  "nonconstant_baseline_changed": 635,
+  "nonconstant_baseline_reference_available": 1440,
+  "RAW_PASS_active": 0,
+  "heldout_truth_loaded": false,
+  "performance_evaluated": false,
+  "source_sha256": "e942ebbae3cfeaf945dbd0c8916713745b126ade99d95d01c027bfb15deed1e1",
+  "adapter_sha256": {
+    "blk_sg2_refonly_v1.py": "a3dc5ad3e1dbfa5e73d3cf36e6f507f6bfcb5d5b0ce9ab5da5d6d036962f20a0",
+    "blk_sg2_refonly_v2.py": "244ca4e77d8f64134a652a72de92d5a9c004cf87df777d96b2808139a20be3bb"
+  },
+  "reference_calendar_sha256": "ebd87e941553ed7fef33ab7d271f323de957313ec0a5ebae749e126114e87d62",
+  "limits": [
+    "nonconstant hourly baseline audit only; real CPU PFN/R3 final output checks pending",
+    "ref-only fit policy differs from naïve BLK query+train prepare",
+    "explicit no-finite/first-record fallback; original source may fail those edge cases"
+  ]
+}

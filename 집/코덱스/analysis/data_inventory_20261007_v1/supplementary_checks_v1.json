@@ -1,0 +1,232 @@
+{
+  "distance_matrix": {
+    "path": "집/클로드/research/local/deep_cal_6_D.npy",
+    "shape": [
+      460,
+      460
+    ],
+    "infinite": 460,
+    "infinite_only_diagonal": true,
+    "finite_off_diagonal": true,
+    "reason": "distance-matrix self-neighbour exclusion compatible; not an infinite prediction"
+  },
+  "image_mission": {
+    "label_rows": 21,
+    "images_verified": 21,
+    "images": [
+      {
+        "file": "jixx.jpg",
+        "label": "0",
+        "type": "real",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "ovvx.jpg",
+        "label": "0",
+        "type": "real",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "qube.jpg",
+        "label": "0",
+        "type": "real",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "moke.jpg",
+        "label": "1",
+        "type": "AI_gen",
+        "format": "JPEG",
+        "size": [
+          1024,
+          768
+        ]
+      },
+      {
+        "file": "wlid.jpg",
+        "label": "1",
+        "type": "AI_gen",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "xkdj.jpg",
+        "label": "1",
+        "type": "AI_gen",
+        "format": "JPEG",
+        "size": [
+          1024,
+          768
+        ]
+      },
+      {
+        "file": "bpem.jpg",
+        "label": "1",
+        "type": "composite",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "bphr.jpg",
+        "label": "1",
+        "type": "composite",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "yuag.jpg",
+        "label": "1",
+        "type": "composite",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "vfjx.jpg",
+        "label": "1",
+        "type": "filter",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "nqwq.jpg",
+        "label": "1",
+        "type": "filter",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "jrtg.jpg",
+        "label": "1",
+        "type": "filter",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "kzbz.jpg",
+        "label": "1",
+        "type": "full_style",
+        "format": "JPEG",
+        "size": [
+          1024,
+          768
+        ]
+      },
+      {
+        "file": "nriv.jpg",
+        "label": "1",
+        "type": "full_style",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "ttmn.jpg",
+        "label": "1",
+        "type": "full_style",
+        "format": "JPEG",
+        "size": [
+          1024,
+          768
+        ]
+      },
+      {
+        "file": "ftkc.jpg",
+        "label": "1",
+        "type": "partial_gen",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "mobg.jpg",
+        "label": "1",
+        "type": "partial_gen",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "uexm.jpg",
+        "label": "1",
+        "type": "partial_gen",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "dszm.jpg",
+        "label": "1",
+        "type": "partial_style",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "elue.jpg",
+        "label": "1",
+        "type": "partial_style",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      },
+      {
+        "file": "xeeo.jpg",
+        "label": "1",
+        "type": "partial_style",
+        "format": "JPEG",
+        "size": [
+          768,
+          1024
+        ]
+      }
+    ],
+    "ec_join_key_present": false,
+    "ec_target_present": false,
+    "scope": "separate image classification mission; not EC-labelled observations"
+  }
+}

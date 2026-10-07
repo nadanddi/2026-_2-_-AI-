@@ -1,0 +1,21 @@
+{
+  "method_registration_sha256": "6f34a17dbe14919c646cbe3ed9c7b75f5bd06f33fb26a802b756b579cb19e8dd",
+  "baseline_verified_receipt_sha256": "94219f5e7ae6cbfb9aa714906eb26e065aa9c0bfc33747f5ef80c55998d46729",
+  "prediction_sha256": "357bd921c3ba74ea89aba45755fae5ca3b169947806a6b6a88431612f56020ba",
+  "code_sha256": "19979076a8fe731f6763268ff34fac89ce11163fed4e8c973e551781c6b4292c",
+  "source_template_sha256": "d3453e69a06706f5e72b235f36ab1604c2ef2e3f3771ee6173b02f09753596d7",
+  "parent_scorer_sha256": "6ee64cc6f9aa981c5cdce9b653bd5d8523d6b0d4f52c0e03b39b55df3deb0acd",
+  "previous_cached_scorer_sha256": "67b16c32cda3038676d9162a929e504318794f2cb4009e8d17178c369d1f6427",
+  "finite_truth_scorer_sha256": "4fd457a54b6965843fabd6a99538761336d8962ccd0a6df8344ce5865e463b8e",
+  "cached_PFN_receipt_sha256": "11072b71e3eded8276e6289e57a83cee620ac4d2ab8747e87f3d62f021bf3e02",
+  "bootstrap_engine": "Python3.12 random.Random MT19937 randrange",
+  "seed": 2026100702,
+  "draws": 20000,
+  "loss": "per-row mean_seed[(candidate-y)^2-(baseline-y)^2]",
+  "sampling": "4 blocks with replacement within each of2 farms, row-weighted sum SSE/count",
+  "CI": "linear interpolated empirical2.5/97.5 percentiles, individual descriptive95%, not multiplicity adjusted",
+  "p": "(1+count(delta>=0))/20001",
+  "alpha": 0.004166666666666667,
+  "adoption_permitted": false,
+  "diagnostic_only": true
+}

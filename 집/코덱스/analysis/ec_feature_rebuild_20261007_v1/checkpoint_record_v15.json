@@ -1,0 +1,59 @@
+{
+  "checkpoint_version": 15,
+  "recorded_at": "2026-10-07T13:20:59.649417+09:00",
+  "user_request": "누락 재점검; 바닐라 데이터 범위와 전체 실험 목표 구분",
+  "assembly_status": "not executed; automatic approval review workspace credits failure unresolved; no bypass",
+  "CH2_assignment_audit": "actual stdlib exit0 independent optimality audit; physical source or predictive validity not proved",
+  "CH2_prefix_audit": "36 synthetic checks; no real-query prediction/model fit/score; source critic requested",
+  "PF_outputs": [
+    {
+      "name": "PF1",
+      "rows": 10848,
+      "folds": 66,
+      "validator_rows": {
+        "DIAG10": 8640,
+        "EL1": 1104,
+        "P2LOO": 1104
+      },
+      "TM_rows": 2664,
+      "complete_expected_metadata": true,
+      "missing_expected_rows": 0,
+      "prediction_columns": [
+        "pfnA",
+        "pfnB",
+        "pfnC",
+        "pfnD"
+      ],
+      "target_values_converted": 0,
+      "metadata_and_finite_predictions_pass": true
+    },
+    {
+      "name": "PF2",
+      "rows": 6648,
+      "folds": 34,
+      "validator_rows": {
+        "DIAG10": 5304,
+        "EL1": 864,
+        "P2LOO": 480
+      },
+      "TM_rows": 1392,
+      "complete_expected_metadata": false,
+      "missing_expected_rows": 4200,
+      "prediction_columns": [
+        "pfnA",
+        "pfnB",
+        "pfnC",
+        "pfnD",
+        "pfnE"
+      ],
+      "target_values_converted": 0,
+      "metadata_and_finite_predictions_pass": true
+    }
+  ],
+  "PF_metadata_limits": "not causal gate or completed-model receipt; running process unknown; no target scoring",
+  "vanilla_scope": "raw14, row_id, same-farm current/past inputs, public training input/EC/temp including EC-unlabeled farms; exclude external/derived values",
+  "goal_remaining": "DOMAIN assemble/gate/score; original all24 x3seeds TM/P2LOO/EL1; CH2; literature24/data142; first-unused seed/layout once; final report",
+  "whole_goal_complete": false,
+  "GPU_used": false,
+  "submission_created": false
+}

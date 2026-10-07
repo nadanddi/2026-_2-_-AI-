@@ -1,0 +1,37 @@
+{
+  "checkpoint_version": 10,
+  "recorded_at": "2026-10-07T10:21:33.9758708+09:00",
+  "raw_runner_original_session": 65421,
+  "raw_runner_status": "running verified by original handle",
+  "baseline_ET_seed47_replay_max_difference": 0.0,
+  "raw_completed_snapshot": [
+    {
+      "candidate": "D01",
+      "seed": 47,
+      "sha256": "c6128aad930019461c252af792c97a3bfff7496e801f0770632565049ddd50fa"
+    },
+    {
+      "candidate": "D02",
+      "seed": 47,
+      "sha256": "02e3aa217c20efd925f8ea9aac4a26f63eddd7294add6b5685c91048880288d7"
+    },
+    {
+      "candidate": "D03",
+      "seed": 47,
+      "sha256": "bfd190a81f7adb9b56ed744bad086b6baecbb8458b5f159f21630bc93615da57"
+    },
+    {
+      "candidate": "D04",
+      "seed": 47,
+      "sha256": "e610972e1fb342df0a2895a79801ccb3a1db5a5d9b3706a9672bf5d7cb9d55b5"
+    }
+  ],
+  "raw_completed_count": 4,
+  "registered_candidate_fits": 72,
+  "performance_evaluated": false,
+  "heldout_truth_loaded": false,
+  "GPU_used": false,
+  "goal_complete": false,
+  "latest_candidates": "feature_candidates_v5.csv",
+  "next": "continue same worker, then complete strict raw receipt and every candidate mixed postprocess audit before scoring"
+}

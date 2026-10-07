@@ -1,0 +1,210 @@
+{
+  "inventory_count_and_unique_paths": "PASS",
+  "competition_independent_csv": "PASS",
+  "raw_source_sha_fresh": "PASS",
+  "competition_distribution_zip_matches_extracted_csv": [
+    {
+      "file": "train_X.csv",
+      "sha256_match": true
+    },
+    {
+      "file": "train_y.csv",
+      "sha256_match": true
+    },
+    {
+      "file": "test_X.csv",
+      "sha256_match": true
+    },
+    {
+      "file": "sample_submission.csv",
+      "sha256_match": true
+    }
+  ],
+  "external_independent_csv_members": 11,
+  "xlsx_independent_sheets": 1,
+  "external_table_rows": 10843652,
+  "external_sources": 12,
+  "all_file_statuses": {
+    "zip_directory_read_ok": 47,
+    "metadata_only": 8,
+    "full_table_profile": 5485,
+    "json_parse_ok": 3945,
+    "array_full_payload_checked": 2529,
+    "object_array_metadata_only": 1,
+    "serialized_model_not_deserialized": 68,
+    "read_error": 18
+  },
+  "file_read_errors": [
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_04/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_05/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_06/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_07/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_12/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_13/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_14/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_15/cell.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_src_X1_20261002_v1/all_primary_pairs.csv",
+      "error": "EmptyDataError('No columns to parse from file')"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_src_X1_20261002_v1/all_scope_shape_matches.csv",
+      "error": "EmptyDataError('No columns to parse from file')"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_src_X1_20261002_v1/raw_pair_examples.csv",
+      "error": "EmptyDataError('No columns to parse from file')"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_src_X1_20261002_v1/selected_pairs.csv",
+      "error": "EmptyDataError('No columns to parse from file')"
+    },
+    {
+      "path": "집/코덱스/analysis/local/ec_baseline_cache/6fb2fb99f59aa1abc8b707848f25e938c8d67ec42c516667993c5a7307c6af07.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')"
+    },
+    {
+      "path": "집/코덱스/local/ec_actual_A_nested_oof_synthetic_20261006_v1/.staging/interrupted_example/unfinished.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')"
+    },
+    {
+      "path": "집/코덱스/local/ec_exact_tweedie_leaf_20261004_v1/overlay_v1/external_libs/nanoarrow/dev/benchmarks/asv.conf.json",
+      "error": "JSONDecodeError('Expecting property name enclosed in double quotes: line 2 column 5 (char 6)')"
+    },
+    {
+      "path": "집/코덱스/local/ec_exact_tweedie_leaf_20261004_v1/source/external_libs/nanoarrow/dev/benchmarks/asv.conf.json",
+      "error": "JSONDecodeError('Expecting property name enclosed in double quotes: line 2 column 5 (char 6)')"
+    },
+    {
+      "path": "집/코덱스/local/ec_nested_log_blend_guard_synthetic_20261004_v1/cell.json",
+      "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+    },
+    {
+      "path": "집/코덱스/local/ec_nested_log_blend_guard_synthetic_20261004_v1/cell_inner.npz",
+      "error": "ValueError('This file contains pickled (object) data. If you trust the file you can load it unsafely using the `allow_pickle=` keyword argument or `pickle.load()`.')"
+    }
+  ],
+  "array_archive_statuses": {
+    "PASS": 2576,
+    "ERROR": 12
+  },
+  "array_errors_classified": [
+    {
+      "path": "연구실/클로드/local/cache/oof_cache.npy",
+      "classification": "object_npy_payload_not_deserialized",
+      "bytes": 154049,
+      "sha256": "b47b54e42ce262dbe868c62d85f7c29c57266d3e304a9df523a2f10472dd53ec"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_04/cell.npz",
+      "classification": "synthetic_non_npz_fixture",
+      "bytes": 54,
+      "sha256": "bc67c5408f152f4814b4c9bf20e110292f5b80e204db35731f13648f1279153c"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_05/cell.npz",
+      "classification": "synthetic_non_npz_fixture",
+      "bytes": 54,
+      "sha256": "bc67c5408f152f4814b4c9bf20e110292f5b80e204db35731f13648f1279153c"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_06/cell.npz",
+      "classification": "synthetic_non_npz_fixture",
+      "bytes": 54,
+      "sha256": "bc67c5408f152f4814b4c9bf20e110292f5b80e204db35731f13648f1279153c"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_07/cell.npz",
+      "classification": "synthetic_non_npz_fixture",
+      "bytes": 54,
+      "sha256": "bc67c5408f152f4814b4c9bf20e110292f5b80e204db35731f13648f1279153c"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_12/cell.npz",
+      "classification": "synthetic_non_npz_fixture",
+      "bytes": 54,
+      "sha256": "bc67c5408f152f4814b4c9bf20e110292f5b80e204db35731f13648f1279153c"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_13/cell.npz",
+      "classification": "synthetic_non_npz_fixture",
+      "bytes": 54,
+      "sha256": "bc67c5408f152f4814b4c9bf20e110292f5b80e204db35731f13648f1279153c"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_14/cell.npz",
+      "classification": "synthetic_non_npz_fixture",
+      "bytes": 54,
+      "sha256": "bc67c5408f152f4814b4c9bf20e110292f5b80e204db35731f13648f1279153c"
+    },
+    {
+      "path": "집/코덱스/analysis/ec_harsh_review_20261004_v1/nested_log_v2_synthetic_first_artifacts_v1/case_15/cell.npz",
+      "classification": "synthetic_non_npz_fixture",
+      "bytes": 54,
+      "sha256": "bc67c5408f152f4814b4c9bf20e110292f5b80e204db35731f13648f1279153c"
+    },
+    {
+      "path": "집/코덱스/analysis/local/ec_baseline_cache/6fb2fb99f59aa1abc8b707848f25e938c8d67ec42c516667993c5a7307c6af07.npz",
+      "classification": "invalid_real_npz_requires_regeneration",
+      "bytes": 62418,
+      "sha256": "cffc7b938ade80f85e3630d9c6ffaaff44f96787e4f0a28cb979d03d875a21cd",
+      "all_bytes_zero": true
+    },
+    {
+      "path": "집/코덱스/local/ec_actual_A_nested_oof_synthetic_20261006_v1/.staging/interrupted_example/unfinished.npz",
+      "classification": "synthetic_non_npz_fixture",
+      "bytes": 26,
+      "sha256": "66ba1650a4f1f9a9655a3d72e3d84e4c14f5597e71a23d5bf3302f23abe6fe68"
+    },
+    {
+      "path": "집/코덱스/local/ec_nested_log_blend_guard_synthetic_20261004_v1/cell_inner.npz",
+      "classification": "synthetic_non_npz_fixture",
+      "bytes": 9,
+      "sha256": "b3cc0475bb78a5026098858e9889acf666d31062d513d303314eca31d36e72f2"
+    }
+  ],
+  "array_files_with_nan_or_inf": 144,
+  "array_fields_with_nan_or_inf": 411,
+  "array_fields_with_inf": 1,
+  "object_fields_not_deserialized": 54,
+  "files_changed_during_table_read": [],
+  "files_changed_during_array_read": [],
+  "cleaning_log": {
+    "deleted_rows": 0,
+    "imputed_cells": 0,
+    "unit_changes": 0,
+    "modified_source_files": 0
+  },
+  "limitations": [
+    "repository inventory only; not all internet sources",
+    "model pickle/joblib payload and object arrays not deserialized",
+    "HWP/PDF inventoried; this run reads problem PDF text only",
+    "array NaN may be masked or outside-fold positions; not all NaN imply corruption",
+    "format and value checks do not certify each model provenance or causal feature compliance",
+    "external EC sensor definition/scale/licence detail must be confirmed before training"
+  ]
+}

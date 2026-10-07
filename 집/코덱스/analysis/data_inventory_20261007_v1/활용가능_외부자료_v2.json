@@ -1,0 +1,271 @@
+[
+  {
+    "file": "2022_11_ds.zip",
+    "name": "팜커넥트 2022",
+    "rows": 842503,
+    "strawberry_rows": 410585,
+    "farms": 14,
+    "ec": [
+      {
+        "item": "토양EC",
+        "n": 56801,
+        "missing_or_nonnumeric": 0,
+        "nonfinite": 0,
+        "zero": 2413,
+        "negative": 0,
+        "unique": 8,
+        "fractional": 54388,
+        "units": [
+          "dS/m"
+        ],
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.2,
+        "p99": 0.7,
+        "max": 0.7
+      }
+    ],
+    "use": "토양센서 정의 확인 뒤 관계 조사; 고EC 크기 직접 학습 범위는 부족"
+  },
+  {
+    "file": "2022_1_ds.zip",
+    "name": "골든플래닛 2022",
+    "rows": 688600,
+    "strawberry_rows": 688600,
+    "farms": 50,
+    "ec": [
+      {
+        "item": "토양EC",
+        "n": 98607,
+        "missing_or_nonnumeric": 0,
+        "nonfinite": 0,
+        "zero": 0,
+        "negative": 0,
+        "unique": 2255,
+        "fractional": 83351,
+        "units": [
+          "dS/m"
+        ],
+        "min": 2.7,
+        "p01": 36.8,
+        "median": 96.1,
+        "p99": 316.49400000000026,
+        "max": 336.7
+      }
+    ],
+    "use": "표시 단위·척도 확인 전 EC 직접 병합 보류"
+  },
+  {
+    "file": "2022_9_ds.zip",
+    "name": "이레아이에스 2022",
+    "rows": 582344,
+    "strawberry_rows": 271640,
+    "farms": 18,
+    "ec": [
+      {
+        "item": "(양액)배액EC",
+        "n": 33955,
+        "missing_or_nonnumeric": 0,
+        "nonfinite": 0,
+        "zero": 1440,
+        "negative": 727,
+        "unique": 77,
+        "fractional": 29795,
+        "units": [
+          "dS/m"
+        ],
+        "min": -2.2,
+        "p01": -0.1,
+        "median": 0.9,
+        "p99": 2.1,
+        "max": 7.8
+      }
+    ],
+    "use": "배액 EC를 배지 EC로 치환하지 않음; 관수·배지무게 관계 조사 후보"
+  },
+  {
+    "file": "2023_13_ds.zip",
+    "name": "그린씨에스 2023",
+    "rows": 1154115,
+    "strawberry_rows": 332812,
+    "farms": 2,
+    "ec": [
+      {
+        "item": "(양액)공급EC",
+        "n": 5603,
+        "missing_or_nonnumeric": 0,
+        "nonfinite": 0,
+        "zero": 12,
+        "negative": 0,
+        "unique": 154,
+        "fractional": 2156,
+        "units": [
+          "dS/m"
+        ],
+        "min": 0.0,
+        "p01": 2.0,
+        "median": 6.0,
+        "p99": 11.67,
+        "max": 14.0
+      }
+    ],
+    "use": "천창·커튼·냉방 관계 조사 후보; 중복과 공급EC/pH 정의 확인"
+  },
+  {
+    "file": "2023_17_ds.zip",
+    "name": "팜한농 2023",
+    "rows": 1198419,
+    "strawberry_rows": 1198419,
+    "farms": 33,
+    "ec": [
+      {
+        "item": "토양EC",
+        "n": 175583,
+        "missing_or_nonnumeric": 0,
+        "nonfinite": 0,
+        "zero": 92688,
+        "negative": 0,
+        "unique": 254,
+        "fractional": 10906,
+        "units": [
+          "dS/m"
+        ],
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 2.0,
+        "max": 262.0
+      }
+    ],
+    "use": "0·정수값·극단값 및 농가별 척도 확인 전 EC 병합 보류"
+  },
+  {
+    "file": "2024_19_ds.zip",
+    "name": "금화이엔에스 2024",
+    "rows": 955565,
+    "strawberry_rows": 955565,
+    "farms": 25,
+    "ec": [
+      {
+        "item": "(양액)공급EC",
+        "n": 76818,
+        "missing_or_nonnumeric": 0,
+        "nonfinite": 0,
+        "zero": 46831,
+        "negative": 0,
+        "unique": 81,
+        "fractional": 3483,
+        "units": [
+          "dS/m"
+        ],
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 5.0,
+        "max": 8.17
+      },
+      {
+        "item": "토양EC",
+        "n": 76818,
+        "missing_or_nonnumeric": 0,
+        "nonfinite": 0,
+        "zero": 56474,
+        "negative": 5029,
+        "unique": 287,
+        "fractional": 2611,
+        "units": [
+          "dS/m"
+        ],
+        "min": -1950.0,
+        "p01": -1950.0,
+        "median": 0.0,
+        "p99": 3111.0,
+        "max": 3111.0
+      }
+    ],
+    "use": "음수 EC·극단값과 함수율 오류 확인 전 EC 병합 보류"
+  },
+  {
+    "file": "2024_20_ds.zip",
+    "name": "더아이엠씨 2024",
+    "rows": 1343541,
+    "strawberry_rows": 1343541,
+    "farms": 25,
+    "ec": [],
+    "use": "측창과 환경 관계 조사 후보; 배지EC 정답 없음"
+  },
+  {
+    "file": "2024_21_ds.zip",
+    "name": "정원에스에프에이 2024",
+    "rows": 88801,
+    "strawberry_rows": 88801,
+    "farms": 9,
+    "ec": [
+      {
+        "item": "토양EC",
+        "n": 11681,
+        "missing_or_nonnumeric": 0,
+        "nonfinite": 0,
+        "zero": 11681,
+        "negative": 0,
+        "unique": 1,
+        "fractional": 0,
+        "units": [
+          "dS/m"
+        ],
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      }
+    ],
+    "use": "EC가 전부0인 원본으로 EC 지도학습 보류"
+  },
+  {
+    "file": "2024_23_ds.zip",
+    "name": "팜한농 2024",
+    "rows": 3041801,
+    "strawberry_rows": 3041801,
+    "farms": 72,
+    "ec": [
+      {
+        "item": "(양액)배액EC",
+        "n": 4487,
+        "missing_or_nonnumeric": 0,
+        "nonfinite": 0,
+        "zero": 4487,
+        "negative": 0,
+        "unique": 1,
+        "fractional": 0,
+        "units": [
+          "dS/m"
+        ],
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 0.0,
+        "p99": 0.0,
+        "max": 0.0
+      },
+      {
+        "item": "토양EC",
+        "n": 402477,
+        "missing_or_nonnumeric": 0,
+        "nonfinite": 0,
+        "zero": 197762,
+        "negative": 0,
+        "unique": 386,
+        "fractional": 2131,
+        "units": [
+          "dS/m"
+        ],
+        "min": 0.0,
+        "p01": 0.0,
+        "median": 1.0,
+        "p99": 21.0,
+        "max": 210.0
+      }
+    ],
+    "use": "배액EC 전부0; 토양EC 해상도·척도 확인 전 병합 보류"
+  }
+]

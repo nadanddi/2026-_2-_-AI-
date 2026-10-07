@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "exclusive writer refusal",
+    "partial preserved",
+    "nonhex refusal",
+    "process start ticks observed",
+    "completed same-contract reuse"
+  ],
+  "limitations": [
+    "동시writer 충돌 분기 합성 검사이며 두 실제 process 동시쓰기 검사는 미실행",
+    "실제 학습 crash/stale PID 강제중단·복구는 미실행. stale lock 자동 삭제 안 함"
+  ]
+}

@@ -1,0 +1,35 @@
+# 도메인24 원66fold feature 준비 초안 독립 비평
+
+2026-10-07. prepare_domain_original_all_v1.py/BLKContext/source경계와기존originalregistry ID를읽었다. 코드실행·model fit·GPU·query정답값열람·채점0. 승인서비스부족으로실행되지않은assembly를우회하지않았다. 본확인시새preparationregistration은아직없었다.
+
+## 핵심 판정
+
+현66registry에대해새로운명백한feature준비차단·정답누수는발견하지못했다. 실행전exact66fold/registry/integrity/source/environment/24familymap등록은필수이며현재초안은그registration을요구한다. 실제66준비완료또는원모델검증PASS는아직주장할수없다.
+
+## 실제 ID 경계 확인
+
+PowerShell로66registry의ordered train/query ID의record키(farm/day)를독립비교했다. DIAG10 10fold,EL1 10fold,P2LOO46fold이며train/query가같은record를공유하는fold0이었다. 따라서현고정registry에서는domain을train+queryinputframe으로동시에만들어도daylocalgrammar가training행으로query값을읽는경로는없다. 다른row-level registry로확장하면이전제가깨질수있으므로recorddisjoint를코드나등록helper에assert하면좋다.
+
+BLKContext는train/query/gap disjoint를확인하고ID필터후에만입력숫자를파싱하며공개reference둘정답은trainID에한해서만float변환한다. queryEC/sub_temp는파싱하지않는다. inputforbidden자료는featureframe에들어가지않는다. 이source경계는적절하다. 원MASK/test_X NaN정책·locked±1·purge±1의정확한ID선택은기존integrityregistry에대한source/pin근거를유지해야하며3prefixprobe만으로정책전체를다시증명한것은아니다.
+
+## 준비와 재개의 의미
+
+fresh준비는tr/q의정확순서,train∪querydomain집합/1187열,각family추가열,train/querymatrixSHA와train-allmissing열을기록한다. fold당3rid×domain/base2종=6prefix비교,66fold의예상합계396이다. 같은prefixbuilder의현재행비교는유용하지만모든query시간의exhaustivefeature감사는아니다. 기존domain실데이터/합성event감사와함께해석한다.
+
+resume는payloaddigest/source/registration/orderedIDs/inputforbidden/24candidatecolumns/hash형식을확인하고계산을건너뛴다. 이는저장준비metadata무결성및정책일치검사이며실제numericmatrix를재구성하지않는다. 주석이이를정확히고지한다. 미래modelrunner는freshmatrix재계산값을여기SHA와직접대조하고trainfit/imputer/currentquerytransform후전체인과감사를실행해야한다. 이receipt만으로cachedmodel/성능을재사용할수없다.
+
+## OP01 등록·strictschema 보완 (P2, 실행전 권고)
+
+등록helper에exactfold키66개/validator분포10·10·46,registry파일SHA와originalintegrityreceipt/sourceSHA,원trainX/trainY/testX 및feature/baseline/calendar/domain source,environment,exact24map을고정한다. resume는saved.validator/fold/domain_columns==1187 및all_missing_train_columns가columns의중복없는부분집합인지도확인하면스키마가더엄격하다. 현재digest는변경감지이며값의의미까지검증하지않는다.
+
+freshselected집합==reg.family_map집합과FULL_R3+extra의중복없는exactcolumns를assert하면sourceproducer외전제를줄인다. shape/dtype를matrixsignature에추가하면행렬binarySHA의의미가명확하다. 열이모두결측이면futureimputer실효열width/source를별도검사한다.
+
+complete는len(files)==66만으로정확foldfilename집합을간접확인하고prefix_checks396을hardcode한다. registry로expectedfilenames를재구성해set(files)==expected를확인하고saved/freshprefixchecks의실제합계를기록하면복수동일키/누락/범위과장까지차단한다. 현registry는66uniquefold이지만계약도명시하는것이좋다. complete는PREPARED_NOT_MODELS_VALIDATED범위를유지한다.
+
+## 운영 및 한계
+
+1187열×여러천행행렬24familyjoin/hash를fold마다반복해CPU와임시메모리비용이있다. 기존빠른grammar와폴드체크포인트로재개하는방향은타당하다. 동시에여러fold를돌리거나본검사를줄이는최적화는현재등록에없으며시간이느리다는이유로성능검증조건을완화하지않는다.
+
+lock직후try와finally존재검사정리는적절하다. failurephase/foldreceipt가없어오류시터미널이외진단이약하며이미complete존재시재실행마지막assert가실패한다. 불변complete검증후정상종료인지실행거부인지재개정책을등록에적는다. 실패시기존산출물삭제·덮어쓰기는하지않는다.
+
+원66feature준비와모델검증은구별한다. 미래원baseline정책등록·각24family×3seed모델·TM111score부분집합·원검증기효과·최초미사용seed/layout1회는모두남는다. 현재BLKraw72/3replay정상또는assembly승인서비스중단상태가원66준비·모델완료로승격되지않는다.
