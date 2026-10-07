@@ -1,0 +1,50 @@
+Evaluation records: 60 (F13 30, F47 30); classes {'C1': 27, 'C3': 25, 'C2': 7, 'C4': 1}
+
+per-record table (records where any tool acts or undated):
+farm  day cls  pred  pm23  a1_23  sg2_rows  hg4_rows   gx3     v
+ F13  185  C2 0.304 0.268  0.332        24         0  True 0.289
+ F13  187  C1 0.223 0.188  0.263        24         0  True 0.255
+ F13  202  C1 0.512 0.516  0.468        24         0  True 0.465
+ F13  208  C4 0.418 0.431  0.401        24         0 False   NaN
+ F13  220  C3 0.393 0.424  0.374        24         0  True 0.398
+ F13  221  C3 1.615 1.656  1.693        24         0 False   NaN
+ F13  222  C3 0.377 0.426  0.374        24         0 False   NaN
+ F13  223  C3 1.668 1.654  1.693        15         0 False   NaN
+ F13  224  C3 0.424 0.467  0.374        24         0 False   NaN
+ F13  225  C3 1.796 1.868  1.693        16         0 False   NaN
+ F13  226  C3 0.698 0.767  0.634        24         0 False   NaN
+ F13  227  C3 0.769 0.835  0.634        16         0 False   NaN
+ F13  228  C3 0.604 0.610  0.739        21         0 False   NaN
+ F13  229  C3 0.738 0.800  0.621        17         0 False   NaN
+ F13  235  C3 1.083 1.083  1.453         0         9 False   NaN
+ F13  236  C3 0.611 0.584  1.453         9         0 False   NaN
+ F13  237  C3 1.256 1.204  0.634        10         0 False   NaN
+ F13  238  C3 0.757 0.750  0.739        20         0 False   NaN
+ F13  239  C1 0.730 0.714  0.738        24         0  True 0.749
+ F47  218  C3 0.571 0.584  0.556        24         0 False   NaN
+ F47  219  C3 0.662 0.589  0.705        24         0 False   NaN
+ F47  220  C3 0.453 0.437  0.461        24         0 False   NaN
+ F47  221  C3 1.401 1.401  2.712         0         0 False   NaN
+ F47  222  C3 0.464 0.455  0.473        24         0 False   NaN
+ F47  223  C3 1.431 1.431  0.467         0         2 False   NaN
+ F47  224  C3 0.446 0.432  0.434        24         0 False   NaN
+ F47  225  C3 1.688 1.688  2.177         0         0 False   NaN
+ F47  226  C3 0.481 0.471  0.491        24         0 False   NaN
+ F47  227  C3 1.657 1.654  2.712         1         0 False   NaN
+ F47  233  C1 0.587 0.657  0.403        14         0  True 0.508
+ F47  235  C1 1.298 1.290  1.313        19        12  True 1.450
+ F47  236  C1 0.758 0.721  0.838        24         0  True 0.739
+ F47  237  C3 0.805 0.775  0.838        24         0 False   NaN
+HG4          acts on  3 / 60 records; undated (C3/C4) 2 / 26
+GX3          acts on  8 / 60 records; undated (C3/C4) 1 / 26
+HG4 or GX3   acts on 10 / 60 records; undated (C3/C4) 3 / 26
+HG4 and GX3  acts on  1 / 60 records; undated (C3/C4) 0 / 26
+SG2 active (any row) on 55 / 60 records; HG4 rows 23 / 1440
+HG4 records: mean change of day prediction 0.180 (rows triggered only)
+
+validation pass-2 days with any HG4 trigger (seed 53/1515/7575):
+  DIAG10  days  46  triggered {'t53': 4, 't1515': 4, 't7575': 4}
+  EL1     days  46  triggered {'t53': 3, 't1515': 3, 't7575': 3}
+  P2LOO   days  46  triggered {'t53': 4, 't1515': 4, 't7575': 4}
+
+CV1 reading: worth an effect test (union 10 / 60, undated 3)
