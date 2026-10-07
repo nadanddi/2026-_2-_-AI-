@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "fit": 0,
+  "new_seed7_fullforests": [
+    {
+      "model": "original_4_7",
+      "trees": 600,
+      "nodes": 6314304,
+      "all_query_rows": 24576,
+      "node_mean_maxdiff": 4.9960036108132044e-15,
+      "forest_sha": "c6fedc23bd763fe21972ad1545fcf05f0f122b3f1be72538b78bfe2546fee1e8"
+    },
+    {
+      "model": "original_8_7",
+      "trees": 600,
+      "nodes": 6399816,
+      "all_query_rows": 49152,
+      "node_mean_maxdiff": 4.9960036108132044e-15,
+      "forest_sha": "f15fdefe41078d077d3e9630f7f2582c941d4f48c8bc0c5f5724c3fbe66aab47"
+    },
+    {
+      "model": "common_7",
+      "trees": 600,
+      "nodes": 4290040,
+      "all_query_rows": 110592,
+      "node_mean_maxdiff": 5.218048215738236e-15,
+      "forest_sha": "d1d89018029424c00ee2d3de966b81fb799f320d0534b7a02925dd5fe59c63db"
+    }
+  ],
+  "total_nodes": 17004160,
+  "source_sha": "bdf81ef74a17c1b1de62688d96ff28a1600cde340530ffe8418e1eeb326bc4e9"
+}
