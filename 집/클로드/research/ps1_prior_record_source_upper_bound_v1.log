@@ -1,0 +1,25 @@
+C:\work\farmai\집\클로드\research\ps1_prior_record_source_upper_bound_v1.py:33: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  O["p"] = O[["core_%d" % s for s in SEEDS]].mean(1); O["sg"] = O[["sg2_%d" % s for s in SEEDS]].mean(1)
+C:\work\farmai\집\클로드\research\ps1_prior_record_source_upper_bound_v1.py:33: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  O["p"] = O[["core_%d" % s for s in SEEDS]].mean(1); O["sg"] = O[["sg2_%d" % s for s in SEEDS]].mean(1)
+
+[EL1] hidden pass-2 records 46 | k=1 30, k=2 4, k=3 2, k>=4 0, no labelled ancestor 10
+   k=1   days 30: SG2 0.218 -> oracle-source level 0.064 (-71%) | normal SG2 0.112 -> 0.064 | high SG2 1.029 -> 0.056
+   k=2   days  4: SG2 0.291 -> oracle-source level 0.052 (-82%) | normal SG2 0.291 -> 0.052 | high SG2 nan -> nan
+   k<=2  days 34: SG2 0.228 -> oracle-source level 0.063 (-72%) | normal SG2 0.146 -> 0.063 | high SG2 1.029 -> 0.056
+   k=3   days  2: SG2 0.040 -> oracle-source level 0.027 (-32%) | normal SG2 0.040 -> 0.027 | high SG2 nan -> nan
+   all hidden rows: SG2 0.2885 -> oracle on k<=2 only 0.2185
+
+[P2LOO] hidden pass-2 records 46 | k=1 33, k=2 3, k=3 0, k>=4 0, no labelled ancestor 10
+   k=1   days 33: SG2 0.149 -> oracle-source level 0.064 (-57%) | normal SG2 0.121 -> 0.062 | high SG2 0.513 -> 0.106
+   k=2   days  3: SG2 0.067 -> oracle-source level 0.038 (-43%) | normal SG2 0.067 -> 0.038 | high SG2 nan -> nan
+   k<=2  days 36: SG2 0.144 -> oracle-source level 0.062 (-57%) | normal SG2 0.118 -> 0.060 | high SG2 0.513 -> 0.106
+   all hidden rows: SG2 0.1945 -> oracle on k<=2 only 0.1568
+
+[DIAG10] hidden pass-2 records 10 | k=1 7, k=2 1, k=3 0, k>=4 0, no labelled ancestor 2
+   k=1   days  7: SG2 0.294 -> oracle-source level 0.074 (-75%) | normal SG2 0.240 -> 0.070 | high SG2 0.511 -> 0.094
+   k=2   days  1: SG2 0.064 -> oracle-source level 0.075 (+19%) | normal SG2 0.064 -> 0.075 | high SG2 nan -> nan
+   k<=2  days  8: SG2 0.276 -> oracle-source level 0.074 (-73%) | normal SG2 0.223 -> 0.071 | high SG2 0.511 -> 0.094
+   all hidden rows: SG2 0.3033 -> oracle on k<=2 only 0.1882
+
+PS1 reading: continue to identification (EL1 coverage 0.74, gain -72%)
