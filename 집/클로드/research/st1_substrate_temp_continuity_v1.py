@@ -75,7 +75,7 @@ def main():
     print("sub_temp midnight gap: true predecessor median %.3f vs other candidates median %.3f" % (E.gap_true.median(), E.gap_other.median()))
     for nm, G in (("all", E), ("pass-2 b", E[E.b >= 179]), ("pass-1 b", E[E.b < 179])):
         print("  %-9s n %3d  correct pick: I %.2f  T(true, bound) %.2f  Tp %.2f  I+Tp %.2f  (random %.2f)" % (
-            nm, len(G), G.I.mean(), G.T.mean(), G.Tp.mean(), G["I+Tp"].mean(), float((1 / G.n).mean())))
+            nm, len(G), G["I"].mean(), G["T"].mean(), G["Tp"].mean(), G["I+Tp"].mean(), float((1 / G.n).mean())))
     R.to_csv(os.path.join(env.LOCAL, "st1_links_v1.csv"), index=False)
     best = max(("Tp", "I+Tp"), key=lambda k: E[k].mean())
     p2 = E[E.b >= 179]
