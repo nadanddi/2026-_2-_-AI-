@@ -1,0 +1,115 @@
+DIAG10/0 done (912 rows)
+DIAG10/1 done (720 rows)
+DIAG10/2 done (960 rows)
+DIAG10/3 done (792 rows)
+DIAG10/4 done (960 rows)
+DIAG10/5 done (672 rows)
+DIAG10/6 done (960 rows)
+DIAG10/7 done (744 rows)
+DIAG10/8 done (960 rows)
+DIAG10/9 done (960 rows)
+EL1/56 done (120 rows)
+EL1/57 done (120 rows)
+EL1/58 done (120 rows)
+EL1/59 done (120 rows)
+EL1/60 done (96 rows)
+EL1/61 done (120 rows)
+EL1/62 done (120 rows)
+EL1/63 done (120 rows)
+EL1/64 done (120 rows)
+EL1/65 done (48 rows)
+P2LOO/10 done (24 rows)
+P2LOO/11 done (24 rows)
+P2LOO/12 done (24 rows)
+P2LOO/13 done (24 rows)
+P2LOO/14 done (24 rows)
+P2LOO/15 done (24 rows)
+P2LOO/16 done (24 rows)
+P2LOO/17 done (24 rows)
+P2LOO/18 done (24 rows)
+P2LOO/19 done (24 rows)
+P2LOO/20 done (24 rows)
+P2LOO/21 done (24 rows)
+P2LOO/22 done (24 rows)
+P2LOO/23 done (24 rows)
+P2LOO/24 done (24 rows)
+P2LOO/25 done (24 rows)
+P2LOO/26 done (24 rows)
+P2LOO/27 done (24 rows)
+P2LOO/28 done (24 rows)
+P2LOO/29 done (24 rows)
+P2LOO/30 done (24 rows)
+P2LOO/31 done (24 rows)
+P2LOO/32 done (24 rows)
+P2LOO/33 done (24 rows)
+P2LOO/34 done (24 rows)
+P2LOO/35 done (24 rows)
+P2LOO/36 done (24 rows)
+P2LOO/37 done (24 rows)
+P2LOO/38 done (24 rows)
+P2LOO/39 done (24 rows)
+P2LOO/40 done (24 rows)
+P2LOO/41 done (24 rows)
+P2LOO/42 done (24 rows)
+P2LOO/43 done (24 rows)
+P2LOO/44 done (24 rows)
+P2LOO/45 done (24 rows)
+P2LOO/46 done (24 rows)
+P2LOO/47 done (24 rows)
+P2LOO/48 done (24 rows)
+P2LOO/49 done (24 rows)
+P2LOO/50 done (24 rows)
+P2LOO/51 done (24 rows)
+P2LOO/52 done (24 rows)
+P2LOO/53 done (24 rows)
+P2LOO/54 done (24 rows)
+P2LOO/55 done (24 rows)
+
+====================================================================================================
+
+[DIAG10-p1(aux)] rows 7536 days 314
+  seed   47: disagreement rows 853 (11%), days 41 | a1 closer on 12/41 days (up 6/22, down 6/19) | RMSE on those rows: model 0.400, full->a1 0.666, half 0.444, ->mean(a1,a2) 0.563, oracle side 0.308
+    AUC for 'a1 closer' (day level; >.5 = higher value -> a1 more often right):  d1 0.39  ag 0.28  dated 0.56  n_cand 0.51  slow 0.44  pm 0.67  up 0.42
+    days: 478 y0.20 pm0.16 a11.49; 47157 y1.21 pm0.91 a11.62; 47160 y0.69 pm0.74 a11.62; 47161 y0.65 pm1.17 a10.69*; 13118 y1.33 pm1.07 a11.69; 13120 y1.47 pm1.13 a11.69; 13121 y1.36 pm0.86 a11.69*; 47119 y0.81 pm0.59 a10.24; 47120 y0.39 pm0.58 a10.24*; 47122 y0.61 pm0.52 a10.92; 47124 y0.49 pm0.65 a10.19; 47174 y1.05 pm0.83 a11.49; 13128 y0.78 pm0.74 a11.35; 13129 y0.70 pm0.68 a10.58; 13130 y0.77 pm0.98 a11.58; 13131 y0.74 pm0.75 a10.48; 13132 y0.87 pm1.23 a11.54; 13178 y1.57 pm0.91 a11.27*; 47130 y0.49 pm1.13 a10.47*; 47178 y0.31 pm0.72 a10.50*; 13133 y0.98 pm1.23 a10.87*; 13137 y0.96 pm1.32 a10.79*; 47132 y2.71 pm1.18 a11.65*; 47133 y0.46 pm0.44 a11.65; 47136 y1.65 pm1.85 a12.32; 47138 y1.71 pm1.51 a12.27; 47139 y1.68 pm1.56 a12.27; 13146 y1.59 pm1.45 a10.71; 47145 y2.14 pm1.58 a12.06*; 13148 y0.74 pm0.83 a10.77; 13149 y0.76 pm0.70 a10.92; 13150 y0.82 pm0.82 a10.95; 13151 y1.74 pm1.36 a11.72*; 4796 y0.21 pm0.26 a10.61; 47146 y0.70 pm0.76 a11.03; 47147 y1.75 pm1.42 a12.06*; 47149 y0.70 pm0.76 a11.05; 13155 y0.81 pm0.75 a10.59; 13156 y0.75 pm1.19 a11.68; 47151 y1.31 pm1.35 a10.67; 47154 y1.62 pm1.41 a10.58
+  seed 1414: disagreement rows 865 (11%), days 42 | a1 closer on 12/42 days (up 6/22, down 6/20) | RMSE on those rows: model 0.396, full->a1 0.662, half 0.441, ->mean(a1,a2) 0.561, oracle side 0.307
+  seed 6464: disagreement rows 875 (12%), days 42 | a1 closer on 11/42 days (up 5/22, down 6/20) | RMSE on those rows: model 0.395, full->a1 0.660, half 0.441, ->mean(a1,a2) 0.558, oracle side 0.306
+
+[DIAG10-p2] rows 1104 days 46
+  seed   47: disagreement rows 263 (24%), days 14 | a1 closer on 5/14 days (up 4/11, down 1/3) | RMSE on those rows: model 0.434, full->a1 0.615, half 0.393, ->mean(a1,a2) 0.598, oracle side 0.309
+    AUC for 'a1 closer' (day level; >.5 = higher value -> a1 more often right):  d1 0.27  ag 0.42  dated 0.78  n_cand 0.38  slow 0.31  pm 0.78  up 0.49
+    days: 13213 y0.30 pm0.25 a10.82; 13214 y0.98 pm0.60 a10.94*; 47214 y0.50 pm0.38 a10.94; 13231 y0.62 pm0.96 a11.42; 13232 y0.74 pm0.68 a10.48; 13233 y0.63 pm0.99 a11.42; 47216 y0.56 pm0.91 a10.98; 47229 y1.79 pm1.30 a12.65; 47231 y2.26 pm1.44 a12.51*; 13241 y1.42 pm1.00 a11.68*; 13243 y1.74 pm1.00 a11.68*; 13244 y0.44 pm0.37 a10.78; 47241 y0.67 pm0.92 a10.57*; 47243 y0.48 pm0.46 a10.79
+  seed 1414: disagreement rows 262 (24%), days 14 | a1 closer on 5/14 days (up 4/11, down 1/3) | RMSE on those rows: model 0.431, full->a1 0.619, half 0.396, ->mean(a1,a2) 0.600, oracle side 0.308
+  seed 6464: disagreement rows 262 (24%), days 14 | a1 closer on 5/14 days (up 4/11, down 1/3) | RMSE on those rows: model 0.432, full->a1 0.622, half 0.395, ->mean(a1,a2) 0.604, oracle side 0.305
+
+[EL1] rows 1104 days 46
+  seed   47: disagreement rows 249 (23%), days 11 | a1 closer on 4/11 days (up 3/8, down 1/3) | RMSE on those rows: model 0.515, full->a1 0.764, half 0.527, ->mean(a1,a2) 0.646, oracle side 0.408
+    AUC for 'a1 closer' (day level; >.5 = higher value -> a1 more often right):  d1 0.14  ag 0.32  dated 0.75  n_cand 0.50  slow 0.25  pm 0.61  up 0.43
+    days: 13213 y0.30 pm0.23 a10.82; 13214 y0.98 pm0.59 a10.94*; 13231 y0.62 pm0.99 a11.50; 13232 y0.74 pm0.69 a10.48; 13233 y0.64 pm1.23 a11.69; 13243 y1.72 pm0.82 a11.44*; 13244 y0.44 pm0.35 a10.78; 47216 y0.56 pm0.87 a11.34; 47229 y1.79 pm1.29 a12.68; 47231 y2.18 pm1.38 a11.96*; 47241 y0.66 pm1.07 a10.71*
+  seed 1414: disagreement rows 244 (22%), days 11 | a1 closer on 4/11 days (up 3/8, down 1/3) | RMSE on those rows: model 0.515, full->a1 0.773, half 0.530, ->mean(a1,a2) 0.653, oracle side 0.405
+  seed 6464: disagreement rows 239 (22%), days 11 | a1 closer on 4/11 days (up 3/9, down 1/2) | RMSE on those rows: model 0.524, full->a1 0.782, half 0.535, ->mean(a1,a2) 0.650, oracle side 0.411
+
+[P2LOO] rows 1104 days 46
+  seed   47: disagreement rows 176 (16%), days 10 | a1 closer on 1/10 days (up 0/6, down 1/4) | RMSE on those rows: model 0.356, full->a1 0.843, half 0.477, ->mean(a1,a2) 0.620, oracle side 0.328
+    AUC for 'a1 closer' (day level; >.5 = higher value -> a1 more often right):  d1 0.11  ag 0.00  dated 0.56  n_cand 0.11  slow 0.44  pm 0.78  up 0.00
+    days: 13213 y0.30 pm0.40 a10.82; 13214 y0.94 pm1.26 a10.88*; 13231 y0.57 pm0.87 a11.32; 13232 y0.72 pm0.66 a11.69; 13233 y0.63 pm1.09 a10.93; 47212 y0.52 pm0.49 a11.79; 47216 y0.56 pm0.86 a11.08; 47229 y1.79 pm1.28 a12.24; 47231 y1.88 pm1.59 a12.17; 47241 y0.65 pm1.01 a10.77
+  seed 1414: disagreement rows 174 (16%), days 10 | a1 closer on 1/10 days (up 0/6, down 1/4) | RMSE on those rows: model 0.354, full->a1 0.848, half 0.478, ->mean(a1,a2) 0.623, oracle side 0.329
+  seed 6464: disagreement rows 173 (16%), days 10 | a1 closer on 1/10 days (up 0/6, down 1/4) | RMSE on those rows: model 0.355, full->a1 0.849, half 0.479, ->mean(a1,a2) 0.623, oracle side 0.328
+
+evaluation disagreement records (>= 6 rows): 15
+           n     pm     a1     a2    slow
+farm day                                 
+F13  223   9  1.662  1.318  1.310   1.546
+     225   8  1.940  0.647  1.693   1.600
+     227   8  0.847  1.543  1.014   0.939
+     229   7  0.832  1.453  0.634   1.561
+     235  24  1.074  1.453  1.217  -0.667
+     236  15  0.550  1.453  1.450  -0.846
+     237  14  1.193  0.634  1.108  -0.510
+F47  204   9  0.256  0.778  0.393  -1.826
+     205  16  0.489  0.921  0.695   0.257
+     221  24  1.325  2.712  1.988   0.755
+     223  24  1.373  0.725  0.816 -10.247
+     225  24  1.693  1.715  2.298   0.886
+     227  23  1.645  2.661  2.185   1.664
+     233  10  1.033  1.883  1.462  -0.614
+     234  24  0.724  0.990  1.352   0.248
