@@ -1,0 +1,20 @@
+Training 9600 rows / 400 days; evaluation 1440 rows / 60 days; temperature blank
+R3 seed7 completed
+R3 seed101 completed
+R3 seed2024 completed
+Traceback (most recent call last):
+  File "C:\work\farmai\연구실\클로드\local\repro14\팜모니_정형데이터_재현패키지\EC\reproduce.py", line 10, in <module>
+    runpy.run_path(str(HERE/'model.py'),run_name='__main__')
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\work\farmai\연구실\클로드\local\repro14\팜모니_정형데이터_재현패키지\EC\model.py", line 190, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\work\farmai\연구실\클로드\local\repro14\팜모니_정형데이터_재현패키지\EC\model.py", line 172, in main
+    pred,invariance=predict_all(tr,q,a.checkpoint,a.output)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\연구실\클로드\local\repro14\팜모니_정형데이터_재현패키지\EC\model.py", line 150, in predict_all
+    assert np.array_equal(p[:8],np.asarray(model.predict(Q[:8]),float))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

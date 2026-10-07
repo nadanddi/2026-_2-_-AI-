@@ -1,0 +1,20 @@
+Training 9600 rows / 400 days; evaluation 1440 rows / 60 days; temperature blank
+R3 seed7 completed
+R3 seed101 completed
+R3 seed2024 completed
+DIAG context1 batch-invariance max|diff| 3.159e-06
+TabPFN context1 completed 149.4s
+DIAG context2 batch-invariance max|diff| 3.487e-06
+TabPFN context2 completed 149.3s
+DIAG context3 batch-invariance max|diff| 1.103e-06
+TabPFN context3 completed 151.0s
+DIAG context4 batch-invariance max|diff| 2.325e-06
+TabPFN context4 completed 154.1s
+SG2 applied: rows changed 1189 of 1440, mean change -0.0003
+SG2 causal check F13 cut 4823 PASS
+SG2 causal check F13 cut 5159 PASS
+SG2 causal check F13 cut 5495 PASS
+SG2 causal check F47 cut 4775 PASS
+SG2 causal check F47 cut 5111 PASS
+SG2 causal check F47 cut 5447 PASS
+submission_14.csv ready: 70bf9f07533f4aed793d522fc024b0f88430af89b8bfd0e029a215d6629433ab
