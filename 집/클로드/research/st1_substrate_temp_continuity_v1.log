@@ -1,0 +1,8 @@
+sub_temp predictor at hour 0: RMSE 0.852 (sd of label 3.851)
+reliable CH2 links 351
+links with the true predecessor among >= 2 candidates: 279 of 351 (median candidates 11)
+sub_temp midnight gap: true predecessor median 0.430 vs other candidates median 1.465
+  all       n 279  correct pick: I 0.61  T(true, bound) 0.35  Tp 0.23  I+Tp 0.50  (random 0.14)
+  pass-2 b  n  40  correct pick: I 0.57  T(true, bound) 0.38  Tp 0.17  I+Tp 0.50  (random 0.13)
+  pass-1 b  n 239  correct pick: I 0.61  T(true, bound) 0.35  Tp 0.24  I+Tp 0.50  (random 0.14)
+ST1 reading: no lead -> stop
