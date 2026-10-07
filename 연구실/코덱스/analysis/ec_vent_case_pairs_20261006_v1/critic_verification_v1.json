@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "method": "csv/math.fsum; prior independently verified public OOF-derived rows",
+  "checks": [
+    "group success/severe counts",
+    "all candidate coverage",
+    "all top3 distance rankings and calipers",
+    "input_y and same_fold separation",
+    "all329day weighted member bias identities"
+  ],
+  "groups": [
+    {
+      "group": "ordinary",
+      "days": 329,
+      "success": 262,
+      "severe": 19,
+      "rmse": 0.1111899844368785
+    },
+    {
+      "group": "closed",
+      "days": 61,
+      "success": 27,
+      "severe": 13,
+      "rmse": 0.19397658076011895
+    },
+    {
+      "group": "closed_fanlow",
+      "days": 50,
+      "success": 17,
+      "severe": 13,
+      "rmse": 0.21193103546015118
+    },
+    {
+      "group": "closed_fanhigh",
+      "days": 11,
+      "success": 10,
+      "severe": 0,
+      "rmse": 0.06708444971283403
+    },
+    {
+      "group": "rest",
+      "days": 268,
+      "success": 235,
+      "severe": 6,
+      "rmse": 0.0813196936770745
+    }
+  ],
+  "pairs": 33,
+  "coverage_rows": 39,
+  "max_bias_identity_error": 1.942890293094024e-16,
+  "matching_scale": "sample ddof1 std over ordinary329 days; global-median missing fill"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "fixed_distance_rows": 48,
+  "h0_analogies": 28,
+  "severe_daily_targets": 13,
+  "checks": [
+    "all48 common-scale prefix distances",
+    "all12 h23 distances equal original daily distances",
+    "all28 h0 candidates qualifications/input values/y/p and top3 rankings"
+  ],
+  "warnings": [
+    "h0 failure label uses severe daily bias, not h0 error",
+    "h0 successful pool uses future full-day label and h0 outcome",
+    "new h0 ranking has no temp/humidity caliper, samefold or y similarity control"
+  ]
+}

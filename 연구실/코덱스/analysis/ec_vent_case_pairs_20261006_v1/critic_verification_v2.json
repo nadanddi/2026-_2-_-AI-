@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "score_trace_rows": 72,
+  "targets": 18,
+  "pair_prefix_distances": 48,
+  "checks": [
+    "72 current/prefix predictions and inputs",
+    "360-public-day hour-specific prefix scales/distances",
+    "samefarm actual-fold training contexts",
+    "all36 nearest5 prefix neighbors and daily-y summaries"
+  ],
+  "scale_warning": "day distance: ordinary329 full-day std; prefix distance: public360 hour-specific std; numerical ratios across these metrics are not comparable",
+  "neighbor_label_warning": "neighbor_y/high are full-day target summaries, not targets at query hour"
+}

@@ -1,0 +1,230 @@
+{
+  "status": "PASS",
+  "checks": [
+    "state interaction",
+    "gap budget",
+    "equal fraction trim",
+    "unique-control match sensitivity",
+    "ordinary/high context",
+    "prefix counts",
+    "30 cache training-day full coverage and raw predictions"
+  ],
+  "gap_mse": 0.031014021303653723,
+  "parts": {
+    "constant_bias": 0.006331677833880947,
+    "daily_bias_variance": 0.024497054168988706,
+    "within_day_shape": 0.00018528930078406751
+  },
+  "coverage": [
+    {
+      "fold": 0,
+      "seed": 7,
+      "train_days": 262,
+      "train_rows": 6288,
+      "cache_rows": 912
+    },
+    {
+      "fold": 0,
+      "seed": 101,
+      "train_days": 262,
+      "train_rows": 6288,
+      "cache_rows": 912
+    },
+    {
+      "fold": 0,
+      "seed": 2024,
+      "train_days": 262,
+      "train_rows": 6288,
+      "cache_rows": 912
+    },
+    {
+      "fold": 1,
+      "seed": 7,
+      "train_days": 273,
+      "train_rows": 6552,
+      "cache_rows": 720
+    },
+    {
+      "fold": 1,
+      "seed": 101,
+      "train_days": 273,
+      "train_rows": 6552,
+      "cache_rows": 720
+    },
+    {
+      "fold": 1,
+      "seed": 2024,
+      "train_days": 273,
+      "train_rows": 6552,
+      "cache_rows": 720
+    },
+    {
+      "fold": 2,
+      "seed": 7,
+      "train_days": 259,
+      "train_rows": 6216,
+      "cache_rows": 960
+    },
+    {
+      "fold": 2,
+      "seed": 101,
+      "train_days": 259,
+      "train_rows": 6216,
+      "cache_rows": 960
+    },
+    {
+      "fold": 2,
+      "seed": 2024,
+      "train_days": 259,
+      "train_rows": 6216,
+      "cache_rows": 960
+    },
+    {
+      "fold": 3,
+      "seed": 7,
+      "train_days": 267,
+      "train_rows": 6408,
+      "cache_rows": 792
+    },
+    {
+      "fold": 3,
+      "seed": 101,
+      "train_days": 267,
+      "train_rows": 6408,
+      "cache_rows": 792
+    },
+    {
+      "fold": 3,
+      "seed": 2024,
+      "train_days": 267,
+      "train_rows": 6408,
+      "cache_rows": 792
+    },
+    {
+      "fold": 4,
+      "seed": 7,
+      "train_days": 255,
+      "train_rows": 6120,
+      "cache_rows": 960
+    },
+    {
+      "fold": 4,
+      "seed": 101,
+      "train_days": 255,
+      "train_rows": 6120,
+      "cache_rows": 960
+    },
+    {
+      "fold": 4,
+      "seed": 2024,
+      "train_days": 255,
+      "train_rows": 6120,
+      "cache_rows": 960
+    },
+    {
+      "fold": 5,
+      "seed": 7,
+      "train_days": 274,
+      "train_rows": 6576,
+      "cache_rows": 672
+    },
+    {
+      "fold": 5,
+      "seed": 101,
+      "train_days": 274,
+      "train_rows": 6576,
+      "cache_rows": 672
+    },
+    {
+      "fold": 5,
+      "seed": 2024,
+      "train_days": 274,
+      "train_rows": 6576,
+      "cache_rows": 672
+    },
+    {
+      "fold": 6,
+      "seed": 7,
+      "train_days": 262,
+      "train_rows": 6288,
+      "cache_rows": 960
+    },
+    {
+      "fold": 6,
+      "seed": 101,
+      "train_days": 262,
+      "train_rows": 6288,
+      "cache_rows": 960
+    },
+    {
+      "fold": 6,
+      "seed": 2024,
+      "train_days": 262,
+      "train_rows": 6288,
+      "cache_rows": 960
+    },
+    {
+      "fold": 7,
+      "seed": 7,
+      "train_days": 274,
+      "train_rows": 6576,
+      "cache_rows": 744
+    },
+    {
+      "fold": 7,
+      "seed": 101,
+      "train_days": 274,
+      "train_rows": 6576,
+      "cache_rows": 744
+    },
+    {
+      "fold": 7,
+      "seed": 2024,
+      "train_days": 274,
+      "train_rows": 6576,
+      "cache_rows": 744
+    },
+    {
+      "fold": 8,
+      "seed": 7,
+      "train_days": 258,
+      "train_rows": 6192,
+      "cache_rows": 960
+    },
+    {
+      "fold": 8,
+      "seed": 101,
+      "train_days": 258,
+      "train_rows": 6192,
+      "cache_rows": 960
+    },
+    {
+      "fold": 8,
+      "seed": 2024,
+      "train_days": 258,
+      "train_rows": 6192,
+      "cache_rows": 960
+    },
+    {
+      "fold": 9,
+      "seed": 7,
+      "train_days": 258,
+      "train_rows": 6192,
+      "cache_rows": 960
+    },
+    {
+      "fold": 9,
+      "seed": 101,
+      "train_days": 258,
+      "train_rows": 6192,
+      "cache_rows": 960
+    },
+    {
+      "fold": 9,
+      "seed": 2024,
+      "train_days": 258,
+      "train_rows": 6192,
+      "cache_rows": 960
+    }
+  ]
+}

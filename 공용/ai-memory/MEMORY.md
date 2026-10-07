@@ -2,13 +2,13 @@
 - [New files, not edits](new-files-not-edits.md) — never modify already-produced/used files in the competition repo; version them under new names
 - [Deliverable triple](deliverable-triple.md) — every model build ships CSV + reproduction ZIP + Korean explanation doc for teammates
 - [Analysis before answers](analysis-before-answers.md) — findings drive deeper data analysis first; submit only what passes calibrated validators
-- [Rule 5 interpretation](rule5-interpretation.md) — hidden labels banned; LB analysis diagnostic only; 10-05 organizer: all train_y (even later days) may be referenced, no later input or test_X-fitted step anywhere
+- [Rule 5 interpretation](rule5-interpretation.md) — LB analysis & hypothesis-test submissions OK; banned: .01 score-nudging loops, score-derived weights, hidden-label access
 - [Skill, not luck](skill-not-luck.md) — prove gains across seeds/validators with pre-set criteria; adopt any size if same direction everywhere + DIAG10 CI excludes 0
 - [No submission prep until asked](no-submission-prep-until-asked.md) — don't declare '확정된 N회차 구성' or offer to build files until user says to submit
 - [Explore autonomously](explore-autonomously.md) — run experiments without asking; ask only for submissions/deletions (revokes 'ask me first')
-- [Temp=Claude, EC=Codex](division-temp-claude-ec-codex.md) — default since 09-28; OVERRIDDEN 10-02: Claude works on EC with Codex until the user says otherwise
+- [Temp=Claude, EC=Codex](division-temp-claude-ec-codex.md) — since 2026-09-28 Claude does temperature only; EC work goes to Codex
 - [Check catalog before 'new'](check-catalog-before-new.md) — grep 카탈로그/worklogs before calling a hypothesis untested
 - [No presentation prep](no-presentation-prep.md) — user handles presentation/report separately; don't suggest it
 - [No domain prompting](no-domain-prompting.md) — don't mention/ask for domain knowledge until user hands over materials
 - [No exaggeration](no-exaggeration.md) — label provenance (general knowledge vs read sources); never overstate coverage
-- [Prior-competition data restricted](prior-competition-data-restricted.md) — user's previous-competition strawberry data (same site as F13/F47, no-distribution); don't use without organizer permission
+- [Harsh critic at plan/mid/final](harsh-critic-every-result.md) — critic subagent reviews each experiment at 3 stages; always report critique + improvements

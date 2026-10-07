@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "method": "csv + math.fsum; independently recomputed from public OOF and matching train_X row IDs",
+  "rows": 8640,
+  "days": 360,
+  "summary": {
+    "rest": {
+      "days": 268,
+      "rmse": 0.0813196936770745,
+      "bias": 0.005907565370373703,
+      "sse": 42.53412507284414,
+      "day_share": 0.8616020988836365,
+      "shape_mse": 0.0009152104533430522,
+      "level_mse": 0.005697682126390178
+    },
+    "closed": {
+      "days": 61,
+      "rmse": 0.19397658076011898,
+      "bias": 0.07979083382498384,
+      "sse": 55.0858019252785,
+      "day_share": 0.9707523248508294,
+      "shape_mse": 0.0011004997541271204,
+      "level_mse": 0.03652641412925984
+    }
+  },
+  "max_seed_prediction_reconstruction_error": 6.661338147750939e-16,
+  "checked": [
+    "all 360 day metrics",
+    "61/268 membership from raw act_vent",
+    "seed-wise nonlinear clipping",
+    "farm RMSE strata",
+    "Kitagawa identities",
+    "member covariance SSE allocations"
+  ],
+  "inputs_sha256": "5b9d6c484bfb6ee8536dae7a1a651cb614c830a1b7ddeea3eb1393ac9140d88b",
+  "allocation": [
+    {
+      "group": "rest",
+      "member": "et",
+      "sse_allocation": 19.860884878421878
+    },
+    {
+      "group": "rest",
+      "member": "lgb",
+      "sse_allocation": 11.264429245524084
+    },
+    {
+      "group": "rest",
+      "member": "mlp",
+      "sse_allocation": 3.516522988382022
+    },
+    {
+      "group": "rest",
+      "member": "pfn",
+      "sse_allocation": 7.89228796051615
+    },
+    {
+      "group": "closed",
+      "member": "et",
+      "sse_allocation": 27.528261714104865
+    },
+    {
+      "group": "closed",
+      "member": "lgb",
+      "sse_allocation": 12.853040250504673
+    },
+    {
+      "group": "closed",
+      "member": "mlp",
+      "sse_allocation": 3.756885657907456
+    },
+    {
+      "group": "closed",
+      "member": "pfn",
+      "sse_allocation": 10.9476143027615
+    }
+  ]
+}

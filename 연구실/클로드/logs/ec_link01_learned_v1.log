@@ -1,0 +1,22 @@
+source sha256 2d6fb50591fee587
+C:\work\farmai\연구실\클로드\code\ec_link01_learned_v1.py:68: RuntimeWarning: Mean of empty slice
+  dmean = {v: np.nanmean(piv[v], axis=1) for v in ACT}
+C:\work\farmai\연구실\클로드\code\ec_link01_learned_v1.py:69: RuntimeWarning: Mean of empty slice
+  nightT = np.nanmean(piv["in_temp"][:, :6], axis=1)
+C:\work\farmai\연구실\클로드\code\ec_link01_learned_v1.py:68: RuntimeWarning: Mean of empty slice
+  dmean = {v: np.nanmean(piv[v], axis=1) for v in ACT}
+pairs 79600, 정답 연결 359 (F13 178, F47 181), 대상 기록 수 400
+
+[S1] 정답 연결이 있는 대상의 앞날 적중률 (top-1 / top-3)
+  전체 n=359 | 학습 판별기 0.65 / 0.72 | 손 비용식 0.56 / 0.69
+  1차 n=311 | 학습 판별기 0.64 / 0.71 | 손 비용식 0.56 / 0.69
+  2차 n= 48 | 학습 판별기 0.67 / 0.75 | 손 비용식 0.54 / 0.69
+  S1 판정(2차 top-1 ≥ .60 and 손 비용식 +.15): 불합격 (0.67 vs 0.54)
+  확신(p_top≥.5) 비율·적중: 2차 35/48, 적중 0.80
+  2차 정답 기록 56개 중 정답 있는 앞날 연결 48개 (86%) — 나머지는 앞날이 정답 없는 기록(평가 등)이거나 없음
+[S2] 2차 일반 n=36 | 모델 0.140 | 판별기 앞날 0.133 | 손 비용식 앞날 0.246 | 확신판 0.125 | 정답 앞날(상한) 0.032
+[S2] 2차 고EC n= 2 | 모델 0.727 | 판별기 앞날 0.143 | 손 비용식 앞날 1.023 | 확신판 0.143 | 정답 앞날(상한) 0.143
+[S2] 2차 전체 n=38 | 모델 0.215 | 판별기 앞날 0.133 | 손 비용식 앞날 0.335 | 확신판 0.126 | 정답 앞날(상한) 0.046
+  (하루 수준 RMSE: 앞날 23시 EC를 그날 하루 평균 추정으로 씀. 2차 대상 중 정답 있는 앞날이 있는 날만)
+
+판별기 중요도 상위(마지막 분할): gap 513, ji_in_co2 404, sd_act_shade 355, jw_out_temp 330, ji_in_temp 317, sd_act_circfan 301, ji_in_hum 269, sd_nightT 268, jw_out_wspd 263, hand 260

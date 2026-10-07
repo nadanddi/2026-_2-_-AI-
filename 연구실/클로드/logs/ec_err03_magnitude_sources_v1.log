@@ -1,0 +1,40 @@
+
+=== 진짜 고EC 31일: 31일 (진짜 고EC 31) ===
+B0 보정 없음 0.4624 | B1 상수 이동 0.3479 (-24.8%)  ← 공통 과소만
+정보원   있음  ρ(x,y)  ρ(x−p,r)  LOO RMSE  B1대비   순열p(크기정보)
+A1      30/31  +0.70    +0.60     0.3272     -6.7%   0.020
+A12     30/31  +0.67    +0.42     0.3334     -4.9%   0.044
+PR      31/31  -0.10    +0.18     0.3499     +0.6%   0.375
+PRD     31/31  +0.20    -0.00     0.3597     +3.4%   0.878
+CHi     31/31  +0.49    +0.21     0.3439     -1.2%   0.116
+CHo     25/31  +0.88    +0.75     0.1850    -51.1%   0.002
+Traceback (most recent call last):
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\indexes\base.py", line 3641, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 197, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7668, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7676, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'in_temp'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\work\farmai\연구실\클로드\code\ec_err03_magnitude_sources_v1.py", line 170, in <module>
+    report("진짜 고EC 31일", hi)
+  File "C:\work\farmai\연구실\클로드\code\ec_err03_magnitude_sources_v1.py", line 155, in report
+    v = loo(S, feats=INF)
+        ^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\연구실\클로드\code\ec_err03_magnitude_sources_v1.py", line 126, in loo
+    best = max(feats, key=lambda c: abs(spearmanr(S[c].values[tr], r[tr], nan_policy="omit")[0]) if S[c].values[tr].std() > 0 else 0)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\연구실\클로드\code\ec_err03_magnitude_sources_v1.py", line 126, in <lambda>
+    best = max(feats, key=lambda c: abs(spearmanr(S[c].values[tr], r[tr], nan_policy="omit")[0]) if S[c].values[tr].std() > 0 else 0)
+                                                                                                    ~^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\indexes\base.py", line 3648, in get_loc
+    raise KeyError(key) from err
+KeyError: 'in_temp'
