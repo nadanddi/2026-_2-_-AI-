@@ -1,0 +1,199 @@
+{
+  "status": "PASS_INPUT_IDENTITY_AND_IMPUTATION_SCOPE",
+  "new_fit": 0,
+  "labels_read": false,
+  "identity": [
+    {
+      "feature": "in_co2",
+      "days": 400,
+      "observed_equal": 397,
+      "both_missing": 3,
+      "one_missing": 0
+    },
+    {
+      "feature": "act_heating",
+      "days": 400,
+      "observed_equal": 400,
+      "both_missing": 0,
+      "one_missing": 0
+    }
+  ],
+  "fold_medians": [
+    {
+      "fold": 0,
+      "features": {
+        "in_co2": {
+          "current_median": 405.0,
+          "h0_median": 413.0,
+          "difference": -8.0,
+          "query_h0_both_missing": 0
+        },
+        "act_heating": {
+          "current_median": 0.0,
+          "h0_median": 0.0,
+          "difference": 0.0,
+          "query_h0_both_missing": 0
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "features": {
+        "in_co2": {
+          "current_median": 403.0,
+          "h0_median": 412.5,
+          "difference": -9.5,
+          "query_h0_both_missing": 0
+        },
+        "act_heating": {
+          "current_median": 0.0,
+          "h0_median": 0.0,
+          "difference": 0.0,
+          "query_h0_both_missing": 0
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "features": {
+        "in_co2": {
+          "current_median": 404.0,
+          "h0_median": 413.0,
+          "difference": -9.0,
+          "query_h0_both_missing": 0
+        },
+        "act_heating": {
+          "current_median": 0.0,
+          "h0_median": 0.0,
+          "difference": 0.0,
+          "query_h0_both_missing": 0
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "features": {
+        "in_co2": {
+          "current_median": 406.0,
+          "h0_median": 414.0,
+          "difference": -8.0,
+          "query_h0_both_missing": 0
+        },
+        "act_heating": {
+          "current_median": 0.0,
+          "h0_median": 0.0,
+          "difference": 0.0,
+          "query_h0_both_missing": 0
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "features": {
+        "in_co2": {
+          "current_median": 403.0,
+          "h0_median": 413.0,
+          "difference": -10.0,
+          "query_h0_both_missing": 0
+        },
+        "act_heating": {
+          "current_median": 0.0,
+          "h0_median": 0.0,
+          "difference": 0.0,
+          "query_h0_both_missing": 0
+        }
+      }
+    },
+    {
+      "fold": 5,
+      "features": {
+        "in_co2": {
+          "current_median": 403.0,
+          "h0_median": 412.0,
+          "difference": -9.0,
+          "query_h0_both_missing": 0
+        },
+        "act_heating": {
+          "current_median": 0.0,
+          "h0_median": 0.0,
+          "difference": 0.0,
+          "query_h0_both_missing": 0
+        }
+      }
+    },
+    {
+      "fold": 6,
+      "features": {
+        "in_co2": {
+          "current_median": 403.0,
+          "h0_median": 410.0,
+          "difference": -7.0,
+          "query_h0_both_missing": 1
+        },
+        "act_heating": {
+          "current_median": 0.0,
+          "h0_median": 0.0,
+          "difference": 0.0,
+          "query_h0_both_missing": 0
+        }
+      }
+    },
+    {
+      "fold": 7,
+      "features": {
+        "in_co2": {
+          "current_median": 405.0,
+          "h0_median": 413.0,
+          "difference": -8.0,
+          "query_h0_both_missing": 0
+        },
+        "act_heating": {
+          "current_median": 0.0,
+          "h0_median": 0.0,
+          "difference": 0.0,
+          "query_h0_both_missing": 0
+        }
+      }
+    },
+    {
+      "fold": 8,
+      "features": {
+        "in_co2": {
+          "current_median": 407.0,
+          "h0_median": 416.0,
+          "difference": -9.0,
+          "query_h0_both_missing": 1
+        },
+        "act_heating": {
+          "current_median": 0.0,
+          "h0_median": 0.0,
+          "difference": 0.0,
+          "query_h0_both_missing": 0
+        }
+      }
+    },
+    {
+      "fold": 9,
+      "features": {
+        "in_co2": {
+          "current_median": 408.0,
+          "h0_median": 415.0,
+          "difference": -7.0,
+          "query_h0_both_missing": 0
+        },
+        "act_heating": {
+          "current_median": 0.0,
+          "h0_median": 0.0,
+          "difference": 0.0,
+          "query_h0_both_missing": 0
+        }
+      }
+    }
+  ],
+  "selected161_hour0": {
+    "in_co2": 480,
+    "act_heating": 0,
+    "both_observed": true
+  },
+  "scope": "Raw400day input identities only. Equal raw NaNs need not yield equal imputed current/h0 values; no failure causality claim."
+}

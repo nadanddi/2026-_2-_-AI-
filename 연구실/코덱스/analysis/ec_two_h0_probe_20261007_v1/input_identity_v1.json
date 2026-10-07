@@ -1,0 +1,26 @@
+{
+  "status": "PASS_INPUT_IDENTITIES_ONLY",
+  "checks": [
+    {
+      "kind": "hour0_current_equals_h0",
+      "feature": "in_co2",
+      "rows": 400,
+      "equal_nan": true
+    },
+    {
+      "kind": "hour0_current_equals_h0",
+      "feature": "act_heating",
+      "rows": 400,
+      "equal_nan": true
+    },
+    {
+      "kind": "hour1_heating_h0_recoverable_from_current_and_prefix_mean",
+      "rows": 400,
+      "maxdiff": 0.0
+    }
+  ],
+  "new_fit": 0,
+  "labels_read": false,
+  "source_sha": "f1743d715ecdbbb751477350cfb9b1b72821804df11bca988270fa91ec9c9da2",
+  "scope": "all400day train_X inputs; not a prediction equivalence or EC efficacy test"
+}

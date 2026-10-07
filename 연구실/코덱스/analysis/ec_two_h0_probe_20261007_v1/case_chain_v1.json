@@ -1,0 +1,65 @@
+{
+  "status": "PASS_FOUR_POSTHOC_CASE_STAGE_IDENTITIES",
+  "new_fit": 0,
+  "source_sha": "5ad1ca285cd112ab09a557078a85fcde13f2d469758ecc01623ad93e24a1b96f",
+  "csv_sha": "c5aab4887dfe0c6d4ab1b7ba5d1b9dac68f6247dd6fef2a98cd86e9f8c532a11",
+  "cases": [
+    {
+      "farm": "F13",
+      "day": 231,
+      "truth": 0.620875,
+      "base_final": 0.9951004747261579,
+      "alt_final": 1.235637076593618,
+      "final_change": 0.24053660186746006,
+      "ET_retraining_smoothed_weighted_change": 0.14866098175722034,
+      "SG2_change": 0.09187562011023986,
+      "base_gate_rows": 0,
+      "alt_gate_rows": 24,
+      "base_raw_et": 0.9351007638888885,
+      "alt_raw_et": 1.2316662962962963
+    },
+    {
+      "farm": "F13",
+      "day": 233,
+      "truth": 0.6336666666666667,
+      "base_final": 1.1927569252138344,
+      "alt_final": 1.3421194254495779,
+      "final_change": 0.1493625002357435,
+      "ET_retraining_smoothed_weighted_change": 0.27412611579609397,
+      "SG2_change": -0.12476361556035054,
+      "base_gate_rows": 20,
+      "alt_gate_rows": 24,
+      "base_raw_et": 1.0780491435185178,
+      "alt_raw_et": 1.6112898379629608
+    },
+    {
+      "farm": "F47",
+      "day": 130,
+      "truth": 0.4907916666666667,
+      "base_final": 1.0681567604495075,
+      "alt_final": 1.189440665414631,
+      "final_change": 0.12128390496512353,
+      "ET_retraining_smoothed_weighted_change": 0.1212839049651237,
+      "SG2_change": 0.0,
+      "base_gate_rows": 0,
+      "alt_gate_rows": 0,
+      "base_raw_et": 0.8944312500000006,
+      "alt_raw_et": 1.110292291666666
+    },
+    {
+      "farm": "F47",
+      "day": 161,
+      "truth": 0.646,
+      "base_final": 1.1448344858462238,
+      "alt_final": 0.9005950418923523,
+      "final_change": -0.24423944395387154,
+      "ET_retraining_smoothed_weighted_change": -0.2442394439538713,
+      "SG2_change": 0.0,
+      "base_gate_rows": 0,
+      "alt_gate_rows": 0,
+      "base_raw_et": 1.4040640509259266,
+      "alt_raw_et": 0.8668827314814823
+    }
+  ],
+  "scope": "selected after result; ET-retraining difference plus SG2 interaction, not fixed-feature attribution or generalization proof"
+}

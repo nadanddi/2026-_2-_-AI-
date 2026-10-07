@@ -1,0 +1,41 @@
+{
+  "status": "SCORED_TWO_H0_DIAGNOSTIC",
+  "input_sha": "03f21c150fdf61e91e7f21960ed1a14d486881c0ad79e606917de6e903d9817f",
+  "source_sha": "58e6736518c1e253ed4e9f6c7f53dbb75b4f7c219ff02a252dcfd126b161c671",
+  "tags": {
+    "SELECTED_CASE_BIAS_REDUCED_ALL_SEEDS": true,
+    "RESIDUAL_BIAS_GT_POINT2_ALL_SEEDS": true,
+    "raw_et_bias": {
+      "101": 0.22287215277777883,
+      "2024": 0.2145069444444453,
+      "7": 0.225269097222223
+    }
+  },
+  "bootstrap": {
+    "repeats": 20000,
+    "RNG": 32617,
+    "p_worse": 0.96435,
+    "worse_or_equal_count": 19287,
+    "CI95_percent": [
+      -0.42377470435169423,
+      9.862781731862688
+    ],
+    "method": "farm-stratified replacement of fixed observed farm-day//5 blocks"
+  },
+  "DIAG_EXPANSION_SCREEN": false,
+  "PASS2_ADOPTION_HOLD_FLAG": true,
+  "ordinary_delta_sse": 17.203041656836234,
+  "selected161_delta_sse": -4.375542947291897,
+  "ordinary_remaining_delta_sse": 21.578584604128153,
+  "files": {
+    "bootstrap_blocks.csv": "43946715c530bad01d8ab8a7c645cc6144e7bd435fcc64c6d32ebf8a578fa40c",
+    "bootstrap_draws.npz": "b59fb2fbd48b0a789dbd3e35c3eb26adde4001fd2372ebeb3897366ed67fb81c",
+    "bootstrap_results.csv": "7b73e01d50f7e4902a03129ba730345e98fb8e5a30701f02bf565b356e9dff57",
+    "cases.csv": "39bce4c8d97194c01b540edff5bc6c48f1860fc4ab92c8aa9dae662fc81b0b24",
+    "days.csv": "a2df3d217bc945816f26f64b4e6f599e6e048dfc7936edfeb1c62146d38e32cb",
+    "day_changes.csv": "89b075146449ce71c93a0de3344a584c4d81adeb99404ff6b3a5dda4830f8a4f",
+    "groups.csv": "e43559b023bac91d2a183d4eacae89c1414d1729828e250d359fa10ecd937c98",
+    "interactions.csv": "5ce5fe52e04850ad0101b8e8781409b69d286c05d4f457d00db6983bac2fe97e"
+  },
+  "adoption": false
+}

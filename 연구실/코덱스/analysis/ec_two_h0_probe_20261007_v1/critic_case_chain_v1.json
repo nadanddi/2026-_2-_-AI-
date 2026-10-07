@@ -1,0 +1,38 @@
+{
+  "status": "PASS_FOUR_SELECTED_CASE_MEAN_IDENTITIES",
+  "selected_hour_rows": 192,
+  "new_fit": 0,
+  "tree_routing": 0,
+  "max_absdiff": 2.498001805406602e-16,
+  "cases": [
+    {
+      "farm": "F13",
+      "day": 231,
+      "final_change": 0.24053660186746006,
+      "weighted_ET_change": 0.14866098175722034,
+      "SG2_change": 0.09187562011023986
+    },
+    {
+      "farm": "F13",
+      "day": 233,
+      "final_change": 0.1493625002357435,
+      "weighted_ET_change": 0.27412611579609397,
+      "SG2_change": -0.12476361556035054
+    },
+    {
+      "farm": "F47",
+      "day": 130,
+      "final_change": 0.12128390496512353,
+      "weighted_ET_change": 0.1212839049651237,
+      "SG2_change": 0.0
+    },
+    {
+      "farm": "F47",
+      "day": 161,
+      "final_change": -0.24423944395387154,
+      "weighted_ET_change": -0.2442394439538713,
+      "SG2_change": 0.0
+    }
+  ],
+  "scope": "Four post-hoc selected cases only; saved ensemble row means, clip inactivity, arithmetic and source/CSV hash. No forest-feature causality or generalization verification."
+}

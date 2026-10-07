@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETE_TWO_H0_DIAGNOSTIC_SCREEN_REJECT",
+  "completed_at": "2026-10-07T10:16:09.813238",
+  "source_registration": "7f13d0e",
+  "rows": 69120,
+  "unique_query_rows": 8640,
+  "unique_days": 360,
+  "new_ET_fit": 30,
+  "new_other_fit": 0,
+  "new_AB_fit": 0,
+  "adoption": false,
+  "submission_created": false,
+  "DIAG_EXPANSION_SCREEN": false,
+  "PASS2_ADOPTION_HOLD_FLAG": true,
+  "report": "실험결과_v2.md",
+  "critic": "최종혹독비평_v1.md",
+  "critic_correction": "최종혹독비평_보고서대조_v2.md",
+  "report_links_checked": 5,
+  "files": {
+    "실험결과_v2.md": "37b8d811187c09fd8dd29702e8a8ba037dcc8690ba39a7a6f6cf51e6fa097471",
+    "보완기록_v1.md": "ad0544d72bb69702cbf66fe633ad42d728ebb3a8b5b2936d14326484662327b0",
+    "최종혹독비평_v1.md": "627f983b7ac669de0e6642f197411cb3d150ed2a83c62f00dcb6a387bd0a4f4e",
+    "최종혹독비평_보고서대조_v2.md": "ca5504577370cf397a4c0c802788893080027f07437ec6e50734fe79cbbbd6f8",
+    "receipt_v1.json": "c88fecd7ee4c6a3329e34a496ce0b8fb6ff06666037be12b9d88e4005b23bacf",
+    "score_v1/completion.json": "ddd851a7cfa505b8e29eae42fca8c8ab88b0de0c3cbf6fad287114a43cb7f7e7",
+    "critic_verify_results_v1.json": "6ebbb2ea4da213a86142ea46391eec7acb06eda868b0eedb5870dbdbb40a5bf6",
+    "tree_audit_v1.json": "b4b1f7ba010528d6b9adb9a6ba5bfb6e2cffa5447ce81e4cac6a42535a7909fc",
+    "critic_verify_support_identity_v2.json": "6de2e54a1920ea8d83f543ed1483734d8f400b4e8e6abd4c344cb18f069d20ef",
+    "critic_input_imputation_scope_v1.json": "62dfeab94c3e9166115d21d4b122ee8212a6fe7ff5074bf9e37419fc479da28c"
+  },
+  "scope_notes": [
+    "public360days only; public pass2 is46days, actual evaluation60days untested",
+    "selected161 support600tree detailed trace onlyfold1seed7",
+    "root tree routing; independent critic arithmetic+source/receipt review, not duplicate routing",
+    "CI95 contains0; screen rejection is not a population-significance claim"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS_TRACE_LINK_SUPPORT_ARITHMETIC_AND_INPUT_IDENTITY",
+  "new_fit": 0,
+  "tree_rerouting": 0,
+  "parent_tree_audit_review": {
+    "trees": 600,
+    "nodes": 6821872,
+    "node_mean_maxdiff": 6.106226635438361e-15,
+    "ET_replay_maxdiff": 4.218847493575595e-15,
+    "ownership": "root route reconstruction; critic source/receipt/hash review only"
+  },
+  "support_profiles": {
+    "hour0": {
+      "prediction": 1.031671666666667,
+      "high_day_weight": 0.46833333333333355,
+      "high_row_weight": 0.4150000000000002
+    },
+    "raw_day": {
+      "prediction": 0.8712690972222221,
+      "high_day_weight": 0.22645833333333334,
+      "high_row_weight": 0.19409722222222223
+    },
+    "smooth_day": {
+      "prediction": 0.887518147585938,
+      "high_day_weight": 0.250749644442601,
+      "high_row_weight": 0.22013054825763909
+    }
+  },
+  "input_identity": {
+    "days": 400,
+    "hour0_co2_observed": 397,
+    "hour0_co2_missing": 3,
+    "hour1_heating_reconstruction_maxdiff": 0,
+    "scope": "Input identities only, not equal predictions or absent h0 information. This complete support verifier separately reads public OOF labels."
+  },
+  "retained45_XQ_exact_projection": true
+}
