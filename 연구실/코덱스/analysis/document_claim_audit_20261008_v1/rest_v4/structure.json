@@ -1,0 +1,32 @@
+{
+  "weather_complete_days": 400,
+  "groups": 146,
+  "tie_size_counts": {
+    "3": 49,
+    "4": 45,
+    "1": 31,
+    "2": 21
+  },
+  "excluded_nonadjacent_farm_pairs": 30,
+  "proxy_only": true,
+  "public_pairs": 94,
+  "cross_farm_groups": 99,
+  "cross_farm_pearson": 0.27111616183456766,
+  "cross_farm_spearman": 0.4814857188820757,
+  "both_farms_high": 0,
+  "boundary": [
+    {
+      "same_role": false,
+      "size": 140,
+      "median": 1.1349999999999998,
+      "mean": 1.4664285714285714
+    }
+  ],
+  "pair_temp_relation": {
+    "n": 94,
+    "corr_squared": 0.7664546850747364,
+    "ols_r2": 0.7664546850747365,
+    "slope": 0.8444270747824714,
+    "intercept": 0.19191630097657209
+  }
+}

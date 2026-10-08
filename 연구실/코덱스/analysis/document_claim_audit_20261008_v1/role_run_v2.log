@@ -1,0 +1,19 @@
+farm            scope                   layout   n  pairs      auc
+ F13               h0 contiguous_record_blocks 116     58 0.557669
+ F13               h0       interleaved_groups 116     58 0.767836
+ F47               h0 contiguous_record_blocks 118     59 0.755817
+ F47               h0       interleaved_groups 118     59 0.901178
+ F13 full_day_posthoc contiguous_record_blocks 116     58 0.644768
+ F13 full_day_posthoc       interleaved_groups 116     58 0.824019
+ F47 full_day_posthoc contiguous_record_blocks 118     59 0.808101
+ F47 full_day_posthoc       interleaved_groups 118     59 0.882218
+    seed farm role  sealed  n      bias     rmse  high
+ensemble  F13    A   False 40  0.017072 0.091501     2
+ensemble  F13    A    True 11  0.102022 0.232565     1
+ensemble  F13    B   False 45 -0.023217 0.123795     3
+ensemble  F13    B    True  8 -0.141796 0.275104     4
+ensemble  F47    A   False 49  0.013371 0.063692     0
+ensemble  F47    A    True  2 -0.107413 0.113315     0
+ensemble  F47    B   False 43 -0.007070 0.121296     3
+ensemble  F47    B    True 12  0.001900 0.369687     6
+COMPLETE role 40

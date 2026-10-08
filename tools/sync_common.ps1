@@ -36,13 +36,27 @@ function Get-ArtifactPairs([string]$Root, [string]$DriveDir) {
     foreach ($p in $Places) { foreach ($a in $Ais) {
         $pairs += @{ Local = (Join-Path $Root "$p\$a\local"); Remote = (Join-Path $DriveDir "$($placeKey[$p])_$($aiKey[$a])_local") }
     } }
-    $pairs
+    # Per-PC skip list (not in git): %USERPROFILE%\.farmai_sync_skip.txt, one Drive folder
+    # name per line (e.g. home_codex_local).  Lines starting with # are comments.
+    $skip = Get-SyncSkipList
+    foreach ($pr in $pairs) {
+        if ($skip -contains (Split-Path -Leaf $pr.Remote)) {
+            Write-Host "  (skip, this PC: $env:USERPROFILE\.farmai_sync_skip.txt) $($pr.Remote)"
+        } else { $pr }
+    }
+}
+
+function Get-SyncSkipList {
+    $f = Join-Path $env:USERPROFILE ".farmai_sync_skip.txt"
+    if (-not (Test-Path $f)) { return @() }
+    @(Get-Content $f -Encoding UTF8 | ForEach-Object { $_.Trim() } | Where-Object { $_ -and -not $_.StartsWith("#") })
 }
 
 function Copy-Newer([string]$From, [string]$To) {
     # Copies files that are new or newer; never deletes anything on the target.
     if (-not (Test-Path $From)) { Write-Host "  (skip, missing) $From"; return }
     New-Item -ItemType Directory -Force -Path $To | Out-Null
+    Write-Host "  copying $From ..." -ForegroundColor DarkGray
     robocopy $From $To /E /XO /R:1 /W:1 /NFL /NDL /NJH /NJS /NP | Out-Null
     if ($LASTEXITCODE -ge 8) { throw "robocopy failed ($LASTEXITCODE): $From -> $To" }
     $global:LASTEXITCODE = 0

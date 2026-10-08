@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\������\�ڵ���\analysis\document_claim_audit_20261008_v1\audit_v2.py", line 239, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\work\farmai\������\�ڵ���\analysis\document_claim_audit_20261008_v1\audit_v2.py", line 221, in main
+    x,te,y,b,m=read_inputs();a=days(x,te,y)
+               ^^^^^^^^^^^^^
+  File "C:\work\farmai\������\�ڵ���\analysis\document_claim_audit_20261008_v1\audit_v2.py", line 42, in read_inputs
+    prep=json.loads((OLD/'preparation_v4.json').read_text())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\0317\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1028, in read_text
+    return f.read()
+           ^^^^^^^^
+UnicodeDecodeError: 'cp949' codec can't decode byte 0x91 in position 1713506: illegal multibyte sequence

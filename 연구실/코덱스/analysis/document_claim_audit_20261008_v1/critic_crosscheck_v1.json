@@ -1,0 +1,165 @@
+{
+  "status": "PASS_FIRST_STAGE_RAW_CO2_PUBLIC_LABELS_OOF_FSUM_PAIRWISE_AUC",
+  "checks": 47762,
+  "max_absolute_error": 1.7763568394002505e-15,
+  "raw_days": 460,
+  "public_labels": 8640,
+  "skipped_label_rows_without_numeric_parse": 296325,
+  "baseline_rows": 34560,
+  "daily_rows": 1440,
+  "auc_rows": 24,
+  "new_predictive_fits": 0,
+  "source_sha": "dab7f5ed6569fb1f35a50df5786bc2b15a84dc85fe33c04b66761fd5bb0f9176",
+  "first_manifest_sha": "8a3718d1a2798e865420e5bbcfa092b13a72971f2b94b21db87163982eae54e8",
+  "limitations": [
+    "K1/K2 not independently recalculated here",
+    "No new split/generalization or treatment effect test",
+    "Original document sensor/real-house labels are unavailable"
+  ],
+  "auc": [
+    {
+      "seed": "101",
+      "scope": "all",
+      "cutoff": 0.0,
+      "auc": 0.42965180886529203
+    },
+    {
+      "seed": "101",
+      "scope": "all",
+      "cutoff": 0.1,
+      "auc": 0.7507911392405063
+    },
+    {
+      "seed": "101",
+      "scope": "ordinary",
+      "cutoff": 0.0,
+      "auc": 0.4831995242343146
+    },
+    {
+      "seed": "101",
+      "scope": "ordinary",
+      "cutoff": 0.1,
+      "auc": 0.7992886178861789
+    },
+    {
+      "seed": "101",
+      "scope": "pass2_ordinary",
+      "cutoff": 0.0,
+      "auc": 0.5490196078431373
+    },
+    {
+      "seed": "101",
+      "scope": "pass2_ordinary",
+      "cutoff": 0.1,
+      "auc": 0.9619047619047619
+    },
+    {
+      "seed": "2024",
+      "scope": "all",
+      "cutoff": 0.0,
+      "auc": 0.43243827160493825
+    },
+    {
+      "seed": "2024",
+      "scope": "all",
+      "cutoff": 0.1,
+      "auc": 0.7721370405692906
+    },
+    {
+      "seed": "2024",
+      "scope": "ordinary",
+      "cutoff": 0.0,
+      "auc": 0.4841558441558442
+    },
+    {
+      "seed": "2024",
+      "scope": "ordinary",
+      "cutoff": 0.1,
+      "auc": 0.8230103806228374
+    },
+    {
+      "seed": "2024",
+      "scope": "pass2_ordinary",
+      "cutoff": 0.0,
+      "auc": 0.5514705882352942
+    },
+    {
+      "seed": "2024",
+      "scope": "pass2_ordinary",
+      "cutoff": 0.1,
+      "auc": 0.9619047619047619
+    },
+    {
+      "seed": "7",
+      "scope": "all",
+      "cutoff": 0.0,
+      "auc": 0.4292283950617284
+    },
+    {
+      "seed": "7",
+      "scope": "all",
+      "cutoff": 0.1,
+      "auc": 0.7495846026031571
+    },
+    {
+      "seed": "7",
+      "scope": "ordinary",
+      "cutoff": 0.0,
+      "auc": 0.4815213358070501
+    },
+    {
+      "seed": "7",
+      "scope": "ordinary",
+      "cutoff": 0.1,
+      "auc": 0.7993982761424622
+    },
+    {
+      "seed": "7",
+      "scope": "pass2_ordinary",
+      "cutoff": 0.0,
+      "auc": 0.5490196078431373
+    },
+    {
+      "seed": "7",
+      "scope": "pass2_ordinary",
+      "cutoff": 0.1,
+      "auc": 0.9619047619047619
+    },
+    {
+      "seed": "ensemble",
+      "scope": "all",
+      "cutoff": 0.0,
+      "auc": 0.4298280811136146
+    },
+    {
+      "seed": "ensemble",
+      "scope": "all",
+      "cutoff": 0.1,
+      "auc": 0.7576237054085155
+    },
+    {
+      "seed": "ensemble",
+      "scope": "ordinary",
+      "cutoff": 0.0,
+      "auc": 0.48280600118835415
+    },
+    {
+      "seed": "ensemble",
+      "scope": "ordinary",
+      "cutoff": 0.1,
+      "auc": 0.8072493224932249
+    },
+    {
+      "seed": "ensemble",
+      "scope": "pass2_ordinary",
+      "cutoff": 0.0,
+      "auc": 0.5490196078431373
+    },
+    {
+      "seed": "ensemble",
+      "scope": "pass2_ordinary",
+      "cutoff": 0.1,
+      "auc": 0.9619047619047619
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "data_sha": {
+    "train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "test_X.csv": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad",
+    "train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9"
+  },
+  "baseline_sha": "bbc1e583853611bb3634da0f210f8680f7d02f47269723ebf0cc120b4990cf52",
+  "prep_sha": "cf208de4f7e88769c88a4edba88d57e2fa10a52701c8883e60b107923403b6bc",
+  "source_sha": "64fc42cfa07465c420e44c8d063c16921ca365f8496002e6544a5ff2dc5c2443",
+  "public_label_rows": 8640,
+  "skipped_label_rows_without_numeric_parse": 296325,
+  "masked_columns": [
+    "in_rad",
+    "act_side",
+    "act_valve",
+    "act_cool",
+    "act_pump"
+  ],
+  "farm_mask": {
+    "F13": [
+      "in_rad",
+      "act_side",
+      "act_valve",
+      "act_cool",
+      "act_pump"
+    ],
+    "F47": [
+      "in_rad",
+      "act_side",
+      "act_valve",
+      "act_cool",
+      "act_pump"
+    ]
+  },
+  "raw_training_missing": {
+    "out_temp": 0.0,
+    "out_hum": 0.0,
+    "out_rad": 0.0,
+    "out_wspd": 0.0,
+    "in_temp": 0.007604166666666667,
+    "in_hum": 0.0069791666666666665,
+    "in_co2": 0.008020833333333333,
+    "in_rad": 1.0,
+    "act_vent": 0.0,
+    "act_side": 1.0,
+    "act_shade": 0.0,
+    "act_thermal": 0.0,
+    "act_valve": 1.0,
+    "act_heating": 0.0,
+    "act_circfan": 0.0,
+    "act_co2": 0.0,
+    "act_fog": 0.0,
+    "act_cool": 1.0,
+    "act_pump": 1.0
+  },
+  "external_data": false,
+  "fit": 40,
+  "submission": false,
+  "baseline": "current EC14 recipe public DIAG10, seeds7/101/2024 plus actual ensemble; no current submission score",
+  "input_missing": {
+    "out_temp": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0
+    },
+    "out_hum": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0
+    },
+    "out_rad": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0
+    },
+    "out_wspd": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0
+    },
+    "in_temp": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.007604166666666667
+    },
+    "in_hum": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0069791666666666665
+    },
+    "in_co2": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.008020833333333333
+    },
+    "in_rad": {
+      "test_fraction": 1.0,
+      "train_masked_fraction": 1.0
+    },
+    "act_vent": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0
+    },
+    "act_side": {
+      "test_fraction": 1.0,
+      "train_masked_fraction": 1.0
+    },
+    "act_shade": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0
+    },
+    "act_thermal": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0
+    },
+    "act_valve": {
+      "test_fraction": 1.0,
+      "train_masked_fraction": 1.0
+    },
+    "act_heating": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0
+    },
+    "act_circfan": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0
+    },
+    "act_co2": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0
+    },
+    "act_fog": {
+      "test_fraction": 0.0,
+      "train_masked_fraction": 0.0
+    },
+    "act_cool": {
+      "test_fraction": 1.0,
+      "train_masked_fraction": 1.0
+    },
+    "act_pump": {
+      "test_fraction": 1.0,
+      "train_masked_fraction": 1.0
+    }
+  },
+  "provenance_receipts": {
+    "critic_verify_baseline_v1.json": "5af104510c7914527184ea14f230a1957b48c704f12389ddbdc948e5817c0ef3",
+    "critic_verify_pfn_provenance_v1.json": "2eb5528dcbe3025ef89b83fdec5604aa0d9cf1f1270d77211d92cbad165d7064",
+    "runner_v4.py": "abcb5cc750aa3a0a9d9f6ab71685a6d51fe22202ef64d814033c20029f6e6a65",
+    "sg2_ref_v2.py": "476369164356253f29ff19a64d0a7b5478520e1a3ce29f343e9d168ef9bfdcb9"
+  },
+  "audit_source_sha": "e20eb65a360db8d520ca4a4e2431e55238bca5d8d9528f2d8f604703efc867fa",
+  "classification_fits": 40,
+  "ec_model_fits": 0,
+  "target": "order within adjacent exact-weather input pairs; real dong unobserved",
+  "diagnostic_only": true,
+  "layouts": "group-disjoint five folds, no record-neighbor purge; not prospective evaluation or model adoption",
+  "output_sha": {
+    "role_auc.csv": "a7bb131f7fb604ed56f05e23b7aea1508a102aaf5038af98c5a6ed36f7fee395",
+    "role_bias.csv": "e11c9094c4c178b0bfe050c6a19f022ed443013423475753f81b6455a7bcba7a",
+    "role_fold_auc.csv": "7cabbf08509e8b78aa77a82801616dfbe16a7cc680f86c724084c7cb755c35f8",
+    "role_oof.csv": "a69f52d653d7f25b85cd8cfa9a2801a204834dd84ef0c58fb8df59d2de3d1f5f"
+  }
+}

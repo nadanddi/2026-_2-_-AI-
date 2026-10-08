@@ -1,0 +1,17 @@
+{
+  "status": "PASS_SCALAR_K1_K2_WEATHER_ROLES_STRUCTURE_PERSISTENCE_MIDNIGHT_ROLE_AUC_BIAS",
+  "checks": 3899,
+  "max_absolute_error": 7.105427357601002e-15,
+  "public_days": 360,
+  "public_pairs": 94,
+  "cross_groups": 99,
+  "midnight_boundaries": 140,
+  "role_oof_rows": 936,
+  "new_predictive_fits": 0,
+  "source_sha": "d30087bc1b9b73d18c6d907f9a4bc289223406fc4d2a4b216475b431772e56b9",
+  "limitations": [
+    "No predictive models retrained",
+    "Real greenhouse identity and calendar chronology remain unobserved",
+    "Role-model OOF arithmetic and source reviewed; estimator fitting not independently repeated"
+  ]
+}

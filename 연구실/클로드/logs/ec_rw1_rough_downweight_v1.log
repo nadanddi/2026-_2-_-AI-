@@ -1,0 +1,121 @@
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+가중치 적용 확인(첫 폴드, 시드 47) 최대 |기준−후보|: {'et': 0.028807962962962397, 'lgb': 0.2414098726923708, 'mlp': 0.4154206777395584} 거친 학습 행 456
+DIAG10/0 done
+   F13 anchors 14 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+DIAG10/1 done
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+DIAG10/2 done
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+DIAG10/3 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 9 of 16 pass-2 training days
+DIAG10/4 done
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+DIAG10/5 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 6 of 11 pass-2 training days
+DIAG10/6 done
+   F13 anchors 12 of 17 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+DIAG10/7 done
+   F13 anchors 14 of 17 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/8 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+DIAG10/9 done
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+A/0 done
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+A/1 done
+   F13 anchors 10 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+A/2 done
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 9 of 17 pass-2 training days
+A/3 done
+   F13 anchors 11 of 18 pass-2 training days
+   F47 anchors 7 of 16 pass-2 training days
+A/4 done
+   F13 anchors 15 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/0 done
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+B/1 done
+   F13 anchors 15 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+B/2 done
+   F13 anchors 11 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/3 done
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 10 of 17 pass-2 training days
+B/4 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/20 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/21 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/22 done
+   F13 anchors 14 of 15 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/23 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+EL1/24 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 13 pass-2 training days
+EL1/25 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+EL1/26 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 13 pass-2 training days
+EL1/27 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 10 pass-2 training days
+EL1/28 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+EL1/29 done
+
+=== 판정 (R3 수준) ===
+  DIAG10 거친 날 제외 날 333 | s47 0.1835→0.1859 (+1.26%)  s1414 0.1816→0.1857 (+2.28%)  s6464 0.1820→0.1865 (+2.50%) | 시드평균 0.1822→0.1859 (+2.00%) P(worse) 0.9583
+  DIAG10 전체      날 360 | s47 0.1878→0.1902 (+1.27%)  s1414 0.1859→0.1905 (+2.48%)  s6464 0.1865→0.1905 (+2.17%) | 시드평균 0.1866→0.1902 (+1.96%) P(worse) 0.9772
+  A      거친 날 제외 날 140 | s47 0.2239→0.2308 (+3.08%)  s1414 0.2226→0.2305 (+3.55%)  s6464 0.2229→0.2289 (+2.69%) | 시드평균 0.2229→0.2298 (+3.09%) P(worse) 1.0000
+  A      전체      날 157 | s47 0.2196→0.2255 (+2.70%)  s1414 0.2183→0.2253 (+3.22%)  s6464 0.2187→0.2237 (+2.27%) | 시드평균 0.2186→0.2246 (+2.72%) P(worse) 0.9980
+  B      거친 날 제외 날 145 | s47 0.2082→0.2138 (+2.68%)  s1414 0.2093→0.2136 (+2.07%)  s6464 0.2069→0.2139 (+3.40%) | 시드평균 0.2079→0.2136 (+2.73%) P(worse) 0.8605
+  B      전체      날 162 | s47 0.2040→0.2089 (+2.42%)  s1414 0.2050→0.2085 (+1.70%)  s6464 0.2029→0.2092 (+3.09%) | 시드평균 0.2038→0.2087 (+2.42%) P(worse) 0.8386
+  EL1    거친 날 제외 날  43 | s47 0.2637→0.2625 (-0.46%)  s1414 0.2596→0.2583 (-0.51%)  s6464 0.2600→0.2599 (-0.04%) | 시드평균 0.2610→0.2600 (-0.35%) P(worse) 0.3286
+  EL1    전체      날  46 | s47 0.3017→0.3000 (-0.58%)  s1414 0.2999→0.2994 (-0.18%)  s6464 0.3009→0.2983 (-0.88%) | 시드평균 0.3007→0.2990 (-0.56%) P(worse) 0.2319
+  안전장치 DIAG10 2차: 0.2192→0.2277 (+3.89%)
+  안전장치 DIAG10 밀폐: 0.3731→0.3777 (+1.25%)
+  안전장치 EL1 2차: 0.2610→0.2600 (-0.35%)
+  안전장치 EL1 밀폐: 0.4939→0.4871 (-1.39%)
+
+RW1 판정: (a) 거친 날 제외 전 시드×DIAG10·A·B 개선 False, (b) DIAG10 P(worse) 0.9583 ≥ .025, (c) 전체 행 시드평균 악화 없음 False → FAIL
+  PFN 혼합(0.8R3+0.2PFN, 서술) DIAG10 거친 날 제외: 0.1767→0.1796
+  PFN 혼합(0.8R3+0.2PFN, 서술) DIAG10 전체: 0.1801→0.1830
+  PFN 혼합(0.8R3+0.2PFN, 서술) EL1 거친 날 제외: 0.2633→0.2626
+  PFN 혼합(0.8R3+0.2PFN, 서술) EL1 전체: 0.2923→0.2911
+
+=== 부풀림 진단 (기준 R3 시드평균) ===
+  DIAG10: 거친 27일 | 전체 0.1866 | 거친 날 제외 0.1822 | 날 짝 대조 평균 0.1831 (2.5% 0.1629) | 블록 짝 대조 평균 0.1853 (2.5% 0.1627) → 구별 안 됨
+      거친 날 RMSE 0.2338 vs 비거친 0.1822; 거친 날 SSE 몫 0.12 (날 비율 0.07)
+  A: 거친 17일 | 전체 0.2186 | 거친 날 제외 0.2229 | 날 짝 대조 평균 0.2176 (2.5% 0.1903) | 블록 짝 대조 평균 0.2145 (2.5% 0.1876) → 구별 안 됨
+      거친 날 RMSE 0.1816 vs 비거친 0.2229; 거친 날 SSE 몫 0.08 (날 비율 0.11)
+  B: 거친 17일 | 전체 0.2038 | 거친 날 제외 0.2079 | 날 짝 대조 평균 0.2040 (2.5% 0.1771) | 블록 짝 대조 평균 0.1999 (2.5% 0.1707) → 구별 안 됨
+      거친 날 RMSE 0.1680 vs 비거친 0.2079; 거친 날 SSE 몫 0.08 (날 비율 0.10)
+  EL1: 거친 3일 | 전체 0.3007 | 거친 날 제외 0.2610 | 날 짝 대조 평균 0.3073 (2.5% 0.3071) | 블록 짝 대조 평균 0.3085 (2.5% 0.3049) → 부풀림
+      거친 날 RMSE 0.6408 vs 비거친 0.2610; 거친 날 SSE 몫 0.30 (날 비율 0.07)

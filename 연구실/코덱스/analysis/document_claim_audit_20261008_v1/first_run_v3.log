@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\연구실\코덱스\analysis\document_claim_audit_20261008_v1\audit_v3.py", line 239, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\work\farmai\연구실\코덱스\analysis\document_claim_audit_20261008_v1\audit_v3.py", line 221, in main
+    x,te,y,b,m=read_inputs();a=days(x,te,y)
+                               ^^^^^^^^^^^^
+  File "C:\work\farmai\연구실\코덱스\analysis\document_claim_audit_20261008_v1\audit_v3.py", line 93, in days
+    assert valid.sum()>=12, (f,d,'insufficient CO2 differences')
+           ^^^^^^^^^^^^^^^
+AssertionError: ('F13', 40, 'insufficient CO2 differences')
