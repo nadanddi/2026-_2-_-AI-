@@ -1,0 +1,21 @@
+# 조립2 checkpoint 소스 재검토
+
+2026-10-07. assembler2/helper1 소스만 읽었다. 등록/실행·모델/정답/채점/GPU/worker변경0이다.
+
+**OA01/OA02의 핵심은 소스상 보완됐다. 새 핵심 조립 blocker는 발견하지 못했다.** 다만 helper합성검사·실제조립등록·원66 양producer완료는 아직없거나미완료이므로 지금실행허용결과로확대하지않는다.
+
+single_writer는 O_EXCL로등록SHA/PID/start_ticks/time token을쓰고flush/fsync하며자기token만finally제거한다. 다른lock은자동삭제하지않는다. full producer manifest를확인한뒤writerlock을획득하고 expensivefeature조립은lock안에서한다. manifest사전스캔은lock밖이나파일을쓰지않으므로writer충돌은조립전에차단된다.
+
+재개는각fold전체freshmatrix/81raw/4PFN/75stage/SG2audit를재계산하고prediction·audit두existing object를canonical equality로모두preflight한다. 둘중한쪽만있어도freshexpected와맞는경우누락만쓰며기존파일은덮어쓰지않는다. 의미상같은prediction의기존bytes를사용해auditpredictionSHA를만드는정책도맞다. mismatchedexisting/extraJSON은보존거부한다. 이것은cheapskip이아니라freshreplayresume라그비용·범위를정확히보고한다.
+
+끝에서assembled132현SHA, consumedraw/PFN모든output, producerroot/foldcomplete의현SHA, source를검사하고rootcomplete도freshobjectexactcompare/누락시만write한다. OA02의완료문서재검사누락은닫혔다. directmodulepath/SHA검사는실제로11개이며추가baseline/checkpoint1·2/storagehelper를포함한다. 기존고정recipe·candidateET-only/원RAW_PASS·wholefalse는유지된다.
+
+## 실행전 helper 검사와 잔여 범위
+
+합성검사에서최소첫쓰기/둘다재개/한쪽missing재개/auditonly·predictiononly의hash연결/양쪽각각tamper·extraJSON거부/불일치때write0/completeexactresume·불일치보존/동시lock거부·예외시자기lock해제/다른token보존을확인해야한다. 소스읽기만으로actualPASS를선취하지않는다.
+
+leaf prediction/audit/complete가symlink/junction으로folder밖을가리키는경우는helper자체에서resolvecontainment를검사하지않는다. assembler는foldfolder만root안인지확인한다. 후속strictfilegate또는helper강화에서leaf경로도확인하는것을권고한다. 현재정상ownfoldersource에서그런link가있다는증거는없다.
+
+lock첫쓰기중실패시finally가partial JSON을읽다다시실패할수있다. 이런경우lock을보존하고원오류와recovery필요성을함께기록하는것이안전하며자동unlink는금지한다. 전파일/complete순차재검산은atomicfolder snapshot의증명이아니므로futuregate는completedimmutable artifacts·자신이소비한bytes/currentSHA를연결한다.
+
+조립2에candidate별독립산술/freshfuture-input전수gate는없고baselineSG2sourceaudit×3만있다는제한은이전과같다. 코드와result의wholefalse표시는정확하다. 새로운가중치/문턱/선별은없고원24·고정통계·최초미사용1회/최종선별정리검증후goal종료는남는다. producer등록/source를수정하지않고새pipeline등록2가새helpers및검사source를pin해야한다.

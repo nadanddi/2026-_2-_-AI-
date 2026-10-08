@@ -12,3 +12,5 @@
 - [No domain prompting](no-domain-prompting.md) — don't mention/ask for domain knowledge until user hands over materials
 - [No exaggeration](no-exaggeration.md) — label provenance (general knowledge vs read sources); never overstate coverage
 - [Harsh critic at plan/mid/final](harsh-critic-every-result.md) — critic subagent reviews each experiment at 3 stages; always report critique + improvements
+
+- [Prior-competition data restricted](prior-competition-data-restricted.md) — prior-competition strawberry data BANNED: never load/analyse/use/cite; no history notes about it; keep files out of git

@@ -1,0 +1,53 @@
+{
+  "status": "INDEPENDENT_RECIPE_SYNTHETIC_PASS_NOT_FULL_GATE",
+  "decimal_precision": 60,
+  "decimal_stage_comparisons": 384,
+  "conditional_replay": {
+    "rows": 96,
+    "stage_comparisons": {
+      "raw_mix": 96,
+      "one_shrink": 96,
+      "pre_SG2_clip": 96,
+      "post_SG2_clip": 96
+    },
+    "maximum_difference": {
+      "raw_mix": 1.1e-16,
+      "one_shrink": 1.5082608695652174e-16,
+      "pre_SG2_clip": 1.5082608695652174e-16,
+      "post_SG2_clip": 1.5082608695652174e-16
+    },
+    "status": "CONDITIONAL_DECIMAL_ARITHMETIC_PASS_NOT_FULL_PIPELINE_GATE",
+    "whole_pipeline_gate_passed": false
+  },
+  "invalid_checks": [
+    "tampered raw_mix",
+    "tampered one_shrink",
+    "tampered pre_SG2_clip",
+    "tampered post_SG2_clip",
+    "reversed bounds",
+    "PFN context omission",
+    "incomplete query day",
+    "nonfinite ET",
+    "boolean ET",
+    "foreign train reference",
+    "pass1 activation",
+    "current query day as reference",
+    "SG2 threshold ambiguity",
+    "inactive choice with level"
+  ],
+  "invalid_count": 14,
+  "prediction_prefix_poison_cases": 4,
+  "executed_sources_sha256": {
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\audit_original_independent_arithmetic_v2.py": "243a679dad9c48a275dd23187231cbd6a1da281bb6a7fbc67d48aacb052d3291",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\original_independent_arithmetic_v1.py": "bbacd95f97a0cc515bcd4fab4bb8911d72dbcd7e0a82e6e8a784cdbdbadd7592",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\original_postprocess_kernel_v2.py": "4e69853e2f929bb78d234da7c2cfacae7605532e81fa9d13608c77a33585ab8d"
+  },
+  "model_fit": false,
+  "heldout_truth_read": false,
+  "whole_pipeline_gate_passed": false,
+  "limits": [
+    "Prediction-prefix arithmetic only; no query-input causal claim",
+    "SG2 choices and bounds supplied; no independent reference-selection proof",
+    "Actual original66 predictions not loaded or verified here"
+  ]
+}

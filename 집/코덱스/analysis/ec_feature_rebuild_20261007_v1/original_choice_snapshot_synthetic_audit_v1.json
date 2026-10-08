@@ -1,0 +1,36 @@
+{
+  "status": "SYNTHETIC_CHOICE_METADATA_PASS_NOT_SELECTION_OR_FULL_GATE",
+  "positive_checks": 1,
+  "invalid_checks": [
+    "status:'PASS'",
+    "scope:'BLK_QUERY_ROLE'",
+    "all_choices_present:False",
+    "heldout_truth_loaded:True",
+    "whole_pipeline_gate_passed:True",
+    "source_checks:True",
+    "source_checks:5",
+    "source_maximum_difference:-1.0",
+    "source_maximum_difference:nan",
+    "source_maximum_difference:1e-08",
+    "choices_sha256:'bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb'",
+    "sources_sha256:{}",
+    "row_ids:['F47_179_00', 'F13_179_00']",
+    "choices:{}",
+    "all_choices_present:1",
+    "heldout_truth_loaded:0",
+    "extra field",
+    "missing field",
+    "choice payload mutation"
+  ],
+  "invalid_count": 19,
+  "executed_sources_sha256": {
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\audit_original_choice_snapshot_v1.py": "b089b062990ff700050222d22c43cbdb038b5253abf3b82b9b85afe999ba8c1b",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\original_choice_snapshot_validation_v1.py": "fec2750758b391e756bba2c85b0912c75cea8b1054f5932ba953a3a15114d573"
+  },
+  "model_fit": false,
+  "heldout_truth_read": false,
+  "whole_pipeline_gate_passed": false,
+  "limits": [
+    "Metadata only; no fresh reference-selection or causal proof"
+  ]
+}

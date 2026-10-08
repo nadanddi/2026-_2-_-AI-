@@ -1,3 +1,91 @@
+# 현재 재개 지점 — checkpoint v31 (2026-10-07 집 코덱스)
+- 직전goal턴은실제소스/등록보완progress. 이번도독립Decimal검증및등록완료progress.
+- rawCPU30413 직접DIAG3seed47D04PASS/완료3/66fold243outputs. PFNCPU64416 직접DIAG2context8PASSmax0/250.1초뒤DIAG3ctx5fit/완료12/264context·3fold. 두handle실제running,전체complete없음/같은handle유지.
+- 조립현재assembler3/reg3,실제독립257SHA MATCH/AR01closed/실행4SHA·정확11합성연결확인/조립0·양producer원66완결전금지.
+- 독립 original_independent_arithmetic_v1.py는생산kernel import없는Decimal60고정mix/shrink/clip/SG2 suppliedchoice 재계산. synthetic auditor1 thresholdfixture오류exit1→새auditor2 prefix평균수정/허용오차완화0,실384대조/거부14/예측prefix교란4PASS·실행3SHA처음/끝연결/독립critic완료. 실제query입력인과증거아님.
+- 원66 driver현재 **verify_original_domain_arithmetic_v3.py**:foldfresh재계산/sameobjectreceipt/O_EXCL/snapshot exactstatus/scope/flags/digest/source5/count/max/끝66SHA. metadata합성positive1/거부19실PASS·실행2SHA. actual66replay0/전체raw5346·PFN528·assembled132완결전차단.
+- **ORIGINAL_DOMAIN24_arithmetic_registration_v3.json 공식실exit0·270핀**,actual독립270MATCH·SG2정확5경로/합성3·2SHA/AD03closed. tolerance1e-12고정,abs(abs(delta)-.30)<=1e-12모호경계failclosed.조건부산술gate이며fullfresh source/matrix/label·actualfutureinputcausalitygate·score는별도필수.
+- 공용병합6.422읽음:기존386~395번호충돌은'(집 코덱스)'출처병기. 이번추가직전최신423확인/새6.424. 연구실396~420·집423본문만읽었고원결과수치감사미완료/recipe변경0.
+- 다음동일workers확인·원66혼합fullgate/scorer구현. 문헌·자료/subset·interaction/CH2원검증/미사용1회/전체보고·의미있는선별파일남음. 모두검증후goal종료/현재active·GPU/채택/제출0.
+
+이하 이전 시점 기록.
+# 현재 재개 지점 — checkpoint v30 (2026-10-07 집 코덱스)
+- 현재 사용할 조립: **assemble_original_domain_v3.py / ORIGINAL_DOMAIN24_pipeline_registration_v3.json**. 아직 실행0/양producer 원66 완결까지 금지. v1/v2 보존.
+- 등록v2 독립257SHA MATCH. 좁은 증거연결 지적(합성PASS와 실행소스 미연결) 반영: 새 auditor2 실제11검사 PASS 후 synthetic_audit_v2.json에 auditor2/helper1/checkpoint1·2 실행SHA4 기록. registrar3는 정확11검사집합·길이·model_fit/heldoutfalse 및 실행4SHA 현재핀일치 강제/공식실exit0·257핀 봉인. 실제v3 독립비평요청, 아직대기.
+- rawCPU30413 직접DIAG2 seed6464 D03PASS/완료2fold, PFNCPU64416 직접DIAG2context6 fit/완료9context·2fold. 원fullgate/scoring 미완료.
+- assembly3는 v2 대비 regpath/outputroot만 변경, recipe/strict fresh resume/O_EXCL/끝파일SHA/11모듈binding 동일. 조립은 fullscoregate아님/후속독립 candidate산술·inputcausality·lineage verifier/scorer 필요.
+- 전체목표와 최종 의미있는 내용 선별파일 요구 유지, 모두 검증 후에만 goal 종료. 현재active/채택·제출·GPU0.
+
+이하 이전 시점 기록.
+# 현재 재개 지점 — checkpoint v29 (2026-10-07 집 코덱스)
+- CPU raw session30413 직접 running, DIAG2 seed1414 D23 PASS. 완료2/66폴드(162 sealed raw outputs), 전체5346 미완료.
+- CPU PFN session64416 직접 running, DIAG2 context5 PASS max0/256.5초. 파일 확인 완료9/264문맥, 완료2/66폴드. 전체 manifest 없음/GPU0.
+- 원조립 v1 비평의 lock/resume/끝 SHA 보완 → assemble_original_domain_v2.py와 original_assembly_checkpoint_v1.py 새 파일. 모든 fold fresh 재계산+양파일 preflight 동일성 검사, 누락만 추가/기존bytes 보존, O_EXCL PID/start ticks lock, producer root/fold 및 assembled132 최종SHA, 실제11모듈 path/SHA binding. 합성11 실제PASS/독립 source 비평v2 핵심blocker0.
+- register_original_domain_assembly_v2.py 공식실행 exit0/257핀 → ORIGINAL_DOMAIN24_pipeline_registration_v2.json 봉인. 실제등록 독립비평 요청/아직 조립 실행0. 양producer 원66 완료까지 실행 금지. 조립 자체는 whole gate가 아니며 독립 candidate 산술·미래입력/전체lineage gate와 scorer 필수.
+- fresh probe2 실제결과 독립비평 완료:243핀/원firstfold raw81+PFN2 fresh receipt 범위 PASS, 전체모델gate 아님.
+- 원검증/문헌·자료/subset·interaction/CH2원검증/미사용1회/전체보고·의미있는 내용 선별파일 미완료. 모두 완료 후 선별파일 검증하고 목표 종료. 현재 goal active/채택·제출0.
+
+이하 이전 시점 기록.
+# 현재 재개 지점 — checkpoint v28 (2026-10-07 집 코덱스)
+- **rawCPU30413 실제running**, DIAG1 all81complete→DIAG2준비.완료2/66fold=162rawfiles/5346.원producer3/driver4 그대로.
+- **PFNCPU64416 실제running**, DIAG0context5~8각PASSmax0/firstfoldcomplete8→DIAG1context5fit.완료4/264context.원predict_context2/driver3 그대로.
+- **freshprobe2 실제terminal0**:243핀/plancritic2/importidentity검사뒤firstfold freshfeatures·y·median·계약 raw81/PFN5·6 PASS.결과파일ORIGINAL_fresh_receipt_probe_result_v2.json/독립actualcritic요청.새modelfit/heldouttruth/score0/fullgatefalse.향후 **original_saved_model_validation_v2.py** 사용.
+- 완료guard2·firstPFNmetadata독립비평완료;source/matrix/numeric 혼합전체gate는별도필수.문헌·자료/subset/interaction/CH2원검증/미사용1회/전체보고·의미있는선별정리파일까지미완료.현재goalactive/채택·제출·GPU0.
+
+이하 이전 시점 기록.
+# 현재 재개 지점 — checkpoint v27 (2026-10-07 집 코덱스)
+- **raw CPU30413 실제running**, DIAG1seed1414 D06 PASS directpoll/firstfold81complete.원5346미완료.
+- **PFN CPU64416 실제running**, DIAG0context5 PASS max0.0/256.5s 뒤context6fit. first metadataauditactualPASS:912row/2000ref/21checks/120trace/current231pins/cacheunchanged. context실완료1/264,fullmodelgate아님.독립metadatacritic요청.
+- **SG2actualprobe2독립v2완료**: exact960source/max0·active144 samefarm trainref/12freshcachepoison/224pinsMATCH. 합성prefix actual선택adapter범위;성능/전체66gate아님.
+- 완료storagemanifest 새v2 unsafe11+tamper1/actual81/incomplete66refusedPASS,드라이브·resolvedroot/단일blobhashparse보완. 독립v2critic요청/수치·모델gate와별도.
+- 전체목표·최종선별정리파일미완료. 완료파일검증후에만goal종료/현재active·채택·제출·GPU0.
+
+이하 이전 시점 기록.
+# 현재 재개 지점 — checkpoint v26 (2026-10-07 집 코덱스)
+- **raw CPU session30413 실제running**, DIAG1 D19seed47 PASS directpoll. Windows driver4 집계보완/217핀/원producer3 유지,첫fold81complete 확인/전체5346미완료.
+- **PFN CPU session64416 실제running**, 가용3800788992byte≥3500000000 guard통과+231핀driver3/독립비평후실시작,anchor준비로그 확인. context완료는아직미확인. 직접runner2 대신run_original_pfn_driver_v3.py,원predict_context2/reg2계약유지. GPU0.
+- **SG2probe2 terminal0 실제결과**: DIAG4 960행 source max0/active144선택144/freshcache poison12PASS. 합성predictionprefix이므로 실제SG2선택·adapter감사에한정/fullmodel이나scoregate아님. 결과독립criticv2요청. probe1은identity912행/active0 유지.
+- 전체목표미완료: 원24×3seed/66fold/R3·PFN/fullgate·score,문헌·자료/subset/interaction/CH2/미사용1회/전체보고·의미있는발견선별파일. 마지막파일검증후goal종료/현재active·채택·제출0.
+
+이하 이전 시점 기록.
+# 현재 재개 지점 — checkpoint v25 (2026-10-07 집 코덱스)
+- **CPU raw30413 실제running**: 수정driver4가 첫DIAGfold0 raw81 complete 기록완료 후 DIAG1 baseline3+D01 PASS.원81보존 및exactresume/집계통과,전체5346미완료.
+- **SG2 실제probe2 session36026 running**: 구조만으로 양농장적용전후 존재하는 최소DIAGfold4/960행·적용144행을224핀 등록. 결과대기. probe1은terminal0/912row+freshpoison6/max0이나전부적용전이라active/선택0;활성선택PASS로 확대하지 않음.
+- PFNdriver3 실제231핀/독립MATCH/coreblocker0이나PFNfit0. 향후CPUrun_original_pfn_driver_v3.py를메모리≥3.5GBguard뒤실행. 직접runner2는Windows집계버그로실행금지.
+- 사용자완료요청 반영: 전범위목표 완료 뒤 의미있는 분석·조사·실험만 선별파일 작성·검증하고 목표종료.현재원검증/PFN/fullgate/채점,문헌·자료/subset/interaction/CH2원검증/미사용1회/전체보고서·선별파일미완료. goalactive/제출·GPU0.
+
+이하 이전 시점 기록.
+# 현재 재개 지점 — checkpoint v24 (2026-10-07 집 코덱스)
+- **현재CPU실행 session30413/run_domain_original_raw_driver_v4.py**: 실제running/anchor준비로그. 직전56114는81학습완료뒤Windows경로집계assert terminalexit1. driver4실217핀/독립MATCH/coreblocker0, 원fit_one3·reg3·raw_v3root/계약 유지/as_posix 집계만 수정. 첫fold81 metadataPASS; exactresume/complete/다음fold직접로그대기.
+- **PFNfit0**: 원runner2에도동일집계bug발견. 향후직접runner2실행금지; 새run_original_pfn_driver_v3.py/별도실231핀등록/Windows66·528검사PASS,비평대기. 메모리여유3.5GBguard여전히필수.
+- 새kernel2 합성384Decimal/10poison/22거부, 원SG2 lazy adapter1합성5scalar/12거부 실제PASS; actualSG2선택/fullgate아님/독립비평대기.
+- 전체목표미완료: 원24×3seed/66fold5346raw+PFN264+fullpipelinegate/score,문헌·자료·subset/interaction/CH2원검증/미사용1회/전체보고서. goalactive/채택·제출·GPU0.
+
+이하 이전 시점 기록.
+# 현재 재개 지점 — checkpoint v23 후속 (2026-10-07 집 코덱스)
+- 현재 실제 실행 핸들 **56114**, 직전 직접poll running/DIAG10fold0 seed6464 D19 rawPASS. 옛93925는 없음; process부재 확인뒤 lock삭제 없이 보존하고 동일등록·runner3 재개했다. 기존62SHA불변/등록된resume검사를 거쳐 D06 이후 새학습 진행. 종료원인 미확인. 전체5346 미완료.
+- 새 원후처리kernel 합성 actual PASS: Decimal384 최대2.220446049250313e-16, 미래/다른농장poison10, invalid15. 독립critic 핵심산술blocker0; 원비평숫자오기 별도numeric_correction.md 보존. 전체vector validation을 하므로 엄격한입력접근prefix보증으로 과장하지 않음. 실제SG2 choice/source/모델producer/fullgate는 후속필수.
+- PFN2 등록228핀/264context 유효, 실제fit0. 최근가용3310747648byte<3500000000라 시작대기. 원raw종료 또는 자원여유 뒤 동일등록runner2 실행. GPU0.
+- 원prep66완료/독립PASS, 원TM/P2LOO/EL1전체24×3seed채점 미완료. 문헌24·자료142·subset16383/interaction·CH2원검증·최초미사용1회·전체보고서 남음. goal active/채택·제출0.
+
+이하 이전 시점 기록.
+
+### v20 카탈로그 동시작업 대응 및 PF 최신 결과 수신
+- v20 checkpoint/PROGRESS/HANDOFF/일지는저장됐으나catalog옛383 assert에서중단(부분실행보존). Claude가6.384 PF1/6.385 PF2결과를동시추가했음을직접재확인. fresh최신385→내기록6.386로추가;다른항목수정0.
+- 최신Claude보고는PF1/PF2기각·A유지이며이전PF2 34fold부분메타데이터는이전시점이다. 새원CSV/log/source/current전체66/causality검사전Claude효과수치를독립PASS라고부르지않음. 다음검토에반영·generic이웃/GPU중복0.
+- 실제own worker93925 running,PFN등록228핀실완료이나fit0/자원여유확보또는raw종료뒤실행. 다음전체R3/PFN조합gate→원24전부채점,목표미완료.
+
+
+# 현재 재개 지점 — 2026-10-07 집 코덱스 (checkpoint v20)
+
+- 원prep77114 직접terminalexit0(마지막P2fold55);complete66/396생성. stdlib독립prep actualexit0/1584candidate서명/66ID·SHA/flagsPASS. registrar5 정식승인actualexit0→rawregistration_v3.json214pins. 독립actual등록214전부MATCH/coreblocker0.
+- 원CPU run_domain_original_raw_v3.py 실제session93925 running. 마지막직접poll DIAG10fold0 seed47 baseline3+D01..D11 rawPASS. 파일스냅샷34/5346은부분이며현재live는원handle근거. 별도metadata stdlib읽기actualexit0/26완료파일 ID/등록·model/runtime/행렬서명/열·imputer/5diff계약PASS(독립freshmatrix/refit 아님). 채점0.
+- 원PFN초안v1비평OPFN01/02→새v2+purecache rules:4cache/6stats/12KV/원CPUdevice/정확120trace·21checks/engine·실architecture1/cache4/memoryauto/actualimports. 합성21 actualPASS·CPU실runtime/context264 capture2 actualexit0. registrarPFN2 actualexit0/228pins/원raw214전이·264context2000rows 봉인,독립actual등록228MATCH/coreblocker0. PFNfit0.
+- CPU16논리코어지만메모리실측총16452853760/가용2282819584byte/load86%. raw+PFN동시최대메모리회피로PFN시작대기. 현재rawworker를중단/재시작하지않음. 메모리여유재확인 또는raw종료뒤 등록된 **run_original_pfn_cache_v2.py** 실행가능;GPU0.
+- 다음원93925→5346 raw완료 확인;PFN2실행/264fit 및528파일후strict전체재검산·fullmix/shrink/clip/SG2/pretruthgate·원TM111/P2LOO/EL1×3seed채점. 문헌24/자료142/원subset16383·interaction/CH2원검증/최초미사용확정1회·전체보고서미완료. goal active/채택·제출0.
+
+이하 이전 시점 기록.
+
 
 ### v19 원학습등록 후속 — 최신 실행등록기는 v5
 - ORR01 저장PASS와현감사sourceSHA연결누락/ORR02 -O허용을새v4로보완. actual-O negative exit1(RuntimeError파일읽기전)/등록생성0. critic planv2 actual확인 ORR01/02닫힘/runtime19핀정식승인독립검산전부MATCH.
@@ -227,3 +315,69 @@
 
 - v19 최신독립비평도착: critique_DOMAIN24_original_raw_registration_plan_v3.md actual작성/읽기대조. registrar5 inherited핀충돌/nofit·no-target/Python일치검사수용·ORR01닫힘/새coreblocker0. 준비66/독립crosscheck완료전fit0조건유지. 다음원77114→실완료66→crosscheck→registrar5→runner3.
 
+
+### 2026-10-07 집 코덱스 checkpoint v22 — 원 CPU 학습 재개
+- 직전 상태 확인은 실제 관측 근거를 갱신한 progress: session93925는 Unknown process id, 정식 Win32_Process 조회에서 runner 및 잠금 PID18004 모두 없음. 종료 원인은 미확인; 전체 완료로 해석하지 않음.
+- 완료 raw62개를 새 audit_original_raw_metadata_v2.py로 실제 검사 PASS(메타데이터 스냅샷; full gate/채점 아님). v1 --snapshot2 시도는 인수 assert로 실패/산출물0, v1 보존 후 새v2 실행.
+- stale lock은 삭제 없이 RAW_interrupted_writer_lock_v1.json에 이동 보존. 등록/runner3/source/시드/폴드 변경 없이 재실행 session56114 시작; 직접 poll에서 실행 중 및 anchor 준비 출력 확인. 기존62개는 등록된 resume 검사를 거쳐 재사용 예정이며 실제 재사용 완료는 후속 로그로 확인.
+- PFN2는 아직 fit0. 앞선 메모리 guard 가용2439598080byte <3500000000로 subprocess 시작 전 종료. CPU raw와의 자원 경쟁을 피하며 여유 재확인/원raw 종료 뒤 실행.
+- 최신 Claude PF1/PF2 metadata_v3는 둘 다10848행66fold/공유예측차4.44e-16. critique_CLAUDE_PF_latest_outputs_v1.md에 default GPU fit/넓은 참조집합/SG2 차이 한계 기록; 현재 CPU 기준선 증거로 사용하지 않음. 이웃/GPU 중복 학습0.
+- 목표 전체 미완료: 원24×3시드/66fold 및 PFN/full후처리gate/채점, 문헌·자료·subset·interaction, CH2 원검증, 최초 미사용 1회 및 최종 보고서 남음. 채택/제출0.
+
+### 2026-10-07 집 코덱스 checkpoint v23 — 원 후처리 산술 커널 실행
+- 직전 turn은 metadata62 실제감사/종료검증/동일학습재개/기록으로 progress. session56114 직접poll running, DIAG10fold0 seed6464 D06..D15 rawPASS. runner fit_one 순차루프의 existing branch는 fresh matrix/y/imputer/contracts 검사 뒤 return하며 D06 진행로그까지 도달; snapshot2의 기존62 파일SHA 재대조 변경0. 재사용 이후 남은 학습을 진행 중이며 전체5346 완료 아님.
+- 독립 재개비평 critique_DOMAIN24_raw_recovery_v1.md 실제완료:62·source·reg·보존lockSHA 일치/새coreblocker0. 종료원인 여전히 미확인.
+- original_postprocess_kernel_v1.py 새작성: 원등록 비율 고정, PFN5..8 exact, 완전24h/정렬된ID, 하루0..h shrink1회, trainboundsclip→SG2 RAW_PASS→clip, day<179 identity 강제. 모델·truth·파일·fullgate API 없음; caller가 producer/source 및 실제SG2 인과gate를 별도 검증해야 함.
+- audit_original_postprocess_kernel_v1.py actualexit0: 합성96행×4stage Decimal60 384대조, 미래/다른농장 poison10, invalid15거부. original_postprocess_kernel_synthetic_audit_v1.json 저장. syntheticSG2callback이며 실제SG2선택/실데이터/등록/채점/fullgate 아님. 독립kernel비평 요청중.
+- 물리메모리 재측정 가용3310747648byte/load79%; PFN시작문턱3.5GB 미만이므로 PFNfit0 유지. 현재rawsource/등록변경0,GPU0.
+- 다음 raw56114 계속→전체5346, PFN264, 원fullassembler+영수증/source/matrix/SG2/prefix독립gate→채점. 도메인전체 원검증 및 문헌/자료/subset/interaction/CH2/미사용1회/전체보고서 모두범위유지. goal active,채택·제출0.
+
+
+### 2026-10-07 집 코덱스 checkpoint v24 — Windows 완료집계 수정 및 원 SG2 adapter
+- 직전turn은 새후처리kernel실384/poison10/15거부·독립비평/worker재사용진행 확인으로progress. 이번56114 실제terminalexit1: DIAG0 D24seed6464까지81fit완료 후 len(current)==81 assert 실패. str(relativepath)의 Windows역슬래시와 folder+'/' mismatch라 current0. 완료81삭제/수정0;종료원인 이전93925까지소급추정금지.
+- 새metadata snapshot3 actual81PASS/부분·채점0. 새driver4는 원producer3 fit_one 그대로/원reg3·raw_v3root/seed·모델·계약 유지, outputkey as_posix2곳만 수정+독립driver등록guard. registrar4 actual217핀/raw214전이, Windows66/5346synthetic PASS. 독립critic 실제217MATCH/핵심재개blocker0 뒤 raw driver4 session30413 실제running/anchor준비로그 확인. 다음첫fold81 exactresume·complete 및 다음fold진입 확인필수.
+- PFN2도同path 집계버그가있어 직접PFN2시작금지. 새 run_original_pfn_driver_v3.py는 원predict_context2 유지/as_posix1곳+driverguard/원runnerhash확인. registrarPFNdriver3 actual231핀/원228전이·Windows66/528synthetic PASS. 독립비평대기/PFNfit0. 향후PFN실행은 새driver3 등록+비평 및 메모리guard 뒤만.
+- kernel2 새버전에서contextkey int엄격추가,합성 actual Decimal384/poison10/invalid22PASS. 원SG2 OriginalSG2Plan 새adapter는 RAW_PASS/currentrid lazy선택·day<179 selectionskip·정렬완전prefix·training reference membership·원adapter1/2/sg2post/커널2소스등록검사·choice SHA snapshot 및 sourceaudit 기록. 합성oracle 실제5scalar/12거부PASS/실SG2선택·실입력·모델검증아님,독립비평대기. producer소스핀수정0.
+- 다음30413→원5346, PFNdriver3비평/메모리여유 뒤264context, actualSG2/fullassembler/currentproducer/source/matrix/전체prefixgate→원24전체채점. 문헌/자료/subset/interaction/CH2원검증/미사용1회/전체보고서 범위 유지. goalactive/채택·제출·GPU0.
+
+### 사용자 완료 보고 요청 (2026-10-07)
+- 사용자: 현재 작업이 완료되면 지금까지 분석·조사·실험 중 의미 있는 내용만 추려 파일을 만들고 목표 종료.
+- 완료 조건에 의미 있는 발견·기각 근거의 선별 정리 파일을 추가한다. 검증된 수치/출처/범위/한계를 구분하며 단순 실행 기록 나열을 피한다. 전체 목표의 요구 사항과 이 파일까지 확인한 뒤에만 goal complete. 현재 분석·검증 진행 중으로 종료하지 않는다.
+- 최신 actual raw30413 directpoll DIAG10fold0 all81 complete; 다음fold anchor준비 진입. Windows 완료집계 수정 후 첫fold exactresume/full81 집계 성공. 전체5346/PFN/score 완료는 아님.
+- 실제SG2 one-fold probe 소스224핀 등록 완료 및 session98719 actualrunning. syntheticpredictionprefix/학습참조 SG2선택·912row source 대조/freshcache futurepoison 검사용. 평가정답·모델학습·채점0,성공 판정은 terminal/result 후.
+- 독립 kernel2/SG2plan1 및 PFNdriver3 비평 실제완료/coreblocker0. fresh choice cache로 입력 교란 재계산 및 row별 source 체크 증거를 actualprobe에 반영. PFNfit0 유지.
+
+### 2026-10-07 집 코덱스 checkpoint v25 — 원 첫fold완료 및 SG2 실제source 감사
+- 직전turn은 Windowsdriver등록·독립검토·실재개와SG2adapter합성으로progress. raw30413 직접running, DIAG10fold0 all81 complete가 생성됐고 다음DIAG1 baseline3+D01 PASS로그 확인. 원5346/PFN/fullmodel/채점 완료는 아님.
+- 독립PFNdriver3 actual231MATCH/coreblocker0, SG2plan1/kernel2는 choice freeze타당하나 실제source/freshcache poison 및 전이lineage 필수. 새SG2 sourceprobe1 actual224핀 등록→실98719 terminal0:912row originalsource대조 max0,6freshchoice-cache future/otherfarm poison PASS. 다만 fold0 모두day<179이므로active0/선택0; 적용전 identity구간 실제감사일 뿐 활성SG2 선택성공으로 확대금지.
+- 구조 조회DIAGfold별day>=179행은0/0/0/0/144/72/240/168/240/240. 정답을보지않고 양농장×적용전후 존재의 최소fold4를 새등록기2에assert로 고정. 원probe1보존 후 새probe2 actual224핀 등록→session36026 running.960행/source대조+freshpoison12계획/실결과미확인. 예측prefix .8+.001hour syntheticfixed,heldouttruth/score/model0. actualprobe source독립비평요청중.
+- 사용자추가조건: 완료후 지금까지 의미있는 분석/조사/실험만 선별한 파일 작성·검증 뒤 goal complete. 기존전체목표축소/조기종료0. 파일은검증결론·기각근거·출처·수치범위·한계를 포함하며 단순실행일지나합성검사건수 나열을 피한다.
+- 다음30413계속/36026실결과검토, PFNdriver3메모리guard 뒤실행, actualfullassembler/SG2/producer/currentlineage gates→원24전부채점. 문헌/자료/subset/interaction/CH2/미사용1회/전범위보고 및 선별정리파일까지 남음. goalactive/채택·제출·GPU0.
+
+### 2026-10-07 집 코덱스 checkpoint v26 — 활성SG2 실제감사 및 PFN CPU 실제시작
+- 실제SG2 sourceprobe2 session36026 terminalexit0: DIAGfold4 960행/row목록전수source대조max0, active144/훈련reference선택144, freshemptycache future·다른farm poison12 모두PASS. 합성predictionprefix를쓰므로 실제선택·source adapter동등성 감사이며 baseline/candidate mixture성능/fullgate 아님. 독립 actual결과비평v2요청.
+- probe1 912행은active0/선택0 identity범위만 유지. 두fold 합계/poison수로 전체66fold 검증을 주장하지 않음.
+- PFNdriver3독립actual231MATCH 뒤 메모리guard 가용3800788992byte≥3500000000을실통과하여 **session64416/run_original_pfn_driver_v3.py CPU 실제running**, anchor준비로그directpoll 확인. 원context완료는아직로그확인없음; GPU0. 첫fit실행/264완료/모델gatePASS와혼동하지않음.
+- raw **30413 directrunning/DIAG10fold1 D19seed47 PASS**. 원첫fold81complete는확인,전5346미완료. 현재두CPUworker중복모델아님(rawR3/도메인ET vs고정PFN),등록·seed·폴드·recipe유지.
+- 다음30413/64416 기존handle직접poll/완료확인, raw/PFNfreshreceipts+원fullassembler/choice/currentlineage/인과독립gate→원24전체TM/P2LOO/EL1·3seed채점. 문헌·자료/subset/interaction/CH2/미사용1회/전체보고·의미있는내용선별파일 모두목표범위유지. 파일확인뒤에만goalcomplete,현재active/채택·제출0.
+
+### 2026-10-07 집 코덱스 checkpoint v27 — 최초 원PFN 문맥 실제완료 및 완료manifest guard
+- 직전turn은 actualSG2활성144선택/freshpoison12/960source·독립결과비평과PFNCPU실시작으로progress. 이번 PFN64416 직접running: DIAG0context5 PASS max0.0/256.5s, context6 train-onlyCPUcache fit로그 확인. 첫 context 실receipt+audit생성. 별도 stdlib audit_original_pfn_first_context_v1.py 정식actualexit0:912query/2000ref/21numeric/120trace(4fit116predict)/cacheunchanged/producer2SHA·driver231pins/IDs/reg/context배제조건/CPUrulesPASS. freshmatrix/label숫자/refit/fullgate아님,독립metadata비평요청.
+- raw30413 directrunning DIAG1seed1414 D06PASS,원firstfold81complete유지/전체5346미완료. PFN실완료context1/264(다음context6진행),전체기준선/채점0.
+- actualSG2probe2 독립비평v2:exact960목록/max0·active144/훈련samefarm distinct참조24h membership위반0·사전12freshpoison row/packetcounts일치·실224핀MATCH. 선택144가 보정변경144/성능상승/전체66gate를뜻하지않음. 합성prefix범위유지.
+- 새 original_completion_receipt_v1은 raw66/5346·PFN66/528 exact canonicalmanifest/currentfileSHA/global↔fold 집계guard,저장완료한정/수치·modelgate아님. 합성unsafe10+tamper1/actualfirstfold81/incomplete66refusedPASS. 독립비평Windowsdrive/link탈출 및SHA↔parse단일bytes결합지적→원v1보존/새v2 drivecolon거부+resolvedroot containment+complete단일blobhashparse/끝재확인. v2actualunsafe11+tamper1/real81/incomplete66refusedPASS,독립후속비평요청. 실제symlink/junction escape생성시험이나OS공격격리PASS를주장하지않음.
+- 다음두기존handles30413/64416계속·full66 raw/PFN strictnumericalreceipts·matrix/source/currentlineage/fullmix/shrinkclip/SG2/인과독립gate→원24전체TM/P2LOO/EL1×3seed채점. 문헌/자료/subset/interaction/CH2/미사용1회/전범위보고·의미있는내용선별파일미완료. 파일확인뒤goalcomplete/현재active·채택·제출·GPU0.
+
+- checkpoint27 후속 directpoll: raw30413 running/DIAG1seed1414D23PASS; PFN64416 running/context6PASS max0/195.0s→context7fit. producer로그로완료2/264,별도metadata감사는context5 1개에한정. 최종source·fullgate/score없음/전체목표active.
+
+### 2026-10-07 집 코덱스 checkpoint v28 — 원 첫fold freshreceipt 실제검증 완료
+- 직전turn은 firstPFN실문맥 및 storagemanifest실감사/보완으로progress. 이번 raw30413 DIAG1세번째seedD24까지actualPASS→all81complete 및 DIAG2준비진입 directrunning. raw완료fold2/66,각81=162파일. PFN64416 context7max0/199.9s,context8max0/263.1s PASS→firstfold8filecomplete/다음DIAG1context5fit directrunning. 완료context4/264,외부metadata감사context5범위는별도.
+- 완료guardv2·firstPFNmetadata독립비평actual완료/coreblocker0. guard는atomic snapshot아니므로최종strictgate 실제소비bytes/hash 및끝전수재확인필수. 첫PFN메타데이터검사는freshmatrix/label 재구성아니던한계유지.
+- 원freshreceipt library1/probe1 초안 ASTPASS/등록·실행0. sourcecritic1 importidentity 보완요구→새library2:seed/member/cid/고정featurecolumns 강제 및raw81/PFNctxfresh계약검사. 새probe2는importedfeatures/validator2/completion2/rawproducer3/rules1 실제__file__기대HERE 및등록SHA/함수objectidentity 강제. plancritic2 OFR01닫힘/핵심실행blocker0.
+- registrar2 실제243핀(두모델driver 전이·새probe/library/source/critic 연결)봉인후 freshprobe2session54621 실제terminalexit0. firstfoldtraining/query·24domainmatrices freshrebuild→raw81 exactcontracts/matrix·referencey/중위수/imputer/5diffaudit PASS, PFN5/6 freshcontextRNG·float32matrix/선택ySHA/120trace21checksPASS. ORIGINAL_fresh_receipt_probe_result_v2.json 저장/actual결과독립비평요청. 모델refit/heldouttruth/채점0/fullmodelgatefalse/66전체아님.
+- 다음 raw30413/PFN64416 기존handles계속,full66strictreceipts 및 fullmodelassemble/mix/shrink/clip/SG2/source/future/currentlineage 독립gate→원24전체TM/P2LOO/EL1×3seed채점. 문헌/자료/subset/interaction/CH2원검증/미사용1회/전범위보고·사용자요청 의미있는선별정리파일 미완료. 완료파일검증뒤goalcomplete/현재active·제출·GPU0.
+
+
+- checkpoint28 후속 독립 actualfresh 비평 완료: critique_ORIGINAL_fresh_receipt_actual_v2.md에서243핀/raw81 exact명단·SHA/PFN5·6 output↔audit SHA 및현재소스 일치 확인/새핵심blocker0. 첫fold freshreplay에한정하고 독립refit/원66전체/mix·SG2/fullgate 아님. 두 CPUworker는기존handles로계속 확인하며 목표미완료.
+
+- checkpoint28 최신 직접poll: raw30413 running/DIAG2seed47 D05PASS. PFN64416 running/DIAG1context5PASSmax0/255.0s→context6fit. producer완료context5/264(첫fold4+둘째fold1),독립freshreceipt는firstfoldctx5/6 두문맥범위유지. 원66전체/성능판정미완료.

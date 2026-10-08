@@ -1,0 +1,30 @@
+{
+  "status": "SYNTHETIC_ASSEMBLY_STORAGE_PASS_NOT_FULL_MODEL_GATE",
+  "checks": [
+    "second writer refused",
+    "complete pair exact fresh resume preserves bytes",
+    "prediction mismatch refused and preserved",
+    "prediction-only partial resumed with preserved bytes SHA",
+    "matching audit-only partial resumed",
+    "wrong audit refused BEFORE missing prediction write",
+    "invalid JSON preserved",
+    "global complete exact resume preserves bytes",
+    "boolean versus integer mismatch rejected",
+    "owned writer lock removed after success",
+    "owned writer lock removed after exception"
+  ],
+  "check_count": 11,
+  "executed_sources_sha256": {
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\audit_original_assembly_checkpoint_v2.py": "cecb0b2aa442850d1cffd0f5bea2b63c83de8d4c53ce4ccfed37d36619e175d5",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\original_assembly_checkpoint_v1.py": "95c4103aa0b1b01260f2b1833efd859da02ab95c8453bd049eabd8d7bfea83ed",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\checkpoint_v1.py": "8ce638fdf266341a3b7b81da332d9a5e852fc2403dfc728fe48a2dd76510e000",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\checkpoint_v2.py": "1913c10579f63c89c7c64b247a12771574cd1acff4891de0e23e7a15b58beb71"
+  },
+  "model_fit": false,
+  "heldout_truth_read": false,
+  "whole_pipeline_gate_passed": false,
+  "limits": [
+    "No actual process crash or simultaneous two-process race injected",
+    "No original66 assembly or numeric/model/causality gate"
+  ]
+}

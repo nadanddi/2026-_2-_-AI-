@@ -1,0 +1,24 @@
+{
+  "status": "FIRST_ORIGINAL_PFN_CONTEXT_METADATA_PASS_NOT_FULL_MODEL_GATE",
+  "prediction_sha256": "2726725a024d049dd45aa0f5d65e95dd355a30221397d7ee1d14ffe742d6b9b6",
+  "audit_sha256": "28cd08b9c16e6f9cdf718d47f1486c9815a20794b5df7220ee84e133dc7fdf38",
+  "driver_registration_sha256": "9db2f28da058d79d6f1eb84a27df3fc4fc5d97bf5e58a72674c1a27c0e0f3d68",
+  "producer_registration_sha256": "5325bfd2f296e4c91f017f2875f06dd058986c0b009bdda67623e5c270a8d1cc",
+  "query_rows": 912,
+  "reference_context_rows": 2000,
+  "numeric_checks": 21,
+  "max_difference": 0.0,
+  "preprocessing_fit_trace_entries": 4,
+  "prediction_trace_entries": 116,
+  "cache_unchanged": true,
+  "GPU_used": false,
+  "heldout_truth_read": false,
+  "model_fit": false,
+  "whole_pipeline_gate_passed": false,
+  "code_sha256": "b393ccecb97540994fc2e54a55d39000ffd887683134da2bd0d0a623ff2f2ba4",
+  "limits": [
+    "One completed context only, not original264 completion",
+    "Saved matrix/label digests checked structurally, not fresh numerical reconstruction",
+    "No independent model refit or mixed postprocessing/score gate"
+  ]
+}

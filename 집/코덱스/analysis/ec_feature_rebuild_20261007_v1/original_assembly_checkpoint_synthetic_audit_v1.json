@@ -1,0 +1,24 @@
+{
+  "status": "SYNTHETIC_ASSEMBLY_STORAGE_PASS_NOT_FULL_MODEL_GATE",
+  "checks": [
+    "second writer refused",
+    "complete pair exact fresh resume preserves bytes",
+    "prediction mismatch refused and preserved",
+    "prediction-only partial resumed with preserved bytes SHA",
+    "matching audit-only partial resumed",
+    "wrong audit refused BEFORE missing prediction write",
+    "invalid JSON preserved",
+    "global complete exact resume preserves bytes",
+    "boolean versus integer mismatch rejected",
+    "owned writer lock removed after success",
+    "owned writer lock removed after exception"
+  ],
+  "check_count": 11,
+  "model_fit": false,
+  "heldout_truth_read": false,
+  "whole_pipeline_gate_passed": false,
+  "limits": [
+    "No actual process crash or simultaneous two-process race injected",
+    "No original66 assembly or numeric/model/causality gate"
+  ]
+}

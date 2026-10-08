@@ -1,0 +1,102 @@
+{
+  "status": "PF1_PF2_METADATA_AVAILABLE_NOT_CAUSAL_GATE_OR_SCORE",
+  "source_sha256": {
+    "C:\\work\\farmai\\집\\클로드\\research\\local\\ec3_PF1_all.csv": "c3cb80318c9612fe79be486c1caf5e3f6b02bc78188f3dd3c647eaa3d764ce5e",
+    "C:\\work\\farmai\\집\\클로드\\research\\local\\ec3_PF2_all.csv": "affee566b3868ceb50ba7e8e24bf95e2af37f913fde0bad75f9e52cc3f1fde3b",
+    "C:\\work\\farmai\\집\\클로드\\research\\ec3_PF1_tabpfn_upgrade_v1.py": "c94aa2822d2cab6e4eef6e35b5d8bd6ae9275ae6d62cf309f88a070e69998b3d",
+    "C:\\work\\farmai\\집\\클로드\\research\\ec3_PF2_anchor_difference_features_v1.py": "b5dd67b10303c1c43872fa1144dea98714a4bef86c69a51b9772988450c538d0",
+    "C:\\work\\farmai\\집\\클로드\\research\\ec3_AF0_anchor_features_v1.py": "cbeda33b98f754155e8b9e7e8fe514c56f39ea3a5e24848538615808b19ef86e",
+    "C:\\work\\farmai\\집\\클로드\\research\\ec3_SG2_reference_knn_level_v1.py": "8ab8a254f5989958693165df2fe6cad0a813220d2464ead6393e6067c93c8c88",
+    "C:\\work\\farmai\\집\\클로드\\research\\ec2_DC4_exact_twin_anchor_v1.py": "15d25a8280d45980e15afab1b6675505104474f8ac73a94e288647e60d79b1d5",
+    "C:\\work\\farmai\\집\\클로드\\research\\env_extra_gpu.py": "284ec34eb22060cb7c0454436841b2e0378de3e02fbd80bc33cd8f623b8c8066",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\original_validator_endpoint_registry_v1.json": "d72c7b0fdfd61ba45abcd3386a7bf43302b2635a8aebc9b7adb333fb939b191d",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\fold_registry_v1.json": "8bd163ad64c30b25af48a615921814068be40f355f8e1995b39c010aa6a79c43",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\inspect_CLAUDE_PF_outputs_v3.py": "97eefa91cad1d83b0df1a2ac994bc3bcc390bd05c4b4ff3bbab6b94f83f7f357"
+  },
+  "outputs": [
+    {
+      "name": "PF1",
+      "rows": 10848,
+      "folds": 66,
+      "validator_rows": {
+        "DIAG10": 8640,
+        "EL1": 1104,
+        "P2LOO": 1104
+      },
+      "TM_rows": 2664,
+      "complete_expected_metadata": true,
+      "missing_expected_rows": 0,
+      "missing_expected_keys": [],
+      "prediction_columns": [
+        "pfnA",
+        "pfnB",
+        "pfnC",
+        "pfnD"
+      ],
+      "target_values_converted": 0,
+      "metadata_and_finite_predictions_pass": true
+    },
+    {
+      "name": "PF2",
+      "rows": 10848,
+      "folds": 66,
+      "validator_rows": {
+        "DIAG10": 8640,
+        "EL1": 1104,
+        "P2LOO": 1104
+      },
+      "TM_rows": 2664,
+      "complete_expected_metadata": true,
+      "missing_expected_rows": 0,
+      "missing_expected_keys": [],
+      "prediction_columns": [
+        "pfnA",
+        "pfnB",
+        "pfnC",
+        "pfnD",
+        "pfnE"
+      ],
+      "target_values_converted": 0,
+      "metadata_and_finite_predictions_pass": true
+    }
+  ],
+  "shared_keys_compared": 10848,
+  "shared_prediction_bound_max_differences": {
+    "pfnA": 4.440892098500626e-16,
+    "pfnB": 4.440892098500626e-16,
+    "pfnC": 4.440892098500626e-16,
+    "pfnD": 4.440892098500626e-16,
+    "lo": 0.0,
+    "hi": 0.0,
+    "et_47": 0.0,
+    "lgb_47": 0.0,
+    "mlp_47": 0.0,
+    "et_1414": 0.0,
+    "lgb_1414": 0.0,
+    "mlp_1414": 0.0,
+    "et_6464": 0.0,
+    "lgb_6464": 0.0,
+    "mlp_6464": 0.0
+  },
+  "targets_numeric_conversion": 0,
+  "model_fit": false,
+  "GPU_used": false,
+  "score_recomputed": false,
+  "adoption_permitted": false,
+  "lineage": {
+    "PF1_D": "FULL38 plus7 AF0 anchor summaries, search over general training reference records",
+    "PF2_E": "PF1_D plus7 differences in observed 0..h means relative to an anchor",
+    "proposed_CH2": "Label-informed graph plus same-block fixedleft3/right3 input signature; no general-reference search"
+  },
+  "source_review_pending": [
+    "Research SG2 preparation globally standardizes pass1 weather before fold exclusions",
+    "PF reference uses labset minus validation rather than exact purged train IDs",
+    "Default TabPFN fit/predict cache policy and execution environment fingerprints need strict audit",
+    "Comparison blend source has no final SG2 call, so it is not the registered cached SG2 baseline"
+  ],
+  "limits": [
+    "Complete-looking CSV metadata cannot prove legal feature generation or model completion receipts",
+    "CSV reader and file hash read target strings/bytes but no target values were numerically interpreted or scored",
+    "No PF1/PF2 performance conclusion; no duplicate model or generic neighbor fit run"
+  ]
+}

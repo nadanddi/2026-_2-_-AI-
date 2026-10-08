@@ -1,0 +1,19 @@
+{
+  "status": "SYNTHETIC_KERNEL_PASS_NOT_FULL_PIPELINE_GATE",
+  "rows": 96,
+  "decimal_stage_checks": 384,
+  "maximum_difference": 2.220446049250313e-16,
+  "future_other_farm_poison_probes": 10,
+  "invalid_inputs_rejected": 15,
+  "sources_sha256": {
+    "audit_original_postprocess_kernel_v1.py": "c36656f921b4bf072cc8c1f4659b15dd228b4e0fb6b43e6b7eef45e25ebe58e3",
+    "original_postprocess_kernel_v1.py": "9982fb0d939531ed2c78c43851925666710d41c340341c55b6acb65ab8ed5a67"
+  },
+  "model_fit": false,
+  "heldout_truth_read": false,
+  "full_pipeline_gate_passed": false,
+  "limits": [
+    "Synthetic callback only; no actual SG2 choice reconstruction",
+    "Producer model/matrix/receipt validation and scoring registration remain mandatory"
+  ]
+}

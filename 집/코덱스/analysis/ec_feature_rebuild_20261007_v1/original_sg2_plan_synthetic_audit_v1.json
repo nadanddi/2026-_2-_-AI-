@@ -1,0 +1,24 @@
+{
+  "status": "SYNTHETIC_ORIGINAL_SG2_ADAPTER_PASS_NOT_ACTUAL_SG2_OR_FULL_GATE",
+  "source_scalar_checks": 5,
+  "invalid_contracts_rejected": 12,
+  "maximum_source_difference": 0.0,
+  "lazy_cache_reuse": true,
+  "pass1_selection_skipped": true,
+  "actual_SG2_constructor_called": false,
+  "sources_sha256": {
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\original_sg2_plan_v1.py": "05ea9ab14311243f7309ee26b1bfee3834b05e45f63e749c6dce1dd373e82d63",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\blk_sg2_refonly_v1.py": "a3dc5ad3e1dbfa5e73d3cf36e6f507f6bfcb5d5b0ce9ab5da5d6d036962f20a0",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\blk_sg2_refonly_v2.py": "244ca4e77d8f64134a652a72de92d5a9c004cf87df777d96b2808139a20be3bb",
+    "C:\\work\\farmai\\집\\클로드\\submission14_ec_sg2\\sg2post.py": "e942ebbae3cfeaf945dbd0c8916713745b126ade99d95d01c027bfb15deed1e1",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\original_postprocess_kernel_v2.py": "4e69853e2f929bb78d234da7c2cfacae7605532e81fa9d13608c77a33585ab8d",
+    "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_feature_rebuild_20261007_v1\\audit_original_sg2_plan_v1.py": "a4cf10ff50d8cc651bd4f62d65c9b7dd25a00832c2dd830214d94a345832ebce"
+  },
+  "heldout_truth_read": false,
+  "model_fit": false,
+  "whole_pipeline_gate_passed": false,
+  "limits": [
+    "Oracle is synthetic; actual reference selection and context source boundaries not tested",
+    "Original66 producer receipts and real all-row SG2/future-input checks remain mandatory"
+  ]
+}

@@ -1,0 +1,165 @@
+<title>딸기 배지 예측 자문 질문지</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<style>
+/* 레이아웃: 한 줄 읽기 문서. 왼쪽 여백에 절 표지, 질문은 우선순위 번호와 '왜 묻는지'를 짝지음 */
+:root{
+  --bg:#f6f8f6; --surface:#ffffff; --fg:#1d2a24; --muted:#5b6b63; --line:#d6dfda;
+  --accent:#b8323f; --leaf:#2f6b4f; --note-bg:#fbf1f1;
+  --display:"Gowun Batang","Noto Serif KR",serif;
+  --body:"IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141a17; --surface:#1b231f; --fg:#e4ebe7; --muted:#9aaba2; --line:#2e3a34;
+  --accent:#e7717b; --leaf:#7fc3a0; --note-bg:#2a1c1e; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141a17; --surface:#1b231f; --fg:#e4ebe7; --muted:#9aaba2; --line:#2e3a34;
+  --accent:#e7717b; --leaf:#7fc3a0; --note-bg:#2a1c1e; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.75}
+.wrap{max-width:46rem;margin:0 auto;padding-inline:20px;padding-block:40px 72px}
+header{border-bottom:2px solid var(--fg);padding-bottom:20px;margin-bottom:8px}
+.eyebrow{font-size:.8rem;letter-spacing:.08em;color:var(--leaf);font-weight:600}
+h1{font-family:var(--display);font-size:clamp(1.7rem,4.5vw,2.3rem);line-height:1.3;margin:.3em 0 .4em;text-wrap:balance}
+.lede{color:var(--muted);margin:0}
+section{padding-top:36px}
+h2{font-family:var(--display);font-size:1.45rem;margin:0 0 .6em;display:flex;gap:.6em;align-items:baseline;text-wrap:balance}
+h2 .no{font-family:var(--body);font-size:.85rem;color:var(--accent);font-weight:600;letter-spacing:.04em}
+h3{font-size:1.02rem;margin:1.6em 0 .5em;color:var(--leaf);font-weight:600}
+p{margin:.5em 0}
+ul{margin:.4em 0;padding-left:1.2em}
+li{margin:.3em 0}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));gap:12px;margin:14px 0}
+.fact{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-width:0}
+.fact b{display:block;font-family:var(--display);font-size:1.35rem;font-variant-numeric:tabular-nums}
+.fact span{font-size:.85rem;color:var(--muted)}
+.tbl{overflow-x:auto;margin:10px 0}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:.82rem;letter-spacing:.03em}
+.tag{display:inline-block;font-size:.72rem;padding:1px 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted);margin-left:4px;white-space:nowrap}
+.tag.sure{border-color:var(--leaf);color:var(--leaf)}
+ol.q{list-style:none;padding:0;margin:0;counter-reset:q var(--start,0)}
+ol.q>li{counter-increment:q;display:grid;grid-template-columns:2.2rem 1fr;gap:4px 10px;padding:14px 0;border-bottom:1px solid var(--line)}
+ol.q>li::before{content:counter(q);font-family:var(--display);font-size:1.3rem;color:var(--accent);line-height:1.4}
+ol.q>li>div{min-width:0}
+.ask{font-weight:500}
+.why{font-size:.9rem;color:var(--muted);margin-top:4px}
+.why::before{content:"왜 묻나 · ";color:var(--leaf);font-weight:600}
+.pri{font-size:.72rem;font-weight:600;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:0 7px;margin-left:6px;vertical-align:2px}
+.note{background:var(--note-bg);border-left:3px solid var(--accent);padding:12px 16px;margin:18px 0;font-size:.93rem}
+footer{margin-top:40px;font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">제1회 전국 농과계 대학 농업 AI 경진대회 · 정형데이터</div>
+  <h1>딸기 온실 배지 온도·EC 예측 — 연구사님께 여쭤볼 것</h1>
+  <p class="lede">미션과 데이터 설명, 지금까지 데이터에서 확인한 상황, 여쭤볼 질문 순서로 정리했습니다. 질문은 예측 성능에 영향이 큰 것부터 적었습니다.</p>
+</header>
+
+<section>
+<h2><span class="no">1</span>미션과 데이터</h2>
+<p>딸기 온실의 <b>1시간 단위 환경·구동기 기록</b>으로 <b>같은 1시간의 평균 배지 온도(℃)와 평균 배지 EC(dS/m)</b>를 추정하는 회귀 문제입니다.</p>
+<div class="facts">
+  <div class="fact"><b>1,440</b><span>예측할 시간 수 (온실 2곳, 60일치)</span></div>
+  <div class="fact"><b>51곳</b><span>학습 자료 온실 수 (약 31만 시간)</span></div>
+  <div class="fact"><b>19개</b><span>입력 변수 (환경 8 + 구동기 11)</span></div>
+  <div class="fact"><b>RMSE</b><span>온도·EC 각각 순위, 50:50 평균</span></div>
+</div>
+<h3>입력 변수</h3>
+<div class="tbl"><table>
+<tr><th>구분</th><th>변수</th></tr>
+<tr><td>외부 환경</td><td>온도, 상대습도, 일사(W/m²), 풍속</td></tr>
+<tr><td>내부 환경</td><td>온도, 상대습도, CO₂ 농도, 일사 <span class="tag">내부 일사는 평가 온실에 없음</span></td></tr>
+<tr><td>구동기</td><td>천창·측창 개폐율, 차광·보온 커튼 개폐율, 밸브 설정값, 난방(팬·펌프 가동비율 중 최댓값), 유동팬·CO₂ 공급·포그·냉방·양액 펌프 가동비율</td></tr>
+</table></div>
+<h3>주어지지 않는 것</h3>
+<ul>
+  <li>실제 달력 날짜, 온실별 세부 정보(작형, 품종, 배지 종류, 센서 위치 등)</li>
+  <li>급액량, 급액 EC, 배액 정보. 양액 펌프·측창·밸브·냉방·내부 일사는 평가 온실에서 <b>전부 비어 있음</b></li>
+  <li>배지 EC 정답은 평가 대상인 <b>두 온실(F13, F47)에만</b> 있음. 나머지 49곳은 배지 온도 정답만 있음</li>
+</ul>
+<h3>규칙</h3>
+<p>예측할 때는 같은 온실의 <b>그 시각과 이전 시각 입력만</b> 쓸 수 있습니다. 이후 시각의 입력이나 평가 정답은 쓸 수 없습니다.</p>
+</section>
+
+<section>
+<h2><span class="no">2</span>데이터에서 확인한 상황</h2>
+<p>저희가 데이터를 직접 분석해서 확인한 내용입니다. <span class="tag sure">확인</span>은 수치로 직접 확인한 것, <span class="tag">추정</span>은 해석이 들어간 것입니다.</p>
+
+<h3>기록이 만들어진 방식</h3>
+<ul>
+  <li><b>한 온실 기록 안에 서로 다른 기록 여러 개의 하루치가 번갈아 들어 있습니다.</b> 외부 날씨가 24시간 똑같은 날이 바로 붙은 두 일차로 자주 나오고, 그 두 날의 실내 온도·EC는 서로 다릅니다. 자정마다 배지 온도와 실내 값이 크게 튀는데, 다른 온실보다 2~3배 큽니다. 평가 자료에도 같은 구조가 있습니다. <span class="tag sure">확인</span></li>
+  <li>그래서 한 온실 안 여러 동이나 구역의 기록이 날 단위로 섞인 것으로 보고 있습니다. <span class="tag">추정</span></li>
+  <li>일차 번호는 시간 순서가 아닙니다. 앞쪽 약 178일은 같은 날짜의 두 기록이 나란히 놓여 있고, 그 뒤는 남은 날을 다시 배치한 것으로 보입니다. 평가할 날은 전부 뒤쪽 구간에 있습니다. <span class="tag sure">확인</span></li>
+  <li>기록마다 운전 방식(난방이 켜지는 실내 온도, 커튼·팬 운전)이 달라서, 하루 전체 운전 패턴을 보면 어느 기록인지 거의 가를 수 있습니다(같은 날짜 짝 98%). <span class="tag sure">확인</span></li>
+</ul>
+
+<h3>배지 EC</h3>
+<ul>
+  <li>EC는 하루 평균 수준이 변동의 대부분(95%)을 차지하고, 하루 안 변화는 작습니다. <span class="tag sure">확인</span></li>
+  <li>예측 오차의 대부분은 <b>EC가 높게 튀는 날</b>에서 나옵니다. EC 1.5 이상인 5%의 시간이 오차의 63%를 차지합니다. <span class="tag sure">확인</span></li>
+  <li>EC가 높은 날은 <b>천창이 닫혀 있고 유동팬도 거의 멈춘 날</b>과 겹칩니다. 이런 날은 평균 EC 0.99, 나머지 날은 0.44입니다. 평가 기간에는 이런 날이 약 1/3입니다. <span class="tag sure">확인</span></li>
+  <li>EC가 높은 값은 2~3일 간격으로 한 번씩 튀는 모양입니다. <span class="tag sure">확인</span></li>
+  <li>배지 EC 값은 배지 온도가 1℃ 오를 때 약 2% 오릅니다. 온도 보정 전의 원래 측정값으로 보입니다. <span class="tag">추정</span></li>
+  <li>같은 기록의 전날 EC를 알면 오차가 크게 줄어듭니다(약 0.14 → 0.05 dS/m). 그런데 입력만으로는 평가할 날이 어느 기록의 다음 날인지 정하기가 어렵습니다. <b>지금 가장 큰 걸림돌입니다.</b></li>
+</ul>
+
+<h3>배지 온도</h3>
+<ul>
+  <li>평가 기간이 학습 기간보다 춥습니다. 실내 평균 13.3℃로, 학습은 15.9℃입니다. 평가 시간의 약 15%가 실내 8℃ 미만입니다. <span class="tag sure">확인</span></li>
+  <li>배지 온도는 실내 공기 온도를 약 3시간 늦게 따라가고, 공기보다 평균 약 0.8℃ 낮습니다. <span class="tag sure">확인</span></li>
+  <li>추운 밤에도 배지가 공기를 그대로 따라 내려가서(가장 추운 밤 배지 4~5℃), 근권(베드) 난방 흔적은 보이지 않습니다. <span class="tag">추정</span></li>
+</ul>
+</section>
+
+<section>
+<h2><span class="no">3</span>여쭤볼 질문</h2>
+<p><span class="pri">우선</span> 표시는 답에 따라 분석 방향이 바로 바뀌는 질문입니다.</p>
+
+<h3>A. 기록 구조</h3>
+<ol class="q" style="--start:0">
+  <li><div><div class="ask">한 온실 안에 여러 동·베드·구역이 있고 구역마다 기록을 따로 남기는 경우가 흔한가요? 구역마다 급액 설정(급액 EC, 급액 횟수)이나 처리를 다르게 하기도 하나요?<span class="pri">우선</span></div>
+  <div class="why">같은 날짜 기록이 두 개씩 있고 EC 수준이 서로 다릅니다. 처리구라면 구역별 EC 차이가 일정하게 유지될 것이고, 그걸 이용할 수 있습니다.</div></div></li>
+  <li><div><div class="ask">같은 온실 안 구역끼리 난방 설정 온도, 커튼·팬 운전 방식이 다를 수 있나요? 한 구역의 운전 방식은 며칠 동안 같게 유지되나요?<span class="pri">우선</span></div>
+  <div class="why">운전 패턴으로 기록을 가르고 있는데, 같은 구역의 운전 방식이 날이 바뀌어도 유지되는지 알아야 전날을 찾는 단서로 쓸 수 있습니다.</div></div></li>
+  <li><div><div class="ask">복합환경제어기 기록은 보통 어떤 단위로 모이고 정리되나요? 한 제어기가 여러 구역을 맡거나, 센서 한 세트를 여러 구역이 같이 쓰는 경우가 있나요?</div>
+  <div class="why">외부 날씨는 두 기록이 같고 실내 값만 다릅니다. 무엇을 공유하고 무엇을 따로 재는지 알면 구조를 정확히 이해할 수 있습니다.</div></div></li>
+</ol>
+
+<h3>B. 배지 EC</h3>
+<ol class="q" style="--start:3">
+  <li><div><div class="ask">배지 EC는 보통 어떤 센서로 어디서 재나요? (배지 속 깊이, 슬라브 가운데·끝, 배액 EC인지) 센서 교정이나 교체는 얼마나 자주 하나요?<span class="pri">우선</span></div>
+  <div class="why">설명되지 않는 갑작스러운 수준 변화가 센서 교정·교체 때문일 수 있는지 판단하려는 것입니다.</div></div></li>
+  <li><div><div class="ask">배지 EC가 하루 평균 1.5~2 dS/m까지 오르는 날은 보통 어떤 날인가요? (급액을 줄이거나 멈춘 날, 양액 농도를 올린 날, 흐리거나 추운 날, 수확이 많은 시기 등)<span class="pri">우선</span></div>
+  <div class="why">EC 오차 대부분이 이런 날에서 나옵니다. 원인을 알면 입력 중 어떤 신호를 봐야 할지 정할 수 있습니다.</div></div></li>
+  <li><div><div class="ask">천창을 닫고 유동팬도 거의 멈춘 날 배지 EC가 높았습니다. 이런 날(추운 날, 흐린 날) 급액량이나 급액 횟수를 줄이는 것이 일반적인가요?</div>
+  <div class="why">밀폐된 날과 높은 EC의 연결이 급액 관리 때문인지, 다른 이유인지 구분하려는 것입니다.</div></div></li>
+  <li><div><div class="ask">EC가 2~3일 간격으로 한 번씩 높게 튀는 모양이 보입니다. 격일 급액, 배지 세척(물로만 흘려보내기) 같은 관리 주기와 관련이 있을까요?</div>
+  <div class="why">주기가 관리 일정 때문이라면 그 주기를 예측에 반영할 수 있습니다.</div></div></li>
+  <li><div><div class="ask">급액 시점은 보통 무엇으로 정하나요? (누적 일사, 타이머) 첫 급액은 몇 시쯤이고, 밤사이 배지 EC는 얼마나 변하나요?</div>
+  <div class="why">새벽 몇 시간의 입력만으로 그날 EC 수준을 짐작해야 하는 경우가 많아서, 하루 중 EC가 정해지는 시점을 알고 싶습니다.</div></div></li>
+  <li><div><div class="ask">생육 단계(정식 직후, 개화·착과, 수확기)에 따라 급액 EC 설정을 대략 어느 범위로 바꾸나요?</div>
+  <div class="why">날짜 정보가 없어서, EC 수준이 계절·생육 단계로 얼마나 설명되는지 가늠하려는 것입니다.</div></div></li>
+</ol>
+
+<h3>C. 배지 온도</h3>
+<ol class="q" style="--start:8">
+  <li><div><div class="ask">배지 온도 센서는 보통 어디에 꽂나요? 이런 온실에서 근권(베드) 난방이나 배지 아래 난방관을 쓰는 경우가 있나요?</div>
+  <div class="why">배지가 공기보다 0.8℃ 낮고 추운 밤에도 공기를 그대로 따라갑니다. 이게 센서 위치 때문인지 난방 방식 때문인지 확인하려는 것입니다.</div></div></li>
+  <li><div><div class="ask">실내가 8℃ 아래로 내려가는 추운 밤에는 보온커튼과 난방을 보통 어떻게 운영하나요?</div>
+  <div class="why">평가 기간이 학습보다 추워서, 학습 자료에 거의 없는 조건을 일반 지식으로 보완하려는 것입니다.</div></div></li>
+</ol>
+
+<h3>D. 구동기 변수</h3>
+<ol class="q" style="--start:10">
+  <li><div><div class="ask">'밸브 설정값(0~100)'은 보통 어떤 밸브인가요? (난방수 혼합 밸브, 양액 밸브 등) '난방 팬·펌프 가동비율'은 실제 난방량과 얼마나 관계가 있나요?</div>
+  <div class="why">설명서에 정의가 짧게만 있어서, 변수를 어떻게 해석할지 정하려는 것입니다.</div></div></li>
+</ol>
+
+<div class="note"><b>자문받을 때 지킬 것.</b> 운영진은 이전 대회 데이터를 쓴 팀에 감점을 준다고 했습니다. 일반적인 재배·관리 지식만 여쭙고, 해당 현장의 실제 기록이나 파일은 받지 않습니다. 자문 내용은 최종 제출자료의 자료 사용 내역에 적을 수 있게 기록해 둡니다.</div>
+</section>
+
+<footer>집 클로드 작성 · 2026-10-08 · 근거: 정형데이터 문제설명서, 팀 데이터 단서 카탈로그(1.1~1.16, 5절, 6.1~6.27, 6.425)</footer>
+</div>
