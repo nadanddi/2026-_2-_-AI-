@@ -1,0 +1,51 @@
+{
+  "status": "EXECUTION_COMPLETED_COMPARE_PENDING",
+  "pid": 21348,
+  "python": "3.12.10",
+  "python_exe": "C:\\Users\\0317\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "torch": "2.14.0+cpu",
+    "tabpfn": "9.0.0"
+  },
+  "module_paths": {
+    "env": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\env.py",
+    "common": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\common.py",
+    "numpy": "C:\\work\\farmai\\.analysis-tools\\python\\numpy\\__init__.py",
+    "pandas": "C:\\work\\farmai\\.analysis-tools\\python\\pandas\\__init__.py",
+    "scipy": "C:\\work\\farmai\\.analysis-tools\\python\\scipy\\__init__.py",
+    "sklearn": "C:\\work\\farmai\\.analysis-tools\\python\\sklearn\\__init__.py",
+    "lightgbm": "C:\\work\\farmai\\.analysis-tools\\python\\lightgbm\\__init__.py",
+    "torch": "C:\\work\\farmai\\.analysis-tools\\extra\\torch\\__init__.py",
+    "tabpfn": "C:\\work\\farmai\\.analysis-tools\\extra\\tabpfn\\__init__.py"
+  },
+  "source_sha": "e10c6e2d21640269c94403e133391d96ca427196cda2a54222055fb52bdb3c34",
+  "wrapper_sha": "25b6c2bdae29a4d4835de040a02fadf6d1334c125e0d2aa4bbb54bfdebad7de5",
+  "checkpoint_sha": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736",
+  "cache": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\model_cache",
+  "torch_threads": 6,
+  "source_changed": false,
+  "output": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\fresh_output_v1",
+  "start_utc": "2026-10-08T14:03:23Z",
+  "new_submission": false,
+  "seconds": 1594.4680000000008,
+  "output_files": {
+    "temp_candidate_v13.csv": "3a31aed9cc16d77e38c3c566ca6cd3d1d0273bc6c2330964d7068d784c473612",
+    "temp_candidate_v13.json": "5becfcdc52ec7ae96cf0dd8443dd39fb2d30baa5724b476dc9647081b7f005b4",
+    "temp_candidate_v13_members.npz": "288c9a3eba71b0122a98bae97c20a9d29c7efbad131d48b6ae09d8a8275821aa"
+  },
+  "project_module_paths": {
+    "common": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\common.py",
+    "env": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\env.py",
+    "harness": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\harness.py",
+    "train_flags_v6": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\train_flags_v6.py",
+    "make_submission_v3": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\make_submission_v3.py",
+    "make_submission_v7": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\make_submission_v7.py",
+    "resid_reset_features": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\resid_reset_features.py",
+    "temp_mask_v1": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\temp_mask_v1.py"
+  }
+}

@@ -1,0 +1,26 @@
+RUNTIME_READY {"status": "RUNNING_ORIGINAL_PACKAGED_TEMPERATURE_SCRIPT", "pid": 21348, "python": "3.12.10", "python_exe": "C:\\Users\\0317\\AppData\\Local\\Programs\\Python\\Python312\\python.exe", "versions": {"numpy": "2.5.3", "pandas": "3.0.1", "scipy": "1.18.1", "sklearn": "1.9.1", "lightgbm": "4.7.0", "torch": "2.14.0+cpu", "tabpfn": "9.0.0"}, "module_paths": {"env": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\env.py", "common": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\extracted\\팜모니_정형데이터_재현패키지\\온도\\code\\common.py", "numpy": "C:\\work\\farmai\\.analysis-tools\\python\\numpy\\__init__.py", "pandas": "C:\\work\\farmai\\.analysis-tools\\python\\pandas\\__init__.py", "scipy": "C:\\work\\farmai\\.analysis-tools\\python\\scipy\\__init__.py", "sklearn": "C:\\work\\farmai\\.analysis-tools\\python\\sklearn\\__init__.py", "lightgbm": "C:\\work\\farmai\\.analysis-tools\\python\\lightgbm\\__init__.py", "torch": "C:\\work\\farmai\\.analysis-tools\\extra\\torch\\__init__.py", "tabpfn": "C:\\work\\farmai\\.analysis-tools\\extra\\tabpfn\\__init__.py"}, "source_sha": "e10c6e2d21640269c94403e133391d96ca427196cda2a54222055fb52bdb3c34", "wrapper_sha": "25b6c2bdae29a4d4835de040a02fadf6d1334c125e0d2aa4bbb54bfdebad7de5", "checkpoint_sha": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736", "cache": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\model_cache", "torch_threads": 6, "source_changed": false, "output": "C:\\work\\farmai\\연구실\\코덱스\\local\\temp_round9_reproduction_20261008_v1\\fresh_output_v1", "start_utc": "2026-10-08T14:03:23Z", "new_submission": false}
+C:\work\farmai\연구실\코덱스\local\temp_round9_reproduction_20261008_v1\extracted\팜모니_정형데이터_재현패키지\온도\code\make_submission_v13_temp.py:112: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test = test.set_index("row_id").loc[sX.row_id].reset_index()
+C:\work\farmai\연구실\코덱스\local\temp_round9_reproduction_20261008_v1\extracted\팜모니_정형데이터_재현패키지\온도\code\make_submission_v13_temp.py:122: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test["cx__" + c] = CF_full.loc[test.row_id, c].values
+train rows 9600 (down-weighted 2341) | test rows 1440 | base cols 135 | codex cols 89
+  base done (24s)
+  codex done (25s)
+  tabpfn sample 1 done (224s)
+  tabpfn sample 2 done (417s)
+  tabpfn sample 3 done (604s)
+  tabpfn sample 4 done (792s)
+  tabpfn sample 5 done (982s)
+  tabpfn sample 6 done (1168s)
+  tabpfn sample 7 done (1355s)
+  tabpfn sample 8 done (1543s)
+
+wrote C:\work\farmai\연구실\코덱스\local\temp_round9_reproduction_20261008_v1\fresh_output_v1\temp_candidate_v13.csv
+vs submission_06 temp: RMS change 0.2684, mean -0.0624, min -1.377, max +1.139
+member means: base 12.632 codex 12.561 tabpfn 12.679 | gate<1 rows 431 (<=8C: 215)
+tabpfn sample spread (row-wise std, mean): 0.1651
+base vs round-5 temp RMS diff: 0.0994 (MASK world + same recipe)
+wrote temp_candidate_v13.json
+C:\work\farmai\연구실\코덱스\analysis\temp_round9_reproduction_20261008_v1\run_v1.py:39: DeprecationWarning: Importing from 'tabpfn.model.loading' is deprecated and will be removed in a future release; import from 'tabpfn.model_loading' instead.
+  receipt.update(status='EXECUTION_COMPLETED_COMPARE_PENDING',seconds=time.monotonic()-start,output_files={p.name:sha(p) for p in OUT.iterdir() if p.is_file()},project_module_paths={n:str(m.__file__) for n,m in sys.modules.items() if getattr(m,'__file__',None) and n in ['env','common','harness','resid_reset_features','temp_mask_v1','train_flags_v6','make_submission_v3','make_submission_v7']})
+EXECUTION_COMPLETED 1594.4680000000008

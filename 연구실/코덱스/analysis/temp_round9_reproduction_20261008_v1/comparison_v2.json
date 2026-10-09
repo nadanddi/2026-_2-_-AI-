@@ -1,0 +1,108 @@
+{
+  "status": "EXECUTED_BUT_NOT_EXACT_TEMPERATURE_REPRODUCTION",
+  "rows": 1440,
+  "strict_six_decimal_match": false,
+  "changed_temperature_rows_vs_round9": 1223,
+  "changed_temperature_rows_vs_zip_reference": 1223,
+  "max_abs_csv_diff": 0.00459499999999835,
+  "rms_csv_diff": 0.0007201695836166534,
+  "raw_prediction_vs_rounded_reference_max_abs": 0.004595037056651208,
+  "mixture_formula_exact": true,
+  "gate_matches_official_test_input": true,
+  "row_order_exact": true,
+  "npz_ids_exact": true,
+  "scalar_fsum_mixture_max_abs_diff": 0.0,
+  "new_temperature_models_run": true,
+  "pfn_context_predictions": 8,
+  "source_preserved": true,
+  "input_source_sha_preserved": true,
+  "file_bytes_equal_zip_reference": false,
+  "file_bytes_equal_round9_whole_csv": false,
+  "scope": "temperature only; generated auxiliary EC is original script copy of submission04, not round9 EC reproduction",
+  "extra_temp_v13_checks_executed": false,
+  "evaluation_label_access": false,
+  "platform_score_reproduced": false,
+  "python": "3.12.10",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "torch": "2.14.0+cpu",
+    "tabpfn": "9.0.0"
+  },
+  "seconds": 1594.4680000000008,
+  "cache_files_sha": {
+    "tabpfn-v2-regressor.ckpt": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736"
+  },
+  "files_sha": {
+    "generated_csv": "3a31aed9cc16d77e38c3c566ca6cd3d1d0273bc6c2330964d7068d784c473612",
+    "generated_members": "288c9a3eba71b0122a98bae97c20a9d29c7efbad131d48b6ae09d8a8275821aa",
+    "zip_reference_csv": "c899e563f4395802b4657d3a9a30ff0a6a52a4b500a59534e45c8886dbf2050f",
+    "round9_csv": "f2fe5cf7e5299c2c0f2ac39f0e071066744b0c75ea19e1d7dff1e3a6282ba18a",
+    "comparison_source": "4455a725bcf2e112a9b335cb3e88e7a24fab00c4552b7084b8f74f5a83df5243"
+  },
+  "largest_differences": [
+    {
+      "row_id": "F47_219_14",
+      "generated": "10.130420",
+      "submitted": "10.135015",
+      "difference": -0.00459499999999835
+    },
+    {
+      "row_id": "F47_221_15",
+      "generated": "11.383743",
+      "submitted": "11.388193",
+      "difference": -0.004449999999998511
+    },
+    {
+      "row_id": "F47_221_16",
+      "generated": "11.877996",
+      "submitted": "11.881931",
+      "difference": -0.003935000000000244
+    },
+    {
+      "row_id": "F47_219_12",
+      "generated": "8.699704",
+      "submitted": "8.703406",
+      "difference": -0.003701999999998762
+    },
+    {
+      "row_id": "F47_219_15",
+      "generated": "10.409304",
+      "submitted": "10.412941",
+      "difference": -0.0036369999999994462
+    },
+    {
+      "row_id": "F13_236_11",
+      "generated": "8.058807",
+      "submitted": "8.062225",
+      "difference": -0.003417999999999921
+    },
+    {
+      "row_id": "F13_237_11",
+      "generated": "11.526569",
+      "submitted": "11.529940",
+      "difference": -0.003370999999999569
+    },
+    {
+      "row_id": "F13_236_10",
+      "generated": "6.170346",
+      "submitted": "6.173522",
+      "difference": -0.0031759999999998456
+    },
+    {
+      "row_id": "F47_219_13",
+      "generated": "9.388572",
+      "submitted": "9.391713",
+      "difference": -0.0031409999999993943
+    },
+    {
+      "row_id": "F13_225_13",
+      "generated": "9.450871",
+      "submitted": "9.453898",
+      "difference": -0.003027000000001223
+    }
+  ]
+}

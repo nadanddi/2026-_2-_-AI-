@@ -1,0 +1,26 @@
+{
+  "status": "EXECUTED_NOT_EXACT",
+  "rows": 1440,
+  "changed_rows": 1223,
+  "max_abs_csv_diff": 0.00459499999999835,
+  "rms_csv_diff": 0.0007201695836166534,
+  "scalar_fsum_max_abs": 3.552713678800501e-15,
+  "gate_and_npz_ids_verified": true,
+  "zip_canonical_files_verified": 51,
+  "source_and_checkpoint_preserved": true,
+  "complete_member_logs": true,
+  "generated_equals_zip_reference_bytes": false,
+  "scope": "온도만 재현. 출력 EC는 submission04 복사. 평가정답/리더보드 채점 및 추가 temp_v13_checks 실행 없음.",
+  "python": "3.12.10",
+  "python_reference": "3.12.4",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "torch": "2.14.0+cpu",
+    "tabpfn": "9.0.0"
+  },
+  "verification_sha": "ace2f249016cd9f7d6ea730cf2867e78b3aec8a91dddeeb04745ca7489d9c800"
+}

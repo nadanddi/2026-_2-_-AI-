@@ -1,0 +1,32 @@
+{
+  "status": "PASS_REGISTERED_RECIPE_FIELDS",
+  "checks": {
+    "base.features": true,
+    "base.phys_features": true,
+    "base.member_weights": true,
+    "base.lgb_params": true,
+    "base.seeds": true,
+    "codex.features": true,
+    "codex.physics": true,
+    "codex.seeds": true,
+    "tabpfn.version": true,
+    "tabpfn.device": true,
+    "tabpfn.n_estimators": true,
+    "tabpfn.context_rows": true,
+    "tabpfn.samples": true,
+    "tabpfn.context_sampling": true,
+    "training_row_weights.restored_rows": true,
+    "training_row_weights.noisy_days": true,
+    "training_row_weights.n_downweighted": true,
+    "season_index.members": true,
+    "season_index.replaces": true,
+    "season_index.tables": true,
+    "season_index.sha256": true,
+    "name": true,
+    "inputs": true,
+    "formula": true,
+    "training_features": true,
+    "test_features": true
+  },
+  "count": 26
+}

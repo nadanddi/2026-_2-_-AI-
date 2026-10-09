@@ -1,0 +1,69 @@
+C:\work\farmai\연구실\코덱스\local\temp_round9_reproduction_20261008_v1\extracted\팜모니_정형데이터_재현패키지\온도\code\make_submission_v13_temp.py:112: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test = test.set_index("row_id").loc[sX.row_id].reset_index()
+C:\work\farmai\연구실\코덱스\local\temp_round9_reproduction_20261008_v1\extracted\팜모니_정형데이터_재현패키지\온도\code\make_submission_v13_temp.py:122: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test["cx__" + c] = CF_full.loc[test.row_id, c].values
+REPEAT_CONTEXT1_READY 2000 1440 no BASE/CODEX rerun
+{
+  "status": "PASS_IDENTICAL_FIRST_PFN_CONTEXT_REPEAT",
+  "context_seed": 1,
+  "full_query_rows": 1440,
+  "changed_raw_prediction_rows": 0,
+  "max_abs_raw_difference": 0.0,
+  "rms_raw_difference": 0.0,
+  "seconds": 239.51600000000326,
+  "predictive_context_fits": 1,
+  "source_changed": false,
+  "reference_temperature_used_for_fit": false,
+  "context_ids_sha": "bb5f8d327021dee2db0e4d7ab242b0f50d344a1f9790b4a3c24bd9af5a9a1dc6",
+  "features_sha": {
+    "Xtrain": "28ecc796c2076c3fc96f1b3df30e0f0965fe31cffdcce40b931f2b5503b939b1",
+    "Xtest": "6b7fa4080a01ef983121ab3fb390514ed39aaa003e5a444125c3456589a55f22"
+  },
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 6,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\work\\farmai\\.analysis-tools\\python\\numpy.libs\\libscipy_openblas64_-ed4f167a5330424524f45258e7ca2c8d.dll",
+      "version": "0.3.34.106.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "prefix": "vcomp",
+      "filepath": "C:\\work\\farmai\\.analysis-tools\\python\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 6,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\work\\farmai\\.analysis-tools\\python\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 6,
+      "prefix": "libiomp",
+      "filepath": "C:\\work\\farmai\\.analysis-tools\\extra\\torch\\lib\\libiomp5md.dll",
+      "version": null
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libiomp",
+      "filepath": "C:\\work\\farmai\\.analysis-tools\\extra\\torch\\lib\\libiompstubs5md.dll",
+      "version": null
+    }
+  ],
+  "limitation": "Within-current-environment first context only, not all members or original submission environment"
+}
