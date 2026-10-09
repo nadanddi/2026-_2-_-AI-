@@ -1,0 +1,83 @@
+{
+  "question": "AI허브 샘플과 대회 공개 샘플의 유사성",
+  "coverage": "AI허브 JPG340/JSON340 및 공개21; 전체 축소판과 공개21별 최근접 이미지 시각검토. 특징학습 없음",
+  "findings": [
+    {
+      "id": "F1",
+      "claim": "대회 실제3장과 AI허브 사진은 딸기 고설재배라는 내용 및 흰 재배통·관수선·금속 지지대·자갈바닥/근접구도가 상당히 유사하다",
+      "confidence": "중간(시각판단)",
+      "numbers": {
+        "public_real": 3,
+        "aihub": 340
+      },
+      "code": "run_v2.py profile + run_v3.py compare",
+      "evidence": "nearest_real_v1.jpg/nearest_real_top3_v1.jpg 및 all contact sheets",
+      "threat": "공개실제3장뿐; 시설 요소는 다른농장도 공유할 수 있어 동일농장·동일원본 주장불가"
+    },
+    {
+      "id": "F2",
+      "claim": "완전히 같은 파일·같은크기 픽셀 이미지 없음. 재가공 공통원본은 배제못함",
+      "confidence": "높음(완전중복 정의에 한정)",
+      "numbers": {
+        "cross_pairs": 7140,
+        "exact_byte": 0,
+        "exact_native_pixels": 0,
+        "exact_normalized_pixels": 0,
+        "min_cross_phash": 10,
+        "real_phash_nn": [
+          18,
+          22,
+          20
+        ],
+        "internal_aihub_nn_phash_median": 6
+      },
+      "code": "run_v2.py profile/run_v3.py compare/verify_v1.py",
+      "threat": "pHash는유효63bit 저수준특징, 크롭·재압축·변형에 민감; 6이하없음은 원본다름증거아님"
+    },
+    {
+      "id": "F3",
+      "claim": "AI허브 340장 전부 AIF005/금실, 정식기272/출뢰기68로 환경 범위가 좁고 유사한 연속촬영 장면 반복",
+      "confidence": "높음(메타데이터)/중간(시각반복)",
+      "numbers": {
+        "farm_count": 1,
+        "cultivar_count": 1,
+        "transplant": 272,
+        "budding": 68
+      },
+      "code": "run_v2.py profile/verify_v1.py",
+      "threat": "metadata는실제농장 출처 독립인증아님; 사진수340은독립장면수아님"
+    },
+    {
+      "id": "F4",
+      "claim": "대회전체 생성·합성·변형 유형18장 중 다른배경/잎밀도/생육상태의 사례가 있어 현재AI허브 샘플이 범위전체를 대표하지않음",
+      "confidence": "중간(공개샘플 시각비교)",
+      "numbers": {
+        "public_positive": 18,
+        "positive_types": 6
+      },
+      "code": "run_v3.py compare",
+      "evidence": "nearest_positive1/2/3_v1.jpg",
+      "threat": "의미embedding/모델효용미측정, 비공개평가대표성 판정불가"
+    },
+    {
+      "id": "F5",
+      "claim": "JSON규격과 실제디코딩크기 불일치3장, 실제파일크기로계산했으므로 거리결과영향없음",
+      "confidence": "높음",
+      "numbers": {
+        "mismatches": 3,
+        "json_total": 340
+      },
+      "code": "verify_v1.py",
+      "threat": "다른메타데이터 정확성은 외부확인안함"
+    }
+  ],
+  "conclusion": "촬영장면·구도 유사성은 높아 보이지만 같은원본은 입증되지않음. 실사진 후보자료로 검토가능하나 AI탐지학습 효용은 미측정.",
+  "no_claims": [
+    "유사도%",
+    "같은농장",
+    "같은원본",
+    "모델 성능개선",
+    "비공개평가 전체대표"
+  ],
+  "verification": "verification_v1.json fresh361 images/340 JSON, 7140 distances manual check PASS"
+}

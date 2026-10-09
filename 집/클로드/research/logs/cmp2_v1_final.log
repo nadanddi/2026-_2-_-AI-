@@ -1,0 +1,18 @@
+
+== P2LOO, pass-2 normal days (41 days)
+  ① R3, 고EC 제외 (0.083 방식)                    RMSE 0.0835  (seeds 0.0824 0.0847 0.0836)  bias -0.013
+  ② 전체 구성, 고EC 제외 (submission_15)            RMSE 0.0723  (seeds 0.0725 0.0732 0.0718)  bias -0.006
+  ③ R3, 고EC 포함                               RMSE 0.1447  (seeds 0.1444 0.1441 0.1462)  bias +0.040
+  ④ 전체 구성, 고EC 포함 (submission_14)            RMSE 0.1351  (seeds 0.1347 0.1348 0.1364)  bias +0.044
+
+== DIAG10, all normal days (334 days)
+  ① R3, 고EC 제외 (0.083 방식)                    RMSE 0.1135  (seeds 0.1134 0.1135 0.1139)  bias -0.020
+  ② 전체 구성, 고EC 제외 (submission_15)            RMSE 0.1116  (seeds 0.1115 0.1117 0.1118)  bias -0.017
+  ③ R3, 고EC 포함                               RMSE 0.1126  (seeds 0.1138 0.1117 0.1128)  bias +0.008
+  ④ 전체 구성, 고EC 포함 (submission_14)            RMSE 0.1109  (seeds 0.1119 0.1102 0.1111)  bias +0.009
+
+== DIAG10, pass-2 normal days (41 days)
+  ① R3, 고EC 제외 (0.083 방식)                    RMSE 0.1048  (seeds 0.1045 0.1046 0.1055)  bias -0.048
+  ② 전체 구성, 고EC 제외 (submission_15)            RMSE 0.0936  (seeds 0.0931 0.0944 0.0937)  bias -0.031
+  ③ R3, 고EC 포함                               RMSE 0.1299  (seeds 0.1321 0.1275 0.1309)  bias -0.013
+  ④ 전체 구성, 고EC 포함 (submission_14)            RMSE 0.1205  (seeds 0.1225 0.1182 0.1213)  bias -0.004

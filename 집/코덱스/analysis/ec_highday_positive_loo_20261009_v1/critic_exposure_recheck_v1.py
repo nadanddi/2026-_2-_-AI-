@@ -1,0 +1,8 @@
+from pathlib import Path
+import csv,json,math
+H=Path(__file__).resolve().parent;R=H.parents[3];old=R/'집/코덱스/analysis/ec_highday_classifier_20261009_v1';oldL=R/'집/코덱스/local'/old.name;reg=json.loads((H/'registration_v1.json').read_text(encoding='utf8'));oldreg=json.loads((old/'registration_v1.json').read_text(encoding='utf8'));meta=list(csv.DictReader((oldL/'metadata_public_v1.csv').open(encoding='utf8')));checks=[]
+for q in reg['folds']:
+ prev=next(t for t in oldreg['folds'] if t['name']=='DIAG10' and [q['farm'],q['day']] in t['query_days']);newset=set(q['train_indices']);oldset=set(prev['train_indices']);assert oldset<=newset
+ extra=newset-oldset;positive={(meta[i]['farm'],meta[i]['day']) for i in extra if int(meta[i]['high'])==1};ordinary={(meta[i]['farm'],meta[i]['day']) for i in extra if int(meta[i]['high'])==0};checks.append(dict(farm=q['farm'],day=q['day'],old_train_days=len(oldset)//24,new_train_days=len(newset)//24,old_train_high=prev['train_classes_days']['1'],new_train_high=q['train_high'],extra_positive_days=len(positive),extra_ordinary_days=len(ordinary)))
+result={'status':'INDEPENDENT_TRAIN_SUPERSET_PASS','query_days':len(checks),'both_positive_and_negative_may_increase':True,'checks':checks}
+p=H/'critic_exposure_recheck_v1.json';assert not p.exists();p.write_text(json.dumps(result,indent=2),encoding='utf8');print(json.dumps({'status':result['status'],'query_days':len(checks),'old_train_high_range':[min(q['old_train_high'] for q in checks),max(q['old_train_high'] for q in checks)],'new_train_high_range':[min(q['new_train_high'] for q in checks),max(q['new_train_high'] for q in checks)],'extra_ordinary_days_range':[min(q['extra_ordinary_days'] for q in checks),max(q['extra_ordinary_days'] for q in checks)]}))

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_highday_oneclass_validation_20261009_v1\run_v2.py", line 66, in <module>
+    assert (H/'critique_midpoint_v1.md').exists();r=check();run([f['key'] for f in r['folds'] if f['key'] not in ['DIAG10_000','DIAG10_001']]);score('final')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

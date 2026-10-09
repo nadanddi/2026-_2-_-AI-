@@ -1,0 +1,42 @@
+{
+  "status": "INDEPENDENT_SINGLE_CLASS_CHECK_PASS",
+  "stage": "final",
+  "all26_positive_only_subsets_verified": true,
+  "actual_folds_fitted": 1,
+  "actual_seeds_checked": 3,
+  "predictions_per_seed": 8040,
+  "independent_daily_group_check": true,
+  "results": [
+    {
+      "seed": 8383,
+      "train_positive_days": 20,
+      "held_positive_days": 1,
+      "ordinary_days": 334,
+      "high_recall": 1,
+      "ordinary_false_positive_rate": 1,
+      "min_score": 1,
+      "max_score": 1
+    },
+    {
+      "seed": 1919,
+      "train_positive_days": 20,
+      "held_positive_days": 1,
+      "ordinary_days": 334,
+      "high_recall": 1,
+      "ordinary_false_positive_rate": 1,
+      "min_score": 1,
+      "max_score": 1
+    },
+    {
+      "seed": 7171,
+      "train_positive_days": 20,
+      "held_positive_days": 1,
+      "ordinary_days": 334,
+      "high_recall": 1,
+      "ordinary_false_positive_rate": 1,
+      "min_score": 1,
+      "max_score": 1
+    }
+  ],
+  "extra40_target_or_performance_loaded": false
+}

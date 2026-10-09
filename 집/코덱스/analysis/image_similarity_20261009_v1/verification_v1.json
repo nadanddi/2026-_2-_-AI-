@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "fresh_images": 361,
+  "fresh_jsons": 340,
+  "cross_pairs": 7140,
+  "byte_pixel_size_phash_color_all_recomputed": true,
+  "manual_cosine_transform_all_pass": true,
+  "manual_hamming_all_pass": true,
+  "manual_hellinger_max_gap": 4.85722573273506e-16,
+  "farm_kind_stage": {
+    "farm_id": {
+      "AIF005": 340
+    },
+    "kind_type": {
+      "금실": 340
+    },
+    "growth_stage": {
+      "정식기": 272,
+      "출뢰기": 68
+    }
+  },
+  "metadata_dimension_mismatches": 3,
+  "dimension_mismatch_examples": [
+    {
+      "name": "원천데이터/TS_1.금실1/C22_B02_001_34579.jpg",
+      "json_width": 1510,
+      "json_height": 2062,
+      "actual_width": 1511,
+      "actual_height": 2064
+    },
+    {
+      "name": "원천데이터/TS_1.금실1/C22_B02_002_241627.jpg",
+      "json_width": 1165,
+      "json_height": 1896,
+      "actual_width": 1167,
+      "actual_height": 1897
+    },
+    {
+      "name": "원천데이터/TS_1.금실1/C22_B02_003_34580.jpg",
+      "json_width": 1301,
+      "json_height": 1470,
+      "actual_width": 1464,
+      "actual_height": 1798
+    }
+  ],
+  "public_labels": {
+    "real": 3,
+    "positive": 18
+  },
+  "real_nn_phash": [
+    18,
+    22,
+    20
+  ],
+  "internal_nn_phash_median": 6.0,
+  "cross_exact_duplicates": 0,
+  "phash_le6_pairs": 0,
+  "caution": "pHash low distance not source proof; high distance does not exclude transformed source; no semantic embedding/model performance"
+}

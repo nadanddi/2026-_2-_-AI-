@@ -1,0 +1,14 @@
+from pathlib import Path
+import sys,json,re
+H=Path(__file__).resolve().parent;ROOT=H.parents[3];sys.path.insert(0,str(ROOT/'집/코덱스/analysis/ec_highday_classifier_20261009_v1'));import runtime_v1,run_v1 as P
+assert (H/'critique_final_v1.md').exists();assert json.loads((H/'fresh_checks_v1.json').read_text(encoding='utf8'))['status']=='PASS'
+cat=ROOT/'공용/데이터_단서_카탈로그.md';old=cat.read_text(encoding='utf8');number=max(map(int,re.findall(r'\| 6\.(\d+) \|',old)))+1
+summary=f'**2026-10-09 · 집 · 코덱스 고EC만 학습한 단일클래스 분류 확인:** 사용자확정 EC수치아닌고EC여부. 일평균>=1.2 고EC20일480행만첫LOO fold3seed ET학습,일반334일train0. held고EC1일24행TP24/FN0(탐지100%)·일반334일8016행FP8016/TN0(오탐100%);전seed8040행score정확히1/classes[1]. 고EC만검증한100%는항상고EC판정이라분리능력없음. 모든26LOOtrain의고ECsubset단일라벨검산/실제26fit주장0. imputer고ECtrain만fit·73현재prefix·기존purge유지. 단일클래스탐지모델전체불가능으로일반화금지/그방법미실행. 3단계독립비평·source/라벨/누수무교집합/CSV루프재산술PASS. 회귀수치캐시중간분석은사용자확정뒤중단·회귀fit0/최종수치미발표. 40성능재평가0·모델저장0·채택0·제출0. 카탈로그6.{number};own ec_singleclass_high_only_20261009_v1/report_v1.md.'
+entry=f'| 6.{number} | **고EC날만 학습한 일반 분류기: 탐지100%·일반일오탐100%,단일class퇴화** (2026-10-09집코덱스/사용자구분여부확정) | '+summary+' | 집/코덱스/analysis/ec_singleclass_high_only_20261009_v1/{PLAN_v1.md,run_v1.py,registration_v1.json,score_*_v1.json,fresh_checks_v1.json,report_v1.md,critique_final_v1.md};집/코덱스/local/ec_singleclass_high_only_20261009_v1/prediction_*_v1.csv |'
+assert 'ec_singleclass_high_only_20261009_v1/report_v1.md' not in old
+with cat.open('a',encoding='utf8') as f:f.write('\n'+entry+'\n')
+p=ROOT/'공용/HANDOFF.md';old=p.read_text(encoding='utf8');p.write_text('> '+summary+'\n\n'+old,encoding='utf8')
+p=ROOT/'집/코덱스/작업일지/2026-10-09.md'
+body='\n## 세션 8 — 고EC날만 학습·검증하는 분류기의 단일 라벨 확인\n\n### 사용자 목표·전환\n\n처음에는수치예측해석을질문했고기존MX1 H회귀캐시로중간1고EC일24행산술만계산했다. 사용자async응답이고EC여부만분류라고확정해즉시수치감사추가작업을중단,ec_highonly_cached_audit_20261009_v1/STATUS_v1.md에기록. 해당캐시회귀fit0·최종회귀성적발표0. binary분류로전환했다.\n\n### 한 것·결과\n\n'+summary+'\n\nsource등록전계획독립검토,첫8383시드→독립중간→1919/7171두시드→rootfreshCSV루프/독립최종검산. 학습480행class1만선택하고같은농장±1/다른농장±3/소비40주변제외를유지했다. 입력특징생성은기존독립검산된각samefarm당일prefix라다른날데이터영향0. imputer/ETfit에일반행0,dayweight1/24. 실제검증은고EC1일/일반334일이며자연적인전체분포의accuracy로통합하지않음. 26fold모두고ECsubset학습class집합[1]이라는구조검산과실제fitfold1을구분했다.\n\n### 해석·다음\n\n일반supervised ET를라벨1만학습하면전부고EC판정으로퇴화한다. 고EC-only정답검증100%는항상고EC라고답하는모델도달성한다. 이모델과단일클래스탐지/밀도/고EC패턴유사도방법을혼동하지않는다. 후자는별도실험가능성이있지만일반날도검증에남겨오탐을측정해야한다(이번미실행). 이전LOOCV의train양class유지가왜필요한지설명. 원모델채택·교체0/제출0.\n\n### 파일·인수인계\n\nown ec_singleclass_high_only_20261009_v1에PLAN/run/registration/score3개/fresh_checks/report/critique3단계 및critic검산,ownlocal prediction3CSV를저장. 수치분석폴더의v1/v2계획과소스/중간캐시는보존하되STATUS로중단표기. 모든파일새이름,타AI파일/프로세스수정0,새브랜치/커밋0. 세션완료후양AI작업끝나면tools/sync_end.ps1 사용자실행권장.\n'
+with p.open('a',encoding='utf8') as f:f.write(body)
+P.save(H/'session_record_v1.json',dict(catalogue='6.'+str(number),daylog_session=8,handoff_updated=True,submission=False));print('RECORDS_UPDATED','6.'+str(number))

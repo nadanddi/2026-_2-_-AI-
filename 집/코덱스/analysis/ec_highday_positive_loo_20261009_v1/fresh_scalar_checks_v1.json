@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "hour_metrics": [
+    {
+      "hour": 0,
+      "n": 26,
+      "caught05": 6,
+      "missed05": 20,
+      "caught02": 15,
+      "positive_brier": 0.5661232629682278,
+      "mean_score": 0.2789192457926146
+    },
+    {
+      "hour": 8,
+      "n": 26,
+      "caught05": 4,
+      "missed05": 22,
+      "caught02": 15,
+      "positive_brier": 0.5667801300223573,
+      "mean_score": 0.2736442000197691
+    },
+    {
+      "hour": 15,
+      "n": 26,
+      "caught05": 10,
+      "missed05": 16,
+      "caught02": 18,
+      "positive_brier": 0.44351217491291756,
+      "mean_score": 0.3806968789050794
+    },
+    {
+      "hour": 23,
+      "n": 26,
+      "caught05": 11,
+      "missed05": 15,
+      "caught02": 20,
+      "positive_brier": 0.42956598058781786,
+      "mean_score": 0.39061382331700834
+    }
+  ],
+  "gained": 4,
+  "lost": 2,
+  "positive_brier_delta": -0.077982092788668,
+  "extra40_rescored": false
+}

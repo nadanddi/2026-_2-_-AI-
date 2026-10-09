@@ -1,0 +1,9 @@
+{
+"question":"AI허브 샘플과 대회 공개 이미지의 유사성",
+"sources":{"aihub":"G:/내 드라이브/농업 AI 경진대회/이미지 미션/New_Sample.zip의 사본","competition":"공용/대회자료/이미지데이터/참가자_배포/공개샘플"},
+"scope":"JPG340/JSON340 및 대회JPG21/labels21. 비공개평가·과거대회·학습 사용 없음",
+"questions":["디코딩·해상도·화면비·색공간·메타데이터 그룹","바이트/디코딩픽셀 완전중복","사진 내용·구도·생육단계·촬영환경","해시/색 특징 최근접"],
+"methods":["Pillow verify/load, SHA256, width/height/mode 및 JSON basename 일대일","340x21 pHash64 Hamming/24bin RGB histogram Hellinger","pHash<=6은 검토후보만, 동일원본 판단X","공개21전체·AI허브정렬균등60장 contact sheets, 공개실제3장 각각 pHash/색최근접3 시각대조","독립검증에서 SHA·크기·farm/growth/date 집계 및 최근접 거리 재산술"],
+"interpretation":["실제3장/양성18장 구분","유사도%·모델성능·평가대표성 주장금지","해시/색 거리는 의미 유사도X","원본보존·정제삭제X","농장/날짜/중복의 독립성 한계 명시","해상도·일반JPEG저장차이 클래스증거X"],
+"review":"계획·첫부분·최종 독립비평, 핵심수치재실행 후 보고"
+}

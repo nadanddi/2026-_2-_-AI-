@@ -1,0 +1,26 @@
+DONE DIAG10_002 TRAIN_HIGH 20 QUERY 40 SECONDS 0.17
+DONE DIAG10_003 TRAIN_HIGH 17 QUERY 33 SECONDS 0.05
+DONE DIAG10_004 TRAIN_HIGH 18 QUERY 40 SECONDS 0.05
+DONE DIAG10_005 TRAIN_HIGH 18 QUERY 28 SECONDS 0.05
+DONE DIAG10_006 TRAIN_HIGH 17 QUERY 40 SECONDS 0.05
+DONE DIAG10_007 TRAIN_HIGH 18 QUERY 31 SECONDS 0.05
+DONE DIAG10_008 TRAIN_HIGH 13 QUERY 40 SECONDS 0.05
+DONE DIAG10_009 TRAIN_HIGH 15 QUERY 40 SECONDS 0.05
+DONE FRESH7_000 TRAIN_HIGH 18 QUERY 9 SECONDS 0.05
+DONE FRESH7_001 TRAIN_HIGH 19 QUERY 6 SECONDS 0.03
+DONE FRESH7_002 TRAIN_HIGH 20 QUERY 6 SECONDS 0.05
+DONE FRESH7_003 TRAIN_HIGH 19 QUERY 7 SECONDS 0.05
+DONE FRESH7_004 TRAIN_HIGH 22 QUERY 6 SECONDS 0.06
+DONE FRESH7_005 TRAIN_HIGH 20 QUERY 6 SECONDS 0.03
+DONE FRESH7_006 TRAIN_HIGH 19 QUERY 6 SECONDS 0.05
+DONE EL1_000 TRAIN_HIGH 20 QUERY 5 SECONDS 0.03
+DONE EL1_001 TRAIN_HIGH 22 QUERY 5 SECONDS 0.05
+DONE EL1_002 TRAIN_HIGH 22 QUERY 5 SECONDS 0.05
+DONE EL1_003 TRAIN_HIGH 19 QUERY 5 SECONDS 0.03
+DONE EL1_004 TRAIN_HIGH 20 QUERY 4 SECONDS 0.03
+DONE EL1_005 TRAIN_HIGH 21 QUERY 5 SECONDS 0.05
+DONE EL1_006 TRAIN_HIGH 22 QUERY 5 SECONDS 0.03
+DONE EL1_007 TRAIN_HIGH 21 QUERY 5 SECONDS 0.03
+DONE EL1_008 TRAIN_HIGH 18 QUERY 5 SECONDS 0.03
+DONE EL1_009 TRAIN_HIGH 20 QUERY 2 SECONDS 0.03
+{"status": "FULL_CV", "metrics": [{"validator": "DIAG10", "hour": 15, "scope": "all", "arm": "oneclass", "days": 360, "high_days": 26, "ordinary_days": 334, "tp": 9, "fn": 17, "fp": 15, "tn": 319, "recall": 0.34615384615384615, "ordinary_false_positive_rate": 0.04491017964071856, "precision": 0.375, "balanced_accuracy": 0.6506218332565639}, {"validator": "DIAG10", "hour": 15, "scope": "all", "arm": "et", "days": 360, "high_days": 26, "ordinary_days": 334, "tp": 8, "fn": 18, "fp": 6, "tn": 328, "recall": 0.3076923076923077, "ordinary_false_positive_rate": 0.017964071856287425, "precision": 0.5714285714285714, "balanced_accuracy": 0.6448641179180101}, {"validator": "DIAG10", "hour": 15, "scope": "all", "arm": "always_high", "days": 360, "high_days": 26, "ordinary_days": 334, "tp": 26, "fn": 0, "fp": 334, "tn": 0, "recall": 1.0, "ordinary_false_positive_rate": 1.0, "precision": 0.07222222222222222, "balanced_accuracy": 0.5}, {"validator": "DIAG10", "hour": 15, "scope": "all", "arm": "always_normal", "days": 360, "high_days": 26, "ordinary_days": 334, "tp": 0, "fn": 26, "fp": 0, "tn": 334, "recall": 0.0, "ordinary_false_positive_rate": 0.0, "precision": 0.0, "balanced_accuracy": 0.5}, {"validator": "EL1", "hour": 15, "scope": "all", "arm": "oneclass", "days": 46, "high_days": 5, "ordinary_days": 41, "tp": 3, "fn": 2, "fp": 2, "tn": 39, "recall": 0.6, "ordinary_false_positive_rate": 0.04878048780487805, "precision": 0.6, "balanced_accuracy": 0.775609756097561}, {"validator": "EL1", "hour": 15, "scope": "all", "arm": "et", "days": 46, "high_days": 5, "ordinary_days": 41, "tp": 4, "fn": 1, "fp": 1, "tn": 40, "recall": 0.8, "ordinary_false_positive_rate": 0.024390243902439025, "precision": 0.8, "balanced_accuracy": 0.8878048780487805}, {"validator": "EL1", "hour": 15, "scope": "all", "arm": "always_high", "days": 46, "high_days": 5, "ordinary_days": 41, "tp": 5, "fn": 0, "fp": 41, "tn": 0, "recall": 1.0, "ordinary_false_positive_rate": 1.0, "precision": 0.10869565217391304, "balanced_accuracy": 0.5}, {"validator": "EL1", "hour": 15, "scope": "all", "arm": "always_normal", "days": 46, "high_days": 5, "ordinary_days": 41, "tp": 0, "fn": 5, "fp": 0, "tn": 41, "recall": 0.0, "ordinary_false_positive_rate": 0.0, "precision": 0.0, "balanced_accuracy": 0.5}, {"validator": "FRESH7", "hour": 15, "scope": "all", "arm": "oneclass", "days": 46, "high_days": 5, "ordinary_days": 41, "tp": 2, "fn": 3, "fp": 2, "tn": 39, "recall": 0.4, "ordinary_false_positive_rate": 0.04878048780487805, "precision": 0.5, "balanced_accuracy": 0.6756097560975609}, {"validator": "FRESH7", "hour": 15, "scope": "all", "arm": "et", "days": 46, "high_days": 5, "ordinary_days": 41, "tp": 3, "fn": 2, "fp": 1, "tn": 40, "recall": 0.6, "ordinary_false_positive_rate": 0.024390243902439025, "precision": 0.75, "balanced_accuracy": 0.7878048780487805}, {"validator": "FRESH7", "hour": 15, "scope": "all", "arm": "always_high", "days": 46, "high_days": 5, "ordinary_days": 41, "tp": 5, "fn": 0, "fp": 41, "tn": 0, "recall": 1.0, "ordinary_false_positive_rate": 1.0, "precision": 0.10869565217391304, "balanced_accuracy": 0.5}, {"validator": "FRESH7", "hour": 15, "scope": "all", "arm": "always_normal", "days": 46, "high_days": 5, "ordinary_days": 41, "tp": 0, "fn": 5, "fp": 0, "tn": 41, "recall": 0.0, "ordinary_false_positive_rate": 0.0, "precision": 0.0, "balanced_accuracy": 0.5}]}

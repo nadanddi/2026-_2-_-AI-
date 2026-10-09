@@ -1,0 +1,24 @@
+{
+  "status": "paused_by_user",
+  "saved_at": "2026-10-09T20:48:09.7460057+09:00",
+  "target": "일평균 EC >= 1.2 고EC 여부 분류, 고EC만 학습하고 일반날을 검증에 유지",
+  "analysis_dir": "C:\\work\\farmai\\집\\코덱스\\analysis\\ec_highday_oneclass_validation_20261009_v1",
+  "local_dir": "C:\\work\\farmai\\집\\코덱스\\local\\ec_highday_oneclass_validation_20261009_v1",
+  "active_plan": "PLAN_v2.md",
+  "active_runner": "run_v2.py",
+  "source_pins": "registration_v1.json",
+  "completed_prediction_files": [
+    "DIAG10_000_v1.csv",
+    "DIAG10_001_v1.csv"
+  ],
+  "completed_folds": 2,
+  "total_folds": 27,
+  "remaining_folds": 25,
+  "midpoint_review_exists": false,
+  "critic_status": "사용자 중지 요청으로 curtain_critic 중단",
+  "next_step": "사용자가 재개하면 중간 독립 검토를 완료하고 승인 후 rest 실행",
+  "rest_started": false,
+  "final_report_completed": false,
+  "adoption": false,
+  "submission": false
+}

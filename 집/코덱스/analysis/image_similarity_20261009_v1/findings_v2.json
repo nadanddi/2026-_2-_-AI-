@@ -1,0 +1,96 @@
+{
+  "question": "AI허브 샘플과 대회 공개 샘플의 유사성",
+  "coverage": "AI허브 JPG340/JSON340 및 공개21; 전체 축소판과 공개21별 최근접 이미지 시각검토. 특징학습 없음",
+  "findings": [
+    {
+      "id": "F1",
+      "claim": "대회 실제3장과 AI허브 사진은 딸기 고설재배라는 내용, 공유되는 흰재배통·관수선·지지대 등과 일부사진의 근접구도가 상당히 유사하다",
+      "confidence": "중간(시각판단)",
+      "numbers": {
+        "public_real": 3,
+        "aihub": 340
+      },
+      "code": "run_v2.py profile + run_v3.py compare",
+      "evidence": "nearest_real_v1.jpg/nearest_real_top3_v1.jpg 및 all contact sheets",
+      "threat": "공개실제3장뿐; 시설 요소는 다른농장도 공유할 수 있어 동일농장·동일원본 주장불가"
+    },
+    {
+      "id": "F2",
+      "claim": "완전히 같은 파일·같은크기 픽셀 이미지 없음. 재가공 공통원본은 배제못함",
+      "confidence": "높음(완전중복 정의에 한정)",
+      "numbers": {
+        "cross_pairs": 7140,
+        "exact_byte": 0,
+        "exact_native_pixels": 0,
+        "exact_normalized_pixels": 0,
+        "min_cross_phash": 10,
+        "real_phash_nn": [
+          18,
+          22,
+          20
+        ],
+        "internal_aihub_nn_phash_median": 6
+      },
+      "code": "run_v2.py profile/run_v3.py compare/verify_v1.py",
+      "threat": "pHash는유효63bit 저수준특징, 크롭·재압축·변형에 민감; 6이하없음은 원본다름증거아님"
+    },
+    {
+      "id": "F3",
+      "claim": "AI허브 340장 전부 AIF005/금실, 정식기272/출뢰기68로 환경 범위가 좁고 유사한 연속촬영 장면 반복",
+      "confidence": "높음(메타데이터)/중간(시각반복)",
+      "numbers": {
+        "farm_count": 1,
+        "cultivar_count": 1,
+        "transplant": 272,
+        "budding": 68
+      },
+      "code": "run_v2.py profile/verify_v1.py",
+      "threat": "metadata는실제농장 출처 독립인증아님; 사진수340은독립장면수아님"
+    },
+    {
+      "id": "F4",
+      "claim": "공개샘플 양성18장 중 다른배경/잎밀도/생육상태 사례가 있어 현재AI허브샘플이 공개양성범위전체를 대표하지않음",
+      "confidence": "중간(공개샘플 시각비교)",
+      "numbers": {
+        "public_positive": 18,
+        "positive_types": 6
+      },
+      "code": "run_v3.py compare",
+      "evidence": "nearest_positive1/2/3_v1.jpg",
+      "threat": "의미embedding/모델효용미측정, 비공개평가대표성 판정불가"
+    },
+    {
+      "id": "F5",
+      "claim": "JSON규격과 실제디코딩크기 불일치3장, 실제파일크기로계산했으므로 거리결과영향없음",
+      "confidence": "높음",
+      "numbers": {
+        "mismatches": 3,
+        "json_total": 340
+      },
+      "code": "verify_v1.py",
+      "threat": "다른메타데이터 정확성은 외부확인안함"
+    },
+    {
+      "id": "F6",
+      "claim": "공개 부분생성 uexm.jpg와 AI허브 C22_B02_001_420102.jpg는 두 최근접 기준이 같은 사진을 고르고 호스고리·지지대·자갈·노란표지·잎 위치까지 가까워 공통 촬영장면 기반 변형의 후보",
+      "confidence": "중간(시각·저수준 일치 후보, 동일원본확정X)",
+      "numbers": {
+        "phash": 10,
+        "color_hellinger": 0.100131232125623,
+        "searched_pairs": 7140
+      },
+      "code": "run_v3.py compare + verify_v1.py",
+      "evidence": "nearest_positive3_v1.jpg의 uexm 행",
+      "threat": "전체7140쌍에서선택된가장가까운후보; 특징점등록·원출처 추적안함. 원본공유확정·반복행 수 추정불가"
+    }
+  ],
+  "conclusion": "촬영장면·일부구도는 상당히 유사. 부분생성샘플 중 공통촬영장면 기반의변형가능성이있는강한후보1건도 발견했지만 동일농장·원본확정은 아님. 학습효용 미측정.",
+  "no_claims": [
+    "유사도%",
+    "같은농장",
+    "같은원본",
+    "모델 성능개선",
+    "비공개평가 전체대표"
+  ],
+  "verification": "verification_v1.json fresh361 images/340 JSON, 7140 distances manual check PASS"
+}

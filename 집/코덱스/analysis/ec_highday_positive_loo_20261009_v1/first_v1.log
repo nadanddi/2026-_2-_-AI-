@@ -1,0 +1,13 @@
+DONE LOO_000 F13 120 TRAIN 296 HIGH 20 SECONDS 13.42
+DONE LOO_001 F13 121 TRAIN 297 HIGH 20 SECONDS 14.11
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_highday_positive_loo_20261009_v1\run_v2.py", line 68, in <module>
+    elif stage=='first':run(['LOO_000','LOO_001']);score('midpoint')
+                                                   ^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_highday_positive_loo_20261009_v1\run_v2.py", line 62, in score
+    full=len(paths)==len(reg['folds']);out=dict(status='FULL_LOO' if full else 'PARTIAL_LOO',groups=groups,segments=segments,paired_h15=dict(loo=metric(q.ensemble),diag=metric(q.diag_ensemble),gained=int((q.loo_caught05&~q.diag_caught05).sum()),lost=int((~q.loo_caught05&q.diag_caught05).sum()),delta_positive_brier=float(q.delta_positive_brier.mean()),**bootstrap(q)),train_days=dict(min=int(q.train_days.min()),max=int(q.train_days.max()),mean=float(q.train_days.mean())),train_high=dict(min=int(q.train_high.min()),max=int(q.train_high.max()),mean=float(q.train_high.mean())),adoption=False,no_negative_evaluation=True,extra40_rescored=False)
+                                                                                                                                                                                                                                                                                                                                                                   ^^^^^^^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_highday_positive_loo_20261009_v1\run_v2.py", line 50, in bootstrap
+    ix=np.concatenate([rng.choice(pool,size=(1000,len(pool)),replace=True) for pool in pools],axis=1);values.extend((d[ix].sum(1)/n[ix].sum(1)).tolist())
+                                                                                                                     ~^^^^
+IndexError: arrays used as indices must be of integer (or boolean) type

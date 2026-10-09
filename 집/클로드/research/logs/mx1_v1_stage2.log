@@ -93,3 +93,92 @@ P2LOO/329 done
 P2LOO/330 done
    F13 anchors 14 of 18 pass-2 training days
    F47 anchors 8 of 13 pass-2 training days
+P2LOO/331 done
+   F13 anchors 14 of 18 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+P2LOO/332 done
+   F13 anchors 15 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+P2LOO/333 done
+   F13 anchors 12 of 17 pass-2 training days
+   F47 anchors 10 of 16 pass-2 training days
+P2LOO/334 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 10 of 16 pass-2 training days
+P2LOO/335 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 11 of 16 pass-2 training days
+P2LOO/336 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+P2LOO/337 done
+   F13 anchors 15 of 20 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+P2LOO/338 done
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+P2LOO/339 done
+   F13 anchors 13 of 18 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+P2LOO/340 done
+   F13 anchors 13 of 18 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+P2LOO/341 done
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 11 of 16 pass-2 training days
+P2LOO/342 done
+   F13 anchors 13 of 18 pass-2 training days
+   F47 anchors 11 of 16 pass-2 training days
+P2LOO/343 done
+   F13 anchors 12 of 17 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+P2LOO/344 done
+   F13 anchors 12 of 17 pass-2 training days
+   F47 anchors 12 of 16 pass-2 training days
+P2LOO/345 done
+   F13 anchors 13 of 17 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+P2LOO/346 done
+   F13 anchors 14 of 18 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+P2LOO/347 done
+   F13 anchors 16 of 19 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+P2LOO/348 done
+   F13 anchors 16 of 18 pass-2 training days
+   F47 anchors 12 of 14 pass-2 training days
+P2LOO/349 done
+   F13 anchors 16 of 18 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+P2LOO/350 done
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+P2LOO/351 done
+   F13 anchors 13 of 18 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+P2LOO/352 done
+   F13 anchors 13 of 17 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+P2LOO/353 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+P2LOO/354 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+P2LOO/355 done
+folds: {'A': 5, 'B': 5, 'DIAG10': 10, 'EL1': 10, 'P2LOO': 46}
+DIAG10 all    days 360  BASE 0.1921  MIX 0.2288 (+19.1%) seeds --- | N 0.2769  H 1.2873  ORACLE 0.1861 | gate AUC 0.86, mean g 0.041
+        days better 172 / 360, top-5 share of gain -17%
+A      all    days 157  BASE 0.2675  MIX 0.3308 (+23.7%) seeds --- | N 0.3770  H 1.2143  ORACLE 0.2273 | gate AUC 0.85, mean g 0.085
+B      all    days 162  BASE 0.2076  MIX 0.2495 (+20.2%) seeds --- | N 0.3251  H 1.1254  ORACLE 0.1962 | gate AUC 0.89, mean g 0.086
+EL1    pass2  days  46  BASE 0.2624  MIX 0.3339 (+27.3%) seeds --- | N 0.3616  H 1.1282  ORACLE 0.1619 | gate AUC 0.92, mean g 0.046
+P2LOO  pass2  days  46  BASE 0.1932  MIX 0.2653 (+37.3%) seeds --- | N 0.3450  H 1.1455  ORACLE 0.1387 | gate AUC 0.95, mean g 0.136
+C:\work\farmai\.analysis-tools\python\sklearn\metrics\_ranking.py:469: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+DIAG10 normal days 334  BASE 0.1084  MIX 0.1282 (+18.2%) seeds --- | N 0.1091  H 1.3269  ORACLE 0.1091 | gate AUC nan, mean g 0.012
+C:\work\farmai\.analysis-tools\python\sklearn\metrics\_ranking.py:469: UndefinedMetricWarning: Only one class is present in y_true. ROC AUC score is not defined in that case.
+  warnings.warn(
+DIAG10 high   days  26  BASE 0.6002  MIX 0.7168 (+19.4%) seeds --- | N 0.9533  H 0.5714  ORACLE 0.5714 | gate AUC nan, mean g 0.414
+DIAG10 pass2  days  46  BASE 0.2432  MIX 0.3001 (+23.4%) seeds --- | N 0.3550  H 1.1673  ORACLE 0.1584 | gate AUC 0.95, mean g 0.022
+
+VERDICT: seed x {DIAG10,A,B} better 0/9, DIAG10 share 0.9996 -> FAIL  GUARD HOLD: ['EL1', 'P2LOO']

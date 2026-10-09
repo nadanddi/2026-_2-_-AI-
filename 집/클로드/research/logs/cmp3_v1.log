@@ -1,0 +1,89 @@
+   F13 anchors 13 of 17 pass-2 training days
+   F47 anchors 8 of 11 pass-2 training days
+   F13 anchors 14 of 18 pass-2 training days
+   F47 anchors 8 of 13 pass-2 training days
+HLOO/512 done
+   F13 anchors 13 of 19 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+HLOO/513 done
+   F13 anchors 13 of 19 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+HLOO/514 done
+   F13 anchors 13 of 19 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+HLOO/515 done
+   F13 anchors 13 of 19 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+HLOO/516 done
+   F13 anchors 13 of 19 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+HLOO/517 done
+   F13 anchors 13 of 19 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+HLOO/518 done
+   F13 anchors 13 of 19 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+HLOO/519 done
+   F13 anchors 13 of 19 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+   F13 anchors 13 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+HLOO/520 done
+   F13 anchors 12 of 19 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+   F13 anchors 15 of 21 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+HLOO/521 done
+   F13 anchors 13 of 19 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+HLOO/522 done
+   F13 anchors 11 of 17 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 11 of 17 pass-2 training days
+HLOO/523 done
+   F13 anchors 13 of 17 pass-2 training days
+   F47 anchors 12 of 14 pass-2 training days
+   F13 anchors 16 of 19 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+HLOO/524 done
+   F13 anchors 13 of 16 pass-2 training days
+   F47 anchors 12 of 14 pass-2 training days
+   F13 anchors 16 of 18 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+HLOO/525 done
+folds: {'HLOO': 26}
+
+== HLOO, all 26 high days (26 days)
+  ① R3, 고EC 제외 (0.083 방식)                    RMSE 0.9624  (seeds 0.9627 0.9625 0.9620)  bias -0.858
+  ② 전체 구성, 고EC 제외 (submission_15)            RMSE 0.9453  (seeds 0.9452 0.9453 0.9454)  bias -0.839
+  ③ R3, 고EC 포함                               RMSE 0.5355  (seeds 0.5352 0.5367 0.5351)  bias -0.316
+  ④ 전체 구성, 고EC 포함 (submission_14)            RMSE 0.5008  (seeds 0.5006 0.5019 0.5002)  bias -0.281
+
+== HLOO, pass-1 high days (21 days)
+  ① R3, 고EC 제외 (0.083 방식)                    RMSE 0.9344  (seeds 0.9339 0.9342 0.9351)  bias -0.820
+  ② 전체 구성, 고EC 제외 (submission_15)            RMSE 0.9146  (seeds 0.9142 0.9144 0.9151)  bias -0.801
+  ③ R3, 고EC 포함                               RMSE 0.5387  (seeds 0.5382 0.5401 0.5383)  bias -0.301
+  ④ 전체 구성, 고EC 포함 (submission_14)            RMSE 0.5147  (seeds 0.5144 0.5159 0.5143)  bias -0.278
+
+== HLOO, pass-2 high days (5 days)
+  ① R3, 고EC 제외 (0.083 방식)                    RMSE 1.0722  (seeds 1.0753 1.0735 1.0677)  bias -1.017
+  ② 전체 구성, 고EC 제외 (submission_15)            RMSE 1.0648  (seeds 1.0659 1.0652 1.0632)  bias -0.998
+  ③ R3, 고EC 포함                               RMSE 0.5219  (seeds 0.5224 0.5221 0.5217)  bias -0.379
+  ④ 전체 구성, 고EC 포함 (submission_14)            RMSE 0.4373  (seeds 0.4378 0.4385 0.4359)  bias -0.296

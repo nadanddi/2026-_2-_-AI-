@@ -1,0 +1,42 @@
+{
+  "stage": "final",
+  "verdict": "Accept with required wording and candidate disclosure corrections",
+  "independent_method": "PowerShell nested XOR comparison of all 7140 saved descriptor pairs, separate from NumPy",
+  "verified": {
+    "min_phash": 10,
+    "real_minima": [
+      18,
+      22,
+      20
+    ],
+    "pairs": 7140,
+    "threshold6_candidates": 0
+  },
+  "reviewed_visuals": [
+    "nearest_real_v1.jpg",
+    "nearest_real_top3_v1.jpg",
+    "nearest_positive1_v1.jpg",
+    "nearest_positive2_v1.jpg",
+    "nearest_positive3_v1.jpg"
+  ],
+  "required_corrections": [
+    "F4 scope must say public positive18, not whole competition",
+    "Report uexm.jpg versus C22_B02_001_420102.jpg as a visually strong common-scene/modified-source candidate; source provenance remains unconfirmed",
+    "Shared scene features need not appear in every real image; avoid all3 blanket description"
+  ],
+  "candidate": {
+    "limit": "Visual correspondence is not authenticated provenance",
+    "aihub": "C22_B02_001_420102.jpg",
+    "observation": "Very similar hose loop, metal supports, gravel background, yellow marker and main leaf/stem positions; both descriptor top1 select same file",
+    "public": "uexm.jpg",
+    "phash": 10
+  },
+  "remaining_limits": [
+    "No calibrated semantic similarity percentage",
+    "340 pictures not 340 independent scenes",
+    "Actual3 cannot represent hidden evaluation distribution",
+    "One farm and one cultivar in metadata",
+    "Exact zero does not exclude transformed shared sources",
+    "No model efficacy experiment"
+  ]
+}

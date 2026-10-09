@@ -1,0 +1,227 @@
+{
+  "source_pins": {
+    "집\\코덱스\\local\\ec_highday_classifier_20261009_v1\\features_public_v1.csv": "849e516a2004dcbbf9a6f89c2e2a0f18171614c79b46c0c53f224a93ba9026fe",
+    "집\\코덱스\\local\\ec_highday_classifier_20261009_v1\\metadata_public_v1.csv": "f2dd1fe7d4eb1cd10d04d5a897fe0eef11e70d8b595fb67b4f4668f6d52bdda6",
+    "집\\코덱스\\analysis\\ec_highday_positive_loo_20261009_v1\\registration_v1.json": "129c60c7db458e48a4355fb0b2bea2097ae9bfa0ce97d7bc42bdc9bd17637d73",
+    "집\\코덱스\\analysis\\ec_highday_classifier_20261009_v1\\recipe_v1.py": "4020083277ebb2f39fa120b4fc00e8ceb7c9b30aac10f381f56f28c611f38679",
+    "집\\코덱스\\analysis\\ec_singleclass_high_only_20261009_v1\\PLAN_v1.md": "616894b02798b198d035f14cc2c40d028ae999c8b8c102a4d2e6c9415c68a09c",
+    "집\\코덱스\\analysis\\ec_singleclass_high_only_20261009_v1\\run_v1.py": "3d348a8e123f0edee90950c5ed74ea9fa24ed183134e4447ca6f8a36ea135a36"
+  },
+  "all26_single_class_folds": [
+    {
+      "key": "LOO_000",
+      "train_rows": 480,
+      "train_days": 20,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_001",
+      "train_rows": 480,
+      "train_days": 20,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_002",
+      "train_rows": 528,
+      "train_days": 22,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_003",
+      "train_rows": 432,
+      "train_days": 18,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_004",
+      "train_rows": 504,
+      "train_days": 21,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_005",
+      "train_rows": 456,
+      "train_days": 19,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_006",
+      "train_rows": 456,
+      "train_days": 19,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_007",
+      "train_rows": 456,
+      "train_days": 19,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_008",
+      "train_rows": 480,
+      "train_days": 20,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_009",
+      "train_rows": 480,
+      "train_days": 20,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_010",
+      "train_rows": 528,
+      "train_days": 22,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_011",
+      "train_rows": 504,
+      "train_days": 21,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_012",
+      "train_rows": 504,
+      "train_days": 21,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_013",
+      "train_rows": 504,
+      "train_days": 21,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_014",
+      "train_rows": 480,
+      "train_days": 20,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_015",
+      "train_rows": 456,
+      "train_days": 19,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_016",
+      "train_rows": 456,
+      "train_days": 19,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_017",
+      "train_rows": 504,
+      "train_days": 21,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_018",
+      "train_rows": 480,
+      "train_days": 20,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_019",
+      "train_rows": 480,
+      "train_days": 20,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_020",
+      "train_rows": 456,
+      "train_days": 19,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_021",
+      "train_rows": 456,
+      "train_days": 19,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_022",
+      "train_rows": 504,
+      "train_days": 21,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_023",
+      "train_rows": 456,
+      "train_days": 19,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_024",
+      "train_rows": 504,
+      "train_days": 21,
+      "classes": [
+        1
+      ]
+    },
+    {
+      "key": "LOO_025",
+      "train_rows": 504,
+      "train_days": 21,
+      "classes": [
+        1
+      ]
+    }
+  ],
+  "seeds": [
+    8383,
+    1919,
+    7171
+  ],
+  "actual_fold": "LOO_000",
+  "adoption": false
+}
