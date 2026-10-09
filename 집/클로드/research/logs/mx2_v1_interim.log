@@ -1,0 +1,37 @@
+folds: {'A': 5, 'B': 5, 'DIAG10': 10, 'EL1': 10, 'P2LOO': 7}
+
+==== C1 vs BASE
+  DIAG10 all    days 360  BASE 0.1921  C1 0.1967 (+2.4%) seeds --- | ORACLE 0.1857 | mean day-gate 0.042
+          days better 185 / 360, top-5 share nan%
+  A      all    days 157  BASE 0.2675  C1 0.2857 (+6.8%) seeds --- | ORACLE 0.2463 | mean day-gate 0.086
+  B      all    days 162  BASE 0.2076  C1 0.2239 (+7.8%) seeds --- | ORACLE 0.2006 | mean day-gate 0.089
+  EL1    pass2  days  46  BASE 0.2624  C1 0.2685 (+2.3%) seeds --- | ORACLE 0.1786 | mean day-gate 0.046
+  P2LOO  pass2  days   7  BASE 0.0782  C1 0.0782 (-0.0%) seeds +++ | ORACLE 0.0782 | mean day-gate 0.000
+  DIAG10 normal days 334  BASE 0.1084  C1 0.1304 (+20.3%) seeds --- | ORACLE 0.1084 | mean day-gate 0.012
+  DIAG10 high   days  26  BASE 0.6002  C1 0.5636 (-6.1%) seeds +++ | ORACLE 0.5714 | mean day-gate 0.428
+  DIAG10 pass2  days  46  BASE 0.2432  C1 0.2304 (-5.3%) seeds +++ | ORACLE 0.1630 | mean day-gate 0.022
+  VERDICT C1: 0/9, DIAG10 share 0.6682 -> FAIL  GUARD HOLD ['EL1']
+
+==== C2 vs BASE
+  DIAG10 all    days 360  BASE 0.1921  C2 0.1972 (+2.6%) seeds --- | ORACLE 0.1857 | mean day-gate 0.042
+          days better 189 / 360, top-5 share nan%
+  A      all    days 157  BASE 0.2675  C2 0.2874 (+7.4%) seeds --- | ORACLE 0.2463 | mean day-gate 0.086
+  B      all    days 162  BASE 0.2076  C2 0.2271 (+9.4%) seeds --- | ORACLE 0.2006 | mean day-gate 0.089
+  EL1    pass2  days  46  BASE 0.2624  C2 0.2718 (+3.6%) seeds --- | ORACLE 0.1786 | mean day-gate 0.046
+  P2LOO  pass2  days   7  BASE 0.0782  C2 0.0782 (-0.0%) seeds +++ | ORACLE 0.0782 | mean day-gate 0.000
+  DIAG10 normal days 334  BASE 0.1084  C2 0.1319 (+21.7%) seeds --- | ORACLE 0.1084 | mean day-gate 0.012
+  DIAG10 high   days  26  BASE 0.6002  C2 0.5610 (-6.5%) seeds +++ | ORACLE 0.5714 | mean day-gate 0.428
+  DIAG10 pass2  days  46  BASE 0.2432  C2 0.2313 (-4.9%) seeds +++ | ORACLE 0.1630 | mean day-gate 0.022
+  VERDICT C2: 0/9, DIAG10 share 0.6795 -> FAIL  GUARD HOLD ['EL1']
+
+==== C3 vs BASE
+  DIAG10 all    days 360  BASE 0.1921  C3 0.1991 (+3.6%) seeds --- | ORACLE 0.1857 | mean day-gate 0.042
+          days better 9 / 360, top-5 share nan%
+  A      all    days 157  BASE 0.2675  C3 0.2927 (+9.4%) seeds --- | ORACLE 0.2463 | mean day-gate 0.086
+  B      all    days 162  BASE 0.2076  C3 0.2285 (+10.1%) seeds --- | ORACLE 0.2006 | mean day-gate 0.089
+  EL1    pass2  days  46  BASE 0.2624  C3 0.2777 (+5.8%) seeds --- | ORACLE 0.1786 | mean day-gate 0.046
+  P2LOO  pass2  days   7  BASE 0.0782  C3 0.0782 (+0.0%) seeds --- | ORACLE 0.0782 | mean day-gate 0.000
+  DIAG10 normal days 334  BASE 0.1084  C3 0.1341 (+23.7%) seeds --- | ORACLE 0.1084 | mean day-gate 0.012
+  DIAG10 high   days  26  BASE 0.6002  C3 0.5637 (-6.1%) seeds +++ | ORACLE 0.5714 | mean day-gate 0.428
+  DIAG10 pass2  days  46  BASE 0.2432  C3 0.2280 (-6.3%) seeds +++ | ORACLE 0.1630 | mean day-gate 0.022
+  VERDICT C3: 0/9, DIAG10 share 0.7302 -> FAIL  GUARD HOLD ['EL1']

@@ -1,0 +1,86 @@
+{
+  "status": "DATA_SELECTOR_PASS",
+  "checks": [
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_discord_clean_model_20261009_v1\\dataset_public",
+      "selector_day_checks": 360,
+      "removed_train_days": 12,
+      "removed_query_days": 0,
+      "retained_rows": 8352
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_discord_clean_model_20261009_v1\\cv_data\\fold0",
+      "selector_day_checks": 300,
+      "removed_train_days": 10,
+      "removed_query_days": 0,
+      "retained_rows": 6048
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_discord_clean_model_20261009_v1\\cv_data\\fold1",
+      "selector_day_checks": 303,
+      "removed_train_days": 11,
+      "removed_query_days": 0,
+      "retained_rows": 6288
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_discord_clean_model_20261009_v1\\cv_data\\fold2",
+      "selector_day_checks": 299,
+      "removed_train_days": 9,
+      "removed_query_days": 3,
+      "retained_rows": 6000
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_discord_clean_model_20261009_v1\\cv_data\\fold3",
+      "selector_day_checks": 300,
+      "removed_train_days": 8,
+      "removed_query_days": 2,
+      "retained_rows": 6216
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_discord_clean_model_20261009_v1\\cv_data\\fold4",
+      "selector_day_checks": 295,
+      "removed_train_days": 8,
+      "removed_query_days": 2,
+      "retained_rows": 5928
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_discord_clean_model_20261009_v1\\cv_data\\fold5",
+      "selector_day_checks": 302,
+      "removed_train_days": 11,
+      "removed_query_days": 1,
+      "retained_rows": 6312
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_discord_clean_model_20261009_v1\\cv_data\\fold6",
+      "selector_day_checks": 302,
+      "removed_train_days": 12,
+      "removed_query_days": 1,
+      "retained_rows": 6000
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_discord_clean_model_20261009_v1\\cv_data\\fold7",
+      "selector_day_checks": 305,
+      "removed_train_days": 13,
+      "removed_query_days": 1,
+      "retained_rows": 6264
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_discord_clean_model_20261009_v1\\cv_data\\fold8",
+      "selector_day_checks": 298,
+      "removed_train_days": 13,
+      "removed_query_days": 5,
+      "retained_rows": 5880
+    },
+    {
+      "path": "C:\\work\\farmai\\집\\코덱스\\local\\ec_discord_clean_model_20261009_v1\\cv_data\\fold9",
+      "selector_day_checks": 298,
+      "removed_train_days": 9,
+      "removed_query_days": 3,
+      "retained_rows": 5976
+    }
+  ],
+  "source_pins_verified": true,
+  "global_clean_used_by_cv": false,
+  "consumed40_labels_read": false,
+  "registration_sha": "9565bb7b78353277fdd64ff0fc8023e168956c14240b22c0656a3e4a9bdd60fb"
+}

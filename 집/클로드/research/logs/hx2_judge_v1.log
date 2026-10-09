@@ -1,0 +1,11 @@
+folds: {'DIAG10': 6, 'EL1': 10, 'FRESH': 6}
+NORMAL DIAG10 pass-2 days 41  BASE 0.1302 [0.1280 0.1308 0.1326]  U2 0.1049 [0.1047 0.1050 0.1054]  -19.41%
+NORMAL FRESH  pass-2 days 41  BASE 0.1659 [0.1689 0.1653 0.1644]  U2 0.1365 [0.1369 0.1363 0.1365]  -17.75%
+NORMAL EL1    pass-2 days 41  BASE 0.1477 [0.1439 0.1517 0.1483]  U2 0.1158 [0.1165 0.1164 0.1150]  -21.60%
+ALL    DIAG10 pass-2 days 46  BASE 0.2694 [0.2686 0.2718 0.2683]  U2 0.3231 [0.3234 0.3241 0.3220]  +19.92%
+ALL    FRESH  pass-2 days 46  BASE 0.2761 [0.2780 0.2774 0.2733]  U2 0.3385 [0.3381 0.3368 0.3409]  +22.63%
+ALL    EL1    pass-2 days 46  BASE 0.2867 [0.2869 0.2887 0.2850]  U2 0.3325 [0.3339 0.3321 0.3316]  +15.98%
+   sensitivity without HX1 4 days: BASE 0.1455 U2 0.1378 -> U2 better
+   sensitivity without top-4 gain days [('F13', 231), ('F13', 233), ('F47', 193), ('F47', 216)]: BASE 0.1136 U2 0.1073 -> U2 better
+
+VERDICT: seed x set NORMAL better 9/9, FRESH share 0.0001, sensitivity True -> PASS-IF-NO-SPIKES

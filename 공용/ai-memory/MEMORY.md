@@ -14,3 +14,4 @@
 - [Harsh critic at plan/mid/final](harsh-critic-every-result.md) — critic subagent reviews each experiment at 3 stages; always report critique + improvements
 
 - [Prior-competition data restricted](prior-competition-data-restricted.md) — prior-competition strawberry data BANNED: never load/analyse/use/cite; no history notes about it; keep files out of git
+- [Plain explanations](plain-explanations.md) — lead with plain-language meaning, then numbers; check claim direction vs known numbers

@@ -1,0 +1,11 @@
+FIT 0 7 et train_days 252 seconds 17.9
+FIT 0 7 lgb train_days 252 seconds 1.7
+FIT 0 7 mlp train_days 252 seconds 13.7
+FIT 0 101 et train_days 252 seconds 17.6
+FIT 0 101 lgb train_days 252 seconds 1.6
+FIT 0 101 mlp train_days 252 seconds 11.9
+FIT 0 2024 et train_days 252 seconds 18.2
+FIT 0 2024 lgb train_days 252 seconds 1.7
+FIT 0 2024 mlp train_days 252 seconds 13.6
+FOLD_COMPLETE 0
+SCORED midpoint [{'scope': 'filtered', 'p_worse': 0.64285, 'rmse_delta': 0.0012514821559139466, 'ci95_delta': [-0.0025202409501177796, 0.006918699835155235], 'alpha': 0.0125, 'blocks': 16}, {'scope': 'all', 'p_worse': 0.64285, 'rmse_delta': 0.0012514821559139466, 'ci95_delta': [-0.0025202409501177796, 0.006918699835155235], 'alpha': 0.0125, 'blocks': 16}]

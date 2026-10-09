@@ -1,0 +1,9 @@
+KNOWN_ZERO_METADATA C:\work\farmai\������\�ڵ���\local\ec_vent_gap_20261006_v1\inputs\components\DIAG10_9_pfn_3.json array SHA matches old frozen preparation; context checked directly below
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_high_training_hypothesis_20261009_v1\run_v3.py", line 186, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_high_training_hypothesis_20261009_v1\run_v3.py", line 181, in main
+    jobs,reg=prepare();old=json.loads((H/'registration_v3.json').read_text(encoding='utf8'));assert reg==old
+                                                                                                    ^^^^^^^^
+AssertionError

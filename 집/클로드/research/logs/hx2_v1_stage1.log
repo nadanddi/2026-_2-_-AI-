@@ -1,0 +1,97 @@
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 9 of 16 pass-2 training days
+DIAG10/4 seed 3131
+DIAG10/4 seed 5252
+DIAG10/4 seed 7373
+DIAG10/4 done
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+DIAG10/5 seed 3131
+DIAG10/5 seed 5252
+DIAG10/5 seed 7373
+DIAG10/5 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 6 of 11 pass-2 training days
+DIAG10/6 seed 3131
+DIAG10/6 seed 5252
+DIAG10/6 seed 7373
+DIAG10/6 done
+   F13 anchors 11 of 17 pass-2 training days
+   F47 anchors 11 of 14 pass-2 training days
+DIAG10/7 seed 3131
+DIAG10/7 seed 5252
+DIAG10/7 seed 7373
+DIAG10/7 done
+   F13 anchors 9 of 14 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/8 seed 3131
+DIAG10/8 seed 5252
+DIAG10/8 seed 7373
+DIAG10/8 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+DIAG10/9 seed 3131
+DIAG10/9 seed 5252
+DIAG10/9 seed 7373
+DIAG10/9 done
+   F13 anchors 7 of 9 pass-2 training days
+   F47 anchors 5 of 8 pass-2 training days
+FRESH/100 seed 3131
+FRESH/100 seed 5252
+FRESH/100 seed 7373
+FRESH/100 done
+   F13 anchors 7 of 11 pass-2 training days
+   F47 anchors 2 of 7 pass-2 training days
+FRESH/101 seed 3131
+FRESH/101 seed 5252
+FRESH/101 seed 7373
+FRESH/101 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+FRESH/102 seed 3131
+FRESH/102 seed 5252
+FRESH/102 seed 7373
+FRESH/102 done
+   F13 anchors 12 of 17 pass-2 training days
+   F47 anchors 11 of 14 pass-2 training days
+FRESH/103 seed 3131
+FRESH/103 seed 5252
+FRESH/103 seed 7373
+FRESH/103 done
+   F13 anchors 13 of 15 pass-2 training days
+   F47 anchors 12 of 13 pass-2 training days
+FRESH/104 seed 3131
+FRESH/104 seed 5252
+FRESH/104 seed 7373
+FRESH/104 done
+   F13 anchors 14 of 15 pass-2 training days
+   F47 anchors 10 of 10 pass-2 training days
+FRESH/105 seed 3131
+FRESH/105 seed 5252
+FRESH/105 seed 7373
+FRESH/105 done
+folds: {'DIAG10': 6, 'EL1': 10, 'FRESH': 6}
+NORMAL DIAG10 pass-2 days 41  BASE 0.1302 [0.1280 0.1308 0.1326]  U2 0.1049 [0.1047 0.1050 0.1054]  -19.41%
+NORMAL FRESH  pass-2 days 41  BASE 0.1659 [0.1689 0.1653 0.1644]  U2 0.1365 [0.1369 0.1363 0.1365]  -17.75%
+NORMAL EL1    pass-2 days 41  BASE 0.1477 [0.1439 0.1517 0.1483]  U2 0.1158 [0.1165 0.1164 0.1150]  -21.60%
+ALL    DIAG10 pass-2 days 46  BASE 0.2694 [0.2686 0.2718 0.2683]  U2 0.3231 [0.3234 0.3241 0.3220]  +19.92%
+ALL    FRESH  pass-2 days 46  BASE 0.2761 [0.2780 0.2774 0.2733]  U2 0.3385 [0.3381 0.3368 0.3409]  +22.63%
+ALL    EL1    pass-2 days 46  BASE 0.2867 [0.2869 0.2887 0.2850]  U2 0.3325 [0.3339 0.3321 0.3316]  +15.98%
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\hx2_unexplained_highec_confirm_v1.py", line 178, in <module>
+    summarize()
+  File "C:\work\farmai\집\클로드\research\hx2_unexplained_highec_confirm_v1.py", line 163, in summarize
+    gain = pd.Series((mb - y) ** 2 - (mu - y) ** 2).groupby(list(zip(g.farm, g.day))).sum().sort_values(ascending=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\util\_decorators.py", line 336, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\series.py", line 2057, in groupby
+    return SeriesGroupBy(
+           ^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\groupby\groupby.py", line 1095, in __init__
+    grouper, exclusions, obj = get_grouper(
+                               ^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\groupby\grouper.py", line 901, in get_grouper
+    raise KeyError(gpr)
+KeyError: ('F13', 179)

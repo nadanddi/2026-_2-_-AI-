@@ -1,0 +1,21 @@
+== PRIMARY: HX2 checkpoints (seeds 3131/5252/7373), candidate U2
+ALL    DIAG10 days 46  BASE 0.2694 | w0.25 0.2799 (+3.9%, seeds better 0/3) | w0.50 0.2924 (+8.5%, seeds better 0/3)
+ALL    FRESH  days 46  BASE 0.2761 | w0.25 0.2876 (+4.2%, seeds better 0/3) | w0.50 0.3022 (+9.5%, seeds better 0/3)
+ALL    EL1    days 46  BASE 0.2867 | w0.25 0.2941 (+2.6%, seeds better 0/3) | w0.50 0.3044 (+6.2%, seeds better 0/3)
+NORMAL DIAG10 days 41  BASE 0.1302 | w0.25 0.1190 (-8.6%, seeds better 3/3) | w0.50 0.1107 (-15.0%, seeds better 3/3)
+NORMAL FRESH  days 41  BASE 0.1659 | w0.25 0.1557 (-6.1%, seeds better 3/3) | w0.50 0.1472 (-11.3%, seeds better 3/3)
+NORMAL EL1    days 41  BASE 0.1477 | w0.25 0.1381 (-6.5%, seeds better 3/3) | w0.50 0.1294 (-12.4%, seeds better 3/3)
+HIGH   DIAG10 days  5  BASE 0.7273 | w0.25 0.7774 (+6.9%, seeds better 0/3) | w0.50 0.8285 (+13.9%, seeds better 0/3)
+HIGH   FRESH  days  5  BASE 0.6895 | w0.25 0.7499 (+8.8%, seeds better 0/3) | w0.50 0.8138 (+18.0%, seeds better 0/3)
+HIGH   EL1    days  5  BASE 0.7597 | w0.25 0.7997 (+5.3%, seeds better 0/3) | w0.50 0.8458 (+11.3%, seeds better 0/3)
+
+w0.25: ALL seed x set better 0/9, FRESH day-bootstrap share 0.8928, without top-4 gain days [('F13', 231), ('F13', 233), ('F47', 193), ('F47', 216)] (0.2786 vs 0.2607) -> FAIL
+w0.50: ALL seed x set better 0/9, FRESH day-bootstrap share 0.9145, without top-4 gain days [('F13', 231), ('F13', 233), ('F47', 193), ('F47', 216)] (0.2985 vs 0.2607) -> FAIL
+
+== descriptive: HX1 checkpoints (seeds 47/1414/6464), candidate U (14 days)
+ALL    DIAG10 days 46  BASE 0.2699 | w0.25 0.2803 (+3.8%, seeds better 0/3) | w0.50 0.2928 (+8.5%, seeds better 0/3)
+ALL    EL1    days 46  BASE 0.2880 | w0.25 0.2954 (+2.6%, seeds better 0/3) | w0.50 0.3050 (+5.9%, seeds better 0/3)
+NORMAL DIAG10 days 41  BASE 0.1299 | w0.25 0.1188 (-8.6%, seeds better 3/3) | w0.50 0.1106 (-14.9%, seeds better 3/3)
+NORMAL EL1    days 41  BASE 0.1540 | w0.25 0.1448 (-6.0%, seeds better 3/3) | w0.50 0.1366 (-11.3%, seeds better 3/3)
+HIGH   DIAG10 days  5  BASE 0.7294 | w0.25 0.7791 (+6.8%, seeds better 0/3) | w0.50 0.8296 (+13.7%, seeds better 0/3)
+HIGH   EL1    days  5  BASE 0.7542 | w0.25 0.7945 (+5.3%, seeds better 0/3) | w0.50 0.8385 (+11.2%, seeds better 0/3)

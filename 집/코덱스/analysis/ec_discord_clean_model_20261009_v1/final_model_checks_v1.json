@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "model_manifest_sha": "73ac92e067d40512df9e1270ffa1300f91e36021d1cffede9d8441ee5c4b2c0f",
+  "training_rows": 9360,
+  "training_days": 390,
+  "removed_days": 10,
+  "removed_rows": 240,
+  "inmemory_vs_reload_maxdiff": 0.0,
+  "causal": [
+    {
+      "farm": "F13",
+      "cut": 215,
+      "rows": 24,
+      "future_other_farm_maxdiff": 0.0,
+      "future_other_farm_deleted_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "cut": 167,
+      "rows": 24,
+      "future_other_farm_maxdiff": 0.0,
+      "future_other_farm_deleted_maxdiff": 0.0
+    }
+  ],
+  "input_order_invariant": true,
+  "query_weather_unused": true,
+  "consumed_40_days_validation_reads": 0,
+  "full400_labels_loaded_after_cv_score_sha": "59c09f08f79b4389c46670716fc3725a76c61c83f818f83c4f2781ab4a350c49",
+  "adoption": false
+}

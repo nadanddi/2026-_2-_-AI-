@@ -1,0 +1,11 @@
+DIAG10 all          days 360  BASE 0.2037 (bias -0.028)  NS 0.2228 (bias -0.039)  +9.38%  seeds better 0/3
+A      all          days 157  BASE 0.2776 (bias +0.023)  NS 0.2868 (bias -0.014)  +3.34%  seeds better 0/3
+B      all          days 162  BASE 0.2212 (bias +0.027)  NS 0.2337 (bias +0.008)  +5.67%  seeds better 0/3
+EL1    pass2        days  46  BASE 0.2860 (bias -0.055)  NS 0.3157 (bias -0.077)  +10.39%  seeds better 0/3
+P2LOO  pass2        days  46  BASE 0.2210 (bias -0.006)  NS 0.2670 (bias -0.043)  +20.79%  seeds better 0/3
+DIAG10 EXPL         days   9  BASE 0.2657 (bias -0.163)  NS 0.4549 (bias -0.397)  +71.23%  seeds better 0/3
+DIAG10 UNEX(other)  days  13  BASE 0.6914 (bias -0.587)  NS 0.7351 (bias -0.622)  +6.32%  seeds better 0/3
+DIAG10 NOSIG        days   4  BASE 0.9824 (bias -0.844)  NS 1.1078 (bias -0.971)  +12.77%  seeds better 0/3
+DIAG10 normal       days 334  BASE 0.1126 (bias +0.007)  NS 0.1105 (bias +0.004)  -1.80%  seeds better 3/3
+
+VERDICT: seed x {DIAG10,A,B} better 0/9, DIAG10 share 0.9991 -> FAIL  GUARD HOLD: ['EL1', 'P2LOO']

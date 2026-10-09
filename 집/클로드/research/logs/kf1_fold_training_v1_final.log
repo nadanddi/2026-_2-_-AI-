@@ -1,0 +1,30 @@
+== DIAG10 day>=0  n=8640
+   FULL  0.2043  seeds [0.2051 0.2032 0.2050]  vs FULL +0.00%
+   BAG10 0.2058  seeds [0.2057 0.2055 0.2062]  vs FULL +0.73%
+   ESCV  0.2049  seeds [0.2058 0.2038 0.2057]  vs FULL +0.33%
+   BAG10 share(not better than FULL) 0.9937
+   ESCV share(not better than FULL) 0.9494
+
+== A day>=0  n=6336
+   FULL  0.2779  seeds [0.2786 0.2787 0.2769]  vs FULL +0.00%
+   BAG10 0.2779  seeds [0.2783 0.2780 0.2777]  vs FULL +0.02%
+   ESCV  0.2792  seeds [0.2801 0.2796 0.2785]  vs FULL +0.48%
+
+== B day>=0  n=6312
+   FULL  0.2207  seeds [0.2228 0.2193 0.2206]  vs FULL +0.00%
+   BAG10 0.2244  seeds [0.2247 0.2243 0.2245]  vs FULL +1.69%
+   ESCV  0.2226  seeds [0.2248 0.2214 0.2222]  vs FULL +0.85%
+
+== DIAG10 day>=179  n=1104
+   FULL  0.2699  seeds [0.2710 0.2698 0.2695]  vs FULL +0.00%
+   BAG10 0.2715  seeds [0.2716 0.2705 0.2725]  vs FULL +0.58%
+   ESCV  0.2707  seeds [0.2723 0.2702 0.2699]  vs FULL +0.28%
+
+== EL1 day>=179  n=1104
+   FULL  0.2880  seeds [0.2880 0.2872 0.2894]  vs FULL +0.00%
+   BAG10 0.2866  seeds [0.2862 0.2863 0.2875]  vs FULL -0.50%
+   ESCV  0.2893  seeds [0.2865 0.2888 0.2929]  vs FULL +0.43%
+
+BAG10: seed x {DIAG10,A,B} better 2/9, DIAG10 share 0.9937 -> FAIL
+
+ESCV: seed x {DIAG10,A,B} better 0/9, DIAG10 share 0.9494 -> FAIL

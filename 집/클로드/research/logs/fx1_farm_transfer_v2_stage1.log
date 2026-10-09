@@ -1,0 +1,109 @@
+   F13 anchors 10 of 21 pass-2 training days
+   F47 anchors 9 of 17 pass-2 training days
+DIAG10/0 seed 47
+DIAG10/0 seed 1414
+DIAG10/0 seed 6464
+DIAG10/0 done
+   F13 anchors 9 of 21 pass-2 training days
+   F47 anchors 7 of 17 pass-2 training days
+DIAG10/1 seed 47
+DIAG10/1 seed 1414
+DIAG10/1 seed 6464
+DIAG10/1 done
+   F13 anchors 11 of 21 pass-2 training days
+   F47 anchors 7 of 17 pass-2 training days
+DIAG10/2 seed 47
+DIAG10/2 seed 1414
+DIAG10/2 seed 6464
+DIAG10/2 done
+   F13 anchors 12 of 21 pass-2 training days
+   F47 anchors 6 of 16 pass-2 training days
+DIAG10/3 seed 47
+DIAG10/3 seed 1414
+DIAG10/3 seed 6464
+DIAG10/3 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 9 of 16 pass-2 training days
+DIAG10/4 seed 47
+DIAG10/4 seed 1414
+DIAG10/4 seed 6464
+DIAG10/4 done
+   F13 anchors 14 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+DIAG10/5 seed 47
+DIAG10/5 seed 1414
+DIAG10/5 seed 6464
+DIAG10/5 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 6 of 11 pass-2 training days
+DIAG10/6 seed 47
+DIAG10/6 seed 1414
+DIAG10/6 seed 6464
+DIAG10/6 done
+   F13 anchors 11 of 17 pass-2 training days
+   F47 anchors 11 of 14 pass-2 training days
+DIAG10/7 seed 47
+DIAG10/7 seed 1414
+DIAG10/7 seed 6464
+DIAG10/7 done
+   F13 anchors 9 of 14 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/8 seed 47
+DIAG10/8 seed 1414
+DIAG10/8 seed 6464
+DIAG10/8 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+DIAG10/9 seed 47
+DIAG10/9 seed 1414
+DIAG10/9 seed 6464
+DIAG10/9 done
+folds: {'DIAG10': 10, 'P2LOO': 10}
+
+== P2LOO rows day>=179 (PRIMARY)
+F13 n=240 days=10  same-farm train rows 3710, other-farm 3516
+   P RMSE 0.0734  seeds [0.0743 0.0707 0.0754]  vs P +0.00%
+   S RMSE 0.0654  seeds [0.0670 0.0649 0.0648]  vs P -10.91%
+   O RMSE 0.1703  seeds [0.1720 0.1693 0.1700]  vs P +132.10%
+   I RMSE 0.0623  seeds [0.0624 0.0618 0.0630]  vs P -15.09%
+   S vs P: seeds better 3/3, share(S not better) 0.3095, share(P not better) 0.6905  판별 불가
+   I vs P: seeds better 3/3, share(I not better) 0.1191, share(P not better) 0.8810  판별 불가
+   O vs P: seeds better 0/3, share(O not better) 1.0000, share(P not better) 0.0000  -
+
+== DIAG10 rows day>=179 (descriptive)
+F13 n=576 days=24  same-farm train rows 2968, other-farm 2881
+   P RMSE 0.2509  seeds [0.2488 0.2495 0.2548]  vs P +0.00%
+   S RMSE 0.3013  seeds [0.2999 0.3009 0.3035]  vs P +20.09%
+   O RMSE 0.2322  seeds [0.2329 0.2277 0.2365]  vs P -7.46%
+   I RMSE 0.2665  seeds [0.2678 0.2688 0.2636]  vs P +6.23%
+   S vs P: seeds better 0/3, share(S not better) 0.9925, share(P not better) 0.0076  -
+   I vs P: seeds better 0/3, share(I not better) 0.9540, share(P not better) 0.0460  -
+   O vs P: seeds better 3/3, share(O not better) 0.3189, share(P not better) 0.6812  -
+F47 n=528 days=22  same-farm train rows 2880, other-farm 2963
+   P RMSE 0.2893  seeds [0.2933 0.2904 0.2846]  vs P +0.00%
+   S RMSE 0.2777  seeds [0.2754 0.2741 0.2843]  vs P -3.99%
+   O RMSE 0.3949  seeds [0.3987 0.3925 0.3937]  vs P +36.49%
+   I RMSE 0.2812  seeds [0.2804 0.2831 0.2808]  vs P -2.79%
+   S vs P: seeds better 3/3, share(S not better) 0.1115, share(P not better) 0.8885  -
+   I vs P: seeds better 3/3, share(I not better) 0.0321, share(P not better) 0.9679  -
+   O vs P: seeds better 0/3, share(O not better) 0.9174, share(P not better) 0.0825  -
+
+== DIAG10 rows day>=0 (descriptive)
+F13 n=4320 days=180  same-farm train rows 2994, other-farm 2848
+   P RMSE 0.1834  seeds [0.1845 0.1820 0.1843]  vs P +0.00%
+   S RMSE 0.2254  seeds [0.2247 0.2264 0.2255]  vs P +22.90%
+   O RMSE 0.2050  seeds [0.2056 0.2038 0.2064]  vs P +11.79%
+   I RMSE 0.2023  seeds [0.2024 0.2034 0.2016]  vs P +10.31%
+   S vs P: seeds better 0/3, share(S not better) 1.0000, share(P not better) 0.0000  -
+   I vs P: seeds better 0/3, share(I not better) 1.0000, share(P not better) 0.0000  -
+   O vs P: seeds better 0/3, share(O not better) 0.9868, share(P not better) 0.0132  -
+F47 n=4320 days=180  same-farm train rows 2836, other-farm 2994
+   P RMSE 0.2232  seeds [0.2237 0.2223 0.2239]  vs P +0.00%
+   S RMSE 0.2290  seeds [0.2284 0.2288 0.2303]  vs P +2.61%
+   O RMSE 0.3068  seeds [0.3075 0.3060 0.3071]  vs P +37.46%
+   I RMSE 0.2212  seeds [0.2206 0.2216 0.2217]  vs P -0.90%
+   S vs P: seeds better 0/3, share(S not better) 0.9003, share(P not better) 0.0997  -
+   I vs P: seeds better 3/3, share(I not better) 0.2908, share(P not better) 0.7092  -
+   O vs P: seeds better 0/3, share(O not better) 1.0000, share(P not better) 0.0000  -
+
+== EL1 rows day>=179 (descriptive)

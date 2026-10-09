@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "probe_rows": 192,
+  "direct_vs_reload_maxdiff": 0.0,
+  "per_seed": [
+    {
+      "seed": 8383,
+      "train_rows": 9600,
+      "train_days": 400,
+      "high_days": 30,
+      "feature_sha": "2124a6af50eaeb2f6a2c9ba965f246520ddef9e76c08c72a5d97a1a59f911532",
+      "reload_maxdiff": 0.0,
+      "seconds": 8.796999999991385
+    },
+    {
+      "seed": 1919,
+      "train_rows": 9600,
+      "train_days": 400,
+      "high_days": 30,
+      "feature_sha": "2124a6af50eaeb2f6a2c9ba965f246520ddef9e76c08c72a5d97a1a59f911532",
+      "reload_maxdiff": 0.0,
+      "seconds": 9.203000000008615
+    },
+    {
+      "seed": 7171,
+      "train_rows": 9600,
+      "train_days": 400,
+      "high_days": 30,
+      "feature_sha": "2124a6af50eaeb2f6a2c9ba965f246520ddef9e76c08c72a5d97a1a59f911532",
+      "reload_maxdiff": 0.0,
+      "seconds": 9.187000000005355
+    }
+  ]
+}

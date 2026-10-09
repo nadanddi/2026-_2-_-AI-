@@ -1,0 +1,20 @@
+folds: {'DIAG10': 6, 'EL1': 10, 'P2LOO': 46}
+pass-2 curtain-pattern days: [('F13', 214), ('F13', 217), ('F47', 229), ('F47', 231)]
+
+==== THS5 vs REF (final after SG2, pass-2 rows)
+  DIAG10 REF 0.2518  THS5 0.2333  -7.32%  seeds +++ | before SG2 0.2553 -> 0.2388 | high days -6.0%, normal -13.2%
+  EL1    REF 0.2812  THS5 0.2613  -7.06%  seeds +++ | before SG2 0.2837 -> 0.2641 | high days -5.2%, normal -12.1%
+  P2LOO  REF 0.1925  THS5 0.1756  -8.80%  seeds +++ | before SG2 0.2075 -> 0.1879 | high days -10.8%, normal -6.0%
+  aux without NOSIG F47 229          REF 0.1783 THS5 0.1675 -> better
+  aux without pass-2 pattern days    REF 0.1313 THS5 0.1225 -> better
+  (reported) without top-5 gain days [('F13', 217), ('F13', 233), ('F13', 243), ('F47', 229), ('F47', 231)]: REF 0.1148 THS5 0.1165
+  VERDICT THS5: seed x set better 9/9, P2LOO day-share 0.0106, aux True -> PASS
+
+==== THB vs REF (final after SG2, pass-2 rows)
+  DIAG10 REF 0.2518  THB 0.2365  -6.07%  seeds +++ | before SG2 0.2553 -> 0.2417 | high days -4.7%, normal -12.1%
+  EL1    REF 0.2812  THB 0.2661  -5.34%  seeds +++ | before SG2 0.2837 -> 0.2688 | high days -2.8%, normal -12.5%
+  P2LOO  REF 0.1925  THB 0.1794  -6.81%  seeds +++ | before SG2 0.2075 -> 0.1919 | high days -7.6%, normal -5.7%
+  aux without NOSIG F47 229          REF 0.1783 THB 0.1700 -> better
+  aux without pass-2 pattern days    REF 0.1313 THB 0.1200 -> better
+  (reported) without top-5 gain days [('F13', 217), ('F13', 233), ('F47', 216), ('F47', 229), ('F47', 231)]: REF 0.1177 THB 0.1203
+  VERDICT THB: seed x set better 9/9, P2LOO day-share 0.0377, aux True -> FAIL

@@ -1,0 +1,73 @@
+   F13 anchors 7 of 19 pass-2 training days
+   F47 anchors 9 of 15 pass-2 training days
+DIAG10/0 done
+   F13 anchors 6 of 19 pass-2 training days
+   F47 anchors 7 of 15 pass-2 training days
+DIAG10/1 done
+   F13 anchors 8 of 19 pass-2 training days
+   F47 anchors 7 of 15 pass-2 training days
+DIAG10/2 done
+   F13 anchors 9 of 19 pass-2 training days
+   F47 anchors 6 of 14 pass-2 training days
+DIAG10/3 done
+   F13 anchors 8 of 14 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+DIAG10/4 done
+   F13 anchors 11 of 17 pass-2 training days
+   F47 anchors 10 of 13 pass-2 training days
+DIAG10/5 done
+   F13 anchors 8 of 14 pass-2 training days
+   F47 anchors 6 of 9 pass-2 training days
+DIAG10/6 done
+   F13 anchors 9 of 15 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/7 done
+   F13 anchors 9 of 12 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/8 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 10 pass-2 training days
+DIAG10/9 done
+   F13 anchors 10 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+A/0 done
+   F13 anchors 10 of 19 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+A/1 done
+   F13 anchors 9 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+A/2 done
+   F13 anchors 10 of 19 pass-2 training days
+   F47 anchors 8 of 15 pass-2 training days
+A/3 done
+   F13 anchors 8 of 14 pass-2 training days
+   F47 anchors 6 of 14 pass-2 training days
+A/4 done
+   F13 anchors 8 of 19 pass-2 training days
+   F47 anchors 8 of 15 pass-2 training days
+B/0 done
+   F13 anchors 9 of 19 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+B/1 done
+   F13 anchors 12 of 19 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+B/2 done
+   F13 anchors 9 of 19 pass-2 training days
+   F47 anchors 9 of 15 pass-2 training days
+B/3 done
+   F13 anchors 9 of 19 pass-2 training days
+   F47 anchors 8 of 15 pass-2 training days
+B/4 done
+folds: {'A': 5, 'B': 5, 'DIAG10': 10, 'EL1': 9, 'P2LOO': 8}
+DIAG10 all   days 334  NOHIGH 0.1135 [0.1140 0.1135 0.1132]  | HX1 BASE (trained with high days) 0.1114 -> +1.8%
+DIAG10 pass1 days 293  NOHIGH 0.1145 [0.1149 0.1146 0.1142]  | HX1 BASE (trained with high days) 0.1086 -> +5.4%
+DIAG10 pass2 days  41  NOHIGH 0.1060 [0.1070 0.1054 0.1060]  | HX1 BASE (trained with high days) 0.1299 -> -18.4%
+A      all   days 137  NOHIGH 0.1494 [0.1494 0.1501 0.1491]
+A      pass1 days 133  NOHIGH 0.1504 [0.1504 0.1510 0.1500]
+A      pass2 days   4  NOHIGH 0.0762 [0.0745 0.0775 0.0766]  | HX1 BASE (trained with high days) 0.0764 -> -0.3%
+B      all   days 146  NOHIGH 0.1567 [0.1569 0.1565 0.1570]
+B      pass1 days 146  NOHIGH 0.1567 [0.1569 0.1565 0.1570]
+EL1    all   days  41  NOHIGH 0.1054 [0.1055 0.1054 0.1054]  | HX1 BASE (trained with high days) 0.1540 -> -31.6%
+EL1    pass2 days  41  NOHIGH 0.1054 [0.1055 0.1054 0.1054]  | HX1 BASE (trained with high days) 0.1540 -> -31.6%
+P2LOO  all   days   8  NOHIGH 0.0780 [0.0766 0.0789 0.0785]
+P2LOO  pass2 days   8  NOHIGH 0.0780 [0.0766 0.0789 0.0785]

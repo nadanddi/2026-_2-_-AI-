@@ -1,0 +1,45 @@
+공통 행 984 날 41
+전체: 고EC 포함 학습 0.1479  지운 세계 0.0829  (-43.9%)
+시드별: 47 0.1475->0.0828 1414 0.1508->0.0835 6464 0.1460->0.0827
+치우침(평균 예측-정답): +0.0413 -> -0.0123
+좋아진 날 20 / 41, Wilcoxon p 0.5044
+이득 상위 비중: 1일 46%, 3일 78%, 5일 104%, 10일 107%
+  상위  0일 빼면: 0.1479 -> 0.0829 (-43.9%)
+  상위  3일 빼면: 0.1029 -> 0.0839 (-18.4%)
+  상위  5일 빼면: 0.0753 -> 0.0794 (+5.4%)
+  상위 10일 빼면: 0.0628 -> 0.0732 (+16.5%)
+짝 온실 고EC ±4일 아님: 25일  0.1057 -> 0.0938 (-11.3%), 좋아진 날 11
+짝 온실 고EC ±4일 근처: 16일  0.1964 -> 0.0623 (-68.3%), 좋아진 날 9
+
+이득 상위 10일:
+Traceback (most recent call last):
+  File "<stdin>", line 33, in <module>
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\frame.py", line 4384, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\indexes\base.py", line 6302, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\indexes\base.py", line 6355, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['near_partner_spike'] not in index"
+이득 상위 8일:
+             실제   포함학습   지운세계     이득  짝고EC근처
+farm day                                    
+F13  233  0.634  1.164  0.680  6.724  F47229
+F47  241  0.652  0.987  0.752  2.534  F13241
+     216  0.556  0.855  0.561  2.262  F13217
+F13  214  0.918  1.263  0.739  2.165       -
+     231  0.621  0.881  0.614  1.609  F47229
+F47  239  0.434  0.543  0.473  0.273  F13241
+     243  0.449  0.546  0.503  0.128  F13241
+     209  0.655  0.449  0.455  0.064       -
+
+손해 상위 6일:
+             실제   포함학습   지운세계     이득  짝고EC근처
+farm day                                    
+F13  242  0.432  0.480  0.489 -0.024       -
+F47  242  0.724  0.738  0.677 -0.032  F13241
+F13  232  0.739  0.718  0.647 -0.132  F47229
+     213  0.292  0.381  0.409 -0.152       -
+     244  0.440  0.422  0.353 -0.175       -
+     245  0.840  0.779  0.684 -0.494       -

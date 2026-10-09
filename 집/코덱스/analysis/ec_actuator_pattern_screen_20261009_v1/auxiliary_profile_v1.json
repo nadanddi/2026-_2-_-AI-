@@ -1,0 +1,63 @@
+{
+  "pass1_width20": {
+    "days": 314,
+    "strata": 18,
+    "stratum_size_range": [
+      11,
+      20
+    ],
+    "singleton_strata": 0,
+    "centering_dimension_n_minus_strata": 296,
+    "farms": {
+      "F13": 156,
+      "F47": 158
+    }
+  },
+  "pass1_width40": {
+    "days": 314,
+    "strata": 10,
+    "stratum_size_range": [
+      16,
+      38
+    ],
+    "singleton_strata": 0,
+    "centering_dimension_n_minus_strata": 304,
+    "farms": {
+      "F13": 156,
+      "F47": 158
+    }
+  },
+  "pass2_width20": {
+    "days": 46,
+    "strata": 10,
+    "stratum_size_range": [
+      1,
+      8
+    ],
+    "singleton_strata": 2,
+    "centering_dimension_n_minus_strata": 36,
+    "farms": {
+      "F13": 24,
+      "F47": 22
+    }
+  },
+  "pass2_width40": {
+    "days": 46,
+    "strata": 6,
+    "stratum_size_range": [
+      4,
+      10
+    ],
+    "singleton_strata": 0,
+    "centering_dimension_n_minus_strata": 40,
+    "farms": {
+      "F13": 24,
+      "F47": 22
+    }
+  },
+  "residual_candidates_unique": [
+    "act_circfan__h15__daynight",
+    "act_shade__h15__daynight"
+  ],
+  "duplicate_daynight_definitions": "h15 and h23 both use daytime 9..15 minus night0..8; deduplicated to two residual signals"
+}

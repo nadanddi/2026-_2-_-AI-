@@ -1,0 +1,15 @@
+KNOWN_ZERO_METADATA C:\work\farmai\������\�ڵ���\local\ec_vent_gap_20261006_v1\inputs\components\DIAG10_9_pfn_3.json array SHA matches old frozen preparation; context checked directly below
+FIT 0 BASE 7 deleted 0 seconds 0.1
+FIT 0 BASE 101 deleted 0 seconds 0.1
+FIT 0 BASE 2024 deleted 0 seconds 0.1
+FIT 0 ALL_HIGH 7 deleted 26 seconds 16.8
+FIT 0 ALL_HIGH 101 deleted 26 seconds 15.8
+FIT 0 ALL_HIGH 2024 deleted 26 seconds 13.2
+FIT 0 DISCORD_HIGH 7 deleted 10 seconds 13.9
+FIT 0 DISCORD_HIGH 101 deleted 10 seconds 15.7
+FIT 0 DISCORD_HIGH 2024 deleted 10 seconds 15.2
+FIT 0 CONTROL 7 deleted 10 seconds 14.8
+FIT 0 CONTROL 101 deleted 10 seconds 14.6
+FIT 0 CONTROL 2024 deleted 10 seconds 17.3
+FOLD_COMPLETE 0 baselinefinalgap 2.220446049250313e-16
+SCORED midpoint [{'arm': 'ALL_HIGH', 'reference': 'BASE', 'scope': 'normal', 'blocks': 16, 'p_worse': 0.0366, 'rmse_delta': -0.0058581307767994195, 'ci95_delta': [-0.015349386858502428, 0.00027661542760735325], 'alpha': 0.008333333333333333}, {'arm': 'DISCORD_HIGH', 'reference': 'BASE', 'scope': 'normal', 'blocks': 16, 'p_worse': 0.5796, 'rmse_delta': 0.00012992427850884447, 'ci95_delta': [-0.000956638347533293, 0.0011557966654076623], 'alpha': 0.008333333333333333}, {'arm': 'DISCORD_HIGH', 'reference': 'CONTROL', 'scope': 'normal', 'blocks': 16, 'p_worse': 0.0425, 'rmse_delta': -0.0035704366161624784, 'ci95_delta': [-0.007852887002129572, 0.0003608179580851084], 'alpha': 0.008333333333333333}]

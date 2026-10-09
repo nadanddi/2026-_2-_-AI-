@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_high_training_hypothesis_20261009_v1\run_v2.py", line 181, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_high_training_hypothesis_20261009_v1\run_v2.py", line 174, in main
+    jobs,reg=prepare();write(H/'registration_v2.json',reg);print('PREPARED_FIT0',len(jobs),[(k,{a:len(v) for a,v in j[4].items()}) for k,j in jobs.items()],flush=True);return
+             ^^^^^^^^^
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_high_training_hypothesis_20261009_v1\run_v2.py", line 78, in prepare
+    ps=src['seed'];p=S.C/f'DIAG10_{k}_pfn_{ps}.npz';mp=p.with_suffix('.json');meta=json.loads(mp.read_text(encoding='utf8'))
+                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aozks\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aozks\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 338, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aozks\AppData\Local\Programs\Python\Python312\Lib\json\decoder.py", line 356, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

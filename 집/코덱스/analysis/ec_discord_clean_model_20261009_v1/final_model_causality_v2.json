@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "probe_rows": 192,
+  "probe_days": 8,
+  "checks": [
+    {
+      "farm": "F13",
+      "pass2": false,
+      "day": 9,
+      "hour": 5,
+      "allowed_rows": 30,
+      "future_other_farm_perturbed_maxdiff": 0.0,
+      "future_other_farm_deleted_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "pass2": false,
+      "day": 9,
+      "hour": 17,
+      "allowed_rows": 42,
+      "future_other_farm_perturbed_maxdiff": 0.0,
+      "future_other_farm_deleted_maxdiff": 0.0
+    },
+    {
+      "farm": "F13",
+      "pass2": true,
+      "day": 180,
+      "hour": 5,
+      "allowed_rows": 78,
+      "future_other_farm_perturbed_maxdiff": 0.0,
+      "future_other_farm_deleted_maxdiff": 2.7755575615628914e-17
+    },
+    {
+      "farm": "F13",
+      "pass2": true,
+      "day": 180,
+      "hour": 17,
+      "allowed_rows": 90,
+      "future_other_farm_perturbed_maxdiff": 0.0,
+      "future_other_farm_deleted_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "pass2": false,
+      "day": 7,
+      "hour": 5,
+      "allowed_rows": 30,
+      "future_other_farm_perturbed_maxdiff": 0.0,
+      "future_other_farm_deleted_maxdiff": 5.551115123125783e-17
+    },
+    {
+      "farm": "F47",
+      "pass2": false,
+      "day": 7,
+      "hour": 17,
+      "allowed_rows": 42,
+      "future_other_farm_perturbed_maxdiff": 0.0,
+      "future_other_farm_deleted_maxdiff": 0.0
+    },
+    {
+      "farm": "F47",
+      "pass2": true,
+      "day": 180,
+      "hour": 5,
+      "allowed_rows": 78,
+      "future_other_farm_perturbed_maxdiff": 0.0,
+      "future_other_farm_deleted_maxdiff": 5.551115123125783e-17
+    },
+    {
+      "farm": "F47",
+      "pass2": true,
+      "day": 180,
+      "hour": 17,
+      "allowed_rows": 90,
+      "future_other_farm_perturbed_maxdiff": 0.0,
+      "future_other_farm_deleted_maxdiff": 0.0
+    }
+  ],
+  "input_order_maxdiff": 0.0,
+  "query_weather_change_maxdiff": 0.0,
+  "script_sha": "f6ba20bec62cc7f7f77c94eb6c16dcb5e2fdf0cc2a63be434e0b5fabde47815d",
+  "model_manifest_sha": "73ac92e067d40512df9e1270ffa1300f91e36021d1cffede9d8441ee5c4b2c0f",
+  "future_hours_tested": [
+    5,
+    17
+  ],
+  "sample_scope": "public retained training inputs, four farm/period strata, no validation labels read"
+}

@@ -1,0 +1,100 @@
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 11 of 16 pass-2 training days
+EL1/0 seed 47
+EL1/0 seed 1414
+EL1/0 seed 6464
+EL1/0 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 6 of 11 pass-2 training days
+EL1/1 seed 47
+EL1/1 seed 1414
+EL1/1 seed 6464
+EL1/1 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 11 of 14 pass-2 training days
+EL1/2 seed 47
+EL1/2 seed 1414
+EL1/2 seed 6464
+EL1/2 done
+   F13 anchors 14 of 15 pass-2 training days
+   F47 anchors 7 of 7 pass-2 training days
+EL1/3 seed 47
+EL1/3 seed 1414
+EL1/3 seed 6464
+EL1/3 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+EL1/4 seed 47
+EL1/4 seed 1414
+EL1/4 seed 6464
+EL1/4 done
+   F13 anchors 10 of 15 pass-2 training days
+   F47 anchors 7 of 13 pass-2 training days
+EL1/5 seed 47
+EL1/5 seed 1414
+EL1/5 seed 6464
+EL1/5 done
+   F13 anchors 10 of 15 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+EL1/6 seed 47
+EL1/6 seed 1414
+EL1/6 seed 6464
+EL1/6 done
+   F13 anchors 12 of 14 pass-2 training days
+   F47 anchors 12 of 13 pass-2 training days
+EL1/7 seed 47
+EL1/7 seed 1414
+EL1/7 seed 6464
+EL1/7 done
+   F13 anchors 13 of 14 pass-2 training days
+   F47 anchors 8 of 10 pass-2 training days
+EL1/8 seed 47
+EL1/8 seed 1414
+EL1/8 seed 6464
+EL1/8 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+EL1/9 seed 47
+EL1/9 seed 1414
+EL1/9 seed 6464
+EL1/9 done
+folds: {'A': 1, 'DIAG10': 10, 'EL1': 10}
+
+== DIAG10 NORMAL  n=8016 days=334
+   BASE 0.1114  seeds [0.1120 0.1109 0.1121]  vs BASE +0.00%
+   U    0.1106  seeds [0.1106 0.1106 0.1109]  vs BASE -0.80%
+   A    0.1136  seeds [0.1140 0.1137 0.1134]  vs BASE +1.97%
+   U share(not better than BASE) 0.4240
+   A share(not better than BASE) 0.5979
+
+== A NORMAL  n=1224 days=51
+   BASE 0.1229  seeds [0.1225 0.1231 0.1235]  vs BASE +0.00%
+   U    0.1246  seeds [0.1244 0.1241 0.1258]  vs BASE +1.45%
+   A    0.1224  seeds [0.1224 0.1221 0.1230]  vs BASE -0.35%
+
+== EL1 NORMAL p2  n=984 days=41
+   BASE 0.1540  seeds [0.1563 0.1531 0.1532]  vs BASE +0.00%
+   U    0.1242  seeds [0.1259 0.1235 0.1236]  vs BASE -19.35%
+   A    0.1050  seeds [0.1051 0.1049 0.1053]  vs BASE -31.80%
+
+== DIAG10 ALL rows  n=8640 days=360
+   BASE 0.2043  seeds [0.2051 0.2032 0.2050]  vs BASE +0.00%
+   U    0.2479  seeds [0.2477 0.2476 0.2486]  vs BASE +21.37%
+   A    0.2827  seeds [0.2833 0.2824 0.2826]  vs BASE +38.41%
+
+== DIAG10 HIGH  n=624 days=26
+   BASE 0.6466  seeds [0.6489 0.6431 0.6485]  vs BASE +0.00%
+   U    0.8330  seeds [0.8320 0.8318 0.8354]  vs BASE +28.82%
+   A    0.9699  seeds [0.9716 0.9685 0.9697]  vs BASE +50.00%
+
+== DIAG10 UNEX  n=336 days=14
+   BASE 0.8250  seeds [0.8270 0.8213 0.8271]  vs BASE +0.00%
+   U    0.9634  seeds [0.9618 0.9619 0.9666]  vs BASE +16.77%
+   A    1.0910  seeds [1.0916 1.0897 1.0918]  vs BASE +32.24%
+
+== EL1 ALL p2  n=1104 days=46
+   BASE 0.2880  seeds [0.2880 0.2872 0.2894]  vs BASE +0.00%
+   U    0.3299  seeds [0.3306 0.3270 0.3324]  vs BASE +14.56%
+   A    0.3758  seeds [0.3752 0.3752 0.3770]  vs BASE +30.47%
+
+INCOMPLETE folds - no verdict

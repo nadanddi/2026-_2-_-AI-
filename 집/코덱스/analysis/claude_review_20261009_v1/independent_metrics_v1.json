@@ -1,0 +1,140 @@
+{
+  "ct1": {
+    "files": 76,
+    "scores": [
+      {
+        "validator": "DIAG10",
+        "rows": 8640,
+        "days": 360,
+        "rmse": {
+          "REF": 0.20459306704101943,
+          "THS": 0.19286410493483824
+        },
+        "pct": -5.7328248096645495,
+        "seeds_better": 3,
+        "independent_maxdiff": 0.0,
+        "independent_p_worse": 0.0003,
+        "bootstrap_note": "Independent stdlib RNG, 20000 farm x relative-day//5 resamples; not identical RNG to author."
+      },
+      {
+        "validator": "A",
+        "rows": 6336,
+        "days": 157,
+        "rmse": {
+          "REF": 0.2784888217471007,
+          "THS": 0.26821646190549214
+        },
+        "pct": -3.6886075991003464,
+        "seeds_better": 3,
+        "independent_maxdiff": 0.0
+      },
+      {
+        "validator": "B",
+        "rows": 6312,
+        "days": 162,
+        "rmse": {
+          "REF": 0.21965354628650016,
+          "THS": 0.20812264800594849
+        },
+        "pct": -5.249584391190121,
+        "seeds_better": 3,
+        "independent_maxdiff": 0.0
+      },
+      {
+        "validator": "EL1",
+        "rows": 1104,
+        "days": 46,
+        "rmse": {
+          "REF": 0.28713838177301776,
+          "THS": 0.2624163354482629
+        },
+        "pct": -8.609802065506367,
+        "seeds_better": 3,
+        "independent_maxdiff": 0.0
+      },
+      {
+        "validator": "P2LOO",
+        "rows": 1104,
+        "days": 46,
+        "rmse": {
+          "REF": 0.22052931852721902,
+          "THS": 0.19710827686637034
+        },
+        "pct": -10.620375475362442,
+        "seeds_better": 3,
+        "independent_maxdiff": 0.0
+      }
+    ]
+  },
+  "ns1": {
+    "files": 76,
+    "scores": [
+      {
+        "validator": "DIAG10",
+        "rows": 8640,
+        "days": 360,
+        "rmse": {
+          "BASE": 0.20372447255721057,
+          "NS": 0.22283469876381556
+        },
+        "pct": 9.380427381515677,
+        "seeds_better": 0,
+        "independent_maxdiff": 0.0,
+        "independent_p_worse": 0.9992,
+        "bootstrap_note": "Independent stdlib RNG, 20000 farm x relative-day//5 resamples; not identical RNG to author."
+      },
+      {
+        "validator": "A",
+        "rows": 6336,
+        "days": 157,
+        "rmse": {
+          "BASE": 0.2775725392858364,
+          "NS": 0.2868362405904624
+        },
+        "pct": 3.337398335029995,
+        "seeds_better": 0,
+        "independent_maxdiff": 0.0
+      },
+      {
+        "validator": "B",
+        "rows": 6312,
+        "days": 162,
+        "rmse": {
+          "BASE": 0.22116514953963365,
+          "NS": 0.2337015955994775
+        },
+        "pct": 5.6683641549941655,
+        "seeds_better": 0,
+        "independent_maxdiff": 0.0
+      },
+      {
+        "validator": "EL1",
+        "rows": 1104,
+        "days": 46,
+        "rmse": {
+          "BASE": 0.28596226972880967,
+          "NS": 0.31568342684443756
+        },
+        "pct": 10.3933841145595,
+        "seeds_better": 0,
+        "independent_maxdiff": 0.0
+      },
+      {
+        "validator": "P2LOO",
+        "rows": 1104,
+        "days": 46,
+        "rmse": {
+          "BASE": 0.22103035583859257,
+          "NS": 0.26699249538869135
+        },
+        "pct": 20.794491949179438,
+        "seeds_better": 0,
+        "independent_maxdiff": 0.0
+      }
+    ]
+  },
+  "ct2_saved_folds_at_review": [
+    "DIAG10_4",
+    "EL1_300"
+  ]
+}

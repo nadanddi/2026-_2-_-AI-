@@ -1,0 +1,64 @@
+{
+  "status": "INDEPENDENT_SEGMENT_CALIBRATION_MATCHED_BRIER_PASS",
+  "matched_member_checks": 9,
+  "segments_checked": 8,
+  "reliability_bins_checked": 13,
+  "receipt_training_scores_independently_aggregated_not_refit": true,
+  "validation_member_scores_from_saved_OOF_independently_recomputed": true,
+  "matched_member_all24hour_brier": [
+    {
+      "validator": "DIAG10",
+      "seed": 8383,
+      "training_brier_fold_mean": 0.010024013860182155,
+      "validation_brier_all24hours": 0.05859488136376371
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 1919,
+      "training_brier_fold_mean": 0.009755220834775775,
+      "validation_brier_all24hours": 0.0584290944401503
+    },
+    {
+      "validator": "DIAG10",
+      "seed": 7171,
+      "training_brier_fold_mean": 0.009917918422183262,
+      "validation_brier_all24hours": 0.058828722404592325
+    },
+    {
+      "validator": "FRESH7",
+      "seed": 8383,
+      "training_brier_fold_mean": 0.010533313422236595,
+      "validation_brier_all24hours": 0.05879670064903813
+    },
+    {
+      "validator": "FRESH7",
+      "seed": 1919,
+      "training_brier_fold_mean": 0.009941630080844699,
+      "validation_brier_all24hours": 0.06000204513438359
+    },
+    {
+      "validator": "FRESH7",
+      "seed": 7171,
+      "training_brier_fold_mean": 0.010149276743569653,
+      "validation_brier_all24hours": 0.057124552941063556
+    },
+    {
+      "validator": "EL1",
+      "seed": 8383,
+      "training_brier_fold_mean": 0.010562061481950368,
+      "validation_brier_all24hours": 0.05888688039286677
+    },
+    {
+      "validator": "EL1",
+      "seed": 1919,
+      "training_brier_fold_mean": 0.01004009897309281,
+      "validation_brier_all24hours": 0.06227758874556338
+    },
+    {
+      "validator": "EL1",
+      "seed": 7171,
+      "training_brier_fold_mean": 0.010226073538389488,
+      "validation_brier_all24hours": 0.05950589455918442
+    }
+  ]
+}

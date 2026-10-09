@@ -1,0 +1,91 @@
+FIT 1 7 et train_days 262 seconds 18.0
+FIT 1 7 lgb train_days 262 seconds 1.8
+FIT 1 7 mlp train_days 262 seconds 11.9
+FIT 1 101 et train_days 262 seconds 18.6
+FIT 1 101 lgb train_days 262 seconds 1.6
+FIT 1 101 mlp train_days 262 seconds 11.8
+FIT 1 2024 et train_days 262 seconds 18.3
+FIT 1 2024 lgb train_days 262 seconds 1.5
+FIT 1 2024 mlp train_days 262 seconds 9.8
+FOLD_COMPLETE 1
+FIT 2 7 et train_days 250 seconds 17.8
+FIT 2 7 lgb train_days 250 seconds 1.6
+FIT 2 7 mlp train_days 250 seconds 12.2
+FIT 2 101 et train_days 250 seconds 17.5
+FIT 2 101 lgb train_days 250 seconds 1.8
+FIT 2 101 mlp train_days 250 seconds 13.3
+FIT 2 2024 et train_days 250 seconds 17.6
+FIT 2 2024 lgb train_days 250 seconds 1.5
+FIT 2 2024 mlp train_days 250 seconds 9.5
+FOLD_COMPLETE 2
+FIT 3 7 et train_days 259 seconds 18.2
+FIT 3 7 lgb train_days 259 seconds 1.5
+FIT 3 7 mlp train_days 259 seconds 10.0
+FIT 3 101 et train_days 259 seconds 18.4
+FIT 3 101 lgb train_days 259 seconds 1.5
+FIT 3 101 mlp train_days 259 seconds 11.3
+FIT 3 2024 et train_days 259 seconds 18.3
+FIT 3 2024 lgb train_days 259 seconds 1.6
+FIT 3 2024 mlp train_days 259 seconds 13.1
+FOLD_COMPLETE 3
+FIT 4 7 et train_days 247 seconds 17.6
+FIT 4 7 lgb train_days 247 seconds 1.6
+FIT 4 7 mlp train_days 247 seconds 10.9
+FIT 4 101 et train_days 247 seconds 17.7
+FIT 4 101 lgb train_days 247 seconds 1.5
+FIT 4 101 mlp train_days 247 seconds 12.2
+FIT 4 2024 et train_days 247 seconds 17.4
+FIT 4 2024 lgb train_days 247 seconds 1.6
+FIT 4 2024 mlp train_days 247 seconds 9.5
+FOLD_COMPLETE 4
+FIT 5 7 et train_days 263 seconds 19.3
+FIT 5 7 lgb train_days 263 seconds 1.8
+FIT 5 7 mlp train_days 263 seconds 11.2
+FIT 5 101 et train_days 263 seconds 18.9
+FIT 5 101 lgb train_days 263 seconds 1.6
+FIT 5 101 mlp train_days 263 seconds 10.9
+FIT 5 2024 et train_days 263 seconds 18.7
+FIT 5 2024 lgb train_days 263 seconds 1.8
+FIT 5 2024 mlp train_days 263 seconds 10.2
+FOLD_COMPLETE 5
+FIT 6 7 et train_days 250 seconds 17.5
+FIT 6 7 lgb train_days 250 seconds 1.5
+FIT 6 7 mlp train_days 250 seconds 14.4
+FIT 6 101 et train_days 250 seconds 17.5
+FIT 6 101 lgb train_days 250 seconds 1.6
+FIT 6 101 mlp train_days 250 seconds 16.1
+FIT 6 2024 et train_days 250 seconds 17.9
+FIT 6 2024 lgb train_days 250 seconds 1.7
+FIT 6 2024 mlp train_days 250 seconds 7.9
+FOLD_COMPLETE 6
+FIT 7 7 et train_days 261 seconds 18.7
+FIT 7 7 lgb train_days 261 seconds 1.8
+FIT 7 7 mlp train_days 261 seconds 5.9
+FIT 7 101 et train_days 261 seconds 18.4
+FIT 7 101 lgb train_days 261 seconds 1.6
+FIT 7 101 mlp train_days 261 seconds 20.6
+FIT 7 2024 et train_days 261 seconds 18.7
+FIT 7 2024 lgb train_days 261 seconds 1.6
+FIT 7 2024 mlp train_days 261 seconds 7.3
+FOLD_COMPLETE 7
+FIT 8 7 et train_days 245 seconds 17.3
+FIT 8 7 lgb train_days 245 seconds 1.5
+FIT 8 7 mlp train_days 245 seconds 11.7
+FIT 8 101 et train_days 245 seconds 17.2
+FIT 8 101 lgb train_days 245 seconds 1.5
+FIT 8 101 mlp train_days 245 seconds 5.9
+FIT 8 2024 et train_days 245 seconds 17.8
+FIT 8 2024 lgb train_days 245 seconds 1.6
+FIT 8 2024 mlp train_days 245 seconds 5.9
+FOLD_COMPLETE 8
+FIT 9 7 et train_days 249 seconds 17.3
+FIT 9 7 lgb train_days 249 seconds 1.6
+FIT 9 7 mlp train_days 249 seconds 5.8
+FIT 9 101 et train_days 249 seconds 17.7
+FIT 9 101 lgb train_days 249 seconds 1.8
+FIT 9 101 mlp train_days 249 seconds 7.2
+FIT 9 2024 et train_days 249 seconds 17.8
+FIT 9 2024 lgb train_days 249 seconds 1.6
+FIT 9 2024 mlp train_days 249 seconds 12.3
+FOLD_COMPLETE 9
+SCORED final [{'scope': 'filtered', 'p_worse': 0.6881, 'rmse_delta': 0.005393226781263791, 'ci95_delta': [-0.013712006631978286, 0.02573413872443414], 'alpha': 0.0125, 'blocks': 86}, {'scope': 'all', 'p_worse': 0.9998, 'rmse_delta': 0.041177853116936974, 'ci95_delta': [0.018465600587428587, 0.06602847327765737], 'alpha': 0.0125, 'blocks': 87}]

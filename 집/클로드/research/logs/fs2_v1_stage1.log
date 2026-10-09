@@ -1,0 +1,69 @@
+   F13 anchors 7 of 19 pass-2 training days
+   F47 anchors 9 of 15 pass-2 training days
+DIAG10/0 done
+   F13 anchors 6 of 19 pass-2 training days
+   F47 anchors 7 of 15 pass-2 training days
+DIAG10/1 done
+   F13 anchors 8 of 19 pass-2 training days
+   F47 anchors 7 of 15 pass-2 training days
+DIAG10/2 done
+   F13 anchors 9 of 19 pass-2 training days
+   F47 anchors 6 of 14 pass-2 training days
+DIAG10/3 done
+   F13 anchors 8 of 14 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+DIAG10/4 done
+   F13 anchors 11 of 17 pass-2 training days
+   F47 anchors 10 of 13 pass-2 training days
+DIAG10/5 done
+   F13 anchors 8 of 14 pass-2 training days
+   F47 anchors 6 of 9 pass-2 training days
+DIAG10/6 done
+   F13 anchors 9 of 15 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/7 done
+   F13 anchors 9 of 12 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/8 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 10 pass-2 training days
+DIAG10/9 done
+   F13 anchors 10 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+A/0 done
+   F13 anchors 10 of 19 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+A/1 done
+   F13 anchors 9 of 19 pass-2 training days
+   F47 anchors 10 of 15 pass-2 training days
+A/2 done
+   F13 anchors 10 of 19 pass-2 training days
+   F47 anchors 8 of 15 pass-2 training days
+A/3 done
+   F13 anchors 8 of 14 pass-2 training days
+   F47 anchors 6 of 14 pass-2 training days
+A/4 done
+   F13 anchors 8 of 19 pass-2 training days
+   F47 anchors 8 of 15 pass-2 training days
+B/0 done
+   F13 anchors 9 of 19 pass-2 training days
+   F47 anchors 11 of 15 pass-2 training days
+B/1 done
+   F13 anchors 12 of 19 pass-2 training days
+   F47 anchors 12 of 15 pass-2 training days
+B/2 done
+   F13 anchors 9 of 19 pass-2 training days
+   F47 anchors 9 of 15 pass-2 training days
+B/3 done
+   F13 anchors 9 of 19 pass-2 training days
+   F47 anchors 8 of 15 pass-2 training days
+B/4 done
+folds: {'A': 5, 'B': 5, 'DIAG10': 10, 'EL1': 9, 'P2LOO': 7}
+DIAG10 all   days 334  REF 0.1138 [0.1140 0.1136 0.1140]  PHYS 0.1128 [0.1129 0.1129 0.1128]  -0.86%
+A      all   days 137  REF 0.1500 [0.1493 0.1503 0.1507]  PHYS 0.1476 [0.1476 0.1482 0.1474]  -1.58%
+B      all   days 146  REF 0.1564 [0.1565 0.1558 0.1569]  PHYS 0.1574 [0.1568 0.1579 0.1576]  +0.66%
+DIAG10 pass2 days  41  REF 0.1057 [0.1064 0.1057 0.1052]  PHYS 0.1014 [0.1020 0.1012 0.1013]  -4.05%
+EL1    pass2 days  41  REF 0.1049 [0.1049 0.1050 0.1050]  PHYS 0.1028 [0.1021 0.1031 0.1034]  -2.00%
+P2LOO  pass2 days   7  REF 0.0786 [0.0783 0.0778 0.0797]  PHYS 0.0748 [0.0749 0.0754 0.0742]  -4.83%
+
+VERDICT: seed x {DIAG10,A,B} better 6/9, DIAG10 share 0.1797 -> FAIL

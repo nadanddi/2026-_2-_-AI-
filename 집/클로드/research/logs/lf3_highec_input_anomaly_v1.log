@@ -1,0 +1,107 @@
+날 수 {'고EC': 30, '중간': 25, '보통': 345, '평가(손대지않음)': 60}
+
+[복원 흔적: 결측·직선·평평·거칠기, 날별 중앙값]
+grp               고EC     중간     보통  평가(손대지않음)
+in_temp_miss    0.000  0.000  0.000      0.000
+in_temp_lin     0.045  0.000  0.045      0.091
+in_temp_flat    0.087  0.043  0.043      0.043
+in_temp_rough   0.413  0.409  0.402      0.358
+in_hum_miss     0.000  0.000  0.000      0.000
+in_hum_lin      0.182  0.136  0.136      0.159
+in_hum_flat     0.304  0.304  0.217      0.217
+in_hum_rough    0.613  0.559  0.456      0.420
+in_co2_miss     0.000  0.000  0.000      0.000
+in_co2_lin      0.045  0.062  0.091      0.091
+in_co2_flat     0.043  0.087  0.043      0.043
+in_co2_rough    1.092  0.764  0.408      0.497
+out_temp_miss   0.000  0.000  0.000      0.000
+out_temp_lin    0.045  0.045  0.045      0.045
+out_temp_flat   0.043  0.043  0.043      0.043
+out_temp_rough  0.279  0.254  0.266      0.269
+out_hum_miss    0.000  0.000  0.000      0.000
+out_hum_lin     0.091  0.091  0.136      0.091
+out_hum_flat    0.130  0.130  0.130      0.087
+out_hum_rough   0.343  0.349  0.305      0.347
+out_rad_miss    0.000  0.000  0.000      0.000
+out_rad_lin     0.295  0.318  0.364      0.318
+out_rad_flat    0.391  0.435  0.435      0.413
+out_rad_rough   0.388  0.326  0.345      0.399
+out_wspd_miss   0.000  0.000  0.000      0.000
+out_wspd_lin    0.045  0.045  0.045      0.045
+out_wspd_flat   0.087  0.087  0.087      0.087
+out_wspd_rough  1.120  1.430  1.179      1.057
+
+[물리 관계·운전 상태, 날별 중앙값]
+grp                       고EC      중간      보통  평가(손대지않음)
+corr_in_temp_out_temp   0.869   0.910   0.907      0.891
+corr_in_hum_in_temp    -0.864  -0.921  -0.902     -0.874
+corr_in_co2_act_vent    0.270  -0.253  -0.400     -0.294
+act_vent                0.042   1.625  12.458      3.292
+act_shade              31.292  33.333  37.958     31.292
+act_thermal            31.250  34.833  36.917     33.417
+act_heating             5.708   3.125  13.500     23.167
+act_circfan             0.708   0.708  27.375     21.333
+act_co2                 2.083   1.208   0.000      1.250
+act_fog                 0.000   0.167   0.208      0.000
+in-out                 12.515  13.462   5.638      5.998
+
+[고EC vs 보통 날 차이가 큰 순, AUC(.5=차이없음)]
+                feat  AUC_high_vs_normal      p   dist
+            act_vent              0.1038 0.0000 0.3962
+              in-out              0.8225 0.0000 0.3225
+        in_co2_rough              0.7982 0.0000 0.2982
+             act_co2              0.7761 0.0000 0.2761
+         act_circfan              0.2486 0.0000 0.2514
+corr_in_co2_act_vent              0.7367 0.0020 0.2367
+         in_hum_flat              0.7122 0.0001 0.2122
+             act_fog              0.3176 0.0005 0.1824
+        in_hum_rough              0.6595 0.0038 0.1595
+          in_hum_lin              0.6486 0.0065 0.1486
+         act_heating              0.3820 0.0314 0.1180
+         out_hum_lin              0.3886 0.0395 0.1114
+Traceback (most recent call last):
+  File "<stdin>", line 14, in <module>
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\groupby\groupby.py", line 1650, in apply
+    return self._python_apply_general(f, self._obj_with_exclusions)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\groupby\groupby.py", line 1687, in _python_apply_general
+    values, mutated = self._grouper.apply_groupwise(f, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\groupby\ops.py", line 1035, in apply_groupwise
+    res = f(group)
+          ^^^^^^^^
+  File "<stdin>", line 13, in per_day
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\generic.py", line 6206, in __getattr__
+    return object.__getattribute__(self, name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataFrame' object has no attribute 'day'
+밀폐 날 수 {'평가 밀폐(손대지않음)': 17, '학습 밀폐·고EC': 19, '학습 밀폐·보통': 21, '학습 밀폐·중간': 7} | 고EC 30일 중 밀폐 19
+grp          평가 밀폐(손대지않음)  학습 밀폐·고EC  학습 밀폐·보통  학습 밀폐·중간
+co2_rough           0.653      1.215     0.982     1.335
+co2_absdiff         5.000      4.000     5.000     6.000
+hum_flat            0.217      0.261     0.130     0.261
+hum_max            87.000     77.000    80.000    84.000
+hum_rough           0.464      0.586     0.582     0.490
+temp_rough          0.373      0.356     0.414     0.448
+co2sup              2.125      1.125     2.375     2.125
+
+2차만: {'평가 밀폐(손대지않음)': 17, '학습 밀폐·고EC': 3, '학습 밀폐·보통': 4, '학습 밀폐·중간': 1}
+grp          평가 밀폐(손대지않음)  학습 밀폐·고EC  학습 밀폐·보통  학습 밀폐·중간
+co2_rough           0.653      1.313     0.572     1.276
+co2_absdiff         5.000     21.000     5.000     6.000
+hum_flat            0.217      0.087     0.109     0.261
+hum_max            87.000     80.000    85.000    89.000
+hum_rough           0.464      0.497     0.558     0.604
+temp_rough          0.373      0.317     0.389     0.500
+co2sup              2.125      1.000    18.750     2.125
+co2_rough: 평가 밀폐 날 95%분위 1.728 초과 → 학습 고EC 2/19, 학습 보통 0/21
+co2_absdiff: 평가 밀폐 날 95%분위 19.600 초과 → 학습 고EC 2/19, 학습 보통 1/21
+hum_flat: 평가 밀폐 날 95%분위 0.357 초과 → 학습 고EC 6/19, 학습 보통 0/21
+train 고EC 하루 중 같은 습도값이 가장 길게 이어진 시간: 중앙 3, 6시간 이상인 날 2/30
+train 보통 하루 중 같은 습도값이 가장 길게 이어진 시간: 중앙 3, 6시간 이상인 날 21/345
+test 평가 60일: 중앙 3, 6시간 이상 5/60
+('F47', 138) 최장 8 시간 | in_hum [77, 77, 77, 77, 77, 77, 77, 77, 76, 73, 74, 70, 64, 65, 65, 71, 74, 73, 74, 74, 74, 74, 74, 74]
+('F47', 136) 최장 7 시간 | in_hum [72, 71, 72, 71, 72, 72, 71, 71, 77, 75, 70, 65, 65, 69, 68, 75, 80, 77, 77, 77, 77, 77, 77, 77]
+('F47', 157) 최장 5 시간 | in_hum [63, 63, 63, 63, 63, 62, 62, 62, 61, 61, 56, 53, 48, 43, 46, 50, 58, 69, 64, 63, 64, 64, 63, 63]
+('F47', 154) 최장 5 시간 | in_hum [63, 63, 63, 63, 64, 64, 64, 65, 66, 69, 60, 52, 45, 44, 44, 45, 52, 62, 69, 67, 67, 67, 67, 67]
+('F47', 145) 최장 5 시간 | in_hum [72, 72, 72, 71, 71, 71, 71, 71, 70, 66, 65, 61, 59, 57, 57, 58, 65, 66, 72, 73, 72, 72, 73, 72]

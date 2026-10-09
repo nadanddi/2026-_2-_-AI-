@@ -1,0 +1,14 @@
+  high = (dm >= 1.2).values; mid = (dm >= .8).values; ok = Z.notna().all(1).values
+
+==== window NB  (days with reference 395 of 400; base rate high 7.3%, >=.8 13.4%)
+  CLOSE flagged  83 | high 26 (31%, lift 4.3x) | >=.8 47% | recall of 26 high 26 | AUC(z) 0.85 | rho(z,EC) among flagged +0.09 | model day error on flagged: high -0.45, non-high +0.04 (n 57)
+  CO2R  flagged  58 | high  9 (16%, lift 2.1x) | >=.8 33% | recall of 26 high  9 | AUC(z) 0.66 | rho(z,EC) among flagged +0.16 | model day error on flagged: high -0.43, non-high +0.05 (n 49)
+  FOG   flagged 103 | high  4 (4%, lift 0.5x) | >=.8 11% | recall of 26 high  4 | AUC(z) 0.47 | rho(z,EC) among flagged -0.33 | model day error on flagged: high -0.61, non-high +0.01 (n 99)
+  ANY   flagged 199 | high 29 (15%, lift 2.0x) | >=.8 25% | recall of 26 high 29 | AUC(z) nan | rho(z,EC) among flagged +nan | model day error on flagged: high -0.48, non-high +0.02 (n 170)
+  high = (dm >= 1.2).values; mid = (dm >= .8).values; ok = Z.notna().all(1).values
+
+==== window PAST  (days with reference 375 of 400; base rate high 7.2%, >=.8 13.6%)
+  CLOSE flagged  78 | high 22 (28%, lift 3.9x) | >=.8 42% | recall of 26 high 22 | AUC(z) 0.83 | rho(z,EC) among flagged +0.09 | model day error on flagged: high -0.35, non-high +0.03 (n 56)
+  CO2R  flagged  56 | high  9 (16%, lift 2.2x) | >=.8 34% | recall of 26 high  9 | AUC(z) 0.66 | rho(z,EC) among flagged +0.11 | model day error on flagged: high -0.35, non-high +0.03 (n 47)
+  FOG   flagged  90 | high  4 (4%, lift 0.6x) | >=.8 11% | recall of 26 high  4 | AUC(z) 0.45 | rho(z,EC) among flagged -0.23 | model day error on flagged: high -0.61, non-high +0.00 (n 86)
+  ANY   flagged 183 | high 26 (14%, lift 2.0x) | >=.8 24% | recall of 26 high 26 | AUC(z) nan | rho(z,EC) among flagged +nan | model day error on flagged: high -0.40, non-high +0.01 (n 157)

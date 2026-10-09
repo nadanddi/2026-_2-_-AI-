@@ -1,0 +1,7 @@
+CAUSAL_PASS F13 pass2 False day 9 hour 5
+CAUSAL_PASS F13 pass2 False day 9 hour 17
+Traceback (most recent call last):
+  File "C:\work\farmai\��\�ڵ���\analysis\ec_discord_clean_model_20261009_v1\verify_model_causality_v1.py", line 21, in <module>
+    allowed=(m.farm==farm)&((m.day*24+m.hour)<=day*24+hour);ids=m.loc[allowed,'row_id'];assert len(ids)==24+hour+1
+                                                                                               ^^^^^^^^^^^^^^^^^^^
+AssertionError

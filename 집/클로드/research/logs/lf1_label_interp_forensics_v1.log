@@ -1,0 +1,48 @@
+== T1-T3 per series (resolution = most common decimals)
+set                  col      farm dec   rows  T1%   T2runs T2/1000  T3runs T3/1000
+train_y              sub_temp F13    2   4800    7.5      16     6.9        1     0.4
+train_y              sub_temp F47    2   4800    7.8       8     3.8        1     0.4
+train_y              sub_ec   F13    3   4800   39.7     120    61.7       75    39.8
+train_y              sub_ec   F47    3   4800   37.0     117    61.5      155    96.7
+test_X (untouched)   in_temp  F13    1    720   17.8       7    22.2        1     2.8
+test_X (untouched)   in_temp  F47    1    720   16.0       2     6.9        6    18.1
+test_X (untouched)   in_hum   F13    0    720   37.1      12    34.7       33   116.7
+test_X (untouched)   in_hum   F47    0    720   34.6       8    22.2       30   122.2
+test_X (untouched)   in_co2   F13    0    720   24.0      10    30.6        3     8.3
+test_X (untouched)   in_co2   F47    0    720   27.8       7    20.8        3     8.3
+train_X              in_temp  F13    1   4757   16.6      27    14.5       33    17.4
+train_X              in_temp  F47    1   4770   15.2      25    13.4       35    16.8
+train_X              in_hum   F13    0   4757   35.0      61    28.0      231   129.9
+train_X              in_hum   F47    0   4776   31.2      34    15.3      209   117.5
+train_X              in_co2   F13    0   4753   22.5      30    13.5       37    18.1
+train_X              in_co2   F47    0   4770   19.1      36    16.6       20     9.6
+
+== T4 joint single-hour fill (sub_temp and sub_ec both = neighbour mean)
+F13 rows 4790  P(temp)=0.075 P(ec)=0.397  joint 0.0484 vs independent 0.0297  ratio 1.63  (n joint 232)
+F47 rows 4790  P(temp)=0.078 P(ec)=0.370  joint 0.0438 vs independent 0.0288  ratio 1.52  (n joint 210)
+
+== T5 whole-day copies in labels
+sub_temp: days 400  exact copies 0 []  constant-offset copies 0 []
+sub_ec: days 400  exact copies 0 []  constant-offset copies 0 []
+
+== T6 resolution drops in labels (fewer decimals than usual)
+sub_temp: rows with < 2 decimals 9.3% (a trailing 0 by chance ~10%); high-EC days 10.4%, other days 9.2%
+   days with >= 6 such rows: 5 of 400; top {('F47', 147): 6, ('F47', 125): 6, ('F47', 193): 6, ('F13', 42): 6, ('F13', 167): 6}
+sub_ec: rows with < 3 decimals 9.7% (a trailing 0 by chance ~10%); high-EC days 9.6%, other days 9.7%
+   days with >= 6 such rows: 16 of 400; top {('F47', 21): 10, ('F47', 192): 8, ('F47', 240): 7, ('F13', 26): 6, ('F13', 53): 6}
+
+== T7 extra-decimal rows (unrounded means would show one more decimal)
+sub_temp decimals distribution {0: 91, 1: 805, 2: 8704}
+sub_ec decimals distribution {0: 2, 1: 93, 2: 835, 3: 8670}
+
+== T4 control: joint single-hour linearity of two series in the same row, untouched test_X vs train_X vs labels
+test_X in_temp x in_hum : F13 1.68(n79) F47 1.40(n55)
+test_X in_temp x in_co2 : F13 1.11(n34) F47 1.55(n49)
+train_X in_temp x in_hum: F13 1.61(n443) F47 1.65(n370)
+train_y sub_temp x sub_ec: F13 1.63(n232) F47 1.52(n210)
+train_y sub_temp x train_X in_temp: F13 1.97(n116) F47 2.14(n121)
+train_y sub_ec x train_X in_temp: F13 1.56(n490) F47 1.47(n392)
+sub_temp F13 T1 when input missing 0.047 (n43) vs present 0.075
+sub_temp F47 T1 when input missing 0.067 (n30) vs present 0.078
+sub_ec F13 T1 when input missing 0.163 (n43) vs present 0.399
+sub_ec F47 T1 when input missing 0.333 (n30) vs present 0.370

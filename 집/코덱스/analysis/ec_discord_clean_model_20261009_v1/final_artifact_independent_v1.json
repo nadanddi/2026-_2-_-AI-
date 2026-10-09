@@ -1,0 +1,55 @@
+{
+  "status": "FINAL_ARTIFACT_INDEPENDENT_PASS",
+  "training_rows": 9360,
+  "training_days": 390,
+  "removed_days": 10,
+  "removed_rows": 240,
+  "final_models": 9,
+  "probe_rows": 192,
+  "probe_farm_pass_days": [
+    [
+      "F13",
+      8
+    ],
+    [
+      "F13",
+      9
+    ],
+    [
+      "F13",
+      179
+    ],
+    [
+      "F13",
+      180
+    ],
+    [
+      "F47",
+      6
+    ],
+    [
+      "F47",
+      7
+    ],
+    [
+      "F47",
+      179
+    ],
+    [
+      "F47",
+      180
+    ]
+  ],
+  "independent_vs_actual_prediction_maxdiff": 5.551115123125783e-17,
+  "independent_vs_saved_probe_maxdiff": 0.0,
+  "source_sha": "b4d21bc805f4312ef83f3d6d51b6a8b7994d5c3128a11d77c172720ef62df73f",
+  "manifest_sha": "73ac92e067d40512df9e1270ffa1300f91e36021d1cffede9d8441ee5c4b2c0f",
+  "new_submission": false,
+  "adoption": false,
+  "consumed40_revalidation": false,
+  "components_sha": "c4bdb1ae45f4f9197f6e98d41eef74d769263135e488e13b15780479be51cc40",
+  "limitations": [
+    "최종추가40일은훈련자료무결성만확인했고새검증으로채점하지않음",
+    "모델일반화성능은공개360CV이며400finalmodel성능을직접채점한것이아님"
+  ]
+}

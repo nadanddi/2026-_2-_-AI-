@@ -1,0 +1,39 @@
+{'REF': 47, 'OUT': 60, 'INDYN': 65, 'PHYS': 53, 'CO2D': 50, 'PREV': 59}
+   F13 anchors 7 of 19 pass-2 training days
+   F47 anchors 9 of 15 pass-2 training days
+DIAG10/0 done
+   F13 anchors 6 of 19 pass-2 training days
+   F47 anchors 7 of 15 pass-2 training days
+DIAG10/1 done
+   F13 anchors 8 of 19 pass-2 training days
+   F47 anchors 7 of 15 pass-2 training days
+DIAG10/2 done
+   F13 anchors 9 of 19 pass-2 training days
+   F47 anchors 6 of 14 pass-2 training days
+DIAG10/3 done
+   F13 anchors 8 of 14 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+DIAG10/4 done
+   F13 anchors 11 of 17 pass-2 training days
+   F47 anchors 10 of 13 pass-2 training days
+DIAG10/5 done
+   F13 anchors 8 of 14 pass-2 training days
+   F47 anchors 6 of 9 pass-2 training days
+DIAG10/6 done
+   F13 anchors 9 of 15 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/7 done
+   F13 anchors 9 of 12 pass-2 training days
+   F47 anchors 11 of 12 pass-2 training days
+DIAG10/8 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 7 of 10 pass-2 training days
+DIAG10/9 done
+
+REF all-rows RMSE 0.1249 | pass-2 rows 0.1359
+OUT    all -1.64%  folds better 5/10  | pass-2 -2.91%  -> drop
+INDYN  all +0.62%  folds better 5/10  | pass-2 -3.37%  -> drop
+PHYS   all -2.74%  folds better 8/10  | pass-2 -4.24%  -> PASS to stage 2
+CO2D   all -0.71%  folds better 7/10  | pass-2 -1.37%  -> drop
+PREV   all +5.54%  folds better 3/10  | pass-2 -7.57%  -> drop
+passed: ['PHYS']
