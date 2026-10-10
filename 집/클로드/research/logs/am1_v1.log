@@ -1,0 +1,12 @@
+
+==== AM1a
+  DIAG10 pass-2 cells -0.63% -0.73% -0.98% | high 0.6002 -> 0.5891 | normal 0.1423 -> 0.1444 | all-pass -1.37%
+  P2LOO  pass-2 cells -1.23% -1.09% -1.08% | high 0.4412 -> 0.4231 | normal 0.1370 -> 0.1404 | P(worse) 0.2583
+  EL1    pass-2 cells -0.67% -0.58% -0.64% | high 0.7527 -> 0.7459 | normal 0.1563 -> 0.1566
+VERDICT AM1a: FAIL
+
+==== AM1b
+  DIAG10 pass-2 cells -1.01% -1.26% -1.73% | high 0.6002 -> 0.5795 | normal 0.1423 -> 0.1467 | all-pass -2.42%
+  P2LOO  pass-2 cells -1.74% -1.45% -1.41% | high 0.4412 -> 0.4078 | normal 0.1370 -> 0.1447 | P(worse) 0.3272
+  EL1    pass-2 cells -1.25% -1.06% -1.17% | high 0.7527 -> 0.7398 | normal 0.1563 -> 0.1569
+VERDICT AM1b: FAIL
