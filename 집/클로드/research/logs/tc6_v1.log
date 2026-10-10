@@ -1,0 +1,9 @@
+  main effect shrink   : 0.25: p1 +0.18% p2 +0.21% 0.5: p1 +0.03% p2 +0.16% 0.75: p1 +0.29% p2 +0.38% 1.0: p1 +0.97% p2 +0.86% 1.25: p1 +2.05% p2 +1.59%
+  main effect trees    : 50: p1 +0.30% p2 +0.27% 100: p1 +0.47% p2 +0.35% 200: p1 +0.80% p2 +0.67% 400: p1 +1.25% p2 +1.27%
+  main effect min_child: 50: p1 +1.28% p2 +0.95% 100: p1 +0.76% p2 +0.60% 200: p1 +0.08% p2 +0.37%
+selected on pass-1: shrink 0.50 trees 400 min_child 200 | pass1 -0.50% pass2 +0.05% vs submitted; pass-2 rank 5 of 60
+  DIAG10 selected vs submitted, pass-2 cells +0.08% +0.13% -0.09% +0.06% | records 52 improved 20 | record P(worse) 0.5846 -> FAIL
+  G      selected vs submitted, pass-2 cells -0.37% -0.20% -0.36% -0.17% | records 52 improved 28
+  EL1    selected vs submitted, pass-2 cells -0.65% -0.37% -0.51% -0.60% | records 52 improved 26
+  EXT10  selected vs submitted, pass-2 cells -0.19% -0.15% -0.18% -0.21% | records 9 improved 4
+  EXT12  selected vs submitted, pass-2 cells -0.85% -0.56% -0.76% -0.55% | records 26 improved 18
