@@ -143,7 +143,7 @@ def summarize():
             if not fs:
                 continue
             M = pd.concat([pd.read_csv(os.path.join(CK, f)) for f in fs], ignore_index=True)
-            M = M[(M.day >= 179) & [(f, x) not in RD for f, x in zip(M.farm, M.day)]].reset_index(drop=True)
+            M = M[(M.day >= 179).values & np.array([(f, x) not in RD for f, x in zip(M.farm, M.day)])].reset_index(drop=True)
             y = M.sub_temp.values; cells = []
             for b in bs:
                 for fam in "AB":

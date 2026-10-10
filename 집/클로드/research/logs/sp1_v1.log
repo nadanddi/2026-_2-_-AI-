@@ -1,0 +1,74 @@
+  DIAG10/4 done
+  DIAG10/5 done
+  DIAG10/6 done
+  DIAG10/7 done
+  DIAG10/8 done
+  DIAG10/9 done
+  EL1/56 done
+  EL1/57 done
+  EL1/58 done
+  EL1/59 done
+  EL1/60 done
+  EL1/61 done
+  EL1/62 done
+  EL1/63 done
+  EL1/64 done
+  EL1/65 done
+  P2LOO/10 done
+  P2LOO/11 done
+  P2LOO/12 done
+  P2LOO/13 done
+  P2LOO/14 done
+  P2LOO/15 done
+  P2LOO/16 done
+  P2LOO/17 done
+  P2LOO/18 done
+  P2LOO/19 done
+  P2LOO/20 done
+  P2LOO/21 done
+  P2LOO/22 done
+  P2LOO/23 done
+  P2LOO/24 done
+  P2LOO/25 done
+  P2LOO/26 done
+  P2LOO/27 done
+  P2LOO/28 done
+  P2LOO/29 done
+  P2LOO/30 done
+  P2LOO/31 done
+  P2LOO/32 done
+  P2LOO/33 done
+  P2LOO/34 done
+  P2LOO/35 done
+  P2LOO/36 done
+  P2LOO/37 done
+  P2LOO/38 done
+  P2LOO/39 done
+  P2LOO/40 done
+  P2LOO/41 done
+  P2LOO/42 done
+  P2LOO/43 done
+  P2LOO/44 done
+  P2LOO/45 done
+  P2LOO/46 done
+  P2LOO/47 done
+  P2LOO/48 done
+  P2LOO/49 done
+  P2LOO/50 done
+  P2LOO/51 done
+  P2LOO/52 done
+  P2LOO/53 done
+  P2LOO/54 done
+  P2LOO/55 done
+
+==== sp1a (TAU 0.25)
+  DIAG10 cells +1.02% +1.68% +1.89% | SG2 0.2390 -> 0.2427 | normal 0.1420 -> 0.1524 | high 0.6001 -> 0.5928 | F13 +2.69% F47 -0.13%
+  P2LOO  cells +7.78% +8.12% +8.06% | SG2 0.1945 -> 0.2100 | normal 0.1368 -> 0.1474 | high 0.4411 -> 0.4771 | F13 +5.79% F47 +10.28% | P(worse) 1.0000
+  EL1    cells +0.85% +1.20% +1.36% | SG2 0.2885 -> 0.2919 | normal 0.1559 -> 0.1714 | high 0.7526 -> 0.7369 | F13 +3.07% F47 -2.63%
+VERDICT sp1a: FAIL
+
+==== sp1b (TAU 0.25)
+  DIAG10 cells -1.83% -1.58% -1.20% | SG2 0.2390 -> 0.2354 | normal 0.1420 -> 0.1439 | high 0.6001 -> 0.5831 | F13 -0.87% F47 -2.41%
+  P2LOO  cells +4.50% +4.89% +5.01% | SG2 0.1945 -> 0.2039 | normal 0.1368 -> 0.1381 | high 0.4411 -> 0.4755 | F13 +2.86% F47 +6.88% | P(worse) 0.8745
+  EL1    cells -2.14% -1.91% -1.90% | SG2 0.2885 -> 0.2829 | normal 0.1559 -> 0.1634 | high 0.7526 -> 0.7193 | F13 -1.66% F47 -2.45%
+VERDICT sp1b: FAIL
