@@ -1,0 +1,15 @@
+L 0 done (val 1152, train 7248, pass-2 val rows 0)
+L 1 done (val 1152, train 7248, pass-2 val rows 192)
+L 2 done (val 1152, train 7488, pass-2 val rows 384)
+L 3 done (val 1152, train 7488, pass-2 val rows 384)
+L 4 done (val 1152, train 7488, pass-2 val rows 384)
+L 5 done (val 768, train 7872, pass-2 val rows 0)
+L 6 done (val 768, train 7872, pass-2 val rows 0)
+L 7 done (val 768, train 7872, pass-2 val rows 0)
+L 8 done (val 768, train 7872, pass-2 val rows 0)
+L 9 done (val 768, train 7872, pass-2 val rows 0)
+  BASE 1414 PFN A: CHAIN -0.61% (NOCHAIN +0.27%) | hours0-7 -1.63% | pass-2 -0.55% | F13 +0.07% F47 -1.07% | in_temp<=10 -0.31%
+  BASE 1414 PFN B: CHAIN -0.65% (NOCHAIN +0.21%) | hours0-7 -1.75% | pass-2 -0.63% | F13 +0.13% F47 -1.19% | in_temp<=10 -0.28%
+  BASE 1515 PFN A: CHAIN -0.55% (NOCHAIN +0.23%) | hours0-7 -1.46% | pass-2 -0.56% | F13 +0.12% F47 -1.00% | in_temp<=10 -0.29%
+  BASE 1515 PFN B: CHAIN -0.66% (NOCHAIN +0.18%) | hours0-7 -1.75% | pass-2 -0.73% | F13 +0.04% F47 -1.13% | in_temp<=10 -0.39%
+seed-mean P(worse) 0.0297 (58 blocks) -> VERDICT TC1 chain corrector: FAIL
