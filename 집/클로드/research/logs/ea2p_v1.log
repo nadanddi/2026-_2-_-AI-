@@ -1,0 +1,5 @@
+confident 1-step EC anchors on labelled records: 55
+  DIAG10 pass-2 cells -1.76% -1.29% -1.54% | normal 0.1423 -> 0.1295 | high 0.6002 -> 0.6105 | anchored records 17, improved 13 | record P(worse) 0.4019, sign p 0.025
+  P2LOO  pass-2 cells +2.98% +2.48% +2.76% | normal 0.1370 -> 0.1292 | high 0.4412 -> 0.4806 | anchored records 17, improved 14 | record P(worse) 0.5318
+  EL1    pass-2 cells -9.84% -9.79% -9.06% | normal 0.1563 -> 0.1491 | high 0.7527 -> 0.6669 | anchored records 17, improved 13 | record P(worse) 0.2690
+VERDICT EA2p (pessimistic geometry): FAIL
