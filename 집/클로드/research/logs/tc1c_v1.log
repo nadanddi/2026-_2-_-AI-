@@ -1,0 +1,12 @@
+  DIAG10 NOCHAIN vs W40G-S +0.03% +0.05% -0.02% +0.00% | CHAIN vs W40G-S -0.68% -0.69% -0.66% -0.73% | CHAIN vs NOCHAIN -0.72% -0.74% -0.64% -0.73%
+  EL1    NOCHAIN vs W40G-S -0.53% -0.50% -0.53% -0.48% | CHAIN vs W40G-S -1.03% -1.15% -1.14% -1.07% | CHAIN vs NOCHAIN -0.51% -0.65% -0.61% -0.59%
+  EXT10  NOCHAIN vs W40G-S -0.05% -0.07% -0.02% -0.04% | CHAIN vs W40G-S -0.28% -0.25% -0.27% -0.22% | CHAIN vs NOCHAIN -0.22% -0.18% -0.25% -0.18%
+  EXT12  NOCHAIN vs W40G-S +2.12% +1.91% +2.10% +1.94% | CHAIN vs W40G-S +1.28% +0.98% +1.21% +0.96% | CHAIN vs NOCHAIN -0.82% -0.92% -0.87% -0.96%
+  F      NOCHAIN vs W40G-S +0.12% +0.17% +0.12% +0.16% | CHAIN vs W40G-S -0.77% -0.74% -0.76% -0.72% | CHAIN vs NOCHAIN -0.90% -0.91% -0.88% -0.88%
+  G      NOCHAIN vs W40G-S +0.11% +0.13% +0.08% +0.12% | CHAIN vs W40G-S -0.76% -0.75% -0.85% -0.82% | CHAIN vs NOCHAIN -0.87% -0.89% -0.93% -0.94%
+  H      NOCHAIN vs W40G-S +0.10% +0.12% +0.10% +0.10% | CHAIN vs W40G-S -0.76% -0.74% -0.80% -0.79% | CHAIN vs NOCHAIN -0.86% -0.86% -0.89% -0.89%
+  I      NOCHAIN vs W40G-S +0.10% +0.08% +0.06% +0.07% | CHAIN vs W40G-S -0.91% -0.89% -0.97% -0.90% | CHAIN vs NOCHAIN -1.01% -0.97% -1.03% -0.97%
+  J      NOCHAIN vs W40G-S +0.00% +0.05% -0.04% +0.03% | CHAIN vs W40G-S -0.50% -0.61% -0.56% -0.61% | CHAIN vs NOCHAIN -0.50% -0.66% -0.52% -0.63%
+  K      NOCHAIN vs W40G-S +0.09% +0.04% +0.04% +0.02% | CHAIN vs W40G-S -0.55% -0.61% -0.54% -0.60% | CHAIN vs NOCHAIN -0.63% -0.65% -0.58% -0.62%
+CHAIN-GAIN (b vs a): all cells True, pooled P(worse) 0.0102 (86 blocks) -> PASS
+BIAS-GAIN (a vs W40G-S): all cells False, pooled P(worse) 0.5288 (86 blocks) -> FAIL
