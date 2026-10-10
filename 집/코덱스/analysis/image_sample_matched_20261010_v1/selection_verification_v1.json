@@ -1,0 +1,31 @@
+{
+  "all_checks_pass": true,
+  "source_checks": [
+    {
+      "image_id": "417402",
+      "exact_decoded_pixel_duplicate_public": false,
+      "color_independent": 0.08542773496864708,
+      "embedding_fresh_GPU_batch8": 0.11521059274673462,
+      "ranking_score_fresh": 0.14672568035602493,
+      "component_taint": false
+    },
+    {
+      "image_id": "854712",
+      "exact_decoded_pixel_duplicate_public": false,
+      "color_independent": 0.1627196772945208,
+      "embedding_fresh_GPU_batch8": 0.1790139079093933,
+      "ranking_score_fresh": 0.2145133333335291,
+      "component_taint": false
+    }
+  ],
+  "eligible_candidates": 513,
+  "searched_candidates": 1000,
+  "public_images": 21,
+  "tainted_prefixes": [],
+  "tainted_components": [],
+  "exact_pixel_check_scope": "selected2 original fullresolution versus public21 only; not all1000",
+  "CPU_cross_device_note": "v1/v2 CPU comparison failed at delta0.00005096; color matched. GPU versus CPU arithmetic not identical. Fresh sameGPU/batch8 comparison used without changing source rank or loosening tolerance. No cause attribution or rank stability claim.",
+  "numerical_checks": "selected scores freshGPU batch8 embedding/manual RGB histogram/Bhattacharyya identity; all recordedtop5 scoresfinite",
+  "public_observation_used": true,
+  "scope": "selection QA only, no performance/independence claim"
+}

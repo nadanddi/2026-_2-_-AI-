@@ -1,0 +1,47 @@
+{
+  "cases": [
+    {
+      "case": "valid",
+      "expected_accept": true,
+      "actual_accept": true,
+      "match": true,
+      "error": null
+    },
+    {
+      "case": "absolute",
+      "expected_accept": false,
+      "actual_accept": false,
+      "match": true,
+      "error": "unsafe path"
+    },
+    {
+      "case": "parent",
+      "expected_accept": false,
+      "actual_accept": false,
+      "match": true,
+      "error": "unsafe path"
+    },
+    {
+      "case": "link",
+      "expected_accept": false,
+      "actual_accept": false,
+      "match": true,
+      "error": "unsupported TAR type"
+    },
+    {
+      "case": "same_stem",
+      "expected_accept": false,
+      "actual_accept": false,
+      "match": true,
+      "error": "unexpected image/duplicate stem"
+    },
+    {
+      "case": "nonimage",
+      "expected_accept": false,
+      "actual_accept": false,
+      "match": true,
+      "error": "unexpected image/duplicate stem"
+    }
+  ],
+  "scope": "synthetic parser checks only; not source payload validation"
+}

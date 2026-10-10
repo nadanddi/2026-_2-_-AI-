@@ -1,0 +1,137 @@
+{
+  "scope": "공식이미지문제설명서전체5쪽/pypdf텍스트,공개샘플21설명전체3쪽텍스트및3쪽렌더직접확인,CSV21행대조,공개21contact전체육안확인. 원본/편집전pair/마스크는제공되지않아편집위치연산추정은미확정.",
+  "official_sources": [
+    "공용/대회자료/이미지데이터/이미지데이터_문제설명서.pdf",
+    "공용/대회자료/이미지데이터/참가자_배포/공개샘플21_설명.pdf",
+    "공용/대회자료/이미지데이터/참가자_배포/공개샘플/sample_labels.csv"
+  ],
+  "CSV_count": 21,
+  "type_counts": [
+    {
+      "count": 3,
+      "type": "AI_gen"
+    },
+    {
+      "count": 3,
+      "type": "composite"
+    },
+    {
+      "count": 3,
+      "type": "filter"
+    },
+    {
+      "count": 3,
+      "type": "full_style"
+    },
+    {
+      "count": 3,
+      "type": "partial_gen"
+    },
+    {
+      "count": 3,
+      "type": "partial_style"
+    },
+    {
+      "count": 3,
+      "type": "real"
+    }
+  ],
+  "real": {
+    "files": [
+      "jixx.jpg",
+      "ovvx.jpg",
+      "qube.jpg"
+    ],
+    "official": "실제촬영3장라벨0",
+    "visual": "녹색잎과포트/지지구조/시설이보이며전면마젠타cast는이3장contact에서관찰되지않음.",
+    "unknown": "각원본편집이력/카메라설정/농장개체/전체숨김평가조명분포",
+    "selection_limit": "3장근접순위는관찰에의존한개발선정이며평가대표성입증이아님."
+  },
+  "types": [
+    {
+      "CSV_type": "AI_gen",
+      "files": [
+        "moke.jpg",
+        "wlid.jpg",
+        "xkdj.jpg"
+      ],
+      "official_page": 1,
+      "official_operation": "장면전체생성",
+      "visual": "사진같은잎/시설/노란트랩이표현되어있고xkdj에는꽃과열매가보임.",
+      "unknown": "생성기모델/version/seed/prompt/원장면참조/후처리",
+      "augmentation_contract": "선정scene내용/촬영조건을기획한독립새장면생성. source사진의동일장면변형이라고하지않고visualparent없음과recipe연결을구분."
+    },
+    {
+      "CSV_type": "composite",
+      "files": [
+        "bpem.jpg",
+        "bphr.jpg",
+        "yuag.jpg"
+      ],
+      "official_page": 2,
+      "official_operation": "작물영역을분할하여다른배경·영역과결합",
+      "visual": "잎과배경의접합,밝기차이,일부밝은여백이보임.",
+      "unknown": "분할모델/alpha마스크/실제donor와배경원본/연산순서",
+      "augmentation_contract": "실제선정작물분할/다른배경연결또는부분합성계보를확인. 단순새잎추가는범위내부분합성이나샘플의작물분할-배경결합을그대로재현한것은아님. 흰여백을공통정답신호로복제하지않음."
+    },
+    {
+      "CSV_type": "filter",
+      "files": [
+        "vfjx.jpg",
+        "nqwq.jpg",
+        "jrtg.jpg"
+      ],
+      "official_page": 2,
+      "official_operation": "vfjx가우시안블러/nqwq가우시안노이즈/jrtg소금후추잡음;의도JPEG압축률변경도공식유형범위",
+      "visual": "vfjx의전체윤곽흐림. contact해상도만으로noise두유형의정확분포·세기는확정불가.",
+      "unknown": "blurkernel/sigma/noise분산/잡음비율/색공간/JPEGquality",
+      "augmentation_contract": "기록된의도필터연산이필요. imagegen요청만으로정확Gaussian/saltpepper연산을인증할수없으며filter-like생성편집은구분또는유형보류. 자연blur/센서noise는의도filter라벨1근거가아님."
+    },
+    {
+      "CSV_type": "full_style",
+      "files": [
+        "kzbz.jpg",
+        "nriv.jpg",
+        "ttmn.jpg"
+      ],
+      "official_page": 2,
+      "official_operation": "사진기반화면전반표현양식변환",
+      "visual": "잎윤곽/색면/질감/명암이회화·일러스트처럼정돈되어보임. 전체CGI에만한정된범주아님.",
+      "unknown": "원본사진/스타일모델/수채brush특정연산/강도",
+      "augmentation_contract": "사진내용을유지한회화적윤곽·질감·명암변화를확인. 수채감은가능한기획이지공식필수연산이아니며전면색칠만으로대체하지않음."
+    },
+    {
+      "CSV_type": "partial_gen",
+      "files": [
+        "ftkc.jpg",
+        "mobg.jpg",
+        "uexm.jpg"
+      ],
+      "official_page": 3,
+      "official_operation": "사진일부영역을생성모델로재구성",
+      "visual": "작물/배지/잎/줄기/지지대장면이사진처럼보임. 꽃이나글자같은특정부위가편집됐다고contact로확정할수없음.",
+      "unknown": "편집전원본/마스크/실제편집위치/모델·강도",
+      "augmentation_contract": "사전에등록된불규칙식물영역에서형태/개체변경실작업과범위기록. 공개샘플의정확마스크를재현했다고말하지않음."
+    },
+    {
+      "CSV_type": "partial_style",
+      "files": [
+        "dszm.jpg",
+        "elue.jpg",
+        "xeeo.jpg"
+      ],
+      "official_page": 3,
+      "official_operation": "사진일부영역스타일변환",
+      "visual": "잎색면/주름/윤곽/명암/질감차이가관찰되나정확한편집경계는알수없음.",
+      "unknown": "원본/마스크/스타일모델/정확영역/원래잎질감",
+      "augmentation_contract": "원본내용유지와사전불규칙영역스타일변화기록. 색변화만으로완료판정하지않고경계artifact를라벨공통신호로학습시키지않음."
+    }
+  ],
+  "common_rules": [
+    "공식유형은제작·라벨링기록기준.육안이상특징한개를정답규칙으로쓰지않음.",
+    "양클래스공통crop/resize/JPEG저장은라벨을바꾸지않고제작의도filter와구분.",
+    "공개21의3real18positive비율/공개점수는평가524균형분포나독립성능근거아님.",
+    "유형전체를확인했어도공개에쓰인같은모델/prompt/마스크/세기를복원한것은아님."
+  ],
+  "previous_PLAN_v3_difference": "이전단일중앙사각mask/CGI강조/generator새잎cutout합성/blur단일종은작동QA기획이었다. 공식범위와의관계는있으나공개21의제작방식을동일재현한것은아니다."
+}

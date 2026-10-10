@@ -1,0 +1,51 @@
+{
+  "stage": "Download-complete Validation label audit final",
+  "verdict": "PASS for bounded metadata audit and independent core-number cross-check",
+  "independent_method": "PowerShell Import-Csv groups and HashSet intersections, separate from provided Python/SQLite verification",
+  "verified": {
+    "logical_listed_bytes": 375591870976,
+    "total_gold_rows": 27371,
+    "shared_candidate_prefix_groups": 185,
+    "validation_fname_collision_groups": 5,
+    "cross_normalized_fname_matches": 0,
+    "training_label_rows": 135189,
+    "VL_payload_read_bytes": 59033600,
+    "combined_label_rows": 152043,
+    "validation_label_rows": 16854,
+    "gold_farms": [
+      "AIF005"
+    ],
+    "validation_candidate_prefix_groups": 185,
+    "logical_GiB": 349.79718828201294,
+    "cross_ID_matches": 0,
+    "collision_affected_rows": 10,
+    "cumulative_source_requested_upper_bytes": 59033635,
+    "total_label_archives": 306,
+    "validation_archives": 35,
+    "validation_farms": 9
+  },
+  "corrective_recheck": [
+    "First+full cumulative request ledger initialized and gated",
+    "Identity absent/null/blank/type states recorded and invalid key sets excluded",
+    "Current identity invalid list empty; supplied CSV and archive record sums consistent",
+    "Farm roles inherited from existing split reservation",
+    "PLAN append process deviation documented and subsequent versions frozen"
+  ],
+  "limitations": [
+    "152043 are label records, not independent images/plants/scenes",
+    "Logical directory bytes and zero/temp/pair-name absence do not authenticate complete source payload integrity",
+    "Training metadata continuity checks size/mtime only; original stable cached label snapshots remain the actual evidence",
+    "Validation fname metadata may be timestamp-based while member names are image-ID-based; zero exactname/ID overlap does not exclude shared original imagery",
+    "All185 candidate prefix groups shared indicates group-dependence candidates, not authenticated plant identity or exact pixel duplicates",
+    "Filename collision5groups10records have distinct JSONmembers/IDs and dimensions; pixel sources unchecked, preserve/quarantine ambiguous mappings",
+    "Provided Validation is not independent confirmation, and gold has no new external farm"
+  ],
+  "remaining_execution_conditions": [
+    "Verify VS actual member-to-JSON association before ambiguous rows enter model data",
+    "Exact/near-pixel/scene lineage audit without exposing reserved evaluation imagery",
+    "Separate evaluation QA owner and sufficient independent groups",
+    "Actual6-type production and first real-data learning-batch verification",
+    "Fresh cache budget before further large-source or generator acquisition"
+  ],
+  "scope": "Critic read code/local CSV/JSON metadata only for this final stage; no new VS/TS image bytes, model weights, training or submitted artifacts."
+}

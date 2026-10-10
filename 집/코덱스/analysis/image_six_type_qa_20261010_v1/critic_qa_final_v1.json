@@ -1,0 +1,31 @@
+{
+  "scope": "assemble_qa/assets/manifest/preparedsource/prompt/ledger기록코드검토,14개JPEG와14개prePNG SHA직접확인,contact직접시각검토. NumPy pixel재검산은아직파일이없어확인하지않음. 모델학습/평가실행0.",
+  "verdict": "14개작업/형식QA의제한된완료주장은기록과일치. 독립pixel재검산PASS확인후첫train-only fit계약으로진행가능. 모델검증성능·유형대표성·shortcut해결을주장할근거는없음.",
+  "independently_checked": {
+    "failures_recorded": 0,
+    "positive": 12,
+    "withheld": 0,
+    "pre_and_final_sha_mismatches": 0,
+    "service_attempts_recorded": 8,
+    "partial_composite_rows": 6,
+    "each_type": 2,
+    "success_recorded": 8,
+    "rows": 14,
+    "real": 2
+  },
+  "mask_evidence": "producer기록에서prePNG mask밖변화0,최종JPEGmask밖113/129/543/692/717/732pixel변화.16pxhalo밖과far_padding0. JPEG에서mask밖완전원본보존이라고표현하면오류.",
+  "visual_critique": [
+    "fullgen은새장면이고source사진과같은장면의변형이아님.관리상recipe/component연결과시각parent없음을구별한다.",
+    "contact에서합성donor와전체/부분편집신호를관찰했지만단일중앙사각마스크경계가눈에띈다. 이첫계약은경계검출지름길을해결하지않았다.",
+    "fullstyle양성에표면매끄러움/잎형태변화가보이지만2개모두전체영역이같은강도의CGI라고단정할수없다.서비스작업provenance와pixel변화가의미적유형QA를완전히대체하지않는다.",
+    "일반색7개와분홍색7개기획은paired지만색통계는분홍약.722~.849로원본.825와다르다. 원본별동일색분포보장및일반화검증으로해석하지않는다."
+  ],
+  "remaining_gates": [
+    "NumPy독립mask/pad/codec/색감재산술파일과코드를확인하고제작PASS에반영한다.",
+    "14개SHA/label/type/parent/donor/generatorrecipe/component/mask를firstfit입력manifest에동결한다.",
+    "fullstyle→partialstyle같은생성asset재사용과fixedmask/twosource/oneservice협소성을명시한다.",
+    "B0 .857142857은상수.5/threshold>=.5가2real12positive에서12/14를맞히는산술이다. trainfitmetric도일반화성능으로쓰지않는다.",
+    "본격데이터설계에서mask위치/크기/경계방식/조명/농장/제작recipe를변화시키고sourcefamily먼저split하며고정서비스artifact지름길을별도평가한다. 첫계약에이를추가할필요는없으나해결됐다고주장하면안된다."
+  ],
+  "qa_scope": "2source14file제작QA,56전체QA아님,농장CV0/공개21평가0/모델성능0"
+}

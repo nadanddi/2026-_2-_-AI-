@@ -1,0 +1,4 @@
+2026-10-10 중간 비평에서 첫fit의 QA gate 참조 불일치를 확인했다.
+training_registration_v1.qa_verification_sha256은 v2를 등록했지만 train_contract_v3.data는 v1의 PASS를 읽었다. v1과 v2 둘 다 실제14행검사PASS이며 이미지/타깃/manifest 변경은 없지만 첫fit이 등록된v2 hash까지 강제했다는 주장은 하지 않는다.
+원등록/코드/첫결과를 보존한다. resume 전 run_finish_v2 wrapper에서 등록v2 SHA/PASS 및 v1/코드/manifest/첫receipt/SHA를 별도새등록으로 고정검사한다. 이 preflight 이후에만 원v3의 나머지11step을 실행한다.
+첫checkpoint는 실제134257747byte. 비평가 전달시 '143MB'라고 한 근사값은 잘못이며 이 정확값으로 정정한다.

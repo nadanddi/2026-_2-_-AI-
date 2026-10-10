@@ -1,0 +1,109 @@
+{
+  "sources": [
+    {
+      "farm_id": "AIF005",
+      "kind_type": "금실",
+      "crops_id": "C22_B02",
+      "fname": "C22_B02_006_210922113156.jpg",
+      "date_captured": "2021-09-22 11:31:56",
+      "image_id": "417402",
+      "width": "1293",
+      "height": "1997",
+      "growth_stage": "정식기",
+      "archive": "VL_1.금실2.tar",
+      "member": "VL_1.금실2/C22_B02_006_417402.json",
+      "json_sha256": "b6fc40feaae3fd988fe297d0d47eda3c8901a2e9c7840904c9a3b727d632db53",
+      "prefix_candidate": "C22_B02_006",
+      "normalized_fname": "c22_b02_006_210922113156.jpg",
+      "prefix_meaning": "unverified",
+      "invalid_identity_fields": "[]",
+      "source_archive": "VS_1.금실2.tar",
+      "source_member": "VS_1.금실2/C22_B02_006_417402.jpg",
+      "offset": 26878976,
+      "bytes": 1598016,
+      "payload_sha256": "d339eff3eada3deaa39107688e72ccb03f6020fd00024db1aef0595b2eb5a466",
+      "source_mapping": "JSON_member_stem+image_id",
+      "component": "source-component-118",
+      "actual_size": [
+        1293,
+        1997
+      ],
+      "dimension_match": true,
+      "magenta": 0.0,
+      "excluded_reasons": [],
+      "nearest_public_phash": {
+        "file": "jixx.jpg",
+        "distance": 20
+      },
+      "eligible": true,
+      "score": 0.14672565055370262,
+      "embedding_cos_distance": 0.11521053314208984,
+      "color_Hellinger": 0.08542773496864736,
+      "phash_distance": 20,
+      "selection_reference": "jixx.jpg",
+      "original_path": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_00_original_v1.jpg",
+      "target_path": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_00_edit_target_v1.png",
+      "target_size": [
+        497,
+        768
+      ],
+      "target_sha256": "8a55cea9db77e1e260947c161ea4e6da5ff6c17ed167d30cc7771148d699e206",
+      "magenta_rule": "R-G>20 and B-G>20; reject fraction>0.35",
+      "public_observation_used": true
+    },
+    {
+      "farm_id": "AIF005",
+      "kind_type": "금실",
+      "crops_id": "C23_B02",
+      "fname": "C23_B02_001_220122110721.jpg",
+      "date_captured": "2022-01-22 11:07:21",
+      "image_id": "854712",
+      "width": "850",
+      "height": "1252",
+      "growth_stage": "수확기",
+      "archive": "VL_1.금실2.tar",
+      "member": "VL_1.금실2/C23_B02_001_854712.json",
+      "json_sha256": "c35bb22a38f593a5327f538ce78ee0e58b958acde90294f4287529f67abf7a4c",
+      "prefix_candidate": "C23_B02_001",
+      "normalized_fname": "c23_b02_001_220122110721.jpg",
+      "prefix_meaning": "unverified",
+      "invalid_identity_fields": "[]",
+      "source_archive": "VS_1.금실2.tar",
+      "source_member": "VS_1.금실2/C23_B02_001_854712.jpg",
+      "offset": 492582400,
+      "bytes": 587112,
+      "payload_sha256": "dfd6fc0e79b7b0edcc54d1dfcaabf1c9ebabcf4178a360472be58b10eccfb87c",
+      "source_mapping": "JSON_member_stem+image_id",
+      "component": "source-component-358",
+      "actual_size": [
+        850,
+        1252
+      ],
+      "dimension_match": true,
+      "magenta": 0.0,
+      "excluded_reasons": [],
+      "nearest_public_phash": {
+        "file": "jixx.jpg",
+        "distance": 22
+      },
+      "eligible": true,
+      "score": 0.21451330353120668,
+      "embedding_cos_distance": 0.17901384830474854,
+      "color_Hellinger": 0.16271967729452066,
+      "phash_distance": 24,
+      "selection_reference": "ovvx.jpg",
+      "original_path": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_01_original_v1.jpg",
+      "target_path": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_01_edit_target_v1.png",
+      "target_size": [
+        521,
+        768
+      ],
+      "target_sha256": "8a02d9644e7cd9dac262d7e73fe16aa6c3cb2ba900c71b08a981e90554a810a4",
+      "magenta_rule": "R-G>20 and B-G>20; reject fraction>0.35",
+      "public_observation_used": true
+    }
+  ],
+  "tainted_prefix_families": [],
+  "selection_scope": "first2 distinct eligible prefixes from real3 top5; no independent scene authentication",
+  "task_bytes": 3972060
+}

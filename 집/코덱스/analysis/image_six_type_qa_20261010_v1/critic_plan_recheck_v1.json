@@ -1,0 +1,19 @@
+{
+  "scope": "PLAN_v2.txt 실행 전 정적 재검토. prompt registry/제작코드/실제asset/학습결과는아직검토하지않음.",
+  "verdict": "최신 v2 반영 문구에서3필수수정확인. 첫2개 fullgen 제작을막을새치명적문제는발견하지않음. 제작후실제pad/codec/계보/예산검증이필요.",
+  "resolved": [
+    "source별 content_bbox와 동일 검정pad를 모든positive 최종JPEG전에복원",
+    "QA JPEG 공통base→PNG512→변형→모든라벨최종JPEG90 한회 동결",
+    "실패포함8번/자동재시도0/유형미완료면14개fit중단",
+    "CPU eval 원모델과CPU재로드간동일input·order·batch비교에tol적용;GPUAMP차이별도",
+    "parameter뿐아니라전체buffer도추론전후SHA불변확인"
+  ],
+  "clarification": "6절의 이전 오류재시도1회 문구는 마지막 v2 실패포함8회·재시도0 문구로 대체된 것으로 해석한다. 실행 registry에는 최신 규칙 하나만 넣고 혼동이없도록 이후새버전에서이전문구를정리할것.",
+  "next_gates": [
+    "첫2서비스제작후고정source별실제pad/content범위·변화량·색감분포·공통codec·원본assetSHA·호출기록·서비스저장공간변화검사",
+    "fullgen은parent-none과recipe/lineage연결을구분하며보존asset으로학습재현성을보장한다는좁은주장만",
+    "컷아웃은실제alpha비영·투명영역/합성대상변화확인,부분편집은사전mask관측과비영변화확인",
+    "14개유형QA가통과한경우에만첫fit계약으로진행하고trainingmetric성능주장0",
+    "2source만으로농장/품종/6유형전체대표성주장금지"
+  ]
+}

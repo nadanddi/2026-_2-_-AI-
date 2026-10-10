@@ -15,4 +15,5 @@
 
 - [Prior-competition data restricted](prior-competition-data-restricted.md) — prior-competition strawberry data BANNED: never load/analyse/use/cite; no history notes about it; keep files out of git
 - [Plain explanations](plain-explanations.md) — lead with plain-language meaning, then numbers; check claim direction vs known numbers
-- [발견 연결과 해석 갱신](../../연구실/코덱스/analysis/evidence_connections_20261008_v1/PROCESS_v3.md) — EC 분석·실험·답변 전에 기존 관측/시도/정의를 확인하고, 후속 정정까지 연결해 관측·원인·허용 구현·효용의 현재 해석을 갱신한다(사용자 지시 2026-10-08). 최신 해석표는 HANDOFF 경로 참조.
+- [Use both columns](use-both-columns.md) — submissions score temp & EC separately; never leave one column as baseline in a test submission
+- [Training cleaning may be non-causal](training-cleaning-noncausal-ok.md) — 10-10 ruling: repair TRAINING inputs with past+future values; test features stay causal; held-out rows keep original inputs

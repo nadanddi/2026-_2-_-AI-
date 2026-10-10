@@ -1,0 +1,20 @@
+{
+  "scope": "PLAN_v3.txt/train_contract_v3.py 실행 전 정적 재검토. 비평가 학습·가중치로드·추론실행0.",
+  "verdict": "이전 필수수정 모두 반영. training_registration_v1에 manifest 및 실행 v3 코드SHA를동결한후 first1batch 실행을막을새치명적문제없음. finish는first결과중간비평후진행한다.",
+  "resolved": [
+    "clipnormfinite/nonzero와clip후전체gradfinite/분류기grad비영확인",
+    "resume manifestSHA/seed/step1/history1/optimizerstep1검사",
+    "현재실행파일SHA를사전등록SHA와비교",
+    "실384입력에서positive가source real과동일해지지않았음을확인",
+    "체크포인트전모든parameter와BNbuffer statefinite확인",
+    "GPUbitwise재학습재현성을미입증으로명시하고runtime/RNG고정asset재현범위를기록"
+  ],
+  "remaining_reporting_limits": [
+    "first1batch는두real와fullgen두positive만실제로사용한다. data검사에서14개입력검사했어도6유형전체gradient시험을첫step에서완료한것은아니다.",
+    "finish12steps후각6유형/source가실batch에들어갔는지history로확인할필요가있다.",
+    "checkpoint예산은200MiB각최대2개로파생128MiB와별도이며new1GiB/global16GiB/free30GiB안에서관리한다.",
+    "코드정적검토는실checkpointresume/optimizerGPUstate/CPUreload가통과했다는증거가아니다. 실행로그와결과검산이필요하다.",
+    "QA v1검산범위는이전비평에서명시한대로좁다. 강화verify_v2가없으면pad/color/subsampling전부독립검산완료주장금지.",
+    "이번train-only계약은generalization성능/CV/실제규정전체추론시간/모델개선채택의증거가아니다."
+  ]
+}

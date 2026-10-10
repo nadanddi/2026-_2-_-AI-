@@ -1,0 +1,44 @@
+{
+  "review": "원본 매핑 감사 실행 전 독립 계획 재검토",
+  "version": "v2",
+  "reviewed_files": [
+    "PLAN_v4.txt",
+    "map_sources_v4.py"
+  ],
+  "scope": "계획과 코드를 정적으로 읽었다. 원본 TAR, 이미지 payload 및 모델을 실행하거나 열지 않았다. synthetic parser 시험은 주 에이전트 전달 사실이며 독립 재실행하지 않았다.",
+  "verdict": "이전 핵심 문제 반영. 새 치명적 접근·누수 blocker는 정적 검토에서 발견하지 못함. 아래 공간 예약 보완 후 계획의 제한을 더 정확히 강제할 수 있음.",
+  "resolved": [
+    "원본 복사 전 필수 identity 및 JSON member stem-ID 일관성 검사",
+    "허용 농장과 기존 development_farm_folds 역할 검사",
+    "direct 2GiB/local 10GiB 실제 읽기 누계와 매 read 전 검사; mapping ledger를 QA에서 이어받음",
+    "신규 cache 2GiB와 기존 cache/runtime 합계 12GiB 검사",
+    "QA BytesIO JPEG 인코딩 후 실제 크기 검사 및 exclusive write",
+    "선택이 farm 균형이 아니라 후보 prefix 그룹 라운드로빈·초반 시각 선호임을 계획에 명시",
+    "충돌 행 실치수는 선택 64행만 확인 가능함을 명시"
+  ],
+  "remaining_actions": [
+    {
+      "priority": "중요",
+      "action": "QA 시작시 free-128MiB >=30GiB 또는 각 출력 쓰기 전 free-len(encoded)>=30GiB를 검사한다.",
+      "reason": "현재 free>=30GiB 검사 직후 출력하면 경계 상황에서 30GiB 보존을 깨뜨릴 수 있다. 실제 여유가 충분하더라도 코드 보장 문구는 불완전하다."
+    },
+    {
+      "priority": "권고",
+      "action": "preflight에서 각 대상 VL 행 수가 500인지 명시적으로 검사한다.",
+      "reason": "현재 비어 있지 않음과 identity/farm 검사는 있으나 계획의 고정된 500행 조건은 직접 강제하지 않는다. 뒤의 bijection은 실제 연결 검증이며 기대 규모 검사와 다르다."
+    },
+    {
+      "priority": "표기",
+      "action": "사전 local_read_upper에 QA thumbnail 해시 재읽기와 EOF 요청 여분을 포함하거나 해당 계산을 주요 payload 상한으로 명명한다.",
+      "reason": "실제 tracked_read 누계가 10GiB cap을 강제하므로 초과 접근은 중단되지만, 현재 사전 상한 산식은 모든 로컬 읽기의 엄밀한 상한이 아니다."
+    }
+  ],
+  "claim_limits": [
+    "각 JPEG payload SHA는 인코딩 바이트 동일성을 검사한다. 다른 SHA가 다른 장면 또는 다른 원본임을 보장하지 않는다.",
+    "선택 64개 dHash 후보는 두 VS 전량의 시각적 중복 검사가 아니다. 후보 prefix 의미도 미확인이다.",
+    "2개 VS 및 2개 기존 TS 총 2000개 범위의 교차 SHA 검사 결과를 전체 데이터 무중복 주장으로 확대할 수 없다.",
+    "예약 농장을 열지 않는 개발 단계이며 Validation 디렉터리 소속만으로 독립 검증 자료가 되지 않는다.",
+    "TAR 구조와 JPEG 일부 decode 검사는 원본성 라벨 또는 모델 학습 사용 허가를 완료하지 않는다.",
+    "정적 코드 검토 결과이며 실제 mapping/QA 결과의 독립 검산은 실행 후 별도로 필요하다."
+  ]
+}

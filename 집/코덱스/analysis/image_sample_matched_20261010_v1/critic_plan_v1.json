@@ -1,0 +1,34 @@
+{
+  "scope": "PLAN_v1/PLAN_v2_addendum/select_sources_v1 정적 검토,공식PDF/CSV/공개21contact대조. 후보1000rawdecode/embedding은비평가가실행하지않음.",
+  "verdict": "공개관찰기반원본선정은사용자명시요청범위이고본격학습/점수튜닝과구별되어있음. 공식유형동일연산주장은보완필요. 최종2source선정전exactpixel/근접prefix전파/수치finite검증을보완해야함.",
+  "initial_issues_resolved": [
+    "imagegen요청filter가실제Gaussian/saltpepper연산증거가아님을인정. Python허용답변전filter보류.",
+    "합성을원본작물/새배경구조로기획하되비공개분할알고리즘동일재현주장하지않음.",
+    "부분gen/style원본·mask미제공으로정확편집위치를unknown처리.",
+    "공개기반선정영향명시/전체350GB검색및숨김대표성주장금지"
+  ],
+  "required_before_final_selection": [
+    {
+      "issue": "계획은exactpixel/byte제외지만코드는byteSHA만확인",
+      "action": "공개와후보EXIF정규화decodedRGB+치수SHA를비교하거나exactpixel검사를아직안했다고명시. byte0만으로pixel중복0이라하지않는다."
+    },
+    {
+      "issue": "근접공개행만제외하고같은candidateprefix/component는남음",
+      "action": "taintedprefix/component전체를보수적보류로전파한뒤새버전에서순위와최종2개선정을고정한다. pHash<=6이crop/reencode/연속장면전체를검출했다고주장하지않는다."
+    },
+    {
+      "issue": "feature정규화및scorefinite검사없음",
+      "action": "normfinite/비영및전체21000scores와거리finite·범위를확인. 재현용code/assetSHA·전처리/가중치·정규화·동률규칙을보존한다."
+    }
+  ],
+  "static_notes": [
+    "pHash DCbitFalse라유효63bit인현재코드는분모63타당.",
+    "32*1024**2cap은33554432pixels로decimal32MP와구별. cachedpayload한개32MiB는이전mapping검증계약에의존한다.",
+    "현재최종code시각자료는real3top5와chosen3contact이며1000전체육안검토는하지않았다. 최종2개원본은직접봐야한다.",
+    "1000descriptor는공개21과같은224resize/ImageNetnorm/동일eval모델을사용하나aspectstretch가있어거리·layout해석에한계.",
+    "0.5/0.3/0.2는사전고정선별휴리스틱이며검증된최적가중치/의미유사율아님.",
+    "새task256MiB는thumbnails/features/assets/PDF비평렌더등전부합산. 12asset각32MiB최대는384MiB로taskcap보다커서중도보류가능한상한이다.",
+    "이번새비평PDF읽기렌더257348B도tasklocal예산에포함할것."
+  ],
+  "augmentation_gate": "공식유형별operation과실제generatoroutput을육안·작업기록으로검증. filter보류중이면12양성제작완료주장금지. 스타일사진기반회화질감은기획이고정확수채모델동일재현은unknown."
+}

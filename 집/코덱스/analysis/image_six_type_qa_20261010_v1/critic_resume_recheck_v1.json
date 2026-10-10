@@ -1,0 +1,13 @@
+{
+  "scope": "run_finish_v2/resume_registration/qa_gate_process_note 정적 재검토 및7개pinned파일 실제SHA 확인. 학습/weightload실행0.",
+  "verdict": "QA참조불일치에대한조건부진행요구는wrapper에서구체적으로구현됨. 실제preflight PASS저장후기존v3 finish진행을막는새문제없음.",
+  "pinned_files_checked": 7,
+  "pinned_sha_mismatch_count": 0,
+  "verified_guards": [
+    "wrapper/trainer/training등록/manifest/QA1/QA2/firstreceiptSHA고정",
+    "training등록QAhash==QA2실제SHA및QA2PASS강제",
+    "첫checkpoint실제SHA확인",
+    "preflight독점저장뒤에만기존train_contract_v3.finish호출"
+  ],
+  "remaining": "정적wrapper검토이며실제resume성공/나머지11updates/CPU입출력계약은최종결과로별도검토해야함. 첫fit이등록QA2를이미강제했다고과거결과를재서술하지않는다."
+}

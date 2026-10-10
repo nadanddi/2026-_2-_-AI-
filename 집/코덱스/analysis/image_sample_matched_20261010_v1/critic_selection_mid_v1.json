@@ -1,0 +1,52 @@
+{
+  "scope": "selection/prepared/verification/선별코드검토. PowerShell로1000행집계/두original,targetSHA와weightedscore재산술. 두선정original이미지직접시각확인. 비평가1000TARdecode·embedding실행0.",
+  "verdict": "두원본의시각조건과제한된선별검사에치명적문제없음. filter사용자허용전보류유지하며나머지제작중간단계진행가능. 적합성/순위안정성/전체무중복/농장다양성인증으로확대불가.",
+  "independently_confirmed": {
+    "selected_ids": [
+      "417402",
+      "854712"
+    ],
+    "excluded_union": 487,
+    "dominant_magenta_exclusions": 484,
+    "dimension_mismatch_exclusions": 2,
+    "selected_original_and_target_SHA_mismatches": 0,
+    "recomputed_scores": [
+      0.14672565055370262,
+      0.21451330353120668
+    ],
+    "selected_farms": [
+      "AIF005",
+      "AIF005"
+    ],
+    "candidates": 1000,
+    "quarantine_exclusions": 3,
+    "selected_cultivars": [
+      "금실",
+      "금실"
+    ],
+    "selected_prefixes": [
+      "C22_B02_006",
+      "C23_B02_001"
+    ],
+    "eligible": 513,
+    "dimension_errors_already_in_quarantine": true
+  },
+  "eligible_composition": {
+    "AIF006_seolhyang": 5,
+    "AIF007_seolhyang": 11,
+    "AIF005_gold": 497
+  },
+  "visual": "두원본에서일반녹색잎/흰포트·시설이관찰되어전면magenta예제보다공개scene기획과맞는다. 첫사진꽃/잎·포트,둘째노란trap/잎·열매가보임. 유사촬영조건은숨김평가대표성/효용을증명하지않는다.",
+  "verified_runtime_report": "verify_selection_v3 sameGPU/batch8선정2embedding/score검산PASS,색manualhist와Bhattacharyya산술일치,선정2fullresolution EXIF RGB+치수SHA vspublic21pixel동일0 기록과코드확인. 비평가embedding재실행한것은아님.",
+  "numeric_failure_note": "v1/v2 CPU재계산delta0.00005096로1e-5실패이력은보존/명시. 같은GPU배치로검사환경을맞춘후PASS한것이며CPU동일수치또는1000rank안정성증명이아니다. tolerance완화/원본선정변경없다는범위를유지한다.",
+  "important_limits": [
+    "eligible513중497이AIF005금실이며최종2개도같은farm/cultivar. 다른prefix2개를독립farm/plant/scene2개로인증하지않는다.",
+    "색gate로설향캐시의많은사진이탈락했다. 다음성능용확대선정에서일반색설향원본을별도로찾거나품종편향을명시해야한다.",
+    "taintedprefix/component0은byte/pHash<=6/knownfamily가이캐시에서없다는휴리스틱결과다. crop/재인코딩/공통원본계보완전차단증거아님.",
+    "exactdecodedpixel검사는선정2대public21만. 전체1000에대해pixelduplicate0이라고말하지않는다.",
+    "후보1000을machine descriptor로검사했으며전체1000육안확인은아님.",
+    "최종두선정은real3별top5에서prefix조건을적용한결정이고모든공개에대한독립최적원본/유사도백분율이아님.",
+    "전처리aspectstretch/ImageNetfeature/색hist/pHash의복합순위는고정heuristic이다. 학습점수튜닝·일반화평가0.",
+    "사용자filtercode허용답변미수신. 정확filter예제완료/총12양성완료주장금지."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "scope": "PLAN_v1.txt/source_selection_v1.json 사전 정적 독립 비평. 이미지 생성/학습/시각검토/원본재읽기0.",
+  "verdict": "제작 실행 전 padding/호출예산/CPU계약 세 항목을 고정해 보완해야 함. 이 계획은14개 작업 QA 및 train-only smoke test이며 모델 성능평가가 아니다.",
+  "required_fixes": [
+    {
+      "priority": "높음",
+      "issue": "source별 검정pad가 classshortcut으로 남을 수 있음",
+      "action": "두 source의 contain content rectangle과 padding mask를 먼저 동결한다. fullgen과 fullstyle·부분편집·합성 등 모든양성에 source별 동일 rectangle/pad를 최종JPEG전 강제로 적용한다. 검정pad면적과JPEG decoding후경계누출을기록한다. input은실제sourceJPEG인지기존QA JPEG인지, commonbase decode/리사이즈/최종JPEG횟수도 manifest에고정한다.",
+      "reason": "원본1235x1608과953x619는pad형태가다르다. real만containpad이고generatedfullframe이유지되면양성판단지름길이다."
+    },
+    {
+      "priority": "높음",
+      "issue": "8회상한과오류재시도1회가충돌하며유형미완료시처리없음",
+      "action": "실패를포함한총시도8회하드캡인지총9회인지사전명시한다. 상한도달/출력0/불투명cutout/변형0/사람QA불합격이면원본asset보존·유형보류·14개fit계약중단을고정하고확보하지못한유형을기존필터로대체하지않는다.시도별prompt/parent/output/실패원인모두보존한다."
+    },
+    {
+      "priority": "높음",
+      "issue": "CPU재loadtol대상과BN추론상태가미명시",
+      "action": "CPU eval 원모델과 CPU checkpoint 재load 모델의동일입력확률/순서/배치크기비교에tol1e-5를적용한다. GPU AMP 대CPU수치차이는별도기록한다. eval모드·추론전후parameters와BN buffers불변확인을고정한다."
+    }
+  ],
+  "other_conditions": [
+    "fullgen은source와시각부모가없는생성물이므로parent-none을명시하고prompt/lightingrecipe/generatorlineage연결을보존한다. sourcegroup은관리상연결이며동일촬영장면보증이아니다.",
+    "partialgen은마스크내용의실제생성편집이고partialstyle은style결과를부분합성했다는operation계보를구분한다. 단순임의blur를생성AI유형으로대체하지않는다.",
+    "composite는generateddonorasset계보와targetsource모두연결한다. transparency/alpha비영영역/마스크경계/변화관측범위를기록한다.",
+    "전체style결과에서부분style파생을만드는경우둘은독립표본이아니며동일생성asset계보로묶는다.",
+    "서비스seed/versionunknown은허용하되생성재현성과보존asset기반학습재현성을구별한다.",
+    "서비스기본저장공간은작업cache와별도기록하고총free30GiB의실제변화를관측한다. 서비스출력후크기검사는서비스원격출력크기의사전보장을의미하지않는다.",
+    "첫fit모델은학습/입출력계약시험이다. 2real12positive로학습된모델의trainingmetric을성능개선/일반화점수로쓰지않는다.",
+    "sourcepair 색감은paired설계로class분포를맞춰야하며두source로농장/품종분포에대한확증을할수없다.",
+    "64QA치수일치와격리제외는기술적선정조건이지원본성개별검증완료가아니다."
+  ],
+  "source_checks": {
+    "ids": [
+      "415785",
+      "833421"
+    ],
+    "farms": [
+      "AIF005",
+      "AIF007"
+    ],
+    "dimension_match_recorded": true,
+    "known_quarantine_excluded": true,
+    "real_count": 2,
+    "positive_count": 12,
+    "total_QA": 14,
+    "proposed_calls": 8,
+    "firstfit_steps": 12,
+    "proposed_seed": 20261010
+  }
+}

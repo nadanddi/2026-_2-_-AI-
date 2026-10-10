@@ -1,0 +1,38 @@
+{
+  "representative_image_id": "420572",
+  "actual_size": [
+    1497,
+    2243
+  ],
+  "exif_orientation": null,
+  "rows": [
+    {
+      "image_id": "420572",
+      "source_member": "VS_1.금실2/C23_B02_002_420572.jpg",
+      "label_size": [
+        1466,
+        2142
+      ],
+      "matches_actual": false,
+      "status": "quarantined_metadata_conflict; no_training_use"
+    },
+    {
+      "image_id": "440486",
+      "source_member": "VS_1.금실2/C23_B02_002_440486.jpg",
+      "label_size": [
+        1497,
+        2243
+      ],
+      "matches_actual": true,
+      "status": "quarantined_metadata_conflict; no_training_use"
+    }
+  ],
+  "payload_bytes": 2219282,
+  "decoded_pixels": 3357771,
+  "io_ledger_after_diagnostic": {
+    "direct": 1295800320,
+    "local": 5470608328
+  },
+  "cause": "unresolved; byte-identical two source entries with conflicting label dimensions",
+  "action": "preserve both rows; keep same component; exclude both from model data until resolved"
+}

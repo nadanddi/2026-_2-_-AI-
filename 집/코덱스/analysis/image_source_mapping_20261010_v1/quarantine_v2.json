@@ -1,0 +1,20 @@
+{
+  "supersedes": "quarantine_v1.json",
+  "image_ids": [
+    "420566",
+    "420572",
+    "440464",
+    "440486"
+  ],
+  "mapped_source_rows": 3,
+  "counterpart_not_yet_source_checked": "440464",
+  "reason_by_id": {
+    "420572": "exact JPEG duplicate with conflicting metadata; actual size disagrees",
+    "440486": "exact duplicate partner; actual size agrees but source identity conflict unresolved",
+    "420566": "fixed64 decode dimensions disagree; collision partner unchecked",
+    "440464": "same metadata filename as420566; outside chosen archive, pending source verification"
+  },
+  "source_rows_preserved": true,
+  "model_data_use": false,
+  "no_metadata_auto_correction": true
+}

@@ -1,0 +1,14 @@
+여섯 유형 제작 QA 및 첫 실자료 학습 계약 — 실행 전 고정
+1. imagegen built-in 사용. 독립positive유형 실제서비스 생성/편집 기록 보존. 서비스 seed/model version 미제공이면unknown, 재생성재현 보장X. 생성 원본asset와prompt/호출/파일SHA를 보존해 이후 학습은고정asset로재현한다.
+2. 고정source2:415785(AIF005/일반색),833421(AIF007/분홍색),모두기존development farm 및64QA치수일치/격리ID아님. source+각파생은동일연결요소. 공개21/보류AIF014/015접근0.
+3. 2real+6type*2positive=14개 첫QA. 기존8원본56목표를 완료했다고 주장하지않음. 이는모델성능평가표본이아님. farm비교/검증CV0,첫fit계약만.
+4. real공통512square contain검정pad→JPEG90/4:2:0. 모든positive도동일출력. fullgen은새온실사진(일반/분홍),composite는새투명딸기잎asset를real위고정위치합성,filter는의도blur1.0(2source모두),fullstyle은전체CGI표현edit,partialgen은서비스중앙딸기잎재생성edit 후사전mask로원본밖복원,partialstyle은fullstyle결과의사전mask내지역표현만합성.
+5. 원본목표seed/생성reference전체계보보존. fullgen/cutout text-only는source시각참조를전송하지않되연관lightingrecipe+sourcegroup연결. 부분mask사각형[160,160,352,352]512좌표,32/16배수경계. 파생mask정확변경영역/비율,pre-JPEG밖일치/실decodeJPEG밖변경블록기록. 편집신호0이면보존후보류. 새로운source/donor를외부fold에서가져오지않음.
+6. cache범위기존4task+이번task. 총16GiB로확대고정(기존12GiB기록보존),이번task1GiB,파생128MiB,free30GiB유지. built-in기본저장.codex/generated_images 점유는별도측정/기록;원본G읽기0.8calls(두source×fullgen/cutout/style/partialgen)상한,오류재시도1회는새기록. asset1개32MiB/16MP상한. service출력은원본보존+복사(삭제0).
+7. QA비평뒤B0상수.5는14파일의2real12positive에서12/14가계산되는계약만(숨김균형 성능X). B1 torchvision ImageNet ResNet18 가중치기존SHA,전체화면384 비율보존/512square공통입력,AMPbatch4(real2positive2),AdamWlr1e-4/wd.01,clip1,12steps,seed20261010. BCEWithLogits, ImageNet norm; 양성은6유형/2source 순환으로모두포함. 오직train-only실자료계약시험,검증정확도/개선·채택·공개21평가0.
+8. 첫fit전에14입력SHA/label/type/계보/maskmanifest동결. source당real반복/positive균등,filepath/유형/farm/ID는모델특징제외. finite-loss/grad/optimizer실변경/scaler비감소 확인,seed/state/config저장. CPU재load/predictprob0..1/order/배치크기/빈입력/모델불변 비교tol1e-5. 체크포인트는실험용,제출물아님.
+9. 계획→중간(첫2서비스제작/양성QA)→제작최종비평뒤첫fit→학습중간첫step→학습최종비평. 모든중요지적새버전수정. 색감분포조건은paired유형기획이지서비스가정확색감을보존했다는보장X,육안확인/분포수치와한계기록.
+
+계획 비평 반영 v2: 모든양성은source별 content_bbox의 검정pad를 최종encode전에원본과동일복원. source QA JPEG90을1회decode→PNG512commonbase(추가손실없음)→변형→모든라벨최종JPEG90 1회. 8호출은실패포함총8번/자동재시도0,서비스실패·asset0·cutout알파없음·부분신호0이면보존및QA보류/14개첫fit중단. CPU tolerance는CPU eval 원모델과CPU재로드 동일input/order/batch변경간 비교이며GPUAMP차이별도기록만. eval BN고정,전체parameter+buffer추론전후SHA불변.
+
+학습코드 비평 v3: clip norm finite/nonzero와clip후finite/fcgradient비영검사, resume manifest/seed/completed1/history1/optimizerstep1강제. CPUstate전수finite/14actual384입력양성비동일확인. 실행코드SHA동결. GPUbitwise재학습재현입증X,고정자산/코드/RNG상태와CPU입출력계약재현성으로범위한정. 체크포인트각200MiB·최대2개 예약은이미지파생128MiB예산과별도,전체new1GiB/global16GiB내에서관리.

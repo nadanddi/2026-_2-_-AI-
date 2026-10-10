@@ -1,0 +1,44 @@
+{
+  "key_definition": [
+    "farm_id",
+    "kind_type",
+    "prefix_candidate_unverified",
+    "date_captured"
+  ],
+  "shared_group_timestamp_keys": 21,
+  "validation_rows_in_shared_keys": 21,
+  "validation_rows": 16854,
+  "examples": [
+    [
+      "AIF010",
+      "설향",
+      "C42_B01_002",
+      "2021-09-27 16:18:55"
+    ],
+    [
+      "AIF010",
+      "설향",
+      "C42_B01_004",
+      "2021-09-27 16:18:55"
+    ],
+    [
+      "AIF010",
+      "설향",
+      "C43_B01_001",
+      "2021-09-28 10:33:14"
+    ],
+    [
+      "AIF010",
+      "설향",
+      "C43_B01_002",
+      "2021-09-28 10:33:14"
+    ],
+    [
+      "AIF013",
+      "설향",
+      "C53_B01_001",
+      "2021-10-23 17:10:10"
+    ]
+  ],
+  "scope": "same recorded group/time risk candidate, not proof of same source frame or pixels"
+}

@@ -1,0 +1,49 @@
+{
+  "scope": "train_contract_v1.py 및 qa_verification_v1.json/verify_qa_v1.py의 실행 전 정적 검토. 비평가는 가중치로드/학습/추론실행0.",
+  "verdict": "train-only 첫실batch계약설계는범위가적절하다. clipnormfinite와resume상태계약검사를추가하고등록파일동결후first만진행할수있음. first중간비평전finish금지.",
+  "required_actions": [
+    {
+      "action": "clip_grad_norm_ 반환값finite 및 clip후전체gradfinite를검사한다.",
+      "reason": "개별gradfinite여도 norm계산overflow가능. Inf norm으로grad가0이되면AdamWweightdecay에의한fc변화만으로현재계약PASS될수있다."
+    },
+    {
+      "action": "resumecheckpoint의manifest_sha256·seed·completed_steps1·history길이1·optimizerstep1을검사한다.",
+      "reason": "first→finish총12step계약을명시적으로고정해야잘못된상태를그대로이어가지않는다."
+    }
+  ],
+  "reproducibility_limit": "seed및cudnnbenchmarkFalse는GPU비트단위재현성보증이아니다. deterministic/backend/버전/환경/RNG를기록하거나고정asset·CPU입출력계약수준으로재현성주장을제한한다.",
+  "good_contracts": [
+    "14manifestSHA검사/각JPEG SHA/격리ID제외/개발농장제한",
+    "ImageNetstemSHA확인/fc1logit/BCE/균형2real2positive/6유형순환",
+    "finite-loss와unscale후grad검사/optimizer실step/fc변화/scaler검사",
+    "first1step저장후11stepresume,CPU/GPU RNG보존",
+    "checkpoint200MiB예약·작업1GiB/전체16GiB/free30GiB",
+    "CPUeval원모델↔reload/순서/배치1·3·7/tol1e-5/parameter+BNbufferhash불변/empty확인"
+  ],
+  "QA_verification_recheck": {
+    "recorded_pass": true,
+    "verified_by_code": [
+      "14filesSHA",
+      "512shape",
+      "quantization一致",
+      "pre/final전체변경pixel수",
+      "pre-mask밖0",
+      "final16pxhalo밖0",
+      "label/type",
+      "14uniqueSHA"
+    ],
+    "not_independently_recomputed_in_v1": [
+      "JPEGmask밖개별113..732수치",
+      "pad일치와farpad0",
+      "magenta_fraction",
+      "JPEGsubsampling"
+    ],
+    "interpretation": "작업/파일검산PASS조건충족. 모든mask/pad/color/export수치를독립재검산했다고확대하지않는다."
+  },
+  "claim_limits": [
+    "첫12steps는2source14filetrain-only계약이며학습성능·확증·모델개선이아니다.",
+    "CPU재load계약은저장·입출력/모델불변시험이지일반화평가또는CPU추론300초규정충족증거가아니다.",
+    "trainingbalancedbatch와14file분포2/12가다르므로B0 .857을학습모델성능비교로쓰지않는다.",
+    "제작단일generator/사각mask경계/2source색감shortcut조건은미해결이다."
+  ]
+}

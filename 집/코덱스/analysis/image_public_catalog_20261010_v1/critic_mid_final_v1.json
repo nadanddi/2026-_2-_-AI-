@@ -1,0 +1,44 @@
+{
+  "status": "내용 및 기록 검토 통과; 실행 차단사항 없음",
+  "scope": "공개샘플21 정보 카탈로그 검토. 모델 성능·증강 효용·정확한 편집영역 검증 아님.",
+  "independent_checks": {
+    "method": "PowerShell 원본 파일 SHA256 및 CSV/JSON 전필드 재대조",
+    "rows": 21,
+    "types_each": 3,
+    "types_count": 7,
+    "labels": {
+      "positive": 18,
+      "real": 3
+    },
+    "dimensions": {
+      "portrait": 17,
+      "landscape": 4
+    },
+    "csv_json_mismatches": 0,
+    "original21_sha_match": true,
+    "PDF_sha_match": true,
+    "labelCSV_sha_match": true
+  },
+  "visual_review": {
+    "critic": "유형판 7개 전체 직접 열람; 이전 공개21 연락시트 및 공식 PDF 내용/렌더 대조",
+    "parent": "원본21개 개별 열람 및 PDF 3쪽 렌더 확인 기록; 유형판7개 직접 열람 기록",
+    "findings": "공식 정의, 파일별 관찰, 미제공 정보가 구분됨. 부분 생성/부분 스타일의 편집 위치를 꽃·글자·잎으로 단정하지 않음. 일러스트/회화 표현과 단순 색 덮기를 구분함. 캡션 잘림이나 유형·파일 대응 오류를 발견하지 못함."
+  },
+  "verification_review": {
+    "actual_parent_execution": "verify_catalog_v1.py 실행 PASS 기록과 검산 코드를 검토함",
+    "critic_not_executed": "브라우저 실제 버튼 조작/모달 확대/반응형 렌더 실행을 하지 않음",
+    "code_scope": "HTML 내장 원본21바이트, 데이터/순서, SQLite 집계, PDF 파일명/쪽 및 유형판 SHA를 검산하는 구조",
+    "limits": "문자열/해시 일치는 관찰 문장의 의미 정확성을 자동으로 증명하지 않아 별도 육안/PDF 대조가 필요하며 이를 검토함."
+  },
+  "remaining_limits": [
+    "HTML 실제 브라우저 상호작용은 파일 URL 정책 차단으로 미검증. 읽는_순서_v1.txt에 정확히 공개되어 있음.",
+    "공개21은 실제3장 및 6편집유형 각3장의 예시이며 숨김 평가 분포·특정 파라미터·마스크·모델·프롬프트 복원을 입증하지 않음.",
+    "AI허브 선정 참고/증강 방식은 후속 계획이며 같은 제작 알고리즘 재현 또는 학습 효용을 확인한 결과가 아님.",
+    "이 카탈로그는 학습·추가 생성·원본100장 준비·필터300장 제작 완료를 주장하지 않음. 이전 작업과 현 작업의 범위가 안내에 구분됨."
+  ],
+  "required_corrections": [],
+  "optional_wording": [
+    "HTML의 원본 해상도로 확대된다는 안내는 화면 맞춤 표시를 뜻할 수 있으므로 원본 사진을 확대 표시한다고 쓰면 1:1 픽셀 표시로 오해할 여지가 더 적음. 차단사항은 아님."
+  ],
+  "overall": "사용자 요청한 PDF 유형별 예시와 공개21장의 정리는 근거 범위 내에서 완료 보고 가능. 실제 브라우저 작동까지 검증 완료라고 말하지 말 것."
+}

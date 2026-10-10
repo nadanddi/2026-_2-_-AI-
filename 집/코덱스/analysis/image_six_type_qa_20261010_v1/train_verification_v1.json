@@ -1,0 +1,43 @@
+{
+  "all_checks_pass": true,
+  "verified_steps": 12,
+  "unique_images": 14,
+  "real_source_photos": 2,
+  "sampling_draws": 48,
+  "draws_by_type": {
+    "real": 24,
+    "fullgen": 4,
+    "composite": 4,
+    "filter": 4,
+    "fullstyle": 4,
+    "partialgen": 4,
+    "partialstyle": 4
+  },
+  "fresh_CPU_differences": {
+    "fresh_batch2_vs_saved": 0.0,
+    "fresh_reverse_batch5": 1.1920928955078125e-07
+  },
+  "CPU_state_unchanged": true,
+  "checkpoint_bytes": [
+    134257747,
+    134259987
+  ],
+  "cache_bytes_by_task": {
+    "image_ingestion_20261010_v1": 1899957781,
+    "image_runtime_20261010_v1": 8013888889,
+    "image_download_complete_20261010_v1": 59033600,
+    "image_source_mapping_20261010_v1": 1307969891,
+    "image_six_type_qa_20261010_v1": 291562641
+  },
+  "total_work_cache_bytes": 11572412802,
+  "C_free_bytes": 176561598464,
+  "QA_gate_process": "first used QA1; stronger registered QA2 enforced before resume; original records preserved",
+  "leakage_scope": "train-only on development farms AIF005/AIF007; no holdout evaluation or claimed performance",
+  "reproducibility_scope": "fixed inputs/code/checkpoint hashes and CPU replay verified; independent training rerun not performed",
+  "limitations": [
+    "two sources only",
+    "individual original edit history unverified",
+    "overfit/provenance shortcuts unmeasured",
+    "no CV/accuracy/AUROC/adoption/submission"
+  ]
+}

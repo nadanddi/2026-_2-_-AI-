@@ -1,0 +1,33 @@
+{
+  "scope": "assets_first/service_outputs_first/prompt_registry/persist_assets 코드·기록 검토. PowerShell로 생성기본저장본과own복사본두개각SHA/길이검증 및cache크기재산술. 이미지시각검토·생성호출·모델학습은비평가가수행하지않음.",
+  "verdict": "첫fullgen2개영구보존과크기제한검사통과. 나머지제작을막을새치명적문제없음. 최종14개QA완료또는fit허가로해석하지않음.",
+  "independently_verified": {
+    "both_local_sha_match": true,
+    "five_task_cache_bytes": 11286732733,
+    "both_actual_lengths_match": true,
+    "new_task_cache_bytes": 5882572,
+    "asset_total_bytes": 5245176,
+    "asset_each_pixels": [
+      1572528,
+      1572864
+    ],
+    "both_default_source_sha_match": true,
+    "free_C_bytes": 176953339904,
+    "asset_count": 2,
+    "observed_all_budgets_pass": true
+  },
+  "remaining_actions": [
+    "fullgen/cutout은시각parent-none을명시하고sourceindex와lightingrecipe를관리상연결로구분한다. 편집유형은실제서비스입력referenceSHA를명시한다.",
+    "성공자산목록과실패포함전체서비스호출ledger를구분하며총8회cap을후속단계에서확인한다. 현재성공2개기록만으로숨은실패시도가없음을독립확인한것은아니다.",
+    "persist다음버전은stat후무한read_bytes대신32MiB+1boundedread·전후stat·실제len제한·복사후SHA확인을사용한다. 이번두asset은독립실제SHA확인상일치하여오류관측0.",
+    "기본.generated_images전체점유또는새파일증분을cache와구별하여저장한다. 현재비평가는두기본파일bytes만직접확인했다.",
+    "assetraw보존용량과최종derived128MiB예산범위를명시하여향후8개최대32MiBasset을128MiB제한과혼동하지않는다.",
+    "나머지cutoutalpha/편집실변화/공통pad/codec/최종14개manifest검사가완료되기전첫fit을진행하지않는다."
+  ],
+  "claim_limits": [
+    "seed/modelversionunknown이므로서비스재생성재현성을보장할수없다. 고정assetSHA기반학습재현성은별개다.",
+    "색감조건준수는주에이전트의육안검토수준이며이번비평가는분포또는시각유사성을독립확인하지않았다.",
+    "fullgen두개는새생성장면이며연결된원본사진의변형본·동일장면이아니다.",
+    "서비스진행2/8및2개fullgen만현재확인.6유형제작완료/14개QA/모델성능주장불가."
+  ]
+}

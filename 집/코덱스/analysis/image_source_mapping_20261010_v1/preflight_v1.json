@@ -1,0 +1,26 @@
+{
+  "manifest": [
+    {
+      "source_archive": "VS_1.금실2.tar",
+      "label_archive": "VL_1.금실2.tar",
+      "rows": 500,
+      "farms": {
+        "AIF005": 500
+      }
+    },
+    {
+      "source_archive": "VS_2.설향3.tar",
+      "label_archive": "VL_2.설향3.tar",
+      "rows": 500,
+      "farms": {
+        "AIF007": 415,
+        "AIF006": 85
+      }
+    }
+  ],
+  "direct_request_upper": 1295800322,
+  "local_read_upper": 7698613248,
+  "cache_budget": 12884901888,
+  "new_budget": 2147483648,
+  "free_reserve": 32212254720
+}

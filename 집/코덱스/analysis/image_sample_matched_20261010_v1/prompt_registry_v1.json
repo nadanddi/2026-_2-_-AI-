@@ -1,0 +1,81 @@
+{
+  "tool": "built-in imagegen",
+  "seed": "unknown",
+  "model_version": "unknown",
+  "requests": [
+    {
+      "id": "AI_gen_0",
+      "type": "AI_gen",
+      "source_index": 0,
+      "prompt": "Purpose: agriculture competition training-data augmentation following the disclosed operation categories. This is a new training asset, not a recreation of a specific public evaluation photo. Natural daylight, green strawberry foliage, neutral white greenhouse structures; preserve the ordinary photographic palette. No magenta or red lighting cast, no borders, no black padding, no captions/watermarks. Generate a completely NEW photorealistic camera-like greenhouse scene, no reference image. Scene content: a vertical close view of several strawberry plants in a white raised trough, textured green serrated leaves, a small white flower near the lower left, black irrigation tubes and pebbles below. Use a different plant arrangement and camera view from any specific source. High realistic fine leaf veins, natural optical depth, believable growers' greenhouse materials. Portrait composition. This category is full-scene AI generation, not simply recoloring a photo.",
+      "reference": null
+    },
+    {
+      "id": "composite_0",
+      "type": "composite",
+      "source_index": 0,
+      "prompt": "Purpose: agriculture competition training-data augmentation following the disclosed operation categories. This is a new training asset, not a recreation of a specific public evaluation photo. Natural daylight, green strawberry foliage, neutral white greenhouse structures; preserve the ordinary photographic palette. No magenta or red lighting cast, no borders, no black padding, no captions/watermarks. Image 1 is the edit target photograph. Create a crop-foreground/background COMPOSITE: preserve the existing strawberry foliage, stems, flowers and fruit layout recognizable from the source as the cut-out foreground, and place that crop silhouette against a different photographic background of a sunlit outdoor nursery path, low grass and distant greenhouse fencing. Retain the crop outlines, fine leaf edges, vein texture and original foreground lighting as much as possible. Replace the background, including its infrastructure, rather than adding a new leaf. Keep perspective plausible; a small edge/lighting mismatch is acceptable for this deliberately composited training example. Do not turn the plants into illustration. No solid-color backdrop.",
+      "reference": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_00_edit_target_v1.png"
+    },
+    {
+      "id": "full_style_0",
+      "type": "full_style",
+      "source_index": 0,
+      "prompt": "Purpose: agriculture competition training-data augmentation following the disclosed operation categories. This is a new training asset, not a recreation of a specific public evaluation photo. Natural daylight, green strawberry foliage, neutral white greenhouse structures; preserve the ordinary photographic palette. No magenta or red lighting cast, no borders, no black padding, no captions/watermarks. Image 1 is the edit target. Transform the ENTIRE photograph into a moderately stylized botanical watercolor-and-colored-pencil illustration. Keep the exact scene composition, existing plant layout, object count, flower/fruit positions and greenhouse geometry recognizable. Apply visible watercolor washes, simplified painted light/shadow shapes, delicate pencil contours and painterly leaf-vein texture across plants AND background. Preserve natural green/white/yellow colors. The style change must be clear in contour and texture, not only saturation, contrast or gloss. Do not create a CGI look or replace the scene. Portrait same framing.",
+      "reference": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_00_edit_target_v1.png"
+    },
+    {
+      "id": "partial_gen_0",
+      "type": "partial_gen",
+      "source_index": 0,
+      "prompt": "Purpose: agriculture competition training-data augmentation following the disclosed operation categories. This is a new training asset, not a recreation of a specific public evaluation photo. Natural daylight, green strawberry foliage, neutral white greenhouse structures; preserve the ordinary photographic palette. No magenta or red lighting cast, no borders, no black padding, no captions/watermarks. Image 1 is the edit target. Perform ONLY a local generative replacement within the naturally irregular outline of the small lower-left strawberry flower cluster and adjoining two leaves: replace this cluster with two realistic red strawberries, one white blossom and slightly rearranged slender stems. All other plants, background, camera view and original colors should remain unchanged as closely as possible. Local photographic inpainting, realistic fine textures and lighting; the edit should change objects and shapes, not recolor the whole photo. Use object-following organic boundaries, no square patch, no rectangular inserted region.",
+      "reference": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_00_edit_target_v1.png"
+    },
+    {
+      "id": "partial_style_0",
+      "type": "partial_style",
+      "source_index": 0,
+      "prompt": "Purpose: agriculture competition training-data augmentation following the disclosed operation categories. This is a new training asset, not a recreation of a specific public evaluation photo. Natural daylight, green strawberry foliage, neutral white greenhouse structures; preserve the ordinary photographic palette. No magenta or red lighting cast, no borders, no black padding, no captions/watermarks. Image 1 is the edit target. Change ONLY the large leaf projecting toward the right in the lower half and its leaf-shaped silhouette to a clearly hand-painted botanical watercolor illustration with visible brush wash texture, simplified painted veins, and soft pencil outline. Keep that leaf's pose, approximate green color and outline, but make its local texture stylistically different from the camera photo. Everything else remains photographic and unchanged as closely as possible, including the background, flowers, berries and neighboring leaves. Follow the irregular leaf outline, no square or rectangular boundary, no global recoloring.",
+      "reference": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_00_edit_target_v1.png"
+    },
+    {
+      "id": "AI_gen_1",
+      "type": "AI_gen",
+      "source_index": 1,
+      "prompt": "Purpose: agriculture competition training-data augmentation following the disclosed operation categories. This is a new training asset, not a recreation of a specific public evaluation photo. Natural daylight, green strawberry foliage, neutral white greenhouse structures; preserve the ordinary photographic palette. No magenta or red lighting cast, no borders, no black padding, no captions/watermarks. Generate a completely NEW photorealistic camera-like greenhouse scene, no reference image. Scene content: a vertical close-up of a strawberry plant in white grow pots, serrated green leaves, a yellow sticky insect trap near the top, two hanging white-red ripening strawberries near the lower center, an irrigation tube. Use a different plant arrangement and camera view from any specific source. High realistic fine leaf veins, natural optical depth, believable growers' greenhouse materials. Portrait composition. This category is full-scene AI generation, not simply recoloring a photo.",
+      "reference": null
+    },
+    {
+      "id": "composite_1",
+      "type": "composite",
+      "source_index": 1,
+      "prompt": "Purpose: agriculture competition training-data augmentation following the disclosed operation categories. This is a new training asset, not a recreation of a specific public evaluation photo. Natural daylight, green strawberry foliage, neutral white greenhouse structures; preserve the ordinary photographic palette. No magenta or red lighting cast, no borders, no black padding, no captions/watermarks. Image 1 is the edit target photograph. Create a crop-foreground/background COMPOSITE: preserve the existing strawberry foliage, stems, flowers and fruit layout recognizable from the source as the cut-out foreground, and place that crop silhouette against a different photographic background of a sunlit outdoor nursery path, low grass and distant greenhouse fencing. Retain the crop outlines, fine leaf edges, vein texture and original foreground lighting as much as possible. Replace the background, including its infrastructure, rather than adding a new leaf. Keep perspective plausible; a small edge/lighting mismatch is acceptable for this deliberately composited training example. Do not turn the plants into illustration. No solid-color backdrop.",
+      "reference": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_01_edit_target_v1.png"
+    },
+    {
+      "id": "full_style_1",
+      "type": "full_style",
+      "source_index": 1,
+      "prompt": "Purpose: agriculture competition training-data augmentation following the disclosed operation categories. This is a new training asset, not a recreation of a specific public evaluation photo. Natural daylight, green strawberry foliage, neutral white greenhouse structures; preserve the ordinary photographic palette. No magenta or red lighting cast, no borders, no black padding, no captions/watermarks. Image 1 is the edit target. Transform the ENTIRE photograph into a moderately stylized botanical watercolor-and-colored-pencil illustration. Keep the exact scene composition, existing plant layout, object count, flower/fruit positions and greenhouse geometry recognizable. Apply visible watercolor washes, simplified painted light/shadow shapes, delicate pencil contours and painterly leaf-vein texture across plants AND background. Preserve natural green/white/yellow colors. The style change must be clear in contour and texture, not only saturation, contrast or gloss. Do not create a CGI look or replace the scene. Portrait same framing.",
+      "reference": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_01_edit_target_v1.png"
+    },
+    {
+      "id": "partial_gen_1",
+      "type": "partial_gen",
+      "source_index": 1,
+      "prompt": "Purpose: agriculture competition training-data augmentation following the disclosed operation categories. This is a new training asset, not a recreation of a specific public evaluation photo. Natural daylight, green strawberry foliage, neutral white greenhouse structures; preserve the ordinary photographic palette. No magenta or red lighting cast, no borders, no black padding, no captions/watermarks. Image 1 is the edit target. Perform ONLY a local generative replacement within the naturally irregular outline of the two ripening strawberries and their nearby hanging stems near the lower center: replace the pair with a cluster of three realistic strawberries, one ripe red and two pale green, with naturally altered calyx shapes. All other plants, background, camera view and original colors should remain unchanged as closely as possible. Local photographic inpainting, realistic fine textures and lighting; the edit should change objects and shapes, not recolor the whole photo. Use object-following organic boundaries, no square patch, no rectangular inserted region.",
+      "reference": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_01_edit_target_v1.png"
+    },
+    {
+      "id": "partial_style_1",
+      "type": "partial_style",
+      "source_index": 1,
+      "prompt": "Purpose: agriculture competition training-data augmentation following the disclosed operation categories. This is a new training asset, not a recreation of a specific public evaluation photo. Natural daylight, green strawberry foliage, neutral white greenhouse structures; preserve the ordinary photographic palette. No magenta or red lighting cast, no borders, no black padding, no captions/watermarks. Image 1 is the edit target. Change ONLY the large dark-green leaf on the lower-left side and its leaf-shaped silhouette to a clearly hand-painted botanical watercolor illustration with visible brush wash texture, simplified painted veins, and soft pencil outline. Keep that leaf's pose, approximate green color and outline, but make its local texture stylistically different from the camera photo. Everything else remains photographic and unchanged as closely as possible, including the background, flowers, berries and neighboring leaves. Follow the irregular leaf outline, no square or rectangular boundary, no global recoloring.",
+      "reference": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_01_edit_target_v1.png"
+    }
+  ],
+  "calls_planned": 10,
+  "hard_call_cap": 12,
+  "filter": "pending user reply for deterministic code",
+  "reference_role": "selectedAIhubedit target only; no publicimage sent"
+}

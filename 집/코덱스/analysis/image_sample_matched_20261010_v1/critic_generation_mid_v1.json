@@ -1,0 +1,40 @@
+{
+  "scope": "첫2service자산기록과생성PNG직접시각검토. PowerShell로own/default/reference실제SHA와길이확인. 비평가이미지제작·모델학습0.",
+  "verdict": "첫두생성자산보존및요청장면확인에치명문제없음. 합성은생성배경교체/전경재구성예시로좁혀표기하고pixelcutout동일재현이라하지않는다. 승인된filter6는별도정확연산등록후진행가능.",
+  "directly_verified": [
+    {
+      "default_SHA_match": true,
+      "reference_SHA_match": true,
+      "actual_bytes": 2977571,
+      "id": "AI_gen_0",
+      "local_SHA_match": true
+    },
+    {
+      "default_SHA_match": true,
+      "reference_SHA_match": true,
+      "actual_bytes": 2962427,
+      "id": "composite_0",
+      "local_SHA_match": true
+    }
+  ],
+  "visual_observations": [
+    "AI_gen_0에딸기잎/꽃/열매/흰재배시설/온실배경을가진독립새사진형태장면이보임. 실제장면원본복제인증아님.",
+    "composite_0은선정원본잎·꽃·포트배치를따르지만배경은야외시설로교체되고전경의빛과질감도변함. 원본plant영역pixel보존또는실제segmentationalpha합성작업은확인할수없음.",
+    "명확한전면magenta가없지만같은색분포·같은generatorartifact부재를인증한것은아님."
+  ],
+  "important_risks": [
+    "real주어진사진은실내이며이합성은야외다. 본격학습에서이recipe만fake에쓰면배경도메인shortcut가능. 이번작업QA에서그문제가해결됐다고주장하지않는다.",
+    "생성참조전경재구성은공식합성유형의구조와비슷할수있지만실원본작물분할-배경접합의정확한알고리즘/원픽셀동일재현이아니다. requestedtype과observedoperation을구분한다.",
+    "단두source같은AIF005금실/동일service및공개참고선별자료에대한좁은제작QA이다."
+  ],
+  "filter_before_execution": [
+    "실제대상해상도/original→preparedtarget/commonexport경로고정",
+    "9x9Gaussian sigma1.2의커널정규화·reflectpadding정의기록",
+    "GaussiannoiseRGBsigma8및RNG/rounding·uint8clip순서기록",
+    "SP1.2%unique좌표선택의정확정수총수와salt/pepper각수/겹침0/좌표계기록",
+    "seed20261010+sourceindex*100+operationIndex의operationID명시와고정",
+    "서비스10양성+정확filter6=16positive/real2=18변경계획등록및최종manifest동결",
+    "최종JPEG재저장때문에filtersignal/밖변경이달라질수있으므로pre와final픽셀변화분리검사"
+  ],
+  "status": "이번첫2asset만확인. 나머지서비스/필터/18파일QA완료미확인."
+}

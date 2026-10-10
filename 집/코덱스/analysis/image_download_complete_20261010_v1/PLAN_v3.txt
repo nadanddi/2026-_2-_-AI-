@@ -1,0 +1,9 @@
+다운로드완료후 수신/Validation메타감사 v1 — 2026-10-10 집코덱스
+사용자가G:다운로드완료전달. 실제모든archiveprovider완료보고와payload검사를구분. 현재목록TrainingTS271/TL271,ValidationVS35/VL35/임시·빈파일0. 전체원본payload열람/해시0. 대형원본추가캐시/평가이미지시각0.
+기존검증된 정규TAR parser(profile_all_labels_v1.tar_records)를재사용하여 ValidationVL35 총59033600byte만localboundedread(archive<4MiB,total128MiB). source전후stat/EOF/임시companion·checksum/extent/종결/JSON중복key검사. 원본불변·여유30GiB·최종own캐시기존2task+본task합10GiB상한. membershipmetadata snapshot과TrainingCSV를비교해fname/imageid/농장/filenameprefix후보공유를기록. prefix개체확정X,filename이달라도동일개체/장면일수있음. 배포Validation을독립확증으로자동채택금지.
+수신inventory각4folder전량metadata pair/missing/temp/zero/bytes를보존. 크기합은논리파일목록량이며Drive캐시점유량이나전량무결성증명X. 새농장/금실farm범위확인후기존split은미학습초안으로유지/정정새버전만. 이미지전체해제·생성·학습·제출0.
+독립비평 계획→첫VL두묶음/합치기전→최종집계검산에서실시. 실제다음영상QA/6유형제작단계는이번downloadaudit점검과구분.
+계획 보완: first고정파일 VL_1.금실1.tar/VL_2.설향1.tar. source요청은EOF포함누계128MiB/각4MiB미만,cap은provider전송량보장X. 기존venv/wheel/TEMP+3tasklocal전부매파일계산. fnameNFC/basename/casefold,global imageid와농장·품종·id복합충돌분리. farm/prefix공유는의존가능성이지exact이미지중복증명X. Validation새행은기존farm역할상속,신규farm은미할당으로두고새manifest에서만갱신. parserimport정적확인상 DATA접근은main안뿐,tar_records함수에대형IO없음.
+
+중간비평수정: audit_v2.py는first+full EOF포함요청누적cap,필수identity absent/null/blank/type_invalid와invalid행분리,유효ID/name만exact충돌집계. 첫2snapshot재사용시source再read0. 계획은v3새파일동결,VL전체구조검사와raw검사는계속구분.
+

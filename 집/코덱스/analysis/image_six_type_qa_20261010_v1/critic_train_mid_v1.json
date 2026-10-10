@@ -1,0 +1,55 @@
+{
+  "scope": "train_first/registration/강화QAverification및코드검토. PowerShell로동결코드·계획·manifest·checkpointSHA와size확인/샘플계보재산술. 가중치로드·학습·추론실행은비평가0.",
+  "verdict": "첫실batch작업계약결과에치명적수치오류증거없음. 등록v2QA근거와실행v1gate차이를기록하고resume전등록v2SHA/PASS별도preflight후나머지11steps진행가능.",
+  "directly_verified": {
+    "checkpoint_bytes": 134257747,
+    "batch_types": [
+      "real",
+      "real",
+      "fullgen",
+      "fullgen"
+    ],
+    "checkpoint_sha_match": true,
+    "code_sha_match": true,
+    "manifest_sha_match": true,
+    "plan_sha_match": true,
+    "within_200MiB": true,
+    "history_count": 1,
+    "completed_steps_recorded": 1,
+    "batch_sources": [
+      "415785",
+      "833421",
+      "415785",
+      "833421"
+    ]
+  },
+  "producer_reported_checks": {
+    "scaler_before": 65536,
+    "finite_loss_grad_and_postclip": true,
+    "classifier_gradient_nonzero": true,
+    "elapsed_seconds": 9.086814600013895,
+    "scaler_after": 65536,
+    "norm_before_clip": 6.90670108795166,
+    "AdamW_step": 1,
+    "loss": 0.7420669198036194,
+    "peak_GPU_allocated_bytes": 257331200,
+    "fc_weight_changed": true
+  },
+  "registration_issue": {
+    "registered_QA": "qa_verification_v2.json",
+    "registered_SHA": "56d63bef396797c522cb4b2248300b60eaaf8852d17572b3739dc2af689c4a28",
+    "interpretation": "파일손상증거는없음. 등록검산근거와data실행gate의참조버전불일치.",
+    "action": "원본등록파일과동결코드수정없이새audit기록으로차이를명시하고resume래퍼preflight에서등록v2SHA/PASS를검사한다.",
+    "code_gate_reads": "qa_verification_v1.json",
+    "v1_SHA": "b2d713509db5014b872024cb6bb6aa95a681b33aea3288e116750bc5c6a585b5"
+  },
+  "QA_added_recheck": "verify_qa_v2는prepad일치/JPEGfarpad0/maskspill수치/magenta비율/subsampling2를ImageChops·Python픽셀로실제검사한다. 14PASS기록확인. 비평가가pixel검사를재실행한것은아니다.",
+  "remaining_limits": [
+    "첫step은6유형전체학습검사가아니다. 14입력로드및비영검사와실batch4 gradient검사를구분한다.",
+    "firstcheckpoint의구조/RNG/optimizer내부tensor는아직비평가가로드확인하지않았다. resume코드검사및최종별도검산이필요하다.",
+    "경과9.09초와peakGPUallocated약257MB는현재첫batch계약기록이며warmup된throughput/최종학습소요/전체GPU점유/대회300초통과추정으로쓰지않는다.",
+    "loss값또는첫gradient통과로성능개선/학습효용/검증평가완료를주장하지않는다.",
+    "현재checkpoint실제134257747B이므로전달된143MB표기는정정한다."
+  ],
+  "next_gate": "resume후총12history/각stepbalanced/각type·source동일횟수/finite업데이트/CPUreload/order/batch/BN불변을최종확인"
+}

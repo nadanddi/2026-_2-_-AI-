@@ -1,0 +1,68 @@
+{
+  "scope": "map_sources_v5.py 정적 검토, mapping/reference/preflight/selection/registration JSON 독립 PowerShell 재산술. 실제 TAR payload 재해시·decode 및 이미지 시각검토는 수행하지 않음.",
+  "verdict": "고정 64개 QA 진행에 치명적 blocker 없음. 발견된 exact-byte 중복쌍의 서로 다른 라벨 치수는 학습 전 해결해야 하며 64 QA 범위 밖임.",
+  "verified": {
+    "mapped": 1000,
+    "reference": 1000,
+    "source_bytes": 1295800320,
+    "direct_ledger": 1295800320,
+    "local_ledger": 4103823679,
+    "unique_vs_sha": 999,
+    "within_duplicate_groups": 1,
+    "cross_sha_rows": 0,
+    "unique_member_keys": 1000,
+    "unique_ids": 1000,
+    "selected": 64,
+    "selected_candidate_groups": 16,
+    "rows_each_group": 4,
+    "farms_all": {
+      "AIF006": 85,
+      "AIF005": 500,
+      "AIF007": 415
+    },
+    "farms_selected": {
+      "AIF006": 8,
+      "AIF005": 20,
+      "AIF007": 36
+    },
+    "metadata_fname_stem_matches": 0,
+    "code_hash_registration_match": true,
+    "plan_hash_registration_match": true
+  },
+  "important_finding": {
+    "ids": [
+      "420572",
+      "440486"
+    ],
+    "same_payload_sha": "fcf3df5e5830d7095fc60250ebad9c1d2705ffa91e1dbe40072eba45606dca87",
+    "payload_bytes_each": 2219282,
+    "label_dimensions": [
+      [
+        1466,
+        2142
+      ],
+      [
+        1497,
+        2243
+      ]
+    ],
+    "in_frozen_64": false,
+    "interpretation": "같은 JPEG 인코딩 바이트에 서로 다른 라벨 치수가 있으므로 적어도 한 메타데이터 치수는 잘못됐다. 실제 치수와 어느 라벨이 잘못됐는지는 아직 확인하지 않았다.",
+    "required_action": "두 행을 삭제하지 말고 계보 연결과 metadata-conflict 상태로 보존하며 학습 사용을 보류한다. 별도 충돌 진단을 할 경우 고정 64 선택을 변경하지 않고 대표 payload 1개 decode를 별도 사전 등록·예산에 포함한다."
+  },
+  "fixed_from_plan_review": [
+    "각 VL500행 preflight 강제",
+    "QA 시작128MiB 여유 예약 및 각 출력쓰기 전30GiB 보존검사",
+    "local I/O 사전 계산에128MiB 출력 해시와16MiB 여유 추가"
+  ],
+  "limits": [
+    "direct ledger는 반환된 실제 바이트 수이며 EOF 요청 포함 최대요청량1295800322와 구별해야 한다.",
+    "metadata fname의 stem 일치0은 timestamp형 fname을 원본 stem 연결 키로 쓰지 못함을 보여주며 원본 누락을 의미하지 않는다.",
+    "1000행 bijection은 라벨과 파일 연결의 구조 검증이며 모든 JPEG가 정상 decode되는지 또는 라벨 치수가 맞는지 아직 확인하지 않았다.",
+    "정확 SHA 중복은 동일 인코딩 payload이며 생성/원천 provenance 또는 전체 데이터 중복률을 확정하지 않는다.",
+    "기존1000 TS와 cross0은 제한된 인코딩 바이트 비교 결과다. 재인코딩·크롭·유사 장면은 검출하지 않는다.",
+    "prefix16은 후보 문자열 그룹이며 독립 개체16 또는 독립 장면16으로 해석하지 않는다.",
+    "선택은 후보 prefix 그룹 균등·초반 시각 선호다. 농장 비율이나 품종 전체를 대표하지 않는다.",
+    "학습·예약 농장 평가·모델 성능 검토는 이번 단계에서 수행하지 않았다."
+  ]
+}

@@ -1,0 +1,41 @@
+원본-라벨 대응 및 계보 감사 — 2026-10-10 집 코덱스
+
+확인된 결과
+두 개발 원본 VS_1.금실2.tar/VS_2.설향3.tar의 JPEG1000개와 JSON1000행이 실제 member stem+image_id로 양방향 일대일 연결됐다. 메타데이터 fname stem 연결은0/1000이다. 각 TAR 구조·모든 payload SHA 검사 후 독립 stdlib tarfile 재읽기로 offset/size/SHA/라벨키를 대조했다. 신뢰도 높음, 이 두 묶음에 한정.
+농장별500(AIF005 금실),85(AIF006 설향),415(AIF007 설향). 예약 평가·공개21 이미지 접근0.
+
+중복과 메타데이터 오류
+1000 JPEG의 고유SHA는999개, 정확바이트 중복1그룹2행(420572/440486). 기존 캐시 TS1000개와의 정확SHA 교집합0. 이 비교 밖의 전체 자료 무중복이나 픽셀 동일성 부재를 뜻하지 않는다.
+동일 JPEG 대표420572의 실제치수1497x2243. 420572라벨1466x2142는 불일치,440486라벨1497x2243은 일치한다. 원본 ID 충돌 원인은 미확정이므로 두 행 모두 학습 보류.
+고정64 QA에서420566의 실제치수1478x2221 대 라벨1345x3027 불일치. 알려진 같은fname 상대440464는 이번 원본 묶음 밖이라 미확인. 두행 모두 보류 목록에 포함했다.
+quarantine_v2:4개 ID, 이번1000행 중3개 보류/1개 상대원본 미검사. 원본/라벨 삭제 및 자동수정0. 다른997행도 매핑검사 통과만 의미하며 모든품질 검사/모델 사용 승인을 뜻하지 않는다.
+
+고정64 QA와 계보
+실제 열람 전에16개(농장·후보prefix)그룹에서 각4개를 동결했다. 64사진=농장20/8/36이며 farm균형표본이 아니다. 시간초반 선택편향이 있어 전체오류율을 추정하지 않는다.
+64개 JPEG decode 완료,85190843pixel,치수불일치1. 별도 중복대표1개 진단3357771pixel. 두 집합의 오류율을 합쳐 전체품질 추정하지 않는다.
+64장의2016쌍을 비교해64bit dHash Hamming<=6 후보12쌍,모두같은후보prefix. 그중dHash0한쌍도 같은픽셀 증명은 아니다. NumPy packbits/boolean Hamming 독립계산 및 source64재decode/SHA가 원래 계산과 일치했다.
+후보prefix와 정확SHA 연결로16개 보수적 계보 연결요소를 기록했다. 독립개체/독립장면16개라는 뜻은 아니다. 기존 농장fold를 가로지르는 연결요소0. 파생 이미지·합성 donor/reference는 동일연결요소를 함께 보존해야 한다.
+
+육안 관찰 및 학습계획 반영
+개발 그룹 대표16 미리보기에서 일반 색감과 강한 분홍색 색감이 혼재한다. 전체품종·농장분포 대표성이 없고 색의 원인은 미확정이다.
+AIHub 제공 원천이라는 출처만으로 모든 사진의 무변형 원본성을 보증하지 않는다. 분홍색 자체를 양성으로 라벨링하지 않는다. real/각양성유형을 동일원본 계보에서 paired 생성해 색감·농장·해상도 편향을 줄이고, 이후 농장별/색감 조건별 오탐·미검출을 기록한다. 단순색제거를 해결책으로 확정하지 않는다.
+
+비평·수정
+계획비평: 원본 접근 전 개발farm/identity검사,읽기누계,출력쓰기한도,선정편향 명시를 요구했다. map_sources_v5에서 모두 반영했다.
+중간비평: 중복쌍의 서로다른라벨치수를 발견. 기존64선택을 바꾸지 않고 별도대표1 decode 계획 고정→실제확인→격리로 대응했다.
+최종검토 중 contact v1 추가쓰기의 aggregate/free/derived gate 누락을 확인했다. 실제 크기는 예산 내였으며 v1 보존,write_contact_v2에서 모든조건을 통과한 새 contact를 기록했다. 최종 독립비평 기록은 critic_final_v1.json 참조.
+
+자원 및 완료범위
+원본 직접읽기1295800320byte(요청상한1295800322),두VS만 새snapshot으로보존. producer의로컬읽기누계5470608328byte,별도독립 매핑검산payload1295009429byte/64QA검산payload57290958byte는 별도기록. Drive내부cache I/O 및 OS파일시스템read-ahead는 측정하지 않았다.
+작업4개 캐시(runtime wheel/tmp 포함)11280850161byte<12GiB,이번캐시1307969891byte<2GiB,QA/contact12108131byte<128MiB,검사시C여유177016279040byte>30GiB. 논리작업캐시와 Drive내부cache점유는 구분한다.
+실자료 학습/6유형 제작/성능측정/후보채택/제출0. 팀원v5/0.77은 참고자료만.
+
+이어갈 단계
+개발 원본의격리/계보 규칙을 데이터로더에 연결→source별 real+6유형 제작QA(마스크·donor·generator provenance)→B0/B1 실제학습batch→3seed farmCV. 평가farm은 열람·수정 없이 보류한다. 금실 한농장 문제와독립평가 담당/그룹수제약은 그대로다.
+
+근거
+mapping_v1.json / verification_v1.json / exact_duplicates_v1.json
+selection_v1.json / qa_v1.json / qa_verification_v1.json
+collision_diagnostic_v1.json / quarantine_v2.json / mapping_quality_v1.json
+source_lineage_v1.json / storage_verification_v1.json
+critic_plan_v2.json / critic_mid_v1.json / critic_final_v1.json

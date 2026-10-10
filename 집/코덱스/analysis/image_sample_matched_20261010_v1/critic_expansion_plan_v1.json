@@ -1,0 +1,40 @@
+{
+  "scope": "EXPANSION_PLAN_v1.txt/select_sources_v2.py 정적비평. source100준비/필터코드는아직확인하지않았고실제선정·300필터제작·학습실행0.",
+  "verdict": "원본2개품질시험을전체선별로혼동하지않고상위최대100원본으로선별폭을넓히는방향은타당. 다음원본준비·제작전에새100개exactpixel대조/선정규칙검산/I/O합산·출력가드를추가해야함.",
+  "good_changes": [
+    "1000×21전체score보존및적격전체순위확인",
+    "SHA중복제거/prefix-day최대4/시간30분/prefix총20제약",
+    "100은휴리스틱상한이고조건미달시무리한채우기금지",
+    "초도2source서비스10개와source100전체6유형제작미완료구별",
+    "허용된Gaussianblur/noise/SP정확연산·파라미터/RNG/공통JPEG처리등록",
+    "task1GiB확대를실행전새계획으로고정"
+  ],
+  "required_actions": [
+    {
+      "issue": "기존exactpixel검사는2개만",
+      "action": "새선정최대100의originaldecodedRGB+치수SHA를public21과대조한다. 충돌시prefix/component보류전파및동일규칙대체선정또는미달보고. 기존2개pixel0결과를100에전용하지않는다."
+    },
+    {
+      "issue": "독립선정규칙재산술필요",
+      "action": "유사도동률규칙/imageID형식정렬·촬영date시간파싱/타임존·모든같은prefix-day선정쌍30분·day4·prefix20·uniqueSHA/selectedcode·manifestSHA검사를독립방법으로한다.기각사유와순서를보존한다."
+    },
+    {
+      "issue": "513적격과유사성합격혼동",
+      "action": "513은자연색/격리/치수조건통과수이며유사성합격임계는없다고명시한다. 조건통과후유사도순위와최대100선정을구별하고source100contact육안검토후적합성을제한적으로보고한다."
+    },
+    {
+      "issue": "누적payload4GiB범위",
+      "action": "select_v1/v2·선정원본재읽기·독립검산payload를실제ledger합산한다.4GiB범위가producer만이면별도검산읽기를분리명시한다.후속원본PNG/filter/contact/preexport에new1GiB/global16GiB/free30GiB쓰기전공통가드를적용한다."
+    }
+  ],
+  "important_limits": [
+    "prefix-day시간간격은근접연속샷억제휴리스틱이며실제plant/scene독립을인증하지않는다.",
+    "100개를늘려도같은farm/cultivar와공개3장의선정편향은남을수있다. source별farm/cultivar/prefix/date/nearest-public/score범위를집계해확대의실제다양성을보고한다.",
+    "filter300은Gaussian3operation을넓힌제작자료이고전체6유형600양성완료가아니다. 나중학습에넣기전유형recipe비율·family split을등록한다.",
+    "Gaussiansigma1.2/Noise8/SP1.2%는공식샘플에기록된실제강도복원이아니라같은연산종류로정한새제작조건이다.",
+    "select_v2의output256MiBguard는새1GiB계획보다보수적이라우회는없으나후속준비/필터가드는1GiB를정확적용해야한다.",
+    "실filter제작전에그날code/configSHA/RNGoperationID/반올림/reflect정의/uniqueSP수와좌표를동결한다.",
+    "정확한수학필터300이있어도자연blur/noise와구별하는실제배포성능이나모델효용을입증한것은아니다."
+  ],
+  "next_review": "원본100선정/준비실결과및필터계획코드중간검토후제작실행·독립pixel수검산·최종비평"
+}

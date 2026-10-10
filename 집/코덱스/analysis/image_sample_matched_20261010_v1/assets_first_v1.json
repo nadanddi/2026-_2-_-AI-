@@ -1,0 +1,44 @@
+[
+  {
+    "id": "AI_gen_0",
+    "type": "AI_gen",
+    "source_index": 0,
+    "reference": null,
+    "generated_path": "C:\\Users\\aozks\\.codex\\generated_images\\01a1210d-cb50-7581-9f2a-2e04f7170554\\exec-87639505-4525-4820-a2d5-b61f7336ab5f.png",
+    "success": true,
+    "service": "built-in imagegen",
+    "seed": "unknown",
+    "model_version": "unknown",
+    "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\AI_gen_0_asset_v1.png",
+    "sha256": "9bb8dd1754fed0bca3d5e458b6be3525d04e2ed7767586ff7280f49fbfa3fc21",
+    "bytes": 2977571,
+    "size": [
+      1086,
+      1448
+    ],
+    "reference_sha256": null,
+    "visual_parent": "none; text-only generation",
+    "composite_scope": null
+  },
+  {
+    "id": "composite_0",
+    "type": "composite",
+    "source_index": 0,
+    "reference": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\source_00_edit_target_v1.png",
+    "generated_path": "C:\\Users\\aozks\\.codex\\generated_images\\01a1210d-cb50-7581-9f2a-2e04f7170554\\exec-7f5de460-86c6-417a-88a7-737ef5181ff2.png",
+    "success": true,
+    "service": "built-in imagegen",
+    "seed": "unknown",
+    "model_version": "unknown",
+    "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_sample_matched_20261010_v1\\composite_0_asset_v1.png",
+    "sha256": "658e0f272d4c988b42f36fb388b61471282aa035e80784afb9845f59d00ec462",
+    "bytes": 2962427,
+    "size": [
+      1008,
+      1560
+    ],
+    "reference_sha256": "8a55cea9db77e1e260947c161ea4e6da5ff6c17ed167d30cc7771148d699e206",
+    "visual_parent": "selected AIhub photo",
+    "composite_scope": "requested foreground preservation/background swap; segmentation alpha not exposed"
+  }
+]

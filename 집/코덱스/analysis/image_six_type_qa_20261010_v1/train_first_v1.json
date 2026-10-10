@@ -1,0 +1,51 @@
+{
+  "stage": "first",
+  "completed_steps": 1,
+  "checkpoint": "C:\\work\\farmai\\집\\코덱스\\local\\image_six_type_qa_20261010_v1\\train_contract_first_v1.pt",
+  "checkpoint_sha256": "e87c4bfb53e0c78ee0f16fd4b4b199f910458724bf35fc08e7fc2dd071c30736",
+  "state_sha256": "d37ec98117d8ca34e504df5f62b06645f68cf37f8e98567b1ed0ca99a42028dc",
+  "history": [
+    {
+      "step": 1,
+      "sample_ids": [
+        "qa_00_00",
+        "qa_01_00",
+        "qa_00_01",
+        "qa_01_01"
+      ],
+      "labels": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "loss": 0.7420669198036194,
+      "gradient_norm_before_clip": 6.90670108795166,
+      "all_gradients_finite": true,
+      "post_clip_gradients_finite": true,
+      "nonzero_classifier_gradient": true,
+      "fc_weight_changed": true,
+      "optimizer_steps": [
+        1
+      ],
+      "scale_before": 65536.0,
+      "scale_after": 65536.0
+    }
+  ],
+  "peak_GPU_allocated_bytes": 257331200,
+  "elapsed_seconds": 9.086814600013895,
+  "unique_input_files": 14,
+  "source_photos": 2,
+  "training_sampling": "2real+2positive perstep; six types cyclic/source paired",
+  "scope": "train-only pipeline contract, not validation or competition score",
+  "real_target_status": "camera-source provenance assumption; individual edit history unverified",
+  "reproducibility_scope": "fixed assets/code/config/RNG checkpoint and CPU inference contract; GPU training bitwise reproducibility not proven",
+  "runtime": {
+    "torch": "2.7.1+cu126",
+    "torchvision": "0.22.1+cu126",
+    "CUDA": "12.6",
+    "cudnn": 90701,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": false
+  }
+}

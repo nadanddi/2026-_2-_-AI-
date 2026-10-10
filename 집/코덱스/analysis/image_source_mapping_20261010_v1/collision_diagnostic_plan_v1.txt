@@ -1,0 +1,5 @@
+중간 비평 확인 후 실행 전 고정: 완전히 동일 JPEG 바이트인 image_id420572/440486 두 행 모두 metadata-conflict로 학습 보류.
+고정64장 QA 선택은 변경하지 않는다. 별도 대표420572 원본payload 1회만 읽고 decode하며 치수와 두 라벨의 일치 여부를 확인한다.
+추가원본Drive읽기0, 기존VS로컬 snapshot만 사용. payload32MiB/25MP/추가전체25MP 한도, JPEG SHA 재확인, load전픽셀한도. producer local read10GiB cap 유지.
+이 진단은 누가 잘못된 사진/라벨인지 원인을 확정하지 않는다. 실제 치수와 맞는 라벨도 source ID 중복 문제 해결 전 채택하지 않는다.
+중복 행 보존, 동일계보 유지. 모델학습/평가0.

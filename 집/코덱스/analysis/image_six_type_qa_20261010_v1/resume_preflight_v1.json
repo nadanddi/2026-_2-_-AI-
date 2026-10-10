@@ -1,0 +1,17 @@
+{
+  "registered_validation_file": "qa_verification_v2.json",
+  "registered_validation_sha_match": true,
+  "validation_PASS": true,
+  "trainer_v1_also_reads": "qa_verification_v1.json",
+  "all_pinned_files_verified": [
+    "run_finish_v2.py",
+    "train_contract_v3.py",
+    "training_registration_v1.json",
+    "qa_manifest_v1.json",
+    "qa_verification_v1.json",
+    "qa_verification_v2.json",
+    "train_first_v1.json"
+  ],
+  "first_checkpoint_sha_match": true,
+  "scope": "explicit enforcement of registered stronger QA2 before resume; original first fit used weaker QA1 gate"
+}

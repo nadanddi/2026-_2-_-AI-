@@ -1,0 +1,50 @@
+{
+  "scope": "train_finish/cpu_contract/resume_preflight/train_verification/강화QA2와관련코드검토. 비평가는PowerShell로history·sampling·CPU보고값재산술및최종checkpoint파일SHA/크기를직접확인했다. 비평가자신의torchweightload·학습·추론재실행은0.",
+  "verdict": "원본2장/QA14파일에대한총12step학습·resume·CPU입출력작동계약이보고근거와일치하며최종보고blocker없음. 검증성능/일반화/데이터누수해결/모델채택의증거는아니다.",
+  "directly_recomputed": {
+    "probability_count": 14,
+    "CPU_report_max_difference": 1.1920928955078125E-07,
+    "each_positive_file_draws": 2,
+    "each_positive_type_draws": 4,
+    "balanced_steps": 12,
+    "final_checkpoint_bytes": 134259987,
+    "CPU_report_tolerance": 1E-05,
+    "probability_max": 0.9998699426651001,
+    "history_steps": "1..12연속",
+    "probability_min": 0.0052147479727864265,
+    "total_draws": 48,
+    "final_checkpoint_SHA_match": true,
+    "each_real_file_draws": 12,
+    "real_draws": 24,
+    "finite_nonzero_update_reports": 12
+  },
+  "actual_execution_evidence": [
+    "train_first1step와finish추가11stepsreceipt존재/history연속/optimizerstep1..12보고",
+    "resume_preflight실제등록QA2SHA/PASS및7동결파일검사기록",
+    "CPU계약원모델↔재로드/배치1·3·7/역순/빈입력/parameter+BNbuffer불변PASS기록",
+    "별도verify_train실제checkpoint두개CPU로드/stateSHA/history/optimizersteps/입력SHA/배치2·역순5검산PASS파일"
+  ],
+  "reported_independent_runtime_checks": {
+    "five_task_cache_bytes": 11572412802,
+    "CPU_state_unchanged": true,
+    "C_free_bytes": 176561598464,
+    "this_task_cache_bytes": 291562641,
+    "fresh_reverse_batch5_difference": 1.1920928955078125E-07,
+    "all_checks_pass": true,
+    "fresh_CPU_batch2_vs_saved_difference": 0.0,
+    "final_checkpoint_bytes": 134259987,
+    "first_checkpoint_bytes": 134257747
+  },
+  "QA_followup": "verify_qa_v2코드/결과에서14행prepad/JPEGfarpad/spill/magenta/subsampling추가독립검산PASS확인. samePillowdecode를공유하며유형대표성·source무변형을인증하지않는다.",
+  "process_issue_resolution": "첫fit은QA1gate,등록hash는QA2였다. 원기록은보존하고새wrapper가resume전QA2hash/PASS를강제한실제preflight를확인했다. 과거첫fit이이미등록QA2gate를강제했다고재서술하면안된다.",
+  "material_limits": [
+    "48draws는14고정파일반복이며14파일은독립새사진14장이아니다. 원본2장에파생·생성recipe를묶은작동QA다.",
+    "12steptrainingloss감소와in-sample확률은암기/경계/제작recipeshortcut가능성을배제하지못한다. 이단계정확도개선이나학습효용을보고하지않는다.",
+    "real라벨은카메라dataset출처가정이며개별sourceedit이력미확인이다.",
+    "단일generator/고정중앙mask/좁은스타일·색감/단두farm조건을일반화로확대하지않는다.",
+    "seed/RNG/코드/asset/CPUreplay확인은GPU비트단위독립재학습재현성증거가아니다.",
+    "CPU입출력확인은14파일의같은입력에서batch/order/state불변검사다. 전체평가셋300초규정충족·대규모추론시간·heldout성능은미측정이다.",
+    "GPUpeakallocated및첫/재개elapsed는각계약실행범위이며전체GPU점유·학습throughput·epoch시간으로쓰지않는다."
+  ],
+  "next_priority": "본격성능실험전새sourcefamily/농장분할/중복연결/유형·generator·mask다양화및잠금평가계약을별도사전등록한다. 현재checkpoint는작동시험산출물이며채택모델아님."
+}

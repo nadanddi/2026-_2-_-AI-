@@ -1,0 +1,7 @@
+사용자 2장 한정 지적 반영. 2원본은 첫서비스품질확인에만 쓰고 전체선별자료로취급하지않는다.
+기존 VS 캐시1000 전부21공개유사score 보존,자연색/격리/치수criteria 유지. 전체적격513과최종유사선정구분. 모든적격의순위를기록해하위까지그림으로확인가능하게한다. 2번최상위각1장 제한폐기.
+1차제작원본100: eligible전체의nearest-real score오름차순,동일SHA제거/공개근접의심prefix-component보류,동일prefix-촬영일에서최대4장(시간간격최소30분),prefix총20장이하,유사도순. 제약때100미달이면현재조건통과전체를보고하며무리한수채우기금지. 실제식물/장면독립인증X. 기준은선별휴리스틱,score값은유사도퍼센트X.
+비슷한후보전체513순위목록과제작선정100을모두보존. 100장공개실제3중nearest기준과육안장면검토를기록. 자연색조건탈락484이므로캐시상설향편중제거의한계(전체350GB설향무가치주장X),금실도같은농장연속샷가능성을보고.
+추가원본100 rawJPEG+editPNG 및filter300파생을위해새task예산1GiB로확대(기존256MiB계획보존),기존6task포함global16GiB/Cfree30GiB 유지. 새TAR다운로드0/기존payload읽기<4GiB(2회전체재계산+원본선정재읽기). 최대원본32Mi-pixel,생성asset16Mi-pixel/32MiB상한.
+필터Python허용명시받음. 각원본preparedtarget(longside768)에서 blur discreteGaussian sigma1.2 radiusceil3sigma=4/9tap/정규화/reflect패딩,RGBGaussian noise sigma8.0 float64→rint→clip0..255→uint8,SPunique좌표 총round(.012*HW)·saltfloor(n/2)·pepper나머지/모든channel같은극성. seed20261010+sourceIndex*100+operationID(blur0/noise1/SP2). real과모든filter동일JPEG90/subsampling2 출력. 원본무편집provenance가정/자연blur와구분. exact연산/파라미터는공개값복원이아니라같은종류새제작조건.
+나머지5유형imagegen서비스는첫소량의작업품질확인후확대. 아직2원본10서비스예정이전체100원본600양성완료가아님을명시한다. 서비스call상한12는초도묶음만/수학필터300과별도. 추가생성작업수와자원은초도QA후새등록,출처/유형마스크/전체계보고정. 전체검색/학습/모델점수/채택/제출완료주장금지.

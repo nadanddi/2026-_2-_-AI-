@@ -1,0 +1,78 @@
+{
+  "rows": 14,
+  "checks": [
+    {
+      "sample_id": "qa_00_00",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_00_01",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_00_02",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_00_03",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_00_04",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_00_05",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_00_06",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_01_00",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_01_01",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_01_02",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_01_03",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_01_04",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_01_05",
+      "sha_shape_quantization_change_mask_checks": true
+    },
+    {
+      "sample_id": "qa_01_06",
+      "sha_shape_quantization_change_mask_checks": true
+    }
+  ],
+  "all_checks_pass": true,
+  "type_counts": {
+    "real": 2,
+    "fullgen": 2,
+    "composite": 2,
+    "filter": 2,
+    "fullstyle": 2,
+    "partialgen": 2,
+    "partialstyle": 2
+  },
+  "label_counts": {
+    "0": 2,
+    "1": 12
+  },
+  "independent_method": "PIL ImageChops and Python tuple pixel counting versus NumPy assembly; fresh file SHA",
+  "source_count": 2,
+  "scope": "production/file QA only; real no-edit assumption and type representativeness not authenticated"
+}

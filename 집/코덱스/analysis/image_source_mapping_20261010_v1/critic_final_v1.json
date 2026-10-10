@@ -1,0 +1,73 @@
+{
+  "scope": "코드/결과 JSON 및 격리목록 검토. PowerShell로 pixel sum, 치수불일치, 2016개 dHash pair, 선택 일치 및 cache 용량을 독립 재계산. 실제 TAR 재읽기·JPEG decode·contact 시각검토는 비평가가 수행하지 않았다. 별도 verify_qa_v1.py의 실행 결과 및 방법은 기록/코드로 확인했다.",
+  "verdict": "매핑과 제한된 QA의 보고는 근거와 일치. 최종 보고 가능하나 데이터 전량 품질/독립 개체/학습 유효성 및 점수 개선 주장은 불가. 알려진4개 ID 격리는 유지해야 함.",
+  "independently_recomputed": {
+    "selected_rows": 64,
+    "groups": 16,
+    "pixels": 85190843,
+    "dimension_mismatch_ids": [
+      "420566"
+    ],
+    "dhash_pairs_examined": 2016,
+    "near_hamming_le6": 12,
+    "all_near_same_candidate_prefix": true,
+    "zero_dhash_pairs": 1,
+    "fixed_selection_identity_order_match": true,
+    "all_four_local_cache_bytes": 11280533140,
+    "new_cache_bytes": 1307652870,
+    "free_C_bytes_observed": 177016606720,
+    "within_new_2GiB": true,
+    "within_all_12GiB": true,
+    "above_free_30GiB": true
+  },
+  "reviewed_fresh_verification": {
+    "file": "qa_verification_v1.json",
+    "producer_reported_pass": true,
+    "reported_source_payload_bytes": 57290958,
+    "method": "기존 bit-shift/popcount 대비 NumPy packbits/boolean Hamming 및 원본64개 새decode/파생SHA 재확인",
+    "limitation": "비평가가 코드를 직접 재실행한 것이 아니며 같은 Pillow preprocessing을 공유한다. 생성 모델 또는 성능 검증이 아니다."
+  },
+  "diagnostic": {
+    "extra_representative": "420572",
+    "actual_dimensions": [
+      1497,
+      2243
+    ],
+    "label_420572_match": false,
+    "label_440486_match": true,
+    "cause": "미해결",
+    "quarantined_ids": [
+      "420566",
+      "420572",
+      "440464",
+      "440486"
+    ],
+    "mapped_quarantined_rows": 3,
+    "unchecked_counterpart": "440464",
+    "policy": "삭제·치수 자동수정 없이 원천행 보존 및 학습 보류"
+  },
+  "important_limits": [
+    "64개 QA의 불일치1개와 별도 중복쌍 대표1개 진단을 섞어 전체152043개 라벨 오류율을 추정하지 않는다.",
+    "중복쌍에 치수맞는 라벨이 하나 있어도 해당 ID의 사진 연결이 옳거나 provenance 문제가 해결된 것은 아니다.",
+    "같은 후보prefix 내 dHash12쌍과 distance0 한쌍도 픽셀 동일성/동일 개체의 증거로 확대하지 않는다.",
+    "16개 계보 연결요소는 미확인 prefix 및 exact SHA 연결로 만든 보수적 후보이며 독립 장면16개가 아니다.",
+    "두VS1000/기존TS1000 교차 SHA0은 전체데이터 무중복 및 재인코딩·크롭 근접중복 부재를 의미하지 않는다.",
+    "비평가의 색감 직접 관찰은0이다. 주 에이전트가 contact에서 분홍색/일반색 혼재를 관찰했다는 범위로 쓰고 조명 원인·품종 전체 대표성은 단정하지 않는다."
+  ],
+  "followup_requirements": [
+    {
+      "priority": "학습 전",
+      "action": "색감/농장별 real과 6개 제작유형을 동일 원본 계보에서 짝지어 배포하고 farm holdout 별 FP 및 유형별 미검출을 기록한다. 색보정만으로 shortcut 해결을 선언하지 않는다."
+    },
+    {
+      "priority": "구현 보완",
+      "action": "qa_runner의 contact 생성에도 공통 합계12GiB/128MiB/30GiB write guard를 적용한다.",
+      "reason": "contact 쓰기에서는 신규2GiB만 검사했다. 이번 실제크기 감사는 모든예산충족이지만 경계상황 코드보장은 불완전하다."
+    },
+    {
+      "priority": "보고 보완",
+      "action": "producer io_ledger와 별도 검산의 원본·파생 읽기량을 구분한다.",
+      "reason": "검산코드는tracked_read를 사용하지 않는다. producer ledger를 모든 작업의 총 I/O라고 표현할 수 없다."
+    }
+  ]
+}

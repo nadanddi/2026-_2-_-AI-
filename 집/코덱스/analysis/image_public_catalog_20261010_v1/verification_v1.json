@@ -1,0 +1,27 @@
+{
+  "all_checks_pass": true,
+  "fresh_sources": 21,
+  "PDF_pages": 3,
+  "independent_SQL_type_counts": {
+    "AI_gen": 3,
+    "composite": 3,
+    "filter": 3,
+    "full_style": 3,
+    "partial_gen": 3,
+    "partial_style": 3,
+    "real": 3
+  },
+  "independent_SQL_label_counts": {
+    "0": 3,
+    "1": 18
+  },
+  "independent_SQL_dimensions": {
+    "768x1024": 17,
+    "1024x768": 4
+  },
+  "CSV_JSON_HTML_TXT_order_and_content_match": true,
+  "embedded21_original_JPEG_bytes_match": true,
+  "seven_boards_SHA_match": true,
+  "runtime_browser_interaction": "not tested: local file protocol blocked by browser URL policy; no workaround attempted",
+  "scope": "catalog content/hash/structure verification; not model-performance or edited-region detection"
+}

@@ -1,0 +1,22 @@
+{
+  "cross_fold_component_conflicts": {},
+  "checks": [
+    {
+      "archive": "VS_1.금실2.tar",
+      "rows": 500,
+      "all_offsets_sizes_hashes_label_keys_match": true
+    },
+    {
+      "archive": "VS_2.설향3.tar",
+      "rows": 500,
+      "all_offsets_sizes_hashes_label_keys_match": true
+    }
+  ],
+  "independent_method": "stdlib tarfile against CSV labels, offsets/size and payload SHA freshly reread",
+  "payload_read_bytes": 1295009429,
+  "mapped_rows": 1000,
+  "exact_duplicate_groups": 1,
+  "exact_duplicate_rows": 2,
+  "source_components": 16,
+  "scope": "1000 VS and cached1000 TS exact-hash comparison; no full-data or pixel-equivalence guarantee"
+}

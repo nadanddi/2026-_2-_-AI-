@@ -1,0 +1,72 @@
+{
+  "checks": {
+    "csv_rows": true,
+    "sql_rows": true,
+    "farm_cultivar_sql": true,
+    "archive_json_row_sum": true,
+    "fname_overlap_sql": true,
+    "id_overlap_sql": true,
+    "composite_id_overlap_sql": true,
+    "prefix_group_overlap_sql": true,
+    "valid_identity_all": true
+  },
+  "validation_rows": 16854,
+  "training_rows": 135189,
+  "total_label_rows": 152043,
+  "label_archives": 306,
+  "farm_cultivar_sql": [
+    {
+      "farm": "AIF004",
+      "cultivar": "설향",
+      "rows": 2295
+    },
+    {
+      "farm": "AIF005",
+      "cultivar": "금실",
+      "rows": 3025
+    },
+    {
+      "farm": "AIF005",
+      "cultivar": "설향",
+      "rows": 148
+    },
+    {
+      "farm": "AIF006",
+      "cultivar": "설향",
+      "rows": 1085
+    },
+    {
+      "farm": "AIF007",
+      "cultivar": "설향",
+      "rows": 638
+    },
+    {
+      "farm": "AIF010",
+      "cultivar": "설향",
+      "rows": 2940
+    },
+    {
+      "farm": "AIF012",
+      "cultivar": "설향",
+      "rows": 2094
+    },
+    {
+      "farm": "AIF013",
+      "cultivar": "설향",
+      "rows": 1752
+    },
+    {
+      "farm": "AIF014",
+      "cultivar": "설향",
+      "rows": 1606
+    },
+    {
+      "farm": "AIF015",
+      "cultivar": "설향",
+      "rows": 1271
+    }
+  ],
+  "within_val_fname_excess": 5,
+  "label_structure_errors": 0,
+  "scope": "metadata cross-check only, image bytes not compared"
+}

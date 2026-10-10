@@ -1,0 +1,15 @@
+원본 매핑 감사 — 실행 전 고정
+VS_1.금실2.tar 및 VS_2.설향3.tar만 읽는다. 개발 농장 AIF005/006/007.
+신규 캐시2GiB, 네 image 작업 캐시/runtime 합계12GiB, C 여유30GiB 유지.
+두 TAR의 안정된 스냅샷을 복사하며 전체 SHA256을 기록한다. 임시 파일 동반/크기·mtime 변경이면 중단.
+엄격 TAR header checksum/type/path/extent/end 검사 후 모든 JPEG member SHA256 계산.
+JSON member stem과 실제 이미지 stem을 일대일 대조. basename 및 ID의 중복·누락·초과·불일치를 거부.
+메타데이터 fname 기반 연결 성공 수는 따로 기록하며 그 키를 자동 채택하지 않는다.
+전체1000개에서 후보prefix 그룹을 라운드로빈하여 결정적64개를 선택한다. 예약평가/공개샘플 열람 금지.
+decode는 JPEG당32MiB/25MP 한도, 치수/EXIF 방향 기록. 학습 전처리는 아직 확정하지 않음.
+선택64개 grayscale dHash의 Hamming<=6 후보를 기록한다. 근접중복 확정으로 해석하지 않는다.
+기존 로컬 TS_1.금실12/TS_2.설향10의1000 JPEG와 정확 SHA 대조. 비교된2000개 범위 밖 무중복 주장 금지.
+fname 충돌 행은 픽셀 SHA/치수 비교하되 삭제하지 않는다. 일대일 실제 연결 확인 뒤 별도 처리 판정.
+생성/학습/제출0. 순서: 계획 비평→소스복사/매핑→중간 비평→QA/교차검산→최종 비평.
+
+계획비평 반영: directory size0강제, 원본 직접요청1295800322B 고정/상한2GiB. 로컬검산 I/O 상한10GiB(전체snapshot indexing/hash와TS검산, QA선택payload 포함; 원본직접읽기 별도).64장 총512MP·개별25MP를 load전에 검사. mapping 단계에 selection_v1.json을 동결, QA에서 재선정 일치 확인. 모든작업캐시 및 runtime wheel/tmp 포함12GiB, QA추가128MiB예산. 임계근접dHash 64bit/Hamming<=6, EXIF transpose/RGB/Lanczos9x8 고정. 아직학습용자료허가gate 아님.

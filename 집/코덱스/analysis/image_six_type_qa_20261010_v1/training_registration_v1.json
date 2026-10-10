@@ -1,0 +1,21 @@
+{
+  "seed": 20261010,
+  "steps": 12,
+  "batch4": {
+    "real": 2,
+    "positive": 2
+  },
+  "optimizer": "AdamW",
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "clip": 1,
+  "classifier": "ImageNet ResNet18 stem/new1logit",
+  "input": 384,
+  "manifest_sha256": "38ea768364fcf59da037e8257acc41b3f3ae003885404447e2e900df9bd061e7",
+  "code_sha256": "8a7aa2e5a7a82c157c8655712b68e16acdb322ccb8309d79e1d07e25e268edb9",
+  "plan_sha256": "7bbb7c56d679cd4abf7666c3cb647a10eadf35c0ac00bc0ee958a5efa442072d",
+  "qa_verification_sha256": "56d63bef396797c522cb4b2248300b60eaaf8852d17572b3739dc2af689c4a28",
+  "pretrained_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "performance_evaluation": false,
+  "CPU_tolerance": 1e-05
+}

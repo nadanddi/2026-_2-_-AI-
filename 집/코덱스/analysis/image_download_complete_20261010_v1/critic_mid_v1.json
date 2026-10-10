@@ -1,0 +1,39 @@
+{
+  "stage": "First2VL midpoint",
+  "verdict": "No fatal blocker to35VL bounded audit; fix cumulative budget and invalid-key handling before merge",
+  "independent_verification": "critic_first_verification_v1.json uses separate standard tarfile/json parser on cached files",
+  "verified": {
+    "AIF005_Geumsil": 500,
+    "fresh_JSON": 1000,
+    "archive_SHA": 2,
+    "local_bytes": 3215360,
+    "per_archive": 500,
+    "AIF006_Seolhyang": 500,
+    "direct_requested_upper": 3215362
+  },
+  "important": [
+    {
+      "issue": "requests resets to0 forfull stage, so declared first+full cumulative cap is not enforced",
+      "fix": "Initialize cumulative ledger from prior first requested upper, track retries andEOF probes; keep local cache reads separately. Existing first2 cache reuse avoids actual source reread.",
+      "id": "V1"
+    },
+    {
+      "issue": "im.get accepts null/blank/missing keys; str(None) and normal_name(None) become pseudo duplicate IDs/names",
+      "fix": "Report field validity/missing/null/blank and archive/member issues; only valid keys enter exact-collision sets. Invalid role metadata remains unassigned/deferred.",
+      "id": "V2"
+    },
+    {
+      "issue": "PLAN_v1 was appended after creation contrary to new-version preservation rule",
+      "fix": "Keep existing content, log append timestamps and relation to execution, freeze newPLAN_v2; do not retroactively claim the entire altered plan was preregistered.",
+      "id": "V3"
+    }
+  ],
+  "appropriate": [
+    "Cache summation includes3 local task directories",
+    "Source stat/cacheSHA rechecked before cached reuse",
+    "global IDs and farm-cultivar-ID collisions reported separately",
+    "Farm roles inherited rather than treating suppliedValidation as independent holdout",
+    "Metadata-only scope and0 image visualization explicit"
+  ],
+  "limits": "Current59033600-byte inventory plus EOF probes is well below128MiB but does not replace cumulative ledger. Structural validity of VL labels is not all raw image integrity or independent scene proof."
+}
