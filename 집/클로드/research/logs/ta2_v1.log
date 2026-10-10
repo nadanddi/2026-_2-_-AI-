@@ -1,0 +1,8 @@
+anchors (gated): 40
+bias c (pass-1, n 25) = +0.360
+chosen w = 1.0 (pass-1 DIAG10)
+  DIAG10 pass-2 cells -0.49% -0.53% -0.44% -0.52% | anchored pass-2 records 15, improved 8 | record bootstrap P(worse) 0.0955, sign-test p 0.500 -> FAIL
+  G      pass-2 cells -0.70% -0.57% -0.62% -0.57% | anchored pass-2 records 15, improved 9
+  EL1    pass-2 cells -0.44% -0.45% -0.45% -0.45% | anchored pass-2 records 15, improved 8
+  EXT10  pass-2 cells -1.47% -1.35% -1.40% -1.25% | anchored pass-2 records 1, improved 1
+  EXT12  pass-2 cells -1.86% -1.80% -1.90% -1.85% | anchored pass-2 records 5, improved 4
