@@ -1,0 +1,42 @@
+F/0 done (GRU alone 1.096)
+F/1 done (GRU alone 0.738)
+F/2 done (GRU alone 0.667)
+F/3 done (GRU alone 0.837)
+F/4 done (GRU alone 0.718)
+F/5 done (GRU alone 0.962)
+F/6 done (GRU alone 0.614)
+F/7 done (GRU alone 0.768)
+F/8 done (GRU alone 0.772)
+F/9 done (GRU alone 0.693)
+G/0 done (GRU alone 0.677)
+G/1 done (GRU alone 0.788)
+G/2 done (GRU alone 0.666)
+G/3 done (GRU alone 1.089)
+G/4 done (GRU alone 0.733)
+G/5 done (GRU alone 0.754)
+G/6 done (GRU alone 0.893)
+G/7 done (GRU alone 0.630)
+G/8 done (GRU alone 0.842)
+G/9 done (GRU alone 0.891)
+H/0 done (GRU alone 0.744)
+H/1 done (GRU alone 0.827)
+H/2 done (GRU alone 0.764)
+H/3 done (GRU alone 0.687)
+H/4 done (GRU alone 0.694)
+H/5 done (GRU alone 1.084)
+H/6 done (GRU alone 0.866)
+H/7 done (GRU alone 0.889)
+H/8 done (GRU alone 0.699)
+H/9 done (GRU alone 0.828)
+
+==== GRU-WARM w=0.1
+  layout F all rows -0.72% [-0.75, -0.70] | pass-2 -1.98% | F13 -1.04% F47 -0.48% | GRU alone 0.759
+  layout G all rows -0.71% [-0.76, -0.65] | pass-2 -1.74% | F13 -1.19% F47 -0.47% | GRU alone 0.773
+  layout H all rows -0.71% [-0.73, -0.69] | pass-2 -1.59% | F13 -1.09% F47 -0.41% | GRU alone 0.783
+  pooled P(worse) 0.0025 -> PASS
+
+==== GRU-WARM w=0.2
+  layout F all rows -0.80% [-0.85, -0.74] | pass-2 -3.47% | F13 -1.32% F47 -0.39% | GRU alone 0.759
+  layout G all rows -0.76% [-0.87, -0.65] | pass-2 -2.83% | F13 -1.56% F47 -0.39% | GRU alone 0.773
+  layout H all rows -0.76% [-0.80, -0.71] | pass-2 -2.55% | F13 -1.33% F47 -0.29% | GRU alone 0.783
+  pooled P(worse) 0.0647 -> FAIL
