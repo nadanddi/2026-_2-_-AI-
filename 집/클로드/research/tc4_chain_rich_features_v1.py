@@ -67,8 +67,8 @@ def main():
         for bi, b in enumerate(bs):
             for fam in "AB":
                 p0 = B.w40(M, b, cx, fam)
-                T.FEAT = base_feat; c7 = C2.corrected(M, p0, D, bi, fam, 7)
-                T.FEAT = base_feat + ADD; cr = C2.corrected(M, p0, D, bi, fam, 7); T.FEAT = base_feat
+                C2.T.FEAT = base_feat; c7 = C2.corrected(M, p0, D, bi, fam, 7)
+                C2.T.FEAT = base_feat + ADD; cr = C2.corrected(M, p0, D, bi, fam, 7); C2.T.FEAT = base_feat
                 cells.append(rm(cr - y) / rm(c7 - y) - 1)
                 if bi == 0 and fam == "A" and L not in ("EL1", "EXT10", "EXT12"):
                     key = (M.farm + "_" + (M.day // 5).astype(str)).values
