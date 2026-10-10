@@ -1,0 +1,61 @@
+F/0 done | alone V1 1.087 V2 1.410 V3 1.069
+F/1 done | alone V1 0.723 V2 1.017 V3 0.702
+F/2 done | alone V1 0.665 V2 1.057 V3 0.691
+F/3 done | alone V1 0.836 V2 1.167 V3 0.807
+F/4 done | alone V1 0.725 V2 1.270 V3 0.691
+F/5 done | alone V1 0.960 V2 1.312 V3 0.903
+F/6 done | alone V1 0.614 V2 1.051 V3 0.629
+F/7 done | alone V1 0.766 V2 1.254 V3 0.703
+F/8 done | alone V1 0.771 V2 1.154 V3 0.832
+F/9 done | alone V1 0.694 V2 1.031 V3 0.713
+G/0 done | alone V1 0.671 V2 1.067 V3 0.685
+G/1 done | alone V1 0.771 V2 1.128 V3 0.756
+G/2 done | alone V1 0.660 V2 1.051 V3 0.680
+G/3 done | alone V1 1.084 V2 1.444 V3 1.036
+G/4 done | alone V1 0.734 V2 1.129 V3 0.732
+G/5 done | alone V1 0.746 V2 1.142 V3 0.742
+G/6 done | alone V1 0.893 V2 1.285 V3 0.859
+G/7 done | alone V1 0.637 V2 1.019 V3 0.699
+G/8 done | alone V1 0.844 V2 1.253 V3 0.841
+G/9 done | alone V1 0.927 V2 1.396 V3 0.707
+H/0 done | alone V1 0.747 V2 1.137 V3 0.699
+H/1 done | alone V1 0.803 V2 1.136 V3 0.797
+H/2 done | alone V1 0.761 V2 1.078 V3 0.764
+H/3 done | alone V1 0.687 V2 1.096 V3 0.739
+H/4 done | alone V1 0.700 V2 1.060 V3 0.674
+H/5 done | alone V1 1.083 V2 1.354 V3 1.078
+H/6 done | alone V1 0.869 V2 1.301 V3 0.851
+H/7 done | alone V1 0.856 V2 1.373 V3 0.738
+H/8 done | alone V1 0.713 V2 1.055 V3 0.688
+H/9 done | alone V1 0.819 V2 1.210 V3 0.828
+I/0 done | alone V1 0.870 V2 1.216 V3 0.850
+I/1 done | alone V1 0.797 V2 1.246 V3 0.724
+I/2 done | alone V1 0.813 V2 1.228 V3 0.799
+I/3 done | alone V1 0.675 V2 1.055 V3 0.683
+I/4 done | alone V1 0.808 V2 1.187 V3 0.671
+I/5 done | alone V1 0.836 V2 1.238 V3 0.832
+I/6 done | alone V1 0.641 V2 1.029 V3 0.669
+I/7 done | alone V1 1.088 V2 1.418 V3 1.041
+I/8 done | alone V1 0.743 V2 1.119 V3 0.715
+I/9 done | alone V1 0.707 V2 1.078 V3 0.721
+
+==== V1
+  layout F: vs W40G-S  GRU -0.76%  V1 -0.80% | alone GRU 0.759 V1 0.757
+  layout G: vs W40G-S  GRU -0.76%  V1 -0.74% | alone GRU 0.773 V1 0.775
+  layout H: vs W40G-S  GRU -0.72%  V1 -0.75% | alone GRU 0.783 V1 0.779
+  layout I: vs W40G-S  GRU -0.70%  V1 -0.73% | alone GRU 0.776 V1 0.775
+  pooled P(V1 blend worse than GRU blend) 0.1676 -> stop
+
+==== V2
+  layout F: vs W40G-S  GRU -0.76%  V2 -0.30% | alone GRU 0.759 V2 1.158
+  layout G: vs W40G-S  GRU -0.76%  V2 -0.19% | alone GRU 0.773 V2 1.177
+  layout H: vs W40G-S  GRU -0.72%  V2 -0.13% | alone GRU 0.783 V2 1.166
+  layout I: vs W40G-S  GRU -0.70%  V2 -0.26% | alone GRU 0.776 V2 1.165
+  pooled P(V2 blend worse than GRU blend) 1.0000 -> stop
+
+==== V3
+  layout F: vs W40G-S  GRU -0.76%  V3 -0.96% | alone GRU 0.759 V3 0.748
+  layout G: vs W40G-S  GRU -0.76%  V3 -1.11% | alone GRU 0.773 V3 0.745
+  layout H: vs W40G-S  GRU -0.72%  V3 -1.03% | alone GRU 0.783 V3 0.753
+  layout I: vs W40G-S  GRU -0.70%  V3 -1.05% | alone GRU 0.776 V3 0.739
+  pooled P(V3 blend worse than GRU blend) 0.0003 -> PROMOTE
