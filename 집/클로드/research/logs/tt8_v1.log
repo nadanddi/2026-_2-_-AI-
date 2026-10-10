@@ -1,0 +1,97 @@
+REPRO gate: BASE LR seed7 max diff 3.55e-15, CODEX L2 726 max diff 3.55e-15
+DIAG10/0 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.234)
+DIAG10/1 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.240)
+DIAG10/2 done (RidgeCV alpha 0.231/0.231, |res|>.9 share 0.237)
+DIAG10/3 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.241)
+DIAG10/4 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.251)
+DIAG10/5 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.237)
+DIAG10/6 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.232)
+DIAG10/7 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.232)
+DIAG10/8 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.229)
+DIAG10/9 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.231)
+EXT10/0 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.227)
+EXT12/0 done (RidgeCV alpha 0.658/0.658, |res|>.9 share 0.189)
+EL1/0 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.238)
+EL1/1 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.233)
+EL1/2 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.236)
+EL1/3 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.236)
+EL1/4 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.235)
+EL1/5 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.234)
+EL1/6 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.228)
+EL1/7 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.231)
+EL1/8 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.234)
+EL1/9 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.232)
+EL1/10 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.229)
+EL1/11 done (RidgeCV alpha 0.0811/0.0811, |res|>.9 share 0.232)
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+W weights fit for EXT10: warm (B,C,P) [0.33 0.   0.67] cold (B,C) [0.5 0.5]
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+W weights fit for EXT12: warm (B,C,P) [0.54 0.   0.46] cold (B,C) [0.5 0.5]
+W weights fit for EL1: warm (B,C,P) [0.44 0.   0.56] cold (B,C) [0.47 0.53]
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+
+==== W
+seed   7 PFN A | DIAG10 -0.73% P 0.243 (p2 +0.53%, <6C 1.74->1.75) | EXT10 +0.47% P 0.664 (p2 +1.48%, <6C 0.92->0.97) | EXT12 +0.75% P 0.866 (p2 +3.38%, <6C 1.86->1.91) | EL1 +0.31% P 0.737 (p2 +0.31%, <6C nan->nan) |
+seed   7 PFN B | DIAG10 -0.82% P 0.208 (p2 +0.47%, <6C 1.74->1.75) | EXT10 +1.98% P 0.849 (p2 +2.92%, <6C 0.92->0.97) | EXT12 +0.89% P 0.915 (p2 +3.49%, <6C 1.86->1.91) | EL1 +0.32% P 0.734 (p2 +0.32%, <6C nan->nan) |
+seed 101 PFN A | DIAG10 -0.74% P 0.237 (p2 +0.61%, <6C 1.73->1.73) | EXT10 +0.55% P 0.696 (p2 +1.50%, <6C 0.93->0.98) | EXT12 +0.80% P 0.873 (p2 +3.29%, <6C 1.86->1.91) | EL1 +0.35% P 0.763 (p2 +0.35%, <6C nan->nan) |
+seed 101 PFN B | DIAG10 -0.83% P 0.216 (p2 +0.56%, <6C 1.73->1.73) | EXT10 +2.10% P 0.856 (p2 +2.86%, <6C 0.93->0.98) | EXT12 +0.95% P 0.926 (p2 +3.42%, <6C 1.86->1.91) | EL1 +0.36% P 0.761 (p2 +0.36%, <6C nan->nan) |
+  DIAG10 seed-mean -0.78%  P(worse) max 0.2426
+  EXT10  seed-mean +1.27%  P(worse) max 0.8558
+  EXT12  seed-mean +0.85%  P(worse) max 0.9255
+  EL1    seed-mean +0.34%  P(worse) max 0.7634
+VERDICT W: FAIL
+
+==== F1
+seed   7 PFN A | DIAG10 +0.05% P 0.779 (p2 -0.04%, <6C 1.74->1.74) | EXT10 -0.06% P 0.288 (p2 +0.41%, <6C 0.92->0.92) | EXT12 +0.24% P 0.965 (p2 +0.81%, <6C 1.86->1.87) | EL1 -0.17% P 0.180 (p2 -0.17%, <6C nan->nan) |
+seed   7 PFN B | DIAG10 +0.05% P 0.774 (p2 -0.06%, <6C 1.74->1.74) | EXT10 -0.04% P 0.361 (p2 +0.42%, <6C 0.92->0.92) | EXT12 +0.26% P 0.974 (p2 +0.82%, <6C 1.86->1.87) | EL1 -0.17% P 0.192 (p2 -0.17%, <6C nan->nan) |
+seed 101 PFN A | DIAG10 +0.01% P 0.557 (p2 +0.17%, <6C 1.73->1.73) | EXT10 +0.11% P 0.799 (p2 +0.36%, <6C 0.93->0.92) | EXT12 +0.05% P 0.609 (p2 +0.88%, <6C 1.86->1.86) | EL1 +0.12% P 0.865 (p2 +0.12%, <6C nan->nan) |
+seed 101 PFN B | DIAG10 +0.01% P 0.551 (p2 +0.17%, <6C 1.73->1.73) | EXT10 +0.13% P 0.838 (p2 +0.36%, <6C 0.93->0.92) | EXT12 +0.08% P 0.666 (p2 +0.90%, <6C 1.86->1.86) | EL1 +0.11% P 0.857 (p2 +0.11%, <6C nan->nan) |
+  DIAG10 seed-mean +0.03%  P(worse) max 0.7788
+  EXT10  seed-mean +0.03%  P(worse) max 0.8377
+  EXT12  seed-mean +0.16%  P(worse) max 0.9740
+  EL1    seed-mean -0.03%  P(worse) max 0.8650
+VERDICT F1: FAIL
+
+==== F2 (CODEX huber vs L2, CODEX seeds 726/727 x BASE 7/101 x PFN A/B)
+codex 726 seed   7 PFN A | DIAG10 -0.11% P 0.194 | EXT10 -0.17% P 0.246 | EXT12 +0.93% P 0.978 | EL1 +0.17% P 0.655 |
+codex 726 seed   7 PFN B | DIAG10 -0.10% P 0.209 | EXT10 -0.21% P 0.173 | EXT12 +0.97% P 0.982 | EL1 +0.17% P 0.644 |
+codex 726 seed 101 PFN A | DIAG10 -0.10% P 0.194 | EXT10 -0.18% P 0.227 | EXT12 +0.86% P 0.968 | EL1 +0.18% P 0.657 |
+codex 726 seed 101 PFN B | DIAG10 -0.10% P 0.216 | EXT10 -0.22% P 0.165 | EXT12 +0.89% P 0.972 | EL1 +0.17% P 0.654 |
+codex 727 seed   7 PFN A | DIAG10 -0.11% P 0.187 | EXT10 -0.17% P 0.239 | EXT12 +0.93% P 0.978 | EL1 +0.17% P 0.653 |
+codex 727 seed   7 PFN B | DIAG10 -0.10% P 0.212 | EXT10 -0.21% P 0.175 | EXT12 +0.97% P 0.982 | EL1 +0.17% P 0.650 |
+codex 727 seed 101 PFN A | DIAG10 -0.10% P 0.201 | EXT10 -0.18% P 0.222 | EXT12 +0.86% P 0.966 | EL1 +0.18% P 0.660 |
+codex 727 seed 101 PFN B | DIAG10 -0.10% P 0.211 | EXT10 -0.22% P 0.166 | EXT12 +0.89% P 0.975 | EL1 +0.17% P 0.654 |
+  DIAG10 seed-mean -0.10%  P(worse) max 0.2160
+  EXT10  seed-mean -0.20%  P(worse) max 0.2465
+  EXT12  seed-mean +0.91%  P(worse) max 0.9820
+  EL1    seed-mean +0.17%  P(worse) max 0.6602
+VERDICT F2: FAIL
