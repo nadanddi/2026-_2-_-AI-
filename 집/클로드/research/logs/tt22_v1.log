@@ -1,0 +1,29 @@
+DIAG10/0 done (258s)
+DIAG10/1 done (516s)
+DIAG10/2 done (781s)
+DIAG10/3 done (1229s)
+DIAG10/4 done (1672s)
+DIAG10/5 done (2110s)
+DIAG10/6 done (2566s)
+DIAG10/7 done (3017s)
+DIAG10/8 done (3549s)
+DIAG10/9 done (4088s)
+EL1/0 done (4402s)
+EL1/1 done (4686s)
+EL1/2 done (5078s)
+EL1/3 done (5466s)
+EL1/4 done (5852s)
+EL1/5 done (6239s)
+EL1/6 done (6603s)
+EL1/7 done (6988s)
+EL1/8 done (7371s)
+EL1/9 done (7756s)
+EL1/10 done (8008s)
+EL1/11 done (8228s)
+  DIAG10 seed   7: 0.5995 -> 0.5937 (-0.98%) P 0.0183 | 2차 +0.05% | PFN 단독 0.608 -> 0.601
+  DIAG10 seed 101: 0.5999 -> 0.5940 (-0.99%) P 0.0168 | 2차 +0.04% | PFN 단독 0.608 -> 0.601
+  DIAG10 -> pass
+  EL1    seed   7: 0.7361 -> 0.7386 (+0.35%) P 0.7748 | 2차 +0.35% | PFN 단독 0.745 -> 0.756
+  EL1    seed 101: 0.7351 -> 0.7379 (+0.38%) P 0.7832 | 2차 +0.38% | PFN 단독 0.745 -> 0.756
+  EL1    -> pass
+VERDICT PFN6K (DIAG10+EL1 stage): PASS - run EXT10/EXT12 next

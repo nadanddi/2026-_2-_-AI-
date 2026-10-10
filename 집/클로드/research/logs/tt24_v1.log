@@ -1,0 +1,16 @@
+J 0 done (val 1152, train 6864, pass-2 val rows 288)
+J 1 done (val 1152, train 6936, pass-2 val rows 288)
+J 2 done (val 1152, train 6912, pass-2 val rows 288)
+J 3 done (val 960, train 7056, pass-2 val rows 96)
+J 4 done (val 864, train 7296, pass-2 val rows 0)
+J 5 done (val 864, train 7296, pass-2 val rows 0)
+J 6 done (val 864, train 7296, pass-2 val rows 0)
+J 7 done (val 864, train 7296, pass-2 val rows 0)
+J 8 done (val 864, train 7440, pass-2 val rows 96)
+J 9 done (val 864, train 7368, pass-2 val rows 288)
+  seed 1010 PFN A: 0.6320 -> 0.6281 (-0.62%) P 0.0274 | 2차 -1.49% | F13 -0.86% F47 -0.44%
+  seed 1010 PFN B: 0.6368 -> 0.6329 (-0.61%) P 0.0290 | 2차 -1.55% | F13 -0.81% F47 -0.47%
+  seed 1111 PFN A: 0.6320 -> 0.6280 (-0.63%) P 0.0255 | 2차 -1.54% | F13 -0.88% F47 -0.45%
+  seed 1111 PFN B: 0.6369 -> 0.6330 (-0.62%) P 0.0285 | 2차 -1.60% | F13 -0.82% F47 -0.48%
+  GRU alone 0.760 | mean -0.62% P max 0.0290 | 2차 mean -1.55%
+VERDICT GRU-DAYGATE10: FAIL
