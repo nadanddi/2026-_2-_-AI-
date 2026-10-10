@@ -1,0 +1,23 @@
+  main effect wb : 0.2: p1 +3.86% p2 +0.40% 0.3: p1 +2.28% p2 +0.11% 0.4: p1 +1.15% p2 +0.31% 0.5: p1 +0.98% p2 +1.00%
+  main effect wp : 0.2: p1 +4.96% p2 +1.35% 0.3: p1 +3.15% p2 +0.70% 0.4: p1 +1.63% p2 +0.25% 0.5: p1 +0.43% p2 -0.00% 0.6: p1 -0.11% p2 -0.37%
+  main effect gc : 7: p1 +0.98% p2 +0.38% 8: p1 +1.06% p2 +0.38% 9: p1 +1.45% p2 +0.33% 10: p1 +2.74% p2 +0.40% 11: p1 +4.39% p2 +0.64%
+  main effect gw : 1: p1 +2.13% p2 +0.43% 2: p1 +2.11% p2 +0.42% 4: p1 +2.13% p2 +0.43%
+selected on pass-1: (np.float64(0.4), np.float64(0.6), np.float64(7.0), np.float64(4.0)) | pass1 -2.71% pass2 -0.01%; pass-2 rank 90 of 285
+      wb   wp  gc  gw    d1    d2
+212  0.4  0.6   7   4 -2.71 -0.01
+211  0.4  0.6   7   2 -2.69  0.03
+213  0.4  0.6   8   1 -2.67  0.02
+210  0.4  0.6   7   1 -2.66  0.03
+214  0.4  0.6   8   2 -2.65 -0.03
+215  0.4  0.6   8   4 -2.52 -0.13
+  DIAG10 selected vs submitted, pass-2 cells +0.06% -0.11% +0.08% -0.08% | records 52 improved 32 | record P(worse) 0.4929 -> FAIL
+  EL1    selected vs submitted, pass-2 cells +0.22% +0.16% +0.26% +0.20%
+  EXT10  selected vs submitted, pass-2 cells +2.61% +3.82% +2.58% +3.77%
+  EXT12  selected vs submitted, pass-2 cells +5.69% +6.82% +5.63% +6.75%
+  F      selected vs submitted, pass-2 cells +1.06% +0.49% +1.06% +0.49%
+  G      selected vs submitted, pass-2 cells +1.47% +1.89% +1.42% +1.86%
+  H      selected vs submitted, pass-2 cells +1.41% +1.04% +1.37% +1.00%
+  I      selected vs submitted, pass-2 cells +0.59% +0.82% +0.57% +0.79%
+  J      selected vs submitted, pass-2 cells +0.37% +0.86% +0.40% +0.91%
+  K      selected vs submitted, pass-2 cells +0.33% +0.32% +0.35% +0.32%
+  L      selected vs submitted, pass-2 cells +1.47% +0.75% +1.47% +0.75%
