@@ -1,0 +1,26 @@
+I/0 done (GRU alone 0.870)
+I/1 done (GRU alone 0.786)
+I/2 done (GRU alone 0.828)
+I/3 done (GRU alone 0.667)
+I/4 done (GRU alone 0.816)
+I/5 done (GRU alone 0.841)
+I/6 done (GRU alone 0.640)
+I/7 done (GRU alone 1.095)
+I/8 done (GRU alone 0.748)
+I/9 done (GRU alone 0.702)
+
+==== GW
+  layout I primary all -0.70% [-0.75, -0.66] P max 0.0612 | 2차 -1.21% FAIL
+  EXT10    safety  all +0.26% [+0.08, +0.44] P max 0.8652 | 2차 -0.62% ok
+  EXT12    safety  all +2.09% [+2.05, +2.14] P max 1.0000 | 2차 +2.37% FAIL
+  DIAG10   report  all -0.73% [-0.74, -0.73] P max 0.0352 | 2차 -0.78% 
+  EL1      report  all -1.49% [-1.51, -1.47] P max 0.1008 | 2차 -1.49% 
+VERDICT GW: FAIL
+
+==== GWD
+  layout I primary all -0.78% [-0.82, -0.73] P max 0.0317 | 2차 -1.48% FAIL
+  EXT10    safety  all +0.17% [+0.04, +0.29] P max 0.9117 | 2차 -0.06% ok
+  EXT12    safety  all +1.07% [+1.04, +1.09] P max 0.9941 | 2차 +1.29% FAIL
+  DIAG10   report  all -0.76% [-0.76, -0.75] P max 0.0205 | 2차 -1.17% 
+  EL1      report  all -1.54% [-1.55, -1.53] P max 0.0527 | 2차 -1.54% 
+VERDICT GWD: FAIL
