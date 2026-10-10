@@ -1,0 +1,20 @@
+배지가 공기를 따라가는 속도 (시간당, 공기-배지 차이 1℃당): 공기가 더 따뜻할 때(올라감) k_up, 더 찰 때(내려감) k_down
+공기 3℃ 이상 급락 후 6시간 동안 배지가 공기 낙폭의 몇 배 떨어졌나: fall_ratio
+       k_up  k_down  k_up_cold  k_down_cold  fall_ratio  n_drops  n_cold    lvl
+farm                                                                           
+F13   0.195   0.170        NaN          NaN       0.694      862      78 -0.770
+F47   0.198   0.148        NaN          NaN       0.685      850      76 -0.676
+F32   0.000   0.193        NaN          NaN       1.958      553       2  7.244
+
+나머지 48곳 중앙 [사분위]:
+  k_up        0.065 [0.047, 0.115]
+  k_down      0.070 [0.057, 0.097]
+  k_up_cold   0.000 [0.000, 0.072]
+  k_down_cold 0.095 [0.073, 0.121]
+  fall_ratio  0.200 [0.000, 0.454]
+  lvl         0.586 [0.246, 0.824]
+
+F13·F47과 따라가는 속도가 비슷한 온실(k_up·k_down 차 <.03): ['F41']
+      k_up  k_down  k_up_cold  k_down_cold  fall_ratio  n_cold    lvl
+farm                                                                 
+F41   0.18    0.16      0.374        0.148       0.667     526  1.167
