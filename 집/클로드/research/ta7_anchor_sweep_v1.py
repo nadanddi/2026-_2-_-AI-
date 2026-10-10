@@ -53,7 +53,10 @@ def main():
     for g in grid:
         r1 = np.mean([rm((correct(M, q, key, A, *g) - y)[p1]) for q in cells]); r2 = np.mean([rm((correct(M, q, key, A, *g) - y)[p2]) for q in cells])
         rows.append(dict(p_min=g[0], bias=g[1], decay=g[2], clip=g[3], gate=g[4], pass1=r1, pass2=r2))
-    T = pd.DataFrame(rows); base = T[(T.p_min == .8) & (T.bias == "const") & (T.decay == "lin8") & (T.clip == 1) & (T.gate == 1.5)].iloc[0]
+    T = pd.DataFrame(rows); T.to_csv(os.path.join(env.LOCAL, "linker_v7", "ta7_grid.csv"), index=False)
+    T["clip"] = T["clip"].astype(float); T["gate"] = T["gate"].astype(float); T["p_min"] = T["p_min"].astype(float)
+    sb = np.isclose(T.p_min, .8) & (T.bias == "const") & (T.decay == "lin8") & np.isclose(T.clip, 1) & np.isclose(T.gate, 1.5)
+    print("submitted-rule rows found:", int(sb.sum())); base = T[sb].iloc[0]
     q_ref = np.mean([rm((q - y)[p2]) for q in cells]); q_ref1 = np.mean([rm((q - y)[p1]) for q in cells])
     T["d1"] = 100 * (T.pass1 / base.pass1 - 1); T["d2"] = 100 * (T.pass2 / base.pass2 - 1)
     print("no-anchor RMSE pass1 %.4f pass2 %.4f | submitted rule pass1 %.4f pass2 %.4f" % (q_ref1, q_ref, base.pass1, base.pass2))
