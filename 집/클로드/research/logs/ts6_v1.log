@@ -1,0 +1,30 @@
+sequences (9600, 48, 16) device cuda
+DIAG10/0 done (GRU alone 0.927)
+DIAG10/1 done (GRU alone 0.696)
+DIAG10/2 done (GRU alone 0.626)
+DIAG10/3 done (GRU alone 0.721)
+DIAG10/4 done (GRU alone 0.779)
+DIAG10/5 done (GRU alone 0.818)
+DIAG10/6 done (GRU alone 0.641)
+DIAG10/7 done (GRU alone 0.643)
+DIAG10/8 done (GRU alone 0.799)
+DIAG10/9 done (GRU alone 0.981)
+EXT10/0 done (GRU alone 1.144)
+EXT12/0 done (GRU alone 1.561)
+EL1/0 done (GRU alone 0.427)
+EL1/1 done (GRU alone 0.709)
+EL1/2 done (GRU alone 0.336)
+EL1/3 done (GRU alone 0.665)
+EL1/4 done (GRU alone 0.853)
+EL1/5 done (GRU alone 0.474)
+EL1/6 done (GRU alone 1.035)
+EL1/7 done (GRU alone 1.066)
+EL1/8 done (GRU alone 0.679)
+EL1/9 done (GRU alone 0.559)
+EL1/10 done (GRU alone 1.403)
+EL1/11 done (GRU alone 0.560)
+  DIAG10 mean -0.76% [-0.77, -0.75] P max 0.0295 | GRU alone 0.732, corr(GRU err, W40G-S err) 0.74 -> FAIL
+  EXT10  mean +0.94% [+0.73, +1.14] P max 0.9495 | GRU alone 1.101, corr(GRU err, W40G-S err) 0.78 -> FAIL
+  EXT12  mean +2.81% [+2.74, +2.88] P max 1.0000 | GRU alone 1.522, corr(GRU err, W40G-S err) 0.61 -> FAIL
+  EL1    mean -1.49% [-1.51, -1.46] P max 0.1049 | GRU alone 0.759, corr(GRU err, W40G-S err) 0.81 -> ok
+VERDICT GRU10: FAIL
