@@ -1,0 +1,21 @@
+K 0 done (val 1008, train 7392, pass-2 val rows 0)
+K 1 done (val 1008, train 7152, pass-2 val rows 0)
+K 2 done (val 1008, train 7152, pass-2 val rows 0)
+K 3 done (val 1008, train 7152, pass-2 val rows 0)
+K 4 done (val 1008, train 7344, pass-2 val rows 144)
+K 5 done (val 1008, train 7296, pass-2 val rows 336)
+K 6 done (val 1008, train 7272, pass-2 val rows 336)
+K 7 done (val 1008, train 7272, pass-2 val rows 336)
+K 8 done (val 864, train 7728, pass-2 val rows 192)
+K 9 done (val 672, train 7968, pass-2 val rows 0)
+  V3 seed 1212 PFN A: -0.90% P 0.0012 | 2차 -1.66% | F13 -1.13% F47 -0.75%
+  V3 seed 1212 PFN B: -0.95% P 0.0004 | 2차 -1.55% | F13 -1.27% F47 -0.73%
+  V3 seed 1313 PFN A: -0.90% P 0.0008 | 2차 -1.66% | F13 -1.12% F47 -0.74%
+  V3 seed 1313 PFN B: -0.94% P 0.0006 | 2차 -1.54% | F13 -1.26% F47 -0.72%
+  V3 alone 0.754 | mean -0.92% P max 0.0012 | 2차 -1.61% -> pass
+  GRU seed 1212 PFN A: -0.55% P 0.0508 | 2차 -1.85% | F13 -0.67% F47 -0.47%
+  GRU seed 1212 PFN B: -0.60% P 0.0360 | 2차 -1.74% | F13 -0.80% F47 -0.46%
+  GRU seed 1313 PFN A: -0.55% P 0.0510 | 2차 -1.84% | F13 -0.66% F47 -0.47%
+  GRU seed 1313 PFN B: -0.60% P 0.0391 | 2차 -1.73% | F13 -0.79% F47 -0.46%
+  GRU alone 0.799 | mean -0.57% P max 0.0510 | 2차 -1.79% -> (reported)
+VERDICT V3 layout K: PASS
