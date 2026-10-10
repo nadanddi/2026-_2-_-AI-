@@ -1,0 +1,24 @@
+confident 1-step anchors on labelled records: 45
+  pass-1 DIAG10 w 0.1 RMSE 0.5687
+  pass-1 DIAG10 w 0.2 RMSE 0.5679
+  pass-1 DIAG10 w 0.3 RMSE 0.5675
+  pass-1 DIAG10 w 0.4 RMSE 0.5674
+  pass-1 DIAG10 w 0.5 RMSE 0.5676
+  pass-1 DIAG10 w 0.6 RMSE 0.5680
+  pass-1 DIAG10 w 0.7 RMSE 0.5689
+  pass-1 DIAG10 w 0.8 RMSE 0.5700
+  pass-1 DIAG10 w 0.9 RMSE 0.5714
+  pass-1 DIAG10 w 1.0 RMSE 0.5731
+chosen w = 0.4 (pass-1 only)
+  DIAG10 pass-2 -0.55% -0.59% -0.53% -0.59% | all -0.43% -0.47% -0.44% -0.47% | anchored early rows 336 (pass-2 128)
+  EL1    pass-2 -0.54% -0.51% -0.57% -0.54% | all -0.54% -0.51% -0.57% -0.54% | anchored early rows 128 (pass-2 128)
+  EXT10  pass-2 -0.71% -0.67% -0.67% -0.62% | all -0.92% -0.93% -0.92% -0.94% | anchored early rows 48 (pass-2 8)
+  EXT12  pass-2 -1.23% -1.23% -1.26% -1.26% | all -0.60% -0.61% -0.60% -0.61% | anchored early rows 176 (pass-2 48)
+  F      pass-2 -0.86% -0.67% -0.87% -0.67% | all -0.57% -0.49% -0.57% -0.49% | anchored early rows 336 (pass-2 128)
+  G      pass-2 -0.72% -0.66% -0.66% -0.64% | all -0.58% -0.57% -0.55% -0.55% | anchored early rows 336 (pass-2 128)
+  H      pass-2 -0.89% -0.90% -0.90% -0.89% | all -0.63% -0.61% -0.62% -0.61% | anchored early rows 336 (pass-2 128)
+  I      pass-2 -0.65% -0.72% -0.69% -0.71% | all -0.51% -0.47% -0.53% -0.49% | anchored early rows 336 (pass-2 128)
+  J      pass-2 -0.69% -0.66% -0.73% -0.68% | all -0.61% -0.57% -0.61% -0.58% | anchored early rows 336 (pass-2 128)
+  K      pass-2 -1.09% -1.01% -1.07% -0.99% | all -0.72% -0.70% -0.72% -0.70% | anchored early rows 336 (pass-2 128)
+  L      pass-2 -0.67% -0.66% -0.69% -0.67% | all -0.62% -0.61% -0.62% -0.61% | anchored early rows 336 (pass-2 128)
+TA1 (w 0.4) pass-2: all cells True, pooled P(worse) 0.0125 -> PASS
