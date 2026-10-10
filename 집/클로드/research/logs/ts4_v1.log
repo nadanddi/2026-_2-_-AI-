@@ -1,0 +1,74 @@
+DIAG10/0 done
+DIAG10/1 done
+DIAG10/2 done
+DIAG10/3 done
+DIAG10/4 done
+DIAG10/5 done
+DIAG10/6 done
+DIAG10/7 done
+DIAG10/8 done
+DIAG10/9 done
+EXT10/0 done
+EXT12/0 done
+EL1/0 done
+EL1/1 done
+EL1/2 done
+EL1/3 done
+EL1/4 done
+EL1/5 done
+EL1/6 done
+EL1/7 done
+EL1/8 done
+EL1/9 done
+EL1/10 done
+EL1/11 done
+F/0 done
+F/1 done
+F/2 done
+F/3 done
+F/4 done
+F/5 done
+F/6 done
+F/7 done
+F/8 done
+F/9 done
+G/0 done
+G/1 done
+G/2 done
+G/3 done
+G/4 done
+G/5 done
+G/6 done
+G/7 done
+G/8 done
+G/9 done
+H/0 done
+H/1 done
+H/2 done
+H/3 done
+H/4 done
+H/5 done
+H/6 done
+H/7 done
+H/8 done
+H/9 done
+
+==== ET (0.9 W40G-S + 0.1 ET)
+  DIAG10   mean +0.17% [+0.16, +0.18] P max 0.6621 | member alone 0.701 -> FAIL
+  EXT10    mean +0.93% [+0.83, +1.02] P max 0.8438 | member alone 1.134 -> FAIL
+  EXT12    mean +3.02% [+2.97, +3.07] P max 1.0000 | member alone 1.599 -> FAIL
+  EL1      mean -0.57% [-0.59, -0.56] P max 0.0398 | member alone 0.757 -> ok
+  fresh F  mean +0.36% [+0.31, +0.40] | member alone 0.735 -> FAIL
+  fresh G  mean +0.10% [+0.06, +0.13] | member alone 0.741 -> FAIL
+  fresh H  mean +0.09% [+0.07, +0.11] | member alone 0.742 -> FAIL
+VERDICT ET: FAIL
+
+==== HGB (0.9 W40G-S + 0.1 HGB)
+  DIAG10   mean +0.05% [+0.04, +0.05] P max 0.5070 | member alone 0.680 -> FAIL
+  EXT10    mean +0.78% [+0.71, +0.85] P max 0.8770 | member alone 1.020 -> FAIL
+  EXT12    mean +2.34% [+2.29, +2.39] P max 1.0000 | member alone 1.465 -> FAIL
+  EL1      mean -0.55% [-0.57, -0.52] P max 0.1824 | member alone 0.784 -> ok
+  fresh F  mean +0.47% [+0.43, +0.50] | member alone 0.734 -> FAIL
+  fresh G  mean +0.20% [+0.17, +0.24] | member alone 0.731 -> FAIL
+  fresh H  mean +0.27% [+0.26, +0.28] | member alone 0.733 -> FAIL
+VERDICT HGB: FAIL
