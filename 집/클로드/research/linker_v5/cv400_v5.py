@@ -2,7 +2,8 @@
 # blocking from earlier evaluation records' choices, no chains through evaluation-record choices).  Rule review: avoids using
 # evaluation-derived decisions to update later decisions.  Only 1-step anchors (previous record labelled) are reported.
 from feat4 import *
-S5=r"C:\workarmai\집\클로드esearch\local\linker_v5"
+S5=S4.replace("linker_v4","linker_v5")
+esearch\local\linker_v5"
 import time; t0=time.time()
 TRG=train_groups(); print("train groups",len(TRG),round(time.time()-t0),"s")
 out=[]; bid=0

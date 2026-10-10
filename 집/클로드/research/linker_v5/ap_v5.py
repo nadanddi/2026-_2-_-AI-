@@ -3,7 +3,8 @@
 # evaluation-derived decisions to update later decisions.  Only 1-step anchors (previous record labelled) are reported.
 import feat4 as F
 from feat4 import *
-S5=r"C:\workarmai\집\클로드esearch\local\linker_v5"
+S5=S4.replace("linker_v4","linker_v5")
+esearch\local\linker_v5"
 TRG=train_groups(); w=fit_clogit([(X_,y_) for b_,a_,X_,y_ in TRG],l2=0.5,iters=300)
 np.save(S5+r"\w_v5.npy",w)
 def run_farm(f):
