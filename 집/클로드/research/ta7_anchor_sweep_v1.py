@@ -50,12 +50,14 @@ def main():
     M, cells = R["DIAG10"]; key, A = build(M, L); y = M.sub_temp.values; p1 = M.day.values < 179; p2 = ~p1
     grid = list(itertools.product((.8, .9, .95), ("const", "dT"), ("lin8", "meas"), (1, 2, np.inf), (1.5, 3, np.inf)))
     rows = []
-    for g in grid:
+    gp = os.path.join(env.LOCAL, "linker_v7", "ta7_grid.csv")
+    for g in ([] if os.path.exists(gp) else grid):
         r1 = np.mean([rm((correct(M, q, key, A, *g) - y)[p1]) for q in cells]); r2 = np.mean([rm((correct(M, q, key, A, *g) - y)[p2]) for q in cells])
         rows.append(dict(p_min=g[0], bias=g[1], decay=g[2], clip=g[3], gate=g[4], pass1=r1, pass2=r2))
-    T = pd.DataFrame(rows); T.to_csv(os.path.join(env.LOCAL, "linker_v7", "ta7_grid.csv"), index=False)
+    T = pd.read_csv(gp) if not rows else pd.DataFrame(rows)
+    if rows: T.to_csv(gp, index=False)
     T["clip"] = T["clip"].astype(float); T["gate"] = T["gate"].astype(float); T["p_min"] = T["p_min"].astype(float)
-    sb = np.isclose(T.p_min, .8) & (T.bias == "const") & (T.decay == "lin8") & np.isclose(T.clip, 1) & np.isclose(T.gate, 1.5)
+    sb = np.isclose(T.p_min, .8) & (T.bias == "const") & (T.decay == "lin8") & np.isclose(T["clip"], 1) & np.isclose(T.gate, 1.5)
     print("submitted-rule rows found:", int(sb.sum())); base = T[sb].iloc[0]
     q_ref = np.mean([rm((q - y)[p2]) for q in cells]); q_ref1 = np.mean([rm((q - y)[p1]) for q in cells])
     T["d1"] = 100 * (T.pass1 / base.pass1 - 1); T["d2"] = 100 * (T.pass2 / base.pass2 - 1)
@@ -63,11 +65,11 @@ def main():
     for fac in ("p_min", "bias", "decay", "clip", "gate"):
         print("  main effect %-6s:" % fac, " ".join("%s: pass1 %+.2f%% pass2 %+.2f%%" % (v, g.d1.mean(), g.d2.mean()) for v, g in T.groupby(fac)))
     best = T.sort_values("pass1").iloc[0]
-    print("selected on pass-1:", best[["p_min", "bias", "decay", "clip", "gate"]].to_dict(), "| pass1 %+.2f%% pass2 %+.2f%% (vs submitted)" % (best.d1, best.d2))
+    print("selected on pass-1:", {c: best[c] for c in ("p_min", "bias", "decay", "clip", "gate")}, "| pass1 %+.2f%% pass2 %+.2f%% (vs submitted)" % (best.d1, best.d2))
     print("pass-2 rank of the selected setting: %d of %d; top-5 by pass-1 and their pass-2:" % (int((T.pass2 < best.pass2).sum()) + 1, len(T)))
     print(T.sort_values("pass1").head(5)[["p_min", "bias", "decay", "clip", "gate", "d1", "d2"]].round(2).to_string())
     T.to_csv(os.path.join(env.LOCAL, "linker_v7", "ta7_grid.csv"), index=False)
-    g = (best.p_min, best.bias, best.decay, best.clip, best.gate); gb = (.8, "const", "lin8", 1, 1.5)
+    g = (best["p_min"], best["bias"], best["decay"], best["clip"], best["gate"]); gb = (.8, "const", "lin8", 1, 1.5)
     for Lname in ("DIAG10", "G", "EL1", "EXT10", "EXT12"):
         M, cells = R[Lname]; key, A = build(M, L); y = M.sub_temp.values; m2 = M.day.values >= 179; rel = []; per = []
         for q in cells:
