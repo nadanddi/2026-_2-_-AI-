@@ -93,8 +93,7 @@ def summarize():
     G = G[[(f, d) not in RD for f, d in zip(G.farm, G.day)]].copy()
     G["g"] = np.where(G.in_temp.isna(), 1, np.clip((G.in_temp - 8) / 2, 0, 1))
     for cand, prim in (("HP-ALL", ("DIAG10", "EXT10")), ("HP-COLD", ("EXT10",))):
-        print("
-==== %s (primary %s)" % (cand, "+".join(prim))); ok = True; rel = {v: [] for v in VALS}; pw = {v: [] for v in VALS}
+        print("\n==== %s (primary %s)" % (cand, "+".join(prim))); ok = True; rel = {v: [] for v in VALS}; pw = {v: [] for v in VALS}
         for ps in PSEEDS:
             cu = G["codex_pre_%d" % ps] if cand == "HP-ALL" else G.g * G.codex_REF + (1 - G.g) * G["codex_pre_%d" % ps]
             G["cu"] = cu
