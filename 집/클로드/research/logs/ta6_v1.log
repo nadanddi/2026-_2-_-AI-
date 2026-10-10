@@ -1,0 +1,7 @@
+anchors (gated): 54
+b (pass-1, 224 rows over 4 cells) = 0.276
+  DIAG10 pass-2 cells -0.09% -0.13% -0.06% -0.08% | affected pass-2 records 5, improved 1 | record P(worse) 0.4645, sign p 0.969 -> FAIL | {'F13_179': 3.63, 'F13_193': -8.81, 'F13_217': 0.91, 'F13_243': 2.86, 'F47_196': 0.28}
+  G      pass-2 cells +0.00% -0.06% +0.01% -0.14% | affected pass-2 records 5, improved 1
+  EL1    pass-2 cells +0.12% -0.33% +0.15% -0.31% | affected pass-2 records 5, improved 1
+  EXT10  pass-2 cells -2.40% -2.26% -2.50% -2.36% | affected pass-2 records 1, improved 1
+  EXT12  pass-2 cells -1.27% -3.82% -1.28% -1.22% | affected pass-2 records 4, improved 3
