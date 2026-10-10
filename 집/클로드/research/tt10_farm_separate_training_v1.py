@@ -10,6 +10,8 @@ k = 2 -> alpha .0125.  RULE (user temperature rule, scope ALL): every BASE seed 
   (all rows), farm x 5-day block bootstrap P(worse) < .0125 on both; EXT12/EL1 fail iff seed-mean worse and
   share(better) < .0125.  CODEX deterministic -> replicate axis = BASE seed x PFN family.
 Reported: the changed farm's rows alone, pass-2 rows, in_temp < 6 rows.
+Pre-result fix (crash, no output seen): season mapping needs both farms' training days -> computed once on the joint
+fold (weather only, identical to REF), then rows split by farm.
 Run:  cd 집/클로드/research && PYTHONPATH="" py -3.12 -u tt10_farm_separate_training_v1.py
 """
 import os, sys, pathlib
@@ -37,13 +39,17 @@ def run():
             if os.path.exists(path):
                 continue
             tm0, vm0 = common.split_mask(lab, fd)
+            if not vm0.sum():
+                continue
+            # season index (training-day weather only, no labels) mapped once on the JOINT fold, as in REF
+            tr0, va0 = W.season_fold(pfn[tm0], pfn[vm0], wv, "tt10_" + name, k)
             outs = []
             for farm in ("F13", "F47"):
                 isf = (lab.farm == farm).to_numpy()
                 tm, vm = tm0 & isf, vm0 & isf
                 if not vm.sum():
                     continue
-                tr, va = W.season_fold(pfn[tm], pfn[vm], wv, "tt10_%s_%s" % (name, farm), k)
+                tr = tr0[isf[tm0]]; va = va0[isf[vm0]]
                 out = pd.DataFrame({"validator": name, "row_id": lab.row_id[vm].values})
                 for s in (7, 101):
                     out["base_FS_%d" % s] = W.base_predict(lab[tm], lab[vm], wb[tm], ct, phc, s)
