@@ -165,7 +165,7 @@ def summarize():
     for cand, bc, cc in (("P1", "base_R_%d", "codex_P1"), ("P2", "base_P2_%d", "codex_P2")):
         print("\n==== %s (pass-2 rows, rough days excluded)" % cand); ok = True
         for v, D in (("DIAG10G", Gn), ("DIAG10", Old[Old.validator == "DIAG10"]), ("EL1", Old[Old.validator == "EL1"])):
-            X = D[(D.day >= 179) & [(f, d) not in RD for f, d in zip(D.farm, D.day)]].copy()
+            X = D[(D.day >= 179).values & np.array([(f, d) not in RD for f, d in zip(D.farm, D.day)])].copy()
             g = np.where(X.in_temp.isna(), 1, np.clip((X.in_temp - 8) / 2, 0, 1)); y = X.sub_temp.values
             rel, pw = [], []
             for s in SEEDS:
