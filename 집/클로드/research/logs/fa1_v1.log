@@ -1,0 +1,36 @@
+{'SEASON': 1, 'TIME': 3, 'MISC': 3, 'H0': 14, 'DAYSTAT': 28, 'out_temp': 8, 'out_hum': 5, 'out_rad': 8, 'out_wspd': 5, 'in_temp': 8, 'in_hum': 5, 'in_co2': 5, 'vent': 5, 'shade': 5, 'thermal': 5, 'heating': 8, 'circfan': 5, 'co2': 5, 'fog': 5}
+DIAG10/0 done
+DIAG10/1 done
+DIAG10/2 done
+DIAG10/3 done
+DIAG10/4 done
+DIAG10/5 done
+DIAG10/6 done
+DIAG10/7 done
+DIAG10/8 done
+DIAG10/9 done
+EXT10/0 done
+EXT12/0 done
+
+묶음을 뺐을 때 RMSE 변화(%%, 음수 = 빼면 좋아짐), W40G-S 시드 7·PFN A 기준
+          DIAG10  DIAG10_p2  P_worse  EXT10  EXT10_p2  EXT10_lt6  EXT12  EXT12_p2  candidate
+group                                                                                       
+H0         -0.24      -0.54     0.11  -0.23     -1.15      -0.81  -0.20      0.61       True
+in_hum     -0.14       0.40     0.15   0.56      1.54      -0.72   0.49      0.23      False
+heating    -0.07      -0.12     0.31  -0.79      0.72      -0.94  -0.03     -0.66       True
+SEASON     -0.07       0.21     0.29   0.01      0.15      -1.16   0.17      0.14      False
+co2        -0.04      -0.05     0.19   0.00      0.00       0.00   0.00      0.00      False
+circfan    -0.03       0.03     0.37  -0.16      0.55      -1.04   0.05      0.28       True
+vent       -0.02       0.06     0.40  -0.19     -0.71       0.94  -0.04     -0.05       True
+thermal    -0.01       0.14     0.44  -0.14      0.62      -0.29  -0.04      0.21       True
+shade       0.00       0.14     0.52   0.05      0.07      -1.57  -0.11     -0.24      False
+out_rad     0.01       0.12     0.56   0.33      0.73      -0.96   0.07      0.16      False
+TIME        0.01       0.03     0.58   0.01      0.46      -2.03  -0.17      0.47      False
+in_co2      0.02      -0.39     0.57  -0.60      0.13      -2.98  -0.50     -0.53      False
+out_wspd    0.03       0.27     0.67   0.34      0.87      -1.65  -0.06      0.73      False
+out_hum     0.07       0.03     0.84  -0.42     -0.05       1.96   0.05      0.45      False
+MISC        0.08       0.20     0.91  -0.00      0.78       1.03   0.16     -0.06      False
+fog         0.14       0.82     0.87  -0.03     -0.00       0.90  -0.01      1.25      False
+out_temp    0.17       0.13     0.97   0.34     -1.01       0.94  -0.03      0.31      False
+DAYSTAT     0.21       0.93     0.88   0.02      1.87      -0.42   0.16      1.45      False
+in_temp     0.24       0.38     0.89  -0.01      0.04       1.34   0.97      2.73      False
