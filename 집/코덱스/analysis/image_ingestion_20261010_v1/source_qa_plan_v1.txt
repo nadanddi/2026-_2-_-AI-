@@ -1,0 +1,5 @@
+소량 TS 원본 QA 사전등록 v1 — 2026-10-10
+metadata135189독립검산후분할예약: 미시각AIF014/AIF015는잠금원본농장예약(확증QA담당없으므로독립확증성과주장X;농장2개만외삽한계). AIF004는공개개발진단,train AIF005/006/007/010/012/013. 본QA는train goldTS12+seolTS10 각4 JPG 시간분위수고정선택만. 임시companion/변화stat/empty당시파일거부. supplier전송완료 unknown→완결로컬작업snapshot검증으로만보고.
+원본직접읽기/복사합계2GiB(현재목록2file1404267008byte),copy중SHA계산. 검산/헤더scan은로컬파일로원본재읽기X. 확대자동선택X. 기본TARheaderchecksum/extent/endzero/type/경로/정규화/중복basename검사. TL fname와실member를정규화대조,개체prefix의미단정X. 선택jpg합계20MiB/각decoded≤25MP/전체≤200MP,초과보류기록. bboxlabel은본QA모델target아님,JSONdimension실측대조.
+품종별다른농장4사진씩은QA용일뿐독립성능/표본대표성아님. source원본불변,localcache신규10GiB합산/free30GiB. firstreal8사진확인후비평가오류검토,그룹/여섯유형/generator확보전실제기준성능주장0.
+비평반영: 농장2확증의한계,공개AIF004반복적응주의/train farmCV설계후속,AIF005holdouttrain금실0표시,농장명분리만계보독립성입증X. 전체metadata와이미보기0 잠금지킴.

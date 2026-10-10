@@ -1,0 +1,2 @@
+필터 작업 QA 실행 등록 — 2026-10-10
+선택train실사진8에서품종마다 blur1px/noise5/saltpepper.002/JPEG60을1장씩,양성8만제작. 양라벨 동일longside1024/JPEG90공통export. seed20261010+i고정. 최종paired픽셀변경0이면라벨1보존/보류. 여섯유형전체QA56완료주장X,모델학습/성능측정0. contact sheet는train real8만(잠금농장0). 양성mask전영역필터형태이며부분생성 대체로사용X. SHA와공통처리/seed/params보존.

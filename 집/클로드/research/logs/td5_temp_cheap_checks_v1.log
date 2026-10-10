@@ -1,0 +1,23 @@
+== C1 (pass-2, previous record = different dong)
+  n=24  corr(same-dong prev 23h - today 0h, today 0-5h residual) = -0.29 -> stop
+
+== C3 dong x day/night x radiation (mean residual, by day)
+  F13 day   rad low   A +0.066 (n38)  B -0.004 (n29)  A-B +0.069
+  F13 day   rad high  A -0.118 (n29)  B +0.082 (n38)  A-B -0.200
+  F13 night rad low   A +0.016 (n38)  B -0.105 (n29)  A-B +0.121
+  F13 night rad high  A -0.093 (n29)  B +0.029 (n38)  A-B -0.122
+  F47 day   rad low   A +0.026 (n30)  B +0.033 (n37)  A-B -0.008
+  F47 day   rad high  A +0.015 (n35)  B +0.101 (n31)  A-B -0.087
+  F47 night rad low   A +0.168 (n30)  B +0.120 (n37)  A-B +0.048
+  F47 night rad high  A +0.148 (n35)  B -0.030 (n31)  A-B +0.178
+
+== C6 daytime residual vs same-dong water-temperature proxy (partial Spearman | today's in_temp)
+  F13 n=191 rho -0.069 p 0.346
+  F47 n=190 rho +0.017 p 0.815
+  -> fail
+
+== C7 event-aligned residual (act switching 0 -> >0)
+  act_shade F13 events  194 | -2:+0.02 -1:+0.04 +0:+0.02 +1:+0.04 +2:+0.04 +3:+0.01 +4:-0.02 | post-pre -0.002
+  act_shade F47 events  167 | -2:+0.04 -1:+0.06 +0:+0.04 +1:+0.05 +2:+0.11 +3:+0.07 +4:+0.07 | post-pre +0.025
+  act_fog   F13 events  119 | -2:-0.03 -1:-0.05 +0:-0.03 +1:-0.03 +2:-0.05 +3:-0.05 +4:-0.07 | post-pre -0.002
+  act_fog   F47 events  125 | -2:-0.01 -1:-0.04 +0:-0.03 +1:-0.01 +2:-0.01 +3:-0.01 +4:-0.00 | post-pre +0.017

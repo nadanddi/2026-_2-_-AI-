@@ -1,0 +1,1359 @@
+[
+  {
+    "archive": "TL_1.금실1.tar",
+    "bytes": 1728000,
+    "sha256": "429db3eb9e1cfd98cf8c9a4439c321849fa488f7c5709460b37925ca8f65b839",
+    "json_files": 500,
+    "member_names_first": [
+      "./C22_B02_001_34579.json",
+      "./C22_B02_001_414383.json",
+      "./C22_B02_001_414405.json",
+      "./C22_B02_001_414449.json"
+    ],
+    "source_snapshot_stable": true,
+    "tar_end_valid": true,
+    "provider_completion": "unknown",
+    "verified_scope": "bounded readable local snapshot only; not entire dataset completion",
+    "fields": {
+      "etc_infor.inform": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"\"",
+            500
+          ]
+        ]
+      },
+      "etc_infor.crops_id": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"C22_B02\"",
+            500
+          ]
+        ]
+      },
+      "etc_infor.create_date": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"\"",
+            500
+          ]
+        ]
+      },
+      "images.file_path": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"/099.지능형 수직농장 통합 데이터(딸기)/01.데이터/1.Training/원천데이터\"",
+            500
+          ]
+        ]
+      },
+      "images.fname": {
+        "distinct_values_up_to_cap": 500,
+        "examples": [
+          [
+            "\"C22_B02_001_34579.jpg\"",
+            1
+          ],
+          [
+            "\"C22_B02_001_414383.jpg\"",
+            1
+          ],
+          [
+            "\"C22_B02_001_414405.jpg\"",
+            1
+          ],
+          [
+            "\"C22_B02_001_414449.jpg\"",
+            1
+          ],
+          [
+            "\"C22_B02_001_414486.jpg\"",
+            1
+          ],
+          [
+            "\"C22_B02_001_414493.jpg\"",
+            1
+          ],
+          [
+            "\"C22_B02_001_414506.jpg\"",
+            1
+          ],
+          [
+            "\"C22_B02_001_414519.jpg\"",
+            1
+          ]
+        ]
+      },
+      "images.date_captured": {
+        "distinct_values_up_to_cap": 264,
+        "examples": [
+          [
+            "\"2021-08-26 15:46:51\"",
+            3
+          ],
+          [
+            "\"2021-08-27 11:26:47\"",
+            3
+          ],
+          [
+            "\"2021-08-27 15:46:51\"",
+            3
+          ],
+          [
+            "\"2021-08-27 16:46:51\"",
+            3
+          ],
+          [
+            "\"2021-08-27 17:46:51\"",
+            3
+          ],
+          [
+            "\"2021-08-28 06:46:51\"",
+            3
+          ],
+          [
+            "\"2021-08-28 13:46:51\"",
+            3
+          ],
+          [
+            "\"2021-08-28 17:46:51\"",
+            3
+          ]
+        ]
+      },
+      "images.crops": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"딸기\"",
+            500
+          ]
+        ]
+      },
+      "images.leaf": {
+        "distinct_values_up_to_cap": 2,
+        "examples": [
+          [
+            "\"1\"",
+            473
+          ],
+          [
+            "\"0\"",
+            27
+          ]
+        ]
+      },
+      "images.plant_body": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"0\"",
+            454
+          ]
+        ]
+      },
+      "images.crops_id": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"C22_B02\"",
+            500
+          ]
+        ]
+      },
+      "images.fext": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"jpg\"",
+            500
+          ]
+        ]
+      },
+      "images.growth_stage": {
+        "distinct_values_up_to_cap": 2,
+        "examples": [
+          [
+            "\"정식기\"",
+            432
+          ],
+          [
+            "\"출뢰기\"",
+            68
+          ]
+        ]
+      },
+      "images.width": {
+        "distinct_values_up_to_cap": 198,
+        "examples": [
+          [
+            "\"1511\"",
+            110
+          ],
+          [
+            "\"1512\"",
+            46
+          ],
+          [
+            "\"1166\"",
+            38
+          ],
+          [
+            "\"1513\"",
+            8
+          ],
+          [
+            "\"1514\"",
+            6
+          ],
+          [
+            "\"1303\"",
+            6
+          ],
+          [
+            "\"1352\"",
+            6
+          ],
+          [
+            "\"1389\"",
+            5
+          ]
+        ]
+      },
+      "images.image_id": {
+        "distinct_values_up_to_cap": 500,
+        "examples": [
+          [
+            "34579",
+            1
+          ],
+          [
+            "414383",
+            1
+          ],
+          [
+            "414405",
+            1
+          ],
+          [
+            "414449",
+            1
+          ],
+          [
+            "414486",
+            1
+          ],
+          [
+            "414493",
+            1
+          ],
+          [
+            "414506",
+            1
+          ],
+          [
+            "414519",
+            1
+          ]
+        ]
+      },
+      "images.kind_type": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"금실\"",
+            500
+          ]
+        ]
+      },
+      "images.create_date": {
+        "distinct_values_up_to_cap": 5,
+        "examples": [
+          [
+            "\"2021-11-01\"",
+            354
+          ],
+          [
+            "\"2021-11-02\"",
+            120
+          ],
+          [
+            "\"2021-10-29\"",
+            23
+          ],
+          [
+            "\"2021-10-05\"",
+            2
+          ],
+          [
+            "\"2021-10-08\"",
+            1
+          ]
+        ]
+      },
+      "images.farm_id": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"AIF005\"",
+            500
+          ]
+        ]
+      },
+      "images.height": {
+        "distinct_values_up_to_cap": 179,
+        "examples": [
+          [
+            "\"2064\"",
+            158
+          ],
+          [
+            "\"1897\"",
+            44
+          ],
+          [
+            "\"1906\"",
+            8
+          ],
+          [
+            "\"1898\"",
+            8
+          ],
+          [
+            "\"1899\"",
+            8
+          ],
+          [
+            "\"2066\"",
+            6
+          ],
+          [
+            "\"1934\"",
+            4
+          ],
+          [
+            "\"1886\"",
+            4
+          ]
+        ]
+      },
+      "licenses[]": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"array_len=1\"",
+            500
+          ]
+        ]
+      },
+      "environments[]": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"array_len=2\"",
+            500
+          ]
+        ]
+      },
+      "annotations[]": {
+        "distinct_values_up_to_cap": 18,
+        "examples": [
+          [
+            "\"array_len=7\"",
+            100
+          ],
+          [
+            "\"array_len=6\"",
+            94
+          ],
+          [
+            "\"array_len=5\"",
+            80
+          ],
+          [
+            "\"array_len=8\"",
+            74
+          ],
+          [
+            "\"array_len=9\"",
+            43
+          ],
+          [
+            "\"array_len=4\"",
+            41
+          ],
+          [
+            "\"array_len=10\"",
+            26
+          ],
+          [
+            "\"array_len=3\"",
+            20
+          ]
+        ]
+      },
+      "growth_index.fr_weight": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "null",
+            500
+          ]
+        ]
+      },
+      "growth_index.measured_date": {
+        "distinct_values_up_to_cap": 3,
+        "examples": [
+          [
+            "null",
+            454
+          ],
+          [
+            "\"2021-09-08\"",
+            27
+          ],
+          [
+            "\"2021-09-15\"",
+            19
+          ]
+        ]
+      },
+      "growth_index.crops_id": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"C22_B02\"",
+            500
+          ]
+        ]
+      },
+      "growth_index.leaf_width": {
+        "distinct_values_up_to_cap": 5,
+        "examples": [
+          [
+            "null",
+            454
+          ],
+          [
+            "\"9\"",
+            19
+          ],
+          [
+            "\"10.4\"",
+            11
+          ],
+          [
+            "\"9.7\"",
+            10
+          ],
+          [
+            "\"8.7\"",
+            6
+          ]
+        ]
+      },
+      "growth_index.stem_thick": {
+        "distinct_values_up_to_cap": 5,
+        "examples": [
+          [
+            "null",
+            454
+          ],
+          [
+            "\"14.9\"",
+            21
+          ],
+          [
+            "\"11.4\"",
+            11
+          ],
+          [
+            "\"12\"",
+            8
+          ],
+          [
+            "\"12.8\"",
+            6
+          ]
+        ]
+      },
+      "growth_index.leaf_cnt": {
+        "distinct_values_up_to_cap": 3,
+        "examples": [
+          [
+            "null",
+            454
+          ],
+          [
+            "\"7\"",
+            36
+          ],
+          [
+            "\"6\"",
+            10
+          ]
+        ]
+      },
+      "growth_index.stem_length": {
+        "distinct_values_up_to_cap": 5,
+        "examples": [
+          [
+            "null",
+            454
+          ],
+          [
+            "\"43\"",
+            21
+          ],
+          [
+            "\"37.5\"",
+            11
+          ],
+          [
+            "\"26.5\"",
+            8
+          ],
+          [
+            "\"38\"",
+            6
+          ]
+        ]
+      },
+      "growth_index.leaf_length": {
+        "distinct_values_up_to_cap": 5,
+        "examples": [
+          [
+            "null",
+            454
+          ],
+          [
+            "\"13.3\"",
+            17
+          ],
+          [
+            "\"12.6\"",
+            11
+          ],
+          [
+            "\"12.9\"",
+            10
+          ],
+          [
+            "\"12\"",
+            8
+          ]
+        ]
+      },
+      "categories[]": {
+        "distinct_values_up_to_cap": 18,
+        "examples": [
+          [
+            "\"array_len=7\"",
+            100
+          ],
+          [
+            "\"array_len=6\"",
+            94
+          ],
+          [
+            "\"array_len=5\"",
+            80
+          ],
+          [
+            "\"array_len=8\"",
+            74
+          ],
+          [
+            "\"array_len=9\"",
+            43
+          ],
+          [
+            "\"array_len=4\"",
+            41
+          ],
+          [
+            "\"array_len=10\"",
+            26
+          ],
+          [
+            "\"array_len=3\"",
+            20
+          ]
+        ]
+      },
+      "images.fruit": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"0\"",
+            46
+          ]
+        ]
+      },
+      "images.grpoint": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"0\"",
+            46
+          ]
+        ]
+      },
+      "images.flower": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"0\"",
+            46
+          ]
+        ]
+      },
+      "images.stem": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"1\"",
+            46
+          ]
+        ]
+      },
+      "growth_index.fr2_cnt": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "null",
+            46
+          ]
+        ]
+      },
+      "growth_index.bloom2_date": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "null",
+            46
+          ]
+        ]
+      },
+      "growth_index.fr1_cnt": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "null",
+            46
+          ]
+        ]
+      },
+      "growth_index.fr3_cnt": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "null",
+            46
+          ]
+        ]
+      },
+      "growth_index.bloom3_date": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "null",
+            46
+          ]
+        ]
+      },
+      "growth_index.bloom1_date": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "null",
+            46
+          ]
+        ]
+      }
+    }
+  },
+  {
+    "archive": "TL_2.설향1.tar",
+    "bytes": 1432064,
+    "sha256": "46523d9e5a7edc0d32d4c567fbaf5989db2070ae6dee39ff435ac6a1bd57ed85",
+    "json_files": 500,
+    "member_names_first": [
+      "./C04_B01_09_16_001_748740.json",
+      "./C04_B01_09_16_001_748761.json",
+      "./C04_B01_09_16_001_748769.json",
+      "./C04_B01_09_16_001_748777.json"
+    ],
+    "source_snapshot_stable": true,
+    "tar_end_valid": true,
+    "provider_completion": "unknown",
+    "verified_scope": "bounded readable local snapshot only; not entire dataset completion",
+    "fields": {
+      "etc_infor.inform": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"\"",
+            500
+          ]
+        ]
+      },
+      "etc_infor.crops_id": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"C04_B01_09_16\"",
+            500
+          ]
+        ]
+      },
+      "etc_infor.create_date": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"\"",
+            500
+          ]
+        ]
+      },
+      "images.file_path": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"/099.지능형 수직농장 통합 데이터(딸기)/01.데이터/1.Training/원천데이터\"",
+            500
+          ]
+        ]
+      },
+      "images.fname": {
+        "distinct_values_up_to_cap": 500,
+        "examples": [
+          [
+            "\"C04_B01_09_16_001_748740.jpg\"",
+            1
+          ],
+          [
+            "\"C04_B01_09_16_001_748761.jpg\"",
+            1
+          ],
+          [
+            "\"C04_B01_09_16_001_748769.jpg\"",
+            1
+          ],
+          [
+            "\"C04_B01_09_16_001_748777.jpg\"",
+            1
+          ],
+          [
+            "\"C04_B01_09_16_001_748780.jpg\"",
+            1
+          ],
+          [
+            "\"C04_B01_09_16_001_748788.jpg\"",
+            1
+          ],
+          [
+            "\"C04_B01_09_16_001_748796.jpg\"",
+            1
+          ],
+          [
+            "\"C04_B01_09_16_001_748804.jpg\"",
+            1
+          ]
+        ]
+      },
+      "images.date_captured": {
+        "distinct_values_up_to_cap": 500,
+        "examples": [
+          [
+            "\"2021-08-29 15:04:31\"",
+            1
+          ],
+          [
+            "\"2021-08-28 06:04:31\"",
+            1
+          ],
+          [
+            "\"2021-08-28 07:04:31\"",
+            1
+          ],
+          [
+            "\"2021-08-28 08:04:31\"",
+            1
+          ],
+          [
+            "\"2021-08-28 09:04:31\"",
+            1
+          ],
+          [
+            "\"2021-08-28 10:04:31\"",
+            1
+          ],
+          [
+            "\"2021-08-28 11:04:31\"",
+            1
+          ],
+          [
+            "\"2021-08-28 12:04:31\"",
+            1
+          ]
+        ]
+      },
+      "images.crops": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"딸기\"",
+            500
+          ]
+        ]
+      },
+      "images.leaf": {
+        "distinct_values_up_to_cap": 2,
+        "examples": [
+          [
+            "\"1\"",
+            347
+          ],
+          [
+            "\"0\"",
+            153
+          ]
+        ]
+      },
+      "images.plant_body": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"0\"",
+            500
+          ]
+        ]
+      },
+      "images.crops_id": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"C04_B01_09_16\"",
+            500
+          ]
+        ]
+      },
+      "images.fext": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"jpg\"",
+            500
+          ]
+        ]
+      },
+      "images.growth_stage": {
+        "distinct_values_up_to_cap": 2,
+        "examples": [
+          [
+            "\"출뢰기\"",
+            411
+          ],
+          [
+            "\"정식기\"",
+            89
+          ]
+        ]
+      },
+      "images.width": {
+        "distinct_values_up_to_cap": 96,
+        "examples": [
+          [
+            "\"2563\"",
+            37
+          ],
+          [
+            "\"2322\"",
+            31
+          ],
+          [
+            "\"1631\"",
+            27
+          ],
+          [
+            "\"1571\"",
+            24
+          ],
+          [
+            "\"2318\"",
+            24
+          ],
+          [
+            "\"1630\"",
+            23
+          ],
+          [
+            "\"1562\"",
+            21
+          ],
+          [
+            "\"1569\"",
+            21
+          ]
+        ]
+      },
+      "images.image_id": {
+        "distinct_values_up_to_cap": 500,
+        "examples": [
+          [
+            "748740",
+            1
+          ],
+          [
+            "748761",
+            1
+          ],
+          [
+            "748769",
+            1
+          ],
+          [
+            "748777",
+            1
+          ],
+          [
+            "748780",
+            1
+          ],
+          [
+            "748788",
+            1
+          ],
+          [
+            "748796",
+            1
+          ],
+          [
+            "748804",
+            1
+          ]
+        ]
+      },
+      "images.kind_type": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"설향\"",
+            500
+          ]
+        ]
+      },
+      "images.create_date": {
+        "distinct_values_up_to_cap": 4,
+        "examples": [
+          [
+            "\"2022-01-07\"",
+            199
+          ],
+          [
+            "\"2022-01-10\"",
+            154
+          ],
+          [
+            "\"2022-01-12\"",
+            103
+          ],
+          [
+            "\"2022-01-11\"",
+            44
+          ]
+        ]
+      },
+      "images.farm_id": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"AIF006\"",
+            500
+          ]
+        ]
+      },
+      "images.height": {
+        "distinct_values_up_to_cap": 52,
+        "examples": [
+          [
+            "\"2647\"",
+            74
+          ],
+          [
+            "\"2136\"",
+            67
+          ],
+          [
+            "\"1893\"",
+            48
+          ],
+          [
+            "\"1898\"",
+            45
+          ],
+          [
+            "\"2100\"",
+            41
+          ],
+          [
+            "\"1895\"",
+            24
+          ],
+          [
+            "\"1891\"",
+            24
+          ],
+          [
+            "\"1870\"",
+            22
+          ]
+        ]
+      },
+      "licenses[]": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"array_len=1\"",
+            500
+          ]
+        ]
+      },
+      "environments[]": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"array_len=2\"",
+            500
+          ]
+        ]
+      },
+      "annotations[]": {
+        "distinct_values_up_to_cap": 10,
+        "examples": [
+          [
+            "\"array_len=2\"",
+            106
+          ],
+          [
+            "\"array_len=3\"",
+            82
+          ],
+          [
+            "\"array_len=5\"",
+            81
+          ],
+          [
+            "\"array_len=4\"",
+            56
+          ],
+          [
+            "\"array_len=1\"",
+            51
+          ],
+          [
+            "\"array_len=6\"",
+            49
+          ],
+          [
+            "\"array_len=7\"",
+            49
+          ],
+          [
+            "\"array_len=8\"",
+            22
+          ]
+        ]
+      },
+      "growth_index.fr_weight": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "null",
+            500
+          ]
+        ]
+      },
+      "growth_index.measured_date": {
+        "distinct_values_up_to_cap": 9,
+        "examples": [
+          [
+            "null",
+            439
+          ],
+          [
+            "\"2021-09-08\"",
+            11
+          ],
+          [
+            "\"2021-10-28\"",
+            11
+          ],
+          [
+            "\"2021-09-29\"",
+            10
+          ],
+          [
+            "\"2021-10-20\"",
+            10
+          ],
+          [
+            "\"2021-10-06\"",
+            9
+          ],
+          [
+            "\"2021-09-23\"",
+            6
+          ],
+          [
+            "\"2021-09-01\"",
+            3
+          ]
+        ]
+      },
+      "growth_index.crops_id": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "\"C04_B01_09_16\"",
+            500
+          ]
+        ]
+      },
+      "growth_index.leaf_width": {
+        "distinct_values_up_to_cap": 6,
+        "examples": [
+          [
+            "null",
+            439
+          ],
+          [
+            "\"7.5\"",
+            21
+          ],
+          [
+            "\"7\"",
+            15
+          ],
+          [
+            "\"8\"",
+            14
+          ],
+          [
+            "\"9\"",
+            10
+          ],
+          [
+            "\"8.5\"",
+            1
+          ]
+        ]
+      },
+      "growth_index.stem_thick": {
+        "distinct_values_up_to_cap": 9,
+        "examples": [
+          [
+            "null",
+            439
+          ],
+          [
+            "\"1.94\"",
+            11
+          ],
+          [
+            "\"4.15\"",
+            11
+          ],
+          [
+            "\"2.63\"",
+            10
+          ],
+          [
+            "\"2.73\"",
+            10
+          ],
+          [
+            "\"2.68\"",
+            9
+          ],
+          [
+            "\"2.44\"",
+            6
+          ],
+          [
+            "\"1.92\"",
+            3
+          ]
+        ]
+      },
+      "growth_index.leaf_cnt": {
+        "distinct_values_up_to_cap": 9,
+        "examples": [
+          [
+            "null",
+            439
+          ],
+          [
+            "\"11\"",
+            11
+          ],
+          [
+            "\"17\"",
+            11
+          ],
+          [
+            "\"12\"",
+            10
+          ],
+          [
+            "\"16\"",
+            10
+          ],
+          [
+            "\"15\"",
+            9
+          ],
+          [
+            "\"8\"",
+            6
+          ],
+          [
+            "\"10\"",
+            3
+          ]
+        ]
+      },
+      "growth_index.stem_length": {
+        "distinct_values_up_to_cap": 8,
+        "examples": [
+          [
+            "null",
+            439
+          ],
+          [
+            "\"21\"",
+            11
+          ],
+          [
+            "\"29\"",
+            11
+          ],
+          [
+            "\"25.6\"",
+            11
+          ],
+          [
+            "\"30.5\"",
+            10
+          ],
+          [
+            "\"27\"",
+            9
+          ],
+          [
+            "\"28\"",
+            6
+          ],
+          [
+            "\"19\"",
+            3
+          ]
+        ]
+      },
+      "growth_index.leaf_length": {
+        "distinct_values_up_to_cap": 5,
+        "examples": [
+          [
+            "null",
+            439
+          ],
+          [
+            "\"9\"",
+            27
+          ],
+          [
+            "\"8\"",
+            21
+          ],
+          [
+            "\"8.5\"",
+            12
+          ],
+          [
+            "\"10\"",
+            1
+          ]
+        ]
+      },
+      "categories[]": {
+        "distinct_values_up_to_cap": 10,
+        "examples": [
+          [
+            "\"array_len=2\"",
+            106
+          ],
+          [
+            "\"array_len=3\"",
+            82
+          ],
+          [
+            "\"array_len=5\"",
+            81
+          ],
+          [
+            "\"array_len=4\"",
+            56
+          ],
+          [
+            "\"array_len=1\"",
+            51
+          ],
+          [
+            "\"array_len=6\"",
+            49
+          ],
+          [
+            "\"array_len=7\"",
+            49
+          ],
+          [
+            "\"array_len=8\"",
+            22
+          ]
+        ]
+      },
+      "growth_index.leaf_index": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "null",
+            61
+          ]
+        ]
+      },
+      "growth_index.spad": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "null",
+            61
+          ]
+        ]
+      },
+      "growth_index.petiole_length": {
+        "distinct_values_up_to_cap": 1,
+        "examples": [
+          [
+            "null",
+            61
+          ]
+        ]
+      }
+    }
+  }
+]

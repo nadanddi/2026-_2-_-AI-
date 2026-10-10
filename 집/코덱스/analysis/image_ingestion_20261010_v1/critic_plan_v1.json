@@ -1,0 +1,28 @@
+{
+  "stage": "ingestion execution plan v1",
+  "verdict": "Small bounded TL snapshot gate acceptable after two clarifications",
+  "scope": "Plan text only; no TL/TS payload, model weights or runtime executed",
+  "required_before_execution": [
+    {
+      "issue": "Tool read caps do not bound Google Drive internal prefetch/network hydration",
+      "tar_rule": "Validate header checksum/member extents/end markers/nonzero trailing data; extension and sparse/link formats must be explicitly refused or identically constrained. Do not accept an empty archive as useful JSON readiness.",
+      "correction": "Guarantee only direct source-read/local-copy cap4MiB each and8MiB total; report provider completion and true transfer amounts unknown. Enforce byte/EOF/pre-post stat checks and exclusive new destination creation.",
+      "id": "E1"
+    },
+    {
+      "issue": "10GiB environment budget excludes uncontrolled pip temp/cache unless scoped explicitly",
+      "correction": "Put wheel download, pip cache and scoped TEMP/TMP in own local run. Before installing compute downloaded wheel bytes plus ZIP unpacked package bytes plus staging reserve; verify total10GiB and free30GiB gates. Log post-install actual usage and stop new operations if reserve violated.",
+      "id": "E2"
+    }
+  ],
+  "appropriate": [
+    "Unknown completion reported only as validated working snapshot",
+    "SmallTL snapshots before TS payload opening",
+    "IRX/zero/part exclusions",
+    "No extractall or source modifications",
+    "JSON/member size and count bounds",
+    "No image training or locked-family visual inspection before group interpretation",
+    "Isolated venv and dummy tensor runtime test distinguished from actual model evaluation"
+  ],
+  "followup": "Review copy/parser and runtime acquisition code, then snapshot schema/count evidence before authorizing any selected TS scanning."
+}

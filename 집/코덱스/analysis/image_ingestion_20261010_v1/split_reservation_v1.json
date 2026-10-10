@@ -1,0 +1,31 @@
+{
+  "scope": "metadata-only reservation and proposed development farm CV; no augmentation/training yet",
+  "reserved_evaluation_farms": [
+    "AIF014",
+    "AIF015"
+  ],
+  "independent_confirmation_ready": false,
+  "reservation_limits": [
+    "two held-out farms only",
+    "gold cultivar has only one farm",
+    "cross-farm duplicate/lineage audit pending",
+    "separate evaluation QA owner pending"
+  ],
+  "public_development_diagnostic_farm": "AIF004",
+  "development_farm_folds": {
+    "AIF005": 0,
+    "AIF013": 0,
+    "AIF010": 1,
+    "AIF007": 1,
+    "AIF012": 2,
+    "AIF006": 2
+  },
+  "fold0_gold_training_count": 0,
+  "prefix_candidate_meaning": "unverified; farm-level split used conservatively",
+  "metadata_sha256": "d61495017811744631a7ca6d26b47d2505bc8ff4a517bf46143f21a2f215557c",
+  "roles": {
+    "development_CV": 93551,
+    "reserved_evaluation": 23058,
+    "public_dev_diagnostic": 18580
+  }
+}

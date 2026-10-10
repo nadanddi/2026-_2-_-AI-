@@ -1,0 +1,37 @@
+{
+  "stage": "First two TL ingestion midpoint",
+  "scope": "Read plans/parser and local recorded JSON only; no TS payload, images or models",
+  "independently_recounted": {
+    "two_TL_bytes": 3160064,
+    "per_archive": 500,
+    "records": 1000,
+    "AIF005_Geumsil": 500,
+    "listed_TL_count": 271,
+    "listed_TL_bytes": 478776832,
+    "AIF006_Seolhyang": 500
+  },
+  "interpretation": "Two selected archives perfectly confound cultivar and farm; this is not a claim about all271 archives",
+  "important_fixes": [
+    {
+      "fix": "Keep exact core-key aggregates separately, cap examples only, report truncation/skipped/present/null/blank/absent counts",
+      "issue": "Counter cap stops all counting once1000 distinct values reached, including repeated known values",
+      "id": "M1"
+    },
+    {
+      "fix": "Explicit type/range/date validation, duplicate JSON key and nonfinite-value policy; do not claim bbox/category QA yet",
+      "issue": "Flatten records only array lengths; schema validity and annotations content not audited",
+      "id": "M2"
+    },
+    {
+      "fix": "Assert useful JSON count>0; reject or bound PAX/GNU/sparse extensions; detect canonical ./name vs name collisions; distinguish structural parsing from authenticated supplier integrity",
+      "issue": "Archive extension headers and normalized duplicate names not fully covered by current tarfile member loop; files0 allowed",
+      "id": "M3"
+    },
+    {
+      "fix": "Stream normalized rows; preserve every archive accepted/deferred/failed status, denominators and rawarchive/content hash provenance; apply total600MiB direct-read and1GiB cache gates before each archive",
+      "issue": "Full TL readiness/size failures may systematically omit certain farms/cultivars",
+      "id": "M4"
+    }
+  ],
+  "next": "Full bounded TL metadata census is appropriate after parser/counter fixes, without TS opening. Build farm by cultivar table and mark filename-prefix group identities provisional before defining splits."
+}

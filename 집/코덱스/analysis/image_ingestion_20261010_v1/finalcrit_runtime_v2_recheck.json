@@ -1,0 +1,38 @@
+{
+  "stage": "Runtime v2 corrective recheck",
+  "verdict": "PASS for synthetic basic training-operation smoke and isolated numeric-package paths",
+  "corrected": [
+    "After unscale all present gradients asserted finite",
+    "FC weights changed and AdamW state step1 in both batch2/4 logs",
+    "GradScaler scale65536 unchanged, optimizer step confirmed",
+    "Torch/vision/numpy/PIL preloaded from isolated venv and fixed launcher used",
+    "Venv pipcheck returncode0 andstderrblank retained",
+    "Actual storage includes staged ImageNet initialization"
+  ],
+  "independent_checks": {
+    "all4_module_files_exist_and_under_ownvenv": true,
+    "asset_byte_size": 46830571,
+    "storage_remaining_arithmetic": true,
+    "asset_size_and_SHA_equal": true
+  },
+  "storage": {
+    "total_bytes": 9913846670,
+    "budget_bytes": 10737418240,
+    "remaining_bytes": 823571570
+  },
+  "high_remaining_risks": [
+    "Scene/plant prefix meanings and full cross-farm image/derivative lineage audit pending",
+    "All6 positive types and unseen generator families not manufactured or validated",
+    "Seolhyang magenta4 selection and one-farm-only gold confounding restrict representativeness",
+    "Reserved2farm evaluation not independent confirmation-ready; separateQA owner and adequate units pending",
+    "Budget leaves less than1GiB; next materialization/generator/model staging requires new budget version"
+  ],
+  "scope_limits": [
+    "Synthetic random-weight tensor steps only, not actual image training",
+    "Actual dataset first batch, mixed labels, sampler, accumulation4 and data-loader memory not tested",
+    "No warmup throughput estimate or524image300sec compliance",
+    "Official ImageNet asset staged, not fitted or teammate model",
+    "Repository env bootstrap still shared source: freeze script/module-path manifests before first fit"
+  ],
+  "next": "Phase1 report is justified. Next grouping/source sampling and genuine-generative feasibility/budget design precede6-type manufacture; real-image fit requires separate registered first-batch and performance validation."
+}

@@ -1,0 +1,311 @@
+{
+  "pairs": [
+    {
+      "source": "C22_B02_007_437144.jpg",
+      "farm": "AIF005",
+      "cultivar": "금실",
+      "parent_sha256": "fa72f05bb8354d8d71ba5863b208cee2d11bfc5e53af2fdc8b1224f992d2082c",
+      "prefix_candidate_unverified": "C22_B02_007",
+      "label_provenance": "source original from user-provided AIHub raw archive vs intentional filter operation",
+      "positive_type": "filter",
+      "method": "intent_gaussian_blur",
+      "params": {
+        "sigma_px": 1.0
+      },
+      "common_export": {
+        "longside_limit": 1024,
+        "format": "JPEG",
+        "quality": 90,
+        "subsampling": 2,
+        "label_independent": true
+      },
+      "output": [
+        {
+          "label": 0,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_00_0.jpg",
+          "sha256": "aea057a3107c80a6d50ced8811a238d16d3d5bcea8f83624490dea1243e6064f"
+        },
+        {
+          "label": 1,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_00_1.jpg",
+          "sha256": "224edac356385e51f19dcfdfcf2bcf5092da9f9fe9ee3206d74d81ec5380ddf2"
+        }
+      ],
+      "changed_pixels": 475324,
+      "pixel_count": 556032,
+      "mean_absolute_final_RGB_delta": 3.762840987569061,
+      "withheld": false,
+      "scope": "training pipeline QA only; not benchmark or six-type coverage"
+    },
+    {
+      "source": "C22_B02_007_568569.jpg",
+      "farm": "AIF005",
+      "cultivar": "금실",
+      "parent_sha256": "f05e06b27eb842e9d3d77dcadaf5b1a0ac466b2d2e5bda6251e63a55b4af04f3",
+      "prefix_candidate_unverified": "C22_B02_007",
+      "label_provenance": "source original from user-provided AIHub raw archive vs intentional filter operation",
+      "positive_type": "filter",
+      "method": "intent_gaussian_noise",
+      "params": {
+        "sd_0_255": 5,
+        "seed": 20261011
+      },
+      "common_export": {
+        "longside_limit": 1024,
+        "format": "JPEG",
+        "quality": 90,
+        "subsampling": 2,
+        "label_independent": true
+      },
+      "output": [
+        {
+          "label": 0,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_01_0.jpg",
+          "sha256": "93fed22a930f9fc34564a5a1921861650193c215d213fa9cba63526815b5b824"
+        },
+        {
+          "label": 1,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_01_1.jpg",
+          "sha256": "d4c3d7a10bdbbe16727cd8f140ddcd2f9b14910f199c646e4d21be551bce349d"
+        }
+      ],
+      "changed_pixels": 522328,
+      "pixel_count": 535552,
+      "mean_absolute_final_RGB_delta": 3.240374417423518,
+      "withheld": false,
+      "scope": "training pipeline QA only; not benchmark or six-type coverage"
+    },
+    {
+      "source": "C22_B02_007_635333.jpg",
+      "farm": "AIF005",
+      "cultivar": "금실",
+      "parent_sha256": "599299fdedfaaefd61c003381fea02ce5a06186f5e343e7e0d9754fbe84dc782",
+      "prefix_candidate_unverified": "C22_B02_007",
+      "label_provenance": "source original from user-provided AIHub raw archive vs intentional filter operation",
+      "positive_type": "filter",
+      "method": "intent_salt_pepper",
+      "params": {
+        "probability": 0.002,
+        "seed": 20261012
+      },
+      "common_export": {
+        "longside_limit": 1024,
+        "format": "JPEG",
+        "quality": 90,
+        "subsampling": 2,
+        "label_independent": true
+      },
+      "output": [
+        {
+          "label": 0,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_02_0.jpg",
+          "sha256": "b63010fd47aa5baeab1d445d490e9e0b38789de54eaba364253d8ca690bdefbb"
+        },
+        {
+          "label": 1,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_02_1.jpg",
+          "sha256": "d36e38d97cb639a9234d16c43da8a56e717264db8d2c40ed9df3c5083416ed67"
+        }
+      ],
+      "changed_pixels": 134162,
+      "pixel_count": 817152,
+      "mean_absolute_final_RGB_delta": 0.710241587040518,
+      "withheld": false,
+      "scope": "training pipeline QA only; not benchmark or six-type coverage"
+    },
+    {
+      "source": "C22_B02_007_781949.jpg",
+      "farm": "AIF005",
+      "cultivar": "금실",
+      "parent_sha256": "d6423820d8bbbbfb0b92c643af52b3e02645646e601e9097b7532dcd68ca6536",
+      "prefix_candidate_unverified": "C22_B02_007",
+      "label_provenance": "source original from user-provided AIHub raw archive vs intentional filter operation",
+      "positive_type": "filter",
+      "method": "intent_JPEG",
+      "params": {
+        "inner_quality": 60,
+        "inner_subsampling": 2
+      },
+      "common_export": {
+        "longside_limit": 1024,
+        "format": "JPEG",
+        "quality": 90,
+        "subsampling": 2,
+        "label_independent": true
+      },
+      "output": [
+        {
+          "label": 0,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_03_0.jpg",
+          "sha256": "9b88e4d6d825ce9ec2dee677010d4582a3e0a0ecc7f8506b8366d33f3615e358"
+        },
+        {
+          "label": 1,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_03_1.jpg",
+          "sha256": "cdb62b4a4af493612cdda56803f3e444e058366a9467e5decd38611223bf623c"
+        }
+      ],
+      "changed_pixels": 733570,
+      "pixel_count": 784384,
+      "mean_absolute_final_RGB_delta": 2.349008478840296,
+      "withheld": false,
+      "scope": "training pipeline QA only; not benchmark or six-type coverage"
+    },
+    {
+      "source": "C06_B01_25_32_001_771530.jpg",
+      "farm": "AIF006",
+      "cultivar": "설향",
+      "parent_sha256": "65a2967b08298f21872852571a290417b0231d9fdb65df58a422774bba3b0e45",
+      "prefix_candidate_unverified": "C06_B01_25_32_001",
+      "label_provenance": "source original from user-provided AIHub raw archive vs intentional filter operation",
+      "positive_type": "filter",
+      "method": "intent_gaussian_blur",
+      "params": {
+        "sigma_px": 1.0
+      },
+      "common_export": {
+        "longside_limit": 1024,
+        "format": "JPEG",
+        "quality": 90,
+        "subsampling": 2,
+        "label_independent": true
+      },
+      "output": [
+        {
+          "label": 0,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_04_0.jpg",
+          "sha256": "7607009ccf4dfbcd1cda6d3c67a8f86a524b78362dd94f584329ca960aded001"
+        },
+        {
+          "label": 1,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_04_1.jpg",
+          "sha256": "aed60bc3e663700e3330b7daab0628788cd9370381036d5f51c4c4bd21c9768e"
+        }
+      ],
+      "changed_pixels": 847525,
+      "pixel_count": 905216,
+      "mean_absolute_final_RGB_delta": 4.2689969392204,
+      "withheld": false,
+      "scope": "training pipeline QA only; not benchmark or six-type coverage"
+    },
+    {
+      "source": "C04_B01_09_16_006_782723.jpg",
+      "farm": "AIF006",
+      "cultivar": "설향",
+      "parent_sha256": "3e233e400a17feb1b907185dfb2d0cad1194bb5f193480110a05133614561c21",
+      "prefix_candidate_unverified": "C04_B01_09_16_006",
+      "label_provenance": "source original from user-provided AIHub raw archive vs intentional filter operation",
+      "positive_type": "filter",
+      "method": "intent_gaussian_noise",
+      "params": {
+        "sd_0_255": 5,
+        "seed": 20261015
+      },
+      "common_export": {
+        "longside_limit": 1024,
+        "format": "JPEG",
+        "quality": 90,
+        "subsampling": 2,
+        "label_independent": true
+      },
+      "output": [
+        {
+          "label": 0,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_05_0.jpg",
+          "sha256": "b1f41fddf519d247142e8ca7e2912cf2956cc62cac8d7e02a7512784ffe2cbb2"
+        },
+        {
+          "label": 1,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_05_1.jpg",
+          "sha256": "96df3b48a784cb6f050b77e8c3c33f31222390e555c91c700af32992ee67f4ab"
+        }
+      ],
+      "changed_pixels": 923814,
+      "pixel_count": 941056,
+      "mean_absolute_final_RGB_delta": 3.23279663130214,
+      "withheld": false,
+      "scope": "training pipeline QA only; not benchmark or six-type coverage"
+    },
+    {
+      "source": "C04_B01_09_16_006_788214.jpg",
+      "farm": "AIF006",
+      "cultivar": "설향",
+      "parent_sha256": "c1cdec8f3430d45571c520a75e65b97ad4efda4801ce296c8ede456ddb4a8f55",
+      "prefix_candidate_unverified": "C04_B01_09_16_006",
+      "label_provenance": "source original from user-provided AIHub raw archive vs intentional filter operation",
+      "positive_type": "filter",
+      "method": "intent_salt_pepper",
+      "params": {
+        "probability": 0.002,
+        "seed": 20261016
+      },
+      "common_export": {
+        "longside_limit": 1024,
+        "format": "JPEG",
+        "quality": 90,
+        "subsampling": 2,
+        "label_independent": true
+      },
+      "output": [
+        {
+          "label": 0,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_06_0.jpg",
+          "sha256": "e3626555303a9cceed0e194d5e0d158caca362bf6f1d3fa170ffc46a457ba67d"
+        },
+        {
+          "label": 1,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_06_1.jpg",
+          "sha256": "ad89043c646c53d2d1f98fde8ec5392ab99e1f8afe1ab53491cc3d7b1265f6af"
+        }
+      ],
+      "changed_pixels": 243605,
+      "pixel_count": 792576,
+      "mean_absolute_final_RGB_delta": 0.8398904332202842,
+      "withheld": false,
+      "scope": "training pipeline QA only; not benchmark or six-type coverage"
+    },
+    {
+      "source": "C04_B01_09_16_006_815409.jpg",
+      "farm": "AIF006",
+      "cultivar": "설향",
+      "parent_sha256": "0ac14bf001adc582d3f5545709b75678c2008490e331bd49dc13b9af950ea09e",
+      "prefix_candidate_unverified": "C04_B01_09_16_006",
+      "label_provenance": "source original from user-provided AIHub raw archive vs intentional filter operation",
+      "positive_type": "filter",
+      "method": "intent_JPEG",
+      "params": {
+        "inner_quality": 60,
+        "inner_subsampling": 2
+      },
+      "common_export": {
+        "longside_limit": 1024,
+        "format": "JPEG",
+        "quality": 90,
+        "subsampling": 2,
+        "label_independent": true
+      },
+      "output": [
+        {
+          "label": 0,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_07_0.jpg",
+          "sha256": "0c000406b9cecf04318d4119f861d6fc7f82903d61d0117bf0c9eecba9316e41"
+        },
+        {
+          "label": 1,
+          "path": "C:\\work\\farmai\\집\\코덱스\\local\\image_ingestion_20261010_v1\\filter_pipeline_qa_v1\\qa_07_1.jpg",
+          "sha256": "2e5a4d03ba77010ad54bd31d6acb3ea2547eb26782a8976fe5dd3998e83d55ec"
+        }
+      ],
+      "changed_pixels": 986296,
+      "pixel_count": 1018880,
+      "mean_absolute_final_RGB_delta": 3.218218697654941,
+      "withheld": false,
+      "scope": "training pipeline QA only; not benchmark or six-type coverage"
+    }
+  ],
+  "real": 8,
+  "filter_positive": 8,
+  "coverage": "filter subtype only; other five positive types not made",
+  "training": false,
+  "evaluation": false
+}

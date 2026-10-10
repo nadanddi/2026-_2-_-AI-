@@ -1,0 +1,76 @@
+{
+  "checks": {
+    "rows_csv_equal_profile": true,
+    "rows_sql_equal_csv": true,
+    "cross_sql_equal_profile": true,
+    "archive_sum_equal_rows": true,
+    "archive_bytes_sum_equal_read": true,
+    "fname_duplicate_sql_equal": true,
+    "sha_equal": true
+  },
+  "csv_rows": 135189,
+  "farms": 9,
+  "cultivar_counts": {
+    "금실": 24346,
+    "설향": 110843
+  },
+  "archive_count": 271,
+  "gold_farms": [
+    "AIF005"
+  ],
+  "farm_cultivar_rows": [
+    {
+      "farm": "AIF004",
+      "cultivar": "설향",
+      "rows": 18580
+    },
+    {
+      "farm": "AIF005",
+      "cultivar": "금실",
+      "rows": 24346
+    },
+    {
+      "farm": "AIF005",
+      "cultivar": "설향",
+      "rows": 1041
+    },
+    {
+      "farm": "AIF006",
+      "cultivar": "설향",
+      "rows": 8812
+    },
+    {
+      "farm": "AIF007",
+      "cultivar": "설향",
+      "rows": 5230
+    },
+    {
+      "farm": "AIF010",
+      "cultivar": "설향",
+      "rows": 23353
+    },
+    {
+      "farm": "AIF012",
+      "cultivar": "설향",
+      "rows": 17037
+    },
+    {
+      "farm": "AIF013",
+      "cultivar": "설향",
+      "rows": 13732
+    },
+    {
+      "farm": "AIF014",
+      "cultivar": "설향",
+      "rows": 12731
+    },
+    {
+      "farm": "AIF015",
+      "cultivar": "설향",
+      "rows": 10327
+    }
+  ],
+  "schema_metadata_only": true,
+  "bbox_not_checked": true,
+  "independent_scene_count_unknown": true
+}

@@ -1,0 +1,8 @@
+수신 진단 실행 사전등록 v1 — 2026-10-10 집 코덱스
+사용자 진행해 지시로 데이터 진단/환경 준비를 시작. 팀원 v5와 weights는 참고 전용, 본 실행에서 사용0.
+범위: archive 외부 metadata 전량 목록; TL금실1+TL설향1 각<=4MiB bounded 로컬복사로 완결구조 검증 후 JSON프로파일. 완결 여부 unknown파일은 정상완료라고 보고하지 않고 읽기성공/정규tar종결/안정stat로 작업스냅샷만 인정.
+PLAN_v8 오프라인 gate의 구체화: 작은 TL한개를명시적byte상한으로로컬복사하여 읽기가능스냅샷 확보. 온라인상태 unknown이면 가능한 hydration은 그TL전체byte까지만 허용. TS원본은 이 게이트가 끝날때까지 열지 않음. 모든IRX임시/zero/part 파일 제외. 복사전후size+mtime불변,copybyte완전일치,tarchecksum와memberextent/종결 검사,JSON전량파싱. 불일치면원본수정X/처리보류.
+원본 그룹·품종 의미를 metadata로 확인할 때까지훈련/증강금지. 평가계보후보 이미지 시각 열람0. TL모든회원은 maxJSON1MiB,membercount5000한도. 경로탈출/링크/중복명 차단,extractall사용금지. 기록은소스archive+member+내용SHA(로컬한정).
+신규환경은집/코덱스/local/image_runtime_20261010_v1/venv에분리. pip공식CUDAwheel 고정버전선택,다른AI/공용패키지수정X. 패키지+캐시+QA전체신규로컬10GiB상한,30GiB여유예산/20GiB중지. torch없으므로설치후 CUDA연산·ResNet18 dummy tensor forward/backward와VRAM만측정(실제모델학습성능 아님).
+중간비평:두TL의schema/count/농장·개체·시간·품종/TLTSname매핑을검토후TS읽기상한선택. 실제전송중인TS108/109등은사용하지않음.
+완료판정:metadata inventory,읽은TL두파일의구조완결성·JSON손상/ID범위·그룹해석가능성,런타임CUDA증거. 부족하면정상완료주장X. 후속이미지진단은별도group예약과한개localTS전량비용예산을등록한뒤계속.

@@ -1,0 +1,36 @@
+이미지 미션 실행 1단계 기록 v2 — 2026-10-10 집 코덱스
+상태: 실제 작업 수행. 원본 수신 전체완료/여섯유형 제작/실데이터 분류모델 학습/채택/제출 완료를 뜻하지 않음.
+
+완료한 것
+1. 수신 폴더의 Training 라벨 TAR 271개를 제한된 읽기 스냅샷으로 검사했다. JSON 135189개: 금실24346/설향110843,농장9개. TAR/JSON구조검사오류0·파일명중복초과0. 읽은라벨478776832byte. 원본이미지전체decode/중복영상감사/주석bbox검사는미실행. 이는현재Training수신라벨범위이며전체AIHub자료크기나원본수신완료수와다르다.
+2. 금실의농장은AIF005하나뿐이다. AIF005에는설향1041개도있다. 금실품종효과와해당농장효과를분리하거나금실의새농장확증을할수없다. CSV/SQLite7검산과별도비평가PowerShell재집계일치.
+3. AIF014/AIF015를미시각평가용으로예약하고AIF004는공개개발진단으로분리했다. 나머지6농장의3fold개발안등록. AIF005holdoutfold는훈련금실0이라는특수조건. 예약2농장의23058행은독립농장2개일뿐확증정밀도충족증거아님. 농장ID분리만으로계보독립성증명X,자동근접/공여자감사와별도평가QA담당아직필요.
+4. TS금실12+TS설향10 로컬스냅샷총1404267008byte 검사,각500이미지member와라벨1:1대응/누락·추가0. selected8이미지만decode,원본JPG10270806byte/14767483pixels,그8개의metadata규격불일치0. 독립이미지8그룹이아님:금실prefix1·설향prefix2의반복시점사진. prefix개체의미미확정. copiedpayload1404267008byte와EOF1byte×2읽기시도상한1404267010byte를구분.
+5. 학습영역실제8+의도필터8 제작(총16). blur/noise/saltpepper/JPEG각품종당1씩. 양라벨공통비율보존longside<=1024/JPEG90. 전후픽셀차이8쌍모두비영/보류0. 독립비평가원본8+output16SHA·pixel차이재검산일치. 공식고정해상도계약검증이나전체6유형56파일완료가아님. 자연필터효과를label1로기계분류하지않고제작이력으로라벨부여.
+6. RTX4050Laptop6141MiB/Python3.12/torch2.7.1cu126/vision.22.1 설치. 384synthetic입력AMP batch2/4에서finitegradient·fc파라미터변화·AdamWstep1/scale skip없음·CPU유한출력 확인. 실데이터학습/정확도측정0. 단회dummy시간/메모리로학습처리량·규정300초추정X. 공식ImageNetResNet18초기화46830571byte만확보(우리학습모델X). 설치후원본캐시+venv+wheels+assets합9913846670byte로10GiB예산내,후속확대는새자원예산등록필요.
+
+비평가 지적과 적용한 수정
+- Drive파일존재/크기와완료혼동:직접읽기상한및providerunknown구분,TLsmall snapshot→전체TL→예산내TS순서/임시원본제외.
+- 유일값cap때문에count누락가능:핵심metadata정확집계와absent/null/blank/present별로그,CSV/SQL독립검산.
+- TAR/JSON검사부족:정규화중복경로·checksum·extent·종결·empty·확장형식거부·JSON중복키/비유한값거부. 실패archive보류로그구현,전량이번오류0.
+- 독립성·농장품종혼재:사진수와독립농장수분리,학습/평가예약·두농장조건부한계/금실외부검증불가등록.
+- AMP실업데이트미확인:새smoke_v2에서unscale후grad유한·파라미터변경·optimizerstep검사.
+- 공용numericmodule혼입:ownvenv패키지를먼저load하는고정launcher등록후v2검사. numpy2.5.2/PIL12.3/torch·vision모두ownvenv경로확인. pipcheck는venv설치정보검사만.
+
+데이터에서 확인한 다음 문제
+선택설향4에강한자홍색cast관찰,원인LED/품종/농장확정X. 전체설향대표성X. 색만위조단서가되지않도록다른farm·조명/색층의real과pairedpositive균형진단필요. 기존340녹색샘플만으로실제분포를대표할수없음.
+원본출처는공식AIHub596의카메라시간간격생육수집설명과현재20260807원천배포구조로보강. 개별전량무변형감정/라이선스CC추정X.
+
+다음 순서
+1. 완료된원본묶음을농장·촬영구도·색층·생육단계별선택해scene/개체후보를검증하고,평가농장자동중복감사를개발시각열람없이설계한다.
+2. 실제생성/전체스타일/부분생성/부분스타일및합성을각제작이력으로확보. 현재필터만있으므로고전필터로여섯유형을채운척하지않음. 생성기/recipe·확장자/워터마크편향QA.
+3. 첫실학습전fold/metric/guard/seed/모듈경로/자료·recipe hash동결,첫QA/seed결과독립비평후3seed자체B1학습. prototype실행도일반화성공으로보고하지않는다.
+팀원v5weights/0.77은계속참고전용,본실행사용0. 사용자원본이동·삭제·다운로드중단0. 실데이터모델학습/점수/제출0.
+
+근거
+inventory_v1.json,metadata_all_v1.csv,metadata_all_profile_v1.json,verification_v1.json,split_reservation_v1.json/rows.csv,source_qa_v1.json,filter_pipeline_qa_v1.json,critic_*json,runtime_smoke_v2.json,runtime_actual_storage_v2.json,pretrained_asset_v1.json.
+공식출처 https://www.aihub.or.kr/aihubdata/data/view.do?currMenu=115&dataSetSn=596&topMenu=100
+공식설치버전 https://pytorch.org/get-started/previous-versions/
+
+최종반영: finalcrit_runtime_v2_recheck.json PASS. 고정실행기는 PowerShell 인자내따옴표의존을없앤 run_image_runtime_v2.ps1로새버전생성,별도 runtime_launcher_probe_v1.json로숫자라이브러리모두ownvenv로드실행확인. 계획/중간/최종비평에서확인한수정만적용했고실데이터분류모델완성주장없음.
+

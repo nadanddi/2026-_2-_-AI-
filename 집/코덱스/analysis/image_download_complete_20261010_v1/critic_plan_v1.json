@@ -1,0 +1,32 @@
+{
+  "stage": "Download-complete Validation metadata audit plan",
+  "verdict": "PASS for bounded label-only audit with preregistration clarifications",
+  "fatal_blockers": [],
+  "appropriate": [
+    "User download-completion report distinguished from provider status and payload integrity",
+    "TrainingTS/TL271 andValidationVS/VL35 are directory metadata only",
+    "Only VL35 planned payload reads59033600bytes, per archive4MiB and cumulative128MiB",
+    "No large source reads, image visualization, model training or submission",
+    "No assumption that supplied Validation is an independent test"
+  ],
+  "before_execution": [
+    {
+      "id": "D1",
+      "requirement": "Freeze first2 VL filenames before inspecting content, preferably one cultivar each; cumulative read cap includes retry andEOF probes. Check combined local runtime/wheel/TEMP/cache/task totals before each archive."
+    },
+    {
+      "id": "D2",
+      "requirement": "Report canonical fname matches separately from image_id collisions and composite farm-cultivar-ID collisions. Farm/prefix sharing indicates potential dependence, not exact pixel identity; absence of filename duplicates does not prove independence."
+    },
+    {
+      "id": "D3",
+      "requirement": "NewValidation metadata connected to known train/dev/reserved farms inherits that role pending scene-group semantics. Any pre-fit split change requires a new manifest/hash/version. Static-check imported reusable parser for top-level I/O or immutable output regeneration."
+    }
+  ],
+  "coverage_limits": [
+    "35 VL label-structure validation only, not allVS/TS image decoding or whole350GB integrity",
+    "Prefix names are not authenticated plant IDs",
+    "Metadata-only comparison cannot exclude resized/cropped/recompressed common sources"
+  ],
+  "next": "After first2 VL bounded snapshots, independently recheck schema/counts and join keys before full35 merge; final cross-table counts require fresh independent method."
+}

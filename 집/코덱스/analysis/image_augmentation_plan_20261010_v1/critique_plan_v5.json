@@ -1,0 +1,47 @@
+{
+  "stage": "Independent harsh critique PLAN_v5",
+  "scope": "Plan text only; no large archive contents, source code import, model load or training",
+  "verdict": "Reportable conditional plan; enforce I/O and lock-owner gates before operational work",
+  "critical": [
+    {
+      "required": "Before ZIP opening, identify transfer/provider completion and local offline availability. Keep all split parts checks separate. Inventory directory metadata first; register selected entry byte/count budgets, physical local-cache free-space reserve and stop-on-size/mtime-change policy.",
+      "issue": "Drive online-only metadata and stable size do not establish local availability or completed archive integrity; ZIP seeks/CRC/full SHA may hydrate a huge file",
+      "id": "C1"
+    },
+    {
+      "required": "Assign development and locked-source/recipe QA roles explicitly. Developer sees metadata/automatic duplicate alerts only for reserved sources; separate assessor sees reserved contact sheets and generation outputs, applies predefined QA before any model outcome, locks recipe hashes. If role isolation unavailable, classify result exploratory rather than independent confirmation.",
+      "issue": "Developer visual leakage audit and human-generated evaluation QA can expose the very lock set intended to remain unseen",
+      "id": "C2"
+    }
+  ],
+  "important": [
+    {
+      "required": "Before fit register farm/source-group/type/variety denominators and target uncertainty precision; deficits suspend that stratum/confirmation. Show farm by cultivar confounding and do not claim pure cultivar effects.",
+      "issue": "Sufficient groups is not a measurable confirmation gate, and sample targets200/1000/5000 do not establish independent farms or varieties",
+      "id": "I1"
+    },
+    {
+      "required": "Default exactly one frozen development-selected candidate per fresh lock set once. Any simultaneous fixed family exception needs preregistered k; bootstrap tail threshold is descriptive uncertainty, not family-error-valid p-value or standalone adoption proof.",
+      "issue": "Multiple-candidate .025/k wording and final single confirmation need one operational protocol",
+      "id": "I2"
+    }
+  ],
+  "runtime_context_from_parent": {
+    "learning_PC_unspecified": true,
+    "G_free_not_independent_cloud_or_local_quota": true,
+    "status": "Parent directory/system metadata observations, not data-content examination",
+    "laptop_gpu": "RTX4050 Laptop6141MiB",
+    "local_C_free_bytes": 179151298560,
+    "receipt_directory_visible": "G:\\내 드라이브\\농업 AI 경진대회\\이미지 미션\\099.지능형 수직농장 통합 데이터(딸기)\\01.데이터\\1.Training"
+  },
+  "positives": [
+    "Team v5 isolated as reference and prohibited baseline",
+    "Public21 diagnostic only",
+    "Group/farm-first source splits",
+    "True generative types not replaced by classical edits",
+    "Pilot56 and1400 plan counts not represented as produced",
+    "Sampling prior and weak-change retention specified",
+    "No model execution occurred"
+  ],
+  "next": "PLAN_v6 must reconcile confirmed path/hardware metadata and explicitly seal source visibility and I/O readiness before starting selected-cache QA."
+}

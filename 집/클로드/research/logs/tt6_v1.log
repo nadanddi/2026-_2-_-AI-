@@ -1,0 +1,47 @@
+x3 rows 1181 (12.3%), days 175, top-10 days hold 14% of them
+DIAG10/0 done
+DIAG10/1 done
+DIAG10/2 done
+DIAG10/3 done
+DIAG10/4 done
+DIAG10/5 done
+DIAG10/6 done
+DIAG10/7 done
+DIAG10/8 done
+DIAG10/9 done
+EXT10/0 done
+EXT12/0 done
+EL1/0 done
+EL1/1 done
+EL1/2 done
+EL1/3 done
+EL1/4 done
+EL1/5 done
+EL1/6 done
+EL1/7 done
+EL1/8 done
+EL1/9 done
+EL1/10 done
+EL1/11 done
+
+==== CW (primary EXT10)
+seed   7 PFN A | DIAG10 +0.12% P 0.989 (p2 -0.03%, <6C 1.742->1.750 n20) | EXT10 +0.06% P 0.635 (p2 -0.44%, <6C 0.924->0.850 n19) | EXT12 +0.06% P 0.606 (p2 -0.47%, <6C 1.857->1.796 n20) | EL1 +0.02% P 0.589 (p2 +0.02%, <6C -) |
+seed   7 PFN B | DIAG10 +0.12% P 0.989 (p2 -0.03%, <6C 1.742->1.750 n20) | EXT10 +0.07% P 0.640 (p2 -0.43%, <6C 0.924->0.850 n19) | EXT12 +0.05% P 0.596 (p2 -0.46%, <6C 1.857->1.796 n20) | EL1 +0.02% P 0.595 (p2 +0.02%, <6C -) |
+seed 101 PFN A | DIAG10 +0.13% P 0.998 (p2 -0.01%, <6C 1.733->1.745 n20) | EXT10 -0.00% P 0.502 (p2 -0.67%, <6C 0.932->0.853 n19) | EXT12 +0.08% P 0.639 (p2 -0.41%, <6C 1.857->1.798 n20) | EL1 +0.02% P 0.592 (p2 +0.02%, <6C -) |
+seed 101 PFN B | DIAG10 +0.13% P 0.999 (p2 -0.01%, <6C 1.733->1.745 n20) | EXT10 -0.00% P 0.508 (p2 -0.66%, <6C 0.932->0.853 n19) | EXT12 +0.07% P 0.623 (p2 -0.40%, <6C 1.857->1.798 n20) | EL1 +0.03% P 0.609 (p2 +0.03%, <6C -) |
+  DIAG10 seed-mean +0.13%  all better False  P(worse) max 0.9987
+  EXT10  seed-mean +0.03%  all better False  P(worse) max 0.6398
+  EXT12  seed-mean +0.06%  all better False  P(worse) max 0.6390
+  EL1    seed-mean +0.02%  all better False  P(worse) max 0.6093
+VERDICT CW: user rule FAIL | strict FAIL
+
+==== CWT (primary DIAG10+EXT10)
+seed   7 PFN A | DIAG10 +0.14% P 0.739 (p2 -0.42%, <6C 1.742->1.754 n20) | EXT10 -0.50% P 0.164 (p2 -0.71%, <6C 0.924->0.905 n19) | EXT12 +0.30% P 0.991 (p2 +0.47%, <6C 1.857->1.854 n20) | EL1 -0.30% P 0.187 (p2 -0.30%, <6C -) |
+seed   7 PFN B | DIAG10 +0.15% P 0.752 (p2 -0.43%, <6C 1.742->1.754 n20) | EXT10 -0.60% P 0.120 (p2 -0.72%, <6C 0.924->0.905 n19) | EXT12 +0.30% P 0.992 (p2 +0.45%, <6C 1.857->1.854 n20) | EL1 -0.28% P 0.198 (p2 -0.28%, <6C -) |
+seed 101 PFN A | DIAG10 +0.14% P 0.713 (p2 -0.10%, <6C 1.733->1.750 n20) | EXT10 +0.18% P 0.657 (p2 -0.25%, <6C 0.932->0.932 n19) | EXT12 +0.01% P 0.513 (p2 +0.16%, <6C 1.857->1.856 n20) | EL1 -0.22% P 0.203 (p2 -0.22%, <6C -) |
+seed 101 PFN B | DIAG10 +0.15% P 0.722 (p2 -0.12%, <6C 1.733->1.750 n20) | EXT10 +0.09% P 0.583 (p2 -0.24%, <6C 0.932->0.932 n19) | EXT12 +0.03% P 0.559 (p2 +0.16%, <6C 1.857->1.856 n20) | EL1 -0.21% P 0.208 (p2 -0.21%, <6C -) |
+  DIAG10 seed-mean +0.15%  all better False  P(worse) max 0.7522
+  EXT10  seed-mean -0.21%  all better False  P(worse) max 0.6565
+  EXT12  seed-mean +0.16%  all better False  P(worse) max 0.9916
+  EL1    seed-mean -0.25%  all better True  P(worse) max 0.2078
+VERDICT CWT: user rule FAIL | strict FAIL

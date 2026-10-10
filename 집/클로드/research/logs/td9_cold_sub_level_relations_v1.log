@@ -1,0 +1,69 @@
+
+################ COLD11: 11일, 264행, 배지 평균 8.73 (최저 3.19), 실내 평균 10.07
+== A 원값 Spearman(배지온도, 입력)  F13 / F47   (참고: in_temp +0.67 / +0.54)
+   out_temp     +0.80 / +0.77
+   out_hum      -0.23 / -0.38
+   out_wspd     -0.27 / -0.12
+   in_hum       -0.29 / -0.34
+   in_co2       -0.28 / -0.50
+  if np.nanmax(np.abs(v)) >= .2:
+   act_vent     +0.25 / +0.50
+  if np.nanmax(np.abs(v)) >= .2:
+   act_shade    +0.36 / +0.35
+   act_thermal  +0.29 / +0.41
+  if np.nanmax(np.abs(v)) >= .2:
+   act_heating  -0.53 / -0.45
+   act_circfan  -0.56 / -0.46
+  if np.nanmax(np.abs(v)) >= .2:
+  if np.nanmax(np.abs(v)) >= .2:
+  if np.nanmax(np.abs(v)) >= .2:
+== B 공기 이력만으로 배지 설명: R² 0.758 [0.535, 0.889], 남은 오차 RMSE 1.218
+   연관 out_temp         +0.27 / +0.43
+   연관 out_temp_r6      +0.40 / +0.53
+   연관 out_wspd_r6      -0.30 / -0.33
+== C 공기 이력 뒤에 남은 부분을 입력으로 더 맞히나 (날 하나 빼기 R², 95% CI)
+   out_temp         R² -0.040 [-0.526, +0.065] 
+   out_temp_r6      R² -0.003 [-0.457, +0.163] 
+   out_wspd_r6      R² -0.108 [-0.678, +0.017] 
+   전체 입력 Ridge     R² +0.023 [-0.783, +0.245]
+   전체 입력 LightGBM  R² +0.061 [-0.870, +0.311]
+   남은 부분 중 하루 수준 몫 64%
+== D 날 단위: 하루 평균(배지-실내) vs 하루 평균 입력  F13 / F47
+   없음
+
+################ COLD85: 85일, 2040행, 배지 평균 11.49 (최저 3.19), 실내 평균 12.37
+== A 원값 Spearman(배지온도, 입력)  F13 / F47   (참고: in_temp +0.58 / +0.60)
+   out_temp     +0.62 / +0.52
+   out_hum      -0.32 / -0.38
+  if np.nanmax(np.abs(v)) >= .2:
+   act_vent     +0.22 / +0.22
+  if np.nanmax(np.abs(v)) >= .2:
+   act_shade    +0.42 / +0.30
+   act_thermal  +0.37 / +0.31
+  if np.nanmax(np.abs(v)) >= .2:
+   act_heating  -0.55 / -0.59
+   act_circfan  -0.31 / -0.41
+   act_fog      +0.30 / +0.27
+  if np.nanmax(np.abs(v)) >= .2:
+  if np.nanmax(np.abs(v)) >= .2:
+== B 공기 이력만으로 배지 설명: R² 0.871 [0.804, 0.915], 남은 오차 RMSE 1.099
+   연관 in_hum           +0.38 / +0.21
+   연관 in_hum_r6        +0.40 / +0.20
+   연관 act_heating      -0.22 / -0.35
+   연관 act_heating_r6   -0.24 / -0.29
+   연관 act_circfan      -0.25 / -0.36
+   연관 act_circfan_r6   -0.26 / -0.35
+== C 공기 이력 뒤에 남은 부분을 입력으로 더 맞히나 (날 하나 빼기 R², 95% CI)
+   in_hum           R² +0.029 [-0.034, +0.084] 
+   in_hum_r6        R² +0.038 [-0.017, +0.075] 
+   act_heating      R² +0.084 [+0.013, +0.129] 이득
+   act_heating_r6   R² +0.033 [-0.030, +0.069] 
+   act_circfan      R² +0.095 [+0.013, +0.157] 이득
+   act_circfan_r6   R² +0.049 [-0.021, +0.093] 
+   전체 입력 Ridge     R² +0.183 [+0.043, +0.280]
+   전체 입력 LightGBM  R² +0.311 [+0.184, +0.433]
+   남은 부분 중 하루 수준 몫 55%
+== D 날 단위: 하루 평균(배지-실내) vs 하루 평균 입력  F13 / F47
+   out_temp     +0.34 / +0.25
+   in_hum       +0.49 / +0.44
+   act_thermal  +0.22 / +0.31

@@ -1,0 +1,58 @@
+TT3 selection on stored DIAG10 pass-1: {0.4: np.float64(0.63111), 0.5: np.float64(0.62381), 0.6: np.float64(0.61833)} -> w = 0.6
+DIAG10/0 done
+DIAG10/1 done
+DIAG10/2 done
+DIAG10/3 done
+DIAG10/4 done
+DIAG10/5 done
+DIAG10/6 done
+DIAG10/7 done
+DIAG10/8 done
+DIAG10/9 done
+EXT10/0 done
+EXT12/0 done
+EL1/0 done
+EL1/1 done
+EL1/2 done
+EL1/3 done
+EL1/4 done
+EL1/5 done
+EL1/6 done
+EL1/7 done
+EL1/8 done
+EL1/9 done
+EL1/10 done
+EL1/11 done
+folds: {'DIAG10': 10, 'EL1': 12, 'EXT10': 1, 'EXT12': 1}
+
+==== TT3 (primary ['DIAG10'])
+  DIAG10 PRIMARY  cells 4/4  change -1.63%..-1.53%  P(worse) max 0.0171 | pass-2 +0.14%
+  EXT10  other    cells 2/4  change -0.28%..+0.15%  P(worse) max 0.5743 | pass-2 +1.05%  significantly worse: False
+  EXT12  other    cells 0/4  change +1.06%..+1.27%  P(worse) max 0.8687 | pass-2 +3.87%  significantly worse: False
+  EL1    other    cells 0/4  change +0.21%..+0.57%  P(worse) max 0.7877 | pass-2 +0.34%  significantly worse: False
+  cold rows (<=8C, DIAG10, mean of seeds/families): REF 0.8795  TT3 0.8795
+  VERDICT TT3: FAIL
+
+==== TT4 (primary ['EXT10'])
+  DIAG10 other    cells 0/4  change +1.71%..+2.09%  P(worse) max 0.9852 | pass-2 -0.04%  significantly worse: False
+  EXT10  PRIMARY  cells 0/4  change +0.74%..+0.77%  P(worse) max 0.7203 | pass-2 -1.15%
+  EXT12  other    cells 0/4  change +3.04%..+3.29%  P(worse) max 0.9476 | pass-2 -2.45%  significantly worse: False
+  EL1    other    cells 4/4  change -0.06%..-0.01%  P(worse) max 0.4189 | pass-2 -0.03%  significantly worse: False
+  cold rows (<=8C, DIAG10, mean of seeds/families): REF 0.8795  TT4 0.8795
+  VERDICT TT4: FAIL
+
+==== TT5a (primary ['DIAG10', 'EXT10'])
+  DIAG10 PRIMARY  cells 2/4  change -0.15%..+0.10%  P(worse) max 0.7073 | pass-2 +0.43%
+  EXT10  PRIMARY  cells 0/4  change +0.00%..+0.00%  P(worse) max 1.0000 | pass-2 +0.00%
+  EXT12  other    cells 0/4  change +0.00%..+0.00%  P(worse) max 1.0000 | pass-2 +0.00%  significantly worse: False
+  EL1    other    cells 0/4  change +0.28%..+0.55%  P(worse) max 0.9960 | pass-2 +0.42%  significantly worse: True
+  cold rows (<=8C, DIAG10, mean of seeds/families): REF 0.8795  TT5a 0.8657
+  VERDICT TT5a: FAIL
+
+==== TT5b (primary ['DIAG10', 'EXT10'])
+  DIAG10 PRIMARY  cells 0/4  change +0.24%..+0.45%  P(worse) max 0.9355 | pass-2 +1.27%
+  EXT10  PRIMARY  cells 4/4  change -0.93%..-0.60%  P(worse) max 0.0924 | pass-2 +1.10%
+  EXT12  other    cells 2/4  change -0.30%..+0.48%  P(worse) max 0.8943 | pass-2 -0.18%  significantly worse: False
+  EL1    other    cells 0/4  change +0.54%..+0.66%  P(worse) max 0.9812 | pass-2 +0.60%  significantly worse: False
+  cold rows (<=8C, DIAG10, mean of seeds/families): REF 0.8795  TT5b 0.8665
+  VERDICT TT5b: FAIL

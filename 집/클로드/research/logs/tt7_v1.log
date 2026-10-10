@@ -1,0 +1,105 @@
+CM DIAG10 done
+CM EXT10 done
+CM EXT12 done
+CM EL1 done
+COLD-LOO days: 41
+LOO F13 45 done
+LOO F13 93 done
+LOO F13 98 done
+LOO F13 100 done
+LOO F13 102 done
+LOO F13 104 done
+LOO F13 106 done
+LOO F13 110 done
+LOO F13 114 done
+LOO F13 147 done
+LOO F13 154 done
+LOO F13 157 done
+LOO F13 158 done
+LOO F13 161 done
+LOO F13 167 done
+LOO F13 170 done
+LOO F13 233 done
+LOO F47 47 done
+LOO F47 56 done
+LOO F47 114 done
+LOO F47 120 done
+LOO F47 121 done
+LOO F47 123 done
+LOO F47 128 done
+LOO F47 129 done
+LOO F47 133 done
+LOO F47 135 done
+LOO F47 140 done
+LOO F47 144 done
+LOO F47 148 done
+LOO F47 155 done
+LOO F47 158 done
+LOO F47 161 done
+LOO F47 165 done
+LOO F47 167 done
+LOO F47 169 done
+LOO F47 175 done
+LOO F47 212 done
+LOO F47 214 done
+LOO F47 230 done
+LOO F47 240 done
+COLD-LOO 41 days loaded. same days, REF RMSE: LOO 0.833 vs DIAG10 0.818 (more training cold days -> LOO)
+
+==== CM1
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+seed   7 PFN A | DIAG10 +0.81% P 0.977 (<6C 1.742->1.976, bias<8C -0.01->+0.35) | EXT10 +2.68% P 0.980 (<6C 0.924->1.237, bias<8C +0.26->+0.07) | EXT12 +1.25% P 0.946 (<6C 1.857->1.652, bias<8C +0.21->+0.04) | EL1 -0.35% P 0.346 (<6C nan->nan, bias<8C +0.12->+0.35) |
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+seed   7 PFN B | DIAG10 +0.79% P 0.975 (<6C 1.742->1.976, bias<8C -0.01->+0.35) | EXT10 +2.61% P 0.979 (<6C 0.924->1.237, bias<8C +0.26->+0.07) | EXT12 +1.23% P 0.944 (<6C 1.857->1.652, bias<8C +0.21->+0.04) | EL1 -0.33% P 0.358 (<6C nan->nan, bias<8C +0.12->+0.35) |
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+seed 101 PFN A | DIAG10 +0.84% P 0.981 (<6C 1.733->1.976, bias<8C -0.01->+0.35) | EXT10 +2.54% P 0.972 (<6C 0.932->1.237, bias<8C +0.26->+0.07) | EXT12 +1.24% P 0.952 (<6C 1.857->1.652, bias<8C +0.20->+0.04) | EL1 -0.33% P 0.357 (<6C nan->nan, bias<8C +0.15->+0.35) |
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+seed 101 PFN B | DIAG10 +0.82% P 0.979 (<6C 1.733->1.976, bias<8C -0.01->+0.35) | EXT10 +2.46% P 0.973 (<6C 0.932->1.237, bias<8C +0.26->+0.07) | EXT12 +1.23% P 0.945 (<6C 1.857->1.652, bias<8C +0.20->+0.04) | EL1 -0.31% P 0.364 (<6C nan->nan, bias<8C +0.15->+0.35) |
+  DIAG10 seed-mean +0.82%  P(worse) max 0.9813
+  EXT10  seed-mean +2.57%  P(worse) max 0.9801
+  EXT12  seed-mean +1.24%  P(worse) max 0.9516
+  EL1    seed-mean -0.33%  P(worse) max 0.3639
+  COLD-LOO PFN A: 0.833 -> 0.856 (+2.77%) F13 +14.16% F47 +0.02% P(worse) 0.9256 | <6C 1.849->1.984 n20 | bias<8C +0.27->+0.38
+  COLD-LOO PFN B: 0.836 -> 0.859 (+2.74%) F13 +14.13% F47 +0.02% P(worse) 0.9230 | <6C 1.849->1.984 n20 | bias<8C +0.27->+0.38
+VERDICT CM1: user rule FAIL | COLD-LOO FAIL
+
+==== CM2
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+seed   7 PFN A | DIAG10 +0.23% P 0.781 (<6C 1.742->1.737, bias<8C -0.01->+0.15) | EXT10 +4.67% P 1.000 (<6C 0.924->1.131, bias<8C +0.26->-0.01) | EXT12 +1.90% P 0.987 (<6C 1.857->1.661, bias<8C +0.21->-0.16) | EL1 -0.47% P 0.303 (<6C nan->nan, bias<8C +0.12->+0.40) |
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+seed   7 PFN B | DIAG10 +0.22% P 0.771 (<6C 1.742->1.737, bias<8C -0.01->+0.15) | EXT10 +4.60% P 0.999 (<6C 0.924->1.131, bias<8C +0.26->-0.01) | EXT12 +1.87% P 0.987 (<6C 1.857->1.661, bias<8C +0.21->-0.16) | EL1 -0.45% P 0.309 (<6C nan->nan, bias<8C +0.12->+0.40) |
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+seed 101 PFN A | DIAG10 +0.26% P 0.811 (<6C 1.733->1.737, bias<8C -0.01->+0.15) | EXT10 +4.53% P 0.999 (<6C 0.932->1.131, bias<8C +0.26->-0.01) | EXT12 +1.89% P 0.988 (<6C 1.857->1.661, bias<8C +0.20->-0.16) | EL1 -0.45% P 0.309 (<6C nan->nan, bias<8C +0.15->+0.40) |
+C:\work\farmai\.analysis-tools\python\numpy\_core\fromnumeric.py:3862: RuntimeWarning: Mean of empty slice
+  return _methods._mean(a, axis=axis, dtype=dtype,
+C:\work\farmai\.analysis-tools\python\numpy\_core\_methods.py:142: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+seed 101 PFN B | DIAG10 +0.25% P 0.801 (<6C 1.733->1.737, bias<8C -0.01->+0.15) | EXT10 +4.45% P 0.998 (<6C 0.932->1.131, bias<8C +0.26->-0.01) | EXT12 +1.87% P 0.988 (<6C 1.857->1.661, bias<8C +0.20->-0.16) | EL1 -0.43% P 0.315 (<6C nan->nan, bias<8C +0.15->+0.40) |
+  DIAG10 seed-mean +0.24%  P(worse) max 0.8107
+  EXT10  seed-mean +4.56%  P(worse) max 0.9996
+  EXT12  seed-mean +1.88%  P(worse) max 0.9882
+  EL1    seed-mean -0.45%  P(worse) max 0.3152
+  COLD-LOO PFN A: 0.833 -> 0.839 (+0.71%) F13 +8.57% F47 -1.15% P(worse) 0.6872 | <6C 1.849->1.892 n20 | bias<8C +0.27->+0.20
+  COLD-LOO PFN B: 0.836 -> 0.841 (+0.69%) F13 +8.53% F47 -1.15% P(worse) 0.6914 | <6C 1.849->1.892 n20 | bias<8C +0.27->+0.20
+VERDICT CM2: user rule FAIL | COLD-LOO FAIL

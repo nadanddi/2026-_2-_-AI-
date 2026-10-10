@@ -1,0 +1,40 @@
+{
+  "stage": "Selected source and intent-filter QA final independent review",
+  "verdict": "PASS for narrowly scoped source/processing QA; no model performance or six-type completion evidence",
+  "independent_verification": "critic_qa_verification_v1.json: fresh local8 source/16 derived JPEG hashes, load dimensions and paired RGB statistics recomputed without running generation code",
+  "verified": {
+    "intent_filter_outputs": 8,
+    "selected_source_jpg": 8,
+    "selected_encoded_bytes": 10270806,
+    "sha_verified": 24,
+    "real_QA_outputs": 8,
+    "decoded_pixels": 14767483,
+    "source_archives": 2,
+    "copied_payload_bytes": 1404267008,
+    "metadata_dimension_mismatch_selected_only": 0,
+    "withheld": 0
+  },
+  "observations": [
+    "Selected Geumsil4 all share unverified prefixC22_B02_007",
+    "Selected Seolhyang3 share prefixC04_B01_09_16_006 and1 prefixC06_B01_25_32_001",
+    "Seolhyang4 visually show strong magenta cast; lighting/LED/camera/cultivar causation unconfirmed"
+  ],
+  "required_reporting_limits": [
+    "500members per TAR and exactTL mapping are header/name checks, not1000-image decoding",
+    "Zero dimension mismatches applies only to8 selected images",
+    "direct_source_bytes reports payload copied, excluding2 one-byte EOF read attempts; record requested read cap1404267010 separately",
+    "Common QA export preserves ratio with longside<=1024 andJPEG90; not official768x1024/1024x768-size compliance",
+    "JPEG60 then90 is deliberately additional JPEG history; common90 does not erase this history",
+    "Original actual-photo provenance remains pending source documentation before training labels are finalized",
+    "8 pairs cover filter type and4 operations only; other5 types and56-file plan incomplete",
+    "Strong magenta selections are not representative of all Seolhyang or all9 farms",
+    "No8-independent-scene inference from8 images or dates"
+  ],
+  "execution_gates": [
+    "Actual source provenance and split/group semantics",
+    "Balanced lighting/farm/source strata across both binary labels",
+    "Original groups plus donor/reference families split before derivatives",
+    "Runtime install andCUDA measurements still pending;9.58GiB preflight not actual verified installed size"
+  ],
+  "scope": "No TS payload reread, inference, weight load, training or locked-farm images viewed. Only permitted traincontact and small local source/output validation."
+}

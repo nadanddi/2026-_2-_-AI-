@@ -1,0 +1,47 @@
+{
+  "stage": "Full listed TL metadata census and proposed split review",
+  "method": "Independent PowerShell Import-Csv and group counts, separate from Python/SQLite",
+  "verified": {
+    "records": 135189,
+    "gold": 24346,
+    "reserved_AIF015": 10327,
+    "seol_AIF005": 1041,
+    "archives": 271,
+    "gold_farm": "AIF005",
+    "reserved_AIF014": 12731,
+    "seolhyang": 110843,
+    "farms": 9
+  },
+  "scope": "Current listed Training TL snapshots only; not full350GB download completeness, source-image validity, independent scenes or plant-ID validation",
+  "split_verdict": "Accept for metadata reservation and training-side8-image QA; not yet sufficient for formal farm/cultivar generalization confirmation",
+  "important": [
+    {
+      "id": "S1",
+      "correction": "Restrict eventual claim to held-out Seolhyang farms014/015; no gold external confirmation. Farm-bootstrap precision/adoption is not established by image counts. Enforce insufficient-group exploratory gate.",
+      "issue": "Two reserved farms supply23058 rows but only2 independent farm-extrapolation units"
+    },
+    {
+      "id": "S2",
+      "correction": "Add leave-farm/group development checks within6 training farms; treat004 as observed development diagnosis, not repeated independent confirmation. AIF005-heldout fold has zero gold training and must be marked accordingly.",
+      "issue": "Repeated selection on single development farm004 adapts to that farm"
+    },
+    {
+      "id": "S3",
+      "correction": "Automated exact/near-image and metadata lineage checks across splits without developer viewing protected images; enforce donor/reference/generator-family dependencies before derived generation.",
+      "issue": "Different farm_id names and fname uniqueness do not prove image provenance independence"
+    },
+    {
+      "id": "S4",
+      "correction": "Verify member-to-label matches and exact source snapshot during bounded copy; source-copy hash once, local verifier I/O separately recorded. Select only train IDs, <=8JPG <=20MB plus decoded-pixel cap.",
+      "issue": "Proposed TS pairs are still TL-derived mapping candidates, not verified TS members"
+    }
+  ],
+  "source_byte_proposals": {
+    "basis": "Current listed metadata, re-stat before copy",
+    "gold1_plus_seol10": 1771058688,
+    "gold12_plus_seol10": 1404267008,
+    "direct_copy_cap_GiB": 2
+  },
+  "observation": "TSgold1 overlaps already-viewed340 family, acceptable trainQA only; does not provide unseen evidence",
+  "next": "Freeze metadata-only reserved IDs; perform bounded train-only TS snapshots and label-size QA. No learning or protected visual inspection before source group evidence."
+}

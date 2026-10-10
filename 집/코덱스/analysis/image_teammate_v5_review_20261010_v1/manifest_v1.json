@@ -1,0 +1,87 @@
+{
+  "outer_source": "C:\\Users\\aozks\\Downloads\\drive-download-20261009T152057Z-1-001.zip",
+  "outer_bytes": 41584587,
+  "outer_sha256": "8d1530a28045291c185314f24c22d13ff149039e02ebab8e61eac7ea5fd1c069",
+  "inner_bytes": 41572678,
+  "inner_sha256": "19e0524e9bdc161f46ff880b89694229faceb62fc4e9f1eccda6b84e1bfb6c12",
+  "uncompressed_bytes": 44816538,
+  "files": [
+    {
+      "path": "model/config.json",
+      "bytes": 634,
+      "sha256": "3be4d18fcacc5e10b14de830d7c030fd93d3f1ed32f05e498d869e622984474e"
+    },
+    {
+      "path": "model/weights.pt",
+      "bytes": 44801863,
+      "sha256": "c9afa2441f3b4396a1599cb200bd2233d5c46638bd5d6839cee2440e09692c02"
+    },
+    {
+      "path": "inference.py",
+      "bytes": 5983,
+      "sha256": "372a17addbf8444bf8a677ac7b8ae20b3e541b4dce3334916f2371421f778f6b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7932,
+      "sha256": "3c13343b59b190ace5d5ef52b08cbc54ea90e42e9af8209b95495ec74af1805d"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 126,
+      "sha256": "917b0afa4be308fd696eb03b0fd98fafbdadab95faf75fcb40f7b49012d0a78c"
+    }
+  ],
+  "cfg": {
+    "framework": "pytorch",
+    "arch": "DualHeadResNet18",
+    "num_classes": 7,
+    "class_map": {
+      "real": 0,
+      "filter": 1,
+      "composite": 2,
+      "full_style": 3,
+      "partial_style": 4,
+      "partial_gen": 5,
+      "AI_gen": 6
+    },
+    "highpass": true,
+    "patch": 224,
+    "grid": "cover",
+    "aggregation": "top5",
+    "pretrained": "torchvision ResNet18_Weights.IMAGENET1K_V1",
+    "epochs": 3,
+    "seed": 42,
+    "lr": 0.0002,
+    "mil_p": 0.3,
+    "mil_w": 0.5,
+    "train_patches": 5829,
+    "extra_data": "AI Hub 596 지능형 수직농장 통합 데이터(딸기) 실제 1475장 + 파생 1475장",
+    "version": "v5"
+  },
+  "top_level_functions": {
+    "grid_crops": "img: Image.Image, patch: int, grid",
+    "to_tensor": "patches",
+    "aggregate": "patch_probs: torch.Tensor, how: str",
+    "load_model": "model_dir=None",
+    "predict": "model, image_paths, images_per_batch=8"
+  },
+  "imports": [
+    "import json",
+    "import math",
+    "from pathlib import Path",
+    "import numpy as np",
+    "import torch",
+    "import torch.nn as nn",
+    "import torch.nn.functional as F",
+    "from PIL import Image",
+    "from torchvision import models"
+  ],
+  "score_provenance": {
+    "reported_accuracy": 0.77,
+    "source": "user message; official score record not supplied",
+    "internal_estimate": 0.739,
+    "source_internal": "team explanation; original CV logs not supplied"
+  },
+  "inspection": "Archive texts and AST only; no untrusted module import, torch.load, inference or training"
+}

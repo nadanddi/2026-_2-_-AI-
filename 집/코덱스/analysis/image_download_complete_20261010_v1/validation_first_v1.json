@@ -1,0 +1,39 @@
+{
+  "stage": "first",
+  "archives": [
+    {
+      "archive": "VL_1.금실1.tar",
+      "source_bytes": 1740800,
+      "source_mtime_ns": 1791589458818000000,
+      "sha256": "c149ddbdb4e83f55bcc2e1072a4089ea0ca1487fef44a7a695905c98e5f8bc4f",
+      "JSON_rows": 500,
+      "scope": "stable readable local label snapshot"
+    },
+    {
+      "archive": "VL_2.설향1.tar",
+      "source_bytes": 1474560,
+      "source_mtime_ns": 1791589460265000000,
+      "sha256": "65e2080744301b2a6b06bbbce0d1969e861c8820fdf977a04116f357066f3018",
+      "JSON_rows": 500,
+      "scope": "stable readable local label snapshot"
+    }
+  ],
+  "rows": 1000,
+  "issues": [],
+  "new_source_read_bytes": 3215360,
+  "new_direct_requested_upper_bytes": 3215362,
+  "farm_cultivar": [
+    {
+      "farm": "AIF005",
+      "cultivar": "금실",
+      "rows": 500
+    },
+    {
+      "farm": "AIF006",
+      "cultivar": "설향",
+      "rows": 500
+    }
+  ],
+  "scope": "VL labels only; VS raw images not opened",
+  "images_viewed": 0
+}

@@ -1,0 +1,27 @@
+
+######## ALL400 (400일)  PM 평균 +0.01 sd 0.59 | AMP 중앙 0.61
+  PM  FULL(상한)   Ridge R² -0.092 [-0.146, -0.053] | LGB R² -0.125 [-0.189, -0.071]
+  PM  MORN(아침)   Ridge R² -0.058 [-0.097, -0.031] | LGB R² -0.100 [-0.145, -0.065]
+  AMP FULL(상한)   Ridge R² -0.042 [-2.127, +0.008] | LGB R² -0.028 [-1.657, +0.016]
+  AMP MORN(아침)   Ridge R² -0.039 [-0.811, -0.026] | LGB R² -0.056 [-1.188, -0.033]
+  NOWARM(안 데워지는 날 100일) FULL(상한)   AUC 0.818 [0.776, 0.858]
+  NOWARM(안 데워지는 날 100일) MORN(아침)   AUC 0.749 [0.697, 0.800]
+
+######## COLD41 (41일)  PM 평균 +0.16 sd 0.86 | AMP 중앙 0.53
+  PM  FULL(상한)   Ridge R² -0.500 [-1.423, -0.206]
+  PM  MORN(아침)   Ridge R² -0.397 [-0.774, -0.191]
+  AMP FULL(상한)   Ridge R² +0.253 [-0.180, +0.511]
+  AMP MORN(아침)   Ridge R² +0.264 [-0.105, +0.496]
+  NOWARM(안 데워지는 날 17일) FULL(상한)   AUC 0.637 [0.451, 0.797]
+  NOWARM(안 데워지는 날 17일) MORN(아침)   AUC 0.475 [0.299, 0.658]
+
+######## F47COLD24 (24일)  PM 평균 +0.36 sd 1.02 | AMP 중앙 0.50
+  PM  FULL(상한)   Ridge R² -1.596 [-5.695, -0.798]
+  PM  MORN(아침)   Ridge R² -0.948 [-3.042, -0.491]
+  AMP FULL(상한)   Ridge R² -0.266 [-1.246, +0.253]
+  AMP MORN(아침)   Ridge R² +0.105 [-0.460, +0.454]
+  NOWARM(안 데워지는 날 13일) FULL(상한)   AUC 0.531 [0.289, 0.766]
+  NOWARM(안 데워지는 날 13일) MORN(아침)   AUC 0.510 [0.274, 0.743]
+  아침 특징별 Spearman(PM): {'m_in_temp_mean': np.float64(-0.08), 'm_out_temp_mean': np.float64(0.04), 'm_in_hum_mean': np.float64(-0.06), 'm_in_co2_mean': np.float64(0.07), 'm_act_heating_mean': np.float64(0.04), 'm_act_circfan_mean': np.float64(-0.02), 'm_act_thermal_mean': np.float64(-0.38), 'm_act_vent_mean': np.float64(-0.33), 'm_in_min': np.float64(0.07), 'm_out_min': np.float64(0.05), 'm_in_slope': np.float64(-0.36), 'm_rad': np.float64(-0.21), 'm_jump': np.float64(0.08), 'p_in': np.float64(-0.48), 'p_out': np.float64(-0.12), 'p_heat': np.float64(0.26), 'p_th': np.float64(-0.19), 'p_amp': np.float64(0.13)}
+
+판정(오후 오차 PM을 아침 입력으로): Ridge 정보 부족, LGB 정보 부족

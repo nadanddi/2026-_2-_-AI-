@@ -1,0 +1,62 @@
+Looking in indexes: https://download.pytorch.org/whl/cu126
+Collecting torch==2.7.1
+  Downloading https://download-r2.pytorch.org/whl/cu126/torch-2.7.1%2Bcu126-cp312-cp312-win_amd64.whl.metadata (27 kB)
+Collecting torchvision==0.22.1
+  Downloading https://download-r2.pytorch.org/whl/cu126/torchvision-0.22.1%2Bcu126-cp312-cp312-win_amd64.whl.metadata (6.3 kB)
+Collecting filelock (from torch==2.7.1)
+  Downloading filelock-3.32.3-py3-none-any.whl.metadata (2.0 kB)
+Collecting typing-extensions>=4.10.0 (from torch==2.7.1)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting sympy>=1.13.3 (from torch==2.7.1)
+  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting networkx (from torch==2.7.1)
+  Downloading networkx-3.6.1-py3-none-any.whl.metadata (6.8 kB)
+Collecting jinja2 (from torch==2.7.1)
+  Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting fsspec (from torch==2.7.1)
+  Downloading fsspec-2026.7.0-py3-none-any.whl.metadata (10 kB)
+Collecting setuptools (from torch==2.7.1)
+  Downloading https://download.pytorch.org/whl/setuptools-78.1.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting numpy (from torchvision==0.22.1)
+  Downloading numpy-2.5.2-cp312-cp312-win_amd64.whl.metadata (6.6 kB)
+Collecting pillow!=8.3.*,>=5.3.0 (from torchvision==0.22.1)
+  Downloading pillow-12.3.0-cp312-cp312-win_amd64.whl.metadata (9.3 kB)
+Collecting mpmath<1.4,>=1.1.0 (from sympy>=1.13.3->torch==2.7.1)
+  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting MarkupSafe>=2.0 (from jinja2->torch==2.7.1)
+  Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp312-cp312-win_amd64.whl.metadata (2.8 kB)
+Downloading https://download-r2.pytorch.org/whl/cu126/torch-2.7.1%2Bcu126-cp312-cp312-win_amd64.whl (2716.9 MB)
+   ---------------------------------------- 2.7/2.7 GB 9.2 MB/s eta 0:00:00
+Downloading https://download-r2.pytorch.org/whl/cu126/torchvision-0.22.1%2Bcu126-cp312-cp312-win_amd64.whl (6.3 MB)
+   ---------------------------------------- 6.3/6.3 MB 10.0 MB/s eta 0:00:00
+Downloading pillow-12.3.0-cp312-cp312-win_amd64.whl (7.2 MB)
+   ---------------------------------------- 7.2/7.2 MB 2.8 MB/s eta 0:00:00
+Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+   ---------------------------------------- 6.3/6.3 MB 1.8 MB/s eta 0:00:00
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Downloading filelock-3.32.3-py3-none-any.whl (98 kB)
+Downloading fsspec-2026.7.0-py3-none-any.whl (206 kB)
+Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl (134 kB)
+Downloading networkx-3.6.1-py3-none-any.whl (2.1 MB)
+   ---------------------------------------- 2.1/2.1 MB 1.7 MB/s eta 0:00:00
+Downloading numpy-2.5.2-cp312-cp312-win_amd64.whl (12.5 MB)
+   ---------------------------------------- 12.5/12.5 MB 1.9 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/setuptools-78.1.0-py3-none-any.whl (1.3 MB)
+   ---------------------------------------- 1.3/1.3 MB 7.0 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp312-cp312-win_amd64.whl (15 kB)
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ---------------------------------------- 536.2/536.2 kB 2.9 MB/s eta 0:00:00
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\torch-2.7.1+cu126-cp312-cp312-win_amd64.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\torchvision-0.22.1+cu126-cp312-cp312-win_amd64.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\pillow-12.3.0-cp312-cp312-win_amd64.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\sympy-1.14.0-py3-none-any.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\typing_extensions-4.16.0-py3-none-any.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\filelock-3.32.3-py3-none-any.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\fsspec-2026.7.0-py3-none-any.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\jinja2-3.1.6-py3-none-any.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\networkx-3.6.1-py3-none-any.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\numpy-2.5.2-cp312-cp312-win_amd64.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\setuptools-78.1.0-py3-none-any.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\markupsafe-3.0.3-cp312-cp312-win_amd64.whl
+Saved c:\work\farmai\��\�ڵ���\local\image_runtime_20261010_v1\wheels\mpmath-1.3.0-py3-none-any.whl
+Successfully downloaded torch torchvision pillow sympy typing-extensions filelock fsspec jinja2 networkx numpy setuptools MarkupSafe mpmath

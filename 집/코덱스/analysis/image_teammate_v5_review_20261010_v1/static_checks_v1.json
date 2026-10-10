@@ -1,0 +1,51 @@
+{
+  "grids": [
+    {
+      "width": 768,
+      "height": 1024,
+      "patches": 20,
+      "xs": [
+        0,
+        181,
+        363,
+        544
+      ],
+      "ys": [
+        0,
+        200,
+        400,
+        600,
+        800
+      ],
+      "full_coverage": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "patches": 20,
+      "xs": [
+        0,
+        200,
+        400,
+        600,
+        800
+      ],
+      "ys": [
+        0,
+        181,
+        363,
+        544
+      ],
+      "full_coverage": true
+    }
+  ],
+  "estimate_rearithmetic": {
+    "top5_from_rounded_document_inputs": 0.7396666666666667,
+    "top3_from_rounded_document_inputs": 0.7306944444444444,
+    "grid3_mean_from_rounded_document_inputs": 0.6455555555555555
+  },
+  "caveat": "document displayed validation rates rounded; exact raw scores cannot be reproduced without OOF predictions",
+  "network_code_in_static_inference": "no network/package-install call observed in read source; no sandbox runtime verified",
+  "weights_loaded": false,
+  "full_training_audit": false
+}

@@ -1,0 +1,3 @@
+TL metadata 전량 확장 등록 — 실행 전 2026-10-10
+두TL 중간비평:values cap 이후count누락 가능/배열length-only 한계/강화TAR·JSON검사 지적 반영. 새parser는정규tarheader checksum/오류형식(PAX/GNU/sparse/link)거부/정규화중복·종결·멤버범위/중복JSONkey·nonfinite거부. 부족형식은오류로그에남기고해당archive보류,누락선택편향보고.
+TL inventory271후보 전체메타진단만. archive각<4MiB/directread합계600MiB/작업snapshot1GiB상한,30GiB여유gate. source안정snapshot/직접read와provider완료분리. TS이미지읽기0/시각열람0/학습0. farm×cultivar/prefix후보/fieldabsent-null-blank-present를정확집계,개체prefix의미확정X. annotationsbbox 내용점검실행했다고보고하지않음. 평가농장예약은metadata후별도파일로등록.

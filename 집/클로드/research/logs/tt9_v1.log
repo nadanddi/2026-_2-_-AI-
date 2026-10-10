@@ -1,0 +1,47 @@
+{'NOH0': 14, 'NOHEAT': 8}
+DIAG10/0 done
+DIAG10/1 done
+DIAG10/2 done
+DIAG10/3 done
+DIAG10/4 done
+DIAG10/5 done
+DIAG10/6 done
+DIAG10/7 done
+DIAG10/8 done
+DIAG10/9 done
+EXT10/0 done
+EXT12/0 done
+EL1/0 done
+EL1/1 done
+EL1/2 done
+EL1/3 done
+EL1/4 done
+EL1/5 done
+EL1/6 done
+EL1/7 done
+EL1/8 done
+EL1/9 done
+EL1/10 done
+EL1/11 done
+
+==== NOH0
+seed   7 PFN A | DIAG10 -0.24% P 0.118 (p2 -0.54%, <6C 1.74->1.77) | EXT10 -0.23% P 0.185 (p2 -1.15%, <6C 0.92->0.92) | EXT12 -0.20% P 0.179 (p2 +0.61%, <6C 1.86->1.83) | EL1 -0.21% P 0.164 (p2 -0.21%, <6C -) |
+seed   7 PFN B | DIAG10 -0.25% P 0.111 (p2 -0.51%, <6C 1.74->1.77) | EXT10 -0.27% P 0.139 (p2 -1.15%, <6C 0.92->0.92) | EXT12 -0.20% P 0.185 (p2 +0.60%, <6C 1.86->1.83) | EL1 -0.21% P 0.168 (p2 -0.21%, <6C -) |
+seed 101 PFN A | DIAG10 -0.23% P 0.130 (p2 -0.53%, <6C 1.73->1.76) | EXT10 -0.21% P 0.213 (p2 -1.16%, <6C 0.93->0.92) | EXT12 -0.24% P 0.130 (p2 +0.50%, <6C 1.86->1.83) | EL1 -0.20% P 0.168 (p2 -0.20%, <6C -) |
+seed 101 PFN B | DIAG10 -0.24% P 0.121 (p2 -0.49%, <6C 1.73->1.76) | EXT10 -0.25% P 0.164 (p2 -1.15%, <6C 0.93->0.92) | EXT12 -0.24% P 0.133 (p2 +0.50%, <6C 1.86->1.83) | EL1 -0.20% P 0.184 (p2 -0.20%, <6C -) |
+  DIAG10 seed-mean -0.24%  P(worse) max 0.1300
+  EXT10  seed-mean -0.24%  P(worse) max 0.2127
+  EXT12  seed-mean -0.22%  P(worse) max 0.1854
+  EL1    seed-mean -0.20%  P(worse) max 0.1835
+VERDICT NOH0: FAIL
+
+==== NOHEAT
+seed   7 PFN A | DIAG10 -0.07% P 0.311 (p2 -0.12%, <6C 1.74->1.73) | EXT10 -0.79% P 0.015 (p2 +0.72%, <6C 0.92->0.92) | EXT12 -0.03% P 0.437 (p2 -0.66%, <6C 1.86->1.84) | EL1 -0.22% P 0.097 (p2 -0.22%, <6C -) |
+seed   7 PFN B | DIAG10 -0.06% P 0.319 (p2 -0.11%, <6C 1.74->1.73) | EXT10 -0.76% P 0.018 (p2 +0.72%, <6C 0.92->0.92) | EXT12 -0.07% P 0.391 (p2 -0.66%, <6C 1.86->1.84) | EL1 -0.23% P 0.093 (p2 -0.23%, <6C -) |
+seed 101 PFN A | DIAG10 -0.07% P 0.288 (p2 -0.13%, <6C 1.73->1.73) | EXT10 -0.77% P 0.015 (p2 +0.62%, <6C 0.93->0.92) | EXT12 -0.06% P 0.410 (p2 -0.70%, <6C 1.86->1.84) | EL1 -0.22% P 0.104 (p2 -0.22%, <6C -) |
+seed 101 PFN B | DIAG10 -0.07% P 0.317 (p2 -0.12%, <6C 1.73->1.73) | EXT10 -0.73% P 0.020 (p2 +0.63%, <6C 0.93->0.92) | EXT12 -0.09% P 0.359 (p2 -0.70%, <6C 1.86->1.84) | EL1 -0.22% P 0.101 (p2 -0.22%, <6C -) |
+  DIAG10 seed-mean -0.07%  P(worse) max 0.3187
+  EXT10  seed-mean -0.76%  P(worse) max 0.0196
+  EXT12  seed-mean -0.06%  P(worse) max 0.4374
+  EL1    seed-mean -0.22%  P(worse) max 0.1039
+VERDICT NOHEAT: FAIL

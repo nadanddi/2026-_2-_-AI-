@@ -1,0 +1,40 @@
+{
+  "stage": "Runtime basic smoke final independent review",
+  "verdict": "PASS for narrow CUDA/CPU basic execution statement; not full training/reproducibility/performance validation",
+  "scope": "Read source/logs/JSON only. No model loaded or runtime rerun by critic",
+  "observed": {
+    "torchvision": "0.22.1+cu126",
+    "torch": "2.7.1+cu126",
+    "GPU": "RTX4050 Laptop",
+    "isolated_numpy_CUDA_matmul": true,
+    "finite_loss": true,
+    "CPU_fallback_finite": true,
+    "dummy_sizes": "batch2 and4,384x384,AMP",
+    "backward_called_without_reported_exception": true
+  },
+  "important_correction": {
+    "report_now": "Finite loss and backward call completed without exception",
+    "issue": "Finite loss assertion does not verify finite gradients or actual optimizer update; GradScaler.step may skip on overflow",
+    "before_real_fit": "Unscale gradients, assert all gradients finite, verify parameter change or optimizer state step>0 and scaler skip behavior in new registered smoke"
+  },
+  "environment_limits": [
+    "Bootstrap loads numpy2.5.3 andPIL from shared.analysis-tools while venvnumpy is2.5.2",
+    "Isolated-I bridge validates limited NumPy/CUDA conversion only, not complete independent training pipeline",
+    "pipcheck checks installed venv metadata, not loaded shared-module versions; stdout alone does not retain returncode/stderr",
+    "Freeze intended training module paths and dependency versions before first fit"
+  ],
+  "measurement_limits": [
+    "No warmup for batches2/4; timings cannot estimate throughput or300sec524-image compliance",
+    "batch4 accumulation4 effective16 is proposal; real6-type data loader/memory/backward requires first-batch check",
+    "Original provenance strengthened at dataset level only, not individual135189-image authentication"
+  ],
+  "storage": {
+    "additional_pretrained_weight_staging": "Not included in recorded actual total; remeasure after acquisition",
+    "budget_bytes": 10737418240,
+    "preflight_projected_peak_bytes": 10282625212,
+    "remaining_bytes": 870402141,
+    "actual_recorded_bytes": 9867016099
+  },
+  "split": "Metadata reservation preserves unknown lineage, missing evaluation QA owner and2-farm/gold limitations; no independent confirmation ready",
+  "next": "Use narrow phase1 status. Fix actual-update claim, freeze module paths, validate optimizer update and actual data batch before training; refresh storage after weights."
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "Static text and submitted inference source only. No import, weight load, inference, training or install.",
+  "verdict": "Use as fixed existing baseline; evidence does not establish leakage-safe internal performance or generative coverage.",
+  "confirmed_in_code": [
+    "Normalized RGB input before fixed Gaussian5 sigma1 gain8 highpass",
+    "DualHeadResNet18 with binary head inference, multi head discarded",
+    "224 unresized cover20 patches for official768x1024 or1024x768 sizes",
+    "Top5 sigmoid mean per image",
+    "No network or package installation call observed in supplied source"
+  ],
+  "major_issues": [
+    {
+      "id": "R1",
+      "issue": "Public21 CV may leak source families through450 derivatives of public real3 and matching AIhub sources; file-level exclusion is insufficient",
+      "evidence": "Team explanation and README describe public3-derived450 training plus public21 fold exclusion",
+      "consequence": "Final fit includes former630 validation records; do not use those families or public21 as independent evaluation of fixed v5",
+      "limitation": "Actual training code, train/fold manifests and OOF predictions not supplied"
+    },
+    {
+      "id": "R2",
+      "issue": "Bilateral, conventional cv2 inpaint and low-resolution regeneration are not complete replacements for generative AI edits",
+      "consequence": "Cannot claim coverage of all6 real competition transformation families or unseen generator behavior",
+      "additional_unknown": "Whether derivative patch labels respect actual changed masks is unverifiable without training code"
+    },
+    {
+      "id": "R3",
+      "issue": "Highpass retains edges, scene textures, camera/compression signatures; pairing does not prove absence of scene memorization",
+      "consequence": "Claims that it prevents scene memorization or guarantees new-farm generalization are unsupported"
+    }
+  ],
+  "scores": {
+    "score_record_provided": false,
+    "user_reported_accuracy": 0.77,
+    "estimate_distribution_assumption": "real.5, public-positive.25, derivative-positive.25",
+    "independent_model_evaluation": false,
+    "internal_estimate_document": 0.739,
+    "rounded_inputs_rearithmetic": 0.7396666666666667
+  },
+  "unverified": [
+    "Claim qube exactly pixel-matches AIhub source, ORB alignment error2.5",
+    "1475-source9-farm44-plant provenance and split integrity",
+    "Source JPEG92 recipe and image-generation QA",
+    "630 OOF rates and final model external score",
+    "Inference latency and numerical outputs"
+  ],
+  "next": "Obtain actual train code, all source/derivative/reference manifests and prior fold predictions; lock genuinely unused source families before assessing any data change against frozen v5."
+}

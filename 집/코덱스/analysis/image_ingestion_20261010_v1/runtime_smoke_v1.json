@@ -1,0 +1,44 @@
+{
+  "scope": "environment and random-weight synthetic tensor smoke only; no real-image model trained, no accuracy measured",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "torch": "2.7.1+cu126",
+  "torchvision": "0.22.1+cu126",
+  "numpy": "2.5.3",
+  "PIL": "12.3.0",
+  "module_paths": {
+    "torch": "C:\\work\\farmai\\집\\코덱스\\local\\image_runtime_20261010_v1\\venv\\Lib\\site-packages\\torch\\__init__.py",
+    "torchvision": "C:\\work\\farmai\\집\\코덱스\\local\\image_runtime_20261010_v1\\venv\\Lib\\site-packages\\torchvision\\__init__.py",
+    "numpy": "C:\\work\\farmai\\.analysis-tools\\python\\numpy\\__init__.py",
+    "PIL": "C:\\work\\farmai\\.analysis-tools\\python\\PIL\\__init__.py"
+  },
+  "cuda_available": true,
+  "torch_cuda": "12.6",
+  "seed": 20261010,
+  "dummy_training_batches": [
+    {
+      "batch": 2,
+      "size": 384,
+      "AMP": true,
+      "finite_loss": true,
+      "seconds": 2.381794399989303,
+      "peak_allocated_bytes": 248121856,
+      "peak_reserved_bytes": 283115520,
+      "GPU_free_bytes_after_step": 4991221760
+    },
+    {
+      "batch": 4,
+      "size": 384,
+      "AMP": true,
+      "finite_loss": true,
+      "seconds": 0.17241669999202713,
+      "peak_allocated_bytes": 256804864,
+      "peak_reserved_bytes": 291504128,
+      "GPU_free_bytes_after_step": 4982833152
+    }
+  ],
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "device_total_bytes": 6438780928,
+  "cpu_fallback_finite": true,
+  "pip_check": "No broken requirements found.",
+  "free_disk_bytes_after": 148941516800
+}

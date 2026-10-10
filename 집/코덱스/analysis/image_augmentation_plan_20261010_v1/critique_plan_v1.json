@@ -1,0 +1,35 @@
+{
+  "stage": "augmentation plan v1",
+  "verdict": "Conditional plan acceptable; fix four gates before execution",
+  "execution_scope": "Plan only; no generation, training, installation or submission",
+  "required_fixes": [
+    {
+      "issue": "Lineage groups must include all parent, donor and reference sources via connected components; independent text-to-image outputs need prompt-template and generator lineage grouping",
+      "gate": "Complete lineage graph audit before fold-specific generation",
+      "id": "P1"
+    },
+    {
+      "issue": "Weak blur/noise and deliberate JPEG85 may lose distinguishing change after common JPEG85-95",
+      "gate": "Post-common-processing change QA with predeclared defer/exclude rule; preserve provenance label1 and originals, do not relabel vanished edits0",
+      "id": "P2"
+    },
+    {
+      "issue": "Pilot real8 positive48 is not the intended .5/.5 decision prior",
+      "gate": "Fix train sampler/loss weighting to real.5 positive.5 and equal positive-type contributions; pilot is production QA, not performance confirmation",
+      "id": "P3"
+    },
+    {
+      "issue": "Simultaneous-candidate k alone does not cover adaptive repeated search; bootstrap worse-probability is not an ordinary frequentist p-value",
+      "gate": "Preregister candidate family or single fresh locked confirmation; insufficient independent groups force exploratory status without adoption proof",
+      "id": "P4"
+    }
+  ],
+  "positives": [
+    "Public21 explicitly diagnostic, not blind validation",
+    "Natural blur/noise not automatically positive",
+    "Unknown public edit masks not used as localized truth",
+    "All patch labels not forced to image positive",
+    "No generation/training completed claims"
+  ],
+  "next_review": "Review exact split, sample weighting, recipe QA and adoption gates before first fit"
+}

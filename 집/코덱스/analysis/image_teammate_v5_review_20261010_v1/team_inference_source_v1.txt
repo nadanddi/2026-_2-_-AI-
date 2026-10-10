@@ -1,0 +1,128 @@
+"""[이미지 미션 제출용 inference.py -- v5: ResNet18 + 고주파 잔차 입력 + 이미지 전체를 덮는 패치 집계]
+
+운영진 채점기는 팀 폴더에서 이 파일을 import 한 뒤 아래 두 함수만 호출합니다.
+    model = load_model(model_dir)
+    probs = predict(model, image_paths)   # '생성 이미지일 확률'(0.0~1.0), 입력과 같은 순서·길이
+
+=== 유지 구간 ===
+- 함수 이름/인자/반환 형식 유지, model/ 안의 파일만 로드(네트워크·다운로드 없음), cuda 하드코딩 없음
+=== 최종 출력 처리 (README 에 동일 기재) ===
+- 이미지 1장을 리사이즈하지 않고 원본 해상도에서 224x224 패치를 고정 격자로 자른다.
+  config.json 의 grid 가 "cover" 이면 가로 ceil(W/224) x 세로 ceil(H/224) 개(768x1024 → 4x5=20개)로 이미지 전체를 덮고,
+  정수 n 이면 n x n 개(v3·v4 방식)를 쓴다.
+- 각 패치의 sigmoid 확률을 config.json 의 aggregation 규칙(mean / topk 평균 / max)으로 집계한다.
+  고정 규칙이며 실행 중 갱신되는 값은 없다.
+- 임계값·확률 보정·앙상블 없음(판정 임계값은 운영위원회 기준 0.5).
+"""
+import json
+import math
+from pathlib import Path
+
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+from PIL import Image
+from torchvision import models
+
+HERE = Path(__file__).resolve().parent
+MEAN = np.array([0.485, 0.456, 0.406], dtype=np.float32)
+STD = np.array([0.229, 0.224, 0.225], dtype=np.float32)
+
+
+class HighPass(nn.Module):
+    """고정(학습 안 함) 고주파 잔차: x - GaussianBlur(x). 장면 내용(색·형태)을 줄이고 노이즈·압축·스무딩 흔적을 남긴다."""
+    def __init__(self, sigma=1.0, size=5, gain=8.0):
+        super().__init__()
+        r = torch.arange(size, dtype=torch.float32) - size // 2
+        g = torch.exp(-r ** 2 / (2 * sigma ** 2)); g = g / g.sum()
+        self.register_buffer('kernel', (g[:, None] * g[None, :]).expand(3, 1, size, size).clone(), persistent=False)
+        self.pad, self.gain = size // 2, gain
+
+    def forward(self, x):
+        blur = F.conv2d(F.pad(x, [self.pad] * 4, mode='reflect'), self.kernel, groups=3)
+        return (x - blur) * self.gain
+
+
+class DualHeadResNet18(nn.Module):
+    """[HighPass] + ResNet18 백본 + 듀얼 헤드 (binary: 생성 여부 / multi: 7개 유형 보조 학습용)"""
+    def __init__(self, num_classes=7, highpass=False):
+        super().__init__()
+        backbone = models.resnet18(weights=None)   # 구조만 생성. 가중치는 model/weights.pt 에서 로드
+        in_features = backbone.fc.in_features
+        backbone.fc = nn.Identity()
+        self.pre = HighPass() if highpass else nn.Identity()
+        self.backbone = backbone
+        self.binary_head = nn.Linear(in_features, 1)
+        self.multi_head = nn.Linear(in_features, num_classes)
+
+    def forward(self, x):
+        feat = self.backbone(self.pre(x))
+        return self.binary_head(feat), self.multi_head(feat)
+
+
+def grid_crops(img: Image.Image, patch: int, grid):
+    """원본 해상도에서 고정 좌표 patch 크기 조각들. grid='cover' 면 이미지 전체를 덮는 개수, 정수면 grid x grid"""
+    w, h = img.size
+    if min(w, h) < patch:   # 아주 작은 이미지만 확대(평가 이미지는 768x1024 이므로 해당 없음)
+        s = patch / min(w, h)
+        img = img.resize((max(patch, round(w * s)), max(patch, round(h * s))), Image.BILINEAR)
+        w, h = img.size
+    nx, ny = (math.ceil(w / patch), math.ceil(h / patch)) if grid == 'cover' else (int(grid), int(grid))
+    xs = np.linspace(0, w - patch, nx).round().astype(int)
+    ys = np.linspace(0, h - patch, ny).round().astype(int)
+    arr = np.asarray(img, dtype=np.uint8)
+    return [arr[y:y + patch, x:x + patch] for y in ys for x in xs]
+
+
+def to_tensor(patches):
+    x = (np.stack(patches).astype(np.float32) / 255.0 - MEAN) / STD
+    return torch.from_numpy(np.ascontiguousarray(x.transpose(0, 3, 1, 2)))
+
+
+def aggregate(patch_probs: torch.Tensor, how: str) -> torch.Tensor:
+    """patch_probs: (n_crops,) -> 스칼라. 'mean' | 'max' | 'topK'(상위 K개 평균)"""
+    if how == 'max':
+        return patch_probs.max()
+    if how.startswith('top'):
+        k = min(int(how[3:]), patch_probs.numel())
+        return patch_probs.topk(k).values.mean()
+    return patch_probs.mean()
+
+
+def load_model(model_dir=None):
+    model_dir = Path(model_dir) if model_dir else HERE / 'model'
+    cfg = json.loads((model_dir / 'config.json').read_text(encoding='utf-8'))
+    model = DualHeadResNet18(num_classes=cfg.get('num_classes', 7), highpass=cfg.get('highpass', False))
+    model.load_state_dict(torch.load(model_dir / 'weights.pt', map_location='cpu', weights_only=True))
+    model.eval()
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    model.to(device)
+    model.cfg = cfg
+    model.device_ = device
+    return model
+
+
+@torch.no_grad()
+def predict(model, image_paths, images_per_batch=8):
+    patch, grid = model.cfg['patch'], model.cfg['grid']
+    how = model.cfg.get('aggregation', 'mean')
+    probs = []
+    for i in range(0, len(image_paths), images_per_batch):
+        batch, counts = [], []
+        for p in image_paths[i:i + images_per_batch]:
+            crops = grid_crops(Image.open(p).convert('RGB'), patch, grid)
+            batch.extend(crops); counts.append(len(crops))
+        logit, _ = model(to_tensor(batch).to(model.device_))
+        pp = torch.sigmoid(logit.float()).view(-1).cpu()
+        for chunk in torch.split(pp, counts):   # 이미지마다 패치 수가 다를 수 있음(세로/가로)
+            probs.append(float(aggregate(chunk, how)))
+    return probs
+
+
+if __name__ == '__main__':
+    import sys
+    paths = sorted(str(p) for p in Path(sys.argv[1]).iterdir() if p.suffix.lower() in {'.jpg', '.jpeg', '.png'})
+    m = load_model()
+    for p, pr in zip(paths, predict(m, paths)):
+        print(f"{Path(p).name}  {pr:.4f}")
