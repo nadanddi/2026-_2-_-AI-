@@ -1,0 +1,46 @@
+H 0 done (val 960, train 6744, pass-2 val rows 240)
+H 1 done (val 960, train 6816, pass-2 val rows 48)
+H 2 done (val 960, train 6720, pass-2 val rows 0)
+H 3 done (val 960, train 6720, pass-2 val rows 0)
+H 4 done (val 960, train 6816, pass-2 val rows 0)
+H 5 done (val 960, train 6816, pass-2 val rows 96)
+H 6 done (val 960, train 7056, pass-2 val rows 240)
+H 7 done (val 960, train 6936, pass-2 val rows 240)
+H 8 done (val 960, train 6792, pass-2 val rows 240)
+H 9 done (val 960, train 7056, pass-2 val rows 240)
+
+==== P1
+  DIAG10H       pass-2   seed 606 PFN A: -0.50% P 0.0963 | F13 -0.99% F47 -0.36%
+  DIAG10H       pass-2   seed 606 PFN B: -0.54% P 0.0852 | F13 -1.08% F47 -0.37%
+  DIAG10H       pass-2   seed 707 PFN A: -0.50% P 0.0941 | F13 -0.98% F47 -0.35%
+  DIAG10H       pass-2   seed 707 PFN B: -0.53% P 0.0867 | F13 -1.08% F47 -0.36%
+  DIAG10H       pass-2   rows 1248 | mean -0.52% P max 0.0963 -> fail
+  DIAG10H       all rows seed 606 PFN A: +0.37% P 0.9083 | F13 +0.25% F47 +0.45%
+  DIAG10H       all rows seed 606 PFN B: +0.36% P 0.8967 | F13 +0.22% F47 +0.45%
+  DIAG10H       all rows seed 707 PFN A: +0.39% P 0.9171 | F13 +0.27% F47 +0.47%
+  DIAG10H       all rows seed 707 PFN B: +0.38% P 0.9151 | F13 +0.24% F47 +0.47%
+  DIAG10H       all rows rows 8880 | mean +0.37% P max 0.9171
+VERDICT P1: FAIL
+
+==== P1W
+  DIAG10H       pass-2   seed 606 PFN A: -0.56% P 0.0650 | F13 -1.13% F47 -0.39%
+  DIAG10H       pass-2   seed 606 PFN B: -0.59% P 0.0541 | F13 -1.22% F47 -0.40%
+  DIAG10H       pass-2   seed 707 PFN A: -0.55% P 0.0638 | F13 -1.10% F47 -0.38%
+  DIAG10H       pass-2   seed 707 PFN B: -0.58% P 0.0570 | F13 -1.19% F47 -0.39%
+  DIAG10H       pass-2   rows 1248 | mean -0.57% P max 0.0650 -> fail
+  DIAG10H       all rows seed 606 PFN A: +0.18% P 0.8151 | F13 +0.13% F47 +0.21%
+  DIAG10H       all rows seed 606 PFN B: +0.17% P 0.7983 | F13 +0.10% F47 +0.21%
+  DIAG10H       all rows seed 707 PFN A: +0.20% P 0.8406 | F13 +0.15% F47 +0.22%
+  DIAG10H       all rows seed 707 PFN B: +0.18% P 0.8185 | F13 +0.12% F47 +0.22%
+  DIAG10H       all rows rows 8880 | mean +0.18% P max 0.8406
+  DIAG10(TT13)  pass-2   seed 404 PFN A: -0.67% P 0.0944 | F13 +0.85% F47 -1.07%
+  DIAG10(TT13)  pass-2   seed 404 PFN B: -0.63% P 0.1078 | F13 +0.89% F47 -1.05%
+  DIAG10(TT13)  pass-2   seed 505 PFN A: -0.66% P 0.1028 | F13 +0.97% F47 -1.08%
+  DIAG10(TT13)  pass-2   seed 505 PFN B: -0.62% P 0.1141 | F13 +1.00% F47 -1.06%
+  DIAG10(TT13)  pass-2   rows 1248 | mean -0.64% P max 0.1141
+  EL1(TT13)     pass-2   seed 404 PFN A: -0.32% P 0.1343 | F13 +0.78% F47 -0.60%
+  EL1(TT13)     pass-2   seed 404 PFN B: -0.31% P 0.1469 | F13 +0.84% F47 -0.60%
+  EL1(TT13)     pass-2   seed 505 PFN A: -0.33% P 0.1247 | F13 +0.73% F47 -0.59%
+  EL1(TT13)     pass-2   seed 505 PFN B: -0.32% P 0.1325 | F13 +0.79% F47 -0.59%
+  EL1(TT13)     pass-2   rows 1248 | mean -0.32% P max 0.1469
+VERDICT P1W: FAIL

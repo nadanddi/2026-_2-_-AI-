@@ -1,0 +1,1 @@
+비평 반영: 농장별 사전동결 metadata member stem만 실제TAR header로대응후payload읽기. 모든remote read요청(헤더 포함) 누적3GiB, payload2GiB 별도. 매read free30GiB/new2GiB/image16GiB guard. pending read90초 watchdog 프로세스중단, archive별 checkpoint로부분결과보존. 12분은다음묶음시작중단. Drive제공자cache hydration량 미측정. 후속검산read도sameledger이전값포함. 추가선정모음도매copyguard. 기존과동일128bilinear사용.

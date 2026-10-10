@@ -1,0 +1,1 @@
+실제 debug_v1 traceback에서 누계기록 os.replace의 WinError5 확인. Drive읽기오류로설명한중간추측정정. v5는 매open/seek/read전 JSONL추가+flush+fsync, 이전요청/선택payload 누계보존. 재시작은pilot이후재읽으므로시도누계를그대로합산. archive최종checkpoint는새v2이름및저빈도20회재시도. 90초watchdog의실timeout은아직재현검사하지않음.

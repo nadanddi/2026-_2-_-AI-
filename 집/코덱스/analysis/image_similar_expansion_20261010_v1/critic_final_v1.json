@@ -1,0 +1,27 @@
+{
+  "status": "모음 파일/CSV/수치 검토 통과; 짝비교04 시각 출력 확인 필요",
+  "independent_checks": {
+    "scan_examined": 408,
+    "JPEG_bytes": 114644791,
+    "completed_units": 17,
+    "unique_TAR": 15,
+    "csv_manual_reference_degree_reason_mismatches": 0,
+    "component_similar": 14,
+    "scene_similar": 41,
+    "file_size_SHA_mismatches": 0,
+    "JPEG_count": 55,
+    "eligible": 229
+  },
+  "parent_actual_verification": "verify_v3 실행verification_v1 PASS존재. 독립tarfile55바이트일치,고유decoded55,기존49 SHA/decoded교차0 및 공개21decoded교차0 기록을코드와대조. 비평자는TAR/torch실행안함.",
+  "visual_scope": "짝비교01/04/07 직접열람. 부모의기존후보7판전량검토기록과수동reference기록을검토.",
+  "findings": [
+    "현재55JPEG원본·CSV정합성오류를발견하지못함. 금실38/설향17,농장00539/0062/0132/01010/0071/0121로여전히005편중.",
+    "01/07짝비교는직접확인정상. 04출력에서상단우측414356의공개jixx그림/공개캡션/강도·farm이빈것처럼보이고첫열일부글자가좌측잘려보여부모에게실파일렌더재확인을요청함. 현재코드/CSV수동참조는jixx이며코드대로의도된대응이지만시각출력일치를추가확인할것.",
+    "verify_v3는unique decoded55/crossdecoded0을assert하지않고기록만한다. pass_all이중복조건전부강제검사라는표현은부정확. 다만실제기록값55/0/0은요구조건에부합한다.",
+    "기존49와추가55는완전동일decoded파일중복이없다는좁은기록범위에서104파일로합산가능. crop/재압축/같은개체·연속장면이없다는뜻아님.",
+    "17unit/15archive/408은실행범위. 계획24/최대576전체완료/350GB전체검색아님. v2의781초stop및추가coverage별단계를유지해야함.",
+    "공개계보주의후보는보기모음용이며미확정공통원본/학습누수없는자료로승격하지말것.",
+    "providerhydration및watchdog실제timeout재현미측정/미실험범위유지"
+  ],
+  "required_before_final": "짝비교04 실제파일시각이상을재확인하여필요시새버전그림으로수정. 현재사진파일·통계전체폐기/추가검색요구는없음."
+}

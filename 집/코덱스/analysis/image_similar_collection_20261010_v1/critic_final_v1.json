@@ -1,0 +1,51 @@
+{
+  "status": "최종 내용/현파일 독립 확인 통과; 유사강도 전달 보완 권고",
+  "scope": "캐시1000의 휴리스틱 상위3 후보에 대한 육안 선별 모음. 전체 데이터검색/독립장면/효용 결과 아님.",
+  "critic_independent_check": {
+    "farm_counts": [
+      {
+        "count": 45,
+        "farm": "AIF005"
+      },
+      {
+        "count": 4,
+        "farm": "AIF007"
+      }
+    ],
+    "file_size_SHA_mismatches": [],
+    "references": 63,
+    "kind_counts": [
+      {
+        "kind": "금실",
+        "count": 45
+      },
+      {
+        "kind": "설향",
+        "count": 4
+      }
+    ],
+    "manifest_count": 49,
+    "JPEG_count": 49,
+    "bytes": 69991434.0,
+    "retained_unique_ids": 49,
+    "reference_exclusions": 8,
+    "unique_SHA": 49,
+    "retained_reference_count": 55
+  },
+  "actual_vs_review": {
+    "visual_scope": "중간 단계4종 비교판 직접 확인. 부모는7종 전량 열람 기록. 비평자는 이번에49원본해상도 전량/최종5미리보기를 직접 열람하지 않음.",
+    "parent_actual": "verify_v2.py의 독립 tarfile 원본바이트/49SHA/크기/CSV 및 SQLite 집계 PASS 기록을 검토",
+    "critic_actual": "현재49 JPEG 크기·SHA, 관계/농장/품종을 PowerShell로 독립 재계산",
+    "critic_static": "finish_v1.py/verify_v2.py 정적 검토"
+  },
+  "findings": [
+    "8건 제외와49파일 합집합은 일관됨. 417908은moke참조만 제외되고mobg로 유지하므로 단순8사진제외로 표현하면 안 됨.",
+    "장면유사와 구성요소유사 구분이 manifest에 있으나 최종선정CSV에는degree열이 없다. 새CSV로 추가하거나 관계별 판정CSV를 최종폴더에 새이름으로 동봉할 것을 권고.",
+    "강도는 정량 검증된 척도가 아니라 인간의 질적 판정이다. 동일 공개파일별 공통이유/strong규칙이므로 후보마다 동일정도의 유사성을 입증한 것은 아님.",
+    "45금실/AIF005+4설향/AIF007로 편향이 크며49는 독립장면 수가 아니다.",
+    "검산의 이미지캐시11743407618바이트는image_*만합산한 기록이다. EC산출물포함전체local이라고 설명하지 말 것.",
+    "finish_v1.py는별도prospective자원guard없이추가복사함. 실제최종캐시상한통과가쓰기전guard실행증명은아니다. 후속복사는기존신규/global/freeguard를복사전강제하도록해야함."
+  ],
+  "blockers": [],
+  "report_wording": "1차 유사 원본49장 모음(금실45/설향4), 캐시1000 검색 범위. 장면 또는 구성 요소가 닮은 후보이며 원본 JPEG 무수정. 참조8건 제외로 고유사진7장이 모음에서 빠짐. 정확한같은원본/농장/독립장면/학습효용 확인 아님."
+}

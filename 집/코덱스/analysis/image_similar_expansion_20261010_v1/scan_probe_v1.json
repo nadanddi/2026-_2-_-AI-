@@ -1,0 +1,148 @@
+{
+  "stage": "probe",
+  "plan_sha256": "e88a6046324943cc7bc0c0e6960e39ceeb7645fd1d118f2e564978288e4eb022",
+  "results": [],
+  "errors": [
+    {
+      "unit": 1,
+      "archive": "TS_1.금실19.tar",
+      "error": "PermissionError(13, '액세스가 거부되었습니다')",
+      "traceback": "Traceback (most recent call last):\n  File \"C:\\work\\farmai\\집\\코덱스\\analysis\\image_similar_expansion_20261010_v1\\scan_debug_v1.py\", line 95, in <module>\n    for m in tf:\n             ^^\n  File \"C:\\Users\\aozks\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tarfile.py\", line 2783, in __iter__\n    tarinfo = self.next()\n              ^^^^^^^^^^^\n  File \"C:\\Users\\aozks\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\tarfile.py\", line 2636, in next\n    if not self.fileobj.read(1):\n           ^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\work\\farmai\\집\\코덱스\\analysis\\image_similar_expansion_20261010_v1\\scan_debug_v1.py\", line 49, in read\n    requests+=1;readbytes+=n;pending=time.monotonic();ledger()\n                                                      ^^^^^^^^\n  File \"C:\\work\\farmai\\집\\코덱스\\analysis\\image_similar_expansion_20261010_v1\\scan_debug_v1.py\", line 27, in ledger\n    tmp=receipt.with_suffix('.tmp');tmp.write_text(json.dumps(dict(requested_bytes=readbytes,requests=requests,payload_bytes=payloadbytes,pending=bool(pending))),encoding='utf-8');os.replace(tmp,receipt)\n                                                                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^\nPermissionError: [WinError 5] 액세스가 거부되었습니다: 'C:\\\\work\\\\farmai\\\\집\\\\코덱스\\\\analysis\\\\image_similar_expansion_20261010_v1\\\\io_receipt_probe_v1.tmp' -> 'C:\\\\work\\\\farmai\\\\집\\\\코덱스\\\\analysis\\\\image_similar_expansion_20261010_v1\\\\io_receipt_probe_v1.json'\n"
+    }
+  ],
+  "completed_plan_units": [],
+  "read_requested_bytes": 13337,
+  "read_requests": 51,
+  "payload_bytes": 0,
+  "new_output_bytes": 44891255,
+  "provider_hydration_bytes": "not measured",
+  "elapsed_seconds": 5.985000000044238,
+  "public": [
+    {
+      "file": "jixx.jpg",
+      "label": "0",
+      "type": "real",
+      "sha256": "ef1db0fd3d0d964b8812cafe194db5c26f54752e8d16a900c2a3caa413cdd5ae"
+    },
+    {
+      "file": "ovvx.jpg",
+      "label": "0",
+      "type": "real",
+      "sha256": "2f2f6644e79aba66e02e739ce0af4fe4a99e79a198f6eeed9d2ac74c21d38e2b"
+    },
+    {
+      "file": "qube.jpg",
+      "label": "0",
+      "type": "real",
+      "sha256": "256b83a9570202a6ab91c62e84241d6d85d188fc594eb1d3202f535100126e1b"
+    },
+    {
+      "file": "moke.jpg",
+      "label": "1",
+      "type": "AI_gen",
+      "sha256": "8e7524a01876e0c0980ca57e9be4394f2780ae63ee8c59dbf8fff29c2877bef4"
+    },
+    {
+      "file": "wlid.jpg",
+      "label": "1",
+      "type": "AI_gen",
+      "sha256": "61505bb1f1db43893b8f6a6043e26971054858351cea0fad7ea8001e44dd1ae4"
+    },
+    {
+      "file": "xkdj.jpg",
+      "label": "1",
+      "type": "AI_gen",
+      "sha256": "169bd982ec22ad9f8a6748bbd2a631bc96c6f9ec6a78ca533a863db15babe7f7"
+    },
+    {
+      "file": "bpem.jpg",
+      "label": "1",
+      "type": "composite",
+      "sha256": "977177e9a0c37351ffd605c923e187499f27adad7a40121a59e8232652f41339"
+    },
+    {
+      "file": "bphr.jpg",
+      "label": "1",
+      "type": "composite",
+      "sha256": "677c7f10a67b4e1595061ec0c26260fd3a084146c73e9608d4170e33d0e916dc"
+    },
+    {
+      "file": "yuag.jpg",
+      "label": "1",
+      "type": "composite",
+      "sha256": "d7467260961e1f54bec7242025bbf0b3202066474518766ba18fec8693b7d9cd"
+    },
+    {
+      "file": "vfjx.jpg",
+      "label": "1",
+      "type": "filter",
+      "sha256": "1e7b3ff091e1e766c9b339ed99eec44d07dfe384c5d1a04a1f53dbe12bc73760"
+    },
+    {
+      "file": "nqwq.jpg",
+      "label": "1",
+      "type": "filter",
+      "sha256": "a59b0bfe1ff82e355112d9273df65919e245f5c45ee0b5e3ed9b2fc2ee003b73"
+    },
+    {
+      "file": "jrtg.jpg",
+      "label": "1",
+      "type": "filter",
+      "sha256": "93fee9a68c34d00a783178044bda250d918562d780f856114fa45d331b663116"
+    },
+    {
+      "file": "kzbz.jpg",
+      "label": "1",
+      "type": "full_style",
+      "sha256": "e627b378716f43135e433559f26170b34d880371e1b92763a8faba9a53713eb0"
+    },
+    {
+      "file": "nriv.jpg",
+      "label": "1",
+      "type": "full_style",
+      "sha256": "b7688ca44eb1845aa465af38c7ab68d2918ad455f7802abb7e323633562beeaa"
+    },
+    {
+      "file": "ttmn.jpg",
+      "label": "1",
+      "type": "full_style",
+      "sha256": "800f23ef2abf691b7371c94128546010252826ddf5dd1e3e4db60369a1bfaf30"
+    },
+    {
+      "file": "ftkc.jpg",
+      "label": "1",
+      "type": "partial_gen",
+      "sha256": "f9f06cf3f78545fa5cbc354735147ddd161f9efb1aba2eacdcb309a54d6721d7"
+    },
+    {
+      "file": "mobg.jpg",
+      "label": "1",
+      "type": "partial_gen",
+      "sha256": "39b099fd4cceca21d367209275e32439c2c6707e71c59318f419794d63c0aef1"
+    },
+    {
+      "file": "uexm.jpg",
+      "label": "1",
+      "type": "partial_gen",
+      "sha256": "b7f83937158c70343b65efc94c31fdc881e80d9ff14f701ae858079560d11551"
+    },
+    {
+      "file": "dszm.jpg",
+      "label": "1",
+      "type": "partial_style",
+      "sha256": "f76d6b1ce694acd2ebe059551ab1f288d672a1372b636cc65a5f4d27b2225403"
+    },
+    {
+      "file": "elue.jpg",
+      "label": "1",
+      "type": "partial_style",
+      "sha256": "93e383a7bcd6dd2e5ddfbbe48c9ebfa761c2c018602e3921ef81667b6907fb7f"
+    },
+    {
+      "file": "xeeo.jpg",
+      "label": "1",
+      "type": "partial_style",
+      "sha256": "f0359038e7847d2d543a9981e066b80e2ad0db3caebd0aabe044140f4d4189cf"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "scan_v3.py/expand_v3.py/addendum_v2 정적 재검토,실제timeout실험0",
+  "status": "payload 누계 복원 한줄 보완 후 전체확대 조건부 진행 가능",
+  "resolved": [
+    "open/seek/read가pending90초watchdog으로보호됨",
+    "read요청누계를요청전에원자receipt저장,재개시requested_bytes/requests최대값보존"
+  ],
+  "required": "receipt복원에서payloadbytes=max(payloadbytes,saved[payload_bytes])도적용한다. 현재는read총3GiB는유지되지만선택payload2GiB가중단/재실행마다부분초기화될수있다.",
+  "limits": [
+    "Drive providerhydration미측정 유지",
+    "매readreceipt가실제요청보다앞서므로중단시보수적과대계산될수있지만안전하다",
+    "globalguard중복합산은보수적이며실제캐시량과다르다",
+    "이판정은정적코드조건검사이며서비스I/O90초강제중단이실제재현됐다는뜻이아니다"
+  ]
+}

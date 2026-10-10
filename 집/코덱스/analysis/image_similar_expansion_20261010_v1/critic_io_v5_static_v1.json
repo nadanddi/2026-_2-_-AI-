@@ -1,0 +1,16 @@
+{
+  "scope": "scan_v5.py의I/O코드정적확인;원본읽기/실행없음",
+  "status": "현재진행차단없음;재시작JSONL경계보완과다중PID원장확인필요",
+  "confirmed": [
+    "sourceopen/seek/read이전pending및guard",
+    "read요청누계증가후append/flush/fsync가실제read이전",
+    "기존receipt/tmp와journal에서requested/requests/payload최댓값복원"
+  ],
+  "required_followup": [
+    "partiallastline뒤재append시record앞개행을보장한다. 현재line파싱오류skip은부분줄과이어진정상record까지잃을수있다.",
+    "2개PID가같은기준누계를병렬증가했다면max만으로합산할수없다. 실제source요청이겹치지않았다는로그근거를확인하거나각과정read소모량합산한다.",
+    "후속최종검산입력은scan_expanded_v2.json및io_journal_expanded_v2.jsonl으로등록한다.",
+    "기존오류와임시receipt는보존,sourceDrive문제가아닌로컬replace오류였다는근거를구분한다."
+  ],
+  "limits": "appendjournal변경은실제동시실행/강제종료복구검증완료를뜻하지않음. providerhydration비용미측정은유지."
+}

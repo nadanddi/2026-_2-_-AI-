@@ -5,3 +5,48 @@ old DIAG10/3 done
 old DIAG10/4 done
 old DIAG10/5 done
 old DIAG10/6 done
+old DIAG10/7 done
+old DIAG10/8 done
+old DIAG10/9 done
+old EL1/0 done
+old EL1/1 done
+old EL1/2 done
+old EL1/3 done
+old EL1/4 done
+old EL1/5 done
+old EL1/6 done
+old EL1/7 done
+old EL1/8 done
+old EL1/9 done
+old EL1/10 done
+old EL1/11 done
+G 0 done (val 960, train 6792, pass-2 val rows 0)
+G 1 done (val 960, train 6864, pass-2 val rows 96)
+G 2 done (val 960, train 7056, pass-2 val rows 240)
+G 3 done (val 960, train 6792, pass-2 val rows 48)
+G 4 done (val 960, train 6720, pass-2 val rows 0)
+G 5 done (val 960, train 7056, pass-2 val rows 240)
+G 6 done (val 960, train 7056, pass-2 val rows 240)
+G 7 done (val 960, train 6720, pass-2 val rows 0)
+G 8 done (val 960, train 6768, pass-2 val rows 240)
+G 9 done (val 960, train 6960, pass-2 val rows 240)
+
+==== P1 (pass-2 rows, rough days excluded)
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\tt13_pass2_rule_confirm_v1.py", line 188, in <module>
+    summarize()
+  File "C:\work\farmai\집\클로드\research\tt13_pass2_rule_confirm_v1.py", line 168, in summarize
+    X = D[(D.day >= 179) & [(f, d) not in RD for f, d in zip(D.farm, D.day)]].copy()
+          ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\ops\common.py", line 85, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\arraylike.py", line 72, in __and__
+    return self._logical_method(other, operator.and_)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\series.py", line 6746, in _logical_method
+    res_values = ops.logical_op(lvalues, rvalues, op)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\ops\array_ops.py", line 438, in logical_op
+    raise TypeError(
+TypeError: Logical ops (and, or, xor) between Pandas objects and dtype-less sequences (e.g. list, tuple) are no longer supported. Wrap the object in a Series, Index, or np.array before operating instead.

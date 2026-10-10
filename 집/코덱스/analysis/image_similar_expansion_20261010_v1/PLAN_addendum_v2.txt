@@ -1,0 +1,1 @@
+중간비평반영: open/seek/read 전부pending90초watchdog대상. read요청 누적을각요청직전에원자receipt로기록하여중단시누락없게함. 재실행receipt가있으면요청누계max보존. globalcache보수중복합산은상한을낮추므로유지. 매archivecheckpoint 부분자료보존,예약농장배제는metadata-member매핑기반임을명시.

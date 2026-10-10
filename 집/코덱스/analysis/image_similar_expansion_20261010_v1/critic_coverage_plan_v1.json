@@ -1,0 +1,19 @@
+{
+  "status": "coverage두묶음조건부진행가능",
+  "scope": "coverage_v1.py/COVERAGE_addendum_v1/scan_v6정적검토,실행없음",
+  "confirmed": [
+    "v2결과/completedunits/read/payload누계를복원",
+    "사전sourceplan의unit16/20만대상,done스킵",
+    "append기록앞뒤개행과flush/fsync",
+    "open/seek/readwatchdog및payload2GiB/read3GiB/cache/free guard",
+    "v3새결과출력"
+  ],
+  "conditions": [
+    "순차singlewriter유지",
+    "v3에서errors초기화로v2의12분stop기록이자동상속되지않음. 최종sourcechain에v2의15묶음360/781초종료와추가coverage단계를별도보존·명시",
+    "이번단계새12분예산과전체누적실행시간구분",
+    "6농장coverage는실제결과전까지목표이며균등대표성아님",
+    "최종검산등록원천을scanexpandedv3및currentjournal로고정"
+  ],
+  "blockers": []
+}

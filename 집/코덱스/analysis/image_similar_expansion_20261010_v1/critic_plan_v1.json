@@ -1,0 +1,26 @@
+{
+  "stage": "초기계획",
+  "status": "실제 Drive TAR 접근 전 2개 필수 보완",
+  "source": "PLAN_v1.txt",
+  "required": [
+    {
+      "issue": "선택payload2GiB와Drive접근총비용은동일하지않음",
+      "fix": "header/EOF/재시도/독립검산을포함한 실제 read 요청 ledger와 cap을별도고정하고 매read전 diskfree와작업캐시 guard를강제한다. 중단할수없는longblockingI/O는별도작업으로timeout/취소경로를정한다. seek가providerhydration을막는다고주장하지않고provider소비량미측정으로기록한다.",
+      "priority": "높음"
+    },
+    {
+      "issue": "archive의농장선정만으로허용농장member제한불충분",
+      "fix": "개발6농장 metadata행에서선정member목록을동결하고 actualheader name/type/size와허용member를대조해일치한payload만read한다. 예약농장이포함된archive의header목록열람과예약농장픽셀payload읽기를구분한다.",
+      "priority": "높음"
+    }
+  ],
+  "other_conditions": [
+    "불완전headerseek/선택payload검사만으로TAR전체구조·내용무결성통과를주장하지않는다. 선택member범위와미확인영역을명시한다.",
+    "12분시점은다음묶음시작중단이므로단일blockingread하드상한이라고표현하지않는다.",
+    "균등archive/촬영시간추출은휴리스틱coverage이며통계적농장대표성·독립장면·576전체유사성으로해석하지않는다.",
+    "농장별대표추가는유사하지않으면유지하지않고순위상위20+추가선정이력/육안강도를분리한다.",
+    "공개계보근접후보재허용은사용자모음검색범위이며학습에쓸수있다는판정이아니다. 후속학습전계보누수검사가필요하다.",
+    "치수불일치뷰허용은실제치수/라벨치수/오류를명시하고metadata충돌이해결됐다고하지않는다. 격리ID는기존대로제외한다."
+  ],
+  "scope": "계획문서만읽음. 코드/실제TAR/header/원본이미지/네트워크접근0."
+}

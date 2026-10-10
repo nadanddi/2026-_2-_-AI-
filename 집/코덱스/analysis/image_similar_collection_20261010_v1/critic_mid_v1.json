@@ -1,0 +1,39 @@
+{
+  "stage": "중간",
+  "status": "차단사항 없음; 최종 관계별 판정과 독립 TAR 검산은 미완료",
+  "independent_record_check": {
+    "file_size_sha_mismatch": 0,
+    "images": 56,
+    "farm_counts": [
+      {
+        "farm": "AIF005",
+        "count": 50
+      },
+      {
+        "farm": "AIF007",
+        "count": 6
+      }
+    ],
+    "bytes": 78034166.0,
+    "kind_counts": [
+      {
+        "kind": "금실",
+        "count": 50
+      },
+      {
+        "kind": "설향",
+        "count": 6
+      }
+    ]
+  },
+  "direct_visual_scope": "AI_gen/composite/filter/partial_gen 비교판4개를 직접 확인. 나머지3판 및 원본해상도 전체 열람은 아직 하지 않음.",
+  "comments": [
+    "보고된8개 참조 제외는 직접 확인한 비교판의 구도 부족과 부합한다. 하나의 참조 제외와 파일 전체 제외를 구분해야 한다.",
+    "xkdj의833555/833563은 잎 근접 표현 유사만 인정 가능; 꽃/열매/밀집 수관 장면 강한 유사로 분류하지 말 것.",
+    "nqwq 나머지2개도 검정 베드/푸른 망/노란 표지 전체 구도와 다르므로 부분 구성 유사 범주가 적절하다.",
+    "vfjx 일부 후보는 상당히 닮아 보이지만 같은 원본/동일 농장 증명으로 승격하지 말 것.",
+    "cache16GiB 범위는 image_* 작업의 합산이며 EC 포함 ownlocal 전체로 설명하면 안 된다. v1 guard 중단과 v2 범위 정정을 과정 기록에 남길 것.",
+    "최종49는 아직 예정 수치이다. 유지된 공개 참조 관계와 최종 파일 합집합을 새 manifest 및 독립 검산으로 확정해야 한다."
+  ],
+  "code_review": "collect_v2 정적 검토: eligible/원본payloadSHA/동일SHA/독점쓰기, 신규512MiB/이미지캐시16GiB/여유30GiB 사전 guard 확인. 원본 TAR 독립 재읽기는 이 비평에서 하지 않음."
+}

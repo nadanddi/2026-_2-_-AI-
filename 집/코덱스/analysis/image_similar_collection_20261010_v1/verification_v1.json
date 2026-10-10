@@ -1,0 +1,20 @@
+{
+  "pass_all": true,
+  "fresh_jpeg_count": 49,
+  "unique_sha": 49,
+  "independent_tarfile_byte_equality_count": 49,
+  "kind_counts": {
+    "금실": 45,
+    "설향": 4
+  },
+  "farm_counts": {
+    "AIF005": 45,
+    "AIF007": 4
+  },
+  "reference_decisions": 63,
+  "excluded_reference_pairs": 8,
+  "excluded_unique_candidates": 7,
+  "image_cache_bytes": 11743407618,
+  "scope": "cached VS gold2/seol3 mapped1000 only",
+  "limits": "캐시1000의 상위 후보에서 육안 선별. 동일 원본/독립 장면/학습 효용 확인 아님. 공개 샘플로 학습 성능을 검증하지 않음."
+}

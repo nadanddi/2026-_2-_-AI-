@@ -1,0 +1,25 @@
+H/0 done
+H/1 done
+H/2 done
+H/3 done
+H/4 done
+H/5 done
+H/6 done
+H/7 done
+H/8 done
+H/9 done
+EXT10/0 done
+
+==== C1
+  DIAG10H  all rows rows  8880 | mean +0.04% [+0.01, +0.07] all better False P max 0.7624 -> fail
+  DIAG10H  pass-2   rows  1248 | mean -0.10% [-0.15, -0.05] all better True P max 0.3733
+  EXT10    all rows rows  1848 | mean -0.12% [-0.14, -0.09] all better True P max 0.3655
+  EXT10    pass-2   rows   216 | mean +0.16% [+0.05, +0.26] all better False P max 0.7203
+VERDICT C1: FAIL
+
+==== C2
+  DIAG10H  all rows rows  8880 | mean +0.20% [+0.15, +0.24] all better False P max 0.7764 -> fail
+  DIAG10H  pass-2   rows  1248 | mean -0.69% [-0.74, -0.65] all better True P max 0.0621
+  EXT10    all rows rows  1848 | mean -0.51% [-0.68, -0.35] all better True P max 0.2491
+  EXT10    pass-2   rows   216 | mean -0.49% [-0.58, -0.41] all better True P max 0.2653
+VERDICT C2: FAIL

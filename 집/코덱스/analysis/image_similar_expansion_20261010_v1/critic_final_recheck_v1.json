@@ -1,0 +1,33 @@
+{
+  "status": "최종 재검토 통과; 남은 전달 차단사항 없음",
+  "independent_current_files": {
+    "count": 104,
+    "unique_sha": 104,
+    "kind_counts": [
+      {
+        "kind": "금실",
+        "count": 83
+      },
+      {
+        "kind": "설향",
+        "count": 21
+      }
+    ],
+    "manifest_rows": 104,
+    "size_sha_mismatches": 0
+  },
+  "resolved": [
+    "04상단우측확인crop 직접view에서공개jixx/414356/장면유사/AIF005가모두정상으로보임. 앞시각이상은현재실파일에서재현되지않아수정요구철회. 원인이검증됐다는주장은없음.",
+    "final_checks_v1.py에서추가55 고유decoded55/old49및public21교차pixel0조건실제assert,통합104 고유pixel104실제assert됨. 부모actualPASS기록을확인.",
+    "paired7판v1-v2byte동일assert및수동refCSV확인기록이존재"
+  ],
+  "scope": "비평자는통합104현JPEG크기/SHA를PowerShell로독립확인하고확인crop직접열람,검산코드/actual결과검토. 독립TAR재읽기/104pixel재decode는부모검산범위이며비평자가별도실행하지않음.",
+  "remaining_limits": [
+    "104는고유완전파일/decodedpixel개수이며독립장면/개체/농장수아님. 근접연속장면포함.",
+    "408은17계획unit/15TAR의선정payload검색이며24묶음576/350GB전수완료아님.",
+    "금실83/설향21 및005편중. 6농장범위확보가통계적대표성뜻하지않음.",
+    "공개근접계보주의는학습안전보장이아님.",
+    "providerhydration미측정/watchdog실제timeout재현X와v2예산stop→추가48단계구분유지"
+  ],
+  "blockers": []
+}
