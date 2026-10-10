@@ -1,0 +1,24 @@
+
+==== day gate T=10
+  layout F all -0.76% [-0.78, -0.74] 2차 -1.78% | GRU 사용 비중(g*h>0) 61%
+  layout G all -0.76% [-0.79, -0.72] 2차 -1.96% | GRU 사용 비중(g*h>0) 61%
+  layout H all -0.72% [-0.74, -0.70] 2차 -1.73% | GRU 사용 비중(g*h>0) 61%
+  layout I all -0.70% [-0.71, -0.69] 2차 -1.60% | GRU 사용 비중(g*h>0) 61%
+  pooled P(worse) 0.0000
+  EXT10  all +0.04% P max 0.8427 ok
+  EXT12  all +0.07% P max 0.7054 ok
+  DIAG10 all -0.75% P max 0.0159 (report)
+  EL1    all -1.54% P max 0.0050 (report)
+SCREEN T=10: PROMOTE to layout-J confirmation
+
+==== day gate T=12
+  layout F all -0.54% [-0.55, -0.53] 2차 -0.93% | GRU 사용 비중(g*h>0) 39%
+  layout G all -0.56% [-0.58, -0.54] 2차 -1.06% | GRU 사용 비중(g*h>0) 39%
+  layout H all -0.56% [-0.57, -0.54] 2차 -0.98% | GRU 사용 비중(g*h>0) 39%
+  layout I all -0.52% [-0.53, -0.51] 2차 -0.81% | GRU 사용 비중(g*h>0) 39%
+  pooled P(worse) 0.0002
+  EXT10  all +0.01% P max 0.9325 ok
+  EXT12  all -0.09% P max 0.0386 ok
+  DIAG10 all -0.62% P max 0.0205 (report)
+  EL1    all -0.71% P max 0.0014 (report)
+SCREEN T=12: PROMOTE to layout-J confirmation
