@@ -1,0 +1,48 @@
+similar rows 24582 (fractional rows kept)
+REPRO gate: CODEX unchanged vs stored max diff 3.55e-15
+DIAG10/0 done
+DIAG10/1 done
+DIAG10/2 done
+DIAG10/3 done
+DIAG10/4 done
+DIAG10/5 done
+DIAG10/6 done
+DIAG10/7 done
+DIAG10/8 done
+DIAG10/9 done
+EXT10/0 done
+EXT12/0 done
+EL1/0 done
+EL1/1 done
+EL1/2 done
+EL1/3 done
+EL1/4 done
+EL1/5 done
+EL1/6 done
+EL1/7 done
+EL1/8 done
+EL1/9 done
+EL1/10 done
+EL1/11 done
+
+==== B1 (primary EXT10)
+seed   7 PFN A | DIAG10 +0.20% P 0.778 (<6C 1.74->1.62, 2차 +0.01%) | EXT10 +2.06% P 0.940 (<6C 0.92->1.14, 2차 +0.01%) | EXT12 +0.05% P 0.572 (<6C 1.86->1.63, 2차 +0.09%) | EL1 -0.08% P 0.112 (<6C -, 2차 -0.08%) |
+seed   7 PFN B | DIAG10 +0.20% P 0.776 (<6C 1.74->1.62, 2차 +0.01%) | EXT10 +2.04% P 0.933 (<6C 0.92->1.14, 2차 -0.00%) | EXT12 +0.04% P 0.564 (<6C 1.86->1.63, 2차 +0.08%) | EL1 -0.08% P 0.114 (<6C -, 2차 -0.08%) |
+seed 101 PFN A | DIAG10 +0.21% P 0.780 (<6C 1.73->1.62, 2차 +0.01%) | EXT10 +1.95% P 0.921 (<6C 0.93->1.13, 2차 -0.08%) | EXT12 +0.08% P 0.608 (<6C 1.86->1.64, 2차 +0.11%) | EL1 -0.09% P 0.096 (<6C -, 2차 -0.09%) |
+seed 101 PFN B | DIAG10 +0.21% P 0.780 (<6C 1.73->1.62, 2차 +0.01%) | EXT10 +1.93% P 0.915 (<6C 0.93->1.13, 2차 -0.09%) | EXT12 +0.07% P 0.604 (<6C 1.86->1.64, 2차 +0.11%) | EL1 -0.09% P 0.097 (<6C -, 2차 -0.09%) |
+  DIAG10 seed-mean +0.20%  P(worse) max 0.7803
+  EXT10  seed-mean +1.99%  P(worse) max 0.9399
+  EXT12  seed-mean +0.06%  P(worse) max 0.6075
+  EL1    seed-mean -0.08%  P(worse) max 0.1138
+VERDICT B1: FAIL
+
+==== B2 (primary EXT10)
+seed   7 PFN A | DIAG10 +0.15% P 0.703 (<6C 1.74->1.59, 2차 +0.03%) | EXT10 +1.17% P 0.878 (<6C 0.92->0.92, 2차 +1.36%) | EXT12 +0.09% P 0.611 (<6C 1.86->1.61, 2차 +0.19%) | EL1 -0.07% P 0.055 (<6C -, 2차 -0.07%) |
+seed   7 PFN B | DIAG10 +0.15% P 0.702 (<6C 1.74->1.59, 2차 +0.02%) | EXT10 +1.14% P 0.862 (<6C 0.92->0.92, 2차 +1.30%) | EXT12 +0.09% P 0.618 (<6C 1.86->1.61, 2차 +0.18%) | EL1 -0.07% P 0.060 (<6C -, 2차 -0.07%) |
+seed 101 PFN A | DIAG10 +0.16% P 0.713 (<6C 1.73->1.58, 2차 +0.02%) | EXT10 +1.05% P 0.852 (<6C 0.93->0.91, 2차 +1.21%) | EXT12 +0.10% P 0.629 (<6C 1.86->1.61, 2차 +0.21%) | EL1 -0.08% P 0.041 (<6C -, 2차 -0.08%) |
+seed 101 PFN B | DIAG10 +0.16% P 0.706 (<6C 1.73->1.58, 2차 +0.02%) | EXT10 +1.02% P 0.834 (<6C 0.93->0.91, 2차 +1.16%) | EXT12 +0.10% P 0.633 (<6C 1.86->1.61, 2차 +0.20%) | EL1 -0.08% P 0.044 (<6C -, 2차 -0.08%) |
+  DIAG10 seed-mean +0.16%  P(worse) max 0.7129
+  EXT10  seed-mean +1.09%  P(worse) max 0.8785
+  EXT12  seed-mean +0.09%  P(worse) max 0.6327
+  EL1    seed-mean -0.07%  P(worse) max 0.0597
+VERDICT B2: FAIL
