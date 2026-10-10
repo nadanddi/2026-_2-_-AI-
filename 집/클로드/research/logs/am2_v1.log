@@ -1,0 +1,12 @@
+  main effect b : 0.25: F13 -0.06% F47 -0.82% 0.5: F13 -0.08% F47 -1.58% 0.75: F13 -0.06% F47 -2.26% 1.0: F13 -0.00% F47 -2.88% 1.5: F13 +0.24% F47 -3.90%
+  main effect t0: 0.6: F13 +0.03% F47 -2.08% 0.8: F13 +0.02% F47 -2.42% 1.0: F13 -0.03% F47 -2.36%
+  main effect tw: 0.2: F13 +0.06% F47 -2.31% 0.4: F13 +0.02% F47 -2.45% 0.8: F13 -0.05% F47 -2.09%
+select on F13: b 0.50 t0 0.6 tw 0.2 (F13 -0.15%) -> held-out F47 -1.32% (rank 35 of 45 on held-out)
+    DIAG10 on F47: cells -1.30% -1.25% -1.40%
+    P2LOO on F47: cells -3.90% -4.04% -4.17%
+    EL1 on F47: cells -2.56% -2.41% -2.39%
+select on F47: b 1.50 t0 1.0 tw 0.2 (F47 -4.81%) -> held-out F13 +0.12% (rank 40 of 45 on held-out)
+    DIAG10 on F13: cells +0.77% +0.06% -0.49%
+    P2LOO on F13: cells +5.82% +6.60% +6.55%
+    EL1 on F13: cells +0.55% +0.76% +0.61%
+pooled held-out record bootstrap P(worse) 0.3319 (13 records, improved 5) -> VERDICT AM2: FAIL
