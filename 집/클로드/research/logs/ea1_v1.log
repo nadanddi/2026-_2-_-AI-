@@ -1,0 +1,6 @@
+confident 1-step EC anchors on labelled records: 52
+  DIAG10 pass-2 cells -2.89% -2.64% -2.55% | normal 0.1423 -> 0.1297 | high 0.6002 -> 0.6002 | anchored records 16, improved 13 | record P(worse) 0.0095, sign p 0.011
+    per-record change (DIAG10): {'F47_216': -2.896, 'F13_179': -0.159, 'F13_181': -0.128, 'F13_215': -0.097, 'F13_182': -0.055, 'F13_183': -0.05, 'F47_196': -0.036, 'F13_195': -0.03, 'F47_193': -0.009, 'F47_210': -0.008, 'F13_198': -0.004, 'F47_180': -0.002, 'F47_195': -0.002, 'F47_192': 0.0, 'F13_218': 0.004, 'F13_180': 0.115}
+  P2LOO  pass-2 cells -2.65% -2.73% -2.39% | normal 0.1370 -> 0.1288 | high 0.4412 -> 0.4412 | anchored records 16, improved 14 | record P(worse) 0.0000
+  EL1    pass-2 cells -1.37% -1.31% -0.88% | normal 0.1563 -> 0.1491 | high 0.7527 -> 0.7527 | anchored records 16, improved 14 | record P(worse) 0.0054
+VERDICT EA1: PASS
