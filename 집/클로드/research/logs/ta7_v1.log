@@ -1,0 +1,20 @@
+submitted-rule rows found: 1
+no-anchor RMSE pass1 0.5698 pass2 0.7355 | submitted rule pass1 0.5640 pass2 0.7141
+  main effect p_min : 0.8: pass1 +0.15% pass2 -0.54% 0.9: pass1 +0.19% pass2 +0.86% 0.95: pass1 +0.37% pass2 +2.32%
+  main effect bias  : const: pass1 +0.24% pass2 +0.84% dT: pass1 +0.24% pass2 +0.92%
+  main effect decay : lin8: pass1 +0.33% pass2 +1.15% meas: pass1 +0.14% pass2 +0.61%
+  main effect clip  : 1.0: pass1 +0.24% pass2 +1.10% 2.0: pass1 +0.22% pass2 +0.79% inf: pass1 +0.25% pass2 +0.75%
+  main effect gate  : 1.5: pass1 +0.13% pass2 +0.88% 3.0: pass1 +0.26% pass2 +0.88% inf: pass1 +0.33% pass2 +0.88%
+selected on pass-1: {'p_min': np.float64(0.8), 'bias': 'const', 'decay': 'meas', 'clip': np.float64(inf), 'gate': np.float64(1.5)} | pass1 -0.31% pass2 -1.35% (vs submitted)
+pass-2 rank of the selected setting: 3 of 108; top-5 by pass-1 and their pass-2:
+    p_min   bias decay  clip  gate    d1    d2
+15    0.8  const  meas   inf   1.5 -0.31 -1.35
+12    0.8  const  meas   2.0   1.5 -0.31 -1.20
+51    0.9  const  meas   inf   1.5 -0.20  0.26
+48    0.9  const  meas   2.0   1.5 -0.20  0.41
+9     0.8  const  meas   1.0   1.5 -0.13 -0.24
+  DIAG10 selected vs submitted, pass-2 cells -1.31% -1.36% -1.33% -1.39% | changed records 22, improved 10 | record P(worse) 0.0182 -> PASS
+  G      selected vs submitted, pass-2 cells -1.57% -1.68% -1.54% -1.65% | changed records 22, improved 16
+  EL1    selected vs submitted, pass-2 cells -1.22% -1.22% -1.18% -1.22% | changed records 22, improved 12
+  EXT10  selected vs submitted, pass-2 cells -7.93% -7.68% -8.00% -7.88% | changed records 3, improved 3
+  EXT12  selected vs submitted, pass-2 cells -3.09% -3.06% -3.06% -3.04% | changed records 7, improved 7
