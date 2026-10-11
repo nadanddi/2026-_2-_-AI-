@@ -52,7 +52,7 @@ def main():
     e2 = {f: 100 * (rm((ea2 - O.y)[p2 & (O.farm == f).values]) / rm((O.sg - O.y)[p2 & (O.farm == f).values]) - 1) for f in ("F13", "F47")}
     print("EA2 rule vs sg (pass-2): F13 %+.2f%% F47 %+.2f%%" % (e2["F13"], e2["F47"]))
     for sel, held in (("F13", "F47"), ("F47", "F13")):
-        b = G.sort_values(sel).iloc[0]; pr = preds[(int(b.nl), int(b.ne), b.sh)]
+        b = G.sort_values(sel).iloc[0]; pr = preds[(int(b["nl"]), int(b["ne"]), b["sh"])]
         m = p2 & (O.farm == held).values
         per = pd.Series((pr - O.y.values) ** 2 - (ea2 - O.y.values) ** 2)[m].groupby(O.rec.values[m]).sum(); per = per[per.abs() > 1e-12]
         print("select on %s -> %s: learned %+.2f%% vs sg, EA2 %+.2f%% vs sg | learned vs EA2 %+.2f%%, records changed %d improved %d" % (
