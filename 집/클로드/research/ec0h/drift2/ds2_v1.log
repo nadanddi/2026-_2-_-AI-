@@ -1,0 +1,13 @@
+DS2: (a) real state, direct target e_h (h>=1, 0h untouched); (b) oracle state, baseline q + c_h*e0 (c from training folds), target e_h - c_h e0
+  EV     seed   101 real   : real-state s=0/.25/.5/1 0.18170 0.18331 0.18717 0.20104 | oracle(c-decay base) s=0/.25/.5/1 0.10990 0.10810 0.10745 0.10962
+  EV     seed   101 SHUFFLE: real-state s=0/.25/.5/1 0.18170 0.18254 0.18436 0.19087 | oracle(c-decay base) s=0/.25/.5/1 0.10990 0.11039 0.11150 0.11544
+  EV     seed  2024 real   : real-state s=0/.25/.5/1 0.18232 0.18461 0.18907 0.20386 | oracle(c-decay base) s=0/.25/.5/1 0.10984 0.10784 0.10717 0.10983
+  EV     seed  2024 SHUFFLE: real-state s=0/.25/.5/1 0.18232 0.18303 0.18470 0.19086 | oracle(c-decay base) s=0/.25/.5/1 0.10984 0.11038 0.11153 0.11561
+  EV     seed     7 real   : real-state s=0/.25/.5/1 0.18262 0.18546 0.19041 0.20598 | oracle(c-decay base) s=0/.25/.5/1 0.11023 0.10821 0.10750 0.11003
+  EV     seed     7 SHUFFLE: real-state s=0/.25/.5/1 0.18262 0.18394 0.18624 0.19367 | oracle(c-decay base) s=0/.25/.5/1 0.11023 0.11055 0.11151 0.11526
+  DIAG10 seed  1414 real   : real-state s=0/.25/.5/1 0.17806 0.18035 0.18475 0.19924 | oracle(c-decay base) s=0/.25/.5/1 0.09626 0.09315 0.09117 0.09088
+  DIAG10 seed  1414 SHUFFLE: real-state s=0/.25/.5/1 0.17806 0.17809 0.17912 0.18409 | oracle(c-decay base) s=0/.25/.5/1 0.09626 0.09604 0.09633 0.09844
+  DIAG10 seed    47 real   : real-state s=0/.25/.5/1 0.17945 0.17909 0.18087 0.19049 | oracle(c-decay base) s=0/.25/.5/1 0.09524 0.09212 0.09007 0.08950
+  DIAG10 seed    47 SHUFFLE: real-state s=0/.25/.5/1 0.17945 0.17941 0.18057 0.18638 | oracle(c-decay base) s=0/.25/.5/1 0.09524 0.09532 0.09592 0.09869
+  DIAG10 seed  6464 real   : real-state s=0/.25/.5/1 0.17816 0.17765 0.17935 0.18909 | oracle(c-decay base) s=0/.25/.5/1 0.09569 0.09214 0.08975 0.08875
+  DIAG10 seed  6464 SHUFFLE: real-state s=0/.25/.5/1 0.17816 0.17788 0.17867 0.18343 | oracle(c-decay base) s=0/.25/.5/1 0.09569 0.09538 0.09562 0.09769
