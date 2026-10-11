@@ -1,0 +1,39 @@
+     resp          target  ph  raw_rho  raw_p  seas_rho  seas_p   n
+    k_lag       ec25_mean   1   -0.254 0.0005    -0.051  0.3428 340
+    k_lag       ec25_mean   2   -0.397 0.0035    -0.135  0.3353  56
+    k_lag          absres   1   -0.231 0.0005    -0.204  0.0010 311
+    k_lag          absres   2   -0.522 0.0005    -0.297  0.0415  46
+    k_lag        res_mean   1   -0.063 0.2734    -0.053  0.3498 311
+    k_lag        res_mean   2    0.261 0.0765     0.359  0.0110  46
+    k_lag           res_0   1   -0.097 0.0785    -0.077  0.1634 311
+    k_lag           res_0   2    0.215 0.1439     0.314  0.0415  46
+    k_lag absres|ec25수준통제   1   -0.126    NaN       NaN     NaN 311
+    k_lag absres|ec25수준통제   2   -0.391    NaN       NaN     NaN  46
+    k_lvl       ec25_mean   1   -0.197 0.0005    -0.055  0.3093 342
+    k_lvl       ec25_mean   2   -0.268 0.0525    -0.060  0.6707  56
+    k_lvl          absres   1   -0.249 0.0005    -0.230  0.0005 312
+    k_lvl          absres   2   -0.375 0.0130    -0.230  0.1254  46
+    k_lvl        res_mean   1   -0.055 0.3153    -0.081  0.1609 312
+    k_lvl        res_mean   2    0.314 0.0415     0.384  0.0115  46
+    k_lvl           res_0   1   -0.114 0.0515    -0.137  0.0160 312
+    k_lvl           res_0   2    0.238 0.1094     0.309  0.0440  46
+    k_lvl absres|ec25수준통제   1   -0.190    NaN       NaN     NaN 312
+    k_lvl absres|ec25수준통제   2   -0.307    NaN       NaN     NaN  46
+night_gap       ec25_mean   1   -0.252 0.0005     0.124  0.0230 343
+night_gap       ec25_mean   2   -0.238 0.0790    -0.016  0.9095  56
+night_gap          absres   1   -0.209 0.0005     0.036  0.5147 313
+night_gap          absres   2   -0.243 0.1094    -0.003  0.9895  46
+night_gap        res_mean   1   -0.113 0.0435    -0.054  0.3423 313
+night_gap        res_mean   2    0.034 0.8186     0.000  1.0000  46
+night_gap           res_0   1   -0.129 0.0275    -0.060  0.2964 313
+night_gap           res_0   2    0.013 0.9315    -0.012  0.9440  46
+night_gap absres|ec25수준통제   1   -0.095    NaN       NaN     NaN 313
+night_gap absres|ec25수준통제   2   -0.150    NaN       NaN     NaN  46
+1 k_lag 저EC 0.491 중 0.439 고 0.42 | k_lvl 0.526 0.482
+2 k_lag 저EC 0.453 중 0.415 고 0.375 | k_lvl 0.511 0.458
+0..8시만 쓴 k_lag 1 vs ec25_mean (np.float64(-0.073), np.float64(0.1758), 339) vs ec25_0(0시 EC) (np.float64(-0.072), np.float64(0.2018), 339) vs res_0 (np.float64(-0.054), np.float64(0.3606), 311) vs absres (np.float64(0.024), np.float64(0.6623), 311)
+0..8시만 쓴 k_lag 2 vs ec25_mean (np.float64(-0.139), np.float64(0.2877), 56) vs ec25_0(0시 EC) (np.float64(-0.131), np.float64(0.3137), 56) vs res_0 (np.float64(0.078), np.float64(0.6094), 46) vs absres (np.float64(-0.183), np.float64(0.2078), 46)
+0..12시만 쓴 k_lag 1 vs ec25_mean (np.float64(-0.197), np.float64(0.001), 341) vs ec25_0(0시 EC) (np.float64(-0.192), np.float64(0.002), 341) vs res_0 (np.float64(-0.094), np.float64(0.1119), 312) vs absres (np.float64(-0.195), np.float64(0.001), 312)
+0..12시만 쓴 k_lag 2 vs ec25_mean (np.float64(-0.267), np.float64(0.0519), 56) vs ec25_0(0시 EC) (np.float64(-0.266), np.float64(0.048), 56) vs res_0 (np.float64(0.218), np.float64(0.1528), 46) vs absres (np.float64(-0.388), np.float64(0.011), 46)
+0..23시만 쓴 k_lag 1 vs ec25_mean (np.float64(-0.242), np.float64(0.001), 344) vs ec25_0(0시 EC) (np.float64(-0.242), np.float64(0.001), 344) vs res_0 (np.float64(-0.099), np.float64(0.0859), 314) vs absres (np.float64(-0.236), np.float64(0.001), 314)
+0..23시만 쓴 k_lag 2 vs ec25_mean (np.float64(-0.397), np.float64(0.007), 56) vs ec25_0(0시 EC) (np.float64(-0.392), np.float64(0.003), 56) vs res_0 (np.float64(0.215), np.float64(0.1299), 46) vs absres (np.float64(-0.522), np.float64(0.002), 46)

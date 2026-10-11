@@ -1,0 +1,15 @@
+high-EC records (0h EC25>=1): 66 | rise 20 | pass-2 9
+up distribution on high days: [-0.14, -0.04, 0.04, 0.19, 0.35] | fall<=-.15: 6
+  lvl0     rise      1.80 | no-rise high      1.15 | AUC 0.72
+  rad      rise   2297.00 | no-rise high   2642.50 | AUC 0.36
+  otemp    rise      3.21 | no-rise high      0.84 | AUC 0.69
+  tin      rise     14.16 | no-rise high     14.03 | AUC 0.53
+  hum      rise     70.94 | no-rise high     66.96 | AUC 0.68
+  co2      rise    423.65 | no-rise high    380.35 | AUC 0.66
+  vent     rise      0.04 | no-rise high      1.44 | AUC 0.41
+  shade    rise     31.29 | no-rise high     33.33 | AUC 0.36
+  thermal  rise     31.25 | no-rise high     35.38 | AUC 0.35
+  heat     rise     11.58 | no-rise high     14.23 | AUC 0.52
+  fan      rise      0.71 | no-rise high      0.62 | AUC 0.55
+  st       rise     13.34 | no-rise high     12.81 | AUC 0.56
+all records: fraction high-EC by farm/pass: {('F13', False): 0.17, ('F13', True): 0.21, ('F47', False): 0.16, ('F47', True): 0.11}

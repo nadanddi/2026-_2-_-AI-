@@ -1,0 +1,54 @@
+records 400 | up quantiles: [-0.076, -0.016, 0.001, 0.023, 0.06, 0.161, 0.558]
+down share up<=-.10 0.04, up>=.10 0.08, >=.20 0.04
+
+===== within-day rise >= +0.10 : 31 records (pass-1 25, pass-2 6) =====
+  by farm: {'F13': 18, 'F47': 13} | rate F13 0.09 F47 0.07
+  onset hour (half of rise reached): {0.0: 1, 6.0: 1, 7.0: 1, 8.0: 3, 9.0: 3, 10.0: 1, 11.0: 2, 12.0: 3, 13.0: 1, 14.0: 3, 15.0: 3, 16.0: 3, 17.0: 1, 18.0: 3, 19.0: 2}
+  level at 0h on rise days: median 1.35 vs others 0.51; whole-day EC25 1.68 vs 0.52
+  [F13] rise dates (cal) gaps: [(2, 3), (8, 2), (34, 1), (74, 1), (1, 1), (5, 1), (6, 1), (3, 1)] | best phase P: P8 +0.31 p0.116, P11 +0.18 p0.144, P3 +0.05 p0.173, P16 +0.58 p0.241
+  [F47] rise dates (cal) gaps: [(2, 2), (6, 2), (73, 1), (25, 1), (1, 1), (7, 1), (16, 1)] | best phase P: P16 +0.94 p0.061, P14 +0.44 p0.148, P17 +0.23 p0.185, P20 +0.44 p0.228
+  [both] rise dates (cal) gaps: [(2, 8), (4, 3), (1, 3), (6, 3), (5, 2), (30, 1), (69, 1), (3, 1)] | best phase P: P16 +0.43 p0.153, P14 +0.26 p0.256, P10 +0.13 p0.322, P19 +0.16 p0.326
+  same date same farm other house: pairs 168, corr of up -0.03 (null 95% 0.14) | both-rise 1 of 25 pairs with any rise (indep. expect 1.9)
+  rise day minus nearby non-rise days of same farm (median diff, share >0, n 29):
+    lvl0 +0.61 (0.72) | rad -212.00 (0.34) | otemp +1.05 (0.66) | tin +1.10 (0.76) | hum +4.58 (0.72) | co2 +16.02 (0.66) | vent -2.37 (0.34) | shade +5.54 (0.83) | thermal +0.00 (0.45) | heat -8.58 (0.21) | fan -31.42 (0.21) | st +0.88 (0.72)
+
+===== within-day rise >= +0.15 : 22 records (pass-1 18, pass-2 4) =====
+  by farm: {'F13': 12, 'F47': 10} | rate F13 0.06 F47 0.05
+  onset hour (half of rise reached): {6.0: 1, 7.0: 1, 8.0: 2, 9.0: 1, 10.0: 1, 12.0: 1, 13.0: 1, 14.0: 2, 15.0: 3, 16.0: 3, 17.0: 1, 18.0: 3, 19.0: 2}
+  level at 0h on rise days: median 1.73 vs others 0.51; whole-day EC25 1.76 vs 0.52
+  [F13] rise dates (cal) gaps: [(2, 3), (1, 1), (5, 1), (6, 1), (8, 1), (32, 1), (4, 1)] | best phase P: P19 +0.27 p0.189, P11 +0.11 p0.531, P16 +0.27 p0.548, P8 +0.14 p0.594
+  [F47] rise dates (cal) gaps: [(2, 2), (25, 1), (1, 1), (7, 1), (22, 1), (6, 1)] | best phase P: P16 +0.95 p0.050, P14 +0.45 p0.098, P17 +0.24 p0.118, P5 +0.07 p0.156
+  [both] rise dates (cal) gaps: [(2, 6), (1, 3), (5, 2), (6, 2), (4, 2), (22, 1)] | best phase P: P19 +0.18 p0.103, P16 +0.45 p0.112, P14 +0.28 p0.154, P5 +0.05 p0.171
+  same date same farm other house: pairs 168, corr of up -0.03 (null 95% 0.14) | both-rise 0 of 17 pairs with any rise (indep. expect 0.9)
+  rise day minus nearby non-rise days of same farm (median diff, share >0, n 20):
+    lvl0 +0.85 (0.90) | rad -254.75 (0.35) | otemp +0.88 (0.60) | tin +0.73 (0.70) | hum +3.73 (0.70) | co2 +29.11 (0.70) | vent -2.54 (0.25) | shade +5.48 (0.85) | thermal -0.21 (0.40) | heat -5.94 (0.20) | fan -31.33 (0.20) | st +0.92 (0.70)
+
+===== within-day rise >= +0.20 : 17 records (pass-1 15, pass-2 2) =====
+  by farm: {'F47': 9, 'F13': 8} | rate F13 0.04 F47 0.04
+  onset hour (half of rise reached): {7.0: 1, 8.0: 2, 10.0: 1, 12.0: 1, 13.0: 1, 14.0: 1, 15.0: 2, 16.0: 3, 17.0: 1, 18.0: 2, 19.0: 2}
+  level at 0h on rise days: median 1.67 vs others 0.52; whole-day EC25 1.79 vs 0.52
+  [F13] rise dates (cal) gaps: [(2, 2), (12, 1), (8, 1), (32, 1), (4, 1)] | best phase P: P7 +0.06 p0.438, P19 +0.18 p0.443, P11 +0.09 p0.559, P15 +0.13 p0.597
+  [F47] rise dates (cal) gaps: [(2, 2), (25, 1), (1, 1), (7, 1), (22, 1), (6, 1)] | best phase P: P16 +0.95 p0.050, P14 +0.45 p0.111, P17 +0.24 p0.118, P5 +0.07 p0.161
+  [both] rise dates (cal) gaps: [(2, 5), (4, 2), (1, 2), (7, 1), (12, 1), (6, 1), (22, 1)] | best phase P: P16 +0.46 p0.099, P14 +0.29 p0.148, P19 +0.13 p0.304, P7 +0.05 p0.342
+  same date same farm other house: pairs 168, corr of up -0.03 (null 95% 0.14) | both-rise 0 of 13 pairs with any rise (indep. expect 0.6)
+  rise day minus nearby non-rise days of same farm (median diff, share >0, n 17):
+    lvl0 +0.88 (0.88) | rad -122.00 (0.41) | otemp +0.27 (0.59) | tin +1.32 (0.82) | hum +2.33 (0.65) | co2 +2.96 (0.59) | vent -2.37 (0.29) | shade +7.44 (0.82) | thermal +0.04 (0.53) | heat -8.58 (0.18) | fan -35.37 (0.18) | st +0.88 (0.71)
+
+[hourly EC25 change vs 0..3h, rise(+.15) days]: [0.03, 0.01, -0.01, -0.02, -0.04, -0.04, -0.03, -0.02, 0.02, -0.04, -0.07, -0.1, -0.08, -0.01, 0.06, 0.14, 0.3, 0.41, 0.47, 0.48, 0.46, 0.42, 0.37, 0.33]
+[same, other days]: [-0.0, -0.0, 0.0, 0.0, 0.0, 0.01, 0.0, -0.0, 0.01, 0.01, -0.01, -0.02, -0.03, -0.04, -0.04, -0.04, -0.03, -0.02, -0.02, -0.01, -0.01, -0.01, -0.01, -0.01]
+
+[hourly input difference rise - other days, F13+F47 pooled, hours 0,4,8,10,12,14,16,20]
+  tin      0h -2.2 4h -1.7 8h -2.1 10h -1.6 12h -0.8 14h -0.9 16h -2.1 20h -1.6
+  hum      0h -2.2 4h -1.6 8h -1.0 10h +4.2 12h +3.0 14h +4.0 16h +6.7 20h +0.0
+  co2      0h -13.7 4h -23.2 8h -1.9 10h +17.5 12h +27.9 14h +32.4 16h +2.9 20h -12.9
+  vent     0h -5.9 4h -5.7 8h -14.2 10h -23.5 12h -27.9 14h -28.5 16h -20.2 20h -7.9
+  shade    0h -17.3 4h -16.7 8h -35.7 10h +19.1 12h +21.8 14h +17.6 16h +8.4 20h -13.2
+  thermal  0h -9.1 4h -8.1 8h -29.4 10h +19.7 12h +18.4 14h +18.7 16h +8.6 20h -17.7
+  heat     0h -3.1 4h -7.4 8h +5.1 10h +7.4 12h +14.5 14h +5.4 16h -14.8 20h -12.0
+  fan      0h -18.6 4h -19.6 8h -26.7 10h -14.9 12h -13.7 14h -14.0 16h -13.4 20h -22.8
+  st       0h -1.9 4h -1.8 8h -1.7 10h -1.9 12h -1.8 14h -1.7 16h -1.6 20h -1.6
+  rad      0h -0.7 4h -1.1 8h -48.8 10h -64.0 12h -48.0 14h -41.4 16h -10.4 20h -0.8
+
+[pass-1 rise(+.15) records by calendar position]
+   F47_117@111(+0.22,lvl1.09), F13_116@116(+0.17,lvl1.23), F13_118@118(+0.56,lvl1.32), F13_120@120(+0.37,lvl1.67), F13_121@121(+0.15,lvl1.83), F13_127@126(+0.16,lvl1.92), F13_132@132(+0.22,lvl0.98), F47_139@136(+0.32,lvl2.15), F47_141@138(+0.28,lvl2.48), F13_139@140(+0.60,lvl1.35), F47_143@140(+0.27,lvl2.75), F47_145@141(+0.22,lvl3.00), F13_143@142(+0.36,lvl1.97), F47_151@148(+0.31,lvl1.78), F47_170@170(+0.24,lvl0.87), F13_175@174(+0.35,lvl1.23), F47_177@176(+0.90,lvl1.23), F13_178@178(+1.23,lvl1.51)
+[pass-2 rise(+.15) records]: F13_214(+0.20,lvl1.12), F47_229(+0.19,lvl2.41), F47_231(+1.07,lvl2.77), F13_243(+0.24,lvl1.99)

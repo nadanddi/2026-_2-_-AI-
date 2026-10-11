@@ -1,0 +1,50 @@
+certain same-farm training links: 150
+calendar pieces: 46 | inconsistent link checks: 0
+pieces with >=10 dates: [(1, 17), (9, 14), (4, 10)]
+linked day pairs: 150 | date gap of link: {1: 150}
+
+[0] day-to-day EC25 change: median |d| 0.016, sd 0.094; share of total change at midnight boundary vs inside day:
+    |midnight jump| median 0.003, |within-day 0->23| median 0.013
+chains (>=4 days): 13 | lengths: [10, 8, 6, 6, 6, 5, 5, 5, 4, 4, 4, 4, 4]
+
+===== rise threshold +0.10 (day-mean EC25 vs linked previous day) =====
+rise days 8 / 150 (5%), fall days 1 | pass-2 rise 1/18
+  where the rise happens: midnight jump share of rise 0% (median jump -0.02, within-day 0.15)
+  intervals between rises in same house (days): {1: 2, 2: 2}
+  run lengths of consecutive rise days: Counter({1: 2})
+  same-date different-house pairs 36: corr of day change 0.08 (random null sd 0.17) | both rise 0.00 of pairs where either rises
+
+===== rise threshold +0.15 (day-mean EC25 vs linked previous day) =====
+rise days 5 / 150 (3%), fall days 1 | pass-2 rise 0/18
+  where the rise happens: midnight jump share of rise 0% (median jump -0.03, within-day 0.33)
+  intervals between rises in same house (days): {1: 1}
+  run lengths of consecutive rise days: Counter()
+  same-date different-house pairs 36: corr of day change 0.08 (random null sd 0.17) | both rise 0.00 of pairs where either rises
+
+===== rise threshold +0.20 (day-mean EC25 vs linked previous day) =====
+rise days 2 / 150 (1%), fall days 1 | pass-2 rise 0/18
+  where the rise happens: midnight jump share of rise 0% (median jump -0.03, within-day 0.33)
+  intervals between rises in same house (days): none
+  run lengths of consecutive rise days: Counter()
+  same-date different-house pairs 36: corr of day change 0.08 (random null sd 0.16) | both rise 0.00 of pairs where either rises
+
+===== rise threshold +0.30 (day-mean EC25 vs linked previous day) =====
+rise days 0 / 150 (0%), fall days 1 | pass-2 rise 0/18
+C:\work\farmai\집\클로드\research\ec0h\rise\rz1_ec_rise_day_patterns_v1.py:85: RuntimeWarning: invalid value encountered in scalar divide
+  100 * (R_.jump0.clip(lower=0).sum() / (R_.jump0.clip(lower=0) + R_.intra.clip(lower=0)).sum()), R_.jump0.median(), R_.intra.median()))
+  where the rise happens: midnight jump share of rise nan% (median jump nan, within-day nan)
+  intervals between rises in same house (days): none
+  run lengths of consecutive rise days: Counter()
+  same-date different-house pairs 36: corr of day change 0.08 (random null sd 0.17) | both rise 0.00 of pairs where either rises
+
+[after a +.20 rise] mean EC25 change relative to the rise day, days +1..+5:
+
+[longest chains: day-mean EC25 sequence; * = +.15 rise]
+  F47_098 -> F47_115 len 10 : 0.27 0.28 0.29 0.30 0.31 0.32 0.32 0.31 0.33 0.36
+  F13_051 -> F13_196 len 8 : 0.54 0.57 0.59 0.62 0.61 0.62 0.63 0.65
+  F13_052 -> F13_058 len 6 : 0.25 0.25 0.26 0.28 0.28 0.28
+  F13_093 -> F13_102 len 6 : 0.52 0.50 0.52 0.54 0.57 0.53
+  F47_127 -> F47_215 len 6 : 0.91 0.92 0.91 0.95 0.95 0.98
+  F13_114 -> F13_120 len 5 : 1.13 1.26 1.31 1.48* 1.68*
+  F13_132 -> F13_139 len 5 : 1.13 1.23 1.30 1.42 1.63*
+  F47_009 -> F47_014 len 5 : 0.18 0.16 0.14 0.13 0.12
