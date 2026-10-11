@@ -1,0 +1,10 @@
+(1) successor oracle slope by hour (target a, successor b = same house next date, label-certain):
+  temp successor (n 173): 0:0.13 3:0.09 6:0.05 9:0.03 12:0.04 15:0.00 18:0.01 20:0.06 21:0.11 22:0.25 23:0.63
+  temp predecessor(n 173): 0:0.73 3:0.21 6:0.08 9:0.05 12:0.08 15:0.00 18:0.01 20:0.02 21:0.03 22:0.05 23:0.05
+  EC   successor (n 167): 0:0.82 3:0.75 6:0.69 9:0.65 12:0.71 15:0.81 18:0.91 20:1.03 21:1.04 22:1.04 23:1.03
+  EC   predecessor(n 170): 0:0.96 3:0.85 6:0.78 9:0.82 12:0.81 15:0.68 18:0.85 20:0.91 21:0.91 22:0.89 23:0.81
+(2) cross-target confirmation of linker v7 mirror-CV links:
+  links 55, correct 0.51 | AUC for 'correct': linker p 0.907, EC agreement 0.598, temp agreement 0.541, p + both (rank mean) 0.767
+  EC agreement    hit by quartile: Q1(best) 0.57 Q2 0.71 Q3 0.23 Q4(worst) 0.50
+  temp agreement  hit by quartile: Q1(best) 0.50 Q2 0.64 Q3 0.38 Q4(worst) 0.50
+  p>=0.8 (n 23, hit 0.87): EC-agree half hit 0.83 vs other half 0.91; temp-agree half hit 0.92 vs 0.82
