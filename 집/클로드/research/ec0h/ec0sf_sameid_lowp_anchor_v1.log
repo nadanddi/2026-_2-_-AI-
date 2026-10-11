@@ -1,0 +1,10 @@
+carry c_h: 0:1.00 3:0.95 6:0.96 9:0.90 12:0.70 15:0.67 18:0.91 21:0.85 23:0.77
+targets per seed: {'101': 16, '2024': 16, '7': 16} | pass-2: ['F13_182', 'F13_195']
+beta by bin (mean over folds): {0: 0.94, 1: 1.0}
+C:\work\farmai\집\클로드\research\ec0h\ec0sf_sameid_lowp_anchor_v1.py:62: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat(per, axis=1).mean(1); cl = pd.Series({r: chunk.get(r, r) for r in P.index}); S = P.groupby(cl).sum()
+pass-1 targets: records 14 chunks 10 | cells -13.84% -16.06% -15.04% | improved 7/14 | cluster P(worse) 0.0210
+VERDICT EC0-S (A): FAIL
+C:\work\farmai\집\클로드\research\ec0h\ec0sf_sameid_lowp_anchor_v1.py:62: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat(per, axis=1).mean(1); cl = pd.Series({r: chunk.get(r, r) for r in P.index}); S = P.groupby(cl).sum()
+pass-2 targets: records 2 chunks 2 | cells -68.60% -65.43% -66.54% | improved 2/2 | cluster P(worse) 0.0000
