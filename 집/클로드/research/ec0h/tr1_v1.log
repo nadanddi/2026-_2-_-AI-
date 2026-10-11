@@ -1,0 +1,29 @@
+anchored targets 54 | pass-2 19
+k example 0.000
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+pass-1: records 35 | cells +7.79% +6.61% +5.90% | improved 20/35 | cluster P 0.890 | top share nan
+VERDICT TR1: FAIL
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tr1_trend_carry_anchored_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((piv[sd].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for sd in piv], 0), index=recs)
+pass-2: records 19 | cells -6.75% -8.03% -7.31% | improved 11/19 | cluster P 0.033 | top share 1.00
