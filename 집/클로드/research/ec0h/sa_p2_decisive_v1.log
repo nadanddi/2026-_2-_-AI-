@@ -1,0 +1,35 @@
+EV pass-1 SA pairs 143 -> fixed w 0.876
+pass-2 targets 16: F13_179<-F13_010, F13_180<-F13_008, F13_181<-F13_011, F13_196<-F13_195, F13_197<-F13_195, F13_198<-F13_063, F13_213<-F13_212, F13_215<-F13_119, F13_233<-F13_231, F47_179<-F47_178, F47_180<-F47_011, F47_193<-F47_066, F47_195<-F47_076, F47_196<-F47_081, F47_210<-F47_130, F47_216<-F47_214
+C:\work\farmai\집\클로드\research\ec0h\sa_p2_decisive_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2_decisive_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2_decisive_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2_decisive_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2_decisive_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2_decisive_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2_decisive_v1.py:56: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat(per, axis=1).mean(1); rng = np.random.default_rng(20261219)
+cells -3.58% -3.59% -3.69% | improved 11/16 | P(worse) 0.4368 | top-record share 411%
+rec
+F47_216   -2.823
+F13_233   -1.529
+F13_213   -0.213
+F13_179   -0.112
+F13_181   -0.089
+F13_196   -0.026
+F13_215   -0.020
+F13_197   -0.012
+F47_193   -0.008
+F13_198   -0.001
+F47_195   -0.001
+F47_196    0.005
+F47_180    0.012
+F13_180    0.034
+F47_210    1.749
+F47_179    2.347
+VERDICT SA-P2: FAIL (pass-2 transfer not demonstrated)
