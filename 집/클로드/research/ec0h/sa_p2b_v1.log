@@ -1,0 +1,53 @@
+EV pass-1 SA pairs 143 -> fixed w 0.320
+pass-2 targets 16: F13_179<-F13_010, F13_180<-F13_008, F13_181<-F13_011, F13_196<-F13_195, F13_197<-F13_195, F13_198<-F13_063, F13_213<-F13_212, F13_215<-F13_119, F13_233<-F13_231, F47_179<-F47_178, F47_180<-F47_011, F47_193<-F47_066, F47_195<-F47_076, F47_196<-F47_081, F47_210<-F47_130, F47_216<-F47_214
+C:\work\farmai\집\클로드\research\ec0h\sa_p2b_fixedw_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2b_fixedw_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2b_fixedw_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2b_fixedw_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2b_fixedw_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2b_fixedw_v1.py:55: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per.append(((new.loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((Qs.loc[recs] - Y.loc[recs]) ** 2).sum(1))
+C:\work\farmai\집\클로드\research\ec0h\sa_p2b_fixedw_v1.py:56: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat(per, axis=1).mean(1); rng = np.random.default_rng(20261219)
+cells -11.38% -11.64% -12.11% | improved 12/16 | P(worse) 0.1016 | top-record share 82%
+rec
+F47_216   -1.736
+F13_233   -0.588
+F13_213   -0.093
+F13_215   -0.053
+F13_179   -0.051
+F13_181   -0.039
+F47_196   -0.021
+F13_196   -0.013
+F47_193   -0.009
+F13_197   -0.005
+F13_198   -0.000
+F47_195   -0.000
+F47_180    0.003
+F13_180    0.009
+F47_210    0.218
+F47_179    0.250
+VERDICT SA-P2: FAIL (pass-2 transfer not demonstrated)
+
+per-record (dSSE seed-mean, link correct vs truth):
+  F13_179 <- F13_010 | link WRONG | dSSE -0.051
+  F13_180 <- F13_008 | link OK | dSSE +0.009
+  F13_181 <- F13_011 | link OK | dSSE -0.039
+  F13_196 <- F13_195 | link OK | dSSE -0.013
+  F13_197 <- F13_195 | link WRONG | dSSE -0.005
+  F13_198 <- F13_063 | link OK | dSSE -0.000
+  F13_213 <- F13_212 | link OK | dSSE -0.093
+  F13_215 <- F13_119 | link OK | dSSE -0.053
+  F13_233 <- F13_231 | link OK | dSSE -0.588
+  F47_179 <- F47_178 | link OK | dSSE +0.250
+  F47_180 <- F47_011 | link OK | dSSE +0.003
+  F47_193 <- F47_066 | link OK | dSSE -0.009
+  F47_195 <- F47_076 | link OK | dSSE -0.000
+  F47_196 <- F47_081 | link OK | dSSE -0.021
+  F47_210 <- F47_130 | link OK | dSSE +0.218
+  F47_216 <- F47_214 | link OK | dSSE -1.736
