@@ -174,7 +174,8 @@ def boot(key, y, pa, pb, mask, nb=NB):
 
 # ------------------------------------------------------------------ DIAG10 stored
 def diag10_stored(AN_all):
-    T = _load("tc1", os.path.join(RES, "tc1_chain_history_early_hours_v1.py"))
+    sys.argv = ["x"]
+    T =_load("tc1", os.path.join(RES, "tc1_chain_history_early_hours_v1.py"))
     B = _load("tc1b", os.path.join(RES, "tc1b_chain_history_common_train_v1.py"))
     C2 = _load("tc2", os.path.join(RES, "tc2_chain_hours_extend_v1.py"))
     CT = T.chain_table(); M = T.layout_frame("DIAG10", CT)
