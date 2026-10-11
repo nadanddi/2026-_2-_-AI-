@@ -1,0 +1,32 @@
+DIAG10 fold 4: 6 pass-2 val records, train 6120 rows | 7s
+DIAG10 fold 5: 3 pass-2 val records, train 6576 rows | 14s
+DIAG10 fold 6: 10 pass-2 val records, train 6288 rows | 21s
+DIAG10 fold 7: 7 pass-2 val records, train 6576 rows | 29s
+DIAG10 fold 8: 10 pass-2 val records, train 6192 rows | 36s
+DIAG10 fold 9: 10 pass-2 val records, train 6192 rows | 43s
+BLK10 fold 0: 7 pass-2 val records, train 7320 rows | 51s
+BLK10 fold 1: 18 pass-2 val records, train 7368 rows | 59s
+BLK10 fold 2: 10 pass-2 val records, train 7056 rows | 67s
+BLK10 fold 3: 14 pass-2 val records, train 7392 rows | 76s
+BLK10 fold 4: 7 pass-2 val records, train 7344 rows | 84s
+HOLE5 fold 0: 8 pass-2 val records, train 9360 rows | 94s
+HOLE5 fold 1: 10 pass-2 val records, train 9312 rows | 105s
+HOLE5 fold 2: 6 pass-2 val records, train 9408 rows | 119s
+HOLE5 fold 3: 10 pass-2 val records, train 9312 rows | 134s
+HOLE5 fold 4: 6 pass-2 val records, train 9408 rows | 148s
+HOLE5 fold 5: 6 pass-2 val records, train 9456 rows | 162s
+HOLE5 fold 6: 10 pass-2 val records, train 9360 rows | 175s
+
+season coverage (pass-2 val records): SE1 matched rows 59.1%, SE1full matched records 118 / 158
+validator  seed  n_rec   BASE    SE1    SE1_%  SE1p1  SE1p1_%  SE1full  SE1full_%  P_worse  recs_changed
+    BLK10     7     56 0.2499 0.2224 -11.0224 0.2478  -0.8255   0.2115   -15.3685   0.0165            52
+    BLK10   101     56 0.2537 0.2260 -10.9131 0.2517  -0.7876   0.2148   -15.3377   0.0213            52
+    BLK10  2024     56 0.2493 0.2223 -10.8308 0.2478  -0.6126   0.2119   -15.0129   0.0200            50
+   DIAG10     7     46 0.2596 0.2366  -8.8615 0.2363  -8.9663   0.2393    -7.8124   0.0650            42
+   DIAG10   101     46 0.2604 0.2400  -7.8054 0.2398  -7.9020   0.2427    -6.7964   0.0693            39
+   DIAG10  2024     46 0.2624 0.2396  -8.6783 0.2393  -8.7765   0.2426    -7.5352   0.0795            43
+    HOLE5     7     56 0.2284 0.1938 -15.1397 0.1990 -12.8938   0.1858   -18.6400   0.0152            51
+    HOLE5   101     56 0.2306 0.1950 -15.4349 0.1996 -13.4339   0.1867   -19.0454   0.0095            52
+    HOLE5  2024     56 0.2274 0.1926 -15.3104 0.1982 -12.8432   0.1842   -19.0267   0.0160            52
+
+PASS rule: all 9 cells better = True ; DIAG10 P_worse < .025 every seed = False  ->  FAIL
