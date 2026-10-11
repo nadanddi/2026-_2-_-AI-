@@ -1,0 +1,62 @@
+dropped by dropna: 0
+targets 171 | pass-2 ['F47_179', 'F13_192', 'F13_196', 'F13_197', 'F13_213', 'F13_233']
+== ARM ALL
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+pass-1: records 165 | 0h -16.4% | cells -10.61% -10.65% -10.23% | improved 82/165 | cluster P 0.061 | top share 0.17
+   per-record dSSE: F13_153 -3.735, F13_135 -3.297, F13_137 -3.196, F47_161 -2.897, F47_130 -2.330, F47_145 -2.200, F47_128 -2.085, F13_133 -2.057, F13_120 -2.051, F13_127 -1.577, F47_110 -1.339, F13_132 -1.062, F13_123 -0.931, F47_139 -0.905, F47_120 -0.844, F13_126 -0.682, F13_112 -0.679, F47_119 -0.668, F13_106 -0.651, F13_109 -0.621, F47_112 -0.373, F13_130 -0.360, F47_138 -0.342, F47_059 -0.328, F13_121 -0.315, F47_114 -0.298, F47_131 -0.290, F47_137 -0.249, F47_061 -0.226, F47_143 -0.219, F47_105 -0.160, F47_168 -0.152, F47_019 -0.144, F47_033 -0.137, F13_125 -0.126, F47_107 -0.124, F13_073 -0.121, F47_109 -0.117, F13_080 -0.116, F13_042 -0.114, F47_099 -0.114, F47_101 -0.099, F47_104 -0.087, F13_076 -0.086, F47_024 -0.080, F47_141 -0.077, F47_122 -0.068, F13_032 -0.067, F13_015 -0.058, F13_140 -0.050, F47_082 +0.051, F13_097 +0.055, F13_131 +0.055, F13_024 +0.060, F13_113 +0.066, F13_044 +0.069, F47_034 +0.076, F47_129 +0.080, F13_013 +0.088, F13_012 +0.089, F13_101 +0.090, F47_049 +0.104, F13_100 +0.110, F47_087 +0.119, F13_033 +0.121, F13_041 +0.129, F13_039 +0.133, F47_035 +0.137, F13_117 +0.144, F13_103 +0.154, F13_107 +0.158, F13_074 +0.166, F47_018 +0.169, F47_078 +0.171, F13_102 +0.171, F13_110 +0.173, F13_105 +0.181, F13_134 +0.211, F13_094 +0.271, F47_080 +0.286, F47_117 +0.311, F47_069 +0.435, F47_089 +0.452, F47_028 +0.497, F47_113 +0.574, F47_081 +0.675, F47_075 +0.689, F13_096 +0.764, F13_052 +0.768, F47_134 +0.850, F13_062 +0.962, F47_163 +2.752, F47_108 +3.128
+VERDICT PD2b ALL : FAIL
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+pass-2: records 6 | 0h +5.7% | cells -13.65% -19.66% -12.18% | improved 4/6 | cluster P 0.392 | top share 2.39
+   per-record dSSE: F13_233 -1.432, F13_192 +0.052, F47_179 +0.835
+== ARM SA-only
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+pass-1: records 165 | 0h -15.6% | cells -10.43% -9.80% -10.56% | improved 92/165 | cluster P 0.039 | top share 0.26
+   per-record dSSE: F47_161 -5.631, F13_135 -3.180, F47_143 -2.751, F13_127 -2.701, F13_153 -2.109, F13_120 -2.071, F47_128 -2.053, F47_130 -1.762, F13_133 -1.713, F13_137 -1.491, F47_145 -1.415, F47_110 -1.207, F47_119 -1.037, F13_132 -1.018, F13_123 -0.930, F47_139 -0.826, F13_112 -0.705, F13_126 -0.686, F47_138 -0.656, F13_109 -0.628, F13_106 -0.513, F47_120 -0.357, F47_059 -0.321, F47_131 -0.250, F13_130 -0.245, F13_121 -0.222, F47_105 -0.178, F47_129 -0.175, F47_061 -0.164, F47_019 -0.145, F47_137 -0.138, F47_107 -0.130, F47_033 -0.129, F13_032 -0.123, F13_080 -0.112, F47_021 -0.104, F47_114 -0.093, F13_076 -0.092, F13_140 -0.086, F47_024 -0.084, F47_099 -0.079, F13_042 -0.073, F47_104 -0.059, F47_168 -0.056, F47_035 +0.055, F13_097 +0.057, F13_036 +0.057, F47_034 +0.064, F13_107 +0.066, F13_013 +0.073, F13_010 +0.074, F13_113 +0.078, F13_041 +0.092, F13_033 +0.106, F47_078 +0.134, F47_018 +0.151, F13_096 +0.159, F13_094 +0.184, F13_074 +0.214, F13_131 +0.248, F13_039 +0.253, F13_110 +0.255, F47_112 +0.261, F47_117 +0.277, F13_125 +0.283, F47_141 +0.300, F47_089 +0.355, F47_134 +0.372, F47_069 +0.378, F13_052 +0.499, F47_075 +0.582, F47_028 +0.637, F47_113 +0.682, F47_081 +0.744, F13_134 +0.803, F13_062 +1.111, F47_108 +2.923, F47_163 +4.510
+VERDICT PD2b SA-only : FAIL
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\pd2b_prevday_ev_fixed_v1.py:67: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+pass-2: records 6 | 0h +9.1% | cells -23.59% -20.72% -19.87% | improved 3/6 | cluster P 0.380 | top share 2.20
+   per-record dSSE: F13_233 -1.801, F47_179 +1.002
