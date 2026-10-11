@@ -1,0 +1,39 @@
+records with a morning/midday dilution (drop <= -.03/h in 6..16h): 110 / 400
+  F13: n 57 | onset hour median 11 (IQR 9-11), CV 0.21 | cum. radiation at onset median 607, CV 1.08 | Spearman(onset hour, day radiation) -0.02
+     onset hour counts: {6: 5, 7: 2, 8: 6, 9: 2, 10: 10, 11: 19, 12: 6, 13: 4, 14: 2, 16: 1}
+     dull : onset hour median 10.0, cum-rad at onset median 305
+     sunny: onset hour median 11.0, cum-rad at onset median 722
+  F47: n 53 | onset hour median 9 (IQR 7-11), CV 0.23 | cum. radiation at onset median 105, CV 1.21 | Spearman(onset hour, day radiation) -0.25
+     onset hour counts: {6: 6, 7: 10, 8: 4, 9: 12, 10: 7, 11: 4, 12: 9, 13: 1}
+     dull : onset hour median 9.0, cum-rad at onset median 104
+     sunny: onset hour median 7.5, cum-rad at onset median 36
+
+[R3] hourly EC25 change vs previous level, hours 8..19, big moves |dE|>=.03 only:
+  F13: n 279 | slope +0.004 per unit level, zero-change level (implied feed EC) -3.96 | down moves 140 median level 1.28, up moves 139 median level 1.48
+     level 0.0-0.5: big moves   19 | share up 0.89 | median move +0.052
+     level 0.5-0.8: big moves   32 | share up 0.09 | median move -0.040
+     level 0.8-1.2: big moves   47 | share up 0.36 | median move -0.032
+     level 1.2-2.0: big moves  125 | share up 0.58 | median move +0.041
+     level 2.0-9.0: big moves   56 | share up 0.52 | median move +0.036
+  F47: n 278 | slope -0.043 per unit level, zero-change level (implied feed EC) 1.65 | down moves 142 median level 1.55, up moves 136 median level 1.50
+     level 0.0-0.5: big moves   31 | share up 0.74 | median move +0.056
+     level 0.5-0.8: big moves   23 | share up 0.22 | median move -0.039
+     level 0.8-1.2: big moves   60 | share up 0.45 | median move -0.031
+     level 1.2-2.0: big moves   59 | share up 0.53 | median move +0.036
+     level 2.0-9.0: big moves  105 | share up 0.48 | median move -0.038
+
+[R3b] per-record implied feed EC (records with >=3 big moves in 8..19h, k>0):
+  n 61 | implied feed EC median 1.49 (IQR 0.87-2.08) | corr with day-mean EC25 0.87 | k median 0.34
+  rise days (up>=.15) implied T - day level median +0.14 vs others -0.02
+
+[R3c] rise days mean hourly increments 13h..21h: [0.072, 0.069, 0.082, 0.158, 0.112, 0.056, 0.011, -0.021, -0.036] (decreasing after the peak = approach to a ceiling)
+
+[R4/R5] radiation today and previous calendar date vs within-day change, pass 1 (calendar known):
+C:\work\farmai\집\클로드\research\ec0h\rise\rz3_feeding_rule_forensics_v1.py:71: RuntimeWarning: Mean of empty slice
+  P1["rad_prev2"] = [np.nanmean([dayrad.get((f, d - k), np.nan) for k in (1, 2, 3)]) for f, d in zip(P1.farm, P1.d)]
+  all           n 344 | Spearman with within-day change: rad ρ -0.12, rad_prev ρ -0.20, rad_prev2 ρ -0.10, otemp ρ -0.03
+  high (0h>=1)  n  57 | Spearman with within-day change: rad ρ -0.21, rad_prev ρ -0.13, rad_prev2 ρ -0.01, otemp ρ +0.40
+  normal (<1)   n 287 | Spearman with within-day change: rad ρ -0.07, rad_prev ρ -0.17, rad_prev2 ρ -0.09, otemp ρ -0.06
+  [all] morning drop vs radiation ρ -0.18 | afternoon rise vs radiation ρ +0.02 | afternoon rise vs morning drop ρ -0.25
+  [high] morning drop vs radiation ρ -0.16 | afternoon rise vs radiation ρ -0.09 | afternoon rise vs morning drop ρ -0.25
+  [normal] morning drop vs radiation ρ -0.24 | afternoon rise vs radiation ρ +0.12 | afternoon rise vs morning drop ρ -0.10
