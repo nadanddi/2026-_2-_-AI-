@@ -1,0 +1,38 @@
+cells ['v22_a_7A', 'v22_a_7B', 'v22_a_101A', 'v22_a_101B']
+targets 176 | pass-2 ['F47_179', 'F13_192', 'F13_196', 'F13_197', 'F13_213', 'F13_233']
+w_h example: 0:0.43 3:0.25 6:0.14 9:0.07 12:0.07 15:0.04 18:0.00 21:0.00
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+pass-1: records 170 | 0h -15.9% | cells -2.72% -2.69% -2.69% -2.66% | improved 97/170 | cluster P 0.030 | top share 0.22
+VERDICT TSA-EV: FAIL
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\tsa_temp_soft_anchor_ev_v1.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[c].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((P[c].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for c in cells], 0), index=recs)
+pass-2: records 6 | 0h -47.6% | cells +5.95% +6.97% +6.85% +7.40% | improved 3/6 | cluster P 0.873 | top share nan
