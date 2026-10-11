@@ -42,7 +42,7 @@ def main():
     G = pd.DataFrame(rows); print(G.round(2).to_string())
     rng = np.random.default_rng(20261214); ok = True; per = []
     for sel, held in (("F13", "F47"), ("F47", "F13")):
-        b = G.sort_values(sel).iloc[0]; g = (b.kind, b.v, b.T)
+        b = G.sort_values(sel).iloc[0]; g = (b["kind"], b["v"], b["T"])
         print("select on %s: %s v %.2f T %d (%s %+.2f%%) -> held %s %+.2f%%" % (sel, g[0], g[1], g[2], sel, b[sel], held, b[held]))
         for v in ("DIAG10", "P2LOO", "EL1"):
             XX = O[(O.validator == v) & (O.farm == held)]; pr = apply(XX, g)
