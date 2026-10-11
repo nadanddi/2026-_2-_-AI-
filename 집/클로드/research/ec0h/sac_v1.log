@@ -1,0 +1,82 @@
+targets: SA0 176 | SAC1 38 | SAC2 36
+  SA0 link accuracy vs truth: 0.78 (n 176)
+  SAC1 link accuracy vs truth: 0.92 (n 38)
+  SAC2 link accuracy vs truth: 0.94 (n 36)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+  SA0 pass-1: records 170 | 0h -11.8% | cells -8.22% -8.10% -8.71% | improved 93/170 | cluster P 0.056 | top share 0.30 
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+  SA0 pass-2: records 6 | 0h -3.4% | cells -19.76% -20.32% -16.98% | improved 4/6 | cluster P 0.276 | top share 1.82 
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+  SAC1 pass-1: records 37 | 0h +38.7% | cells +43.26% +37.91% +41.42% | improved 21/37 | cluster P 0.652 | top share nan FAIL
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+  SAC1 pass-2: records 1 | 0h +463.8% | cells +159.61% +174.89% +211.26% | improved 0/1 | cluster P 1.000 | top share nan 
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+  SAC2 pass-1: records 35 | 0h +38.7% | cells +43.27% +37.89% +41.45% | improved 20/35 | cluster P 0.653 | top share nan FAIL
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\sac_softanchor_competitor_check_v1.py:90: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+  SAC2 pass-2: records 1 | 0h +463.5% | cells +159.55% +174.61% +210.99% | improved 0/1 | cluster P 1.000 | top share nan 
