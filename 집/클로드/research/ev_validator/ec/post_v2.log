@@ -1,0 +1,114 @@
+TabPFN contexts complete for all 8 folds: [1, 2]
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+fold 0 done (60 val recs, anchors 4) 16s
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+fold 1 done (52 val recs, anchors 13) 40s
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+fold 2 done (54 val recs, anchors 10) 68s
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+fold 3 done (42 val recs, anchors 5) 83s
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+fold 4 done (54 val recs, anchors 5) 112s
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+fold 5 done (42 val recs, anchors 7) 127s
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+fold 6 done (46 val recs, anchors 4) 148s
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+C:\work\farmai\집\클로드\research\ev_validator\ec\ev_ec_post_v2.py:48: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pfn = P[["pfn_%d" % c for c in NC]].mean(1).values
+fold 7 done (50 val recs, anchors 6) 171s
+ fold  anchors_v7m  dropped_prev_hidden
+    0            4                    0
+    1           14                    1
+    2           10                    0
+    3            5                    0
+    4            7                    2
+    5            7                    0
+    6            5                    1
+    7            8                    2
+seed  arm scope farm  n_rec     R3    SG2    EA2
+ 101 BASE    p2 both     56 0.2620 0.2506 0.2049
+ 101 BASE    p2  F13     29 0.2886 0.2825 0.2190
+ 101 BASE    p2  F47     27 0.2300 0.2111 0.1885
+ 101 BASE   all both    400 0.1918 0.1897 0.1817
+ 101 BASE   all  F13    200 0.1895 0.1882 0.1756
+ 101 BASE   all  F47    200 0.1942 0.1912 0.1876
+ 101  SE1    p2 both     56 0.2330 0.2224 0.2087
+ 101  SE1    p2  F13     29 0.2346 0.2311 0.2243
+ 101  SE1    p2  F47     27 0.2313 0.2126 0.1906
+ 101  SE1   all both    400 0.1865 0.1847 0.1823
+ 101  SE1   all  F13    200 0.1783 0.1777 0.1766
+ 101  SE1   all  F47    200 0.1944 0.1915 0.1879
+2024 BASE    p2 both     56 0.2664 0.2553 0.2050
+2024 BASE    p2  F13     29 0.2950 0.2888 0.2178
+2024 BASE    p2  F47     27 0.2318 0.2136 0.1903
+2024 BASE   all both    400 0.1933 0.1912 0.1823
+2024 BASE   all  F13    200 0.1913 0.1899 0.1758
+2024 BASE   all  F47    200 0.1953 0.1925 0.1887
+2024  SE1    p2 both     56 0.2347 0.2242 0.2095
+2024  SE1    p2  F13     29 0.2364 0.2325 0.2243
+2024  SE1    p2  F47     27 0.2328 0.2150 0.1922
+2024  SE1   all both    400 0.1875 0.1857 0.1830
+2024  SE1   all  F13    200 0.1791 0.1783 0.1769
+2024  SE1   all  F47    200 0.1955 0.1927 0.1889
+   7 BASE    p2 both     56 0.2614 0.2506 0.2031
+   7 BASE    p2  F13     29 0.2894 0.2840 0.2192
+   7 BASE    p2  F47     27 0.2276 0.2088 0.1842
+   7 BASE   all both    400 0.1929 0.1909 0.1826
+   7 BASE   all  F13    200 0.1903 0.1891 0.1763
+   7 BASE   all  F47    200 0.1955 0.1927 0.1887
+   7  SE1    p2 both     56 0.2319 0.2217 0.2069
+   7  SE1    p2  F13     29 0.2347 0.2318 0.2243
+   7  SE1    p2  F47     27 0.2288 0.2104 0.1864
+   7  SE1   all both    400 0.1876 0.1859 0.1832
+   7  SE1   all  F13    200 0.1791 0.1785 0.1772
+   7  SE1   all  F47    200 0.1957 0.1929 0.1890
+ avg BASE    p2 both     56 0.2632 0.2521 0.2043
+ avg BASE    p2  F13     29 0.2909 0.2850 0.2186
+ avg BASE    p2  F47     27 0.2297 0.2111 0.1876
+ avg BASE   all both    400 0.1926 0.1905 0.1821
+ avg BASE   all  F13    200 0.1903 0.1890 0.1758
+ avg BASE   all  F47    200 0.1949 0.1921 0.1883
+ avg  SE1    p2 both     56 0.2331 0.2227 0.2083
+ avg  SE1    p2  F13     29 0.2352 0.2317 0.2243
+ avg  SE1    p2  F47     27 0.2309 0.2126 0.1896
+ avg  SE1   all both    400 0.1871 0.1853 0.1828
+ avg  SE1   all  F13    200 0.1788 0.1781 0.1768
+ avg  SE1   all  F47    200 0.1951 0.1923 0.1885
+seed chain  n_rec   BASE    SE1      pct  P_worse  recs_changed
+   7    R3     56 0.2614 0.2319 -11.3001   0.0120            38
+   7   SG2     56 0.2506 0.2217 -11.5091   0.0225            38
+   7   EA2     56 0.2031 0.2069   1.8883   0.7710            38
+ 101    R3     56 0.2620 0.2330 -11.0549   0.0118            38
+ 101   SG2     56 0.2506 0.2224 -11.2727   0.0265            38
+ 101   EA2     56 0.2049 0.2087   1.8720   0.7642            38
+2024    R3     56 0.2664 0.2347 -11.9112   0.0095            38
+2024   SG2     56 0.2553 0.2242 -12.1869   0.0215            38
+2024   EA2     56 0.2050 0.2095   2.1675   0.7972            38
+ avg    R3     56 0.2632 0.2331 -11.4296   0.0080            38
+ avg   SG2     56 0.2521 0.2227 -11.6626   0.0238            38
+ avg   EA2     56 0.2043 0.2083   1.9756   0.7682            38
+reading (EA2 chain, seeds 7/101/2024): SE1 better all = False ; P < .025 all = False
+total 172s
