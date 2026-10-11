@@ -1,0 +1,48 @@
+PRIMARY beta_h: 0:0.18 1:0.16 2:0.12 3:0.10 4:0.09 5:0.06 6:0.05 7:0.04 8:0.06 9:0.03 10:-0.11 11:0.04 12:0.04 13:0.05 14:0.03 15:0.05 16:0.03 17:0.00 18:-0.00 19:-0.01 20:-0.02 21:-0.02 22:-0.02 23:-0.02 | S records: 176 pass-2: 6
+        W     p    c  pass1   F13   F47  pass2
+0      23  0.50  2.0  -0.16 -0.29 -0.08  -0.12
+1      23  0.50  inf  -0.16 -0.32 -0.03  -0.08
+2      23  0.80  2.0  -0.34  0.01 -0.01  -0.01
+3      23  0.80  inf  -0.29 -0.08 -0.01  -0.02
+4      23  0.95  2.0  -0.51  0.14 -0.01   0.01
+5      23  0.95  inf  -0.45  0.10 -0.01   0.01
+6   18-23  0.50  2.0  -0.56  0.10 -0.51  -0.41
+7   18-23  0.50  inf  -0.58  0.14 -0.43  -0.33
+8   18-23  0.80  2.0  -0.67  0.51  0.01   0.10
+9   18-23  0.80  inf  -0.80  0.88  0.01   0.16
+10  18-23  0.95  2.0  -0.77  0.15  0.02   0.04
+11  18-23  0.95  inf  -0.80  0.11  0.01   0.03
+12  12-23  0.50  2.0  -0.16 -0.05 -0.05  -0.05
+13  12-23  0.50  inf  -0.35  0.18 -0.17  -0.10
+14  12-23  0.80  2.0  -0.19 -0.21  0.02  -0.02
+15  12-23  0.80  inf  -0.37 -0.11  0.02  -0.00
+16  12-23  0.95  2.0  -0.32  0.13  0.04   0.05
+17  12-23  0.95  inf  -0.50  0.04  0.03   0.03
+18   0-23  0.50  2.0  -0.22  0.00 -0.15  -0.12
+19   0-23  0.50  inf  -0.37  0.24 -0.22  -0.14
+20   0-23  0.80  2.0  -0.24 -0.25 -0.01  -0.05
+21   0-23  0.80  inf  -0.39  0.00 -0.01  -0.01
+22   0-23  0.95  2.0  -0.39  0.18 -0.01   0.02
+23   0-23  0.95  inf  -0.50  0.08 -0.01   0.00
+C:\work\farmai\집\클로드\research\th1_temp_linked_prev_thermal_history_v1.py:75: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat([pd.Series(((a - yy) ** 2 - (b - yy) ** 2)[m2]).groupby(kk[m2]).sum() for a, b in zip(o, bb)], axis=1).mean(1); P = P[P.abs() > 1e-12]
+  DIAG10 PRIMARY pass-2 cells +0.15% +0.17% +0.15% +0.17% | records 6 improved 1 | P(worse) 0.9116 | top F13_233 share -38% jackknife-1 FLIPS
+C:\work\farmai\집\클로드\research\th1_temp_linked_prev_thermal_history_v1.py:75: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat([pd.Series(((a - yy) ** 2 - (b - yy) ** 2)[m2]).groupby(kk[m2]).sum() for a, b in zip(o, bb)], axis=1).mean(1); P = P[P.abs() > 1e-12]
+  G      PRIMARY pass-2 cells +0.03% +0.02% +0.01% -0.01% | records 6 improved 3
+C:\work\farmai\집\클로드\research\th1_temp_linked_prev_thermal_history_v1.py:75: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat([pd.Series(((a - yy) ** 2 - (b - yy) ** 2)[m2]).groupby(kk[m2]).sum() for a, b in zip(o, bb)], axis=1).mean(1); P = P[P.abs() > 1e-12]
+  EL1    PRIMARY pass-2 cells +0.07% +0.07% +0.07% +0.07% | records 6 improved 1
+C:\work\farmai\집\클로드\research\th1_temp_linked_prev_thermal_history_v1.py:75: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat([pd.Series(((a - yy) ** 2 - (b - yy) ** 2)[m2]).groupby(kk[m2]).sum() for a, b in zip(o, bb)], axis=1).mean(1); P = P[P.abs() > 1e-12]
+  F      PRIMARY pass-2 cells +0.14% +0.15% +0.12% +0.13% | records 6 improved 2
+C:\work\farmai\집\클로드\research\th1_temp_linked_prev_thermal_history_v1.py:75: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat([pd.Series(((a - yy) ** 2 - (b - yy) ** 2)[m2]).groupby(kk[m2]).sum() for a, b in zip(o, bb)], axis=1).mean(1); P = P[P.abs() > 1e-12]
+  J      PRIMARY pass-2 cells -0.03% -0.01% -0.05% -0.03% | records 6 improved 3
+C:\work\farmai\집\클로드\research\th1_temp_linked_prev_thermal_history_v1.py:75: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat([pd.Series(((a - yy) ** 2 - (b - yy) ** 2)[m2]).groupby(kk[m2]).sum() for a, b in zip(o, bb)], axis=1).mean(1); P = P[P.abs() > 1e-12]
+  EXT10  PRIMARY pass-2 cells +0.03% +0.01% +0.06% +0.04% | records 1 improved 0
+C:\work\farmai\집\클로드\research\th1_temp_linked_prev_thermal_history_v1.py:75: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat([pd.Series(((a - yy) ** 2 - (b - yy) ** 2)[m2]).groupby(kk[m2]).sum() for a, b in zip(o, bb)], axis=1).mean(1); P = P[P.abs() > 1e-12]
+  EXT12  PRIMARY pass-2 cells +0.13% +0.12% +0.12% +0.11% | records 2 improved 0
+VERDICT TH1 PRIMARY: FAIL
