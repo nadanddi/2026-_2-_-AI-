@@ -1,0 +1,10 @@
+targets pass-1 158, pass-2 16
+  all signals  pass-1 CV n 158 | 0h 0.134->0.110 (-17.3%) | day 0.122->0.112 (-8.7%) | improved 74/158 | P 0.168 | top share 0.55
+  all signals  pass-2    n  16 | 0h 0.169->0.142 (-16.1%) | day 0.158->0.129 (-18.2%) | improved 9/16 | P 0.113 | top share 0.84
+  coefs: {'S_drop': np.float64(-0.206), 'S_rise': np.float64(0.09), 'dq_p': np.float64(0.374), 'x_sa': np.float64(0.394)}
+  soft anchor  pass-1 CV n 158 | 0h 0.134->0.125 (-6.4%) | day 0.122->0.119 (-2.5%) | improved 69/158 | P 0.370 | top share 1.84
+  soft anchor  pass-2    n  16 | 0h 0.169->0.146 (-13.8%) | day 0.158->0.132 (-16.8%) | improved 7/16 | P 0.105 | top share 0.73
+  coefs: {'x_sa': np.float64(0.365)}
+  irrigation   pass-1 CV n 158 | 0h 0.134->0.127 (-5.1%) | day 0.122->0.119 (-2.3%) | improved 73/158 | P 0.302 | top share 1.17
+  irrigation   pass-2    n  16 | 0h 0.169->0.166 (-1.8%) | day 0.158->0.159 (+0.4%) | improved 5/16 | P 0.576 | top share nan
+  coefs: {'S_drop': np.float64(-0.194), 'S_rise': np.float64(0.143)}
