@@ -1,0 +1,73 @@
+LOO records with D1 found: 149 | truth in D1 0.987
+unique-leftover cases: 119 accuracy 0.992
+            size  mean
+nD1 ntaken            
+2   1          1   0.0
+3   2         53   1.0
+4   3         65   1.0
+full configuration (nD1=4, ntaken=3): 65 acc 1.000
+wrong cases:
+         rec    truth     pick                  D1  nS0  nL0
+115  F47_113  F47_111  F13_108  F13_108* F47_112*x    3    2
+
+EVAL:
+  F13_185: no training-linked previous date
+  F13_186: no training-linked previous date
+  F13_187: v7 cand F13_035 | D1 F13_035* F13_036*x F47_034*x F47_035*x | taken 3 left 1 -> pick F13_035 EC23 0.255
+  F13_188: v7 cand F13_187 | D1 F13_037*x F13_187 F47_036*x F47_037*x | taken 3 left 1 -> pick F13_187
+  F13_189: no training-linked previous date
+  F13_200: v7 cand F13_064 | D1 F13_065*x F47_068*x F47_069*x | taken 3 left 0 -> pick None
+  F13_201: no training-linked previous date
+  F13_202: v7 cand F13_072 | D1 F13_072* F13_073*x F47_078*x F47_195*x | taken 3 left 1 -> pick F13_072 EC23 0.465
+  F13_203: v7 cand F13_079 | D1 F13_079* F13_080* F47_084*x | taken 1 left 2 -> pick None
+  F13_204: v7 cand F13_080 | D1 F13_079* F13_080* F47_084*x | taken 1 left 2 -> pick None
+  F13_205: v7 cand F13_090 | D1 F13_089*x F13_090* F47_092* | taken 1 left 2 -> pick None
+  F13_206: no training-linked previous date
+  F13_207: v7 cand F13_092 | D1 F13_092* F13_206 F47_094*x F47_095*x | taken 2 left 2 -> pick None
+  F13_208: no training-linked previous date
+  F13_209: v7 cand F13_108 | D1 F47_111*x | taken 1 left 0 -> pick None
+  F13_220: v7 cand F13_218 | D1 F13_218* F47_213*x F47_214*x | taken 2 left 1 -> pick F13_218 EC23 0.398
+  F13_221: v7 cand F13_123 | D1 F13_218* F47_213*x F47_214*x | taken 2 left 1 -> pick F13_218 EC23 0.398
+  F13_222: no training-linked previous date
+  F13_223: no training-linked previous date
+  F13_224: no training-linked previous date
+  F13_225: no training-linked previous date
+  F13_226: no training-linked previous date
+  F13_227: no training-linked previous date
+  F13_228: no training-linked previous date
+  F13_229: no training-linked previous date
+  F13_235: no training-linked previous date
+  F13_236: no training-linked previous date
+  F13_237: no training-linked previous date
+  F13_238: no training-linked previous date
+  F13_239: v7 cand F13_131 | D1 F13_130*x F13_131* F47_133*x F47_134*x | taken 3 left 1 -> pick F13_131 EC23 0.749
+  F47_183: v7 cand F47_023 | D1 F13_026* F13_183*x F47_023* F47_024*x | taken 2 left 2 -> pick None
+  F47_184: v7 cand F47_029 | D1 F47_028*x F47_029* F47_030*x | taken 2 left 1 -> pick F47_029 EC23 0.265
+  F47_185: no training-linked previous date
+  F47_186: no training-linked previous date
+  F47_187: no training-linked previous date
+  F47_198: no training-linked previous date
+  F47_199: no training-linked previous date
+  F47_200: v7 cand F47_088 | D1 F13_083*x F13_084*x F47_088* F47_199 | taken 2 left 2 -> pick None
+  F47_201: v7 cand F47_199 | D1 F13_087*x F13_088*x F47_090*x F47_091* | taken 3 left 1 -> pick F47_091 EC23 0.378
+  F47_202: v7 cand F47_092 | D1 F13_089*x F13_090* F47_092* F47_201 | taken 1 left 3 -> pick None
+  F47_203: v7 cand F47_105 | D1 F13_100*x F13_101*x F47_104*x F47_105* | taken 3 left 1 -> pick F47_105 EC23 0.689
+  F47_204: no training-linked previous date
+  F47_205: no training-linked previous date
+  F47_206: v7 cand F47_205 | D1 F13_114*x F13_212*x F47_120* F47_205 | taken 2 left 2 -> pick None
+  F47_207: v7 cand F47_123 | D1 F13_115*x F13_116*x F47_122* F47_123* | taken 2 left 2 -> pick None
+  F47_218: no training-linked previous date
+  F47_219: no training-linked previous date
+  F47_220: no training-linked previous date
+  F47_221: no training-linked previous date
+  F47_222: no training-linked previous date
+  F47_223: no training-linked previous date
+  F47_224: no training-linked previous date
+  F47_225: no training-linked previous date
+  F47_226: no training-linked previous date
+  F47_227: no training-linked previous date
+  F47_233: v7 cand F47_137 | D1 F13_133*x F13_134*x F47_137* F47_138*x | taken 3 left 1 -> pick F47_137 EC23 0.508
+  F47_234: no training-linked previous date
+  F47_235: v7 cand F13_146 | D1 F13_145*x F13_146* F47_148*x | taken 2 left 1 -> pick F13_146 EC23 1.450
+  F47_236: v7 cand F13_148 | D1 F13_148* F13_241*x F47_150*x | taken 2 left 1 -> pick F13_148 EC23 0.739
+  F47_237: v7 cand F13_149 | D1 F13_149* F13_243* F47_152*x | taken 1 left 2 -> pick None

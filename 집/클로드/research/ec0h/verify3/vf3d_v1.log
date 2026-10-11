@@ -1,0 +1,52 @@
+training records without a training next day (min cost > 2): 28 / 400 (0.070)
+training dates: 124 | dates whose every training member is orphan: 1
+
+F47_221: training dates by outdoor midnight cost (top 12) [oj, all-orphan, members]
+   0.63 False F13_141 F47_144 F47_145
+   0.73 False F13_153 F13_245 F47_155
+   1.26 False F13_130 F13_131 F47_133 F47_134
+   1.47 False F13_157 F47_159 F47_160
+   1.48 False F13_098 F13_099 F47_102 F47_103
+   1.57 False F13_137 F13_138 F47_140 F47_141
+   1.71 False F13_100 F13_101 F47_104 F47_105
+   1.76 False F13_154 F47_156 F47_157
+   1.80 False F13_135 F13_136 F47_139
+   1.82 True F47_229
+   1.84 False F13_145 F13_146 F47_148
+   1.85 False F13_106 F13_107 F47_110
+   all-orphan dates with oj<1.5: [] | total dates oj<1.5: 5
+
+F13_228: training dates by outdoor midnight cost (top 12) [oj, all-orphan, members]
+   0.63 False F13_141 F47_144 F47_145
+   0.73 False F13_153 F13_245 F47_155
+   1.26 False F13_130 F13_131 F47_133 F47_134
+   1.47 False F13_157 F47_159 F47_160
+   1.48 False F13_098 F13_099 F47_102 F47_103
+   1.57 False F13_137 F13_138 F47_140 F47_141
+   1.71 False F13_100 F13_101 F47_104 F47_105
+   1.76 False F13_154 F47_156 F47_157
+   1.80 False F13_135 F13_136 F47_139
+   1.82 True F47_229
+   1.84 False F13_145 F13_146 F47_148
+   1.85 False F13_106 F13_107 F47_110
+   all-orphan dates with oj<1.5: [] | total dates oj<1.5: 5
+
+pairing F47_221 (and same-ID earlier same-date F47_220) vs P1 members: mid / dTair / fp0 / fp23
+   F47_220 <- F47_144 (EC23 0.439): mid   5.9 dT  -4.8 fp0 0.83 fp23 1.02
+   F47_220 <- F47_145 (EC23 2.144): mid  18.4 dT  -6.0 fp0 1.63 fp23 1.77
+   F47_220 <- F13_141 (EC23 0.832): mid  19.5 dT  -8.4 fp0 1.88 fp23 1.93
+   F47_221 <- F47_144 (EC23 0.439): mid  10.1 dT  -2.8 fp0 1.06 fp23 1.25
+   F47_221 <- F47_145 (EC23 2.144): mid   9.6 dT  -4.0 fp0 0.99 fp23 0.97
+   F47_221 <- F13_141 (EC23 0.832): mid  16.6 dT  -6.4 fp0 1.59 fp23 1.48
+
+pairing F13_228 (and same-ID earlier same-date F13_227) vs P1 members: mid / dTair / fp0 / fp23
+   F13_227 <- F47_144 (EC23 0.439): mid  10.3 dT  -2.6 fp0 0.94 fp23 1.06
+   F13_227 <- F47_145 (EC23 2.144): mid  10.8 dT  -3.8 fp0 0.98 fp23 0.95
+   F13_227 <- F13_141 (EC23 0.832): mid  13.3 dT  -6.2 fp0 1.40 fp23 1.22
+   F13_228 <- F47_144 (EC23 0.439): mid   8.3 dT  -2.6 fp0 0.60 fp23 0.86
+   F13_228 <- F47_145 (EC23 2.144): mid  16.1 dT  -3.8 fp0 1.17 fp23 1.08
+   F13_228 <- F13_141 (EC23 0.832): mid  10.0 dT  -6.2 fp0 1.08 fp23 0.94
+
+v2 CV rows with P_hidden_date > .9: 3 | top_ok 0.67 | v7m labelled & ok: [0, 1]
+true links where every visible cross-pair indoor change <= -3: n 0, |dEC| median nan max nan (all links median 0.003)
+orphan status P1: {'F47_144': False, 'F47_145': True, 'F13_141': True} | min cost F47_144 ->  F47_124 0.53
