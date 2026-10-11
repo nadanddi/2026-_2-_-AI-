@@ -1,0 +1,151 @@
+C:\work\farmai\집\클로드\research\ec0h\rise\or2_oracle_ladder_v1.py:25: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  vc = [c for c in T.columns if c.startswith("v22_")]; T["q"] = T[vc].mean(1)
+
+#################### EC  EV (EA2) | records pass-1 344, pass-2 56 | c_h 0,6,12,18,23 = [1.0, 0.95, 0.62, 0.82, 0.7]
+  BASE                                           pass-1 0.1783 ( +0.0%) | pass-2 0.2043 ( +0.0%) | LB~0.127
+  L1 0h exact, full shift                        pass-1 0.1133 (-36.4%) | pass-2 0.1024 (-49.9%) | LB~0.064
+  L1 0h exact, c_h carry                         pass-1 0.1056 (-40.7%) | pass-2 0.1059 (-48.1%) | LB~0.066
+  -- L2 0h known with noise sigma (Bayes weight) --
+  L2 sigma 0.01 (w 1.00)                         pass-1 0.1062 (-40.4%) | pass-2 0.1067 (-47.8%) | LB~0.066
+  L2 sigma 0.02 (w 0.99)                         pass-1 0.1070 (-40.0%) | pass-2 0.1067 (-47.7%) | LB~0.066
+  L2 sigma 0.03 (w 0.97)                         pass-1 0.1091 (-38.8%) | pass-2 0.1094 (-46.4%) | LB~0.068
+  L2 sigma 0.05 (w 0.92)                         pass-1 0.1145 (-35.8%) | pass-2 0.1157 (-43.3%) | LB~0.072
+  L2 sigma 0.08 (w 0.83)                         pass-1 0.1207 (-32.3%) | pass-2 0.1297 (-36.5%) | LB~0.081
+  L2 sigma 0.10 (w 0.75)                         pass-1 0.1246 (-30.1%) | pass-2 0.1240 (-39.3%) | LB~0.077
+  L2 sigma 0.15 (w 0.58)                         pass-1 0.1405 (-21.2%) | pass-2 0.1524 (-25.4%) | LB~0.095
+  L2 sigma 0.20 (w 0.44)                         pass-1 0.1556 (-12.7%) | pass-2 0.1706 (-16.5%) | LB~0.106
+  L2 sigma 0.30 (w 0.25)                         pass-1 0.1647 ( -7.6%) | pass-2 0.1705 (-16.5%) | LB~0.106
+  L2 sigma 0.50 (w 0.11)                         pass-1 0.1715 ( -3.8%) | pass-2 0.1955 ( -4.3%) | LB~0.122
+  L2 sigma 1.00 (w 0.03)                         pass-1 0.1762 ( -1.2%) | pass-2 0.2034 ( -0.4%) | LB~0.127
+  -- L3 0h known only as a bin (quantile bins of true 0h, pass-1 edges) --
+  L3 2 bins                                      pass-1 0.1741 ( -2.3%) | pass-2 0.2033 ( -0.5%) | LB~0.126
+  L3 3 bins                                      pass-1 0.1685 ( -5.5%) | pass-2 0.1987 ( -2.7%) | LB~0.124
+  L3 5 bins                                      pass-1 0.1586 (-11.0%) | pass-2 0.1914 ( -6.3%) | LB~0.119
+  L3 10 bins                                     pass-1 0.1522 (-14.6%) | pass-2 0.1767 (-13.5%) | LB~0.110
+  L3 20 bins                                     pass-1 0.1416 (-20.6%) | pass-2 0.1448 (-29.1%) | LB~0.090
+  -- L4 exact 0h for a subset only --
+  L4 high level (true 0h >= 1.0 EC / sub_temp<=12 TEMP) (share p2 0.09) pass-1 0.1502 (-15.7%) | pass-2 0.1290 (-36.8%) | LB~0.080
+  L4 F47 only (share p2 0.48)                    pass-1 0.1410 (-20.9%) | pass-2 0.1787 (-12.5%) | LB~0.111
+  L4 F13 only (share p2 0.52)                    pass-1 0.1519 (-14.8%) | pass-2 0.1449 (-29.1%) | LB~0.090
+  L4 top 10% |0h error| (pass-1 threshold) (share p2 0.14) pass-1 0.1250 (-29.9%) | pass-2 0.1169 (-42.8%) | LB~0.073
+  L4 top 20% |0h error| (pass-1 threshold) (share p2 0.23) pass-1 0.1145 (-35.8%) | pass-2 0.1127 (-44.8%) | LB~0.070
+  L4 top 30% |0h error| (pass-1 threshold) (share p2 0.29) pass-1 0.1099 (-38.4%) | pass-2 0.1100 (-46.1%) | LB~0.068
+  L4 top 50% |0h error| (pass-1 threshold) (share p2 0.48) pass-1 0.1068 (-40.1%) | pass-2 0.1054 (-48.4%) | LB~0.066
+  L4 records WITH EA2 anchor (share p2 0.34)     pass-1 0.1774 ( -0.5%) | pass-2 0.2035 ( -0.4%) | LB~0.127
+  L4 records WITHOUT anchor (share p2 0.66)      pass-1 0.1071 (-39.9%) | pass-2 0.1074 (-47.4%) | LB~0.067
+  -- L5 one other hour exact instead of 0h (carry from that hour, symmetric regression) --
+  L5 3h exact                                    pass-1 0.1077 (-39.6%) | pass-2 0.1124 (-45.0%) | LB~0.070
+  L5 6h exact                                    pass-1 0.1115 (-37.5%) | pass-2 0.1049 (-48.6%) | LB~0.065
+  L5 12h exact                                   pass-1 0.1108 (-37.9%) | pass-2 0.0847 (-58.5%) | LB~0.053
+  L5 18h exact                                   pass-1 0.1071 (-39.9%) | pass-2 0.1023 (-49.9%) | LB~0.064
+  L5 23h exact                                   pass-1 0.1040 (-41.7%) | pass-2 0.0879 (-57.0%) | LB~0.055
+C:\work\farmai\집\클로드\research\ec0h\rise\or2_oracle_ladder_v1.py:71: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dm = E.mean(1).values[:, None]; line("L5 daily mean exact (shift)", E.values - dm)
+  L5 daily mean exact (shift)                    pass-1 0.0865 (-51.5%) | pass-2 0.0713 (-65.1%) | LB~0.044
+  -- L6 after 0h: what is the next bottleneck --
+  L6 0h+23h exact (linear between)               pass-1 0.0795 (-55.4%) | pass-2 0.0651 (-68.1%) | LB~0.041
+  L6 0h+12h+23h exact                            pass-1 0.0741 (-58.4%) | pass-2 0.0587 (-71.3%) | LB~0.036
+  L6 every 6h exact                              pass-1 0.0359 (-79.9%) | pass-2 0.0475 (-76.8%) | LB~0.030
+  pass-1: day-level share of SSE 0.76 | SSE left after 0h-exact shift 0.40
+  pass-2: day-level share of SSE 0.88 | SSE left after 0h-exact shift 0.25
+  -- L7 where our current 0h estimates sit (RMSE of 0h error) --
+   pass-1: model 0h RMSE 0.176 | 0h error sd 0.176 | anchored records 0h RMSE 0.059 (n 35) | unanchored 0.184 (n 309)
+   pass-2: model 0h RMSE 0.190 | 0h error sd 0.186 | anchored records 0h RMSE 0.037 (n 19) | unanchored 0.232 (n 37)
+
+#################### EC  DIAG10 (CUR sg) | records pass-1 314, pass-2 46 | c_h 0,6,12,18,23 = [1.0, 0.96, 0.7, 0.91, 0.77]
+  BASE                                           pass-1 0.1678 ( +0.0%) | pass-2 0.2390 ( +0.0%) | LB~0.127
+  L1 0h exact, full shift                        pass-1 0.0961 (-42.7%) | pass-2 0.1035 (-56.7%) | LB~0.055
+  L1 0h exact, c_h carry                         pass-1 0.0910 (-45.7%) | pass-2 0.1066 (-55.4%) | LB~0.057
+  -- L2 0h known with noise sigma (Bayes weight) --
+  L2 sigma 0.01 (w 1.00)                         pass-1 0.0917 (-45.3%) | pass-2 0.1072 (-55.1%) | LB~0.057
+  L2 sigma 0.02 (w 0.99)                         pass-1 0.0926 (-44.8%) | pass-2 0.1094 (-54.2%) | LB~0.058
+  L2 sigma 0.03 (w 0.97)                         pass-1 0.0946 (-43.6%) | pass-2 0.1122 (-53.0%) | LB~0.060
+  L2 sigma 0.05 (w 0.92)                         pass-1 0.0994 (-40.8%) | pass-2 0.1206 (-49.5%) | LB~0.064
+  L2 sigma 0.08 (w 0.81)                         pass-1 0.1085 (-35.3%) | pass-2 0.1364 (-42.9%) | LB~0.073
+  L2 sigma 0.10 (w 0.73)                         pass-1 0.1162 (-30.7%) | pass-2 0.1469 (-38.5%) | LB~0.078
+  L2 sigma 0.15 (w 0.55)                         pass-1 0.1298 (-22.6%) | pass-2 0.1764 (-26.2%) | LB~0.094
+  L2 sigma 0.20 (w 0.40)                         pass-1 0.1417 (-15.5%) | pass-2 0.1800 (-24.7%) | LB~0.096
+  L2 sigma 0.30 (w 0.23)                         pass-1 0.1522 ( -9.3%) | pass-2 0.2091 (-12.5%) | LB~0.111
+  L2 sigma 0.50 (w 0.10)                         pass-1 0.1587 ( -5.4%) | pass-2 0.2195 ( -8.2%) | LB~0.117
+  L2 sigma 1.00 (w 0.03)                         pass-1 0.1661 ( -1.0%) | pass-2 0.2366 ( -1.0%) | LB~0.126
+  -- L3 0h known only as a bin (quantile bins of true 0h, pass-1 edges) --
+  L3 2 bins                                      pass-1 0.1633 ( -2.6%) | pass-2 0.2385 ( -0.2%) | LB~0.127
+  L3 3 bins                                      pass-1 0.1580 ( -5.8%) | pass-2 0.2377 ( -0.5%) | LB~0.126
+  L3 5 bins                                      pass-1 0.1520 ( -9.4%) | pass-2 0.2155 ( -9.8%) | LB~0.115
+  L3 10 bins                                     pass-1 0.1451 (-13.5%) | pass-2 0.2140 (-10.4%) | LB~0.114
+  L3 20 bins                                     pass-1 0.1367 (-18.5%) | pass-2 0.1759 (-26.4%) | LB~0.094
+  -- L4 exact 0h for a subset only --
+  L4 high level (true 0h >= 1.0 EC / sub_temp<=12 TEMP) (share p2 0.11) pass-1 0.1298 (-22.7%) | pass-2 0.1557 (-34.9%) | LB~0.083
+  L4 F47 only (share p2 0.48)                    pass-1 0.1194 (-28.8%) | pass-2 0.2028 (-15.1%) | LB~0.108
+  L4 F13 only (share p2 0.52)                    pass-1 0.1489 (-11.2%) | pass-2 0.1653 (-30.8%) | LB~0.088
+  L4 top 10% |0h error| (pass-1 threshold) (share p2 0.28) pass-1 0.1095 (-34.7%) | pass-2 0.1123 (-53.0%) | LB~0.060
+  L4 top 20% |0h error| (pass-1 threshold) (share p2 0.39) pass-1 0.1000 (-40.4%) | pass-2 0.1101 (-53.9%) | LB~0.059
+  L4 top 30% |0h error| (pass-1 threshold) (share p2 0.50) pass-1 0.0968 (-42.3%) | pass-2 0.1097 (-54.1%) | LB~0.058
+  L4 top 50% |0h error| (pass-1 threshold) (share p2 0.70) pass-1 0.0924 (-44.9%) | pass-2 0.1070 (-55.2%) | LB~0.057
+  -- L5 one other hour exact instead of 0h (carry from that hour, symmetric regression) --
+  L5 3h exact                                    pass-1 0.0929 (-44.6%) | pass-2 0.1131 (-52.7%) | LB~0.060
+  L5 6h exact                                    pass-1 0.0958 (-42.9%) | pass-2 0.1041 (-56.4%) | LB~0.055
+  L5 12h exact                                   pass-1 0.0986 (-41.2%) | pass-2 0.0992 (-58.5%) | LB~0.053
+  L5 18h exact                                   pass-1 0.0938 (-44.1%) | pass-2 0.0960 (-59.8%) | LB~0.051
+  L5 23h exact                                   pass-1 0.0884 (-47.3%) | pass-2 0.0945 (-60.4%) | LB~0.050
+C:\work\farmai\집\클로드\research\ec0h\rise\or2_oracle_ladder_v1.py:71: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dm = E.mean(1).values[:, None]; line("L5 daily mean exact (shift)", E.values - dm)
+  L5 daily mean exact (shift)                    pass-1 0.0746 (-55.6%) | pass-2 0.0744 (-68.8%) | LB~0.040
+  -- L6 after 0h: what is the next bottleneck --
+  L6 0h+23h exact (linear between)               pass-1 0.0736 (-56.1%) | pass-2 0.0719 (-69.9%) | LB~0.038
+  L6 0h+12h+23h exact                            pass-1 0.0677 (-59.7%) | pass-2 0.0582 (-75.7%) | LB~0.031
+  L6 every 6h exact                              pass-1 0.0335 (-80.0%) | pass-2 0.0445 (-81.4%) | LB~0.024
+  pass-1: day-level share of SSE 0.80 | SSE left after 0h-exact shift 0.33
+  pass-2: day-level share of SSE 0.90 | SSE left after 0h-exact shift 0.19
+  -- L7 where our current 0h estimates sit (RMSE of 0h error) --
+   pass-1: model 0h RMSE 0.165 | 0h error sd 0.165
+   pass-2: model 0h RMSE 0.225 | 0h error sd 0.224
+
+#################### TEMP EV (v22) | records pass-1 344, pass-2 56 | c_h 0,6,12,18,23 = [1.0, 0.5, 0.24, 0.13, 0.12]
+  BASE                                           pass-1 0.6273 ( +0.0%) | pass-2 0.7565 ( +0.0%) | LB~0.501
+  L1 0h exact, full shift                        pass-1 0.7548 (+20.3%) | pass-2 0.6392 (-15.5%) | LB~0.423
+  L1 0h exact, c_h carry                         pass-1 0.5259 (-16.2%) | pass-2 0.5580 (-26.2%) | LB~0.370
+  -- L2 0h known with noise sigma (Bayes weight) --
+  L2 sigma 0.01 (w 1.00)                         pass-1 0.5259 (-16.2%) | pass-2 0.5576 (-26.3%) | LB~0.369
+  L2 sigma 0.02 (w 1.00)                         pass-1 0.5259 (-16.2%) | pass-2 0.5579 (-26.3%) | LB~0.370
+  L2 sigma 0.03 (w 1.00)                         pass-1 0.5259 (-16.2%) | pass-2 0.5581 (-26.2%) | LB~0.370
+  L2 sigma 0.05 (w 1.00)                         pass-1 0.5253 (-16.3%) | pass-2 0.5602 (-26.0%) | LB~0.371
+  L2 sigma 0.08 (w 0.99)                         pass-1 0.5261 (-16.1%) | pass-2 0.5583 (-26.2%) | LB~0.370
+  L2 sigma 0.10 (w 0.98)                         pass-1 0.5261 (-16.1%) | pass-2 0.5659 (-25.2%) | LB~0.375
+  L2 sigma 0.15 (w 0.96)                         pass-1 0.5308 (-15.4%) | pass-2 0.5662 (-25.2%) | LB~0.375
+  L2 sigma 0.20 (w 0.94)                         pass-1 0.5322 (-15.2%) | pass-2 0.5707 (-24.6%) | LB~0.378
+  L2 sigma 0.30 (w 0.87)                         pass-1 0.5399 (-13.9%) | pass-2 0.5832 (-22.9%) | LB~0.386
+  L2 sigma 0.50 (w 0.71)                         pass-1 0.5554 (-11.5%) | pass-2 0.6204 (-18.0%) | LB~0.411
+  L2 sigma 1.00 (w 0.38)                         pass-1 0.5884 ( -6.2%) | pass-2 0.6666 (-11.9%) | LB~0.442
+  -- L3 0h known only as a bin (quantile bins of true 0h, pass-1 edges) --
+  L3 2 bins                                      pass-1 0.6128 ( -2.3%) | pass-2 0.7562 ( -0.0%) | LB~0.501
+  L3 3 bins                                      pass-1 0.6036 ( -3.8%) | pass-2 0.7106 ( -6.1%) | LB~0.471
+  L3 5 bins                                      pass-1 0.5762 ( -8.1%) | pass-2 0.6211 (-17.9%) | LB~0.411
+  L3 10 bins                                     pass-1 0.5590 (-10.9%) | pass-2 0.6136 (-18.9%) | LB~0.406
+  L3 20 bins                                     pass-1 0.5430 (-13.4%) | pass-2 0.5985 (-20.9%) | LB~0.397
+  -- L4 exact 0h for a subset only --
+  L4 high level (true 0h >= 1.0 EC / sub_temp<=12 TEMP) (share p2 0.41) pass-1 0.5905 ( -5.9%) | pass-2 0.7111 ( -6.0%) | LB~0.471
+  L4 F47 only (share p2 0.48)                    pass-1 0.5593 (-10.8%) | pass-2 0.5879 (-22.3%) | LB~0.389
+  L4 F13 only (share p2 0.52)                    pass-1 0.5977 ( -4.7%) | pass-2 0.7335 ( -3.0%) | LB~0.486
+  L4 top 10% |0h error| (pass-1 threshold) (share p2 0.14) pass-1 0.5657 ( -9.8%) | pass-2 0.5766 (-23.8%) | LB~0.382
+  L4 top 20% |0h error| (pass-1 threshold) (share p2 0.20) pass-1 0.5488 (-12.5%) | pass-2 0.5685 (-24.9%) | LB~0.377
+  L4 top 30% |0h error| (pass-1 threshold) (share p2 0.29) pass-1 0.5399 (-13.9%) | pass-2 0.5623 (-25.7%) | LB~0.373
+  L4 top 50% |0h error| (pass-1 threshold) (share p2 0.43) pass-1 0.5295 (-15.6%) | pass-2 0.5610 (-25.8%) | LB~0.372
+  -- L5 one other hour exact instead of 0h (carry from that hour, symmetric regression) --
+  L5 3h exact                                    pass-1 0.4974 (-20.7%) | pass-2 0.4791 (-36.7%) | LB~0.317
+  L5 6h exact                                    pass-1 0.4995 (-20.4%) | pass-2 0.4736 (-37.4%) | LB~0.314
+  L5 12h exact                                   pass-1 0.4984 (-20.5%) | pass-2 0.5357 (-29.2%) | LB~0.355
+  L5 18h exact                                   pass-1 0.4779 (-23.8%) | pass-2 0.5357 (-29.2%) | LB~0.355
+  L5 23h exact                                   pass-1 0.5345 (-14.8%) | pass-2 0.5410 (-28.5%) | LB~0.358
+C:\work\farmai\집\클로드\research\ec0h\rise\or2_oracle_ladder_v1.py:71: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dm = E.mean(1).values[:, None]; line("L5 daily mean exact (shift)", E.values - dm)
+  L5 daily mean exact (shift)                    pass-1 0.4378 (-30.2%) | pass-2 0.3535 (-53.3%) | LB~0.234
+  -- L6 after 0h: what is the next bottleneck --
+  L6 0h+23h exact (linear between)               pass-1 0.4657 (-25.8%) | pass-2 0.4320 (-42.9%) | LB~0.286
+  L6 0h+12h+23h exact                            pass-1 0.3473 (-44.6%) | pass-2 0.2859 (-62.2%) | LB~0.189
+  L6 every 6h exact                              pass-1 0.2111 (-66.3%) | pass-2 0.1454 (-80.8%) | LB~0.096
+  pass-1: day-level share of SSE 0.51 | SSE left after 0h-exact shift 1.45
+  pass-2: day-level share of SSE 0.78 | SSE left after 0h-exact shift 0.71
+  -- L7 where our current 0h estimates sit (RMSE of 0h error) --
+   pass-1: model 0h RMSE 0.779 | 0h error sd 0.779
+   pass-2: model 0h RMSE 0.923 | 0h error sd 0.908

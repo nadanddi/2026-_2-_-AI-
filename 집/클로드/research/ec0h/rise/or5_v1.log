@@ -1,0 +1,11 @@
+F13_217: same-date records ['F13_216', 'F47_211', 'F47_212']
+   claimed prev F13_127: same-date ['F13_126', 'F47_131', 'F47_210'] | outdoor 23h->0h jump (z sum) 0.65 | EC 1.65->1.67 | sub_temp 13.2->12.6 | in_temp 9.7->9.4
+F47_229: same-date records ['F13_235(E)', 'F13_236(E)']
+   claimed prev F13_217: same-date ['F13_216', 'F47_211', 'F47_212'] | outdoor 23h->0h jump (z sum) 2.73 | EC 1.66->1.72 | sub_temp 11.2->11.0 | in_temp 8.4->9.3
+F47_231: same-date records ['F13_237(E)', 'F13_238(E)', 'F47_230']
+   claimed prev F47_229: same-date ['F13_235(E)', 'F13_236(E)'] | outdoor 23h->0h jump (z sum) 1.49 | EC 1.98->2.06 | sub_temp 11.8->11.4 | in_temp 9.4->10.4
+F13_241: same-date records ['F13_148', 'F47_150']
+   claimed prev F13_125: same-date ['F13_124', 'F47_129', 'F47_130'] | outdoor 23h->0h jump (z sum) 3.79 | EC 1.45->1.43 | sub_temp 13.8->14.1 | in_temp 9.4->16.9
+F13_243: same-date records ['F13_149', 'F47_152']
+   claimed prev F47_151: same-date ['F13_242', 'F47_236(E)'] | outdoor 23h->0h jump (z sum) 0.70 | EC 1.59->1.58 | sub_temp 14.5->14.7 | in_temp 16.7->17.0
+outdoor jump z-sum: certain links median 0.52 (90% 0.95) | random pairs median 2.53

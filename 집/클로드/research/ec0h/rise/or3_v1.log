@@ -1,0 +1,23 @@
+[EC] after exact 0h (c_h carry): remaining SSE share by hour block (pass-1 / pass-2)
+  p1: 0-5h 0.04 6-11h 0.15 12-17h 0.41 18-23h 0.39 | days with |true 0->23 change|>=.15: 19/344 hold 0.66 of remaining SSE
+       corr(remaining day-mean error, true change - predicted change) 0.75 | RMSE of predicted 0->23 change 0.120 vs sd true change 0.109
+  p2: 0-5h 0.10 6-11h 0.17 12-17h 0.25 18-23h 0.48 | days with |true 0->23 change|>=.15: 3/56 hold 0.48 of remaining SSE
+       corr(remaining day-mean error, true change - predicted change) 0.84 | RMSE of predicted 0->23 change 0.125 vs sd true change 0.105
+
+[EC] unanchored records: 0h error by level and farm (pass-2)
+  anchored=False: n 37 | 0h RMSE 0.232 | share of p2 0h SSE 0.99
+  anchored=True: n 19 | 0h RMSE 0.037 | share of p2 0h SSE 0.01
+   unanchored true 0h 0-0.6: n 26 | 0h RMSE 0.111 | share of unanchored 0h SSE 0.16
+   unanchored true 0h 0.6-1.0: n 8 | 0h RMSE 0.211 | share of unanchored 0h SSE 0.18
+   unanchored true 0h 1.0-9: n 3 | 0h RMSE 0.663 | share of unanchored 0h SSE 0.66
+   unanchored, largest 0h errors: F13_217 e0 +1.02 (y0 1.67), F47_231 e0 +0.52 (y0 2.06), F47_215 e0 +0.32 (y0 0.71), F47_243 e0 -0.27 (y0 0.41), F47_209 e0 +0.27 (y0 0.65), F47_241 e0 -0.27 (y0 0.58), F47_213 e0 +0.26 (y0 0.68), F13_233 e0 -0.26 (y0 0.63), F13_242 e0 -0.22 (y0 0.43), F13_211 e0 +0.20 (y0 0.52)
+
+[TEMP] day-mean error (offset) structure
+  p1: day-offset RMSE 0.449 | day-level SSE share 0.51 | F47 share of offset SSE 0.63 (records 0.50) | cold days (mean in_temp<12) share 0.27 (records 0.09) | offset sign: mean -0.01
+       hourly RMSE 0,3,6,9,12,15,18,21: 0.78 0.59 0.56 0.49 0.62 0.73 0.63 0.60
+       corr(0h error, day offset) 0.62 | corr(6h error, offset) 0.75 | corr(14h error, offset) 0.75
+       top 10% days hold 0.75 of offset SSE; examples: F47_178 +2.6, F47_158 -2.4, F13_109 +2.2, F13_139 +1.9, F47_122 -1.8, F47_123 -1.8, F47_018 -1.6, F13_048 -1.6
+  p2: day-offset RMSE 0.669 | day-level SSE share 0.78 | F47 share of offset SSE 0.90 (records 0.48) | cold days (mean in_temp<12) share 0.04 (records 0.14) | offset sign: mean +0.09
+       hourly RMSE 0,3,6,9,12,15,18,21: 0.92 0.80 0.75 0.67 0.66 0.75 0.72 0.79
+       corr(0h error, day offset) 0.82 | corr(6h error, offset) 0.92 | corr(14h error, offset) 0.87
+       top 10% days hold 0.79 of offset SSE; examples: F47_191 +3.1, F47_189 +2.2, F47_241 -1.7, F47_240 -1.2, F13_244 +0.9, F47_230 -0.8, F47_214 -0.8, F47_239 +0.7
