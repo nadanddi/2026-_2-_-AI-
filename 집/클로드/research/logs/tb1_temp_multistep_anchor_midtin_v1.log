@@ -1,0 +1,13 @@
+multi-step chains: 60 records (k: {2: 29, 3: 19, 4: 12}), pass-2 1
+full-fit G1 b_h: 0:-0.01 3:-0.09 6:-0.08 9:-0.05 12:0.01 15:-0.05 18:-0.02 21:-0.04 | g_h: 0:0.06 3:0.01 6:-0.00 9:-0.01 12:0.04 15:0.03 18:0.04 21:0.01
+C:\work\farmai\집\클로드\research\tb1_temp_multistep_anchor_midtin_v1.py:102: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat([pd.Series(((x - y) ** 2 - (z - y) ** 2)[sel]).groupby(key[sel]).sum() for x, z in zip(A_, B_)], axis=1).mean(1); P = P[P.abs() > 1e-12]
+  G0 vs base  pooled cells +0.75% +0.59% +0.69% +0.57% | pass-2 mean +15.63% | records 53 improved 24 | P(worse) 0.7334 | top share nan%
+C:\work\farmai\집\클로드\research\tb1_temp_multistep_anchor_midtin_v1.py:102: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat([pd.Series(((x - y) ** 2 - (z - y) ** 2)[sel]).groupby(key[sel]).sum() for x, z in zip(A_, B_)], axis=1).mean(1); P = P[P.abs() > 1e-12]
+  G1 vs base  pooled cells +4.24% +4.11% +4.17% +4.07% | pass-2 mean +12.79% | records 53 improved 21 | P(worse) 0.9867 | top share nan%
+C:\work\farmai\집\클로드\research\tb1_temp_multistep_anchor_midtin_v1.py:102: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  P = pd.concat([pd.Series(((x - y) ** 2 - (z - y) ** 2)[sel]).groupby(key[sel]).sum() for x, z in zip(A_, B_)], axis=1).mean(1); P = P[P.abs() > 1e-12]
+  G1 vs G0    pooled cells +3.46% +3.50% +3.45% +3.49% | pass-2 mean -2.46% | records 53 improved 23 | P(worse) 0.9991 | top share nan%
+  whole DIAG10 RMSE change G1 vs base: pass-1 +0.76%, pass-2 +0.06%
+VERDICT TB1 (G1): FAIL
