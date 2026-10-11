@@ -1,0 +1,37 @@
+fold 0 picks so far 105
+fold 1 picks so far 176
+fold 2 picks so far 229
+fold 3 picks so far 238
+fold 4 picks so far 361
+fold 5 picks so far 469
+fold 6 picks so far 509
+fold 7 picks so far 545
+targets with >=1 accepted hour: 38 | pass-2: ['F13_182', 'F13_195', 'F13_197', 'F47_189', 'F47_192', 'F47_243']
+w example 0.000
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+pass-1: records 32 | cells +0.00% +0.00% -0.00% | improved 17/32 | cluster P 0.014 | top share 0.62
+VERDICT HA1: FAIL
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+C:\work\farmai\집\클로드\research\ec0h\ha1_hourly_anchor_update_v1.py:81: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((out[s].loc[recs] - Y.loc[recs]) ** 2).sum(1) - ((base[s].loc[recs] - Y.loc[recs]) ** 2).sum(1)).values for s in out], 0), index=recs)
+pass-2: records 6 | cells +0.00% +0.00% +0.00% | improved 5/6 | cluster P 0.038 | top share 0.92
