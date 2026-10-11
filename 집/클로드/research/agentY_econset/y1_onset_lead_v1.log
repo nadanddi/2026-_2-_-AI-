@@ -1,0 +1,78 @@
+train recs 400 cert prev links 190 chains 210 chain len max 10
+OOF days 360
+n features 190
+
+===== H10: high 35 | onset 4 | cont-high 17 | high w/o cert prev 14 | control normal->normal 168
+   (참고) 보통 날 중 cert 이전 없음: 196 / 365  고EC 중: 14 / 35
+   onset same-farm prev: 2 / 4  onset ec_p1 mean 0.969 vs control 0.429  onset ec 1.043
+               feat   auc   dev      d     p  n1  n0      m1      m0  p_fw
+   p1_act_vent_mean 0.089 0.411 -0.954 0.005   4 168   0.906  14.789 0.132
+    p1_act_vent_day 0.106 0.394 -1.019 0.007   4 168   2.719  29.715 0.208
+   p1_act_vent_last 0.110 0.390 -1.568 0.006   4 168   6.750  17.286 0.230
+    p1_act_vent_rng 0.114 0.386 -1.132 0.008   4 168   7.000  44.357 0.254
+   p1_act_vent_duty 0.114 0.386 -1.204 0.008   4 168   0.094   0.511 0.254
+  p1_act_vent_first 0.875 0.375  1.451 0.009   4 168  17.500   7.208 0.322
+  p1_act_thermal_dn 0.849 0.349  0.719 0.017   4 168  98.438  66.644 0.490
+       p1_in_co2_dn 0.844 0.344  0.962 0.019   4 168  46.219 -14.550 0.536
+     p1_act_vent_dn 0.173 0.327 -0.902 0.026   4 168   2.719  24.242 0.674
+   p1_act_vent_nchg 0.186 0.314 -1.010 0.032   4 168   2.750   9.280 0.776
+       o_in_co2_d06 0.198 0.302 -0.178 0.040   4 164  -9.000   6.652 0.832
+ p1_act_thermal_day 0.795 0.295  0.748 0.043   4 168  98.438  78.202 0.870
+      o_out_rad_x06 0.214 0.286 -0.321 0.038   4 168   0.000   3.083 0.916
+p1_act_thermal_nchg 0.217 0.283 -0.782 0.048   4 168   4.000   8.060 0.930
+   p1_act_co2_first 0.222 0.278 -1.158 0.019   4 168  11.750  19.768 0.942
+      p1_in_co2_e06 0.222 0.278 -0.953 0.059   4 167 367.929 416.817 0.942
+       p1_in_hum_dn 0.776 0.276  1.003 0.060   4 168  -6.550 -15.736 0.948
+  p1_out_temp_night 0.226 0.274 -0.869 0.062   4 168   0.865   7.996 0.958
+    p1_out_temp_eve 0.231 0.269 -0.886 0.067   4 168   1.754   9.105 0.970
+    p1_act_co2_last 0.769 0.269  1.078 0.023   4 168  10.000   3.012 0.972
+   best o_  : o_in_co2_d06 AUC 0.198 p_fw 0.832 (n feats 48)
+   best p1_ : p1_act_vent_mean AUC 0.089 p_fw 0.132 (n feats 128)
+   best do_ : do_out_wspd_m06 AUC 0.604 p_fw 1.000 (n feats 14)
+   OOF subset onset 4 control 149 | AUC pred06 0.970, pred(day) 0.988, ec_p1(oracle anchor) 0.998
+   onset days: res mean 0.011 (truth 1.043 pred 1.032); control res mean -0.012
+
+===== H12: high 30 | onset 3 | cont-high 13 | high w/o cert prev 14 | control normal->normal 173
+   (참고) 보통 날 중 cert 이전 없음: 196 / 370  고EC 중: 14 / 30
+   onset same-farm prev: 2 / 3  onset ec_p1 mean 1.077 vs control 0.445  onset ec 1.274
+                feat   auc   dev      d     p  n1  n0     m1     m0  p_fw
+    p1_act_vent_mean 0.135 0.365 -0.886 0.031   3 173  1.569 14.408 0.748
+    p1_act_vent_last 0.145 0.355 -1.133 0.032   3 173  9.333 17.023 0.806
+ p1_act_thermal_duty 0.147 0.353 -0.898 0.035   3 173  0.375  0.593 0.814
+  p1_act_shade_first 0.844 0.344  0.790 0.037   3 173  8.667  5.220 0.852
+     p1_act_vent_day 0.161 0.339 -0.919 0.045   3 173  4.708 28.996 0.864
+      p1_out_wspd_dn 0.162 0.338 -0.844 0.045   3 173  0.050  0.544 0.864
+    p1_act_vent_duty 0.165 0.335 -1.039 0.046   3 173  0.139  0.500 0.876
+p1_act_thermal_first 0.833 0.333  0.756 0.044   3 173  8.667  5.676 0.886
+        o_in_hum_d06 0.826 0.326  0.941 0.053   3 170  4.000 -0.935 0.918
+       o_in_temp_d06 0.824 0.324  0.842 0.055   3 169  0.867 -0.292 0.924
+   p1_act_vent_first 0.818 0.318  1.056 0.054   3 173 15.000  7.468 0.948
+     p1_act_vent_rng 0.183 0.317 -0.936 0.060   3 173 12.667 43.457 0.950
+   p1_out_temp_night 0.189 0.311 -0.985 0.066   3 173 -0.303  7.781 0.966
+    p1_out_temp_mean 0.189 0.311 -0.971 0.066   3 173  1.962  9.948 0.966
+     p1_out_temp_e06 0.193 0.307 -0.971 0.069   3 173 -0.852  7.281 0.972
+   p1_act_shade_duty 0.203 0.297 -0.848 0.078   3 173  0.417  0.617 0.984
+ p1_act_thermal_last 0.209 0.291 -0.738 0.076   3 173 16.667 19.098 0.986
+     p1_out_temp_day 0.209 0.291 -0.955 0.085   3 173  5.438 13.443 0.986
+     p1_out_temp_eve 0.220 0.280 -0.932 0.097   3 173  1.133  8.874 0.992
+      o_out_temp_d06 0.778 0.278  0.864 0.100   3 173  0.500 -1.136 0.994
+   best o_  : o_in_hum_d06 AUC 0.826 p_fw 0.918 (n feats 48)
+   best p1_ : p1_act_vent_mean AUC 0.135 p_fw 0.748 (n feats 128)
+   best do_ : do_out_hum_m06 AUC 0.333 p_fw 1.000 (n feats 14)
+   OOF subset onset 3 control 154 | AUC pred06 0.946, pred(day) 0.965, ec_p1(oracle anchor) 1.000
+   onset days: res mean 0.256 (truth 1.274 pred 1.018); control res mean -0.012
+
+===== HREL: high 0 | onset 0 | cont-high 0 | high w/o cert prev 0 | control normal->normal 190
+   (참고) 보통 날 중 cert 이전 없음: 210 / 400  고EC 중: 0 / 0
+   onset same-farm prev: 0 / 0  onset ec_p1 mean nan vs control 0.543  onset ec nan
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\agentY_econset\y1_onset_lead_v1.py", line 164, in <module>
+    mx = maxstat_perm(S, lab, list(tab.feat), 500)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\집\클로드\research\agentY_econset\y1_onset_lead_v1.py", line 142, in maxstat_perm
+    Zr = np.column_stack([rankdata(np.where(np.isnan(z), np.nanmedian(z), z)) for z in Z.T])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\numpy\lib\_shape_base_impl.py", line 648, in column_stack
+    return _nx.concatenate(arrays, 1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: need at least one array to concatenate

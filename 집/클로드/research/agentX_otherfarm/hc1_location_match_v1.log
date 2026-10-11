@@ -1,0 +1,545 @@
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:25: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ref_rs = ref_h.sum(1); ref_tm = ref_t.mean(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:25: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  ref_rs = ref_h.sum(1); ref_tm = ref_t.mean(1)
+기준 달력 날짜 수(학습): 122 cal 범위 0 126
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:43: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ors = oh.sum(1, min_count=20); ors_d = detr(ors)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:63: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  A = ref_h.div(ref_h.sum(1), axis=0); B = oh.div(oh.sum(1), axis=0).reindex(k); B.index = A.index
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+C:\work\farmai\집\클로드\research\agentX_otherfarm\hc1_location_match_v1.py:64: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A.notna().all(1) & B.notna().all(1)
+farm     var  best_lag  n  r_best  r_2nd     z  shape_r  r_outtemp  ndays
+ F07  in_rad       206 69   0.531  0.384 4.355    0.657        NaN    268
+ F49  in_rad       161 38   0.521  0.313 4.055    0.908        NaN    186
+ F46  in_rad       131 55   0.511  0.323 4.227    0.895        NaN    173
+ F09  in_rad       251 36   0.504  0.351 4.021    0.831        NaN    274
+ F02  in_rad       240 36   0.473  0.325 4.109    0.385        NaN    274
+ F03  in_rad       258 31   0.466  0.340 4.249    0.801        NaN    274
+ F25  in_rad       246 42   0.465  0.321 4.041    0.669        NaN    276
+ F24  in_rad       244 36   0.464  0.306 4.479    0.852        NaN    274
+ F14  in_rad       153 38   0.456  0.310 3.565    0.907        NaN    186
+ F32 out_rad       -57 55   0.455  0.321 3.553    0.870     -0.192    233
+ F22  in_rad       148 38   0.443  0.331 3.554    0.897        NaN    186
+ F20  in_rad       260 33   0.435  0.390 3.882    0.408        NaN    282
+ F21  in_rad       -81 33   0.433  0.348 3.629    0.582        NaN    279
+ F36  in_rad       261 31   0.429  0.352 3.717    0.837        NaN    281
+ F33  in_rad       159 54   0.424  0.340 3.376    0.922        NaN    201
+ F40  in_rad       -81 30   0.422  0.358 3.640    0.846        NaN    281
+ F04  in_rad       245 36   0.421  0.315 3.739    0.782        NaN    270
+ F27  in_rad       -52 55   0.409  0.405 3.531    0.592        NaN    274
+ F51  in_rad       -65 55   0.406  0.388 3.344    0.808        NaN    274
+ F06  in_rad       -78 36   0.395  0.378 3.552    0.468        NaN    190
+ F23  in_rad       -82 31   0.394  0.388 3.112    0.686        NaN    251
+ F41  in_rad       224 52   0.393  0.389 3.436    0.663        NaN    274
+ F42  in_rad       247 36   0.391  0.345 3.346    0.764        NaN    274
+ F12  in_rad       -61 47   0.382  0.342 3.090    0.870        NaN    271
+ F44  in_rad       -55 55   0.380  0.298 3.394    0.867        NaN    274
+ F08  in_rad       -73 43   0.377  0.295 3.256    0.907        NaN    282
+ F16  in_rad       210 62   0.376  0.293 3.176    0.851        NaN    267
+ F43  in_rad       205 47   0.373  0.328 3.097    0.855        NaN    250
+ F17  in_rad       211 44   0.371  0.352 3.157    0.735        NaN    251
+ F35  in_rad       161 57   0.371  0.323 2.820    0.873        NaN    204
+ F39  in_rad       -65 45   0.369  0.331 2.964    0.852        NaN    269
+ F15  in_rad       -80 33   0.369  0.284 3.359    0.457        NaN    270
+ F38  in_rad       -70 37   0.368  0.367 3.565    0.867        NaN    273
+ F48  in_rad       -65 55   0.368  0.275 3.193    0.789        NaN    250
+ F18  in_rad       215 63   0.359  0.352 2.823    0.874        NaN    268
+ F50  in_rad       -30 83   0.357  0.348 3.073    0.839        NaN    274
+ F01  in_rad       -74 43   0.343  0.330 2.761    0.823        NaN    174
+ F10  in_rad       253 30   0.336  0.326 3.018    0.845        NaN    269
+ F11  in_rad       242 31   0.336  0.294 2.764    0.847        NaN    269
+ F31  in_rad       -79 42   0.334  0.305 2.631    0.867        NaN    266
+ F26  in_rad       -73 40   0.333  0.328 3.179    0.589        NaN    277
+ F29  in_rad       -34 83   0.323  0.319 2.883    0.797        NaN    264
+ F05  in_rad       -75 40   0.320  0.309 2.958    0.691        NaN    292
+ F28  in_rad       252 31   0.315  0.311 2.909    0.769        NaN    274
+ F34  in_rad       166 94   0.314  0.298 2.609    0.817        NaN    252
+ F45  in_rad       -72 41   0.313  0.278 2.683    0.703        NaN    221
+ F37  in_rad       -85 30   0.309  0.298 2.934    0.686        NaN    296
+ F30  in_rad       -67 45   0.301  0.295 2.504    0.882        NaN    269
+ F19  in_rad       -78 36   0.297  0.266 2.659    0.616        NaN    271

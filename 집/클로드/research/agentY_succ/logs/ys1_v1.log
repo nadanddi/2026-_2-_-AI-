@@ -1,0 +1,48 @@
+truth cert links 190: cross-ID 40, same-ID 150 (of same-ID: successor number < target number 17)
+(2) oracle successor slope by hour (residual on S0-q):
+  temp cross n 40: 18:-0.00 19:0.01 20:0.04 21:0.09 22:0.19 23:0.58
+  temp same  n150: 18:0.02 19:0.03 20:0.06 21:0.11 22:0.26 23:0.64
+  temp all   n190: 18:0.01 19:0.02 20:0.06 21:0.11 22:0.25 23:0.63
+    temp cross h21 slope 95% CI [-0.05, 0.27]
+    temp cross h22 slope 95% CI [-0.02, 0.40]
+    temp cross h23 slope 95% CI [0.28, 0.76]
+  EC   cross n 40: 18:0.99 19:1.07 20:1.14 21:1.12 22:1.10 23:1.05
+  EC   same  n150: 18:0.84 19:0.88 20:0.92 21:0.96 22:0.98 23:1.00
+  EC   all   n190: 18:0.91 19:0.98 20:1.03 21:1.04 22:1.04 23:1.03
+    EC cross h21 slope 95% CI [1.01, 1.35]
+    EC cross h22 slope 95% CI [1.01, 1.30]
+    EC cross h23 slope 95% CI [1.01, 1.15]
+(2b) upper bound: successor KNOWN, correction q + beta_h(S0-q), beta LOO over all cert links, rows h>=20
+  temp cross rows  152: touched-row RMSE 0.5091 -> 0.4709 (-7.5%); whole-validator RMSE change -0.09% (if these rows were all of its h>=20 changes)
+  temp all   rows  692: touched-row RMSE 0.5408 -> 0.4768 (-11.8%); whole-validator RMSE change -0.72% (if these rows were all of its h>=20 changes)
+  EC   cross rows  144: touched-row RMSE 0.2231 -> 0.0979 (-56.1%); whole-validator RMSE change -1.06% (if these rows were all of its h>=20 changes)
+  EC   all   rows  668: touched-row RMSE 0.1335 -> 0.0523 (-60.8%); whole-validator RMSE change -1.85% (if these rows were all of its h>=20 changes)
+(3) scales: outdoor midnight jump sd [0.446 2.006 0.43 ] | inside 23->0 jump sd {'in_temp': np.float64(1.225), 'in_hum': np.float64(2.98), 'in_co2': np.float64(27.005), 'vent': np.float64(3.8), 'shade': np.float64(25.778), 'thermal': np.float64(9.534), 'heating': np.float64(13.949), 'circfan': np.float64(13.224)}
+  next-date class by outdoor midnight continuity (all 190 truth links): top1 0.57 top3 0.86 top5 0.91
+  identification top-1 accuracy (target = truth a with CROSS-ID successor, pool = other-ID training records):
+    h | date-known(class has other member) | date-only top1 top3 | inside-only top1 | combined w=.5/1/2 top1 | pool median
+   18 | 0.88 | 0.70 0.90 | 0.12 | 0.70/0.62/0.53 | 200
+   19 | 0.88 | 0.70 0.90 | 0.15 | 0.75/0.68/0.65 | 200
+   20 | 0.88 | 0.70 0.90 | 0.38 | 0.78/0.75/0.70 | 200
+   21 | 0.88 | 0.70 0.90 | 0.47 | 0.85/0.82/0.78 | 200
+   22 | 0.88 | 0.70 0.90 | 0.40 | 0.82/0.75/0.62 | 200
+   23 | 1.00 | 0.68 0.88 | 0.50 | 0.88/0.80/0.78 | 200
+  abstention at h=23 (w=1): best-candidate combined score, targets with cross-ID succ vs same-ID succ
+    AUC(low score -> cross-ID succ exists) 0.849; median best score cross 6.40 vs same 11.07
+    accept score<=4.54: n 19, of which correct succ 17 (precision 0.89), cross-ID coverage 0.42
+    accept score<=6.65: n 38, of which correct succ 21 (precision 0.55), cross-ID coverage 0.53
+    accept score<=8.03: n 57, of which correct succ 27 (precision 0.47), cross-ID coverage 0.68
+(3b) realised gain with identified successor (beta LOO from truth slopes, rows h in {22,23} only):
+  temp h22 beta 0.25: cross targets n38, SSE change identified +1.353 vs known -1.153; whole-validator RMSE +0.021% (known -0.018%)
+  temp h23 beta 0.63: cross targets n38, SSE change identified +2.467 vs known -4.360; whole-validator RMSE +0.039% (known -0.069%)
+  EC   h22 beta 1.04: cross targets n36, SSE change identified -0.548 vs known -1.486; whole-validator RMSE -0.100% (known -0.271%)
+  EC   h23 beta 1.03: cross targets n36, SSE change identified -0.327 vs known -1.402; whole-validator RMSE -0.060% (known -0.255%)
+(4) evaluation records (60): does a rule-safe training successor on date+1 exist?
+  true next-date cost on training links: median 3.64, 90% 6.18
+  eval recs whose best next date (all dates) has a cross-ID training record: 48 / 60 (median n there 2.0)
+  eval recs with best cross-ID training candidate date cost <= training 90% true cost: 46 / 60
+  eval recs whose own date class has an other-ID training member (needed for h<23 date term): 38 / 60
+   F13: best-next-date-has-crossID-train 22/30 -> F13_185,F13_186,F13_187,F13_188,F13_189,F13_200,F13_201,F13_202,F13_206,F13_207,F13_208,F13_209,F13_224,F13_225,F13_226,F13_227,F13_228,F13_235,F13_236,F13_237,F13_238,F13_239
+   F47: best-next-date-has-crossID-train 26/30 -> F47_183,F47_184,F47_185,F47_186,F47_187,F47_198,F47_199,F47_200,F47_201,F47_203,F47_204,F47_205,F47_206,F47_207,F47_219,F47_220,F47_221,F47_222,F47_223,F47_224,F47_225,F47_233,F47_234,F47_235,F47_236,F47_237
+  linker v7 (training rec -> chosen prev is eval rec): 5 links, cross-ID 0, cross-ID with p>=.8 0 (distinct eval recs 0)
+totals (DIAG10 OOF SSE, rows): {'temp': (3147.63, 8880), 'EC': (275.11, 8640)}

@@ -1,0 +1,20 @@
+cross-ID truth links: 40; target a is last of a training run (next number missing/eval) 1; a in pass2 (>=179) 4
+  same-ID links whose b == a's next number: 27 / 150
+eval chunk-end records (next number not an eval record): 8 -> F13_189,F13_209,F13_229,F13_239,F47_187,F47_207,F47_227,F47_237
+linker v7 training recs whose chosen prev is eval: [{'rec': 'F13_211', 'prev': 'F13_209', 'p': 0.6304}, {'rec': 'F13_231', 'prev': 'F13_229', 'p': 0.9278}, {'rec': 'F13_232', 'prev': 'F13_229', 'p': 0.303}, {'rec': 'F47_209', 'prev': 'F47_207', 'p': 0.9951}, {'rec': 'F47_229', 'prev': 'F47_227', 'p': 0.6036}]
+temp realised (all training targets, date-known at that h):
+  h20: acc5%(n18) +0.014%  acc10%(n35) +0.014%  acc20%(n70) +0.028%  acc40%(n140) +0.042%  acc100%(n350) +0.113%
+  h21: acc5%(n18) +0.027%  acc10%(n35) +0.045%  acc20%(n70) +0.038%  acc40%(n140) +0.072%  acc100%(n350) +0.242%
+  h22: acc5%(n18) +0.062%  acc10%(n35) +0.136%  acc20%(n70) +0.108%  acc40%(n140) +0.160%  acc100%(n350) +0.862%
+  h23: acc5%(n19) +0.231%  acc10%(n37) +0.235%  acc20%(n74) +0.680%  acc40%(n148) +1.036%  acc100%(n370) +4.895%
+  h20-23 combined, accept best 5% per hour: rows 73, whole-validator RMSE +0.334%
+  h20-23 combined, accept best 10% per hour: rows 142, whole-validator RMSE +0.429%
+  h20-23 combined, accept best 20% per hour: rows 284, whole-validator RMSE +0.853%
+EC realised (all training targets, date-known at that h):
+  h20: acc5%(n17) +0.371%  acc10%(n34) +0.443%  acc20%(n68) +0.452%  acc40%(n135) +2.510%  acc100%(n337) +8.241%
+  h21: acc5%(n17) -0.059%  acc10%(n34) +0.105%  acc20%(n68) +0.463%  acc40%(n135) +3.132%  acc100%(n337) +7.718%
+  h22: acc5%(n17) -0.082%  acc10%(n34) +0.109%  acc20%(n68) +0.627%  acc40%(n135) +2.598%  acc100%(n337) +6.715%
+  h23: acc5%(n18) -0.061%  acc10%(n36) -0.019%  acc20%(n72) +0.300%  acc40%(n144) +1.411%  acc100%(n360) +7.022%
+  h20-23 combined, accept best 5% per hour: rows 69, whole-validator RMSE +0.169%
+  h20-23 combined, accept best 10% per hour: rows 138, whole-validator RMSE +0.637%
+  h20-23 combined, accept best 20% per hour: rows 276, whole-validator RMSE +1.829%

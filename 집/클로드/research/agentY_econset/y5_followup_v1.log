@@ -1,0 +1,13 @@
+do_in_temp_m06         CV R2 gain over ec_p1-only +0.0232 [-0.0024,+0.0418] slope +0.0072/unit | F13 rho +0.24(n159); F47 rho +0.22(n167); num<179 rho +0.24(n281); num>=179 rho +0.20(n45); ec_p1>=.6 rho +0.40(n76) | rho(res|pred) -0.015 n293
+do_out_temp_m06        CV R2 gain over ec_p1-only +0.0306 [+0.0205,+0.0437] slope +0.0038/unit | F13 rho +0.26(n161); F47 rho +0.19(n167); num<179 rho +0.22(n283); num>=179 rho +0.34(n45); ec_p1>=.6 rho +0.36(n76) | rho(res|pred) -0.054 n295
+p1_act_thermal_nchg    CV R2 gain over ec_p1-only +0.0078 [-0.0078,+0.0157] slope -0.0012/unit | F13 rho -0.24(n161); F47 rho -0.32(n167); num<179 rho -0.26(n283); num>=179 rho -0.43(n45); ec_p1>=.6 rho -0.20(n76) | rho(res|pred) -0.127 n295
+p1_act_shade_nchg      CV R2 gain over ec_p1-only +0.0046 [-0.0088,+0.0124] slope -0.0011/unit | F13 rho -0.28(n161); F47 rho -0.28(n167); num<179 rho -0.26(n283); num>=179 rho -0.38(n45); ec_p1>=.6 rho -0.13(n76) | rho(res|pred) -0.085 n295
+RAMP pred06             AUC 0.923 [0.921,0.925] (pos 15/295)
+RAMP pred06+prev top5   AUC 0.905 [0.897,0.919] (pos 15/295)
+truth day EC [0,0.6): n 266 mean res -0.019  linked-prev 0.83
+truth day EC [0.6,0.8): n  44 mean res -0.041  linked-prev 0.82
+truth day EC [0.8,1.0): n  19 mean res +0.035  linked-prev 0.95
+truth day EC [1.0,1.3): n   8 mean res +0.064  linked-prev 1.00
+truth day EC [1.3,1.6): n   8 mean res +0.267  linked-prev 0.38
+truth day EC [1.6,2.0): n  12 mean res +0.289  linked-prev 0.67
+truth day EC [2.0,9): n   3 mean res +0.897  linked-prev 0.33

@@ -1,0 +1,40 @@
+
+===== temp: fit pass1 n=1140, judge pass2 n=193 (targets 52)
+  rm: pass2 MSE of day-level residual -> {'none': np.float64(0.4097), 'gap': np.float64(0.3972), 'core': np.float64(0.3673), '+mid_Tin': np.float64(0.363), '+mid_rad': np.float64(0.3976), '+mid_heat': np.float64(0.3971), '+mid_Hin': np.float64(0.3954), '+mid_transp': np.float64(0.3979)}
+     core coefs (std units): {'gap': np.float64(0.1144), 'kk': np.float64(0.0057), 'mid_Tin': np.float64(0.1028), 'mid_rad': np.float64(0.005), 'mid_heat': np.float64(0.0169), 'mid_Hin': np.float64(-0.0375), 'mid_transp': np.float64(-0.0581)}
+     core-gap SSE diff -5.774  share worse in bootstrap P(diff>=0)=0.000  comps=6  per-target improved 0.64
+     same-ID paths only (n=121): gap MSE 0.3920  core MSE 0.3739  none 0.4090
+     k=2 n=50: none 0.4075 gap 0.3911 core 0.3709
+     k=3 n=51: none 0.4049 gap 0.3937 core 0.3834
+     k=4 n=48: none 0.4294 gap 0.4179 core 0.3798
+     k=5 n=44: none 0.3964 gap 0.3856 core 0.3307
+  r0: pass2 MSE of day-level residual -> {'none': np.float64(1.084), 'gap': np.float64(1.0144), 'core': np.float64(0.7954), '+mid_Tin': np.float64(0.7837), '+mid_rad': np.float64(1.0077), '+mid_heat': np.float64(0.9915), '+mid_Hin': np.float64(1.0172), '+mid_transp': np.float64(1.0049)}
+     core coefs (std units): {'gap': np.float64(0.3637), 'kk': np.float64(0.0104), 'mid_Tin': np.float64(0.3255), 'mid_rad': np.float64(0.1342), 'mid_heat': np.float64(-0.0407), 'mid_Hin': np.float64(-0.0311), 'mid_transp': np.float64(-0.1307)}
+     core-gap SSE diff -42.277  share worse in bootstrap P(diff>=0)=0.000  comps=6  per-target improved 0.63
+     same-ID paths only (n=121): gap MSE 0.9650  core MSE 0.8082  none 1.0341
+     k=2 n=50: none 1.0759 gap 0.9763 core 0.7613
+     k=3 n=51: none 1.0744 gap 1.0185 core 0.8321
+     k=4 n=48: none 1.1409 gap 1.0908 core 0.9111
+     k=5 n=44: none 1.0421 gap 0.9699 core 0.6654
+  reverse (fit p2 -> judge p1) rm: none 0.1694 gap 0.1825 core 0.2416
+  reverse (fit p2 -> judge p1) r0: none 0.5484 gap 0.6004 core 0.6295
+
+===== ec: fit pass1 n=1055, judge pass2 n=152 (targets 45)
+  rm: pass2 MSE of day-level residual -> {'none': np.float64(0.0463), 'gap': np.float64(0.0314), 'core': np.float64(0.0311), '+mid_Tin': np.float64(0.031), '+mid_rad': np.float64(0.0314), '+mid_heat': np.float64(0.0314), '+mid_Hin': np.float64(0.0314), '+mid_transp': np.float64(0.0314)}
+     core coefs (std units): {'gap': np.float64(0.0587), 'kk': np.float64(-0.0018), 'mid_Tin': np.float64(0.013), 'mid_rad': np.float64(0.0089), 'mid_heat': np.float64(-0.0059), 'mid_Hin': np.float64(-0.0011), 'mid_transp': np.float64(-0.009)}
+     core-gap SSE diff -0.043  share worse in bootstrap P(diff>=0)=0.333  comps=6  per-target improved 0.46
+     same-ID paths only (n=75): gap MSE 0.0189  core MSE 0.0183  none 0.0313
+     k=2 n=41: none 0.0482 gap 0.0317 core 0.0321
+     k=3 n=38: none 0.0411 gap 0.0251 core 0.0243
+     k=4 n=35: none 0.0461 gap 0.0334 core 0.0338
+     k=5 n=38: none 0.0496 gap 0.0353 core 0.0342
+  r0: pass2 MSE of day-level residual -> {'none': np.float64(0.0484), 'gap': np.float64(0.0259), 'core': np.float64(0.0257), '+mid_Tin': np.float64(0.0257), '+mid_rad': np.float64(0.0259), '+mid_heat': np.float64(0.026), '+mid_Hin': np.float64(0.026), '+mid_transp': np.float64(0.0259)}
+     core coefs (std units): {'gap': np.float64(0.0791), 'kk': np.float64(-0.0025), 'mid_Tin': np.float64(0.0108), 'mid_rad': np.float64(0.0082), 'mid_heat': np.float64(-0.0055), 'mid_Hin': np.float64(-0.0039), 'mid_transp': np.float64(-0.0117)}
+     core-gap SSE diff -0.043  share worse in bootstrap P(diff>=0)=0.222  comps=6  per-target improved 0.50
+     same-ID paths only (n=75): gap MSE 0.0178  core MSE 0.0173  none 0.0357
+     k=2 n=41: none 0.0500 gap 0.0255 core 0.0256
+     k=3 n=38: none 0.0442 gap 0.0196 core 0.0190
+     k=4 n=35: none 0.0471 gap 0.0285 core 0.0286
+     k=5 n=38: none 0.0522 gap 0.0304 core 0.0297
+  reverse (fit p2 -> judge p1) rm: none 0.0227 gap 0.0316 core 0.0315
+  reverse (fit p2 -> judge p1) r0: none 0.0267 gap 0.0316 core 0.0318
