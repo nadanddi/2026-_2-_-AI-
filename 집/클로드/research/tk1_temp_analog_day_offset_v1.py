@@ -19,7 +19,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.argv = ["x"]
 s = importlib.util.spec_from_file_location("ta2", os.path.join(HERE, "ta2_anchor_debiased_v1.py")); A2 = importlib.util.module_from_spec(s); s.loader.exec_module(A2)
 rm = lambda e: float(np.sqrt(np.mean(np.square(e))))
 SETS = {"env": ["in_temp", "out_temp", "in_hum", "out_hum", "out_rad", "in_co2"],
-        "act": ["act_heating", "act_thermal", "act_valve", "act_pump", "act_vent", "act_side", "act_shade", "act_circfan"]}
+        "act": ["act_heating", "act_thermal", "act_vent", "act_shade", "act_circfan", "act_co2", "act_fog"]}
 SETS["all"] = SETS["env"] + SETS["act"]
 GRID = list(itertools.product((5, 10, 20, 40), (.25, .5, 1.0), ("env", "act", "all")))
 
@@ -32,9 +32,9 @@ def run_layout(M, cells, X):
     for sname, cols in SETS.items():
         V = np.full((n, 24, len(cols)), np.nan)
         for c_i, c in enumerate(cols):
-            P = J.pivot_table(index="rec", columns="hour", values=c).reindex(recs.rec)
+            P = J.pivot_table(index="rec", columns="hour", values=c, dropna=False).reindex(index=recs.rec, columns=range(24))
             V[:, :, c_i] = P.values
-        V = np.nan_to_num(V, nan=np.nanmean(V))
+        V = np.where(np.isnan(V), np.nanmean(V, axis=(0, 1))[None, None, :] if np.isfinite(np.nanmean(V, axis=(0, 1))).all() else 0.0, V); V = np.nan_to_num(V)
         C = np.cumsum(V, 1) / np.arange(1, 25)[None, :, None]
         mu = C.reshape(-1, len(cols)).mean(0); sd = C.reshape(-1, len(cols)).std(0) + 1e-9; C = (C - mu) / sd
         J.attrs[sname] = C
