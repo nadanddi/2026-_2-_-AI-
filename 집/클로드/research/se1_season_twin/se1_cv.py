@@ -34,6 +34,7 @@ Run:  cd 집/클로드/research && PYTHONPATH="" PYTHONIOENCODING=utf-8 py -3.12
 import sys
 sys.path.insert(0, r"C:\work\farmai\집\클로드\research")
 import env  # noqa: F401
+import env_extra  # noqa: F401  (torch/tabpfn needed by model.py import)
 import importlib.util, os, time
 import numpy as np, pandas as pd
 from pathlib import Path
