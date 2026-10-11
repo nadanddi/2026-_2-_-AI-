@@ -1,0 +1,6 @@
+all n 400 events 31 | vent<=3h: share of events 0.87, share of all 0.40, P(rise|cond) 0.17 vs P(rise|not) 0.02
+0h>=.9 n 88 events 23 | vent<=3h: share of events 0.96, share of all 0.89, P(rise|cond) 0.28 vs P(rise|not) 0.10
+0h<.9 n 312 events 8 | vent<=3h: share of events 0.62, share of all 0.26, P(rise|cond) 0.06 vs P(rise|not) 0.01
+late cal>=115 (p1) n 120 events 21 | vent<=3h: share of events 0.95, share of all 0.66, P(rise|cond) 0.25 vs P(rise|not) 0.02
+p2 n 56 events 6 | vent<=3h: share of events 0.83, share of all 0.38, P(rise|cond) 0.24 vs P(rise|not) 0.03
+Spearman vent hours vs lvl0 -0.70, vs cal -0.51

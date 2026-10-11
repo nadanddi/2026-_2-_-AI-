@@ -1,0 +1,34 @@
+
+===== event up >= 0.10 | all records =====
+selection (pass-1 odd dates): events 12 of 156 | candidates 8
+  lvl0           >=      1.22 | A cov 0.92 base 0.10 | B even-dates cov 0.46 base 0.09 p 0.000 (ev 13) | pass-2 cov 0.50 base 0.09 p 0.007 (ev 6) | fail
+  otmin_d-2      <=      2.40 | A cov 1.00 base 0.41 | B even-dates cov 0.83 base 0.40 p 0.002 (ev 12) | pass-2 n/a | PASS
+  cal            >=    115.50 | A cov 0.92 base 0.40 | B even-dates cov 0.77 base 0.30 p 0.000 (ev 13) | pass-2 n/a | fail
+  rad_0_12       <=   1663.00 | A cov 1.00 base 0.50 | B even-dates cov 0.69 base 0.61 p 0.365 (ev 13) | pass-2 cov 0.83 base 0.71 p 0.442 (ev 6) | fail
+  otmax_d-2      <=     12.90 | A cov 1.00 base 0.50 | B even-dates cov 0.75 base 0.43 p 0.022 (ev 12) | pass-2 n/a | fail
+  ot_d-2         <=      8.02 | A cov 1.00 base 0.50 | B even-dates cov 0.75 base 0.41 p 0.016 (ev 12) | pass-2 n/a | fail
+  hrs_vent       <=      3.00 | A cov 0.92 base 0.42 | B even-dates cov 0.85 base 0.38 p 0.000 (ev 13) | pass-2 cov 0.83 base 0.38 p 0.024 (ev 6) | PASS
+  fan            <=      7.69 | A cov 0.92 base 0.47 | B even-dates cov 0.62 base 0.39 p 0.076 (ev 13) | pass-2 cov 1.00 base 0.45 p 0.005 (ev 6) | fail
+
+===== event up >= 0.10 | 0h EC25>=.9 only =====
+selection (pass-1 odd dates): events 12 of 38 | candidates 1
+  lvl0           >=      1.16 | A cov 0.92 base 0.50 | B even-dates cov 0.86 base 0.42 p 0.015 (ev 7) | pass-2 cov 0.75 base 0.42 p 0.152 (ev 4) | fail
+
+===== event up >= 0.15 | all records =====
+selection (pass-1 odd dates): events 11 of 156 | candidates 8
+  lvl0           >=      1.22 | A cov 0.91 base 0.10 | B even-dates cov 0.71 base 0.09 p 0.000 (ev 7) | pass-2 cov 0.75 base 0.09 p 0.001 (ev 4) | fail
+  otmin_d-2      <=      2.40 | A cov 1.00 base 0.41 | B even-dates cov 1.00 base 0.40 p 0.001 (ev 7) | pass-2 n/a | PASS
+  cal            >=    115.50 | A cov 0.91 base 0.40 | B even-dates cov 1.00 base 0.30 p 0.000 (ev 7) | pass-2 n/a | PASS
+  rad_0_12       <=   1663.00 | A cov 1.00 base 0.50 | B even-dates cov 0.71 base 0.61 p 0.432 (ev 7) | pass-2 cov 1.00 base 0.71 p 0.249 (ev 4) | fail
+  otmax_d-2      <=     12.90 | A cov 1.00 base 0.50 | B even-dates cov 0.86 base 0.43 p 0.026 (ev 7) | pass-2 n/a | PASS
+  ot_d-2         <=      8.02 | A cov 1.00 base 0.50 | B even-dates cov 0.86 base 0.41 p 0.020 (ev 7) | pass-2 n/a | PASS
+  hrs_vent       <=      3.00 | A cov 0.91 base 0.42 | B even-dates cov 1.00 base 0.38 p 0.001 (ev 7) | pass-2 cov 1.00 base 0.38 p 0.016 (ev 4) | PASS
+  fan            <=      7.69 | A cov 0.91 base 0.47 | B even-dates cov 0.71 base 0.39 p 0.081 (ev 7) | pass-2 cov 1.00 base 0.45 p 0.034 (ev 4) | fail
+
+===== event up >= 0.15 | 0h EC25>=.9 only =====
+selection (pass-1 odd dates): events 11 of 38 | candidates 2
+  vpd            <=      0.53 | A cov 0.91 base 0.50 | B even-dates cov 0.50 base 0.47 p 0.616 (ev 6) | pass-2 cov 0.50 base 0.58 p 0.848 (ev 4) | fail
+  lvl0           >=      1.16 | A cov 0.91 base 0.50 | B even-dates cov 0.83 base 0.42 p 0.038 (ev 6) | pass-2 cov 0.75 base 0.42 p 0.152 (ev 4) | fail
+
+[refractory] same-house next-day pairs 150: P(rise next | rise today) 0.62 (n 8) vs P(rise next | no rise) 0.04 (n 142)
+  within high state (prev 0h>=.9): P(rise | rise prev) 0.71 (n 7) vs P(rise | no rise prev) 0.21 (n 19)

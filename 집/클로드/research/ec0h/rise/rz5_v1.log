@@ -1,0 +1,17 @@
+C:\work\farmai\집\클로드\research\ec0h\rise\rz5_rise_necessary_conditions_v1.py:42: RuntimeWarning: Mean of empty slice
+  F[f"{v}_3d"] = [np.nanmean([daily[v].get((A.at[i, "farm"], int(round(A.at[i, "cal"])) - k), np.nan) for k in (1, 2, 3)]) if (not A.at[i, "p2"] and np.isfinite(A.at[i, "cal"])) else np.nan for i in TRi]
+
+===== event up >= 0.10 | all records =====
+selection (pass-1 odd dates): events 4 of 62 | candidates 0
+
+===== event up >= 0.10 | 0h EC25>=.9 only =====
+selection (pass-1 odd dates): events 4 of 13 | candidates 0
+
+===== event up >= 0.15 | all records =====
+selection (pass-1 odd dates): events 3 of 62 | candidates 0
+
+===== event up >= 0.15 | 0h EC25>=.9 only =====
+selection (pass-1 odd dates): events 3 of 13 | candidates 0
+
+[refractory] same-house next-day pairs 150: P(rise next | rise today) 0.62 (n 8) vs P(rise next | no rise) 0.04 (n 142)
+  within high state (prev 0h>=.9): P(rise | rise prev) 0.71 (n 7) vs P(rise | no rise prev) 0.21 (n 19)
