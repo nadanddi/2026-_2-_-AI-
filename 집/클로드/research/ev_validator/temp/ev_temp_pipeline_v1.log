@@ -1,0 +1,93 @@
+fold 0: train rows 7920, val rows 1440 (records 60, first 6) | 145s
+fold 1: train rows 8112, val rows 1248 (records 52, first 6) | 150s
+fold 2: train rows 8064, val rows 1296 (records 54, first 6) | 205s
+fold 3: train rows 8352, val rows 1008 (records 42, first 6) | 245s
+fold 4: train rows 8064, val rows 1296 (records 54, first 6) | 248s
+fold 5: train rows 8352, val rows 1008 (records 42, first 6) | 196s
+fold 6: train rows 8304, val rows 1104 (records 46, first 6) | 230s
+fold 7: train rows 8208, val rows 1200 (records 50, first 6) | 237s
+val rows 9600, records 400 | EV BASE vs stored DIAG10 BASE: corr s7 0.9982 s101 0.9983, RMS diff 0.2593 / 0.2528
+fold 0: anchored val records 3 | beta_r h0..3 0.73 0.58 0.50 0.43
+fold 1: anchored val records 11 | beta_r h0..3 0.78 0.59 0.48 0.40
+fold 2: anchored val records 9 | beta_r h0..3 0.85 0.66 0.56 0.49
+fold 3: anchored val records 5 | beta_r h0..3 0.74 0.62 0.55 0.48
+fold 4: anchored val records 4 | beta_r h0..3 0.73 0.64 0.59 0.54
+fold 5: anchored val records 6 | beta_r h0..3 0.77 0.65 0.62 0.56
+fold 6: anchored val records 4 | beta_r h0..3 0.77 0.65 0.59 0.50
+fold 7: anchored val records 6 | beta_r h0..3 0.74 0.61 0.54 0.48
+anchors fired 48, dropped because prev in val/del of the fold 6
+
+================ EV RMSE (cell-mean predictions; rough days excluded unless *_withrough) ================
+scope          all      pass2  all_withrough  pass2_withrough    F13_all    F47_all  F13_pass2  F47_pass2  first_all  anchored_pass2
+n_rows   8880.0000  1248.0000      9600.0000        1344.0000  4728.0000  4152.0000   696.0000   552.0000  1032.0000        432.0000
+n_rec     370.0000    52.0000       400.0000          56.0000   197.0000   173.0000    29.0000    23.0000    43.0000         18.0000
+base_a      0.6793     0.7628         0.7294           0.8068     0.5722     0.7836     0.5214     0.9862     0.5764          0.6188
+blend_a     0.6067     0.7272         0.6628           0.7816     0.5282     0.6852     0.4578     0.9651     0.5657          0.5080
+v18_a       0.6004     0.7210         0.6569           0.7759     0.5250     0.6760     0.4493     0.9596     0.5564          0.4861
+r12_a       0.5936     0.7037         0.6504           0.7610     0.5183     0.6691     0.4047     0.9555     0.5237          0.4062
+v22_a       0.5911     0.6986         0.6477           0.7567     0.5158     0.6667     0.3865     0.9567     0.5055          0.3803
+v22r_a      0.5919     0.6990         0.6484           0.7570     0.5163     0.6677     0.3883     0.9563     0.5106          0.3822
+blend_b     0.6063     0.7294         0.6626           0.7833     0.5273     0.6852     0.4661     0.9638     0.5616          0.5163
+v18_b       0.5999     0.7229         0.6567           0.7771     0.5241     0.6759     0.4568     0.9582     0.5522          0.4934
+r12_b       0.5923     0.7043         0.6494           0.7611     0.5164     0.6684     0.4102     0.9536     0.5112          0.4086
+v22_b       0.5899     0.6988         0.6465           0.7563     0.5138     0.6661     0.3904     0.9549     0.4927          0.3802
+v18_ad      0.6010     0.7219         0.6575           0.7779     0.5254     0.6768     0.4495     0.9610     0.5629          0.4863
+r12_ad      0.5940     0.7043         0.6509           0.7628     0.5187     0.6695     0.4047     0.9566     0.5265          0.4050
+v22_ad      0.5914     0.6989         0.6481           0.7581     0.5163     0.6667     0.3863     0.9571     0.5075          0.3766
+v18_bd      0.6000     0.7231         0.6569           0.7783     0.5239     0.6764     0.4565     0.9588     0.5544          0.4942
+r12_bd      0.5925     0.7042         0.6497           0.7620     0.5165     0.6685     0.4095     0.9538     0.5118          0.4077
+v22_bd      0.5899     0.6981         0.6467           0.7568     0.5139     0.6659     0.3893     0.9543     0.4919          0.3764
+
+per cell:
+scope cell  blend_a  v18_a  r12_a  v22_a  v22r_a  blend_b  v18_b  r12_b  v22_b  v18_ad  r12_ad  v22_ad  v18_bd  r12_bd  v22_bd
+  all   7A   0.6073 0.6009 0.5944 0.5921  0.5928   0.6069 0.6006 0.5933 0.5909  0.6015  0.5947  0.5922  0.6007  0.5933  0.5908
+  all   7B   0.6077 0.6013 0.5945 0.5919  0.5927   0.6073 0.6009 0.5933 0.5907  0.6020  0.5949  0.5922  0.6011  0.5934  0.5907
+  all 101A   0.6066 0.6004 0.5937 0.5913  0.5921   0.6061 0.5999 0.5923 0.5899  0.6009  0.5940  0.5915  0.5999  0.5925  0.5899
+  all 101B   0.6071 0.6008 0.5938 0.5912  0.5920   0.6065 0.6002 0.5925 0.5899  0.6015  0.5943  0.5916  0.6005  0.5927  0.5900
+pass2   7A   0.7292 0.7233 0.7068 0.7018  0.7022   0.7313 0.7252 0.7074 0.7020  0.7240  0.7072  0.7018  0.7252  0.7071  0.7011
+pass2   7B   0.7270 0.7200 0.7022 0.6970  0.6973   0.7291 0.7218 0.7029 0.6972  0.7213  0.7031  0.6976  0.7224  0.7030  0.6969
+pass2 101A   0.7282 0.7228 0.7058 0.7008  0.7013   0.7304 0.7246 0.7062 0.7008  0.7235  0.7063  0.7009  0.7247  0.7060  0.7000
+pass2 101B   0.7259 0.7195 0.7015 0.6965  0.6968   0.7282 0.7214 0.7021 0.6966  0.7204  0.7022  0.6967  0.7217  0.7021  0.6960
+
+================ DIAG10 stored (same configs, rough excluded) ================
+    scope  n_rows    blend                 blend_cells      v18                   v18_cells      r12                   r12_cells      v22                   v22_cells
+      all    8880 0.599544 0.5995 0.6000 0.5999 0.6004 0.595367 0.5954 0.5958 0.5960 0.5961 0.586950 0.5872 0.5873 0.5877 0.5874 0.583831 0.5841 0.5842 0.5846 0.5843
+    pass2    1248 0.738903 0.7420 0.7401 0.7383 0.7366 0.735078 0.7385 0.7358 0.7350 0.7325 0.713743 0.7175 0.7139 0.7146 0.7105 0.705446 0.7091 0.7058 0.7062 0.7022
+  F13_all    4728 0.525145 0.5247 0.5269 0.5243 0.5266 0.523396 0.5227 0.5254 0.5227 0.5248 0.513300 0.5127 0.5154 0.5126 0.5146 0.510359 0.5097 0.5125 0.5096 0.5117
+  F47_all    4152 0.674343 0.6747 0.6736 0.6758 0.6747 0.667946 0.6687 0.6671 0.6698 0.6680 0.660897 0.6619 0.6598 0.6629 0.6606 0.657574 0.6587 0.6564 0.6597 0.6572
+F13_pass2     696 0.451781 0.4511 0.4570 0.4473 0.4535 0.452061 0.4517 0.4571 0.4471 0.4545 0.397683 0.3973 0.4030 0.3933 0.3994 0.379825 0.3791 0.3849 0.3757 0.3818
+F47_pass2     552 0.988450 0.9940 0.9874 0.9900 0.9835 0.981819 0.9878 0.9801 0.9847 0.9761 0.975880 0.9822 0.9735 0.9796 0.9696 0.971199 0.9775 0.9693 0.9744 0.9649
+
+================ bootstrap / verdicts ================
+  V1 v22 vs round-12         pass2  records  52  RMSE 0.7037 -> 0.6986 (-0.72%)  cells better 4/4  P(new worse) 0.2717
+  V1 v22 vs round-12         all    records 370  RMSE 0.5936 -> 0.5911 (-0.41%)  cells better 4/4  P(new worse) 0.0275
+  -> V1 v22 vs round-12 FAIL (alpha 0.0250)
+  V2 (b) vs current @v22     pass2  records  52  RMSE 0.6986 -> 0.6988 (+0.02%)  cells better 1/4  P(new worse) 0.5365
+  V2 (b) vs current @v22     all    records 370  RMSE 0.5911 -> 0.5899 (-0.21%)  cells better 4/4  P(new worse) 0.2645
+  -> V2 (b) vs current @v22 FAIL (alpha 0.0125)
+  V3 (d) vs current @v22     pass2  records  52  RMSE 0.6986 -> 0.6989 (+0.03%)  cells better 1/4  P(new worse) 0.5178
+  V3 (d) vs current @v22     all    records 370  RMSE 0.5911 -> 0.5914 (+0.04%)  cells better 0/4  P(new worse) 0.6700
+  -> V3 (d) vs current @v22 FAIL (alpha 0.0125)
+context (no verdict):
+  ctx (b)+(d) @v22           pass2  records  52  RMSE 0.6986 -> 0.6981 (-0.08%)  cells better 4/4  P(new worse) 0.3755
+  ctx (b)+(d) @v22           all    records 370  RMSE 0.5911 -> 0.5899 (-0.22%)  cells better 4/4  P(new worse) 0.2630
+  -> ctx (b)+(d) @v22 PASS (alpha 1.0000)
+  ctx (b) @blend             pass2  records  52  RMSE 0.7272 -> 0.7294 (+0.30%)  cells better 0/4  P(new worse) 0.7718
+  ctx (b) @blend             all    records 370  RMSE 0.6067 -> 0.6063 (-0.07%)  cells better 4/4  P(new worse) 0.4410
+  -> ctx (b) @blend FAIL (alpha 1.0000)
+  ctx (d) @v18               pass2  records  52  RMSE 0.7210 -> 0.7219 (+0.13%)  cells better 0/4  P(new worse) 0.6528
+  ctx (d) @v18               all    records 370  RMSE 0.6004 -> 0.6010 (+0.10%)  cells better 0/4  P(new worse) 0.8193
+  -> ctx (d) @v18 FAIL (alpha 1.0000)
+  ctx v18 vs blend           pass2  records  52  RMSE 0.7272 -> 0.7210 (-0.86%)  cells better 4/4  P(new worse) 0.1422
+  ctx v18 vs blend           all    records 370  RMSE 0.6067 -> 0.6004 (-1.05%)  cells better 4/4  P(new worse) 0.0013
+  -> ctx v18 vs blend PASS (alpha 1.0000)
+  ctx round-12 vs v18        pass2  records  52  RMSE 0.7210 -> 0.7037 (-2.40%)  cells better 4/4  P(new worse) 0.0005
+  ctx round-12 vs v18        all    records 370  RMSE 0.6004 -> 0.5936 (-1.12%)  cells better 4/4  P(new worse) 0.0000
+  -> ctx round-12 vs v18 PASS (alpha 1.0000)
+  ctx v22 vs v18             pass2  records  52  RMSE 0.7210 -> 0.6986 (-3.10%)  cells better 4/4  P(new worse) 0.0022
+  ctx v22 vs v18             all    records 370  RMSE 0.6004 -> 0.5911 (-1.53%)  cells better 4/4  P(new worse) 0.0000
+  -> ctx v22 vs v18 PASS (alpha 1.0000)
+  ctx v22 refit-beta vs v22  pass2  records  52  RMSE 0.6986 -> 0.6990 (+0.05%)  cells better 0/4  P(new worse) 0.7792
+  ctx v22 refit-beta vs v22  all    records 370  RMSE 0.5911 -> 0.5919 (+0.13%)  cells better 0/4  P(new worse) 0.9935
+  -> ctx v22 refit-beta vs v22 FAIL (alpha 1.0000)
+  ctx (b) on first records only: records 43 RMSE 0.5055 -> 0.4927 P 0.2575
