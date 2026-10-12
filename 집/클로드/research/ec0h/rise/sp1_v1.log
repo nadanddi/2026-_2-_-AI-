@@ -1,0 +1,18 @@
+  ng = float(np.nanmean(IN_[i, :6, 0] - X[i, :6, 0]))
+FLAGGED (F47_178-type):
+    rec split  c_prev  prev_adjacent  sib_early  sib_late  break_h  break_z  night_in_minus_out  label_early_sib_diff  flag
+F47_178 train    0.34          False       2.86      0.72        8     3.44              -10.33                  0.11  True
+
+near-flag (any 3 of 4 conditions) or early-far-from-siblings & continuous with non-adjacent prev:
+  near = D[(cond.sum(1) >= 3) & ~D.flag & (D.sib_early >= 2)]
+Empty DataFrame
+Columns: [rec, split, c_prev, prev_adjacent, sib_early, sib_late, break_h, break_z, night_in_minus_out, label_early_sib_diff, flag]
+Index: []
+
+eval records: early-hours far from siblings (sib_early >= 2):
+     rec split  c_prev  prev_adjacent  sib_early  sib_late  break_h  break_z  night_in_minus_out  label_early_sib_diff  flag
+F47_223*  eval    5.16           True        6.7      3.94        2    14.18               10.22                   NaN False
+
+night indoor colder than outdoor by > 3C (0..5h mean):     rec  night_in_minus_out  c_prev  prev_adjacent  sib_early
+F47_021               -3.13    0.41           True       1.71
+F47_178              -10.33    0.34          False       2.86
