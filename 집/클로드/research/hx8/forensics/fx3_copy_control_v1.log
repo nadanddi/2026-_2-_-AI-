@@ -1,0 +1,27 @@
+train 12932 eval 60
+
+C0 positive control (planted 6h exact copy into F13_221 copy):
+ trial  L     src  shift  hits  planted_found
+     0  3 F26_206     -3     4           True
+     0  4 F26_206     -3     3           True
+     0  6 F26_206     -3     1           True
+     1  3 F49_155     -5     4           True
+     1  4 F49_155     -5     3           True
+     1  6 F49_155     -5     1           True
+
+H1a: 8 eval records, best min-corr over all 12,932 train records (all farms), shifts -6..6:
+    rec  kind  has_twin   top1      p1  sh1   top2      p2  p1_is_twin  n99  n999
+F13_221 EVAL8      True 0.8922 F37_289   -1 0.8742 F47_215       False    0     0
+F13_223 EVAL8     False 0.9215 F24_180   -1 0.9141 F28_153       False    0     0
+F13_225 EVAL8     False 0.9358 F09_119    0 0.9303 F36_163       False    0     0
+F13_237 EVAL8      True 0.8526 F13_064    1 0.8372 F23_144       False    0     0
+F47_221 EVAL8     False 0.9458 F08_129    0 0.9315 F20_097       False    0     0
+F47_223 EVAL8     False 0.9422 F50_177    0 0.9325 F50_131       False    0     0
+F47_225 EVAL8      True 0.9784 F13_232    0 0.9525 F13_231        True    0     0
+F47_227 EVAL8      True 0.9490 F13_233    0 0.9408 F01_153        True    0     0
+baseline TRAIN F13/F47 has_twin=True: n=369, top1 q50 0.9291 q90 0.9752 q99 0.9854 max 0.9868; n>=.99 0
+baseline TRAIN F13/F47 has_twin=False: n=31, top1 q50 0.9030 q90 0.9688 q99 0.9858 max 0.9863; n>=.99 0
+baseline partner farm of top1 (train, has_twin=True): same-date twin share 0.098
+other-farm top1 share among TRAIN baseline: 0.528
+
+H1b same-date train pairs (F13/F47) shift-0 min-corr: n=424 q50 0.5267 q90 0.9453 max 0.9868; share >= .978: 0.028, >= .949: 0.092

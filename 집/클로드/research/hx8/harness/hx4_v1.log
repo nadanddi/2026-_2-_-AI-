@@ -1,0 +1,28 @@
+================ (a) permutation baseline on HX3 cert-Sq one-sided cases (anchor swapped with other-component case in same cell) ================
+  [next d=1] n 18 rec 18 comp 9 | RMSE q 0.265 | E1 actual 0.131 vs perm median 0.549 (p 0.000) | E4f(w 0.82) actual 0.121 vs perm median 0.481 (p 0.000)
+  [next d=2] n 9 rec 9 comp 5 | RMSE q 0.232 | E1 actual 0.310 vs perm median 0.545 (p 0.003) | E4f(w 0.31) actual 0.208 vs perm median 0.304 (p 0.001)
+  [next d=3-4] n 8 rec 5 comp 2 | RMSE q 0.285 | E1 actual 0.640 vs perm median 0.527 (p 0.999) | E4f(w 0.00) actual 0.285 vs perm median 0.285 (p 1.000)
+  [next d=5+] n 1 comps 1 - skip
+  [prev d=1] n 17 rec 17 comp 9 | RMSE q 0.289 | E1 actual 0.122 vs perm median 0.598 (p 0.000) | E4f(w 0.89) actual 0.118 vs perm median 0.549 (p 0.000)
+  [prev d=2] n 9 rec 9 comp 5 | RMSE q 0.173 | E1 actual 0.326 vs perm median 0.560 (p 0.005) | E4f(w 0.00) actual 0.173 vs perm median 0.173 (p 1.000)
+  [prev d=3-4] n 6 rec 4 comp 3 | RMSE q 0.248 | E1 actual 0.601 vs perm median 0.357 (p 1.000) | E4f(w 0.00) actual 0.248 vs perm median 0.248 (p 1.000)
+C:\work\farmai\집\클로드\research\hx8\harness\hx4_perm_numcal_v1.py:54: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  QS = O.groupby(["rec", "seed"]).sg.mean().unstack(); SEEDS = list(QS.columns); QS["mean"] = QS[SEEDS].mean(1)
+
+================ (b) number+calendar validator | Sq (q>=1): targets 30 | cases 71 | segs 4 ================
+  agreement with cert chain where cert chain exists (count, share): {('next', '1'): (8, 0.88), ('next', '2'): (4, 0.75), ('next', '3-4'): (3, 0.33), ('prev', '1'): (11, 0.64), ('prev', '2'): (4, 0.5), ('prev', '3-4'): (0, nan)}
+  [next d=1] n 11 rec 11 seg 2 | E0 0.477 (bias -0.041) | E1 0.128(-73%, s3/3, P 0.23, bias +0.050) | E4 0.250(-48%, s3/3, P 0.00, bias +0.004) | E4h 0.113(-76%, s3/3, P 0.00, bias +0.034)
+  [next d=2] n 8 rec 8 seg 2 | E0 0.553 (bias -0.070) | E1 0.473(-14%, s3/3, P 0.25, bias -0.042) | E4 0.558(+1%, s0/3, P 1.00, bias -0.050) | E4h 0.491(-11%, s3/3, P 0.27, bias -0.061)
+  [next d=3-4] n 9 rec 6 seg 1 | E0 0.542 (bias +0.021) | E1 0.449(-17%, s3/3, P nan, bias -0.050) | E4 0.542(+0%, s0/3, P nan, bias +0.021) | E4h 0.542(+0%, s0/3, P nan, bias +0.021)
+  [prev d=1] n 18 rec 18 seg 4 | E0 0.349 (bias -0.012) | E1 0.599(+72%, s0/3, P 0.94, bias -0.328) | E4 0.386(+10%, s0/3, P 0.69, bias -0.041) | E4h 0.551(+58%, s0/3, P 0.95, bias -0.293)
+  [prev d=2] n 14 rec 14 seg 3 | E0 0.355 (bias -0.088) | E1 0.701(+97%, s0/3, P 0.84, bias -0.332) | E4 0.435(+23%, s0/3, P 0.96, bias -0.163) | E4h 0.355(+0%, s0/3, P 1.00, bias -0.088)
+  [prev d=3-4] n 11 rec 7 seg 2 | E0 0.318 (bias -0.146) | E1 1.061(+233%, s0/3, P 1.00, bias -0.739) | E4 0.329(+3%, s0/3, P 1.00, bias -0.161) | E4h 0.318(+0%, s0/3, P 1.00, bias -0.146)
+
+================ (b) number+calendar validator | all OOF records: targets 360 | cases 954 | segs 6 ================
+  agreement with cert chain where cert chain exists (count, share): {('next', '1'): (108, 0.76), ('next', '2'): (38, 0.74), ('next', '3-4'): (19, 0.53), ('prev', '1'): (109, 0.77), ('prev', '2'): (38, 0.71), ('prev', '3-4'): (9, 0.78)}
+  [next d=1] n 203 rec 203 seg 6 | E0 0.137 (bias +0.004) | E1 0.216(+58%, s0/3, P 0.99, bias +0.020) | E4 0.136(-1%, s3/3, P 0.48, bias +0.007) | E4h 0.180(+32%, s0/3, P 0.88, bias +0.017)
+  [next d=2] n 131 rec 131 seg 6 | E0 0.162 (bias -0.001) | E1 0.285(+75%, s0/3, P 1.00, bias +0.076) | E4 0.154(-5%, s3/3, P 0.02, bias +0.013) | E4h 0.157(-3%, s3/3, P 0.25, bias +0.023)
+  [next d=3-4] n 144 rec 89 seg 5 | E0 0.158 (bias +0.010) | E1 0.417(+164%, s0/3, P 1.00, bias +0.148) | E4 0.160(+1%, s0/3, P 1.00, bias +0.017) | E4h 0.158(+0%, s0/3, P 1.00, bias +0.010)
+  [prev d=1] n 206 rec 206 seg 6 | E0 0.137 (bias -0.004) | E1 0.261(+90%, s0/3, P 1.00, bias -0.047) | E4 0.146(+6%, s0/3, P 0.65, bias -0.006) | E4h 0.239(+75%, s0/3, P 1.00, bias -0.042)
+  [prev d=2] n 131 rec 131 seg 6 | E0 0.150 (bias -0.024) | E1 0.286(+91%, s0/3, P 1.00, bias -0.089) | E4 0.151(+0%, s0/3, P 0.91, bias -0.025) | E4h 0.150(+0%, s0/3, P 1.00, bias -0.024)
+  [prev d=3-4] n 139 rec 85 seg 4 | E0 0.127 (bias -0.027) | E1 0.364(+186%, s0/3, P 1.00, bias -0.129) | E4 0.127(+0%, s0/3, P 1.00, bias -0.027) | E4h 0.127(+0%, s0/3, P 1.00, bias -0.027)

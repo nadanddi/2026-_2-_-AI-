@@ -1,0 +1,100 @@
+cases per (validator, tau_m, scen, idm), seed 47:
+                           n  fire      a_ok      d_ok
+validator tau_m scen idm                              
+DIAG10    0.9   S2   F     3     0  1.000000  1.000000
+                     T     3     0  1.000000  1.000000
+                S3   F    15     3  0.866667  0.933333
+                     T    15     3  1.000000  1.000000
+          1.0   S2   F     3     0  1.000000  1.000000
+                     T     3     0  1.000000  1.000000
+                S3   F    11     2  0.909091  1.000000
+                     T    11     2  1.000000  1.000000
+EL1       0.9   S3   F     2     2  1.000000  1.000000
+                     T     2     2  1.000000  1.000000
+          1.0   S3   F     2     2  1.000000  1.000000
+                     T     2     2  1.000000  1.000000
+P2LOO     0.9   S3   F     2     1  0.500000  1.000000
+                     T     2     2  1.000000  1.000000
+          1.0   S3   F     2     1  0.500000  1.000000
+                     T     2     2  1.000000  1.000000
+
+DIAG10 seed 47 tau_m 1.0 case list (T identification):
+scen     rec  kp  kn       a       d   a23    d0  fire     y    sg    ip
+  S3 F13_116   2   1 F13_114 F13_118 0.809 0.930 False 0.937 1.024 0.899
+  S3 F13_118   2   1 F13_214 F13_120 0.907 1.227 False 1.102 1.094 1.145
+  S3 F13_132   2   1 F13_128 F13_133 0.802 0.941 False 0.870 1.235 0.906
+  S3 F13_133   2   1 F13_130 F13_135 0.747 0.969 False 0.979 1.235 0.912
+  S3 F13_135   2   1 F13_132 F13_137 0.942 0.965 False 1.013 1.121 0.959
+  S3 F13_137   2   1 F13_133 F13_139 0.975 1.048 False 1.076 1.285 1.029
+  S3 F13_153   2   1 F13_151 F47_157 1.706 1.524 False 1.637 1.483 1.570
+  S3 F13_156   2   1 F13_153 F47_160 1.545 0.705 False 0.751 1.140 0.919
+  S3 F47_130   2   1 F47_126 F47_210 0.467 0.496  True 0.491 1.084 0.489
+  S2 F47_139   1   1 F47_138 F47_141 1.684 1.869 False 1.684 1.619 1.776
+  S2 F47_147   1   1 F13_143 F13_146 1.854 1.616 False 1.750 1.430 1.735
+  S2 F47_151   1   1 F13_241 F13_243 1.374 1.583 False 1.313 1.336 1.479
+  S3 F47_154   1   2 F13_151 F47_157 1.706 1.524 False 1.621 1.379 1.660
+  S3 F47_161   2   1 F13_156 F13_159 0.709 0.628  True 0.646 1.158 0.649
+
+summary over fired cases (day-level RMSE):
+validator  tau_m scen idm  seed  n  nfire  rmse_day_model  rmse_day_interp  rmse_day_beta  improved  rmse_hr_model  rmse_hr_interp  beta_mean
+   DIAG10    0.9   S2   F    47  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    0.9   S2   F  1414  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    0.9   S2   F  6464  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    0.9   S2   T    47  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    0.9   S2   T  1414  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    0.9   S2   T  6464  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    0.9   S3   F    47 15      3           0.501            0.007          0.008       1.0          0.505           0.027      0.994
+   DIAG10    0.9   S3   F  1414 14      3           0.476            0.007          0.008       1.0          0.478           0.027      0.993
+   DIAG10    0.9   S3   F  6464 15      3           0.490            0.007          0.008       1.0          0.493           0.027      0.994
+   DIAG10    0.9   S3   T    47 15      3           0.501            0.007          0.008       1.0          0.505           0.027      0.994
+   DIAG10    0.9   S3   T  1414 14      3           0.476            0.007          0.008       1.0          0.478           0.027      0.993
+   DIAG10    0.9   S3   T  6464 15      3           0.490            0.007          0.008       1.0          0.493           0.027      0.994
+   DIAG10    1.0   S2   F    47  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    1.0   S2   F  1414  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    1.0   S2   F  6464  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    1.0   S2   T    47  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    1.0   S2   T  1414  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    1.0   S2   T  6464  3      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+   DIAG10    1.0   S3   F    47 11      2           0.554            0.002          0.004       1.0          0.558           0.024      0.998
+   DIAG10    1.0   S3   F  1414 12      3           0.476            0.007          0.008       1.0          0.478           0.027      0.993
+   DIAG10    1.0   S3   F  6464 12      2           0.541            0.002          0.004       1.0          0.546           0.024      0.998
+   DIAG10    1.0   S3   T    47 11      2           0.554            0.002          0.004       1.0          0.558           0.024      0.998
+   DIAG10    1.0   S3   T  1414 12      3           0.476            0.007          0.008       1.0          0.478           0.027      0.993
+   DIAG10    1.0   S3   T  6464 12      2           0.541            0.002          0.004       1.0          0.546           0.024      0.998
+      EL1    0.9   S3   F    47  2      2           0.414            0.008          0.011       1.0          0.418           0.038      0.986
+      EL1    0.9   S3   F  1414  2      2           0.410            0.008          0.011       1.0          0.415           0.038      0.986
+      EL1    0.9   S3   F  6464  2      2           0.423            0.008          0.011       1.0          0.428           0.038      0.987
+      EL1    0.9   S3   T    47  2      2           0.414            0.008          0.011       1.0          0.418           0.038      0.986
+      EL1    0.9   S3   T  1414  2      2           0.410            0.008          0.011       1.0          0.415           0.038      0.986
+      EL1    0.9   S3   T  6464  2      2           0.423            0.008          0.011       1.0          0.428           0.038      0.987
+      EL1    1.0   S3   F    47  2      2           0.414            0.008          0.011       1.0          0.418           0.038      0.986
+      EL1    1.0   S3   F  1414  2      2           0.410            0.008          0.011       1.0          0.415           0.038      0.986
+      EL1    1.0   S3   F  6464  2      2           0.423            0.008          0.011       1.0          0.428           0.038      0.987
+      EL1    1.0   S3   T    47  2      2           0.414            0.008          0.011       1.0          0.418           0.038      0.986
+      EL1    1.0   S3   T  1414  2      2           0.410            0.008          0.011       1.0          0.415           0.038      0.986
+      EL1    1.0   S3   T  6464  2      2           0.423            0.008          0.011       1.0          0.428           0.038      0.987
+    P2LOO    0.9   S3   F    47  2      1           0.359            0.000          0.359       1.0          0.365           0.042      0.000
+    P2LOO    0.9   S3   F  1414  2      1           0.337            0.000          0.337       1.0          0.343           0.042      0.000
+    P2LOO    0.9   S3   F  6464  2      1           0.337            0.000          0.337       1.0          0.346           0.042      0.000
+    P2LOO    0.9   S3   T    47  2      2           0.373            0.039          0.050       1.0          0.385           0.106      0.938
+    P2LOO    0.9   S3   T  1414  2      2           0.343            0.039          0.050       1.0          0.361           0.106      0.932
+    P2LOO    0.9   S3   T  6464  2      2           0.352            0.039          0.050       1.0          0.368           0.106      0.934
+    P2LOO    1.0   S3   F    47  2      1           0.359            0.000          0.359       1.0          0.365           0.042      0.000
+    P2LOO    1.0   S3   F  1414  1      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+    P2LOO    1.0   S3   F  6464  1      0             NaN              NaN            NaN       NaN            NaN             NaN        NaN
+    P2LOO    1.0   S3   T    47  2      2           0.373            0.039          0.050       1.0          0.385           0.106      0.938
+    P2LOO    1.0   S3   T  1414  1      1           0.349            0.055          0.349       1.0          0.377           0.144      0.000
+    P2LOO    1.0   S3   T  6464  1      1           0.366            0.055          0.366       1.0          0.390           0.144      0.000
+bootstrap DIAG10 tau_m 1.0 idm T: cases 3, SSE model 17.619 vs interp 0.053, p_worse 0.0000
+bootstrap DIAG10 tau_m 1.0 idm F: cases 3, SSE model 17.619 vs interp 0.053, p_worse 0.0000
+
+non-fired (bracket high) DIAG10 s47: n 12, day RMSE model 0.224 vs interp 0.084
+
+F13_237 own AC means: [ 0.  53.2 34.   3.6  0. ]
+  prev cand F13_235 train=False acd=0.24 EC23=nan
+  prev cand F13_233 train=True acd=0.21 EC23=0.643
+  prev cand F13_231 train=True acd=0.05 EC23=0.632
+  next-day bundle cand (0h outdoor dist 0.039): F13_128(acd 0.23, EC0 0.721), F13_129(acd 0.61, EC0 0.715), F47_132(acd 0.39, EC0 2.796)
+  next-day bundle cand (0h outdoor dist 0.087): F13_165(acd 0.29, EC0 0.684), F13_166(acd 0.54, EC0 0.683), F47_167(acd 1.19, EC0 0.448)
+  next-day bundle cand (0h outdoor dist 0.117): F13_161(acd 1.21, EC0 0.468), F47_163(acd 0.25, EC0 0.573), F47_164(acd 0.55, EC0 0.427)
+  FB estimate F13_237 (a=F13_233 23h 0.643, d=F13_128 0h 0.721, kp=2 kn=1): day mean 0.701 (13th 1.256)

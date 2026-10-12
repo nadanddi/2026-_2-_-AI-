@@ -1,0 +1,79 @@
+targets (DIAG10 q_avg>=0.9): 40 | segs {2: 15, 3: 9, 1: 7, 4: 5, 5: 1, 6: 1, 8: 1, 9: 1}
+AHx causal vs full (targets) spearman 0.96
+
+(B-L) no-anchor pseudo-eval, DIAG10: RMSE / better-share vs M
+   BUF   seed 47: n 40 nfit med 33 | M 0.4270 | M_icpt 0.4269 (0.60) | M_AHxc 0.3958 (0.47) | M_AHxf 0.3974 (0.47) | b_c med +0.172 [+0.131,+0.198]
+   BUF   seed 1414: n 40 nfit med 33 | M 0.4224 | M_icpt 0.4220 (0.55) | M_AHxc 0.3900 (0.47) | M_AHxf 0.3919 (0.47) | b_c med +0.166 [+0.131,+0.196]
+   BUF   seed 6464: n 40 nfit med 33 | M 0.4227 | M_icpt 0.4227 (0.55) | M_AHxc 0.3931 (0.47) | M_AHxf 0.3952 (0.47) | b_c med +0.162 [+0.129,+0.191]
+      seed 47 BUF seg-bootstrap RMSE(M_icpt)-RMSE(M): [-0.0279, +0.0401] P(>=0) 0.483
+      seed 47 BUF seg-bootstrap RMSE(M_AHxc)-RMSE(M): [-0.1278, +0.0093] P(>=0) 0.073
+      seed 47 BUF seg-bootstrap RMSE(M_AHxf)-RMSE(M): [-0.1401, +0.0156] P(>=0) 0.107
+   LOSO+ seed 47: n 38 nfit med 23 | M 0.4327 | M_icpt 0.4321 (0.61) | M_AHxc 0.3796 (0.50) | M_AHxf 0.3731 (0.53) | b_c med +0.172 [+0.148,+0.294]
+   LOSO+ seed 1414: n 38 nfit med 23 | M 0.4279 | M_icpt 0.4283 (0.55) | M_AHxc 0.3743 (0.50) | M_AHxf 0.3680 (0.50) | b_c med +0.166 [+0.148,+0.286]
+   LOSO+ seed 6464: n 38 nfit med 23 | M 0.4278 | M_icpt 0.4277 (0.55) | M_AHxc 0.3761 (0.50) | M_AHxf 0.3698 (0.55) | b_c med +0.162 [+0.147,+0.293]
+      seed 47 LOSO+ seg-bootstrap RMSE(M_icpt)-RMSE(M): [-0.0325, +0.0475] P(>=0) 0.501
+      seed 47 LOSO+ seg-bootstrap RMSE(M_AHxc)-RMSE(M): [-0.1348, -0.0072] P(>=0) 0.011
+      seed 47 LOSO+ seg-bootstrap RMSE(M_AHxf)-RMSE(M): [-0.1538, -0.0079] P(>=0) 0.009
+   LOSO+ s47 true_high=False: n 8 RMSE M 0.414 M_AHxc 0.427 M_icpt 0.594
+   LOSO+ s47 true_high=True: n 30 RMSE M 0.437 M_AHxc 0.366 M_icpt 0.377
+
+(B-L) EL1 / P2LOO (2nd-period records, q_avg>=0.9 of that validator)
+   EL1 BUF seed 47: n 1 nfit med 5 | M 0.2283 icpt 0.1876 AHxc 0.2519 AHxf 0.1673
+   EL1 BUF seed 1414: n 1 nfit med 5 | M 0.2331 icpt 0.2047 AHxc 0.2693 AHxf 0.1845
+   EL1 BUF seed 6464: n 1 nfit med 5 | M 0.2270 icpt 0.1991 AHxc 0.2605 AHxf 0.1795
+   EL1 LOSO+ seed 47: no case (fit pool < 5)
+   EL1 LOSO+ seed 1414: no case (fit pool < 5)
+   EL1 LOSO+ seed 6464: no case (fit pool < 5)
+   P2LOO BUF seed 47: n 8 nfit med 6 | M 0.4060 icpt 0.5232 AHxc 0.4600 AHxf 0.4540
+   P2LOO BUF seed 1414: n 8 nfit med 6 | M 0.4023 icpt 0.5151 AHxc 0.4528 AHxf 0.4459
+   P2LOO BUF seed 6464: n 8 nfit med 6 | M 0.4070 icpt 0.5208 AHxc 0.4557 AHxf 0.4483
+   P2LOO LOSO+ seed 47: n 2 nfit med 6 | M 0.4801 icpt 0.5939 AHxc 0.5565 AHxf 0.5084
+   P2LOO LOSO+ seed 1414: n 2 nfit med 6 | M 0.4812 icpt 0.5871 AHxc 0.5468 AHxf 0.4973
+   P2LOO LOSO+ seed 6464: n 2 nfit med 6 | M 0.4779 icpt 0.5834 AHxc 0.5405 AHxf 0.4882
+
+(B-A) anchor k days before (chain steps cert|c1<=1), DIAG10
+   cases 53 | k {2: 22, 3: 17, 4: 14} | targets 22 | segs {1: 14, 2: 14, 3: 10, 4: 9, 5: 3, 6: 3}
+   BUF   seed 47 k=all: n 53 βM med 0.51 | M 0.332 | P0 0.336 | M_AHxc 0.365 | BA 0.294 | BA_AHxc 0.287
+   BUF   seed 47 k=2: n 22 βM med 0.65 | M 0.335 | P0 0.273 | M_AHxc 0.378 | BA 0.247 | BA_AHxc 0.247
+   BUF   seed 47 k=3: n 17 βM med 0.49 | M 0.322 | P0 0.323 | M_AHxc 0.350 | BA 0.274 | BA_AHxc 0.270
+   BUF   seed 47 k=4: n 14 βM med 0.09 | M 0.339 | P0 0.428 | M_AHxc 0.360 | BA 0.375 | BA_AHxc 0.356
+   BUF   seed 1414 k=all: n 53 βM med 0.49 | M 0.323 | P0 0.336 | M_AHxc 0.356 | BA 0.291 | BA_AHxc 0.285
+   BUF   seed 1414 k=2: n 22 βM med 0.64 | M 0.327 | P0 0.273 | M_AHxc 0.371 | BA 0.246 | BA_AHxc 0.247
+   BUF   seed 1414 k=3: n 17 βM med 0.47 | M 0.313 | P0 0.323 | M_AHxc 0.341 | BA 0.272 | BA_AHxc 0.270
+   BUF   seed 1414 k=4: n 14 βM med 0.06 | M 0.330 | P0 0.428 | M_AHxc 0.348 | BA 0.368 | BA_AHxc 0.352
+   BUF   seed 6464 k=all: n 53 βM med 0.49 | M 0.321 | P0 0.336 | M_AHxc 0.358 | BA 0.289 | BA_AHxc 0.284
+   BUF   seed 6464 k=2: n 22 βM med 0.63 | M 0.327 | P0 0.273 | M_AHxc 0.374 | BA 0.244 | BA_AHxc 0.246
+   BUF   seed 6464 k=3: n 17 βM med 0.46 | M 0.310 | P0 0.323 | M_AHxc 0.342 | BA 0.268 | BA_AHxc 0.267
+   BUF   seed 6464 k=4: n 14 βM med 0.06 | M 0.326 | P0 0.428 | M_AHxc 0.351 | BA 0.368 | BA_AHxc 0.352
+   LOSO+ seed 47 k=all: n 52 βM med 0.39 | M 0.331 | P0 0.339 | M_AHxc 0.347 | BA 0.269 | BA_AHxc 0.278
+   LOSO+ seed 47 k=2: n 21 βM med 0.63 | M 0.334 | P0 0.279 | M_AHxc 0.353 | BA 0.247 | BA_AHxc 0.242
+   LOSO+ seed 47 k=3: n 17 βM med 0.42 | M 0.322 | P0 0.323 | M_AHxc 0.338 | BA 0.252 | BA_AHxc 0.251
+   LOSO+ seed 47 k=4: n 14 βM med 0.06 | M 0.339 | P0 0.428 | M_AHxc 0.347 | BA 0.317 | BA_AHxc 0.351
+   LOSO+ seed 1414 k=all: n 52 βM med 0.39 | M 0.322 | P0 0.339 | M_AHxc 0.339 | BA 0.265 | BA_AHxc 0.277
+   LOSO+ seed 1414 k=2: n 21 βM med 0.63 | M 0.325 | P0 0.279 | M_AHxc 0.347 | BA 0.245 | BA_AHxc 0.242
+   LOSO+ seed 1414 k=3: n 17 βM med 0.42 | M 0.313 | P0 0.323 | M_AHxc 0.330 | BA 0.249 | BA_AHxc 0.251
+   LOSO+ seed 1414 k=4: n 14 βM med 0.03 | M 0.330 | P0 0.428 | M_AHxc 0.337 | BA 0.311 | BA_AHxc 0.349
+   LOSO+ seed 6464 k=all: n 52 βM med 0.36 | M 0.320 | P0 0.339 | M_AHxc 0.343 | BA 0.266 | BA_AHxc 0.279
+   LOSO+ seed 6464 k=2: n 21 βM med 0.61 | M 0.324 | P0 0.279 | M_AHxc 0.351 | BA 0.245 | BA_AHxc 0.241
+   LOSO+ seed 6464 k=3: n 17 βM med 0.40 | M 0.310 | P0 0.323 | M_AHxc 0.333 | BA 0.249 | BA_AHxc 0.251
+   LOSO+ seed 6464 k=4: n 14 βM med 0.00 | M 0.326 | P0 0.428 | M_AHxc 0.342 | BA 0.312 | BA_AHxc 0.353
+
+(A) vent_resp vs same-house day-mean change (PP3 v2 (c) rho .70)
+   c1<=5: pairs 30, vent_resp finite 13, components 3 | rho +0.70 | single-feature null95 record 0.54, block 0.70
+      finite pairs: [('F13_123', 'F13_125', 0.04, 2.05), ('F13_135', 'F13_137', 0.06, -0.96), ('F13_121', 'F13_143', 0.21, -0.36), ('F47_147', 'F13_146', -0.25, -1.27), ('F47_157', 'F13_156', -0.46, -1.95), ('F47_174', 'F13_175', 0.22, 2.27), ('F47_177', 'F13_178', 0.36, 0.5), ('F13_125', 'F13_241', -0.06, -1.68), ('F47_151', 'F13_243', 0.41, -0.39), ('F47_139', 'F47_141', 0.18, 0.52), ('F13_241', 'F47_151', -0.12, -2.04), ('F13_151', 'F47_154', -0.06, -0.68), ('F13_175', 'F47_177', 0.22, 0.64)]
+   cert|c1<=1: pairs 18, vent_resp finite 9, components 6 | rho +0.78 | single-feature null95 record 0.65, block 0.75
+      finite pairs: [('F13_135', 'F13_137', 0.06, -0.96), ('F47_147', 'F13_146', -0.25, -1.27), ('F47_157', 'F13_156', -0.46, -1.95), ('F47_174', 'F13_175', 0.22, 2.27), ('F47_177', 'F13_178', 0.36, 0.5), ('F47_151', 'F13_243', 0.41, -0.39), ('F47_139', 'F47_141', 0.18, 0.52), ('F13_241', 'F47_151', -0.12, -2.04), ('F13_151', 'F47_154', -0.06, -0.68)]
+   eval 8 vent_resp (full day, causal ffill): {'F13_221': None, 'F13_223': None, 'F13_225': None, 'F13_237': None, 'F47_221': None, 'F47_223': None, 'F47_225': None, 'F47_227': None}
+   eval 8 max act_vent: {'F13_221': 0.0, 'F13_223': 0.0, 'F13_225': 0.0, 'F13_237': 0.0, 'F47_221': 0.0, 'F47_223': 3.0, 'F47_225': 0.0, 'F47_227': 0.0}
+
+(C) eval 8: causal AHx vs training high-pred distribution; reference M_AHxc estimate (not adopted)
+   training targets AHxc: quantiles 10/50/90 = 2.94/4.15/5.28; true-high mean 4.52, false-high mean 3.57
+   coef (all 40, seed avg): resid = -0.558 + +0.158*AHxc  | mean resid +0.120
+   F13_221: AHxc 3.23 | 13th day-mean 1.615 -> ref 1.569 (icpt-only 1.735)
+   F13_223: AHxc 1.98 | 13th day-mean 1.668 -> ref 1.423 (icpt-only 1.788)
+   F13_225: AHxc 2.37 | 13th day-mean 1.796 -> ref 1.613 (icpt-only 1.915)
+   F13_237: AHxc 3.96 | 13th day-mean 1.256 -> ref 1.325 (icpt-only 1.376)
+   F47_221: AHxc 3.68 | 13th day-mean 1.401 -> ref 1.426 (icpt-only 1.521)
+   F47_223: AHxc 4.12 | 13th day-mean 1.431 -> ref 1.524 (icpt-only 1.551)
+   F47_225: AHxc 3.50 | 13th day-mean 1.688 -> ref 1.683 (icpt-only 1.808)
+   F47_227: AHxc 2.53 | 13th day-mean 1.657 -> ref 1.500 (icpt-only 1.777)

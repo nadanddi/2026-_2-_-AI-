@@ -1,0 +1,54 @@
+== 0) 재현: PP4 L seed47 ==
+  BUF: n 40 RMSE M 0.4270 M_AHxc 0.3958 gain +0.0312
+  LOSO+: n 38 RMSE M 0.4327 M_AHxc 0.3796 gain +0.0530
+
+== 1) seg 별 기여 (제곱오차 감소 합) / seg 하나 빼고 이득 ==
+  BUF: total SSE drop 1.028 | by seg: {1: {'size': 7, 'sum': 0.091}, 2: {'size': 15, 'sum': 0.159}, 3: {'size': 9, 'sum': -0.22}, 4: {'size': 5, 'sum': 0.73}, 5: {'size': 1, 'sum': 0.016}, 6: {'size': 1, 'sum': 0.113}, 8: {'size': 1, 'sum': -0.107}, 9: {'size': 1, 'sum': 0.245}}
+     drop-one-seg gain: {1: 0.0332, 2: 0.0454, 3: 0.0488, 4: 0.0101, 5: 0.0314, 6: 0.0286, 8: 0.0356, 9: 0.0247}
+     by farm: {'F13': (23, 0.353, 0.357), 'F47': (17, 0.51, 0.442)}
+     top1 share 0.71, top2 1.24, top3 1.48; gain w/o top1 +0.0108, w/o top2 -0.0093
+  LOSO+: total SSE drop 1.637 | by seg: {1: {'size': 7, 'sum': 0.104}, 2: {'size': 13, 'sum': 0.556}, 3: {'size': 9, 'sum': -0.086}, 4: {'size': 5, 'sum': 0.73}, 5: {'size': 1, 'sum': 0.022}, 6: {'size': 1, 'sum': 0.136}, 8: {'size': 1, 'sum': -0.107}, 9: {'size': 1, 'sum': 0.28}}
+     drop-one-seg gain: {1: 0.0584, 2: 0.0574, 3: 0.0728, 4: 0.0329, 5: 0.0536, 6: 0.05, 8: 0.0585, 9: 0.0457}
+     by farm: {'F13': (21, 0.358, 0.327), 'F47': (17, 0.51, 0.436)}
+     top1 share 0.42, top2 0.75, top3 0.92; gain w/o top1 +0.0372, w/o top2 +0.0166
+
+== 2) AHx 가 동 ID(F13/F47) 대리인가: 같은 ID 평균 잔차 보정 vs AHx ==
+  TGT farm counts: {'F13': 23, 'F47': 17} | AHxc mean by farm: {'F13': np.float64(4.09), 'F47': np.float64(4.53)} | resid mean by farm (avg seed): {'F13': np.float64(0.071), 'F47': np.float64(0.185)}
+  BUF s47: gain farm-icpt -0.0247 | AHxc +0.0312 | farm-icpt + within-farm AHx +0.0039
+  BUF s1414: gain farm-icpt -0.0225 | AHxc +0.0324 | farm-icpt + within-farm AHx +0.0067
+  BUF s6464: gain farm-icpt -0.0240 | AHxc +0.0296 | farm-icpt + within-farm AHx +0.0029
+  LOSO+ s47: gain farm-icpt -0.0399 | AHxc +0.0530 | farm-icpt + within-farm AHx +0.0018
+  LOSO+ s1414: gain farm-icpt -0.0373 | AHxc +0.0536 | farm-icpt + within-farm AHx +0.0054
+  LOSO+ s6464: gain farm-icpt -0.0389 | AHxc +0.0516 | farm-icpt + within-farm AHx +0.0020
+
+== 3) seg 사이 vs seg 안: AHx 를 seg 평균 / seg 안 편차로 쪼갬 ==
+  BUF: seg-mean-only gain +0.0218 | within-seg-dev gain -0.0002
+  LOSO+: seg-mean-only gain +0.0387 | within-seg-dev gain +0.0095
+
+== 4) 갈림길(문턱 × 방식 × 시드): AHxc 이득 (RMSE M - RMSE M_AHxc), 표적·적합 풀 모두 문턱으로 재정의 ==
+  thr 0.80 n 54: BUF +0.005/+0.005/+0.004 LOSO+ -0.036/-0.036/-0.038
+  thr 0.85 n 49: BUF +0.006/+0.006/+0.005 LOSO+ -0.016/-0.016/-0.017
+  thr 0.90 n 40: BUF +0.031/+0.032/+0.030 LOSO+ +0.053/+0.054/+0.052
+  thr 0.95 n 36: BUF +0.029/+0.029/+0.026 LOSO+ +0.054/+0.053/+0.051
+  thr 1.00 n 30: BUF +0.040/+0.038/+0.037 LOSO+ +0.056/+0.051/+0.050
+  thr 1.10 n 25: BUF -0.011/-0.011/-0.013 LOSO+ +0.037/+0.035/+0.033
+
+== 5) 평가 8기록과 닮았나: 낮은 AHx 표적 / 하향 보정 표적 / 밀폐 표적 ==
+  BUF AHxc<=4.12(평가8 최대 이하): n 19 RMSE M 0.373 M_AHxc 0.380 better 0.47 | mean y 1.21 mean corr -0.039
+  BUF AHxc<=3.3: n 8 RMSE M 0.351 M_AHxc 0.334 better 0.38 | mean y 1.04 mean corr -0.133
+  BUF 보정<0(하향): n 11 RMSE M 0.384 M_AHxc 0.391 better 0.36 | mean y 1.19 mean corr -0.107
+  BUF max vent<=3(평가8처럼 밀폐): n 19 RMSE M 0.467 M_AHxc 0.447 better 0.37 | mean y 1.39 mean corr +0.090
+  BUF closed & fan<5: n 18 RMSE M 0.472 M_AHxc 0.448 better 0.39 | mean y 1.44 mean corr +0.091
+  LOSO+ AHxc<=4.12(평가8 최대 이하): n 19 RMSE M 0.373 M_AHxc 0.364 better 0.47 | mean y 1.21 mean corr -0.028
+  LOSO+ AHxc<=3.3: n 8 RMSE M 0.351 M_AHxc 0.323 better 0.38 | mean y 1.04 mean corr -0.125
+  LOSO+ 보정<0(하향): n 9 RMSE M 0.411 M_AHxc 0.405 better 0.33 | mean y 1.12 mean corr -0.119
+  LOSO+ max vent<=3(평가8처럼 밀폐): n 17 RMSE M 0.483 M_AHxc 0.437 better 0.47 | mean y 1.46 mean corr +0.076
+  LOSO+ closed & fan<5: n 16 RMSE M 0.490 M_AHxc 0.438 better 0.50 | mean y 1.51 mean corr +0.078
+  eval8 max act_vent all <=3 (PP4 log); TGT closed share 0.47
+
+== 6) seg 평균 순열 기준선 (LOSO+, seed47): seg 안 편차는 두고 seg 평균 AHx 만 seg 사이에서 순열 ==
+  real +0.0530 | seg-mean perm null 95% +0.0112, p 0.001 (n perms 1500, segs 8)
+  big segs: [np.int64(1), np.int64(2), np.int64(3), np.int64(4)] {np.int64(1): np.float64(3.1), np.int64(2): np.float64(4.53), np.int64(3): np.float64(4.19), np.int64(4): np.float64(6.05), np.int64(5): np.float64(2.92), np.int64(6): np.float64(2.31), np.int64(8): np.float64(3.06), np.int64(9): np.float64(5.23)} | seg mean resid (avg): {1: -0.041, 2: 0.129, 3: 0.132, 4: 0.339, 5: -0.374, 6: -0.482, 8: 0.446, 9: 0.679}
+
+== 7) DIAG10 fold: 표적과 같은 동 이웃(사슬 1걸음)이 다른 폴드(=모델 학습에 들어감)인 비율 ==
+  pairs 65, different fold share 0.55; twins(same seg/day other ID) diff fold share 0.63

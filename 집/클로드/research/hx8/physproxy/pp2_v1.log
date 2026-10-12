@@ -1,0 +1,141 @@
+(1) S_pred(.9) DIAG10 avg: records sorted by AHx
+            y     q     r   AHx  AHx_night    fan  vent       ep
+F47_130  0.49  1.05 -0.56  2.09       1.92   0.00  5.46  F47_130
+F13_233  0.63  1.12 -0.48  2.47       1.97   1.25  0.00  F13_233
+F13_116  0.94  1.02 -0.08  2.71       2.30   0.71  0.00  F13_120
+F13_120  1.25  1.15  0.10  2.97       2.38   0.71  0.00  F13_120
+F13_231  0.62  1.00 -0.37  3.18       2.67   0.00  0.96  F13_233
+F13_243  1.72  0.99  0.73  3.21       3.27   0.00  6.21  F13_243
+F13_118  1.10  1.08  0.02  3.34       2.43   0.71  0.00  F13_120
+F47_216  0.56  0.90 -0.35  3.36       3.06   5.46  0.00  F47_216
+F13_125  1.50  1.40  0.09  3.39       2.50   0.71  1.62  F13_243
+F47_147  1.75  1.43  0.32  3.65       3.39   0.00  0.00  F13_146
+F47_229  1.79  1.34  0.45  3.75       2.98   0.71  0.00  F47_132
+F13_139  1.30  0.95  0.35  3.88       3.61   0.00  0.00  F13_139
+F13_241  1.43  0.99  0.44  4.12       3.80   0.00  3.46  F13_243
+F47_161  0.65  1.15 -0.51  4.21       3.60   0.00  3.21  F47_161
+F13_143  1.53  1.24  0.29  4.29       4.26   0.00  4.42  F13_146
+F13_156  0.75  1.14 -0.39  4.29       3.64   0.00  1.50  F13_156
+F47_154  1.62  1.38  0.24  4.35       4.03   0.00  8.33  F13_156
+F47_151  1.31  1.34 -0.03  4.45       3.74   0.00  4.58  F13_243
+F13_135  1.01  1.14 -0.12  4.46       3.75   0.00  4.46  F13_139
+F13_137  1.08  1.29 -0.21  4.49       4.09   0.00  3.12  F13_139
+F13_153  1.64  1.49  0.14  4.53       4.60   0.00  0.00  F13_156
+F13_217  1.69  1.19  0.50  4.60       3.65   0.71  0.00  F47_132
+F13_130  0.77  0.99 -0.21  4.63       4.01   0.00  0.00  F13_139
+F13_177  1.01  1.00  0.01  4.74       4.32   0.00  5.21  F13_177
+F13_146  1.50  1.39  0.11  4.75       4.05   0.00  1.00  F13_146
+F13_133  0.98  1.23 -0.25  4.88       4.44   0.00  0.00  F13_139
+F13_151  1.68  1.38  0.30  4.97       4.28   0.00  5.29  F13_156
+F13_132  0.87  1.24 -0.37  5.07       4.52   0.00  0.00  F13_139
+F47_138  1.71  1.59  0.12  5.15       4.54   0.62  0.00  F13_156
+F47_157  1.21  0.94  0.27  5.33       3.93   0.00  0.00  F13_156
+F47_139  1.68  1.63  0.05  5.46       4.09   0.71  0.08  F13_156
+F47_136  1.65  1.87 -0.22  5.86       4.69   0.71  0.00  F13_156
+F47_132  2.71  1.24  1.47  5.92       4.66   0.62  0.00  F47_132
+F47_141  1.87  1.78  0.08  5.99       4.68   0.71  0.38  F13_156
+F47_145  2.14  1.60  0.54  6.08       4.30   0.71  0.33  F47_145
+F47_231  2.18  1.50  0.68  6.10       4.75   0.71  0.00  F47_132
+F47_174  1.05  0.91  0.14  6.21       5.15  41.79  1.58  F13_178
+F47_177  1.49  1.03  0.46  6.93       5.29  42.96  3.21  F13_178
+F13_178  1.84  1.08  0.76  7.41       6.14  43.38  4.08  F13_178
+F13_175  1.27  0.95  0.32  7.48       5.81  43.12  2.83  F13_178
+
+   AHx by true_high:            count  mean   std   min   25%   50%   75%   max
+true_high                                                 
+False       10.0  3.69  1.06  2.09  2.83  3.78  4.55  5.07
+True        30.0  4.93  1.21  2.97  4.16  4.67  5.90  7.48
+   rho(AHx, r) among true-high only 0.20 (n 30); among false-high only 0.41 (n 10)
+
+(2) threshold / validator sensitivity of AHx (full day): LOEO RMSE q, q+icpt, q+icpt+b*AHx
+   DIAG10 thr 0.8 seed avg: n 54 ep 16 | q 0.3743  icpt 0.3788  AHx 0.3675  gain +0.0113  better 0.46  rho_r +0.28
+   DIAG10 thr 0.8 seed 47: n 54 ep 16 | q 0.3766  icpt 0.3812  AHx 0.3694  gain +0.0118  better 0.46  rho_r +0.28
+   DIAG10 thr 0.8 seed 1414: n 54 ep 16 | q 0.3730  icpt 0.3773  AHx 0.3655  gain +0.0118  better 0.46  rho_r +0.29
+   DIAG10 thr 0.8 seed 6464: n 54 ep 16 | q 0.3736  icpt 0.3782  AHx 0.3679  gain +0.0103  better 0.44  rho_r +0.27
+   DIAG10 thr 0.9 seed avg: n 40 ep 13 | q 0.4239  icpt 0.4315  AHx 0.3986  gain +0.0329  better 0.50  rho_r +0.40
+   DIAG10 thr 0.9 seed 47: n 40 ep 13 | q 0.4270  icpt 0.4345  AHx 0.4011  gain +0.0334  better 0.50  rho_r +0.40
+   DIAG10 thr 0.9 seed 1414: n 38 ep 12 | q 0.4291  icpt 0.4355  AHx 0.4050  gain +0.0304  better 0.50  rho_r +0.38
+   DIAG10 thr 0.9 seed 6464: n 39 ep 12 | q 0.4247  icpt 0.4303  AHx 0.4024  gain +0.0279  better 0.46  rho_r +0.37
+   DIAG10 thr 1.0 seed avg: n 30 ep 13 | q 0.4413  icpt 0.4617  AHx 0.4104  gain +0.0512  better 0.50  rho_r +0.49
+   DIAG10 thr 1.0 seed 47: n 30 ep 13 | q 0.4444  icpt 0.4644  AHx 0.4112  gain +0.0533  better 0.50  rho_r +0.49
+   DIAG10 thr 1.0 seed 1414: n 32 ep 13 | q 0.4492  icpt 0.4663  AHx 0.4291  gain +0.0372  better 0.53  rho_r +0.45
+   DIAG10 thr 1.0 seed 6464: n 32 ep 14 | q 0.4282  icpt 0.4517  AHx 0.4042  gain +0.0475  better 0.50  rho_r +0.45
+   DIAG10 thr 1.2 seed avg: n 19 ep 8 | q 0.4475  icpt 0.4513  AHx 0.4935  gain -0.0422  better 0.47  rho_r +0.07
+   DIAG10 thr 1.2 seed 47: n 19 ep 8 | q 0.4493  icpt 0.4505  AHx 0.4922  gain -0.0417  better 0.42  rho_r +0.06
+   DIAG10 thr 1.2 seed 1414: n 19 ep 8 | q 0.4466  icpt 0.4520  AHx 0.4945  gain -0.0425  better 0.47  rho_r +0.10
+   DIAG10 thr 1.2 seed 6464: n 19 ep 8 | q 0.4469  icpt 0.4517  AHx 0.4942  gain -0.0425  better 0.47  rho_r +0.09
+   EL1 thr 0.8 seed avg: n 8 ep 6 | q 0.5451  icpt 0.6769  AHx 0.8117  gain -0.1348  better 0.12  rho_r +0.36
+   EL1 thr 0.8 seed 47: n 8 ep 6 | q 0.5478  icpt 0.6802  AHx 0.8121  gain -0.1319  better 0.12  rho_r +0.36
+   EL1 thr 0.8 seed 1414: n 8 ep 6 | q 0.5438  icpt 0.6748  AHx 0.8056  gain -0.1308  better 0.12  rho_r +0.36
+   EL1 thr 0.8 seed 6464: n 7 ep 5 | q 0.5769  icpt 0.7416  AHx 0.9407  gain -0.1991  better 0.00  rho_r +0.36
+   EL1 thr 0.9 seed avg: n 6 ep 4 | q 0.5095  icpt 0.7348  AHx 0.8272  gain -0.0924  better 0.17  rho_r +0.60
+   EL1 thr 0.9 seed 47: n 6 ep 4 | q 0.5112  icpt 0.7356  AHx 0.8284  gain -0.0928  better 0.17  rho_r +0.60
+   EL1 thr 0.9 seed 1414: n 6 ep 4 | q 0.5067  icpt 0.7306  AHx 0.8224  gain -0.0918  better 0.17  rho_r +0.60
+   EL1 thr 0.9 seed 6464: n 6 ep 4 | q 0.5109  icpt 0.7383  AHx 0.8310  gain -0.0927  better 0.17  rho_r +0.60
+   EL1 thr 1.0 seed avg: n 6 ep 4 | q 0.5095  icpt 0.7348  AHx 0.8272  gain -0.0924  better 0.17  rho_r +0.60
+   EL1 thr 1.0 seed 47: n 6 ep 4 | q 0.5112  icpt 0.7356  AHx 0.8284  gain -0.0928  better 0.17  rho_r +0.60
+   EL1 thr 1.0 seed 1414: n 6 ep 4 | q 0.5067  icpt 0.7306  AHx 0.8224  gain -0.0918  better 0.17  rho_r +0.60
+   EL1 thr 1.0 seed 6464: n 6 ep 4 | q 0.5109  icpt 0.7383  AHx 0.8310  gain -0.0927  better 0.17  rho_r +0.60
+   EL1 thr 1.2 seed avg: n=4 too small
+   P2LOO thr 0.8 seed avg: n 9 ep 7 | q 0.3930  icpt 0.5218  AHx 0.5599  gain -0.0382  better 0.33  rho_r +0.67
+   P2LOO thr 0.8 seed 47: n 9 ep 7 | q 0.3944  icpt 0.5235  AHx 0.5642  gain -0.0407  better 0.33  rho_r +0.67
+   P2LOO thr 0.8 seed 1414: n 10 ep 7 | q 0.3756  icpt 0.4901  AHx 0.5266  gain -0.0365  better 0.40  rho_r +0.61
+   P2LOO thr 0.8 seed 6464: n 9 ep 7 | q 0.3940  icpt 0.5226  AHx 0.5588  gain -0.0361  better 0.67  rho_r +0.63
+   P2LOO thr 0.9 seed avg: n 8 ep 6 | q 0.4050  icpt 0.5540  AHx 0.5983  gain -0.0443  better 0.25  rho_r +0.69
+   P2LOO thr 0.9 seed 47: n 8 ep 6 | q 0.4060  icpt 0.5557  AHx 0.6028  gain -0.0470  better 0.25  rho_r +0.69
+   P2LOO thr 0.9 seed 1414: n 8 ep 6 | q 0.4023  icpt 0.5502  AHx 0.5943  gain -0.0441  better 0.25  rho_r +0.69
+   P2LOO thr 0.9 seed 6464: n 8 ep 6 | q 0.4070  icpt 0.5561  AHx 0.5980  gain -0.0419  better 0.62  rho_r +0.64
+   P2LOO thr 1.0 seed avg: n 7 ep 5 | q 0.4130  icpt 0.5774  AHx 0.5313  gain +0.0461  better 0.29  rho_r +0.89
+   P2LOO thr 1.0 seed 47: n 8 ep 6 | q 0.4060  icpt 0.5557  AHx 0.6028  gain -0.0470  better 0.25  rho_r +0.69
+   P2LOO thr 1.0 seed 1414: n 7 ep 5 | q 0.4107  icpt 0.5741  AHx 0.5288  gain +0.0453  better 0.29  rho_r +0.89
+   P2LOO thr 1.0 seed 6464: n 7 ep 5 | q 0.4161  icpt 0.5812  AHx 0.5346  gain +0.0466  better 0.29  rho_r +0.86
+   P2LOO thr 1.2 seed avg: n=5 too small
+
+(3) causal AHx(0..h): DIAG10 S_pred(.9), seed avg
+   h  0 AHx       : gain vs icpt +0.0029 (vs q -0.0046)  rho_r +0.21  ok 40
+   h  0 AHx_night : gain vs icpt +0.0029 (vs q -0.0046)  rho_r +0.21  ok 40
+   h  0 AH        : gain vs icpt +0.0050 (vs q -0.0026)  rho_r +0.32  ok 40
+   h  5 AHx       : gain vs icpt +0.0199 (vs q +0.0123)  rho_r +0.33  ok 40
+   h  5 AHx_night : gain vs icpt +0.0199 (vs q +0.0123)  rho_r +0.33  ok 40
+   h  5 AH        : gain vs icpt +0.0162 (vs q +0.0086)  rho_r +0.37  ok 40
+   h 11 AHx       : gain vs icpt +0.0275 (vs q +0.0200)  rho_r +0.38  ok 40
+   h 11 AHx_night : gain vs icpt +0.0184 (vs q +0.0109)  rho_r +0.34  ok 40
+   h 11 AH        : gain vs icpt +0.0141 (vs q +0.0066)  rho_r +0.35  ok 40
+   h 17 AHx       : gain vs icpt +0.0332 (vs q +0.0257)  rho_r +0.39  ok 40
+   h 17 AHx_night : gain vs icpt +0.0234 (vs q +0.0159)  rho_r +0.33  ok 40
+   h 17 AH        : gain vs icpt +0.0177 (vs q +0.0102)  rho_r +0.30  ok 40
+   h 23 AHx       : gain vs icpt +0.0329 (vs q +0.0253)  rho_r +0.40  ok 40
+   h 23 AHx_night : gain vs icpt +0.0267 (vs q +0.0192)  rho_r +0.38  ok 40
+   h 23 AH        : gain vs icpt +0.0030 (vs q -0.0046)  rho_r +0.20  ok 40
+
+(4) AHx vs simple summaries (all 400 training records, full day)
+in_hum        -0.59
+out_hum       -0.76
+in_temp       -0.48
+out_temp      -0.85
+act_vent      -0.61
+act_circfan    0.05
+AHx            1.00
+   within S_pred:
+in_hum        -0.06
+out_hum       -0.51
+in_temp        0.44
+out_temp      -0.55
+act_vent       0.01
+act_circfan    0.30
+AHx            1.00
+   rho(AHx residualised on 4 simple means, model residual) = 0.09
+   rho(in_hum, residual) = -0.00
+   rho(out_hum, residual) = -0.25
+   rho(in_temp, residual) = +0.34
+   rho(out_temp, residual) = -0.05
+
+(5) ridge on all 21 derived features (standardised in fold, NaN->fold median), LOEO, DIAG10 S_pred(.9)
+   thr 0.9 seed avg: n 40 q 0.4239 icpt 0.4315 | ridge10 0.4663 | ridge30 0.4393 | ridge100 0.4237
+   thr 0.9 seed 47: n 40 q 0.4270 icpt 0.4345 | ridge10 0.4696 | ridge30 0.4421 | ridge100 0.4263
+   thr 0.9 seed 1414: n 38 q 0.4291 icpt 0.4355 | ridge10 0.4633 | ridge30 0.4422 | ridge100 0.4297
+   thr 0.9 seed 6464: n 39 q 0.4247 icpt 0.4303 | ridge10 0.4606 | ridge30 0.4394 | ridge100 0.4265
+   thr 1.0 seed avg: n 30 q 0.4413 icpt 0.4617 | ridge10 0.4900 | ridge30 0.4627 | ridge100 0.4454
+   thr 1.0 seed 47: n 30 q 0.4444 icpt 0.4644 | ridge10 0.4896 | ridge30 0.4633 | ridge100 0.4468
+   thr 1.0 seed 1414: n 32 q 0.4492 icpt 0.4663 | ridge10 0.5077 | ridge30 0.4819 | ridge100 0.4614
+   thr 1.0 seed 6464: n 32 q 0.4282 icpt 0.4517 | ridge10 0.4712 | ridge30 0.4496 | ridge100 0.4364

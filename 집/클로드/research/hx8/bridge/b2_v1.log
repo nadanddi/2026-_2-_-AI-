@@ -1,0 +1,60 @@
+chains 53 high chains [13, 15, 19, 21, 23, 29, 47]
+
+===== seed 47  (cases 602, obs-selected 72) =====
+  LOCO params w/o chain 13: rw q 0.126 | rwlog q 0.0519 | irw q 0.111 qI 0.0010 | meas a 0.471 b 0.494 r 0.0463 rho 0.50 (n 43, pairs 32)
+  LOCO params w/o chain 15: rw q 0.126 | rwlog q 0.0519 | irw q 0.111 qI 0.0010 | meas a 0.385 b 0.540 r 0.0405 rho 0.38 (n 45, pairs 32)
+  LOCO params w/o chain 21: rw q 0.126 | rwlog q 0.0519 | irw q 0.111 qI 0.0010 | meas a 0.498 b 0.470 r 0.0507 rho 0.47 (n 41, pairs 29)
+  LOCO params w/o chain 23: rw q 0.070 | rwlog q 0.0287 | irw q 0.067 qI 0.0010 | meas a 0.473 b 0.505 r 0.0464 rho 0.39 (n 43, pairs 30)
+  LOCO params w/o chain 47: rw q 0.070 | rwlog q 0.0519 | irw q 0.067 qI 0.0010 | meas a 0.431 b 0.503 r 0.0277 rho 0.23 (n 42, pairs 31)
+  OBS-selected         G 3-5   n  32 tgt  7 ch 3 | q 0.470 CAL 0.453 INT 0.338 BI1 0.336 KB_rw 0.430 KB_rwlog 0.458 KB_irw 0.428 KB_rw_j1 0.423 KB_rw_left 0.663 | KB_rw better 0.25
+  OBS-selected         G 6-7   n  26 tgt  6 ch 2 | q 0.430 CAL 0.418 INT 0.574 BI1 0.430 KB_rw 0.647 KB_rwlog 0.716 KB_irw 0.653 KB_rw_j1 0.650 KB_rw_left 0.786 | KB_rw better 0.12
+  OBS-selected         G 8-10  n  14 tgt  5 ch 1 | q 0.573 CAL 0.555 INT 0.577 BI1 0.573 KB_rw 0.695 KB_rwlog 0.781 KB_irw 0.703 KB_rw_j1 0.702 KB_rw_left 0.763 | KB_rw better 0.14
+  OBS-selected         G 6-10  n  40 tgt  6 ch 2 | q 0.485 CAL 0.470 INT 0.575 BI1 0.485 KB_rw 0.664 KB_rwlog 0.739 KB_irw 0.670 KB_rw_j1 0.669 KB_rw_left 0.778 | KB_rw better 0.12
+  TRUTH-selected y>=1  G 3-5   n  78 tgt 16 ch 5 | q 0.359 CAL 0.346 INT 0.244 BI1 0.246 KB_rw 0.296 KB_rwlog 0.315 KB_irw 0.295 KB_rw_j1 0.292 KB_rw_left 0.468 | KB_rw better 0.56
+  TRUTH-selected y>=1  G 6-7   n  65 tgt 16 ch 5 | q 0.339 CAL 0.317 INT 0.375 BI1 0.317 KB_rw 0.422 KB_rwlog 0.464 KB_irw 0.425 KB_rw_j1 0.424 KB_rw_left 0.537 | KB_rw better 0.54
+  TRUTH-selected y>=1  G 8-10  n  38 tgt 14 ch 4 | q 0.398 CAL 0.367 INT 0.366 BI1 0.365 KB_rw 0.430 KB_rwlog 0.480 KB_irw 0.434 KB_rw_j1 0.437 KB_rw_left 0.494 | KB_rw better 0.61
+  TRUTH-selected y>=1  G 6-10  n 103 tgt 16 ch 5 | q 0.362 CAL 0.336 INT 0.372 BI1 0.335 KB_rw 0.425 KB_rwlog 0.470 KB_irw 0.429 KB_rw_j1 0.429 KB_rw_left 0.522 | KB_rw better 0.56
+  PRIMARY seed 47: RMSE KB_rw 0.6640 vs model 0.4850 vs BI1 0.4847 | sign-flip p 0.750 (chains 2) | per-chain dMSE {13: -0.0018, 47: 0.2111}
+     KB_rwlog: sign-flip p 0.750
+     KB_irw: sign-flip p 0.750
+     KB_rw_j1: sign-flip p 1.000
+
+===== seed 1414  (cases 602, obs-selected 72) =====
+  OBS-selected         G 3-5   n  32 tgt  7 ch 3 | q 0.466 CAL 0.448 INT 0.338 BI1 0.338 KB_rw 0.428 KB_rwlog 0.455 KB_irw 0.426 KB_rw_j1 0.423 KB_rw_left 0.658 | KB_rw better 0.25
+  OBS-selected         G 6-7   n  26 tgt  6 ch 2 | q 0.428 CAL 0.412 INT 0.574 BI1 0.428 KB_rw 0.641 KB_rwlog 0.708 KB_irw 0.647 KB_rw_j1 0.646 KB_rw_left 0.778 | KB_rw better 0.08
+  OBS-selected         G 8-10  n  14 tgt  5 ch 1 | q 0.570 CAL 0.548 INT 0.577 BI1 0.570 KB_rw 0.689 KB_rwlog 0.772 KB_irw 0.697 KB_rw_j1 0.698 KB_rw_left 0.756 | KB_rw better 0.14
+  OBS-selected         G 6-10  n  40 tgt  6 ch 2 | q 0.482 CAL 0.464 INT 0.575 BI1 0.482 KB_rw 0.658 KB_rwlog 0.731 KB_irw 0.665 KB_rw_j1 0.665 KB_rw_left 0.770 | KB_rw better 0.10
+  TRUTH-selected y>=1  G 3-5   n  78 tgt 16 ch 5 | q 0.359 CAL 0.342 INT 0.244 BI1 0.247 KB_rw 0.295 KB_rwlog 0.314 KB_irw 0.294 KB_rw_j1 0.292 KB_rw_left 0.468 | KB_rw better 0.59
+  TRUTH-selected y>=1  G 6-7   n  65 tgt 16 ch 5 | q 0.340 CAL 0.311 INT 0.375 BI1 0.318 KB_rw 0.419 KB_rwlog 0.460 KB_irw 0.423 KB_rw_j1 0.423 KB_rw_left 0.536 | KB_rw better 0.54
+  TRUTH-selected y>=1  G 8-10  n  38 tgt 14 ch 4 | q 0.397 CAL 0.360 INT 0.366 BI1 0.364 KB_rw 0.427 KB_rwlog 0.475 KB_irw 0.431 KB_rw_j1 0.436 KB_rw_left 0.493 | KB_rw better 0.55
+  TRUTH-selected y>=1  G 6-10  n 103 tgt 16 ch 5 | q 0.362 CAL 0.330 INT 0.372 BI1 0.335 KB_rw 0.422 KB_rwlog 0.466 KB_irw 0.426 KB_rw_j1 0.428 KB_rw_left 0.520 | KB_rw better 0.54
+  PRIMARY seed 1414: RMSE KB_rw 0.6584 vs model 0.4821 vs BI1 0.4821 | sign-flip p 1.000 (chains 2) | per-chain dMSE {13: 0.0146, 47: 0.2059}
+     KB_rwlog: sign-flip p 1.000
+     KB_irw: sign-flip p 1.000
+     KB_rw_j1: sign-flip p 1.000
+
+===== seed 6464  (cases 602, obs-selected 72) =====
+  OBS-selected         G 3-5   n  32 tgt  7 ch 3 | q 0.464 CAL 0.444 INT 0.338 BI1 0.335 KB_rw 0.428 KB_rwlog 0.456 KB_irw 0.427 KB_rw_j1 0.422 KB_rw_left 0.664 | KB_rw better 0.25
+  OBS-selected         G 6-7   n  26 tgt  6 ch 2 | q 0.425 CAL 0.408 INT 0.574 BI1 0.425 KB_rw 0.647 KB_rwlog 0.715 KB_irw 0.653 KB_rw_j1 0.650 KB_rw_left 0.791 | KB_rw better 0.08
+  OBS-selected         G 8-10  n  14 tgt  5 ch 1 | q 0.566 CAL 0.544 INT 0.577 BI1 0.566 KB_rw 0.696 KB_rwlog 0.782 KB_irw 0.704 KB_rw_j1 0.702 KB_rw_left 0.768 | KB_rw better 0.14
+  OBS-selected         G 6-10  n  40 tgt  6 ch 2 | q 0.479 CAL 0.460 INT 0.575 BI1 0.479 KB_rw 0.665 KB_rwlog 0.740 KB_irw 0.671 KB_rw_j1 0.668 KB_rw_left 0.783 | KB_rw better 0.10
+  TRUTH-selected y>=1  G 3-5   n  78 tgt 16 ch 5 | q 0.358 CAL 0.341 INT 0.244 BI1 0.245 KB_rw 0.295 KB_rwlog 0.314 KB_irw 0.294 KB_rw_j1 0.291 KB_rw_left 0.472 | KB_rw better 0.56
+  TRUTH-selected y>=1  G 6-7   n  65 tgt 16 ch 5 | q 0.339 CAL 0.308 INT 0.375 BI1 0.316 KB_rw 0.422 KB_rwlog 0.464 KB_irw 0.426 KB_rw_j1 0.425 KB_rw_left 0.543 | KB_rw better 0.55
+  TRUTH-selected y>=1  G 8-10  n  38 tgt 14 ch 4 | q 0.395 CAL 0.357 INT 0.366 BI1 0.362 KB_rw 0.431 KB_rwlog 0.481 KB_irw 0.435 KB_rw_j1 0.438 KB_rw_left 0.499 | KB_rw better 0.58
+  TRUTH-selected y>=1  G 6-10  n 103 tgt 16 ch 5 | q 0.360 CAL 0.327 INT 0.372 BI1 0.334 KB_rw 0.426 KB_rwlog 0.471 KB_irw 0.430 KB_rw_j1 0.430 KB_rw_left 0.527 | KB_rw better 0.56
+  PRIMARY seed 6464: RMSE KB_rw 0.6646 vs model 0.4791 vs BI1 0.4790 | sign-flip p 1.000 (chains 2) | per-chain dMSE {13: 0.0038, 47: 0.2174}
+     KB_rwlog: sign-flip p 0.750
+     KB_irw: sign-flip p 1.000
+     KB_rw_j1: sign-flip p 1.000
+
+PRIMARY VERDICT: FAIL [np.False_, np.False_, np.False_]
+
+per target (obs-selected, G 6-10, mean over seeds & geometries):
+              y      q      I    BI1  KB_rw  KB_rwlog  KB_irw   n
+rec                                                             
+F13_125  1.495  1.404  1.552  1.443  1.613     1.583   1.608   3
+F47_132  2.712  1.241  1.975  1.241  1.842     1.833   1.846  12
+F47_136  1.653  1.870  2.281  1.870  2.461     2.560   2.471  27
+F47_138  1.710  1.595  2.183  1.595  2.272     2.346   2.279  30
+F47_139  1.684  1.632  2.197  1.632  2.254     2.327   2.259  27
+F47_141  1.866  1.781  2.254  1.781  2.347     2.433   2.350  21

@@ -1,0 +1,85 @@
+
+=== HIGH (day mean>=1) W=EC23-EC0: n=35, groups=10, mean +0.079, sd 0.340
+   best1     R2cv -0.239 | chance 95% +0.056 | p 0.512
+   ridge1    R2cv -10.258 | chance 95% -2.430 | p 0.129
+   ridge10   R2cv -3.781 | chance 95% -0.419 | p 0.294
+   ridge100  R2cv -0.105 | chance 95% +0.037 | p 0.194
+   top single-feature R2cv (linear, leave-group-out) and Spearman rho:
+              R2cv_uni    rho
+act_fog_sum      0.092  0.114
+sealed_vc        0.052 -0.208
+ah_rise_day      0.044  0.352
+sealed_v         0.023 -0.177
+dT_in           -0.000  0.334
+vpd_day         -0.019 -0.194
+act_vent_sum    -0.023  0.124
+vpd_mean        -0.026 -0.193
+
+=== HIGH LR=log(EC23/EC0): n=35, groups=10, mean +0.054, sd 0.212
+   best1     R2cv -0.274 | chance 95% +0.092 | p 0.532
+   ridge1    R2cv -121.402 | chance 95% -1.319 | p 0.502
+   ridge10   R2cv -12.227 | chance 95% -0.383 | p 0.468
+   ridge100  R2cv -0.220 | chance 95% -0.000 | p 0.318
+   top single-feature R2cv (linear, leave-group-out) and Spearman rho:
+             R2cv_uni    rho
+act_fog_sum     0.130  0.150
+sealed_vc       0.090 -0.208
+ah_rise_day     0.024  0.363
+sealed_v        0.018 -0.175
+vpd_day         0.009 -0.234
+dT_in           0.009  0.379
+vpd_mean       -0.005 -0.243
+vpd_night      -0.016 -0.166
+
+(identity check) high pairs 26: DM vs (W_a+W_b)/2 + midnight jump  corr 0.939, rmse 0.088; mean DM +0.016, median +0.074; mean W(high) +0.079, median +0.075; midnight jump mean -0.0242
+
+=== HIGH pairs DM=y_b-y_a (pair-avg inputs): n=26, groups=7, mean +0.016, sd 0.256
+   best1     R2cv -3.821 | chance 95% +0.139 | p 0.935
+   ridge1    R2cv -33.903 | chance 95% -2.238 | p 0.254
+   ridge10   R2cv -23.817 | chance 95% -0.261 | p 0.786
+   ridge100  R2cv -0.716 | chance 95% +0.066 | p 0.617
+   top single-feature R2cv (linear, leave-group-out) and Spearman rho:
+                R2cv_uni    rho
+sealed_v           0.153 -0.403
+act_fog_sum        0.103  0.248
+act_vent_sum      -0.017  0.309
+ah_rise_day       -0.076  0.147
+act_co2_sum       -0.112 -0.112
+ah_rise_sealed    -0.114 -0.148
+vpd_night         -0.117 -0.046
+vpd_mean          -0.126 -0.133
+
+=== ALL train W: n=400, groups=32, mean +0.014, sd 0.108
+   best1     R2cv -0.025 | chance 95% +0.009 | p 0.752
+   ridge1    R2cv -0.061 | chance 95% -0.027 | p 0.554
+   ridge10   R2cv -0.049 | chance 95% -0.018 | p 0.554
+   ridge100  R2cv -0.022 | chance 95% -0.004 | p 0.396
+   top single-feature R2cv (linear, leave-group-out) and Spearman rho:
+                 R2cv_uni    rho
+rin_b               0.003 -0.144
+rin_a               0.003 -0.125
+et_rad              0.002 -0.149
+rin_c               0.002 -0.136
+et_combo            0.001 -0.161
+act_heating_sum     0.001 -0.088
+ah_rise_day         0.001  0.184
+dT_in               0.000  0.143
+
+=== ALL train LR: n=400, groups=32, mean +0.022, sd 0.114
+   best1     R2cv -0.027 | chance 95% +0.013 | p 0.851
+   ridge1    R2cv -0.060 | chance 95% -0.028 | p 0.545
+   ridge10   R2cv -0.044 | chance 95% -0.020 | p 0.436
+   ridge100  R2cv -0.020 | chance 95% -0.003 | p 0.386
+   top single-feature R2cv (linear, leave-group-out) and Spearman rho:
+                 R2cv_uni    rho
+act_heating_sum     0.008 -0.079
+ah_rise_day         0.007  0.190
+rin_c               0.005 -0.112
+rin_b               0.005 -0.109
+act_circfan_sum     0.004 -0.087
+et_rad              0.004 -0.109
+rin_a               0.003 -0.089
+et_combo            0.001 -0.101
+
+sealed (vent 0 & circfan<5 >= 18 h) training records: 97; W mean high +0.042 (n 31) vs normal +0.017 (n 66)
+W(high) distribution: [-1.147 -0.162 -0.034  0.075  0.243  0.409  0.804]

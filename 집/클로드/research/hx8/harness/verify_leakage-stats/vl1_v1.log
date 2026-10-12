@@ -1,0 +1,44 @@
+=== (1) cert selection leak at d=1: anchor vs target's own boundary value ===
+  prev d=1 n 17 | |anc - own0h| median 0.0210 max 0.1800 | RMSE q 0.289 E1 0.122 own0h-as-predictor 0.154 E4p 0.125
+  next d=1 n 18 | |anc - own23h| median 0.0135 max 0.1800 | RMSE q 0.265 E1 0.131 own23h-as-predictor 0.129 E4p 0.126
+  all OOF recs q>=1 (n 30): own 0h-as-predictor RMSE 0.154 vs q 0.441
+  all OOF recs q>=1 (n 30): own 23h-as-predictor RMSE 0.171 vs q 0.441
+
+=== (2) baseline fairness: in-between days seen by model? (DIAG10 fold differs from target => label in training) ===
+  prev d=2 n 9 | between-day label seen by model: 5/9 | q RMSE seen 0.188 | q RMSE hidden 0.151 (n 4)
+  prev d=3 n 4 | between-day label seen by model: 3/4 | q RMSE seen 0.232 | q RMSE hidden 0.215 (n 1)
+  prev d=4 n 2 | between-day label seen by model: 2/2 | q RMSE seen 0.284
+  next d=2 n 9 | between-day label seen by model: 5/9 | q RMSE seen 0.258 | q RMSE hidden 0.195 (n 4)
+  next d=3 n 5 | between-day label seen by model: 4/5 | q RMSE seen 0.276 | q RMSE hidden 0.255 (n 1)
+  next d=4 n 3 | between-day label seen by model: 3/3 | q RMSE seen 0.307
+  prev d=1 anchor record seen by model 10/17 | q RMSE seen 0.273 hidden 0.310
+  next d=1 anchor record seen by model 11/18 | q RMSE seen 0.287 hidden 0.228
+
+=== (3) concentration of d=1 gains (ΔSSE vs q) ===
+  prev d=1 E1: total ΔSSE -1.163 | top1 comp share 0.38 top2 0.60 | comps improved 7/9 | without top2 comps: RMSE q 0.190 vs E1 0.074
+     |anc-q| median 0.211 ; F47_227 |anc-q13| = 0.059
+     small-gap cases |anc-q|<.15: n 6 RMSE q 0.067 E1 0.071
+  next d=1 E4p: total ΔSSE -0.981 | top1 comp share 0.31 top2 0.57 | comps improved 6/9 | without top2 comps: RMSE q 0.231 vs E4p 0.143
+     |anc-q| median 0.241 ; F47_227 |anc-q13| = 0.059
+     small-gap cases |anc-q|<.15: n 5 RMSE q 0.099 E4p 0.078
+  next d=1 E1: total ΔSSE -0.960 | top1 comp share 0.32 top2 0.58 | comps improved 6/9 | without top2 comps: RMSE q 0.231 vs E1 0.150
+     |anc-q| median 0.241 ; F47_227 |anc-q13| = 0.059
+     small-gap cases |anc-q|<.15: n 5 RMSE q 0.099 E1 0.080
+
+=== (4) number+calendar next d=1 (Sq) — the non-EC-selected support for F47_227 ===
+    rec  seg      ra agree     y     q   anc  own23   E4h
+F13_116    1 F13_118  True 0.937 1.018 0.930  0.951 0.946
+F13_118    1 F13_120  True 1.102 1.084 1.227  1.287 1.201
+F13_125    1 F13_127  True 1.495 1.404 1.448  1.454 1.440
+F13_132    2 F13_134 False 0.870 1.241 0.760  0.942 0.847
+F13_133    2 F13_135  True 0.979 1.234 0.969  0.975 1.017
+F13_135    2 F13_137  True 1.013 1.136 0.965  0.970 0.996
+F13_137    2 F13_139  True 1.076 1.290 1.048  1.068 1.092
+F47_132    2 F47_134   NaN 2.712 1.241 2.806  2.771 2.524
+F47_136    2 F47_138   NaN 1.653 1.870 1.745  1.731 1.768
+F47_139    2 F47_141  True 1.684 1.632 1.869  1.903 1.826
+F47_141    2 F47_143   NaN 1.866 1.781 2.173  2.198 2.103
+  ΔSSE by seg: {1: -0.002, 2: -2.357} | by rec top3: [['F47_132', -2.128], ['F13_132', -0.137], ['F13_133', -0.064]]
+  non-cert-agreeing cases n 4 | RMSE q 0.767 E4h 0.162
+  prev d=1 numcal agree==True n 7 E1 RMSE 0.103 vs q 0.245 | not agree n 11 E1 0.762 q 0.402
+  next d=1 numcal agree==True n 7 E1 0.089 q 0.143 | not agree n 4 E1 0.176 q 0.767

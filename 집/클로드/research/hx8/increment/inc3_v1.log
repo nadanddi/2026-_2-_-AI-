@@ -1,0 +1,90 @@
+(a) per-seed model: RMSE(X) - RMSE(M_seed), S1, by direction/k-group
+   bwd k[1] n 22 eps 7 | seed47: M 0.387 P -0.231 D -0.218 BD -0.223 | seed1414: M 0.385 P -0.229 D -0.216 BD -0.221 | seed6464: M 0.384 P -0.228 D -0.215 BD -0.220
+   bwd k[2] n 18 eps 7 | seed47: M 0.411 P -0.093 D -0.091 BD -0.090 | seed1414: M 0.410 P -0.091 D -0.090 BD -0.089 | seed6464: M 0.407 P -0.089 D -0.088 BD -0.087
+   bwd k[3] n 12 eps 5 | seed47: M 0.467 P -0.056 D -0.072 BD -0.059 | seed1414: M 0.466 P -0.054 D -0.071 BD -0.058 | seed6464: M 0.463 P -0.052 D -0.069 BD -0.057
+   bwd k[4] n 8 eps 3 | seed47: M 0.552 P -0.031 D -0.048 BD -0.033 | seed1414: M 0.550 P -0.029 D -0.046 BD -0.031 | seed6464: M 0.549 P -0.027 D -0.045 BD -0.031
+   bwd k[1, 2, 3, 4] n 60 eps 7 | seed47: M 0.436 P -0.105 D -0.110 BD -0.104 | seed1414: M 0.434 P -0.103 D -0.108 BD -0.103 | seed6464: M 0.432 P -0.101 D -0.106 BD -0.101
+   fwd k[2] n 15 eps 7 | seed47: M 0.395 P +0.090 D +0.142 BD +0.005 | seed1414: M 0.393 P +0.092 D +0.144 BD +0.005 | seed6464: M 0.395 P +0.090 D +0.142 BD +0.006
+   fwd k[3] n 10 eps 4 | seed47: M 0.406 P +0.159 D +0.239 BD +0.006 | seed1414: M 0.404 P +0.161 D +0.241 BD +0.007 | seed6464: M 0.406 P +0.159 D +0.239 BD +0.006
+   fwd k[4] n 7 eps 3 | seed47: M 0.376 P +0.309 D +0.424 BD +0.024 | seed1414: M 0.371 P +0.313 D +0.429 BD +0.022 | seed6464: M 0.374 P +0.310 D +0.425 BD +0.022
+   fwd k[2, 3, 4] n 32 eps 7 | seed47: M 0.394 P +0.164 D +0.242 BD +0.009 | seed1414: M 0.392 P +0.167 D +0.245 BD +0.009 | seed6464: M 0.394 P +0.165 D +0.242 BD +0.009
+
+(b) leave-one-episode-out: RMSE(D) - RMSE(M) and RMSE(BD) - RMSE(M) (seed-mean M), S1
+   bwd k[1, 2, 3, 4]: -F13_114(14) D -0.142 BD -0.130; -F13_128(11) D -0.100 BD -0.077; -F13_143(3) D -0.108 BD -0.103; -F13_151(6) D -0.110 BD -0.103; -F47_168(6) D -0.108 BD -0.098; -F13_241(3) D -0.105 BD -0.099; -F47_132(17) D -0.068 BD -0.056
+   bwd k[3, 4]: -F13_114(6) D -0.102 BD -0.069; -F13_128(5) D -0.038 BD +0.013; -F47_168(1) D -0.054 BD -0.035; -F47_132(7) D -0.018 BD +0.018; -F13_151(1) D -0.062 BD -0.049
+   fwd k[2, 3, 4]: -F13_114(6) D +0.286 BD +nan; -F13_128(1) D +0.249 BD +0.010; -F13_143(1) D +0.247 BD +0.010; -F13_151(8) D +0.215 BD +nan; -F47_168(3) D +0.232 BD +0.004; -F13_241(1) D +0.265 BD +0.008; -F47_132(12) D +0.358 BD +0.044
+
+(c) per-k episode bootstrap CI of RMSE(X)-RMSE(M), S1 (X = D, Dm, BD from INC2)
+   bwd k1 n 22 eps 7 | P -0.229 [-0.376,-0.069] win 0.73 | D -0.216 [-0.365,-0.057] win 0.64 | BD -0.224 [-0.370,-0.064] win 0.73
+   bwd k2 n 18 eps 7 | P -0.091 [-0.215,-0.016] win 0.61 | D -0.090 [-0.216,-0.017] win 0.67 | BD -0.087 [-0.210,-0.021] win 0.67
+   bwd k3 n 12 eps 5 | P -0.054 [-0.117,+0.162] win 0.50 | D -0.070 [-0.132,+0.104] win 0.50 | BD -0.061 [-0.146,+0.093] win 0.50
+   bwd k4 n 8 eps 3 | P -0.029 [-0.118,+0.295] win 0.38 | D -0.046 [-0.283,+0.179] win 0.50 | BD -0.030 [-0.200,+0.179] win 0.50
+   fwd k2 n 15 eps 7 | P +0.091 [-0.110,+0.200] win 0.53 | D +0.143 [-0.067,+0.246] win 0.27 | BD +0.006 [-0.015,+0.026] win 0.53
+   fwd k3 n 10 eps 4 | P +0.160 [-0.008,+0.242] win 0.50 | D +0.240 [+0.114,+0.339] win 0.30 | BD +0.007 [+0.000,+0.024] win 0.00
+   fwd k4 n 7 eps 3 | P +0.311 [-0.111,+0.474] win 0.29 | D +0.426 [+0.379,+0.488] win 0.00 | BD +0.000 [+0.000,+0.000] win 0.00
+
+(d) is the gain just bias correction? M+bias (bias = mean(y-M) over S1 cases of same dir,k outside episode)
+   bwd k1: n 22 mean y 1.466, mean M 1.300, mean anchor 1.483 | RMSE M 0.385, M+bias 0.364, P 0.156, D 0.169, BD 0.161 | corr(y,anchor) +0.94, corr(y,M) +0.48
+   bwd k2: n 18 mean y 1.436, mean M 1.292, mean anchor 1.497 | RMSE M 0.409, M+bias 0.409, P 0.319, D 0.320, BD 0.322 | corr(y,anchor) +0.71, corr(y,M) +0.49
+   bwd k3: n 12 mean y 1.367, mean M 1.279, mean anchor 1.511 | RMSE M 0.465, M+bias 0.517, P 0.411, D 0.395, BD 0.404 | corr(y,anchor) +0.69, corr(y,M) +0.50
+   bwd k4: n 8 mean y 1.376, mean M 1.274, mean anchor 1.562 | RMSE M 0.550, M+bias 0.633, P 0.521, D 0.504, BD 0.520 | corr(y,anchor) +0.60, corr(y,M) +0.43
+   fwd k2: n 15 mean y 1.579, mean M 1.339, mean anchor 1.599 | RMSE M 0.394, M+bias 0.345, P 0.485, D 0.537, BD 0.400 | corr(y,anchor) +0.25, corr(y,M) +0.49
+   fwd k3: n 10 mean y 1.504, mean M 1.352, mean anchor 1.609 | RMSE M 0.405, M+bias 0.441, P 0.565, D 0.645, BD 0.412 | corr(y,anchor) +0.36, corr(y,M) +0.59
+   fwd k4: n 7 mean y 1.468, mean M 1.415, mean anchor 1.723 | RMSE M 0.374, M+bias 0.499, P 0.684, D 0.800, BD 0.374 | corr(y,anchor) +0.15, corr(y,M) +0.77
+
+(e) forward k1 input-increment I vs constant I0, per case (S1)
+      a       t      ep   anc    yt     I    I0    eI   eI0
+F13_118 F13_120 F13_114 1.287 1.250 1.263 1.296 0.013 0.046
+F13_123 F13_125 F13_114 1.522 1.495 1.526 1.531 0.031 0.036
+F13_127 F13_217 F13_114 1.652 1.693 1.605 1.661 0.088 0.032
+F13_135 F13_137 F13_128 0.970 1.076 0.980 0.981 0.096 0.095
+F13_137 F13_139 F13_128 1.068 1.303 1.039 1.079 0.265 0.225
+F13_143 F47_147 F13_143 1.854 1.750 1.828 1.871 0.078 0.120
+F13_151 F47_154 F13_151 1.706 1.621 1.769 1.739 0.148 0.118
+F13_153 F47_157 F13_151 1.545 1.211 1.539 1.578 0.329 0.367
+F13_175 F47_177 F47_168 1.038 1.487 1.450 1.042 0.036 0.445
+F13_241 F47_151 F13_241 1.374 1.313 1.398 1.386 0.085 0.073
+F47_134 F47_136 F47_132 1.659 1.653 1.733 1.691 0.081 0.038
+F47_136 F47_138 F47_132 1.731 1.710 1.766 1.763 0.056 0.052
+F47_138 F47_139 F47_132 1.684 1.684 1.717 1.716 0.033 0.031
+F47_139 F47_141 F47_132 1.903 1.866 1.954 1.935 0.088 0.069
+F47_143 F47_145 F47_132 2.331 2.142 2.359 2.363 0.218 0.221
+F47_147 F13_146 F13_143 1.631 1.496 1.606 1.648 0.110 0.152
+F47_151 F13_243 F13_241 1.588 1.719 1.600 1.600 0.119 0.119
+F47_154 F13_153 F13_151 1.666 1.637 1.658 1.699 0.021 0.062
+F47_157 F13_156 F13_151 0.795 0.751 0.798 0.828 0.047 0.077
+F47_174 F13_175 F47_168 0.921 1.270 1.331 0.925 0.061 0.345
+F47_177 F13_178 F47_168 1.474 1.842 1.907 1.478 0.065 0.364
+   all: RMSE I 0.126 vs I0 0.194 | without episode of F13_175 (F47_168): I 0.135 vs I0 0.137 (n 18)
+C:\work\farmai\집\클로드\research\hx8\increment\inc3_robustness_preview_v1.py:97: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  Mm = Ms.mean(1)
+
+(f) normal anchor (<1) -> model-high target (>=.9), forward k=2: n 13, episodes 6, truly high (>=1) 7
+   RMSE M 0.291, P(anchor) 0.175, half-half 0.175; mean y 0.942, mean M 1.087, mean anchor 0.811
+      a       t   anc    yt     m      ep
+F13_114 F13_116 0.809 0.937 1.018 F13_114
+F13_116 F13_120 0.951 1.250 1.154 F13_114
+F13_128 F13_132 0.802 0.870 1.241 F13_128
+F13_130 F13_133 0.747 0.979 1.234 F13_128
+F13_132 F13_135 0.942 1.013 1.136 F13_128
+F13_133 F13_137 0.975 1.076 1.290 F13_128
+F13_156 F47_161 0.709 0.646 1.155 F13_151
+F13_172 F13_175 0.902 1.270 0.951 F47_168
+F13_174 F13_177 0.961 1.005 0.996 F47_242
+F13_214 F13_118 0.907 1.102 1.084 F13_114
+F47_126 F47_130 0.467 0.491 1.055 F47_124
+F47_171 F47_174 0.868 1.053 0.911 F47_168
+F47_212 F47_216 0.504 0.556 0.902 F47_124
+
+(g) eval preview (drift = mean(y_t - anchor) over all high-anchor training cases; w = LS blend weight on S1 cases; 13th = submission_22 day mean)
+   F47_227 (bwd k1 from F47_229 0h 1.716): drift -0.015 (sd 0.150, n 25) -> D 1.701 | 13th 1.657 | w 0.85 -> blend 1.695 (change +0.038)
+   F47_225 (bwd k2 from F47_229 0h 1.716): drift -0.055 (sd 0.285, n 23) -> D 1.661 | 13th 1.688 | w 0.86 -> blend 1.664 (change -0.023)
+   F47_223 (bwd k3 from F47_229 0h 1.716): drift -0.131 (sd 0.330, n 18) -> D 1.585 | 13th 1.431 | w 0.81 -> blend 1.556 (change +0.126)
+   F47_221 (bwd k4 from F47_229 0h 1.716): drift -0.201 (sd 0.367, n 16) -> D 1.515 | 13th 1.401 | w 0.81 -> blend 1.493 (change +0.092)
+   F13_221 (fwd k2 from F13_217 23h 1.663): drift -0.021 (sd 0.470, n 17) -> D 1.642 | 13th 1.615 | w 0.14 -> blend 1.619 (change +0.004)
+   F13_223 (fwd k3 from F13_217 23h 1.663): drift -0.173 (sd 0.599, n 11) -> D 1.490 | 13th 1.668 | w 0.00 -> blend 1.668 (change -0.000)
+   F13_225 (fwd k4 from F13_217 23h 1.663): drift -0.328 (sd 0.642, n 9) -> D 1.335 | 13th 1.796 | w 0.00 -> blend 1.796 (change -0.000)
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\hx8\increment\inc3_robustness_preview_v1.py", line 122, in <module>
+    print(f"   F13_237 (fwd k2 from F13_233 23h {EC[idx['F13_233'],23]:.3f}, normal anchor): 13th {p13['F13_237']:.3f}  \u2014 see (f) for what normal->high cases say")
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2014' in position 71: illegal multibyte sequence

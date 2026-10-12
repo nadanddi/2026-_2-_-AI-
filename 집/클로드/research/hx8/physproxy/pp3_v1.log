@@ -1,0 +1,61 @@
+  qday = QH.mean(1)
+(c) consecutive same-house pairs starting high (a>=1.0): 18 (cert 18) | mean d -0.001, within +0.079, midnight jump -0.029
+    model OOF: corr(qwithin, within) +0.39, corr(qd, d) -0.14  (n with OOF 15)
+    null 95% max|rho| (record perm, 21 feats): within 0.71, d 0.72
+                  rho_within  rho_d  rho_within_resid
+feat                                                 
+AH                      0.47   0.55              0.01
+vent_resp               0.47   0.78             -0.30
+dT_per_rad             -0.45  -0.63             -0.32
+co2_draw                0.44   0.04              0.24
+co2_drop               -0.41  -0.40              0.05
+vpd_day                -0.39  -0.35             -0.09
+bowen_inv               0.38  -0.02              0.04
+co2_draw_per_rad        0.36   0.05              0.13
+vpd_x_rad              -0.34  -0.39             -0.09
+AH_night_slope          0.31   0.71              0.24
+Ebal2_per_rad           0.20  -0.20              0.14
+dAH_closed_day          0.18  -0.38              0.39
+AH_rise                 0.16  -0.22             -0.12
+cond_hours              0.14   0.13              0.15
+dlnAH_dT                0.09  -0.10             -0.31
+Ebal2                   0.08  -0.29              0.07
+AHx_night               0.07  -0.10             -0.12
+AHx_day                 0.06  -0.19             -0.17
+radE_sum               -0.06  -0.12             -0.05
+Ebal05                 -0.03  -0.53              0.06
+AHx                     0.01  -0.12             -0.27
+
+(d) pseudo-eval cases (anchor k days before, chain of training high days): 13 | k counts {2: 7, 3: 3, 4: 3} | episodes 2
+    day-level RMSE by k (lower better); 'better_vs_M' = share of cases closer than model
+k                       2      3      4     all
+n                   7.000  3.000  3.000  13.000
+ep                  2.000  1.000  1.000   2.000
+M                   0.362  0.401  0.403   0.381
+P0                  0.420  0.607  0.766   0.561
+P1                  0.787  1.399  1.850   1.255
+B_P0                0.422  0.607  0.766   0.562
+B_P1                0.790  1.399  1.850   1.256
+P2_Ebal05           0.783  1.399  1.850   1.254
+P2_dAH_closed_day   0.789  1.399  1.850   1.255
+P2_vpd_x_rad        0.794  1.399  1.850   1.257
+P2_radE_sum         0.788  1.399  1.850   1.255
+P2_AHx              0.790  1.399  1.850   1.256
+P2_co2_draw         0.797  1.399  1.850   1.258
+P2_dT_per_rad       0.782  1.399  1.850   1.253
+P2_Ebal2            0.786  1.399  1.850   1.254
+P2m_Ebal05          0.783  1.399  1.850   1.254
+P2m_dAH_closed_day  0.788  1.399  1.850   1.255
+P2m_vpd_x_rad       0.787  1.399  1.850   1.255
+P2m_radE_sum        0.787  1.399  1.850   1.255
+P2m_AHx             0.789  1.399  1.850   1.256
+P2m_co2_draw        0.790  1.399  1.850   1.256
+P2m_dT_per_rad      0.782  1.399  1.850   1.253
+P2m_Ebal2           0.785  1.399  1.850   1.254
+
+    share closer than model (all k): {'P0': 0.38, 'P1': 0.15, 'B_P0': 0.38, 'B_P1': 0.08, 'P2_Ebal05': 0.15, 'P2_dAH_closed_day': 0.15, 'P2_vpd_x_rad': 0.08, 'P2_radE_sum': 0.15, 'P2_AHx': 0.08, 'P2_co2_draw': 0.08, 'P2_dT_per_rad': 0.15, 'P2_Ebal2': 0.15, 'P2m_Ebal05': 0.15, 'P2m_dAH_closed_day': 0.15, 'P2m_vpd_x_rad': 0.15, 'P2m_radE_sum': 0.15, 'P2m_AHx': 0.15, 'P2m_co2_draw': 0.08, 'P2m_dT_per_rad': 0.15, 'P2m_Ebal2': 0.15}
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\hx8\physproxy\pp3_increment_drift_v1.py", line 132, in <module>
+    m, lo, hi, pw = boot(c, "M"); print(f"    RMSE({c}) \u2212 RMSE(M): {m:+.3f} [{lo:+.3f}, {hi:+.3f}]  P(not better) {pw:.3f}")
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2212' in position 13: illegal multibyte sequence

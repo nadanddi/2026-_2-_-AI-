@@ -1,0 +1,494 @@
+Sq targets with calendar: 27 | cases 479 | segs [np.int64(1), np.int64(2), np.int64(3), np.int64(4)]
+Sq availability: target records per (k, m) [0 = none]
+mm  0   1   2   3   4   5   6   7   8   9   10
+kk                                            
+0    0  22  18  15  13  13  10   6   3   1   1
+1   22  18  14  11  10  10   7   4   2   0   0
+2   20  16  13  10   8   8   6   4   2   0   0
+3   18  13  12   8   6   6   4   2   0   0   0
+4   16  12  10   6   4   4   2   0   0   0   0
+5   10   7   5   3   2   2   0   0   0   0   0
+6    8   4   2   1   0   0   0   0   0   0   0
+7    5   3   2   1   0   0   0   0   0   0   0
+8    5   2   1   0   0   0   0   0   0   0   0
+9    3   1   0   0   0   0   0   0   0   0   0
+10   2   0   0   0   0   0   0   0   0   0   0
+Sq records:     rec  comp  day     y     q
+F13_116     1    3 0.937 1.018
+F13_118     1    4 1.102 1.084
+F13_120     1    5 1.250 1.154
+F13_125     1    8 1.495 1.404
+F47_130     1    8 0.491 1.055
+F13_217     1   10 1.693 1.190
+F47_132     2    1 2.712 1.241
+F13_132     2    3 0.870 1.241
+F47_136     2    3 1.653 1.870
+F13_133     2    4 0.979 1.234
+F47_138     2    4 1.710 1.595
+F13_135     2    5 1.013 1.136
+F47_139     2    5 1.684 1.632
+F13_137     2    6 1.076 1.290
+F47_141     2    6 1.866 1.781
+F47_145     2    8 2.142 1.599
+F13_143     2    9 1.530 1.245
+F47_147     2   10 1.750 1.432
+F13_146     2   11 1.496 1.389
+F47_151     3    2 1.313 1.344
+F13_151     3    5 1.677 1.381
+F47_154     3    6 1.621 1.380
+F13_153     3    7 1.637 1.493
+F13_156     3    9 0.751 1.141
+F47_161     3   11 0.646 1.155
+F47_177     4    7 1.487 1.026
+F13_178     4    8 1.842 1.081
+
+================ Sq (seed-mean q, cross-fit leave-one-seg-out) ================
+  [prev only k=1]
+    E0   n   22 rec 22 seg 4 | RMSE 0.333 (q 0.333,   +0%) | rec-avg 0.333 (q 0.333) | better 0.00 | bias -0.074 | P(not better) 1.00
+    E1   n   22 rec 22 seg 4 | RMSE 0.419 (q 0.333,  +26%) | rec-avg 0.419 (q 0.333) | better 0.59 | bias +0.145 | P(not better) 0.80
+    E1c  n   22 rec 22 seg 4 | RMSE 0.419 (q 0.333,  +26%) | rec-avg 0.419 (q 0.333) | better 0.59 | bias +0.145 | P(not better) 0.81
+    E3   n   22 rec 22 seg 4 | RMSE 0.366 (q 0.333,  +10%) | rec-avg 0.366 (q 0.333) | better 0.50 | bias +0.112 | P(not better) 0.88
+    E3y  n   22 rec 22 seg 4 | RMSE 0.393 (q 0.333,  +18%) | rec-avg 0.393 (q 0.333) | better 0.36 | bias +0.221 | P(not better) 0.76
+    E4   n   22 rec 22 seg 4 | RMSE 0.358 (q 0.333,   +7%) | rec-avg 0.358 (q 0.333) | better 0.68 | bias +0.032 | P(not better) 0.73
+    E7   n   22 rec 22 seg 4 | RMSE 0.372 (q 0.333,  +12%) | rec-avg 0.372 (q 0.333) | better 0.45 | bias +0.123 | P(not better) 0.78
+    E6   n   22 rec 22 seg 4 | RMSE 0.409 (q 0.333,  +23%) | rec-avg 0.409 (q 0.333) | better 0.59 | bias +0.073 | P(not better) 0.80
+  [prev only k=2]
+    E0   n   20 rec 20 seg 4 | RMSE 0.350 (q 0.350,   +0%) | rec-avg 0.350 (q 0.350) | better 0.00 | bias -0.081 | P(not better) 1.00
+    E1   n   20 rec 20 seg 4 | RMSE 0.686 (q 0.350,  +96%) | rec-avg 0.686 (q 0.350) | better 0.35 | bias +0.281 | P(not better) 1.00
+    E1c  n   20 rec 20 seg 4 | RMSE 0.686 (q 0.350,  +96%) | rec-avg 0.686 (q 0.350) | better 0.35 | bias +0.281 | P(not better) 1.00
+    E3   n   20 rec 20 seg 4 | RMSE 0.382 (q 0.350,   +9%) | rec-avg 0.382 (q 0.350) | better 0.50 | bias +0.109 | P(not better) 0.80
+    E3y  n   20 rec 20 seg 4 | RMSE 0.403 (q 0.350,  +15%) | rec-avg 0.403 (q 0.350) | better 0.40 | bias +0.213 | P(not better) 0.76
+    E4   n   20 rec 20 seg 4 | RMSE 0.350 (q 0.350,   +0%) | rec-avg 0.350 (q 0.350) | better 0.00 | bias -0.081 | P(not better) 1.00
+    E7   n   20 rec 20 seg 4 | RMSE 0.382 (q 0.350,   +9%) | rec-avg 0.382 (q 0.350) | better 0.50 | bias +0.109 | P(not better) 0.79
+    E6   n   20 rec 20 seg 4 | RMSE 0.667 (q 0.350,  +90%) | rec-avg 0.667 (q 0.350) | better 0.30 | bias +0.141 | P(not better) 1.00
+  [prev only k=3-4]
+    E0   n   34 rec 19 seg 4 | RMSE 0.346 (q 0.346,   +0%) | rec-avg 0.353 (q 0.353) | better 0.00 | bias -0.065 | P(not better) 1.00
+    E1   n   34 rec 19 seg 4 | RMSE 0.694 (q 0.346, +101%) | rec-avg 0.754 (q 0.353) | better 0.38 | bias +0.292 | P(not better) 1.00
+    E1c  n   34 rec 19 seg 4 | RMSE 0.694 (q 0.346, +101%) | rec-avg 0.754 (q 0.353) | better 0.38 | bias +0.292 | P(not better) 1.00
+    E3   n   34 rec 19 seg 4 | RMSE 0.351 (q 0.346,   +1%) | rec-avg 0.359 (q 0.353) | better 0.53 | bias +0.120 | P(not better) 0.70
+    E3y  n   34 rec 19 seg 4 | RMSE 0.420 (q 0.346,  +21%) | rec-avg 0.414 (q 0.353) | better 0.41 | bias +0.227 | P(not better) 0.95
+    E4   n   34 rec 19 seg 4 | RMSE 0.346 (q 0.346,   +0%) | rec-avg 0.353 (q 0.353) | better 0.00 | bias -0.065 | P(not better) 1.00
+    E7   n   34 rec 19 seg 4 | RMSE 0.351 (q 0.346,   +1%) | rec-avg 0.359 (q 0.353) | better 0.53 | bias +0.120 | P(not better) 0.70
+    E6   n   34 rec 19 seg 4 | RMSE 0.656 (q 0.346,  +90%) | rec-avg 0.724 (q 0.353) | better 0.26 | bias +0.042 | P(not better) 1.00
+  [prev only k=5-10]
+    E0   n   33 rec 11 seg 3 | RMSE 0.356 (q 0.356,   +0%) | rec-avg 0.342 (q 0.342) | better 0.00 | bias -0.082 | P(not better) 1.00
+    E1   n   33 rec 11 seg 3 | RMSE 0.707 (q 0.356,  +98%) | rec-avg 0.787 (q 0.342) | better 0.39 | bias +0.384 | P(not better) 0.96
+    E1c  n   33 rec 11 seg 3 | RMSE 0.707 (q 0.356,  +98%) | rec-avg 0.787 (q 0.342) | better 0.39 | bias +0.384 | P(not better) 0.96
+    E3   n   33 rec 11 seg 3 | RMSE 0.321 (q 0.356,  -10%) | rec-avg 0.311 (q 0.342) | better 0.70 | bias +0.102 | P(not better) 0.38
+    E3y  n   33 rec 11 seg 3 | RMSE 0.414 (q 0.356,  +16%) | rec-avg 0.382 (q 0.342) | better 0.52 | bias +0.209 | P(not better) 0.71
+    E4   n   33 rec 11 seg 3 | RMSE 0.388 (q 0.356,   +9%) | rec-avg 0.366 (q 0.342) | better 0.09 | bias -0.058 | P(not better) 0.71
+    E7   n   33 rec 11 seg 3 | RMSE 0.326 (q 0.356,   -9%) | rec-avg 0.315 (q 0.342) | better 0.70 | bias +0.104 | P(not better) 0.31
+    E6   n   33 rec 11 seg 3 | RMSE 0.566 (q 0.356,  +59%) | rec-avg 0.714 (q 0.342) | better 0.33 | bias -0.065 | P(not better) 1.00
+  [next only m=1]
+    E0   n   22 rec 22 seg 4 | RMSE 0.410 (q 0.410,   +0%) | rec-avg 0.410 (q 0.410) | better 0.00 | bias -0.107 | P(not better) 1.00
+    E1n  n   22 rec 22 seg 4 | RMSE 0.396 (q 0.410,   -3%) | rec-avg 0.396 (q 0.410) | better 0.41 | bias +0.083 | P(not better) 0.37
+    E1c  n   22 rec 22 seg 4 | RMSE 0.396 (q 0.410,   -3%) | rec-avg 0.396 (q 0.410) | better 0.41 | bias +0.083 | P(not better) 0.33
+    E3   n   22 rec 22 seg 4 | RMSE 0.420 (q 0.410,   +3%) | rec-avg 0.420 (q 0.410) | better 0.45 | bias +0.085 | P(not better) 0.73
+    E3y  n   22 rec 22 seg 4 | RMSE 0.446 (q 0.410,   +9%) | rec-avg 0.446 (q 0.410) | better 0.36 | bias +0.189 | P(not better) 0.68
+    E4n  n   22 rec 22 seg 4 | RMSE 0.416 (q 0.410,   +2%) | rec-avg 0.416 (q 0.410) | better 0.50 | bias -0.064 | P(not better) 0.69
+  [next only m=2-4]
+    E0   n   46 rec 19 seg 3 | RMSE 0.437 (q 0.437,   +0%) | rec-avg 0.421 (q 0.421) | better 0.00 | bias -0.074 | P(not better) 1.00
+    E1n  n   46 rec 19 seg 3 | RMSE 0.594 (q 0.437,  +36%) | rec-avg 0.583 (q 0.421) | better 0.26 | bias +0.194 | P(not better) 1.00
+    E1c  n   46 rec 19 seg 3 | RMSE 0.594 (q 0.437,  +36%) | rec-avg 0.583 (q 0.421) | better 0.26 | bias +0.194 | P(not better) 1.00
+    E3   n   46 rec 19 seg 3 | RMSE 0.463 (q 0.437,   +6%) | rec-avg 0.441 (q 0.421) | better 0.28 | bias +0.134 | P(not better) 0.96
+    E3y  n   46 rec 19 seg 3 | RMSE 0.491 (q 0.437,  +12%) | rec-avg 0.479 (q 0.421) | better 0.20 | bias +0.224 | P(not better) 0.97
+    E4n  n   46 rec 19 seg 3 | RMSE 0.442 (q 0.437,   +1%) | rec-avg 0.435 (q 0.421) | better 0.39 | bias -0.055 | P(not better) 0.71
+  [next only m=5-10]
+    E0   n   34 rec 13 seg 3 | RMSE 0.643 (q 0.643,   +0%) | rec-avg 0.440 (q 0.440) | better 0.00 | bias -0.165 | P(not better) 1.00
+    E1n  n   34 rec 13 seg 3 | RMSE 0.683 (q 0.643,   +6%) | rec-avg 0.584 (q 0.440) | better 0.26 | bias +0.158 | P(not better) 0.96
+    E1c  n   34 rec 13 seg 3 | RMSE 0.683 (q 0.643,   +6%) | rec-avg 0.584 (q 0.440) | better 0.26 | bias +0.158 | P(not better) 0.95
+    E3   n   34 rec 13 seg 3 | RMSE 0.651 (q 0.643,   +1%) | rec-avg 0.485 (q 0.440) | better 0.21 | bias +0.044 | P(not better) 1.00
+    E3y  n   34 rec 13 seg 3 | RMSE 0.634 (q 0.643,   -1%) | rec-avg 0.509 (q 0.440) | better 0.18 | bias +0.135 | P(not better) 0.42
+    E4n  n   34 rec 13 seg 3 | RMSE 0.654 (q 0.643,   +2%) | rec-avg 0.456 (q 0.440) | better 0.00 | bias -0.116 | P(not better) 1.00
+  [two-sided gap<=4]
+    E0   n   85 rec 19 seg 4 | RMSE 0.284 (q 0.284,   +0%) | rec-avg 0.283 (q 0.283) | better 0.00 | bias -0.016 | P(not better) 1.00
+    E1   n   85 rec 19 seg 4 | RMSE 0.607 (q 0.284, +114%) | rec-avg 0.562 (q 0.283) | better 0.46 | bias +0.290 | P(not better) 0.94
+    E1n  n   85 rec 19 seg 4 | RMSE 0.498 (q 0.284,  +75%) | rec-avg 0.458 (q 0.283) | better 0.28 | bias +0.159 | P(not better) 0.94
+    E1c  n   85 rec 19 seg 4 | RMSE 0.514 (q 0.284,  +81%) | rec-avg 0.477 (q 0.283) | better 0.44 | bias +0.196 | P(not better) 0.93
+    E2   n   85 rec 19 seg 4 | RMSE 0.486 (q 0.284,  +71%) | rec-avg 0.449 (q 0.283) | better 0.41 | bias +0.203 | P(not better) 0.93
+    E2w  n   85 rec 19 seg 4 | RMSE 0.284 (q 0.284,   +0%) | rec-avg 0.283 (q 0.283) | better 0.00 | bias -0.016 | P(not better) 1.00
+    E9   n   85 rec 19 seg 4 | RMSE 0.446 (q 0.284,  +57%) | rec-avg 0.425 (q 0.283) | better 0.27 | bias +0.010 | P(not better) 0.99
+    E3   n   85 rec 19 seg 4 | RMSE 0.347 (q 0.284,  +22%) | rec-avg 0.331 (q 0.283) | better 0.38 | bias +0.197 | P(not better) 0.94
+    E3y  n   85 rec 19 seg 4 | RMSE 0.405 (q 0.284,  +43%) | rec-avg 0.376 (q 0.283) | better 0.28 | bias +0.271 | P(not better) 0.94
+    E4   n   85 rec 19 seg 4 | RMSE 0.323 (q 0.284,  +14%) | rec-avg 0.313 (q 0.283) | better 0.28 | bias +0.040 | P(not better) 0.94
+    E4n  n   85 rec 19 seg 4 | RMSE 0.307 (q 0.284,   +8%) | rec-avg 0.299 (q 0.283) | better 0.35 | bias +0.015 | P(not better) 0.70
+    E4t  n   85 rec 19 seg 4 | RMSE 0.319 (q 0.284,  +12%) | rec-avg 0.311 (q 0.283) | better 0.29 | bias +0.026 | P(not better) 0.94
+    E7   n   85 rec 19 seg 4 | RMSE 0.357 (q 0.284,  +26%) | rec-avg 0.338 (q 0.283) | better 0.39 | bias +0.194 | P(not better) 0.94
+    E6   n   85 rec 19 seg 4 | RMSE 0.570 (q 0.284, +101%) | rec-avg 0.537 (q 0.283) | better 0.38 | bias +0.187 | P(not better) 0.98
+  [two-sided gap 5-7]
+    E0   n  123 rec 18 seg 3 | RMSE 0.256 (q 0.256,   +0%) | rec-avg 0.270 (q 0.270) | better 0.00 | bias -0.019 | P(not better) 1.00
+    E1   n  123 rec 18 seg 3 | RMSE 0.737 (q 0.256, +188%) | rec-avg 0.668 (q 0.270) | better 0.36 | bias +0.358 | P(not better) 0.96
+    E1n  n  123 rec 18 seg 3 | RMSE 0.582 (q 0.256, +128%) | rec-avg 0.550 (q 0.270) | better 0.28 | bias +0.263 | P(not better) 0.96
+    E1c  n  123 rec 18 seg 3 | RMSE 0.645 (q 0.256, +152%) | rec-avg 0.623 (q 0.270) | better 0.37 | bias +0.299 | P(not better) 0.97
+    E2   n  123 rec 18 seg 3 | RMSE 0.601 (q 0.256, +135%) | rec-avg 0.566 (q 0.270) | better 0.33 | bias +0.295 | P(not better) 0.96
+    E2w  n  123 rec 18 seg 3 | RMSE 0.256 (q 0.256,   +0%) | rec-avg 0.270 (q 0.270) | better 0.00 | bias -0.019 | P(not better) 1.00
+    E9   n  123 rec 18 seg 3 | RMSE 0.571 (q 0.256, +123%) | rec-avg 0.544 (q 0.270) | better 0.15 | bias +0.149 | P(not better) 1.00
+    E3   n  123 rec 18 seg 3 | RMSE 0.322 (q 0.256,  +26%) | rec-avg 0.324 (q 0.270) | better 0.30 | bias +0.205 | P(not better) 0.84
+    E3y  n  123 rec 18 seg 3 | RMSE 0.378 (q 0.256,  +48%) | rec-avg 0.386 (q 0.270) | better 0.26 | bias +0.262 | P(not better) 0.96
+    E4   n  123 rec 18 seg 3 | RMSE 0.288 (q 0.256,  +13%) | rec-avg 0.295 (q 0.270) | better 0.10 | bias +0.002 | P(not better) 0.74
+    E4n  n  123 rec 18 seg 3 | RMSE 0.268 (q 0.256,   +5%) | rec-avg 0.296 (q 0.270) | better 0.33 | bias +0.001 | P(not better) 0.84
+    E4t  n  123 rec 18 seg 3 | RMSE 0.349 (q 0.256,  +37%) | rec-avg 0.344 (q 0.270) | better 0.20 | bias +0.068 | P(not better) 1.00
+    E7   n  123 rec 18 seg 3 | RMSE 0.326 (q 0.256,  +27%) | rec-avg 0.324 (q 0.270) | better 0.33 | bias +0.198 | P(not better) 0.86
+    E6   n  123 rec 18 seg 3 | RMSE 0.704 (q 0.256, +175%) | rec-avg 0.662 (q 0.270) | better 0.20 | bias +0.189 | P(not better) 1.00
+  [two-sided gap 8+]
+    E0   n   60 rec 11 seg 1 | RMSE 0.268 (q 0.268,   +0%) | rec-avg 0.272 (q 0.272) | better 0.00 | bias -0.011 | P(not better) 1.00
+    E1   n   60 rec 11 seg 1 | RMSE 1.023 (q 0.268, +282%) | rec-avg 1.013 (q 0.272) | better 0.27 | bias +0.754 | P(not better) 1.00
+    E1n  n   60 rec 11 seg 1 | RMSE 0.479 (q 0.268,  +79%) | rec-avg 0.469 (q 0.272) | better 0.33 | bias +0.191 | P(not better) 1.00
+    E1c  n   60 rec 11 seg 1 | RMSE 0.932 (q 0.268, +248%) | rec-avg 0.916 (q 0.272) | better 0.33 | bias +0.565 | P(not better) 1.00
+    E2   n   60 rec 11 seg 1 | RMSE 0.750 (q 0.268, +180%) | rec-avg 0.741 (q 0.272) | better 0.32 | bias +0.484 | P(not better) 1.00
+    E2w  n   60 rec 11 seg 1 | RMSE 0.268 (q 0.268,   +0%) | rec-avg 0.272 (q 0.272) | better 0.00 | bias -0.011 | P(not better) 1.00
+    E9   n   60 rec 11 seg 1 | RMSE 0.750 (q 0.268, +180%) | rec-avg 0.741 (q 0.272) | better 0.32 | bias +0.484 | P(not better) 1.00
+    E3   n   60 rec 11 seg 1 | RMSE 0.344 (q 0.268,  +28%) | rec-avg 0.344 (q 0.272) | better 0.23 | bias +0.231 | P(not better) 1.00
+    E3y  n   60 rec 11 seg 1 | RMSE 0.388 (q 0.268,  +45%) | rec-avg 0.384 (q 0.272) | better 0.23 | bias +0.271 | P(not better) 1.00
+    E4   n   60 rec 11 seg 1 | RMSE 0.288 (q 0.268,   +7%) | rec-avg 0.292 (q 0.272) | better 0.05 | bias -0.000 | P(not better) 1.00
+    E4n  n   60 rec 11 seg 1 | RMSE 0.268 (q 0.268,   +0%) | rec-avg 0.272 (q 0.272) | better 0.17 | bias -0.010 | P(not better) 1.00
+    E4t  n   60 rec 11 seg 1 | RMSE 0.361 (q 0.268,  +35%) | rec-avg 0.362 (q 0.272) | better 0.27 | bias +0.088 | P(not better) 1.00
+    E7   n   60 rec 11 seg 1 | RMSE 0.341 (q 0.268,  +28%) | rec-avg 0.340 (q 0.272) | better 0.25 | bias +0.226 | P(not better) 1.00
+    E6   n   60 rec 11 seg 1 | RMSE 0.910 (q 0.268, +240%) | rec-avg 0.901 (q 0.272) | better 0.17 | bias +0.572 | P(not better) 1.00
+  [EVAL-LIKE two-sided k>=2 & gap>=7]
+    E0   n   83 rec 14 seg 2 | RMSE 0.264 (q 0.264,   +0%) | rec-avg 0.264 (q 0.264) | better 0.00 | bias -0.043 | P(not better) 1.00
+    E1   n   83 rec 14 seg 2 | RMSE 0.992 (q 0.264, +276%) | rec-avg 0.950 (q 0.264) | better 0.27 | bias +0.670 | P(not better) 1.00
+    E1n  n   83 rec 14 seg 2 | RMSE 0.534 (q 0.264, +102%) | rec-avg 0.492 (q 0.264) | better 0.30 | bias +0.206 | P(not better) 0.77
+    E1c  n   83 rec 14 seg 2 | RMSE 0.898 (q 0.264, +241%) | rec-avg 0.874 (q 0.264) | better 0.33 | bias +0.508 | P(not better) 0.75
+    E2   n   83 rec 14 seg 2 | RMSE 0.760 (q 0.264, +188%) | rec-avg 0.742 (q 0.264) | better 0.29 | bias +0.448 | P(not better) 0.73
+    E2w  n   83 rec 14 seg 2 | RMSE 0.264 (q 0.264,   +0%) | rec-avg 0.264 (q 0.264) | better 0.00 | bias -0.043 | P(not better) 1.00
+    E9   n   83 rec 14 seg 2 | RMSE 0.750 (q 0.264, +184%) | rec-avg 0.762 (q 0.264) | better 0.25 | bias +0.404 | P(not better) 1.00
+    E3   n   83 rec 14 seg 2 | RMSE 0.314 (q 0.264,  +19%) | rec-avg 0.308 (q 0.264) | better 0.28 | bias +0.195 | P(not better) 0.73
+    E3y  n   83 rec 14 seg 2 | RMSE 0.362 (q 0.264,  +37%) | rec-avg 0.341 (q 0.264) | better 0.28 | bias +0.238 | P(not better) 0.75
+    E4   n   83 rec 14 seg 2 | RMSE 0.264 (q 0.264,   +0%) | rec-avg 0.265 (q 0.264) | better 0.00 | bias -0.043 | P(not better) 1.00
+    E4n  n   83 rec 14 seg 2 | RMSE 0.264 (q 0.264,   +0%) | rec-avg 0.263 (q 0.264) | better 0.23 | bias -0.040 | P(not better) 0.77
+    E4t  n   83 rec 14 seg 2 | RMSE 0.376 (q 0.264,  +43%) | rec-avg 0.374 (q 0.264) | better 0.19 | bias +0.068 | P(not better) 1.00
+    E7   n   83 rec 14 seg 2 | RMSE 0.314 (q 0.264,  +19%) | rec-avg 0.308 (q 0.264) | better 0.28 | bias +0.195 | P(not better) 0.76
+    E6   n   83 rec 14 seg 2 | RMSE 0.900 (q 0.264, +241%) | rec-avg 0.925 (q 0.264) | better 0.12 | bias +0.472 | P(not better) 1.00
+  [EVAL-LIKE ... nearest=prev (k<=m) [F13_221/223/225]]
+    E0   n   50 rec  8 seg 1 | RMSE 0.187 (q 0.187,   +0%) | rec-avg 0.204 (q 0.204) | better 0.00 | bias +0.094 | P(not better) 1.00
+    E1   n   50 rec  8 seg 1 | RMSE 1.087 (q 0.187, +481%) | rec-avg 1.140 (q 0.204) | better 0.16 | bias +0.843 | P(not better) 1.00
+    E1n  n   50 rec  8 seg 1 | RMSE 0.562 (q 0.187, +200%) | rec-avg 0.583 (q 0.204) | better 0.12 | bias +0.342 | P(not better) 1.00
+    E1c  n   50 rec  8 seg 1 | RMSE 1.087 (q 0.187, +481%) | rec-avg 1.140 (q 0.204) | better 0.16 | bias +0.843 | P(not better) 1.00
+    E2   n   50 rec  8 seg 1 | RMSE 0.870 (q 0.187, +365%) | rec-avg 0.928 (q 0.204) | better 0.12 | bias +0.666 | P(not better) 1.00
+    E2w  n   50 rec  8 seg 1 | RMSE 0.187 (q 0.187,   +0%) | rec-avg 0.204 (q 0.204) | better 0.00 | bias +0.094 | P(not better) 1.00
+    E9   n   50 rec  8 seg 1 | RMSE 0.853 (q 0.187, +356%) | rec-avg 0.910 (q 0.204) | better 0.12 | bias +0.638 | P(not better) 1.00
+    E3   n   50 rec  8 seg 1 | RMSE 0.358 (q 0.187,  +91%) | rec-avg 0.390 (q 0.204) | better 0.00 | bias +0.333 | P(not better) 1.00
+    E3y  n   50 rec  8 seg 1 | RMSE 0.418 (q 0.187, +123%) | rec-avg 0.439 (q 0.204) | better 0.00 | bias +0.376 | P(not better) 1.00
+    E4   n   50 rec  8 seg 1 | RMSE 0.187 (q 0.187,   +0%) | rec-avg 0.204 (q 0.204) | better 0.00 | bias +0.094 | P(not better) 1.00
+    E4n  n   50 rec  8 seg 1 | RMSE 0.189 (q 0.187,   +1%) | rec-avg 0.206 (q 0.204) | better 0.06 | bias +0.096 | P(not better) 1.00
+    E4t  n   50 rec  8 seg 1 | RMSE 0.370 (q 0.187,  +97%) | rec-avg 0.397 (q 0.204) | better 0.22 | bias +0.255 | P(not better) 1.00
+    E7   n   50 rec  8 seg 1 | RMSE 0.358 (q 0.187,  +91%) | rec-avg 0.390 (q 0.204) | better 0.00 | bias +0.333 | P(not better) 1.00
+    E6   n   50 rec  8 seg 1 | RMSE 0.984 (q 0.187, +426%) | rec-avg 1.040 (q 0.204) | better 0.04 | bias +0.708 | P(not better) 1.00
+  [EVAL-LIKE ... nearest=next m>=2 (m<k) [F47_221/223/225]]
+    E0   n   23 rec  8 seg 2 | RMSE 0.346 (q 0.346,   +0%) | rec-avg 0.272 (q 0.272) | better 0.00 | bias -0.212 | P(not better) 1.00
+    E1   n   23 rec  8 seg 2 | RMSE 0.916 (q 0.346, +165%) | rec-avg 0.997 (q 0.272) | better 0.35 | bias +0.488 | P(not better) 1.00
+    E1n  n   23 rec  8 seg 2 | RMSE 0.527 (q 0.346,  +52%) | rec-avg 0.613 (q 0.272) | better 0.61 | bias +0.052 | P(not better) 0.76
+    E1c  n   23 rec  8 seg 2 | RMSE 0.527 (q 0.346,  +52%) | rec-avg 0.613 (q 0.272) | better 0.61 | bias +0.052 | P(not better) 0.75
+    E2   n   23 rec  8 seg 2 | RMSE 0.620 (q 0.346,  +79%) | rec-avg 0.735 (q 0.272) | better 0.57 | bias +0.203 | P(not better) 0.77
+    E2w  n   23 rec  8 seg 2 | RMSE 0.346 (q 0.346,   +0%) | rec-avg 0.272 (q 0.272) | better 0.00 | bias -0.212 | P(not better) 1.00
+    E9   n   23 rec  8 seg 2 | RMSE 0.616 (q 0.346,  +78%) | rec-avg 0.734 (q 0.272) | better 0.43 | bias +0.134 | P(not better) 1.00
+    E3   n   23 rec  8 seg 2 | RMSE 0.261 (q 0.346,  -25%) | rec-avg 0.240 (q 0.272) | better 0.57 | bias +0.031 | P(not better) 0.00
+    E3y  n   23 rec  8 seg 2 | RMSE 0.291 (q 0.346,  -16%) | rec-avg 0.277 (q 0.272) | better 0.57 | bias +0.065 | P(not better) 0.00
+    E4   n   23 rec  8 seg 2 | RMSE 0.346 (q 0.346,   +0%) | rec-avg 0.272 (q 0.272) | better 0.00 | bias -0.212 | P(not better) 1.00
+    E4n  n   23 rec  8 seg 2 | RMSE 0.347 (q 0.346,   +0%) | rec-avg 0.273 (q 0.272) | better 0.35 | bias -0.208 | P(not better) 0.76
+    E4t  n   23 rec  8 seg 2 | RMSE 0.399 (q 0.346,  +15%) | rec-avg 0.409 (q 0.272) | better 0.22 | bias -0.162 | P(not better) 1.00
+    E7   n   23 rec  8 seg 2 | RMSE 0.261 (q 0.346,  -25%) | rec-avg 0.240 (q 0.272) | better 0.57 | bias +0.031 | P(not better) 0.00
+    E6   n   23 rec  8 seg 2 | RMSE 0.829 (q 0.346, +139%) | rec-avg 0.930 (q 0.272) | better 0.22 | bias +0.221 | P(not better) 1.00
+  [EVAL-LIKE ... m=1 (k>=6) [F47_227]]
+    E0   n   10 rec  4 seg 2 | RMSE 0.355 (q 0.355,   +0%) | rec-avg 0.353 (q 0.353) | better 0.00 | bias -0.336 | P(not better) 1.00
+    E1   n   10 rec  4 seg 2 | RMSE 0.579 (q 0.355,  +63%) | rec-avg 0.543 (q 0.353) | better 0.60 | bias +0.230 | P(not better) 1.00
+    E1n  n   10 rec  4 seg 2 | RMSE 0.383 (q 0.355,   +8%) | rec-avg 0.409 (q 0.353) | better 0.50 | bias -0.115 | P(not better) 0.75
+    E1c  n   10 rec  4 seg 2 | RMSE 0.383 (q 0.355,   +8%) | rec-avg 0.409 (q 0.353) | better 0.50 | bias -0.115 | P(not better) 0.77
+    E2   n   10 rec  4 seg 2 | RMSE 0.350 (q 0.355,   -1%) | rec-avg 0.371 (q 0.353) | better 0.50 | bias -0.076 | P(not better) 0.00
+    E2w  n   10 rec  4 seg 2 | RMSE 0.355 (q 0.355,   +0%) | rec-avg 0.353 (q 0.353) | better 0.00 | bias -0.336 | P(not better) 1.00
+    E9   n   10 rec  4 seg 2 | RMSE 0.396 (q 0.355,  +12%) | rec-avg 0.456 (q 0.353) | better 0.50 | bias -0.141 | P(not better) 1.00
+    E3   n   10 rec  4 seg 2 | RMSE 0.142 (q 0.355,  -60%) | rec-avg 0.146 (q 0.353) | better 1.00 | bias -0.121 | P(not better) 0.00
+    E3y  n   10 rec  4 seg 2 | RMSE 0.129 (q 0.355,  -64%) | rec-avg 0.146 (q 0.353) | better 1.00 | bias -0.053 | P(not better) 0.00
+    E4   n   10 rec  4 seg 2 | RMSE 0.356 (q 0.355,   +0%) | rec-avg 0.355 (q 0.353) | better 0.00 | bias -0.338 | P(not better) 1.00
+    E4n  n   10 rec  4 seg 2 | RMSE 0.352 (q 0.355,   -1%) | rec-avg 0.350 (q 0.353) | better 0.80 | bias -0.331 | P(not better) 0.00
+    E4t  n   10 rec  4 seg 2 | RMSE 0.355 (q 0.355,   +0%) | rec-avg 0.354 (q 0.353) | better 0.00 | bias -0.337 | P(not better) 1.00
+    E7   n   10 rec  4 seg 2 | RMSE 0.142 (q 0.355,  -60%) | rec-avg 0.146 (q 0.353) | better 1.00 | bias -0.121 | P(not better) 0.00
+    E6   n   10 rec  4 seg 2 | RMSE 0.551 (q 0.355,  +55%) | rec-avg 0.623 (q 0.353) | better 0.30 | bias -0.129 | P(not better) 1.00
+
+================ Sy (seed-mean q, cross-fit leave-one-seg-out) ================
+  [prev only k=1]
+    E0   n   24 rec 24 seg 4 | RMSE 0.340 (q 0.340,   +0%) | rec-avg 0.340 (q 0.340) | better 0.00 | bias -0.222 | P(not better) 1.00
+    E1   n   24 rec 24 seg 4 | RMSE 0.302 (q 0.340,  -11%) | rec-avg 0.302 (q 0.340) | better 0.62 | bias +0.055 | P(not better) 0.25
+    E1c  n   24 rec 24 seg 4 | RMSE 0.302 (q 0.340,  -11%) | rec-avg 0.302 (q 0.340) | better 0.62 | bias +0.055 | P(not better) 0.26
+    E3   n   24 rec 24 seg 4 | RMSE 0.323 (q 0.340,   -5%) | rec-avg 0.323 (q 0.340) | better 0.71 | bias -0.060 | P(not better) 0.21
+    E3y  n   24 rec 24 seg 4 | RMSE 0.255 (q 0.340,  -25%) | rec-avg 0.255 (q 0.340) | better 0.54 | bias +0.089 | P(not better) 0.02
+    E4   n   24 rec 24 seg 4 | RMSE 0.285 (q 0.340,  -16%) | rec-avg 0.285 (q 0.340) | better 0.71 | bias -0.040 | P(not better) 0.08
+    E7   n   24 rec 24 seg 4 | RMSE 0.278 (q 0.340,  -18%) | rec-avg 0.278 (q 0.340) | better 0.62 | bias -0.006 | P(not better) 0.05
+    E6   n   24 rec 24 seg 4 | RMSE 0.315 (q 0.340,   -7%) | rec-avg 0.315 (q 0.340) | better 0.58 | bias +0.040 | P(not better) 0.31
+  [prev only k=2]
+    E0   n   21 rec 21 seg 4 | RMSE 0.358 (q 0.358,   +0%) | rec-avg 0.358 (q 0.358) | better 0.00 | bias -0.238 | P(not better) 1.00
+    E1   n   21 rec 21 seg 4 | RMSE 0.448 (q 0.358,  +25%) | rec-avg 0.448 (q 0.358) | better 0.48 | bias +0.074 | P(not better) 0.72
+    E1c  n   21 rec 21 seg 4 | RMSE 0.448 (q 0.358,  +25%) | rec-avg 0.448 (q 0.358) | better 0.48 | bias +0.074 | P(not better) 0.69
+    E3   n   21 rec 21 seg 4 | RMSE 0.337 (q 0.358,   -6%) | rec-avg 0.337 (q 0.358) | better 0.71 | bias -0.067 | P(not better) 0.20
+    E3y  n   21 rec 21 seg 4 | RMSE 0.259 (q 0.358,  -28%) | rec-avg 0.259 (q 0.358) | better 0.57 | bias +0.070 | P(not better) 0.00
+    E4   n   21 rec 21 seg 4 | RMSE 0.408 (q 0.358,  +14%) | rec-avg 0.408 (q 0.358) | better 0.67 | bias -0.064 | P(not better) 0.72
+    E7   n   21 rec 21 seg 4 | RMSE 0.382 (q 0.358,   +7%) | rec-avg 0.382 (q 0.358) | better 0.67 | bias -0.026 | P(not better) 0.69
+    E6   n   21 rec 21 seg 4 | RMSE 0.494 (q 0.358,  +38%) | rec-avg 0.494 (q 0.358) | better 0.38 | bias +0.055 | P(not better) 0.81
+  [prev only k=3-4]
+    E0   n   31 rec 18 seg 4 | RMSE 0.304 (q 0.304,   +0%) | rec-avg 0.314 (q 0.314) | better 0.00 | bias -0.205 | P(not better) 1.00
+    E1   n   31 rec 18 seg 4 | RMSE 0.559 (q 0.304,  +84%) | rec-avg 0.576 (q 0.314) | better 0.39 | bias +0.153 | P(not better) 0.81
+    E1c  n   31 rec 18 seg 4 | RMSE 0.559 (q 0.304,  +84%) | rec-avg 0.576 (q 0.314) | better 0.39 | bias +0.153 | P(not better) 0.82
+    E3   n   31 rec 18 seg 4 | RMSE 0.255 (q 0.304,  -16%) | rec-avg 0.269 (q 0.314) | better 0.71 | bias -0.026 | P(not better) 0.00
+    E3y  n   31 rec 18 seg 4 | RMSE 0.238 (q 0.304,  -22%) | rec-avg 0.242 (q 0.314) | better 0.55 | bias +0.086 | P(not better) 0.00
+    E4   n   31 rec 18 seg 4 | RMSE 0.374 (q 0.304,  +23%) | rec-avg 0.382 (q 0.314) | better 0.52 | bias -0.045 | P(not better) 0.71
+    E7   n   31 rec 18 seg 4 | RMSE 0.277 (q 0.304,   -9%) | rec-avg 0.292 (q 0.314) | better 0.65 | bias +0.003 | P(not better) 0.07
+    E6   n   31 rec 18 seg 4 | RMSE 0.628 (q 0.304, +106%) | rec-avg 0.646 (q 0.314) | better 0.39 | bias +0.149 | P(not better) 1.00
+  [prev only k=5-10]
+    E0   n   30 rec 11 seg 3 | RMSE 0.311 (q 0.311,   +0%) | rec-avg 0.312 (q 0.312) | better 0.00 | bias -0.264 | P(not better) 1.00
+    E1   n   30 rec 11 seg 3 | RMSE 0.638 (q 0.311, +105%) | rec-avg 0.764 (q 0.312) | better 0.47 | bias +0.274 | P(not better) 0.84
+    E1c  n   30 rec 11 seg 3 | RMSE 0.638 (q 0.311, +105%) | rec-avg 0.764 (q 0.312) | better 0.47 | bias +0.274 | P(not better) 0.84
+    E3   n   30 rec 11 seg 3 | RMSE 0.198 (q 0.311,  -36%) | rec-avg 0.234 (q 0.312) | better 0.93 | bias -0.080 | P(not better) 0.00
+    E3y  n   30 rec 11 seg 3 | RMSE 0.167 (q 0.311,  -46%) | rec-avg 0.203 (q 0.312) | better 0.73 | bias +0.032 | P(not better) 0.00
+    E4   n   30 rec 11 seg 3 | RMSE 0.327 (q 0.311,   +5%) | rec-avg 0.403 (q 0.312) | better 0.73 | bias -0.026 | P(not better) 0.71
+    E7   n   30 rec 11 seg 3 | RMSE 0.272 (q 0.311,  -13%) | rec-avg 0.352 (q 0.312) | better 0.73 | bias +0.033 | P(not better) 0.00
+    E6   n   30 rec 11 seg 3 | RMSE 0.765 (q 0.311, +146%) | rec-avg 0.891 (q 0.312) | better 0.27 | bias +0.350 | P(not better) 1.00
+  [next only m=1]
+    E0   n   23 rec 23 seg 4 | RMSE 0.406 (q 0.406,   +0%) | rec-avg 0.406 (q 0.406) | better 0.00 | bias -0.231 | P(not better) 1.00
+    E1n  n   23 rec 23 seg 4 | RMSE 0.346 (q 0.406,  -15%) | rec-avg 0.346 (q 0.406) | better 0.52 | bias +0.010 | P(not better) 0.00
+    E1c  n   23 rec 23 seg 4 | RMSE 0.346 (q 0.406,  -15%) | rec-avg 0.346 (q 0.406) | better 0.52 | bias +0.010 | P(not better) 0.00
+    E3   n   23 rec 23 seg 4 | RMSE 0.379 (q 0.406,   -7%) | rec-avg 0.379 (q 0.406) | better 0.61 | bias -0.063 | P(not better) 0.00
+    E3y  n   23 rec 23 seg 4 | RMSE 0.336 (q 0.406,  -17%) | rec-avg 0.336 (q 0.406) | better 0.52 | bias +0.077 | P(not better) 0.01
+    E4n  n   23 rec 23 seg 4 | RMSE 0.326 (q 0.406,  -20%) | rec-avg 0.326 (q 0.406) | better 0.61 | bias -0.044 | P(not better) 0.00
+  [next only m=2-4]
+    E0   n   50 rec 21 seg 4 | RMSE 0.466 (q 0.466,   +0%) | rec-avg 0.436 (q 0.436) | better 0.00 | bias -0.242 | P(not better) 1.00
+    E1n  n   50 rec 21 seg 4 | RMSE 0.483 (q 0.466,   +4%) | rec-avg 0.440 (q 0.436) | better 0.50 | bias +0.084 | P(not better) 0.57
+    E1c  n   50 rec 21 seg 4 | RMSE 0.483 (q 0.466,   +4%) | rec-avg 0.440 (q 0.436) | better 0.50 | bias +0.084 | P(not better) 0.56
+    E3   n   50 rec 21 seg 4 | RMSE 0.450 (q 0.466,   -4%) | rec-avg 0.411 (q 0.436) | better 0.50 | bias -0.063 | P(not better) 0.06
+    E3y  n   50 rec 21 seg 4 | RMSE 0.396 (q 0.466,  -15%) | rec-avg 0.360 (q 0.436) | better 0.42 | bias +0.070 | P(not better) 0.02
+    E4n  n   50 rec 21 seg 4 | RMSE 0.436 (q 0.466,   -7%) | rec-avg 0.398 (q 0.436) | better 0.62 | bias -0.064 | P(not better) 0.14
+  [next only m=5-10]
+    E0   n   28 rec 12 seg 3 | RMSE 0.717 (q 0.717,   +0%) | rec-avg 0.502 (q 0.502) | better 0.00 | bias -0.362 | P(not better) 1.00
+    E1n  n   28 rec 12 seg 3 | RMSE 0.589 (q 0.717,  -18%) | rec-avg 0.477 (q 0.502) | better 0.46 | bias -0.061 | P(not better) 0.16
+    E1c  n   28 rec 12 seg 3 | RMSE 0.589 (q 0.717,  -18%) | rec-avg 0.477 (q 0.502) | better 0.46 | bias -0.061 | P(not better) 0.15
+    E3   n   28 rec 12 seg 3 | RMSE 0.694 (q 0.717,   -3%) | rec-avg 0.511 (q 0.502) | better 0.39 | bias -0.154 | P(not better) 0.05
+    E3y  n   28 rec 12 seg 3 | RMSE 0.610 (q 0.717,  -15%) | rec-avg 0.459 (q 0.502) | better 0.36 | bias -0.066 | P(not better) 0.04
+    E4n  n   28 rec 12 seg 3 | RMSE 0.624 (q 0.717,  -13%) | rec-avg 0.459 (q 0.502) | better 0.54 | bias -0.130 | P(not better) 0.15
+  [two-sided gap<=4]
+    E0   n   85 rec 20 seg 4 | RMSE 0.300 (q 0.300,   +0%) | rec-avg 0.312 (q 0.312) | better 0.00 | bias -0.172 | P(not better) 1.00
+    E1   n   85 rec 20 seg 4 | RMSE 0.385 (q 0.300,  +28%) | rec-avg 0.357 (q 0.312) | better 0.61 | bias +0.103 | P(not better) 0.69
+    E1n  n   85 rec 20 seg 4 | RMSE 0.430 (q 0.300,  +43%) | rec-avg 0.379 (q 0.312) | better 0.42 | bias +0.076 | P(not better) 0.66
+    E1c  n   85 rec 20 seg 4 | RMSE 0.372 (q 0.300,  +24%) | rec-avg 0.338 (q 0.312) | better 0.58 | bias +0.061 | P(not better) 0.70
+    E2   n   85 rec 20 seg 4 | RMSE 0.349 (q 0.300,  +16%) | rec-avg 0.314 (q 0.312) | better 0.55 | bias +0.075 | P(not better) 0.67
+    E2w  n   85 rec 20 seg 4 | RMSE 0.364 (q 0.300,  +21%) | rec-avg 0.340 (q 0.312) | better 0.55 | bias +0.010 | P(not better) 0.69
+    E9   n   85 rec 20 seg 4 | RMSE 0.362 (q 0.300,  +21%) | rec-avg 0.333 (q 0.312) | better 0.47 | bias +0.061 | P(not better) 0.66
+    E3   n   85 rec 20 seg 4 | RMSE 0.302 (q 0.300,   +1%) | rec-avg 0.302 (q 0.312) | better 0.56 | bias +0.026 | P(not better) 0.56
+    E3y  n   85 rec 20 seg 4 | RMSE 0.261 (q 0.300,  -13%) | rec-avg 0.243 (q 0.312) | better 0.47 | bias +0.124 | P(not better) 0.14
+    E4   n   85 rec 20 seg 4 | RMSE 0.330 (q 0.300,  +10%) | rec-avg 0.319 (q 0.312) | better 0.66 | bias +0.002 | P(not better) 0.69
+    E4n  n   85 rec 20 seg 4 | RMSE 0.381 (q 0.300,  +27%) | rec-avg 0.346 (q 0.312) | better 0.54 | bias -0.002 | P(not better) 0.69
+    E4t  n   85 rec 20 seg 4 | RMSE 0.387 (q 0.300,  +29%) | rec-avg 0.358 (q 0.312) | better 0.52 | bias +0.029 | P(not better) 0.66
+    E7   n   85 rec 20 seg 4 | RMSE 0.305 (q 0.300,   +2%) | rec-avg 0.298 (q 0.312) | better 0.62 | bias +0.049 | P(not better) 0.49
+    E6   n   85 rec 20 seg 4 | RMSE 0.413 (q 0.300,  +38%) | rec-avg 0.388 (q 0.312) | better 0.53 | bias +0.109 | P(not better) 0.71
+  [two-sided gap 5-7]
+    E0   n  125 rec 18 seg 3 | RMSE 0.288 (q 0.288,   +0%) | rec-avg 0.301 (q 0.301) | better 0.00 | bias -0.142 | P(not better) 1.00
+    E1   n  125 rec 18 seg 3 | RMSE 0.587 (q 0.288, +104%) | rec-avg 0.482 (q 0.301) | better 0.44 | bias +0.222 | P(not better) 0.69
+    E1n  n  125 rec 18 seg 3 | RMSE 0.485 (q 0.288,  +68%) | rec-avg 0.401 (q 0.301) | better 0.38 | bias +0.179 | P(not better) 0.71
+    E1c  n  125 rec 18 seg 3 | RMSE 0.484 (q 0.288,  +68%) | rec-avg 0.406 (q 0.301) | better 0.47 | bias +0.169 | P(not better) 0.69
+    E2   n  125 rec 18 seg 3 | RMSE 0.470 (q 0.288,  +63%) | rec-avg 0.381 (q 0.301) | better 0.45 | bias +0.181 | P(not better) 0.71
+    E2w  n  125 rec 18 seg 3 | RMSE 0.494 (q 0.288,  +71%) | rec-avg 0.423 (q 0.301) | better 0.46 | bias +0.130 | P(not better) 0.69
+    E9   n  125 rec 18 seg 3 | RMSE 0.507 (q 0.288,  +76%) | rec-avg 0.428 (q 0.301) | better 0.36 | bias +0.161 | P(not better) 0.70
+    E3   n  125 rec 18 seg 3 | RMSE 0.305 (q 0.288,   +6%) | rec-avg 0.292 (q 0.301) | better 0.46 | bias +0.067 | P(not better) 0.68
+    E3y  n  125 rec 18 seg 3 | RMSE 0.283 (q 0.288,   -2%) | rec-avg 0.254 (q 0.301) | better 0.42 | bias +0.145 | P(not better) 0.38
+    E4   n  125 rec 18 seg 3 | RMSE 0.400 (q 0.288,  +39%) | rec-avg 0.360 (q 0.301) | better 0.51 | bias +0.053 | P(not better) 0.71
+    E4n  n  125 rec 18 seg 3 | RMSE 0.388 (q 0.288,  +35%) | rec-avg 0.331 (q 0.301) | better 0.48 | bias +0.080 | P(not better) 0.69
+    E4t  n  125 rec 18 seg 3 | RMSE 0.458 (q 0.288,  +59%) | rec-avg 0.393 (q 0.301) | better 0.42 | bias +0.110 | P(not better) 0.73
+    E7   n  125 rec 18 seg 3 | RMSE 0.338 (q 0.288,  +17%) | rec-avg 0.306 (q 0.301) | better 0.55 | bias +0.097 | P(not better) 0.70
+    E6   n  125 rec 18 seg 3 | RMSE 0.646 (q 0.288, +124%) | rec-avg 0.539 (q 0.301) | better 0.42 | bias +0.259 | P(not better) 0.71
+  [two-sided gap 8+]
+    E0   n   55 rec 10 seg 1 | RMSE 0.269 (q 0.269,   +0%) | rec-avg 0.271 (q 0.271) | better 0.00 | bias -0.112 | P(not better) 1.00
+    E1   n   55 rec 10 seg 1 | RMSE 0.920 (q 0.269, +242%) | rec-avg 0.903 (q 0.271) | better 0.29 | bias +0.654 | P(not better) 1.00
+    E1n  n   55 rec 10 seg 1 | RMSE 0.391 (q 0.269,  +45%) | rec-avg 0.377 (q 0.271) | better 0.44 | bias +0.100 | P(not better) 1.00
+    E1c  n   55 rec 10 seg 1 | RMSE 0.738 (q 0.269, +175%) | rec-avg 0.716 (q 0.271) | better 0.42 | bias +0.389 | P(not better) 1.00
+    E2   n   55 rec 10 seg 1 | RMSE 0.587 (q 0.269, +118%) | rec-avg 0.570 (q 0.271) | better 0.36 | bias +0.353 | P(not better) 1.00
+    E2w  n   55 rec 10 seg 1 | RMSE 0.269 (q 0.269,   +0%) | rec-avg 0.271 (q 0.271) | better 0.00 | bias -0.112 | P(not better) 1.00
+    E9   n   55 rec 10 seg 1 | RMSE 0.587 (q 0.269, +118%) | rec-avg 0.570 (q 0.271) | better 0.36 | bias +0.353 | P(not better) 1.00
+    E3   n   55 rec 10 seg 1 | RMSE 0.311 (q 0.269,  +16%) | rec-avg 0.310 (q 0.271) | better 0.36 | bias +0.126 | P(not better) 1.00
+    E3y  n   55 rec 10 seg 1 | RMSE 0.296 (q 0.269,  +10%) | rec-avg 0.290 (q 0.271) | better 0.36 | bias +0.172 | P(not better) 1.00
+    E4   n   55 rec 10 seg 1 | RMSE 0.495 (q 0.269,  +84%) | rec-avg 0.487 (q 0.271) | better 0.40 | bias +0.284 | P(not better) 1.00
+    E4n  n   55 rec 10 seg 1 | RMSE 0.290 (q 0.269,   +8%) | rec-avg 0.281 (q 0.271) | better 0.56 | bias +0.034 | P(not better) 1.00
+    E4t  n   55 rec 10 seg 1 | RMSE 0.444 (q 0.269,  +65%) | rec-avg 0.432 (q 0.271) | better 0.49 | bias +0.149 | P(not better) 1.00
+    E7   n   55 rec 10 seg 1 | RMSE 0.409 (q 0.269,  +52%) | rec-avg 0.405 (q 0.271) | better 0.42 | bias +0.274 | P(not better) 1.00
+    E6   n   55 rec 10 seg 1 | RMSE 1.027 (q 0.269, +282%) | rec-avg 1.013 (q 0.271) | better 0.24 | bias +0.790 | P(not better) 1.00
+  [EVAL-LIKE two-sided k>=2 & gap>=7]
+    E0   n   83 rec 14 seg 2 | RMSE 0.281 (q 0.281,   +0%) | rec-avg 0.319 (q 0.319) | better 0.00 | bias -0.134 | P(not better) 1.00
+    E1   n   83 rec 14 seg 2 | RMSE 0.869 (q 0.281, +209%) | rec-avg 0.759 (q 0.319) | better 0.28 | bias +0.562 | P(not better) 0.75
+    E1n  n   83 rec 14 seg 2 | RMSE 0.461 (q 0.281,  +64%) | rec-avg 0.384 (q 0.319) | better 0.39 | bias +0.146 | P(not better) 0.77
+    E1c  n   83 rec 14 seg 2 | RMSE 0.701 (q 0.281, +150%) | rec-avg 0.622 (q 0.319) | better 0.39 | bias +0.353 | P(not better) 0.75
+    E2   n   83 rec 14 seg 2 | RMSE 0.606 (q 0.281, +116%) | rec-avg 0.531 (q 0.319) | better 0.34 | bias +0.334 | P(not better) 0.75
+    E2w  n   83 rec 14 seg 2 | RMSE 0.437 (q 0.281,  +56%) | rec-avg 0.421 (q 0.319) | better 0.13 | bias +0.016 | P(not better) 0.74
+    E9   n   83 rec 14 seg 2 | RMSE 0.621 (q 0.281, +121%) | rec-avg 0.577 (q 0.319) | better 0.30 | bias +0.337 | P(not better) 1.00
+    E3   n   83 rec 14 seg 2 | RMSE 0.298 (q 0.281,   +6%) | rec-avg 0.320 (q 0.319) | better 0.41 | bias +0.089 | P(not better) 0.74
+    E3y  n   83 rec 14 seg 2 | RMSE 0.289 (q 0.281,   +3%) | rec-avg 0.266 (q 0.319) | better 0.41 | bias +0.152 | P(not better) 0.76
+    E4   n   83 rec 14 seg 2 | RMSE 0.487 (q 0.281,  +73%) | rec-avg 0.477 (q 0.319) | better 0.39 | bias +0.230 | P(not better) 0.75
+    E4n  n   83 rec 14 seg 2 | RMSE 0.349 (q 0.281,  +24%) | rec-avg 0.302 (q 0.319) | better 0.49 | bias +0.064 | P(not better) 0.76
+    E4t  n   83 rec 14 seg 2 | RMSE 0.487 (q 0.281,  +74%) | rec-avg 0.467 (q 0.319) | better 0.41 | bias +0.158 | P(not better) 0.76
+    E7   n   83 rec 14 seg 2 | RMSE 0.404 (q 0.281,  +44%) | rec-avg 0.409 (q 0.319) | better 0.43 | bias +0.231 | P(not better) 0.74
+    E6   n   83 rec 14 seg 2 | RMSE 0.969 (q 0.281, +245%) | rec-avg 0.865 (q 0.319) | better 0.22 | bias +0.680 | P(not better) 1.00
+  [EVAL-LIKE ... nearest=prev (k<=m) [F13_221/223/225]]
+    E0   n   42 rec  8 seg 2 | RMSE 0.190 (q 0.190,   +0%) | rec-avg 0.313 (q 0.313) | better 0.00 | bias -0.001 | P(not better) 1.00
+    E1   n   42 rec  8 seg 2 | RMSE 0.857 (q 0.190, +350%) | rec-avg 0.793 (q 0.313) | better 0.21 | bias +0.614 | P(not better) 0.78
+    E1n  n   42 rec  8 seg 2 | RMSE 0.428 (q 0.190, +125%) | rec-avg 0.396 (q 0.313) | better 0.21 | bias +0.205 | P(not better) 0.74
+    E1c  n   42 rec  8 seg 2 | RMSE 0.857 (q 0.190, +350%) | rec-avg 0.793 (q 0.313) | better 0.21 | bias +0.614 | P(not better) 0.76
+    E2   n   42 rec  8 seg 2 | RMSE 0.639 (q 0.190, +235%) | rec-avg 0.602 (q 0.313) | better 0.19 | bias +0.457 | P(not better) 0.73
+    E2w  n   42 rec  8 seg 2 | RMSE 0.336 (q 0.190,  +76%) | rec-avg 0.401 (q 0.313) | better 0.07 | bias +0.103 | P(not better) 0.77
+    E9   n   42 rec  8 seg 2 | RMSE 0.650 (q 0.190, +241%) | rec-avg 0.631 (q 0.313) | better 0.19 | bias +0.464 | P(not better) 0.76
+    E3   n   42 rec  8 seg 2 | RMSE 0.337 (q 0.190,  +77%) | rec-avg 0.405 (q 0.313) | better 0.07 | bias +0.248 | P(not better) 0.75
+    E3y  n   42 rec  8 seg 2 | RMSE 0.338 (q 0.190,  +78%) | rec-avg 0.336 (q 0.313) | better 0.07 | bias +0.280 | P(not better) 0.76
+    E4   n   42 rec  8 seg 2 | RMSE 0.530 (q 0.190, +178%) | rec-avg 0.544 (q 0.313) | better 0.26 | bias +0.348 | P(not better) 0.76
+    E4n  n   42 rec  8 seg 2 | RMSE 0.287 (q 0.190,  +51%) | rec-avg 0.266 (q 0.313) | better 0.29 | bias +0.125 | P(not better) 0.75
+    E4t  n   42 rec  8 seg 2 | RMSE 0.548 (q 0.190, +188%) | rec-avg 0.553 (q 0.313) | better 0.17 | bias +0.350 | P(not better) 1.00
+    E7   n   42 rec  8 seg 2 | RMSE 0.451 (q 0.190, +137%) | rec-avg 0.497 (q 0.313) | better 0.17 | bias +0.335 | P(not better) 0.76
+    E6   n   42 rec  8 seg 2 | RMSE 0.934 (q 0.190, +390%) | rec-avg 0.868 (q 0.313) | better 0.19 | bias +0.703 | P(not better) 0.75
+  [EVAL-LIKE ... nearest=next m>=2 (m<k) [F47_221/223/225]]
+    E0   n   30 rec  9 seg 2 | RMSE 0.348 (q 0.348,   +0%) | rec-avg 0.282 (q 0.282) | better 0.00 | bias -0.245 | P(not better) 1.00
+    E1   n   30 rec  9 seg 2 | RMSE 0.937 (q 0.348, +169%) | rec-avg 0.998 (q 0.282) | better 0.27 | bias +0.570 | P(not better) 1.00
+    E1n  n   30 rec  9 seg 2 | RMSE 0.500 (q 0.348,  +44%) | rec-avg 0.593 (q 0.282) | better 0.60 | bias +0.122 | P(not better) 0.75
+    E1c  n   30 rec  9 seg 2 | RMSE 0.500 (q 0.348,  +44%) | rec-avg 0.593 (q 0.282) | better 0.60 | bias +0.122 | P(not better) 0.75
+    E2   n   30 rec  9 seg 2 | RMSE 0.605 (q 0.348,  +74%) | rec-avg 0.717 (q 0.282) | better 0.50 | bias +0.274 | P(not better) 0.73
+    E2w  n   30 rec  9 seg 2 | RMSE 0.535 (q 0.348,  +54%) | rec-avg 0.677 (q 0.282) | better 0.20 | bias -0.044 | P(not better) 0.74
+    E9   n   30 rec  9 seg 2 | RMSE 0.624 (q 0.348,  +79%) | rec-avg 0.758 (q 0.282) | better 0.43 | bias +0.274 | P(not better) 1.00
+    E3   n   30 rec  9 seg 2 | RMSE 0.275 (q 0.348,  -21%) | rec-avg 0.250 (q 0.282) | better 0.67 | bias -0.050 | P(not better) 0.00
+    E3y  n   30 rec  9 seg 2 | RMSE 0.255 (q 0.348,  -27%) | rec-avg 0.261 (q 0.282) | better 0.67 | bias +0.047 | P(not better) 0.00
+    E4   n   30 rec  9 seg 2 | RMSE 0.479 (q 0.348,  +38%) | rec-avg 0.535 (q 0.282) | better 0.47 | bias +0.152 | P(not better) 1.00
+    E4n  n   30 rec  9 seg 2 | RMSE 0.390 (q 0.348,  +12%) | rec-avg 0.437 (q 0.282) | better 0.70 | bias +0.017 | P(not better) 0.78
+    E4t  n   30 rec  9 seg 2 | RMSE 0.442 (q 0.348,  +27%) | rec-avg 0.603 (q 0.282) | better 0.67 | bias +0.002 | P(not better) 0.74
+    E7   n   30 rec  9 seg 2 | RMSE 0.389 (q 0.348,  +12%) | rec-avg 0.393 (q 0.282) | better 0.63 | bias +0.156 | P(not better) 0.74
+    E6   n   30 rec  9 seg 2 | RMSE 1.053 (q 0.348, +202%) | rec-avg 1.117 (q 0.282) | better 0.20 | bias +0.709 | P(not better) 1.00
+  [EVAL-LIKE ... m=1 (k>=6) [F47_227]]
+    E0   n   11 rec  5 seg 2 | RMSE 0.355 (q 0.355,   +0%) | rec-avg 0.353 (q 0.353) | better 0.00 | bias -0.337 | P(not better) 1.00
+    E1   n   11 rec  5 seg 2 | RMSE 0.707 (q 0.355,  +99%) | rec-avg 0.817 (q 0.353) | better 0.55 | bias +0.342 | P(not better) 1.00
+    E1n  n   11 rec  5 seg 2 | RMSE 0.473 (q 0.355,  +33%) | rec-avg 0.577 (q 0.353) | better 0.45 | bias -0.014 | P(not better) 0.74
+    E1c  n   11 rec  5 seg 2 | RMSE 0.473 (q 0.355,  +33%) | rec-avg 0.577 (q 0.353) | better 0.45 | bias -0.014 | P(not better) 0.73
+    E2   n   11 rec  5 seg 2 | RMSE 0.463 (q 0.355,  +30%) | rec-avg 0.580 (q 0.353) | better 0.45 | bias +0.027 | P(not better) 0.76
+    E2w  n   11 rec  5 seg 2 | RMSE 0.477 (q 0.355,  +35%) | rec-avg 0.584 (q 0.353) | better 0.18 | bias -0.151 | P(not better) 0.76
+    E9   n   11 rec  5 seg 2 | RMSE 0.480 (q 0.355,  +35%) | rec-avg 0.613 (q 0.353) | better 0.36 | bias +0.022 | P(not better) 1.00
+    E3   n   11 rec  5 seg 2 | RMSE 0.166 (q 0.355,  -53%) | rec-avg 0.193 (q 0.353) | better 1.00 | bias -0.138 | P(not better) 0.00
+    E3y  n   11 rec  5 seg 2 | RMSE 0.123 (q 0.355,  -65%) | rec-avg 0.131 (q 0.353) | better 1.00 | bias -0.049 | P(not better) 0.00
+    E4   n   11 rec  5 seg 2 | RMSE 0.299 (q 0.355,  -16%) | rec-avg 0.332 (q 0.353) | better 0.64 | bias -0.010 | P(not better) 0.23
+    E4n  n   11 rec  5 seg 2 | RMSE 0.437 (q 0.355,  +23%) | rec-avg 0.525 (q 0.353) | better 0.73 | bias -0.045 | P(not better) 0.76
+    E4t  n   11 rec  5 seg 2 | RMSE 0.338 (q 0.355,   -5%) | rec-avg 0.370 (q 0.353) | better 0.64 | bias -0.152 | P(not better) 0.23
+    E7   n   11 rec  5 seg 2 | RMSE 0.200 (q 0.355,  -44%) | rec-avg 0.210 (q 0.353) | better 0.91 | bias +0.037 | P(not better) 0.00
+    E6   n   11 rec  5 seg 2 | RMSE 0.856 (q 0.355, +141%) | rec-avg 0.968 (q 0.353) | better 0.36 | bias +0.512 | P(not better) 1.00
+
+================ Sq EVAL-LIKE, single high anchor record on both anchor dates ================
+  [single-anchor eval-like]
+    E0   n   83 rec 14 seg 2 | RMSE 0.264 (q 0.264,   +0%) | rec-avg 0.264 (q 0.264) | better 0.00 | bias -0.043 | P(not better) 1.00
+    E1   n   83 rec 14 seg 2 | RMSE 0.992 (q 0.264, +276%) | rec-avg 0.950 (q 0.264) | better 0.27 | bias +0.670 | P(not better) 1.00
+    E1n  n   83 rec 14 seg 2 | RMSE 0.534 (q 0.264, +102%) | rec-avg 0.492 (q 0.264) | better 0.30 | bias +0.206 | P(not better) 0.74
+    E1c  n   83 rec 14 seg 2 | RMSE 0.898 (q 0.264, +241%) | rec-avg 0.874 (q 0.264) | better 0.33 | bias +0.508 | P(not better) 0.78
+    E2   n   83 rec 14 seg 2 | RMSE 0.760 (q 0.264, +188%) | rec-avg 0.742 (q 0.264) | better 0.29 | bias +0.448 | P(not better) 0.75
+    E2w  n   83 rec 14 seg 2 | RMSE 0.264 (q 0.264,   +0%) | rec-avg 0.264 (q 0.264) | better 0.00 | bias -0.043 | P(not better) 1.00
+    E9   n   83 rec 14 seg 2 | RMSE 0.750 (q 0.264, +184%) | rec-avg 0.762 (q 0.264) | better 0.25 | bias +0.404 | P(not better) 1.00
+    E3   n   83 rec 14 seg 2 | RMSE 0.314 (q 0.264,  +19%) | rec-avg 0.308 (q 0.264) | better 0.28 | bias +0.195 | P(not better) 0.74
+    E3y  n   83 rec 14 seg 2 | RMSE 0.362 (q 0.264,  +37%) | rec-avg 0.341 (q 0.264) | better 0.28 | bias +0.238 | P(not better) 0.72
+    E4   n   83 rec 14 seg 2 | RMSE 0.264 (q 0.264,   +0%) | rec-avg 0.265 (q 0.264) | better 0.00 | bias -0.043 | P(not better) 1.00
+    E4n  n   83 rec 14 seg 2 | RMSE 0.264 (q 0.264,   +0%) | rec-avg 0.263 (q 0.264) | better 0.23 | bias -0.040 | P(not better) 0.75
+    E4t  n   83 rec 14 seg 2 | RMSE 0.376 (q 0.264,  +43%) | rec-avg 0.374 (q 0.264) | better 0.19 | bias +0.068 | P(not better) 1.00
+    E7   n   83 rec 14 seg 2 | RMSE 0.314 (q 0.264,  +19%) | rec-avg 0.308 (q 0.264) | better 0.28 | bias +0.195 | P(not better) 0.76
+    E6   n   83 rec 14 seg 2 | RMSE 0.900 (q 0.264, +241%) | rec-avg 0.925 (q 0.264) | better 0.12 | bias +0.472 | P(not better) 1.00
+
+================ Sq EVAL-LIKE per seg (episode) — record-level RMSE ================
+  seg 2: n 80 rec 11 | E0 0.265 | E1c 0.914 | E2 0.773 | E2w 0.265 | E9 0.757 | E3 0.319 | E4t 0.380 | mean(y-I) -0.471 | mean(y-q) +0.036
+  seg 3: n 3 rec 3 | E0 0.235 | E1c 0.123 | E2 0.168 | E2w 0.235 | E9 0.515 | E3 0.102 | E4t 0.239 | mean(y-I) +0.164 | mean(y-q) +0.227
+
+================ per-seed (Sq): RMSE change vs q (better share) ================
+  [EVAL-LIKE two-sided k>=2 & gap>=7]
+    E1c  s47:  +241% (0.33) | s1414:  +229% (0.31) | s6464:  +237% (0.33)
+    E2   s47:  +188% (0.29) | s1414:  +178% (0.27) | s6464:  +186% (0.28)
+    E2w  s47:    +0% (0.00) | s1414:   +43% (0.07) | s6464:    +0% (0.00)
+    E9   s47:  +185% (0.25) | s1414:  +178% (0.25) | s6464:  +182% (0.25)
+    E3   s47:   +15% (0.28) | s1414:   +13% (0.29) | s6464:   +19% (0.28)
+    E4   s47:    +0% (0.00) | s1414:   +10% (0.06) | s6464:    +0% (0.01)
+    E4t  s47:   +47% (0.18) | s1414:  +111% (0.14) | s6464:   +42% (0.18)
+    E7   s47:   +15% (0.28) | s1414:   +13% (0.29) | s6464:   +19% (0.28)
+  [EVAL-LIKE ... nearest=prev (k<=m) [F13_221/223/225]]
+    E1c  s47:  +486% (0.16) | s1414:  +414% (0.14) | s6464:  +471% (0.16)
+    E2   s47:  +369% (0.12) | s1414:  +311% (0.10) | s6464:  +357% (0.10)
+    E2w  s47:    +0% (0.00) | s1414:   +71% (0.02) | s6464:    +0% (0.00)
+    E9   s47:  +360% (0.12) | s1414:  +309% (0.12) | s6464:  +348% (0.12)
+    E3   s47:   +85% (0.00) | s1414:   +65% (0.02) | s6464:   +87% (0.00)
+    E4   s47:    +0% (0.00) | s1414:   +26% (0.10) | s6464:    +0% (0.00)
+    E4t  s47:  +108% (0.20) | s1414:  +212% (0.14) | s6464:   +95% (0.18)
+    E7   s47:   +85% (0.00) | s1414:   +65% (0.02) | s6464:   +87% (0.00)
+  [EVAL-LIKE ... nearest=next m>=2 (m<k) [F47_221/223/225]]
+    E1c  s47:   +52% (0.61) | s1414:   +54% (0.61) | s6464:   +50% (0.61)
+    E2   s47:   +79% (0.57) | s1414:   +81% (0.57) | s6464:   +77% (0.57)
+    E2w  s47:    +0% (0.00) | s1414:   +34% (0.13) | s6464:    +0% (0.00)
+    E9   s47:   +78% (0.43) | s1414:   +83% (0.43) | s6464:   +77% (0.43)
+    E3   s47:   -27% (0.57) | s1414:   -25% (0.57) | s6464:   -22% (0.57)
+    E4   s47:    +0% (0.00) | s1414:    +0% (0.00) | s6464:    -0% (0.04)
+    E4t  s47:   +16% (0.22) | s1414:   +28% (0.22) | s6464:   +15% (0.26)
+    E7   s47:   -27% (0.57) | s1414:   -25% (0.57) | s6464:   -22% (0.57)
+  [EVAL-LIKE ... m=1 (k>=6) [F47_227]]
+    E1c  s47:    +7% (0.50) | s1414:    +8% (0.50) | s6464:    +8% (0.50)
+    E2   s47:    -2% (0.50) | s1414:    -1% (0.50) | s6464:    -1% (0.50)
+    E2w  s47:    +0% (0.00) | s1414:    -1% (0.20) | s6464:    +0% (0.00)
+    E9   s47:   +11% (0.50) | s1414:    +9% (0.50) | s6464:   +14% (0.50)
+    E3   s47:   -58% (1.00) | s1414:   -55% (1.00) | s6464:   -58% (1.00)
+    E4   s47:    +0% (0.00) | s1414:    +0% (0.00) | s6464:    +0% (0.00)
+    E4t  s47:    +0% (0.00) | s1414:    +0% (0.00) | s6464:    +0% (0.00)
+    E7   s47:   -58% (1.00) | s1414:   -55% (1.00) | s6464:   -58% (1.00)
+  [prev only k=2]
+    E1c  s47:   +95% (0.35) | s1414:   +80% (0.29) | s6464:   +95% (0.33)
+    E2   s47: n/a | s1414: n/a | s6464: n/a
+    E2w  s47: n/a | s1414: n/a | s6464: n/a
+    E9   s47: n/a | s1414: n/a | s6464: n/a
+    E3   s47:    +7% (0.45) | s1414:    +3% (0.48) | s6464:    +8% (0.48)
+    E4   s47:    +0% (0.00) | s1414:    +4% (0.29) | s6464:    +0% (0.00)
+    E4t  s47: n/a | s1414: n/a | s6464: n/a
+    E7   s47:    +7% (0.45) | s1414:    +3% (0.48) | s6464:    +8% (0.48)
+  [prev only k=3-4]
+    E1c  s47:   +99% (0.38) | s1414:  +103% (0.35) | s6464:  +100% (0.37)
+    E2   s47: n/a | s1414: n/a | s6464: n/a
+    E2w  s47: n/a | s1414: n/a | s6464: n/a
+    E9   s47: n/a | s1414: n/a | s6464: n/a
+    E3   s47:    +0% (0.47) | s1414:    +1% (0.47) | s6464:    +2% (0.51)
+    E4   s47:    +0% (0.00) | s1414:    +0% (0.00) | s6464:    +0% (0.00)
+    E4t  s47: n/a | s1414: n/a | s6464: n/a
+    E7   s47:    +0% (0.47) | s1414:    +1% (0.47) | s6464:    +2% (0.51)
+  [prev only k=5-10]
+    E1c  s47:   +97% (0.39) | s1414:   +99% (0.39) | s6464:   +98% (0.39)
+    E2   s47: n/a | s1414: n/a | s6464: n/a
+    E2w  s47: n/a | s1414: n/a | s6464: n/a
+    E9   s47: n/a | s1414: n/a | s6464: n/a
+    E3   s47:   -10% (0.52) | s1414:    -8% (0.70) | s6464:    -7% (0.70)
+    E4   s47:    +9% (0.09) | s1414:    +9% (0.09) | s6464:    +9% (0.12)
+    E4t  s47: n/a | s1414: n/a | s6464: n/a
+    E7   s47:    -9% (0.52) | s1414:    -6% (0.70) | s6464:    -6% (0.70)
+
+================ Sq by model size, EVAL-LIKE ================
+  [EVAL-LIKE & q<1.2]
+    E0   n    9 rec  1 seg 1 | RMSE 0.123 (q 0.123,   +0%) | rec-avg 0.123 (q 0.123) | better 0.00 | bias +0.123 | P(not better) 1.00
+    E1c  n    9 rec  1 seg 1 | RMSE 1.212 (q 0.123, +884%) | rec-avg 1.212 (q 0.123) | better 0.00 | bias +1.104 | P(not better) 1.00
+    E2   n    9 rec  1 seg 1 | RMSE 1.007 (q 0.123, +718%) | rec-avg 1.007 (q 0.123) | better 0.00 | bias +0.949 | P(not better) 1.00
+    E2w  n    9 rec  1 seg 1 | RMSE 0.123 (q 0.123,   +0%) | rec-avg 0.123 (q 0.123) | better 0.00 | bias +0.123 | P(not better) 1.00
+    E9   n    9 rec  1 seg 1 | RMSE 0.978 (q 0.123, +694%) | rec-avg 0.978 (q 0.123) | better 0.00 | bias +0.916 | P(not better) 1.00
+    E3   n    9 rec  1 seg 1 | RMSE 0.235 (q 0.123,  +91%) | rec-avg 0.235 (q 0.123) | better 0.00 | bias +0.235 | P(not better) 1.00
+    E4t  n    9 rec  1 seg 1 | RMSE 0.427 (q 0.123, +247%) | rec-avg 0.427 (q 0.123) | better 0.00 | bias +0.398 | P(not better) 1.00
+  [EVAL-LIKE & 1.2<=q<1.5]
+    E0   n   35 rec  8 seg 2 | RMSE 0.273 (q 0.273,   +0%) | rec-avg 0.273 (q 0.273) | better 0.00 | bias +0.042 | P(not better) 1.00
+    E1c  n   35 rec  8 seg 2 | RMSE 1.018 (q 0.273, +273%) | rec-avg 0.899 (q 0.273) | better 0.31 | bias +0.705 | P(not better) 0.74
+    E2   n   35 rec  8 seg 2 | RMSE 0.911 (q 0.273, +234%) | rec-avg 0.800 (q 0.273) | better 0.29 | bias +0.668 | P(not better) 0.70
+    E2w  n   35 rec  8 seg 2 | RMSE 0.273 (q 0.273,   +0%) | rec-avg 0.273 (q 0.273) | better 0.00 | bias +0.042 | P(not better) 1.00
+    E9   n   35 rec  8 seg 2 | RMSE 0.901 (q 0.273, +230%) | rec-avg 0.838 (q 0.273) | better 0.23 | bias +0.610 | P(not better) 1.00
+    E3   n   35 rec  8 seg 2 | RMSE 0.336 (q 0.273,  +23%) | rec-avg 0.284 (q 0.273) | better 0.40 | bias +0.210 | P(not better) 0.76
+    E4t  n   35 rec  8 seg 2 | RMSE 0.428 (q 0.273,  +57%) | rec-avg 0.400 (q 0.273) | better 0.00 | bias +0.166 | P(not better) 1.00
+  [EVAL-LIKE & q>=1.5]
+    E0   n   39 rec  5 seg 1 | RMSE 0.279 (q 0.279,   +0%) | rec-avg 0.270 (q 0.270) | better 0.00 | bias -0.157 | P(not better) 1.00
+    E1c  n   39 rec  5 seg 1 | RMSE 0.669 (q 0.279, +140%) | rec-avg 0.743 (q 0.270) | better 0.41 | bias +0.194 | P(not better) 1.00
+    E2   n   39 rec  5 seg 1 | RMSE 0.499 (q 0.279,  +79%) | rec-avg 0.562 (q 0.270) | better 0.36 | bias +0.135 | P(not better) 1.00
+    E2w  n   39 rec  5 seg 1 | RMSE 0.279 (q 0.279,   +0%) | rec-avg 0.270 (q 0.270) | better 0.00 | bias -0.157 | P(not better) 1.00
+    E9   n   39 rec  5 seg 1 | RMSE 0.497 (q 0.279,  +79%) | rec-avg 0.556 (q 0.270) | better 0.33 | bias +0.102 | P(not better) 1.00
+    E3   n   39 rec  5 seg 1 | RMSE 0.309 (q 0.279,  +11%) | rec-avg 0.354 (q 0.270) | better 0.23 | bias +0.172 | P(not better) 1.00
+    E4t  n   39 rec  5 seg 1 | RMSE 0.308 (q 0.279,  +11%) | rec-avg 0.315 (q 0.270) | better 0.41 | bias -0.096 | P(not better) 1.00
+
+================ EVAL 8 (DM11-based narrative geometry; coefficients fit on ALL Sq cases) ================
+  E3 y = -0.036 + 1.127 q | E2w w_gap {'<=4': 0.0, '5-7': 0.0, '8+': 0.0} | E9 bulge {'<=4': -0.203, '5-7': -0.295, '8+': -0.484} | E4t wA {'1': np.float64(0.0), '2': np.float64(0.0), '3-4': np.float64(0.0), '5-10': np.float64(0.13)} wB {'1': np.float64(0.02), '2': np.float64(0.0), '3-4': np.float64(0.0), '5-10': np.float64(0.0)} | E4 w_k {'1': 0.26, '2': 0.0, '3-4': 0.0, '5-10': 0.05} | E4n w_m {'1': 0.53, '2': 0.15, '3-4': 0.04, '5-10': 0.38}
+    rec   k   m     q   E1c    E2   E2w    E9    E3    E4   E4n   E4t    E7
+F13_221 2.0 7.0 1.615 1.663 1.675 1.615 1.191 1.784 1.615 1.653 1.615 1.784
+F13_223 3.0 6.0 1.668 1.663 1.681 1.668 1.197 1.843 1.668 1.686 1.668 1.843
+F13_225 4.0 5.0 1.796 1.663 1.687 1.796 1.203 1.987 1.796 1.766 1.796 1.987
+F47_221 5.0 4.0 1.401 1.716 1.692 1.401 1.209 1.543 1.415 1.414 1.434 1.543
+F47_223 6.0 3.0 1.431 1.716 1.698 1.431 1.215 1.576 1.443 1.443 1.460 1.576
+F47_225 7.0 2.0 1.688 1.716 1.704 1.688 1.221 1.866 1.687 1.692 1.685 1.866
+F47_227 8.0 1.0 1.657 1.716 1.710 1.657 1.226 1.831 1.657 1.688 1.659 1.831

@@ -1,0 +1,28 @@
+train bundle sizes: {1: 31, 2: 21, 3: 49, 4: 45} -> D = 4
+DIAG10 s47 records with ledger: 182 | guaranteed: 133 | true next in R when guaranteed: 0.91 vs not guaranteed: 0.714
+DIAG10 s47: E1a fired 1 ['F47_130'] | day RMSE model 0.593 vs anchor 0.005
+DIAG10 s1414: E1a fired 1 ['F47_130'] | day RMSE model 0.532 vs anchor 0.005
+DIAG10 s6464: E1a fired 1 ['F47_130'] | day RMSE model 0.567 vs anchor 0.005
+EL1 s47: E1a fired 0 [] | day RMSE model nan vs anchor nan
+EL1 s1414: E1a fired 0 [] | day RMSE model nan vs anchor nan
+EL1 s6464: E1a fired 0 [] | day RMSE model nan vs anchor nan
+P2LOO s47: E1a fired 1 ['F13_214'] | day RMSE model 0.386 vs anchor 0.034
+P2LOO s1414: E1a fired 1 ['F13_214'] | day RMSE model 0.349 vs anchor 0.034
+P2LOO s6464: E1a fired 1 ['F13_214'] | day RMSE model 0.366 vs anchor 0.034
+
+DIAG10 model-high & guaranteed (any R level):
+             y     sg     d0     pick     ok                R
+rec                                                          
+F13_120  1.250  1.154  1.355  F13_121  False          F13_121
+F13_125  1.495  1.404  1.448  F13_127   True          F13_127
+F13_132  0.870  1.241  0.941  F13_133   True  F13_133 F13_134
+F13_135  1.013  1.136  0.965  F13_137   True  F13_137 F47_140
+F13_137  1.076  1.290  1.048  F13_139   True  F13_139 F47_142
+F47_130  0.491  1.055  0.496  F47_210   True          F47_210
+F47_132  2.712  1.241  2.806  F47_134  False  F47_133 F47_134
+F47_136  1.653  1.870  1.745  F47_138  False  F13_134 F47_138
+F47_139  1.684  1.632  1.869  F47_141   True  F47_140 F47_141
+F47_141  1.866  1.781  2.173  F47_143  False  F47_142 F47_143
+F47_154  1.621  1.380  1.645  F13_153   True  F13_153 F47_155
+
+F13_237 ledger: {'R': [np.str_('F13_128'), np.str_('F13_129')], 'guaranteed': True, 'pick': np.str_('F13_128'), 'nB': 3, 'nT': 2, 'nA': 1} | R 0h: {np.str_('F13_128'): 0.721, np.str_('F13_129'): 0.715}

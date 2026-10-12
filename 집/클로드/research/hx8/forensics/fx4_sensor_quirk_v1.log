@@ -1,0 +1,33 @@
+C:\work\farmai\집\클로드\research\hx8\forensics\fx4_sensor_quirk_v1.py:23: RuntimeWarning: All-NaN slice encountered
+  co2_min=np.nanmin(c), co2_night=np.nanmedian(c[:6]), t_night=np.nanmin(t[:6]),
+quirk summary (F13/F47 train):
+       hum_max  hum_top  hum_min  co2_min  co2_night  t_night  hum_int   co2_5
+count   400.00   400.00   400.00   400.00     399.00   399.00   400.00  400.00
+mean     81.08     1.91    53.54   363.97     416.22    12.40     0.99    0.20
+std       9.20     1.37    10.86    41.95      92.50     3.83     0.05    0.08
+min      58.00     1.00    28.00   180.00     210.50     3.60     0.50    0.00
+25%      74.00     1.00    45.00   339.75     375.75     9.60     1.00    0.12
+50%      80.00     1.00    52.00   371.00     416.50    11.20     1.00    0.21
+75%      89.00     2.00    62.00   395.25     449.75    14.75     1.00    0.25
+max      98.00     8.00    87.00   471.00    1933.00    22.00     1.00    0.42
+hum_max top values: {91.0: 23, 93.0: 22, 75.0: 22, 80.0: 21, 72.0: 19, 92.0: 17, 85.0: 16, 74.0: 16}
+
+positive links (c1<=1): 342  cross-ID: 77
+pairs (true next-day vs other dong same next-day bundle): 770
+    trace   n   auc
+  hum_max 770 0.686
+  hum_top 770 0.525
+  hum_min 770 0.662
+  co2_min 770 0.781
+co2_night 763 0.719
+  t_night 763 0.642
+  hum_int 770 0.499
+    co2_5 770 0.482
+ actuator 770 0.953
+
+cross-ID links where the decoy is a's own ID next day: n=88 (true = other ID, same physical dong)
+  hum_max: trace closer to physical link 0.60 (n=88)
+  co2_min: trace closer to physical link 0.78 (n=88)
+  co2_night: trace closer to physical link 0.88 (n=88)
+  t_night: trace closer to physical link 0.72 (n=88)
+  actuator: trace closer to physical link 0.93 (n=88)
