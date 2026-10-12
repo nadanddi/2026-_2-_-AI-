@@ -1,0 +1,8 @@
+CV records: 190 | truth date visible & candidate 0.86 | truth house visible 0.86 | mean #cand dates 121.4
+weights fitted for 48 blocks
+eligible records (front info): 222 | pass-2: 36 | HARD anchors: 31
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\ec0h\structure\sp1_structure_predictor_v1.py", line 68, in <module>
+    SP.values[np.ix_(np.where(te)[0], hs)] = Q.values[np.ix_(np.where(te)[0], hs)] + w * Xs[np.ix_(np.where(te)[0], hs)]
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: assignment destination is read-only
