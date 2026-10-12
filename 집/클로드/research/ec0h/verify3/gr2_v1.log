@@ -1,0 +1,32 @@
+day 7.0->8.0->9.0: day7.0 ['F13_016', 'F13_017', 'F47_014', 'F47_015'] | day8.0 ['F13_018', 'F13_019', 'F47_016'] | continued ['F13_016', 'F13_017', 'F47_015'] | NOT continued (skipped house?) ['F47_014']
+     F47_014: EC 23h 0.116, ST 23h 22.1 | true certain successors: []
+     train on day 9.0: label-continuity from F47_014: F47_017 2.1 (EC0 0.11), F47_018 13.0 (EC0 0.20), F13_020 23.3 (EC0 0.33), F13_021 27.5 (EC0 0.38)
+day 12.0->13.0->14.0: day12.0 ['F13_026', 'F13_183', 'F47_023', 'F47_024'] | day13.0 ['F13_027', 'F47_025', 'F47_183'] | continued ['F47_024', 'F13_183'] | NOT continued (skipped house?) ['F13_026', 'F47_023']
+     F13_026: EC 23h 0.323, ST 23h 21.1 | true certain successors: []
+     F47_023: EC 23h 0.197, ST 23h 20.4 | true certain successors: []
+     train on day 14.0: label-continuity from F13_026: F13_029 1.0 (EC0 0.31), F13_028 6.2 (EC0 0.36), F47_026 9.5 (EC0 0.23), F47_027 11.3 (EC0 0.24)
+     train on day 14.0: label-continuity from F47_023: F47_027 4.4 (EC0 0.24), F47_026 5.3 (EC0 0.23), F13_029 14.1 (EC0 0.31), F13_028 16.9 (EC0 0.36)
+day 23.0->24.0->25.0: day23.0 ['F13_042', 'F13_043', 'F47_043', 'F47_044'] | day24.0 ['F13_044', 'F47_045', 'F47_046'] | continued ['F13_042', 'F47_043', 'F47_044'] | NOT continued (skipped house?) ['F13_043']
+     F13_043: EC 23h 0.354, ST 23h 15.1 | true certain successors: []
+     train on day 25.0: label-continuity from F13_043: F13_046 9.0 (EC0 0.37), F13_045 18.6 (EC0 0.18), F47_047 23.7 (EC0 0.20)
+day 38.0->39.0->40.0: day38.0 ['F13_064', 'F13_198', 'F47_067', 'F47_193'] | day39.0 ['F13_065', 'F47_068', 'F47_069'] | continued ['F47_067', 'F13_198', 'F47_193'] | NOT continued (skipped house?) ['F13_064']
+     F13_064: EC 23h 0.522, ST 23h 13.1 | true certain successors: []
+     day 40.0 eval records: F13_200 (pred0 0.53, day mean 0.53)
+     train on day 40.0: label-continuity from F13_064: F47_071 13.6 (EC0 0.39), F47_070 31.4 (EC0 0.21), F13_066 31.9 (EC0 0.26)
+day 47.0->48.0->49.0: day47.0 ['F13_077', 'F13_078', 'F47_083', 'F47_196'] | day48.0 ['F13_079', 'F13_080', 'F47_084'] | continued ['F47_196', 'F13_077', 'F13_078'] | NOT continued (skipped house?) ['F47_083']
+     F47_083: EC 23h 0.284, ST 23h 13.8 | true certain successors: []
+     day 49.0 eval records: F13_203 (pred0 0.49, day mean 0.50), F13_204 (pred0 0.56, day mean 0.53)
+     train on day 49.0: label-continuity from F47_083: F47_086 3.6 (EC0 0.30), F47_085 10.6 (EC0 0.19)
+day 73.0->74.0->75.0: day73.0 ['F13_115', 'F13_116', 'F47_122', 'F47_123'] | day74.0 ['F13_117', 'F13_118', 'F47_207'] | continued ['F13_115', 'F13_116'] | NOT continued (skipped house?) ['F47_122', 'F47_123']
+     F47_122: EC 23h 0.598, ST 23h 9.4 | true certain successors: []
+     F47_123: EC 23h 0.440, ST 23h 8.3 | true certain successors: []
+     train on day 75.0: label-continuity from F47_122: F47_209 12.0 (EC0 0.65), F47_124 16.0 (EC0 0.46), F13_119 34.5 (EC0 0.32), F13_120 71.8 (EC0 1.23)
+     train on day 75.0: label-continuity from F47_123: F47_124 7.7 (EC0 0.46), F13_119 22.5 (EC0 0.32), F47_209 31.8 (EC0 0.65), F13_120 91.6 (EC0 1.23)
+day 80.0->81.0->82.0: day80.0 ['F13_216', 'F13_217', 'F47_211', 'F47_212'] | day81.0 ['F13_218', 'F47_213', 'F47_214'] | continued ['F47_212', 'F13_216', 'F47_211'] | NOT continued (skipped house?) ['F13_217']
+     F13_217: EC 23h 1.663, ST 23h 11.2 | true certain successors: []
+     day 82.0 eval records: F13_220 (pred0 0.40, day mean 0.40), F13_221 (pred0 1.57, day mean 1.62)
+     train on day 82.0: label-continuity from F13_217: F47_215 96.9 (EC0 0.71), F47_216 114.7 (EC0 0.53)
+day 97.0->98.0->99.0: day97.0 ['F13_139', 'F13_140', 'F47_142', 'F47_143'] | day98.0 ['F13_141', 'F47_144', 'F47_145'] | continued ['F13_140', 'F47_142', 'F47_143'] | NOT continued (skipped house?) ['F13_139']
+     F13_139: EC 23h 1.388, ST 23h 13.4 | true certain successors: []
+     day 99.0 eval records: F47_234 (pred0 0.72, day mean 0.73)
+     train on day 99.0: label-continuity from F13_139: F13_143 6.4 (EC0 1.41), F13_142 64.3 (EC0 0.66)
