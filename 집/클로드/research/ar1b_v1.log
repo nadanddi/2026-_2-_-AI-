@@ -1,0 +1,23 @@
+pairs 119 | harmful at 0h 22 | sum gain of helpful -5.34 | sum loss of harmful 2.14
+single AUC: {'p': 0.246, 'by_v7': 0.471, 'by_v12': 0.404, 'both': 0.374, 'hp2_agree': 0.381, 'date_ok': 0.381, 'cross_id': 0.59, 'jT': 0.729, 'jH': 0.633, 'jC': 0.728, 'fp': 0.715, 'gapA': 0.585}
+
+with cross_id: block-CV AUC 0.697
+   drop top 50% most suspicious (59 pairs): 0h ツSSE kept -1.47 (all kept -3.21) | removed harmful 17 helpful 42
+   drop top 30% most suspicious (36 pairs): 0h ツSSE kept -0.45 (all kept -3.21) | removed harmful 10 helpful 26
+   drop top 20% most suspicious (24 pairs): 0h ツSSE kept -0.73 (all kept -3.21) | removed harmful 7 helpful 17
+   drop top 10% most suspicious (12 pairs): 0h ツSSE kept -0.81 (all kept -3.21) | removed harmful 5 helpful 7
+
+without cross_id: block-CV AUC 0.701
+   drop top 50% most suspicious (59 pairs): 0h ツSSE kept -1.46 (all kept -3.21) | removed harmful 17 helpful 42
+   drop top 30% most suspicious (36 pairs): 0h ツSSE kept -0.61 (all kept -3.21) | removed harmful 12 helpful 24
+   drop top 20% most suspicious (24 pairs): 0h ツSSE kept -0.90 (all kept -3.21) | removed harmful 8 helpful 16
+   drop top 10% most suspicious (12 pairs): 0h ツSSE kept -0.84 (all kept -3.21) | removed harmful 5 helpful 7
+    rec    prev    d0  gapA  cross_id   jC  hp2_agree
+F47_146 F13_143 1.304 1.040       1.0 27.0        1.0
+F13_177 F47_177 0.241 0.559       1.0  9.0        1.0
+F13_116 F47_130 0.133 0.490       1.0 28.0        0.0
+F13_214 F47_120 0.124 0.199       1.0 19.0        0.0
+F13_149 F13_242 0.110 0.284       0.0 54.0        1.0
+F47_079 F13_072 0.074 0.243       1.0  1.0        1.0
+F13_128 F47_212 0.047 0.225       1.0 10.0        0.0
+F13_145 F47_162 0.026 0.248       1.0  7.0        0.0
