@@ -55,3 +55,18 @@ F47_114 5 NO prev: anchored anyway  False 0.618      0.166  0.767
 F47_130       4 NO prev: abstained  False 0.570      0.570  0.491
 F47_177               1 HAS: found  False 0.539      0.599  1.487
 F47_161       4 NO prev: abstained  False 0.510      0.510  0.646
+=== PASS-2 HAS-missed under v7: per-record
+  F13_182 rmse 0.049 sse 0.06 ymean 0.34 | linker not confident | v15 top F13_012 p0 0.41 truth F13_012
+  F13_195 rmse 0.037 sse 0.03 ymean 0.56 | linker not confident | v15 top F13_057 p0 0.91 truth F13_057
+  F13_214 rmse 0.295 sse 2.10 ymean 0.92 | linker not confident | v15 top F47_120 p0 0.76 truth F13_114
+  F13_242 rmse 0.132 sse 0.42 ymean 0.43 | linker not confident | v15 top F47_150 p0 0.36 truth F47_150
+  F13_243 rmse 0.733 sse 12.90 ymean 1.72 | v7 prev hidden by DIAG10 fold | v15 top F47_151 p0 0.97 truth F47_151
+  F13_244 rmse 0.083 sse 0.17 ymean 0.44 | truth hidden by DIAG10 fold | v15 top F13_215 p0 0.13 truth F47_152
+  F13_245 rmse 0.093 sse 0.21 ymean 0.84 | v7 prev hidden by DIAG10 fold | v15 top F47_153 p0 0.99 truth F47_153
+  F47_191 rmse 0.079 sse 0.15 ymean 0.29 | linker not confident | v15 top F47_056 p0 0.27 truth F47_057
+  F47_192 rmse 0.031 sse 0.02 ymean 0.14 | linker not confident | v15 top F47_062 p0 0.64 truth F47_062
+  F47_194 rmse 0.025 sse 0.01 ymean 0.25 | linker not confident | v15 top F13_068 p0 0.26 truth F13_068
+  F47_216 rmse 0.349 sse 2.92 ymean 0.56 | linker not confident | v15 top F47_214 p0 0.98 truth F47_214
+  F47_241 rmse 0.232 sse 1.30 ymean 0.65 | linker not confident | v15 top F13_162 p0 0.52 truth F13_162
+  F47_242 rmse 0.070 sse 0.12 ymean 0.72 | linker not confident | v15 top F47_241 p0 0.00 truth F13_165
+  F47_243 rmse 0.137 sse 0.45 ymean 0.45 | linker not confident | v15 top F13_176 p0 0.84 truth F13_176

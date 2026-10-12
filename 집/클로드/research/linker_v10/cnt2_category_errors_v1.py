@@ -48,3 +48,13 @@ for nm, AA in CFG.items():
                                  high_ec_days=("ymean", lambda s: int((s >= 1).sum())))
         print(f"\n=== {nm} | {part}: records {len(S)}, overall RMSE {np.sqrt(S.sse.sum() / (24 * len(S))):.4f}"); print(A.round(3).to_string())
     print("\n   biggest-error records (RMSE > .5):"); print(T[T.rmse > .5].sort_values("rmse", ascending=False)[["rec", "cat", "pass2", "rmse", "rmse_none", "ymean"]].round(3).to_string(index=False))
+# 추가(EHF1 후속): 2차 '있는데 못 찾음' 기록별 오차와 못 찾은 이유(v7 구성)
+print("\n=== PASS-2 HAS-missed under v7: per-record")
+D15 = pd.read_csv(os.path.join(OUT, "v15pi15_mirror.csv")).set_index("rec")
+for r, g in G.groupby("rec"):
+    if int(r[4:7]) < 179 or status(r) != "has": continue
+    hs = hidden[int(g.fold.iloc[0])]; a = V7.get(r)
+    if a is not None and a not in hs: continue
+    why = "v7 prev hidden by DIAG10 fold" if a is not None else ("truth hidden by DIAG10 fold" if TP[r] in hs else "linker not confident")
+    rm_ = float(np.sqrt(np.mean((g.sg.values - g.y.values) ** 2)))
+    print(f"  {r} rmse {rm_:.3f} sse {np.sum((g.sg.values - g.y.values) ** 2):.2f} ymean {g.y.mean():.2f} | {why} | v15 top {D15.prev0.get(r)} p0 {D15.p0.get(r, np.nan):.2f} truth {TP[r]}")
