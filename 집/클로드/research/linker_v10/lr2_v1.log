@@ -1,0 +1,13 @@
+train groups 190
+  v10    all-truth  (linkable 171) | 0.50: 105 anc prec 0.771 rec 0.47 | 0.70:  85 anc prec 0.871 rec 0.43 | 0.80:  76 anc prec 0.921 rec 0.41 | 0.90:  61 anc prec 0.918 rec 0.33 | 0.95:  50 anc prec 0.940 rec 0.27
+  v10    cert-truth (linkable 65) | 0.50:  51 anc prec 0.882 rec 0.69 | 0.70:  42 anc prec 0.952 rec 0.62 | 0.80:  38 anc prec 1.000 rec 0.58 | 0.90:  33 anc prec 1.000 rec 0.51 | 0.95:  26 anc prec 1.000 rec 0.40
+  v10fp  all-truth  (linkable 171) | 0.50: 105 anc prec 0.771 rec 0.47 | 0.70:  82 anc prec 0.866 rec 0.42 | 0.80:  74 anc prec 0.932 rec 0.40 | 0.90:  64 anc prec 0.922 rec 0.35 | 0.95:  49 anc prec 0.918 rec 0.26
+  v10fp  cert-truth (linkable 65) | 0.50:  51 anc prec 0.882 rec 0.69 | 0.70:  41 anc prec 0.951 rec 0.60 | 0.80:  38 anc prec 1.000 rec 0.58 | 0.90:  33 anc prec 1.000 rec 0.51 | 0.95:  24 anc prec 1.000 rec 0.37
+  RK     all-truth  (linkable 171) | 0.50:  97 anc prec 0.804 rec 0.46 | 0.70:  84 anc prec 0.881 rec 0.43 | 0.80:  80 anc prec 0.900 rec 0.42 | 0.90:  76 anc prec 0.921 rec 0.41 | 0.95:  72 anc prec 0.958 rec 0.40
+  RK     cert-truth (linkable 65) | 0.50:  49 anc prec 0.918 rec 0.69 | 0.70:  46 anc prec 0.935 rec 0.66 | 0.80:  44 anc prec 0.955 rec 0.65 | 0.90:  42 anc prec 0.952 rec 0.62 | 0.95:  39 anc prec 1.000 rec 0.60
+  META   all-truth  (linkable 171) | 0.50:  87 anc prec 0.920 rec 0.47 | 0.70:  80 anc prec 0.975 rec 0.46 | 0.80:  73 anc prec 0.986 rec 0.42 | 0.90:  71 anc prec 0.986 rec 0.41 | 0.95:  68 anc prec 1.000 rec 0.40
+  META   cert-truth (linkable 65) | 0.50:  47 anc prec 0.979 rec 0.71 | 0.70:  44 anc prec 1.000 rec 0.68 | 0.80:  40 anc prec 1.000 rec 0.62 | 0.90:  40 anc prec 1.000 rec 0.62 | 0.95:  38 anc prec 1.000 rec 0.58
+
+candidate-pool ceiling (truth among kept labelled candidates) / linkable: 0.649
+
+[exited with code 0]
