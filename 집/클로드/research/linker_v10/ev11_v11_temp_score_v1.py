@@ -39,7 +39,7 @@ for b, a in zip(TL7.b, TL7.a):
     y = np.where(df.a.values == a)[0]
     if len(y): TRG.append((b, a, df, y[0]))
 
-H_ = r"C:\workarmai\집\클로드esearch"
+H_ = os.path.join(env.ROOT, "집", "클로드", "research")
 picks = {}
 for f in ["F13", "F47"]:
     g = "F47" if f == "F13" else "F13"; sh = -2 if f == "F13" else 2
