@@ -1,0 +1,58 @@
+(1) high-EC training records: 35 of 400 | F13 19 F47 16 | pass-2 5 | calendar days [74, 75, 76, 77, 78, 79, 80, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 103, 104, 105, 107, 108, 109, 110, 123, 124, 125, 126]
+    previous same-house day also high (truth link): 31 / 35 known
+    same-house labelled neighbours: prev&next 24, prev only 7, next only 4, neither 0
+
+(2) model vs truth on high days (day means):
+   DIAG10 sg          n 31 | mean truth 1.55 vs pred 1.26 | mean ratio pred/truth 0.84 | RMSE day-mean 0.436 | slope truth~pred 0.70
+   EV SG2 (no anchor) n 35 | mean truth 1.58 vs pred 1.30 | mean ratio pred/truth 0.85 | RMSE day-mean 0.457 | slope truth~pred 0.58
+   EV EA2 (anchor)    n 35 | mean truth 1.58 vs pred 1.37 | mean ratio pred/truth 0.89 | RMSE day-mean 0.423 | slope truth~pred 0.57
+   all days: ratio pred/truth by truth level band: {Interval(0.0, 0.4, closed='right'): 1.1, Interval(0.4, 0.6, closed='right'): 1.05, Interval(0.6, 0.8, closed='right'): 1.06, Interval(0.8, 1.0, closed='right'): 0.96, Interval(1.0, 1.5, closed='right'): 0.89, Interval(1.5, 2.0, closed='right'): 0.83, Interval(2.0, 9.0, closed='right'): 0.63}
+
+(3) EV anchors on high days: anchored 7 / 35 | day-mean |err| anchored: SG2 0.369 -> EA2 0.179 | not anchored: SG2 0.382
+    rec   day    y   y0   qD   qS   qE  anchored  prev_high    hp    hn
+F13_118  74.0 1.10 0.93 1.08 1.22 0.96      True      False  True  True
+F13_120  75.0 1.25 1.23 1.15 1.56 1.56     False       True  True  True
+F13_121  76.0 1.32 1.36 0.89 1.21 1.21     False       True  True  True
+F13_123  77.0 1.45 1.40  NaN 1.26 1.26     False       True  True  True
+F13_125  78.0 1.50 1.49 1.40 1.58 1.58     False       True  True  True
+F13_127  79.0 1.58 1.45  NaN 1.17 1.17     False       True  True  True
+F13_217  80.0 1.69 1.66 1.19 0.66 0.66     False       True  True False
+F47_229  89.0 1.79 1.72 1.34 1.44 1.44     False       True False  True
+F47_231  90.0 2.18 2.06 1.50 1.55 1.55     False       True  True  True
+F47_132  91.0 2.71 2.80 1.24 1.62 1.62     False       True  True  True
+F47_134  92.0 2.32 2.81  NaN 1.78 1.78     False       True  True  True
+F47_136  93.0 1.65 1.66 1.87 1.75 1.68      True       True  True  True
+F47_138  94.0 1.71 1.74 1.59 1.54 1.54     False       True  True  True
+F47_139  95.0 1.68 1.67 1.63 1.48 1.48     False       True  True  True
+F13_135  95.0 1.01 0.97 1.14 1.48 1.48     False      False  True  True
+F47_141  96.0 1.87 1.87 1.78 1.95 1.95     False       True  True  True
+F13_137  96.0 1.08 0.96 1.29 1.55 1.55     False       True  True  True
+F13_139  97.0 1.30 1.05 0.95 0.95 0.95     False       True  True False
+F47_143  97.0 2.06 2.17  NaN 1.64 1.64     False       True  True  True
+F47_145  98.0 2.14 2.30 1.60 1.79 1.79     False       True  True False
+F13_143  99.0 1.53 1.41 1.24 1.28 1.28     False       True False  True
+F47_147 100.0 1.75 1.85 1.43 1.40 1.88      True       True  True  True
+F13_146 101.0 1.50 1.62 1.39 1.34 1.34     False       True  True False
+F13_241 103.0 1.43 1.43 0.99 0.89 1.58      True       True False  True
+F47_151 104.0 1.31 1.33 1.34 1.36 1.36     False       True  True  True
+F13_243 105.0 1.72 1.58 0.99 0.89 1.63      True       True  True False
+F13_151 107.0 1.68 1.70 1.38 1.24 1.24     False       True False  True
+F47_154 108.0 1.62 1.66 1.38 1.24 1.24     False       True  True  True
+F13_153 109.0 1.64 1.64 1.49 1.15 1.15     False       True  True  True
+F47_157 110.0 1.21 1.52 0.94 1.03 1.59      True       True  True  True
+F47_174 123.0 1.05 0.89 0.91 0.88 0.88     False      False  True  True
+F13_175 124.0 1.27 0.91 0.95 0.70 0.70     False       True  True  True
+F47_177 125.0 1.49 0.98 1.03 1.03 1.15      True       True  True  True
+F13_178 126.0 1.84 1.29 1.08 1.11 1.11     False       True  True False
+F13_177 126.0 1.01 0.98 1.00 0.82 0.82     False      False  True False
+
+(4) eval records predicted high (12th-round day mean >= 1.0): 9
+   F13_225 pred 1.80 | day 84.0 | labelled on prev day 0.0, next day 0.0
+   F47_225 pred 1.69 | day 87.0 | labelled on prev day 0.0, next day 1.0
+   F13_223 pred 1.67 | day 83.0 | labelled on prev day 2.0, next day 0.0
+   F47_227 pred 1.66 | day 88.0 | labelled on prev day 2.0, next day 1.0
+   F13_221 pred 1.62 | day 82.0 | labelled on prev day 3.0, next day 0.0
+   F47_223 pred 1.43 | day 86.0 | labelled on prev day 0.0, next day 2.0
+   F47_221 pred 1.40 | day 85.0 | labelled on prev day 0.0, next day 0.0
+   F47_235 pred 1.30 | day 102.0 | labelled on prev day 3.0, next day 3.0
+   F13_237 pred 1.26 | day 90.0 | labelled on prev day 1.0, next day 3.0
