@@ -1,0 +1,15 @@
+k 1 norm n 257 | record RMSE mean model 0.073 | full anchor (beta 1) 0.027 better 0.89 | LS beta 0.94 -> 0.027
+k 1 high n  27 | record RMSE mean model 0.400 | full anchor (beta 1) 0.243 better 0.81 | LS beta 0.91 -> 0.240
+k 2 norm n 207 | record RMSE mean model 0.070 | full anchor (beta 1) 0.043 better 0.74 | LS beta 0.72 -> 0.041
+k 2 high n  23 | record RMSE mean model 0.399 | full anchor (beta 1) 0.359 better 0.61 | LS beta 0.71 -> 0.349
+k 3 norm n 175 | record RMSE mean model 0.070 | full anchor (beta 1) 0.057 better 0.66 | LS beta 0.44 -> 0.055
+k 3 high n  19 | record RMSE mean model 0.343 | full anchor (beta 1) 0.435 better 0.32 | LS beta 0.17 -> 0.336
+k 4 norm n 150 | record RMSE mean model 0.068 | full anchor (beta 1) 0.075 better 0.55 | LS beta 0.10 -> 0.066
+k 4 high n  17 | record RMSE mean model 0.343 | full anchor (beta 1) 0.492 better 0.18 | LS beta 0.11 -> 0.338
+k 5 norm n 127 | record RMSE mean model 0.067 | full anchor (beta 1) 0.087 better 0.50 | LS beta 0.01 -> 0.067
+k 5 high n  14 | record RMSE mean model 0.374 | full anchor (beta 1) 0.561 better 0.14 | LS beta 0.07 -> 0.371
+
+eval preview (A = F13_217 23h 1.663; beta = high-EC LS beta for that k, else 'n/a'):
+   F13_221 (k 2): 12th day mean 1.615, 0h 1.571 | beta 0.71 -> day mean 1.669 (change +0.054)
+   F13_223 (k 3): 12th day mean 1.668, 0h 1.649 | beta 0.17 -> day mean 1.668 (change +0.000)
+   F13_225 (k 4): 12th day mean 1.796, 0h 1.936 | beta 0.11 -> day mean 1.772 (change -0.024)
