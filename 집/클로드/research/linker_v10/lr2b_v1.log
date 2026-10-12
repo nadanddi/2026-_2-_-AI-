@@ -1,0 +1,12 @@
+cert                         False  True  All
+cat                                          
+ANCHORED correctly              34    44   78
+chosen but meta prob < .7        8    14   22
+chosen, dT gate                  1     3    4
+in pool, meta chose another      4     3    7
+no labelled candidate kept       4     0    4
+truth not in candidate pool     55     1   56
+All                            106    65  171
+
+calendar gap (record day - truth day) for 'truth not in pool':  {14.0: 3, -8.0: 3, -27.0: 3, nan: 3, -9.0: 2, -15.0: 2, -44.0: 2, -14.0: 2, 18.0: 2, -20.0: 2}
+calendar gap for ANCHORED: {1.0: 78}
