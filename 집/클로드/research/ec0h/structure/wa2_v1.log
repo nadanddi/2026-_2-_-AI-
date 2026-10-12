@@ -1,0 +1,26 @@
+HARMFUL anchors:
+ world     rec    prev  dsse  mid_jump  day_change                       cls  date_ok  dT   dST   fp0      a1  a1_cert   h0-5  h6-11  h12-17  h18-23
+    EV F47_157 F13_153 2.328     0.021       0.729 C same house, day changed        1 0.4 0.321 0.625 F13_153     True -1.392 -1.342   1.406   3.657
+    EV F47_079 F13_072 1.795     0.273       0.009             W other house        1 1.4 0.111 0.562 F47_195    False  0.432  0.424   0.454   0.485
+DIAG10 F47_170 F47_163 1.055     0.058       0.219 C same house, day changed        0 0.2 0.546 0.506 F13_168    False    NaN    NaN     NaN     NaN
+    EV F47_170 F47_163 0.786     0.058       0.219 C same house, day changed        0 0.2 0.546 0.506 F13_168    False -0.002  0.197   0.270   0.321
+DIAG10 F13_118 F13_116 0.480     0.021       0.357 C same house, day changed        1 0.1 0.096 0.120 F13_116     True    NaN    NaN     NaN     NaN
+    EV F13_108 F13_106 0.430     0.123       0.025             W other house        1 1.8 0.854 0.847 F13_107    False  0.075  0.090   0.133   0.132
+DIAG10 F13_108 F13_106 0.414     0.123       0.025             W other house        1 1.8 0.854 0.847 F13_107    False    NaN    NaN     NaN     NaN
+    EV F47_016 F13_016 0.399     0.126       0.006             W other house        1 2.1 1.363 0.978 F47_015     True  0.096  0.104   0.105   0.095
+    EV F13_118 F13_116 0.151     0.021       0.357 C same house, day changed        1 0.1 0.096 0.120 F13_116     True -0.633 -0.643   0.346   1.083
+DIAG10 F13_180 F13_008 0.115     0.002       0.145 C same house, day changed        1 0.0 0.082 0.504 F13_008    False    NaN    NaN     NaN     NaN
+    EV F13_180 F13_008 0.112     0.002       0.145 C same house, day changed        1 0.0 0.082 0.504 F13_008    False -0.060 -0.019   0.090   0.102
+    EV F47_116 F47_114 0.015     0.004       0.015 C same house, day changed        1 0.1 0.319 0.916 F47_114     True -0.023 -0.004   0.030   0.012
+    EV F13_019 F13_016 0.013     0.068       0.012 C same house, day changed        1 2.0 1.610 1.016 F13_017     True  0.007  0.002   0.001   0.003
+DIAG10 F47_116 F47_114 0.009     0.004       0.015 C same house, day changed        1 0.1 0.319 0.916 F47_114     True    NaN    NaN     NaN     NaN
+    EV F13_218 F13_216 0.008     0.003       0.031 C same house, day changed        1 0.1 0.222 0.715 F13_216     True -0.001 -0.002   0.005   0.006
+    EV F47_167 F13_164 0.004     0.000       0.039 C same house, day changed        1 0.1 0.290 0.404 F13_164     True -0.000  0.003  -0.000   0.001
+    EV F13_193 F13_054 0.004     0.002       0.021 C same house, day changed        1 0.5 1.231 0.532 F13_054     True -0.002 -0.000   0.003   0.003
+    EV F13_138 F13_136 0.003     0.005       0.003 C same house, day changed        1 0.2 0.335 0.271 F13_136     True  0.001  0.002   0.001  -0.001
+DIAG10 F47_022 F47_013 0.002     0.022       0.007 C same house, day changed        0 0.6 0.367 0.337 F47_020     True    NaN    NaN     NaN     NaN
+
+harm by class (sum dSSE): {('DIAG10', 'C same house, day changed'): 1.66, ('DIAG10', 'W other house'): 0.41, ('EV', 'C same house, day changed'): 3.42, ('EV', 'W other house'): 2.62}
+
+mid_jump > .1 among GAINFUL anchors: 1 / 69 | among HARMFUL: 4 / 19
+AUC for 'other house' (mid_jump > .1) across all anchors (both worlds): dT 0.83 | dST 0.60 | fp0 0.84 | date_ok(lower) 0.53 | n other-house 5 of 88

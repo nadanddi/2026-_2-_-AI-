@@ -1,0 +1,19 @@
+anchor-eligible picks with certain truth: 20 | correct 18 (0.90)
+causes of wrong picks: {'H true prev hidden': 1, 'D date mismatch': 1}
+EC jump at midnight (|pick EC23 - true EC0|): correct median 0.003 | wrong median 0.045
+AUC for WRONG (higher -> wrong): dT 0.84 | dST 0.78 | fp0 0.78 | dEC 0.42 | date_ok(lower->wrong) 0.75 | p(lower->wrong) 0.92
+
+wrong picks:
+    rec    pick   truth              cause    p  date_ok  dT  dST  fp0  dEC  ecjump
+F13_019 F13_016 F13_017 H true prev hidden 0.81        1 2.0 1.61 1.02 0.01    0.07
+F47_022 F47_013 F47_020    D date mismatch 0.96        0 0.6 0.37 0.34 0.04    0.02
+
+rule candidates (drop anchor if ...): dropped correct / dropped wrong / kept wrong
+  date mismatch                         :   0 /  1 /  1
+  dT>1.5                                :   1 /  1 /  1
+  dST>1.0                               :   1 /  1 /  1
+  fp0>.7                                :   3 /  1 /  1
+  date mismatch OR dT>1.5               :   1 /  2 /  0
+  date mismatch OR dST>1.0              :   1 /  2 /  0
+  date mismatch OR (dT>1.5 AND dST>.8)  :   0 /  2 /  0
+  dT>1.5 AND dST>.8                     :   0 /  1 /  1
