@@ -1,0 +1,11 @@
+seed 101 anchored records 54
+seed 2024 anchored records 54
+seed 7 anchored records 54
+C:\work\farmai\집\클로드\research\ec0h\drift2\sh1_shape_on_anchored_v2.py:32: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pr = pd.concat(per, axis=1).mean(1); cl = pr.groupby(ch.reindex(pr.index).values).sum()
+s 0.5: anchored records 54 | cells -3.00% -3.20% -3.29% | pass-2 -9.92% -10.62% -10.87% | improved 37/54 | chunk P 0.0037 | top share 0.28
+   VERDICT PASS
+C:\work\farmai\집\클로드\research\ec0h\drift2\sh1_shape_on_anchored_v2.py:32: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  pr = pd.concat(per, axis=1).mean(1); cl = pr.groupby(ch.reindex(pr.index).values).sum()
+s 1.0: anchored records 54 | cells -3.59% -4.09% -4.02% | pass-2 -10.67% -12.06% -12.46% | improved 30/54 | chunk P 0.0307 | top share 0.33
+   VERDICT FAIL
