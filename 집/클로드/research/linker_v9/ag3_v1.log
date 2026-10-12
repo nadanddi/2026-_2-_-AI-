@@ -1,0 +1,63 @@
+V7   : anchors 54, truth-known acc 0.852 (n 54), pass-2 22
+FILT : anchors 36, truth-known acc 0.972 (n 36), pass-2 18
+ADD  : anchors 64, truth-known acc 0.875 (n 64), pass-2 26
+BOTH : anchors 46, truth-known acc 0.978 (n 46), pass-2 22
+temp cell 7A: rebuilt V7 vs stored v22 max diff 0.0001
+temp cell 7B: rebuilt V7 vs stored v22 max diff 0.0001
+temp cell 101A: rebuilt V7 vs stored v22 max diff 0.0001
+temp cell 101B: rebuilt V7 vs stored v22 max diff 0.0001
+ col  arm cell  all_base  all_new  p2_base  p2_new  P_worse  top_share  changed   all_%    p2_%
+TEMP FILT   7A    0.6481   0.6498   0.7585  0.7627   0.9535        NaN       48  0.2551  0.5496
+TEMP  ADD   7A    0.6481   0.6454   0.7585  0.7577   0.0125     0.7346       58 -0.4254 -0.1018
+TEMP BOTH   7A    0.6481   0.6470   0.7585  0.7619   0.3632     1.8445       58 -0.1692  0.4483
+TEMP FILT   7B    0.6489   0.6504   0.7563  0.7603   0.9298        NaN       48  0.2291  0.5376
+TEMP  ADD   7B    0.6489   0.6462   0.7563  0.7554   0.0120     0.7509       58 -0.4234 -0.1147
+TEMP BOTH   7B    0.6489   0.6477   0.7563  0.7595   0.3265     1.6426       58 -0.1933  0.4235
+TEMP FILT 101A    0.6473   0.6491   0.7576  0.7622   0.9638        NaN       48  0.2798  0.6022
+TEMP  ADD 101A    0.6473   0.6444   0.7576  0.7569   0.0140     0.7201       58 -0.4410 -0.0971
+TEMP BOTH 101A    0.6473   0.6462   0.7576  0.7615   0.3585     1.9818       58 -0.1600  0.5057
+TEMP FILT 101B    0.6481   0.6497   0.7558  0.7604   0.9458        NaN       48  0.2547  0.6053
+TEMP  ADD 101B    0.6481   0.6452   0.7558  0.7550   0.0105     0.7312       58 -0.4388 -0.1083
+TEMP BOTH 101B    0.6481   0.6469   0.7558  0.7596   0.3375     1.7512       58 -0.1830  0.4976
+  EC FILT  101    0.1817   0.1848   0.2049  0.2256   0.9030        NaN       22  1.7101 10.1266
+  EC  ADD  101    0.1817   0.1827   0.2049  0.2144   0.6505        NaN       16  0.5504  4.6450
+  EC BOTH  101    0.1817   0.1843   0.2049  0.2252   0.8620        NaN       32  1.4249  9.9030
+  EC FILT 2024    0.1823   0.1859   0.2050  0.2282   0.9060        NaN       22  1.9542 11.3280
+  EC  ADD 2024    0.1823   0.1834   0.2050  0.2149   0.6470        NaN       16  0.5767  4.8432
+  EC BOTH 2024    0.1823   0.1853   0.2050  0.2277   0.8670        NaN       32  1.6567 11.0931
+  EC FILT    7    0.1826   0.1860   0.2031  0.2252   0.9048        NaN       22  1.8366 10.9101
+  EC  ADD    7    0.1826   0.1837   0.2031  0.2134   0.6435        NaN       16  0.5859  5.0893
+  EC BOTH    7    0.1826   0.1854   0.2031  0.2248   0.8652        NaN       32  1.5323 10.6843
+EC ADD: FAIL
+EC BOTH: FAIL
+EC FILT: FAIL
+TEMP ADD: FAIL
+TEMP BOTH: FAIL
+TEMP FILT: FAIL
+
+eval: v7 choice vs DF pick
+   F13_186 v7 F13_032 p 0.95 | DF F13_032 | KEEP
+   F13_187 v7 F13_035 p 0.95 | DF F13_035 | KEEP
+   F13_202 v7 F13_072 p 0.95 | DF F13_072 | KEEP
+   F13_203 v7 F13_079 p 0.85 | DF F13_079 | KEEP
+   F13_204 v7 F13_080 p 0.63 | DF F13_080 | ADD
+   F13_207 v7 F13_092 p 0.99 | DF F13_092 | KEEP
+   F13_208 v7 F13_106 p 0.97 | DF None | DROP(FILT)
+   F13_209 v7 F13_108 p 0.94 | DF F13_108 | KEEP
+   F13_220 v7 F13_218 p 0.97 | DF F13_218 | KEEP
+   F13_235 v7 F13_233 p 0.89 | DF F13_233 | KEEP
+   F13_239 v7 F13_131 p 0.95 | DF F13_131 | KEEP
+   F47_183 v7 F47_023 p 0.97 | DF F47_023 | KEEP
+   F47_185 v7 F47_032 p 0.92 | DF F47_032 | KEEP
+   F47_186 v7 F47_033 p 0.98 | DF F47_033 | KEEP
+   F47_187 v7 F47_039 p 0.92 | DF F47_039 | KEEP
+   F47_198 v7 F47_086 p 0.84 | DF F47_086 | KEEP
+   F47_200 v7 F47_088 p 0.98 | DF F47_088 | KEEP
+   F47_202 v7 F47_092 p 0.93 | DF F47_092 | KEEP
+   F47_203 v7 F47_105 p 0.93 | DF F47_105 | KEEP
+   F47_204 v7 F47_115 p 0.93 | DF F47_115 | KEEP
+   F47_207 v7 F47_123 p 0.51 | DF F47_123 | ADD
+   F47_218 v7 F47_216 p 0.98 | DF None | DROP(FILT)
+   F47_235 v7 F13_146 p 0.97 | DF F13_146 | KEEP
+   F47_236 v7 F13_148 p 0.91 | DF F13_148 | KEEP
+   F47_237 v7 F13_149 p 0.80 | DF F13_149 | KEEP
