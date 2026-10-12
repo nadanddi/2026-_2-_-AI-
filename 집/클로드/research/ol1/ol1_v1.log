@@ -1,0 +1,40 @@
+DIAG10 fold 4: 40 val records | RES5 dropped ['F13120', 'F13137', 'F13156', 'F13159', 'F13231', 'F13233'] | 23s
+DIAG10 fold 5: 28 val records | RES5 dropped ['F13120', 'F13121', 'F13156', 'F13159', 'F13178', 'F13233'] | 47s
+DIAG10 fold 6: 40 val records | RES5 dropped ['F13121', 'F13132', 'F13156', 'F13159', 'F13178', 'F13233'] | 70s
+DIAG10 fold 7: 31 val records | RES5 dropped ['F13121', 'F13137', 'F13151', 'F13156', 'F13160', 'F13178'] | 94s
+DIAG10 fold 8: 40 val records | RES5 dropped ['F13121', 'F13132', 'F13156', 'F13178', 'F47130', 'F47132'] | 118s
+DIAG10 fold 9: 40 val records | RES5 dropped ['F13151', 'F13159', 'F13178', 'F47120', 'F47130', 'F47132'] | 142s
+BLK10 fold 0: 79 val records | RES5 dropped ['F13123', 'F13127', 'F13178', 'F13214', 'F13217', 'F47130'] | 168s
+BLK10 fold 1: 78 val records | RES5 dropped ['F13123', 'F13151', 'F13153', 'F13175', 'F13178', 'F13217'] | 196s
+BLK10 fold 2: 89 val records | RES5 dropped ['F13127', 'F13156', 'F13178', 'F13233', 'F47111', 'F47132'] | 222s
+BLK10 fold 3: 78 val records | RES5 dropped ['F13123', 'F13151', 'F13178', 'F13214', 'F13217', 'F47111'] | 249s
+BLK10 fold 4: 76 val records | RES5 dropped ['F13139', 'F13143', 'F13156', 'F13159', 'F13217', 'F13233'] | 276s
+HOLE5 fold 0: 8 val records | RES5 dropped ['F13121', 'F13123', 'F13127', 'F13132', 'F13133', 'F13151'] | 309s
+HOLE5 fold 1: 10 val records | RES5 dropped ['F13121', 'F13123', 'F13127', 'F13137', 'F13156', 'F13175'] | 342s
+HOLE5 fold 2: 6 val records | RES5 dropped ['F13123', 'F13127', 'F13133', 'F13175', 'F13178', 'F13214'] | 375s
+HOLE5 fold 3: 10 val records | RES5 dropped ['F13121', 'F13123', 'F13127', 'F13135', 'F13137', 'F13156'] | 408s
+HOLE5 fold 4: 6 val records | RES5 dropped ['F13123', 'F13127', 'F13133', 'F13156', 'F13159', 'F13175'] | 441s
+HOLE5 fold 5: 6 val records | RES5 dropped ['F13121', 'F13123', 'F13127', 'F13156', 'F13159', 'F13178'] | 475s
+HOLE5 fold 6: 10 val records | RES5 dropped ['F13123', 'F13127', 'F13151', 'F13153', 'F13156', 'F13178'] | 508s
+ arm validator  seed  pass2    all  P_worse
+ MIS     BLK10     7  2.124 -0.068    0.986
+RES5     BLK10     7 20.011 18.722    0.990
+ MIS     BLK10   101 -0.505 -0.387    0.054
+RES5     BLK10   101 20.412 18.938    0.996
+ MIS     BLK10  2024  0.397 -0.415    0.588
+RES5     BLK10  2024 21.302 19.924    0.993
+ MIS    DIAG10     7  0.225  0.797    0.584
+RES5    DIAG10     7 33.189 26.946    0.976
+ MIS    DIAG10   101  2.108  0.633    0.825
+RES5    DIAG10   101 33.210 25.595    0.979
+ MIS    DIAG10  2024 -1.359  0.289    0.034
+RES5    DIAG10  2024 31.161 25.636    0.969
+ MIS     HOLE5     7  0.472  0.472    0.660
+RES5     HOLE5     7 10.903 10.903    0.850
+ MIS     HOLE5   101  0.611  0.611    0.571
+RES5     HOLE5   101  7.849  7.849    0.772
+ MIS     HOLE5  2024  2.137  2.137    0.868
+RES5     HOLE5  2024 11.339 11.339    0.866
+VERDICT MIS FAIL
+VERDICT RES5 FAIL
+most often dropped by RES5: [('F47132', 16), ('F47145', 15), ('F47231', 15), ('F13178', 15), ('F47178', 15), ('F47154', 14), ('F47157', 13), ('F13156', 12), ('F47161', 11), ('F13233', 10), ('F47229', 10), ('F13123', 10), ('F13217', 10), ('F47216', 9), ('F13127', 9)]
