@@ -1,0 +1,6 @@
+all   truth | all    linkable 171 | BASE v7: anchors 54, precision 0.852, recall 0.27 | TD2: anchors 119, precision 0.756, recall 0.53 | TD4 drop-mismatch: anchors 117, precision 0.769, recall 0.53 |
+all   truth | pass-2 linkable  43 | BASE v7: anchors 22, precision 0.909, recall 0.47 | TD2: anchors 33, precision 0.879, recall 0.67 | TD4 drop-mismatch: anchors 33, precision 0.879, recall 0.67 |
+cert  truth | all    linkable  65 | BASE v7: anchors 54, precision 0.926, recall 0.38 | TD2: anchors 119, precision 0.797, recall 0.78 | TD4 drop-mismatch: anchors 117, precision 0.810, recall 0.78 |
+cert  truth | pass-2 linkable  18 | BASE v7: anchors 22, precision 1.000, recall 0.44 | TD2: anchors 33, precision 0.933, recall 0.78 | TD4 drop-mismatch: anchors 33, precision 0.933, recall 0.78 |
+clean truth | all    linkable 105 | BASE v7: anchors 54, precision 0.900, recall 0.43 | TD2: anchors 119, precision 0.830, recall 0.84 | TD4 drop-mismatch: anchors 117, precision 0.838, recall 0.84 |
+clean truth | pass-2 linkable  35 | BASE v7: anchors 22, precision 1.000, recall 0.57 | TD2: anchors 33, precision 0.967, recall 0.83 | TD4 drop-mismatch: anchors 33, precision 0.967, recall 0.83 |
