@@ -1,0 +1,6 @@
+EV anchored records with date-wrong predecessor: ['F13_028', 'F13_029', 'F13_179', 'F13_241', 'F47_007', 'F47_022', 'F47_170']
+EV date gate: changed 7 | cells +92.08% +113.16% +103.12% | improved 1/7 | P 0.8434 | top share nan -> FAIL
+   per record: F47_170 -0.786, F47_022 +0.016, F13_029 +0.047, F13_028 +0.047, F13_179 +0.169, F47_007 +0.492, F13_241 +6.531
+DIAG10 anchored (p>=.8) with date-wrong predecessor: ['F13_028', 'F13_029', 'F13_179', 'F47_022', 'F47_170']
+DIAG10 date gate: changed 5 | cells -19.94% -19.61% -19.53% | improved 2/5 | P 0.3413 | top share 2.10 -> FAIL
+   per record: F47_170 -1.055, F47_022 -0.002, F13_029 +0.043, F13_179 +0.159, F13_028 +0.351
