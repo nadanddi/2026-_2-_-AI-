@@ -1,0 +1,16 @@
+EV: net anchor dSSE after filter by threshold: {'0.3': -2.48, '0.4': -3.75, '0.5': -34.91, '0.6': -32.78, '0.7': -30.56, '0.8': -30.55, '0.9': -30.31, '1.0': -29.9, 'inf': -30.04}
+chosen threshold: 0.5
+DIAG10 anchors: 34 | dropped by filter: ['F13_019', 'F13_028', 'F13_098', 'F13_108', 'F13_180', 'F13_183', 'F47_096', 'F47_116', 'F47_170', 'F47_210']
+  per.append(((A_f.loc[recs] - Y) ** 2).sum(1) - ((A_all.loc[recs] - Y) ** 2).sum(1))
+  per.append(((A_f.loc[recs] - Y) ** 2).sum(1) - ((A_all.loc[recs] - Y) ** 2).sum(1))
+  per.append(((A_f.loc[recs] - Y) ** 2).sum(1) - ((A_all.loc[recs] - Y) ** 2).sum(1))
+  per.append(((A_f.loc[recs] - Y) ** 2).sum(1) - ((A_all.loc[recs] - Y) ** 2).sum(1))
+  per.append(((A_f.loc[recs] - Y) ** 2).sum(1) - ((A_all.loc[recs] - Y) ** 2).sum(1))
+  per.append(((A_f.loc[recs] - Y) ** 2).sum(1) - ((A_all.loc[recs] - Y) ** 2).sum(1))
+ seed   base  anchor_all  anchor_filtered
+   47 0.1209      0.0767           0.0687
+ 1414 0.1202      0.0765           0.0679
+ 6464 0.1215      0.0763           0.0683
+  pr = pd.concat(per, axis=1).mean(1); ii = rng.integers(0, len(pr), (20000, len(pr))); pw = float((pr.values[ii].sum(1) >= 0).mean())
+filtered vs all-anchor: per-record dSSE sum -0.964, P(worse) 0.2238 -> VERDICT AF2: FAIL
+dropped records' own dSSE (filtered - all): {'F13_019': 0.099, 'F13_028': 0.351, 'F13_098': 0.002, 'F13_108': -0.414, 'F13_180': -0.115, 'F13_183': 0.05, 'F47_096': 0.117, 'F47_116': -0.009, 'F47_170': -1.055, 'F47_210': 0.008}
