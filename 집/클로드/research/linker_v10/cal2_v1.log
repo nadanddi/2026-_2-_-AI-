@@ -1,0 +1,34 @@
+v13 E0 date_status: {'unknown': 225, 'ok': 163, 'mismatch': 12} | top-1 correct among clean: 0.867
+v14 L date_status: {'a': 212, 'none': 147, 'bc': 35, 'veto': 6} | top-1 correct among clean: 0.867
+v14 M date_status: {'a': 212, 'none': 147, 'bc': 35, 'veto': 6} | top-1 correct among clean: 0.886
+   cal   part  thr  anchors  precision  recall  unverifiable
+v13 E0    all  0.6      108      0.988   0.762            27
+v13 E0    all  0.8       87      0.986   0.695            13
+v13 E0    all  0.9       69      0.984   0.581             7
+v13 E0 pass-2  0.6       32      0.966   0.800             3
+v13 E0 pass-2  0.8       28      0.962   0.714             2
+v13 E0 pass-2  0.9       24      0.955   0.600             2
+ v14 L    all  0.6      119      0.976   0.790            34
+ v14 L    all  0.8      108      0.975   0.743            28
+ v14 L    all  0.9       89      0.985   0.638            21
+ v14 L pass-2  0.6       34      0.968   0.857             3
+ v14 L pass-2  0.8       30      0.963   0.743             3
+ v14 L pass-2  0.9       27      0.960   0.686             2
+ v14 M    all  0.6      125      0.976   0.790            40
+ v14 M    all  0.8      108      0.987   0.743            29
+ v14 M    all  0.9       90      0.986   0.667            19
+ v14 M pass-2  0.6       35      0.935   0.829             4
+ v14 M pass-2  0.8       32      0.966   0.800             3
+ v14 M pass-2  0.9       25      0.957   0.629             2
+
+key records: truth prev / (pick, p, date_status) per calendar
+  F47_132 truth F47_231 clean True | v13 E0: F47_231 0.85 unknown | v14 L: F47_231 0.82 none | v14 M: F47_231 0.78 none
+  F13_217 truth F13_127 clean True | v13 E0: F13_127 0.80 unknown | v14 L: F13_127 0.99 bc | v14 M: F13_127 1.00 bc
+  F13_241 truth F13_125 clean False | v13 E0: F47_151 0.95 mismatch | v14 L: F47_151 0.95 a | v14 M: F47_151 0.95 a
+  F47_146 truth F13_138 clean False | v13 E0: F13_143 0.96 ok | v14 L: F13_143 0.97 a | v14 M: F13_143 0.84 a
+  F13_177 truth F47_176 clean False | v13 E0: F47_177 0.82 ok | v14 L: F47_177 0.83 a | v14 M: F47_177 0.64 a
+  F13_149 truth F13_150 clean False | v13 E0: F13_242 0.87 ok | v14 L: F13_242 0.73 a | v14 M: F13_242 0.51 a
+  F13_214 truth F13_114 clean True | v13 E0: F47_120 0.92 ok | v14 L: F47_120 0.91 a | v14 M: F47_120 0.95 a
+  F47_079 truth F47_195 clean True | v13 E0: F47_195 0.67 ok | v14 L: F47_195 0.82 a | v14 M: F47_195 0.87 a
+  F47_178 truth F47_007 clean True | v13 E0: F47_007 0.99 ok | v14 L: F47_007 0.99 a | v14 M: F47_007 0.99 a
+  F13_116 truth F13_214 clean True | v13 E0: F13_214 1.00 ok | v14 L: F13_214 1.00 a | v14 M: F13_214 1.00 a

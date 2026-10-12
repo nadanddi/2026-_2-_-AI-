@@ -1,0 +1,6 @@
+training groups 190 | mean positives (M) 49.36
+mirror 400 | date_src {'a': 212, 'none': 147, 'bc': 35, 'veto': 6}
+EV 400
+eval 60 | date_src {'a': 39, 'none': 12, 'bc': 7, 'veto': 2}
+weights L: {'oj': np.float64(-2.71), 'v0': np.float64(-0.53), 'v1': np.float64(-0.68), 'v2': np.float64(-1.03), 'v3': np.float64(-1.01), 'v4': np.float64(-0.12), 'v5': np.float64(-1.05), 'v6': np.float64(-0.4), 'v7': np.float64(-0.62), 'fp': np.float64(-1.52), 'excl': np.float64(-2.72), 'cd1': np.float64(3.76), 'cdev': np.float64(-2.46), 'cna': np.float64(-1.44)}
+weights M: {'oj': np.float64(-2.56), 'v0': np.float64(-0.24), 'v1': np.float64(-0.59), 'v2': np.float64(-1.49), 'v3': np.float64(-1.16), 'v4': np.float64(-0.17), 'v5': np.float64(-2.12), 'v6': np.float64(-0.18), 'v7': np.float64(-1.19), 'fp': np.float64(-0.18), 'excl': np.float64(-2.42), 'cd1': np.float64(3.67), 'cdev': np.float64(-1.58), 'cna': np.float64(-1.46)}
