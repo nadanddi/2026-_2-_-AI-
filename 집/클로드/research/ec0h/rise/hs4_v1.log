@@ -1,0 +1,40 @@
+(A) high-EC training records with OOF: 31 | mean y 1.55, mean residual +0.28 | chance max |rho| 95% = 0.54
+                 rho_y  rho_resid
+v                                
+out_rad@0-5       0.05       0.44
+in_co2            0.17      -0.35
+act_circfan@0-5  -0.14       0.26
+act_circfan       0.19       0.23
+age               0.68       0.20
+in_co2@0-5        0.27      -0.19
+out_temp@0-5     -0.01       0.19
+act_co2          -0.25      -0.18
+in_hum@0-5        0.06       0.18
+act_shade        -0.37      -0.17
+in_temp@0-5      -0.01       0.15
+rad_sum          -0.14       0.15
+
+   residual by episode age: {Interval(-1, 0, closed='right'): {'count': 4, 'mean': 0.01}, Interval(0, 2, closed='right'): {'count': 6, 'mean': 0.24}, Interval(2, 5, closed='right'): {'count': 6, 'mean': 0.33}, Interval(5, 30, closed='right'): {'count': 15, 'mean': 0.35}}
+
+(B) same-house day pairs starting high: 28 | DROP 4, persist 22
+      a       b   ya   yb  dmean  jump_mid  within_b  within_a  min_hour_b kind
+F47_157 F13_156 1.21 0.75  -0.46     -0.01     -0.08     -0.73          23 DROP
+F47_132 F47_134 2.71 2.32  -0.39      0.04     -1.15     -0.02          15 DROP
+F47_134 F47_136 2.32 1.65  -0.67     -0.00      0.08     -1.15          10 DROP
+F13_153 F47_157 1.64 1.21  -0.43     -0.02     -0.73     -0.10          23 DROP
+   persist: mean within-day change a 0.18 / b 0.16, midnight jump -0.02
+
+   input change (drop day minus previous day), median; DROP vs persist:
+kind               DROP  persist     gap
+rad_sum          339.50  -233.00  572.50
+out_rad           14.15    -9.71   23.85
+in_co2@0-5        -7.17     2.00   -9.17
+act_heating@0-5   -6.67     0.00   -6.67
+act_heating       -4.31     0.00   -4.31
+out_hum            4.46     0.48    3.98
+in_hum@0-5        -2.25     0.83   -3.08
+out_hum@0-5       -0.83    -3.75    2.92
+in_hum            -1.98     0.73   -2.71
+in_co2            -1.48     1.00   -2.48
+out_temp@0-5      -0.59     1.05   -1.64
+out_temp           0.10    -0.35    0.45
