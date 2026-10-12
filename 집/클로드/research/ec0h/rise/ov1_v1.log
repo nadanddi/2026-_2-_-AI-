@@ -1,0 +1,29 @@
+eval records with >=1 training record of the SAME date (outdoor identical): 45 / 60
+distribution of # same-date training records: {0: 15, 1: 8, 2: 17, 3: 20}
+by date kind:
+            size  <lambda_0>      mean
+kind                                  
+1차 날짜         29          29  2.517241
+1차에 끼어든 날짜     5           5  2.000000
+순수 2차 창       24          10  0.666667
+위치 미확정         2           1  1.500000
+reference: training records with >=1 other training same-date record: 394 / 400
+
+eval records WITHOUT any same-date training record (nearest training weather distance, z units; same-date = 0):
+    rec  day    kind nearest_train  nearest_dist
+F13_208  NaN  위치 미확정       F47_111         0.026
+F13_222 83.0 순수 2차 창       F13_115         0.389
+F13_223 83.0 순수 2차 창       F13_115         0.389
+F13_224 84.0 순수 2차 창       F47_229         0.436
+F13_225 84.0 순수 2차 창       F47_229         0.438
+F13_226 84.0 순수 2차 창       F47_229         0.437
+F13_227 85.0 순수 2차 창       F47_156         0.202
+F13_228 85.0 순수 2차 창       F47_156         0.202
+F13_229 86.0 순수 2차 창       F13_114         0.289
+F47_218 83.0 순수 2차 창       F13_115         0.389
+F47_219 84.0 순수 2차 창       F47_229         0.436
+F47_220 85.0 순수 2차 창       F47_156         0.202
+F47_221 85.0 순수 2차 창       F47_156         0.202
+F47_222 86.0 순수 2차 창       F13_114         0.289
+F47_223 86.0 순수 2차 창       F13_114         0.289
+reference: nearest DIFFERENT-date training weather distance among training records: median 0.305, 10% 0.195
