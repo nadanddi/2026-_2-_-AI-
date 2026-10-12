@@ -1,0 +1,44 @@
+  fp = ((sh[8] == 0) & (sh[10] >= 95) & (sh[17] == 0) & (co.loc[:, 8:14].max(1) < 30) & (X.groupby("rec").act_circfan.mean() < 5) & (X.groupby("rec").in_co2.mean() >= 390))
+high-EC training records 35 (own fingerprint high 16) | corr(age_hat, age_true) 0.06
+   residual by age_hat band (high-EC): {Interval(-1, 0, closed='right'): {'count': 15, 'mean': 0.33}, Interval(0, 2, closed='right'): {'count': 2, 'mean': 0.74}, Interval(2, 5, closed='right'): {'count': 7, 'mean': 0.11}, Interval(5, 40, closed='right'): {'count': 7, 'mean': 0.24}}
+
+records whose OWN fingerprint is high: 18 | high-EC 16
+   y and residual by age_hat band: {Interval(-1, 0, closed='right'): {'n': 2, 'y': 1.55, 'high_rate': 0.5, 'resid': 0.48}, Interval(0, 2, closed='right'): {'n': 4, 'y': 1.77, 'high_rate': 0.75, 'resid': 0.47}, Interval(2, 5, closed='right'): {'n': 6, 'y': 1.51, 'high_rate': 1.0, 'resid': 0.1}, Interval(5, 40, closed='right'): {'n': 6, 'y': 1.81, 'high_rate': 1.0, 'resid': 0.31}}
+    rec    y    fp  age_true  age_hat     r
+F13_118 1.10  True       0.0      2.0  0.02
+F13_135 1.01 False       0.0      5.0 -0.12
+F13_177 1.01 False       0.0      0.0  0.01
+F47_174 1.05 False       0.0      0.0  0.14
+F13_175 1.27 False       1.0      0.0  0.32
+F13_120 1.25  True       1.0      3.0  0.10
+F13_137 1.08 False       1.0      6.0 -0.21
+F13_121 1.32  True       2.0      4.0  0.43
+F13_139 1.30 False       2.0      7.0  0.35
+F47_177 1.49 False       2.0      0.0  0.46
+F13_123 1.45  True       3.0      5.0   NaN
+F13_178 1.84 False       3.0      0.0  0.76
+F13_143 1.53 False       3.0      9.0  0.29
+F47_147 1.75 False       4.0      0.0  0.32
+F13_125 1.50  True       4.0      6.0  0.09
+F13_127 1.58  True       5.0      7.0   NaN
+F13_241 1.43 False       5.0      0.0  0.44
+F13_146 1.50 False       5.0      0.0  0.11
+F47_151 1.31 False       6.0      0.0 -0.03
+F13_217 1.69  True       6.0      8.0  0.50
+F47_229 1.79 False       7.0      4.0  0.45
+F13_243 1.72 False       7.0      0.0  0.73
+F47_231 2.18  True       8.0      0.0  0.68
+F47_132 2.71  True       9.0      1.0  1.47
+F47_134 2.32  True      10.0      2.0   NaN
+F47_136 1.65  True      11.0      3.0 -0.22
+F47_138 1.71  True      12.0      4.0  0.12
+F13_151 1.68 False      12.0      0.0  0.30
+F47_154 1.62 False      13.0      0.0  0.24
+F47_139 1.68  True      13.0      5.0  0.05
+F47_141 1.87  True      14.0      6.0  0.08
+F13_153 1.64 False      14.0      0.0  0.14
+F47_143 2.06  True      15.0      7.0   NaN
+F47_157 1.21 False      15.0      0.0  0.27
+F47_145 2.14  True      16.0      8.0  0.54
+
+eval records with high fingerprint: [('F13_221', 82.0, 0, np.float64(1.62)), ('F13_223', 83.0, 1, np.float64(1.67)), ('F13_225', 84.0, 2, np.float64(1.8)), ('F47_221', 85.0, 0, np.float64(1.4)), ('F47_223', 86.0, 1, np.float64(1.43)), ('F47_225', 87.0, 2, np.float64(1.69)), ('F47_227', 88.0, 3, np.float64(1.66))]
