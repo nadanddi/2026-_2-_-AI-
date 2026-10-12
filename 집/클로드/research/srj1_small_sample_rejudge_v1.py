@@ -16,6 +16,7 @@ import numpy as np, pandas as pd
 from scipy.optimize import minimize
 HERE = os.path.dirname(os.path.abspath(__file__)); __file__ = os.path.join(HERE, "cas1_cascade_v1.py")
 src = open(os.path.join(HERE, "cas1_cascade_v1.py"), encoding="utf-8").read(); exec(src[:src.index("res = []; dsse = {}")])
+FWD = {"RV": pd.read_csv(os.path.join(env.LOCAL, "linker_v10", "v15g1_mirror.csv")).set_index("rec"), "EV": pd.read_csv(os.path.join(env.LOCAL, "linker_v10", "v15pi15_ev.csv")).set_index("rec")}
 rng = np.random.default_rng(20261113)
 wfun = lambda p, a, b: 1 / (1 + np.exp(-(a + b * np.log(np.clip(p, 1e-4, 1 - 1e-4) / (1 - np.clip(p, 1e-4, 1 - 1e-4))))))
 # ---- ECW1 fit (same as ecw1) ----
