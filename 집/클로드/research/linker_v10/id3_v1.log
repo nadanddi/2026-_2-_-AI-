@@ -1,0 +1,20 @@
+judgements 340 over 42 pass-2 records
+   input-only                                 judgement 0.665 | record mean 0.667 | never right 14
+   v10+fp                                     judgement 0.876 | record mean 0.860 | never right 5
+   HP2                                        judgement 0.871 | record mean 0.874 | never right 4
+   C1 A:HP2 / B:v10                           judgement 0.897 | record mean 0.895 | never right 4
+   C2 (A disagree -> fp 0..9h)                judgement 0.912 | record mean 0.907 | never right 3
+   C2 (A disagree -> fp 0..23h)               judgement 0.912 | record mean 0.907 | never right 3
+   C3 (B date from same-ID earlier record)    judgement 0.856 | record mean 0.883 | never right 4
+   tier A: n 291 | HP2 0.921 v10 0.897 C2h9 0.938 C2h23 0.938 C3 0.921
+   tier B: n 49 | HP2 0.571 v10 0.755 C2h9 0.755 C2h23 0.755 C3 0.469
+   C3 date source counts (tier B): {'b-2': 29, '': 17, 'b-1': 3}
+
+records mostly wrong for both v10 and HP2:
+    rec   truth     v10     hp2 tier
+F13_242 F47_150 F13_148 F13_148    A
+F13_244 F47_152 F13_215 F13_215    B
+F47_191 F47_057 F47_056 F13_055    A
+F47_231 F47_229 F13_217 F13_217    B
+
+[exited with code 0]
