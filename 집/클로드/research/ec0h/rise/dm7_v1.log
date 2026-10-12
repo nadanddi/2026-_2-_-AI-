@@ -1,0 +1,45 @@
+groups 129 | with pass-1 position 116 | certain links between ranked groups 183 | rank difference counts {-14: 1, 1: 178, 2: 4}
+links that skip ranks (a date not in pass 1 lies between): [(63, 65), (64, 66), (66, 68)]
+
+pure pass-2 date groups (no pass-1 member): 13
+    F13_208*
+    F13_216, F13_217, F47_211, F47_212
+    F13_218, F47_213, F47_214
+    F13_220*, F13_221*, F47_215, F47_216
+    F13_222*, F13_223*, F47_218*
+    F13_224*, F13_225*, F13_226*, F47_219*
+    F13_227*, F13_228*, F47_220*, F47_221*
+    F13_229*, F47_222*, F47_223*
+    F13_231, F13_232, F47_224*, F47_225*
+    F13_233, F47_226*, F47_227*
+    F13_235*, F13_236*, F47_229
+    F13_237*, F13_238*, F47_230, F47_231
+    F13_244, F47_237*
+
+certain links touching pure groups:
+   F13_208  prev [] next []
+   F13_216  prev ['R80'] next ['U:F13_218']
+   F13_218  prev ['U:F13_216'] next ['U:F13_220']
+   F13_220  prev ['U:F13_218'] next []
+   F13_222  prev [] next []
+   F13_224  prev [] next []
+   F13_227  prev [] next []
+   F13_229  prev [] next []
+   F13_231  prev [] next []
+   F13_233  prev [] next []
+   F13_235  prev [] next []
+   F13_237  prev [] next []
+   F13_244  prev ['R95'] next []
+
+pure groups chained by outdoor 23h->0h continuity: F13_208 -> F13_233(0.96) -> F13_244(0.26) -> F13_220(0.89) -> F13_222(0.37) -> F13_224(0.34) -> F13_227(1.29) -> F13_229(1.72) -> F13_235(0.55) -> F13_216(1.22) -> F13_237(0.48) -> F13_218(0.76) -> F13_231(1.41)
+best ranked predecessors of chain start (cont, rank): [(0.11, 64), (0.11, 65), (1.3, 94), (1.79, 98), (1.85, 88)]
+best ranked successors of chain end (cont, rank): [(0.49, 98), (0.52, 60), (0.52, 84), (0.67, 50), (0.71, 40)]
+continuity between consecutive ranked groups: median 0.53, 90% 1.28, max 3.89
+largest continuity breaks between consecutive ranked groups (cont, after rank): [(3.89, 66), (3.78, 64), (2.41, 12), (2.29, 107), (2.15, 80), (1.9, 92)]
+
+final: days 129 | pure pass-2 days inserted after day 65
+  F13 pass-1: records 171 | day range 1-129 | backward steps along numbering 0 | records per day {2: 61, 1: 49}
+  F13 pass-2: records 59 | day range 1-112 | backward steps along numbering 4 | records per day {1: 38, 2: 9, 3: 1}
+  F47 pass-1: records 173 | day range 1-128 | backward steps along numbering 2 | records per day {2: 62, 1: 46, 3: 1}
+  F47 pass-2: records 57 | day range 3-129 | backward steps along numbering 4 | records per day {1: 37, 2: 10}
+saved dm7_calendar_v1.csv / .png

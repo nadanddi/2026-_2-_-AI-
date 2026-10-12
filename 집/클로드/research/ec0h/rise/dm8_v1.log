@@ -1,0 +1,18 @@
+group of F13_215 (R80?): ['F13_121', 'F13_215', 'F47_125', 'F47_126'] | of F13_216: ['F13_216', 'F13_217', 'F47_211', 'F47_212'] | of F13_122: ['F13_122', 'F13_123', 'F47_127', 'F47_128']
+  certain link F13_126 -> F13_216 | EC 0.38->0.38 | outdoor 23->0 cont 0.65
+  certain link F47_131 -> F47_211 | EC 0.70->0.69 | outdoor 23->0 cont 0.65
+outdoor 23h of R80 group rep vs 0h of next pass-1 group and of F13_216:
+  F13_121 -> F13_122: cont 0.02 | out_temp 23h 0.9 -> 0h 0.7
+  F13_121 -> F13_123: cont 0.02 | out_temp 23h 0.9 -> 0h 0.7
+  F13_121 -> F13_216: cont 2.93 | out_temp 23h 0.9 -> 0h 6.6
+  F13_121 -> F47_211: cont 2.93 | out_temp 23h 0.9 -> 0h 6.6
+backward certain link: F13_126 day 94 -> F13_216 day 75 | EC 0.38->0.38, ST 12.7->12.3
+backward certain link: F47_152 day 109 -> F13_244 day 68 | EC 0.43->0.43, ST 13.8->13.3
+backward certain link: F47_029 day 15 -> F47_006 day 1 | EC 0.27->0.27, ST 20.3->20.0
+backward certain link: F47_131 day 94 -> F47_211 day 75 | EC 0.70->0.69, ST 12.9->12.3
+backward certain link: F47_213 day 77 -> F47_215 day 69 | EC 0.71->0.71, ST 11.9->11.4
+backward certain link: F47_214 day 77 -> F47_216 day 69 | EC 0.54->0.53, ST 10.6->10.2
+  F13_216 (pure) nearest-weather other dates: F47_102 0.39, F47_103 0.39, F13_099 0.39 | out_temp mean 3.2
+  F13_224 (pure) nearest-weather other dates: F13_235* 0.44, F13_236* 0.44, F47_229 0.44 | out_temp mean 1.1
+  F13_231 (pure) nearest-weather other dates: F47_207* 0.37, F13_117 0.37, F13_118 0.37 | out_temp mean 6.1
+  F13_237 (pure) nearest-weather other dates: F47_167 0.39, F13_165 0.39, F13_166 0.39 | out_temp mean -0.6

@@ -1,0 +1,27 @@
+days placed 126 | unplaced groups [['F13_185', 'F47_028', 'F47_029', 'F47_030'], ['F13_208'], ['F47_111']]
+check: certain links day difference counts {1: 184, 2: 2}
+links not +1: [('F13_104', 'F13_106', 2), ('F47_108', 'F47_110', 2)]
+
+inserted (non pass-1) days:
+  day  49: F13_203*, F13_204*, F47_085, F47_086
+  day  64: F47_109
+  day  72: F13_213, F13_214, F47_121, F47_206*
+  day  80: F13_216, F13_217, F47_211, F47_212
+  day  81: F13_218, F47_213, F47_214
+  day  82: F13_220*, F13_221*, F47_215, F47_216
+  day  83: F13_222*, F13_223*, F47_218*
+  day  84: F13_224*, F13_225*, F13_226*, F47_219*
+  day  85: F13_227*, F13_228*, F47_220*, F47_221*
+  day  86: F13_229*, F47_222*, F47_223*
+  day  87: F13_231, F13_232, F47_224*, F47_225*
+  day  88: F13_233, F47_226*, F47_227*
+  day  89: F13_235*, F13_236*, F47_229
+  day  90: F13_237*, F13_238*, F47_230, F47_231
+  day 104: F13_242, F47_151, F47_236*
+  day 106: F13_244, F47_237*
+
+F13 pass-1 consecutive numbers whose dates jump by >1 day: [(80, 81, 2), (105, 106, 2), (114, 115, 2), (127, 128, 12), (148, 149, 2), (149, 150, 2)]
+F47 pass-1 consecutive numbers whose dates go backward or jump >2: [(73, 74, -14), (74, 75, 15), (131, 132, 12), (152, 153, 3), (177, 178, -123)]
+F13 pass-2: day range 1-109, backward steps 0
+F47 pass-2: day range 3-126, backward steps 0
+saved dm11_calendar_v1.csv / .png
