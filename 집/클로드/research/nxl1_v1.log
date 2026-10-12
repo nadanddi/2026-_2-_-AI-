@@ -1,0 +1,128 @@
+C:\work\farmai\집\클로드\research\nxl1_next_day_null_linker_v1.py:51: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+training groups per H: {0: 370, 9: 370, 15: 368, 21: 372}
+C:\work\farmai\집\클로드\research\nxl1_next_day_null_linker_v1.py:51: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+done DIAG10 47
+done DIAG10 1414
+done DIAG10 6464
+done EL1 47
+done EL1 1414
+done EL1 6464
+done P2LOO 47
+done P2LOO 1414
+done P2LOO 6464
+C:\work\farmai\집\클로드\research\nxl1_next_day_null_linker_v1.py:51: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+done EV 101
+C:\work\farmai\집\클로드\research\nxl1_next_day_null_linker_v1.py:51: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+done EV 2024
+C:\work\farmai\집\클로드\research\nxl1_next_day_null_linker_v1.py:51: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+done EV 7
+
+DIAG10 next-day anchors: 134 records (pass-2 12) | pick = true next 0.769 | pass-2 0.917
+   val     rec   picks true_next    ok  n_hours    p2
+DIAG10 F13_035 F47_037           False        9 False
+DIAG10 F13_044 F47_047   F13_045 False        9 False
+DIAG10 F13_050 F47_051   F13_051 False       21 False
+DIAG10 F13_064 F47_069           False       15 False
+DIAG10 F13_067 F13_069           False        3 False
+DIAG10 F13_070 F13_073   F13_072 False        9 False
+DIAG10 F13_081 F13_083           False       15 False
+DIAG10 F13_126 F13_217   F13_216 False        9 False
+DIAG10 F13_128 F47_134   F13_130 False       15 False
+DIAG10 F13_141 F13_143           False        9 False
+DIAG10 F13_145 F47_149           False       24 False
+DIAG10 F13_146 F47_149           False       15 False
+DIAG10 F13_157 F13_158           False       24 False
+DIAG10 F13_182 F13_014   F13_014  True       24  True
+DIAG10 F13_196 F47_064   F13_197 False       18  True
+DIAG10 F13_197 F13_062   F13_062  True       24  True
+DIAG10 F13_211 F13_113   F13_113  True       15  True
+DIAG10 F13_213 F13_115   F13_115  True       15  True
+DIAG10 F13_214 F13_116   F13_116  True       15  True
+DIAG10 F47_009 F13_181   F47_010 False        9 False
+DIAG10 F47_042 F13_042   F47_044 False        6 False
+DIAG10 F47_047 F13_047   F47_049 False        9 False
+DIAG10 F47_063 F13_197           False        6 False
+DIAG10 F47_073 F13_069           False       24 False
+DIAG10 F47_087 F13_083   F47_088 False        6 False
+DIAG10 F47_088 F13_085           False        6 False
+DIAG10 F47_091 F13_089           False        9 False
+DIAG10 F47_093 F13_092           False        3 False
+DIAG10 F47_098 F47_101   F47_100 False        9 False
+DIAG10 F47_107 F13_107   F47_109 False        9 False
+DIAG10 F47_108 F13_107           False        6 False
+DIAG10 F47_127 F13_124   F47_129 False        9 False
+DIAG10 F47_128 F13_125   F47_130 False        6 False
+DIAG10 F47_137 F13_136           False        9 False
+DIAG10 F47_144 F13_142           False       24 False
+DIAG10 F47_159 F47_162           False       24 False
+DIAG10 F47_179 F47_011   F47_011  True       24  True
+DIAG10 F47_191 F47_059   F47_059  True       15  True
+DIAG10 F47_192 F47_065   F47_065  True        6  True
+DIAG10 F47_214 F47_216   F47_216  True       15  True
+DIAG10 F47_241 F13_165   F13_165  True        9  True
+DIAG10 F47_242 F13_168   F13_168  True       15  True
+
+EV next-day anchors: 63 records (pass-2 12) | pick = true next 0.603 | pass-2 0.833
+val     rec   picks true_next    ok  n_hours    p2
+ EV F13_013 F47_181   F13_015 False       15 False
+ EV F13_037 F47_038   F13_038 False       15 False
+ EV F13_047 F13_049           False       15 False
+ EV F13_060 F13_197   F13_061 False        6 False
+ EV F13_064 F47_069           False       15 False
+ EV F13_067 F13_069           False        3 False
+ EV F13_071 F47_078   F13_073 False        6 False
+ EV F13_075 F47_196   F13_077 False       15 False
+ EV F13_076 F47_196   F13_078 False        9 False
+ EV F13_081 F47_088           False       18 False
+ EV F13_082 F47_088   F13_084 False        9 False
+ EV F13_111 F47_118   F13_112 False        9 False
+ EV F13_120 F13_215   F13_121 False        9 False
+ EV F13_123 F47_130   F13_125 False        9 False
+ EV F13_145 F47_149           False       24 False
+ EV F13_146 F47_149           False       15 False
+ EV F13_182 F13_014   F13_014  True       24  True
+ EV F13_192 F13_055   F13_055  True       24  True
+ EV F13_194 F13_057   F13_057  True        9  True
+ EV F13_196 F47_064   F13_197 False       24  True
+ EV F13_197 F13_062   F13_062  True       24  True
+ EV F13_211 F13_113   F13_113  True       15  True
+ EV F13_213 F13_115   F13_115  True       15  True
+ EV F13_214 F13_116   F13_116  True       15  True
+ EV F47_009 F13_181   F47_010 False        9 False
+ EV F47_054 F47_057   F47_056 False        9 False
+ EV F47_082 F47_196   F47_083 False       15 False
+ EV F47_087 F13_083   F47_088 False        6 False
+ EV F47_088 F13_085           False        9 False
+ EV F47_127 F13_124   F47_129 False        9 False
+ EV F47_137 F13_136           False        9 False
+ EV F47_179 F47_011   F47_011  True       24  True
+ EV F47_192 F47_065   F47_065  True        6  True
+ EV F47_209 F13_121   F47_125 False        9  True
+ EV F47_239 F13_152   F13_152  True        6  True
+
+pass-2 RMSE % change:
+val  DIAG10                EL1                   EV                P2LOO              
+seed   1414    47  6464   1414     47   6464    101   2024      7   1414     47   6464
+base                                                                                  
+NONE  -6.51 -6.54 -6.68 -29.84 -29.77 -30.07 -16.29 -17.67 -17.05 -13.57 -13.89 -14.16
+V7    -1.24 -1.37 -1.29  -2.11  -2.68  -2.60   2.41   2.52   2.36  -3.62  -4.28  -3.71
+
+all-rows % change (seed mean):
+val   DIAG10    EL1    EV  P2LOO
+base                            
+NONE    1.43 -29.89 -1.99 -13.87
+V7      3.09  -2.47  2.53  -3.87
+
+NXL vs NONE: all p2 better True | DIAG10 P [0.0338, 0.0282, 0.0289] | EV P 0.0447 | drop-top3 DIAG10 -0.170 EV +1.927 | changed p2 DIAG10 26 EV 31 -> fail
+   top gains DIAG10: {'F13_217': 6.14, 'F13_214': 1.411, 'F47_241': 0.312, 'F13_213': 0.197, 'F13_179': 0.159, 'F13_181': 0.128} | worst: {'F13_196': -0.494, 'F13_180': -0.115, 'F13_211': -0.059}
+   top gains EV: {'F13_243': 16.134, 'F13_241': 6.531, 'F47_216': 5.867, 'F13_214': 1.492, 'F13_216': 0.192, 'F13_179': 0.169} | worst: {'F47_209': -3.7, 'F13_196': -0.67, 'F13_180': -0.112}
+
+NXL vs V7: all p2 better False | DIAG10 P [0.1664, 0.1696, 0.1611] | EV P 0.7164 | drop-top3 DIAG10 +0.454 EV +4.388 | changed p2 DIAG10 12 EV 12 -> fail
+   top gains DIAG10: {'F13_214': 1.411, 'F47_241': 0.312, 'F13_213': 0.197, 'F47_214': 0.095, 'F13_182': 0.047, 'F13_197': 0.016} | worst: {'F13_196': -0.494, 'F13_211': -0.059, 'F47_242': -0.039}
+   top gains EV: {'F13_214': 1.492, 'F13_211': 0.087, 'F13_182': 0.047, 'F13_192': 0.005, 'F13_194': 0.003, 'F13_197': 0.003} | worst: {'F47_209': -3.7, 'F13_196': -0.67, 'F47_179': -0.016}
+NXL1: FAIL
