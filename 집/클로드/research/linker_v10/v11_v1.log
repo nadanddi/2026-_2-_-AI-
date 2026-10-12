@@ -1,0 +1,9 @@
+judgements 340 over 42 pass-2 records
+   ALL             n 340 | v10+fp 0.876 | v11 (no ID) 0.903 | C1 (HP2/v10) 0.897 | C1' (HP2/v11) 0.900
+   same-ID truth   n 248 | v10+fp 0.915 | v11 (no ID) 0.915 | C1 (HP2/v10) 0.944 | C1' (HP2/v11) 0.944
+   other-ID truth  n  92 | v10+fp 0.772 | v11 (no ID) 0.870 | C1 (HP2/v10) 0.772 | C1' (HP2/v11) 0.783
+   tier A          n 291 | v10+fp 0.897 | v11 (no ID) 0.924 | C1 (HP2/v10) 0.921 | C1' (HP2/v11) 0.921
+   tier B          n  49 | v10+fp 0.755 | v11 (no ID) 0.776 | C1 (HP2/v10) 0.755 | C1' (HP2/v11) 0.776
+v11 weights: {'oj': np.float64(-2.95), 'v0': np.float64(-0.39), 'v1': np.float64(-0.74), 'v2': np.float64(-1.04), 'v3': np.float64(-1.04), 'v4': np.float64(-0.13), 'v5': np.float64(-1.19), 'v6': np.float64(-0.41), 'v7': np.float64(-0.65), 'fp': np.float64(-1.38), 'excl': np.float64(-2.67), 'cd1': np.float64(3.44), 'cdev': np.float64(-3.21), 'cna': np.float64(1.98)}
+
+[exited with code 0]
