@@ -1,0 +1,16 @@
+mirror anchors v7 54 | v10 83 | same prev 44
+temp 7A: rebuilt v7 vs stored v22 max diff 0.0001
+temp 7B: rebuilt v7 vs stored v22 max diff 0.0001
+temp 101A: rebuilt v7 vs stored v22 max diff 0.0001
+temp 101B: rebuilt v7 vs stored v22 max diff 0.0001
+EV-applied anchors (temp): v7 48 | v10 76 | only v7 9 | only v10 37
+ col cell  all_base  all_new  p2_base  p2_new  P_worse  top_share  changed   all_%    p2_%
+TEMP   7A    0.6481   0.6448   0.7585  0.7626   0.1208     0.6180       85 -0.5059  0.5454
+TEMP   7B    0.6489   0.6453   0.7563  0.7604   0.1112     0.5685       85 -0.5597  0.5453
+TEMP 101A    0.6473   0.6440   0.7576  0.7621   0.1388     0.6317       85 -0.5029  0.5908
+TEMP 101B    0.6481   0.6446   0.7558  0.7604   0.1188     0.5940       85 -0.5405  0.6052
+  EC  101    0.1817   0.1844   0.2049  0.2250   0.6005        NaN       50  1.4597  9.8436
+  EC 2024    0.1823   0.1853   0.2050  0.2277   0.5893        NaN       50  1.6241 11.0507
+  EC    7    0.1826   0.1853   0.2031  0.2246   0.5898        NaN       50  1.4593 10.6289
+EC: FAIL
+TEMP: FAIL
