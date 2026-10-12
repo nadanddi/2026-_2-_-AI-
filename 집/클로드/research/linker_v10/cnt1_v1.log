@@ -1,0 +1,26 @@
+
+=== ALL 400: records 400 | prev status: {'hidden': 214, 'has': 105, 'uncertain': 81}
+                 linker  HAS prev: found  HAS: missed (no anchor)  HAS: wrong anchor  NO prev: abstained  NO prev: anchored anyway   of which hidden/uncertain/none
+              v7 (13th)               45                       59                  1                 287                         8                            4/4/0
+      v14 L (date vote)               78                       25                  2                 267                        28                          13/15/0
+v15 PI.15 (null option)               61                       43                  1                 278                        17                            8/9/0
+
+=== PASS-2: records 56 | prev status: {'has': 35, 'hidden': 12, 'uncertain': 9}
+                 linker  HAS prev: found  HAS: missed (no anchor)  HAS: wrong anchor  NO prev: abstained  NO prev: anchored anyway   of which hidden/uncertain/none
+              v7 (13th)               20                       15                  0                  19                         2                            0/2/0
+      v14 L (date vote)               26                        8                  1                  18                         3                            0/3/0
+v15 PI.15 (null option)               23                       12                  0                  20                         1                            0/1/0
+
+PASS-2 HAS-prev records missed by v15 PI.15:
+  F13_182 truth F13_012 | pick F13_012 p0 0.41 p_null 0.23 date a | truth rank 0 p 0.41 | v7 anchored False
+  F13_183 truth F13_024 | pick F13_024 p0 0.74 p_null 0.26 date a | truth rank 0 p 0.74 | v7 anchored True
+  F13_214 truth F13_114 | pick F47_120 p0 0.76 p_null 0.14 date a | truth rank 1 p 0.04 | v7 anchored False
+  F13_242 truth F47_150 | pick F47_150 p0 0.36 p_null 0.32 date a | truth rank 0 p 0.36 | v7 anchored False
+  F13_244 truth F47_152 | pick F13_215 p0 0.13 p_null 0.54 date none | truth rank None p nan | v7 anchored False
+  F47_189 truth F47_048 | pick F47_048 p0 0.55 p_null 0.21 date a | truth rank 0 p 0.55 | v7 anchored False
+  F47_191 truth F47_057 | pick F47_056 p0 0.27 p_null 0.22 date a | truth rank 2 p 0.19 | v7 anchored False
+  F47_192 truth F47_062 | pick F47_062 p0 0.64 p_null 0.29 date a | truth rank 0 p 0.64 | v7 anchored False
+  F47_194 truth F13_068 | pick F13_068 p0 0.26 p_null 0.08 date none | truth rank 0 p 0.26 | v7 anchored False
+  F47_211 truth F47_131 | pick F47_131 p0 0.74 p_null 0.02 date bc | truth rank 0 p 0.74 | v7 anchored False
+  F47_241 truth F13_162 | pick F13_162 p0 0.52 p_null 0.29 date a | truth rank 0 p 0.52 | v7 anchored False
+  F47_242 truth F13_165 | pick F47_241 p0 0.00 p_null 0.97 date a | truth rank 5 p 0.00 | v7 anchored False
