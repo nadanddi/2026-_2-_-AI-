@@ -1,0 +1,16 @@
+(1) date-level: labelled records on the previous / next calendar day
+cat          날짜 미확정  앞 0 · 뒤만 있음  앞뒤 모두 있음  앞뒤 모두 정답 0 (정보 없음)  앞만 있음 · 뒤 0  All
+split p2                                                                        
+eval  True        2            5        40                   8            5   60
+train False       4            3       335                   0            2  344
+      True        0            3        50                   0            3   56
+All               6           11       425                   8           10  460
+
+(2) house-level for TRAINING records (truth links, diagnostic): true previous day labelled / true next day labelled
+hcat   neither (no same-house label adjacent)  next only  prev only  same-house prev & next labelled  All
+p2                                                                                                       
+False                                      21         51         50                              222  344
+True                                        2          7          8                               39   56
+All                                        23         58         58                              261  400
+
+eval records with NO labelled record on either adjacent day: ['F13_224', 'F13_225', 'F13_226', 'F13_227', 'F13_228', 'F47_219', 'F47_220', 'F47_221']
