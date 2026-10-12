@@ -1,0 +1,18 @@
+(1) true previous day vs other houses on that same date
+ h   n  true_is_closest   AUC
+ 0 186            0.823 0.907
+ 5 186            0.871 0.944
+ 9 186            0.930 0.964
+12 186            0.930 0.966
+17 186            0.952 0.978
+23 186            0.973 0.988
+
+(2) v7 mirror-CV wrong choices with a known true previous day: 60 (of which p >= .8: 14)
+   h  0: true closer than chosen 0.77 (n 60) | among p>=.8 wrong 0.64 (n 14)
+   h  5: true closer than chosen 0.87 (n 60) | among p>=.8 wrong 0.93 (n 14)
+   h  9: true closer than chosen 0.85 (n 60) | among p>=.8 wrong 0.79 (n 14)
+   h 12: true closer than chosen 0.80 (n 60) | among p>=.8 wrong 0.79 (n 14)
+   h 17: true closer than chosen 0.82 (n 60) | among p>=.8 wrong 0.86 (n 14)
+   h 23: true closer than chosen 0.83 (n 60) | among p>=.8 wrong 0.79 (n 14)
+
+(3) median distance at h 23: same house consecutive days 0.195 | other houses same date as true prev 0.579
