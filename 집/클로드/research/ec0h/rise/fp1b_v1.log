@@ -1,0 +1,32 @@
+  g &= np.nanmean(ic[:, 8:h + 1], 1) >= 390
+         DIAG10   EL1  P2LOO     y
+rec                               
+F13_118    1.09   NaN    NaN  1.10
+F13_120    1.15   NaN    NaN  1.25
+F13_121    0.90   NaN    NaN  1.32
+F13_125    1.40   NaN    NaN  1.46
+F13_135    1.10   NaN    NaN  0.96
+F13_137    1.30   NaN    NaN  0.95
+F13_139    0.91   NaN    NaN  1.01
+F13_143    1.13   NaN    NaN  1.39
+F13_146    1.42   NaN    NaN  1.58
+F13_151    1.35   NaN    NaN  1.58
+F13_153    1.54   NaN    NaN  1.60
+F13_177    0.95   NaN    NaN  0.97
+F13_217    1.19  0.66   1.20  1.69
+F13_241    1.00  1.65   1.64  1.47
+F13_243    0.96  0.81   1.47  1.58
+F47_132    1.23   NaN    NaN  2.71
+F47_136    1.87   NaN    NaN  1.65
+F47_138    1.59   NaN    NaN  1.71
+F47_139    1.62   NaN    NaN  1.68
+F47_141    1.77   NaN    NaN  1.73
+F47_145    1.60   NaN    NaN  2.14
+F47_147    1.44   NaN    NaN  1.83
+F47_151    1.37   NaN    NaN  1.20
+F47_154    1.43   NaN    NaN  1.54
+F47_157    0.91   NaN    NaN  1.37
+F47_229    1.33  1.33   1.33  1.79
+F47_231    1.46  1.36   1.62  1.94
+
+mean ratio y/p on gated high records by validator: {'DIAG10': 1.198, 'EL1': 1.634, 'P2LOO': 1.186}
