@@ -1,0 +1,7 @@
+cert linkable records: 65 | top-1 correct 0.538 | date correct 0.569 | house correct when date correct 0.946 | pass-2 top-1 0.500 (n 18)
+   house margin >= 0: anchors 61, precision 0.574, recall 0.54
+   house margin >= 0.5: anchors 59, precision 0.593, recall 0.54
+   house margin >= 1: anchors 53, precision 0.623, recall 0.51
+   house margin >= 2: anchors 48, precision 0.625, recall 0.46
+   house margin >= 3: anchors 39, precision 0.641, recall 0.38
+reference (cert, same linkable set definition, from LR2): v10 >=.8 38 anchors prec 1.000 rec .58 | META >=.7 44 prec 1.000 rec .68
