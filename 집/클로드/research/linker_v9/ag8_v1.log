@@ -1,0 +1,6 @@
+records 400 | true prev is a visible labelled record (linkable): 171 | not linkable: 229
+  v7                 anchors  54 | precision 0.852 | correct  46 | recall of linkable 0.27
+  FILT(agree only)   anchors  36 | precision 0.972 | correct  35 | recall of linkable 0.20
+  ADD                anchors  64 | precision 0.875 | correct  56 | recall of linkable 0.33
+  HV3                anchors 181 | precision 0.862 | correct 156 | recall of linkable 0.91
+  SV>=.7             anchors  64 | precision 0.969 | correct  62 | recall of linkable 0.36
