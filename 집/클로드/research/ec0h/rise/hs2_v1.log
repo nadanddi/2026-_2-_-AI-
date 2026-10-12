@@ -1,0 +1,67 @@
+  D["curtain"] = (sh[8] == 0) & (sh[10] >= 95) & (sh[17] == 0); D["co2"] = co.loc[:, 8:14].max(1) < 30
+
+SIG x high-EC (train, day-mean >= 1):
+y      False  True  All
+SIG                    
+False    349    18  367
+True      16    17   33
+All      365    35  400
+
+curtain x high-EC (train, day-mean >= 1):
+y        False  True  All
+curtain                  
+False      347    18  365
+True        18    17   35
+All        365    35  400
+
+co2 x high-EC (train, day-mean >= 1):
+y      False  True  All
+co2                    
+False     48    11   59
+True     317    24  341
+All      365    35  400
+
+by calendar day: SIG records (train y / eval pred), and highest non-SIG train y that day
+  day  70: SIG [F13_113(y 0.56)]  | max non-SIG train y 0.92
+  day  71: SIG [F47_205(p 0.51)]  | max non-SIG train y 0.82
+  day  72: SIG [F13_214(y 0.92), F47_121(y 0.60)]  | max non-SIG train y 0.29
+  day  73: SIG [F13_116(y 0.94)]  | max non-SIG train y 0.60
+  day  74: SIG [F13_118(y 1.10), F47_207(p 0.58)]  | max non-SIG train y 0.30
+  day  75: SIG [F13_120(y 1.25), F47_209(y 0.65)]  | max non-SIG train y 0.48
+  day  76: SIG [F13_121(y 1.32)]  | max non-SIG train y 0.67
+  day  77: SIG [F13_123(y 1.45), F47_127(y 0.69)]  | max non-SIG train y 0.48
+  day  78: SIG [F13_125(y 1.50)]  | max non-SIG train y 0.71
+  day  79: SIG [F13_127(y 1.58)]  | max non-SIG train y 0.70
+  day  80: SIG [F13_217(y 1.69)]  | max non-SIG train y 0.69
+  day  81: SIG [F47_213(y 0.70)]  | max non-SIG train y 0.53
+  day  82: SIG [F13_221(p 1.62)]  | max non-SIG train y 0.71
+  day  83: SIG [F13_223(p 1.67)]  | max non-SIG train y nan
+  day  84: SIG [F13_225(p 1.80)]  | max non-SIG train y nan
+  day  85: SIG [F47_221(p 1.40)]  | max non-SIG train y nan
+  day  86: SIG [F47_223(p 1.43)]  | max non-SIG train y nan
+  day  87: SIG [F47_225(p 1.69)]  | max non-SIG train y 0.74
+  day  88: SIG [F47_227(p 1.66)]  | max non-SIG train y 0.63
+  day  89: SIG [F47_229(y 1.79)]  | max non-SIG train y nan
+  day  90: SIG [F47_231(y 2.18)]  | max non-SIG train y 0.46
+  day  91: SIG [F13_129(y 0.72), F47_132(y 2.71)]  | max non-SIG train y 0.78
+  day  92: SIG [F13_131(y 0.74), F47_134(y 2.32)]  | max non-SIG train y 0.77
+  day  93: SIG [F13_239(p 0.73), F47_136(y 1.65)]  | max non-SIG train y 0.87
+  day  94: SIG [F13_134(y 0.75), F47_138(y 1.71)]  | max non-SIG train y 0.98
+  day  95: SIG [F13_136(y 0.74), F47_139(y 1.68)]  | max non-SIG train y 1.01
+  day  96: SIG [F13_138(y 0.72), F47_141(y 1.87)]  | max non-SIG train y 1.08
+  day  97: SIG [F13_140(y 0.71), F47_143(y 2.06)]  | max non-SIG train y 1.30
+  day  98: SIG [F13_141(y 0.71), F47_145(y 2.14)]  | max non-SIG train y 0.41
+  day  99: SIG [F47_234(p 0.73)]  | max non-SIG train y 1.53
+  day 100: SIG [F47_146(y 0.70)]  | max non-SIG train y 1.75
+  day 101: SIG [F13_145(y 0.69)]  | max non-SIG train y 1.50
+  day 103: SIG []  | max non-SIG train y 1.43
+  day 104: SIG []  | max non-SIG train y 1.31
+  day 105: SIG []  | max non-SIG train y 1.72
+  day 107: SIG []  | max non-SIG train y 1.68
+  day 108: SIG []  | max non-SIG train y 1.62
+  day 109: SIG []  | max non-SIG train y 1.64
+  day 110: SIG []  | max non-SIG train y 1.21
+  day 123: SIG []  | max non-SIG train y 1.05
+  day 124: SIG []  | max non-SIG train y 1.27
+  day 125: SIG []  | max non-SIG train y 1.49
+  day 126: SIG []  | max non-SIG train y 1.84
