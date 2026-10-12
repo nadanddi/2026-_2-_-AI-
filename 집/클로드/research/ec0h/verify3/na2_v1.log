@@ -1,0 +1,8 @@
+rows 2640 records 110 | accuracy (truth known) rows 0.393 records 0.393
+seed 101 betas (last fold): {0: 0.14, 1: 0.15, 2: 0.08, 3: 0.06}
+seed 2024 betas (last fold): {0: 0.15, 1: 0.15, 2: 0.08, 3: 0.06}
+seed 7 betas (last fold): {0: 0.15, 1: 0.15, 2: 0.08, 3: 0.07}
+all: records 110 | cells -0.69% -0.74% -0.91% | improved 58/110 | cluster P 0.390 | top share 1.87
+VERDICT NA2: FAIL
+pass-1: records 93 | cells -0.08% -0.16% -0.34% | improved 45/93 | cluster P 0.473 | top share 7.78
+pass-2: records 17 | cells -13.17% -13.50% -13.53% | improved 13/17 | cluster P 0.085 | top share 0.69
