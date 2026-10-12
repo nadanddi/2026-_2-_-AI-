@@ -1,0 +1,8 @@
+judgements 340 over 42 pass-2 records (clean truth), offsets 10
+   input-only                                   judgement-level 0.665 | record-level mean 0.667 | records always right 28 / never right 14
+   v10+fp (ID/number)                           judgement-level 0.876 | record-level mean 0.860 | records always right 35 / never right 5
+   HP2 (date by outdoor match + fingerprint)    judgement-level 0.871 | record-level mean 0.874 | records always right 35 / never right 4
+   HP2 tier A: judgements 291, records 33, HP2 correct 0.921, v10+fp 0.897, input-only 0.649
+   HP2 tier B: judgements 49, records 12, HP2 correct 0.571, v10+fp 0.755, input-only 0.755
+
+[exited with code 0]
