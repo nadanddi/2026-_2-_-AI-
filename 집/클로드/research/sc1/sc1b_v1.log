@@ -1,0 +1,75 @@
+DIAG10 fold 4 | 23s
+DIAG10 fold 5 | 48s
+DIAG10 fold 6 | 74s
+DIAG10 fold 7 | 97s
+DIAG10 fold 8 | 123s
+DIAG10 fold 9 | 147s
+BLK10 fold 0 | 176s
+BLK10 fold 1 | 203s
+BLK10 fold 2 | 228s
+BLK10 fold 3 | 255s
+BLK10 fold 4 | 282s
+HOLE5 fold 0 | 313s
+HOLE5 fold 1 | 346s
+HOLE5 fold 2 | 378s
+HOLE5 fold 3 | 410s
+HOLE5 fold 4 | 440s
+HOLE5 fold 5 | 471s
+HOLE5 fold 6 | 494s
+  arm validator  seed   pass2     all  P_worse
+ TRUE     BLK10     7  -5.226  -8.730    0.385
+NOLAB     BLK10     7 -18.201 -11.346    0.147
+ TRUE     BLK10   101  -3.283  -7.648    0.434
+NOLAB     BLK10   101 -18.112  -9.593    0.146
+ TRUE     BLK10  2024  -2.263  -7.917    0.463
+NOLAB     BLK10  2024 -15.523  -9.422    0.201
+ TRUE    DIAG10     7 -18.012  -8.288    0.034
+NOLAB    DIAG10     7  -3.584   2.395    0.368
+ TRUE    DIAG10   101 -21.466 -10.102    0.008
+NOLAB    DIAG10   101  -6.656   0.745    0.262
+ TRUE    DIAG10  2024 -20.581  -8.988    0.008
+NOLAB    DIAG10  2024  -4.741   0.737    0.334
+ TRUE     HOLE5     7 -26.524 -26.524    0.004
+NOLAB     HOLE5     7 -17.650 -17.650    0.039
+ TRUE     HOLE5   101 -25.331 -25.331    0.016
+NOLAB     HOLE5   101 -16.718 -16.718    0.075
+ TRUE     HOLE5  2024 -25.889 -25.889    0.014
+NOLAB     HOLE5  2024 -16.770 -16.770    0.073
+
+pass-2 dSSE by date kind (sum over records, mean over seeds):
+arm    validator  kind      
+NOLAB  BLK10      1차 날짜        -15.60
+                  1차에 끼어든 날짜     3.27
+                  순수 2차 창      -14.39
+       DIAG10     1차 날짜        -12.45
+                  1차에 끼어든 날짜     1.47
+                  순수 2차 창        3.68
+       HOLE5      1차 날짜        -22.09
+                  1차에 끼어든 날짜     1.08
+                  순수 2차 창       -0.93
+TRUE   BLK10      1차 날짜        -16.07
+                  1차에 끼어든 날짜    -1.24
+                  순수 2차 창       11.35
+       DIAG10     1차 날짜        -11.71
+                  1차에 끼어든 날짜    -1.24
+                  순수 2차 창      -14.09
+       HOLE5      1차 날짜        -21.66
+                  1차에 끼어든 날짜    -0.28
+                  순수 2차 창       -9.81
+
+largest record gains/losses (TRUE, DIAG10, mean over seeds):
+rec      kind      
+F13_243  1차 날짜        -10.61
+F47_231  순수 2차 창       -5.88
+F13_217  순수 2차 창       -5.83
+F13_241  1차 날짜         -3.32
+F47_229  순수 2차 창       -2.99
+F13_214  1차에 끼어든 날짜    -1.63
+F47_209  1차 날짜         -1.60
+F13_231  순수 2차 창       -0.67
+rec      kind   
+F47_210  1차 날짜      0.72
+F13_233  순수 2차 창    0.77
+F47_216  순수 2차 창    0.99
+F47_243  1차 날짜      1.98
+F47_239  1차 날짜      2.13

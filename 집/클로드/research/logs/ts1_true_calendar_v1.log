@@ -1,0 +1,22 @@
+DIAG10 fold 0 done
+DIAG10 fold 1 done
+DIAG10 fold 2 done
+DIAG10 fold 3 done
+DIAG10 fold 4 done
+DIAG10 fold 5 done
+DIAG10 fold 6 done
+DIAG10 fold 7 done
+DIAG10 fold 8 done
+DIAG10 fold 9 done
+EXT10 fold 0 done
+EXT12 fold 0 done
+PFN coverage (non-NaN) by validator: {'DIAG10': 1.0, 'EXT10': 1.0, 'EXT12': 1.0}
+
+W30G form: BASE(day) -> TRUE(calendar day)
+  DIAG10 s7 0.6586->0.6570 (-0.24%) late 0.7931->0.7758 | s101 0.6588->0.6565 (-0.34%) late 0.7893->0.7758
+  EXT10  s7 0.8460->0.8371 (-1.05%) late 0.8229->0.8254 | s101 0.8450->0.8379 (-0.84%) late 0.8352->0.8338
+  EXT12  s7 0.8099->0.8121 (+0.28%) late 0.8775->0.8830 | s101 0.8134->0.8188 (+0.67%) late 0.8772->0.8906
+  DIAG10 late&cal<70: 0.8994 -> 0.8737
+  DIAG10 P(worse) by seed: [0.1622, 0.0469]
+
+TS1 decision: FAIL
