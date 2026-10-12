@@ -1,0 +1,29 @@
+DIAG10 fold 4: 40 val records | 11s
+DIAG10 fold 5: 28 val records | 22s
+DIAG10 fold 6: 40 val records | 33s
+DIAG10 fold 7: 31 val records | 44s
+DIAG10 fold 8: 40 val records | 56s
+DIAG10 fold 9: 40 val records | 67s
+BLK10 fold 0: 79 val records | 79s
+BLK10 fold 1: 78 val records | 92s
+BLK10 fold 2: 89 val records | 105s
+BLK10 fold 3: 78 val records | 118s
+BLK10 fold 4: 76 val records | 131s
+HOLE5 fold 0: 8 val records | 147s
+HOLE5 fold 1: 10 val records | 162s
+HOLE5 fold 2: 6 val records | 178s
+HOLE5 fold 3: 10 val records | 194s
+HOLE5 fold 4: 6 val records | 210s
+HOLE5 fold 5: 6 val records | 227s
+HOLE5 fold 6: 10 val records | 243s
+validator  seed   pass2  pass1     all  P_worse  top_share
+    BLK10     7  -5.226 -9.519  -8.730    0.382      1.942
+    BLK10   101  -3.283 -8.672  -7.648    0.434      3.380
+    BLK10  2024  -2.263 -9.234  -7.917    0.470      4.445
+   DIAG10     7 -18.012 -4.318  -8.288    0.030      0.436
+   DIAG10   101 -21.466 -5.586 -10.102    0.011      0.349
+   DIAG10  2024 -20.581 -4.227  -8.988    0.008      0.399
+    HOLE5     7 -26.524    NaN -26.524    0.004      0.439
+    HOLE5   101 -25.331    NaN -25.331    0.014      0.470
+    HOLE5  2024 -25.889    NaN -25.889    0.014      0.446
+VERDICT SC1: FAIL
