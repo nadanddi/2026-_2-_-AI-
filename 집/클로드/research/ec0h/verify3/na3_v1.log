@@ -1,0 +1,18 @@
+fold 0 picks 0
+fold 1 picks 0
+fold 2 picks 0
+fold 3 picks 48
+fold 4 picks 48
+fold 5 picks 48
+fold 6 picks 48
+fold 7 picks 72
+targets with >=1 accepted hour: 3 | pass-2: 3 | pick accuracy where truth known: rows 1.000 (n 48), records 1.000
+seed 101 example betas (last fold): {0: 0.0, 1: 0.0, 2: 0.0, 3: 0.0}
+seed 2024 example betas (last fold): {0: 0.0, 1: 0.0, 2: 0.0, 3: 0.0}
+seed 7 example betas (last fold): {0: 0.0, 1: 0.0, 2: 0.0, 3: 0.0}
+all: records 3 | cells -0.00% +0.00% -0.00% | improved 1/3 | cluster P 0.250 | top share 1.00
+   largest: F13_198 -0.000, F47_196 +0.000, F47_239 +0.000, F13_198 -0.000, F47_196 +0.000, F47_239 +0.000
+VERDICT NA3: FAIL
+pass-1 none
+pass-2: records 3 | cells -0.00% +0.00% -0.00% | improved 1/3 | cluster P 0.251 | top share 1.00
+   largest: F13_198 -0.000, F47_196 +0.000, F47_239 +0.000, F13_198 -0.000, F47_196 +0.000, F47_239 +0.000
