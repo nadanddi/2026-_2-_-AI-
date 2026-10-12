@@ -1,0 +1,11 @@
+records 400 | true prev is a visible labelled record (linkable): 171 | not linkable: 229
+  A precise (v7 U SV)      anchors  80 | precision 0.875 | correct  70 | recall of linkable(171) 0.41
+  B coverage (HV3 only)    anchors 109 | precision 0.807 | correct  88 | recall of linkable(171) 0.51
+  TV total (A+B)           anchors 189 | precision 0.836 | correct 158 | recall of linkable(171) 0.92
+  v7 (now)                 anchors  54 | precision 0.852 | correct  46 | recall of linkable(171) 0.27
+
+mirror-consistent check (anchor counted correct only if its prev is a VISIBLE labelled record in that mirror chunk):
+  A precise (v7 U SV)      anchors  80 (prev visible-labelled in mirror:  58) | correct among those  50 | precision 0.862 | recall 0.29
+  B coverage (HV3 only)    anchors 109 (prev visible-labelled in mirror:  17) | correct among those   6 | precision 0.353 | recall 0.04
+  TV total (A+B)           anchors 189 (prev visible-labelled in mirror:  75) | correct among those  56 | precision 0.747 | recall 0.33
+  v7 (now)                 anchors  54 (prev visible-labelled in mirror:  54) | correct among those  46 | precision 0.852 | recall 0.27
