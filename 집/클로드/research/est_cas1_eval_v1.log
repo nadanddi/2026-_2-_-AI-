@@ -1,0 +1,19 @@
+training groups per H: {0: 370, 9: 370, 15: 368, 21: 372}
+changed records:
+   ('F13_185', 'v15>=.8', 'F47_026', np.float64(0.98), np.float64(0.289), 24)
+   ('F13_189', 'agree', 'F13_038/F13_041', np.float64(0.56), 0.317, 15)
+   ('F13_200', 'v15>=.8', 'F47_069', np.float64(0.85), np.float64(0.394), 24)
+   ('F13_204', 'agree', 'F13_080/F13_082', np.float64(0.75), 0.538, 6)
+   ('F13_206', 'v15>=.8', 'F47_210', np.float64(0.93), np.float64(0.53), 24)
+   ('F47_184', 'agree', 'F47_027/F47_032', np.float64(0.78), 0.264, 24)
+   ('F47_201', 'v15>=.8', 'F47_091', np.float64(0.91), np.float64(0.378), 24)
+   ('F47_233', 'agree', 'F47_137/F47_140', np.float64(0.68), 0.455, 9)
+rows 1440 | changed rows 150 | RMS change over all rows 0.0225 | breakeven corr 0.088
+   corr(d, -err) -0.5: EC 0.1405
+   corr(d, -err) -0.3: EC 0.1363
+   corr(d, -err) -0.1: EC 0.1321
+   corr(d, -err) +0.0: EC 0.1299
+   corr(d, -err) +0.1: EC 0.1276
+   corr(d, -err) +0.3: EC 0.1230
+   optimistic (anchors correct, new row error 0.03): EC 0.1263
+   optimistic (anchors correct, new row error 0.05): EC 0.1269
