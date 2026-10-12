@@ -1,0 +1,10 @@
+v22_a anchored records 48
+v22_b anchored records 48
+  pr = pd.concat(per, axis=1).mean(1); cl = pr.groupby(ch.reindex(pr.index).values).sum(); ii = rng.integers(0, len(cl), (20000, len(cl)))
+s 0.5: anchored 48 | cells +0.58% +0.67% | pass-2 +6.43% +5.29% | improved 22/48 | chunk P 0.6264 | top share nan | whole EV +0.03% +0.04%
+   VERDICT FAIL
+  pr = pd.concat(per, axis=1).mean(1); cl = pr.groupby(ch.reindex(pr.index).values).sum(); ii = rng.integers(0, len(cl), (20000, len(cl)))
+s 1.0: anchored 48 | cells +7.55% +7.87% | pass-2 +22.43% +20.27% | improved 18/48 | chunk P 0.9031 | top share nan | whole EV +0.46% +0.48%
+   VERDICT FAIL
+control M2S v22_a s .5: anchored +3.91%
+control M2S v22_b s .5: anchored +3.49%
