@@ -1,0 +1,18 @@
+exec(open(os.path.join(HERE, "linker_v10", "v11_calendar_no_id_v1.py"), encoding
+_cwd = os.getcwd(); os.chdir(os.path.join(HERE, "linker_v10")); exec(open("v11_calendar_no_id_v1.py", encoding="utf-8").
+os.chdir(_cwd)
+warning: in the working copy of '집/클로드/research/td7_multi_offset_td4_v1.py', LF will be replaced by CRLF the next time Git touches it
+{'o': 0, 'base_anchors': 22, 'td4_anchors': 33, 'p2_pct': np.float64(-3.757883078819865), 'cells': '-3.76 -3.78 -3.74 -3.76', 'changed': 10}
+{'o': 1, 'base_anchors': 20, 'td4_anchors': 32, 'p2_pct': np.float64(-4.411017258427977), 'cells': '-4.36 -4.47 -4.33 -4.48', 'changed': 11}
+{'o': 2, 'base_anchors': 20, 'td4_anchors': 33, 'p2_pct': np.float64(-4.670606288243922), 'cells': '-4.68 -4.69 -4.62 -4.69', 'changed': 12}
+{'o': 3, 'base_anchors': 20, 'td4_anchors': 32, 'p2_pct': np.float64(-4.411017258427977), 'cells': '-4.36 -4.47 -4.33 -4.48', 'changed': 11}
+{'o': 4, 'base_anchors': 19, 'td4_anchors': 32, 'p2_pct': np.float64(-4.465547033166498), 'cells': '-4.41 -4.51 -4.39 -4.55', 'changed': 12}
+{'o': 5, 'base_anchors': 21, 'td4_anchors': 33, 'p2_pct': np.float64(-4.323511589670529), 'cells': '-4.28 -4.39 -4.23 -4.39', 'changed': 11}
+{'o': 6, 'base_anchors': 20, 'td4_anchors': 33, 'p2_pct': np.float64(-4.115167130333419), 'cells': '-4.06 -4.19 -4.02 -4.19', 'changed': 12}
+{'o': 7, 'base_anchors': 22, 'td4_anchors': 33, 'p2_pct': np.float64(-4.399609419122003), 'cells': '-4.35 -4.45 -4.32 -4.47', 'changed': 10}
+{'o': 8, 'base_anchors': 22, 'td4_anchors': 33, 'p2_pct': np.float64(-3.6978909167122627), 'cells': '-3.70 -3.72 -3.68 -3.70', 'changed': 10}
+{'o': 9, 'base_anchors': 23, 'td4_anchors': 34, 'p2_pct': np.float64(-3.7589832658584954), 'cells': '-3.76 -3.78 -3.74 -3.76', 'changed': 10}
+
+mean pass-2 change over offsets per cell [-4.17, -4.24, -4.14, -4.25] | offsets improved 10/10 | record bootstrap P 0.0459 | jackknife -12.255 | records 52 (changed 14) -> FAIL
+
+[exited with code 0]
