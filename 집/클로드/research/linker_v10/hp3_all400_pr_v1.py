@@ -41,3 +41,5 @@ for name, S in (("A & agrees v10 top-1", T[(T.tier == "A") & (T.pick == T.v10)])
                 ("A+B & agrees META & metap>=.5", T[(T.pick == T.meta) & (T.metap >= .5)])):
     k = S[S.known]; kc = S[S.cert]
     print(f"{name:30s}: anchors {len(S)} | all-truth precision {k.ok.mean():.3f}, recall {k.ok.sum()/nl_all:.2f} | cert precision {kc.ok.mean():.3f}, recall {kc.ok.sum()/nl_cert:.2f} | on non-linkable {int((~S.linkable).sum())}")
+SEL = T[(T.pick == T.meta) & (T.metap >= .5)][["rec", "pick", "tier", "metap"]]
+SEL.to_csv(os.path.join(env.LOCAL, "linker_v10", "hp3_anchor_set.csv"), index=False); print("saved anchor set", len(SEL))
