@@ -1,0 +1,8 @@
+CV records: 190 | truth date visible & candidate 0.86 | truth house visible 0.86 | mean #cand dates 121.4
+eligible records (front info): 222 | pass-2: 36 | HARD anchors: 31
+SP vs HARD all   : n 222 | HD RMSE 0.1816 | cells +1.59% +1.79% +1.91% | improved 102/222 | block P 0.6191 | top share nan
+SP vs HARD pass-1: n 186 | HD RMSE 0.1838 | cells +2.76% +2.90% +3.20% | improved 84/186 | block P 0.6778 | top share nan
+SP vs HARD pass-2: n 36 | HD RMSE 0.1695 | cells -5.86% -5.36% -6.21% | improved 18/36 | block P 0.3542 | top share 2.33
+SP vs BASE all   : n 222 | Q RMSE 0.1870 | cells -1.38% -1.10% -0.99% | improved 118/222 | block P 0.4333 | top share 3.66
+SP vs BASE pass-1: n 186 | Q RMSE 0.1846 | cells +2.35% +2.48% +2.73% | improved 91/186 | block P 0.6608 | top share nan
+SP vs BASE pass-2: n 36 | Q RMSE 0.1986 | cells -19.94% -19.20% -19.68% | improved 27/36 | block P 0.0003 | top share 0.54
