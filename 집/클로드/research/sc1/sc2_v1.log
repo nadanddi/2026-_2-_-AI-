@@ -1,0 +1,24 @@
+DIAG10 fold 4: val 40 | pass-2 seasons changed: train 12, val 5 of 6 | 11s
+DIAG10 fold 5: val 28 | pass-2 seasons changed: train 16, val 2 of 3 | 22s
+DIAG10 fold 6: val 40 | pass-2 seasons changed: train 11, val 9 of 10 | 33s
+DIAG10 fold 7: val 31 | pass-2 seasons changed: train 17, val 2 of 7 | 45s
+DIAG10 fold 8: val 40 | pass-2 seasons changed: train 17, val 0 of 10 | 56s
+DIAG10 fold 9: val 40 | pass-2 seasons changed: train 15, val 4 of 10 | 67s
+EV fold 1: val 52 | pass-2 seasons changed: train 24, val 7 of 8 | 81s
+EV fold 2: val 54 | pass-2 seasons changed: train 16, val 12 of 14 | 94s
+EV fold 3: val 42 | pass-2 seasons changed: train 26, val 2 of 2 | 109s
+EV fold 4: val 54 | pass-2 seasons changed: train 23, val 4 of 14 | 122s
+EV fold 5: val 42 | pass-2 seasons changed: train 26, val 0 of 2 | 137s
+EV fold 6: val 46 | pass-2 seasons changed: train 26, val 0 of 6 | 151s
+EV fold 7: val 50 | pass-2 seasons changed: train 24, val 4 of 10 | 165s
+  EV seed 47 largest: F13_243 -17.30, F13_241 -7.31, F47_216 -3.59, F47_209 -1.12, F13_217 +0.21, F13_233 +0.34, F47_229 +0.54
+  EV seed 1414 largest: F13_243 -16.30, F13_241 -6.51, F47_209 -1.10, F47_231 -0.52, F47_193 +0.08, F47_241 +0.17, F13_217 +0.67
+  EV seed 6464 largest: F13_243 -16.53, F13_241 -7.25, F47_216 -3.18, F47_209 -1.23, F47_229 +0.25, F47_215 +0.26, F47_231 +2.19
+validator  seed   pass2    all  P_worse  top_share  changed  n
+   DIAG10    47  -8.542 -2.826    0.132      0.863       46 46
+   DIAG10  1414 -10.654 -4.036    0.075      0.739       46 46
+   DIAG10  6464 -10.730 -4.550    0.064      0.691       46 46
+       EV    47 -16.576 -4.867    0.005      0.573       56 56
+       EV  1414 -14.480 -3.438    0.002      0.617       56 56
+       EV  6464 -14.419 -4.029    0.079      0.621       56 56
+VERDICT SC2 (EV): FAIL
