@@ -1,0 +1,18 @@
+confidence of v11 top pick: wrong vs right
+          p1                        marg                         cna               
+        mean    25%    50%    75%   mean    25%    50%    75%   mean  25%  50%  75%
+ok                                                                                 
+False  0.563  0.308  0.521  0.914  0.412  0.169  0.266  0.875  0.333  0.0  0.0  1.0
+True   0.891  0.834  0.960  0.993  0.829  0.746  0.940  0.988  0.124  0.0  0.0  0.0
+   p1 >= 0.5: kept 316/340 judgements, accuracy 0.937, records kept 37/42, wrong kept 20
+   p1 >= 0.6: kept 294/340 judgements, accuracy 0.966, records kept 33/42, wrong kept 10
+   p1 >= 0.7: kept 286/340 judgements, accuracy 0.965, records kept 31/42, wrong kept 10
+   p1 >= 0.8: kept 256/340 judgements, accuracy 0.961, records kept 29/42, wrong kept 10
+   p1 >= 0.9: kept 219/340 judgements, accuracy 0.954, records kept 24/42, wrong kept 10
+            p1   marg  cna     pick    truth
+rec                                         
+F13_214  0.915  0.876  0.0  F47_120  F13_114
+F13_244  0.307  0.168  1.0  F13_215  F47_152
+F47_191  0.522  0.268  0.0  F13_055  F47_057
+F47_231  0.363  0.262  1.0  F13_217  F47_229
+F47_239  0.396  0.100  0.0  F47_237  F13_244
