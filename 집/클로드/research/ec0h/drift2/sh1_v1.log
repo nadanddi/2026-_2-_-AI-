@@ -1,0 +1,9 @@
+seed 101 anchored records 54
+seed 2024 anchored records 54
+seed 7 anchored records 54
+  pr = pd.concat(per, axis=1).mean(1); cl = pr.groupby(ch.reindex(pr.index).values).sum()
+s 0.5: anchored records 54 | cells -3.18% -3.28% -2.94% | pass-2 -9.45% -9.45% -11.24% | improved 37/54 | chunk P 0.0036 | top share 0.28
+   VERDICT PASS
+  pr = pd.concat(per, axis=1).mean(1); cl = pr.groupby(ch.reindex(pr.index).values).sum()
+s 1.0: anchored records 54 | cells -3.94% -4.16% -3.38% | pass-2 -9.20% -8.56% -13.91% | improved 32/54 | chunk P 0.0330 | top share 0.33
+   VERDICT FAIL
