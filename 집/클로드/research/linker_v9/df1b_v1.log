@@ -1,0 +1,13 @@
+truth among candidates = False: n 72 | accuracy 0.000 | margin>=.1 n 68 acc 0.000 | single-candidate n 54
+truth among candidates = True: n 40 | accuracy 0.950 | margin>=.1 n 35 acc 0.971 | single-candidate n 19
+
+absolute fingerprint distance of the chosen candidate (hour 0):
+               count   mean    std    min    25%    50%    75%    max
+truth_in_cand                                                        
+False           72.0  0.338  0.140  0.059  0.245  0.328  0.429  0.640
+True            40.0  0.159  0.149  0.003  0.041  0.114  0.232  0.578
+   d_best <= 0.05: n 13, accuracy 0.923, truth-in-cand share 1.00
+   d_best <= 0.08: n 18, accuracy 0.889, truth-in-cand share 0.94
+   d_best <= 0.10: n 21, accuracy 0.810, truth-in-cand share 0.86
+   d_best <= 0.15: n 34, accuracy 0.676, truth-in-cand share 0.71
+   d_best <= 0.20: n 39, accuracy 0.667, truth-in-cand share 0.69

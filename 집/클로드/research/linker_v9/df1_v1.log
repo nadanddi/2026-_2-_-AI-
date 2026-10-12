@@ -1,0 +1,44 @@
+DF picks: 150 | on v7-unanchored with known truth: 112
+   margin >= 0.00: n 112, accuracy 0.339, pass-2 n 18
+   margin >= 0.05: n 107, accuracy 0.327, pass-2 n 17
+   margin >= 0.10: n 103, accuracy 0.330, pass-2 n 16
+   margin >= 0.20: n 89, accuracy 0.326, pass-2 n 11
+
+temperature: DF anchors applied in EV to 65 records
+
+[TEMP]
+cell  all_base  all_new  p2_base  p2_new  P_worse  top_share  changed  all_%   p2_%
+  7A    0.6481   0.6497   0.7585  0.7644   0.6635        NaN       65 0.2521 0.7751
+  7B    0.6489   0.6504   0.7563  0.7625   0.6400        NaN       65 0.2258 0.8192
+101A    0.6473   0.6488   0.7576  0.7634   0.6505        NaN       65 0.2272 0.7643
+101B    0.6481   0.6495   0.7558  0.7619   0.6170        NaN       65 0.2113 0.7973
+TEMP: FAIL
+
+EC: DF anchors applied in EV to 98 records
+
+[EC]
+cell  all_base  all_new  p2_base  p2_new  P_worse  top_share  changed   all_%    p2_%
+ 101    0.1817   0.2581   0.2049  0.2261      1.0        NaN       98 42.0721 10.3342
+2024    0.1823   0.2588   0.2050  0.2264      1.0        NaN       98 41.9685 10.4571
+   7    0.1826   0.2589   0.2031  0.2245      1.0        NaN       98 41.7878 10.5462
+EC: FAIL
+
+eval preview (v7-unanchored):
+   ('F13_188', 'F13_037', 0.159, 2, 'ACCEPT')
+   ('F13_189', 'F47_038', 0.024, 3, '')
+   ('F13_200', 'F47_069', 9.0, 1, 'ACCEPT')
+   ('F13_204', 'F13_080', 0.09, 2, '')
+   ('F13_205', 'F13_090', 0.183, 2, 'ACCEPT')
+   ('F13_221', 'F13_218', 9.0, 1, 'ACCEPT')
+   ('F13_236', 'F13_233', 9.0, 1, 'ACCEPT')
+   ('F13_237', 'F47_229', 9.0, 1, 'ACCEPT')
+   ('F13_238', 'F47_229', 9.0, 1, 'ACCEPT')
+   ('F47_184', 'F47_027', 0.461, 4, 'ACCEPT')
+   ('F47_199', 'F47_087', 0.017, 3, '')
+   ('F47_201', 'F47_091', 0.297, 3, 'ACCEPT')
+   ('F47_205', 'F13_112', 0.039, 4, '')
+   ('F47_206', 'F47_120', 9.0, 1, 'ACCEPT')
+   ('F47_207', 'F47_123', 0.119, 2, 'ACCEPT')
+   ('F47_226', 'F13_232', 0.175, 2, 'ACCEPT')
+   ('F47_227', 'F13_231', 0.201, 2, 'ACCEPT')
+   ('F47_233', 'F13_134', 0.181, 2, 'ACCEPT')
