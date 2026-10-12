@@ -1,0 +1,35 @@
+anchor value = SSE without anchor - SSE with anchor (positive = anchor helps), EV-applied v7 anchors: 48
+  DF agree=False correct=False: n  6 | temp gain sum  +20.01 (mean +3.33) | EC gain sum +6.015 (mean +1.002)
+  DF agree=False correct=True : n 10 | temp gain sum   +0.56 (mean +0.06) | EC gain sum +0.216 (mean +0.022)
+  DF agree=True  correct=False: n  1 | temp gain sum   +4.59 (mean +4.59) | EC gain sum -1.795 (mean -1.795)
+  DF agree=True  correct=True : n 31 | temp gain sum  +90.65 (mean +2.92) | EC gain sum +20.034 (mean +0.646)
+
+dropped by FILT (DF disagree), per record:
+            prev    truth  correct      p  gain_temp  gain_ec
+rec                                                          
+F47_030  F13_026  F13_029    False  0.912     -2.735    0.037
+F13_098  F13_096  F13_096     True  0.997     -2.462    0.065
+F13_138  F13_136  F13_136     True  0.997     -1.550   -0.003
+F13_058  F13_056  F13_056     True  1.000     -0.811    0.004
+F47_022  F47_013  F47_020    False  0.956     -0.367    0.016
+F13_068  F13_066  F13_066     True  0.999     -0.182    0.001
+F13_088  F13_086  F13_086     True  0.991     -0.048    0.005
+F13_018  F13_016  F13_016     True  1.000      0.115    0.037
+F47_036  F47_034  F47_034     True  0.994      0.194    0.018
+F13_216  F13_126  F13_126     True  0.966      1.083    0.192
+F13_118  F13_116  F13_116     True  0.999      1.616   -0.151
+F13_029  F13_026  F13_026     True  0.844      2.602    0.047
+F13_179  F13_010  F13_181    False  0.935      3.199    0.169
+F47_170  F47_163  F13_168    False  0.938      4.307   -0.786
+F13_241  F47_151  F13_125    False  0.801      4.581    6.531
+F13_028  F13_024  F13_027    False  0.916     11.021    0.047
+
+label continuity check (diagnostic): |ST(prev,23) - ST(b,0)|, |EC(prev,23) - EC(b,0)| for v7 pick vs 'truth'
+  F13_028: v7 F13_024 [ST 1.24 EC 0.003] | truth F13_027 cert False [ST 0.18 EC 0.001] | temp gain +11.02
+  F13_179: v7 F13_010 [ST 1.22 EC 0.032] | truth F13_181 cert False [ST 0.05 EC 0.004] | temp gain +3.20
+  F13_241: v7 F47_151 [ST 0.41 EC 0.158] | truth F13_125 cert False [ST 0.34 EC 0.024] | temp gain +4.58
+  F47_022: v7 F47_013 [ST 1.58 EC 0.022] | truth F47_020 cert True [ST 0.52 EC 0.000] | temp gain -0.37
+  F47_030: v7 F13_026 [ST 1.42 EC 0.023] | truth F13_029 cert False [ST 0.48 EC 0.001] | temp gain -2.74
+  F47_079: v7 F13_072 [ST 0.53 EC 0.273] | truth F47_195 cert False [ST 0.39 EC 0.000] | temp gain +4.59
+  F47_170: v7 F47_163 [ST 0.21 EC 0.058] | truth F13_168 cert False [ST 0.63 EC 0.013] | temp gain +4.31
+  reference, correct anchors median: ST 0.35 EC 0.002
