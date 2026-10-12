@@ -1,0 +1,42 @@
+PI .15: all precision 0.984 recall 0.581 anchors 79 unverifiable 17 | pass-2 precision 1.000 recall 0.657 anchors 24 unverifiable 1
+PI .25: all precision 1.000 recall 0.533 anchors 71 unverifiable 15 | pass-2 precision 1.000 recall 0.629 anchors 23 unverifiable 1
+PI .35: all precision 1.000 recall 0.524 anchors 67 unverifiable 12 | pass-2 precision 1.000 recall 0.629 anchors 22 unverifiable 0
+selected PI 15
+mirror(DIAG10 s47) new anchors (n, EC-accurate share, pass-2 n): {'N8': (38, 0.7368421052631579, 3), 'S8': (66, 0.8181818181818182, 15)} | date_src: {'a': 212, 'none': 147, 'bc': 35, 'veto': 6}
+harm-history pairs in v15 mirror: {'F47_146': ('F13_143', np.float64(0.279), np.float64(0.703)), 'F13_177': ('F47_177', np.float64(0.36), np.float64(0.518)), 'F13_214': ('F47_120', np.float64(0.765), np.float64(0.144)), 'F13_149': ('F13_242', np.float64(0.024), np.float64(0.974)), 'F13_116': ('F13_214', np.float64(0.987), np.float64(0.008)), 'F47_079': ('F47_195', np.float64(0.621), np.float64(0.052))}
+EV new anchors: {'N8': 38, 'S8': 74}
+
+pass-2 RMSE % change:
+val      DIAG10                EL1                   EV                P2LOO              
+seed       1414    47  6464   1414     47   6464    101   2024      7   1414     47   6464
+arm base                                                                                  
+N8  NONE  -7.72 -7.92 -7.75 -28.68 -28.19 -28.56 -18.42 -19.87 -19.13 -13.71 -13.47 -14.01
+    V7    -2.53 -2.83 -2.43  -0.50  -0.50  -0.51  -0.20  -0.21  -0.20  -3.77  -3.81  -3.54
+S8  NONE  -7.53 -7.76 -7.57 -28.14 -27.72 -28.06 -14.17 -14.86 -14.61 -12.92 -12.71 -13.17
+    V7    -2.32 -2.66 -2.23   0.26   0.16   0.19   5.00   6.03   5.37  -2.90  -2.97  -2.59
+
+all-rows % change (seed mean):
+val       DIAG10    EL1    EV  P2LOO
+arm base                            
+N8  NONE   -0.18 -28.48 -2.95 -13.73
+    V7      1.45  -0.50  1.52  -3.71
+S8  NONE   -0.33 -27.97 -2.30 -12.93
+    V7      1.30   0.20  2.20  -2.82
+
+N8 vs NONE: all p2 better True | DIAG10 P [0.0051, 0.0052, 0.0054] | EV P 0.0000 | drop-top3 DIAG10 -0.272 EV -1.062 | changed p2 recs DIAG10 17 EV 22 -> pass
+   top gains DIAG10: {'F13_217': 6.14, 'F47_216': 2.896, 'F13_179': 0.159, 'F13_181': 0.128} | worst: {'F13_180': -0.115, 'F47_243': -0.026, 'F13_218': -0.004}
+   top gains EV: {'F13_243': 16.134, 'F13_241': 6.531, 'F47_216': 5.867, 'F47_243': 0.192} | worst: {'F13_180': -0.112, 'F13_218': -0.008, 'F13_193': -0.004}
+
+N8 vs V7: all p2 better True | DIAG10 P [0.1681, 0.1678, 0.1716] | EV P 0.0475 | drop-top3 DIAG10 +0.026 EV +0.000 | changed p2 recs DIAG10 3 EV 3 -> fail
+   top gains DIAG10: {'F47_216': 2.896, 'F13_195': 0.03, 'F13_180': -0.0, 'F13_181': -0.0} | worst: {'F47_243': -0.026, 'F13_179': -0.0, 'F13_181': -0.0}
+   top gains EV: {'F47_243': 0.192, 'F13_195': 0.026, 'F13_194': 0.008, 'F13_179': -0.0} | worst: {'F13_179': -0.0, 'F13_180': -0.0, 'F13_181': -0.0}
+ECN2 N8: FAIL
+
+S8 vs NONE: all p2 better True | DIAG10 P [0.0173, 0.018, 0.0177] | EV P 0.0001 | drop-top3 DIAG10 -0.093 EV -0.872 | changed p2 recs DIAG10 15 EV 21 -> fail
+   top gains DIAG10: {'F13_217': 6.14, 'F47_216': 2.896, 'F13_181': 0.128, 'F13_215': 0.097} | worst: {'F13_180': -0.115, 'F47_243': -0.026, 'F13_218': -0.004}
+   top gains EV: {'F13_243': 16.134, 'F47_216': 5.867, 'F47_243': 0.192, 'F13_216': 0.192} | worst: {'F13_180': -0.112, 'F13_218': -0.008, 'F13_193': -0.004}
+
+S8 vs V7: all p2 better False | DIAG10 P [0.3375, 0.3313, 0.329] | EV P 0.6371 | drop-top3 DIAG10 +0.236 EV +6.529 | changed p2 recs DIAG10 5 EV 5 -> fail
+   top gains DIAG10: {'F47_216': 2.896, 'F13_195': 0.03, 'F13_182': -0.0, 'F13_181': -0.0} | worst: {'F13_179': -0.159, 'F13_183': -0.05, 'F47_243': -0.026}
+   top gains EV: {'F47_243': 0.192, 'F13_195': 0.026, 'F13_194': 0.008, 'F13_179': 0.002} | worst: {'F13_241': -6.531, 'F13_243': -0.0, 'F47_190': -0.0}
+ECN2 S8: FAIL

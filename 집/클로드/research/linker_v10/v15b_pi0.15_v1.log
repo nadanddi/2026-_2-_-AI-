@@ -1,0 +1,66 @@
+training groups 380
+mirror 400
+EV 400
+eval 60
+weights: {'oj': np.float64(-2.97), 'v0': np.float64(-0.2), 'v1': np.float64(-0.97), 'v2': np.float64(-0.79), 'v3': np.float64(-0.74), 'v4': np.float64(-0.19), 'v5': np.float64(-0.76), 'v6': np.float64(-0.32), 'v7': np.float64(-0.73), 'fp': np.float64(-1.32), 'excl': np.float64(-3.04), 'cd1': np.float64(3.85), 'cdev': np.float64(-3.21), 'cna': np.float64(-0.98), 'nl_bias': np.float64(0.04), 'nl_dm1_0': np.float64(-1.8), 'nl_dm1': np.float64(-0.69), 'nl_date_unk': np.float64(-3.92), 'nl_min_oj': np.float64(-0.41), 'nl_min_fp': np.float64(-1.61), 'nl_n_lab': np.float64(-0.0)}
+    rec date_src  p_null   prev0    p0  lab0
+F13_185       bc   0.005 F47_026 0.984  True
+F13_186        a   0.005 F13_032 0.925  True
+F13_187        a   0.002 F13_035 0.978  True
+F13_188        a   0.005 F13_187 0.885 False
+F13_189        a   0.015 F13_038 0.557  True
+F13_200        a   0.066 F47_069 0.848  True
+F13_201     none   0.044 F13_071 0.137  True
+F13_202        a   0.010 F13_072 0.963  True
+F13_203        a   0.006 F13_079 0.899  True
+F13_204        a   0.011 F13_080 0.745  True
+F13_205        a   0.168 F13_090 0.731  True
+F13_206       bc   0.007 F47_210 0.929  True
+F13_207        a   0.023 F13_092 0.974  True
+F13_208       bc   0.007 F13_106 0.941  True
+F13_209        a   0.691 F13_108 0.236  True
+F13_220        a   0.007 F13_218 0.991  True
+F13_221        a   0.554 F47_214 0.202  True
+F13_222     none   0.373 F13_220 0.216 False
+F13_223     none   0.121 F13_221 0.716 False
+F13_224     none   0.337 F13_222 0.646 False
+F13_225     none   0.131 F13_223 0.797 False
+F13_226     none   0.478 F13_233 0.161  True
+F13_227     none   0.646 F13_226 0.287 False
+F13_228       bc   0.328 F13_141 0.592  True
+F13_229     none   0.597 F13_227 0.160 False
+F13_235     veto   0.244 F13_233 0.498  True
+F13_236     veto   0.850 F13_233 0.044  True
+F13_237        a   0.484 F13_112 0.082  True
+F13_238        a   0.764 F47_118 0.046  True
+F13_239        a   0.004 F13_131 0.970  True
+F47_183        a   0.002 F47_023 0.994  True
+F47_184        a   0.171 F47_027 0.776  True
+F47_185        a   0.010 F47_032 0.824  True
+F47_186        a   0.007 F47_033 0.928  True
+F47_187        a   0.005 F47_039 0.925  True
+F47_198        a   0.021 F47_086 0.958  True
+F47_199        a   0.016 F47_198 0.968 False
+F47_200        a   0.005 F47_088 0.982  True
+F47_201        a   0.037 F47_091 0.906  True
+F47_202        a   0.069 F47_092 0.899  True
+F47_203        a   0.027 F47_105 0.948  True
+F47_204        a   0.038 F47_115 0.891  True
+F47_205        a   0.825 F13_130 0.036  True
+F47_206        a   0.144 F47_205 0.485 False
+F47_207        a   0.153 F47_123 0.634  True
+F47_218       bc   0.033 F47_216 0.965  True
+F47_219     none   0.794 F47_218 0.055 False
+F47_220       bc   0.289 F47_144 0.709  True
+F47_221       bc   0.571 F47_145 0.398  True
+F47_222     none   0.675 F47_220 0.124 False
+F47_223     none   0.994 F47_221 0.002 False
+F47_224        a   0.484 F47_222 0.515 False
+F47_225        a   0.489 F47_223 0.297 False
+F47_226        a   0.439 F47_224 0.518 False
+F47_227        a   0.614 F47_225 0.336 False
+F47_233        a   0.028 F47_137 0.685  True
+F47_234     none   0.128 F13_145 0.357  True
+F47_235        a   0.005 F13_146 0.978  True
+F47_236        a   0.008 F13_148 0.965  True
+F47_237        a   0.006 F13_149 0.967  True
