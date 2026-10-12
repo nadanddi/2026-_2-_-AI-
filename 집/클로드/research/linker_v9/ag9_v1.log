@@ -1,0 +1,20 @@
+tier A (v7 U SV) 80 | tier B (HV3 only, half) 109
+V7   : anchors 54, truth-known acc 0.852 (n 54), pass-2 22
+HV3  : anchors 181, truth-known acc 0.862 (n 181), pass-2 28
+ADD3 : anchors 189, truth-known acc 0.836 (n 189), pass-2 29
+SV   : anchors 64, truth-known acc 0.969 (n 64), pass-2 20
+TV   : anchors 189, truth-known acc 0.836 (n 189), pass-2 29
+temp cell 7A: rebuilt V7 vs stored v22 max diff 0.0001
+temp cell 7B: rebuilt V7 vs stored v22 max diff 0.0001
+temp cell 101A: rebuilt V7 vs stored v22 max diff 0.0001
+temp cell 101B: rebuilt V7 vs stored v22 max diff 0.0001
+ col arm cell  all_base  all_new  p2_base  p2_new  P_worse  top_share  changed   all_%    p2_%
+TEMP  TV   7A    0.6481   0.6463   0.7585  0.7576   0.0100     0.5838       69 -0.2806 -0.1202
+TEMP  TV   7B    0.6489   0.6472   0.7563  0.7553   0.0138     0.6207       69 -0.2685 -0.1295
+TEMP  TV 101A    0.6473   0.6454   0.7576  0.7568   0.0045     0.5614       69 -0.2970 -0.1172
+TEMP  TV 101B    0.6481   0.6462   0.7558  0.7549   0.0088     0.5909       69 -0.2851 -0.1250
+  EC  TV  101    0.1817   0.1841   0.2049  0.2141   0.8668        NaN       27  1.2961  4.5138
+  EC  TV 2024    0.1823   0.1847   0.2050  0.2147   0.8642        NaN       27  1.2914  4.7095
+  EC  TV    7    0.1826   0.1850   0.2031  0.2131   0.8545        NaN       27  1.3068  4.9578
+EC TV: FAIL
+TEMP TV: FAIL
