@@ -1,0 +1,4 @@
+cert linkable                    n  65 | input-only top-1 0.738 | full (v10+fp) top-1 0.815
+clean linkable (calendar gap 1)  n 105 | input-only top-1 0.743 | full (v10+fp) top-1 0.857
+clean pass-2                     n  35 | input-only top-1 0.686 | full (v10+fp) top-1 0.886
+HP2 rule (no ID features; outdoor exact-match date + fingerprint): cert linkable tier A 44/44 correct, all cert .908 (6.722)
