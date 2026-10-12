@@ -1,0 +1,82 @@
+W2 CV records: 190 | truth date candidate 0.86 | truth house visible 0.86
+weights fitted for 48 blocks
+eligible records (front info): 347 | pass-2: 42 | HARD anchors: 118
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+SP vs HARD all   : n 347 | HD RMSE 0.1485 | cells +7.36% +7.77% +7.67% | improved 162/347 | block P 0.8912 | top share nan
+   VERDICT SP2: FAIL
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+SP vs HARD pass-1: n 305 | HD RMSE 0.1404 | cells +9.44% +9.70% +9.28% | improved 141/305 | block P 0.8973 | top share nan
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+SP vs HARD pass-2: n 42 | HD RMSE 0.1977 | cells -0.38% +0.39% +1.34% | improved 21/42 | block P 0.5400 | top share nan
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+SP vs BASE all   : n 347 | Q RMSE 0.1791 | cells -10.95% -10.66% -10.66% | improved 224/347 | block P 0.0459 | top share 0.59
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+SP vs BASE pass-1: n 305 | Q RMSE 0.1684 | cells -8.84% -8.64% -8.63% | improved 191/305 | block P 0.1633 | top share 0.93
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+C:\work\farmai\집\클로드\research\ec0h\structure\sp2_structure_predictor_w2_v1.py:175: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  per = pd.Series(np.mean([(((o["SP"].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1) - ((o[comp].loc[rr] - o["Y"].loc[rr]) ** 2).sum(1)).values for o in out.values()], 0), index=rr)
+SP vs BASE pass-2: n 42 | Q RMSE 0.2430 | cells -18.60% -18.14% -18.19% | improved 33/42 | block P 0.0155 | top share 0.43
