@@ -1,0 +1,26 @@
+  print("TRAIN mirror-CV picks:", len(L), "| date known both:", int(L[["d_t", "d_p"]].notna().all(1).sum()))
+TRAIN mirror-CV picks: 400 | date known both: 394
+  K = L[L[["d_t", "d_p"]].notna().all(1)]
+date-correct picks: 0.71 | accuracy vs truth (cert) when date ok 0.86 (n 145) vs date wrong 0.05 (n 42)
+date-wrong picks with p >= .8: 30 | among them cert-truth correct: 2
+day difference distribution of date-wrong picks: {2.0: 46, 6.0: 8, 4.0: 7, 3.0: 5, 7.0: 5, 5.0: 5, -1.0: 3, -20.0: 3, 8.0: 3, 10.0: 3}
+  print("\nEVAL 60: date known both %d | date-correct picks %d | date-wrong %d" % (int(E[["d_t", "d_p"]].notna().all(1).sum()), int(E.date_ok.sum()), int((~E.date_ok & E[["d_t", "d_p"]].notna().all(1)).sum())))
+
+EVAL 60: date known both 57 | date-correct picks 48 | date-wrong 9
+    row prev_h0  p_h0  prev_is_labelled    xf  anchor_ec23  d_t   d_p
+F13_185 F47_026 0.613              True  True        0.289  NaN  14.0
+F13_200 F13_064 0.262              True False        0.522 40.0  38.0
+F13_201 F13_200 0.273             False False          NaN 42.0  40.0
+F13_208 F13_106 0.967              True False        0.317  NaN  65.0
+F13_221 F13_123 0.723              True False        1.522 82.0  77.0
+F13_228 F13_141 0.395              True False        0.832 85.0  98.0
+F13_236 F13_222 0.345             False False          NaN 89.0  83.0
+F47_184 F47_029 0.630              True False        0.265 15.0   NaN
+F47_201 F47_199 0.503             False False          NaN 54.0  51.0
+F47_220 F47_144 0.829              True False        0.439 85.0  98.0
+F47_221 F47_145 0.670              True False        2.144 85.0  98.0
+F47_234 F13_145 0.398              True  True        0.688 99.0 101.0
+
+currently ANCHORED eval records with date-wrong predecessor:     row prev_h0  p_h0  anchor_ec23  d_t  d_p
+F13_208 F13_106 0.967        0.317  NaN 65.0
+F47_220 F47_144 0.829        0.439 85.0 98.0
