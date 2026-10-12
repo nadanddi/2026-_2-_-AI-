@@ -29,7 +29,7 @@ rows = []
 for r in Y.index:
     if r not in CH.index: continue
     c = CH.loc[r]; p1 = c.prev
-    if not (isinstance(p1, str) and p1 != r and p1 in CH.index and p1[:3] == r[:3] and int(p1[4:7]) < int(r[4:7])): continue
+    if not (isinstance(p1, str) and p1 != r and p1 in CH.index and p1 in LAB and p1[:3] == r[:3] and int(p1[4:7]) < int(r[4:7])): continue
     c1 = CH.loc[p1]; p2 = c1.prev
     if not (isinstance(p2, str) and p2 not in (r, p1) and p2 in LAB): continue
     base = c.p >= .8 and c1.p >= .8
