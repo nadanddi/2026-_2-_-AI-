@@ -1,0 +1,52 @@
+C:\work\farmai\집\클로드\research\cas1_cascade_v1.py:45: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+training groups per H: {0: 370, 9: 370, 15: 368, 21: 372}
+C:\work\farmai\집\클로드\research\cas1_cascade_v1.py:45: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+done DIAG10 47
+done DIAG10 1414
+done DIAG10 6464
+done EL1 47
+done EL1 1414
+done EL1 6464
+done P2LOO 47
+done P2LOO 1414
+done P2LOO 6464
+C:\work\farmai\집\클로드\research\cas1_cascade_v1.py:45: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+done EV 101
+C:\work\farmai\집\클로드\research\cas1_cascade_v1.py:45: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+done EV 2024
+C:\work\farmai\집\클로드\research\cas1_cascade_v1.py:45: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+done EV 7
+pass-2 RMSE % change:
+val       DIAG10                EL1                   EV                P2LOO              
+seed        1414    47  6464   1414     47   6464    101   2024      7   1414     47   6464
+arm  base                                                                                  
+CAS  NONE  -5.74 -5.63 -5.91 -29.59 -29.18 -29.60 -18.42 -19.86 -19.12 -19.74 -19.30 -20.45
+     V7    -0.43 -0.41 -0.48  -1.76  -1.87  -1.94  -0.19  -0.21  -0.20 -10.50 -10.30 -10.76
+CAS+ NONE  -6.49 -6.54 -6.68 -30.19 -30.13 -30.44 -16.45 -17.83 -17.20 -22.17 -22.23 -23.09
+     V7    -1.23 -1.37 -1.29  -2.60  -3.19  -3.11   2.22   2.32   2.17 -13.21 -13.55 -13.72
+all-rows % change (seed mean):
+val        DIAG10    EL1    EV  P2LOO
+arm  base                            
+CAS  NONE   -2.39 -29.45 -2.95 -19.83
+     V7     -0.80  -1.86  1.52 -10.52
+CAS+ NONE    1.17 -30.25 -0.79 -22.50
+     V7      2.82  -2.97  3.78 -13.50
+CAS vs NONE: all p2 better True | DIAG10 P [0.0024, 0.002, 0.0021] | EV P 0.0001 | drop-top3 DIAG10 -0.427 EV -1.058 | changed p2 DIAG10 19 EV 23 -> pass
+   top gains DIAG10: {'F13_217': 6.14, 'F47_241': 0.294, 'F13_213': 0.203, 'F13_179': 0.159, 'F13_181': 0.128, 'F13_215': 0.097} | worst: {'F13_180': -0.115, 'F47_243': -0.026, 'F13_218': -0.004}
+   top gains EV: {'F13_243': 16.134, 'F13_241': 6.531, 'F47_216': 5.867, 'F47_243': 0.192, 'F13_216': 0.192, 'F13_179': 0.169} | worst: {'F13_180': -0.112, 'F13_218': -0.008, 'F47_192': -0.004}
+CAS vs V7: all p2 better True | DIAG10 P [0.0671, 0.0686, 0.0769] | EV P 0.0518 | drop-top3 DIAG10 +0.030 EV +0.004 | changed p2 DIAG10 5 EV 4 -> fail
+   top gains DIAG10: {'F47_241': 0.294, 'F13_213': 0.203, 'F13_195': 0.03, 'F13_180': -0.0, 'F13_182': -0.0, 'F13_181': -0.0} | worst: {'F47_243': -0.026, 'F47_192': -0.004, 'F13_181': -0.0}
+   top gains EV: {'F47_243': 0.192, 'F13_195': 0.026, 'F13_194': 0.008, 'F13_179': -0.0, 'F13_183': -0.0, 'F13_191': -0.0} | worst: {'F47_192': -0.004, 'F13_179': -0.0, 'F13_181': -0.0}
+CAS1 CAS: FAIL
+CAS+ vs NONE: all p2 better True | DIAG10 P [0.0308, 0.0322, 0.0284] | EV P 0.0459 | drop-top3 DIAG10 -0.180 EV +1.704 | changed p2 DIAG10 28 EV 33 -> fail
+   top gains DIAG10: {'F13_217': 6.14, 'F13_214': 1.411, 'F47_241': 0.294, 'F13_213': 0.203, 'F13_179': 0.159, 'F13_181': 0.128} | worst: {'F13_196': -0.494, 'F13_180': -0.115, 'F13_211': -0.059}
+   top gains EV: {'F13_243': 16.134, 'F13_241': 6.531, 'F47_216': 5.867, 'F13_214': 1.492, 'F47_243': 0.192, 'F13_216': 0.192} | worst: {'F47_209': -3.7, 'F13_196': -0.67, 'F13_180': -0.112}
+CAS+ vs V7: all p2 better False | DIAG10 P [0.1698, 0.1727, 0.1626] | EV P 0.7024 | drop-top3 DIAG10 +0.450 EV +4.310 | changed p2 DIAG10 14 EV 14 -> fail
+   top gains DIAG10: {'F13_214': 1.411, 'F47_241': 0.294, 'F13_213': 0.203, 'F47_214': 0.095, 'F13_182': 0.047, 'F13_195': 0.03} | worst: {'F13_196': -0.494, 'F13_211': -0.059, 'F47_242': -0.039}
+   top gains EV: {'F13_214': 1.492, 'F47_243': 0.192, 'F13_211': 0.087, 'F13_182': 0.047, 'F13_195': 0.026, 'F13_194': 0.008} | worst: {'F47_209': -3.7, 'F13_196': -0.67, 'F47_179': -0.016}
+CAS1 CAS+: FAIL
