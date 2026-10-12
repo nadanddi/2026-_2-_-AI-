@@ -1,0 +1,20 @@
+tier
+                     26
+v7 anchor (kept)     23
+NEW certain           6
+NEW gate-released     5
+    rec      v7     v11     p  labelled   dT              tier
+F13_185 F47_026 F47_026 0.635      True -0.9       NEW certain
+F13_189 F13_038 F13_038 0.604      True -0.5       NEW certain
+F13_200 F13_064 F47_069 0.863      True -2.6 NEW gate-released
+F13_204 F13_080 F13_080 0.840      True -0.4       NEW certain
+F13_205 F13_090 F13_090 0.735      True  1.6 NEW gate-released
+F13_236 F13_222 F13_233 0.903      True -2.5 NEW gate-released
+F47_184 F47_029 F47_027 0.765      True  2.4 NEW gate-released
+F47_201 F47_199 F47_091 0.965      True -0.7       NEW certain
+F47_207 F47_123 F47_123 0.877      True  0.8       NEW certain
+F47_220 F47_144 F47_144 0.796      True -4.8 NEW gate-released
+F47_233 F47_137 F47_137 0.738      True  0.0       NEW certain
+v7 anchors where v11 picks a different predecessor: Empty DataFrame
+Columns: [rec, v7, v11, p]
+Index: []
