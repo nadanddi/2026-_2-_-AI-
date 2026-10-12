@@ -1,0 +1,8 @@
+tier A only : anchors 110 | all-truth precision 0.609, recall 0.39 | cert precision 0.667, recall 0.62 | anchors on non-linkable records 36
+A + B       : anchors 178 | all-truth precision 0.489, recall 0.51 | cert precision 0.571, recall 0.80 | anchors on non-linkable records 67
+reference: v10 (p>=.8) 76 anchors all .921/.41, cert 1.000/.58 | META2 (>=.7) 80 all .975/.46, cert 1.000/.68
+A & agrees v10 top-1          : anchors 65 | all-truth precision 0.923, recall 0.35 | cert precision 0.971, recall 0.52 | on non-linkable 2
+A+B & agrees v10 top-1        : anchors 110 | all-truth precision 0.727, recall 0.47 | cert precision 0.868, recall 0.71 | on non-linkable 17
+A & agrees META               : anchors 90 | all-truth precision 0.733, recall 0.39 | cert precision 0.812, recall 0.60 | on non-linkable 18
+A+B & agrees META             : anchors 131 | all-truth precision 0.656, recall 0.50 | cert precision 0.761, recall 0.78 | on non-linkable 35
+A+B & agrees META & metap>=.5 : anchors 83 | all-truth precision 0.952, recall 0.46 | cert precision 1.000, recall 0.72 | on non-linkable 1
