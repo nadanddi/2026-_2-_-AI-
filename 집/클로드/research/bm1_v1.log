@@ -1,0 +1,33 @@
+(1) all: RMSE 0.6477 | day-level share 0.56 | records 400
+(1) pass-2: RMSE 0.7567 | day-level share 0.78 | records 56
+(2) by hour: {Interval(-1, 0, closed='right'): 0.8, Interval(0, 2, closed='right'): 0.697, Interval(2, 5, closed='right'): 0.608, Interval(5, 7, closed='right'): 0.585, Interval(7, 11, closed='right'): 0.58, Interval(11, 15, closed='right'): 0.69, Interval(15, 19, closed='right'): 0.673, Interval(19, 23, closed='right'): 0.633}
+(3) by indoor temp band: RMSE / row share / SSE share
+   (-50, 6]     RMSE 1.622 rows 0.002 SSE 0.014
+   (6, 8]       RMSE 0.674 rows 0.015 SSE 0.016
+   (8, 10]      RMSE 0.758 rows 0.122 SSE 0.167
+   (10, 14]     RMSE 0.657 rows 0.334 SSE 0.344
+   (14, 20]     RMSE 0.592 rows 0.263 SSE 0.220
+   (20, 60]     RMSE 0.551 rows 0.256 SSE 0.186
+(4) anchored records: 48 | RMSE anchored 0.452 vs not 0.670
+(5) top 5/10/20% records SSE share: 0.51 / 0.66 / 0.79
+(6) oracle RMSE: now 0.6477 | day level perfect 0.4275 | 0h perfect (subtract 0h error all day) 0.7396 | 0h perfect decaying exp(-h/4.5) 0.5538 | top-10% records perfect 0.3793
+(7) top 15 records:
+         day_err  err0  rmse    tin  tmin     p2    anc      y  sse_share
+rec                                                                      
+F47_191    -3.11 -3.74  3.21  17.97  12.8   True  False  20.31       0.06
+F47_178    -2.62 -3.91  3.15  18.44   9.6  False  False  20.97       0.06
+F13_109    -2.16 -0.90  2.96   9.99   8.2  False  False  13.11       0.05
+F47_158     2.35  1.09  2.55  10.06   6.1  False  False   6.49       0.04
+F47_189    -2.22 -2.38  2.25  18.91  12.5   True  False  20.57       0.03
+F47_112     0.62  2.84  2.15  14.61  12.6  False  False  13.22       0.03
+F13_139    -1.93 -2.42  2.05  14.13  10.6  False  False  14.81       0.02
+F47_123     1.76  1.94  2.01  10.77   7.0  False  False   8.97       0.02
+F13_048     1.66  1.18  1.99  21.28  15.6  False  False  16.29       0.02
+F47_122     1.78  3.33  1.87  11.73   9.7  False  False   9.90       0.02
+F47_241     1.66  2.62  1.76  14.78  10.2   True  False  12.03       0.02
+F47_042    -1.21 -0.51  1.70  16.06  13.1  False  False  18.39       0.02
+F47_018     1.63  0.59  1.69  23.78  19.5  False  False  21.30       0.02
+F47_105     1.19  0.08  1.67  13.18   9.4  False  False  10.84       0.02
+F47_114    -0.27 -0.45  1.62  11.73   4.2  False  False  12.09       0.02
+
+   day_err vs indoor mean temp (spearman) -0.03 | vs indoor min -0.00
