@@ -1,0 +1,28 @@
+top 25 records by within-record simultaneous indoor/actuator jump not explained by outdoor (z over same-hour distribution):
+  F13_016   z   7.6 at  3h | in_temp 19.5->19.0 hum 92->90 co2 484->501 | dST -0.4 dEC -0.00 | prev-rec 23h->0h indoor jump 0.7 | siblings (dist before->after splice) F13_017 0.2->0.3, F47_014 0.4->0.4, F47_015 0.3->0.4
+  F13_018   z   7.6 at  4h | in_temp 20.6->20.6 hum 80->79 co2 429->426 | dST -0.3 dEC -0.00 | prev-rec 23h->0h indoor jump 1.1 | siblings (dist before->after splice) F13_019 0.3->0.3, F47_016 0.3->0.4
+  F13_147   z   7.5 at  4h | in_temp 10.2->8.2 hum 73->74 co2 1872->1614 | dST -0.1 dEC +0.00 | prev-rec 23h->0h indoor jump 19.1 | siblings (dist before->after splice) F47_149 7.3->1.3, F47_235* 7.3->1.2
+  F13_144   z   6.4 at 14h | in_temp 22.2->11.9 hum 56->60 co2 361->357 | dST -0.1 dEC +0.00 | prev-rec 23h->0h indoor jump 3.0 | siblings (dist before->after splice) F47_146 0.7->0.6, F47_147 0.7->0.7
+  F47_148   z   5.7 at 19h | in_temp 10.2->10.4 hum 67->72 co2 1101->1654 | dST -0.1 dEC +0.00 | prev-rec 23h->0h indoor jump 2.9 | siblings (dist before->after splice) F13_145 0.9->7.2, F13_146 1.0->7.2
+  F13_012   z   5.7 at 13h | in_temp 23.2->26.7 hum 77->67 co2 465->458 | dST +0.3 dEC -0.00 | prev-rec 23h->0h indoor jump 0.7 | siblings (dist before->after splice) F13_181 0.2->0.3, F47_010 0.4->0.4, F47_011 0.3->0.3
+  F47_052   z   5.7 at  1h | in_temp 15.9->15.2 hum 84->87 co2 455->461 | dST -0.3 dEC +0.00 | prev-rec 23h->0h indoor jump 2.4 | siblings (dist before->after splice) F13_053 1.1->1.0, F13_191 0.9->0.7, F47_053 0.6->0.5
+  F13_020   z   5.3 at  4h | in_temp 19.7->19.4 hum 91->90 co2 487->510 | dST -0.4 dEC -0.00 | prev-rec 23h->0h indoor jump 0.7 | siblings (dist before->after splice) F13_021 0.2->0.4, F47_017 0.4->0.5, F47_018 0.3->0.6
+  F47_129   z   5.2 at  3h | in_temp 7.0->9.7 hum 72->63 co2 374->375 | dST -0.7 dEC -0.01 | prev-rec 23h->0h indoor jump 0.3 | siblings (dist before->after splice) F13_124 0.5->0.4, F13_125 0.7->0.6, F47_130 0.2->0.4
+  F13_183   z   5.1 at 23h | in_temp 19.2->18.8 hum 91->90 co2 450->451 | dST -0.3 dEC -0.00 | prev-rec 23h->0h indoor jump 0.8 | siblings (dist before->after splice) F13_026 0.4->0.2, F47_023 0.5->0.4, F47_024 0.2->0.3
+  F13_224*  z   5.1 at 11h | in_temp 8.3->11.7 hum 71->61 co2 396->376 | prev-rec 23h->0h indoor jump 1.0 | siblings (dist before->after splice) F13_225* 0.3->0.5, F13_226* 0.4->0.5, F47_219* 0.4->0.5
+  F13_024   z   5.0 at 19h | in_temp 22.9->21.9 hum 89->86 co2 490->490 | dST -0.1 dEC +0.00 | prev-rec 23h->0h indoor jump 1.0 | siblings (dist before->after splice) F13_025 0.3->0.4, F47_021 0.8->0.7, F47_022 0.4->0.4
+  F47_075   z   4.9 at 22h | in_temp 10.8->12.7 hum 78->71 co2 446->450 | dST -0.8 dEC -0.00 | prev-rec 23h->0h indoor jump 2.9 | siblings (dist before->after splice) F13_069 0.2->0.5, F13_201* 0.4->0.6, F47_194 0.5->0.3
+  F47_223*  z   4.9 at  2h | in_temp 4.4->6.0 hum 82->80 co2 688->1051 | prev-rec 23h->0h indoor jump 4.9 | siblings (dist before->after splice) F13_229* 1.7->2.2, F47_222* 1.3->1.9
+  F13_182   z   4.8 at 23h | in_temp 22.7->22.4 hum 86->88 co2 450->457 | dST -0.3 dEC -0.00 | prev-rec 23h->0h indoor jump 0.9 | siblings (dist before->after splice) F13_013 0.3->0.3, F47_012 0.4->0.4, F47_180 0.3->0.3
+  F13_162   z   4.8 at 22h | in_temp 8.5->9.7 hum 80->76 co2 351->348 | dST -0.7 dEC -0.01 | prev-rec 23h->0h indoor jump 1.3 | siblings (dist before->after splice) F13_163 0.5->0.3, F47_165 0.5->0.3
+  F47_207*  z   4.8 at 22h | in_temp 13.7->10.3 hum 63->72 co2 349->349 | prev-rec 23h->0h indoor jump 1.9 | siblings (dist before->after splice) F13_117 0.4->0.3, F13_118 0.7->0.7
+  F47_072   z   4.8 at 20h | in_temp 14.6->17.4 hum 83->77 co2 371->345 | dST -1.0 dEC -0.00 | prev-rec 23h->0h indoor jump 0.8 | siblings (dist before->after splice) F13_067 0.5->0.6, F13_068 0.5->0.3, F47_073 0.4->0.9
+  F47_068   z   4.8 at  1h | in_temp 11.8->10.5 hum 69->78 co2 436->419 | dST -0.4 dEC +0.00 | prev-rec 23h->0h indoor jump 0.2 | siblings (dist before->after splice) F13_065 0.2->0.4, F47_069 0.3->0.4
+  F13_009   z   4.7 at 20h | in_temp 22.1->21.3 hum 86->86 co2 441->452 | dST -0.6 dEC -0.00 | prev-rec 23h->0h indoor jump 0.7 | siblings (dist before->after splice) F13_180 0.3->0.2, F47_008 0.4->0.4, F47_178 0.8->0.3
+  F13_045   z   4.7 at  5h | in_temp 9.0->9.4 hum 82->80 co2 479->478 | dST -0.6 dEC -0.08 | prev-rec 23h->0h indoor jump 0.3 | siblings (dist before->after splice) F13_046 0.2->0.4, F47_047 0.2->0.4
+  F13_030   z   4.7 at  5h | in_temp 20.0->20.2 hum 93->93 co2 453->457 | dST -0.2 dEC -0.00 | prev-rec 23h->0h indoor jump 1.1 | siblings (dist before->after splice) F13_031 0.1->0.1, F47_031 0.1->0.3, F47_184* 0.3->0.3
+  F47_220*  z   4.7 at  1h | in_temp 3.2->1.2 hum 80->100 co2 382->387 | prev-rec 23h->0h indoor jump 2.9 | siblings (dist before->after splice) F13_227* 0.5->0.8, F13_228* 0.8->0.9, F47_221* 0.2->0.6
+  F13_193   z   4.6 at  7h | in_temp 20.3->14.9 hum 39->58 co2 389->392 | dST -0.2 dEC -0.00 | prev-rec 23h->0h indoor jump 1.7 | siblings (dist before->after splice) F13_055 0.5->0.5, F47_056 1.5->0.9, F47_057 0.9->0.5
+  F13_179   z   4.6 at 19h | in_temp 19.7->19.7 hum 84->85 co2 431->433 | dST -0.3 dEC -0.00 | prev-rec 23h->0h indoor jump 3.6 | siblings (dist before->after splice) F13_008 0.3->0.2, F47_006 0.4->0.4, F47_007 0.2->0.2
+
+z distribution: 99% 5.7 95% 4.6 median 2.0
