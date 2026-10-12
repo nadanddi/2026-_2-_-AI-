@@ -1,0 +1,13 @@
+eval: v7 anchors 23 | EC-variant new anchors 6
+    rec    prev     p   dT date                           na4     hp2
+F13_200 F47_069 0.821 -2.6   ok N3 chose labelled, wrong date F47_069
+F13_204 F13_080 0.870 -0.4   ok         N4 right date, p < .8 F13_080
+F13_205 F13_090 0.866  1.6   ok         N4 right date, p < .8 F13_090
+F47_184 F47_027 0.818  2.4   ok N3 chose labelled, wrong date F47_027
+F47_201 F47_091 0.951 -0.7   ok          N2 chose eval record F47_091
+F47_207 F47_123 0.842  0.8   ok         N4 right date, p < .8 F47_123
+
+new anchors by NA4 category: {'N4 right date, p < .8': 3, 'N3 chose labelled, wrong date': 2, 'N2 chose eval record': 1}
+records in unlinkable NA4 categories (N1/N2) that got an anchor: ['F47_201']
+
+why others not anchored: {'no (conf/date)': 26, 'no (HP2 disagrees)': 5}
