@@ -1,0 +1,11 @@
+B2 two days before   all      n 230 | |err| median model 0.050 vs label 0.013 | RMSE model 0.190 vs label 0.116 | label closer 0.82 | best beta 0.89 -> RMSE 0.115
+B2 two days before   high EC  n  23 | |err| median model 0.145 vs label 0.084 | RMSE model 0.464 vs label 0.316 | label closer 0.78 | best beta 0.88 -> RMSE 0.313
+F next day           all      n 282 | |err| median model 0.040 vs label 0.003 | RMSE model 0.163 vs label 0.015 | label closer 0.96 | best beta 0.99 -> RMSE 0.015
+F next day           high EC  n  24 | |err| median model 0.230 vs label 0.021 | RMSE model 0.451 vs label 0.050 | label closer 0.96 | best beta 0.99 -> RMSE 0.049
+F2 two days after    all      n 231 | |err| median model 0.041 vs label 0.014 | RMSE model 0.172 vs label 0.117 | label closer 0.77 | best beta 0.75 -> RMSE 0.108
+F2 two days after    high EC  n  20 | |err| median model 0.211 vs label 0.122 | RMSE model 0.478 vs label 0.379 | label closer 0.65 | best beta 0.66 -> RMSE 0.338
+
+(2) eval application (12th-round prediction -> moved toward the near label with the high-EC beta):
+   F13_221: pred at 0h 1.571 | near label F13_217 23h 1.663 | beta 0.88 -> 1.652 (change +0.080) | day mean pred 1.615
+   F47_227: pred at 23h 1.736 | near label F47_229 0h 1.716 | beta 0.99 -> 1.716 (change -0.020) | day mean pred 1.657
+   F47_225: pred at 23h 1.748 | near label F47_229 0h 1.716 | beta 0.66 -> 1.727 (change -0.021) | day mean pred 1.688
