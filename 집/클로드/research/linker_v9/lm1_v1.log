@@ -1,0 +1,15 @@
+per model (records with known truth):
+  A_v7     n 400 | top-1 hit 0.550 | pass-2 hit 0.661 | labelled & p>=.8: 60 acc 0.800
+  B_DF     n 150 | top-1 hit 0.487 | pass-2 hit 0.730 | labelled & p>=.8: 150 acc 0.487
+  C_NNMID  n 400 | top-1 hit 0.420 | pass-2 hit 0.518 | labelled & p>=.8: 14 acc 0.786
+  D_LGB    n 400 | top-1 hit 0.535 | pass-2 hit 0.625 | labelled & p>=.8: 81 acc 0.630
+
+pairwise: agreement rate | accuracy when agree (both present)
+  A_v7     vs B_DF    : n 150, agree 0.32, acc when agree 0.979, acc of A_v7 when disagree 0.490
+  A_v7     vs C_NNMID : n 400, agree 0.53, acc when agree 0.742, acc of A_v7 when disagree 0.332
+  A_v7     vs D_LGB   : n 400, agree 0.74, acc when agree 0.691, acc of A_v7 when disagree 0.137
+  B_DF     vs C_NNMID : n 150, agree 0.27, acc when agree 0.976, acc of B_DF when disagree 0.303
+  B_DF     vs D_LGB   : n 150, agree 0.32, acc when agree 0.938, acc of B_DF when disagree 0.275
+  C_NNMID  vs D_LGB   : n 400, agree 0.47, acc when agree 0.794, acc of C_NNMID when disagree 0.085
+
+[exited with code 0]
