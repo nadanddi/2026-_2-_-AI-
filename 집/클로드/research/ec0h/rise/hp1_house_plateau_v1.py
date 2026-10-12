@@ -37,5 +37,5 @@ for h in (6, 23):
             G = D[(D.h == h)]; G = G[s(G) & dsel(G)]
             if len(G) < 15: continue
             r2, b = cvfit(G, "x"); r2r, br = cvfit(G, "xr")
-            print(f"h {h:2d} | {nm:12s} | {dn:6s} n {len(G):3d} | corr(A, y0) {np.corrcoef(G.A, G.y0)[0,1]:+.2f} (random {np.corrcoef(G.Arand, G.y0)[0,1]:+.2f}) | r0 on (A−q0): slope {b:+.2f}, CV R2 {r2:+.3f} (random {r2r:+.3f})")
+            print(f"h {h:2d} | {nm:12s} | {dn:6s} n {len(G):3d} | corr(A, y0) {np.corrcoef(G.A, G.y0)[0,1]:+.2f} (random {np.corrcoef(G.Arand, G.y0)[0,1]:+.2f}) | r0 on (A-q0): slope {b:+.2f}, CV R2 {r2:+.3f} (random {r2r:+.3f})")
 D.to_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "hp1_v1.csv"), index=False)
