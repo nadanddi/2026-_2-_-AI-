@@ -1,0 +1,224 @@
+done DIAG10 47
+done DIAG10 1414
+done DIAG10 6464
+done EL1 47
+done EL1 1414
+done EL1 6464
+done P2LOO 47
+done P2LOO 1414
+done P2LOO 6464
+done EV 101
+done EV 2024
+done EV 7
+
+DIAG10 s47 next-day anchors: 187 records (pass-2 15) | pick = true next 0.610 (records with known true next 155)
+    rec   picks true_next    ok  n_hours    p2
+F13_008 F13_180   F13_180  True       15 False
+F13_011 F13_181   F13_181  True       15 False
+F13_012 F13_182   F13_182  True       15 False
+F13_013 F13_015   F13_015  True        4 False
+F13_022 F13_024   F13_024  True        1 False
+F13_025 F13_183   F13_026 False       24 False
+F13_031 F13_033   F13_033  True       15 False
+F13_032 F13_034           False       24 False
+F13_035 F47_037           False        1 False
+F13_036 F47_036   F13_037 False        2 False
+F13_037 F13_038   F13_038  True       15 False
+F13_041 F13_043   F13_043  True       15 False
+F13_043 F47_046           False       24 False
+F13_044 F47_047   F13_045 False       24 False
+F13_045 F13_047   F13_047  True       15 False
+F13_046 F13_048   F13_048  True       15 False
+F13_048 F47_074   F13_050 False       12 False
+F13_049 F47_051           False       24 False
+F13_050 F47_051   F13_051 False       24 False
+F13_052 F13_053   F13_053  True       12 False
+F13_055 F13_194   F13_194  True       12 False
+F13_056 F13_058   F13_058  True       15 False
+F13_057 F13_195   F13_195  True       15 False
+F13_059 F47_063   F13_060 False        2 False
+F13_061 F13_063   F13_063  True       24 False
+F13_062 F13_064   F13_064  True        2 False
+F13_063 F13_198   F13_198  True       15 False
+F13_064 F47_069           False       15 False
+F13_065 F47_071   F13_066 False       24 False
+F13_066 F13_068   F13_068  True       15 False
+F13_067 F13_069           False       15 False
+F13_070 F13_073   F13_072 False        5 False
+F13_071 F13_073   F13_073  True       15 False
+F13_072 F47_079           False        3 False
+F13_073 F13_074   F13_074  True       15 False
+F13_076 F13_078   F13_078  True       15 False
+F13_077 F13_079   F13_079  True       24 False
+F13_079 F47_086           False       24 False
+F13_080 F47_086           False       24 False
+F13_081 F13_083           False       15 False
+F13_082 F13_084   F13_084  True       13 False
+F13_083 F47_089   F13_085 False       24 False
+F13_084 F47_089   F13_086 False       24 False
+F13_085 F13_087   F13_087  True        7 False
+F13_086 F13_088   F13_088  True       10 False
+F13_089 F47_093   F13_091 False       24 False
+F13_090 F47_093           False       24 False
+F13_091 F47_095   F47_095  True       15 False
+F13_092 F13_093           False       24 False
+F13_093 F47_098   F13_094 False       24 False
+F13_096 F13_098   F13_098  True       15 False
+F13_097 F13_099   F13_099  True       15 False
+F13_100 F13_103   F13_102 False       24 False
+F13_101 F13_103   F13_103  True       24 False
+F13_102 F13_104   F13_104  True       15 False
+F13_103 F47_108   F13_105 False       24 False
+F13_111 F47_118   F13_112 False       24 False
+F13_116 F13_118   F13_118  True       24 False
+F13_117 F13_119   F13_119  True       15 False
+F13_119 F13_215   F13_215  True       15 False
+F13_120 F47_126   F13_121 False        1 False
+F13_121 F13_123   F13_123  True       15 False
+F13_122 F13_124   F13_124  True       15 False
+F13_125 F13_127   F13_127  True       15 False
+F13_128 F47_134   F13_130 False       15 False
+F13_129 F47_134   F13_131 False       15 False
+F13_130 F47_135   F13_132 False       24 False
+F13_131 F47_135           False       24 False
+F13_132 F13_133   F13_133  True       15 False
+F13_135 F13_138   F13_137 False        4 False
+F13_136 F13_138   F13_138  True       15 False
+F13_137 F47_143   F13_139 False        2 False
+F13_141 F13_143           False       24 False
+F13_145 F47_149           False       24 False
+F13_146 F47_149           False       24 False
+F13_148 F13_242           False       24 False
+F13_150 F47_153   F47_153  True       15 False
+F13_151 F47_154   F47_154  True       15 False
+F13_152 F47_155   F47_155  True       24 False
+F13_155 F47_159   F47_159  True       15 False
+F13_156 F47_160   F47_160  True       15 False
+F13_157 F13_158           False       15 False
+F13_159 F47_163   F47_163  True       15 False
+F13_160 F47_164   F47_164  True       15 False
+F13_161 F47_165   F47_165  True       24 False
+F13_162 F47_241   F47_241  True       14 False
+F13_167 F47_169   F47_169  True       15 False
+F13_170 F47_172   F47_172  True       24 False
+F13_171 F47_173   F47_173  True       15 False
+F13_172 F47_174   F47_174  True       15 False
+F13_176 F47_243   F47_243  True       24 False
+F13_182 F13_014   F13_014  True       15  True
+F13_195 F47_063   F13_196 False       15  True
+F13_196 F47_064   F13_197 False       15  True
+F13_197 F13_062   F13_062  True       24  True
+F13_211 F13_113   F13_113  True       15  True
+F13_213 F13_115   F13_115  True       15  True
+F13_214 F13_116   F13_116  True       15  True
+F47_007 F47_178   F47_178  True       15 False
+F47_009 F13_181   F47_010 False        1 False
+F47_010 F47_012   F47_012  True       15 False
+F47_011 F47_180   F47_180  True       24 False
+F47_012 F47_181   F47_181  True       15 False
+F47_019 F47_021   F47_021  True       12 False
+F47_020 F47_022   F47_022  True       15 False
+F47_021 F13_183   F47_023 False       24 False
+F47_035 F47_037   F47_037  True       15 False
+F47_042 F13_042   F47_044 False       24 False
+F47_043 F47_046   F47_045 False       24 False
+F47_044 F47_046   F47_046  True       24 False
+F47_045 F47_047           False       24 False
+F47_047 F13_047   F47_049 False       24 False
+F47_048 F47_189   F47_189  True       15 False
+F47_049 F47_074   F47_074  True       15 False
+F47_050 F47_052   F47_052  True        8 False
+F47_054 F47_056   F47_056  True       14 False
+F47_055 F47_057   F47_057  True       15 False
+F47_057 F47_191   F47_191  True       14 False
+F47_058 F47_061   F47_060 False       24 False
+F47_059 F47_061   F47_061  True       24 False
+F47_060 F47_062   F47_062  True       15 False
+F47_061 F13_060   F47_063 False       24 False
+F47_062 F47_192   F47_192  True       15 False
+F47_063 F13_197           False       15 False
+F47_064 F47_066   F47_066  True       24 False
+F47_065 F47_067   F47_067  True        9 False
+F47_068 F47_071   F47_070 False       24 False
+F47_069 F47_071   F47_071  True       24 False
+F47_070 F47_072   F47_072  True       12 False
+F47_071 F13_067   F47_073 False        6 False
+F47_072 F13_069           False        5 False
+F47_073 F13_069           False       15 False
+F47_074 F47_051   F47_051  True       15 False
+F47_075 F47_076   F47_076  True       15 False
+F47_076 F47_195   F47_195  True       15 False
+F47_080 F47_082   F47_082  True       15 False
+F47_081 F47_196   F47_196  True       24 False
+F47_085 F47_087   F47_087  True       15 False
+F47_087 F13_083   F47_088 False       15 False
+F47_088 F13_085           False       24 False
+F47_089 F47_091   F47_091  True       24 False
+F47_090 F47_092   F47_092  True       24 False
+F47_091 F13_089           False       24 False
+F47_093 F13_092           False       15 False
+F47_095 F47_097   F47_097  True       24 False
+F47_097 F13_095   F47_099 False       24 False
+F47_098 F47_101   F47_100 False       24 False
+F47_099 F47_101   F47_101  True       24 False
+F47_102 F13_101   F47_104 False       24 False
+F47_103 F13_101   F47_105 False       24 False
+F47_104 F47_106   F47_106  True       24 False
+F47_105 F47_106           False       24 False
+F47_107 F13_107   F47_109 False       24 False
+F47_108 F13_107           False       24 False
+F47_109 F47_112           False       24 False
+F47_110 F47_112   F47_112  True       24 False
+F47_113 F47_115   F47_115  True       11 False
+F47_114 F47_116   F47_116  True       12 False
+F47_124 F47_126   F47_126  True       15 False
+F47_128 F13_125   F47_130 False       15 False
+F47_129 F47_131   F47_131  True        7 False
+F47_132 F47_134   F47_134  True       24 False
+F47_133 F13_132   F47_135 False       24 False
+F47_135 F47_137   F47_137  True       12 False
+F47_137 F13_136           False       24 False
+F47_138 F13_136   F47_139 False       24 False
+F47_139 F47_141   F47_141  True       24 False
+F47_141 F47_143   F47_143  True       15 False
+F47_144 F13_142           False       24 False
+F47_145 F13_142           False       24 False
+F47_146 F13_145   F13_145  True       15 False
+F47_150 F13_242   F13_242  True       24 False
+F47_158 F13_157   F13_157  True       24 False
+F47_159 F47_162           False       15 False
+F47_160 F47_161   F47_161  True       15 False
+F47_163 F13_162   F13_162  True       24 False
+F47_165 F13_164   F13_164  True       24 False
+F47_166 F13_166   F13_166  True       15 False
+F47_171 F13_172   F13_172  True       15 False
+F47_179 F47_011   F47_011  True       15  True
+F47_191 F47_059   F47_059  True       15  True
+F47_192 F47_065   F47_065  True       24  True
+F47_209 F47_125   F47_125  True        7  True
+F47_214 F47_216   F47_216  True       24  True
+F47_239 F13_152   F13_152  True       24  True
+F47_241 F13_165   F13_165  True       13  True
+F47_242 F13_168   F13_168  True       15  True
+
+pass-2 RMSE % change:
+val  DIAG10                EL1                   EV                P2LOO              
+seed   1414    47  6464   1414     47   6464    101   2024      7   1414     47   6464
+base                                                                                  
+NONE  -6.46 -6.48 -6.62 -29.87 -29.85 -30.13 -11.88 -13.39 -12.67 -14.10 -14.49 -14.68
+V7    -1.19 -1.31 -1.23  -2.15  -2.79  -2.69   7.80   7.85   7.76  -4.21  -4.94  -4.29
+
+all-rows % change (seed mean):
+val   DIAG10    EL1     EV  P2LOO
+base                             
+NONE   24.27 -29.95  15.13 -14.42
+V7     26.30  -2.55  20.43  -4.48
+
+NXA vs NONE: all p2 better True | DIAG10 P [0.044, 0.046, 0.0452] | EV P 0.1610 | drop-top3 DIAG10 -0.009 EV +8.264 | changed p2 DIAG10 29 EV 34 -> fail
+   top gains DIAG10: {'F13_217': 6.14, 'F13_214': 1.411, 'F47_241': 0.406, 'F47_214': 0.226, 'F13_213': 0.197, 'F13_179': 0.159} | worst: {'F13_195': -0.582, 'F13_196': -0.427, 'F13_180': -0.115}
+   top gains EV: {'F13_243': 16.134, 'F13_241': 6.531, 'F47_216': 5.867, 'F13_214': 1.492, 'F13_216': 0.192, 'F13_179': 0.169} | worst: {'F47_209': -9.522, 'F13_196': -0.67, 'F13_195': -0.562}
+
+NXA vs V7: all p2 better False | DIAG10 P [0.202, 0.2075, 0.1972] | EV P 0.7912 | drop-top3 DIAG10 +0.644 EV +10.711 | changed p2 DIAG10 15 EV 15 -> fail
+   top gains DIAG10: {'F13_214': 1.411, 'F47_241': 0.406, 'F47_214': 0.226, 'F13_213': 0.197, 'F47_209': 0.128, 'F47_239': 0.097} | worst: {'F13_195': -0.582, 'F13_196': -0.427, 'F13_211': -0.059}
+   top gains EV: {'F13_214': 1.492, 'F13_211': 0.087, 'F47_239': 0.033, 'F13_182': 0.029, 'F47_191': 0.018, 'F13_194': 0.005} | worst: {'F47_209': -9.522, 'F13_196': -0.67, 'F13_195': -0.562}
+NXA1: FAIL
