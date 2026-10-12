@@ -1,0 +1,43 @@
+
+== ALL: records 360 | no forward anchor 316 | of which next-day visible 63 (high-EC 5)
+   beta 1.0: RMSE 0.1756 -> 0.1688 | SSE change on next-anchored -20.21
+   beta 0.9: RMSE 0.1756 -> 0.1670 | SSE change on next-anchored -25.45
+
+== PASS-2: records 46 | no forward anchor 32 | of which next-day visible 15 (high-EC 1)
+   beta 1.0: RMSE 0.2262 -> 0.2172 | SSE change on next-anchored -4.38
+   beta 0.9: RMSE 0.2262 -> 0.2090 | SSE change on next-anchored -8.25
+
+pass-2 records without forward anchor:
+    rec  has_next  ymean   sse0   gain
+F47_231      True  2.177 14.169  0.400
+F13_243     False  1.719 12.904  0.000
+F13_233     False  0.634  5.676  0.000
+F47_229     False  1.788  4.984  0.000
+F13_241     False  1.432  4.889  0.000
+F13_231     False  0.621  3.372  0.000
+F47_216     False  0.556  2.919  0.000
+F13_214      True  0.918  2.095  1.807
+F47_241      True  0.652  1.296  1.129
+F47_212     False  0.521  0.482  0.000
+F47_243     False  0.449  0.448  0.000
+F47_209      True  0.655  0.424  0.406
+F13_242     False  0.432  0.420  0.000
+F13_213      True  0.292  0.298  0.296
+F47_214     False  0.531  0.277  0.000
+F47_239      True  0.434  0.236  0.064
+F13_245      True  0.840  0.208  0.162
+F13_244     False  0.440  0.166  0.000
+F47_191      True  0.291  0.152  0.109
+F47_242      True  0.724  0.119  0.005
+F13_211      True  0.540  0.092 -0.041
+F13_212     False  0.294  0.066  0.000
+F13_182      True  0.335  0.057  0.049
+F13_232     False  0.739  0.052  0.000
+F47_215     False  0.705  0.050  0.000
+F13_195     False  0.556  0.033  0.000
+F13_196     False  0.547  0.032  0.000
+F47_179      True  0.248  0.025 -0.022
+F47_192      True  0.144  0.024 -0.002
+F13_197      True  0.548  0.020  0.013
+F47_194      True  0.253  0.015  0.009
+F47_230     False  0.461  0.006  0.000

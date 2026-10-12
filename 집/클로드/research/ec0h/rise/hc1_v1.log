@@ -1,0 +1,54 @@
+
+== k=2: flagged (sg day-mean >= .9) 40 (actual >=1: 30) | with curve 30 (actual >=1: 24, pass-2 2)
+   all with curve  n 30 | day-level RMSE model 0.431 | curve 0.550 | half 0.444 | curve closer 0.40
+   actual high     n 24 | day-level RMSE model 0.450 | curve 0.488 | half 0.416 | curve closer 0.50
+   actual normal   n  6 | day-level RMSE model 0.348 | curve 0.746 | half 0.539 | curve closer 0.00
+   pass-2          n  2 | day-level RMSE model 0.625 | curve 0.143 | half 0.368 | curve closer 1.00
+
+== k=3: flagged (sg day-mean >= .9) 40 (actual >=1: 30) | with curve 33 (actual >=1: 26, pass-2 2)
+   all with curve  n 33 | day-level RMSE model 0.421 | curve 0.520 | half 0.426 | curve closer 0.30
+   actual high     n 26 | day-level RMSE model 0.432 | curve 0.459 | half 0.394 | curve closer 0.38
+   actual normal   n  7 | day-level RMSE model 0.375 | curve 0.703 | half 0.528 | curve closer 0.00
+   pass-2          n  2 | day-level RMSE model 0.625 | curve 0.143 | half 0.368 | curve closer 1.00
+    rec  day     y    sg  curve  n_nb    p2
+F47_132    1 2.712 1.241  1.682     2 False
+F47_145    8 2.142 1.599  1.303     5 False
+F47_141    6 1.866 1.781  1.478     6 False
+F13_178    8 1.842 1.081  1.053     3 False
+F47_147   10 1.750 1.432  1.513     4 False
+F13_243    3 1.719 0.992  1.677     1  True
+F47_138    4 1.710 1.595  1.471     4 False
+F13_217   10 1.693 1.190  1.495     1  True
+F47_139    5 1.684 1.632  1.471     4 False
+F13_151    5 1.677 1.381  1.621     5 False
+F47_136    3 1.653 1.870  1.471     4 False
+F13_153    7 1.637 1.493  1.444     2 False
+F47_154    6 1.621 1.380  1.444     2 False
+F13_143    9 1.530 1.245  1.303     3 False
+F13_146   11 1.496 1.389  1.750     1 False
+F13_125    8 1.495 1.404  1.318     3 False
+F47_177    7 1.487 1.026  1.053     3 False
+F47_151    2 1.313 1.344  1.677     1 False
+F13_139    7 1.303 0.949  1.640     6 False
+F13_175    6 1.270 0.951  1.664     2 False
+F13_120    5 1.250 1.154  1.495     1 False
+F47_157    8 1.211 0.943  1.637     3 False
+F13_137    6 1.076 1.290  1.684     7 False
+F47_174    5 1.053 0.911  1.664     2 False
+F13_135    5 1.013 1.136  1.697     6 False
+F13_177    8 1.005 0.996  1.664     2 False
+F13_133    4 0.979 1.234  1.684     5 False
+F13_116    3 0.937 1.018  1.250     3 False
+F13_132    3 0.870 1.241  1.684     7 False
+F13_130    2 0.773 0.987  1.684     5 False
+F13_156    9 0.751 1.141  1.211     1 False
+F47_161   11 0.646 1.155  1.211     1 False
+F47_130    8 0.491 1.055  1.407     4 False
+
+== k=5: flagged (sg day-mean >= .9) 40 (actual >=1: 30) | with curve 36 (actual >=1: 28, pass-2 4)
+   all with curve  n 36 | day-level RMSE model 0.414 | curve 0.533 | half 0.431 | curve closer 0.36
+   actual high     n 28 | day-level RMSE model 0.425 | curve 0.428 | half 0.378 | curve closer 0.46
+   actual normal   n  8 | day-level RMSE model 0.371 | curve 0.797 | half 0.578 | curve closer 0.00
+   pass-2          n  4 | day-level RMSE model 0.523 | curve 0.538 | half 0.465 | curve closer 0.75
+
+13th submission columns: ['row_id', 'sub_temp', 'sub_ec']
