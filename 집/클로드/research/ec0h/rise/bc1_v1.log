@@ -1,0 +1,15 @@
+(1) submission shape vs training labels: hourly change |d| by hour
+  sub_ec: median |d| train 0.004 vs submission 0.004 | cells above train 99th pct of same hour: 29 / 1380 (expected ~13)
+   largest (rec, hour, |d| / train p99): F47_233@1 6.6, F47_233@4 5.4, F13_227@7 5.2, F47_233@3 4.4, F13_237@4 3.4, F47_233@2 3.4, F13_227@3 2.5, F47_183@5 2.2, F47_203@5 2.1, F13_227@8 1.9, F47_202@2 1.8, F47_198@4 1.8
+   zigzag records (consecutive opposite big changes): [('F13_227', 1), ('F47_202', 1), ('F47_233', 2)]
+  sub_temp: median |d| train 0.465 vs submission 0.428 | cells above train 99th pct of same hour: 21 / 1380 (expected ~13)
+   largest (rec, hour, |d| / train p99): F47_220@1 1.5, F13_185@9 1.4, F13_186@6 1.3, F13_227@17 1.3, F47_185@6 1.3, F47_237@16 1.3, F47_186@6 1.3, F13_186@7 1.2, F47_237@15 1.2, F47_186@7 1.2, F47_186@8 1.2, F47_183@9 1.2
+   zigzag records (consecutive opposite big changes): []
+
+(2) evaluation input audit (F13/F47 test_X)
+  missing cells by column: {}
+  cells outside training 0.1-99.9% range: {'out_hum': 1, 'out_rad': 1, 'in_temp': 76, 'in_hum': 7, 'in_co2': 2}
+   in_temp: eval min 0.3 (train min 3.1), eval rows < train 1% (7.2): 181
+   out_temp: eval min -6.2 (train min -8.0), eval rows < train 1% (-6.4): 0
+  stuck runs >= 6h in indoor vars: [('F13_204', 'in_hum', 9), ('F47_184', 'in_hum', 7), ('F47_200', 'in_hum', 6), ('F47_220', 'in_hum', 7), ('F47_236', 'in_hum', 6)]
+  within-record indoor jumps > 6 sd (same-hour training distribution): [('F13_185', 'in_co2', 16, 8.1), ('F13_227', 'in_co2', 8, 6.3), ('F13_235', 'in_co2', 8, 13.3), ('F13_236', 'in_co2', 8, 17.5), ('F47_207', 'in_temp', 21, 6.7), ('F47_220', 'in_hum', 1, 13.3), ('F47_221', 'in_co2', 8, 7.2), ('F47_223', 'in_co2', 2, 20.1)]

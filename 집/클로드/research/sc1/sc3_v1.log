@@ -1,0 +1,74 @@
+DIAG10 fold 4 | 11s
+DIAG10 fold 5 | 23s
+DIAG10 fold 6 | 35s
+DIAG10 fold 7 | 47s
+DIAG10 fold 8 | 59s
+DIAG10 fold 9 | 71s
+EV fold 1 | 85s
+EV fold 2 | 100s
+EV fold 3 | 115s
+EV fold 4 | 131s
+EV fold 5 | 147s
+EV fold 6 | 164s
+EV fold 7 | 182s
+
+validation pass-2 records: |season correction| distribution {'DIAG10': [28.9, 46.5, 52.4, 53.7], 'EV': [21.3, 39.7, 43.8, 47.6]}
+largest corrections (EV):
+validator  fold     rec  base  exact    ds
+       EV     1 F47_179  56.6    9.0 -47.6
+       EV     1 F13_179  52.7    8.0 -44.7
+       EV     1 F47_180  56.6   12.0 -44.6
+       EV     1 F13_180  52.7    9.0 -43.7
+       EV     1 F47_181  56.6   13.0 -43.6
+       EV     1 F13_181  52.7   12.0 -40.7
+       EV     7 F47_242 128.0  168.0  40.0
+       EV     1 F13_182  52.7   13.0 -39.7
+       EV     2 F47_189  44.6   74.0  29.4
+       EV     7 F13_245 124.0  153.0  29.0
+validator  seed    arm   pass2  P_worse  top_share  worse  better
+   DIAG10    47  QONLY -10.217    0.056      0.733      6      16
+   DIAG10    47 QONLY5 -10.179    0.063      0.736      6      14
+   DIAG10    47   BOTH  -8.542    0.134      0.863     21      25
+   DIAG10  1414  QONLY -10.409    0.080      0.764      6      16
+   DIAG10  1414 QONLY5 -10.389    0.082      0.766      6      14
+   DIAG10  1414   BOTH -10.654    0.080      0.739     20      26
+   DIAG10  6464  QONLY  -9.980    0.064      0.733      6      16
+   DIAG10  6464 QONLY5  -9.955    0.052      0.734      6      14
+   DIAG10  6464   BOTH -10.730    0.060      0.691     18      28
+       EV    47  QONLY -15.114    0.020      0.625     10      19
+       EV    47 QONLY5 -15.123    0.016      0.624      6      18
+       EV    47   BOTH -16.576    0.005      0.573     29      27
+       EV  1414  QONLY -14.160    0.020      0.628      9      20
+       EV  1414 QONLY5 -14.163    0.020      0.628      7      17
+       EV  1414   BOTH -14.480    0.002      0.617     18      38
+       EV  6464  QONLY -14.583    0.020      0.616     10      19
+       EV  6464 QONLY5 -14.581    0.017      0.616      7      17
+       EV  6464   BOTH -14.419    0.072      0.621     27      29
+
+mean dSSE per record by |season correction| band (mean over seeds) and share of records improved:
+                          n  mean_dsse  improved
+validator arm    band                           
+DIAG10    BOTH   <=1   25.0      0.006     0.467
+                 1-5    1.0     -0.032     1.000
+                 5-10   2.0     -0.016     0.667
+                 >10   18.0     -0.814     0.685
+          QONLY  <=1   25.0     -0.000     0.040
+                 1-5    1.0     -0.038     1.000
+                 5-10   2.0     -0.020     0.667
+                 >10   18.0     -0.823     0.704
+          QONLY5 <=1   25.0     -0.000     0.000
+                 1-5    1.0      0.000     0.000
+                 5-10   2.0     -0.020     0.667
+                 >10   18.0     -0.823     0.704
+EV        BOTH   <=1   28.0     -0.036     0.417
+                 1-5    4.0      0.001     0.500
+                 5-10   5.0      0.023     0.533
+                 >10   19.0     -1.413     0.789
+          QONLY  <=1   28.0      0.000     0.000
+                 1-5    4.0      0.001     0.500
+                 5-10   5.0      0.014     0.533
+                 >10   19.0     -1.417     0.772
+          QONLY5 <=1   28.0     -0.000     0.000
+                 1-5    4.0     -0.000     0.000
+                 5-10   5.0      0.014     0.533
+                 >10   19.0     -1.417     0.772
