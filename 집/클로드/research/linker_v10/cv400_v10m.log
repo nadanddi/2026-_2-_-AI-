@@ -1,0 +1,15 @@
+warning: in the working copy of '집/클로드/research/linker_v10/cv400_v10m.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '집/클로드/research/linker_v10/feat10.py', LF will be replaced by CRLF the next time Git touches it
+train groups 190 | truth links whose predecessor is same-ID later-numbered: 17
+v7m: hit 0.550 | pass-1 hit 0.532 | pass-2 hit 0.661 (n 56) | confident anchors 54 acc 0.852 correct 46 (pass-2 22)
+v10m: hit 0.623 | pass-1 hit 0.608 | pass-2 hit 0.714 (n 56) | confident anchors 76 acc 0.921 correct 70 (pass-2 23)
+weight of lat: -0.0
+
+eval anchors v7 23 | v10 24 | only v7 ['F47_237'] | only v10 ['F47_184', 'F47_201']
+eval records whose chosen predecessor changed: 4
+   ('F13_200', 'F13_064', 'F47_069', np.float64(0.262), np.float64(0.646))
+   ('F13_201', 'F13_200', 'F13_071', np.float64(0.273), np.float64(0.16))
+   ('F13_226', 'F13_223', 'F13_233', np.float64(0.26), np.float64(0.243))
+   ('F47_201', 'F47_199', 'F47_091', np.float64(0.503), np.float64(0.927))
+
+[exited with code 0]
