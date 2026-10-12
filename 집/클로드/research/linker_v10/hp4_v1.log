@@ -1,0 +1,29 @@
+cert linkable rows: 65 (of 65; missing = no decision possible)
+why
+ANCHORED                                                 47
+correct pick but dT gate                                  7
+date not fixed (no exact outdoor match) -> wrong pick     5
+correct pick, META agrees but prob < .5                   4
+no candidate on chosen date                               1
+correct pick but META chose other                         1
+
+tier counts among cert linkable: {'A': 44, 'B': 21}
+    rec tier    pick    meta  metap    ok  gate
+F13_115    A F13_213 F13_213   0.30  True False
+F13_157    A F47_158 F47_158   0.62  True  True
+F13_161    B F47_240 F47_240   0.43  True  True
+F13_168    B F13_165 F47_242   0.04 False False
+F13_214    A F13_114 F13_114   0.47  True False
+F13_216    B F47_131 F13_126   0.44 False False
+F13_244    B F13_215 F13_215   0.05 False False
+F47_006    B F13_022 F47_019   0.05 False False
+F47_014    B F47_181 F47_181   0.05  True False
+F47_059    B     NaN F13_194   0.18 False False
+F47_065    B F47_192 F47_192   0.15  True  True
+F47_074    A F47_049 F47_061   0.02  True False
+F47_159    B F13_156 F13_155   0.03 False  True
+F47_160    B F13_156 F13_156   0.02  True False
+F47_178    A F47_007 F47_007   0.04  True  True
+F47_189    A F47_048 F47_048   1.00  True  True
+F47_216    B F47_214 F47_214   0.92  True  True
+F47_241    A F13_162 F13_162   0.51  True  True

@@ -23,11 +23,13 @@ for f in ["F13", "F47"]:
             if len(ds): dprev = pd.Series(ds).mode().iloc[0] - 1; tier = "A"
             else: dprev = DAY[top1]; tier = "B"
             cand = [x for x in vi if DAY[x] == dprev and not any(lab[s_] and DAY[s_] == dprev + 1 for s_ in SUCC.get(x, []))]
-            if not cand: continue
+            if not cand:
+                rows.append(dict(rec=rid(b), tier=tier, pick='', v10=rid(top1), v10p=0.0, known=TP.get(b) is not None, cert=CERT.get(b, False), ok=False, linkable=(TP.get(b) is not None and bool(lab[TP[b]])), gate=False, nocand=True)); continue
             pick = min(cand, key=lambda x: np.nanmean(np.minimum(np.abs(FPA[x, 0] - FPA[b, 0]), 4)))
-            if abs(IN_[b, 0, 0] - IN_[pick, 23, 0]) > 1.5: continue
-            t = TP.get(b); p1 = np.exp(sc - sc.max()); p1 /= p1.sum(); rows.append(dict(rec=rid(b), tier=tier, pick=rid(pick), v10=rid(top1), v10p=float(p1.max()), known=t is not None, cert=CERT.get(b, False), ok=(pick == t), linkable=(t is not None and bool(lab[t]))))
-T = pd.DataFrame(rows)
+            gate = abs(IN_[b, 0, 0] - IN_[pick, 23, 0]) > 1.5
+            t = TP.get(b); p1 = np.exp(sc - sc.max()); p1 /= p1.sum(); rows.append(dict(rec=rid(b), tier=tier, pick=rid(pick), v10=rid(top1), v10p=float(p1.max()), known=t is not None, cert=CERT.get(b, False), ok=(pick == t), linkable=(t is not None and bool(lab[t])), gate=gate, nocand=False, date_ok=(t is not None and DAY[t] == dprev)))
+T = pd.DataFrame(rows); T.to_csv(os.path.join(env.LOCAL, 'linker_v10', 'hp3_rows.csv'), index=False); T = T[~T.gate & ~T.nocand].copy() if False else T
+TALL = T.copy(); T = T[~T.gate & ~T.nocand]
 nl_all = 171; nl_cert = 65
 for name, S in (("tier A only", T[T.tier == "A"]), ("A + B", T)):
     k = S[S.known]; kc = S[S.cert]
