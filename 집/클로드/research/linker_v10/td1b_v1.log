@@ -1,0 +1,6 @@
+all   truth | all    linkable 171 | BASE v7: anchors 54, precision 0.852, recall 0.27 | CERT v7+v11: anchors 107, precision 0.785, recall 0.49 |
+all   truth | pass-2 linkable  43 | BASE v7: anchors 22, precision 0.909, recall 0.47 | CERT v7+v11: anchors 30, precision 0.867, recall 0.60 |
+cert  truth | all    linkable  65 | BASE v7: anchors 54, precision 0.926, recall 0.38 | CERT v7+v11: anchors 107, precision 0.839, recall 0.72 |
+cert  truth | pass-2 linkable  18 | BASE v7: anchors 22, precision 1.000, recall 0.44 | CERT v7+v11: anchors 30, precision 0.923, recall 0.67 |
+clean truth | all    linkable 105 | BASE v7: anchors 54, precision 0.900, recall 0.43 | CERT v7+v11: anchors 107, precision 0.863, recall 0.78 |
+clean truth | pass-2 linkable  35 | BASE v7: anchors 22, precision 1.000, recall 0.57 | CERT v7+v11: anchors 30, precision 0.963, recall 0.74 |
