@@ -1,0 +1,20 @@
+EVAL anchors (v7 kept + new):
+tier               status      
+NEW certain        OK               5
+                   date unknown     1
+NEW gate-released  MISMATCH         1
+                   OK               4
+v7 anchor (kept)   OK              22
+                   date unknown     1
+    rec              tier     v11     p  d_t   d_p   gap  n_lab_dm1
+F13_185       NEW certain F47_026 0.635  NaN  14.0   NaN        NaN
+F13_201               NaN F13_071 0.155 42.0  43.0  -1.0        4.0
+F13_206               NaN F47_210 0.406 56.0  79.0 -23.0        2.0
+F13_208  v7 anchor (kept) F13_106 0.896  NaN  65.0   NaN        NaN
+F13_226               NaN F13_233 0.314 84.0  88.0  -4.0        0.0
+F13_228               NaN F13_141 0.386 85.0  98.0 -13.0        0.0
+F47_220 NEW gate-released F47_144 0.796 85.0  98.0 -13.0        0.0
+F47_221               NaN F47_145 0.561 85.0  98.0 -13.0        0.0
+F47_234               NaN F13_145 0.419 99.0 101.0  -2.0        3.0
+v11 picks p>=.6 (validation): {'OK': 95, 'MISMATCH': 12, 'date unknown': 4}
+  of which gate-released (|dT|>1.5): {'OK': 10, 'MISMATCH': 2}
