@@ -1,0 +1,45 @@
+
+== SG2: RMSE all 0.1905 | pass-2 0.2521
+   all: day-level share 0.80
+   all: SSE share by level: {'normal<0.8': 0.27, '0.8-1': 0.06, 'high>=1': 0.67} | records by level: {'normal<0.8': 345, '0.8-1': 20, 'high>=1': 35}
+   all: SSE share anchored records 0.15 (records 54)
+   all: top 5/10% records SSE share 0.63 / 0.81
+   all: oracle RMSE now 0.1905 | day level perfect 0.0845 | 0h level perfect (subtract 0h error all day) 0.1130 | high-EC records perfect 0.1097
+   pass-2: day-level share 0.92
+   pass-2: SSE share by level: {'normal<0.8': 0.21, '0.8-1': 0.03, 'high>=1': 0.77} | records by level: {'normal<0.8': 49, '0.8-1': 2, 'high>=1': 5}
+   pass-2: SSE share anchored records 0.37 (records 19)
+   pass-2: top 5/10% records SSE share 0.49 / 0.80
+   pass-2: oracle RMSE now 0.2521 | day level perfect 0.0733 | 0h level perfect (subtract 0h error all day) 0.1092 | high-EC records perfect 0.1218
+   by hour (all): {Interval(-1, 0, closed='right'): 0.192, Interval(0, 5, closed='right'): 0.189, Interval(5, 11, closed='right'): 0.188, Interval(11, 17, closed='right'): 0.187, Interval(17, 23, closed='right'): 0.198}
+
+== EA2: RMSE all 0.1821 | pass-2 0.2043
+   all: day-level share 0.78
+   all: SSE share by level: {'normal<0.8': 0.28, '0.8-1': 0.06, 'high>=1': 0.65} | records by level: {'normal<0.8': 345, '0.8-1': 20, 'high>=1': 35}
+   all: SSE share anchored records 0.07 (records 54)
+   all: top 5/10% records SSE share 0.64 / 0.80
+   all: oracle RMSE now 0.1821 | day level perfect 0.0845 | 0h level perfect (subtract 0h error all day) 0.1118 | high-EC records perfect 0.1070
+   pass-2: day-level share 0.88
+   pass-2: SSE share by level: {'normal<0.8': 0.2, '0.8-1': 0.04, 'high>=1': 0.76} | records by level: {'normal<0.8': 49, '0.8-1': 2, 'high>=1': 5}
+   pass-2: SSE share anchored records 0.04 (records 19)
+   pass-2: top 5/10% records SSE share 0.68 / 0.81
+   pass-2: oracle RMSE now 0.2043 | day level perfect 0.0713 | 0h level perfect (subtract 0h error all day) 0.1024 | high-EC records perfect 0.0993
+   by hour (all): {Interval(-1, 0, closed='right'): 0.178, Interval(0, 5, closed='right'): 0.175, Interval(5, 11, closed='right'): 0.177, Interval(11, 17, closed='right'): 0.18, Interval(17, 23, closed='right'): 0.195}
+
+top 15 records (EA2):
+             y     p2  anchored  errSG2  errEA2  sseEA2  share
+rec                                                           
+F47_132  2.712  False     False  -1.093  -1.093  32.579  0.102
+F13_217  1.693   True     False  -1.032  -1.032  25.602  0.080
+F47_134  2.321  False     False  -0.544  -0.544  20.256  0.064
+F13_178  1.842  False     False  -0.735  -0.735  19.060  0.060
+F47_231  2.177   True     False  -0.631  -0.631  12.511  0.039
+F13_175  1.270  False     False  -0.566  -0.566  12.212  0.038
+F47_161  0.646  False     False   0.624   0.624   9.396  0.030
+F47_177  1.487  False      True  -0.458  -0.332   7.273  0.023
+F47_157  1.211  False      True  -0.186   0.381   6.559  0.021
+F47_145  2.142  False     False  -0.354  -0.354   5.987  0.019
+F13_153  1.637  False     False  -0.487  -0.487   5.913  0.019
+F13_137  1.076  False     False   0.470   0.470   5.717  0.018
+F47_130  0.491  False     False   0.482   0.482   5.599  0.018
+F47_143  2.063  False     False  -0.426  -0.426   5.575  0.018
+F13_135  1.013  False     False   0.469   0.469   5.394  0.017
