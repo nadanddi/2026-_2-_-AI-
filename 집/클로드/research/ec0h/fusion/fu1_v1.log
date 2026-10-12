@@ -1,0 +1,47 @@
+seed 101 | coefs (last fold): {'x1': np.float64(0.49), 'i1': np.float64(-0.05), 'x2p': np.float64(0.1), 'x2q': np.float64(0.08), 'i2': np.float64(-0.04), 'x2x': np.float64(0.22), 'x3': np.float64(0.17), 'i3': np.float64(-0.05), 'x4': np.float64(0.2), 'x5': np.float64(0.11), 'i5': np.float64(-0.03)} | sources present: anchor 54, lab 36, xf 45, prev-eval 253, next 145
+seed 2024 | coefs (last fold): {'x1': np.float64(0.5), 'i1': np.float64(-0.05), 'x2p': np.float64(0.13), 'x2q': np.float64(0.09), 'i2': np.float64(-0.04), 'x2x': np.float64(0.22), 'x3': np.float64(0.17), 'i3': np.float64(-0.05), 'x4': np.float64(0.2), 'x5': np.float64(0.11), 'i5': np.float64(-0.04)} | sources present: anchor 54, lab 36, xf 45, prev-eval 253, next 145
+seed 7 | coefs (last fold): {'x1': np.float64(0.51), 'i1': np.float64(-0.05), 'x2p': np.float64(0.12), 'x2q': np.float64(0.09), 'i2': np.float64(-0.04), 'x2x': np.float64(0.21), 'x3': np.float64(0.18), 'i3': np.float64(-0.05), 'x4': np.float64(0.19), 'x5': np.float64(0.11), 'i5': np.float64(-0.03)} | sources present: anchor 54, lab 36, xf 45, prev-eval 253, next 145
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+F1 all   : vs EA2 cells -0.41% -0.14% -0.37% | improved 194/400 changed | chunk P 0.4420 | top share 1.76
+   VERDICT F1: FAIL
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+F1 pass-1: vs EA2 cells -1.89% -1.82% -1.97% | improved 169/344 changed | chunk P 0.2478 | top share 0.35
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+F1 pass-2: vs EA2 cells +6.12% +7.34% +6.95% | improved 25/56 changed | chunk P 0.8097 | top share nan
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+F2 all   : vs EA2 cells -0.55% -0.49% -0.60% | improved 173/346 changed | chunk P 0.3895 | top share 0.98
+   VERDICT F2: FAIL
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+F2 pass-1: vs EA2 cells -0.66% -0.66% -0.83% | improved 153/309 changed | chunk P 0.3785 | top share 0.91
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+  per.append(((O[arm].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1) - ((O["E"].loc[idx] - O["Y"].loc[idx]) ** 2).sum(1))
+F2 pass-2: vs EA2 cells -0.05% +0.28% +0.52% | improved 20/37 changed | chunk P 0.5924 | top share nan
