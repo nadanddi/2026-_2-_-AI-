@@ -13,7 +13,8 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.argv = ["x"]
 s = importlib.util.spec_from_file_location("ta7", os.path.join(HERE, "ta7_anchor_sweep_v1.py")); A7 = importlib.util.module_from_spec(s); s.loader.exec_module(A7)
 A7.BETA = np.load(os.path.join(env.LOCAL, "linker_v7", "ta8_beta.npy"))
 sys.path.insert(0, os.path.join(HERE, "linker_v10"))
-exec(open(os.path.join(HERE, "linker_v10", "v11_calendar_no_id_v1.py"), encoding="utf-8").read().split("rows = []\nfor o in range(10):")[0])
+_cwd = os.getcwd(); os.chdir(os.path.join(HERE, "linker_v10")); exec(open("v11_calendar_no_id_v1.py", encoding="utf-8").read().split("rows = []\nfor o in range(10):")[0])
+os.chdir(_cwd)
 import feat7 as F7m
 TRG7 = F7m.train_groups7()
 R = A7.A2.A1.frames(); M, cells = R["DIAG10"]; key = (M.farm + "_" + M.day.map("{:03d}".format)).values; y = M.sub_temp.values; p2 = M.day.values >= 179
