@@ -1,0 +1,32 @@
+
+=== pass-1: n 186 | prev-day labelled houses n_prev: {1: 84, 2: 81, 3: 13, 4: 8} | median spread 0.04 | median Pl0 0.49 | true prev visible 0.23 (of known)
+  by spread of prev-day EC: n | median |y0-L0| | median |y0-q0| | share where L0 closer
+                  n     eL     eq  Lbetter
+sb                                        
+(-0.01, 0.1]  108.0  0.084  0.047    0.361
+(0.1, 0.3]     39.0  0.056  0.037    0.333
+(0.3, 0.6]     18.0  0.054  0.043    0.444
+(0.6, 9.0]     21.0  0.133  0.099    0.381
+  by Pl0:
+                 n     eL     eq  Lbetter
+pb                                       
+(-0.01, 0.3]  72.0  0.133  0.050    0.278
+(0.3, 0.6]    30.0  0.061  0.036    0.333
+(0.6, 0.8]    27.0  0.084  0.051    0.333
+(0.8, 1.01]   57.0  0.043  0.051    0.509
+
+=== pass-2: n 36 | prev-day labelled houses n_prev: {1: 1, 2: 8, 3: 18, 4: 9} | median spread 0.33 | median Pl0 0.91 | true prev visible 0.31 (of known)
+  by spread of prev-day EC: n | median |y0-L0| | median |y0-q0| | share where L0 closer
+                 n     eL     eq  Lbetter
+sb                                       
+(-0.01, 0.1]   1.0  0.010  0.656    1.000
+(0.1, 0.3]    13.0  0.009  0.054    0.769
+(0.3, 0.6]    15.0  0.025  0.056    0.667
+(0.6, 9.0]     7.0  0.077  0.147    0.857
+  by Pl0:
+                 n     eL     eq  Lbetter
+pb                                       
+(-0.01, 0.3]   4.0  0.124  0.077     0.50
+(0.3, 0.6]     5.0  0.183  0.055     0.40
+(0.6, 0.8]     2.0  0.359  0.469     0.50
+(0.8, 1.01]   25.0  0.010  0.072     0.88
