@@ -1,0 +1,13 @@
+warning: in the working copy of '집/클로드/research/linker_v10/dg2_date_consistency_v1.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '집/클로드/research/linker_v10/dg2_v1.log', LF will be replaced by CRLF the next time Git touches it
+date-constrained picks 358
+anchors: BASE 54 | TD1 CERT 163 | TD2 CERT2 214 (gate-released confident 51: ['F13_010', 'F13_015', 'F13_019', 'F13_033', 'F13_054', 'F13_067', 'F13_070', 'F13_071', 'F13_072', 'F13_073', 'F13_077', 'F13_083', 'F13_084', 'F13_085', 'F13_087', 'F13_095', 'F13_123', 'F13_125', 'F13_136', 'F13_140', 'F13_149', 'F13_150', 'F13_151', 'F13_157', 'F13_165', 'F13_166', 'F13_177', 'F13_178', 'F13_213', 'F47_016', 'F47_027', 'F47_047', 'F47_054', 'F47_057', 'F47_063', 'F47_065', 'F47_078', 'F47_082', 'F47_083', 'F47_088', 'F47_089', 'F47_122', 'F47_137', 'F47_138', 'F47_139', 'F47_143', 'F47_165', 'F47_178', 'F47_189', 'F47_241', 'F47_242'])
+DIAG10 pass-2: cells [-2.43, -2.31, -2.38, -2.28] | P(worse) 0.2914 | jackknife-1 sum dSSE +10.677 | changed records 15 -> FAIL
+layout                 all_pct                  p2_pct  p2_changed    p2_net               p2_vs_TD1
+DIAG10 +2.40 +2.36 +2.34 +2.27 -2.43 -2.31 -2.38 -2.28          15 28.891462 -2.96 -3.00 -2.94 -2.95
+     G +0.82 +0.62 +0.85 +0.67 -2.10 -2.19 -2.16 -2.27          15 30.122505 -2.62 -2.74 -2.62 -2.73
+   EL1 -3.05 -2.97 -3.16 -3.11 -3.05 -2.97 -3.16 -3.11          15 36.954582 -3.50 -3.48 -3.56 -3.57
+ EXT10 -1.84 -2.03 -1.70 -1.87 +0.59 +0.50 +0.46 +0.38           1 -1.011747 +0.00 +0.00 +0.00 +0.00
+ EXT12 -2.89 -2.83 -2.85 -2.78 -5.57 -5.63 -5.47 -5.52           9 48.639309 -5.20 -5.16 -5.16 -5.13
+
+[exited with code 0]
