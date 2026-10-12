@@ -1,0 +1,10 @@
+records with truth: 400 | v7 anchored (p>=.8, labelled) 60 acc 0.800
+  v7 anchored                          DF agrees=False: n  24, v7 choice correct 0.542
+  v7 anchored                          DF agrees=True: n  36, v7 choice correct 0.972
+  v7 NOT anchored but chose labelled   DF agrees=False: n  73, v7 choice correct 0.068
+  v7 NOT anchored but chose labelled   DF agrees=True: n  12, v7 choice correct 1.000
+  not anchored, labelled, DF agrees, p >= 0.5: n 10, correct 1.000, pass-2 4
+  not anchored, labelled, DF agrees, p >= 0.6: n 7, correct 1.000, pass-2 2
+  not anchored, labelled, DF agrees, p >= 0.7: n 2, correct 1.000, pass-2 1
+
+eval unanchored where v7 labelled choice == fingerprint-best (NA4 chose_is_fpbest): ['F13_204', 'F47_207']
