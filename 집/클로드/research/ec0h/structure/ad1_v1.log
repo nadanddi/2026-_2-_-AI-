@@ -1,0 +1,13 @@
+weights (rows = hour block 0-5/6-11/12-17/18-23, cols = fp <=.4/.4-.7/>.7):
+[[0.97 0.91 0.64]
+ [0.95 0.84 0.66]
+ [1.02 0.75 0.48]
+ [0.   0.66 0.23]]
+rows per cell: [525, 294, 153, 423, 306, 243, 309, 417, 246, 336, 420, 216]
+ seed  n   base   full   fade
+   47 34 0.1209 0.0767 0.0724
+ 1414 34 0.1202 0.0765 0.0722
+ 6464 34 0.1215 0.0763 0.0732
+  pr = pd.concat(per, axis=1).mean(1); ii = rng.integers(0, len(pr), (20000, len(pr))); pw = float((pr.values[ii].sum(1) >= 0).mean())
+fade vs full: dSSE sum -0.470, improved 9/34, P 0.3110 -> VERDICT AD1: FAIL
+largest: F13_118 -0.508, F47_170 -0.473, F13_108 -0.365, F13_180 -0.085, F47_126 +0.127, F13_217 +0.181, F47_136 +0.363
