@@ -1,0 +1,34 @@
+v12 (DMT2) date_status: {'unknown': 229, 'ok': 157, 'mismatch': 14} | top-1 correct among clean: 0.857
+v13 E0 date_status: {'unknown': 225, 'ok': 163, 'mismatch': 12} | top-1 correct among clean: 0.867
+v13 E50 date_status: {'unknown': 225, 'ok': 163, 'mismatch': 12} | top-1 correct among clean: 0.867
+       cal   part  thr  anchors  precision  recall  unverifiable
+v12 (DMT2)    all  0.6      105      0.988   0.762            24
+v12 (DMT2)    all  0.8       81      0.986   0.676             9
+v12 (DMT2)    all  0.9       68      0.984   0.600             4
+v12 (DMT2) pass-2  0.6       32      0.966   0.800             3
+v12 (DMT2) pass-2  0.8       26      0.960   0.686             1
+v12 (DMT2) pass-2  0.9       24      0.957   0.629             1
+    v13 E0    all  0.6      108      0.988   0.762            27
+    v13 E0    all  0.8       87      0.986   0.695            13
+    v13 E0    all  0.9       69      0.984   0.581             7
+    v13 E0 pass-2  0.6       32      0.966   0.800             3
+    v13 E0 pass-2  0.8       28      0.962   0.714             2
+    v13 E0 pass-2  0.9       24      0.955   0.600             2
+   v13 E50    all  0.6      108      0.988   0.762            27
+   v13 E50    all  0.8       87      0.986   0.695            13
+   v13 E50    all  0.9       69      0.984   0.581             7
+   v13 E50 pass-2  0.6       32      0.966   0.800             3
+   v13 E50 pass-2  0.8       28      0.962   0.714             2
+   v13 E50 pass-2  0.9       24      0.955   0.600             2
+
+key records: truth prev / (pick, p, date_status) per calendar
+  F47_132 truth F47_231 clean True | v12 (DMT2): F47_231 0.86 unknown | v13 E0: F47_231 0.85 unknown | v13 E50: F47_231 0.85 unknown
+  F13_217 truth F13_127 clean True | v12 (DMT2): F13_127 0.77 unknown | v13 E0: F13_127 0.80 unknown | v13 E50: F13_127 0.80 unknown
+  F13_241 truth F13_125 clean False | v12 (DMT2): F47_151 0.95 mismatch | v13 E0: F47_151 0.95 mismatch | v13 E50: F47_151 0.95 mismatch
+  F47_146 truth F13_138 clean False | v12 (DMT2): F13_143 0.97 ok | v13 E0: F13_143 0.96 ok | v13 E50: F13_143 0.96 ok
+  F13_177 truth F47_176 clean False | v12 (DMT2): F47_177 0.80 ok | v13 E0: F47_177 0.82 ok | v13 E50: F47_177 0.82 ok
+  F13_149 truth F13_150 clean False | v12 (DMT2): F13_242 0.79 ok | v13 E0: F13_242 0.87 ok | v13 E50: F13_242 0.87 ok
+  F13_214 truth F13_114 clean True | v12 (DMT2): F47_120 0.90 ok | v13 E0: F47_120 0.92 ok | v13 E50: F47_120 0.92 ok
+  F47_079 truth F47_195 clean True | v12 (DMT2): F47_195 0.84 ok | v13 E0: F47_195 0.67 ok | v13 E50: F47_195 0.67 ok
+  F47_178 truth F47_007 clean True | v12 (DMT2): F47_007 0.99 ok | v13 E0: F47_007 0.99 ok | v13 E50: F47_007 0.99 ok
+  F13_116 truth F13_214 clean True | v12 (DMT2): F13_214 1.00 ok | v13 E0: F13_214 1.00 ok | v13 E50: F13_214 1.00 ok

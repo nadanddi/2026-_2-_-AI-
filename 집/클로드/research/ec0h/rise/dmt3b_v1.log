@@ -1,0 +1,21 @@
+T 0.96 | groups 124 (DMT 116) | dropped constraints [('B', 'F13_028', 'F13_030')]
+continuity joins:
+    (0.1, ['F13_231', 'F13_232'], ['F13_233'])
+    (0.14, ['F13_233'], ['F47_229'])
+    (0.35, ['F47_230', 'F47_231'], ['F13_128', 'F13_129', 'F47_132'])
+    (0.4, ['F13_112', 'F13_113', 'F47_118'], ['F47_230', 'F47_231'])
+    (0.58, ['F47_229'], ['F13_114', 'F13_212', 'F47_120'])
+    (0.64, ['F13_177', 'F13_178', 'F47_243'], ['F13_231', 'F13_232'])
+segments 3 | sizes(days) [69, 23, 16] | certain-link day diffs (same seg) {1: 190} | train without day 0
+dmt2_days.csv: within-seg pair agreement with DM11 1.0000 over 38361 pairs | dated train 385
+dmt3b_days.csv: within-seg pair agreement with DM11 0.4434 over 86310 pairs | dated train 396
+   F47_132 DMT3b day 58 seg 2 | DM11 91.0
+   F47_231 DMT3b day 57 seg 2 | DM11 90.0
+   F13_217 DMT3b day 21 seg 1 | DM11 80.0
+   F13_127 DMT3b day 20 seg 1 | DM11 79.0
+   F13_128 DMT3b day 58 seg 2 | DM11 91.0
+   F13_218 DMT3b day 22 seg 1 | DM11 81.0
+   F47_229 DMT3b day 11 seg 1 | DM11 89.0
+   F13_233 DMT3b day 10 seg 1 | DM11 88.0
+   F47_146 DMT3b day 67 seg 2 | DM11 100.0
+   F13_143 DMT3b day 66 seg 2 | DM11 99.0

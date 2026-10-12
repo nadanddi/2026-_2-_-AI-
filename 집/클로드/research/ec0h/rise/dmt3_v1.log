@@ -1,0 +1,17 @@
+T 0.96 | DMT days 116 | unplaced train records 15 in 8 groups: [['F13_218', 'F47_213', 'F47_214'], ['F13_231', 'F13_232'], ['F13_233'], ['F47_028', 'F47_029', 'F47_030'], ['F47_111'], ['F47_215', 'F47_216'], ['F47_229'], ['F47_230', 'F47_231']]
+   ('chain-after', ['F13_218', 'F47_213', 'F47_214'], ['F13_216', 'F13_217'])
+   ('chain-before', ['F47_028', 'F47_029', 'F47_030'], ['F13_008', 'F13_179'])
+   ('chain-after', ['F47_111'], ['F47_109'])
+   ('chain-after', ['F47_215', 'F47_216'], ['F13_218', 'F47_213'])
+   ('continuity(0.31)', ['F13_233'], ['F13_177', 'F13_178'])
+   ('continuity(0.14)', ['F47_229'], ['F13_233'])
+   ('continuity(0.40)', ['F47_230', 'F47_231'], ['F13_112', 'F13_113'])
+DMT3 days 123 | still unplaced 2 | breaks 7 | certain-link day diff counts {1: 186, 3: 3, 15: 1}
+dmt2_days.csv: within-segment pairwise day-difference agreement with DM11 1.0000 | train records without day 15
+dmt3_days.csv: within-segment pairwise day-difference agreement with DM11 0.9957 | train records without day 6
+   F47_132 DMT3 86.0 4.0 | DM11 91.0
+   F47_231 DMT3 73.0 2.0 | DM11 90.0
+   F13_217 DMT3 83.0 3.0 | DM11 80.0
+   F13_127 DMT3 82.0 3.0 | DM11 79.0
+   F13_218 DMT3 84.0 3.0 | DM11 81.0
+   F47_229 DMT3 123.0 7.0 | DM11 89.0
