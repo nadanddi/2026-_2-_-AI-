@@ -1,0 +1,88 @@
+81-check: 81
+cert                                                  False  True  All
+cat                                                                   
+A date unknown (no calendar day)                          4     4    8
+B skips one day (gap 2)                                   5     2    7
+C no record at all on d-1 (calendar hole)                 3     0    3
+D d-1 has only evaluation records                         2     0    2
+E d-1 has training records but link points elsewhere     61     0   61
+All                                                      75     6   81
+
+E detail (link elsewhere although training records exist on d-1):
+    rec    link  cert   gap  n_lab_prev  n_eval_prev    p2
+F13_081 F47_243 False -76.0           2            2 False
+F13_092 F13_160 False -58.0           2            2 False
+F47_120 F47_175 False -53.0           4            0 False
+F13_075 F47_144 False -52.0           3            1 False
+F47_093 F47_152 False -50.0           3            1 False
+F47_121 F13_163 False -44.0           3            1 False
+F13_082 F47_137 False -44.0           2            2 False
+F47_209 F47_161 False -38.0           2            1  True
+F13_046 F47_091 False -28.0           3            0 False
+F13_128 F13_165 False -27.0           2            2 False
+F47_230 F13_164 False -27.0           1            2  True
+F47_123 F13_144 False -27.0           3            1 False
+F13_212 F47_140 False -25.0           4            0  True
+F47_124 F47_144 False -23.0           2            1 False
+F13_129 F13_156 False -20.0           2            2 False
+F13_114 F13_128 False -20.0           4            0 False
+F47_108 F47_215 False -19.0           3            1 False
+F13_035 F13_063 False -19.0           1            3 False
+F13_034 F47_063 False -18.0           4            0 False
+F47_048 F47_194 False -16.0           3            0 False
+F47_149 F47_166 False -15.0           3            0 False
+F13_069 F13_093 False -15.0           4            0 False
+F13_093 F47_120 False -14.0           3            1 False
+F47_035 F47_190 False -14.0           1            3 False
+F13_067 F13_084 False -10.0           3            1 False
+F13_134 F13_148 False  -9.0           3            1 False
+F13_110 F13_215 False  -8.0           3            1 False
+F13_071 F13_083 False  -8.0           3            1 False
+F47_094 F47_109 False  -8.0           2            2 False
+F47_162 F13_168 False  -7.0           3            0 False
+F47_032 F47_040 False  -5.0           3            1 False
+F13_039 F47_049 False  -5.0           3            1 False
+F47_042 F47_049 False  -4.0           2            2 False
+F13_149 F13_150 False  -2.0           2            1 False
+F13_049 F47_052 False  -2.0           4            0 False
+F47_034 F47_038 False  -2.0           1            3 False
+F47_140 F47_142 False  -1.0           3            1 False
+F47_017 F47_181 False   3.0           3            0 False
+F13_031 F13_026 False   3.0           4            0 False
+F47_146 F13_138 False   4.0           2            1 False
+F13_042 F47_037 False   4.0           4            0 False
+F47_041 F47_032 False   6.0           2            2 False
+F13_041 F13_031 False   7.0           2            2 False
+F47_229 F13_217 False   9.0           1            2  True
+F47_050 F13_035 False  10.0           4            0 False
+F47_026 F47_179 False  11.0           2            1 False
+F13_083 F13_064 False  13.0           3            1 False
+F13_052 F47_027 False  14.0           4            0 False
+F13_095 F13_072 False  14.0           3            1 False
+F13_151 F47_136 False  14.0           1            1 False
+F13_109 F47_086 False  18.0           2            0 False
+F47_075 F47_045 False  18.0           4            0 False
+F13_211 F13_082 False  19.0           3            0  True
+F47_064 F13_033 False  20.0           4            0 False
+F13_143 F13_121 False  23.0           3            0 False
+F47_118 F47_083 False  23.0           3            1 False
+F13_241 F13_125 False  25.0           2            1  True
+F47_090 F47_044 False  30.0           3            1 False
+F47_089 F13_041 False  30.0           3            1 False
+F13_142 F47_114 False  32.0           3            0 False
+F13_158 F47_212 False  33.0           3            0 False
+
+B/C/D detail:
+    rec    link  cert   gap                                       cat  n_lab_prev  n_eval_prev      deleted_nb
+F13_008 F47_019 False  -9.0 C no record at all on d-1 (calendar hole)           0            0 F13_007,F13_006
+F13_029 F13_026 False   2.0                   B skips one day (gap 2)           2            1                
+F13_106 F13_104  True   2.0                   B skips one day (gap 2)           1            0                
+F13_107 F13_105 False   2.0                   B skips one day (gap 2)           1            0                
+F13_150 F13_149 False   2.0                   B skips one day (gap 2)           1            1                
+F13_179 F13_181 False  -3.0 C no record at all on d-1 (calendar hole)           0            0                
+F13_231 F13_162 False -29.0         D d-1 has only evaluation records           0            3         F13_230
+F13_232 F47_119 False  17.0         D d-1 has only evaluation records           0            3         F13_230
+F47_007 F13_179 False   0.0 C no record at all on d-1 (calendar hole)           0            0         F47_005
+F47_086 F47_083 False   2.0                   B skips one day (gap 2)           3            0                
+F47_110 F47_108  True   2.0                   B skips one day (gap 2)           1            0                
+F47_133 F47_230 False   2.0                   B skips one day (gap 2)           3            0                
