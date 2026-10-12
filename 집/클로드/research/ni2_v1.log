@@ -1,0 +1,18 @@
+             group pass2  records  rmse  rmse_0_7  rmse_8_23  med_abs_daymean
+neither (isolated) False       18 0.886     0.480      1.031            0.165
+neither (isolated)  True        1 0.350     0.200      0.405            0.268
+         next only False       48 0.479     0.510      0.463            0.174
+         next only  True        6 0.445     0.624      0.320            0.233
+       prev & next False      206 0.549     0.599      0.523            0.165
+       prev & next  True       38 0.813     0.908      0.762            0.188
+         prev only False       46 0.585     0.581      0.587            0.143
+         prev only  True        7 0.485     0.658      0.369            0.313
+neither (isolated)   all       19 0.866     0.469      1.007            0.183
+         next only   all       54 0.475     0.524      0.449            0.189
+       prev & next   all      244 0.598     0.656      0.567            0.172
+         prev only   all       53 0.573     0.592      0.563            0.179
+
+isolated records: day-mean error (pred - truth), truth day mean
+rec  F13_109  F13_029  F13_081  F47_093  F13_092  F13_232  F47_120  F47_026  F13_106  F47_086  F47_030  F13_049  F47_029  F13_035  F13_149  F47_032  F47_028  F13_067  F47_123
+err    -2.19    -0.37    -0.37    -0.33    -0.30    -0.27    -0.27    -0.18    -0.15    -0.12    -0.02    -0.01     0.02     0.04     0.05     0.09     0.10     0.23     1.74
+y      13.11    21.26    13.78    13.03    14.73    12.47    11.86    21.10    11.62    15.54    20.74    15.92    19.62    17.45    18.02    18.05    21.18    14.55     8.97
