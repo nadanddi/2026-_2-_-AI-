@@ -1,0 +1,29 @@
+v14 L date_status: {'a': 212, 'none': 147, 'bc': 35, 'veto': 6} | top-1 correct among clean: 0.867
+v15 date_status: {'a': 212, 'none': 147, 'bc': 35, 'veto': 6} | top-1 correct among clean: 0.867
+  cal   part  thr  anchors  precision  recall  unverifiable
+v14 L    all  0.6      119      0.976   0.790            34
+v14 L    all  0.8      108      0.975   0.743            28
+v14 L    all  0.9       89      0.985   0.638            21
+v14 L pass-2  0.6       34      0.968   0.857             3
+v14 L pass-2  0.8       30      0.963   0.743             3
+v14 L pass-2  0.9       27      0.960   0.686             2
+  v15    all  0.6       81      0.984   0.590            18
+  v15    all  0.8       64      1.000   0.495            12
+  v15    all  0.9       33      1.000   0.257             6
+  v15 pass-2  0.6       26      1.000   0.714             1
+  v15 pass-2  0.8       22      1.000   0.629             0
+  v15 pass-2  0.9       12      1.000   0.343             0
+
+key records: truth prev / (pick, p, date_status) per calendar
+  F47_132 truth F47_231 clean True | v14 L: F47_231 0.82 none | v15: F47_231 0.39 none
+  F13_217 truth F13_127 clean True | v14 L: F13_127 0.99 bc | v15: F13_127 0.91 bc
+  F13_241 truth F13_125 clean False | v14 L: F47_151 0.95 a | v15: F47_151 0.01 a
+  F47_146 truth F13_138 clean False | v14 L: F13_143 0.97 a | v15: F13_143 0.07 a
+  F13_177 truth F47_176 clean False | v14 L: F47_177 0.83 a | v15: F47_177 0.08 a
+  F13_149 truth F13_150 clean False | v14 L: F13_242 0.73 a | v15: F13_242 0.00 a
+  F13_214 truth F13_114 clean True | v14 L: F47_120 0.91 a | v15: F47_120 0.55 a
+  F47_079 truth F47_195 clean True | v14 L: F47_195 0.82 a | v15: F47_195 0.60 a
+  F47_178 truth F47_007 clean True | v14 L: F47_007 0.99 a | v15: F47_007 0.06 a
+  F13_116 truth F13_214 clean True | v14 L: F13_214 1.00 a | v15: F13_214 0.97 a
+v15 p_null: mean when top-1 correct(clean) 0.268 | when true prev not visible 0.541
+AUC p_null for 'top-1 not clean-correct': 0.779 | AUC p0 (v15) 0.810 vs v14 L p0 0.802 for clean-correct
