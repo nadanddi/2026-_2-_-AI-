@@ -1,0 +1,69 @@
+predecessors: 112 records | TNA8 extra anchors (mirror): 58
+q tables: mirror mean q 0.633 (n q>=.8 186) | EV mean q 0.643 (n q>=.8 199)
+done DIAG10 47
+done P2LOO 47
+done EL1 47
+done DIAG10 1414
+done P2LOO 1414
+done EL1 1414
+done DIAG10 6464
+done P2LOO 6464
+done EL1 6464
+done EV 101
+done EV 2024
+done EV 7
+   val seed    dSSE    all    p2  p2_high  p2_norm
+DIAG10   47 -21.238 -3.892 0.000      0.0    0.000
+ P2LOO   47   0.000  0.000 0.000      0.0    0.000
+   EL1   47   0.000  0.000 0.000      0.0    0.000
+DIAG10 1414 -20.380 -3.792 0.000      0.0    0.000
+ P2LOO 1414   0.000  0.000 0.000      0.0    0.000
+   EL1 1414   0.000  0.000 0.000      0.0    0.000
+DIAG10 6464 -20.561 -3.822 0.000      0.0    0.000
+ P2LOO 6464   0.000  0.000 0.000      0.0    0.000
+   EL1 6464   0.000  0.000 0.000      0.0    0.000
+    EV  101   0.518  0.075 2.826      0.0   11.613
+    EV 2024   1.530  0.218 2.717      0.0   11.495
+    EV    7   0.435  0.062 2.806      0.0   11.173
+
+fired records per validator-seed: {('DIAG10', 47): 11, ('DIAG10', 1414): 11, ('DIAG10', 6464): 11, ('EV', '101'): 17, ('EV', '2024'): 17, ('EV', '7'): 17}
+fired: share truly high by validator: {'DIAG10': 0.727, 'EV': 0.529}
+                trueH  steps      P    dsse
+val    rec                                 
+DIAG10 F13_125   True      1  0.850   0.314
+       F13_146   True      1  0.433  -0.034
+       F47_127  False      2  0.321   0.032
+       F47_128  False      2  0.410   0.414
+       F47_132   True      1  0.745 -17.571
+       F47_137  False      2  0.673  -0.147
+       F47_138   True      2  0.951   0.314
+       F47_139   True      3  0.919   1.133
+       F47_141   True      1  0.866  -0.186
+       F47_145   True      1  0.764  -3.579
+       F47_154   True      1  0.645  -1.417
+EV     F13_146   True      1  0.498  -0.239
+       F47_127  False      2  0.379  -0.214
+       F47_128  False      2  0.405   3.621
+       F47_130  False      3  0.359   7.338
+       F47_132   True      1  0.816  -7.774
+       F47_134   True      2  0.798  -2.445
+       F47_137  False      2  0.704   0.643
+       F47_138   True      2  0.969  -0.527
+       F47_139   True      3  0.946  -0.842
+       F47_141   True      4  0.829   1.021
+       F47_142  False      5  0.386   3.380
+       F47_143   True      5  0.749  -3.546
+       F47_145   True      6  0.638  -2.489
+       F47_154   True      2  0.553  -3.177
+       F47_156  False      1  0.530   1.255
+       F47_210  False      4  0.342   0.706
+       F47_241  False      1  0.430   4.116
+block bootstrap P(worse): {'DIAG10': 0.0845, 'P2LOO': 1.0, 'EL1': 1.0, 'EV': 0.5766}
+judged cells improved 0/9
+(old all-cells rule, reference only): FAIL
+
+================ DS9 judged under the EC specialty rule (pre-registered) ================
+(1) main P2LOO+EL1: all cells better False (0/6) | P2LOO P(worse) 1.0000 | harmed records 0 -> FAIL
+(2) linker robustness EV: seed dSSE [0.52, 1.53, 0.44] -> FAIL
+(3) harm guard DIAG10: mean dSSE -20.73, share(better) 0.916 -> PASS
+DS9 (specialty rule): FAIL
