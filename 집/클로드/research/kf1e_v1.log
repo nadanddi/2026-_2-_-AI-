@@ -1,0 +1,15 @@
+== EV harness, KFa vs 14th-type (v22 + TNA8):
+cell  all_pct  p2_pct  fired                 steps
+  7A    0.162   0.212     73 {1: 30, 2: 29, 3: 14}
+  7B    0.178   0.280     73 {1: 30, 2: 29, 3: 14}
+101A    0.155   0.199     73 {1: 30, 2: 29, 3: 14}
+101B    0.173   0.286     73 {1: 30, 2: 29, 3: 14}
+   block bootstrap P(worse) 0.8197
+
+== evaluation: KFa on top of round 14: records 8 {'F13_188': (2, 0.275), 'F13_189': (1, 0.12), 'F13_228': (1, 2.0), 'F47_199': (2, 1.078), 'F47_220': (1, 2.0), 'F47_221': (1, 1.615), 'F47_233': (1, -0.276), 'F47_234': (1, -0.06)} | rows changed 192 | RMS 0.1452
+   corr -0.30 -> temp 0.4640
+   corr -0.20 -> temp 0.4790
+   corr -0.15 -> temp 0.4863
+   corr -0.10 -> temp 0.4935
+   corr +0.00 -> temp 0.5076
+   breakeven corr -0.149
