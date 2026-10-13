@@ -1,0 +1,17 @@
+train rows (pass-1 anchored, 4 cells) 2688 records 28 | pass-1 fit RMSE: none 0.522 base-beta 0.415 LIN 0.404 GBM 0.223
+LIN coefs per block [g, g*drift_in, g*drift_q, g*|g|]: [[0.715, 0.19, 0.134, 0.021], [0.684, -0.011, 0.278, 0.042], [0.052, -0.02, 0.037, 0.154], [-0.029, -0.005, 0.006, 0.157]]
+val  DIAG10                      EV                  
+cell      0     1     2     3  101A  101B    7A    7B
+arm                                                  
+GBM    1.22  1.61  1.76  2.19  1.00  1.01  1.50  0.89
+LIN    0.88  0.90  0.94  1.01  0.37  0.44  0.43  0.47
+val  DIAG10    EV
+arm              
+GBM   -1.01  0.17
+LIN    0.09 -0.02
+
+LIN: all 8 cells better False | P DIAG10 0.9412 EV 0.8177 | harmed DIAG10 13 EV 11 -> FAIL
+   DIAG10 top gains: {'F13_193': 2.72, 'F47_190': 0.54, 'F13_191': 0.36, 'F13_216': 0.34, 'F47_193': 0.26} | worst: {'F13_243': -6.73, 'F47_240': -3.47, 'F13_179': -1.21, 'F47_196': -1.03}
+
+GBM: all 8 cells better False | P DIAG10 0.9859 EV 0.9486 | harmed DIAG10 18 EV 15 -> FAIL
+   DIAG10 top gains: {'F47_190': 4.71, 'F47_180': 0.52, 'F13_215': 0.26, 'F47_196': 0.06, 'F13_214': -0.0} | worst: {'F47_240': -7.55, 'F47_195': -3.18, 'F47_210': -2.89, 'F13_217': -2.09}
