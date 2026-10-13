@@ -41,7 +41,9 @@ for k, g in DR.groupby("draw"):
     hid = set(g.rec); val = set(g[g.role == "val"].rec)
     vis = LAB & ~np.array([rid(i) in hid for i in range(N)])
     tr = lab[~lab.rec.isin(hid)].copy(); va = lab[lab.rec.isin(val)].copy()
-    tdays = tr[["farm", "day"]].drop_duplicates(); vdays = va[["farm", "day"]].drop_duplicates().reset_index(drop=True)
+    # [실행 오류 수정, 결과 전] 가짜 배치는 2차 학습 날을 모두 숨겨 계절 지표 기준점(2차 학습 날)이 0개 → 계절 지표는 정답 없이 외기 입력만 쓰므로
+    #  기준 날 목록은 정답 있는 날 전체로(근사: 평가에선 2차 학습 날이 기준점으로 보임), 모델 학습 행만 숨김을 따름
+    tdays = lab[["farm", "day"]].drop_duplicates(); vdays = va[["farm", "day"]].drop_duplicates().reset_index(drop=True)
     season, vq = dc4.season_index(tdays, vdays, wv)
     tr["season"] = [season[(f, d)] for f, d in zip(tr.farm, tr.day)]; va = va.merge(vdays.assign(season=vq), on=["farm", "day"], how="left").set_index(va.index)
     va = va.sort_values(["rec", "hour"]); va["base"] = p3.final(core.predict_model(core.et(47), tr, va, FS), tr, va)
