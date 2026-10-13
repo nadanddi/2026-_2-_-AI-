@@ -29,3 +29,8 @@ for nm, m in [("ALL", R.y.notna()), ("true pair", R.true_pair), ("no true pair",
     if m.any(): add(nm, m)
 S = pd.DataFrame(rows).groupby("set", sort=False)[["recs", "y_mean", "rmse_now", "rmse_preanchor", "rel_now", "daymean_abs_now"]].mean(); pd.set_option("display.width", 200)
 print("EV, seed mean (rmse_now = current config with EA2 anchors; rel = RMSE / mean EC)"); print(S.round(3).to_string())
+# ---- PR1b: 1차도 같은 표로 ----
+rows = []
+for nm, m in [("p1 ALL", ~R.p2), ("p1 found", ~R.p2 & R.found_pair), ("p1 not found", ~R.p2 & ~R.found_pair), ("p1 true pair", ~R.p2 & R.true_pair), ("p1 no true pair", ~R.p2 & ~R.true_pair)]:
+    add(nm, m)
+print("\n[PR1b] pass-1"); print(pd.DataFrame(rows).groupby("set", sort=False)[["recs", "y_mean", "rmse_now", "rmse_preanchor", "rel_now", "daymean_abs_now"]].mean().round(3).to_string())
