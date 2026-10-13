@@ -1,0 +1,91 @@
+predecessors: 112 records | TNA8 extra anchors (mirror): 58
+pretraining sequences 12481 (holdout last-10% days 1318)
+pretrain holdout RMSE 2.167 (persistence of prev-day mean 4.402)
+done DIAG10
+done EL1
+done EXT10
+done EXT12
+done F
+done G
+done H
+done I
+done J
+done K
+done L
+layout     Z    FT  base  Z_cold  FT_cold  base_cold
+DIAG10 2.439 1.677 0.573   4.787    2.888      0.824
+   EL1 2.174 1.526 0.672   4.975    2.527      0.519
+ EXT10 3.311 2.992 0.742   4.893    4.221      0.640
+ EXT12 2.912 3.913 0.727   4.923    5.617      0.848
+     F 2.468 1.689 0.592   4.802    2.849      0.827
+     G 2.445 1.658 0.601   4.841    2.887      0.829
+     H 2.466 1.697 0.603   4.856    2.906      0.833
+     I 2.461 1.675 0.603   4.805    2.769      0.817
+     J 2.449 1.646 0.605   4.817    2.833      0.831
+     K 2.454 1.655 0.630   4.795    2.834      0.819
+     L 2.461 1.679 0.614   4.803    2.857      0.832
+cell             0       1       2       3
+arm layout                                
+FT  DIAG10  20.047  20.059  20.076  20.155
+    EL1      5.333   5.150   5.512   5.237
+    EXT10   59.088  60.640  59.445  60.836
+    EXT12   79.114  78.990  77.899  77.772
+    F       18.779  19.044  18.747  19.029
+    G       17.537  17.330  17.660  17.406
+    H       18.440  18.384  18.460  18.424
+    I       17.691  18.156  17.687  18.119
+    J       17.414  16.968  17.535  17.032
+    K       15.390  14.832  15.439  14.878
+    L       16.685  17.083  16.710  17.121
+Z   DIAG10  45.688  45.681  45.658  45.774
+    EL1     23.825  23.707  24.083  23.752
+    EXT10   74.315  76.294  74.810  76.613
+    EXT12   54.255  53.994  53.443  53.188
+    F       44.340  44.674  44.269  44.609
+    G       42.856  42.506  42.899  42.476
+    H       43.223  43.159  43.266  43.201
+    I       42.514  43.102  42.471  43.000
+    J       42.280  41.390  42.318  41.309
+    K       38.776  38.067  38.862  38.159
+    L       40.732  41.039  40.641  40.999
+arm         FT       Z
+layout                
+DIAG10   6.212  22.333
+EL1      5.308  23.842
+EXT10   66.449  84.860
+EXT12   70.990  45.474
+F        4.410  21.298
+G        2.726  20.568
+H        6.065  22.699
+I        4.939  22.894
+J        4.465  21.972
+K        5.037  24.472
+L        4.923  22.536
+
+== CR3 Z:
+   DIAG10[primary] cells 0/4 P(worse) 1.0000 -> FAIL
+   EL1 mean +23.842% P(better) 0.040
+   EXT10[primary] cells 0/4 P(worse) 1.0000 -> FAIL
+   EXT12 mean +53.720% P(better) 0.000 SIGNIF WORSE
+   F mean +44.473% P(better) 0.000 SIGNIF WORSE
+   G mean +42.684% P(better) 0.000 SIGNIF WORSE
+   H mean +43.212% P(better) 0.000 SIGNIF WORSE
+   I mean +42.772% P(better) 0.000 SIGNIF WORSE
+   J mean +41.824% P(better) 0.000 SIGNIF WORSE
+   K mean +38.466% P(better) 0.000 SIGNIF WORSE
+   L mean +40.853% P(better) 0.000 SIGNIF WORSE
+CR3 Z: FAIL
+
+== CR3 FT:
+   DIAG10[primary] cells 0/4 P(worse) 1.0000 -> FAIL
+   EL1 mean +5.308% P(better) 0.194
+   EXT10[primary] cells 0/4 P(worse) 1.0000 -> FAIL
+   EXT12 mean +78.444% P(better) 0.000 SIGNIF WORSE
+   F mean +18.900% P(better) 0.000 SIGNIF WORSE
+   G mean +17.483% P(better) 0.000 SIGNIF WORSE
+   H mean +18.427% P(better) 0.000 SIGNIF WORSE
+   I mean +17.913% P(better) 0.000 SIGNIF WORSE
+   J mean +17.237% P(better) 0.000 SIGNIF WORSE
+   K mean +15.135% P(better) 0.000 SIGNIF WORSE
+   L mean +16.900% P(better) 0.000 SIGNIF WORSE
+CR3 FT: FAIL
