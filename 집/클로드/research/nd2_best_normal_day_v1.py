@@ -26,3 +26,10 @@ for (arm, sd), G in R.groupby(["arm", R.seed.astype(str)]):
         gr = np.array([GE.at[r, f"h{h}"] for r, h in zip(G.rec, G.hour)]); rows.append(dict(val="EV", cand="BASE SG2 + GRU10", seed=sd, rmse=rm(.9 * G.SG2 + .1 * gr - G.y)))
 S = pd.DataFrame(rows).groupby(["val", "cand"]).rmse.mean().reset_index(); pd.set_option("display.width", 200)
 for v, g in S.groupby("val"): print(f"\n{v} (pass-2 truly-normal rows, seed-mean RMSE):"); print(g.sort_values("rmse")[["cand", "rmse"]].round(4).to_string(index=False))
+# ---- ND2b: 5점형 조합(입력만): R3/nosg + GRU10 ----
+rows2 = []
+for (arm, sd), G in R[R.arm == "BASE"].groupby(R.seed.astype(str)):
+    gr = np.array([GE.at[r, f"h{h}"] for r, h in zip(G.rec, G.hour)]); rows2.append(dict(val="EV", cand="BASE R3 + GRU10", rmse=rm(.9 * G.R3 + .1 * gr - G.y)))
+for (v, sd), G in O[O.tag == "CUR"].groupby(["validator", "seed"]):
+    gr = np.array([G1.at[(v, r), f"h{h}"] for r, h in zip(G.rec, G.hour)]); rows2.append(dict(val=v, cand="CUR nosg + GRU10", rmse=rm(.9 * G.nosg + .1 * gr - G.sub_ec)))
+print("\n[ND2b]"); print(pd.DataFrame(rows2).groupby(["val", "cand"]).rmse.mean().round(4).to_string())
