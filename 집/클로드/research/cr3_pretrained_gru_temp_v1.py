@@ -26,7 +26,7 @@ O = X[~X.farm.isin(["F13", "F47"])]
 def day_cube(D):
     P = {v: D.pivot_table(index=["farm", "day"], columns="h", values=v).reindex(columns=range(24)) for v in VI + ["sub_temp"]}
     return P
-P = day_cube(O); keys = list(P["in_temp"].index); kset = set(keys)
+P = day_cube(O); P = {v: t.reindex(index=P["in_temp"].index) for v, t in P.items()}; keys = list(P["in_temp"].index); kset = set(keys)
 pairs = [(k, (k[0], k[1] - 1)) for k in keys if (k[0], k[1] - 1) in kset]
 MU = np.array([np.nanmean(O[v]) for v in VI]); SD = np.array([np.nanstd(O[v]) for v in VI]); SMU, SSD = np.nanmean(O.sub_temp), np.nanstd(O.sub_temp)
 HS, HC = np.sin(2 * np.pi * np.arange(24) / 24), np.cos(2 * np.pi * np.arange(24) / 24)
@@ -71,7 +71,7 @@ nets = []
 for seed in (1, 2):
     torch.manual_seed(seed); n = Net().to(DEV); nets.append(train(n, Xs, Ys, 8, 2e-3, seed))
 F = X[X.farm.isin(["F13", "F47"])]; T = pd.read_csv(os.path.join(env.DATA, "test_X.csv")); T["farm"] = T.row_id.str[:3]; T["day"] = T.row_id.str[4:7].astype(int); T["h"] = T.row_id.str[8:].astype(int)
-FA = pd.concat([F, T]); CB = {v: FA.pivot_table(index=["farm", "day"], columns="h", values=v).reindex(columns=range(24)) for v in VI}
+FA = pd.concat([F, T]); _ix = pd.MultiIndex.from_frame(FA[["farm", "day"]].drop_duplicates()); CB = {v: FA.pivot_table(index=["farm", "day"], columns="h", values=v).reindex(index=_ix, columns=range(24)) for v in VI}
 rid = lambda i: f"{FARM[i]}_{NUM[i]:03d}"
 def fk(r): return (r[:3], int(r[4:7]))
 def fcube(r): return np.stack([CB[v].loc[fk(r)].values for v in VI], 1)
