@@ -1,0 +1,22 @@
+done P2LOO 47
+done EL1 47
+done P2LOO 1414
+done EL1 1414
+done P2LOO 6464
+done EL1 6464
+done EV 101
+done EV 2024
+done EV 7
+  val seed    all     p2  p2_high  p2_norm
+P2LOO   47 -1.339 -1.339   -9.993    8.385
+  EL1   47  1.822  1.822   -0.576    7.950
+P2LOO 1414 -1.816 -1.816  -10.390    8.189
+  EL1 1414  1.327  1.327   -0.870    7.465
+P2LOO 6464 -1.560 -1.560  -10.210    8.518
+  EL1 6464  1.412  1.412   -0.815    7.652
+   EV  101  1.379 -1.051   -3.021    5.166
+   EV 2024  1.532 -0.655   -2.519    5.458
+   EV    7  1.551 -0.620   -2.655    5.529
+block bootstrap P(worse): {'P2LOO': 0.1749, 'EL1': 0.366, 'EV': 0.6854}
+cells improved 3/9
+DS6 DS5-static on other validators: FAIL
