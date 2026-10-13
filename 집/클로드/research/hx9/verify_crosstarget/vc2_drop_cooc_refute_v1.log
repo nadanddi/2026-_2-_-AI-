@@ -1,0 +1,41 @@
+link components: 81 largest 20
+expectation models (cross-fitted R2): L level 0.935 | D2 derivative 0.896 | D3 derivative(all inputs) 0.907 | r3 level 0.975
+robust sigma of D2 residual (deg C/h): {'F13': np.float64(0.142), 'F13_3': np.float64(0.116), 'F47': np.float64(0.15), 'F47_3': np.float64(0.142)}
+C:\work\farmai\집\클로드\research\hx9\verify_crosstarget\vc2_drop_cooc_refute_v1.py:26: RuntimeWarning: Mean of empty slice
+  hm = np.nanmean(Z[msk], 0); Zd = Zd - hm
+coef 0.00 hi10   lag -1: demeaned within-record diff -0.438 CI [-0.725, -0.145] n 72
+coef 0.00 hi10   lag +0: demeaned within-record diff -0.382 CI [-0.841, 0.068] n 73
+coef 0.00 hi10   lag +1: demeaned within-record diff -0.176 CI [-0.521, 0.198] n 69
+coef 0.00 normal lag -1: demeaned within-record diff 0.017 CI [-0.207, 0.243] n 151
+coef 0.00 normal lag +0: demeaned within-record diff -0.711 CI [-1.695, -0.107] n 159
+coef 0.00 normal lag +1: demeaned within-record diff 0.067 CI [-0.532, 1.108] n 152
+C:\work\farmai\집\클로드\research\hx9\verify_crosstarget\vc2_drop_cooc_refute_v1.py:26: RuntimeWarning: Mean of empty slice
+  hm = np.nanmean(Z[msk], 0); Zd = Zd - hm
+coef 0.02 hi10   lag -1: demeaned within-record diff -0.417 CI [-0.722, -0.138] n 71
+coef 0.02 hi10   lag +0: demeaned within-record diff -0.283 CI [-0.642, 0.153] n 72
+coef 0.02 hi10   lag +1: demeaned within-record diff -0.111 CI [-0.431, 0.264] n 69
+coef 0.02 normal lag -1: demeaned within-record diff 0.151 CI [-0.076, 0.415] n 166
+coef 0.02 normal lag +0: demeaned within-record diff -0.341 CI [-1.255, 0.242] n 174
+coef 0.02 normal lag +1: demeaned within-record diff 0.408 CI [-0.193, 1.358] n 168
+C:\work\farmai\집\클로드\research\hx9\verify_crosstarget\vc2_drop_cooc_refute_v1.py:26: RuntimeWarning: Mean of empty slice
+  hm = np.nanmean(Z[msk], 0); Zd = Zd - hm
+coef 0.03 hi10   lag -1: demeaned within-record diff -0.340 CI [-0.693, 0.012] n 70
+coef 0.03 hi10   lag +0: demeaned within-record diff -0.101 CI [-0.593, 0.415] n 71
+coef 0.03 hi10   lag +1: demeaned within-record diff 0.012 CI [-0.375, 0.429] n 68
+coef 0.03 normal lag -1: demeaned within-record diff 0.169 CI [-0.067, 0.397] n 227
+coef 0.03 normal lag +0: demeaned within-record diff 0.168 CI [-0.553, 0.674] n 235
+coef 0.03 normal lag +1: demeaned within-record diff 0.774 CI [0.250, 1.534] n 229
+-- leave-one-episode-out (hi10, coef .02) --
+C:\work\farmai\집\클로드\research\hx9\verify_crosstarget\vc2_drop_cooc_refute_v1.py:26: RuntimeWarning: Mean of empty slice
+  hm = np.nanmean(Z[msk], 0); Zd = Zd - hm
+  drop ep 0 (7 rec): lag-1 -0.464 lag0 -0.381 lag+1 -0.203
+  drop ep 1 (10 rec): lag-1 -0.527 lag0 -0.047 lag+1 -0.011
+  drop ep 2 (3 rec): lag-1 -0.368 lag0 -0.255 lag+1 -0.104
+  drop ep 3 (3 rec): lag-1 -0.523 lag0 -0.414 lag+1 -0.180
+  drop ep 4 (3 rec): lag-1 -0.426 lag0 -0.304 lag+1 -0.175
+  drop ep 5 (4 rec): lag-1 -0.438 lag0 -0.390 lag+1 -0.129
+  drop ep 6 (4 rec): lag-1 -0.158 lag0 -0.065 lag+1 0.112
+  drop ep 7 (1 rec): lag-1 -0.390 lag0 -0.267 lag+1 -0.097
+mean Dz hi10 -0.022 normal -0.002 ; hours 9-18 hi10 -0.318 normal -0.039
+hour profile of hi10 EC25 drops: [0, 1, 2, 0, 0, 0, 0, 0, 2, 13, 14, 10, 5, 2, 2, 3, 0, 0, 3, 2, 3, 3, 4, 3]
+done

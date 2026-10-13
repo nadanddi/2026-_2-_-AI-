@@ -1,0 +1,19 @@
+﻿coverage: date unique 380 /400 | pick 365
+[hi10] pick n 30/35 | hit vs truth prev 0.93 (n 29) | Y1 r 0.813
+      Y2 ~ u_seam_gap r +0.585 | LOCO(에피소드/기록) R2 이득 -0.074 n 26
+      에피소드 빼기 r 범위 [+0.498, +0.796]
+      margin>=0.5: n 21 hit 1.00 Y2 r +0.712
+      margin>=1.0: n 12 hit 1.00 Y2 r +0.710
+      margin>=2.0: n 2 hit 1.00 Y2 r +nan
+[hi12] pick n 25/30 | hit vs truth prev 0.96 (n 24) | Y1 r 0.733
+      Y2 ~ u_seam_gap r +0.455 | LOCO(에피소드/기록) R2 이득 -0.558 n 21
+[all] pick n 365/400 | hit vs truth prev 0.87 (n 307) | Y1 r 0.907
+      Y2 ~ u_seam_gap r +0.512 | LOCO(에피소드/기록) R2 이득 +0.245 n 327
+  [hi10] n 26: RMSE 모델 0.328 -> 0시=입력 이음새 픽 23시 0.301; 개선 19/26
+  [normal] n 301: RMSE 모델 0.094 -> 0시=입력 이음새 픽 23시 0.147; 개선 192/301
+  pass1 전체 n 292: RMSE 0.122 -> 0.169; hit 0.86
+  pass2 전체 n 35: RMSE 0.180 -> 0.127; hit 0.91
+평가 60: 날짜 1개 41 | 픽 있음 32 | 픽 23시 >=1.0 1 | 학습 seam1 분포(고EC 히트) 참고
+  학습 hit 기록 seam1 중앙 0.155 miss 중앙 0.664 | 평가 seam1 중앙 0.242
+    rec  ntw  ndates  ncand    pick  seam1  margin  ec23
+F47_235    2       1    3.0 F13_146  0.195   0.933  1.45

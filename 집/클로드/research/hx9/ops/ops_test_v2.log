@@ -1,0 +1,20 @@
+valid permutation tests: 45 | nominal p<.05: 5 (expected by chance 2.2)
+                r_Y2h  p_perm_Y2h  p_fwer_maxT_Y2h  q_bh_Y2h_fixed
+variable                                                          
+chg_inp_heath   0.531       0.001            0.184           0.045
+chg_inp_co2h    0.458       0.012            0.374           0.262
+chg_inp_sealed  0.407       0.029            0.563           0.337
+chg_inp_fanh   -0.556       0.030            0.146           0.337
+proto_sim_hi   -0.369       0.046            0.720           0.402
+chg_clean_L1am  0.381       0.054            0.676           0.402
+chg_clean_L1    0.324       0.090            0.866           0.516
+sh_partial     -0.275       0.096            0.970           0.516
+                 r_v1  rho_v1  r_drop_F47_132  n_agree  r_link_agree  r_link_disagree  r_clean  r_own_level  r_pred_level  r_am_0to11  placebo_r_mean  placebo_r_q95_abs  placebo_p     S1     S2    S3    S4  survive
+variable                                                                                                                                                                                                              
+chg_inp_co2h    0.458   0.427           0.314     18.0         0.455            0.394    0.117       -0.098        -0.455       0.514          -0.064              0.307      0.006   True  False  True  True    False
+chg_inp_heath   0.531   0.404           0.385     18.0         0.354            0.631    0.290        0.289        -0.168       0.370           0.212              0.398      0.004   True   True  True  True     True
+chg_inp_fanh   -0.556  -0.043           0.269     18.0           NaN           -0.628      NaN        0.170         0.209      -0.309           0.100              0.321      0.002  False  False  True  True    False
+chg_inp_sealed  0.407   0.152          -0.005     18.0        -0.154            0.738    0.035       -0.035        -0.397       0.443           0.019              0.320      0.008  False  False  True  True    False
+proto_sim_hi   -0.369  -0.479          -0.436      NaN           NaN              NaN      NaN          NaN           NaN         NaN             NaN                NaN        NaN   True    NaN   NaN   NaN    False
+chg_inp_co2h LOCO gain all 0.025 | without F47_132 0.006
+chg_inp_heath LOCO gain all 0.175 | without F47_132 0.154

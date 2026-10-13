@@ -1,0 +1,16 @@
+leaf 10: linear-sg base MSE hi 0.1612 normal 0.0132 all 0.0259 | GBM sg-only hi 0.1596 normal 0.0132 all 0.0258 | GBM sg+history hi 0.1619 (improves 14/31) normal 0.0133 all 0.0261
+     placebo (62 shifts) hi median 0.1644 min 0.1264; P(placebo hi <= actual) 0.419 | normal median 0.0144, P(placebo normal <= actual) 0.161 | all median 0.0273, P(placebo all <= actual) 0.306
+leaf 20: linear-sg base MSE hi 0.1612 normal 0.0132 all 0.0259 | GBM sg-only hi 0.1560 normal 0.0153 all 0.0275 | GBM sg+history hi 0.1337 (improves 20/31) normal 0.0162 all 0.0263
+     placebo (62 shifts) hi median 0.1511 min 0.1354; P(placebo hi <= actual) 0.000 | normal median 0.0158, P(placebo normal <= actual) 0.661 | all median 0.0277, P(placebo all <= actual) 0.226
+leaf 40: linear-sg base MSE hi 0.1612 normal 0.0132 all 0.0259 | GBM sg-only hi 0.1529 normal 0.0137 all 0.0257 | GBM sg+history hi 0.1444 (improves 19/31) normal 0.0144 all 0.0256
+     placebo (62 shifts) hi median 0.1575 min 0.1386; P(placebo hi <= actual) 0.065 | normal median 0.0143, P(placebo normal <= actual) 0.548 | all median 0.0267, P(placebo all <= actual) 0.113
+
+K5 variable groups (leaf 20), actual vs placebo hi10 MSE:
+  rad/ET        hi 0.1301 normal 0.0158 all 0.0257 | placebo hi median 0.1537, P(<= actual) 0.097 (31 shifts)
+  temperature   hi 0.1656 normal 0.0161 all 0.0290 | placebo hi median 0.1548, P(<= actual) 0.774 (31 shifts)
+  VPD/humidity  hi 0.1370 normal 0.0141 all 0.0247 | placebo hi median 0.1529, P(<= actual) 0.000 (31 shifts)
+
+K6 usable DMT3e version (NaN where the training calendar has no previous day), same block CV:
+  leaf 10: hi 0.1669 (improves 16/31) normal 0.0134 all 0.0266 (linear base hi 0.1612 normal 0.0132 all 0.0259)
+  leaf 20: hi 0.1447 (improves 16/31) normal 0.0151 all 0.0262 (linear base hi 0.1612 normal 0.0132 all 0.0259)
+  leaf 40: hi 0.1591 (improves 15/31) normal 0.0139 all 0.0264 (linear base hi 0.1612 normal 0.0132 all 0.0259)

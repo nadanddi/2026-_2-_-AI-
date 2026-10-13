@@ -1,0 +1,54 @@
+link components: 81 largest 20
+expectation models (cross-fitted R2): L level 0.935 | D2 derivative 0.896 | D3 derivative(all inputs) 0.907 | r3 level 0.975
+robust sigma of D2 residual (deg C/h): {'F13': np.float64(0.142), 'F13_3': np.float64(0.116), 'F47': np.float64(0.15), 'F47_3': np.float64(0.142)}
+          event resid    set  lag   n  n_rec  mean_z  ci_lo  ci_hi  placebo_lo  placebo_hi  share_lt2  base_share_lt2
+ EC25 drop<-.05    D2   hi10   -1  71     31  -0.800 -1.083 -0.540      -0.612      -0.149      0.099           0.071
+ EC25 drop<-.05    D2   hi10    0  72     31  -0.768 -1.177 -0.346      -0.751      -0.205      0.111           0.071
+ EC25 drop<-.05    D2   hi10    1  69     31  -0.663 -1.121 -0.202      -0.828      -0.205      0.159           0.071
+ EC25 drop<-.05    D2 normal   -1 166     86   0.201 -0.030  0.440      -0.348       0.301      0.042           0.046
+ EC25 drop<-.05    D2 normal    0 174     91  -0.228 -1.015  0.317      -0.219       0.373      0.069           0.046
+ EC25 drop<-.05    D2 normal    1 168     88   0.375 -0.183  1.197      -0.252       0.259      0.065           0.046
+ EC25 drop<-.05    D3   hi10   -1  71     31  -0.511 -0.810 -0.195      -0.475       0.046      0.127           0.067
+ EC25 drop<-.05    D3   hi10    0  72     31  -0.456 -0.881  0.011      -0.538       0.023      0.153           0.067
+ EC25 drop<-.05    D3   hi10    1  69     31  -0.207 -0.687  0.275      -0.534       0.083      0.101           0.067
+ EC25 drop<-.05    D3 normal   -1 166     86   0.144 -0.118  0.442      -0.420       0.260      0.048           0.057
+ EC25 drop<-.05    D3 normal    0 174     91  -0.328 -1.113  0.301      -0.292       0.383      0.080           0.057
+ EC25 drop<-.05    D3 normal    1 168     88   0.284 -0.292  1.158      -0.274       0.238      0.089           0.057
+rawEC drop<-.05    D2   hi10   -1  72     32  -0.794 -1.038 -0.541      -0.597      -0.117      0.097           0.071
+rawEC drop<-.05    D2   hi10    0  73     32  -0.859 -1.269 -0.388      -0.726      -0.188      0.123           0.071
+rawEC drop<-.05    D2   hi10    1  69     31  -0.716 -1.186 -0.250      -0.831      -0.202      0.174           0.071
+rawEC drop<-.05    D2 normal   -1 151     77   0.114 -0.132  0.358      -0.282       0.296      0.053           0.046
+rawEC drop<-.05    D2 normal    0 159     82  -0.568 -1.361  0.004      -0.196       0.407      0.082           0.046
+rawEC drop<-.05    D2 normal    1 152     79   0.048 -0.572  1.034      -0.305       0.197      0.086           0.046
+rawEC drop<-.05    D3   hi10   -1  72     32  -0.538 -0.816 -0.214      -0.463       0.067      0.125           0.067
+rawEC drop<-.05    D3   hi10    0  73     32  -0.593 -1.148 -0.145      -0.523       0.055      0.164           0.067
+rawEC drop<-.05    D3   hi10    1  69     31  -0.264 -0.689  0.196      -0.532       0.089      0.116           0.067
+rawEC drop<-.05    D3 normal   -1 151     77   0.005 -0.278  0.310      -0.341       0.254      0.060           0.057
+rawEC drop<-.05    D3 normal    0 159     82  -0.665 -1.580 -0.069      -0.275       0.390      0.094           0.057
+rawEC drop<-.05    D3 normal    1 152     79  -0.057 -0.662  0.905      -0.304       0.229      0.105           0.057
+ EC25 rise>+.05    D2   hi10   -1  91     28   0.110 -0.358  0.571      -0.421       0.168      0.044           0.071
+ EC25 rise>+.05    D2   hi10    0  92     28   0.088 -0.336  0.548      -0.384       0.178      0.087           0.071
+ EC25 rise>+.05    D2   hi10    1  91     28   0.179 -0.231  0.580      -0.230       0.274      0.066           0.071
+ EC25 rise>+.05    D2 normal   -1 117     58  -0.383 -1.683  0.417      -0.433       0.405      0.068           0.046
+ EC25 rise>+.05    D2 normal    0 119     60   0.705 -0.148  1.924      -0.406       0.461      0.059           0.046
+ EC25 rise>+.05    D2 normal    1 111     54   0.355 -0.053  0.747      -0.534       0.376      0.054           0.046
+ EC25 rise>+.05    D3   hi10   -1  91     28   0.390 -0.067  0.905      -0.231       0.368      0.066           0.067
+ EC25 rise>+.05    D3   hi10    0  92     28   0.215 -0.236  0.659      -0.195       0.369      0.109           0.067
+ EC25 rise>+.05    D3   hi10    1  91     28   0.146 -0.267  0.547      -0.165       0.404      0.066           0.067
+ EC25 rise>+.05    D3 normal   -1 117     58  -0.620 -1.926  0.122      -0.431       0.393      0.068           0.057
+ EC25 rise>+.05    D3 normal    0 119     60   0.494 -0.305  1.628      -0.429       0.441      0.076           0.057
+ EC25 rise>+.05    D3 normal    1 111     54   0.162 -0.188  0.500      -0.531       0.376      0.045           0.057
+
+-- per episode (hi10, EC25 drop, D2 z mean over lags 0..1) --
+  ep 0: records 7, drop events 8, mean z -0.36
+  ep 1: records 10, drop events 25, mean z -1.17
+  ep 2: records 3, drop events 3, mean z 1.18
+  ep 3: records 3, drop events 9, mean z -0.99
+  ep 4: records 3, drop events 4, mean z -1.03
+  ep 5: records 4, drop events 9, mean z -0.77
+  ep 6: records 4, drop events 14, mean z -0.19
+  ep 7: records 1, drop events 0, mean z nan
+
+input-predicted sub_temp cooling-step probability as detector of hi10 EC25-drop hours: AUC 0.647 (n events 72 of 805 hours)
+within-record AUC (mean over 31 hi10 records with >=1 drop): 0.629
+done

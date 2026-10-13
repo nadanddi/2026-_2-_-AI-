@@ -1,0 +1,45 @@
+chain 0 n 5
+         dm11 farm  heat_mean  heat_night  in_cold10     otd  ec_mean  sg_mean     Y2
+rec                                                                                  
+F13_118  74.0  F13     38.708        38.0       11.7   8.088    1.102    1.084  0.017
+F13_120  75.0  F13     29.208        13.4        5.5   9.988    1.250    1.154  0.096
+F13_121  76.0  F13     24.417        18.3        6.6   9.900    1.318    0.886  0.432
+F13_125  78.0  F13     23.583        31.7        9.4  14.662    1.495    1.404  0.091
+F13_217  80.0  F13     48.667        43.4       13.9   4.925    1.693    1.190  0.503
+   r(heat_mean, Y2) +0.332  r(heat_mean, ec_mean) +0.334  r(heat_mean, sg_mean) +0.013
+   r(heat_hours, Y2) +0.136  r(heat_hours, ec_mean) +0.128  r(heat_hours, sg_mean) -0.005
+   r(heat_night, Y2) +0.138  r(heat_night, ec_mean) +0.428  r(heat_night, sg_mean) +0.358
+   r(in_cold10, Y2) +0.225  r(in_cold10, ec_mean) +0.455  r(in_cold10, sg_mean) +0.288
+   r(otd, Y2) -0.525  r(otd, ec_mean) -0.165  r(otd, sg_mean) +0.424
+chain 1 n 8
+         dm11 farm  heat_mean  heat_night  in_cold10    otd  ec_mean  sg_mean     Y2
+rec                                                                                 
+F47_229  89.0  F47     43.250        58.9        8.3  5.688    1.788    1.342  0.446
+F47_231  90.0  F47     28.417        16.6        1.0  1.400    2.177    1.498  0.679
+F47_132  91.0  F47     44.083        31.4       11.5 -0.750    2.712    1.241  1.471
+F47_136  93.0  F47     14.958         5.9        4.3  3.750    1.653    1.870 -0.217
+F47_138  94.0  F47     15.833         0.0        0.0  7.675    1.710    1.595  0.116
+F47_139  95.0  F47      4.833         1.6        1.8  5.650    1.684    1.632  0.052
+F47_141  96.0  F47     12.833        12.5        4.6  4.125    1.866    1.781  0.084
+F47_145  98.0  F47     10.333         6.6        6.9  1.825    2.142    1.599  0.542
+   r(heat_mean, Y2) +0.719  r(heat_mean, ec_mean) +0.566  r(heat_mean, sg_mean) -0.827
+   r(heat_hours, Y2) +0.761  r(heat_hours, ec_mean) +0.709  r(heat_hours, sg_mean) -0.684
+   r(heat_night, Y2) +0.471  r(heat_night, ec_mean) +0.279  r(heat_night, sg_mean) -0.699
+   r(in_cold10, Y2) +0.647  r(in_cold10, ec_mean) +0.622  r(in_cold10, sg_mean) -0.550
+   r(otd, Y2) -0.752  r(otd, ec_mean) -0.882  r(otd, sg_mean) +0.361
+chain 6 n 4
+          dm11 farm  heat_mean  heat_night  in_cold10     otd  ec_mean  sg_mean     Y2
+rec                                                                                   
+F47_174  123.0  F47      3.125         0.0        0.0   4.100    1.053    0.911  0.143
+F13_175  124.0  F13      5.208         6.2        0.0   5.538    1.270    0.951  0.319
+F47_177  125.0  F47      0.000         0.0        0.0   9.175    1.487    1.026  0.461
+F13_178  126.0  F13      0.000         0.0        0.0  12.288    1.842    1.081  0.761
+   r(heat_mean, Y2) -0.699  r(heat_mean, ec_mean) -0.726  r(heat_mean, sg_mean) -0.807
+   r(heat_hours, Y2) -0.489  r(heat_hours, ec_mean) -0.516  r(heat_hours, sg_mean) -0.600
+   r(heat_night, Y2) -0.259  r(heat_night, ec_mean) -0.284  r(heat_night, sg_mean) -0.363
+C:\work\farmai\.analysis-tools\python\numpy\lib\_function_base_impl.py:3036: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[:, None]
+C:\work\farmai\.analysis-tools\python\numpy\lib\_function_base_impl.py:3037: RuntimeWarning: invalid value encountered in divide
+  c /= stddev[None, :]
+   r(in_cold10, Y2) +nan  r(in_cold10, ec_mean) +nan  r(in_cold10, sg_mean) +nan
+   r(otd, Y2) +0.982  r(otd, ec_mean) +0.989  r(otd, sg_mean) +0.997

@@ -1,0 +1,89 @@
+=== V1 double counting with model prediction / same-day inputs (hi10 with OOF) ===
+vpd_p3           r(x,resid) +0.465 (n 26) | r(x,y) +0.247 | r(x,sg) -0.151
+      | ctl vpd_d0                       partial r(x,resid) +0.400  partial r(x,y|ctl+sg) +0.387 (n 26)
+      | ctl vpd_0to8                     partial r(x,resid) +0.381  partial r(x,y|ctl+sg) +0.347 (n 26)
+      | ctl vpd_d0+inhum_d0+intemp_d0    partial r(x,resid) +0.509  partial r(x,y|ctl+sg) +0.477 (n 26)
+      | ctl sg_mean                      partial r(x,resid) +0.446  partial r(x,y|ctl+sg) +0.446 (n 26)
+      | ctl invpd_d0                     partial r(x,resid) +0.558  partial r(x,y|ctl+sg) +0.542 (n 26)
+et0_p3           r(x,resid) +0.430 (n 26) | r(x,y) +0.192 | r(x,sg) -0.178
+      | ctl vpd_d0                       partial r(x,resid) +0.368  partial r(x,y|ctl+sg) +0.342 (n 26)
+      | ctl vpd_0to8                     partial r(x,resid) +0.405  partial r(x,y|ctl+sg) +0.367 (n 26)
+      | ctl vpd_d0+inhum_d0+intemp_d0    partial r(x,resid) +0.336  partial r(x,y|ctl+sg) +0.300 (n 26)
+      | ctl sg_mean                      partial r(x,resid) +0.398  partial r(x,y|ctl+sg) +0.398 (n 26)
+      | ctl invpd_d0                     partial r(x,resid) +0.474  partial r(x,y|ctl+sg) +0.444 (n 26)
+vpd_p3_dm11      r(x,resid) +0.379 (n 31) | r(x,y) +0.308 | r(x,sg) -0.043
+      | ctl vpd_d0                       partial r(x,resid) +0.376  partial r(x,y|ctl+sg) +0.384 (n 31)
+      | ctl vpd_0to8                     partial r(x,resid) +0.346  partial r(x,y|ctl+sg) +0.346 (n 31)
+      | ctl vpd_d0+inhum_d0+intemp_d0    partial r(x,resid) +0.481  partial r(x,y|ctl+sg) +0.485 (n 31)
+      | ctl sg_mean                      partial r(x,resid) +0.380  partial r(x,y|ctl+sg) +0.380 (n 31)
+      | ctl invpd_d0                     partial r(x,resid) +0.490  partial r(x,y|ctl+sg) +0.496 (n 31)
+trans_p1         r(x,resid) +0.322 (n 27) | r(x,y) +0.379 | r(x,sg) +0.128
+      | ctl vpd_d0                       partial r(x,resid) +0.321  partial r(x,y|ctl+sg) +0.366 (n 27)
+      | ctl vpd_0to8                     partial r(x,resid) +0.403  partial r(x,y|ctl+sg) +0.455 (n 27)
+      | ctl vpd_d0+inhum_d0+intemp_d0    partial r(x,resid) +0.273  partial r(x,y|ctl+sg) +0.331 (n 27)
+      | ctl sg_mean                      partial r(x,resid) +0.366  partial r(x,y|ctl+sg) +0.366 (n 27)
+      | ctl invpd_d0                     partial r(x,resid) +0.265  partial r(x,y|ctl+sg) +0.308 (n 27)
+lowrad_run_dm11  r(x,resid) -0.406 (n 31) | r(x,y) -0.155 | r(x,sg) +0.293
+      | ctl vpd_d0                       partial r(x,resid) -0.403  partial r(x,y|ctl+sg) -0.362 (n 31)
+      | ctl vpd_0to8                     partial r(x,resid) -0.381  partial r(x,y|ctl+sg) -0.332 (n 31)
+      | ctl vpd_d0+inhum_d0+intemp_d0    partial r(x,resid) -0.415  partial r(x,y|ctl+sg) -0.382 (n 31)
+      | ctl sg_mean                      partial r(x,resid) -0.362  partial r(x,y|ctl+sg) -0.362 (n 31)
+      | ctl invpd_d0                     partial r(x,resid) -0.403  partial r(x,y|ctl+sg) -0.356 (n 31)
+current-day comparators vs resid among hi10:
+   vpd_d0     r(x,resid) +0.057 p 0.759 (n 31) | r(x, vpd_p3) +0.338
+   vpd_0to8   r(x,resid) +0.207 p 0.264 (n 31) | r(x, vpd_p3) +0.329
+   invpd_d0   r(x,resid) -0.195 p 0.293 (n 31) | r(x, vpd_p3) +0.465
+   inhum_d0   r(x,resid) +0.148 p 0.427 (n 31) | r(x, vpd_p3) -0.504
+   intemp_d0  r(x,resid) +0.029 p 0.877 (n 31) | r(x, vpd_p3) +0.502
+   shade_d0   r(x,resid) -0.223 p 0.227 (n 31) | r(x, vpd_p3) +0.464
+
+=== V2 between-episode vs within-episode decomposition ===
+vpd_p3           vs resid_mean: within-episode r +0.426 (n 24) | episode-mean r +0.533 (n 8, p 0.173, perm p 0.175)
+et0_p3           vs resid_mean: within-episode r +0.450 (n 24) | episode-mean r +0.271 (n 8, p 0.515, perm p 0.537)
+vpd_p3_dm11      vs resid_mean: within-episode r +0.512 (n 30) | episode-mean r -0.086 (n 8, p 0.840, perm p 0.834)
+trans_p1         vs resid_mean: within-episode r +0.226 (n 26) | episode-mean r +0.589 (n 8, p 0.124, perm p 0.116)
+trans_p1         vs Y3        : within-episode r +0.260 (n 30) | episode-mean r +0.571 (n 8, p 0.139, perm p 0.137)
+ttrend5_dm11     vs Y3        : within-episode r +0.506 (n 30) | episode-mean r +0.314 (n 8, p 0.448, perm p 0.451)
+lowrad_run_dm11  vs resid_mean: within-episode r -0.436 (n 30) | episode-mean r -0.226 (n 8, p 0.591, perm p 0.568)
+vpd_p3 among hi10: n 26, distinct dates (seg,day) 23, distinct values 23
+
+=== V3 selection: hi10 records with missing vpd_p3 ===
+         pass2  dmt_seg  dmt_day  ep_id  resid_mean  vpd_p3_dm11
+rec                                                             
+F13_241      1        3        1    4.0       0.438        0.412
+F47_132      0        2        1    1.0       1.471        0.484
+F47_151      0        3        2    4.0      -0.031        0.397
+F47_229      1        8        1    1.0       0.446        0.442
+F47_231      1        9        1    1.0       0.679        0.489
+mean resid: with p3 +0.224 | missing p3 +0.601
+DM11-copy fit on p3-available records applied to missing ones: pred [0.18, 0.29, 0.16, 0.23, 0.29] vs actual [0.44, 1.47, -0.03, 0.45, 0.68]
+   vpd_p3_dm11: r over all 31 +0.379 | r over the 26 with DMT3e p3 +0.375
+   et0_p3_dm11: r over all 31 +0.293 | r over the 26 with DMT3e p3 +0.369
+
+=== V4 trans_p1 vs Y3: regression-to-mean / house confounding ===
+   r(trans_p1, Y3) +0.293 p 0.110 n 31
+   r(trans_p1, ec_mean) +0.405 p 0.024 n 31
+   r(trans_p1, prev_ec_mean) +0.218 p 0.239 n 31
+   partial r(trans_p1, EC(b) | EC(prev)) +0.409 n 31
+   r(prev_shade, Y3) -0.177 p 0.342 n 31
+   r(prev_rad, Y3) +0.161 p 0.387 n 31
+   r(shade_d0, Y3) -0.120 p 0.521 n 31
+   within F13: r(trans_p1,Y3) +0.353 n 16
+   within F47: r(trans_p1,Y3) +0.463 n 15
+   prev link same farm only: r +0.198 n 19
+   own-day light sum (U23) r with Y3 +0.105 n 31
+   episode bootstrap r(trans_p1,Y3) 95% [+0.12,+0.52]  (teammate reported [+.11,+.52])
+
+=== V5 multiple testing over the reported table ===
+   tests 224 | nominal p<.05 observed 10 expected 11.2 | p<.01 observed 1 expected 2.2 | min p 0.0042 | Bonferroni .05/224 = 0.00022
+   BH q<.10 survivors: 0
+   Y1: smallest p trans_p1 0.024, tchg1_dm11 0.044, sealed_run 0.077
+   Y2h: smallest p vpd_p3 0.017, lowrad_run_dm11 0.023, et0_p3 0.028
+   Y2a: smallest p ttrend5_dm11 0.016, tchg1 0.024, ttrend5 0.086
+   Y3: smallest p ttrend5_dm11 0.004, hum_p3_dm11 0.065, vpd_p1_dm11 0.079
+
+=== V6 within-episode time trend (ep_pos) as confounder of vpd_p3/et0_p3 ===
+   vpd_p3: within-episode r(x,ep_pos) +0.792 | r(resid,ep_pos) +0.649 | within r(x,resid | ep_pos) -0.189
+      within-episode LOEO: SSE no-x 0.9268 -> with slope 1.1707 (gain -0.263) [needs episode mean known = diagnostic]
+   et0_p3: within-episode r(x,ep_pos) +0.768 | r(resid,ep_pos) +0.649 | within r(x,resid | ep_pos) -0.100
+      within-episode LOEO: SSE no-x 0.9268 -> with slope 1.1160 (gain -0.204) [needs episode mean known = diagnostic]

@@ -1,0 +1,10 @@
+C:\work\farmai\집\클로드\research\hx9\verify_history\vh_check_v1b.py:11: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  D = R.join(V, rsuffix="_v"); D["Y3"] = D.ec_mean - D.prev_ec_mean
+trans_p1         vs Y3         n 31 | within r +0.260 | r(x,pos) +0.061 r(y,pos) -0.041 | within partial | pos +0.263 | raw partial | pos (no demean) +0.329
+trans_p1         vs resid_mean n 27 | within r +0.226 | r(x,pos) -0.044 r(y,pos) -0.065 | within partial | pos +0.224 | raw partial | pos (no demean) +0.309
+ttrend5_dm11     vs Y3         n 31 | within r +0.506 | r(x,pos) +0.277 r(y,pos) -0.041 | within partial | pos +0.539 | raw partial | pos (no demean) +0.500
+lowrad_run_dm11  vs resid_mean n 31 | within r -0.436 | r(x,pos) +0.078 r(y,pos) -0.086 | within partial | pos -0.432 | raw partial | pos (no demean) -0.432
+vpd_p3_dm11      vs resid_mean n 31 | within r +0.512 | r(x,pos) +0.253 r(y,pos) -0.086 | within partial | pos +0.554 | raw partial | pos (no demean) +0.379
+vpd_p3           vs ec_mean    n 26 | within r +0.621 | r(x,pos) +0.792 r(y,pos) +0.646 | within partial | pos +0.236 | raw partial | pos (no demean) +0.364
+all records r(vpd_p3, dm11_day) -0.757 n 361
+dm11 74-126 r(vpd_p3, day) 0.089 n 120

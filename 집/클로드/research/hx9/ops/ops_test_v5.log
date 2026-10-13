@@ -1,0 +1,52 @@
+variables: all 48, usable 41, usable-noTE 37
+
+=== Q1 Y2h (31 high records, LOCO episodes) ===
+  n 31
+  chains 8
+  SSE_nocorr 5.899
+  SST 3.393
+  const_R2_vs_nocorr 0.394
+  const_R2_vs_mean -0.053
+  sg_lin_R2_vs_nocorr 0.368
+  all48|gbm {'R2_vs_nocorr': 0.398, 'gain_vs_const': 0.006, 'n_improved_vs_const': 15, 'n_improved_vs_nocorr': 23}
+  all48+sg|gbm {'R2_vs_nocorr': 0.349, 'gain_vs_const': -0.078, 'n_improved_vs_const': 15, 'n_improved_vs_nocorr': 23}
+  usable41|gbm {'R2_vs_nocorr': 0.322, 'gain_vs_const': -0.125, 'n_improved_vs_const': 15, 'n_improved_vs_nocorr': 21}
+  usable41+sg|gbm {'R2_vs_nocorr': 0.325, 'gain_vs_const': -0.12, 'n_improved_vs_const': 15, 'n_improved_vs_nocorr': 23}
+  usable_noTE37|gbm {'R2_vs_nocorr': 0.228, 'gain_vs_const': -0.29, 'n_improved_vs_const': 13, 'n_improved_vs_nocorr': 17}
+  usable_noTE37+sg|gbm {'R2_vs_nocorr': 0.26, 'gain_vs_const': -0.233, 'n_improved_vs_const': 14, 'n_improved_vs_nocorr': 20}
+
+=== Q2 Y2a (n 360, high 31, pass2 46) | groups DIAG10 10, calendar 11 ===
+  DIAG10|sg_only_gbm {'R2_vs_nocorr': -0.229, 'hi_SSE_ratio_vs_nocorr': 1.139}
+  DIAG10|sg_only_lin {'R2_vs_nocorr': 0.022}
+  DIAG10|const {'R2_vs_nocorr': -0.002}
+  DIAG10|all48+sg_gbm {'R2_vs_nocorr': 0.127, 'gain_vs_sgonly': 0.356, 'n_improved_vs_sgonly': 197, 'hi_SSE_ratio_vs_sgonly': 0.695, 'hi_n_improved_vs_sgonly': 20, 'pass1_gain_vs_sgonly': 0.29, 'pass2_gain_vs_sgonly': 0.578}
+  DIAG10|usable41+sg_gbm {'R2_vs_nocorr': 0.164, 'gain_vs_sgonly': 0.393, 'n_improved_vs_sgonly': 193, 'hi_SSE_ratio_vs_sgonly': 0.676, 'hi_n_improved_vs_sgonly': 20, 'pass1_gain_vs_sgonly': 0.322, 'pass2_gain_vs_sgonly': 0.634}
+  DIAG10|usable_noTE37+sg_gbm {'R2_vs_nocorr': 0.004, 'gain_vs_sgonly': 0.234, 'n_improved_vs_sgonly': 182, 'hi_SSE_ratio_vs_sgonly': 0.711, 'hi_n_improved_vs_sgonly': 20, 'pass1_gain_vs_sgonly': 0.2, 'pass2_gain_vs_sgonly': 0.349}
+  CAL13|sg_only_gbm {'R2_vs_nocorr': -0.705, 'hi_SSE_ratio_vs_nocorr': 1.508}
+  CAL13|sg_only_lin {'R2_vs_nocorr': -0.003}
+  CAL13|const {'R2_vs_nocorr': -0.005}
+  CAL13|all48+sg_gbm {'R2_vs_nocorr': -0.214, 'gain_vs_sgonly': 0.492, 'n_improved_vs_sgonly': 182, 'hi_SSE_ratio_vs_sgonly': 0.796, 'hi_n_improved_vs_sgonly': 17, 'pass1_gain_vs_sgonly': 0.613, 'pass2_gain_vs_sgonly': 0.132}
+  CAL13|usable41+sg_gbm {'R2_vs_nocorr': -0.182, 'gain_vs_sgonly': 0.524, 'n_improved_vs_sgonly': 178, 'hi_SSE_ratio_vs_sgonly': 0.777, 'hi_n_improved_vs_sgonly': 18, 'pass1_gain_vs_sgonly': 0.649, 'pass2_gain_vs_sgonly': 0.155}
+  CAL13|usable_noTE37+sg_gbm {'R2_vs_nocorr': -0.334, 'gain_vs_sgonly': 0.371, 'n_improved_vs_sgonly': 171, 'hi_SSE_ratio_vs_sgonly': 0.867, 'hi_n_improved_vs_sgonly': 17, 'pass1_gain_vs_sgonly': 0.49, 'pass2_gain_vs_sgonly': 0.015}
+  CAL13|usable41|perm {'obs_gain_seed0': 0.594, 'null_mean': 0.354, 'null_q95': 0.527, 'p': np.float64(0.032)}
+  CAL13|usable_noTE37|perm {'obs_gain_seed0': 0.46, 'null_mean': 0.347, 'null_q95': 0.559, 'p': np.float64(0.226)}
+  P1toP2|all48+sg_gbm {'sgonly_R2_vs_nocorr_p2': -0.058, 'fam_R2_vs_nocorr_p2': 0.263, 'gain_vs_sgonly_p2': 0.337, 'n_improved_p2': 29, 'n_p2': 46, 'hi_p2_SSE_ratio': 0.579}
+  P1toP2|usable41+sg_gbm {'sgonly_R2_vs_nocorr_p2': -0.058, 'fam_R2_vs_nocorr_p2': 0.325, 'gain_vs_sgonly_p2': 0.403, 'n_improved_p2': 29, 'n_p2': 46, 'hi_p2_SSE_ratio': 0.461}
+  P1toP2|usable_noTE37+sg_gbm {'sgonly_R2_vs_nocorr_p2': -0.058, 'fam_R2_vs_nocorr_p2': 0.263, 'gain_vs_sgonly_p2': 0.337, 'n_improved_p2': 24, 'n_p2': 46, 'hi_p2_SSE_ratio': 0.615}
+
+Q2 verdict (pre-fixed a..e): {'usable41': {'a': True, 'b': True, 'c': True, 'd': True, 'e': True, 'real': True}, 'usable_noTE37': {'a': True, 'b': True, 'c': False, 'd': True, 'e': True, 'real': False}}
+
+GBM importance (usable41+sg, all 360, descriptive):
+ sg_mean             0.306
+chg_inp_heath       0.269
+te_clu_mag          0.082
+te_clu_hirate       0.045
+heat_hours          0.033
+knn3_hi_mag         0.030
+proto_sim_hi        0.027
+co2_hours           0.026
+co2_sum             0.026
+co2_first_h         0.021
+chg_inp_L1am        0.019
+curtain_decouple    0.013
+saved test_v5_baselines.json

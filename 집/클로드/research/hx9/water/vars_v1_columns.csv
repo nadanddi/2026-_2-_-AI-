@@ -1,0 +1,48 @@
+﻿variable,definition,usability
+rad_out_sum,실외 일사 하루 합 MJ/m2 (바닥 5 W/m2 제거),U
+rad_in_sum,실내 일사 대리 합 (투과 .65 · 차광 60% · 보온 40% 차단 가정),U
+shade_loss,차광·보온으로 잃은 일사 비율,U
+vpd_day,낮 09~16시 평균 VPD kPa,U
+vpd_24,24시간 평균 VPD,U
+vpd_rad,Σ VPD × radIn (증산 구동 대리),U
+et_day,ET 대리(0.30·radIn + 20·VPD) 낮 합 mm,U
+et_night,ET 대리 밤(일사 ≤10) 10·VPD 합 mm,U
+et_total,ET 대리 하루 합 mm,U
+et_night_share,밤 ET / 하루 ET,U
+vpd_night,밤 평균 VPD,U
+hum_night,밤 평균 실내 습도,U
+cond_hours,결로 위험 시간 수 (Tin - 이슬점 < 1℃),U
+dew_margin_min,하루 최소 (Tin - 이슬점),U
+vent_vpd,Σ 환기/100 × VPD (환기 건조),U
+vent_ahx,"Σ 환기/100 × max(AH실내-AH실외,0) (환기로 내보낸 수증기 대리)",U
+sealed_hours,환기 < 1 시간 수 (24h),U
+sealed_day_hours,낮 09~16시 중 환기 < 1 시간 수,U
+heat_deg_h,"Σ max(Tin - Tout, 0) (열 요구 대리)",U
+heating_sum,Σ 난방/100,U
+sunrise_hour,일사 ≥ 50 첫 시각,U
+morning_ramp,08~10시 평균 일사,U
+ah_rise_morning,07~13시 최대 AH - 06시 AH (아침 증산 시작 대리),U
+hum_drop_morning,06시 습도 - 08~13시 최저 습도,U
+dah_closed_day,낮 밀폐·무포그 시간의 평균 시간당 AH 증가 (PP1 재방문),U
+ahx_day,낮 AH실내 - AH실외 평균 (PP1 재방문),U
+tdiff_day,낮 Tin - Tout 평균,U
+vpd_0_5,0~5시 평균 VPD,U5
+hum_0_5,0~5시 평균 습도,U5
+cond_0_5,0~5시 결로 위험 시간,U5
+sealed_0_5,0~5시 밀폐 시간,U5
+heat_deg_0_5,0~5시 열 요구,U5
+prev_et_total,clean 전날(truth a1 & DM11 gap1) ET 하루 합,D
+prev_rad_in_sum,clean 전날 실내 일사 대리 합,D
+prev_sealed_hours,clean 전날 밀폐 시간,D
+d_et_total,ET 오늘 - clean 전날,D
+et_3link,clean 링크로 거슬러 간 최대 3일 ET 평균,D
+sealed_3link,clean 링크 최대 3일 밀폐 시간 평균,D
+vpd_night_3link,clean 링크 최대 3일 밤 VPD 평균,D
+lag2id_et_total,"같은 ID num-2 학습 기록의 ET 하루 합 (clean 전날과 일치 48%: 1차 53%, 2차 17%)",Uid
+lag2id_sealed_hours,같은 ID num-2 학습 기록의 밀폐 시간,Uid
+rad_out_3d,DM11 달력 d-1..d-3 학습 기록 실외 일사 합 평균,Ucal(desc)
+rad_out_7d,DM11 달력 d-1..d-7 평균,Ucal(desc)
+cloud_idx,오늘 일사 / DM11 ±7일 학습 기록 일사 최대 (계절 대비 흐림),Ucal(desc)
+dull_7d,지난 7일 중 cloud_idx < .5 날 수,Ucal(desc)
+rad_out_3d_dmt,DMT3e(학습 전용) 같은 구간 d-1..d-3 실외 일사 평균,Ucal
+ep_mean_et_sofar,현재 hi10 에피소드 오늘까지 ET 평균,D

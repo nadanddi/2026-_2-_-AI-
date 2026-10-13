@@ -1,0 +1,16 @@
+Y3 n 27 chains 7 | weather-change r with Y3: {'d_rad_day': np.float64(-0.195), 'd_out_day': np.float64(0.157), 'd_out_night': np.float64(0.242)}
+valid tests 45
+                          usable   r_Y3  ci_lo  ci_hi  pr_weather  p_fwer   clue
+variable                                                                        
+chg_inp_thdur             usable  0.488  0.214  0.895       0.435   0.306   True
+chg_clean_thdur  diagnostic only  0.470  0.183  0.876       0.412   0.360   True
+chg_inp_co2h              usable  0.440  0.255  0.717       0.426   0.462   True
+proto_sim_hi              usable -0.429 -0.735 -0.327      -0.441   0.501   True
+chg_clean_co2h   diagnostic only  0.381  0.083  0.904       0.402   0.692   True
+th_open_h                 usable -0.376 -0.845 -0.140      -0.292   0.713   True
+chg_inp_L1                usable  0.366 -0.076  0.510       0.408   0.758  False
+chg_inp_fanh              usable -0.354 -0.466 -0.320      -0.423   0.808   True
+co2_first_h               usable  0.281 -0.107  0.616       0.287   0.961  False
+fan_hours                 usable  0.272 -0.090  0.627       0.274   0.973  False
+fan_night                 usable  0.266  0.193  0.632       0.267   0.977  False
+te_clu_hirate             usable -0.264 -0.600  0.153      -0.267   0.978  False

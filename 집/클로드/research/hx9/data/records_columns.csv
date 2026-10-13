@@ -1,0 +1,90 @@
+﻿column,meaning,eval_usability
+rec,기록 id FARM_NUM,usable
+idx,feat4 배열 행 번호,usable
+farm,온실 id,usable
+num,기록 번호,usable
+pass2,num >= 179 (2차),usable
+ec_mean,sub_ec 하루 평균,target
+ec_h0,sub_ec 0시,target
+ec_h23,sub_ec 23시,target
+ec_max,sub_ec 하루 최대,target
+ec_min,sub_ec 하루 최소,target
+ec_amp,sub_ec 최대-최소,target
+has_sg,DIAG10 OOF 있음,descriptive
+locked40,Codex 잠금 40일(OOF 없음),descriptive
+sg_mean,현재 모델 DIAG10 시드평균 예측 하루 평균 (24시간 입력 필요),diagnostic
+sg_h0,현재 모델 0시 예측 = cm0,usable
+resid_mean,ec_mean - sg_mean,diagnostic
+sg_seed_sd_mean,시드 간 예측 sd 의 하루 평균,diagnostic
+fold,DIAG10 폴드,descriptive
+hi10,ec_mean >= 1.0,target
+hi12,ec_mean >= 1.2,target
+st_mean,sub_temp 하루 평균 (다른 과제 정답),diagnostic
+st_h0,sub_temp 0시,diagnostic
+st_h23,sub_temp 23시,diagnostic
+st_amp,sub_temp 최대-최소,diagnostic
+dm11_day,DM11 달력 날짜 (평가 입력 사용),descriptive
+dmt_day,DMT3e 학습 전용 달력 날짜 (평가 기록 위치는 자기 0..h 실외로 학습 기록과 맞춰 추정해야 함),usable-in-principle
+dmt_seg,DMT3e 구간,usable-in-principle
+a1_rec,truth a1 (b 자신 정답 연속성으로 선택),diagnostic
+a1_dm11_gap,DM11 day(b)-day(a1),descriptive
+a1_c1,a1 연속성 비용,diagnostic
+a1_cert,truth cert,diagnostic
+prev_rec,clean 전날 기록 (a1 & DM11 gap 1),diagnostic
+prev_same_farm,전날이 같은 온실 id,diagnostic
+prev_ec_mean,전날 EC 하루 평균 (링크가 인과적으로 잡히면 학습 정답이라 usable; 현재 링크는 진단용),diagnostic
+prev_ec_h23,전날 EC 23시,diagnostic
+succ_rec,clean 다음날 기록 (여럿이면 c1 최소),diagnostic
+n_succ,clean 다음날 후보 수,diagnostic
+succ_same_farm,다음날이 같은 온실 id,diagnostic
+succ_ec_mean,다음날 EC 하루 평균,diagnostic
+succ_ec_h0,다음날 EC 0시,diagnostic
+prev_hi10,전날 ec_mean >= 1.0,diagnostic
+succ_hi10,다음날 ec_mean >= 1.0,diagnostic
+link_descriptive,링크 열은 서술 전용 표시,descriptive
+ep_id,hi10 에피소드 id (clean 링크 연결 성분),diagnostic
+ep_pos,에피소드 안 위치 = DM11 day - 첫 날,diagnostic
+ep_n,에피소드 기록 수,diagnostic
+ep_span,에피소드 DM11 날짜 폭,diagnostic
+ep12_id,hi12 에피소드 id,diagnostic
+ep12_pos,hi12 에피소드 위치,diagnostic
+ep12_n,hi12 에피소드 기록 수,diagnostic
+ep12_span,hi12 에피소드 날짜 폭,diagnostic
+twin_n,같은 날 쌍둥이 수 (학습 기록 중 0시 실외 4변수 동일),usable
+twin_same_farm_n,그중 같은 온실 id,usable
+twin_ec_max,쌍둥이 EC 하루 평균의 최대 (학습 정답),usable
+twin_ec_mean,쌍둥이 EC 하루 평균의 평균,usable
+twin_hi10_n,쌍둥이 중 hi10 수,usable
+twin_hi12_n,쌍둥이 중 hi12 수,usable
+twin_recs,쌍둥이 목록,usable
+twinfull_n,하루 실외 칸 70% 이상 일치 쌍둥이 수 (24시간 필요 → 검산용),diagnostic
+twin_h0_vs_full_agree,0시 쌍둥이 집합 == 하루 일치 집합,diagnostic
+out_temp_d,out_temp 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+out_hum_d,out_hum 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+out_rad_d,out_rad 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+out_wspd_d,out_wspd 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+in_temp_d,in_temp 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+in_hum_d,in_hum 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+in_co2_d,in_co2 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+act_vent_d,act_vent 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+act_shade_d,act_shade 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+act_thermal_d,act_thermal 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+act_heating_d,act_heating 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+act_circfan_d,act_circfan 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+act_co2_d,act_co2 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+act_fog_d,act_fog 낮(09~16시) 평균 — 평가 행 h>=16 부터 계산 가능,usable(h>=16)
+out_temp_n,"out_temp 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+out_hum_n,"out_hum 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+out_rad_n,"out_rad 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+out_wspd_n,"out_wspd 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+in_temp_n,"in_temp 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+in_hum_n,"in_hum 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+in_co2_n,"in_co2 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+act_vent_n,"act_vent 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+act_shade_n,"act_shade 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+act_thermal_n,"act_thermal 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+act_heating_n,"act_heating 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+act_circfan_n,"act_circfan 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+act_co2_n,"act_co2 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+act_fog_n,"act_fog 밤(20~23시+0~5시) 평균 — 0~5시 부분은 h>=5, 전체는 h=23",usable(h=23)
+n_in_nan,실내 3변수 결측 칸 수,usable

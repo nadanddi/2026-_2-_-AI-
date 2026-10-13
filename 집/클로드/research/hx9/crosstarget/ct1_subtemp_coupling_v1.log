@@ -1,0 +1,129 @@
+link components: 81 largest 20
+expectation models (cross-fitted R2): L level 0.935 | D2 derivative 0.896 | D3 derivative(all inputs) 0.907 | r3 level 0.975
+robust sigma of D2 residual (deg C/h): {'F13': np.float64(0.142), 'F13_3': np.float64(0.116), 'F47': np.float64(0.15), 'F47_3': np.float64(0.142)}
+variables built: 44
+n hi10 35 | hi10 with OOF 31 | within-episode pairs 27 | all with OOF 360 | all clean links 319
+family-wise 95% max|r| null (same-day vars, record permutation): Y1 0.513 | Y2hi 0.564 | Y2all 0.178
+       variable  n_hi   r_Y1  r_Y1_within_ep  n_hi_sg  r_Y2hi  rho_Y2hi  ci_Y2hi_lo  ci_Y2hi_hi  cv_gain_Y2hi  n_improved_Y2hi  r_Y2all  r_Y2all_pass1  r_Y2all_pass2  cv_gain_Y2all  n_Y3   r_Y3  r_Y3all  r_Y5hi verdict
+     L_res_mean    35  0.241           0.209       31   0.064    -0.039      -0.228       0.242        -0.144               10    0.029          0.052         -0.063         -0.011    27 -0.086   -0.040  -0.012    none
+    L_res_night    35  0.200           0.152       31  -0.051    -0.097      -0.428       0.146        -0.143               10    0.028          0.048         -0.073         -0.014    27 -0.150   -0.053  -0.019    none
+      L_res_day    35  0.152           0.226       31   0.185     0.094      -0.134       0.320        -0.040               13   -0.000          0.021         -0.083         -0.008    27  0.038   -0.032   0.087    none
+      L_res_eve    35  0.259           0.117       31   0.099    -0.049      -0.140       0.231        -0.149               10    0.064          0.092         -0.034          0.001    27 -0.042   -0.007  -0.086    none
+       L_res_h0    35  0.222           0.123       31  -0.058    -0.058      -0.477       0.167        -0.184               10    0.036          0.060         -0.073         -0.013    27 -0.155   -0.061  -0.023    none
+       L_res_sd    35 -0.024           0.056       31  -0.127    -0.060      -0.372       0.384        -0.107               10   -0.056         -0.083          0.245         -0.007    27  0.145    0.009   0.066    none
+       D_res_sd    35 -0.298          -0.091       31  -0.171     0.036      -0.407       0.210        -0.071               10   -0.053         -0.066          0.084          0.001    27  0.225    0.011   0.149    none
+        D_nneg2    35 -0.123           0.004       31  -0.140    -0.092      -0.439       0.168        -0.048               13    0.008         -0.002          0.027         -0.002    27  0.197    0.054   0.076    none
+        D_npos2    35 -0.284           0.108       31  -0.079    -0.021      -0.237       0.200        -0.041               14   -0.025         -0.017         -0.050         -0.005    27  0.162    0.038   0.165    none
+        D_nneg3    35 -0.135           0.020       31  -0.016    -0.019      -0.387       0.166        -0.018               13   -0.021         -0.048          0.072         -0.001    27  0.255    0.029   0.075    none
+        D_npos3    35 -0.301          -0.159       31  -0.057     0.095      -0.173       0.110        -0.028               12   -0.071         -0.070         -0.081         -0.003    27  0.078   -0.005   0.072    none
+       D_sumneg    35 -0.146           0.010       31  -0.141    -0.096      -0.443       0.125        -0.032               16   -0.018         -0.027          0.028         -0.001    27  0.216    0.034   0.071    none
+       D_sumpos    35 -0.298           0.042       31  -0.063     0.008      -0.201       0.164        -0.030               14   -0.081         -0.083         -0.066         -0.000    27  0.149    0.005   0.156    none
+       D_minres    35  0.206          -0.014       31   0.212     0.098      -0.136       0.415         0.005               15    0.041          0.056         -0.095         -0.000    27 -0.110   -0.005   0.000    none
+       D_maxres    35 -0.204          -0.102       31   0.039     0.028      -0.203       0.297        -0.051                9   -0.039         -0.034         -0.081          0.000    27  0.037   -0.013   0.054    none
+   D_firstneg_h    35 -0.085          -0.058       31   0.149     0.050      -0.411       0.451        -0.090               10   -0.037          0.006         -0.211         -0.003    27  0.003   -0.025  -0.007    none
+     D_neg_morn    35  0.238          -0.120       31  -0.045     0.057      -0.274       0.457        -0.020               10    0.061          0.049          0.117          0.002    27 -0.016    0.017  -0.038    none
+      D_neg_aft    35 -0.130           0.126       31  -0.118    -0.074      -0.479       0.147        -0.074               12    0.009         -0.014          0.066         -0.005    27  0.211    0.063   0.051    none
+    D_neg_night    35 -0.242          -0.031       31  -0.078     0.026      -0.508       0.101        -0.119               16   -0.032         -0.018         -0.101         -0.005    27  0.154    0.029   0.105    none
+      D_netanom    35  0.122           0.028       31   0.042    -0.050      -0.149       0.232        -0.093               14   -0.014          0.015         -0.116         -0.006    27 -0.038   -0.002   0.026    none
+      D3_res_sd    35 -0.240          -0.249       31  -0.247    -0.151      -0.493       0.071        -0.149               14   -0.071         -0.076         -0.021         -0.006    27 -0.014   -0.014   0.032    none
+       D3_nneg2    35 -0.217          -0.125       31  -0.184    -0.149      -0.506      -0.012        -0.048               14    0.005          0.011         -0.002         -0.003    27  0.142    0.033   0.105    none
+      D3_sumneg    35 -0.251          -0.139       31  -0.192    -0.187      -0.563      -0.018        -0.042               14   -0.020         -0.017         -0.016         -0.002    27  0.144    0.015   0.083    none
+      amp_ratio    35 -0.184          -0.089       31   0.040     0.069      -0.348       0.243        -0.050               12   -0.010          0.023         -0.181         -0.010    27  0.123    0.013   0.037    none
+       peak_lag    35 -0.024          -0.096       31  -0.074    -0.034      -0.278       0.344        -0.065               12    0.030          0.007          0.117         -0.004    27 -0.044   -0.013  -0.012    none
+        k_relax    35 -0.214          -0.046       31   0.163     0.190      -0.286       0.470        -0.042               14    0.011          0.054         -0.197         -0.004    27  0.159   -0.021   0.147    none
+    coup_r_lag2    35  0.159          -0.124       31   0.058     0.167      -0.461       0.511        -0.219                9    0.029          0.069         -0.187         -0.008    27 -0.175   -0.011  -0.113    none
+         st_amp    35 -0.093          -0.148       31  -0.023    -0.050      -0.453       0.178        -0.069               13    0.008          0.045         -0.084         -0.004    27 -0.117   -0.013  -0.129    none
+ st_in_gap_mean    35  0.227           0.188       31   0.101     0.065      -0.103       0.295        -0.058                8    0.011          0.019         -0.026         -0.008    27 -0.004   -0.034  -0.034    none
+st_in_gap_night    35  0.140           0.005       31  -0.108    -0.202      -0.512       0.133        -0.098               12   -0.028          0.006         -0.178         -0.014    27 -0.237   -0.088  -0.056    none
+  st_in_gap_day    35  0.058           0.174       31   0.121     0.186      -0.045       0.523        -0.046               15   -0.032         -0.051          0.029         -0.002    27  0.163   -0.003   0.160    none
+     T_res_mean    35  0.374           0.203       31   0.162    -0.016      -0.322       0.357        -0.205               10    0.033          0.029          0.091         -0.019    27 -0.031   -0.012  -0.136    none
+    T_res_night    35  0.324           0.213       31   0.077    -0.018      -0.338       0.299        -0.133               12    0.033          0.013          0.120         -0.020    27  0.055    0.000  -0.006    none
+      T_res_day    35  0.310           0.191       31   0.233    -0.056      -0.420       0.413        -0.186               11    0.007          0.009          0.067         -0.017    27  0.005   -0.007  -0.119    none
+       T_res_h0    35  0.309           0.186       31   0.039    -0.038      -0.407       0.300        -0.134               14    0.041          0.014          0.148         -0.015    27  0.100    0.016   0.025    none
+       T_res_sd    35 -0.150           0.103       31  -0.043     0.150      -0.423       0.503        -0.236                8   -0.079         -0.111          0.137          0.000    27  0.219    0.018   0.092    none
+  prev_D_sumneg    31  0.009           0.141       27   0.119     0.023      -0.302       0.467        -0.069               14    0.065          0.069          0.156         -0.001    27  0.024    0.037   0.021    none
+   prev_D_nneg2    31 -0.011           0.107       27   0.095    -0.003      -0.220       0.394        -0.051               14    0.102          0.106          0.160          0.002    27  0.024    0.035   0.058    none
+prev_L_res_mean    31  0.233          -0.149       27  -0.136    -0.080      -0.392       0.236        -0.024               15    0.052          0.029          0.136          0.000    27 -0.145   -0.057  -0.111    none
+ prev_amp_ratio    31 -0.043           0.166       27   0.113     0.162      -0.254       0.456        -0.015               13   -0.049         -0.049         -0.011         -0.004    27  0.265    0.015   0.383    none
+prev_T_res_mean    31  0.272          -0.451       27  -0.302    -0.357      -0.584      -0.186        -0.408               11    0.022          0.008          0.065         -0.002    27 -0.353   -0.086  -0.293    none
+   prev_k_relax    31 -0.142          -0.115       27   0.151     0.207      -0.193       0.320        -0.025               13   -0.063         -0.061         -0.051         -0.005    27  0.205   -0.025   0.159    none
+    dL_res_mean    31  0.008           0.233       27   0.195    -0.067      -0.389       0.397        -0.135               11   -0.007          0.035         -0.192         -0.007    27  0.045    0.014   0.091    none
+    dT_res_mean    31  0.126           0.352       27   0.341     0.216      -0.025       0.602        -0.118               15    0.009          0.019          0.008         -0.013    27  0.230    0.056   0.092    none
+
+== multivariate non-causal upper bound (leave-one-chain-out) ==
+Y2hi same-day {'n': 31, 'r2_base': np.float64(-0.098), 'r2_ridge': np.float64(-0.076), 'r2_gbm': np.float64(-0.745), 'imp_ridge': 13, 'imp_gbm': 7, 'r2_ridge_null_med': -0.076, 'r2_ridge_null_p95': 0.016}
+Y2hi +prev {'n': 31, 'r2_base': np.float64(-0.098), 'r2_ridge': np.float64(-0.076), 'r2_gbm': np.float64(-0.573), 'imp_ridge': 13, 'imp_gbm': 8, 'r2_ridge_null_med': -0.084, 'r2_ridge_null_p95': 0.086}
+Y1hi same-day {'n': 35, 'r2_base': np.float64(0.02), 'r2_ridge': np.float64(-0.429), 'r2_gbm': np.float64(-0.716), 'imp_ridge': 10, 'imp_gbm': 11, 'r2_ridge_null_med': -0.444, 'r2_ridge_null_p95': -0.286}
+Y2all same-day {'n': 360, 'r2_base': np.float64(-0.022), 'r2_ridge': np.float64(-0.024), 'r2_gbm': np.float64(-0.288), 'imp_ridge': 178, 'imp_gbm': 176, 'r2_ridge_null_med': -0.023, 'r2_ridge_null_p95': -0.022}
+
+== hourly: D2 anomaly vs EC25 steps ==
+C:\work\farmai\집\클로드\research\hx9\crosstarget\ct1_subtemp_coupling_v1.py:529: RuntimeWarning: Mean of empty slice
+  ctrl[m] = np.nanmean(dlE[m], 0)
+C:\work\farmai\집\클로드\research\hx9\crosstarget\ct1_subtemp_coupling_v1.py:529: RuntimeWarning: Mean of empty slice
+  ctrl[m] = np.nanmean(dlE[m], 0)
+   set  lag  r_Dres_dlogEC25     rho      n event  n_events  mean_dlogEC25_vs_ctrl   ci_lo  ci_hi
+   all   -1          -0.0852 -0.1288 8800.0   NaN       NaN                    NaN     NaN    NaN
+   all    0           0.1430 -0.1350 9200.0   NaN       NaN                    NaN     NaN    NaN
+   all    1          -0.0902 -0.0664 8800.0   NaN       NaN                    NaN     NaN    NaN
+   all    2          -0.0117 -0.0384 8400.0   NaN       NaN                    NaN     NaN    NaN
+   all   -1              NaN     NaN    NaN  neg2     429.0                -0.0007 -0.0087 0.0070
+   all    0              NaN     NaN    NaN  neg2     441.0                 0.0010 -0.0074 0.0088
+   all    1              NaN     NaN    NaN  neg2     428.0                 0.0057 -0.0004 0.0136
+   all    2              NaN     NaN    NaN  neg2     419.0                 0.0024 -0.0017 0.0075
+   all   -1              NaN     NaN    NaN  pos2     421.0                 0.0008 -0.0078 0.0094
+   all    0              NaN     NaN    NaN  pos2     431.0                 0.0027 -0.0067 0.0135
+   all    1              NaN     NaN    NaN  pos2     421.0                 0.0011 -0.0055 0.0084
+   all    2              NaN     NaN    NaN  pos2     414.0                 0.0011 -0.0042 0.0076
+  hi10   -1           0.1010  0.0871  770.0   NaN       NaN                    NaN     NaN    NaN
+  hi10    0           0.0837  0.1202  805.0   NaN       NaN                    NaN     NaN    NaN
+  hi10    1           0.1698  0.2076  770.0   NaN       NaN                    NaN     NaN    NaN
+  hi10    2           0.0889  0.1577  735.0   NaN       NaN                    NaN     NaN    NaN
+  hi10   -1              NaN     NaN    NaN  neg2      57.0                -0.0128 -0.0456 0.0090
+  hi10    0              NaN     NaN    NaN  neg2      57.0                 0.0075 -0.0104 0.0252
+  hi10    1              NaN     NaN    NaN  neg2      56.0                -0.0076 -0.0235 0.0084
+  hi10    2              NaN     NaN    NaN  neg2      56.0                 0.0024 -0.0086 0.0133
+  hi10   -1              NaN     NaN    NaN  pos2      36.0                 0.0057 -0.0130 0.0263
+  hi10    0              NaN     NaN    NaN  pos2      39.0                -0.0005 -0.0546 0.0390
+  hi10    1              NaN     NaN    NaN  pos2      38.0                 0.0211 -0.0181 0.0624
+  hi10    2              NaN     NaN    NaN  pos2      36.0                 0.0245 -0.0069 0.0572
+normal   -1          -0.1036 -0.1537 8030.0   NaN       NaN                    NaN     NaN    NaN
+normal    0           0.1501 -0.1665 8395.0   NaN       NaN                    NaN     NaN    NaN
+normal    1          -0.1156 -0.1018 8030.0   NaN       NaN                    NaN     NaN    NaN
+normal    2          -0.0212 -0.0668 7665.0   NaN       NaN                    NaN     NaN    NaN
+normal   -1              NaN     NaN    NaN  neg2     372.0                 0.0011 -0.0073 0.0096
+normal    0              NaN     NaN    NaN  neg2     384.0                 0.0001 -0.0094 0.0082
+normal    1              NaN     NaN    NaN  neg2     372.0                 0.0077 -0.0000 0.0170
+normal    2              NaN     NaN    NaN  neg2     363.0                 0.0024 -0.0021 0.0086
+normal   -1              NaN     NaN    NaN  pos2     385.0                 0.0004 -0.0086 0.0109
+normal    0              NaN     NaN    NaN  pos2     392.0                 0.0030 -0.0061 0.0139
+normal    1              NaN     NaN    NaN  pos2     383.0                -0.0009 -0.0069 0.0064
+normal    2              NaN     NaN    NaN  pos2     378.0                -0.0011 -0.0061 0.0038
+
+-- hi10 big EC25 drops (dlogEC25 < -0.05 after hour control): mean D2 residual z at h-1, h, h+1 --
+  hi10 lag -1: n 71 mean z -0.800 (share z<-2 0.099; base share 0.071)
+  hi10 lag +0: n 72 mean z -0.768 (share z<-2 0.111; base share 0.071)
+  hi10 lag +1: n 69 mean z -0.663 (share z<-2 0.159; base share 0.071)
+  normal lag -1: n 166 mean z 0.201 (share z<-2 0.042; base share 0.046)
+  normal lag +0: n 174 mean z -0.228 (share z<-2 0.069; base share 0.046)
+  normal lag +1: n 168 mean z 0.375 (share z<-2 0.065; base share 0.046)
+
+-- r3 sub_temp residual vs EC residual (sub_ec - sg) --
+  all: between-day r 0.033 (rho 0.004, n 360) | within-day pooled r 0.041 (n 8640)
+  hi10: between-day r 0.162 (rho -0.016, n 31) | within-day pooled r -0.047 (n 744)
+
+== input reproducibility ==
+hourly anomalous cooling step (D2 z<-2, base rate 0.048): AUC inputs 0.812 | AUC hour+farm only 0.643 | R2 of D2 residual from inputs 0.128
+   variable  r2cv_from_inputs
+   D_sumneg            -0.056
+    D_nneg2            -0.113
+   D_res_sd            -0.098
+ L_res_mean             0.246
+L_res_night             0.166
+  amp_ratio            -0.076
+    k_relax            -0.027
+   peak_lag            -0.038
+ T_res_mean            -0.184
+  D3_sumneg             0.022
+
+verdict counts: {'none': 44}
+done

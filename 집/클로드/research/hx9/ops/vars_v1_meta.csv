@@ -1,0 +1,50 @@
+variable,definition,usable,avail_h
+co2_hours,CO2 공급(act_co2>0) 시간 수,usable,23
+co2_sum,act_co2 하루 합,usable,23
+co2_first_h,처음 CO2 공급 시각(없으면 24),usable,censored
+co2_am_hours,0~11시 CO2 공급 시간 수,usable,11
+co2_offday,6~17시 밖 CO2 공급 시간 수(비정형 공급),usable,23
+th_open_h,보온커튼 act_thermal 50 상향 교차 시각(4~15시),usable,censored(≤15)
+th_close_h,보온커튼 50 하향 교차 시각(12~23시),usable,censored(≤23)
+th_open_dur,act_thermal ≥ 50 시간 수,usable,23
+th_trans,보온커튼 |Δ| ≥ 30 전환 수,usable,23
+th_night,0~5시 보온커튼 평균,usable,5
+sh_open_h,차광 act_shade 50 상향 교차 시각(4~15시),usable,censored(≤15)
+sh_close_h,차광 50 하향 교차 시각(12~23시),usable,censored(≤23)
+sh_open_dur,act_shade ≥ 50 시간 수,usable,23
+sh_partial,차광 5~95 중간 위치 시간 비율,usable,23
+curtain_decouple,|차광 − 보온| 하루 평균(두 커튼 따로 움직임),usable,23
+fog_hours,포그 가동 시간 수,usable,23
+fog_pulses,포그 가동 덩어리 수,usable,23
+fog_sum,포그 하루 합,usable,23
+heat_hours,난방 가동 시간 수,usable,23
+heat_night,0~5시 난방 평균,usable,5
+heat_dayfrac,9~16시 난방 가동 비율,usable,16
+heat_last_am,5~14시 중 마지막 난방 가동 시각,usable,14
+vent_first_h,처음 환기 개방 시각(없으면 24),usable,censored
+vent_hours,환기 개방 시간 수,usable,23
+vent_max,환기 하루 최대,usable,23
+sealed_frac,환기 0 비율(밀폐; 6.11 기준 변수),usable,23
+fan_hours,유동팬 가동 시간 수,usable,23
+fan_trans,유동팬 켜짐/꺼짐 전환 수,usable,23
+fan_night,0~5시 유동팬 평균,usable,5
+op_n_active,하루 한 번이라도 움직인 구동기 수(0~7),usable,23
+op_cluster,KMeans(6) 24h×7 구동기 지문 군집(학습 입력만),usable,23
+te_clu_hirate,같은 군집 학습 기록의 hi10 비율(자기 그룹 제외 교차적합),usable,23
+te_clu_mag,같은 군집 hi10 학습 기록의 EC 평균(자기 그룹 제외),usable,23
+proto_sim_hi,고EC 지문 원형 코사인 − 보통 원형 코사인(자기 그룹 제외),usable,23
+knn3_hi_mag,지문 최근접 hi10 학습 기록 3개의 EC 평균(자기 그룹 제외),usable,23
+chg_clean_L1,clean 전날 대비 24h×7 구동기 지문 평균 절대차,diagnostic only,23
+chg_clean_L1am,clean 전날 대비 0~11시 지문 차,diagnostic only,11
+chg_clean_sealed,밀폐 비율 − clean 전날,diagnostic only,23
+chg_clean_co2h,CO2 공급 시간 − clean 전날,diagnostic only,23
+chg_clean_heath,난방 시간 − clean 전날,diagnostic only,23
+chg_clean_thdur,보온 ≥50 시간 − clean 전날,diagnostic only,23
+chg_clean_fanh,유동팬 시간 − clean 전날,diagnostic only,23
+chg_inp_L1,입력 링커 전날 대비 24h×7 지문 차,usable,23
+chg_inp_L1am,입력 링커 전날 대비 0~11시 지문 차,usable,11
+chg_inp_sealed,밀폐 비율 − 입력 링커 전날,usable,23
+chg_inp_co2h,CO2 공급 시간 − 입력 링커 전날,usable,23
+chg_inp_heath,난방 시간 − 입력 링커 전날,usable,23
+chg_inp_thdur,보온 ≥50 시간 − 입력 링커 전날,usable,23
+chg_inp_fanh,유동팬 시간 − 입력 링커 전날,usable,23

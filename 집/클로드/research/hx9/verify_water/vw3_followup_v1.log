@@ -1,0 +1,21 @@
+=== (a) dah_closed_day vs qualifying closed-day hours (hi10 with OOF) ===
+  r(dah, q_hours) -0.757; r(q_hours, resid) +0.182
+  partial r(dah, resid | q_hours) -0.126
+  most influential records:
+         dah_closed_day  q_hours  resid_mean  ep_id farm  pass2  ec_mean  sg_mean
+rec                                                                              
+F47_151           1.316        5      -0.031    4.0  F47      0    1.313    1.344
+F13_177           1.239        3       0.009    7.0  F13      0    1.005    0.996
+  q_hours distribution hi10: {3: 3, 4: 8, 5: 1, 6: 1, 7: 2, 8: 14}
+
+=== (b) within-day coupling r(hourly dEC, hourly ET proxy), 07-18h ===
+  r_sub_ec : hi10 mean -0.001 (episode CI [-0.19,+0.26], n 35) | normal mean +0.475 (n 365)
+  r_sg     : hi10 mean +0.077 (episode CI [-0.13,+0.37], n 31) | normal mean +0.336 (n 329)
+  truth coupling F13: hi10 +0.063 (n 19) | normal +0.478
+  truth coupling F47: hi10 -0.077 (n 16) | normal +0.472
+  truth coupling pass1: hi10 +0.046 (n 30) | normal +0.471
+  truth coupling pass2: hi10 -0.284 (n 5) | normal +0.498
+  ET proxy hourly sd (07-18h): hi10 14.3 vs normal 19.6
+  same-date twin pairs (hi10 vs normal, same outdoor): n 67 pairs / 33 hi10 recs; coupling hi10 -0.004 vs twin +0.541; diff -0.544 (episode CI [-0.79,-0.20]); ET sd hi10 13.9 vs twin 15.9
+  normal records with ET sd inside hi10 10-90% range: n 139, coupling +0.503
+  r(truth coupling, resid_mean) hi10: -0.165

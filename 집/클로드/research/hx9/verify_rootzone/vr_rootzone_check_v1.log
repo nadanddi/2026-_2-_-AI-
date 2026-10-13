@@ -1,0 +1,58 @@
+hi10 with OOF n=31, chains 8: sizes {0: 5, 1: 8, 2: 3, 3: 3, 4: 3, 5: 4, 6: 4, 7: 1}
+
+== in_cold10: r +0.264, rho +0.044; nonzero 15/31; nonzero by chain {0: 5, 1: 7, 2: 0, 3: 1, 4: 1, 5: 1, 6: 0, 7: 0}
+   drop-one-chain r: {np.int64(0): np.float64(0.47), np.int64(1): np.float64(-0.019), np.int64(2): np.float64(0.222), np.int64(3): np.float64(0.261), np.int64(4): np.float64(0.316), np.int64(5): np.float64(0.259), np.int64(6): np.float64(0.333), np.int64(7): np.float64(0.25)}
+   within-chain r +0.446; chain-mean r (n 8) +0.181
+   partial | out_temp day&night +0.251; | farm +0.263; | sg_mean +0.294
+   within-chain permutation p 0.084
+   pass1 r +0.309 (n 26), pass2 r -0.469 (n 5)
+   all records r(var, Y2) -0.028; normal-only -0.082
+
+== heat_hours: r +0.289, rho +0.134; nonzero 15/31; nonzero by chain {0: 5, 1: 8, 2: 0, 3: 0, 4: 0, 5: 0, 6: 2, 7: 0}
+   drop-one-chain r: {np.int64(0): np.float64(0.433), np.int64(1): np.float64(-0.018), np.int64(2): np.float64(0.238), np.int64(3): np.float64(0.288), np.int64(4): np.float64(0.343), np.int64(5): np.float64(0.287), np.int64(6): np.float64(0.364), np.int64(7): np.float64(0.272)}
+   within-chain r +0.498; chain-mean r (n 8) +0.293
+   partial | out_temp day&night +0.272; | farm +0.277; | sg_mean +0.355
+   within-chain permutation p 0.051
+   pass1 r +0.261 (n 26), pass2 r -0.182 (n 5)
+   all records r(var, Y2) +0.022; normal-only +0.034
+
+== heat_mean: r +0.334, rho +0.132; nonzero 15/31; nonzero by chain {0: 5, 1: 8, 2: 0, 3: 0, 4: 0, 5: 0, 6: 2, 7: 0}
+   drop-one-chain r: {np.int64(0): np.float64(0.497), np.int64(1): np.float64(0.004), np.int64(2): np.float64(0.296), np.int64(3): np.float64(0.334), np.int64(4): np.float64(0.385), np.int64(5): np.float64(0.333), np.int64(6): np.float64(0.407), np.int64(7): np.float64(0.32)}
+   within-chain r +0.542; chain-mean r (n 8) +0.236
+   partial | out_temp day&night +0.324; | farm +0.327; | sg_mean +0.370
+   within-chain permutation p 0.044
+   pass1 r +0.325 (n 26), pass2 r -0.331 (n 5)
+   all records r(var, Y2) -0.008; normal-only +0.014
+
+== heat_night: r +0.273, rho +0.155; nonzero 13/31; nonzero by chain {0: 5, 1: 7, 2: 0, 3: 0, 4: 0, 5: 0, 6: 1, 7: 0}
+   drop-one-chain r: {np.int64(0): np.float64(0.412), np.int64(1): np.float64(-0.007), np.int64(2): np.float64(0.239), np.int64(3): np.float64(0.27), np.int64(4): np.float64(0.312), np.int64(5): np.float64(0.269), np.int64(6): np.float64(0.329), np.int64(7): np.float64(0.261)}
+   within-chain r +0.356; chain-mean r (n 8) +0.208
+   partial | out_temp day&night +0.266; | farm +0.273; | sg_mean +0.290
+   within-chain permutation p 0.228
+   pass1 r +0.272 (n 26), pass2 r -0.492 (n 5)
+   all records r(var, Y2) -0.066; normal-only -0.050
+
+heat_mean values by chain (hi10):
+    n    heat  heat_max     Y2 farm   dm11
+ep                                        
+0   5  32.917    48.667  0.228  F13   76.0
+1   8  21.818    44.083  0.397  F47   93.5
+2   3   0.000     0.000  0.005  F13   96.0
+3   3   0.000     0.000  0.237  F13  100.0
+4   3   0.000     0.000  0.378  F13  104.0
+5   4   0.000     0.000  0.237  F13  108.5
+6   4   2.083     5.208  0.421  F13  124.5
+7   1   0.000     0.000  0.009  F13  126.0
+
+==== Y3 (hi10 -> hi10 clean links): placebo with unlinked hi10 pairs ====
+d_st_mean: linked r +0.499 n 27; same-farm -0.044 (n 17), cross +0.861 (n 10); drop-one-chain {np.int64(0): np.float64(0.535), np.int64(1): np.float64(0.784), np.int64(2): np.float64(0.488), np.int64(3): np.float64(0.446), np.int64(4): np.float64(0.394), np.int64(5): np.float64(0.427), np.int64(6): np.float64(0.462)}
+   placebo unlinked hi10 pairs (DM11 gap 1-2) n 39: r +0.275, slope +0.0702; same-farm +0.027, cross +0.489
+   same-day between-house hi10 pairs n 4: r +0.807, slope +0.1076
+d_pst_min: linked r +0.525 n 27; same-farm +0.091 (n 17), cross +0.840 (n 10); drop-one-chain {np.int64(0): np.float64(0.557), np.int64(1): np.float64(0.773), np.int64(2): np.float64(0.521), np.int64(3): np.float64(0.484), np.int64(4): np.float64(0.427), np.int64(5): np.float64(0.449), np.int64(6): np.float64(0.513)}
+   placebo unlinked hi10 pairs (DM11 gap 1-2) n 39: r -0.006, slope -0.0011; same-farm -0.038, cross -0.011
+   same-day between-house hi10 pairs n 4: r +0.170, slope +0.0130
+d_in_min: linked r +0.469 n 27; same-farm +0.057 (n 17), cross +0.713 (n 10); drop-one-chain {np.int64(0): np.float64(0.486), np.int64(1): np.float64(0.66), np.int64(2): np.float64(0.478), np.int64(3): np.float64(0.447), np.int64(4): np.float64(0.357), np.int64(5): np.float64(0.41), np.int64(6): np.float64(0.48)}
+   placebo unlinked hi10 pairs (DM11 gap 1-2) n 39: r -0.211, slope -0.0501; same-farm -0.012, cross -0.447
+   same-day between-house hi10 pairs n 4: r +0.649, slope +0.0294
+
+Y3 cross-farm links by chain: {3: 2, 4: 2, 5: 3, 6: 3} | same-farm: {0: 6, 1: 9, 2: 2}

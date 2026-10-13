@@ -1,0 +1,87 @@
+HI2 n=31 episodes=8 sizes={0.0: 5, 1.0: 8, 2.0: 3, 3.0: 3, 4.0: 3, 5.0: 4, 6.0: 4, 7.0: 1}
+r(sg, resid) within hi10 = -0.240  (selection on label: ec>=1.0 truncates; any var tied to sg gets opposite-sign resid r)
+
+=== A. reproduction (hi10 Y2) ===
+  dah_closed_day     r -0.219 CI [-0.54,-0.07] LOCO gain +0.036 -> weak
+  hum_drop_morning   r -0.221 CI [-0.61,+0.04] LOCO gain +0.002 -> weak
+  lag2id_et_total    r +0.248 CI [+0.10,+0.51] LOCO gain -0.016 -> none
+  heating_sum        r +0.334 CI [-0.13,+0.63] LOCO gain -0.551 -> none
+  ahx_day            r +0.233 CI [-0.49,+0.54] LOCO gain -0.092 -> none
+  observed weak/signal count (hi10 branches) = 2: ['hum_drop_morning', 'dah_closed_day']
+
+=== B. drop-one-episode (r, LOCO gain, verdict on the rest) ===
+  dah_closed_day:
+ drop_ep  n_drop      r     lo     hi   gain verdict
+       0       5 -0.204 -0.513 -0.055  0.015    weak
+       1       8 -0.298 -0.676 -0.107  0.016    weak
+       2       3 -0.169 -0.445 -0.042 -0.010    none
+       3       3 -0.231 -0.533 -0.074  0.051    weak
+       4       3 -0.235 -0.642 -0.051  0.028    weak
+       5       4 -0.266 -0.652 -0.124  0.093    weak
+       6       4 -0.218 -0.510 -0.073  0.023    weak
+       7       1 -0.182 -0.470 -0.043  0.017    none
+    verdict kept weak/signal in 6/8 drops; gain>0 in 7/8
+  hum_drop_morning:
+ drop_ep  n_drop      r     lo     hi   gain verdict
+       0       5 -0.309 -0.672 -0.031 -0.037    weak
+       1       8 -0.328 -0.682  0.341 -0.036    none
+       2       3 -0.157 -0.546  0.093 -0.032    none
+       3       3 -0.222 -0.638  0.106  0.019    weak
+       4       3 -0.198 -0.627  0.340 -0.036    none
+       5       4 -0.239 -0.677  0.021 -0.065    none
+       6       4 -0.147 -0.504  0.298  0.033    none
+       7       1 -0.195 -0.588  0.134 -0.015    none
+    verdict kept weak/signal in 2/8 drops; gain>0 in 2/8
+  lag2id_et_total:
+ drop_ep  n_drop     r    lo    hi   gain verdict
+       0       5 0.264 0.092 0.619 -0.074    weak
+       1       8 0.324 0.034 0.600 -0.003    weak
+       2       3 0.224 0.043 0.465 -0.124    none
+       3       3 0.246 0.061 0.497 -0.018    none
+       4       3 0.198 0.019 0.419  0.001    none
+       5       4 0.274 0.148 0.598 -0.019    weak
+       6       4 0.248 0.026 0.635 -0.040    none
+       7       1 0.262 0.105 0.516 -0.069    weak
+    verdict kept weak/signal in 4/8 drops; gain>0 in 1/8
+
+=== C. within-episode (demeaned) vs between-episode (episode means) ===
+  dah_closed_day     within r -0.231 (n 28, CI [-0.73,-0.00]) | between (episode means, n 8) r -0.381
+  hum_drop_morning   within r +0.080 (n 30, CI [-0.38,+0.36]) | between (episode means, n 8) r -0.821
+  lag2id_et_total    within r +0.274 (n 28, CI [-0.16,+0.58]) | between (episode means, n 8) r +0.189
+  heating_sum        within r +0.542 (n 30, CI [-0.46,+0.68]) | between (episode means, n 8) r +0.236
+  ahx_day            within r +0.031 (n 30, CI [-0.54,+0.32]) | between (episode means, n 8) r +0.523
+
+=== D. model double-counting: r(var,sg), r(var,ec), partial r(var, ec | sg) within hi10 ===
+  dah_closed_day     r(var,sg) -0.103  r(var,ec) -0.263  pr(var,ec|sg) -0.246  r(var,resid) -0.219
+  hum_drop_morning   r(var,sg) -0.276  r(var,ec) -0.394  pr(var,ec|sg) -0.308  r(var,resid) -0.221
+  lag2id_et_total    r(var,sg) -0.199  r(var,ec) +0.082  pr(var,ec|sg) +0.211  r(var,resid) +0.248
+  heating_sum        r(var,sg) +0.099  r(var,ec) +0.369  pr(var,ec|sg) +0.370  r(var,resid) +0.334
+  ahx_day            r(var,sg) +0.145  r(var,ec) +0.311  pr(var,ec|sg) +0.279  r(var,resid) +0.233
+
+=== E. leave-one-record-out gain; drop 2 most influential records ===
+  dah_closed_day     LORO gain +0.033 | drop ['F47_151', 'F13_177'] -> r -0.122, LOCO gain -0.016 | spearman -0.294 kendall -0.192
+  hum_drop_morning   LORO gain -0.017 | drop ['F47_132', 'F47_136'] -> r -0.241, LOCO gain +0.064 | spearman -0.211 kendall -0.164
+  lag2id_et_total    LORO gain -0.003 | drop ['F47_132', 'F47_174'] -> r +0.402, LOCO gain +0.038 | spearman +0.393 kendall +0.276
+
+=== F. null: how many of the 47 variables get weak/signal by chance under the pre-fixed rule (hi10 branches) ===
+  record permutation: weak/signal count mean 7.09, median 6, P(count>=2) = 0.86; branch-2 (gain>0 & |r|>=.2) mean 6.39
+  episode-block     : weak/signal count mean 6.54, median 6, P(count>=2) = 0.83; branch-2 (gain>0 & |r|>=.2) mean 5.61
+
+=== G. eval-row availability (test_X inputs, descriptive) ===
+  eval records 60: dah_closed_day defined 38 (63%); training all 41%, training hi10 94%
+  eval: hour at which dah_closed_day first becomes computable (2nd qualifying hour): {10.0: 29, 11.0: 2, 12.0: 1, 15.0: 2, 16.0: 4}
+  -> for an eval row at hour h < that hour the variable does not exist; hum_drop_morning partial from h=7, complete at h=13.
+
+=== H. lag2id_et_total vs Y3, split by whether num-2 is the clean previous day ===
+  hi10 within-episode pairs  num-2 IS prev day: partial r(lag2id_et, EC_b | EC_a) +0.298 (n 13)
+  hi10 within-episode pairs  num-2 NOT prev day: partial r(lag2id_et, EC_b | EC_a) +0.431 (n 14)
+  all clean pairs            num-2 IS prev day: partial r(lag2id_et, EC_b | EC_a) -0.028 (n 153)
+  all clean pairs            num-2 NOT prev day: partial r(lag2id_et, EC_b | EC_a) +0.045 (n 157)
+  drop-one-episode (hi10 pairs) partial r:
+    drop ep 0 (n_drop 6): +0.360 (n 21)
+    drop ep 1 (n_drop 9): +0.428 (n 18)
+    drop ep 2 (n_drop 2): +0.330 (n 25)
+    drop ep 3 (n_drop 2): +0.329 (n 25)
+    drop ep 4 (n_drop 2): +0.271 (n 25)
+    drop ep 5 (n_drop 3): +0.354 (n 24)
+    drop ep 6 (n_drop 3): +0.320 (n 24)

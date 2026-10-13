@@ -1,0 +1,62 @@
+records 460 train 400 eval 60
+input linker vs clean predecessor: agree 0.621 (n 319); among hi10 0.677 (n 31)
+cluster x hi10
+ hi10         0   1
+op_cluster        
+0           28   0
+1           98  31
+2           68   0
+3           93   4
+4           21   0
+5           57   0
+variables 49 | usable 42 diagnostic 7
+                  count   mean     std    min     max
+co2_hours         400.0   1.32    2.01   0.00   10.00
+co2_sum           400.0  41.48  100.62   0.00  853.00
+co2_first_h       400.0  18.72    7.32   6.00   24.00
+co2_am_hours      400.0   0.66    1.05   0.00    5.00
+co2_offday        400.0   0.01    0.12   0.00    2.00
+th_open_h         374.0   8.56    1.35   4.00   15.00
+th_close_h        379.0  17.06    1.86  12.00   22.00
+th_open_dur       400.0   8.78    3.22   0.00   21.00
+th_trans          400.0   2.91    1.44   0.00   10.00
+th_night          400.0   7.60   21.32   0.00   98.00
+sh_open_h         341.0   8.88    1.95   4.00   15.00
+sh_close_h        326.0  17.20    2.42  12.00   23.00
+sh_open_dur       400.0  10.65    5.63   0.00   24.00
+sh_partial        400.0   0.23    0.23   0.00    0.92
+curtain_decouple  400.0  13.77   16.51   0.00   72.58
+fog_hours         400.0   2.31    2.72   0.00   11.00
+fog_pulses        400.0   0.61    0.62   0.00    3.00
+fog_sum           400.0  29.58   48.26   0.00  218.00
+heat_hours        400.0   8.41    6.96   0.00   24.00
+heat_night        400.0  22.63   31.50   0.00  100.00
+heat_dayfrac      400.0   0.25    0.30   0.00    1.00
+heat_last_am      294.0  10.40    2.73   6.00   14.00
+vent_first_h      400.0   7.89    7.54   0.00   24.00
+vent_hours        400.0  12.08    8.70   0.00   24.00
+vent_max          400.0  42.97   33.45   0.00  100.00
+sealed_frac       400.0   0.50    0.36   0.00    1.00
+fan_hours         400.0  11.72    9.90   0.00   24.00
+fan_trans         400.0   1.55    1.89   0.00   10.00
+fan_night         400.0  23.71   28.78   0.00  100.00
+op_n_active       400.0   5.30    0.94   0.00    7.00
+op_cluster        400.0   2.31    1.50   0.00    5.00
+te_clu_hirate     400.0   0.09    0.11   0.00    0.26
+te_clu_mag        222.0   1.52    0.10   1.41    1.66
+proto_sim_hi      400.0   0.23    0.78  -1.05    1.65
+knn3_hi_mag       400.0   1.46    0.23   1.13    2.40
+chg_clean_L1      319.0   0.06    0.05   0.00    0.31
+chg_clean_L1am    319.0   0.06    0.06   0.00    0.34
+chg_clean_sealed  319.0   0.00    0.16  -0.83    0.54
+chg_clean_co2h    319.0   0.10    1.16  -6.00    8.00
+chg_clean_heath   319.0   0.20    4.07 -11.00   14.00
+chg_clean_thdur   319.0  -0.02    2.33 -10.00   10.00
+chg_clean_fanh    319.0   0.11    3.04 -22.00   20.00
+chg_inp_L1        400.0   0.07    0.06   0.00    0.32
+chg_inp_L1am      400.0   0.07    0.06   0.00    0.34
+chg_inp_sealed    400.0  -0.03    0.22  -0.96    0.71
+chg_inp_co2h      400.0   0.14    1.48  -6.00    6.00
+chg_inp_heath     400.0   0.17    4.63 -13.00   14.00
+chg_inp_thdur     400.0  -0.20    2.51 -14.00   10.00
+chg_inp_fanh      400.0   0.22    3.88 -22.00   24.00

@@ -1,0 +1,64 @@
+=== A. 배타성 앵커 ===
+  날짜 전날 묶음 있음 369/400 | unclaimed 있음 30 -> 그중 실제 고EC 15 (정밀도 0.50); 고EC 35 중 unclaimed 있음 15 (재현율 0.43)
+  unclaimed 인데 보통인 기록: ['F13_138', 'F13_142', 'F13_145', 'F13_155', 'F13_156', 'F13_174', 'F13_216', 'F47_144', 'F47_146', 'F47_149', 'F47_153', 'F47_156', 'F47_176', 'F47_213', 'F47_214']
+  고EC & unclaimed & 진짜 전날 있음 n 14: 같은 기록 고름 0.86; 다른 ID 교차 비율 0.87
+  u_excl_ec23 vs 진짜 전날 23시 r 0.616 (n 14), |차| 중앙 0.000
+       variable  Y2h_n  Y2h_r  Y2h_p  Y2h_ci_lo  Y2h_ci_hi  Y2h_cv_gain  Y2h_improved  Y2h_r_p1  Y2h_r_p2  Y2a_n  Y2a_r  Y2a_p  Y2a_ci_lo  Y2a_ci_hi  Y2a_cv_gain  Y2a_improved  Y2a_r_p1  Y2a_r_p2   Y1_r  Y1_n
+       u_excl_n     26  0.360  0.071      0.101      0.551        0.029            13     0.289       NaN    331  0.338  0.000      0.148      0.521        0.077           154     0.285     0.694  0.067    30
+    u_excl_flag     26  0.360  0.071      0.073      0.554        0.029            13     0.289       NaN    331  0.338  0.000      0.133      0.523        0.077           154     0.285     0.694  0.067    30
+    u_excl_ec23     15 -0.136  0.630     -0.423      0.385       -0.109             4    -0.210       NaN     28  0.120  0.542     -0.293      0.502       -0.130            11     0.078       NaN  0.235    15
+    u_excl_mean     15 -0.522  0.046     -0.820      0.030       -0.024            10    -0.499       NaN     28 -0.152  0.440     -0.543      0.332       -0.116            15    -0.124       NaN  0.043    15
+   u_excl_gap23     15  0.278  0.316     -0.053      0.678       -0.109             4     0.140       NaN     28 -0.054  0.786     -0.436      0.344       -0.130            11    -0.094       NaN -0.217    15
+     u_excl_gap     15 -0.143  0.611     -0.545      0.363       -0.024            10    -0.192       NaN     28 -0.284  0.143     -0.579      0.042       -0.116            15    -0.283       NaN -0.445    15
+u_excl_cross_id     15  0.227  0.416     -0.607      0.741       -0.387             7     0.544       NaN     28  0.087  0.660     -0.416      0.486       -0.234            10     0.295       NaN -0.167    15
+  고EC & 배타성 앵커 있음 n 15: 모델 |잔차| 중앙 0.285 vs |y - 앵커23| 중앙 0.135; 앵커가 더 가까움 0.53
+  보통 & 배타성 앵커 있음 n 13: 모델 |잔차| 중앙 0.061 vs |y - 앵커23| 중앙 0.753
+  [서술] 전체 360: 하루 수준 RMSE 모델 0.1621 vs 배타성 앵커로 교체 0.2236 (바뀐 기록 28); 고EC 0.4362 -> 0.4147; 보통 0.1041 -> 0.1962
+    pass1: 바뀐 25  RMSE 0.1503 -> 0.2194
+    pass2: 바뀐 3  RMSE 0.2271 -> 0.2502
+
+=== B. EP1 사용 가능 '신호' 의 기하 인공물 점검 (고EC, OOF 있음) ===
+  u_lk_steps     n 30 r -0.461 rho -0.454 | 한 기록 빼기 r 범위 [-0.527,-0.388] | r(var, 진짜 전날 다른 ID) +0.017 | 다른 ID 통제 부분 r -0.464 (n 27)
+  u_lk_p1        n 31 r -0.362 rho -0.338 | 한 기록 빼기 r 범위 [-0.433,-0.317] | r(var, 진짜 전날 다른 ID) -0.506 | 다른 ID 통제 부분 r -0.396 (n 27)
+  u_nd_n         n 31 r -0.361 rho -0.346 | 한 기록 빼기 r 범위 [-0.523,-0.276] | r(var, 진짜 전날 다른 ID) -0.311 | 다른 ID 통제 부분 r -0.350 (n 27)
+  u_unclaimed_n  n 26 r +0.360 rho +0.337 | 한 기록 빼기 r 범위 [+0.306,+0.454] | r(var, 진짜 전날 다른 ID) +0.676 | 다른 ID 통제 부분 r +0.261 (n 24)
+  u_pass2        n 31 r +0.364 rho +0.490 | 한 기록 빼기 r 범위 [+0.297,+0.552] | r(var, 진짜 전날 다른 ID) -0.079 | 다른 ID 통제 부분 r +0.371 (n 27)
+  참고: 고EC 잔차 평균 - 진짜 전날 다른 ID +0.289 (n 12) / 같은 ID +0.259 (n 15) / 전날 없음 +0.366 (n 4)
+
+=== C. 갈래 다변량 상한 (비인과, LOCO) ===
+  고EC: 전체 변수(진단+사용)                  base  n 31 feats 58  R2(LOCO) -0.098 | 고EC 31 중 개선(vs base) nan / (vs 원 모델) 21 | 고EC 잔차 RMSE 0.436 -> 0.347
+  고EC: 전체 변수(진단+사용)                  ridge n 31 feats 58  R2(LOCO) +0.404 | 고EC 31 중 개선(vs base) 19 / (vs 원 모델) 22 | 고EC 잔차 RMSE 0.436 -> 0.255
+  고EC: 전체 변수(진단+사용)                  gbm   n 31 feats 58  R2(LOCO) +0.039 | 고EC 31 중 개선(vs base) 16 / (vs 원 모델) 18 | 고EC 잔차 RMSE 0.436 -> 0.324
+  고EC: 사용 가능 변수만                     base  n 31 feats 39  R2(LOCO) -0.098 | 고EC 31 중 개선(vs base) nan / (vs 원 모델) 21 | 고EC 잔차 RMSE 0.436 -> 0.347
+  고EC: 사용 가능 변수만                     ridge n 31 feats 39  R2(LOCO) -0.225 | 고EC 31 중 개선(vs base) 12 / (vs 원 모델) 18 | 고EC 잔차 RMSE 0.436 -> 0.366
+  고EC: 사용 가능 변수만                     gbm   n 31 feats 39  R2(LOCO) -0.629 | 고EC 31 중 개선(vs base) 10 / (vs 원 모델) 18 | 고EC 잔차 RMSE 0.436 -> 0.422
+  고EC: 사용 가능 - 기하 변수 제외              base  n 31 feats 34  R2(LOCO) -0.098 | 고EC 31 중 개선(vs base) nan / (vs 원 모델) 21 | 고EC 잔차 RMSE 0.436 -> 0.347
+  고EC: 사용 가능 - 기하 변수 제외              ridge n 31 feats 34  R2(LOCO) -0.283 | 고EC 31 중 개선(vs base) 12 / (vs 원 모델) 18 | 고EC 잔차 RMSE 0.436 -> 0.375
+  고EC: 사용 가능 - 기하 변수 제외              gbm   n 31 feats 34  R2(LOCO) -1.262 | 고EC 31 중 개선(vs base) 7 / (vs 원 모델) 15 | 고EC 잔차 RMSE 0.436 -> 0.498
+  고EC: d_gap23 하나(오라클 지속)            base  n 31 feats 1  R2(LOCO) -0.098 | 고EC 31 중 개선(vs base) nan / (vs 원 모델) 21 | 고EC 잔차 RMSE 0.436 -> 0.347
+  고EC: d_gap23 하나(오라클 지속)            ridge n 31 feats 1  R2(LOCO) +0.660 | 고EC 31 중 개선(vs base) 19 / (vs 원 모델) 24 | 고EC 잔차 RMSE 0.436 -> 0.193
+  고EC: d_gap23 하나(오라클 지속)            gbm   n 31 feats 1  R2(LOCO) +0.097 | 고EC 31 중 개선(vs base) 16 / (vs 원 모델) 22 | 고EC 잔차 RMSE 0.436 -> 0.314
+  고EC: 배타성 앵커 2개                     base  n 31 feats 2  R2(LOCO) -0.098 | 고EC 31 중 개선(vs base) nan / (vs 원 모델) 21 | 고EC 잔차 RMSE 0.436 -> 0.347
+  고EC: 배타성 앵커 2개                     ridge n 31 feats 2  R2(LOCO) -0.092 | 고EC 31 중 개선(vs base) 14 / (vs 원 모델) 23 | 고EC 잔차 RMSE 0.436 -> 0.346
+  고EC: 배타성 앵커 2개                     gbm   n 31 feats 2  R2(LOCO) -0.571 | 고EC 31 중 개선(vs base) 13 / (vs 원 모델) 18 | 고EC 잔차 RMSE 0.436 -> 0.415
+  전체: 전체 변수(진단+사용)                   base  n 360 feats 58  R2(LOCO) -0.025 | 고EC 31 중 개선(vs base) nan / (vs 원 모델) 25 | 고EC 잔차 RMSE 0.436 -> 0.411
+  전체: 전체 변수(진단+사용)                   ridge n 360 feats 58  R2(LOCO) +0.720 | 고EC 31 중 개선(vs base) 20 / (vs 원 모델) 20 | 고EC 잔차 RMSE 0.436 -> 0.224
+  전체: 전체 변수(진단+사용)                   gbm   n 360 feats 58  R2(LOCO) +0.653 | 고EC 31 중 개선(vs base) 22 / (vs 원 모델) 23 | 고EC 잔차 RMSE 0.436 -> 0.274
+  전체: 사용 가능 변수만                      base  n 360 feats 39  R2(LOCO) -0.025 | 고EC 31 중 개선(vs base) nan / (vs 원 모델) 25 | 고EC 잔차 RMSE 0.436 -> 0.411
+  전체: 사용 가능 변수만                      ridge n 360 feats 39  R2(LOCO) -0.152 | 고EC 31 중 개선(vs base) 15 / (vs 원 모델) 15 | 고EC 잔차 RMSE 0.436 -> 0.421
+  전체: 사용 가능 변수만                      gbm   n 360 feats 39  R2(LOCO) -0.253 | 고EC 31 중 개선(vs base) 12 / (vs 원 모델) 14 | 고EC 잔차 RMSE 0.436 -> 0.470
+  전체: 배타성 앵커 3개                      base  n 360 feats 3  R2(LOCO) -0.025 | 고EC 31 중 개선(vs base) nan / (vs 원 모델) 25 | 고EC 잔차 RMSE 0.436 -> 0.411
+  전체: 배타성 앵커 3개                      ridge n 360 feats 3  R2(LOCO) -0.019 | 고EC 31 중 개선(vs base) 15 / (vs 원 모델) 20 | 고EC 잔차 RMSE 0.436 -> 0.422
+  전체: 배타성 앵커 3개                      gbm   n 360 feats 3  R2(LOCO) -0.416 | 고EC 31 중 개선(vs base) 13 / (vs 원 모델) 16 | 고EC 잔차 RMSE 0.436 -> 0.484
+
+=== E. 배타성 플래그 30기록: 고EC 15 vs 보통 15 를 대상 자신의 입력으로 가를 수 있나 (서술) ===
+  h<=  5 fan_mean    AUC(고EC 쪽 큼) 0.19 |  h<=  5 vent0_frac  AUC(고EC 쪽 큼) 0.57 |  h<=  5 co2in_mean  AUC(고EC 쪽 큼) 0.43 |  h<=  5 heat_mean   AUC(고EC 쪽 큼) 0.32 |  h<=  5 intemp_mean AUC(고EC 쪽 큼) 0.68 |
+  h<= 11 fan_mean    AUC(고EC 쪽 큼) 0.22 |  h<= 11 vent0_frac  AUC(고EC 쪽 큼) 0.66 |  h<= 11 co2in_mean  AUC(고EC 쪽 큼) 0.54 |  h<= 11 heat_mean   AUC(고EC 쪽 큼) 0.27 |  h<= 11 intemp_mean AUC(고EC 쪽 큼) 0.74 |
+  h<= 23 fan_mean    AUC(고EC 쪽 큼) 0.21 |  h<= 23 vent0_frac  AUC(고EC 쪽 큼) 0.70 |  h<= 23 co2in_mean  AUC(고EC 쪽 큼) 0.59 |  h<= 23 heat_mean   AUC(고EC 쪽 큼) 0.22 |  h<= 23 intemp_mean AUC(고EC 쪽 큼) 0.75 |
+  하루 밀폐(팬<10 & 환기0 >.85, 6.11 정의; h=23 판정) 걸러내기: 남는 9 중 고EC 7; 빠지는 21 중 고EC 8
+
+=== D. 평가 60 포괄 (사용 가능 변수가 실제로 계산되는가) ===
+  0시 쌍둥이(학습) 있음 41/60 | 날짜 정해짐 41 (날짜 후보 2개 이상 0) | 전날 묶음 있음 32
+  전날 묶음에 학습 고EC 있음 5 | 배타성 앵커 후보 있음 2: {'F47_235': {'excl_rec': 'F13_146', 'excl_ec23': 1.45, 'n_twin': 2, 'n_twin_hi': 0.0, 'n_prevdate': 3.0, 'n_prevdate_hi': 1.0}, 'F47_237': {'excl_rec': 'F13_243', 'excl_ec23': 1.793, 'n_twin': 1, 'n_twin_hi': 0.0, 'n_prevdate': 3.0, 'n_prevdate_hi': 1.0}}
+  링커 v4 평가 앵커: 1단계&p>=.8 23, 그중 앵커 23시 EC >= 1.0: 0; 앵커 23시 >= 1.0 전체 7
+saved C:\work\farmai\집\클로드\research\hx9\episode\vars_v2.csv C:\work\farmai\집\클로드\research\hx9\episode\ep2_excl_results_v1.csv C:\work\farmai\집\클로드\research\hx9\episode\ep2_eval_cov_v1.csv

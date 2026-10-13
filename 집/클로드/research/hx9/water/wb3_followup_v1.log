@@ -1,0 +1,35 @@
+=== (a) all-record Y2 multivariate without label-derived variable ===
+Y2 all | all46   ridge: R2cv base -0.025 -> -0.127 (gain -0.102); improved 141/360; hi10 among improved 0
+Y2 all | all46   gbm  : R2cv base -0.025 -> -0.367 (gain -0.342); improved 157/360; hi10 among improved 0
+Y2 all | D_only  ridge: R2cv base -0.025 -> -0.072 (gain -0.047); improved 168/360; hi10 among improved 0
+Y2 all | D_only  gbm  : R2cv base -0.025 -> -0.548 (gain -0.523); improved 181/360; hi10 among improved 0
+Y2 all | usable  ridge: R2cv base -0.025 -> -0.098 (gain -0.073); improved 140/360; hi10 among improved 0
+Y2 all | usable  gbm  : R2cv base -0.025 -> -0.315 (gain -0.290); improved 154/360; hi10 among improved 0
+null (permuted, gbm all46, 20 reps): gain mean -0.179, max -0.104
+Y2 hi10 | all46 ridge: R2cv base -0.098 -> -0.694; improved 11/31
+Y2 hi10 | all46 gbm: R2cv base -0.098 -> -0.416; improved 12/31
+
+=== (b) Y3 regression-to-mean check: partial r(var, EC_b | EC_a) ===
+         variable usability  r_prevEC_hi  r_Y3_hi  pr_ECb|ECa_hi         ci_hi  n_hi  r_Y3_all  pr_ECb|ECa_all        ci_all  pr_all_resid  n_all
+  prev_rad_in_sum         D        0.024    0.268          0.305 [-0.00,+0.57]    27    -0.038          -0.018 [-0.07,+0.07]        -0.001    319
+  lag2id_et_total       Uid       -0.199    0.374          0.327 [+0.23,+0.65]    27    -0.001           0.015 [-0.08,+0.14]         0.021    310
+       d_et_total         D        0.013   -0.222         -0.238 [-0.59,-0.01]    27    -0.040          -0.039 [-0.09,+0.03]        -0.033    319
+    prev_et_total         D       -0.021    0.156          0.162 [-0.06,+0.44]    27    -0.045          -0.026 [-0.08,+0.07]        -0.021    319
+         et_total         U       -0.005   -0.104         -0.117 [-0.62,+0.15]    27    -0.084          -0.066 [-0.13,+0.04]        -0.053    319
+       rad_in_sum         U        0.093   -0.021          0.019 [-0.61,+0.20]    27    -0.077          -0.058 [-0.12,+0.03]        -0.038    319
+          vpd_day         U       -0.073   -0.183         -0.234 [-0.65,+0.05]    27    -0.068          -0.055 [-0.13,+0.06]        -0.056    319
+prev_sealed_hours         D        0.474   -0.331         -0.168 [-0.77,+0.09]    27     0.093           0.065 [-0.08,+0.14]         0.022    319
+        tdiff_day         U        0.495   -0.291         -0.109 [-0.90,+0.31]    27     0.010          -0.030 [-0.19,+0.08]        -0.062    319
+         et_3link         D        0.222   -0.018          0.083 [-0.10,+0.45]    27    -0.060          -0.041 [-0.11,+0.06]        -0.019    319
+   rad_out_3d_dmt      Ucal        0.055    0.084          0.155 [-0.20,+0.50]    25    -0.013          -0.034 [-0.18,+0.16]         0.011    310
+
+=== (c) Y3 family-wise record permutation (47 vars, n=27) ===
+95% of max|r| under null = 0.572
+  lag2id_et_total      r_Y3 +0.374  p_fw 0.588
+  prev_sealed_hours    r_Y3 -0.331  p_fw 0.766
+  tdiff_day            r_Y3 -0.291  p_fw 0.882
+  prev_rad_in_sum      r_Y3 +0.268  p_fw 0.932
+  sealed_hours         r_Y3 -0.255  p_fw 0.956
+  sealed_day_hours     r_Y3 -0.241  p_fw 0.970
+
+hi10 sealed_0_5 values: {6.0: 35} | normal: {0.0: 117, 1.0: 4, 2.0: 9, 3.0: 7, 4.0: 7, 5.0: 8, 6.0: 213}
