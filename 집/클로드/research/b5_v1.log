@@ -1,0 +1,19 @@
+<string>:22: RuntimeWarning: Mean of empty slice
+EXM constant A = 0.394
+                n     p2  rows  delta      y     sg   dsse
+val    rec                                                
+DIAG10 F13_130  2  False   7.5 -0.305  0.773  0.987 -0.395
+       F13_132  3  False  24.0 -0.279  0.870  1.241 -3.100
+       F13_133  3  False  24.0 -0.304  0.979  1.234 -1.495
+       F13_135  3  False  24.0 -0.333  1.013  1.136  0.708
+       F13_137  3  False  24.0 -0.313  1.076  1.290 -0.867
+       F47_130  3  False  24.0 -0.237  0.491  1.055 -5.069
+EV     F13_133  3  False  24.0 -0.470  0.979  1.304 -2.036
+       F13_135  3  False  24.0 -0.398  1.013  1.482 -5.160
+       F13_137  3  False  24.0 -0.397  1.076  1.546 -5.176
+
+by validator: records fired, improved, total dSSE: {'DIAG10': (6, 5, -10.219), 'EV': (3, 3, -12.373)}
+
+¥ä from DIAG10 fired records (mean residual): -0.290
+eval F13_237: rows 24 | 12th mean 1.256 -> 0.966
+eval F47_233: rows 5 | 12th mean 0.587 -> 0.526
