@@ -17,7 +17,7 @@ rid = lambda i: f"{FARM[i]}_{NUM[i]:03d}"; idx = {rid(i): i for i in range(N)}
 rm = lambda e: float(np.sqrt(np.mean(np.square(e)))); rng = np.random.default_rng(20261210); lo_, hi_ = np.nanmin(EC[TRAIN]), np.nanmax(EC[TRAIN])
 D2 = pd.read_csv(os.path.join(HERE, "dg2_pairs_v1.csv"))
 Xc = np.c_[D2.F0.values, D2.F1.values]; c0, c1 = np.linalg.lstsq(Xc, D2.r.values, rcond=None)[0]
-print(f"fitted on {len(D2)} training pairs: c0 {c0:.3f} (anchor), c1 {c1:.3f} (afternoon trend A23 − A12)", flush=True)
+print(f"fitted on {len(D2)} training pairs: c0 {c0:.3f} (anchor), c1 {c1:.3f} (afternoon trend A23 - A12)", flush=True)
 L7 = pd.read_csv(os.path.join(env.LOCAL, "linker_v7", "cv_all400_choice_v7m.csv"), encoding="utf-8-sig")
 V7 = {r: p for r, p, q, l, d in zip(L7.rec, L7.prev, L7.p, L7.prev_is_labelled, L7.dT_air) if q >= .8 and l and abs(d) <= 1.5}
 res, recd, blocks = [], [], {}
