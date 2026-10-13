@@ -1,0 +1,18 @@
+local predicted change of adding v7 EC anchors (LB actual: +0.63% all rows, eval is all pass-2):
+           p2    all
+val                 
+DIAG10  -5.34  -1.60
+EL1    -28.12 -28.12
+EV     -18.97  -4.40
+P2LOO  -10.41 -10.41
+
+anchored pass-2 records: model day-level error before anchoring and anchor-vs-model gap (record means):
+       base_err           gap       
+           mean median   mean median
+val                                 
+DIAG10    0.067  0.026  0.064  0.030
+EL1       0.158  0.047  0.138  0.050
+EV        0.130  0.029  0.147  0.059
+P2LOO     0.082  0.032  0.065  0.024
+
+eval: records changed by v7 anchors 22, |change| mean 0.038 median 0.025
