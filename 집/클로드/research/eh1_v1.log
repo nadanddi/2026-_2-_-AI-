@@ -1,0 +1,51 @@
+keep-high cert pairs 17 | KEEP_h at 0/9/23h: 0.214 0.230 0.270
+done DIAG10 47
+done DIAG10 1414
+done DIAG10 6464
+done EL1 47
+done EL1 1414
+done EL1 6464
+done P2LOO 47
+done P2LOO 1414
+done P2LOO 6464
+done EV 101
+done EV 2024
+done EV 7
+   val seed  dSSE_all  dSSE_p2  p2_pct
+DIAG10   47     0.023    0.023   0.018
+DIAG10 1414     0.028    0.028   0.022
+DIAG10 6464     0.026    0.026   0.021
+   EL1   47    -7.222   -7.222  -3.968
+   EL1 1414    -7.203   -7.203  -4.019
+   EL1 6464    -7.285   -7.285  -4.050
+ P2LOO   47     0.122    0.122   0.146
+ P2LOO 1414     0.154    0.154   0.185
+ P2LOO 6464     0.017    0.017   0.020
+    EV  101    -7.409   -7.409  -4.488
+    EV 2024    -7.832   -7.832  -4.575
+    EV    7    -7.472   -7.472  -4.530
+
+fired (seed-merged):                 hours     pick  truly_high
+val    rec                                
+DIAG10 F47_212    1.0  F13_127       False
+       F47_214    2.0  F13_217       False
+EL1    F13_243   22.0  F13_241        True
+       F47_212    1.0  F13_127       False
+       F47_214    2.0  F13_217       False
+EV     F13_243   24.0  F47_151        True
+P2LOO  F13_243   22.0  F13_241        True
+       F47_212    1.0  F13_127       False
+       F47_214    2.0  F13_217       False
+       F47_216    7.0  F13_217       False
+
+(1) main: cells better 3/6 | P2LOO P(worse) 0.7086 | harmed record-cells 15 {'F47_212': 0.042, 'F47_214': 0.095, 'F47_216': 1.476} -> FAIL
+(2) EV: all-rows dSSE [-7.409, -7.832, -7.472] -> PASS
+(3) DIAG10 guard: mean dSSE +0.026 share(better) 0.000 -> FAIL
+pass-2 record changes: {('DIAG10', 'F47_212'): -0.016, ('DIAG10', 'F47_214'): 0.042, ('EL1', 'F13_243'): -7.368, ('EL1', 'F47_212'): 0.04, ('EL1', 'F47_214'): 0.091, ('EV', 'F13_243'): -7.571, ('P2LOO', 'F13_243'): -1.478, ('P2LOO', 'F47_212'): 0.041, ('P2LOO', 'F47_214'): 0.084, ('P2LOO', 'F47_216'): 1.451}
+EH1: FAIL
+
+eval records where EH1 fires (descriptive):
+   F13_221: hours 16/24, ancestor F13_217 (EC 1.69), 14th day-mean 1.615 -> +0.22 on those hours
+   F47_233: hours 3/24, ancestor F47_136 (EC 1.65), 14th day-mean 0.526 -> +0.22 on those hours
+   F47_235: hours 4/24, ancestor F47_147 (EC 1.75), 14th day-mean 1.298 -> +0.22 on those hours
+   F47_236: hours 7/24, ancestor F13_241 (EC 1.43), 14th day-mean 0.758 -> +0.22 on those hours
