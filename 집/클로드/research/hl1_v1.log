@@ -1,0 +1,68 @@
+train high records with clean prev: 31 | true prev itself high: 0.87 | cross-ID: 0.39
+     fire  acc  n_pick  nodate  nocand  ambig
+h                                            
+0   0.806  1.0    25.0     0.0   0.194  0.000
+9   0.806  1.0    25.0     0.0   0.194  0.000
+23  0.774  1.0    24.0     0.0   0.194  0.032
+    rec status  ncand   ok true_prev  cross_id    p2
+F13_118 nocand      0 None   F13_116     False False
+F13_120   pick      1 True   F13_118     False False
+F13_121   pick      1 True   F13_120     False False
+F13_123   pick      1 True   F13_121     False False
+F13_125   pick      1 True   F13_123     False False
+F13_127   pick      1 True   F13_125     False False
+F13_135 nocand      0 None   F13_133     False False
+F13_137   pick      1 True   F13_135     False False
+F13_139  ambig      2 None   F13_137     False False
+F13_146   pick      1 True   F47_147      True False
+F13_153   pick      1 True   F47_154      True False
+F13_175   pick      1 True   F47_174      True False
+F13_177 nocand      0 None   F47_176      True False
+F13_178   pick      1 True   F47_177      True False
+F13_217   pick      1 True   F13_127     False  True
+F13_243   pick      1 True   F47_151      True  True
+F47_132 nocand      0 None   F47_231     False False
+F47_134   pick      1 True   F47_132     False False
+F47_136   pick      1 True   F47_134     False False
+F47_138   pick      1 True   F47_136     False False
+F47_139   pick      1 True   F47_138     False False
+F47_141   pick      1 True   F47_139     False False
+F47_143   pick      1 True   F47_141     False False
+F47_145   pick      2 True   F47_143     False False
+F47_147   pick      1 True   F13_143      True False
+F47_151   pick      1 True   F13_241      True False
+F47_154   pick      1 True   F13_151      True False
+F47_157   pick      1 True   F13_153      True False
+F47_174 nocand      0 None   F13_172      True False
+F47_177   pick      1 True   F13_175      True False
+F47_231 nocand      0 None   F47_229     False  True
+
+eval records predicted high (12th >= 1.0):
+  F13_221 pred 1.62 | h0: nocand   n0 | h9: nocand   n0 | h23: nocand   n0
+  F13_223 pred 1.67 | h0: nodate   n0 | h9: nodate   n0 | h23: nodate   n0
+  F13_225 pred 1.80 | h0: nodate   n0 | h9: nodate   n0 | h23: nodate   n0
+  F13_237 pred 1.26 | h0: nocand   n0 | h9: nocand   n0 | h23: nocand   n0
+  F47_221 pred 1.40 | h0: nodate   n0 | h9: nodate   n0 | h23: nodate   n0
+  F47_223 pred 1.43 | h0: nodate   n0 | h9: nodate   n0 | h23: nodate   n0
+  F47_225 pred 1.69 | h0: nocand   n0 | h9: nocand   n0 | h23: nocand   n0
+  F47_227 pred 1.66 | h0: nocand   n0 | h9: nocand   n0 | h23: nocand   n0
+  F47_235 pred 1.30 | h0: pick F13_146 (23h 1.45) n1 | h9: pick F13_146 (23h 1.45) n1 | h23: pick F13_146 (23h 1.45) n1
+
+model-high train records by HL1 status (h23): n, share truly high (>=1.0), mean y, mean sg
+         n  truly_high      y     sg
+status                              
+nocand   7       0.714  1.498  1.229
+nodate   4       0.500  1.149  1.214
+pick    19       0.842  1.470  1.373
+    rec    sg     y status  high
+F47_231 1.498 2.177 nocand  True
+F13_151 1.381 1.677 nocand  True
+F47_229 1.342 1.788 nodate  True
+F13_143 1.245 1.530 nodate  True
+F47_132 1.241 2.712 nocand  True
+F13_132 1.241 0.870 nocand False
+F47_161 1.155 0.646 nodate False
+F13_135 1.136 1.013 nocand  True
+F13_233 1.115 0.634 nodate False
+F13_118 1.084 1.102 nocand  True
+F13_116 1.018 0.937 nocand False
