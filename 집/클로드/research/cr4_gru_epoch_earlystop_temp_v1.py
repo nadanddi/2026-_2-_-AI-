@@ -9,9 +9,9 @@ CR1(같은 동 사슬 GRU, 80 에폭 고정, 조기 종료 없음 → G1 DIAG10 
 """
 import os, sys, copy
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
-src = open(os.path.join(HERE, "cr1_chain_gru_temp_v1.py"), encoding="utf-8").read(); __file__ = os.path.join(HERE, "cr1_chain_gru_temp_v1.py")
-exec(src[:src.index("def fit_predict")])
-exec(src[src.index("res = []; blocks = {}"):src.index("for L, (M, cells) in FR.items():")])   # FR, layout_maps, DREC, DQ, DA, DY, purge
+CR1SRC = open(os.path.join(HERE, "cr1_chain_gru_temp_v1.py"), encoding="utf-8").read(); __file__ = os.path.join(HERE, "cr1_chain_gru_temp_v1.py")
+exec(CR1SRC[:CR1SRC.index("def fit_predict")])   # [실행 오류 수정: CR1 머리가 src 를 덮어씀 → 변수명 변경, 결과 전]
+exec(CR1SRC[CR1SRC.index("res = []; blocks = {}"):CR1SRC.index("for L, (M, cells) in FR.items():")])   # FR, layout_maps, DREC, DQ, DA, DY, purge
 SNAP = (5, 10, 20, 40, 80)
 def _z(Xtr):
     mu = np.nanmean(Xtr.reshape(-1, Xtr.shape[2]), 0); sd = np.nanstd(Xtr.reshape(-1, Xtr.shape[2]), 0) + 1e-6
