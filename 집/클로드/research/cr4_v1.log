@@ -1,0 +1,96 @@
+predecessors: 112 records | TNA8 extra anchors (mirror): 58
+done DIAG10
+done EL1
+done EXT10
+done EXT12
+done F
+done G
+done H
+done I
+done J
+done K
+done L
+early-stopping chosen epochs: median 5.0 | quantiles [2.0, 3.0, 9.0, 14.699999999999989] | by base {'G1': 5.0, 'G2': 5.0}
+
+[descriptive] epoch curve, cell-mean pct vs 14th-type:
+layout  DIAG10  EXT10
+arm                  
+G1-10    0.999  2.232
+G1-20    1.167  0.750
+G1-40    2.814  0.834
+G1-5     0.765  3.224
+G1-80    5.088  2.493
+G1-ES    0.739  1.244
+G2-10    5.021  8.445
+G2-20    5.296  6.869
+G2-40    7.179  7.109
+G2-5     4.818  9.202
+G2-80    9.894  8.329
+G2-ES    4.767  7.966
+
+[judged arms] per-cell pct:
+cell              0      1      2      3
+arm   layout                            
+G1-ES DIAG10  0.747  0.742  0.737  0.730
+      EL1     0.554  0.570  0.560  0.567
+      EXT10   0.990  1.356  1.138  1.491
+      EXT12   1.036  1.118  0.852  0.933
+      F       0.600  0.611  0.591  0.603
+      G       0.976  0.989  0.976  0.991
+      H       0.998  1.016  1.013  1.024
+      I       0.883  0.851  0.869  0.832
+      J       1.124  1.095  1.105  1.073
+      K       3.862  3.788  3.878  3.812
+      L       1.007  1.007  0.993  0.994
+G2-ES DIAG10  4.701  4.772  4.736  4.858
+      EL1     8.716  8.740  8.757  8.780
+      EXT10   7.447  8.236  7.685  8.495
+      EXT12   7.164  7.254  6.883  6.985
+      F       5.331  5.239  5.324  5.258
+      G       5.427  5.591  5.378  5.549
+      H       6.716  6.651  6.768  6.662
+      I       5.096  4.873  5.139  4.915
+      J       5.085  5.030  5.093  5.015
+      K       6.468  6.336  6.524  6.380
+      L       5.306  5.291  5.278  5.260
+arm     G1-ES   G2-ES
+layout               
+DIAG10  0.745   8.722
+EL1     0.563   8.748
+EXT10   6.987  32.779
+EXT12   3.552  19.663
+F       0.662   9.239
+G       0.459   8.902
+H       0.900  10.727
+I       0.529   9.011
+J       0.849   8.288
+K       1.600  10.646
+L       0.862  10.057
+
+== CR4 G2-ES:
+   DIAG10[primary] cells 0/4 P(worse) 1.0000 -> FAIL
+   EL1 mean +8.748% P(better) 0.004 SIGNIF WORSE
+   EXT10[primary] cells 0/4 P(worse) 0.9995 -> FAIL
+   EXT12 mean +7.072% P(better) 0.000 SIGNIF WORSE
+   F mean +5.288% P(better) 0.000 SIGNIF WORSE
+   G mean +5.486% P(better) 0.000 SIGNIF WORSE
+   H mean +6.699% P(better) 0.000 SIGNIF WORSE
+   I mean +5.006% P(better) 0.000 SIGNIF WORSE
+   J mean +5.055% P(better) 0.000 SIGNIF WORSE
+   K mean +6.427% P(better) 0.000 SIGNIF WORSE
+   L mean +5.284% P(better) 0.000 SIGNIF WORSE
+CR4 G2-ES: FAIL
+
+== CR4 G1-ES:
+   DIAG10[primary] cells 0/4 P(worse) 0.9994 -> FAIL
+   EL1 mean +0.563% P(better) 0.079
+   EXT10[primary] cells 0/4 P(worse) 0.8312 -> FAIL
+   EXT12 mean +0.985% P(better) 0.032
+   F mean +0.601% P(better) 0.004 SIGNIF WORSE
+   G mean +0.983% P(better) 0.000 SIGNIF WORSE
+   H mean +1.013% P(better) 0.000 SIGNIF WORSE
+   I mean +0.859% P(better) 0.000 SIGNIF WORSE
+   J mean +1.099% P(better) 0.002 SIGNIF WORSE
+   K mean +3.835% P(better) 0.000 SIGNIF WORSE
+   L mean +1.000% P(better) 0.000 SIGNIF WORSE
+CR4 G1-ES: FAIL
