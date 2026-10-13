@@ -90,6 +90,6 @@ pd.set_option("display.width", 200)
 cols = ["date_found", "S1", "S2", "S3", "twin"]
 T = pd.concat([E[cols].mean().rename("EVAL (60)"), S[S.pass2][cols].mean().rename(f"pseudo pass-2 val (n/draw {S[S.pass2].groupby('draw').size().mean():.0f})"),
                S[~S.pass2][cols].mean().rename(f"pseudo pass-1 val (n/draw {S[~S.pass2].groupby('draw').size().mean():.0f})")], axis=1)
-print("\nsituation shares (S2 for EVAL unknown — no truth):"); print(T.round(3).to_string())
+print("\nsituation shares (S2 for EVAL unknown - no truth):"); print(T.round(3).to_string())
 print("\npseudo val high-EC share: pass-2", round(float(S[S.pass2].hi.mean()), 3), "| pass-1", round(float(S[~S.pass2].hi.mean()), 3))
 print("pseudo pass-2 val by situation x high:"); print(pd.crosstab([S[S.pass2].S1, S[S.pass2].S2], S[S.pass2].hi, normalize=False).to_string())
