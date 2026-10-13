@@ -1,0 +1,31 @@
+
+TEMP TNA8 (vs 13th .4883): rows changed 192, records 8, RMS change 0.1425, mean -0.0168
+   records: ['F13_185', 'F13_200', 'F13_204', 'F13_205', 'F13_206', 'F47_184', 'F47_201', 'F47_207']
+   corr(change, current error) -0.30 -> score 0.4658
+   corr(change, current error) -0.20 -> score 0.4805
+   corr(change, current error) -0.10 -> score 0.4948
+   corr(change, current error) +0.00 -> score 0.5087
+   breakeven corr = -0.146
+
+TEMP TX2 COLD (vs 13th .4883): rows changed 128, records 12, RMS change 0.0534, mean +0.0134
+   records: ['F13_221', 'F13_223', 'F13_225', 'F13_227', 'F13_229', 'F13_237', 'F47_221', 'F47_223', 'F47_225', 'F47_227', 'F47_233', 'F47_235']
+   corr(change, current error) -0.30 -> score 0.4750
+   corr(change, current error) -0.20 -> score 0.4805
+   corr(change, current error) -0.10 -> score 0.4859
+   corr(change, current error) +0.00 -> score 0.4912
+   breakeven corr = -0.055
+   eval cold rows (in_temp<=8) 215; TX2 rows on cold 70
+
+TEMP TNA8 + TX2 COLD: rows changed 320, records 20, RMS change 0.1522, mean -0.0034
+   records: ['F13_185', 'F13_200', 'F13_204', 'F13_205', 'F13_206', 'F13_221', 'F13_223', 'F13_225', 'F13_227', 'F13_229', 'F13_237', 'F47_184', 'F47_201', 'F47_207', 'F47_221', 'F47_223', 'F47_225', 'F47_227', 'F47_233', 'F47_235']
+   corr(change, current error) -0.30 -> score 0.4658
+   corr(change, current error) -0.20 -> score 0.4815
+   corr(change, current error) -0.10 -> score 0.4967
+   corr(change, current error) +0.00 -> score 0.5115
+   breakeven corr = -0.156
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\lbc1_lb_candidate_eval_change_v1.py", line 43, in <module>
+    ns = {}; exec(b5src[:b5src.index("out = []")].replace('__file__ = os.path.join(HERE, "exc1_same_date_high_exclusion_v1.py")', '__file__ = os.path.join(HERE, "exc1_same_date_high_exclusion_v1.py")'), ns)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 11, in <module>
+NameError: name '__file__' is not defined. Did you mean: '__name__'?
