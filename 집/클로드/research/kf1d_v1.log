@@ -1,0 +1,17 @@
+predecessors: 112 records | TNA8 extra anchors (mirror): 58
+measured: sigma_s^2 0.549  sigma_L^2 0.342 (n 52)  sigma_h^2 0.239  beta23 0.235
+DIAG10 KFa fired 101 | total dSSE -43.54 (neg = better)
+by date consistency: {'False': {'size': 20, 'sum': -12.514, 'mean': -0.626}, 'True': {'size': 78, 'sum': -31.28, 'mean': -0.401}}
+by first link truth: {'False': {'size': 15, 'sum': -17.52, 'mean': -1.168}, 'True': {'size': 73, 'sum': -32.546, 'mean': -0.446}}
+by |move|: {Interval(0.0, 0.25, closed='right'): {'size': 56, 'sum': -6.71, 'mean': -0.12}, Interval(0.25, 0.5, closed='right'): {'size': 34, 'sum': -11.563, 'mean': -0.34}, Interval(0.5, 1.0, closed='right'): {'size': 10, 'sum': -24.427, 'mean': -2.443}, Interval(1.0, 1.5, closed='right'): {'size': 1, 'sum': -0.844, 'mean': -0.844}}
+by steps: {1: {'size': 56, 'sum': -40.758, 'mean': -0.728}, 2: {'size': 34, 'sum': -4.617, 'mean': -0.136}, 3: {'size': 11, 'sum': 1.831, 'mean': 0.166}}
+sign agreement move vs true 0h gap: 0.842 | slope of true_g0 on move: 1.266
+    rec  steps    p0   move date_ok true_prev   dsse
+F47_138      2 0.983 -0.381    True      True  1.564
+F13_192      2 0.964 -0.430    True      True  1.640
+F13_066      2 0.952  0.869    True      True  1.688
+F47_037      1 0.657  0.517    True     False  3.279
+F47_080      3 0.966  0.688    True      True  3.684
+F13_109      1 0.307 -0.449   False      None 11.622
+
+double-shrink check (pass-1 confident 1-step, n 52): ideal slope true_g0~g_hat 0.601 | KF K(p=1) = 0.616 | K*BETA0 = 0.471 | BETA0 alone 0.765
