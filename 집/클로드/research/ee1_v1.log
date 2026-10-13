@@ -1,0 +1,29 @@
+pairs with previous day truly high: 28 | END 1 | CONT 27
+END pairs:     rec    prev  yprev     y  sg|day*  ツsg|day*
+F13_156 F47_157  1.211 0.751    1.141     0.198
+
+features 148 | null 95% of max |AUC-.5| = 0.500  (* = full-day / non-causal window)
+                       AUC  passes
+out_temp|h00_05      0.000   False
+out_temp|h18_23      0.000   False
+out_temp|day*        0.000   False
+in_hum|h06_11        0.000   False
+ツsg|h00              1.000   False
+ツact_heating|h00_05  1.000   False
+ツout_hum|h00_05      1.000   False
+sg|slope23-0*        0.000   False
+act_shade|h18_23     1.000   False
+ツact_heating|h06_11  1.000   False
+ツact_heating|day*    1.000   False
+ツsg|slope23-0*       0.000   False
+in_hum|h12_17        0.000   False
+act_heating|h00_05   1.000   False
+ツact_co2|day*        0.963   False
+
+F13_156: prev F47_157 | prev truly high True [{'out_temp|h00_05': -6.717, 'out_temp|h18_23': -4.883, 'out_temp|day*': -3.754, 'in_hum|h06_11': 58.667, 'ツsg|h00': 0.47, 'ツact_heating|h00_05': 76.167}]
+
+F13_159: prev F47_161 | prev truly high False 
+
+F47_161: prev F47_160 | prev truly high False 
+
+F13_233: prev F13_231 | prev truly high False 
