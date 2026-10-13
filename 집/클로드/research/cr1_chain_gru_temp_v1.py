@@ -6,7 +6,7 @@
   오늘(25~48단계): 같은 입력 + 기준 예측 q_h + 시각.  한 방향 GRU 이므로 h 시 출력은 오늘 0..h 와 전날만 봄(규정: 같은 온실 해당·이전 + 학습 정답).
   출력 = 오늘 각 시각 보정량(목표 = y − 기준).
 모델: GRU(입력 →32, 1층) → Linear(1), Adam lr 2e-3·weight decay 1e-4·80 에폭·배치 64, 시드 1/2/3 평균, GPU.  특징 표준화·NaN→0 은 학습 폴드 기록으로.
-학습: 배치(DIAG10, EL1, EXT10, EXT12, F~L)마다 폴드별 교차 적합 — 폴드 k 기록을 맞힐 때 폴드 k 밖 기록으로 학습(정답 보임 판정도 폴드 k 기준), 셀 평균 기준으로 학습해 각 셀에 같은 보정 적용.
+학습: [실행 오류 후 수정 — 결과 보기 전, 기준 불변] 학습원은 TC1b 와 같이 DIAG10 OOF(셀 평균) 공통 — 배치·폴드 k 의 시험 기록과 같은 온실 ±1·다른 온실 ±5 번호 기록을 빼고 학습(정답 보임 판정은 시험 기록 숨김 기준), 각 셀에 같은 보정 적용.
 안(2개, α .0125):  G2 = 앵커 전 셀 q + GRU(목표 y − q)   (앵커 공식을 GRU 로 대체);   G1 = 14회차형(q + v7 앵커 + TNA8 앵커) + GRU(목표 y − 앵커판).
 기준 = 14회차형(셀 + v7 앵커 + TNA8 앵커, 측정 감쇠).  판정(온도 범위 규칙 ALL): 주 DIAG10·EXT10 모두 4칸 개선 & 농장×5일 블록 부트스트랩 P(악화) < .0125;
   나머지 배치는 칸 평균 악화이면서 블록 '후보가 나음' 비율 < .0125 이면 FAIL.
@@ -75,18 +75,27 @@ def fit_predict(Xtr, Ytr, Xte):
         with torch.no_grad(): preds.append(net(xe)[:, 24:].cpu().numpy())
     return np.mean(preds, 0)
 res = []; blocks = {}
-for L, (M, cells) in A7.A2.A1.frames().items():
+FR = A7.A2.A1.frames()
+def layout_maps(M, cells):
     key = (M.farm + "_" + M.day.map("{:03d}".format)).values; h = M.hour.values; y = M.sub_temp.values
     kb, Ab = A7.build(M, LC); anc = [A7.correct(M, c, kb, Ab, .8, "const", "meas", 2, 1.5) for c in cells]
-    qbar = np.mean(cells, 0); abar = np.mean(anc, 0)
-    recs = sorted(set(key)); pos = {r: np.where(key == r)[0] for r in recs}
-    def per_rec(arr): return {r: np.full(24, np.nan) if len(pos[r]) == 0 else np.array([arr[pos[r]][h[pos[r]] == t][0] if (h[pos[r]] == t).any() else np.nan for t in range(24)]) for r in recs}
-    Q, A, Y = per_rec(qbar), per_rec(abar), per_rec(y)
+    qbar = np.mean(cells, 0); abar = np.mean(anc, 0); recs = sorted(set(key)); pos = {r: np.where(key == r)[0] for r in recs}
+    def per_rec(arr): return {r: np.array([arr[pos[r]][h[pos[r]] == t][0] if (h[pos[r]] == t).any() else np.nan for t in range(24)]) for r in recs}
+    return key, h, y, anc, recs, pos, per_rec(qbar), per_rec(abar), per_rec(y)
+_, _, _, _, DREC, _, DQ, DA, DY = layout_maps(*FR["DIAG10"])   # common training source (DIAG10 OOF), purged per test fold
+def purge(te):
+    fd = {(FARM[idx[r]], int(NUM[idx[r]])) for r in te}; out = set()
+    for r in DREC:
+        f, d = FARM[idx[r]], int(NUM[idx[r]])
+        if any((f == f2 and abs(d - d2) <= 1) or (f != f2 and abs(d - d2) <= 5) for f2, d2 in fd): out.add(r)
+    return out
+for L, (M, cells) in FR.items():
+    key, h, y, anc, recs, pos, Q, A, Y = layout_maps(M, cells)
     fold_of = {r: M.fold.values[pos[r][0]] for r in recs}; corr2 = {}; corr1 = {}
     for k in sorted(set(fold_of.values())):
-        te = [r for r in recs if fold_of[r] == k]; tr = [r for r in recs if fold_of[r] != k]; hid = set(te)
-        for base, store in ((Q, corr2), (A, corr1)):
-            Xtr = build(tr, base, hid); Ytr = np.stack([Y[r] - base[r] for r in tr]); Xte = build(te, base, hid)
+        te = [r for r in recs if fold_of[r] == k]; hid = set(te); tr = [r for r in DREC if r not in purge(te)]
+        for (base, dbase), store in (((Q, DQ), corr2), ((A, DA), corr1)):
+            Xtr = build(tr, dbase, hid); Ytr = np.stack([DY[r] - dbase[r] for r in tr]); Xte = build(te, base, hid)
             P = fit_predict(Xtr, Ytr, Xte)
             for r, p in zip(te, P): store[r] = p
     def apply(arrs, corr):
