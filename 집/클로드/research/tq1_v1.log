@@ -1,0 +1,14 @@
+TQ8 new anchors EV: 3 (diag acc 0.500, n 2)
+TQ8 new anchors mirror: 2 (diag acc 0.000, n 2)
+
+== TQ8: EV pass-2 [0.0, 0.0, 0.0, 0.0] all [0.01, 0.01, 0.01, 0.01] | P 1.0000 drop-top3 +0.00 changed 0 harmed 0
+   DIAG10 pass-2 [0.0, 0.0, 0.0, 0.0] | P 1.0000 drop-top3 +0.00 changed 0 harmed 0
+layout                 all_pct                  p2_pct
+DIAG10 +0.02 +0.01 +0.01 +0.01 +0.00 +0.00 +0.00 +0.00
+     G +0.01 +0.01 +0.01 +0.01 +0.00 +0.00 +0.00 +0.00
+   EL1 +0.00 +0.00 +0.00 +0.00 +0.00 +0.00 +0.00 +0.00
+ EXT10 +0.00 +0.00 +0.00 +0.00 +0.00 +0.00 +0.00 +0.00
+ EXT12 -0.00 -0.00 -0.00 -0.00 +0.00 +0.00 +0.00 +0.00
+   pass-2 record dSSE EV (neg=better): {}
+   pass-2 record dSSE DIAG10: {}
+TQ1 TQ8: FAIL
