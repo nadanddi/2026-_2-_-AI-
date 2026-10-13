@@ -1,0 +1,79 @@
+predecessors: 112 records | TNA8 extra anchors (mirror): 58
+measured: sigma_s^2 0.549  sigma_L^2 0.342 (n 52)  sigma_h^2 0.239  beta23 0.235
+done DIAG10
+done EL1
+done EXT10
+done EXT12
+done F
+done G
+done H
+done I
+done J
+done K
+done L
+KF fired records by steps (DIAG10): {(1, False): 56, (1, True): 88, (2, False): 34, (3, False): 11}
+cell            0      1      2      3
+arm layout                            
+KFa DIAG10 -0.744 -0.750 -0.744 -0.752
+    EL1    -0.462 -0.451 -0.476 -0.443
+    EXT10  -2.269 -2.353 -2.236 -2.319
+    EXT12  -0.281 -0.287 -0.277 -0.283
+    F      -1.102 -1.151 -1.100 -1.153
+    G      -1.179 -1.173 -1.161 -1.162
+    H      -1.218 -1.206 -1.180 -1.178
+    I      -1.148 -1.212 -1.135 -1.226
+    J      -1.007 -0.969 -1.030 -0.997
+    K      -1.019 -1.001 -1.005 -0.991
+    L      -0.852 -0.823 -0.840 -0.814
+KFb DIAG10  1.013  1.018  1.036  1.070
+    EL1     1.635  1.652  1.604  1.642
+    EXT10   0.424  0.582  0.477  0.673
+    EXT12   5.346  5.341  5.234  5.240
+    F       0.997  0.798  0.990  0.805
+    G       0.906  1.072  0.906  1.049
+    H       1.469  1.409  1.512  1.423
+    I       1.175  0.859  1.216  0.878
+    J       0.907  0.954  0.878  0.910
+    K       1.140  1.123  1.194  1.167
+    L       1.018  1.045  1.001  1.015
+arm       KFa     KFb
+layout               
+DIAG10 -0.069   2.204
+EL1    -0.458   1.633
+EXT10   0.319  12.300
+EXT12   0.000  15.887
+F       0.024   2.606
+G      -0.627   2.197
+H      -0.426   3.213
+I      -0.006   2.938
+J      -0.088   1.849
+K      -0.774   1.623
+L      -0.110   2.047
+
+== KF1 KFa:
+   DIAG10[primary] cells 4/4 P(worse) 0.0242 -> FAIL
+   EL1 mean -0.458% P(better) 0.860
+   EXT10[primary] cells 4/4 P(worse) 0.0712 -> FAIL
+   EXT12 mean -0.282% P(better) 0.801
+   F mean -1.126% P(better) 0.998
+   G mean -1.169% P(better) 0.999
+   H mean -1.196% P(better) 0.999
+   I mean -1.180% P(better) 0.998
+   J mean -1.001% P(better) 0.995
+   K mean -1.004% P(better) 0.997
+   L mean -0.832% P(better) 0.976
+KF1 KFa: FAIL
+
+== KF1 KFb:
+   DIAG10[primary] cells 0/4 P(worse) 0.7560 -> FAIL
+   EL1 mean +1.633% P(better) 0.334
+   EXT10[primary] cells 0/4 P(worse) 0.7697 -> FAIL
+   EXT12 mean +5.290% P(better) 0.001 SIGNIF WORSE
+   F mean +0.897% P(better) 0.232
+   G mean +0.983% P(better) 0.220
+   H mean +1.453% P(better) 0.123
+   I mean +1.032% P(better) 0.220
+   J mean +0.912% P(better) 0.246
+   K mean +1.156% P(better) 0.239
+   L mean +1.020% P(better) 0.172
+KF1 KFb: FAIL
