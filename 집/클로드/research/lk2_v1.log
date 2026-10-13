@@ -1,0 +1,16 @@
+predecessors: 112 records | TNA8 extra anchors (mirror): 58
+mirror hops 400 | with cert truth 190 | acc 0.716
+EV hops 400 | with cert truth 190 | acc 0.695
+
+coefficients (standardized): {'lp0': np.float64(-0.215), 'margin': np.float64(1.32), 'p_null': np.float64(0.073), 'cross': np.float64(-0.413), 'dTin': np.float64(-0.497), 'dTout': np.float64(-0.763), 'date_yes': np.float64(0.02), 'date_no': np.float64(-0.49), 'same_id_earlier': np.float64(0.601), 'hp2_agree': np.float64(0.687)}
+
+EV AUC: q 0.907 vs p0 0.806
+  threshold 0.5: q>=t n 147 acc 0.850  |  p0>=t n 109 acc 0.890
+  threshold 0.6: q>=t n 134 acc 0.896  |  p0>=t n  94 acc 0.883
+  threshold 0.7: q>=t n 123 acc 0.919  |  p0>=t n  85 acc 0.894
+  threshold 0.8: q>=t n 110 acc 0.936  |  p0>=t n  69 acc 0.899
+  threshold 0.9: q>=t n  80 acc 0.963  |  p0>=t n  49 acc 0.918
+
+LK2 success (AUC q > p0 AND q>=.8 acc >= p0>=.8 acc AND count >=): True  [AUC 0.907/0.806, acc 0.936/0.899, n 110/69]
+
+DS8 culprit hops in EV: [{'rec': 'F47_126', 'prev': 'F13_120', 'ok': nan, 'p0': 0.65, 'q': 0.427}, {'rec': 'F13_160', 'prev': 'F13_175', 'ok': nan, 'p0': 0.369, 'q': 0.29}]
