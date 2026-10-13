@@ -1,0 +1,22 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+mirror targets (labelled true prev visible, not v7/TNA8): 23 (pass-2 7)
+  V15        all: fires  23 acc 0.565
+  V15        p2 : fires   7 acc 0.429
+  HP2        all: fires   5 acc 0.600
+  HP2        p2 : fires   3 acc 0.333
+  GPRS       all: fires   5 acc 0.400
+  GPRS       p2 : fires   2 acc 0.500
+  LK0        all: fires   6 acc 0.500
+  LK0        p2 : fires   3 acc 0.333
+  HP2&GPRS   all: fires   1 acc 1.000
+  HP2&GPRS   p2 : fires   0 acc nan
+  V15&LK0    all: fires   1 acc 1.000
+  V15&LK0    p2 : fires   0 acc nan
+  HP2&LK0    all: fires   4 acc 0.500
+  HP2&LK0    p2 : fires   3 acc 0.333
+  GPRS&LK0   all: fires   1 acc 1.000
+  GPRS&LK0   p2 : fires   0 acc nan
+
+eval new records beyond v23 per pair: {'V15&LK0': {'F13_221': 'F47_214'}}
+pairs meeting precision condition: [] | go to stage 2: none -> stop AG3
