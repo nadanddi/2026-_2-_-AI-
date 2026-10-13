@@ -1,0 +1,45 @@
+predecessors: 112 records | TNA8 extra anchors (mirror): 58
+zone sizes: {'silent': 258, 'anchor': 96, 'B5': 6} | EA2 44 TNA8 52 B5 6
+
+[zone x type] n / sum dSSE
+         size                  sum              
+zone       B5 anchor silent     B5 anchor silent
+type                                            
+H_missed  NaN    2.0    6.0    NaN  -0.63 -20.59
+H_seen    2.0    5.0   16.0   8.77  -5.41 -40.88
+N_falseH  3.0    2.0    2.0  16.31   7.68  19.33
+N_ok      1.0   87.0  234.0   0.82  -1.56  24.86
+
+[zone x pass] sum dSSE
+zone      B5  anchor  silent
+p2                          
+False  25.91    5.89  -10.58
+True     NaN   -5.80   -6.69
+
+silent-only total dSSE: all -17.27 | pass-2 -6.69
+
+[top 10 gains]
+    rec     type   zone   EA2  TNA8    B5     y  pred    dsse
+F47_132   H_seen silent False False False 2.712 1.241 -18.927
+F13_178   H_seen silent False False False 1.842 1.081  -9.342
+F13_243 H_missed silent False False False 1.719 0.992  -9.157
+F47_231   H_seen silent False False False 2.177 1.498  -4.840
+F47_177   H_seen anchor  True False False 1.487 1.026  -4.746
+F13_217   H_seen anchor  True False False 1.693 1.190  -4.660
+F13_121 H_missed silent False False False 1.318 0.886  -4.467
+F47_145   H_seen silent False False False 2.142 1.599  -3.637
+F47_229   H_seen silent False False False 1.788 1.342  -3.612
+F13_139 H_missed silent False False False 1.303 0.949  -2.993
+
+[top 10 losses]
+    rec     type   zone   EA2  TNA8    B5     y  pred   dsse
+F47_130 N_falseH     B5 False False  True 0.491 1.055  4.253
+F47_160     N_ok silent False False False 0.694 0.762  4.276
+F13_135   H_seen     B5 False False  True 1.013 1.136  4.332
+F13_137   H_seen     B5 False False  True 1.076 1.290  4.441
+F13_133 N_falseH     B5 False False  True 0.979 1.234  5.443
+F13_132 N_falseH     B5 False False  True 0.870 1.241  6.617
+F13_156 N_falseH anchor False  True False 0.751 1.141  7.669
+F13_159     N_ok silent False False False 0.599 0.874  9.074
+F13_233 N_falseH silent False False False 0.634 1.115  9.294
+F47_161 N_falseH silent False False False 0.646 1.155 10.039
