@@ -31,9 +31,11 @@ for fi, vd in enumerate(folds):
     forb = {(f, d + j) for f, d in vd for j in (-1, 0, 1)} | {(f, d + j) for f, d in lock for j in (-1, 0, 1)}
     tr_all = lab[np.array([(f, int(d)) not in forb for f, d in zip(lab.farm, lab.day)])].copy(); va = lab[va_m].copy()
     trs = {"ALL": tr_all, "P2ONLY": tr_all[tr_all.day >= 179].copy(), "W4": pd.concat([tr_all] + [tr_all[tr_all.day >= 179]] * 3)}
+    # [실행 오류 수정, 결과 전·기준 불변] 계절 지표는 1차 날을 기준점으로 써서 2차만으로는 못 만듦 → 세 안 모두 같은 폴드의 전체 학습 날로 계절 지표를 만들고 학습 행만 다르게
+    vdays = va[["farm", "day"]].drop_duplicates().reset_index(drop=True)
+    season, vq = dc4.season_index(tr_all[["farm", "day"]].drop_duplicates(), vdays, wv)
     for arm, tr in trs.items():
-        tdays = tr[["farm", "day"]].drop_duplicates(); vdays = va[["farm", "day"]].drop_duplicates().reset_index(drop=True)
-        season, vq = dc4.season_index(tdays, vdays, wv)
+        tdays = tr[["farm", "day"]].drop_duplicates()
         tr = tr.copy(); tr["season"] = [season[(f, d)] for f, d in zip(tr.farm, tr.day)]
         v2 = va.copy().merge(vdays.assign(season=vq), on=["farm", "day"], how="left").set_index(va.index)
         for sd in (47, 1414, 6464):
