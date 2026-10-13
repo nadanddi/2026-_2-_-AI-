@@ -22,7 +22,7 @@ lo_, hi_ = np.nanmin(EC[TRAIN]), np.nanmax(EC[TRAIN])
 OPS = ["act_co2", "act_heating", "act_thermal", "act_vent", "act_circfan", "in_co2"]; ABS = OPS + ["in_temp"]
 _X = pd.concat([pd.read_csv(os.path.join(env.DATA, f)) for f in ("train_X.csv", "test_X.csv")]); _X = _X[_X.row_id.str[:3].isin(["F13", "F47"])]
 _X["rec"] = _X.row_id.str[:7]; _X["h"] = _X.row_id.str[8:].astype(int)
-CUM = {v: _X.pivot(index="rec", columns="h", values=v).reindex(index=[rid(i) for i in range(N)], columns=range(24)).expanding(axis=1).mean().values for v in ABS + ["out_temp"]}
+CUM = {v: _X.pivot(index="rec", columns="h", values=v).reindex(index=[rid(i) for i in range(N)], columns=range(24)).T.expanding().mean().T.values for v in ABS + ["out_temp"]}
 TW = {}
 for i in range(N):
     m = np.where(TRAIN & np.all(np.abs(OUTX[:, 0] - OUTX[i, 0]) < 1e-6, axis=1))[0]; TW[i] = m[m != i]
