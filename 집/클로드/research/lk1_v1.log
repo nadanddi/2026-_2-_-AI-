@@ -1,0 +1,51 @@
+predecessors: 112 records | TNA8 extra anchors (mirror): 58
+EV hops with defined true prev: 319 | accuracy 0.693 | predicted-high 31 acc 0.839 | truly high 31 acc 0.710
+
+accuracy by p0 bin:
+             size   mean
+p0                      
+(0.0, 0.3]     95  0.274
+(0.3, 0.5]     44  0.682
+(0.5, 0.6]     23  0.913
+(0.6, 0.7]     14  0.786
+(0.7, 0.8]     28  0.929
+(0.8, 0.9]     31  0.935
+(0.9, 1.01]    84  0.929
+
+single-signal AUC for 'hop correct' (higher = signal value larger when correct; for distances expect < .5):
+  p0               n 319  AUC 0.847
+  margin           n 319  AUC 0.852
+  p_null           n 319  AUC 0.240
+  hp2_agree        n 319  AUC 0.601
+  date_ok          n  86  AUC 0.804
+  dTin             n 317  AUC 0.259
+  dTout            n 319  AUC 0.291
+  cross            n 319  AUC 0.381
+  same_id_earlier  n 319  AUC 0.636
+  dEC              n 156  AUC 0.312
+  dST              n 154  AUC 0.539
+
+conditional accuracy (all hops / predicted-high hops):
+  p0>=.8                 n 115 acc 0.930  |  predH n 14 acc 1.000
+  p0<.8                  n 204 acc 0.559  |  predH n 17 acc 0.706
+  hp2 agree              n  61 acc 0.918  |  predH n  6 acc 1.000
+  p0<.8 & hp2 agree      n  12 acc 0.583  |  predH n  0 acc nan
+  p0<.8 & hp2 disagree   n 192 acc 0.557  |  predH n 17 acc 0.706
+  date_ok==1             n  70 acc 0.871  |  predH n  7 acc 1.000
+  date_ok==0             n  16 acc 0.062  |  predH n  2 acc 0.000
+  p0<.8 & date_ok==1     n  20 acc 0.550  |  predH n  1 acc 1.000
+  cross-ID               n  55 acc 0.400  |  predH n  7 acc 0.714
+  same-ID earlier        n 226 acc 0.774  |  predH n 22 acc 0.864
+  dTin<=1.0              n 252 acc 0.778  |  predH n 25 acc 0.960
+  dTin>1.0               n  65 acc 0.385  |  predH n  6 acc 0.333
+  p0<.8 & dTin<=1        n 146 acc 0.664  |  predH n 12 acc 0.917
+
+DS8 false-ancestor chains (first hop):
+    rec    prev  ok    p0  margin  hp2_agree  date_ok  dTin  cross   dEC
+F47_128 F47_126   1 0.828   0.779          0      NaN   1.1      0   NaN
+F47_130 F47_128   1 0.839   0.774          0      NaN   0.3      0   NaN
+F47_134 F47_132   1 0.841   0.819          0      NaN   0.2      0   NaN
+F47_210 F47_130   1 0.733   0.615          0      NaN   0.1      0   NaN
+F47_141 F47_139   1 0.539   0.428          0      NaN   0.0      0   NaN
+F47_143 F47_141   1 0.709   0.577          0      NaN   0.4      0   NaN
+F13_160 F13_175   0 0.369   0.259          0      NaN   2.1      0 0.219
