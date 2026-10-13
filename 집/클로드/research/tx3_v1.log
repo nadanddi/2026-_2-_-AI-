@@ -1,0 +1,45 @@
+
+== DIAG10 (p2): records 52 | total SSE 615.0 | day-offset share 0.74 | F47 share 0.84 | anchored share 0.21 (n 26) | cold(<10C mean) share 0.00 | top10% share 0.71
+  offset sign among top-10 SSE records: over-pred 4 / 10
+            sse   off    e0    inT farm  anchored  ecsg
+rec                                                    
+F47_191  248.26 -3.11 -3.72  17.97  F47     False  0.35
+F47_241   71.41  1.64  2.51  14.78  F47     False  0.87
+F47_240   58.13  1.12 -0.03  12.00  F47      True  0.43
+F47_239   34.52 -1.05 -2.05  13.27  F47     False  0.47
+F47_190   23.05 -0.26  0.32  16.75  F47      True   NaN
+F13_244   19.47 -0.87 -1.40  14.75  F13     False  0.36
+F47_242   17.39 -0.60  0.02  13.63  F47     False  0.78
+F47_214   16.60  0.78  1.42  12.76  F47     False  0.44
+F13_231   12.09  0.63  1.37  12.52  F13     False  1.00
+F13_193    9.36 -0.35 -0.64  21.80  F13      True   NaN
+
+== EXT10 (all): records 77 | total SSE 1026.9 | day-offset share 0.57 | F47 share 0.53 | anchored share 0.12 (n 16) | cold(<10C mean) share 0.22 | top10% share 0.50
+  offset sign among top-10 SSE records: over-pred 4 / 10
+            sse   off    e0    inT farm  anchored  ecsg
+rec                                                    
+F13_109  169.24 -1.89 -0.67   9.99  F13     False  0.52
+F47_123   99.12  1.79  1.99  10.77  F47     False  0.66
+F47_145   59.50 -1.46 -2.94  13.83  F47     False  1.60
+F47_240   50.60  1.16  0.14  12.00  F47      True  0.43
+F47_132   48.54 -1.36 -0.75  12.07  F47     False  1.24
+F47_134   46.92 -1.39 -1.50  12.83  F47     False   NaN
+F47_141   43.61 -1.24 -2.36  14.58  F47     False  1.78
+F13_157   31.47  1.03  1.72   7.56  F13     False  0.45
+F13_102   30.43 -0.48  0.86  12.11  F13     False  0.37
+F47_214   18.57  0.77  1.68  12.76  F47     False  0.44
+
+== EXT12 (all): records 198 | total SSE 2599.3 | day-offset share 0.57 | F47 share 0.56 | anchored share 0.15 (n 43) | cold(<10C mean) share 0.08 | top10% share 0.45
+  offset sign among top-10 SSE records: over-pred 4 / 10
+            sse   off    e0    inT farm  anchored  ecsg
+rec                                                    
+F13_109  145.79 -1.26  0.47   9.99  F13     False  0.52
+F47_178  135.19 -2.08 -2.96  18.44  F47     False  0.72
+F47_123  118.97  2.03  2.71  10.77  F47     False  0.66
+F47_241  115.85  2.11  3.22  14.78  F47     False  0.87
+F47_240   68.32  1.35  0.19  12.00  F47      True  0.43
+F47_114   61.75 -0.34 -0.83  11.73  F47      True  0.88
+F13_139   55.04 -1.42 -1.15  14.13  F13     False  0.95
+F47_105   51.89  1.04 -0.11  13.18  F47     False  0.57
+F47_132   49.77 -1.39 -0.48  12.07  F47     False  1.24
+F47_141   45.26 -1.29 -2.11  14.58  F47     False  1.78
