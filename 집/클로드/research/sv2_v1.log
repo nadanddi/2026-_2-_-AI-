@@ -1,0 +1,97 @@
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 0 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 1 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 2 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 3 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 4 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 5 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 6 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 7 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 8 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 9 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 10 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 11 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 12 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 13 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 14 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 15 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 16 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 17 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 18 done
+   F13 anchors 18 of 24 pass-2 training days
+   F47 anchors 15 of 22 pass-2 training days
+draw 19 done
+pass_               sit  high cand  recs  rmse_base     pct  draws_better  draws_changed  P_worse
+   p1          S1 found False  ORA    90      0.107  -5.698         0.850          0.850    0.000
+   p1          S1 found False SHUF    90      0.107 111.351         0.050          0.850    1.000
+   p1          S1 found False  LKH    90      0.107   0.000         0.000          0.000    1.000
+   p1          S1 found  True  ORA     8      0.472 -11.355         0.556          0.667    0.023
+   p1          S1 found  True SHUF     8      0.472 126.764         0.000          0.667    1.000
+   p1          S1 found  True  LKH     8      0.472   0.000         0.000          0.000    1.000
+   p1 S2 pair-not-found False  ORA    23      0.117 -71.487         0.882          1.000    0.000
+   p1 S2 pair-not-found False SHUF    23      0.117 417.571         0.118          1.000    1.000
+   p1 S2 pair-not-found False  LKH    23      0.117   0.000         0.000          0.000    1.000
+   p1 S2 pair-not-found  True  ORA     3      0.279 -48.987         0.800          1.000    0.036
+   p1 S2 pair-not-found  True SHUF     3      0.279 253.796         0.200          1.000    1.000
+   p1 S2 pair-not-found  True  LKH     3      0.279   0.000         0.000          0.000    1.000
+   p1        S3 no-pair False  ORA   264      0.126   0.000         0.000          0.000    1.000
+   p1        S3 no-pair False SHUF   264      0.126   0.000         0.000          0.000    1.000
+   p1        S3 no-pair False  LKH   264      0.126   0.000         0.000          0.000    1.000
+   p1        S3 no-pair  True  ORA    18      0.558   0.000         0.000          0.000    1.000
+   p1        S3 no-pair  True SHUF    18      0.558   0.000         0.000          0.000    1.000
+   p1        S3 no-pair  True  LKH    18      0.558   0.000         0.000          0.000    1.000
+   p2          S1 found False  ORA    14      0.123 -40.021         1.000          1.000    0.002
+   p2          S1 found False SHUF    14      0.123 101.041         0.200          1.000    1.000
+   p2          S1 found False  LKH    14      0.123 -17.867         0.650          1.000    0.283
+   p2          S1 found  True  ORA     1      0.176 -10.063         0.444          1.000      NaN
+   p2          S1 found  True SHUF     1      0.176 592.519         0.000          1.000      NaN
+   p2          S1 found  True  LKH     1      0.176 -10.063         0.444          1.000      NaN
+   p2 S2 pair-not-found False  ORA     5      0.251 -69.429         0.941          1.000    0.000
+   p2 S2 pair-not-found False SHUF     5      0.251  70.684         0.176          1.000    0.879
+   p2 S2 pair-not-found False  LKH     5      0.251  -6.731         0.235          0.235    0.331
+   p2 S2 pair-not-found  True  ORA     1      0.235 -19.674         1.000          1.000      NaN
+   p2 S2 pair-not-found  True SHUF     1      0.235 397.482         0.000          1.000      NaN
+   p2 S2 pair-not-found  True  LKH     1      0.235   0.000         0.000          0.000      NaN
+   p2        S3 no-pair False  ORA    27      0.158   0.000         0.000          0.000    1.000
+   p2        S3 no-pair False SHUF    27      0.158   0.000         0.000          0.000    1.000
+   p2        S3 no-pair False  LKH    27      0.158  11.059         0.250          1.000    0.999
+   p2        S3 no-pair  True  ORA     2      0.431   0.000         0.000          0.000    1.000
+   p2        S3 no-pair  True SHUF     2      0.431   0.000         0.000          0.000    1.000
+   p2        S3 no-pair  True  LKH     2      0.431   0.000         0.000          0.000    1.000
