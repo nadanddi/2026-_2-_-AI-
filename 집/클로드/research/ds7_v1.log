@@ -1,0 +1,30 @@
+predecessors: 112 records | TNA8 extra anchors (mirror): 58
+done DIAG10 47
+done P2LOO 47
+done EL1 47
+done DIAG10 1414
+done P2LOO 1414
+done EL1 1414
+done DIAG10 6464
+done P2LOO 6464
+done EL1 6464
+done EV 101
+done EV 2024
+done EV 7
+   val seed    dSSE    all     p2  p2_high  p2_norm
+DIAG10   47 -17.749 -3.242 -7.394  -18.909   12.716
+ P2LOO   47   2.941  3.447  3.447  -10.942   18.816
+   EL1   47  -1.380 -0.746 -0.746   -6.719   13.643
+DIAG10 1414 -18.028 -3.347 -7.532  -19.265   13.334
+ P2LOO 1414   2.794  3.307  3.307  -11.214   19.371
+   EL1 1414  -1.946 -1.070 -1.070   -6.868   14.139
+DIAG10 6464 -19.046 -3.535 -8.612  -18.957   12.028
+ P2LOO 6464   2.812  3.294  3.294  -10.933   19.061
+   EL1 6464  -1.783 -0.976 -0.976   -6.664   14.019
+    EV  101  22.767  3.242 -9.436  -18.341   15.082
+    EV 2024  25.363  3.550 -9.034  -17.623   15.570
+    EV    7  25.075  3.521 -9.057  -18.167   14.991
+silent share by validator: {'DIAG10': 0.718, 'EL1': 0.5, 'EV': 0.735, 'P2LOO': 0.478}
+block bootstrap P(worse): {'DIAG10': 0.3101, 'P2LOO': 0.4028, 'EL1': 0.2543, 'EV': 0.5951}
+judged cells improved 3/9
+DS7 silent-zone HMM upper-bound gate: FAIL
