@@ -28,3 +28,11 @@ L = pd.DataFrame([dict(rec=rid(i), key=DAY[rid(i)], y=DM[i], p2=NUM[i] >= 179) f
 g = L.groupby("key").y.agg(["size", "std", "min", "max"]); g = g[g["size"] >= 2]
 print(f"\nnormal labelled records on the same training-calendar date (dates with >=2): {len(g)} dates | mean within-date SD of day-mean EC {g['std'].mean():.3f} | mean range {(g['max'] - g['min']).mean():.3f}")
 print(f"overall SD of normal day-mean EC: {L.y.std():.3f} (pass-1 {L[~L.p2].y.std():.3f}, pass-2 {L[L.p2].y.std():.3f}); mean {L.y.mean():.3f}")
+# ---- ND1b (사용자: '고EC 문제를 다 뺀다고 치면 보통 날 RMSE?') ----
+B = pd.concat([O[O.validator.isin(["DIAG10", "P2LOO", "EL1"])].rename(columns={"sub_ec": "y"})[["validator", "seed", "rec", "hour", "day", "y", "sg"]],
+               R.assign(validator="EV")[["validator", "seed", "rec", "hour", "day", "y", "sg"]]], ignore_index=True)
+B["hi"] = [DM[idx[r]] >= 1.0 for r in B.rec]; B["e"] = B.sg - B.y; out = []
+for (v, p2), G in B.groupby(["validator", B.day >= 179]):
+    out.append(dict(val=v, pass2=p2, high_rec_share=float(G.drop_duplicates(["seed", "rec"]).hi.mean()), rmse_all=rm(G.e), rmse_normal_only=rm(G.e[~G.hi]),
+                    rmse_all_high_perfect=rm(np.where(G.hi, 0, G.e)), high_share_of_SSE=float(np.sum(G.e[G.hi] ** 2) / np.sum(G.e ** 2))))
+print("\n[ND1b] if high-EC records were removed / perfect:"); print(pd.DataFrame(out).round(3).to_string(index=False))
