@@ -28,7 +28,7 @@ S = pd.DataFrame(rows).groupby(["val", "cand"]).rmse.mean().reset_index(); pd.se
 for v, g in S.groupby("val"): print(f"\n{v} (pass-2 truly-normal rows, seed-mean RMSE):"); print(g.sort_values("rmse")[["cand", "rmse"]].round(4).to_string(index=False))
 # ---- ND2b: 5점형 조합(입력만): R3/nosg + GRU10 ----
 rows2 = []
-for (arm, sd), G in R[R.arm == "BASE"].groupby(R.seed.astype(str)):
+for sd, G in R[R.arm == "BASE"].groupby(R[R.arm == "BASE"].seed.astype(str)):
     gr = np.array([GE.at[r, f"h{h}"] for r, h in zip(G.rec, G.hour)]); rows2.append(dict(val="EV", cand="BASE R3 + GRU10", rmse=rm(.9 * G.R3 + .1 * gr - G.y)))
 for (v, sd), G in O[O.tag == "CUR"].groupby(["validator", "seed"]):
     gr = np.array([G1.at[(v, r), f"h{h}"] for r, h in zip(G.rec, G.hour)]); rows2.append(dict(val=v, cand="CUR nosg + GRU10", rmse=rm(.9 * G.nosg + .1 * gr - G.sub_ec)))
