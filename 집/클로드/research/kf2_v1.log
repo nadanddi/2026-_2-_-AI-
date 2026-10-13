@@ -1,0 +1,83 @@
+done DIAG10
+done EL1
+done EXT10
+done EXT12
+done F
+done G
+done H
+done I
+done J
+done K
+done L
+done EV
+fired by layout/steps/anchored: {('DIAG10', 1, False): 22, ('DIAG10', 1, True): 68, ('DIAG10', 2, False): 16, ('EV', 1, False): 2, ('EV', 1, True): 61, ('EV', 2, False): 15, ('EXT10', 1, False): 7, ('EXT10', 1, True): 4, ('EXT10', 2, False): 1}
+cell             0      1      2      3
+arm  layout                            
+KF2a DIAG10 -0.185 -0.164 -0.165 -0.158
+     EL1    -0.239 -0.239 -0.249 -0.220
+     EV      0.061  0.069  0.059  0.063
+     EXT10  -1.600 -1.649 -1.597 -1.649
+     EXT12  -0.270 -0.272 -0.273 -0.275
+     F      -0.747 -0.810 -0.728 -0.798
+     G      -0.492 -0.516 -0.472 -0.495
+     H      -0.645 -0.636 -0.622 -0.623
+     I      -0.712 -0.783 -0.698 -0.791
+     J      -0.239 -0.254 -0.251 -0.268
+     K      -0.735 -0.715 -0.720 -0.707
+     L      -0.364 -0.319 -0.357 -0.314
+KF2b DIAG10  0.172  0.199  0.163  0.192
+     EL1     0.614  0.630  0.606  0.641
+     EV      0.522  0.528  0.533  0.532
+     EXT10  -1.499 -1.504 -1.524 -1.536
+     EXT12  -0.207 -0.211 -0.208 -0.211
+     F      -0.261 -0.374 -0.233 -0.356
+     G       0.058  0.038  0.069  0.047
+     H      -0.024 -0.043 -0.030 -0.051
+     I      -0.380 -0.432 -0.374 -0.450
+     J       0.238  0.148  0.200  0.106
+     K      -0.420 -0.426 -0.379 -0.384
+     L       0.116  0.125  0.119  0.131
+arm      KF2a   KF2b
+layout              
+DIAG10  0.326  1.291
+EL1    -0.237  0.623
+EV      0.212  1.466
+EXT10  -0.158  0.095
+EXT12   0.000 -0.005
+F       0.127  1.293
+G      -0.581  0.640
+H       0.260  1.628
+I       0.163  1.069
+J       0.147  0.998
+K      -0.435  0.593
+L       0.146  0.749
+
+== KF2 KF2a:
+   DIAG10[primary] cells 4/4 P(worse) 0.2186 -> FAIL
+   EL1 mean -0.237% P(better) 0.607
+   EV[primary] cells 0/4 P(worse) 0.8285 -> FAIL
+   EXT10[primary] cells 4/4 P(worse) 0.0070 -> ok
+   EXT12 mean -0.272% P(better) 0.823
+   F mean -0.771% P(better) 0.998
+   G mean -0.494% P(better) 0.990
+   H mean -0.632% P(better) 0.999
+   I mean -0.746% P(better) 0.996
+   J mean -0.253% P(better) 0.914
+   K mean -0.719% P(better) 0.998
+   L mean -0.338% P(better) 0.949
+KF2 KF2a: FAIL
+
+== KF2 KF2b:
+   DIAG10[primary] cells 0/4 P(worse) 0.6976 -> FAIL
+   EL1 mean +0.623% P(better) 0.486
+   EV[primary] cells 0/4 P(worse) 0.9859 -> FAIL
+   EXT10[primary] cells 4/4 P(worse) 0.0318 -> FAIL
+   EXT12 mean -0.209% P(better) 0.667
+   F mean -0.306% P(better) 0.763
+   G mean +0.053% P(better) 0.375
+   H mean -0.037% P(better) 0.452
+   I mean -0.409% P(better) 0.827
+   J mean +0.173% P(better) 0.397
+   K mean -0.402% P(better) 0.867
+   L mean +0.123% P(better) 0.382
+KF2 KF2b: FAIL
