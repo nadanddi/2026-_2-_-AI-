@@ -234,7 +234,7 @@ def report():
     D0 = os.path.join(env.ROOT, u"공용", u"대회자료", u"정형데이터", u"참가자_배포")
     tX = V18.ident(pd.read_csv(os.path.join(D0, "train_X.csv"))); sX = V18.ident(pd.read_csv(os.path.join(D0, "test_X.csv")))
     recs_all = sorted(set(zip(tX.farm, tX.day)) | set(zip(sX.farm, sX.day)))
-    Lk = pd.read_csv(LK)
+    Lk = pd.read_csv(os.path.join(env.LOCAL, "linker_v7", "cv_all400_choice_v7m.csv"))  # anchors = 13th config (v7), restitch chain uses LK
     Lk = Lk[Lk.prev_is_labelled.astype(bool) & (Lk.p >= .8) & (Lk.steps_to_anchor == 1) & Lk.anchor_st23.notna() & (Lk.dT_air.abs() <= 1.5)]
     AN_all = dict(zip(Lk.rec, Lk.anchor_st23)); PREV = dict(zip(Lk.rec, Lk.prev))
     st = pd.concat([pd.read_csv(os.path.join(EVP.OOF, "DIAG10_%d.csv" % k)) for k in range(10)], ignore_index=True)
