@@ -1,0 +1,46 @@
+connected pass-1 days: cert 25 | calendar +-2 191 | union 191
+folds 10 [5, 5, 5, 5, 4, 5, 5, 5, 5, 2]
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+fold 0 done
+   F13 anchors 11 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+fold 1 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+fold 2 done
+   F13 anchors 14 of 15 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+fold 3 done
+   F13 anchors 12 of 16 pass-2 training days
+   F47 anchors 12 of 17 pass-2 training days
+fold 4 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 13 pass-2 training days
+fold 5 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 7 of 12 pass-2 training days
+fold 6 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 12 of 13 pass-2 training days
+fold 7 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 8 of 10 pass-2 training days
+fold 8 done
+   F13 anchors 16 of 21 pass-2 training days
+   F47 anchors 9 of 14 pass-2 training days
+fold 9 done
+ arm  seed   rmse  normal   high  train_days
+ ALL    47 0.2920  0.1706 0.7389       300.9
+ ALL  1414 0.2899  0.1628 0.7455       300.9
+ ALL  6464 0.2889  0.1627 0.7420       300.9
+P2C1    47 0.3847  0.2101 0.9998        51.0
+P2C1  1414 0.3860  0.2126 0.9999        51.0
+P2C1  6464 0.3858  0.2123 0.9997        51.0
+P2C2    47 0.3389  0.1430 0.9430       178.9
+P2C2  1414 0.3353  0.1403 0.9343       178.9
+P2C2  6464 0.3347  0.1356 0.9380       178.9
+
+== P2T2 P2C1 vs ALL: seeds [31.72, 33.15, 33.54]% | fold-bootstrap P(worse) 0.9929 | folds better 2/10 -> FAIL
+
+== P2T2 P2C2 vs ALL: seeds [16.06, 15.66, 15.86]% | fold-bootstrap P(worse) 0.7771 | folds better 5/10 -> FAIL
