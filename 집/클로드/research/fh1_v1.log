@@ -1,0 +1,67 @@
+class counts: {'NM': 280, 'other': 51, 'TH': 23, 'FH': 6}
+
+== FALSE-HIGH cases (pred >= .95, actual < .85):
+    rec    p2  pred  pred0    y  prev_ec  next_ec  twin_hi  twin_max  in_temp_d  in_hum_d  in_co2_d  act_vent_d  act_shade_d  act_thermal_n  act_heating_n  act_co2_d  act_fog_d  out_rad_d
+F47_161 False  1.15   1.20 0.65     0.69     0.60    False       NaN      17.96     53.62    429.75        9.62        100.0            0.0           32.3      10.25       0.25     271.12
+F13_156 False  1.14   1.39 0.75     1.21     0.69    False      0.81      18.30     48.62    422.62        4.50        100.0            0.0           55.4      19.75       1.75     388.50
+F13_233  True  1.12   1.11 0.63     0.62      NaN    False       NaN      17.34     74.88    337.88        0.00        100.0            0.0           59.5      85.62       0.00     202.38
+F47_130 False  1.05   1.13 0.49     0.48     0.52     True      1.50      19.81     57.25    460.50       16.38        100.0            0.0           40.4      19.12       0.25     269.50
+F13_231  True  1.00   0.99 0.62      NaN     0.63    False      0.74      17.41     65.88    332.62        2.88        100.0            0.0            0.0      90.38       0.00     232.75
+F13_130 False  0.99   1.00 0.77     0.78     0.87     True      2.32      19.23     49.88    404.25        0.00          0.0            0.0            0.0       0.00       0.00     310.25
+
+== TRUE-HIGH (for contrast, top 15 by pred):
+    rec    p2  pred  pred0    y  prev_ec  next_ec  twin_hi  twin_max  in_temp_d  in_hum_d  in_co2_d  act_vent_d  act_shade_d  act_thermal_n  act_heating_n  act_co2_d  act_fog_d  out_rad_d
+F47_136 False  1.87   1.80 1.65     2.32     1.71    False      0.87      18.89     70.88    432.38        0.00        93.75            0.0            5.9       3.00       0.00     226.25
+F47_141 False  1.78   1.74 1.87     1.68     2.06    False      1.08      21.40     60.62    462.88        1.12        93.75            0.0           12.5       3.00       0.00     318.50
+F47_139 False  1.63   1.56 1.68     1.71     1.87    False      1.01      21.18     64.00    468.50        0.25        93.88            0.0            1.6       3.00       0.00     290.62
+F47_145 False  1.60   1.56 2.14     2.06      NaN    False       NaN      21.19     61.00    437.12        1.00        93.75            0.0            6.6       3.00       0.00     342.62
+F47_138 False  1.59   1.47 1.71     1.65     1.68    False      0.98      18.69     69.50    462.00        0.00        93.75            0.0            0.0       3.00       0.00     124.25
+F47_231  True  1.50   1.49 2.18     1.79     2.71    False      0.46      19.95     61.88    382.25        0.00        92.75            0.0           16.6       3.00       0.00     320.00
+F13_153 False  1.49   1.56 1.64     1.62     1.21    False      0.84      15.61     65.38    369.50        0.00       100.00            0.0            0.0       3.12       0.00     171.00
+F47_147 False  1.43   1.43 1.75     1.53     1.50    False      0.70      18.56     53.00    413.75        0.00       100.00            0.0            0.0      13.50       0.00     229.75
+F13_125 False  1.40   1.48 1.50     1.45     1.58    False      0.71      22.05     63.12    464.12        4.88        93.88            0.0           31.7       6.38       0.00     269.50
+F13_146 False  1.39   1.47 1.50     1.75      NaN    False      0.69      19.30     50.50    422.75        3.00       100.00            0.0            0.0       7.12       0.25     337.38
+F13_151 False  1.38   1.38 1.68      NaN     1.62    False      0.82      22.61     51.00    414.50       15.88       100.00            0.0            0.0      18.25       2.25     340.38
+F47_154 False  1.38   1.49 1.62     1.68     1.64    False      0.84      20.96     51.38    422.62       25.00       100.00            0.0            0.0      26.38       0.00     300.38
+F47_151 False  1.34   1.39 1.31     1.43     1.72    False      0.43      19.15     50.38    417.75       13.75       100.00            0.0            0.0      13.12       2.12     256.75
+F47_229  True  1.34   1.41 1.79      NaN     2.18    False       NaN      18.30     52.88    422.38        0.00        92.75            0.0           58.9       3.00       0.00     329.75
+F13_143 False  1.24   1.17 1.53      NaN     1.75    False       NaN      17.85     54.88    414.38       13.25       100.00            0.0            0.0      32.75       0.00     253.62
+
+== standardized mean differences (top by |TH_vs_NM|): which inputs make a day 'look high' and do FH share them?
+               FH_vs_NM  TH_vs_NM  FH_vs_TH  looks_high
+dT_in_out_d        1.03      1.29     -0.26        True
+act_vent_d        -1.09     -1.07     -0.01        True
+out_temp_n        -1.20     -1.07     -0.13        True
+out_temp_d        -1.06     -1.06     -0.00        True
+out_hum_n         -0.44     -0.84      0.39        True
+act_shade_d        0.26      0.78     -0.53        True
+act_thermal_d     -0.14      0.78     -0.92       False
+act_circfan_n     -0.97     -0.78     -0.20        True
+co2_drawdown      -0.81     -0.77     -0.04        True
+act_co2_d          3.20      0.74      2.47        True
+in_hum_n          -0.61     -0.67      0.07        True
+act_circfan_d     -0.90     -0.61     -0.29        True
+act_vent_n        -0.61     -0.61      0.00        True
+in_co2_n          -0.84     -0.60     -0.25        True
+act_shade_n       -0.49     -0.59      0.10        True
+out_wspd_n        -0.07      0.58     -0.65       False
+act_thermal_n     -0.56     -0.56      0.00        True
+act_fog_d         -0.63     -0.51     -0.13        True
+
+== inputs that separate FH from TH (top |FH_vs_TH|):
+               FH_vs_NM  TH_vs_NM  FH_vs_TH  looks_high
+act_co2_d          3.20      0.74      2.47        True
+act_thermal_d     -0.14      0.78     -0.92       False
+act_heating_n      0.34     -0.43      0.77       False
+in_temp_n         -0.99     -0.33     -0.66        True
+out_wspd_n        -0.07      0.58     -0.65       False
+act_heating_d     -0.52      0.12     -0.64       False
+act_shade_d        0.26      0.78     -0.53        True
+out_hum_n         -0.44     -0.84      0.39        True
+in_co2_d          -0.16      0.23     -0.39       False
+in_temp_d         -0.69     -0.32     -0.37        True
+
+== context: share with same-date high twin | prev-day EC known & high(>=1.0) | next-day EC high
+  FH: n 6 | twin_hi 0.33 | prev known 0.83, prev high 0.17 | next high 0.00 | pass-2 0.33
+  TH: n 23 | twin_hi 0.00 | prev known 0.83, prev high 0.83 | next high 0.78 | pass-2 0.22
+  NM: n 280 | twin_hi 0.11 | prev known 0.77, prev high 0.00 | next high 0.00 | pass-2 0.12
