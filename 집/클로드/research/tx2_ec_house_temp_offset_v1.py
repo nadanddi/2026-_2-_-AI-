@@ -26,7 +26,7 @@ ARMS = ("COLD", "ALL"); res = []; blocks = {}
 for L, (M, cells) in R.items():
     key = (M.farm + "_" + M.day.map("{:03d}".format)).values; h = M.hour.values; inT = M.in_temp.values; y = M.sub_temp.values
     kb, Ab = A7.build(M, L7f); cm = np.array([CM.get((k, int(hh)), np.nan) for k, hh in zip(key, h)]); w = np.clip((np.nan_to_num(cm, nan=0) - .8) / .4, 0, 1)
-    gate = {"COLD": np.clip((10 - inT) / 2, 0, 1), "ALL": np.ones(len(M))}
+    gate = {"COLD": np.nan_to_num(np.clip((10 - inT) / 2, 0, 1), nan=0.0), "ALL": np.ones(len(M))}
     for ci, c in enumerate(cells):
         base = A7.correct(M, c, kb, Ab, .8, "const", "meas", 2, 1.5)
         for a in ARMS:
