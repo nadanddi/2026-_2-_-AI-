@@ -67,5 +67,4 @@ R = pd.DataFrame(recrows); g = R.groupby(["arm", "rec"]).dsse.mean()
 for nm in ("DS3a", "DS3b"):
     gg = g[nm]; print(f"\n{nm} pass-2 record dSSE top gains:", (-gg).sort_values(ascending=False).head(6).round(3).to_dict(), "| worst:", (-gg).sort_values().head(6).round(3).to_dict())
 for nm in ("DS3a", "DS3b"):
-    ok = all(S[S.arm == nm][c].lt(0).all() for c in ("all", "p2", "p2_high")); print(f"
-{nm} upper-bound gate:", "PASS" if ok else "FAIL")
+    ok = all(S[S.arm == nm][c].lt(0).all() for c in ("all", "p2", "p2_high")); print(nm, "upper-bound gate:", "PASS" if ok else "FAIL")
