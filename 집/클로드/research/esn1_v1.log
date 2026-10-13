@@ -1,0 +1,77 @@
+predecessors: 112 records | TNA8 extra anchors (mirror): 58
+done DIAG10
+done EL1
+done EXT10
+done EXT12
+done F
+done G
+done H
+done I
+done J
+done K
+done L
+cell              0        1        2        3
+arm layout                                    
+E1  DIAG10    5.329    5.475    5.249    5.396
+    EL1       5.608    5.608    5.555    5.547
+    EXT10    15.492   15.915   15.615   15.991
+    EXT12   182.639  182.963  180.474  180.761
+    F         6.212    6.074    6.155    6.029
+    G         6.520    6.393    6.543    6.411
+    H         6.889    6.873    6.897    6.873
+    I         5.580    5.751    5.618    5.791
+    J         5.624    5.546    5.605    5.534
+    K         7.597    7.461    7.629    7.519
+    L         4.460    4.451    4.419    4.408
+E2  DIAG10    8.890    9.109    8.858    9.129
+    EL1      14.087   14.329   14.103   14.363
+    EXT10    20.278   21.002   20.388   21.101
+    EXT12   177.240  177.551  175.233  175.530
+    F        10.981   10.748   10.921   10.733
+    G        10.446   10.456   10.423   10.430
+    H        12.551   12.529   12.558   12.488
+    I         9.976    9.991   10.082   10.103
+    J        10.008    9.932   10.026    9.924
+    K        11.558   11.363   11.662   11.476
+    L        10.107   10.131   10.093   10.117
+arm          E1       E2
+layout                  
+DIAG10    7.840   16.882
+EL1       5.580   14.220
+EXT10    23.247   46.885
+EXT12   152.547  152.026
+F         8.057   16.908
+G         8.165   16.284
+H         7.497   17.922
+I         8.298   16.459
+J         6.467   15.103
+K         4.506   13.561
+L         6.141   16.473
+
+== ESN1 E2:
+   DIAG10[primary] cells 0/4 P(worse) 1.0000 -> FAIL
+   EL1 mean +14.220% P(better) 0.000 SIGNIF WORSE
+   EXT10[primary] cells 0/4 P(worse) 1.0000 -> FAIL
+   EXT12 mean +176.388% P(better) 0.000 SIGNIF WORSE
+   F mean +10.846% P(better) 0.000 SIGNIF WORSE
+   G mean +10.439% P(better) 0.000 SIGNIF WORSE
+   H mean +12.532% P(better) 0.000 SIGNIF WORSE
+   I mean +10.038% P(better) 0.000 SIGNIF WORSE
+   J mean +9.972% P(better) 0.000 SIGNIF WORSE
+   K mean +11.515% P(better) 0.000 SIGNIF WORSE
+   L mean +10.112% P(better) 0.000 SIGNIF WORSE
+ESN1 E2: FAIL
+
+== ESN1 E1:
+   DIAG10[primary] cells 0/4 P(worse) 1.0000 -> FAIL
+   EL1 mean +5.580% P(better) 0.000 SIGNIF WORSE
+   EXT10[primary] cells 0/4 P(worse) 1.0000 -> FAIL
+   EXT12 mean +181.709% P(better) 0.000 SIGNIF WORSE
+   F mean +6.118% P(better) 0.000 SIGNIF WORSE
+   G mean +6.467% P(better) 0.000 SIGNIF WORSE
+   H mean +6.883% P(better) 0.000 SIGNIF WORSE
+   I mean +5.685% P(better) 0.000 SIGNIF WORSE
+   J mean +5.578% P(better) 0.000 SIGNIF WORSE
+   K mean +7.551% P(better) 0.000 SIGNIF WORSE
+   L mean +4.435% P(better) 0.001 SIGNIF WORSE
+ESN1 E1: FAIL
