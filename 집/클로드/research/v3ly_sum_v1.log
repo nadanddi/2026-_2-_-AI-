@@ -1,0 +1,14 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+DIAG10 V3LY vs V3L all +0.02 +0.03 +0.02 +0.02 | p2 +0.04 +0.03 +0.05 +0.04 | cold +0.00 +0.00 +0.00 +0.00 | vs no-GRU -1.18 | alone V3LY 0.669 V3L 0.651
+EL1    V3LY vs V3L all +0.03 +0.03 +0.04 +0.04 | p2 +0.03 +0.03 +0.04 +0.04 | cold +0.00 +0.00 +0.00 +0.00 | vs no-GRU -1.56 | alone V3LY 0.620 V3L 0.625
+F      V3LY vs V3L all +0.13 +0.14 +0.12 +0.13 | p2 -0.08 -0.06 -0.08 -0.07 | cold +0.00 +0.00 +0.00 +0.00 | vs no-GRU -1.12 | alone V3LY 0.722 V3L 0.700
+G      V3LY vs V3L all +0.02 +0.02 +0.02 +0.01 | p2 -0.12 -0.10 -0.12 -0.11 | cold -0.00 -0.00 +0.00 -0.00 | vs no-GRU -1.22 | alone V3LY 0.717 V3L 0.703
+H      V3LY vs V3L all +0.08 +0.07 +0.07 +0.06 | p2 -0.09 -0.10 -0.11 -0.10 | cold -0.00 -0.00 -0.00 -0.00 | vs no-GRU -1.23 | alone V3LY 0.720 V3L 0.702
+I      V3LY vs V3L all +0.04 +0.05 +0.04 +0.04 | p2 -0.20 -0.19 -0.20 -0.20 | cold +0.01 +0.01 +0.01 +0.01 | vs no-GRU -1.17 | alone V3LY 0.721 V3L 0.706
+EXT10  V3LY vs V3L all +0.01 +0.01 +0.01 +0.02 | p2 +0.00 +0.00 +0.00 +0.00 | cold -0.01 -0.01 -0.01 -0.01 | vs no-GRU +0.17 | alone V3LY 1.134 V3L 1.180
+EXT12  V3LY vs V3L all +0.20 +0.19 +0.19 +0.19 | p2 +0.12 +0.13 +0.13 +0.13 | cold -0.00 -0.00 -0.00 -0.00 | vs no-GRU +0.36 | alone V3LY 1.395 V3L 1.353
+
+pooled P(V3LY worse than V3L) 0.7384 | safety {'EXT10': True, 'EXT12': False}
+V3LY: FAIL
