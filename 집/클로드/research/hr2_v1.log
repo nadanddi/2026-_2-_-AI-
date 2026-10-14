@@ -1,0 +1,8 @@
+records 360 high 31 folds 48
+
+day-level residual d = y_day - base_day: sd all 0.162 | normal 0.102 | high 0.331 (mean high +0.284)
+  zero   : resid RMSE all 0.1621 | normal 0.1041 | high 0.4362 | pass-2 0.2271 | corr(pred, d) nan
+  ridge  : resid RMSE all 0.1593 | normal 0.1171 | high 0.3859 | pass-2 0.1951 | corr(pred, d) 0.332
+  tabpfn : resid RMSE all 0.1446 | normal 0.0979 | high 0.3754 | pass-2 0.1881 | corr(pred, d) 0.452
+  gru16  : resid RMSE all 0.1607 | normal 0.1195 | high 0.3852 | pass-2 0.2186 | corr(pred, d) 0.258
+  gru32  : resid RMSE all 0.1598 | normal 0.1221 | high 0.3717 | pass-2 0.2349 | corr(pred, d) 0.315
