@@ -1,0 +1,77 @@
+corrector training records 360
+DIAG10 4 done
+DIAG10 5 done
+DIAG10 6 done
+DIAG10 7 done
+DIAG10 8 done
+DIAG10 9 done
+EL1 306 done
+EL1 307 done
+EL1 308 done
+EL1 309 done
+EL1 310 done
+EL1 311 done
+EL1 312 done
+EL1 313 done
+EL1 314 done
+EL1 315 done
+P2LOO 316 done
+P2LOO 317 done
+P2LOO 318 done
+P2LOO 319 done
+P2LOO 320 done
+P2LOO 321 done
+P2LOO 322 done
+P2LOO 323 done
+P2LOO 324 done
+P2LOO 325 done
+P2LOO 326 done
+P2LOO 327 done
+P2LOO 328 done
+P2LOO 329 done
+P2LOO 330 done
+P2LOO 331 done
+P2LOO 332 done
+P2LOO 333 done
+P2LOO 334 done
+P2LOO 335 done
+P2LOO 336 done
+P2LOO 337 done
+P2LOO 338 done
+P2LOO 339 done
+P2LOO 340 done
+P2LOO 341 done
+P2LOO 342 done
+P2LOO 343 done
+P2LOO 344 done
+P2LOO 345 done
+P2LOO 346 done
+P2LOO 347 done
+P2LOO 348 done
+P2LOO 349 done
+P2LOO 350 done
+P2LOO 351 done
+P2LOO 352 done
+P2LOO 353 done
+P2LOO 354 done
+P2LOO 355 done
+P2LOO 356 done
+P2LOO 357 done
+P2LOO 358 done
+P2LOO 359 done
+P2LOO 360 done
+P2LOO 361 done
+records with yesterday EC used: {'DIAG10': 0.306, 'EL1': 0.522, 'P2LOO': 0.63}
+   val  seed  dSSE_p2     p2    all  p2_normal  p2_high  hr5_vs_base  hr6_vs_base  X0_p2
+DIAG10  1357   -2.024 -1.455 -1.854     -5.621   -0.397       -0.835       -2.674  0.938
+DIAG10  2468   -0.471 -0.343 -1.293     -2.175    0.099       -1.293       -2.570  0.949
+DIAG10  3579   -2.072 -1.461 -1.771     -4.745   -0.639       -0.859       -2.615  0.753
+   EL1  1357   -5.489 -3.336 -3.336     -3.910   -3.130       -2.616       -5.865  0.036
+   EL1  2468   -6.097 -3.609 -3.609     -3.489   -3.656       -2.037       -5.573  0.004
+   EL1  3579   -5.208 -3.037 -3.037     -2.396   -3.307       -2.534       -5.494  0.017
+ P2LOO  1357   -2.933 -4.422 -4.422    -14.479    3.572       -8.565      -12.608 -1.886
+ P2LOO  2468   -3.357 -4.817 -4.817    -14.872    3.362       -8.540      -12.946 -2.016
+ P2LOO  3579   -3.391 -4.980 -4.980    -14.984    3.200       -8.486      -13.044 -2.020
+
+(1) main cells better 6/6 | P2LOO P(worse) 0.1426 | harmed record-cells 85 | (3) DIAG10 share(better) 0.926 -> PASS
+HR6R: FAIL
