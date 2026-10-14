@@ -87,6 +87,8 @@ for v in ("DIAG10", "EL1", "P2LOO"):
             dh = {h: float(models[h].predict(Q[j:j + 1])[0]) for j, h in enumerate(HS)}
             DH[(v, k, sd, r)] = np.array([dh[max(x for x in HS if x <= hh_)] for hh_ in range(24)])
         print(v, k, "done", flush=True)
+import pickle; pickle.dump(DH, open(os.path.join(env.LOCAL, 'cb1_dh_v1.pkl'), 'wb'))   # [실행 오류 수정: rm 미정의로 요약 단계에서 멈춤 -> rm 정의 + 중간 저장; 기준 불변]
+rm = lambda e: float(np.sqrt(np.mean(np.square(e))))
 rows = []
 for (v, k, sd), G_ in O.groupby(["validator", "fold", "seed"]):
     for r, g in G_.groupby("rec"):
