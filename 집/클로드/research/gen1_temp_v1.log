@@ -1,0 +1,28 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+done DIAG10
+done EL1
+done F
+done G
+done H
+done I
+done K
+done EXT10
+done EXT12
+         G_all  GV_all   C_all  CV_all    G_p2   GV_p2    C_p2   CV_p2
+layout                                                                
+DIAG10  0.6000  0.5948  0.5738  0.5689  0.7392  0.7343  0.6832  0.6775
+EL1     0.7359  0.7287  0.6728  0.6649  0.7359  0.7287  0.6728  0.6649
+F       0.6207  0.6147  0.5930  0.5874  0.7791  0.7683  0.7126  0.7021
+G       0.6326  0.6255  0.6018  0.5952  0.7887  0.7740  0.7265  0.7122
+H       0.6360  0.6294  0.6035  0.5976  0.7761  0.7646  0.7050  0.6953
+I       0.6341  0.6274  0.6037  0.5975  0.7707  0.7609  0.7055  0.6958
+K       0.6599  0.6538  0.6305  0.6240  0.7575  0.7453  0.6916  0.6790
+EXT10   0.7811  0.7812  0.7432  0.7434  0.8423  0.8423  0.6973  0.6973
+EXT12   0.7627  0.7626  0.7272  0.7275  0.9071  0.9040  0.7959  0.7944
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\gen1_temp_general_vs_structure_v1.py", line 48, in <module>
+    print(f"\n[{sc}] general G -> GV {100 * (R[f'GV_{sc}'] / R[f'G_{sc}'] - 1).round(2).to_dict()}")
+                                      ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for *: 'int' and 'dict'
