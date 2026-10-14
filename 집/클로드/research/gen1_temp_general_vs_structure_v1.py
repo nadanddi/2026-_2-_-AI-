@@ -45,7 +45,6 @@ for L in ["DIAG10", "EL1", "F", "G", "H", "I", "K", "EXT10", "EXT12"]:
     print("done", L, flush=True)
 R = pd.DataFrame(rows).set_index("layout"); pd.set_option("display.width", 240); print(R.round(4).to_string())
 for sc in ("all", "p2"):
-    print(f"
-[{sc}] general G -> GV {100 * (R[f'GV_{sc}'] / R[f'G_{sc}'] - 1).round(2).to_dict()}")
+    print(f"\n[{sc}] general G -> GV {100 * (R[f'GV_{sc}'] / R[f'G_{sc}'] - 1).round(2).to_dict()}")
     print(f"[{sc}] structure C vs general G {100 * (R[f'C_{sc}'] / R[f'G_{sc}'] - 1).round(2).to_dict()}")
     print(f"[{sc}] best general GV vs current C {100 * (R[f'GV_{sc}'] / R[f'C_{sc}'] - 1).round(2).to_dict()}")
