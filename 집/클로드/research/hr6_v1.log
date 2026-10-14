@@ -1,0 +1,83 @@
+corrector training records 360
+DIAG10 0 done
+DIAG10 1 done
+DIAG10 2 done
+DIAG10 3 done
+DIAG10 4 done
+DIAG10 5 done
+DIAG10 6 done
+DIAG10 7 done
+DIAG10 8 done
+DIAG10 9 done
+EL1 56 done
+EL1 57 done
+EL1 58 done
+EL1 59 done
+EL1 60 done
+EL1 61 done
+EL1 62 done
+EL1 63 done
+EL1 64 done
+EL1 65 done
+P2LOO 10 done
+P2LOO 11 done
+P2LOO 12 done
+P2LOO 13 done
+P2LOO 14 done
+P2LOO 15 done
+P2LOO 16 done
+P2LOO 17 done
+P2LOO 18 done
+P2LOO 19 done
+P2LOO 20 done
+P2LOO 21 done
+P2LOO 22 done
+P2LOO 23 done
+P2LOO 24 done
+P2LOO 25 done
+P2LOO 26 done
+P2LOO 27 done
+P2LOO 28 done
+P2LOO 29 done
+P2LOO 30 done
+P2LOO 31 done
+P2LOO 32 done
+P2LOO 33 done
+P2LOO 34 done
+P2LOO 35 done
+P2LOO 36 done
+P2LOO 37 done
+P2LOO 38 done
+P2LOO 39 done
+P2LOO 40 done
+P2LOO 41 done
+P2LOO 42 done
+P2LOO 43 done
+P2LOO 44 done
+P2LOO 45 done
+P2LOO 46 done
+P2LOO 47 done
+P2LOO 48 done
+P2LOO 49 done
+P2LOO 50 done
+P2LOO 51 done
+P2LOO 52 done
+P2LOO 53 done
+P2LOO 54 done
+P2LOO 55 done
+records with yesterday EC used: {'DIAG10': 0.322, 'EL1': 0.522, 'P2LOO': 0.63}
+   val  seed  dSSE_p2     p2    all  p2_normal  p2_high  hr6_vs_base_all  hr5_vs_base_all  X0_p2
+DIAG10    47    0.282  0.220  0.319     -2.289    1.545           -0.862           -1.178  0.881
+DIAG10  1414    0.602  0.485  0.288     -0.938    1.201           -0.778           -1.063  0.895
+DIAG10  6464    0.251  0.202  0.339     -2.329    1.391           -0.578           -0.914  0.918
+   EL1    47   -2.089 -1.234 -1.234     -0.500   -1.503           -5.388           -4.207  0.027
+   EL1  1414   -2.313 -1.388 -1.388     -1.435   -1.372           -5.549           -4.220 -0.019
+   EL1  6464   -2.213 -1.319 -1.319     -1.083   -1.398           -5.328           -4.063  0.009
+ P2LOO    47   -3.170 -4.676 -4.676    -14.801    3.441          -13.286           -9.032 -2.065
+ P2LOO  1414   -3.079 -4.591 -4.591    -14.854    3.363          -13.286           -9.112 -1.949
+ P2LOO  6464   -3.045 -4.489 -4.489    -14.623    3.419          -13.184           -9.103 -1.940
+
+(1) main: cells better 6/6 | P2LOO P(worse) 0.1399 | harmed record-cells 91 -> FAIL
+(3) DIAG10 guard: mean dSSE +1.704 share(better) 0.502 -> PASS
+record dSSE (all validators, seed mean) best/worst: {'F47_132': -2.808, 'F13_243': -2.212, 'F47_241': -1.627, 'F47_229': -1.517, 'F47_216': -1.35} {'F13_217': 1.629, 'F47_126': 1.803, 'F47_231': 1.937, 'F13_143': 2.354, 'F47_161': 3.51}
+HR6: FAIL
