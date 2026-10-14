@@ -1,0 +1,84 @@
+corrector training records 360
+DIAG10 0 done
+DIAG10 1 done
+DIAG10 2 done
+DIAG10 3 done
+DIAG10 4 done
+DIAG10 5 done
+DIAG10 6 done
+DIAG10 7 done
+DIAG10 8 done
+DIAG10 9 done
+EL1 56 done
+EL1 57 done
+EL1 58 done
+EL1 59 done
+EL1 60 done
+EL1 61 done
+EL1 62 done
+EL1 63 done
+EL1 64 done
+EL1 65 done
+P2LOO 10 done
+P2LOO 11 done
+P2LOO 12 done
+P2LOO 13 done
+P2LOO 14 done
+P2LOO 15 done
+P2LOO 16 done
+P2LOO 17 done
+P2LOO 18 done
+P2LOO 19 done
+P2LOO 20 done
+P2LOO 21 done
+P2LOO 22 done
+P2LOO 23 done
+P2LOO 24 done
+P2LOO 25 done
+P2LOO 26 done
+P2LOO 27 done
+P2LOO 28 done
+P2LOO 29 done
+P2LOO 30 done
+P2LOO 31 done
+P2LOO 32 done
+P2LOO 33 done
+P2LOO 34 done
+P2LOO 35 done
+P2LOO 36 done
+P2LOO 37 done
+P2LOO 38 done
+P2LOO 39 done
+P2LOO 40 done
+P2LOO 41 done
+P2LOO 42 done
+P2LOO 43 done
+P2LOO 44 done
+P2LOO 45 done
+P2LOO 46 done
+P2LOO 47 done
+P2LOO 48 done
+P2LOO 49 done
+P2LOO 50 done
+P2LOO 51 done
+P2LOO 52 done
+P2LOO 53 done
+P2LOO 54 done
+P2LOO 55 done
+lambda selection on DIAG10 (all rows, seed-mean RMSE): {0.5: np.float64(0.17668), 1.0: np.float64(0.18097)} -> lambda 0.5
+   val  seed  dSSE_p2     p2    all  p2_normal  p2_high  p2_noledger_dSSE
+DIAG10    47   -0.398 -0.309 -1.184      3.259   -2.084             0.547
+DIAG10  1414   -0.805 -0.644 -1.065      1.819   -1.832             0.518
+DIAG10  6464   -0.282 -0.227 -0.910      3.952   -2.056             0.502
+   EL1    47   -7.634 -4.199 -4.199     -5.184   -3.832             0.421
+   EL1  1414   -7.545 -4.214 -4.214     -4.606   -4.080             0.397
+   EL1  6464   -7.302 -4.060 -4.060     -4.933   -3.763             0.397
+ P2LOO    47   -7.249 -9.052 -9.052     -6.960  -10.786             1.001
+ P2LOO  1414   -7.247 -9.139 -9.139     -6.875  -10.945             0.974
+ P2LOO  6464   -7.301 -9.108 -9.108     -6.708  -11.025             0.881
+
+(1) main P2LOO+EL1: cells better 6/6 | P2LOO block P(worse) 0.0010 | harmed record-cells 120 -> PASS
+(3) DIAG10 harm guard: all-rows change [-1.18, -1.06, -0.91]% share(better) 0.800 -> PASS
+P2LOO pass-2 by hour block (dSSE, seed mean): {0: 0.057, 1: -1.238, 2: -2.537, 3: -3.548}
+P2LOO pass-2 record dSSE (seed mean), top: {'F47_231': -2.01, 'F13_233': -1.519, 'F13_217': -1.372, 'F47_229': -1.042, 'F13_243': -0.882, 'F47_241': -0.68} | worst: {'F13_211': 0.043, 'F47_212': 0.068, 'F47_214': 0.083, 'F13_241': 0.483, 'F13_214': 0.595}
+HR5: ADOPT
