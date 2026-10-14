@@ -1,0 +1,24 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+done DIAG10
+done EL1
+done F
+done G
+done H
+done I
+done EXT10
+done EXT12
+selection (DIAG10+EL1 cell-mean RMSE): {'0.1/GH': np.float64(0.61447), '0.1/G': np.float64(0.60997), '0.15/GH': np.float64(0.61068), '0.15/G': np.float64(0.60435), '0.2/GH': np.float64(0.60728), '0.2/G': np.float64(0.59939), '0.3/GH': np.float64(0.60152), '0.3/G': np.float64(0.59146), '0.4/GH': np.float64(0.59734), '0.4/G': np.float64(0.5864)} -> chosen (0.4, 'G')
+  (0.1, 'GH'): F +0.00 | G +0.00 | H +0.00 | I +0.00 | EXT10 +0.00 | EXT12 +0.00
+  (0.1, 'G'): F -0.24 | G -0.22 | H -0.33 | I -0.15 | EXT10 +0.15 | EXT12 +1.74
+  (0.15, 'GH'): F -0.49 | G -0.50 | H -0.52 | I -0.49 | EXT10 +0.06 | EXT12 +0.14
+  (0.15, 'G'): F -0.78 | G -0.74 | H -0.93 | I -0.64 | EXT10 +0.47 | EXT12 +3.15
+  (0.2, 'GH'): F -0.90 | G -0.91 | H -0.94 | I -0.89 | EXT10 +0.11 | EXT12 +0.32
+  (0.2, 'G'): F -1.17 | G -1.12 | H -1.38 | I -0.99 | EXT10 +0.97 | EXT12 +4.86
+  (0.3, 'GH'): F -1.44 | G -1.48 | H -1.50 | I -1.45 | EXT10 +0.23 | EXT12 +0.80
+  (0.3, 'G'): F -1.47 | G -1.44 | H -1.81 | I -1.25 | EXT10 +2.47 | EXT12 +9.08
+  (0.4, 'GH'): F -1.56 | G -1.67 | H -1.65 | I -1.62 | EXT10 +0.40 | EXT12 +1.42
+  (0.4, 'G'): F -1.13 | G -1.15 | H -1.62 | I -0.93 | EXT10 +4.65 | EXT12 +14.28
+judge F~I: all cells better False | pooled P(worse) 0.0852 | safety {'EXT10': False, 'EXT12': False}
+VW2: FAIL (keep .10/GH)
