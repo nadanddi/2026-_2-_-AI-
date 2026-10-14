@@ -1,0 +1,15 @@
+records 360 high 31 folds 48
+features S0 45 S1 104
+zero correction: all 0.1621 | normal 0.1041 | high 0.4362 | pass-2 0.2271
+  et_S0         : all 0.1542 | normal 0.1097 | high 0.3851 | pass-2 0.2037 | corr 0.312
+  et_S1         : all 0.1547 | normal 0.1107 | high 0.3847 | pass-2 0.2106 | corr 0.303
+  gp_S0         : all 0.1498 | normal 0.1091 | high 0.3663 | pass-2 0.1954 | corr 0.407
+  gp_S1         : all 0.1475 | normal 0.1095 | high 0.3543 | pass-2 0.1868 | corr 0.422
+  gru_seq       : all 0.1607 | normal 0.1195 | high 0.3852 | pass-2 0.2186 | corr 0.258
+  gru_seq+S1der : all 0.1695 | normal 0.1331 | high 0.3817 | pass-2 0.2157 | corr 0.207
+  lgb_S0        : all 0.1552 | normal 0.1096 | high 0.3899 | pass-2 0.2245 | corr 0.305
+  lgb_S1        : all 0.1609 | normal 0.1146 | high 0.4018 | pass-2 0.2478 | corr 0.218
+  ridge_S0      : all 0.1584 | normal 0.1186 | high 0.3770 | pass-2 0.1936 | corr 0.329
+  ridge_S1      : all 0.1678 | normal 0.1372 | high 0.3565 | pass-2 0.2127 | corr 0.330
+  tabpfn_S0     : all 0.1445 | normal 0.0980 | high 0.3747 | pass-2 0.1881 | corr 0.453
+  tabpfn_S1     : all 0.1452 | normal 0.0982 | high 0.3773 | pass-2 0.1911 | corr 0.445
