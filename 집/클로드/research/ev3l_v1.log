@@ -1,0 +1,17 @@
+links 208 | labelled records with yesterday window 0.52
+done DIAG10
+done P2LOO
+done EL1
+   val  seed  alone_EV3L  alone_E0  alone_sg  dSSE_p2  blend_vs_sg_EV3L  blend_vs_sg_E0
+DIAG10    47      0.2158    0.2237    0.1795  -1.0889           -2.6294         -1.5156
+DIAG10  1414      0.2158    0.2237    0.1781  -1.1370           -2.5995         -1.4694
+DIAG10  6464      0.2158    0.2237    0.1782  -1.1129           -2.5205         -1.4369
+   EL1    47      0.2772    0.3019    0.2900  -2.1445           -5.0365         -3.8282
+   EL1  1414      0.2772    0.3019    0.2878  -2.1225           -4.9840         -3.7704
+   EL1  6464      0.2772    0.3019    0.2883  -2.0981           -4.9044         -3.7100
+ P2LOO    47      0.2718    0.3052    0.1949  -3.3666           -3.0655          0.9907
+ P2LOO  1414      0.2718    0.3052    0.1940  -3.2280           -3.0382          0.8887
+ P2LOO  6464      0.2718    0.3052    0.1950  -3.2726           -3.1660          0.7776
+
+(1) main cells better 6/6 | P2LOO P(worse) 0.0080 | harmed record-cells 102 | (3) DIAG10 share(better) 0.998 -> PASS
+EV3L: ADOPT
