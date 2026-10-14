@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\mt4_ec_plus_irrigation_head_only_v1.py", line 15, in <module>
+    exec(src[:src.index("O = pd.read_csv")])
+  File "<string>", line 20
+    exec(src[:src.index("
+                        ^
+SyntaxError: unterminated string literal (detected at line 20)

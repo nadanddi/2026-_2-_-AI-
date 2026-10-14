@@ -12,7 +12,8 @@ Run:  cd 집/클로드/research && PYTHONPATH="" python -u mt4_ec_plus_irrigatio
 import os, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 src = open(os.path.join(HERE, "mt3_mtl_irrigation_head_f32_v1.py"), encoding="utf-8").read(); __file__ = os.path.join(HERE, "mt3_mtl_irrigation_head_f32_v1.py")
-exec(src[:src.index("O = pd.read_csv")])
+exec(src[:src.index("
+O = pd.read_csv")])
 __file__ = os.path.join(HERE, "mt4_ec_plus_irrigation_head_only_v1.py")
 class NetP(torch.nn.Module):
     def __init__(s, d):
