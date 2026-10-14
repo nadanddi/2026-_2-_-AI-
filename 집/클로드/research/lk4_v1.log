@@ -1,0 +1,15 @@
+predecessors: 112 records | TNA8 extra anchors (mirror): 58
+mirror: targets 190 candidate rows 629 | truth among candidates 0.8
+EV: targets 190 candidate rows 625 | truth among candidates 0.774
+
+v15R prev0 on same EV targets: acc 0.695 (n 190) | p0>=.8 n 69 acc 0.899
+h 0: top-1 acc 0.716 | q>=0.5: n 188 acc 0.723 | q>=0.8: n 159 acc 0.786 | q>=0.9: n 146 acc 0.829 | visible-labelled picks n 89 acc 0.562
+   h0 coefficients: {'v15p': np.float64(1.29), 'v15rank': np.float64(-1.15), 'date_ok': np.float64(0.12), 'date_bad': np.float64(-0.5), 'date_unk': np.float64(0.23), 'fp0': np.float64(-0.08), 'fp_rank0': np.float64(-0.27), 'fp_ratio0': np.float64(-0.17), 'dTin': np.float64(-0.05), 'dTout': np.float64(-1.02), 'cross': np.float64(-0.37), 'same_id_earlier': np.float64(0.08), 'cand_vis': np.float64(-0.92), 'hp2_agree': np.float64(0.84), 'n_cand': np.float64(-0.17)}
+h 3: top-1 acc 0.716 | q>=0.5: n 187 acc 0.727 | q>=0.8: n 159 acc 0.811 | q>=0.9: n 148 acc 0.831 | visible-labelled picks n 89 acc 0.562
+h 6: top-1 acc 0.726 | q>=0.5: n 182 acc 0.747 | q>=0.8: n 160 acc 0.812 | q>=0.9: n 146 acc 0.849 | visible-labelled picks n 90 acc 0.578
+h 9: top-1 acc 0.726 | q>=0.5: n 186 acc 0.742 | q>=0.8: n 159 acc 0.830 | q>=0.9: n 146 acc 0.877 | visible-labelled picks n 91 acc 0.571
+h12: top-1 acc 0.716 | q>=0.5: n 188 acc 0.723 | q>=0.8: n 157 acc 0.847 | q>=0.9: n 148 acc 0.872 | visible-labelled picks n 90 acc 0.556
+h23: top-1 acc 0.726 | q>=0.5: n 185 acc 0.746 | q>=0.8: n 162 acc 0.833 | q>=0.9: n 151 acc 0.874 | visible-labelled picks n 89 acc 0.584
+
+LK4 success at h0 (acc > v15R AND q>=.8 acc >= and count >=): False  [acc 0.716/0.695, q>=.8 n 159/69 acc 0.786/0.899]
+h0 wrong targets (sample): ['F13_016', 'F13_019', 'F13_020', 'F13_022', 'F13_027', 'F13_048', 'F13_079', 'F13_080', 'F13_091', 'F13_098', 'F13_099', 'F13_139', 'F13_153', 'F13_154', 'F13_155']
