@@ -1,0 +1,16 @@
+baseline v15R (visible-labelled prev0 & p0>=.8) on EV: n 43 correct 36 acc 0.837
+h 0: threshold 0.591 (mirror OOF visible acc>=.90) | EV anchor picks n 47 correct 41 acc 0.872 | all-pick acc 0.716
+      EV visible curve: t>=0.5: n 52 acc 0.865 ; t>=0.7: n 43 acc 0.907 ; t>=0.8: n 40 acc 0.950 ; t>=0.9: n 33 acc 1.000
+   trust coefficients: {'s1': np.float64(0.19), 'gap': np.float64(0.57), 'q': np.float64(-0.18), 'n_cand': np.float64(-0.01), 'date_ok': np.float64(0.44), 'date_bad': np.float64(-0.18), 'date_unk': np.float64(-0.38), 'fp': np.float64(-0.12), 'runner': np.float64(0.81), 'dTin': np.float64(-0.34), 'dTout': np.float64(-0.75), 'cross': np.float64(-0.39), 'v15p': np.float64(0.68), 'v15rank': np.float64(-0.03), 'vis': np.float64(-0.97), 'p_null': np.float64(-0.16)}
+h 3: threshold 0.574 (mirror OOF visible acc>=.90) | EV anchor picks n 49 correct 43 acc 0.878 | all-pick acc 0.716
+      EV visible curve: t>=0.5: n 54 acc 0.833 ; t>=0.7: n 42 acc 0.905 ; t>=0.8: n 39 acc 0.949 ; t>=0.9: n 33 acc 1.000
+h 6: threshold 0.579 (mirror OOF visible acc>=.90) | EV anchor picks n 49 correct 44 acc 0.898 | all-pick acc 0.726
+      EV visible curve: t>=0.5: n 55 acc 0.836 ; t>=0.7: n 44 acc 0.955 ; t>=0.8: n 40 acc 0.975 ; t>=0.9: n 34 acc 1.000
+h 9: threshold 0.489 (mirror OOF visible acc>=.90) | EV anchor picks n 52 correct 46 acc 0.885 | all-pick acc 0.726
+      EV visible curve: t>=0.5: n 52 acc 0.885 ; t>=0.7: n 45 acc 0.956 ; t>=0.8: n 41 acc 0.976 ; t>=0.9: n 35 acc 1.000
+h12: threshold 0.480 (mirror OOF visible acc>=.90) | EV anchor picks n 52 correct 45 acc 0.865 | all-pick acc 0.716
+      EV visible curve: t>=0.5: n 50 acc 0.900 ; t>=0.7: n 44 acc 0.932 ; t>=0.8: n 42 acc 0.952 ; t>=0.9: n 36 acc 0.972
+h23: threshold 0.502 (mirror OOF visible acc>=.90) | EV anchor picks n 53 correct 46 acc 0.868 | all-pick acc 0.726
+      EV visible curve: t>=0.5: n 54 acc 0.852 ; t>=0.7: n 48 acc 0.917 ; t>=0.8: n 45 acc 0.956 ; t>=0.9: n 40 acc 0.975
+
+LK5 success at h0: True
