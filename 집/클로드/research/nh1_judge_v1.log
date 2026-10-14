@@ -1,0 +1,100 @@
+HR5 training records 360
+DIAG10 4 done
+DIAG10 5 done
+DIAG10 6 done
+DIAG10 7 done
+DIAG10 8 done
+DIAG10 9 done
+EL1 306 done
+EL1 307 done
+EL1 308 done
+EL1 309 done
+EL1 310 done
+EL1 311 done
+EL1 312 done
+EL1 313 done
+EL1 314 done
+EL1 315 done
+P2LOO 316 done
+P2LOO 317 done
+P2LOO 318 done
+P2LOO 319 done
+P2LOO 320 done
+P2LOO 321 done
+P2LOO 322 done
+P2LOO 323 done
+P2LOO 324 done
+P2LOO 325 done
+P2LOO 326 done
+P2LOO 327 done
+P2LOO 328 done
+P2LOO 329 done
+P2LOO 330 done
+P2LOO 331 done
+P2LOO 332 done
+P2LOO 333 done
+P2LOO 334 done
+P2LOO 335 done
+P2LOO 336 done
+P2LOO 337 done
+P2LOO 338 done
+P2LOO 339 done
+P2LOO 340 done
+P2LOO 341 done
+P2LOO 342 done
+P2LOO 343 done
+P2LOO 344 done
+P2LOO 345 done
+P2LOO 346 done
+P2LOO 347 done
+P2LOO 348 done
+P2LOO 349 done
+P2LOO 350 done
+P2LOO 351 done
+P2LOO 352 done
+P2LOO 353 done
+P2LOO 354 done
+P2LOO 355 done
+P2LOO 356 done
+P2LOO 357 done
+P2LOO 358 done
+P2LOO 359 done
+P2LOO 360 done
+P2LOO 361 done
+rows 7464 skipped rows (not 24h) 0
+
+=== A1 vs S (rel RMSE %, negative = A1 better) ===
+   val  seed  dSSE_p2  dSSE_all    all     p1     p2  p2_normal  p2_high  X0_dSSE_p2  vsSH_p2
+DIAG10  1357   -4.156    -9.521 -1.935 -1.516 -3.007      3.108   -4.565       0.355   -1.727
+DIAG10  2468   -5.368   -11.266 -2.293 -1.667 -3.902      3.612   -5.706       0.273   -1.747
+DIAG10  3579   -5.266   -10.991 -2.217 -1.611 -3.750      3.449   -5.516       0.422   -2.178
+   EL1  1357  -12.205   -12.205 -7.175    NaN -7.175     -2.081   -9.034       1.188   -4.056
+   EL1  2468  -12.548   -12.548 -7.264    NaN -7.264     -3.608   -8.705       1.066   -4.766
+   EL1  3579  -14.390   -14.390 -8.188    NaN -8.188     -6.750   -8.789       1.202   -5.377
+ P2LOO  1357   -1.954    -1.954 -2.439    NaN -2.439     -0.088   -4.361       1.666    6.380
+ P2LOO  2468   -2.353    -2.353 -2.795    NaN -2.795     -1.337   -4.014       1.789    6.093
+ P2LOO  3579   -1.871    -1.871 -2.270    NaN -2.270     -0.076   -4.092       1.914    6.575
+(1) main: cells better 6/6 | P2LOO P(worse) 0.4898 (< 0.0125) | harmed record-cells 168 -> FAIL
+(3) DIAG10 harm guard: all-rows mean dSSE -10.593, share(better) 0.748 -> PASS
+X0 (ledger excluded, descriptive): P2LOO+EL1 pass-2 dSSE seed-sum 8.824
+P2LOO pass-2 records worst (seed-mean dSSE): {'F13_196': 0.223, 'F47_239': 0.226, 'F47_209': 0.381, 'F47_229': 0.431, 'F47_191': 0.502, 'F13_214': 1.154}
+NH1 A1: FAIL
+
+=== A2 vs S (rel RMSE %, negative = A2 better) ===
+   val  seed  dSSE_p2  dSSE_all     all     p1      p2  p2_normal  p2_high  X0_dSSE_p2  vsSH_p2
+DIAG10  1357    2.542    95.497  17.660 23.347   1.795      1.187    1.943      -0.993    3.138
+DIAG10  2468    4.464    97.657  18.021 23.386   3.132      5.087    2.679      -0.616    5.445
+DIAG10  3579    1.918    92.200  16.955 22.643   1.331      5.042    0.442       0.020    2.986
+   EL1  1357  -17.316   -17.316 -10.350    NaN -10.350     -8.701  -10.937       8.594   -7.337
+   EL1  2468  -18.014   -18.014 -10.612    NaN -10.612    -11.710  -10.195       8.802   -8.205
+   EL1  3579  -20.610   -20.610 -11.961    NaN -11.961    -15.651  -10.479       8.282   -9.266
+ P2LOO  1357   28.995    28.995  30.952    NaN  30.952      1.280   50.535       6.031   42.789
+ P2LOO  2468   27.099    27.099  27.864    NaN  27.864     -0.966   47.453       6.238   39.556
+ P2LOO  3579   28.300    28.300  29.570    NaN  29.570      0.445   49.127       6.344   41.296
+(1) main: cells better 3/6 | P2LOO P(worse) 0.9354 (< 0.0125) | harmed record-cells 148 -> FAIL
+(3) DIAG10 harm guard: all-rows mean dSSE +95.118, share(better) 0.003 -> FAIL
+X0 (ledger excluded, descriptive): P2LOO+EL1 pass-2 dSSE seed-sum 44.292
+P2LOO pass-2 records worst (seed-mean dSSE): {'F47_193': 0.658, 'F47_196': 0.786, 'F13_217': 1.143, 'F47_191': 4.755, 'F47_229': 8.836, 'F47_231': 18.828}
+NH1 A2: FAIL
+
+NH1 summary: {'A1': False, 'A2': False} -> preferred: none
