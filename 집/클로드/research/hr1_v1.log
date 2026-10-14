@@ -1,0 +1,14 @@
+high-EC records (lock excluded): 31
+episodes/groups: 13
+
+day-mean EC of high records: mean 1.549 sd 0.370
+  current base model (all-day trained OOF): RMSE 0.4362  corr 0.497
+  const   (high-only, leave-episode-out): RMSE 0.3868  corr -0.699
+  ridge   (high-only, leave-episode-out): RMSE 0.5208  corr -0.325
+  gp      (high-only, leave-episode-out): RMSE 0.3563  corr 0.447
+  tabpfn  (high-only, leave-episode-out): RMSE 0.3691  corr 0.329
+  gru8    (high-only, leave-episode-out): RMSE 0.4121  corr 0.267
+  gru16   (high-only, leave-episode-out): RMSE 0.3844  corr 0.373
+  50/50 base + tabpfn: RMSE 0.3427
+  50/50 base + gru16: RMSE 0.3515
+  50/50 base + ridge: RMSE 0.4186

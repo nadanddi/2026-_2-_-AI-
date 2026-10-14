@@ -44,8 +44,9 @@ def gru(tr, te, hdim):
         with torch.no_grad(): out.append(net(xe).cpu().numpy() + ym)
     return np.mean(out, 0)
 def pfn(tr, te):
-    from tabpfn import TabPFNRegressor
-    m = TabPFNRegressor(device=DEV, random_state=0); m.fit(S[tr], YD[tr]); return m.predict(S[te])
+    from tabpfn import TabPFNRegressor   # [실행 오류 수정: 기본 버전은 라이선스 다운로드 필요 -> 파이프라인과 같은 v2]
+    from tabpfn.constants import ModelVersion
+    m = TabPFNRegressor.create_default_for_version(ModelVersion.V2, device=DEV, random_state=0, ignore_pretraining_limits=True); m.fit(S[tr], YD[tr]); return m.predict(S[te])
 P = {k: np.zeros(len(HI)) for k in ("const", "ridge", "gp", "tabpfn", "gru8", "gru16")}
 for g in sorted(set(G)):
     te = np.where(G == g)[0]; tr = np.where(G != g)[0]
