@@ -31,7 +31,7 @@ src = open(os.path.join(HERE, "mt1_mtl_aux_future_inputs_v1.py"), encoding="utf-
 exec(src[:src.index("O = pd.read_csv")])
 __file__ = os.path.join(HERE, "nh1_nhm_general_formal_v1.py")
 rm = lambda e: float(np.sqrt(np.mean(np.square(e))))
-CK = os.path.join(env.LOCAL, "sz2_ckpt"); MTF = os.path.join(env.LOCAL, "nh1_mt1_v1.pkl"); SEEDS = (1357, 2468, 3579); N_FOLDS = 66
+CK = os.path.join(env.LOCAL, "sz2_ckpt"); MTF = os.path.join(env.LOCAL, "nh1_mt1_v1.pkl"); SEEDS = (1357, 2468, 3579); N_FOLDS = 62   # SZ2 folds() 실제 개수(처음 66 은 어림 오류, 판정 기준 불변)
 LAM, WM, PB = .5, .1, .0125
 def keep(h): return [0] + ([1] if h > 7 else []) + ([2] if h >= 9 else [])
 def featk(inp, base, h):
