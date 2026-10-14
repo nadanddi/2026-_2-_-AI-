@@ -28,6 +28,7 @@ def v3_for(L, M):
         d = os.path.join(env.LOCAL, "ts7_ckpt"); X = pd.concat([pd.read_csv(os.path.join(d, f)) for f in os.listdir(d) if f.startswith(L + "_")])
     return M[["row_id"]].merge(X[["row_id", "V3"]].drop_duplicates("row_id"), on="row_id", how="left").V3.values
 
+import env_extra_gpu  # noqa: F401  [실행 오류 수정: tabpfn 경로]
 from tabpfn import TabPFNRegressor
 from tabpfn.constants import ModelVersion
 import torch
