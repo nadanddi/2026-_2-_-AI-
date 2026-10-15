@@ -70,7 +70,7 @@ for nm in NAMES:
                 Q = P[[a, b]].dropna(); Q = Q[Q.abs().max(axis=1) > .2]
                 if len(Q) >= 5: out.append(f"{a}-{b} n{len(Q)} same {np.mean(np.sign(Q[a]) == np.sign(Q[b])):.2f} r {Q[a].corr(Q[b]):.2f}")
     print(f"  {nm}: " + " | ".join(out))
-print("\n[7] slice table: band x heat — sign of summed gain in each experiment x validator; 'consistent' = all cells with >= 15 rows same sign")
+print("\n[7] slice table: band x heat - sign of summed gain in each experiment x validator; 'consistent' = all cells with >= 15 rows same sign")
 rows = []
 for (b, h), S in G.groupby(["band", "heat"], observed=True):
     signs, tot = [], {}
