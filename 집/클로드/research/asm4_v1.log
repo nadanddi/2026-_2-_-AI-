@@ -1,0 +1,39 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 done
+EXT12 done
+DIAG10 done
+layout  table  labelled_anchor  chain
+ EXT10 MIRROR               13      8
+ EXT10    FL3               13     10
+ EXT12 MIRROR               10     40
+ EXT12    FL3               11     49
+DIAG10 MIRROR               78     72
+DIAG10    FL3               78     69
+
+== link table MIRROR (judged)
+  R27_CH_G10 vs R27_CH | EXT10: cells -0.021 +0.013 -0.017 +0.016 | <=8C rows +0.00% | >10C -0.01%
+  R27_CH_G10 vs R27_CH | EXT12: cells -0.051 -0.041 -0.051 -0.041 | <=8C rows +0.00% | >10C -0.07%
+  R27_CH_G10 vs R27_CH | DIAG10: cells -0.774 -0.765 -0.779 -0.772 | <=8C rows -0.00% | >10C -0.98%
+ASM4 MIRROR R27_CH_G10: 12 cells all better False | dedup P(worse) 0.0030 -> FAIL
+  R27_G10 vs R27_CH | EXT10: cells +0.064 +0.138 +0.063 +0.133 | <=8C rows -2.68% | >10C +0.03%
+  R27_G10 vs R27_CH | EXT12: cells +1.950 +1.972 +1.979 +1.999 | <=8C rows -0.72% | >10C +1.74%
+  R27_G10 vs R27_CH | DIAG10: cells -0.116 -0.088 -0.122 -0.093 | <=8C rows +0.65% | >10C -0.47%
+ASM4 MIRROR R27_G10: 12 cells all better False | dedup P(worse) 0.7319 (desc)
+  RMSE EXT10: R27_CH 0.7477 | R27_CH_G10 0.7477 | R27_G10 0.7485
+  RMSE EXT12: R27_CH 0.7415 | R27_CH_G10 0.7411 | R27_G10 0.7561
+  RMSE DIAG10: R27_CH 0.5878 | R27_CH_G10 0.5833 | R27_G10 0.5872
+
+== link table FL3 (desc)
+  R27_CH_G10 vs R27_CH | EXT10: cells -0.022 +0.013 -0.017 +0.016 | <=8C rows +0.00% | >10C -0.01%
+  R27_CH_G10 vs R27_CH | EXT12: cells -0.048 -0.039 -0.049 -0.039 | <=8C rows -0.00% | >10C -0.06%
+  R27_CH_G10 vs R27_CH | DIAG10: cells -0.773 -0.764 -0.778 -0.771 | <=8C rows -0.00% | >10C -0.98%
+ASM4 FL3 R27_CH_G10: 12 cells all better False | dedup P(worse) 0.0028 (desc)
+  R27_G10 vs R27_CH | EXT10: cells +0.493 +0.617 +0.512 +0.633 | <=8C rows -0.03% | >10C +0.25%
+  R27_G10 vs R27_CH | EXT12: cells +2.139 +2.125 +2.131 +2.118 | <=8C rows -0.85% | >10C +1.79%
+  R27_G10 vs R27_CH | DIAG10: cells -0.196 -0.160 -0.205 -0.170 | <=8C rows +0.78% | >10C -0.52%
+ASM4 FL3 R27_G10: 12 cells all better False | dedup P(worse) 0.8296 (desc)
+  RMSE EXT10: R27_CH 0.7317 | R27_CH_G10 0.7317 | R27_G10 0.7359
+  RMSE EXT12: R27_CH 0.7406 | R27_CH_G10 0.7403 | R27_G10 0.7564
+  RMSE DIAG10: R27_CH 0.5879 | R27_CH_G10 0.5834 | R27_G10 0.5868
