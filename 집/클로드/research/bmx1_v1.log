@@ -1,0 +1,51 @@
+C:\work\farmai\집\클로드\research\bmx1_unlinked_member_shape_v1.py:37: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  F = pd.DataFrame(dict(layout=L, rec=key, h=h, t=M.in_temp.values, y=M.sub_temp.values, BASE=M[[c for c in M.columns if c.startswith("base_R_")]].mean(1).values,
+CV8 unlinked records 31 / 39
+C:\work\farmai\집\클로드\research\bmx1_unlinked_member_shape_v1.py:37: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  F = pd.DataFrame(dict(layout=L, rec=key, h=h, t=M.in_temp.values, y=M.sub_temp.values, BASE=M[[c for c in M.columns if c.startswith("base_R_")]].mean(1).values,
+N unlinked records 231 / 370
+C:\work\farmai\집\클로드\research\bmx1_unlinked_member_shape_v1.py:37: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  F = pd.DataFrame(dict(layout=L, rec=key, h=h, t=M.in_temp.values, y=M.sub_temp.values, BASE=M[[c for c in M.columns if c.startswith("base_R_")]].mean(1).values,
+CK2 unlinked records 151 / 198
+C:\work\farmai\집\클로드\research\bmx1_unlinked_member_shape_v1.py:37: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  F = pd.DataFrame(dict(layout=L, rec=key, h=h, t=M.in_temp.values, y=M.sub_temp.values, BASE=M[[c for c in M.columns if c.startswith("base_R_")]].mean(1).values,
+EL1 unlinked records 28 / 52
+
+[1] member RMSE: total / level / shape (unlinked records, all layouts)
+member  total  level  shape
+  BASE 0.7844 0.6070 0.4969
+ CODEX 0.8141 0.6173 0.5308
+   PFN 0.7331 0.5626 0.4701
+ CELLS 0.7283 0.5655 0.4590
+ GRU10 0.7259 0.5637 0.4573
+ GRU30 0.7183 0.5586 0.4514
+
+[2] shape RMSE by hour block
+         BASE   CODEX     PFN   CELLS   GRU10   GRU30    rows
+hg                                                           
+00-05  0.5609  0.5945  0.5377  0.5094  0.5082  0.4990  2646.0
+06-11  0.4651  0.5175  0.4612  0.4485  0.4463  0.4441  2646.0
+12-17  0.4919  0.5374  0.4735  0.4636  0.4622  0.4572  2646.0
+18-23  0.4632  0.4657  0.3974  0.4087  0.4065  0.4000  2646.0
+
+[3] shape RMSE by in_temp band
+         BASE   CODEX     PFN   CELLS   GRU10   GRU30    rows
+band                                                         
+<=8    0.8335  0.8274  0.8637  0.8036  0.8024  0.8008   369.0
+8-12   0.5343  0.5485  0.4925  0.4917  0.4915  0.4860  4309.0
+12-16  0.3939  0.4335  0.4039  0.3676  0.3663  0.3590  2346.0
+16-20  0.4506  0.4579  0.3941  0.3900  0.3889  0.3883  1501.0
+>20    0.3986  0.4927  0.4008  0.3806  0.3770  0.3698  1997.0
+
+[4] best convex mix on SHAPE error per hour block (descriptive upper bound; .1 grid of BASE/CODEX/PFN) vs CELLS shape
+  00-05: best B0.4/C0.0/P0.6 shape 0.5044 vs CELLS 0.5094
+  06-11: best B0.5/C0.0/P0.5 shape 0.4477 vs CELLS 0.4485
+  12-17: best B0.4/C0.0/P0.6 shape 0.4574 vs CELLS 0.4636
+  18-23: best B0.2/C0.0/P0.8 shape 0.3931 vs CELLS 0.4087
+
+[5] correlation of shape errors between members
+         s_BASE  s_CODEX  s_PFN  s_GRU30
+s_BASE    1.000    0.795  0.773    0.923
+s_CODEX   0.795    1.000  0.827    0.907
+s_PFN     0.773    0.827  1.000    0.918
+s_GRU30   0.923    0.907  0.918    1.000
