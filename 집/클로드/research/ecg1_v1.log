@@ -1,0 +1,32 @@
+links 208 | labelled records with yesterday window 0.52
+REF: anchored record-validator groups on 75 / off 0
+HARD: anchored record-validator groups on 15 / off 60
+SOFT: anchored record-validator groups on 20 / off 55
+
+== HARD
+   val  seed  dSSE_p2  dSSE_all  rel_p2  p2_norm  p2_hi  rel_all
+ P2LOO  1357   4.7819    4.7819  6.6324  11.0715    0.0   6.6324
+ P2LOO  2468   5.1333    5.1333  6.8516  11.6232    0.0   6.8516
+ P2LOO  3579   5.3060    5.3060  7.1201  11.9362    0.0   7.1201
+   EL1  1357   1.6234    1.6234  1.4780   2.5270    0.0   1.4780
+   EL1  2468   1.6170    1.6170  1.4302   2.3952    0.0   1.4302
+   EL1  3579   1.6613    1.6613  1.4623   2.4351    0.0   1.4623
+DIAG10  1357   1.1725    6.2103  0.8560   2.4110    0.0   1.4565
+DIAG10  2468   1.1567    6.0439  0.8695   2.4685    0.0   1.4321
+DIAG10  3579   1.0986    5.6972  0.8080   2.2982    0.0   1.3373
+  changed record-cells helped 12 harmed 60
+ECG1 HARD: P2LOO/EL1 6 cells p2 better False | P2LOO P 0.9999 | harmed 60 | DIAG10 dSSE +5.9838 guard ok False -> FAIL
+
+== SOFT
+   val  seed  dSSE_p2  dSSE_all  rel_p2  p2_norm  p2_hi  rel_all
+ P2LOO  1357   4.7621    4.7621  6.6058  11.0279    0.0   6.6058
+ P2LOO  2468   5.1112    5.1112  6.8230  11.5757    0.0   6.8230
+ P2LOO  3579   5.2835    5.2835  7.0909  11.8883    0.0   7.0909
+   EL1  1357   1.5497    1.5497  1.4114   2.4137    0.0   1.4114
+   EL1  2468   1.5337    1.5337  1.3571   2.2733    0.0   1.3571
+   EL1  3579   1.5749    1.5749  1.3868   2.3099    0.0   1.3868
+DIAG10  1357   1.1725    5.3858  0.8560   2.4110    0.0   1.2644
+DIAG10  2468   1.1567    5.2350  0.8695   2.4685    0.0   1.2416
+DIAG10  3579   1.0986    5.0556  0.8080   2.2982    0.0   1.1876
+  changed record-cells helped 12 harmed 60
+ECG1 SOFT: P2LOO/EL1 6 cells p2 better False | P2LOO P 1.0000 | harmed 60 | DIAG10 dSSE +5.2255 guard ok False -> FAIL
