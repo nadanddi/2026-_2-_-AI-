@@ -1,0 +1,27 @@
+anchors all done
+anchors past done
+anchors future done
+
+vs R3S p (no SG2):
+  ORIG   gated days 14 (true high 14) | all -4.69% | high -7.07% | normal +0.00% | pass-2 -9.58%
+  PAST   gated days  9 (true high 9) | all -0.18% | high -0.27% | normal +0.00% | pass-2 -0.45%
+  FUTURE gated days  4 (true high 4) | all -3.80% | high -5.72% | normal +0.00% | pass-2 -6.27%
+  FLY    gated days  4 (true high 4) | all -0.18% | high -0.28% | normal +0.00% | pass-2 +0.00%
+
+ORIG gated days - anchor provenance (calendar offset o = neighbour - target):
+    rec   dm   pm      s1   o1      s2   o2  a1_true_prev  a1_true_next  has_FL_K8
+F13_125 1.50 1.37 F13_120 -2.2 F13_121 -1.2         False         False      False
+F13_137 1.08 1.28 F13_139  1.0 F13_143  3.0         False          True      False
+F47_132 2.71 1.11 F47_229  0.4 F47_231  0.6         False         False      False
+F47_136 1.65 1.88 F47_132 -2.0 F47_229 -2.5         False         False       True
+F47_138 1.71 1.34 F47_231 -2.5 F47_132 -2.2         False         False       True
+F47_139 1.68 1.52 F47_231 -2.5 F47_132 -2.2         False         False       True
+F47_141 1.87 1.68 F47_136 -3.0 F47_139 -1.0         False         False       True
+F47_145 2.14 1.47 F47_139 -1.3 F47_138 -2.3         False         False       True
+F13_151 1.68 1.35 F13_243 -0.2 F13_241 -0.4         False         False      False
+F47_147 1.75 1.43 F47_145 -0.2 F47_141 -2.2         False         False       True
+F47_229 1.79 1.16 F47_132  0.0 F47_136  2.0         False         False      False
+F47_231 2.18 1.28 F47_132 -0.2 F47_136  1.8         False         False      False
+F13_241 1.43 1.10 F13_151  2.0 F13_146 -2.0         False         False      False
+F13_243 1.72 1.08 F13_151  1.0 F13_146 -3.0         False         False       True
+share a1 in PAST 0.64 | a1 true prev 0.00 | a1 true next 0.07 | FL K8 already 0.50
