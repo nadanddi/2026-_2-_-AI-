@@ -1,0 +1,27 @@
+N 0 done (val 864, train 7296, cold<=8 rows 19)
+N 1 done (val 864, train 7440, cold<=8 rows 5)
+N 2 done (val 864, train 7368, cold<=8 rows 5)
+N 3 done (val 1152, train 6864, cold<=8 rows 2)
+N 4 done (val 1152, train 6936, cold<=8 rows 16)
+N 5 done (val 1152, train 6912, cold<=8 rows 19)
+N 6 done (val 960, train 7056, cold<=8 rows 5)
+N 7 done (val 864, train 7296, cold<=8 rows 38)
+N 8 done (val 864, train 7296, cold<=8 rows 28)
+N 9 done (val 864, train 7296, cold<=8 rows 27)
+CK 0 done (val 1080, train 6336, cold<=8 rows 4)
+CK 1 done (val 1056, train 7584, cold<=8 rows 17)
+CK 2 done (val 1032, train 7728, cold<=8 rows 28)
+CK 3 done (val 1056, train 7584, cold<=8 rows 83)
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\os1_temp_regime_split_v1.py", line 173, in <module>
+    {"base": run_base, "gru": run_gru, "sum": summarize}[MODE]()
+  File "C:\work\farmai\집\클로드\research\os1_temp_regime_split_v1.py", line 77, in run_base
+    tr, va = W.season_fold(pfn[tm], pfn[vm], wv, "os1_%s" % L, k)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\temp_tk_season_20261003_v1\world.py", line 47, in season_fold
+    sm,q,notes=mapping(td,qd,v);qm=dict(zip(qd.itertuples(index=False,name=None),q))
+               ^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\집\코덱스\analysis\ec_submission10_season_20261002_v1\season.py", line 48, in mapping
+    assert len(x)>0
+           ^^^^^^^^
+AssertionError
