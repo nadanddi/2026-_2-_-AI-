@@ -1,0 +1,77 @@
+links 208 | labelled records with yesterday window 0.52
+EV3L DIAG10 4 done
+EV3L DIAG10 5 done
+EV3L DIAG10 6 done
+EV3L DIAG10 7 done
+EV3L DIAG10 8 done
+EV3L DIAG10 9 done
+EV3L EL1 306 done
+EV3L EL1 307 done
+EV3L EL1 308 done
+EV3L EL1 309 done
+EV3L EL1 310 done
+EV3L EL1 311 done
+EV3L EL1 312 done
+EV3L EL1 313 done
+EV3L EL1 314 done
+EV3L EL1 315 done
+EV3L P2LOO 316 done
+EV3L P2LOO 317 done
+EV3L P2LOO 318 done
+EV3L P2LOO 319 done
+EV3L P2LOO 320 done
+EV3L P2LOO 321 done
+EV3L P2LOO 322 done
+EV3L P2LOO 323 done
+EV3L P2LOO 324 done
+EV3L P2LOO 325 done
+EV3L P2LOO 326 done
+EV3L P2LOO 327 done
+EV3L P2LOO 328 done
+EV3L P2LOO 329 done
+EV3L P2LOO 330 done
+EV3L P2LOO 331 done
+EV3L P2LOO 332 done
+EV3L P2LOO 333 done
+EV3L P2LOO 334 done
+EV3L P2LOO 335 done
+EV3L P2LOO 336 done
+EV3L P2LOO 337 done
+EV3L P2LOO 338 done
+EV3L P2LOO 339 done
+EV3L P2LOO 340 done
+EV3L P2LOO 341 done
+EV3L P2LOO 342 done
+EV3L P2LOO 343 done
+EV3L P2LOO 344 done
+EV3L P2LOO 345 done
+EV3L P2LOO 346 done
+EV3L P2LOO 347 done
+EV3L P2LOO 348 done
+EV3L P2LOO 349 done
+EV3L P2LOO 350 done
+EV3L P2LOO 351 done
+EV3L P2LOO 352 done
+EV3L P2LOO 353 done
+EV3L P2LOO 354 done
+EV3L P2LOO 355 done
+EV3L P2LOO 356 done
+EV3L P2LOO 357 done
+EV3L P2LOO 358 done
+EV3L P2LOO 359 done
+EV3L P2LOO 360 done
+EV3L P2LOO 361 done
+   val  seed  dSSE_p2  dSSE_all  vsS_all  vsS_p2  vsS_p2_normal  vsS_p2_high  vsNHM_p2  vsSH_p2  vsSH_all  X0_p2
+DIAG10  1357   -2.832    -8.447   -1.715  -2.038          1.008       -2.799     0.998   -0.746    -0.294  1.113
+DIAG10  2468   -3.953    -9.955   -2.023  -2.857          1.670       -3.924     1.087   -0.679    -0.234  1.045
+DIAG10  3579   -3.850    -9.632   -1.940  -2.727          1.598       -3.769     1.062   -1.139    -0.418  1.207
+   EL1  1357  -12.339   -12.339   -7.257  -7.257         -3.369       -8.663    -0.089   -4.141    -4.141  1.186
+   EL1  2468  -12.741   -12.741   -7.380  -7.380         -4.862       -8.365    -0.126   -4.886    -4.886  1.047
+   EL1  3579  -14.579   -14.579   -8.300  -8.300         -7.994       -8.427    -0.122   -5.493    -5.493  1.171
+ P2LOO  1357   -4.682    -4.682   -5.948  -5.948         -8.278       -4.125    -3.597    2.553     2.553  0.106
+ P2LOO  2468   -5.126    -5.126   -6.197  -6.197         -9.259       -3.746    -3.500    2.380     2.380  0.196
+ P2LOO  3579   -4.619    -4.619   -5.702  -5.702         -8.086       -3.806    -3.512    2.832     2.832  0.331
+
+(1) main cells better 6/6 | P2LOO P(worse) 0.2689 | harmed record-cells 157 | (3) DIAG10 mean dSSE -9.345 share(better) 0.722 -> PASS
+P2LOO worst records: {'F13_196': 0.161, 'F47_239': 0.188, 'F13_211': 0.238, 'F47_209': 0.362, 'F47_191': 0.479, 'F47_229': 0.604}
+NH2: FAIL
