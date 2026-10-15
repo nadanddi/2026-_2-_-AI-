@@ -1,0 +1,7 @@
+rules searched 36678 (conditions 168) | rows 490 | MISS rows 36 (base rate 0.073)
+[A magnitude] best lift 13.61 | support 9 | rule: t_max<=20.10 AND range_ratio>=1.33
+[B direction] best |t| 12.45 | mean m +1.44 | support 9 | rule: t_max<=20.10 AND range_ratio>=1.33
+  chance (record-shuffled, 200x) 95% quantile: lift 11.22 | |t| 40.35  -> real lift ABOVE chance, real |t| within chance
+  CV magnitude lift on held-out records: [np.float64(0.0), None, None, np.float64(19.6), None]
+  CV direction (train mean, held-out mean, n): [(np.float64(-0.51), np.float64(-0.32), 7), (np.float64(0.34), np.float64(0.29), 6), (np.float64(1.44), None, 0), (np.float64(0.14), np.float64(0.14), 3), (np.float64(1.44), None, 0)]
+DHM3: magnitude rule chance-level | direction rule chance-level
