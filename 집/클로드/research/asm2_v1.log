@@ -1,0 +1,14 @@
+N done
+CK2 done
+EL1 done
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 done
+EXT12 done
+N     NEW vs R27 -2.952 -2.980 -2.997 -3.033 | cold -0.24% p2 -2.57% || TX3-new share in assembly: NEW vs NEW_oldTX3 -0.455% (cold +0.00%)
+CK2   NEW vs R27 -1.884 -1.891 -1.914 -1.917 | cold +0.00% p2 -1.56% || TX3-new share in assembly: NEW vs NEW_oldTX3 -0.738% (cold +0.00%)
+EL1   NEW vs R27 -2.470 -2.676 -2.494 -2.692 | cold +0.00% p2 -2.58% || TX3-new share in assembly: NEW vs NEW_oldTX3 +0.230% (cold +0.00%)
+EXT10 NEW vs R27 -1.807 -1.745 -1.773 -1.710 | cold +0.00% p2 -1.83% || TX3-new share in assembly: NEW vs NEW_oldTX3 -2.004% (cold +0.00%)
+EXT12 NEW vs R27 -0.338 -0.324 -0.362 -0.349 | cold +0.00% p2 -0.75% || TX3-new share in assembly: NEW vs NEW_oldTX3 -0.742% (cold +0.00%)
+ASM2: CK2+EL1 8 cells better True | pooled P 0.0000 | EXT safety {'EXT10': True, 'EXT12': True} -> PASS
