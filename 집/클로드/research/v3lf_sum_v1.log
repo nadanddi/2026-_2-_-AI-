@@ -1,0 +1,16 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+DIAG10 V3LF vs no-GRU -2.00 -2.03 -2.01 -2.03 | vs V3L(v15R) +0.43
+EL1    V3LF vs no-GRU -1.34 -1.37 -1.35 -1.35 | vs V3L(v15R) +0.37
+F      V3LF vs no-GRU -1.84 -1.75 -1.83 -1.75 | vs V3L(v15R) +0.69
+G      V3LF vs no-GRU -1.68 -1.74 -1.62 -1.70 | vs V3L(v15R) +0.76
+H      V3LF vs no-GRU -1.85 -1.91 -1.77 -1.83 | vs V3L(v15R) +0.78
+I      V3LF vs no-GRU -2.05 -2.03 -2.01 -2.00 | vs V3L(v15R) +0.36
+J      V3LF vs no-GRU -1.70 -1.75 -1.74 -1.79 | vs V3L(v15R) +0.55
+K      V3LF vs no-GRU -1.58 -1.75 -1.57 -1.72 | vs V3L(v15R) +0.68
+L      V3LF vs no-GRU -1.13 -1.16 -1.16 -1.18 | vs V3L(v15R) +1.54
+EXT10  V3LF vs no-GRU +0.42 +0.52 +0.40 +0.49 | vs V3L(v15R) +0.17
+EXT12  V3LF vs no-GRU +0.66 +0.62 +0.63 +0.60 | vs V3L(v15R) +0.38
+pooled P(worse) 0.0015 | safety {'EXT10': False, 'EXT12': True}
+V3LF: FAIL
