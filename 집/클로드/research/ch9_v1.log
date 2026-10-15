@@ -1,0 +1,9 @@
+CV8 chains CH5 4 | AG4 4
+N chains CH5 122 | AG4 127
+CK2 chains CH5 39 | AG4 40
+EL1 chains CH5 4 | AG4 4
+  AG4 vs CH5 | CV8: cells +0.000 +0.000 +0.000 +0.000 | extra 0 | changed 0 helped 0 harmed 0 | sum +0.00
+  AG4 vs CH5 | N: cells -0.102 -0.105 -0.106 -0.110 | extra 5 | changed 8 helped 3 harmed 5 | sum -7.17
+  AG4 vs CH5 | CK2: cells -0.038 -0.041 -0.041 -0.045 | extra 1 | changed 1 helped 1 harmed 0 | sum -1.84
+  AG4 vs CH5 | EL1: cells +0.000 +0.000 +0.000 +0.000 | extra 0 | changed 0 helped 0 harmed 0 | sum +0.00
+CH9 AG4 vs CH5: 12 cells all better False | dedup P(worse) 0.1134 | records helped 4 harmed 5 | EL1 +0.000% -> FAIL
