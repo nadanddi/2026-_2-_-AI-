@@ -1,0 +1,8 @@
+targets 190 (pass-2 24)
+(1) probability mass: {'m_true': 0.639, 'm_samedate': 0.054, 'm_otherdate': 0.307, 'm_unlab': 0.0} | pass-2: {'m_true': 0.668, 'm_samedate': 0.039, 'm_otherdate': 0.293, 'm_unlab': 0.0}
+(4) top-1 correct 0.716 | top-1 wrong but SAME DATE as true prev 0.032 | wrong & other date 0.253
+(2)(3) all: true T 0.190 EC 0.059 (n 190) | top1 T 1.075 EC 0.232 (n 190) | mix T 0.826 EC 0.191 (n 190) | dgrp T 1.354 EC 0.303 (n 190) | dgrp15 T 0.944 EC 0.243 (n 179) | const T 4.039 EC 0.394 (n 190)
+(2)(3) pass-2: true T 0.209 EC 0.040 (n 24) | top1 T 0.849 EC 0.300 (n 24) | mix T 1.114 EC 0.188 (n 24) | dgrp T 1.376 EC 0.375 (n 24) | dgrp15 T 1.058 EC 0.208 (n 23) | const T 4.295 EC 0.311 (n 24)
+(2)(3) top-1 WRONG: true T 0.188 EC 0.084 (n 54) | top1 T 1.994 EC 0.429 (n 54) | mix T 1.439 EC 0.340 (n 54) | dgrp T 1.976 EC 0.382 (n 54) | dgrp15 T 1.542 EC 0.309 (n 45) | const T 4.199 EC 0.371 (n 54)
+(2)(3) top-1 right: true T 0.191 EC 0.046 (n 136) | top1 T 0.191 EC 0.046 (n 136) | mix T 0.363 EC 0.072 (n 136) | dgrp T 1.006 EC 0.265 (n 136) | dgrp15 T 0.627 EC 0.217 (n 134) | const T 3.973 EC 0.402 (n 136)
+date-group size of top-1 (records sharing its outdoor day): median 4 | share with >=2: 0.947
