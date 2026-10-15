@@ -1,0 +1,6 @@
+HIT 219 | MISS 36 (records 20)
+single-feature |AUC| top: [('f47_x_night_gap', 0.688), ('f47', 0.669), ('range_ratio', 0.668), ('f47_x_heat_on', 0.654), ('out_max', 0.65), ('f47_x_out_max', 0.639), ('co2', 0.63), ('cold_x_heat', 0.618)]
+[task1 magnitude] CV AUC logistic 0.590 | GBM 0.525
+[task2 direction] ridge: CV R2 -0.120 | MISS sign hit 0.50 (36) | day-mean RMS if subtracted: +5.8%
+[task2 direction] gbm: CV R2 -0.039 | MISS sign hit 0.44 (36) | day-mean RMS if subtracted: +1.9%
+DHM2: magnitude not detectable | direction NOT predictable
