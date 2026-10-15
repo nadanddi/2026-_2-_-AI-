@@ -38,11 +38,11 @@ for L in ("EXT10", "EXT12", "DIAG10"):
         ip = pos[p]; cont = abs(y[ip][h[ip] == 23][0] - y[ix][h[ix] == 0][0])
         ROWS.append(dict(layout=L, rec=r, prev=p, p=q, dt=dt, dsse=dd, true_known=r in TRUEP, true_prev=(TRUEP.get(r) == p) if r in TRUEP else np.nan, sub_cont=cont, dir_ok=bool(corr_dir), err0=abs(x0e)))
     print(L, "candidates", len(CAND), flush=True)
-D = pd.DataFrame(ROWS); D["pbin"] = pd.cut(D.p, [.29, .5, .65, .8, 1.01]); D["dtbin"] = pd.cut(D.dt, [-.01, .5, 1.5, 3.01]); pd.set_option("display.width", 220)
+D = pd.DataFrame(ROWS); D.to_csv(os.path.join(HERE, "ch7_candidates_v1.csv"), index=False); D["pbin"] = pd.cut(D.p, [.29, .5, .65, .8, 1.01]); D["dtbin"] = pd.cut(D.dt, [-.01, .5, 1.5, 3.01]); pd.set_option("display.width", 220)
 agg = lambda g: pd.Series(dict(n=len(g), true_rate=g.true_prev.dropna().mean() if g.true_prev.notna().any() else np.nan, n_known=int(g.true_known.sum()), sub_cont_med=g.sub_cont.median(),
                                dsse_sum=g.dsse.sum(), dsse_mean=g.dsse.mean(), helped=int((g.dsse < -1e-9).sum()), harmed=int((g.dsse > 1e-9).sum()), dir_ok=g.dir_ok.mean()))
 print("\n[p band]"); print(D.groupby("pbin", observed=True).apply(agg).round(3).to_string())
 print("\n[dT band]"); print(D.groupby("dtbin", observed=True).apply(agg).round(3).to_string())
-print("\n[true vs false previous day (known only)]"); print(D[D.true_known].groupby("true_prev").apply(agg).round(3).to_string())
+print("\n[true vs false previous day (known only)]"); print(D[D.true_known].assign(tp=lambda x: x.true_prev.astype(bool)).groupby("tp").apply(agg).round(3).to_string())
 D["cont_bin"] = pd.cut(D.sub_cont, [-.01, .5, 1.0, 2.0, 99]); print("\n[substrate continuity |sub23(prev) - sub0(rec)| (label-based, diagnosis only)]"); print(D.groupby("cont_bin", observed=True).apply(agg).round(3).to_string())
 D.to_csv(os.path.join(HERE, "ch7_candidates_v1.csv"), index=False)
