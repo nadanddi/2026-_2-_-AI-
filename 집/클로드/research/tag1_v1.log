@@ -1,0 +1,29 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 option k>=2 dT<=1.5: new anchors 8 | true 3/3 known
+EXT10 option k>=2 dT<=99.0: new anchors 9 | true 4/4 known
+EXT10 option k>=3 dT<=1.5: new anchors 6 | true 2/2 known
+EXT10 option k>=3 dT<=99.0: new anchors 7 | true 3/3 known
+EXT10 option k>=4 dT<=1.5: new anchors 4 | true 2/2 known
+EXT10 option k>=4 dT<=99.0: new anchors 5 | true 3/3 known
+EXT12 option k>=2 dT<=1.5: new anchors 6 | true 4/4 known
+EXT12 option k>=2 dT<=99.0: new anchors 8 | true 5/5 known
+EXT12 option k>=3 dT<=1.5: new anchors 4 | true 3/3 known
+EXT12 option k>=3 dT<=99.0: new anchors 6 | true 4/4 known
+EXT12 option k>=4 dT<=1.5: new anchors 3 | true 2/2 known
+EXT12 option k>=4 dT<=99.0: new anchors 4 | true 3/3 known
+DIAG10 option k>=2 dT<=1.5: new anchors 43 | true 18/26 known
+DIAG10 option k>=2 dT<=99.0: new anchors 51 | true 20/28 known
+DIAG10 option k>=3 dT<=1.5: new anchors 22 | true 12/14 known
+DIAG10 option k>=3 dT<=99.0: new anchors 27 | true 14/16 known
+DIAG10 option k>=4 dT<=1.5: new anchors 13 | true 7/7 known
+DIAG10 option k>=4 dT<=99.0: new anchors 15 | true 8/8 known
+selected (k, dT gate) by block group: {0: (4, 99.0), 1: (3, 99.0), 'all': (4, 99.0)}
+  TAG1 vs R27+CH5 | EXT10: cells -2.621 -2.666 -2.568 -2.606 | <=6C +0.31% | <=8C +1.03% | out-of-range -0.55%
+  TAG1 vs R27+CH5 | EXT12: cells -1.230 -1.178 -1.212 -1.162 | <=6C +0.00% | <=8C +0.12% | out-of-range +0.01%
+  TAG1 vs R27+CH5 | DIAG10: cells -1.550 -1.574 -1.543 -1.568 | <=6C +0.00% | <=8C -0.39% | out-of-range +0.00%
+TAG1: 12 cells max -1.162% mean -1.790% all better True | dedup P(worse) 0.0243 | MSE upper95 +0.806% | EXT <=8C +0.57% -> superiority PASS | replacement(non-inferior) FAIL
