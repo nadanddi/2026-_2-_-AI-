@@ -1,0 +1,20 @@
+CV8 done
+N done
+CK2 done
+EL1 done
+layout  records  labelled_anchor  chain  chain_cold_recs  chain_rows
+   CV8       39                4      3                3          72
+     N      370               18     79                7        1896
+   CK2      198                7     23                2         552
+   EL1       52               20      3                1          72
+  CH1 CV8: cells -0.555 -0.747 -0.529 -0.721 | chained rows -7.21% | chained <=8C +12.75% | chained hours 0-5 -35.69%
+  CH1 N: cells -0.122 -0.114 -0.093 -0.086 | chained rows -0.69% | chained <=8C +30.16% | chained hours 0-5 -14.43%
+  CH1 CK2: cells -0.101 -0.130 -0.162 -0.189 | chained rows -2.62% | chained <=8C +100.53% | chained hours 0-5 -15.41%
+  CH1 EL1: cells +0.257 +0.284 +0.349 +0.377 | chained rows +14.66% | chained <=8C -9.47% | chained hours 0-5 -31.37%
+PCH1 CH1: 12 cells all better True | combined block P(worse) 0.3305 (alpha .0125) | EL1 +0.317% safe True -> FAIL
+  CH5 CV8: cells -0.439 -0.591 -0.420 -0.570 | chained rows -5.67% | chained <=8C +4.25% | chained hours 0-5 -22.68%
+  CH5 N: cells -0.475 -0.467 -0.457 -0.451 | chained rows -3.09% | chained <=8C -6.87% | chained hours 0-5 -15.10%
+  CH5 CK2: cells -0.222 -0.234 -0.253 -0.265 | chained rows -4.42% | chained <=8C +19.79% | chained hours 0-5 -14.37%
+  CH5 EL1: cells -0.049 -0.031 -0.013 +0.006 | chained rows -1.11% | chained <=8C -42.18% | chained hours 0-5 -31.23%
+PCH1 CH5: 12 cells all better True | combined block P(worse) 0.0135 (alpha .0125) | EL1 -0.022% safe True -> FAIL
+  eval (inputs/links only): records 60 | chain-eligible 8 | of which cold (day min <= 8) 7 | labelled K8-type 15
