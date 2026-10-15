@@ -1,0 +1,17 @@
+CV8 COV gate on rows 0.419 (mean 0.341) vs T10 on 0.448
+CV8 done | cold-row RMSE: base 0.867, GAM solo {'G1': 0.898, 'G2': 1.001, 'G3': 1.55}
+N COV gate on rows 0.093 (mean 0.056) vs T10 on 0.123
+N done | cold-row RMSE: base 0.832, GAM solo {'G1': 0.891, 'G2': 1.193, 'G3': 1.985}
+CK2 COV gate on rows 0.354 (mean 0.217) vs T10 on 0.230
+CK2 done | cold-row RMSE: base 0.838, GAM solo {'G1': 1.421, 'G2': 2.194, 'G3': 1.864}
+EL1 COV gate on rows 0.098 (mean 0.053) vs T10 on 0.133
+EL1 done | cold-row RMSE: base 0.533, GAM solo {'G1': 0.611, 'G2': 0.509, 'G3': 0.704}
+   var  early   late  late_le6  late_6_8  early_le6      N   CK2    EL1
+G1_T10 -3.866 -0.546     9.592   -12.377    -28.661 -0.224 1.031 -0.398
+G1_COV -3.496  0.147     9.592   -12.377    -28.661 -0.163 1.929 -0.421
+G2_T10 -6.643 -0.770    15.330   -13.814    -52.369 -0.157 4.077 -0.260
+G2_COV -5.987 -0.184    15.330   -13.814    -52.369 -0.165 7.207 -0.275
+G3_T10 -0.825 11.871    94.610    23.199    -15.379  1.749 2.601 -0.138
+G3_COV  0.018 12.657    94.610    23.199    -15.379  1.877 4.226 -0.103
+selected on CV8 early folds: G2_T10
+CVJ3 G2_T10: CV8 late 4 cells -0.807 -0.880 -0.656 -0.735 | P(worse) 0.2430 | late <=6 +15.33% | safety {'N': True, 'CK2': False, 'EL1': True} -> FAIL
