@@ -1,0 +1,44 @@
+C:\work\farmai\집\클로드\research\stk1_learned_member_gate_v1.py:92: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  Xm = np.column_stack([M[[c for c in M.columns if c.startswith("base_R_")]].mean(1).values, M.codex_R.values, (M.pfn_A.values + M.pfn_B.values) / 2, M.V3LF.values if "V3LF" in M else np.full(len(M), np.nan)])
+CV8 fit rows 936 linked share 0.205
+C:\work\farmai\집\클로드\research\stk1_learned_member_gate_v1.py:92: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  Xm = np.column_stack([M[[c for c in M.columns if c.startswith("base_R_")]].mean(1).values, M.codex_R.values, (M.pfn_A.values + M.pfn_B.values) / 2, M.V3LF.values if "V3LF" in M else np.full(len(M), np.nan)])
+N fit rows 8880 linked share 0.376
+C:\work\farmai\집\클로드\research\stk1_learned_member_gate_v1.py:92: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  Xm = np.column_stack([M[[c for c in M.columns if c.startswith("base_R_")]].mean(1).values, M.codex_R.values, (M.pfn_A.values + M.pfn_B.values) / 2, M.V3LF.values if "V3LF" in M else np.full(len(M), np.nan)])
+CK2 fit rows 4752 linked share 0.237
+C:\work\farmai\집\클로드\research\stk1_learned_member_gate_v1.py:92: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  Xm = np.column_stack([M[[c for c in M.columns if c.startswith("base_R_")]].mean(1).values, M.codex_R.values, (M.pfn_A.values + M.pfn_B.values) / 2, M.V3LF.values if "V3LF" in M else np.full(len(M), np.nan)])
+EL1 fit rows 1248 linked share 0.462
+[fit] S1: mean weights BASE/CODEX/PFN/GRU [0.313 0.022 0.665 0.   ]
+    h  2 in_temp  6: w [0.3  0.05 0.66 0.  ]
+    h  2 in_temp 18: w [0.49 0.   0.51 0.  ]
+    h  9 in_temp  6: w [0.14 0.42 0.44 0.  ]
+    h  9 in_temp 18: w [0.4  0.01 0.6  0.  ]
+    h 15 in_temp  6: w [0.17 0.19 0.63 0.  ]
+    h 15 in_temp 18: w [0.37 0.   0.63 0.  ]
+    h 21 in_temp  6: w [0.27 0.02 0.7  0.  ]
+    h 21 in_temp 18: w [0.46 0.   0.54 0.  ]
+[fit] S2: mean weights BASE/CODEX/PFN/GRU [0.213 0.038 0.472 0.277]
+    h  2 in_temp  6: w [0.14 0.09 0.6  0.17]
+    h  2 in_temp 18: w [0.4 0.  0.2 0.4]
+    h  9 in_temp  6: w [0.07 0.3  0.58 0.06]
+    h  9 in_temp 18: w [0.39 0.   0.36 0.25]
+    h 15 in_temp  6: w [0.09 0.12 0.73 0.06]
+    h 15 in_temp 18: w [0.4  0.   0.37 0.23]
+    h 21 in_temp  6: w [0.15 0.04 0.66 0.16]
+    h 21 in_temp 18: w [0.42 0.   0.21 0.36]
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 done
+EXT12 done
+DIAG10 done
+  S1 vs R27+CH5 | EXT10: cells +2.566 +6.003 +2.684 +6.164 | unlinked +1.67% | <=8C +66.57% | 18-23h -1.03%
+  S1 vs R27+CH5 | EXT12: cells +5.004 +6.255 +4.769 +6.006 | unlinked +5.78% | <=8C +84.15% | 18-23h -0.47%
+  S1 vs R27+CH5 | DIAG10: cells -2.176 -2.302 -2.179 -2.300 | unlinked -2.61% | <=8C +2.87% | 18-23h -1.96%
+STK1 S1: 12 cells all better False | dedup P(worse) 0.7304 (alpha .0125) -> FAIL
+  S2 vs R27+CH5 | EXT10: cells +1.696 +4.567 +1.899 +4.733 | unlinked +4.76% | <=8C +60.90% | 18-23h -1.23%
+  S2 vs R27+CH5 | EXT12: cells +11.348 +12.375 +10.902 +11.922 | unlinked +13.75% | <=8C +82.93% | 18-23h +4.35%
+  S2 vs R27+CH5 | DIAG10: cells -5.100 -5.032 -5.100 -5.036 | unlinked -4.98% | <=8C +2.52% | 18-23h -8.20%
+STK1 S2: 12 cells all better False | dedup P(worse) 0.7921 (alpha .0125) -> FAIL
