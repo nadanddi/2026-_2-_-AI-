@@ -1,0 +1,33 @@
+links 208 | labelled records with yesterday window 0.52
+done DIAG10
+done P2LOO
+done EL1
+validation records with yesterday EC visible: {'DIAG10': 0.308, 'EL1': 0.5, 'P2LOO': 0.652}
+
+=== EVM vs EV3L ===
+   val  seed  alone_X  alone_EV3L  dSSE_p2  blend_vs_sg_X  blend_vs_sg_EV3L
+DIAG10    47   0.1979      0.2158  -2.1049        -3.2231           -2.6294
+DIAG10  1414   0.1979      0.2158  -2.0568        -3.1434           -2.5995
+DIAG10  6464   0.1979      0.2158  -2.0685        -3.0988           -2.5205
+   EL1    47   0.2497      0.2772  -2.0153        -6.1863           -5.0365
+   EL1  1414   0.2497      0.2772  -2.0348        -6.1622           -4.9840
+   EL1  6464   0.2497      0.2772  -1.9916        -6.0523           -4.9044
+ P2LOO    47   0.2430      0.2718  -0.1293        -3.2246           -3.0655
+ P2LOO  1414   0.2430      0.2718  -0.1469        -3.2207           -3.0382
+ P2LOO  6464   0.2430      0.2718  -0.1412        -3.3398           -3.1660
+(1) main cells better 6/6 | P2LOO P(worse) 0.5340 | harmed 146 | (3) DIAG10 share(better) 0.943 -> PASS => EVM: FAIL
+
+=== EVY vs EV3L ===
+   val  seed  alone_X  alone_EV3L  dSSE_p2  blend_vs_sg_X  blend_vs_sg_EV3L
+DIAG10    47   0.2141      0.2158  -0.3688        -2.2555           -2.6294
+DIAG10  1414   0.2141      0.2158  -0.3440        -2.2156           -2.5995
+DIAG10  6464   0.2141      0.2158  -0.3619        -2.1500           -2.5205
+   EL1    47   0.2443      0.2772  -1.0933        -5.6585           -5.0365
+   EL1  1414   0.2443      0.2772  -1.1430        -5.6440           -4.9840
+   EL1  6464   0.2443      0.2772  -1.1368        -5.5579           -4.9044
+ P2LOO    47   0.2424      0.2718  -0.7878        -4.0394           -3.0655
+ P2LOO  1414   0.2424      0.2718  -0.7247        -3.9419           -3.0382
+ P2LOO  6464   0.2424      0.2718  -0.7567        -4.1010           -3.1660
+(1) main cells better 6/6 | P2LOO P(worse) 0.1701 | harmed 133 | (3) DIAG10 share(better) 0.397 -> PASS => EVY: FAIL
+
+EVX: {'EVM': False, 'EVY': False}
