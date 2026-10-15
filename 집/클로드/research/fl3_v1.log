@@ -1,0 +1,4 @@
+FL weights: {'oj': np.float64(-4.624), 'v0': np.float64(-0.536), 'v1': np.float64(-1.063), 'v2': np.float64(-1.123), 'v3': np.float64(-1.503), 'v4': np.float64(0.023), 'v5': np.float64(-2.056), 'v6': np.float64(-0.491), 'v7': np.float64(-0.813), 'excl': np.float64(-3.046), 'xf': np.float64(-1.096)}
+TRAIN links 400 | p>=.5 303 | acc vs cert 0.716 (n 190)
+EVAL links 60 | p>=.5 45 | anchors(p>=.8, labelled, |dT|<=1.5) 15 | cross-farm 2
+W2/B5 records: [{'rec': 'F13_235', 'prev': 'F13_233', 'p': 0.8981, 'anchor_ec23': 0.643}, {'rec': 'F13_237', 'prev': 'F13_112', 'p': 0.2436, 'anchor_ec23': 0.364}, {'rec': 'F47_233', 'prev': 'F47_137', 'p': 0.3525, 'anchor_ec23': 0.508}]
