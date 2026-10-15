@@ -1,0 +1,29 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10: records 77 | current plan K8 13 (true 6) chain 17 (true 6) | true-prev coverage {'none': 47, 'lab': 13, 'held_earlier': 8, 'held_later': 1, 'other': 8}
+EXT12: records 198 | current plan K8 10 (true 6) chain 77 (true 31) | true-prev coverage {'none': 106, 'lab': 20, 'held_earlier': 49, 'held_later': 3, 'other': 20}
+DIAG10: records 370 | current plan K8 78 (true 37) chain 103 (true 50) | true-prev coverage {'none': 197, 'lab': 97, 'held_earlier': 64, 'held_later': 0, 'other': 12}
+layout          arm  rmse_base   rmse     chg
+ EXT10       O_link     0.7419 0.7343 -0.0103
+ EXT10 O_linkK8only     0.7419 0.7361 -0.0078
+ EXT10   O_prevtrue     0.7419 0.7134 -0.0385
+ EXT10         O_0h     0.7419 0.6505 -0.1232
+ EXT10        O_day     0.7419 0.4749 -0.3600
+ EXT12       O_link     0.7310 0.7278 -0.0043
+ EXT12 O_linkK8only     0.7310 0.7453  0.0196
+ EXT12   O_prevtrue     0.7310 0.6897 -0.0564
+ EXT12         O_0h     0.7310 0.6087 -0.1672
+ EXT12        O_day     0.7310 0.4637 -0.3657
+DIAG10       O_link     0.5866 0.5600 -0.0453
+DIAG10 O_linkK8only     0.5866 0.5651 -0.0366
+DIAG10   O_prevtrue     0.5866 0.5559 -0.0523
+DIAG10         O_0h     0.5866 0.5029 -0.1427
+DIAG10        O_day     0.5866 0.3830 -0.3471
+
+mean change over 3 layouts and LB translation (.4706 x (1 + change); rough, eval composition differs):
+  O_0h          -14.4%  -> ~0.403
+  O_day         -35.8%  -> ~0.302
+  O_link        -2.0%  -> ~0.461
+  O_linkK8only  -0.8%  -> ~0.467
+  O_prevtrue    -4.9%  -> ~0.448
