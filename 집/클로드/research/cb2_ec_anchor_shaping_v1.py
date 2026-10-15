@@ -9,15 +9,6 @@ CB1-EC(서술 표): FL 확신 앵커 강도 .75 가 1.0 보다 기본 4 x 검증
 판정(EC 분야 규칙, 선택 vs REF27, α .025): P2LOO·EL1 3시드 2차 dSSE < 0 & (P2LOO 블록 P < .025 OR 손해 기록-칸 0).
 서술: 손잡이별 주효과(P2LOO·EL1·DIAG10), 고르기 상위 10.
 Run:  cd 집/클로드/research && PYTHONPATH="" python -u cb2_ec_anchor_shaping_v1.py
-"""CB1-EC (2026-10-15 집 클로드; 사용자 '부품들끼리 결합하거나 나누거나 다른 부품도 붙여보기').  사전 고정(커밋 후 실행).  EC.  학습 없음.
-부품 격자 32조합 = 기본 섞기 4 x FL 확신 앵커(K8) 반영 강도 4 x FLN 약한 사슬(KEA) 2:
-  기본: B0 NH(27번) | B1 .9·NH + .1·MT1(MTL 구성원) | B2 .95·NH + .05·EV3L-FL | B3 .9·NH + .1·EV3L-FL   (EV3L-FL = fl4_ev3lf, FL 링크 전날 창 GRU)
-  K8: FL p ≥ .8·정답 전날(폴드 밖)·|dT| ≤ 1.5 기록에 pred = x + w·(A23 − cm_h(x)),  w ∈ {0, .5, .75, 1}
-  KEA: K8 없는 기록에 FLN 사슬(KE1 과 같음: 최대 3단계, 누적 P ≥ .5, 중간은 같은 폴드 기록) on/off
-고르기: DIAG10 전체 행 RMSE(3시드 평균) 최소 조합(같으면 격자 순서상 앞).   기준 REF27 = B0·w 1·KEA off.
-판정(EC 분야 규칙, 선택 조합 vs REF27, α .025): P2LOO·EL1 3시드 2차 dSSE < 0 & (P2LOO 블록 P < .025 OR 손해 기록-칸 0). 고르기에 쓴 DIAG10 은 서술만.
-서술: 32조합의 P2LOO·EL1·DIAG10 2차 상대 RMSE 표(판정 아님).
-Run:  cd 집/클로드/research && PYTHONPATH="" python -u cb1_ec_component_grid_v1.py
 """
 import os, sys, pickle, itertools
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.argv = ["x"]; sys.path.insert(0, HERE)
