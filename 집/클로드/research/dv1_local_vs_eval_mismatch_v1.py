@@ -96,12 +96,10 @@ if NHE is not None:
     NHE = NHE.set_index("row_id").sub_ec.reindex(X.row_id).values; cmE = pd.Series(NHE).groupby((X.farm + X.day.astype(str)).values).transform(lambda s: s.expanding().mean()).values
 else: cmE = None
 rowsB.append(dict(set="EVAL", **cond(X, cmE if cmE is not None else np.zeros(len(X)))))
-pd.set_option("display.width", 220); print("
-(B) component action conditions:"); print(pd.DataFrame(rowsB).round(3).to_string(index=False))
+pd.set_option("display.width", 220); print("(B) component action conditions:"); print(pd.DataFrame(rowsB).round(3).to_string(index=False))
 # (C) link probabilities
 FLT = pd.read_csv(os.path.join(env.LOCAL, "fl3_train_links.csv")); FLE = pd.read_csv(os.path.join(env.LOCAL, "fl3_eval_links.csv"))
 FNT = pd.read_csv(os.path.join(env.LOCAL, "fln1_train_links.csv"))
-print("
-(C) FL link p: train(validation) median %.2f, share p>=.8 %.2f, p>=.5 %.2f | eval median %.2f, p>=.8 %.2f, p>=.5 %.2f" % (FLT.p.median(), (FLT.p >= .8).mean(), (FLT.p >= .5).mean(), FLE.p.median(), (FLE.p >= .8).mean(), (FLE.p >= .5).mean()))
+print("(C) FL link p: train(validation) median %.2f, share p>=.8 %.2f, p>=.5 %.2f | eval median %.2f, p>=.8 %.2f, p>=.5 %.2f" % (FLT.p.median(), (FLT.p >= .8).mean(), (FLT.p >= .5).mean(), FLE.p.median(), (FLE.p >= .8).mean(), (FLE.p >= .5).mean()))
 print("    eval FL prev is labelled training: %.2f | prev is earlier eval record: %.2f | cross-farm: %.2f" % (FLE.prev_is_labelled.mean(), (~FLE.prev_is_labelled.astype(bool)).mean(), FLE.xf.mean()))
 print("    FLN train p>=.5 %.2f (p_none median %.2f)" % ((FNT.p >= .5).mean(), FNT.p_none.median()))
