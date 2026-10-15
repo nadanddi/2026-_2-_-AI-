@@ -5,16 +5,6 @@ EA3 와 같은 판정·자료(SZ2 독립 기본 예측 위 F5E), 짝 표만 다�
   [RV2 에서 결과를 본 뒤의 확인 판정이므로 '사후 후보의 같은 자료 재판정' 한계 명시 — 새 자료가 아님]
 판정(EC 분야 배정 규칙, 단일 α .025): (1) P2LOO·EL1 3시드 모두 2차 dSSE < 0 & (P2LOO 블록 P(악화) < .025 OR 나빠진 2차 기록-칸 0); (3) DIAG10 손해 감시.
 Run:  cd 집/클로드/research && PYTHONPATH="" python -u ea4_v7_anchor_on_f5e_v1.py
-"""EA3 (2026-10-15 집 클로드; 사용자: 26번 설계 → '2,3번 진행' 의 3번 — W2 를 링커 어제 EC 앵커로 대체).  사전 고정(커밋 후 실행).  EC.
-16회차(SG2·W2·B5 제거) EC +25%: 손해의 큰 몫이 W2(F13_235 +.37). W2 가 하는 일 = '같은 동 어제 EC 에 맞추기'(현장 정보 = 어제 측정값, R),
-  문제는 어제를 '번호 −2' 로 찾는 것뿐 → 링커로 찾은 어제(정답 있는 학습 기록만)로 같은 일을 하는 앵커를 F5E 위에 붙여 판정.
-F5E = 0.9·NH + 0.1·EV3L (NH2 와 같은 SZ2 독립 기본 예측; nh1_rows + nh1_mt1 + nh2_ev3l).
-앵커(EA 식, 6.574): pred_h = p_h + (A − pm_h), A = 짝 23시 EC 정답, pm_h = 그날 0..h 예측 누적 평균.
-짝 = 패키지 25 의 MASK 세계 거울 링커(v15r_mirror_masked_pkg25.csv, 26번에서 학습 행 연결로 쓸 것과 같은 규칙) prev0, 짝이 정답 있는 학습 기록이고
-  그 폴드의 검증 기록이 아닐 때만.  안 2개(본페로니 k 2 → .0125):  AN8 = p0 ≥ .8,  AN95 = p0 ≥ .95.
-판정(EC 분야 배정 규칙, 안 vs F5E): (1) P2LOO·EL1 3시드 모두 2차 dSSE < 0 & (P2LOO 블록 P(악화) < .0125 OR 나빠진 2차 기록-칸 0); (3) DIAG10 손해 감시.
-서술: 앵커 받은 기록 수, 장부 제외, 바뀐 기록 상위/하위, 15회차형(SH) 대비.
-Run:  cd 집/클로드/research && PYTHONPATH="" python -u ea3_ec_linker_yesterday_anchor_f5e_v1.py
 """
 import os, sys, pickle
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
