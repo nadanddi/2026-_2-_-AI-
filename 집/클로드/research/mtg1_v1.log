@@ -1,0 +1,69 @@
+CV8/0 mtl done | alone rmse 0.915
+CV8/1 mtl done | alone rmse 1.209
+CV8/2 mtl done | alone rmse 0.641
+CV8/3 mtl done | alone rmse 1.417
+CV8/4 mtl done | alone rmse 0.579
+CV8/5 mtl done | alone rmse 0.901
+N/0 mtl done | alone rmse 0.787
+N/1 mtl done | alone rmse 0.901
+N/2 mtl done | alone rmse 1.077
+N/3 mtl done | alone rmse 0.725
+N/4 mtl done | alone rmse 0.696
+N/5 mtl done | alone rmse 0.780
+N/6 mtl done | alone rmse 0.606
+N/7 mtl done | alone rmse 0.655
+N/8 mtl done | alone rmse 0.925
+N/9 mtl done | alone rmse 0.994
+CK2/0 mtl done | alone rmse 0.975
+CK2/1 mtl done | alone rmse 0.859
+CK2/2 mtl done | alone rmse 0.912
+CK2/3 mtl done | alone rmse 0.832
+CK2/4 mtl done | alone rmse 0.679
+EL1/0 mtl done | alone rmse 0.377
+EL1/1 mtl done | alone rmse 0.520
+EL1/2 mtl done | alone rmse 0.400
+EL1/3 mtl done | alone rmse 0.475
+EL1/4 mtl done | alone rmse 0.859
+EL1/5 mtl done | alone rmse 0.783
+EL1/6 mtl done | alone rmse 1.092
+EL1/7 mtl done | alone rmse 1.509
+EL1/8 mtl done | alone rmse 0.566
+EL1/9 mtl done | alone rmse 0.606
+EL1/10 mtl done | alone rmse 1.328
+EL1/11 mtl done | alone rmse 1.016
+CV8 eval done
+N eval done
+CK2 eval done
+EL1 eval done
+
+[desc] MTL alone vs cells(+GRU30) by band
+set  band  rows  cells   MTL  b_cells  b_MTL  corr_err
+CV8   <=6    21  1.792 2.621    0.723  1.721     0.965
+CV8   6-8   129  0.595 0.885    0.142  0.491     0.871
+CV8  8-10   297  0.656 0.804    0.133  0.315     0.855
+CV8 10-12   195  0.705 0.830    0.178  0.289     0.794
+CV8   >12   294  0.716 0.796    0.051  0.241     0.863
+  N   <=6    21  1.782 2.722    0.625  2.041     0.965
+  N   6-8   129  0.538 1.019    0.104  0.622     0.779
+  N  8-10  1088  0.776 0.894   -0.092 -0.059     0.848
+  N 10-12  1537  0.627 0.800   -0.046 -0.008     0.789
+  N   >12  6105  0.571 0.713   -0.018 -0.022     0.727
+CK2   <=6    21  1.804 2.559    0.636  1.679     0.973
+CK2   6-8   129  0.532 1.006    0.088  0.579     0.758
+CK2  8-10  1085  0.818 0.889   -0.073 -0.025     0.852
+CK2 10-12  1353  0.654 0.809    0.023  0.101     0.799
+CK2   >12  2164  0.625 0.709    0.025  0.047     0.836
+EL1   6-8    15  0.532 0.763    0.072  0.486     0.916
+EL1  8-10   176  0.656 0.758   -0.009  0.151     0.846
+EL1 10-12   223  0.704 0.768    0.079  0.106     0.851
+EL1   >12   834  0.736 0.840   -0.058 -0.026     0.884
+  ALL CV8: cells +2.292 +2.123 +2.281 +2.111 | <=6 +7.77% | 6-8 +6.38% | >10 -0.01%
+  ALL N: cells +0.278 +0.292 +0.262 +0.272 | <=6 +7.44% | 6-8 +10.56% | >10 -0.04%
+  ALL CK2: cells +0.213 +0.223 +0.188 +0.201 | <=6 +6.64% | 6-8 +10.00% | >10 +0.18%
+  ALL EL1: cells +0.338 +0.267 +0.268 +0.202 | <=6 +nan% | 6-8 +4.04% | >10 +0.17%
+MTG1 ALL: 12 cells all better False | combined block P(worse) 0.7743 (alpha .0125) | EL1 +0.269% safe True -> FAIL
+  COLD CV8: cells +3.227 +3.190 +3.261 +3.224 | <=6 +12.01% | 6-8 +10.43% | >10 +0.01%
+  COLD N: cells +0.509 +0.510 +0.503 +0.503 | <=6 +11.92% | 6-8 +17.87% | >10 +0.00%
+  COLD CK2: cells +0.546 +0.547 +0.536 +0.537 | <=6 +10.37% | 6-8 +16.98% | >10 -0.00%
+  COLD EL1: cells +0.080 +0.091 +0.088 +0.099 | <=6 +nan% | 6-8 +7.13% | >10 -0.00%
+MTG1 COLD: 12 cells all better False | combined block P(worse) 0.9998 (alpha .0125) | EL1 +0.089% safe True -> FAIL
