@@ -1,0 +1,21 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 rows 1848 | TOD missing 0 | REF retrain max abs diff vs stored 1.8223
+EXT12 rows 4752 | TOD missing 0 | REF retrain max abs diff vs stored 2.4085
+DIAG10 rows 8880 | TOD missing 0 | REF retrain max abs diff vs stored 0.0000
+EXT10 BASE alone RMSE: REF 0.6664 | TOD 0.7053
+EXT12 BASE alone RMSE: REF 0.6797 | TOD 0.6966
+DIAG10 BASE alone RMSE: REF 0.6513 | TOD 0.6519
+baseline B here = REF retrained in the same CLN1 run (same masks as TOD)
+  TOD vs R27+CH5 | EXT10: cells +1.577 +1.363 +1.710 +1.510 | <=6C +2.26% | <=8C +10.26% | out-of-range +7.87%
+  TOD vs R27+CH5 | EXT12: cells +1.454 +1.429 +1.206 +1.182 | <=6C +4.20% | <=8C +7.11% | out-of-range +3.72%
+  TOD vs R27+CH5 | DIAG10: cells +2.286 +2.251 +2.126 +2.082 | <=6C +4.12% | <=8C +7.64% | out-of-range +4.35%
+TOD: 12 cells max +2.286% mean +1.681% all better False | dedup P(worse) 0.8837 | MSE upper95 +5.205% | EXT <=8C +8.68% -> superiority FAIL | replacement(non-inferior) FAIL
+  TOD_TX3L vs R27+CH5 | EXT10: cells +0.115 -0.111 +0.232 +0.021 | <=6C +2.26% | <=8C +10.26% | out-of-range +7.37%
+  TOD_TX3L vs R27+CH5 | EXT12: cells +0.794 +0.781 +0.528 +0.517 | <=6C +4.20% | <=8C +7.11% | out-of-range +3.46%
+  TOD_TX3L vs R27+CH5 | DIAG10: cells +2.252 +2.223 +2.077 +2.038 | <=6C +4.12% | <=8C +7.64% | out-of-range +4.35%
+TOD_TX3L: 12 cells max +2.252% mean +0.956% all better False | dedup P(worse) 0.7712 | MSE upper95 +4.840% | EXT <=8C +8.68% -> superiority FAIL | replacement(non-inferior) FAIL
