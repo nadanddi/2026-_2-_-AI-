@@ -1,0 +1,62 @@
+학습 행 4783, 빨간 진단 366, 보조 480 | 공개 21장 열람 5번째(묶음 D 1회, 사용자 지시)
+  s0 fold0 완료
+  s0 fold1 완료
+  s0 fold2 완료
+  s0 fold3 완료
+  s0 fold4 완료
+  s1 fold0 완료
+  s1 fold1 완료
+  s1 fold2 완료
+  s1 fold3 완료
+  s1 fold4 완료
+  s2 fold0 완료
+  s2 fold1 완료
+  s2 fold2 완료
+  s2 fold3 완료
+  s2 fold4 완료
+
+== 결과 ==
+[기준 stack]
+  s0 공개 18/21 logloss=0.433 auc=1.000 실제오탐=0 어려운12=9 | 보조 0.919 | 실제오탐(OOF) 0.046 | AI_gen=1.00 compos=0.90 filter=0.93 full_s=0.99 partia=0.47 partia=0.69 | 빨강실제정답 0.02
+  s1 공개 14/21 logloss=0.463 auc=1.000 실제오탐=0 어려운12=6 | 보조 0.910 | 실제오탐(OOF) 0.034 | AI_gen=1.00 compos=0.88 filter=0.92 full_s=0.99 partia=0.50 partia=0.69 | 빨강실제정답 0.00
+  s2 공개 16/21 logloss=0.453 auc=0.981 실제오탐=0 어려운12=7 | 보조 0.925 | 실제오탐(OOF) 0.038 | AI_gen=1.00 compos=0.89 filter=0.93 full_s=0.99 partia=0.48 partia=0.70 | 빨강실제정답 0.09
+    공개 개별: jixx=0.08 ovvx=0.16 qube=0.16 moke=0.52 wlid=0.73 xkdj=0.86 bpem=0.52 bphr=0.54 yuag=0.66 vfjx=0.99 nqwq=1.00 jrtg=0.99 kzbz=0.86 nriv=0.64 ttmn=0.44 ftkc=0.52 mobg=0.42 uexm=0.57 dszm=0.86 elue=0.56 xeeo=0.20
+[D0]
+  s0 공개 18/21 logloss=0.427 auc=1.000 실제오탐=0 어려운12=9 | 보조 0.925 | 실제오탐(OOF) 0.060 | AI_gen=1.00 compos=0.91 filter=0.93 full_s=0.99 partia=0.48 partia=0.73 | 빨강실제정답 0.01
+  s1 공개 17/21 logloss=0.420 auc=1.000 실제오탐=0 어려운12=8 | 보조 0.913 | 실제오탐(OOF) 0.044 | AI_gen=1.00 compos=0.90 filter=0.93 full_s=0.99 partia=0.52 partia=0.71 | 빨강실제정답 0.00
+  s2 공개 16/21 logloss=0.409 auc=0.981 실제오탐=0 어려운12=7 | 보조 0.925 | 실제오탐(OOF) 0.050 | AI_gen=1.00 compos=0.90 filter=0.94 full_s=0.99 partia=0.50 partia=0.73 | 빨강실제정답 0.04
+    공개 개별: jixx=0.08 ovvx=0.16 qube=0.16 moke=0.52 wlid=0.73 xkdj=0.86 bpem=0.52 bphr=0.55 yuag=0.67 vfjx=0.99 nqwq=1.00 jrtg=0.99 kzbz=0.86 nriv=0.64 ttmn=0.45 ftkc=0.53 mobg=0.42 uexm=0.58 dszm=0.86 elue=0.57 xeeo=0.20
+[D1]
+  s0 공개 15/21 logloss=0.439 auc=1.000 실제오탐=0 어려운12=7 | 보조 0.962 | 실제오탐(OOF) 0.010 | AI_gen=1.00 compos=0.93 filter=0.97 full_s=0.99 partia=0.70 partia=0.83 | 빨강실제정답 0.16
+  s1 공개 17/21 logloss=0.445 auc=1.000 실제오탐=0 어려운12=8 | 보조 0.958 | 실제오탐(OOF) 0.014 | AI_gen=1.00 compos=0.93 filter=0.97 full_s=0.99 partia=0.68 partia=0.82 | 빨강실제정답 0.38
+  s2 공개 17/21 logloss=0.464 auc=1.000 실제오탐=0 어려운12=8 | 보조 0.954 | 실제오탐(OOF) 0.011 | AI_gen=1.00 compos=0.93 filter=0.97 full_s=0.99 partia=0.65 partia=0.83 | 빨강실제정답 0.29
+    공개 개별: jixx=0.11 ovvx=0.13 qube=0.07 moke=0.49 wlid=0.87 xkdj=0.99 bpem=0.37 bphr=0.13 yuag=0.66 vfjx=1.00 nqwq=1.00 jrtg=0.99 kzbz=0.87 nriv=0.62 ttmn=0.61 ftkc=0.79 mobg=0.42 uexm=0.44 dszm=0.89 elue=0.46 xeeo=0.53
+[D2]
+  s0 공개 11/21 logloss=0.520 auc=1.000 실제오탐=0 어려운12=3 | 보조 0.915 | 실제오탐(OOF) 0.056 | AI_gen=0.95 compos=0.91 filter=0.77 full_s=0.97 partia=0.47 partia=0.73 | 빨강실제정답 0.00
+  s1 공개 10/21 logloss=0.562 auc=1.000 실제오탐=0 어려운12=2 | 보조 0.906 | 실제오탐(OOF) 0.062 | AI_gen=1.00 compos=0.91 filter=0.76 full_s=0.96 partia=0.38 partia=0.72 | 빨강실제정답 0.00
+  s2 공개 10/21 logloss=0.564 auc=1.000 실제오탐=0 어려운12=2 | 보조 0.904 | 실제오탐(OOF) 0.075 | AI_gen=1.00 compos=0.91 filter=0.77 full_s=0.97 partia=0.42 partia=0.73 | 빨강실제정답 0.00
+    공개 개별: jixx=0.09 ovvx=0.16 qube=0.12 moke=0.42 wlid=0.52 xkdj=0.85 bpem=0.44 bphr=0.37 yuag=0.60 vfjx=0.94 nqwq=0.85 jrtg=0.98 kzbz=0.87 nriv=0.54 ttmn=0.47 ftkc=0.41 mobg=0.43 uexm=0.46 dszm=0.49 elue=0.44 xeeo=0.48
+[D3]
+  s0 공개 12/21 logloss=0.552 auc=0.981 실제오탐=0 어려운12=4 | 보조 0.958 | 실제오탐(OOF) 0.031 | AI_gen=1.00 compos=0.92 filter=0.92 full_s=0.99 partia=0.75 partia=0.79 | 빨강실제정답 0.00
+  s1 공개 12/21 logloss=0.593 auc=1.000 실제오탐=0 어려운12=4 | 보조 0.952 | 실제오탐(OOF) 0.028 | AI_gen=1.00 compos=0.91 filter=0.92 full_s=0.98 partia=0.73 partia=0.78 | 빨강실제정답 0.00
+  s2 공개 11/21 logloss=0.612 auc=0.963 실제오탐=0 어려운12=3 | 보조 0.950 | 실제오탐(OOF) 0.033 | AI_gen=1.00 compos=0.91 filter=0.92 full_s=0.98 partia=0.72 partia=0.79 | 빨강실제정답 0.01
+    공개 개별: jixx=0.08 ovvx=0.17 qube=0.09 moke=0.46 wlid=0.64 xkdj=0.88 bpem=0.42 bphr=0.51 yuag=0.66 vfjx=0.99 nqwq=1.00 jrtg=0.99 kzbz=0.82 nriv=0.38 ttmn=0.45 ftkc=0.46 mobg=0.42 uexm=0.45 dszm=0.52 elue=0.46 xeeo=0.13
+[D4]
+  s0 공개 20/21 logloss=0.338 auc=1.000 실제오탐=0 어려운12=11 | 보조 0.931 | 실제오탐(OOF) 0.072 | AI_gen=1.00 compos=0.91 filter=0.97 full_s=0.99 partia=0.45 partia=0.71 | 빨강실제정답 0.02
+  s1 공개 18/21 logloss=0.378 auc=1.000 실제오탐=0 어려운12=9 | 보조 0.917 | 실제오탐(OOF) 0.059 | AI_gen=1.00 compos=0.90 filter=0.97 full_s=0.99 partia=0.37 partia=0.71 | 빨강실제정답 0.00
+  s2 공개 17/21 logloss=0.391 auc=1.000 실제오탐=0 어려운12=9 | 보조 0.919 | 실제오탐(OOF) 0.061 | AI_gen=1.00 compos=0.89 filter=0.97 full_s=0.99 partia=0.42 partia=0.69 | 빨강실제정답 0.00
+    공개 개별: jixx=0.06 ovvx=0.21 qube=0.10 moke=0.52 wlid=0.83 xkdj=0.73 bpem=0.61 bphr=0.63 yuag=0.80 vfjx=0.99 nqwq=1.00 jrtg=1.00 kzbz=0.82 nriv=0.79 ttmn=0.54 ftkc=0.83 mobg=0.67 uexm=0.56 dszm=0.59 elue=0.72 xeeo=0.28
+[D5]
+  s0 공개 15/21 logloss=0.812 auc=0.963 실제오탐=0 어려운12=7 | 보조 0.981 | 실제오탐(OOF) 0.027 | AI_gen=1.00 compos=0.95 filter=0.98 full_s=0.99 partia=0.87 partia=0.88 | 빨강실제정답 0.22
+  s1 공개 16/21 logloss=0.822 auc=0.944 실제오탐=0 어려운12=8 | 보조 0.971 | 실제오탐(OOF) 0.027 | AI_gen=1.00 compos=0.95 filter=0.97 full_s=0.99 partia=0.87 partia=0.87 | 빨강실제정답 0.37
+  s2 공개 16/21 logloss=0.775 auc=0.944 실제오탐=0 어려운12=8 | 보조 0.977 | 실제오탐(OOF) 0.028 | AI_gen=1.00 compos=0.95 filter=0.98 full_s=0.99 partia=0.87 partia=0.87 | 빨강실제정답 0.26
+    공개 개별: jixx=0.08 ovvx=0.00 qube=0.01 moke=0.19 wlid=0.83 xkdj=1.00 bpem=0.76 bphr=0.55 yuag=1.00 vfjx=1.00 nqwq=1.00 jrtg=1.00 kzbz=1.00 nriv=0.89 ttmn=0.34 ftkc=0.79 mobg=0.01 uexm=0.01 dszm=0.90 elue=0.09 xeeo=0.48
+
+== 채택 규칙 (기준 stack, 후보 6개, 문턱 0.004166666666666667) ==
+  D0: 공개조건 [True, True, True] | 보조방향 [True, True, False] | p_worse [np.float64(0.0435), np.float64(0.3163), np.float64(0.4815)] → 불채택
+  D1: 공개조건 [False, True, False] | 보조방향 [True, True, True] | p_worse [np.float64(0.0), np.float64(0.0), np.float64(0.0)] → 불채택
+  D2: 공개조건 [False, False, False] | 보조방향 [False, False, False] | p_worse [np.float64(0.63), np.float64(0.6456), np.float64(0.982)] → 불채택
+  D3: 공개조건 [False, False, False] | 보조방향 [True, True, True] | p_worse [np.float64(0.0), np.float64(0.0), np.float64(0.0)] → 불채택
+  D4: 공개조건 [True, True, True] | 보조방향 [True, True, False] | p_worse [np.float64(0.078), np.float64(0.2087), np.float64(0.7543)] → 불채택
+  D5: 공개조건 [False, False, False] | 보조방향 [True, True, True] | p_worse [np.float64(0.0), np.float64(0.0), np.float64(0.0)] → 불채택
+EVAL_D_DONE

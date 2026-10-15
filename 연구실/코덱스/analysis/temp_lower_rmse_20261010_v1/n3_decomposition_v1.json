@@ -1,0 +1,34 @@
+{
+  "status": "PASS_NONORTHOGONAL_IDENTITY",
+  "results": {
+    "DIAG10": {
+      "level_mse": 1.028037756768573,
+      "shape_mse": 0.6144479187432623,
+      "raw_shape_mse": 0.6057498389689172,
+      "cross_term": -0.8316392589939464,
+      "total_mse": 0.8108464165178888,
+      "baseline_mse": 0.5514522028462021,
+      "rows": 9600
+    },
+    "EXT10": {
+      "level_mse": 1.2307059941689473,
+      "shape_mse": 0.8572408730225441,
+      "raw_shape_mse": 0.9034912385210768,
+      "cross_term": -1.1103125986529432,
+      "total_mse": 0.9776342685385484,
+      "baseline_mse": 0.7912136646827269,
+      "rows": 2040
+    },
+    "EXT12": {
+      "level_mse": 3.349335120807427,
+      "shape_mse": 0.8377628896078967,
+      "raw_shape_mse": 0.8367755774499891,
+      "cross_term": -1.6993413634422194,
+      "total_mse": 2.487756646973104,
+      "baseline_mse": 0.8359279661985297,
+      "rows": 5256
+    }
+  },
+  "query_truth_used": "post-prediction diagnostics only",
+  "new_fit": 0
+}

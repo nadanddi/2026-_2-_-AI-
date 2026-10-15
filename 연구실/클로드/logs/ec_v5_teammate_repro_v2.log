@@ -1,0 +1,45 @@
+전체 결측 열(학습/평가): ['act_cool', 'act_pump', 'act_side', 'act_valve', 'in_rad'] ['act_cool', 'act_pump', 'act_side', 'act_valve', 'in_rad']
+인과 확인: 16개 날, 미래 행을 지운 특징 = 전체 특징
+DIAG10/0 done (train 6288, val 912)
+DIAG10/1 done (train 6552, val 720)
+DIAG10/2 done (train 6216, val 960)
+DIAG10/3 done (train 6408, val 792)
+DIAG10/4 done (train 6120, val 960)
+DIAG10/5 done (train 6576, val 672)
+DIAG10/6 done (train 6288, val 960)
+DIAG10/7 done (train 6576, val 744)
+DIAG10/8 done (train 6192, val 960)
+DIAG10/9 done (train 6192, val 960)
+A/0 done (train 6072, val 1272)
+A/1 done (train 5928, val 1320)
+A/2 done (train 6000, val 1272)
+A/3 done (train 6024, val 1248)
+A/4 done (train 6096, val 1224)
+B/0 done (train 5952, val 1272)
+B/1 done (train 5904, val 1320)
+B/2 done (train 6120, val 1224)
+B/3 done (train 5976, val 1296)
+B/4 done (train 6120, val 1200)
+EL1/20 done (train 7200, val 120)
+EL1/21 done (train 7224, val 120)
+EL1/22 done (train 7224, val 120)
+EL1/23 done (train 7200, val 120)
+EL1/24 done (train 7224, val 96)
+EL1/25 done (train 7224, val 120)
+EL1/26 done (train 7224, val 120)
+EL1/27 done (train 7248, val 120)
+EL1/28 done (train 7176, val 120)
+EL1/29 done (train 7272, val 48)
+GKF/0 done
+GKF/1 done
+GKF/2 done
+GKF/3 done
+GKF/4 done
+test 예측 저장(제출 파일 아님)
+기준과 1:1 일치: 22392행, 폴드별 학습 범위 일치
+Traceback (most recent call last):
+  File "C:\work\farmai\연구실\클로드\code\ec_v5_teammate_repro_v2.py", line 235, in <module>
+    evaluate()
+  File "C:\work\farmai\연구실\클로드\code\ec_v5_teammate_repro_v2.py", line 173, in evaluate
+    print("판정 가중 = 1/3 고정(라벨 미사용). 서술: SLSQP(DIAG10 OOF 전체 적합 \u2014 모든 검증기 라벨을 봄, 낙관) ET/LGB/CAT =", np.round(w, 4))
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2014' in position 51: illegal multibyte sequence

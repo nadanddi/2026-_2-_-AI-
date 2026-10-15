@@ -17,3 +17,8 @@
 - [Plain explanations](plain-explanations.md) — lead with plain-language meaning, then numbers; check claim direction vs known numbers
 - [Use both columns](use-both-columns.md) — submissions score temp & EC separately; never leave one column as baseline in a test submission
 - [Training cleaning may be non-causal](training-cleaning-noncausal-ok.md) — 10-10 ruling: repair TRAINING inputs with past+future values; test features stay causal; held-out rows keep original inputs
+- [Lab Claude = image](lab-claude-image-mission.md) — since 2026-10-10 연구실 Claude does the image mission (independent of 집 Codex); 집 Claude stays on temp
+- [Image approach = official types](image-approach-official-types.md) — augment external real photos with the 6 official manipulations; AI-Hub ≠ organizer data; red-LED excluded (final)
+- [Lab GPU server rules](lab-gpu-server-rules.md) — ADILAB.iptime.org 2×RTX6000Ada; conda activate nadan, python -m pip only, nvidia-smi then use a free GPU only; never use the password
+- [AI-Hub derived OK w/ provenance](aihub-derived-ok-with-provenance.md) — 10-12: fingerprint DB may ship in submission; README states where/how AI-Hub originals were obtained
+- [Image handoff 10-15](image-mission-handoff-1015.md) — 나단8 ready/hypothesis submit + revert rule, R4 sealed unopened; read IM_인계_2026-10-15.md

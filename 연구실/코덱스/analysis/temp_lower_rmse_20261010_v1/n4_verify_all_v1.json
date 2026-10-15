@@ -1,0 +1,83 @@
+{
+  "checks": 144,
+  "max_formula_gap": 7.105427357601002e-15,
+  "fold_results": {
+    "DIAG10_0": {
+      "base_rmse": 0.7271330403509996,
+      "candidate_rmse": 0.7248781265765775,
+      "rows": 960,
+      "gate0_rows": 36
+    },
+    "DIAG10_1": {
+      "base_rmse": 0.4876318682313743,
+      "candidate_rmse": 0.4862355993667766,
+      "rows": 960,
+      "gate0_rows": 16
+    },
+    "DIAG10_2": {
+      "base_rmse": 0.5875630178608189,
+      "candidate_rmse": 0.587006640986544,
+      "rows": 960,
+      "gate0_rows": 16
+    },
+    "DIAG10_3": {
+      "base_rmse": 0.6966218828621884,
+      "candidate_rmse": 0.6959188078904548,
+      "rows": 960,
+      "gate0_rows": 18
+    },
+    "DIAG10_4": {
+      "base_rmse": 0.6564059068515767,
+      "candidate_rmse": 0.655136816198457,
+      "rows": 960,
+      "gate0_rows": 1
+    },
+    "DIAG10_5": {
+      "base_rmse": 0.538478384247587,
+      "candidate_rmse": 0.5370189983153251,
+      "rows": 960,
+      "gate0_rows": 17
+    },
+    "DIAG10_6": {
+      "base_rmse": 0.8049360363623526,
+      "candidate_rmse": 0.803596649040963,
+      "rows": 960,
+      "gate0_rows": 11
+    },
+    "DIAG10_7": {
+      "base_rmse": 0.6760095401524754,
+      "candidate_rmse": 0.6783282552859052,
+      "rows": 960,
+      "gate0_rows": 5
+    },
+    "DIAG10_8": {
+      "base_rmse": 0.674959136658988,
+      "candidate_rmse": 0.6745755661151167,
+      "rows": 960,
+      "gate0_rows": 15
+    },
+    "DIAG10_9": {
+      "base_rmse": 0.7321421222823036,
+      "candidate_rmse": 0.7338587863368919,
+      "rows": 960,
+      "gate0_rows": 29
+    },
+    "EXT10_0": {
+      "base_rmse": 0.8638269058920292,
+      "candidate_rmse": 0.8640531142357266,
+      "rows": 2040,
+      "gate0_rows": 162
+    },
+    "EXT12_0": {
+      "base_rmse": 0.8271758542368313,
+      "candidate_rmse": 0.8240573031740892,
+      "rows": 5256,
+      "gate0_rows": 164
+    }
+  },
+  "passed": true,
+  "recipe_sha": "155cf3f7620afe8c85ad6ed257622e4d4a3fcfc98c760cfcc1e58f9ccd5df6fe",
+  "mode": "all",
+  "new_fit": 0,
+  "full_prediction_causality_test": false
+}

@@ -1,0 +1,29 @@
+학습 행 4783 (빨간 조명 366행 제외) | real=2467 AI_gen=42 composite=568 filter=697 full_style=383 partial_gen=60 partial_style=566
+보조 V3: 480행 = real=240 AI_gen=40 composite=40 filter=40 full_style=40 partial_gen=40 partial_style=40
+
+== 모델별 (시드 0/1/2) ==
+[stack]
+  s0 V2공개: acc=0.810 (17/21) logloss=0.461 auc=0.981 실제오탐=0 | real=3 AI_gen=3 compos=2 filter=3 full_s=2 partia=2 partia=2
+      V3보조 균형acc=0.919 | real=0.97 AI_gen=1.00 compos=0.95 filter=0.97 full_s=1.00 partia=0.55 partia=0.70 || 전체OOF 균형acc=0.895 | 빨강 실제정답=0.03 빨강가짜탐지=1.00
+  s1 V2공개: acc=0.810 (17/21) logloss=0.461 auc=0.981 실제오탐=0 | real=3 AI_gen=3 compos=2 filter=3 full_s=2 partia=2 partia=2
+      V3보조 균형acc=0.910 | real=0.99 AI_gen=1.00 compos=0.85 filter=0.95 full_s=0.97 partia=0.57 partia=0.62 || 전체OOF 균형acc=0.900 | 빨강 실제정답=0.03 빨강가짜탐지=1.00
+  s2 V2공개: acc=0.810 (17/21) logloss=0.461 auc=0.981 실제오탐=0 | real=3 AI_gen=3 compos=2 filter=3 full_s=2 partia=2 partia=2
+      V3보조 균형acc=0.925 | real=0.99 AI_gen=1.00 compos=0.93 filter=0.97 full_s=1.00 partia=0.55 partia=0.70 || 전체OOF 균형acc=0.899 | 빨강 실제정답=0.03 빨강가짜탐지=1.00
+[cnn_v1]
+  s0 V2공개: acc=0.429 (9/21) logloss=1.368 auc=0.796 실제오탐=0 | real=3 AI_gen=3 compos=0 filter=3 full_s=0 partia=0 partia=0
+      V3보조 균형acc=0.867 | real=1.00 AI_gen=1.00 compos=0.78 filter=0.93 full_s=0.80 partia=0.23 partia=0.68 || 전체OOF 균형acc=0.838 | 빨강 실제정답=0.00 빨강가짜탐지=0.80
+  s1 V2공개: acc=0.429 (9/21) logloss=1.368 auc=0.796 실제오탐=0 | real=3 AI_gen=3 compos=0 filter=3 full_s=0 partia=0 partia=0
+      V3보조 균형acc=0.867 | real=1.00 AI_gen=1.00 compos=0.78 filter=0.93 full_s=0.80 partia=0.23 partia=0.68 || 전체OOF 균형acc=0.838 | 빨강 실제정답=0.00 빨강가짜탐지=0.80
+  s2 V2공개: acc=0.429 (9/21) logloss=1.368 auc=0.796 실제오탐=0 | real=3 AI_gen=3 compos=0 filter=3 full_s=0 partia=0 partia=0
+      V3보조 균형acc=0.867 | real=1.00 AI_gen=1.00 compos=0.78 filter=0.93 full_s=0.80 partia=0.23 partia=0.68 || 전체OOF 균형acc=0.838 | 빨강 실제정답=0.00 빨강가짜탐지=0.80
+[avg:clip+low+cnn_v1]
+  s0 V2공개: acc=0.571 (12/21) logloss=0.603 auc=0.981 실제오탐=0 | real=3 AI_gen=3 compos=1 filter=3 full_s=1 partia=0 partia=1
+      V3보조 균형acc=0.906 | real=1.00 AI_gen=1.00 compos=0.93 filter=0.95 full_s=0.97 partia=0.38 partia=0.68 || 전체OOF 균형acc=0.883 | 빨강 실제정답=0.00 빨강가짜탐지=0.81
+  s1 V2공개: acc=0.571 (12/21) logloss=0.603 auc=0.981 실제오탐=0 | real=3 AI_gen=3 compos=1 filter=3 full_s=1 partia=0 partia=1
+      V3보조 균형acc=0.902 | real=1.00 AI_gen=1.00 compos=0.93 filter=0.95 full_s=0.97 partia=0.35 partia=0.65 || 전체OOF 균형acc=0.880 | 빨강 실제정답=0.00 빨강가짜탐지=0.81
+  s2 V2공개: acc=0.571 (12/21) logloss=0.603 auc=0.981 실제오탐=0 | real=3 AI_gen=3 compos=1 filter=3 full_s=1 partia=0 partia=1
+      V3보조 균형acc=0.902 | real=1.00 AI_gen=1.00 compos=0.90 filter=0.95 full_s=0.97 partia=0.35 partia=0.68 || 전체OOF 균형acc=0.882 | 빨강 실제정답=0.00 빨강가짜탐지=0.81
+
+== 채택 규칙 비교 (기준=stack, 후보 2개 → 문턱 0.0125) ==
+  cnn_v1: V2조건 [np.False_, np.False_, np.False_] | V3 방향 [np.False_, np.False_, np.False_] | p_worse [np.float64(0.993), np.float64(0.981), np.float64(0.989)] → 불채택
+  avg:clip+low+cnn_v1: V2조건 [np.False_, np.False_, np.False_] | V3 방향 [np.False_, np.False_, np.False_] | p_worse [np.float64(0.8285), np.float64(0.7905), np.float64(0.963)] → 불채택

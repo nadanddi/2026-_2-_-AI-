@@ -1,0 +1,37 @@
+{
+  "status": "IRR4_COMPONENT_SCREEN_COMPLETED",
+  "results": {
+    "DIAG10": {
+      "base_rmse": 0.742598278240801,
+      "candidate_rmse": 0.7367586120050801,
+      "pct": -0.7863829484704765,
+      "rows": 9600,
+      "better": true,
+      "p_worse": 0.00665,
+      "ci": [
+        -0.011390444142369121,
+        -0.00025382374626990815
+      ]
+    },
+    "EXT10": {
+      "base_rmse": 0.8895019194373484,
+      "candidate_rmse": 0.8907038217185043,
+      "pct": 0.13512081929134556,
+      "rows": 2040,
+      "better": false
+    },
+    "EXT12": {
+      "base_rmse": 0.9142909636426085,
+      "candidate_rmse": 0.9029649330784557,
+      "pct": -1.2387774805330043,
+      "rows": 5256,
+      "better": true
+    }
+  },
+  "screen_pass": false,
+  "full_mixture_adoption": false,
+  "new_fit": 11,
+  "total_component_fits": 13,
+  "feature_audit_cells": 6388464,
+  "recipe_sha": "83b44295d3d468dd47229cc27ebaedebe9f5cf130fc4270ad934bb3c8c146d13"
+}

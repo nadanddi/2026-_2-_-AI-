@@ -1,0 +1,37 @@
+{
+  "status": "PASS_NUMERICS_PILOT_FAIL",
+  "checks": 33948,
+  "max_abs_gap": 7.105427357601002e-15,
+  "all12_fold_context_weights_season_source_pass": true,
+  "metrics": {
+    "DIAG10": {
+      "n": 9600,
+      "base_rmse": 0.6644065151823838,
+      "candidate_rmse": 0.663915996317413,
+      "pct": -0.07382812386120818,
+      "delta_mse": -0.0006515672506561265,
+      "p_worse": 0.19045,
+      "ci": [
+        -0.0018993713363010419,
+        0.0009586797168313341
+      ]
+    },
+    "EXT10": {
+      "n": 2040,
+      "base_rmse": 0.8638269058920292,
+      "candidate_rmse": 0.8640531142357266,
+      "pct": 0.026186767528835198,
+      "delta_mse": 0.00039086087746109666
+    },
+    "EXT12": {
+      "n": 5256,
+      "base_rmse": 0.8271758542368313,
+      "candidate_rmse": 0.8240573031740892,
+      "pct": -0.37701185869590814,
+      "delta_mse": -0.005149454917878771
+    }
+  },
+  "new_fit": 0,
+  "ec_numeric_labels_read": false,
+  "full_prediction_causality_test": false
+}

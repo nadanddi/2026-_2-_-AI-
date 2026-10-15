@@ -1,0 +1,55 @@
+학습 행 4783, 장치 cuda
+fold 0: train 3570 test 1213
+   ep0 step 200/1479 loss 0.524 105s
+   ep0 step 400/1479 loss 0.941 202s
+   ep1 step 600/1479 loss 0.601 294s
+   ep1 step 800/1479 loss 0.193 385s
+   ep2 step 1000/1479 loss 0.267 476s
+   ep2 step 1200/1479 loss 0.731 569s
+   ep2 step 1400/1479 loss 0.332 661s
+fold 1: train 3278 test 1505
+   ep0 step 200/1362 loss 0.235 90s
+   ep0 step 400/1362 loss 0.626 185s
+   ep1 step 600/1362 loss 0.531 277s
+   ep1 step 800/1362 loss 0.223 369s
+   ep2 step 1000/1362 loss 0.433 460s
+   ep2 step 1200/1362 loss 0.631 552s
+fold 2: train 4296 test 487
+   ep0 step 200/1770 loss 0.492 114s
+   ep0 step 400/1770 loss 0.528 298s
+   ep1 step 600/1770 loss 0.522 393s
+   ep1 step 800/1770 loss 0.644 491s
+   ep1 step 1000/1770 loss 0.380 593s
+   ep2 step 1200/1770 loss 0.065 687s
+   ep2 step 1400/1770 loss 0.247 784s
+   ep2 step 1600/1770 loss 0.091 875s
+fold 3: train 3811 test 972
+   ep0 step 200/1578 loss 0.505 92s
+   ep0 step 400/1578 loss 0.521 184s
+   ep1 step 600/1578 loss 0.585 291s
+   ep1 step 800/1578 loss 0.689 391s
+   ep1 step 1000/1578 loss 0.244 493s
+   ep2 step 1200/1578 loss 0.189 593s
+   ep2 step 1400/1578 loss 0.441 701s
+fold 4: train 4177 test 606
+   ep0 step 200/1728 loss 0.742 102s
+   ep0 step 400/1728 loss 0.528 203s
+   ep1 step 600/1728 loss 0.458 303s
+   ep1 step 800/1728 loss 0.294 403s
+   ep1 step 1000/1728 loss 0.325 501s
+   ep2 step 1200/1728 loss 0.383 599s
+   ep2 step 1400/1728 loss 0.604 697s
+   ep2 step 1600/1728 loss 0.603 795s
+전체 학습
+   ep0 step 200/1980 loss 0.506 102s
+   ep0 step 400/1980 loss 0.674 204s
+   ep0 step 600/1980 loss 0.261 307s
+   ep1 step 800/1980 loss 0.214 408s
+   ep1 step 1000/1980 loss 0.899 508s
+   ep1 step 1200/1980 loss 0.519 611s
+   ep2 step 1400/1980 loss 0.651 711s
+   ep2 step 1600/1980 loss 0.692 813s
+   ep2 step 1800/1980 loss 0.170 913s
+공개21 acc=0.476 (10/21) | jixx(real)=0.15 ovvx(real)=0.07 qube(real)=0.07 moke(AI_ge)=0.64 wlid(AI_ge)=0.96 xkdj(AI_ge)=0.98 bpem(compo)=0.41 bphr(compo)=0.05 yuag(compo)=0.10 vfjx(filte)=0.94 nqwq(filte)=0.99 jrtg(filte)=0.98 kzbz(full_)=0.04 nriv(full_)=0.15 ttmn(full_)=0.11 ftkc(parti)=0.50 mobg(parti)=0.12 uexm(parti)=0.11 dszm(parti)=0.10 elue(parti)=0.09 xeeo(parti)=0.05
+OOF 균형acc=0.841 | real=0.94 AI_gen=1.00 composite=0.80 filter=0.80 full_style=0.92 partial_gen=0.22 partial_style=0.70
+빨강 실제정답=0.00 빨강가짜탐지=1.00

@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "checks": 86,
+  "max_abs_numeric_gap": 1.1102230246251565e-16,
+  "groups": {
+    "DIAG10": [
+      {
+        "farm": "F13",
+        "late": false,
+        "n": 4104,
+        "base": 0.64098423762718,
+        "candidate": 0.6409075683518138
+      },
+      {
+        "farm": "F13",
+        "late": true,
+        "n": 696,
+        "base": 0.5424010783817863,
+        "candidate": 0.5449486607495213
+      },
+      {
+        "farm": "F47",
+        "late": false,
+        "n": 4152,
+        "base": 0.7977070798261682,
+        "candidate": 0.7980042236030984
+      },
+      {
+        "farm": "F47",
+        "late": true,
+        "n": 648,
+        "base": 1.0836441835973631,
+        "candidate": 1.077512115350316
+      }
+    ],
+    "EXT10": [
+      {
+        "farm": "F13",
+        "late": false,
+        "n": 984,
+        "base": 0.805967761563845,
+        "candidate": 0.8054118511595035
+      },
+      {
+        "farm": "F13",
+        "late": true,
+        "n": 96,
+        "base": 0.7555411284767249,
+        "candidate": 0.7424040672982921
+      },
+      {
+        "farm": "F47",
+        "late": false,
+        "n": 768,
+        "base": 0.9980788386299139,
+        "candidate": 1.0054268917964477
+      },
+      {
+        "farm": "F47",
+        "late": true,
+        "n": 192,
+        "base": 0.8985879750333182,
+        "candidate": 0.8940371776827764
+      }
+    ],
+    "EXT12": [
+      {
+        "farm": "F13",
+        "late": false,
+        "n": 2376,
+        "base": 0.7723552291314826,
+        "candidate": 0.7793628647194218
+      },
+      {
+        "farm": "F13",
+        "late": true,
+        "n": 288,
+        "base": 0.823890539460525,
+        "candidate": 0.8061204371695566
+      },
+      {
+        "farm": "F47",
+        "late": false,
+        "n": 2184,
+        "base": 1.024441458080647,
+        "candidate": 1.033609424574999
+      },
+      {
+        "farm": "F47",
+        "late": true,
+        "n": 408,
+        "base": 1.0944577586906568,
+        "candidate": 1.0680409737159413
+      }
+    ]
+  },
+  "new_fit": 0,
+  "ec_numeric_labels_read": false,
+  "bootstrap_independent_recomputed": true
+}
