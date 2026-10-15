@@ -1,0 +1,57 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 fit rows 528
+EXT12 fit rows 2496
+DIAG10 fit rows 2904
+[fit] gate theta [b0, h, absu, p, dt]: [ 1.454 -3.531 -0.171 -0.04  -2.013] | rows 5928
+  gate (p .6, dT .5, |u| 1): 0.99 0.94 0.89 0.83 0.77 0.71 0.66 0.60 0.55 0.50 0.45 0.40 0.36 0.32 0.28 0.25 0.22 0.19 0.17 0.14 0.13 0.11 0.09 0.08
+CV8 judge done
+N judge done
+CK2 judge done
+EL1 judge done
+layout  chains_fixed  chains_wide
+   CV8             4            5
+     N            79          139
+   CK2            20           48
+   EL1             3            5
+
+(1) correlation between cells of per-row dSSE (HYB - M1), per layout
+  CV8: mean off-diagonal corr 0.999
+  N: mean off-diagonal corr 0.993
+  CK2: mean off-diagonal corr 0.995
+(2) CV8: records changed 1 (extra chains 1) | helped 1 harmed 0 | sum -1.29 | top3 |share| 1.00 | best -1.29 worst -1.29
+(2) N: records changed 80 (extra chains 60) | helped 44 harmed 36 | sum -32.55 | top3 |share| 0.22 | best -6.93 worst +6.76
+(2) CK2: records changed 31 (extra chains 28) | helped 18 harmed 13 | sum -19.30 | top3 |share| 0.35 | best -6.51 worst +6.52
+(2) EL1: records changed 2 (extra chains 2) | helped 2 harmed 0 | sum -1.63 | top3 |share| 1.00 | best -1.18 worst -0.45
+   largest record effects:
+layout     rec   dsse     p  dt  extra
+     N F47_125 -6.935 0.735 0.5   True
+     N F47_196  6.761 0.349 1.2   True
+   CK2 F13_109  6.525 0.417 1.4   True
+   CK2 F47_125 -6.506 0.722 0.5   True
+     N F13_118 -6.043 0.782 0.1   True
+     N F47_129 -5.809 0.421 0.1   True
+     N F47_092 -5.195 0.662 0.8   True
+     N F13_089 -4.739 0.572 0.2   True
+   CK2 F47_130 -4.600 0.775 0.3   True
+   CK2 F47_142  4.235 0.807 1.6   True
+   CK2 F13_158 -4.090 0.627 1.4   True
+     N F47_087  3.941 0.341 0.0   True
+
+(3) block-level (farm x 5-day, averaged over layouts) dSSE
+  blocks 86 | blocks with any change 49 (57%) | helped 26 harmed 23 | mean -0.00065 se 0.00219 | t -0.30
+  changed blocks sorted: {'F47_25': -0.0606, 'F13_17': -0.0399, 'F13_23': -0.0391, 'F13_14': -0.0377, 'F47_24': -0.0321, 'F47_18': -0.0305, 'F47_43': -0.019, 'F13_20': -0.0144, 'F47_26': -0.0135, 'F13_39': -0.0129, 'F13_31': -0.0114, 'F47_9': -0.011, 'F47_8': -0.0103, 'F13_18': -0.0102, 'F47_12': -0.0089, 'F13_3': -0.0058, 'F47_38': -0.0047, 'F47_6': -0.0036, 'F13_12': -0.0026, 'F47_35': -0.0023, 'F13_9': -0.0019, 'F13_15': -0.0016, 'F47_21': -0.0016, 'F13_25': -0.0015, 'F47_19': -0.0003, 'F13_24': -0.0001, 'F47_7': 0.0, 'F13_19': 0.0, 'F47_20': 0.0, 'F47_48': 0.0002, 'F13_13': 0.0005, 'F13_8': 0.0009, 'F13_22': 0.0015, 'F13_29': 0.0017, 'F13_4': 0.0019, 'F13_11': 0.0031, 'F47_42': 0.0037, 'F13_5': 0.0038, 'F13_16': 0.0039, 'F13_46': 0.0076, 'F47_23': 0.0076, 'F13_7': 0.0117, 'F13_6': 0.0182, 'F47_28': 0.0192, 'F47_10': 0.0193, 'F13_10': 0.0208, 'F13_21': 0.0227, 'F47_17': 0.0328, 'F47_39': 0.1409}
+
+(4) record dSSE by link confidence / dT (changed records)
+             size     sum   mean
+pbin                            
+(0.0, 0.5]     18  10.219  0.568
+(0.5, 0.65]    24 -15.388 -0.641
+(0.65, 0.8]    41 -51.903 -1.266
+(0.8, 1.01]    31   2.308  0.074
+              size     sum   mean
+dtbin                            
+(-0.01, 0.5]    71 -48.669 -0.685
+(0.5, 1.5]      32  -6.396 -0.200
+(1.5, 3.01]     11   0.302  0.027
