@@ -1,0 +1,25 @@
+links 208 | labelled records with yesterday window 0.52
+KEA fired by validator/steps: {('DIAG10', 1): 9, ('DIAG10', 2): 7, ('DIAG10', 3): 1, ('EL1', 1): 3, ('P2LOO', 1): 5}
+   val  seed  dSSE_p2  dSSE_all  vsK8_p2  vsK8_all
+DIAG10  1357   -2.962    -1.268   -2.196    -0.300
+DIAG10  2468   -2.032    -1.088   -1.546    -0.260
+DIAG10  3579   -2.508    -1.243   -1.869    -0.294
+   EL1  1357   -0.029    -0.029   -0.026    -0.026
+   EL1  2468   -0.020    -0.020   -0.018    -0.018
+   EL1  3579   -0.035    -0.035   -0.031    -0.031
+ P2LOO  1357   -1.496    -1.496   -2.168    -2.168
+ P2LOO  2468   -1.537    -1.537   -2.145    -2.145
+ P2LOO  3579   -1.406    -1.406   -1.973    -1.973
+KE1 KEA vs K8: cells 6/6 | P2LOO P 0.0037 | harmed 3 | DIAG10 -1.200 -> PASS
+KEH fired by validator/steps: {('DIAG10', 2): 1, ('DIAG10', 3): 1}
+   val  seed  dSSE_p2  dSSE_all  vsK8_p2  vsK8_all
+DIAG10  1357      0.0     2.082      0.0     0.491
+DIAG10  2468      0.0     1.317      0.0     0.314
+DIAG10  3579      0.0     1.617      0.0     0.381
+   EL1  1357      0.0     0.000      0.0     0.000
+   EL1  2468      0.0     0.000      0.0     0.000
+   EL1  3579      0.0     0.000      0.0     0.000
+ P2LOO  1357      0.0     0.000      0.0     0.000
+ P2LOO  2468      0.0     0.000      0.0     0.000
+ P2LOO  3579      0.0     0.000      0.0     0.000
+KE1 KEH vs K8: cells 0/6 | P2LOO P 1.0000 | harmed 0 | DIAG10 +1.672 -> FAIL
