@@ -1,0 +1,13 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+N   C0   vs BASE27 -1.097 -1.103 -1.114 -1.122 | P(worse) 0.0000 P(better) 1.0000 | cold +0.00% warm -1.15% p2 -0.87% (rows 8880, cold 150)
+N   C1   vs BASE27 -0.724 -0.726 -0.738 -0.743 | P(worse) 0.0000 P(better) 1.0000 | cold +0.00% warm -0.76% p2 -0.56% (rows 8880, cold 150)
+N   C2   vs BASE27 -0.028 -0.030 -0.026 -0.029 | P(worse) 0.3553 P(better) 0.6447 | cold -0.80% warm +0.00% p2 -0.04% (rows 8880, cold 150)
+N   C12  vs BASE27 -0.752 -0.756 -0.765 -0.772 | P(worse) 0.0001 P(better) 0.9999 | cold -0.80% warm -0.76% p2 -0.61% (rows 8880, cold 150)
+CK2 C0   vs BASE27 -0.501 -0.494 -0.515 -0.507 | P(worse) 0.0012 P(better) 0.9988 | cold +0.00% warm -0.53% p2 -0.36% (rows 4752, cold 150)
+CK2 C1   vs BASE27 -0.091 -0.080 -0.097 -0.085 | P(worse) 0.0423 P(better) 0.9577 | cold +0.00% warm -0.09% p2 -0.03% (rows 4752, cold 150)
+CK2 C2   vs BASE27 -0.015 -0.018 -0.018 -0.022 | P(worse) 0.2605 P(better) 0.7396 | cold -0.03% warm -0.02% p2 -0.15% (rows 4752, cold 150)
+CK2 C12  vs BASE27 -0.106 -0.098 -0.116 -0.107 | P(worse) 0.0279 P(better) 0.9721 | cold -0.03% warm -0.11% p2 -0.19% (rows 4752, cold 150)
+OS1 C1 (GRU strict gate): ADOPT | C2 (cold anchor widening): FAIL
+OS1V2 DONE
