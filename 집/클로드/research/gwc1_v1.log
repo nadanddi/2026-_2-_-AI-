@@ -1,0 +1,10 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 done | rows 1848 | V3LF coverage 1.00 | rows <= 8C 0.080
+EXT12 done | rows 4752 | V3LF coverage 1.00 | rows <= 8C 0.032
+DIAG10 done | rows 8880 | V3LF coverage 1.00 | rows <= 8C 0.017
+  EXT10: cells -1.025 -0.455 -0.731 -0.170 | 6-10C rows -2.05% | >10C +0.87%
+  EXT12: cells +6.534 +6.553 +6.275 +6.298 | 6-10C rows +4.84% | >10C +7.55%
+  DIAG10: cells -1.154 -1.180 -1.151 -1.178 | 6-10C rows -2.45% | >10C -0.91%
+GWC1 G46: EXT10+EXT12 cells all better False | combined block P(worse) 0.9996 | DIAG10 -1.166% safe True -> FAIL
