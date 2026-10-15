@@ -1,0 +1,37 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 fit rows 528
+EXT12 fit rows 2496
+DIAG10 fit rows 2904
+[fit] gate theta [b0, h, absu, p, dt]: [ 1.454 -3.531 -0.171 -0.04  -2.013] | rows 5928
+  gate (p .6, dT .5, |u| 1): 0.99 0.94 0.89 0.83 0.77 0.71 0.66 0.60 0.55 0.50 0.45 0.40 0.36 0.32 0.28 0.25 0.22 0.19 0.17 0.14 0.13 0.11 0.09 0.08
+CV8 judge done
+N judge done
+CK2 judge done
+EL1 judge done
+layout  chains_fixed  chains_wide
+   CV8             4            5
+     N            79          139
+   CK2            20           48
+   EL1             3            5
+  HYB vs M1 | CV8: cells -0.146 -0.120 -0.144 -0.119
+  HYB vs M1 | N: cells -0.467 -0.481 -0.469 -0.486
+  HYB vs M1 | CK2: cells -0.422 -0.442 -0.410 -0.428
+  HYB vs M1 | EL1: cells -0.141 -0.123 -0.134 -0.117
+HYB1 HYB vs M1: CV8/N/CK2 12 cells all better True | dedup P(worse) 0.3603 | EL1 -0.129% safe True -> FAIL
+  GATE vs M1 | CV8: cells -0.114 -0.101 -0.099 -0.087
+  GATE vs M1 | N: cells -0.379 -0.378 -0.381 -0.384
+  GATE vs M1 | CK2: cells -0.614 -0.661 -0.623 -0.668
+  GATE vs M1 | EL1: cells -0.148 -0.125 -0.143 -0.121
+HYB1 GATE vs M1: CV8/N/CK2 12 cells all better True | dedup P(worse) 0.4764 | EL1 -0.134% safe True (desc)
+  M1 vs NONE | CV8: cells -0.161 -0.289 -0.076 -0.200
+  M1 vs NONE | N: cells -0.953 -0.948 -0.939 -0.936
+  M1 vs NONE | CK2: cells -0.665 -0.682 -0.705 -0.722
+  M1 vs NONE | EL1: cells -0.232 -0.208 -0.212 -0.187
+HYB1 M1 vs NONE: CV8/N/CK2 12 cells all better True | dedup P(worse) 0.0040 | EL1 -0.210% safe True (desc)
+  HYB vs NONE | CV8: cells -0.307 -0.409 -0.220 -0.319
+  HYB vs NONE | N: cells -1.416 -1.424 -1.404 -1.417
+  HYB vs NONE | CK2: cells -1.084 -1.121 -1.112 -1.147
+  HYB vs NONE | EL1: cells -0.373 -0.331 -0.346 -0.303
+HYB1 HYB vs NONE: CV8/N/CK2 12 cells all better True | dedup P(worse) 0.0367 | EL1 -0.338% safe True (desc)
