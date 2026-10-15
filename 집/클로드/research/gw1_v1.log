@@ -1,0 +1,38 @@
+CV8 done
+N done
+CK2 done
+EL1 done
+
+[desc] GRU alone vs cells by in_temp band (rows with V3LF)
+  CV8  <=6   rows    21 | cells rmse 1.792 bias +0.723 | GRU rmse 2.667 bias +1.929
+  CV8  6-8   rows   129 | cells rmse 0.595 bias +0.142 | GRU rmse 0.924 bias +0.530
+  CV8  8-10  rows   297 | cells rmse 0.656 bias +0.133 | GRU rmse 0.777 bias +0.153
+  CV8  >10   rows   480 | cells rmse 0.713 bias +0.096 | GRU rmse 0.789 bias +0.248
+  N    <=6   rows    21 | cells rmse 1.782 bias +0.625 | GRU rmse 2.430 bias +1.500
+  N    6-8   rows   129 | cells rmse 0.538 bias +0.104 | GRU rmse 0.805 bias +0.265
+  N    8-10  rows  1088 | cells rmse 0.776 bias -0.092 | GRU rmse 0.865 bias -0.111
+  N    >10   rows  7569 | cells rmse 0.575 bias -0.041 | GRU rmse 0.645 bias +0.017
+  CK2  <=6   rows    21 | cells rmse 1.804 bias +0.636 | GRU rmse 2.627 bias +1.845
+  CK2  6-8   rows   129 | cells rmse 0.532 bias +0.088 | GRU rmse 0.938 bias +0.571
+  CK2  8-10  rows  1085 | cells rmse 0.818 bias -0.073 | GRU rmse 0.899 bias -0.037
+  CK2  >10   rows  3494 | cells rmse 0.637 bias +0.021 | GRU rmse 0.798 bias +0.031
+  EL1  6-8   rows    15 | cells rmse 0.532 bias +0.072 | GRU rmse 0.796 bias +0.675
+  EL1  8-10  rows   176 | cells rmse 0.656 bias -0.009 | GRU rmse 0.619 bias -0.014
+  EL1  >10   rows  1057 | cells rmse 0.751 bias -0.026 | GRU rmse 0.716 bias -0.042
+opt  CV8early  CV8late  late_le6  late_6_8      N  N_le10    CK2  CK2_le10    EL1
+C10    -0.773   -0.337    14.171     1.295 -0.409  -0.343 -0.958    -1.286 -0.667
+C20    -1.035    0.363    29.086     4.094 -0.551  -0.223 -1.211    -1.882 -1.160
+C30    -0.783    2.077    44.516     8.281 -0.423   0.359 -0.753    -1.777 -1.477
+G68    -0.845   -1.379     0.000     0.000 -0.721  -1.053 -2.046    -3.046 -0.786
+G46    -1.317   -3.820     0.000    -1.262 -0.684  -0.814 -1.562    -3.341 -1.491
+selected on CV8 early folds: G46
+  CV8: 4 cells -3.627 -4.043 -3.594 -4.016
+  N: 4 cells -0.709 -0.659 -0.708 -0.659
+  CK2: 4 cells -1.638 -1.488 -1.636 -1.485
+GW1 G46: 12 cells all better True | combined block P(worse) 0.0374 | EL1 -1.491% safe True -> FAIL
+  eval inputs B: mean GRU weight 0.080, rows with weight > 0 0.37
+  eval inputs C10: mean GRU weight 0.154, rows with weight > 0 1.00
+  eval inputs C20: mean GRU weight 0.227, rows with weight > 0 1.00
+  eval inputs C30: mean GRU weight 0.300, rows with weight > 0 1.00
+  eval inputs G68: mean GRU weight 0.176, rows with weight > 0 0.72
+  eval inputs G46: mean GRU weight 0.228, rows with weight > 0 0.80
