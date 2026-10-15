@@ -35,7 +35,7 @@ for j, s in enumerate(SITS):
         if (g, s) not in N.index: continue
         q = P.loc[(g, s)]; ax[0, j].plot(q.index, q.sub_temp, "-", color=COL[g], lw=2.2, label=f"{g} 배지"); ax[0, j].plot(q.index, q.in_temp, "--", color=COL[g], lw=1.2, label=f"{g} 실내")
         ax[1, j].plot(q.index, q.gap, "-", color=COL[g], lw=2, label=g)
-    ax[0, j].set_title(f"{s}: 실내(점선)·배지(실선)"); ax[1, j].set_title(f"{s}: 배지 − 실내"); ax[1, j].axhline(0, color="k", lw=.6); ax[1, j].set_xlabel("시각")
+    ax[0, j].set_title(f"{s}: 실내(점선)·배지(실선)"); ax[1, j].set_title(f"{s}: 배지 - 실내"); ax[1, j].axhline(0, color="k", lw=.6); ax[1, j].set_xlabel("시각")
     ax[0, j].set_ylabel("℃"); ax[1, j].set_ylabel("℃")
 ax[0, 0].legend(fontsize=7, ncol=2); ax[1, 0].legend(fontsize=8)
 fig.suptitle("하루 흐름 비교: F13·F47 vs 다른 온실 (학습 정답, 온실·상황별 중앙값)", fontsize=13); fig.tight_layout()
