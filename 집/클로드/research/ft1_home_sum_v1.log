@@ -5,10 +5,7 @@ PAST_DATE  0.2171  0.2429  0.1788  0.1665  0.4522  0.0754    0.0703     0.2449  
 PAST_NOS   0.2831  0.2728  0.2959  0.1350  0.7632  0.0753    0.0766     0.2951   0.3522
 ALL_DATE   0.1826  0.2160  0.1279  0.1364  0.3910  0.0734    0.0482     0.1223   0.2375
 ALL_NOS    0.2558  0.2778  0.2246  0.1439  0.6545  0.1881    0.0887     0.1549   0.3258
-Traceback (most recent call last):
-  File "C:\work\farmai\Áý\Å¬·Îµå\research\ft1_past_only_training_ec_v1.py", line 92, in <module>
-    summarize() if MODE == "sum" else run(MODE)
-    ^^^^^^^^^^^
-  File "C:\work\farmai\Áý\Å¬·Îµå\research\ft1_past_only_training_ec_v1.py", line 88, in summarize
-    print(f"date gain in {reg} (NOS/DATE \u2212 1, %):", (100 * (R.loc[f"{reg}_NOS"] / R.loc[f"{reg}_DATE"] - 1)).round(1).to_dict())
-UnicodeEncodeError: 'cp949' codec can't encode character '\u2212' in position 28: illegal multibyte sequence
+date gain in PAST (NOS/DATE âˆ’ 1, %): {'all': 30.4, 'p2': 12.3, 'p1': 65.5, 'normal': -18.9, 'high': 68.8, 'cal<60': -0.1, 'cal60_90': 9.0, 'cal90_120': 20.5, 'cal120+': 33.4}
+date gain in ALL (NOS/DATE âˆ’ 1, %): {'all': 40.1, 'p2': 28.7, 'p1': 75.6, 'normal': 5.5, 'high': 67.4, 'cal<60': 156.4, 'cal60_90': 83.9, 'cal90_120': 26.7, 'cal120+': 37.2}
+PAST vs ALL (DATE, %): {'all': 18.9, 'p2': 12.5, 'p1': 39.8, 'normal': 22.1, 'high': 15.6, 'cal<60': 2.7, 'cal60_90': 45.8, 'cal90_120': 100.2, 'cal120+': 11.1}
+train days PAST median 198.0 ALL median 299.5
