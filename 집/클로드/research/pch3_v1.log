@@ -1,0 +1,26 @@
+CV8 fit rows 72 chains 3
+N fit rows 1896 chains 79
+CK2 fit rows 552 chains 23
+EL1 fit rows 72 chains 3
+
+[fit] chained rows 2592 | SSE none 686.5 | DAWN(0-5h, s1) 634.3 | M1 exp: s 0.9 tau 8 SSE 625.1 | M2 situation: s 1.0 kappa 2 rho(sun) 0.75 SSE 635.2
+  M1 weight by hour: 0.90 0.79 0.70 0.62 0.55 0.48 0.43 0.38 0.33 0.29 0.26 0.23 0.20 0.18 0.16 0.14 0.12 0.11 0.09 0.08 0.07 0.07 0.06 0.05
+  M2 mean weight by hour: 0.75 0.65 0.58 0.57 0.56 0.52 0.50 0.46 0.48 0.25 0.11 0.06 0.04 0.04 0.05 0.06 0.11 0.22 0.33 0.37 0.37 0.39 0.40 0.40
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 judge frame done | chains 10
+EXT12 judge frame done | chains 49
+DIAG10 judge frame done | chains 69
+  DAWN EXT10: cells -0.583 -0.679 -0.603 -0.697 | chained rows -4.84%
+  DAWN EXT12: cells -2.155 -2.117 -2.153 -2.116 | chained rows -10.05%
+  DAWN DIAG10: cells -0.228 -0.242 -0.223 -0.238 | chained rows -1.40%
+PCH3 DAWN: 12 cells all better True | dedup block P(worse) 0.0123 | chained cold records helped 16 harmed 5
+  M1 EXT10: cells -0.509 -0.594 -0.523 -0.607 | chained rows -4.20%
+  M1 EXT12: cells -2.130 -2.104 -2.122 -2.095 | chained rows -9.94%
+  M1 DIAG10: cells -0.382 -0.401 -0.378 -0.398 | chained rows -2.35%
+PCH3 M1: 12 cells all better True | dedup block P(worse) 0.0017 | chained cold records helped 17 harmed 4 -> PASS
+  M2 EXT10: cells -0.454 -0.536 -0.470 -0.550 | chained rows -3.77%
+  M2 EXT12: cells -2.110 -2.073 -2.089 -2.051 | chained rows -9.78%
+  M2 DIAG10: cells -0.181 -0.203 -0.181 -0.205 | chained rows -1.15%
+PCH3 M2: 12 cells all better True | dedup block P(worse) 0.0219 | chained cold records helped 16 harmed 5 -> FAIL
