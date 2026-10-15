@@ -1,0 +1,33 @@
+CV8 fitA rows 120 chains 5
+N fitA rows 3312 chains 138
+CK2 fitA rows 1152 chains 48
+EL1 fitA rows 120 chains 5
+
+[fit] A (F13/F47 PCH1 layouts, p>=.3, |dT|<=3) theta [b0, h, absu, p, dt]: [ 1.001 -4.948  0.85   0.2   -4.134] | rows 4704
+  gate A2 weight by hour (|A-BIAS-x0| 0.25, it0 12, p .9, dT .5): 0.72 0.64 0.56 0.49 0.42 0.36 0.30 0.25 0.21 0.17 0.14 0.12 0.10 0.08 0.06 0.05 0.04 0.03 0.03 0.02 0.02 0.01 0.01 0.01
+  gate A2 weight by hour (|A-BIAS-x0| 1.0, it0 12, p .9, dT .5): 0.84 0.75 0.67 0.60 0.52 0.45 0.39 0.33 0.28 0.23 0.19 0.16 0.13 0.11 0.09 0.07 0.06 0.05 0.04 0.03 0.03 0.02 0.02 0.01
+  fixed M1: 0.90 0.79 0.70 0.62 0.55 0.48 0.43 0.38 0.33 0.29 0.26 0.23 0.20 0.18 0.16 0.14 0.12 0.11 0.09 0.08 0.07 0.07 0.06 0.05
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 done
+EXT12 done
+DIAG10 done
+layout  chains_fixed  chains_wide
+ EXT10             8           22
+ EXT12            40          104
+DIAG10            72          121
+  A vs M1 | EXT10: cells -0.952 -0.964 -0.931 -0.943
+  A vs M1 | EXT12: cells -2.601 -2.569 -2.617 -2.584
+  A vs M1 | DIAG10: cells -0.156 -0.120 -0.164 -0.129
+LCG2 A vs M1: 12 cells all better True | dedup P(worse) 0.0069 -> PASS
+  A vs NONE | EXT10: cells -1.036 -1.088 -1.009 -1.058
+  A vs NONE | EXT12: cells -4.511 -4.491 -4.555 -4.531
+  A vs NONE | DIAG10: cells -0.861 -0.847 -0.871 -0.858
+LCG2 A vs NONE: 12 cells all better True | dedup P(worse) 0.0001 (desc)
+  M1 vs NONE | EXT10: cells -0.085 -0.125 -0.079 -0.117
+  M1 vs NONE | EXT12: cells -1.961 -1.973 -1.989 -1.999
+  M1 vs NONE | DIAG10: cells -0.707 -0.728 -0.708 -0.730
+LCG2 M1 vs NONE: 12 cells all better True | dedup P(worse) 0.0006 (desc)
+  [desc] eval wide-chain records 18: gate weight at 0h (|u| 1.0) min 0.00 median 1.02 max 1.24 | M1 0.90
+  [desc] eval wide-chain records 18: gate weight at 6h (|u| 1.0) min 0.00 median 0.55 max 0.85 | M1 0.43
