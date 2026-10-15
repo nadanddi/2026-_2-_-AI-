@@ -1,0 +1,20 @@
+N done
+CK2 done
+EL1 done
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 done
+EXT12 done
+(A) all layouts: 60-record samples (of 5-day blocks as units): mean -2.46%, 95% [-4.11, -1.09], P(>= +2.18%) 0.000, P(> 0) 0.000
+(A) pass-2 rows only: 60-record samples (of 5-day blocks as units): mean -2.33%, 95% [-3.37, -1.41], P(>= +2.18%) 0.000, P(> 0) 0.000
+(A) EL1+CK2 (eval-like): 60-record samples (of 5-day blocks as units): mean -2.08%, 95% [-3.33, -1.12], P(>= +2.18%) 0.000, P(> 0) 0.000
+(B) component action conditions:
+ set  rows  gru_on  gru_mean  tx3_on  tx3_mean  cold8  band8_12  pass2  daymin_med  nh_cov
+   N  9600   0.612     0.496   0.032     0.005  0.017     0.291  0.140        10.9   0.548
+ CK2  5256   0.298     0.136   0.054     0.009  0.031     0.498  0.132         9.5   0.525
+ EL1  1344   0.563     0.477   0.066     0.011  0.013     0.317  1.000        10.8   0.821
+EVAL  1440   0.374     0.268   0.167     0.044  0.149     0.343  1.000         9.4   1.000
+(C) FL link p: train(validation) median 0.76, share p>=.8 0.43, p>=.5 0.76 | eval median 0.71, p>=.8 0.45, p>=.5 0.75
+    eval FL prev is labelled training: 0.68 | prev is earlier eval record: 0.32 | cross-farm: 0.10
+    FLN train p>=.5 0.42 (p_none median 0.36)
