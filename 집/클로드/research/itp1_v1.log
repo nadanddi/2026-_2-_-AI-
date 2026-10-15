@@ -1,0 +1,34 @@
+       set         col  recs_linear  recs_flat6h                                                                                     linear_list
+train(400)    out_temp            4            0                                                                 F13_216,F13_217,F47_211,F47_212
+train(400)     out_hum            3           12                                                                         F13_102,F13_103,F47_106
+train(400)     out_rad           10          336                 F13_093,F13_106,F13_107,F13_108,F47_096,F47_097,F47_109,F47_110,F47_111,F47_112
+train(400)    out_wspd            7            7                                         F13_093,F13_122,F13_123,F47_096,F47_097,F47_127,F47_128
+train(400)     in_temp           14            2 F13_015,F13_026,F13_030,F13_057,F13_088,F13_175,F13_183,F47_006,F47_023,F47_057,F47_074,F47_124
+train(400)      in_hum           12           27 F13_020,F13_023,F13_069,F13_073,F13_106,F13_117,F13_164,F47_028,F47_036,F47_055,F47_174,F47_211
+train(400)      in_co2            9            1                         F13_103,F13_231,F13_232,F47_009,F47_032,F47_046,F47_114,F47_144,F47_169
+train(400)    act_vent            0          315                                                                                                
+train(400)   act_shade            0          358                                                                                                
+train(400) act_thermal            0          358                                                                                                
+train(400) act_heating            0          373                                                                                                
+train(400) act_circfan            0          273                                                                                                
+train(400)     act_co2            0          400                                                                                                
+train(400)     act_fog            0          400                                                                                                
+train(400)    sub_temp            3            0                                                                         F13_076,F47_031,F47_180
+train(400)      sub_ec           74           21 F13_010,F13_012,F13_020,F13_022,F13_024,F13_027,F13_028,F13_031,F13_036,F13_037,F13_038,F13_042
+  eval(60)    out_temp            0            0                                                                                                
+  eval(60)     out_hum            1            0                                                                                         F47_203
+  eval(60)     out_rad            0           51                                                                                                
+  eval(60)    out_wspd            1            1                                                                                         F13_207
+  eval(60)     in_temp            3            0                                                                         F13_201,F13_225,F47_206
+  eval(60)      in_hum            1            5                                                                                         F13_208
+  eval(60)      in_co2            2            0                                                                                 F13_239,F47_183
+  eval(60)    act_vent            0           51                                                                                                
+  eval(60)   act_shade            0           58                                                                                                
+  eval(60) act_thermal            0           57                                                                                                
+  eval(60) act_heating            0           57                                                                                                
+  eval(60) act_circfan            0           41                                                                                                
+  eval(60)     act_co2            0           60                                                                                                
+  eval(60)     act_fog            0           60                                                                                                
+
+large day-level-error records (DHM1) with any straight-line input segment: {'F13_107': ['out_rad'], 'F13_157': ['sub_ec'], 'F13_175': ['in_temp'], 'F13_217': ['out_temp'], 'F47_096': ['out_rad', 'out_wspd'], 'F47_105': ['sub_ec']}
+eval records with any straight-line input segment: {'F13_201': ['in_temp'], 'F13_207': ['out_wspd'], 'F13_208': ['in_hum'], 'F13_225': ['in_temp'], 'F13_239': ['in_co2'], 'F47_183': ['in_co2'], 'F47_203': ['out_hum'], 'F47_206': ['in_temp']}
