@@ -7,15 +7,6 @@ AC1(6.9xx) S5 는 2차 모든 판 개선이나 DIAG10 1차 손해(F47_132·F47_0
 판정(α .025): τ* 에서 (1) P2LOO·EL1 3시드 2차 dSSE < 0, (2) DIAG10 3시드 전체 dSSE < 0 & DIAG10 블록(농장 x 5일) P(악화) < .025.
 서술: τ 별 표, 안전장치에 걸린 기록, 각 안 vs NH.
 Run:  cd 집/클로드/research && PYTHONPATH="" python -u ac2_anchor_guard_ec_v1.py
-"""AC1 (2026-10-15 집 클로드; 사용자: '가장 쉬운 부분부터 차근차근').  사전 고정(커밋 후 실행).  EC.  학습 없음(저장 예측만).
-문제: 27번 FL 앵커(p ≥ .8·정답 전날·|dT| ≤ 1.5)가 평가 60 기록 중 15 에만 걸림. p ≥ .5 로 넓히면 26.
-기본 = NH(.9·pre_SEA 꼴 되살림, FL4 에서 EV3L-FL 기각 → 27번 EC 기본).  링크 = local/fl3_train_links.csv(FL, 학습 표).
-  K8(현재) : p ≥ .8 & 정답 전날 & |dT_air| ≤ 1.5 → pred_h = q_h + (A − cm_h(q))
-  S5(후보) : p ≥ .5 & 같은 조건 → pred_h = q_h + p·(A − cm_h(q))   (확률만큼만 옮김; 비율 = p 는 미리 고정, 튜닝 없음)
-  앵커 전날이 그 폴드 검증 기록이면 사용 안 함(FL4 와 같음).
-판정(EC 분야 규칙, 단일 안 α .025): S5 vs K8 — P2LOO·EL1 3시드 모두 2차 dSSE < 0 & (P2LOO 블록 P(악화) < .025 OR 나빠진 2차 기록-시드 0) & DIAG10 평균 dSSE 손해 아님.
-서술: H5(p ≥ .5 단단히, 비율 1), S3(p ≥ .3, 비율 p), 새로 앵커 걸린 기록만의 변화, 각 안 vs 앵커 없음.
-Run:  cd 집/클로드/research && PYTHONPATH="" python -u ac2_anchor_guard_ec_v1.py
 """
 import os, sys, pickle
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
