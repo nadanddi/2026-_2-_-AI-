@@ -1,0 +1,29 @@
+N done | anchors FL 18 FLN 19 | KF fired {'FL': 7, 'FLN': 2, 'UNI': 2}
+CK2 done | anchors FL 7 FLN 6 | KF fired {'FL': 1, 'FLN': 1, 'UNI': 1}
+EL1 done | anchors FL 20 FLN 20 | KF fired {'FL': 2, 'FLN': 1, 'UNI': 1}
+gru anchor tail    w  tx3   kf3      N    CK2    EL1
+S20    UNI  ALL 1.00 True False -1.457 -0.146 -1.179
+S20    UNI  ALL 1.00 True  True -1.455 -0.225 -1.065
+S20    UNI  ALL 0.75 True False -1.452 -0.179 -1.155
+S20    UNI  ALL 0.75 True  True -1.450 -0.259 -1.041
+S20     FL  ALL 0.75 True  True -1.426 -0.259 -1.007
+S20    FLN  ALL 1.00 True False -1.422 -0.146 -1.221
+S20    FLN  ALL 1.00 True  True -1.420 -0.225 -1.106
+S20     FL  ALL 1.00 True  True -1.403 -0.225 -1.006
+S20    FLN  ALL 0.75 True False -1.400 -0.179 -1.122
+S20    FLN  ALL 0.75 True  True -1.398 -0.259 -1.007
+S20     FL DAWN 0.75 True  True -1.380 -0.344 -0.641
+S20     FL DAWN 1.00 True  True -1.372 -0.351 -0.751
+
+main effects (mean % vs R27):
+  gru {'O10': {'N': -1.144, 'CK2': -0.522, 'EL1': -0.923}, 'S10': {'N': -0.768, 'CK2': -0.111, 'EL1': -0.465}, 'S20': {'N': -1.307, 'CK2': -0.166, 'EL1': -0.832}, 'none': {'N': -0.015, 'CK2': -0.024, 'EL1': -0.049}}
+  anchor {'FL': {'N': -0.787, 'CK2': -0.206, 'EL1': -0.489}, 'FLN': {'N': -0.778, 'CK2': -0.206, 'EL1': -0.555}, 'UNI': {'N': -0.861, 'CK2': -0.206, 'EL1': -0.658}}
+  tail {'ALL': {'N': -0.865, 'CK2': -0.153, 'EL1': -0.771}, 'DAWN': {'N': -0.753, 'CK2': -0.259, 'EL1': -0.364}}
+  w {0.75: {'N': -0.803, 'CK2': -0.212, 'EL1': -0.521}, 1.0: {'N': -0.814, 'CK2': -0.199, 'EL1': -0.613}}
+  tx3 {False: {'N': -0.761, 'CK2': -0.117, 'EL1': -0.555}, True: {'N': -0.856, 'CK2': -0.294, 'EL1': -0.579}}
+  kf3 {False: {'N': -0.79, 'CK2': -0.166, 'EL1': -0.569}, True: {'N': -0.828, 'CK2': -0.245, 'EL1': -0.565}}
+
+selected on N: ('S20', 'UNI', 'ALL', 1.0, True, False)
+  CK2 selected vs R27 -0.151 -0.130 -0.162 -0.140
+  EL1 selected vs R27 -1.168 -1.215 -1.145 -1.189
+CB1-T ('S20', 'UNI', 'ALL', 1.0, True, False): CK2+EL1 8 cells better True | pooled P 0.0003 -> PASS
