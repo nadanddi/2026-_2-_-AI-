@@ -1,0 +1,22 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+anchors FULL 87 FL 87 | same prev 57
+[TEMP] DIAG10 FL vs NONE +0.83 +0.80 +0.76 +0.71 | FULL vs NONE +0.36
+[TEMP] EL1    FL vs NONE -1.97 -2.01 -1.99 -1.98 | FULL vs NONE -3.13
+[TEMP] F      FL vs NONE +1.15 +1.26 +1.17 +1.28 | FULL vs NONE +0.00
+[TEMP] G      FL vs NONE +1.06 +0.90 +1.06 +0.92 | FULL vs NONE +0.15
+[TEMP] H      FL vs NONE +0.84 +0.83 +0.92 +0.93 | FULL vs NONE -0.37
+[TEMP] I      FL vs NONE +0.99 +1.03 +0.91 +0.96 | FULL vs NONE +0.17
+[TEMP] FL anchors: all cells better False | pooled P 0.8543 -> FAIL | FL keeps -101% of FULL gain
+   val  seed  dSSE_p2  dSSE_all   FL_p2  FULL_p2
+DIAG10  1357    0.706     6.416   0.523   -6.611
+DIAG10  2468    0.200     6.191   0.151   -6.928
+DIAG10  3579   -0.066     5.145  -0.049   -6.882
+   EL1  1357  -24.787   -24.787 -17.943  -25.618
+   EL1  2468  -24.772   -24.772 -17.670  -25.379
+   EL1  3579  -24.519   -24.519 -17.430  -25.200
+ P2LOO  1357    2.721     2.721   3.722   -7.946
+ P2LOO  2468    2.586     2.586   3.386   -7.571
+ P2LOO  3579    3.010     3.010   3.980   -7.669
+[EC] FL anchor vs F5E: cells 3/6 | P2LOO P 0.5796 | harmed 25 | DIAG10 mean dSSE +5.918 -> FAIL
