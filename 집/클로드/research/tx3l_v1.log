@@ -1,0 +1,11 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+TX3 hand values (c, T0, e0) = (.25, 10, .8) | learned: {0: (0.5, 14.0, 1.2), 1: (0.5, 14.0, 0.8), 'all': (0.5, 14.0, 1.0)}
+  TX3L vs R27+CH5 | EXT10: cells -1.788 -1.796 -1.791 -1.795 | <=6C +0.00% | <=8C +0.00% | out-of-range -0.66%
+  TX3L vs R27+CH5 | EXT12: cells -0.705 -0.692 -0.700 -0.687 | <=6C +0.00% | <=8C +0.00% | out-of-range -0.28%
+  TX3L vs R27+CH5 | DIAG10: cells -0.074 -0.068 -0.068 -0.062 | <=6C +0.00% | <=8C +0.00% | out-of-range +0.00%
+TX3L: 12 cells max -0.062% mean -0.852% all better True | dedup P(worse) 0.0653 | MSE upper95 +0.351% | EXT <=8C +0.00% -> superiority FAIL | replacement(non-inferior) PASS
