@@ -1,0 +1,9 @@
+CV8 chains CH5 4 | PR1 4
+N chains CH5 122 | PR1 108
+CK2 chains CH5 39 | PR1 36
+EL1 chains CH5 4 | PR1 4
+  PR1 vs CH5 | CV8: cells +0.000 +0.000 +0.000 +0.000 | extra 0 | changed 0 helped 0 harmed 0 | sum +0.00
+  PR1 vs CH5 | N: cells -0.032 -0.032 -0.042 -0.043 | extra 14 | changed 14 helped 9 harmed 5 | sum -2.52
+  PR1 vs CH5 | CK2: cells +0.240 +0.241 +0.239 +0.240 | extra 3 | changed 3 helped 0 harmed 3 | sum +10.78
+  PR1 vs CH5 | EL1: cells +0.000 +0.000 +0.000 +0.000 | extra 0 | changed 0 helped 0 harmed 0 | sum +0.00
+CH9 PR1 vs CH5: 12 cells all better False | dedup P(worse) 0.4922 | records helped 9 harmed 8 | EL1 +0.000% -> FAIL
