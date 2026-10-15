@@ -1,0 +1,23 @@
+validator records flagged as sensor anomaly: 102 of 645 | unique 56
+
+[all] eval-reweighted RMSE 0.681 | level share 0.54
+     band status  n_eval  rec_rmse  share  share_level  share_shape
+6<min<=10   none      14     0.775  0.302        0.181        0.121
+   min>10   none      11     0.740  0.216        0.156        0.060
+   min<=6   none       7     0.784  0.154        0.026        0.128
+   min<=6  chain       6     0.796  0.137        0.080        0.056
+6<min<=10     K8       9     0.484  0.076        0.033        0.043
+6<min<=10  chain       6     0.592  0.076        0.045        0.030
+   min>10     K8       6     0.365  0.029        0.012        0.017
+   min>10  chain       1     0.546  0.011        0.006        0.004
+
+[clean] eval-reweighted RMSE 0.656 | level share 0.58
+     band status  n_eval  rec_rmse  share  share_level  share_shape
+6<min<=10   none      14     0.730  0.289        0.175        0.113
+   min>10   none      11     0.755  0.243        0.177        0.066
+   min<=6  chain       6     0.796  0.147        0.087        0.061
+   min<=6   none       7     0.634  0.109        0.030        0.079
+6<min<=10     K8       9     0.506  0.089        0.042        0.047
+6<min<=10  chain       6     0.532  0.066        0.046        0.020
+   min>10     K8       6     0.436  0.044        0.019        0.025
+   min>10  chain       1     0.583  0.013        0.008        0.005
