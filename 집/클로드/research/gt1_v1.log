@@ -1,0 +1,94 @@
+links 208 | labelled records with yesterday window 0.52
+EVY DIAG10 4 done
+EVY DIAG10 5 done
+EVY DIAG10 6 done
+EVY DIAG10 7 done
+EVY DIAG10 8 done
+EVY DIAG10 9 done
+EVY EL1 306 done
+EVY EL1 307 done
+EVY EL1 308 done
+EVY EL1 309 done
+EVY EL1 310 done
+EVY EL1 311 done
+EVY EL1 312 done
+EVY EL1 313 done
+EVY EL1 314 done
+EVY EL1 315 done
+EVY P2LOO 316 done
+EVY P2LOO 317 done
+EVY P2LOO 318 done
+EVY P2LOO 319 done
+EVY P2LOO 320 done
+EVY P2LOO 321 done
+EVY P2LOO 322 done
+EVY P2LOO 323 done
+EVY P2LOO 324 done
+EVY P2LOO 325 done
+EVY P2LOO 326 done
+EVY P2LOO 327 done
+EVY P2LOO 328 done
+EVY P2LOO 329 done
+EVY P2LOO 330 done
+EVY P2LOO 331 done
+EVY P2LOO 332 done
+EVY P2LOO 333 done
+EVY P2LOO 334 done
+EVY P2LOO 335 done
+EVY P2LOO 336 done
+EVY P2LOO 337 done
+EVY P2LOO 338 done
+EVY P2LOO 339 done
+EVY P2LOO 340 done
+EVY P2LOO 341 done
+EVY P2LOO 342 done
+EVY P2LOO 343 done
+EVY P2LOO 344 done
+EVY P2LOO 345 done
+EVY P2LOO 346 done
+EVY P2LOO 347 done
+EVY P2LOO 348 done
+EVY P2LOO 349 done
+EVY P2LOO 350 done
+EVY P2LOO 351 done
+EVY P2LOO 352 done
+EVY P2LOO 353 done
+EVY P2LOO 354 done
+EVY P2LOO 355 done
+EVY P2LOO 356 done
+EVY P2LOO 357 done
+EVY P2LOO 358 done
+EVY P2LOO 359 done
+EVY P2LOO 360 done
+EVY P2LOO 361 done
+records linked (share): {'DIAG10': 0.42, 'EL1': 0.13, 'P2LOO': 0.13}
+
+=== A vs F5E ===
+   val  seed  dSSE_p2  dSSE_all  vsF5E_all  vsF5E_p2  p2_linked  p2_unlinked  p2_high  vsS_p2  vsSH_p2  vsSH_all  X0_p2
+DIAG10  1357    2.918     1.446      0.301     2.143     -7.387        2.274    1.310   0.061    1.381     0.006  0.269
+DIAG10  2468    2.744     1.863      0.390     2.051     -7.056        2.177    1.247  -0.865    1.358     0.154  0.294
+DIAG10  3579    3.070     1.246      0.258     2.242     -6.388        2.355    1.421  -0.547    1.078    -0.161  0.338
+   EL1  1357    8.126     8.126      5.218     5.218    -30.432        5.596    4.966  -2.417    0.862     0.862  0.783
+   EL1  2468    8.703     8.703      5.508     5.508    -30.503        5.881    5.219  -2.279    0.353     0.353  0.729
+   EL1  3579    8.406     8.406      5.314     5.314    -31.056        5.708    4.949  -3.427   -0.471    -0.471  0.691
+ P2LOO  1357    3.417     3.417      4.653     4.653      3.578        4.667   -0.163  -1.572    7.325     7.325  2.262
+ P2LOO  2468    3.622     3.622      4.712     4.712      4.556        4.714   -0.127  -1.777    7.204     7.204  2.342
+ P2LOO  3579    3.616     3.616      4.763     4.763      4.272        4.769   -0.097  -1.210    7.730     7.730  2.293
+(1) main cells better 0/6 | P2LOO P(worse) 0.5946 (< 0.0125) | harmed 178 | (3) DIAG10 mean dSSE +1.518 share(better) 0.447 -> PASS => A: FAIL
+P2LOO best/worst: {'F47_229': -1.622, 'F13_243': -0.459, 'F13_180': -0.077, 'F13_213': -0.025} {'F47_231': 0.64, 'F13_217': 0.834, 'F13_233': 1.208, 'F13_214': 1.359}
+
+=== B vs F5E ===
+   val  seed  dSSE_p2  dSSE_all  vsF5E_all  vsF5E_p2  p2_linked  p2_unlinked  p2_high  vsS_p2  vsSH_p2  vsSH_all  X0_p2
+DIAG10  1357    2.969     0.110      0.023     2.181     -4.517        2.274    1.310   0.098    1.418    -0.271  0.321
+DIAG10  2468    2.803     0.313      0.066     2.095     -3.732        2.177    1.247  -0.822    1.402    -0.169  0.354
+DIAG10  3579    3.131    -0.391     -0.081     2.286     -2.868        2.355    1.421  -0.503    1.121    -0.499  0.400
+   EL1  1357    8.207     8.207      5.269     5.269    -24.569        5.596    4.966  -2.370    0.911     0.911  0.865
+   EL1  2468    8.788     8.788      5.560     5.560    -24.343        5.881    5.219  -2.230    0.403     0.403  0.814
+   EL1  3579    8.476     8.476      5.357     5.357    -26.159        5.708    4.949  -3.388   -0.430    -0.430  0.761
+ P2LOO  1357    3.453     3.453      4.702     4.702      7.274        4.667   -0.163  -1.526    7.375     7.375  2.299
+ P2LOO  2468    3.666     3.666      4.767     4.767      8.977        4.714   -0.127  -1.726    7.260     7.260  2.385
+ P2LOO  3579    3.653     3.653      4.811     4.811      8.096        4.769   -0.097  -1.165    7.780     7.780  2.330
+(1) main cells better 0/6 | P2LOO P(worse) 0.5977 (< 0.0125) | harmed 180 | (3) DIAG10 mean dSSE +0.011 share(better) 0.471 -> PASS => B: FAIL
+P2LOO best/worst: {'F47_229': -1.622, 'F13_243': -0.459, 'F13_180': -0.063, 'F13_213': -0.025} {'F47_231': 0.64, 'F13_217': 0.834, 'F13_233': 1.208, 'F13_214': 1.359}
+
+GT1: {'A': False, 'B': False}
