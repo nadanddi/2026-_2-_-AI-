@@ -1,0 +1,51 @@
+(1) error split: day-level (RMS of record-mean error) / within-day (RMS of deviation from record-mean error), pass-2 rows
+  sg    total 0.2453 | day-level 0.2346 | within-day 0.0716
+  EV3L  total 0.2804 | day-level 0.2414 | within-day 0.1426
+  EVM   total 0.2474 | day-level 0.2161 | within-day 0.1205
+  EVY   total 0.2564 | day-level 0.2242 | within-day 0.1244
+
+(2) standalone RMSE by situation (pass-2 rows, all validators)
+                            sg    EV3L     EVM     EVY  n_rec
+yesterday EC visible    0.2270  0.2116  0.1592  0.1586   74.0
+linked, EC not visible  0.2780  0.2028  0.1571  0.2230   22.0
+no link                 0.2578  0.3973  0.3788  0.3816   42.0
+normal day              0.1486  0.1190  0.1047  0.0997  123.0
+high-EC day             0.6104  0.7792  0.6879  0.7234   15.0
+hours 0-7               0.2355  0.3041  0.2613  0.2858  138.0
+hours 8-15              0.2279  0.2470  0.2214  0.2284  138.0
+hours 16-23             0.2704  0.2870  0.2575  0.2518  138.0
+
+(3) why the 10% blend gains little: corr(error of X, error of sg) and best blend weight w* (least squares, post-hoc) by situation
+                   seg model  corr  w_star  gain_w10  gain_wstar
+            all pass-2  EV3L 0.482   0.370    -3.855      -8.448
+            all pass-2   EVM 0.446   0.492    -4.971     -14.302
+            all pass-2   EVY 0.480   0.457    -4.444     -11.844
+  yesterday EC visible  EV3L 0.405   0.559    -5.780     -19.051
+  yesterday EC visible   EVM 0.329   0.748    -7.433     -34.683
+  yesterday EC visible   EVY 0.255   0.730    -7.883     -36.213
+linked, EC not visible  EV3L 0.512   0.758    -6.633     -30.766
+linked, EC not visible   EVM 0.568   0.911    -7.409     -44.089
+linked, EC not visible   EVY 0.710   0.794    -4.619     -21.405
+               no link  EV3L 0.591   0.028     0.323      -0.056
+               no link   EVM 0.584   0.072    -0.301      -0.354
+               no link   EVY 0.612   0.037     0.163      -0.090
+            normal day  EV3L 0.224   0.638    -7.945     -31.310
+            normal day   EVM 0.259   0.720    -7.989     -36.248
+            normal day   EVY 0.336   0.763    -7.766     -37.477
+           high-EC day  EV3L 0.123   0.220    -1.930      -2.758
+           high-EC day   EVM 0.077   0.374    -3.538      -7.808
+           high-EC day   EVY 0.108   0.312    -2.871      -5.409
+             hours 0-7  EV3L 0.665   0.168    -1.196      -1.433
+             hours 0-7   EVM 0.577   0.383    -3.347      -7.538
+             hours 0-7   EVY 0.658   0.248    -1.868      -2.913
+            hours 8-15  EV3L 0.556   0.408    -3.457      -8.235
+            hours 8-15   EVM 0.534   0.532    -4.357     -13.408
+            hours 8-15   EVY 0.563   0.498    -3.919     -11.262
+           hours 16-23  EV3L 0.296   0.457    -6.214     -16.878
+           hours 16-23   EVM 0.297   0.535    -6.665     -21.278
+           hours 16-23   EVY 0.279   0.550    -6.830     -22.498
+
+(4) per-situation weight (post-hoc upper bound, NOT for adoption): EVY with w* by {yesterday visible / not} vs fixed 10%, pass-2 rows by validator
+  DIAG10: sg 0.2417 | 10% -2.98% | situation w* -6.48%
+  EL1: sg 0.2900 | 10% -5.66% | situation w* -31.79%
+  P2LOO: sg 0.1949 | 10% -4.04% | situation w* -15.85%

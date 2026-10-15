@@ -1,0 +1,77 @@
+DIAG10 4 done | chain len mean 1.00
+DIAG10 5 done | chain len mean 1.43
+DIAG10 6 done | chain len mean 0.70
+DIAG10 7 done | chain len mean 0.71
+DIAG10 8 done | chain len mean 0.50
+DIAG10 9 done | chain len mean 0.45
+EL1 306 done | chain len mean 1.20
+EL1 307 done | chain len mean 0.00
+EL1 308 done | chain len mean 0.00
+EL1 309 done | chain len mean 0.00
+EL1 310 done | chain len mean 0.00
+EL1 311 done | chain len mean 0.80
+EL1 312 done | chain len mean 0.00
+EL1 313 done | chain len mean 0.00
+EL1 314 done | chain len mean 0.00
+EL1 315 done | chain len mean 0.00
+P2LOO 316 done | chain len mean 1.00
+P2LOO 317 done | chain len mean 1.00
+P2LOO 318 done | chain len mean 3.00
+P2LOO 319 done | chain len mean 0.00
+P2LOO 320 done | chain len mean 1.00
+P2LOO 321 done | chain len mean 0.00
+P2LOO 322 done | chain len mean 0.00
+P2LOO 323 done | chain len mean 0.00
+P2LOO 324 done | chain len mean 0.00
+P2LOO 325 done | chain len mean 0.00
+P2LOO 326 done | chain len mean 0.00
+P2LOO 327 done | chain len mean 0.00
+P2LOO 328 done | chain len mean 0.00
+P2LOO 329 done | chain len mean 0.00
+P2LOO 330 done | chain len mean 0.00
+P2LOO 331 done | chain len mean 0.00
+P2LOO 332 done | chain len mean 0.00
+P2LOO 333 done | chain len mean 0.00
+P2LOO 334 done | chain len mean 0.00
+P2LOO 335 done | chain len mean 0.00
+P2LOO 336 done | chain len mean 0.00
+P2LOO 337 done | chain len mean 0.00
+P2LOO 338 done | chain len mean 0.00
+P2LOO 339 done | chain len mean 0.00
+P2LOO 340 done | chain len mean 1.00
+P2LOO 341 done | chain len mean 3.00
+P2LOO 342 done | chain len mean 0.00
+P2LOO 343 done | chain len mean 0.00
+P2LOO 344 done | chain len mean 0.00
+P2LOO 345 done | chain len mean 0.00
+P2LOO 346 done | chain len mean 0.00
+P2LOO 347 done | chain len mean 0.00
+P2LOO 348 done | chain len mean 0.00
+P2LOO 349 done | chain len mean 0.00
+P2LOO 350 done | chain len mean 0.00
+P2LOO 351 done | chain len mean 0.00
+P2LOO 352 done | chain len mean 0.00
+P2LOO 353 done | chain len mean 0.00
+P2LOO 354 done | chain len mean 0.00
+P2LOO 355 done | chain len mean 0.00
+P2LOO 356 done | chain len mean 0.00
+P2LOO 357 done | chain len mean 0.00
+P2LOO 358 done | chain len mean 0.00
+P2LOO 359 done | chain len mean 0.00
+P2LOO 360 done | chain len mean 0.00
+P2LOO 361 done | chain len mean 0.00
+   val  seed  dSSE_p2  dSSE_all  vsF5E_all  vsF5E_p2  p2_normal  p2_high  vsS_p2  vsSH_p2  vsSH_all  X0_p2
+DIAG10  1357   -4.019    -7.587     -1.593    -3.030     -3.961   -2.785  -5.007   -3.753    -1.883  1.445
+DIAG10  2468   -2.975    -5.487     -1.157    -2.273     -2.767   -2.146  -5.065   -2.936    -1.388  1.443
+DIAG10  3579   -4.209    -7.994     -1.672    -3.158     -3.947   -2.952  -5.799   -4.260    -2.084  1.241
+   EL1  1357   -5.651    -5.651     -3.796    -3.796      0.703   -5.626 -10.778   -7.779    -7.779  1.827
+   EL1  2468   -6.505    -6.505     -4.324    -4.324      0.237   -6.274 -11.385   -8.998    -8.998  1.801
+   EL1  3579   -5.797    -5.797     -3.835    -3.835      1.026   -5.940 -11.817   -9.117    -9.117  1.808
+ P2LOO  1357    1.900     1.900      2.614     2.614      4.422    1.269  -3.490    5.234     5.234  0.904
+ P2LOO  2468    2.532     2.532      3.316     3.316      5.141    1.958  -3.087    5.775     5.775  0.858
+ P2LOO  3579    2.429     2.429      3.224     3.224      5.153    1.768  -2.661    6.148     6.148  0.676
+
+(1) main cells better 3/6 | P2LOO P(worse) 0.7289 | harmed record-cells 149 | (3) DIAG10 mean dSSE -7.023 share(better) 0.867 -> PASS
+by chain length (P2LOO+EL1 pass-2, seed-mean dSSE): {0: -3.422, 1: -0.315, 3: 0.039}
+P2LOO worst/best records: {'F47_231': -2.512, 'F13_214': -0.899, 'F13_243': -0.307, 'F13_231': -0.301} {'F47_241': 0.967, 'F13_241': 1.419, 'F13_233': 1.79, 'F47_229': 1.959}
+CRG: FAIL
