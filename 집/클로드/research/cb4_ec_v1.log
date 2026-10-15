@@ -1,0 +1,23 @@
+links 208 | labelled records with yesterday window 0.52
+w0 {0.6: {'DIAG10': -5.141, 'P2LOO': -1.721, 'EL1': 1.778}, 0.7: {'DIAG10': -5.163, 'P2LOO': -2.128, 'EL1': -0.005}, 0.75: {'DIAG10': -5.044, 'P2LOO': -2.224, 'EL1': -0.65}, 0.8: {'DIAG10': -4.838, 'P2LOO': -2.249, 'EL1': -1.128}, 0.9: {'DIAG10': -4.172, 'P2LOO': -2.086, 'EL1': -1.575}}
+shape {'CONST': {'DIAG10': -4.486, 'P2LOO': -2.344, 'EL1': -2.215}, 'DECAY': {'DIAG10': -5.246, 'P2LOO': -2.419, 'EL1': 0.9}, 'RISE': {'DIAG10': -4.883, 'P2LOO': -1.482, 'EL1': 0.366}}
+hi {0.8: {'DIAG10': -5.279, 'P2LOO': -2.413, 'EL1': 1.545}, 1.0: {'DIAG10': -5.119, 'P2LOO': -2.202, 'EL1': -0.799}, 1.2: {'DIAG10': -4.218, 'P2LOO': -1.629, 'EL1': -1.695}}
+pfac {False: {'DIAG10': -4.379, 'P2LOO': -1.686, 'EL1': 0.148}, True: {'DIAG10': -5.365, 'P2LOO': -2.477, 'EL1': -0.781}}
+  w0 shape  hi  pfac  DIAG10  P2LOO    EL1
+0.80 CONST 0.8  True  -6.160 -3.689 -2.643
+0.75 CONST 0.8  True  -6.136 -3.587 -1.804
+0.60 CONST 1.0  True  -6.045 -2.906 -1.654
+0.70 CONST 0.8  True  -6.045 -3.411 -0.834
+0.90 CONST 0.8  True  -6.000 -3.668 -3.911
+0.70 CONST 1.0  True  -5.991 -3.226 -3.524
+0.80 DECAY 1.0  True  -5.966 -3.148 -0.782
+0.90 DECAY 0.8  True  -5.949 -3.526  0.409
+selected on DIAG10: (0.8, 'CONST', 1.0, True) | vs AW(.75 CONST): P2LOO -1.03 EL1 -1.99
+  val  seed  dSSE_p2   rel
+P2LOO  1357   -2.191 -3.17
+P2LOO  2468   -2.185 -3.17
+P2LOO  3579   -2.314 -3.17
+  EL1  1357   -4.964 -4.54
+  EL1  2468   -4.898 -4.54
+  EL1  3579   -4.963 -4.54
+CB4-EC (0.8, 'CONST', 1.0, True) vs REF27: cells 6/6 | P2LOO P 0.3503 | harmed 47 -> FAIL
