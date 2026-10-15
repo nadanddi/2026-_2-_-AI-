@@ -50,11 +50,9 @@ pd.set_option("display.width", 200)
 top = sorted(COMBOS, key=lambda c: score[c])[:10]
 print(pd.DataFrame([dict(w=c[0], shape=c[1], p=c[2], dT=c[3], mt=c[4], DIAG10=round(score[c], 5), P2LOO_p2=round(rel("P2LOO", c), 2), EL1_p2=round(rel("EL1", c), 2)) for c in top]).to_string(index=False))
 sub = [c for c in COMBOS if c[2] == .8 and c[3] == 1.5 and c[4] == 0.0]
-print("
-strength x shape at p .8, dT 1.5, mt 0 (P2LOO / EL1 / DIAG10 p2 %):")
+print("strength x shape at p .8, dT 1.5, mt 0 (P2LOO / EL1 / DIAG10 p2 %):")
 print(pd.DataFrame([dict(w=c[0], shape=c[1], P2LOO=round(rel("P2LOO", c), 2), EL1=round(rel("EL1", c), 2), DIAG10=round(rel("DIAG10", c), 2)) for c in sub]).to_string(index=False))
-print("
-selected on DIAG10:", best)
+print("selected on DIAG10:", best)
 rows, blocks, recd = [], [], []
 for v in ("P2LOO", "EL1"):
     g = (R.validator == v).values; y = R.y.values[g]; p2 = R.p2.values[g]; key = (R.farm[g] + "_" + (R.day[g] // 5).astype(str)).values
