@@ -1,0 +1,22 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+[fit on F13] rows 7344
+    S3 warm in-range 15C h9: w BASE/CODEX/PFN/GRU [0.59 0.26 0.12 0.03]
+    S3 cold in-range 7C h3: w BASE/CODEX/PFN/GRU [0.44 0.38 0.14 0.05]
+    S3 cold OUT-of-range 3C below h3: w BASE/CODEX/PFN/GRU [0.09 0.9  0.   0.01]
+[fit on F47] rows 6288
+    S3 warm in-range 15C h9: w BASE/CODEX/PFN/GRU [0.03 0.01 0.94 0.02]
+    S3 cold in-range 7C h3: w BASE/CODEX/PFN/GRU [0.05 0.31 0.53 0.1 ]
+    S3 cold OUT-of-range 3C below h3: w BASE/CODEX/PFN/GRU [0.05 0.95 0.   0.  ]
+  S3 vs R27+CH5 | EXT10: cells -1.231 -1.436 -0.960 -1.212 | <=8C +6.46% | out-of-range +0.08% | unlinked +0.16%
+  S3 vs R27+CH5 | EXT12: cells +4.767 +4.989 +4.349 +4.568 | <=8C +1.05% | out-of-range +4.03% | unlinked +6.93%
+  S3 vs R27+CH5 | DIAG10: cells +2.198 +2.408 +2.215 +2.418 | <=8C +2.40% | out-of-range +2.32% | unlinked +3.83%
+STK2 S3: 12 cells all better False | dedup P(worse) 0.9467 | EXT <=8C mean change +3.75% (guard <= +2%) -> FAIL
+  S3b vs R27+CH5 | EXT10: cells -1.488 -1.725 -1.299 -1.575 | <=8C +8.38% | out-of-range -0.86% | unlinked -0.88%
+  S3b vs R27+CH5 | EXT12: cells +2.648 +2.887 +2.379 +2.612 | <=8C +1.79% | out-of-range +2.97% | unlinked +4.76%
+  S3b vs R27+CH5 | DIAG10: cells +3.945 +3.976 +3.963 +3.989 | <=8C +3.43% | out-of-range +3.81% | unlinked +4.45%
+STK2 S3b: 12 cells all better False | dedup P(worse) 0.9779 | EXT <=8C mean change +5.08% (guard <= +2%) (desc)
