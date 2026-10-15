@@ -1,10 +1,13 @@
 # -*- coding: utf-8 -*-
-"""CVJ3 (2026-10-15 집 클로드; 사용자 '아이디어는 좋은데 활용을 제대로 못 하는 게 아닐까' — GAM 활용 방식 바꾸기).  사전 고정(커밋 후 실행).  온도.
+"""CVJ3 (2026-10-15 집 클로드; 1차 실행은 실내온도 결측 행의 목표 결측으로 적합 오류(결과 없음) → 결측 행 학습 제외로 수정 +
+사용자 '특정 온도 기준이 아니라 근거 있는/모델이 판단한 기준' 반영: 게이트 2종으로 확장(결과 보기 전). 원 설명: 사용자 '아이디어는 좋은데 활용을 제대로 못 하는 게 아닐까' — GAM 활용 방식 바꾸기).  사전 고정(커밋 후 실행).  온도.
 CVJ1/CVJ2: 배지온도 수준을 직접 맞추는 GAM 을 섞음 → 따뜻한 자료가 곡선을 정하고 깊은 추위 외삽이 시기 따라 뒤집힘(늦은 시기 ≤ 6℃ 악화).
 바꾼 활용(물리 근거: 추운 영역 배지 − 공기 차이 F13 +1.0·F47 +.7℃, 6b.24):
   목표 = 배지 − 실내공기(gap),  예측 = in_temp + gap_hat.  특징 = CVJ1 의 FE + 습공기(PSY), 스플라인 직선 외삽, Ridge(alpha 10).
   변형(3, 미리 고정):  G1 = 전체 학습 행으로 적합 | G2 = 서늘한 학습 행(실내 ≤ 12℃)만으로 적합 | G3 = G2 를 농장별로 적합.
-  섞기(고정): q' = q + .5·c_h·(GAM − q),  c_h = clip((10 − in_temp)/2, 0, 1) (CVJ1 과 같은 추운 게이트).  기준 B = CVJ2 의 B(셀 → GRU30 → FL K8 → TX3 27번 값).
+  섞기(고정): q' = q + .5·c_h·(GAM − q).  게이트 2종: T10 = clip((10 − in_temp)/2, 0, 1) (CVJ1 과 같음) |
+    COV(적용 범위, 자료가 정함) = clip((.10 − F(in_temp))/.08, 0, 1), F = 그 폴드 학습 자료에서 같은 농장 실내온도 경험 누적분포
+    (학습에서 그 온도 이하가 10% 이상이면 0, 2% 이하이면 1 — '모델이 거의 못 본 온도에서만 물리 외삽으로 넘김').  변형 3 x 게이트 2 = 6안.  기준 B = CVJ2 의 B(셀 → GRU30 → FL K8 → TX3 27번 값).
 고르기: CV8 폴드 0~2 의 4셀 평균 RMSE 최소 변형.  판정(α .025): 뒤쪽 폴드 3~5 — 4셀 모두 개선 & 블록 P(악화) < .025
   & **뒤쪽 실내 ≤ 6℃ 행이 B 보다 나빠지지 않음(4셀 평균)**(CVJ2 실패 원인을 미리 막는 조건) & N·CK2·EL1 안전.
 서술: 세 변형의 앞/뒤·≤ 6·6~8℃·N·CK2·EL1, GAM 단독 RMSE(추운 행).
@@ -40,7 +43,7 @@ def gate(M, lo_g, lo_h):
 def tx3(M, key, c, T0, e0):
     cm = np.nan_to_num(np.array([CM.get((k, int(hh)), np.nan) for k, hh in zip(key, M.hour.values)]), nan=0)
     return c * np.clip((cm - e0) / .4, 0, 1) * np.nan_to_num(np.clip((T0 - M.in_temp.values) / 2, 0, 1), nan=0.0)
-VARS = ("G1", "G2", "G3")
+VARS = ("G1", "G2", "G3"); GATES = ("T10", "COV"); OPTS = [f"{v}_{g}" for v in VARS for g in GATES]
 def gap_fit_predict(tm, vm, var):
     feats = FE + PSY; tr = tm.copy()
     if var in ("G2", "G3"): tr = tr & (L0.in_temp.values <= 12)
@@ -48,11 +51,13 @@ def gap_fit_predict(tm, vm, var):
     groups = [("all", np.ones(len(L0), bool))] if var != "G3" else [(f, (L0.farm == f).values) for f in ("F13", "F47")]
     for nm, gm in groups:
         a, b = tr & gm, vm & gm
+        a = a & np.isfinite(L0.in_temp.values)
         if a.sum() < 50 or b.sum() == 0: continue
         Xt = L0.loc[a, feats].to_numpy(float); Xv = L0.loc[b, feats].to_numpy(float); med = np.nanmedian(Xt, 0)
         Xt = np.where(np.isnan(Xt), med, Xt); Xv = np.where(np.isnan(Xv), med, Xv)
         m = make_pipeline(SplineTransformer(n_knots=5, degree=3, extrapolation="linear"), StandardScaler(), Ridge(alpha=10.0))
-        m.fit(Xt, (L0.sub_temp.values - L0.in_temp.values)[a], ridge__sample_weight=WB[a])
+        tg = (L0.sub_temp.values - L0.in_temp.values)[a]; fin = np.isfinite(tg)
+        m.fit(Xt[fin], tg[fin], ridge__sample_weight=WB[a][fin])
         out.loc[L0.row_id.values[b]] = L0.in_temp.values[b] + m.predict(Xv)
     return out
 RES = {}
@@ -63,11 +68,17 @@ for L, ckb, ckg, folds, mk in (("CV8", C8.CKB, C8.CKG, C8.layout_folds(W, lab)["
     M = M.merge(Gd, on="row_id", how="left"); M = M[np.array([(f, d) not in RD for f, d in zip(M.farm, M.day)])].reset_index(drop=True)
     y = M.sub_temp.values; h = M.hour.values; key = (M.farm + "_" + M.day.map("{:03d}".format)).values; recs = sorted(set(key)); pos = {r: np.where(key == r)[0] for r in recs}
     v = M.V3LF.values; miss = np.isnan(v); TXo = tx3(M, key, .25, 10, .8); G8 = gate(M, 8, 10); t = M.in_temp.values
-    TRS = {}; SP = {n: [] for n in VARS}
+    TRS = {}; SP = {n: [] for n in VARS}; COVS = []
     for k, fd in enumerate(folds):
         tm, vm = mk(lab, fd); trs = set(lab.farm[tm] + "_" + lab.day[tm].map("{:03d}".format))
         for r in set(lab.farm[vm] + "_" + lab.day[vm].map("{:03d}".format)): TRS[r] = trs
         for n in VARS: SP[n].append(gap_fit_predict(tm, vm, n))
+        cv = pd.Series(np.nan, index=L0.row_id.values[vm])
+        for f in ("F13", "F47"):
+            ref = np.sort(L0.in_temp.values[tm & (L0.farm == f).values]); ref = ref[np.isfinite(ref)]; b = vm & (L0.farm == f).values
+            tv = L0.in_temp.values[b]; cv.loc[L0.row_id.values[b]] = np.searchsorted(ref, tv, side="right") / max(len(ref), 1)
+        COVS.append(cv)
+    FCOV = pd.concat(COVS).groupby(level=0).first().reindex(M.row_id).values
     SPV = {n: pd.concat(s_).groupby(level=0).first().reindex(M.row_id).values for n, s_ in SP.items()}
     AF = {r: float(ST[IDX[FLK[r][0]], 23]) for r in recs if r in FLK and r in TRS and FLK[r][1] >= .8 and FLK[r][0] in TRS[r] and np.isfinite(ST[IDX[FLK[r][0]], 23])
           and abs(IN_[IDX[r], 0, 0] - IN_[IDX[FLK[r][0]], 23, 0]) <= 1.5}
@@ -78,9 +89,11 @@ for L, ckb, ckg, folds, mk in (("CV8", C8.CKB, C8.CKG, C8.layout_folds(W, lab)["
             if len(x0): out[ix] += BETA[h[ix]] * np.clip(a - BIAS - x0[0], -2, 2)
         return out
     G = [(q := B.w40(M, "base_R_%d" % s, "codex_R", fam)) + .30 * G8 * (~miss) * (np.nan_to_num(v) - q) for s in O1.SEEDS for fam in "AB"]
-    cg = np.nan_to_num(np.clip((10 - t) / 2, 0, 1), nan=0.0); P = {"B": [apply(g) + TXo for g in G]}
+    GT = {"T10": np.nan_to_num(np.clip((10 - t) / 2, 0, 1), nan=0.0), "COV": np.nan_to_num(np.clip((.10 - FCOV) / .08, 0, 1), nan=0.0)}; P = {"B": [apply(g) + TXo for g in G]}
     for n in VARS:
-        sv = SPV[n]; ok = ~np.isnan(sv); P[n] = [apply(g + .5 * cg * ok * (np.nan_to_num(sv) - g)) + TXo for g in G]
+        for gn in GATES:
+            sv = SPV[n]; ok = ~np.isnan(sv); P[f"{n}_{gn}"] = [apply(g + .5 * GT[gn] * ok * (np.nan_to_num(sv) - g)) + TXo for g in G]
+    print(L, "COV gate on rows %.3f (mean %.3f) vs T10 on %.3f" % ((GT["COV"] > 0).mean(), GT["COV"].mean(), (GT["T10"] > 0).mean()), flush=True)
     cold = t <= 8
     RES[L] = dict(P=P, y=y, t=t, bk=(M.farm + "_" + (M.day // 5).astype(str)).values, fold=M.fold.values if "fold" in M else np.zeros(len(M), int),
                   solo={n: rm((SPV[n] - y)[cold & ~np.isnan(SPV[n])]) if (cold & ~np.isnan(SPV[n])).any() else np.nan for n in VARS}, solo_base=np.mean([rm((p - y)[cold]) for p in P["B"]]) if cold.any() else np.nan)
@@ -90,9 +103,9 @@ def rel(L, c, m=None):
     return 100 * np.mean([rm((p - y)[m]) / rm((b - y)[m]) - 1 for p, b in zip(R_["P"][c], R_["P"]["B"])]) if m.any() else np.nan
 C8R = RES["CV8"]; early = C8R["fold"] <= 2; late = ~early; t8 = C8R["t"]
 T_ = pd.DataFrame([dict(var=n, early=rel("CV8", n, early), late=rel("CV8", n, late), late_le6=rel("CV8", n, late & (t8 <= 6)), late_6_8=rel("CV8", n, late & (t8 > 6) & (t8 <= 8)),
-                        early_le6=rel("CV8", n, early & (t8 <= 6)), N=rel("N", n), CK2=rel("CK2", n), EL1=rel("EL1", n)) for n in VARS])
+                        early_le6=rel("CV8", n, early & (t8 <= 6)), N=rel("N", n), CK2=rel("CK2", n), EL1=rel("EL1", n)) for n in OPTS])
 pd.set_option("display.width", 220); print(T_.round(3).to_string(index=False))
-score = {n: np.mean([rm((p - C8R["y"])[early]) for p in C8R["P"][n]]) for n in VARS}; best = min(VARS, key=lambda n: (round(score[n], 6), VARS.index(n)))
+score = {n: np.mean([rm((p - C8R["y"])[early]) for p in C8R["P"][n]]) for n in OPTS}; best = min(OPTS, key=lambda n: (round(score[n], 6), OPTS.index(n)))
 print("selected on CV8 early folds:", best)
 rng = np.random.default_rng(20270144); y = C8R["y"]
 ch = [rm((p - y)[late]) / rm((b - y)[late]) - 1 for p, b in zip(C8R["P"][best], C8R["P"]["B"])]
