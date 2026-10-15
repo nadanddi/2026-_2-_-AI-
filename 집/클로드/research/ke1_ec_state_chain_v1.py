@@ -30,7 +30,7 @@ lab_ok = lambda p, vk: p in idx_ and bool(TR_[idx_[p]]) and np.isfinite(EC_[idx_
 fired = {"KEA": [], "KEH": []}
 for s in SEEDS:
     R2[f"NH_{s}"] = (R2[f"A1_{s}"] - .1 * mt) / .9
-    NHR = {(v, k, r): g.sort_values("hour")[f"NH_{s}"].values for (v, k, r), g in GRP}
+    NHR = {(v, k, r): R2.loc[g.sort_values("hour").index, f"NH_{s}"].values for (v, k, r), g in GRP}
     o8 = R2[f"NH_{s}"].values.copy(); oA = o8.copy(); oH = o8.copy()
     for (v, k, r), g in GRP:
         ii = g.sort_values("hour").index.values; x = R2.loc[ii, f"NH_{s}"].values; pm = np.cumsum(x) / np.arange(1, len(x) + 1)
