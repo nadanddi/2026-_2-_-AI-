@@ -1,0 +1,24 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 done
+EXT12 done
+DIAG10 done
+layout  table  labelled_anchor  chain  chain_cold
+ EXT10    FL3               13     10           5
+ EXT10 MIRROR               13      8           4
+ EXT12    FL3               11     49           8
+ EXT12 MIRROR               10     40           6
+DIAG10    FL3               78     69           8
+DIAG10 MIRROR               78     72           9
+  FL3 M1 vs FL3 base | EXT10: cells -0.509 -0.594 -0.523 -0.607 | chained rows -4.20%
+  FL3 M1 vs FL3 base | EXT12: cells -2.130 -2.104 -2.122 -2.095 | chained rows -9.94%
+  FL3 M1 vs FL3 base | DIAG10: cells -0.382 -0.401 -0.378 -0.398 | chained rows -2.35%
+PCH5 FL3: 12 cells all better True | dedup block P(worse) 0.0019 | chained cold records helped 17 harmed 4 (reference = PCH3)
+  MIRROR M1 vs MIRROR base | EXT10: cells -0.084 -0.124 -0.079 -0.116 | chained rows -0.71%
+  MIRROR M1 vs MIRROR base | EXT12: cells -1.952 -1.957 -1.978 -1.977 | chained rows -10.36%
+  MIRROR M1 vs MIRROR base | DIAG10: cells -0.474 -0.488 -0.473 -0.488 | chained rows -2.78%
+PCH5 MIRROR: 12 cells all better True | dedup block P(worse) 0.0050 | chained cold records helped 14 harmed 5 -> PASS
+  [desc] EXT10 baseline MIRROR vs FL3 (K8 labelled anchors differ): cells +1.701 +1.716 +1.687 +1.699
+  [desc] EXT12 baseline MIRROR vs FL3 (K8 labelled anchors differ): cells -0.039 -0.036 -0.040 -0.037
+  [desc] DIAG10 baseline MIRROR vs FL3 (K8 labelled anchors differ): cells +0.071 +0.074 +0.066 +0.070
