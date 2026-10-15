@@ -1,0 +1,35 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 candidates 22
+EXT12 candidates 104
+DIAG10 candidates 121
+
+[p band]
+                 n  true_rate  n_known  sub_cont_med  dsse_sum  dsse_mean  helped  harmed  dir_ok
+pbin                                                                                             
+(0.29, 0.5]   41.0      0.467     15.0         0.540   -27.661     -0.675    21.0    20.0   0.610
+(0.5, 0.65]   29.0      0.889      9.0         0.430   -43.260     -1.492    22.0     7.0   0.897
+(0.65, 0.8]   52.0      0.815     27.0         0.455   -65.361     -1.257    35.0    17.0   0.788
+(0.8, 1.01]  125.0      0.849     73.0         0.400  -145.346     -1.163    82.0    43.0   0.784
+
+[dT band]
+                  n  true_rate  n_known  sub_cont_med  dsse_sum  dsse_mean  helped  harmed  dir_ok
+dtbin                                                                                             
+(-0.01, 0.5]  146.0      0.850     80.0         0.410  -212.888     -1.458    96.0    50.0   0.795
+(0.5, 1.5]     82.0      0.758     33.0         0.475   -87.841     -1.071    54.0    28.0   0.756
+(1.5, 3.01]    19.0      0.545     11.0         0.460    19.101      1.005    10.0     9.0   0.632
+
+[true vs false previous day (known only)]
+          n  true_rate  n_known  sub_cont_med  dsse_sum  dsse_mean  helped  harmed  dir_ok
+tp                                                                                        
+False  25.0        0.0     25.0          1.21    32.924      1.317    11.0    14.0   0.560
+True   99.0        1.0     99.0          0.40  -157.126     -1.587    68.0    31.0   0.808
+
+[substrate continuity |sub23(prev) - sub0(rec)| (label-based, diagnosis only)]
+                  n  true_rate  n_known  sub_cont_med  dsse_sum  dsse_mean  helped  harmed  dir_ok
+cont_bin                                                                                          
+(-0.01, 0.5]  154.0      0.938     81.0          0.33  -247.976     -1.610   113.0    41.0   0.831
+(0.5, 1.0]     57.0      0.852     27.0          0.63   -85.050     -1.492    35.0    22.0   0.772
+(1.0, 2.0]     24.0      0.000      8.0          1.33    -5.311     -0.221    11.0    13.0   0.708
+(2.0, 99.0]    12.0      0.000      8.0          2.27    56.708      4.726     1.0    11.0   0.083
