@@ -1,0 +1,21 @@
+groups 363 | n 173 d 190
+FL  p>=0.8: (n) coverage 0.526 precision 0.912 | (d) false-link rate 0.242
+FL  p>=0.5: (n) coverage 0.832 precision 0.840 | (d) false-link rate 0.600
+FLN p>=0.8: (n) coverage 0.145 precision 1.000 | (d) false-link rate 0.011
+FLN p>=0.5: (n) coverage 0.561 precision 0.938 | (d) false-link rate 0.100
+FLN1 gate: precision True | false-link True | coverage True -> PASS -> stage 2
+FLN weights {'oj': np.float64(-4.793), 'v0': np.float64(-0.811), 'v1': np.float64(-1.231), 'v2': np.float64(-1.001), 'v3': np.float64(-1.286), 'v4': np.float64(-0.214), 'v5': np.float64(-1.376), 'v6': np.float64(-0.523), 'v7': np.float64(-0.84), 'excl': np.float64(-2.82), 'xf': np.float64(-1.256), 'isnone': np.float64(-0.364), 'min_oj': np.float64(-3.196), 'min_vs': np.float64(-0.639), 'logn': np.float64(-0.35)}
+FLN train links 400 | p>=.5 169 | p>=.8 53
+links 208 | labelled records with yesterday window 0.52
+   val  seed  dSSE_p2  dSSE_all  N5_vs_K8_p2  N5_vs_K8_all
+DIAG10  1357   -5.998     2.708       -4.499         0.638
+DIAG10  2468   -5.970     2.346       -4.614         0.558
+DIAG10  3579   -6.052     2.799       -4.573         0.659
+   EL1  1357   -1.637    -1.637       -1.513        -1.513
+   EL1  2468   -1.489    -1.489       -1.335        -1.335
+   EL1  3579   -1.612    -1.612       -1.439        -1.439
+ P2LOO  1357   -2.215    -2.215       -3.226        -3.226
+ P2LOO  2468   -2.162    -2.162       -3.031        -3.031
+ P2LOO  3579   -2.343    -2.343       -3.310        -3.310
+anchored train records: {'K8': 163, 'N5': 166}
+FLN1 stage 2 EC N5 vs K8: cells 6/6 | P2LOO P 0.2298 | harmed 45 | DIAG10 +2.618 -> FAIL
