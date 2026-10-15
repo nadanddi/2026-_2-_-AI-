@@ -1,0 +1,13 @@
+links 208 | labelled records with yesterday window 0.52
+ tau  sel_P2LOO_EL1_dSSE  DIAG10_dSSE_all  n_guarded
+0.15              91.082           27.370         23
+0.25             106.469           18.294         14
+0.40             106.469           16.151         12
+0.60              47.961           35.602          8
+1.00              47.966           23.613          1
+ inf             -23.819           23.613          0
+tau* = inf | guarded at tau*: []
+DIAG10 s1357: vsK8 p2 -3.44% all +5.41% vsNH all -1.73% s2468: vsK8 p2 -3.55% all +5.46% vsNH all -1.83% s3579: vsK8 p2 -3.54% all +5.48% vsNH all -1.93%
+EL1 s1357: vsK8 p2 -4.97% all -4.97% vsNH all -23.76% s2468: vsK8 p2 -4.78% all -4.78% vsNH all -23.20% s3579: vsK8 p2 -4.82% all -4.82% vsNH all -23.02%
+P2LOO s1357: vsK8 p2 -3.89% all -3.89% vsNH all -9.46% s2468: vsK8 p2 -3.75% all -3.75% vsNH all -9.74% s3579: vsK8 p2 -3.78% all -3.78% vsNH all -9.53%
+AC2 S5G(tau inf) vs K8: P2LOO/EL1 cells 6/6 | DIAG10 all seeds better False | DIAG10 P 0.6725 -> FAIL
