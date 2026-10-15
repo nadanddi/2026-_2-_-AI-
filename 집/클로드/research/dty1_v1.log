@@ -1,0 +1,81 @@
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:18: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ok = P["in_temp"].notna().sum(1).eq(24) & P["sub_temp"].notna().sum(1).ge(20); P = P[ok]
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:18: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  ok = P["in_temp"].notna().sum(1).eq(24) & P["sub_temp"].notna().sum(1).ge(20); P = P[ok]
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:20: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  F = pd.DataFrame({"t_night": T_.loc[:, 0:5].mean(1), "t_min": T_.min(1), "t_max": T_.max(1), "t_rise": T_.loc[:, 11] - T_.loc[:, 7], "t_aft": T_.loc[:, 12:16].mean(1),
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:20: Pandas4Warning: Starting with pandas version 4.0 all arguments of min will be keyword-only.
+  F = pd.DataFrame({"t_night": T_.loc[:, 0:5].mean(1), "t_min": T_.min(1), "t_max": T_.max(1), "t_rise": T_.loc[:, 11] - T_.loc[:, 7], "t_aft": T_.loc[:, 12:16].mean(1),
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:20: Pandas4Warning: Starting with pandas version 4.0 all arguments of max will be keyword-only.
+  F = pd.DataFrame({"t_night": T_.loc[:, 0:5].mean(1), "t_min": T_.min(1), "t_max": T_.max(1), "t_rise": T_.loc[:, 11] - T_.loc[:, 7], "t_aft": T_.loc[:, 12:16].mean(1),
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:20: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  F = pd.DataFrame({"t_night": T_.loc[:, 0:5].mean(1), "t_min": T_.min(1), "t_max": T_.max(1), "t_rise": T_.loc[:, 11] - T_.loc[:, 7], "t_aft": T_.loc[:, 12:16].mean(1),
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:21: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  "t_eve": T_.loc[:, 18:23].mean(1), "h_night": H_.loc[:, 0:5].mean(1), "h_day": H_.loc[:, 10:16].mean(1), "c_night": C_.loc[:, 0:5].mean(1),
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:21: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  "t_eve": T_.loc[:, 18:23].mean(1), "h_night": H_.loc[:, 0:5].mean(1), "h_day": H_.loc[:, 10:16].mean(1), "c_night": C_.loc[:, 0:5].mean(1),
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:21: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  "t_eve": T_.loc[:, 18:23].mean(1), "h_night": H_.loc[:, 0:5].mean(1), "h_day": H_.loc[:, 10:16].mean(1), "c_night": C_.loc[:, 0:5].mean(1),
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:21: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  "t_eve": T_.loc[:, 18:23].mean(1), "h_night": H_.loc[:, 0:5].mean(1), "h_day": H_.loc[:, 10:16].mean(1), "c_night": C_.loc[:, 0:5].mean(1),
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:22: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  "c_day": C_.loc[:, 10:16].mean(1), "t_sd": T_.std(1), "t0": T_.loc[:, 0]})
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:22: Pandas4Warning: Starting with pandas version 4.0 all arguments of std will be keyword-only.
+  "c_day": C_.loc[:, 10:16].mean(1), "t_sd": T_.std(1), "t0": T_.loc[:, 0]})
+BIC by k: {2: 351900, 3: 320703, 4: 300040, 5: 288029, 6: 276270, 7: 271754, 8: 260833, 9: 252944, 10: 250392} -> k 10
+   t_min  t_max  t_rise  t_night  t_eve  h_night  c_day  days_all  F13  F47
+0   13.0   29.0    11.0     14.0   17.7     92.0  415.3      1250   26   26
+1    9.0   18.0     4.0     10.5   10.7     95.3  434.7      1263   16   29
+2    6.6   23.0     9.0      8.5    9.3     87.8  548.1       481    3    3
+3    8.0   21.0    10.0      8.3    9.3     94.3  402.6      1796   10    3
+4   10.0   24.0    10.0     11.3   12.8     92.8  424.6      1857   83   94
+5   16.0   25.0     5.0     16.8   17.7     94.6  423.2      1370   35   26
+6    6.0   26.0    15.0      7.3   10.2     91.7  405.1      1747    7    3
+7   21.0   32.0     7.0     21.8   23.5     95.2  391.1      1327   14   10
+8    8.0   24.0    12.0      9.0   10.0     94.7  542.6       982    0    0
+9   12.3   19.8     5.2     13.3   13.7     25.5  396.1       213    0    0
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+C:\work\farmai\집\클로드\research\dty1_auto_day_types_v1.py:38: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  dist = np.sqrt(((prof - prof.loc[tgt]) ** 2).mean(1)).drop(tgt).sort_values()
+ type target  n_farms  twin_dist                         top3  median_dist  within_twin           note
+    0    F13     49.0       0.84 F30:1.42, F50:1.54, F42:1.58         3.03          0.0            NaN
+    0    F47     49.0       0.84 F30:1.21, F41:1.47, F03:1.48         2.70          0.0            NaN
+    1    F13     49.0       0.58 F50:0.76, F38:0.80, F42:0.89         2.25          0.0            NaN
+    1    F47     49.0       0.58 F50:0.98, F38:1.00, F42:1.19         2.51          0.0            NaN
+    2    F13      NaN        NaN                          NaN          NaN          NaN target <5 days
+    2    F47      NaN        NaN                          NaN          NaN          NaN target <5 days
+    3    F13     46.0        NaN F38:1.26, F42:1.57, F50:1.58         2.48         -1.0            NaN
+    3    F47      NaN        NaN                          NaN          NaN          NaN target <5 days
+    4    F13     48.0       0.41 F50:1.40, F42:1.54, F38:1.74         2.60          0.0            NaN
+    4    F47     48.0       0.41 F50:1.49, F42:1.67, F23:1.85         2.57          0.0            NaN
+    5    F13     49.0       0.74 F42:0.66, F50:0.81, F10:1.07         1.72          1.0            NaN
+    5    F47     49.0       0.74 F09:0.57, F10:0.60, F50:0.61         1.25          7.0            NaN
+    6    F13     47.0        NaN F44:1.53, F50:1.63, F24:1.81         2.80         -1.0            NaN
+    6    F47      NaN        NaN                          NaN          NaN          NaN target <5 days
+    7    F13     48.0       1.08 F24:0.97, F46:1.01, F22:1.07         1.65          3.0            NaN
+    7    F47     48.0       1.08 F44:0.83, F09:0.98, F24:0.98         1.92          6.0            NaN
+    8    F13      NaN        NaN                          NaN          NaN          NaN target <5 days
+    8    F47      NaN        NaN                          NaN          NaN          NaN target <5 days
+    9    F13      NaN        NaN                          NaN          NaN          NaN target <5 days
+    9    F47      NaN        NaN                          NaN          NaN          NaN target <5 days
