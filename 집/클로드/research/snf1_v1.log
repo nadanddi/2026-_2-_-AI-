@@ -1,0 +1,17 @@
+C:\work\farmai\집\클로드\research\snf1_sensor_fault_flags_v1.py:41: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  trm = (A.set == "train") & A[PRED + ["in_temp"]].notna().all(1); lr = LinearRegression().fit(A.loc[trm, PRED], A.loc[trm, "in_temp"])
+C:\work\farmai\집\클로드\research\snf1_sensor_fault_flags_v1.py:42: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  ok = A[PRED + ["in_temp"]].notna().all(1); res = np.full(len(A), np.nan); res[ok] = A.loc[ok, "in_temp"] - lr.predict(A.loc[ok, PRED]); s = np.nanstd(res[trm.values])
+straight-line (F1) records by column: {'in_temp': 17, 'in_hum': 13, 'out_rad': 12, 'out_wspd': 8, 'out_hum': 4, 'in_co2': 11, 'out_temp': 4}
+        F1  F2  F3  ANY
+       sum sum sum  sum
+set                    
+eval    29   0   0   29
+train  184  11  14  204
+records flagged (ANY): {'eval': 8, 'train': 61}
+eval flagged records: {'F13_201': {'F1': 1, 'F2': 0, 'F3': 0}, 'F13_207': {'F1': 5, 'F2': 0, 'F3': 0}, 'F13_208': {'F1': 17, 'F2': 0, 'F3': 0}, 'F13_225': {'F1': 1, 'F2': 0, 'F3': 0}, 'F13_239': {'F1': 2, 'F2': 0, 'F3': 0}, 'F47_183': {'F1': 1, 'F2': 0, 'F3': 0}, 'F47_203': {'F1': 1, 'F2': 0, 'F3': 0}, 'F47_206': {'F1': 1, 'F2': 0, 'F3': 0}}
+[F1] flagged rows 238 (48 recs) | RMSE flagged rows 0.629 vs others 0.639 | flagged-record whole-day RMSE 0.620 vs non-flagged records 0.642 | |day mean err| median flagged recs 0.236 vs 0.220
+[F2] flagged rows 21 (3 recs) | RMSE flagged rows 4.522 vs others 0.617 | flagged-record whole-day RMSE 2.076 vs non-flagged records 0.615 | |day mean err| median flagged recs 0.544 vs 0.222
+[F3] flagged rows 24 (8 recs) | RMSE flagged rows 3.490 vs others 0.625 | flagged-record whole-day RMSE 1.488 vs non-flagged records 0.607 | |day mean err| median flagged recs 0.314 vs 0.222
+[ANY] flagged rows 273 (56 recs) | RMSE flagged rows 1.577 vs others 0.609 | flagged-record whole-day RMSE 0.748 vs non-flagged records 0.615 | |day mean err| median flagged recs 0.240 vs 0.220
+large-error records caught: {'F13_107': {'F1': 15, 'F2': 0, 'F3': 0}, 'F13_109': {'F1': 0, 'F2': 9, 'F3': 5}, 'F13_175': {'F1': 3, 'F2': 0, 'F3': 0}, 'F13_217': {'F1': 1, 'F2': 0, 'F3': 0}, 'F47_096': {'F1': 5, 'F2': 0, 'F3': 0}} | 5/20 vs base rate 0.15
