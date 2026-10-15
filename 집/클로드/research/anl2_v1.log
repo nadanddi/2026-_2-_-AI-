@@ -1,0 +1,15 @@
+CV8 fit rows 888 / 936
+N fit rows 8592 / 8880
+CK2 fit rows 4632 / 4752
+EL1 fit rows 1248 / 1248
+[fit] beta 0.0000 (rows 15360)
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 done | analog coverage 0.961
+EXT12 done | analog coverage 0.975
+DIAG10 done | analog coverage 0.968
+  A vs R27+CH | EXT10: cells +0.000 +0.000 +0.000 +0.000 | <=10C +0.00% | >20C +0.00% | 8-20h +0.00% | night +0.00%
+  A vs R27+CH | EXT12: cells +0.000 +0.000 +0.000 +0.000 | <=10C +0.00% | >20C +0.00% | 8-20h +0.00% | night +0.00%
+  A vs R27+CH | DIAG10: cells +0.000 +0.000 +0.000 +0.000 | <=10C +0.00% | >20C +0.00% | 8-20h +0.00% | night +0.00%
+ANL2 analog member on R27+CH: 12 cells all better False | dedup P(worse) 1.0000 -> FAIL
