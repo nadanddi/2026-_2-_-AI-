@@ -1,0 +1,48 @@
+CV8 rows 936 | linked share 0.205
+N rows 8880 | linked share 0.376
+CK2 rows 4752 | linked share 0.237
+EL1 rows 1248 | linked share 0.462
+
+== standalone & error correlation with cell (rows; within-record centred = shape; record means = level) ==
+  CV8  GAMF  RMSE 0.947 (cell 0.729) | corr all 0.70 shape 0.69 level 0.74
+  CV8  LGBD  RMSE 0.789 (cell 0.729) | corr all 0.85 shape 0.84 level 0.88
+  CV8  ETD   RMSE 0.877 (cell 0.729) | corr all 0.81 shape 0.82 level 0.80
+  CV8  KNND  RMSE 0.891 (cell 0.729) | corr all 0.81 shape 0.83 level 0.79
+  N    GAMF  RMSE 0.895 (cell 0.630) | corr all 0.72 shape 0.69 level 0.75
+  N    LGBD  RMSE 0.773 (cell 0.630) | corr all 0.79 shape 0.75 level 0.84
+  N    ETD   RMSE 0.865 (cell 0.630) | corr all 0.76 shape 0.74 level 0.78
+  N    KNND  RMSE 0.860 (cell 0.630) | corr all 0.76 shape 0.73 level 0.78
+  CK2  GAMF  RMSE 0.915 (cell 0.697) | corr all 0.74 shape 0.73 level 0.75
+  CK2  LGBD  RMSE 0.829 (cell 0.697) | corr all 0.78 shape 0.77 level 0.80
+  CK2  ETD   RMSE 0.898 (cell 0.697) | corr all 0.75 shape 0.75 level 0.76
+  CK2  KNND  RMSE 0.891 (cell 0.697) | corr all 0.77 shape 0.76 level 0.78
+  EL1  GAMF  RMSE 0.899 (cell 0.736) | corr all 0.76 shape 0.67 level 0.82
+  EL1  LGBD  RMSE 0.752 (cell 0.736) | corr all 0.86 shape 0.75 level 0.92
+  EL1  ETD   RMSE 0.846 (cell 0.736) | corr all 0.83 shape 0.76 level 0.88
+  EL1  KNND  RMSE 0.846 (cell 0.736) | corr all 0.84 shape 0.77 level 0.88
+
+== leave-one-layout-out blend weight (w picked on other 3 layouts by mean relative MSE of assembled output) ==
+  GAMF  CV8: w 0.05 RMSE -0.17% | N: w 0.10 RMSE +0.73% | CK2: w 0.05 RMSE -0.10% | EL1: w 0.05 RMSE -0.43%  || in-sample per-layout best w: CV8 0.05 N 0.00 CK2 0.05 EL1 0.20
+        CV8 unlinked records -0.27% | <=8C rows -2.19%
+        N unlinked records +0.52% | <=8C rows -4.04%
+        CK2 unlinked records -0.14% | <=8C rows +0.26%
+        EL1 unlinked records -0.57% | <=8C rows -2.98%
+  LGBD  CV8: w 0.15 RMSE -0.85% | N: w 0.25 RMSE +1.18% | CK2: w 0.20 RMSE -0.36% | EL1: w 0.10 RMSE -1.08%  || in-sample per-layout best w: CV8 0.25 N 0.05 CK2 0.15 EL1 0.45
+        CV8 unlinked records -0.60% | <=8C rows -3.21%
+        N unlinked records +1.20% | <=8C rows -3.55%
+        CK2 unlinked records -0.08% | <=8C rows -2.35%
+        EL1 unlinked records -1.19% | <=8C rows -0.79%
+  ETD   CV8: w 0.05 RMSE -0.06% | N: w 0.10 RMSE +0.75% | CK2: w 0.05 RMSE -0.11% | EL1: w 0.00 RMSE +0.00%  || in-sample per-layout best w: CV8 0.05 N 0.00 CK2 0.05 EL1 0.15
+        CV8 unlinked records +0.09% | <=8C rows -1.53%
+        N unlinked records +0.97% | <=8C rows -2.22%
+        CK2 unlinked records -0.03% | <=8C rows -1.12%
+  KNND  CV8: w 0.05 RMSE +0.06% | N: w 0.05 RMSE +0.24% | CK2: w 0.05 RMSE -0.04% | EL1: w 0.00 RMSE +0.00%  || in-sample per-layout best w: CV8 0.00 N 0.00 CK2 0.05 EL1 0.20
+        CV8 unlinked records +0.21% | <=8C rows -1.24%
+        N unlinked records +0.38% | <=8C rows -0.95%
+        CK2 unlinked records -0.00% | <=8C rows -0.66%
+
+screen rule (pre-registered): candidate goes to MEM2 judge only if LOLO w > 0 and RMSE change < 0 in all 4 layouts
+  GAMF: stop
+  LGBD: stop
+  ETD: stop
+  KNND: stop
