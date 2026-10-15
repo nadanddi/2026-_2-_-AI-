@@ -1,0 +1,18 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+[fit on block group 0] S4 theta [-2.17  1.    0.45] | PFN weight .4*g at (t - train min) = -3C:0.01 -1C:0.02 +0C:0.04 +1C:0.08 +2C:0.13 +3C:0.20 +5C:0.32 +8C:0.39 +12C:0.40
+    S4b theta [-7.5   0.94  0.63] | PFN weight at absolute in_temp = 4C:0.01 6C:0.02 8C:0.09 9C:0.16 10C:0.24 12C:0.35 15C:0.39
+[fit on block group 1] S4 theta [-2.93  1.39  1.99] | PFN weight .4*g at (t - train min) = -3C:0.00 -1C:0.00 +0C:0.02 +1C:0.09 +2C:0.24 +3C:0.36 +5C:0.40 +8C:0.40 +12C:0.40
+    S4b theta [-18.31   1.18   3.35] | PFN weight at absolute in_temp = 4C:0.00 6C:0.00 8C:0.18 9C:0.36 10C:0.39 12C:0.40 15C:0.40
+  S4 vs R27+CH5 | EXT10: cells +0.851 +1.200 +0.835 +1.166 | <=8C +3.73% | 8-10C +3.61% | out-of-range +1.25%
+  S4 vs R27+CH5 | EXT12: cells +0.414 +0.266 +0.414 +0.263 | <=8C +0.12% | 8-10C +1.92% | out-of-range +0.72%
+  S4 vs R27+CH5 | DIAG10: cells +0.040 +0.052 +0.039 +0.052 | <=8C -0.04% | 8-10C -0.45% | out-of-range +0.32%
+STK4 S4: 12 cells max +1.200% mean +0.466% all better False | dedup P(worse) 0.7954 | MSE change upper95 +2.905% | EXT <=8C +1.92% -> superiority FAIL | replacement(non-inferior) FAIL
+  S4b vs R27+CH5 | EXT10: cells +0.390 +0.175 +0.372 +0.131 | <=8C +1.82% | 8-10C +2.14% | out-of-range -1.15%
+  S4b vs R27+CH5 | EXT12: cells +0.485 +0.373 +0.486 +0.373 | <=8C +1.11% | 8-10C +1.35% | out-of-range +0.16%
+  S4b vs R27+CH5 | DIAG10: cells +1.099 +1.071 +1.094 +1.065 | <=8C -0.03% | 8-10C +2.57% | out-of-range +0.08%
+STK4 S4b: 12 cells max +1.099% mean +0.593% all better False | dedup P(worse) 0.8661 | MSE change upper95 +3.765% | EXT <=8C +1.47% (desc)
