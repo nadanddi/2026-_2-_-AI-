@@ -1,0 +1,118 @@
+CV8 done
+N done
+CK2 done
+EL1 done
+
+[1] totals by layout (gain = mean over 4 cells of SSE change, neg = good)
+            rows  active    rel  rel_chain     gain  gain_chain  top3_share  without_top3  recs_better  recs_worse
+half                                                                                                              
+CK2       4752.0  1364.0 -1.200     -1.172  -55.233     -53.728       0.216       -33.566        0.424       0.207
+CV8early   480.0    30.0 -0.949     -0.885   -6.255      -5.442       0.953        -0.285        0.450       0.050
+CV8late    456.0    22.0 -0.949     -0.885   -3.167      -3.167       0.871        -0.579        0.263       0.053
+EL1       1248.0   727.0 -2.511     -2.470  -33.594     -31.031       0.652        -6.223        0.519       0.212
+N         8880.0  5457.0 -2.563     -2.379 -178.956    -164.519       0.162      -119.232        0.511       0.292
+
+[2] GRU alone vs cells on active rows: RMSE, bias, corr(errors), corr_fix(-e0 vs d)
+            rows  cells_rmse  gru_rmse  cells_bias  gru_bias  corr_err  corr_fix
+half                                                                            
+CK2       1364.0       0.707     0.851       0.079     0.012     0.562     0.309
+CV8early    30.0       1.006     0.485       0.393     0.215     0.592     0.660
+CV8late     22.0       1.007     1.205       0.533     0.736     0.244     0.573
+EL1        727.0       0.794     0.741      -0.064    -0.100     0.910     0.393
+N         5457.0       0.614     0.667      -0.044     0.027     0.690     0.297
+
+[3] level vs shape: gain = record-mean (day offset) part + within-day part
+  (cell-mean prediction; total here = SSE change of averaged q, close to [1])
+           total  level_part  shape_part
+half                                    
+CK2       -54.91      -15.34      -39.57
+CV8early   -6.22       -0.41       -5.81
+CV8late    -3.14       -1.04       -2.10
+EL1       -33.35      -27.17       -6.18
+N        -176.80      -82.72      -94.08
+
+[4] by hour group: active rows, gain per active row (x1000), sum gain
+         rows                                 active                                 per_row_x1000                                  gain                               
+half      CK2 CV8early CV8late    EL1       N    CK2 CV8early CV8late    EL1       N           CK2 CV8early CV8late    EL1      N    CK2 CV8early CV8late    EL1      N
+hgrp                                                                                                                                                                   
+00-05  1188.0    120.0   114.0  312.0  2220.0  535.0     24.0    17.0  204.0  1567.0        -75.83   -59.69  -35.74 -49.01 -40.65 -40.57    -1.43   -0.61 -10.00 -63.70
+06-11  1188.0    120.0   114.0  312.0  2220.0  314.0      0.0     5.0  175.0  1336.0        -18.58     0.00 -511.83 -51.63 -23.62  -5.84     0.00   -2.56  -9.03 -31.55
+12-17  1188.0    120.0   114.0  312.0  2220.0  287.0      0.0     0.0  174.0  1307.0        -28.93     0.00    0.00 -44.87 -31.01  -8.30     0.00    0.00  -7.81 -40.52
+18-23  1188.0    120.0   114.0  312.0  2220.0  228.0      6.0     0.0  174.0  1247.0         -2.30  -803.70    0.00 -38.82 -34.62  -0.52    -4.82    0.00  -6.75 -43.17
+
+[5] by link type of the record (training FL link): active rows, gain per active row (x1000), sum gain
+                  rows                                 active                                 per_row_x1000                                   gain                               
+half               CK2 CV8early CV8late    EL1       N    CK2 CV8early CV8late    EL1       N           CK2 CV8early CV8late     EL1      N    CK2 CV8early CV8late    EL1      N
+ltype                                                                                                                                                                            
+cross-farm       912.0     96.0   216.0  168.0  1392.0  183.0      3.0    12.0  120.0   663.0        -83.77   -30.64 -166.00  -21.77 -28.63 -15.33    -0.09   -1.99  -2.61 -18.98
+near(|d|<=3)    1584.0    216.0    96.0  192.0  3048.0  614.0     15.0     0.0   25.0  2078.0        -50.82   -72.18    0.00  -20.34 -20.68 -31.20    -1.08    0.00  -0.51 -42.98
+none(p<.5)      1296.0     96.0    72.0  312.0  2088.0  258.0      9.0     8.0  113.0  1032.0         -1.05  -560.90  -61.16 -182.32 -34.37  -0.27    -5.05   -0.49 -20.60 -35.47
+same-farm far    480.0      NaN    24.0  504.0  1224.0  153.0      NaN     0.0  397.0   880.0        -12.43      NaN    0.00  -21.38 -37.70  -1.90      NaN    0.00  -8.49 -33.18
+true prev(d-1)   480.0     72.0    48.0   72.0  1128.0  156.0      3.0     2.0   72.0   804.0        -41.86   -10.62 -342.76  -19.24 -60.14  -6.53    -0.03   -0.69  -1.39 -48.35
+
+[6a] by in_temp band: active rows, gain per active row (x1000), sum gain
+         rows                                 active                                 per_row_x1000                                  gain                               
+half      CK2 CV8early CV8late    EL1       N    CK2 CV8early CV8late    EL1       N           CK2 CV8early CV8late    EL1      N    CK2 CV8early CV8late    EL1      N
+band                                                                                                                                                                   
+<=10   1235.0    196.0   251.0  191.0  1238.0    0.0      0.0     0.0    0.0     0.0          0.00     0.00    0.00   0.00   0.00   0.00     0.00     0.0   0.00   0.00
+10-12  1353.0    111.0    84.0  223.0  1537.0  658.0     24.0    16.0  106.0   841.0        -40.64   -59.69  -12.81  -7.12 -23.41 -26.74    -1.43    -0.2  -0.75 -19.69
+12-15   879.0     41.0    51.0  235.0  1742.0  375.0      0.0     3.0  146.0  1232.0        -49.89     0.00 -133.86 -70.00 -30.41 -18.71     0.00    -0.4 -10.22 -37.47
+15-20   644.0     60.0    44.0  265.0  1960.0  172.0      0.0     0.0  193.0  1478.0        -10.48     0.00    0.00 -57.74 -16.62  -1.80     0.00     0.0 -11.14 -24.56
+>20     618.0     66.0    23.0  334.0  2330.0  136.0      0.0     0.0  282.0  1833.0        -19.66     0.00    0.00 -40.69 -27.53  -2.67     0.00     0.0 -11.48 -50.47
+
+[6b] by season: active rows, gain per active row (x1000), sum gain
+           rows                                  active                                 per_row_x1000                                  gain                                
+half        CK2 CV8early CV8late     EL1       N    CK2 CV8early CV8late    EL1       N           CK2 CV8early CV8late    EL1      N    CK2 CV8early CV8late    EL1       N
+season                                                                                                                                                                     
+<=110    1680.0    240.0     NaN     NaN  4704.0  642.0     15.0     NaN    NaN  3648.0        -29.81   -67.89     NaN    NaN -28.22 -19.14    -1.02     NaN    NaN -102.93
+111-160  1752.0    240.0   144.0     NaN  2112.0  538.0     15.0    12.0    NaN   898.0        -35.41  -349.08   14.05    NaN -31.87 -19.05    -5.24    0.17    NaN  -28.62
+161-178   696.0      NaN   216.0    48.0   864.0   64.0      NaN    10.0   48.0   232.0       -163.46      NaN -333.54 -33.97 -48.44 -10.46      NaN   -3.34  -1.63  -11.24
+pass-2    624.0      NaN    96.0  1200.0  1200.0  120.0      NaN     0.0  679.0   679.0        -54.87      NaN    0.00 -47.07 -53.27  -6.58      NaN    0.00 -31.96  -36.17
+
+[6c] by heating: active rows, gain per active row (x1000), sum gain
+        rows                                 active                                 per_row_x1000                                  gain                                
+half     CK2 CV8early CV8late    EL1       N    CK2 CV8early CV8late    EL1       N           CK2 CV8early CV8late    EL1      N    CK2 CV8early CV8late    EL1       N
+heat                                                                                                                                                                   
+off   2613.0    241.0   113.0  757.0  5861.0  829.0      5.0     4.0  507.0  4049.0        -39.21   -52.17 -831.95 -68.55 -26.81 -32.51    -0.26   -3.33 -34.75 -108.54
+on    2139.0    239.0   343.0  491.0  3019.0  535.0     25.0    18.0  220.0  1408.0        -42.48  -239.75    8.94   5.26 -50.01 -22.72    -5.99    0.16   1.16  -70.42
+
+[7] records: top gains / losses (all layouts) and sign flips of same record across layouts
+gains:
+half     rec   gain  active  tmean    e0     d             lt
+   N F47_085 -22.96      24  16.15  0.70 -0.22 true prev(d-1)
+   N F47_191 -19.21      24  17.97 -3.28  0.11     none(p<.5)
+   N F13_040 -17.55      24  17.72 -1.33  0.16 true prev(d-1)
+ EL1 F47_191 -14.69      24  17.97 -3.07  0.10     none(p<.5)
+   N F13_193 -14.09      24  21.80 -1.06  0.26  same-farm far
+   N F47_018 -14.09      24  23.78  1.70 -0.18   near(|d|<=3)
+   N F47_042 -11.52      24  16.06 -1.35  0.15  same-farm far
+   N F13_048  -8.98      24  21.28  1.86 -0.02     none(p<.5)
+losses:
+half     rec  gain  active  tmean    e0     d             lt
+   N F47_055  9.56      24  18.59  0.59  0.19   near(|d|<=3)
+   N F13_054  7.96      24  24.23 -0.61 -0.13 true prev(d-1)
+   N F47_053  7.46      24  20.06  0.66  0.14   near(|d|<=3)
+ CK2 F13_139  4.82      24  14.13 -2.07 -0.05     none(p<.5)
+   N F13_244  4.81      24  14.75 -0.91 -0.09  same-farm far
+   N F13_011  3.76      24  20.47 -0.35 -0.25   near(|d|<=3)
+   N F13_055  3.44      24  18.74  0.63  0.13 true prev(d-1)
+   N F13_150  2.62      24  18.80 -0.59 -0.02  same-farm far
+  records in N,CK2,EL1 with max |gain| > .5: 3 | sign flips across layouts: 0 | consistent better: 1 | consistent worse: 2
+  pairwise corr of record gains: {'CK2': {'CK2': 1.0, 'EL1': 1.0, 'N': 0.71}, 'EL1': {'CK2': 1.0, 'EL1': 1.0, 'N': 0.72}, 'N': {'CK2': 0.71, 'EL1': 0.72, 'N': 1.0}}
+
+[8] does the anchor absorb the GRU gain? (gain vs gain_chain, anchored records vs not)
+                rows    gain  gain_chain
+half     anch                           
+CK2      False  4584  -50.38      -50.38
+         True    168   -4.85       -3.35
+CV8early False   384   -5.33       -5.33
+         True     96   -0.92       -0.11
+CV8late  False   456   -3.17       -3.17
+EL1      False   768  -22.19      -22.19
+         True    480  -11.40       -8.84
+N        False  8448 -154.66     -154.66
+         True    432  -24.30       -9.86
+
+[9] eval coverage: share of rows with gate > 0 (eval inputs only) vs training; eval link p>=.5 share
+  eval rows 1440: gate>0 0.37, gate=1 0.16, mean gate 0.27 | training rows 9600: gate>0 0.61, gate=1 0.38, mean 0.50
+  eval records with FL link p>=.5: 0.75 (training 0.76)
