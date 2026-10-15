@@ -1,0 +1,26 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+[fit on block group 0] rows 7104
+    S3 F13 warm in-range 15C h9: w BASE/CODEX/PFN/GRU [0.56 0.28 0.01 0.16]
+    S3 F47 warm in-range 15C h9: w BASE/CODEX/PFN/GRU [0.38 0.25 0.01 0.36]
+    S3 F13 cold in-range 7C h3: w BASE/CODEX/PFN/GRU [0.47 0.4  0.02 0.1 ]
+    S3 F13 cold OUT-of-range h3: w BASE/CODEX/PFN/GRU [0.16 0.83 0.   0.01]
+    S3 F47 cold OUT-of-range h3: w BASE/CODEX/PFN/GRU [0.13 0.85 0.   0.02]
+[fit on block group 1] rows 6528
+    S3 F13 warm in-range 15C h9: w BASE/CODEX/PFN/GRU [0.31 0.02 0.65 0.01]
+    S3 F47 warm in-range 15C h9: w BASE/CODEX/PFN/GRU [0.03 0.01 0.95 0.01]
+    S3 F13 cold in-range 7C h3: w BASE/CODEX/PFN/GRU [0.23 0.44 0.3  0.02]
+    S3 F13 cold OUT-of-range h3: w BASE/CODEX/PFN/GRU [0.   0.98 0.   0.01]
+    S3 F47 cold OUT-of-range h3: w BASE/CODEX/PFN/GRU [0.   0.95 0.   0.05]
+  S3 vs R27+CH5 | EXT10: cells +0.309 +0.409 +0.396 +0.450 | <=8C +12.01% | out-of-range +1.58% | unlinked +2.51%
+  S3 vs R27+CH5 | EXT12: cells +5.132 +5.529 +4.694 +5.088 | <=8C +8.47% | out-of-range +2.05% | unlinked +5.45%
+  S3 vs R27+CH5 | DIAG10: cells +0.329 +0.263 +0.297 +0.225 | <=8C -0.01% | out-of-range +1.15% | unlinked +1.22%
+STK3 S3: 12 cells all better False | dedup P(worse) 0.9475 | EXT <=8C mean change +10.24% (guard <= +2%) -> FAIL
+  S3b vs R27+CH5 | EXT10: cells -0.110 -0.312 -0.045 -0.268 | <=8C +8.98% | out-of-range -0.22% | unlinked +0.78%
+  S3b vs R27+CH5 | EXT12: cells +2.037 +2.557 +1.766 +2.275 | <=8C +6.15% | out-of-range +0.98% | unlinked +2.71%
+  S3b vs R27+CH5 | DIAG10: cells +1.347 +1.180 +1.290 +1.124 | <=8C +1.82% | out-of-range +2.40% | unlinked +1.57%
+STK3 S3b: 12 cells all better False | dedup P(worse) 0.9691 | EXT <=8C mean change +7.56% (guard <= +2%) (desc)
