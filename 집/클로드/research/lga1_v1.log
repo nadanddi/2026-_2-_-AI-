@@ -1,0 +1,24 @@
+CV8 weak-labelled records 9 rows 216
+N weak-labelled records 55 rows 1320
+CK2 weak-labelled records 17 rows 408
+EL1 weak-labelled records 14 rows 336
+[fit] theta [b0, h, absu, p, dt]: [-24.463   1.503 -43.562  66.829   1.805] | rows 2280
+  gate p 0.4 dT 0.3: 0.00 0.00 0.00 0.00 0.00 0.00 0.00 (h 0,3,6,9,12,18,23) | K8 uses 1.0
+  gate p 0.6 dT 0.3: 0.00 0.01 0.01 0.01 0.01 0.01 0.02 (h 0,3,6,9,12,18,23) | K8 uses 1.0
+  gate p 0.6 dT 1.5: 0.02 0.02 0.03 0.03 0.04 0.06 0.08 (h 0,3,6,9,12,18,23) | K8 uses 1.0
+  gate p 0.75 dT 2.5: 1.50 1.50 1.50 1.50 1.50 1.50 1.50 (h 0,3,6,9,12,18,23) | K8 uses 1.0
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 done
+EXT12 done
+DIAG10 done
+layout  K8  WK  CH
+ EXT10  13  18   8
+ EXT12  10  16  40
+DIAG10  78 112  72
+  WK vs R27+CH | EXT10: cells -0.168 -0.212 -0.205 -0.242 | weak-anchored rows -0.66% | <=8C +1.59%
+  WK vs R27+CH | EXT12: cells +0.098 +0.079 +0.089 +0.069 | weak-anchored rows +2.11% | <=8C +0.00%
+  WK vs R27+CH | DIAG10: cells -0.774 -0.747 -0.802 -0.733 | weak-anchored rows -2.17% | <=8C -2.05%
+LGA1 WK vs R27+CH: 12 cells all better False | dedup P(worse) 0.0708 -> FAIL
+  [desc] eval weak-labelled records 17 | gate at 0h (|u| 1): median 0.00 max 1.50
