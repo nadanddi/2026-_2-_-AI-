@@ -1,0 +1,48 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 done
+EXT12 done
+DIAG10 done
+layout  records  labelled_anchor  chain  chain_cold_recs  chain_rows
+ EXT10       77               13     10                5         240
+ EXT12      198               11     49                8        1176
+DIAG10      370               78     69                8        1656
+  DAWN EXT10: cells -0.583 -0.679 -0.603 -0.697 | chained rows -4.84% | chained <=8C +0.00% | chained 0-5h -18.48%
+  DAWN EXT12: cells -2.155 -2.117 -2.153 -2.116 | chained rows -10.05% | chained <=8C +59.82% | chained 0-5h -26.91%
+  DAWN DIAG10: cells -0.228 -0.242 -0.223 -0.238 | chained rows -1.40% | chained <=8C -13.34% | chained 0-5h -7.92%
+  CH1_desc EXT10: cells -0.328 -0.453 -0.348 -0.467 | chained rows -2.99% | chained <=8C +18.22% | chained 0-5h -19.08%
+  CH1_desc EXT12: cells -2.793 -2.697 -2.712 -2.621 | chained rows -12.89% | chained <=8C +95.29% | chained 0-5h -27.58%
+  CH1_desc DIAG10: cells +0.574 +0.547 +0.535 +0.507 | chained rows +3.18% | chained <=8C -1.41% | chained 0-5h -8.16%
+  CH5_desc EXT10: cells -0.314 -0.385 -0.321 -0.389 | chained rows -2.63% | chained <=8C +7.34% | chained 0-5h -12.24%
+  CH5_desc EXT12: cells -1.943 -1.909 -1.909 -1.875 | chained rows -8.94% | chained <=8C +31.23% | chained 0-5h -17.91%
+  CH5_desc DIAG10: cells -0.156 -0.180 -0.167 -0.192 | chained rows -1.04% | chained <=8C -20.99% | chained 0-5h -15.09%
+PCH2 DAWN: 12 cells all better True | combined block P(worse) 0.0003 (alpha .025) -> PASS
+(a) EXT10: block P(worse) 0.0240 | blocks 37
+(a) EXT12: block P(worse) 0.0006 | blocks 61
+(a) DIAG10: block P(worse) 0.2366 | blocks 86
+(b) dedup (same farm x 5-day block averaged over layouts): blocks 86 | P(worse) 0.0123
+(c) chained cold records:
+layout     rec  dmin    dSSE
+ EXT10 F13_102   7.3  -2.331
+ EXT10 F13_106   6.2  -0.887
+ EXT10 F13_110   7.1   2.277
+ EXT10 F47_135   7.5  -0.265
+ EXT10 F47_214   6.7  -7.887
+ EXT12 F13_102   7.3  -5.974
+ EXT12 F13_106   6.2  -4.552
+ EXT12 F13_110   7.1  -0.544
+ EXT12 F13_233   7.2   3.022
+ EXT12 F47_047   7.8  -0.464
+ EXT12 F47_135   7.5   0.241
+ EXT12 F47_144   7.6  -0.401
+ EXT12 F47_214   6.7 -10.692
+DIAG10 F13_102   7.3  -3.281
+DIAG10 F13_106   6.2  -0.603
+DIAG10 F13_110   7.1   4.799
+DIAG10 F13_233   7.2  -0.906
+DIAG10 F47_047   7.8  -0.343
+DIAG10 F47_135   7.5   0.924
+DIAG10 F47_144   7.6  -0.847
+DIAG10 F47_214   6.7  -4.265
+    harmed 5 / helped 16 / zero 0
