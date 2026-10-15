@@ -1,0 +1,11 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+J      missing 0 | W3 vs W1 all -1.25 -1.17 -1.25 -1.18 | p2 -0.12 -0.13 -0.12 -0.12 | cold +0.07 +0.06 +0.07 +0.06 || V3L(W1) vs no-GRU all -1.07 -1.08 -1.09 -1.09
+K      missing 0 | W3 vs W1 all -1.15 -1.23 -1.16 -1.23 | p2 -0.05 -0.05 -0.05 -0.05 | cold +0.06 +0.06 +0.06 +0.06 || V3L(W1) vs no-GRU all -1.12 -1.17 -1.12 -1.17
+L      missing 0 | W3 vs W1 all -1.39 -1.38 -1.39 -1.40 | p2 -0.20 -0.21 -0.21 -0.22 | cold +0.04 +0.04 +0.04 +0.04 || V3L(W1) vs no-GRU all -1.28 -1.29 -1.28 -1.28
+EXT10  missing 0 | W3 vs W1 all +0.11 +0.16 +0.10 +0.15 | p2 +0.00 +0.00 +0.00 +0.00 | cold +0.06 +0.08 +0.04 +0.04 || V3L(W1) vs no-GRU all +0.16 +0.17 +0.13 +0.16
+EXT12  missing 0 | W3 vs W1 all +0.07 +0.09 +0.07 +0.09 | p2 +0.00 +0.00 +0.00 +0.00 | cold +0.01 +0.01 +0.01 +0.01 || V3L(W1) vs no-GRU all +0.17 +0.16 +0.17 +0.16
+
+pooled P(W3 worse) 0.0022 | safety {'EXT10': True, 'EXT12': True}
+VW4: ADOPT (linked 30%)
