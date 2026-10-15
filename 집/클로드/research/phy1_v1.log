@@ -1,0 +1,24 @@
+C:\work\farmai\집\클로드\research\phy1_air_response_state_bound_v1.py:27: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  m = (X.farm == f) & X[AIR + ["din"]].notna().all(1); lr = LinearRegression().fit(X.loc[m, AIR], X.loc[m, "din"])
+F13 air model R2 0.429 coef {'gap1': np.float64(0.028), 'act_heating': np.float64(0.003), 'vgap': np.float64(0.003), 'act_thermal': np.float64(0.001), 'act_shade': np.float64(-0.001), 'out_rad': np.float64(0.008), 'hs': np.float64(0.983), 'hc': np.float64(0.597)}
+C:\work\farmai\집\클로드\research\phy1_air_response_state_bound_v1.py:27: Pandas4Warning: Starting with pandas version 4.0 all arguments of all will be keyword-only.
+  m = (X.farm == f) & X[AIR + ["din"]].notna().all(1); lr = LinearRegression().fit(X.loc[m, AIR], X.loc[m, "din"])
+F47 air model R2 0.401 coef {'gap1': np.float64(0.023), 'act_heating': np.float64(0.0), 'vgap': np.float64(0.003), 'act_thermal': np.float64(0.004), 'act_shade': np.float64(-0.004), 'out_rad': np.float64(0.007), 'hs': np.float64(0.974), 'hc': np.float64(0.492)}
+records 358 {'F13': 191, 'F47': 167} | level offset sd 0.460
+
+Spearman with day-level offset (pooled / F13 / F47):
+  res_night       -0.018 / -0.102 / +0.050
+  res_all         +0.087 / +0.099 / +0.080
+  cool_rate       -0.062 / -0.010 / -0.080
+  gap_night       -0.082 / -0.139 / -0.024
+  heat_night      +0.012 / -0.147 / +0.175
+  in0_minus_mean  +0.143 / +0.078 / +0.205
+  in_mean         -0.132 / -0.052 / -0.233
+  out_mean        +0.018 / +0.103 / -0.069
+
+cross-fitted R2 (5-day blocks, 5 folds):
+  summary          pooled -0.006 | F13 -0.028 | F47 +0.017
+  physics          pooled -0.030 | F13 -0.065 | F47 -0.039
+  summary+physics  pooled -0.029 | F13 -0.076 | F47 -0.056
+
+PHY1 gate (pooled R2 >= .10 and both farms > 0): CLOSE direction 2
