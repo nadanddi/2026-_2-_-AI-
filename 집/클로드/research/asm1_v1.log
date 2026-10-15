@@ -1,0 +1,7 @@
+N   ASM vs R27 -0.735 -0.738 -0.749 -0.754 | P(worse) 0.0000 -> ok | cold +0.00% p2 -0.55%
+     RMSE q 0.6311 -> R27 0.6278 -> ASM 0.6231 | K8 anchors 18 of 370 records
+     parts vs q: K8 -0.44%  TX3 -0.09%  G -0.81%  R27 -0.53%  ASM -1.27% | leave-one-out vs ASM: -TX3 +0.09%  -K8 +0.37%  -G +0.75%
+CK2 ASM vs R27 -0.092 -0.080 -0.097 -0.086 | P(worse) 0.0459 -> FAIL | cold +0.00% p2 -0.03%
+     RMSE q 0.6979 -> R27 0.6964 -> ASM 0.6958 | K8 anchors 7 of 198 records
+     parts vs q: K8 -0.04%  TX3 -0.18%  G -0.09%  R27 -0.21%  ASM -0.30% | leave-one-out vs ASM: -TX3 +0.18%  -K8 +0.04%  -G +0.09%
+ASM1: FAIL
