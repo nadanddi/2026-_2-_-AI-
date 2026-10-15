@@ -1,0 +1,11 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 chains M1 8 | CH5 17
+EXT12 chains M1 40 | CH5 77
+DIAG10 chains M1 72 | CH5 103
+  CH5 vs M1 | EXT10: cells -0.790 -0.827 -0.726 -0.760 | extra chain records 9 | changed 9 helped 7 harmed 2 | sum -15.97
+  CH5 vs M1 | EXT12: cells -1.448 -1.410 -1.419 -1.381 | extra chain records 37 | changed 44 helped 33 harmed 11 | sum -73.39
+  CH5 vs M1 | DIAG10: cells -0.210 -0.207 -0.213 -0.210 | extra chain records 31 | changed 37 helped 22 harmed 15 | sum -12.89
+CH6 CH5 (chain p >= .5) vs M1: 12 cells all better True | dedup P(worse) 0.0029 | records helped 62 harmed 28 -> PASS
+  eval (links only): chain records M1 8 -> CH5 13
