@@ -83,8 +83,6 @@ def summarize():
                 dd = pd.Series((n - y) ** 2 - (b_ - y) ** 2).groupby(key).mean().values; pw.append(float((dd[rng.integers(0, len(dd), (20000, len(dd)))].mean(1) < 0).mean()))
             safety[L] = not (np.mean(ch) > 0 and min(pw) < .025); ok &= safety[L]
     S = pd.concat(diffs, axis=1).mean(axis=1).values; P_ = float((S[rng.integers(0, len(S), (20000, len(S)))].mean(1) >= 0).mean())
-    print(f"
-pooled P(worse) {P_:.4f} | safety {safety}
-V3LF:", "ADOPT" if (ok and P_ < .025) else "FAIL")
+    print(f"pooled P(worse) {P_:.4f} | safety {safety}"); print("V3LF:", "ADOPT" if (ok and P_ < .025) else "FAIL")
 if __name__ == "__main__":
     run() if MODE == "cv" else summarize()
