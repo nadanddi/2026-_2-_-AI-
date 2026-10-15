@@ -1,0 +1,14 @@
+ct 135 -> TOD 95 | dropped: ['act_heating_ewm2', 'act_heating_ewm6', 'act_heating_r24m', 'day', 'in_temp_d1', 'in_temp_d3', 'in_temp_dev6', 'in_temp_ewm2', 'in_temp_ewm6', 'in_temp_lag1', 'in_temp_lag2', 'in_temp_lag3', 'in_temp_r168m', 'in_temp_r24m', 'in_temp_r24s', 'in_temp_r72m', 'out_temp_ewm2', 'out_temp_ewm6', 'out_temp_lag1', 'out_temp_r24m', 'rad_eff_dev6', 'rad_eff_ewm2', 'rad_eff_ewm6', 'rad_eff_lag1', 'rad_eff_r168m', 'rad_eff_r24m', 'rad_eff_r24s', 'rad_eff_r72m', 'transp_pm_ewm2', 'transp_pm_ewm6', 'transp_pm_r168m', 'transp_pm_r24m', 'transp_pm_r72m', 'vpd_in_r24m', 'act_vent_hsince_on', 'act_vent_hsince_chg', 'act_shade_hsince_on', 'act_shade_hsince_chg', 'act_thermal_hsince_on', 'act_thermal_hsince_chg', 'act_heating_hsince_on', 'act_heating_hsince_chg', 'act_circfan_hsince_on', 'act_circfan_hsince_chg', 'act_co2_hsince_on', 'act_co2_hsince_chg', 'act_fog_hsince_on', 'act_fog_hsince_chg']
+phc ['ph_in_temp_None', 'ph_in_temp_1', 'ph_in_temp_3', 'ph_in_temp_8', 'ph_in_temp_24', 'ph_in_temp_72', 'ph_rad_None', 'ph_rad_2', 'ph_rad_6', 'ph_heat_1', 'ph_heat_4', 'ph_out_temp_6', 'ph_out_temp_48', 'ph_farm_id'] -> TOD ['ph_in_temp_None', 'seg_in_temp_1', 'seg_in_temp_2', 'seg_in_temp_8', 'ph_rad_None', 'seg_rad_2', 'seg_rad_4', 'seg_heat_1', 'seg_heat_4', 'seg_out_temp_4', 'ph_farm_id']
+DIAG10/0 done | RMSE REF 0.791 TOD 0.784
+DIAG10/1 done | RMSE REF 0.720 TOD 0.702
+DIAG10/2 done | RMSE REF 0.554 TOD 0.573
+DIAG10/3 done | RMSE REF 0.658 TOD 0.681
+DIAG10/4 done | RMSE REF 0.797 TOD 0.815
+DIAG10/5 done | RMSE REF 0.786 TOD 0.802
+DIAG10/6 done | RMSE REF 0.673 TOD 0.648
+DIAG10/7 done | RMSE REF 0.534 TOD 0.545
+DIAG10/8 done | RMSE REF 0.571 TOD 0.682
+DIAG10/9 done | RMSE REF 0.829 TOD 0.765
+EXT10/0 done | RMSE REF 0.877 TOD 0.906
+EXT12/0 done | RMSE REF 0.874 TOD 0.964
