@@ -1,0 +1,34 @@
+(1) hourly-profile difference (standardised RMS) of twin pairs vs hit-hit nearest pairs
+      input  miss_hit_med  hit_hit_med        ratio  share_above_hit_q90
+    act_co2          0.29         0.00 293846020.40                 0.00
+     in_co2          0.63         0.35         1.81                 0.37
+act_circfan          0.54         0.34         1.61                 0.21
+    out_rad          0.43         0.27         1.59                 0.26
+act_heating          0.80         0.57         1.41                 0.26
+    in_temp          0.45         0.33         1.39                 0.26
+     in_hum          0.58         0.42         1.39                 0.16
+   out_temp          0.31         0.25         1.21                 0.32
+act_thermal          0.33         0.29         1.14                 0.11
+  act_shade          0.25         0.23         1.12                 0.05
+    out_hum          0.53         0.56         0.94                 0.21
+   out_wspd          0.78         0.99         0.79                 0.05
+   act_vent          0.19         0.35         0.53                 0.05
+    act_fog          0.16         0.43         0.36                 0.16
+
+(2) ratio (twin / hit-hit) by hour block
+      input  00-05        06-11        12-17        18-23
+    in_temp   1.04         1.60         1.45         1.59
+     in_hum   1.25         1.31         1.68         1.44
+     in_co2   1.27         1.30         1.95         2.60
+   out_temp   1.31         1.23         1.50         1.31
+    out_hum   1.45         1.15         1.19         1.18
+    out_rad   1.22         1.22         1.29         1.41
+   out_wspd   1.01         0.89         0.80         1.03
+act_heating   1.67         1.99         1.40 365778853.51
+act_thermal   0.00         1.16         1.67         0.00
+   act_vent   0.00         0.53         0.60         0.71
+  act_shade   0.00         1.30         1.41         4.00
+act_circfan   1.02         1.84         1.74         1.49
+    act_co2   0.00 353500082.14 465777255.26         0.00
+    act_fog   0.00         0.00         0.45         0.00
+saved C:\work\farmai\집\클로드\research\dhm6_twin_inputs_v1.png
