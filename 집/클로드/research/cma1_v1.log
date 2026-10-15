@@ -1,0 +1,17 @@
+candidate tables 400
+[T] N   CMA vs R27 -0.016 +0.006 -0.006 +0.017 | p2 +0.68% cold -0.57% | K8 18 | mixed 87 (mean m 0.56, mean c 0.55) of 370
+[T] CK2 CMA vs R27 +0.163 +0.150 +0.156 +0.143 | p2 -0.35% cold +0.72% | K8 7 | mixed 31 (mean m 0.48, mean c 0.77) of 198
+[T] pooled P(worse) 0.5273 -> CMA1 temp: FAIL
+links 208 | labelled records with yesterday window 0.52
+[EC] mixed records by validator: {'DIAG10': 92, 'P2LOO': 27, 'EL1': 26}
+   val  seed  dSSE_p2  dSSE_all  vsK8_p2  vsK8_all
+DIAG10  1357    2.399    30.145    1.744     6.885
+DIAG10  2468    2.007    29.794    1.504     6.874
+DIAG10  3579    1.734    29.788    1.273     6.807
+   EL1  1357    1.835     1.835    1.670     1.670
+   EL1  2468    2.001     2.001    1.767     1.767
+   EL1  3579    1.070     1.070    0.945     0.945
+ P2LOO  1357    7.215     7.215    9.854     9.854
+ P2LOO  2468    5.975     5.975    7.934     7.934
+ P2LOO  3579    6.356     6.356    8.473     8.473
+[EC] CMA vs K8: cells 0/6 | P2LOO P 0.8326 | harmed 60 | DIAG10 +29.909 -> CMA1 EC: FAIL
