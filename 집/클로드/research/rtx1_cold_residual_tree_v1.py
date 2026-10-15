@@ -42,7 +42,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LinearRegression
 _lab, _pfn, CT, PHC = _wd[0], _wd[1], _wd[2], _wd[3]
 def members(tr, va, w, s):
-    W.cold_v5.SEED = s; SV.cold_v5.SEED = s if hasattr(SV, "cold_v5") else None
+    W.cold_v5.SEED = s; sys.modules["cold_v5"].SEED = s
     imp = SimpleImputer(strategy="median").fit(tr[PHC]); b = SV.fit_w(LinearRegression(), imp.transform(tr[PHC]), tr.sub_temp.values, w, None)
     btr, bva = b.predict(imp.transform(tr[PHC])), b.predict(imp.transform(va[PHC])); y = tr.sub_temp.values
     r = SV.fit_w(SV.lgbh(), tr[CT], y - btr, w, None).predict(va[CT])
