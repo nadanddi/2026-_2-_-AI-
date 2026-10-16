@@ -1,0 +1,20 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+OOD1 fit 0: theta [-0.4   0.43  0.73] | CODEX shift s at (training min - t) = -6C:0.02 -3C:0.11 -1C:0.27 +0C:0.40 +1C:0.55 +2C:0.68 +3C:0.79 +5C:0.92
+OOD1 fit 1: theta [-1.61  0.13  1.81] | CODEX shift s at (training min - t) = -6C:0.00 -3C:0.01 -1C:0.07 +0C:0.17 +1C:0.34 +2C:0.58 +3C:0.79 +5C:0.96
+OOD1 fit all: theta [-1.32  0.29  1.5 ] | CODEX shift s at (training min - t) = -6C:0.00 -3C:0.02 -1C:0.10 +0C:0.21 +1C:0.40 +2C:0.62 +3C:0.80 +5C:0.96
+EXT10 rows with s > .1 (judged): 614 | out-of-range rows 403
+EXT12 rows with s > .1 (judged): 1334 | out-of-range rows 826
+DIAG10 rows with s > .1 (judged): 101 | out-of-range rows 21
+  BUNDLE vs R27+CH5 | EXT10: cells -1.731 -2.246 -1.871 -2.414 | <=6C -9.25% | <=8C -4.54% | out-of-range -1.83%
+  BUNDLE vs R27+CH5 | EXT12: cells -0.922 -0.996 -0.904 -0.979 | <=6C -2.59% | <=8C -1.69% | out-of-range -0.07%
+  BUNDLE vs R27+CH5 | DIAG10: cells -0.012 -0.009 -0.002 +0.002 | <=6C -0.36% | <=8C -0.23% | out-of-range -0.49%
+BUNDLE: 12 cells max +0.002% mean -1.007% all better False | dedup P(worse) 0.1056 | MSE upper95 +0.610% | EXT <=8C -3.12% -> superiority FAIL | replacement(non-inferior) FAIL
+  OOD1 vs R27+CH5 | EXT10: cells +0.060 -0.436 -0.074 -0.603 | <=6C -9.25% | <=8C -4.54% | out-of-range -1.13%
+  OOD1 vs R27+CH5 | EXT12: cells -0.211 -0.297 -0.199 -0.286 | <=6C -2.59% | <=8C -1.69% | out-of-range +0.22%
+  OOD1 vs R27+CH5 | DIAG10: cells +0.062 +0.060 +0.066 +0.064 | <=6C -0.36% | <=8C -0.23% | out-of-range -0.49%
+OOD1: 12 cells max +0.066% mean -0.150% all better False | dedup P(worse) 0.3819 | MSE upper95 +0.919% | EXT <=8C -3.12% -> superiority FAIL | replacement(non-inferior) FAIL
