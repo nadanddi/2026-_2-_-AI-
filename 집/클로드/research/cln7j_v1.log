@@ -1,0 +1,11 @@
+CV8: rows 936 (missing CLN7 0) | BASE alone NUM 0.8693 RS 0.8265
+N: rows 8880 (missing CLN7 0) | BASE alone NUM 0.7608 RS 0.7053
+CK2: rows 4752 (missing CLN7 0) | BASE alone NUM 0.8135 RS 0.7645
+EL1: rows 1248 (missing CLN7 0) | BASE alone NUM 0.8983 RS 0.8004
+  RS vs NUM | CV8: cells -1.212 -1.249 -0.794 -0.846 | <=6C -1.52% | <=8C +4.16%
+  RS vs NUM | N: cells -1.579 -1.624 -1.620 -1.656 | <=6C -0.97% | <=8C +1.27%
+  RS vs NUM | CK2: cells -1.401 -1.344 -1.518 -1.475 | <=6C -5.70% | <=8C -0.48%
+C:\work\farmai\집\클로드\research\cln7j_confirm_judge_v1.py:89: RuntimeWarning: Mean of empty slice
+  print(f"  RS vs NUM | {L}: cells {' '.join('%+.3f' % (100 * x) for x in c)} | <=6C {100 * np.nanmean(cellch(L, tt <= 6)):+.2f}% | <=8C {100 * np.nanmean(cellch(L, tt <= 8)):+.2f}%")
+  RS vs NUM | EL1: cells -0.134 -0.358 +0.092 -0.116 | <=6C +nan% | <=8C +19.22%
+CLN7J confirmation: 16 cells all better False (mean -1.052%, max +0.092%) | dedup P(worse) 0.0134 | CV8+CK2 <=8C +1.84% (guard <= +2%) -> FAIL
