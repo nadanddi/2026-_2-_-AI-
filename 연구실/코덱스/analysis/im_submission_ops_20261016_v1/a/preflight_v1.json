@@ -1,0 +1,45 @@
+{
+  "photos": 4944,
+  "kind": {
+    "real": 1800,
+    "partial_style": 501,
+    "partial_gen_v7": 393,
+    "real_jig": 1800,
+    "partial_gen_v7s": 450
+  },
+  "masks": 1344,
+  "folds": [
+    {
+      "photos": 994,
+      "real": 716,
+      "fake": 278
+    },
+    {
+      "photos": 985,
+      "real": 718,
+      "fake": 267
+    },
+    {
+      "photos": 978,
+      "real": 712,
+      "fake": 266
+    },
+    {
+      "photos": 994,
+      "real": 726,
+      "fake": 268
+    },
+    {
+      "photos": 993,
+      "real": 728,
+      "fake": 265
+    }
+  ],
+  "source_safe": true,
+  "original_sha256": {
+    "vit.py": "492e2990bc44d989a29a469ff2421647d481f3bba04e57fce971b998ce93d1df",
+    "inference.py": "dd4e272efb2f3df3e6d5389daade381536f5e96cd6b921715b3fc13d91947eee",
+    "model/config.json": "3db9af43aa458ba7b0a6188d54943c8c4a7cae960c50c8865e3e76bafa62ad74",
+    "model/b16_visual_fp16.safetensors": "d3b2627711293703f807734266d63db856c3afb6d1494b256f9d615a6fbdd140"
+  }
+}

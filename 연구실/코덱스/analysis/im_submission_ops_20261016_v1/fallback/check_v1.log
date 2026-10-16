@@ -1,0 +1,6 @@
+실행: /home/adilab/anaconda3/envs/nadan/bin/python /home/adilab/storage/nadan/공용/대회자료/이미지데이터/참가자_배포/inference_worker.py --team_dir /home/adilab/storage/nadan/codex/im_submission_ops_20261016_v1/fallback/clean_extract_v1/팜모니_나단9 --images_dir /home/adilab/storage/nadan/공용/대회자료/이미지데이터/참가자_배포/공개샘플/images --out_dir /home/adilab/storage/nadan/codex/im_submission_ops_20261016_v1/fallback/self_check_run/팜모니_나단9 --run_id 108faba7c3c14e33a6e374031d2066c6 --seed 1616 --check_order
+예시 21장 지표(참고용, 평가 성능 아님): accuracy 1.000 · auroc 1.000 · f1 1.000
+WARN: requirements.txt 패키지 2개: 화이트리스트 또는 사전신청 승인 패키지만 허용(채점 환경에는 운영진이 사전 설치): ['opencv-python==5.0.0.93', 'safetensors==0.8.0']
+실행 성공: 21장, 모델 로드 7.35s + 예측 1.889s, framework=pytorch, device=NVIDIA RTX 6000 Ada Generation, 순서 독립성=OK
+RESULT: PASS
+N9_FALLBACK_CHECK_PASS

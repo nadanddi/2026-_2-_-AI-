@@ -1,0 +1,22 @@
+C1_FOLD_DONE 1
+C1_FOLD_DONE 2
+C1_FOLD_DONE 3
+C1_FOLD_DONE 4
+C1_EVAL im_set_newreal {'n': 795, 'base_fp': 5, 'candidate_fp': 5, 'new_fp': 0, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 790}
+C1_EVAL im_set_realg {'n': 300, 'base_fp': 9, 'candidate_fp': 5, 'new_fp': 0, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 295}
+C1_EVAL im_set_realn {'n': 300, 'base_fp': 5, 'candidate_fp': 5, 'new_fp': 0, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 295}
+C1_EVAL im_set_r2 {'n': 3724, 'base_fp': 39, 'candidate_fp': 39, 'new_fp': 0, 'base_ba': 0.9640171858216972, 'candidate_ba': 0.9640171858216972, 'filter_losses': 0, 'correct': 3590}
+C1_EVAL im_set_r3 {'n': 900, 'base_fp': 11, 'candidate_fp': 11, 'new_fp': 0, 'base_ba': 0.9617017801731178, 'candidate_ba': 0.9606402090478523, 'filter_losses': 1, 'correct': 864}
+C1_EVAL im_set_r4 {'n': 700, 'base_fp': 9, 'candidate_fp': 8, 'new_fp': 0, 'base_ba': 0.9467442335170443, 'candidate_ba': 0.9481526842212696, 'filter_losses': 0, 'correct': 664}
+C1_EVAL im_set_r5 {'n': 700, 'base_fp': 5, 'candidate_fp': 5, 'new_fp': 0, 'base_ba': 0.9435589234387249, 'candidate_ba': 0.9435589234387249, 'filter_losses': 0, 'correct': 661}
+C1_EVAL sealed_real {'n': 400, 'base_fp': 5, 'candidate_fp': 5, 'new_fp': 0, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 395}
+C1_EVAL sealed_brown {'n': 200, 'base_fp': 1, 'candidate_fp': 1, 'new_fp': 0, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 199}
+C1_EVAL sealed_bright {'n': 150, 'base_fp': 2, 'candidate_fp': 2, 'new_fp': 0, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 148}
+C1_EVAL jig500 {'n': 500, 'base_fp': 78, 'candidate_fp': 78, 'new_fp': 0, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 422}
+C1_EVAL pub21 {'n': 21, 'base_fp': 0, 'candidate_fp': 0, 'new_fp': 0, 'base_ba': 1.0, 'candidate_ba': 1.0, 'filter_losses': 0, 'correct': 21}
+C1_EVAL im_set_r3p_sharp {'n': 429, 'base_fp': 389, 'candidate_fp': 389, 'new_fp': 0, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 40}
+C1_EVAL im_set_r3p_area {'n': 429, 'base_fp': 9, 'candidate_fp': 10, 'new_fp': 1, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 419}
+C1_EVAL im_set_r3p_png {'n': 429, 'base_fp': 9, 'candidate_fp': 9, 'new_fp': 0, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 420}
+C1_EVAL im_set_r3p_webp {'n': 429, 'base_fp': 161, 'candidate_fp': 161, 'new_fp': 0, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 268}
+C1_EVAL im_set_r3p_c444 {'n': 429, 'base_fp': 23, 'candidate_fp': 23, 'new_fp': 0, 'base_ba': None, 'candidate_ba': None, 'filter_losses': 0, 'correct': 406}
+C1_FINAL {'real_fp_reduction': True, 'filter_losses': True, 'r345_ba': False, 'public21': True, 'real_guards': True} PASS False

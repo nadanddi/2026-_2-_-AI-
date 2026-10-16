@@ -1,0 +1,10 @@
+{
+  "source_sha256": "ce4cbdd179f39ec08faa64e4afb5cef0f35f5cd164707749f4f0aa6406aa7c58",
+  "copy_sha256": "10b3f4e422a28e1e2e4eae56787ed75904bd4f5fcdc3965632150c840937efad",
+  "semantic_change": "if un.mean() <= float(O9.mean()) + .001: break",
+  "exact_reverse_check": true,
+  "raw_images": 700,
+  "raw_groups": 15,
+  "raw_bytes": 1945243108,
+  "manifest_sha256": "7f638ef2a5a7db42d599a117d3006bf0983383e52d9162f1040e0063a0a1c022"
+}

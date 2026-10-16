@@ -1,0 +1,184 @@
+{
+  "metrics": {
+    "im_set_newreal": {
+      "n": 795,
+      "base_fp": 5,
+      "candidate_fp": 5,
+      "new_fp": 0,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 790
+    },
+    "im_set_realg": {
+      "n": 300,
+      "base_fp": 9,
+      "candidate_fp": 5,
+      "new_fp": 0,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 295
+    },
+    "im_set_realn": {
+      "n": 300,
+      "base_fp": 5,
+      "candidate_fp": 5,
+      "new_fp": 0,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 295
+    },
+    "im_set_r2": {
+      "n": 3724,
+      "base_fp": 39,
+      "candidate_fp": 39,
+      "new_fp": 0,
+      "base_ba": 0.9640171858216972,
+      "candidate_ba": 0.9640171858216972,
+      "filter_losses": 0,
+      "correct": 3590
+    },
+    "im_set_r3": {
+      "n": 900,
+      "base_fp": 11,
+      "candidate_fp": 11,
+      "new_fp": 0,
+      "base_ba": 0.9617017801731178,
+      "candidate_ba": 0.9606402090478523,
+      "filter_losses": 1,
+      "correct": 864
+    },
+    "im_set_r4": {
+      "n": 700,
+      "base_fp": 9,
+      "candidate_fp": 8,
+      "new_fp": 0,
+      "base_ba": 0.9467442335170443,
+      "candidate_ba": 0.9481526842212696,
+      "filter_losses": 0,
+      "correct": 664
+    },
+    "im_set_r5": {
+      "n": 700,
+      "base_fp": 5,
+      "candidate_fp": 5,
+      "new_fp": 0,
+      "base_ba": 0.9435589234387249,
+      "candidate_ba": 0.9435589234387249,
+      "filter_losses": 0,
+      "correct": 661
+    },
+    "sealed_real": {
+      "n": 400,
+      "base_fp": 5,
+      "candidate_fp": 5,
+      "new_fp": 0,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 395
+    },
+    "sealed_brown": {
+      "n": 200,
+      "base_fp": 1,
+      "candidate_fp": 1,
+      "new_fp": 0,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 199
+    },
+    "sealed_bright": {
+      "n": 150,
+      "base_fp": 2,
+      "candidate_fp": 2,
+      "new_fp": 0,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 148
+    },
+    "jig500": {
+      "n": 500,
+      "base_fp": 78,
+      "candidate_fp": 78,
+      "new_fp": 0,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 422
+    },
+    "pub21": {
+      "n": 21,
+      "base_fp": 0,
+      "candidate_fp": 0,
+      "new_fp": 0,
+      "base_ba": 1.0,
+      "candidate_ba": 1.0,
+      "filter_losses": 0,
+      "correct": 21
+    },
+    "im_set_r3p_sharp": {
+      "n": 429,
+      "base_fp": 389,
+      "candidate_fp": 389,
+      "new_fp": 0,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 40
+    },
+    "im_set_r3p_area": {
+      "n": 429,
+      "base_fp": 9,
+      "candidate_fp": 10,
+      "new_fp": 1,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 419
+    },
+    "im_set_r3p_png": {
+      "n": 429,
+      "base_fp": 9,
+      "candidate_fp": 9,
+      "new_fp": 0,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 420
+    },
+    "im_set_r3p_webp": {
+      "n": 429,
+      "base_fp": 161,
+      "candidate_fp": 161,
+      "new_fp": 0,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 268
+    },
+    "im_set_r3p_c444": {
+      "n": 429,
+      "base_fp": 23,
+      "candidate_fp": 23,
+      "new_fp": 0,
+      "base_ba": null,
+      "candidate_ba": null,
+      "filter_losses": 0,
+      "correct": 406
+    }
+  },
+  "conditions": {
+    "real_fp_reduction": true,
+    "filter_losses": true,
+    "r345_ba": false,
+    "public21": true,
+    "real_guards": true
+  },
+  "internal_pass": false,
+  "theta": 0.6866992944479001,
+  "theta_rc": 0.7780494809150899
+}

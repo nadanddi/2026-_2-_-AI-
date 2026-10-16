@@ -1,0 +1,3746 @@
+[
+  {
+    "file": "공용/대회자료/정형데이터/참가자_배포/test_x.csv",
+    "sha256": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad"
+  },
+  {
+    "file": "공용/대회자료/정형데이터/참가자_배포/train_x.csv",
+    "sha256": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300"
+  },
+  {
+    "file": "공용/대회자료/정형데이터/참가자_배포/train_y.csv",
+    "sha256": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9"
+  },
+  {
+    "file": "연구실/클로드/code/common.py",
+    "sha256": "01ff23603e5f8c6f79b47ba92edfe0eb63bb2c2f7dee219161c8a8783bc07537"
+  },
+  {
+    "file": "연구실/클로드/results/rw1_rough_days_v1.csv",
+    "sha256": "2273ec3f93970cdb38d43f402f9a5ce6351b774d1edf0249c3a130191728a3e0"
+  },
+  {
+    "file": "집/코덱스/analysis/codex_independent/ec_final_lock/locked_days.json",
+    "sha256": "0256c719eb3cfadbc6f121392868371a85440c82d72693da8900d92872c36034"
+  },
+  {
+    "file": "집/코덱스/analysis/codex_independent/rl_ec_v1/run.py",
+    "sha256": "057ff4d8da6f3af29105b049251498f79f7fcd6b88d980a8222e5629eb5ce3b2"
+  },
+  {
+    "file": "집/코덱스/analysis/ec_submission10_season_20261002_v1/season.py",
+    "sha256": "7d58feeb6a0e7653796a6775f762b659cab3e64078b299d36b52ae69faeff162"
+  },
+  {
+    "file": "집/코덱스/analysis/local/rl_ec_v1/20260927_173801/splits.csv",
+    "sha256": "ed3b72cfa0ace2e7c9a5bbd880d76eefc88a3dfe345e3193da47138b24e242b7"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/anal_q1_errors.py",
+    "sha256": "bf7d45427d6909de2b92fdf25d8299a75e65997ea4924baa623bfc1136e1e6c4"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/cleanw_v6.py",
+    "sha256": "8e7cade0bd653635483a48f1951ee68d7532f34d2bfc3832f07d610c1628508a"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/cold_v5.py",
+    "sha256": "ba25c4bc4851eb1d685c1aaa2dcf6f8e9415617bfae5fca115bb2da86cac0a74"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/deep_cal_16.py",
+    "sha256": "ef141f369f4c0963d86fba7dca4e70aab25237cbf2a569069b942cb133c34ae6"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/deep_cal_eval.py",
+    "sha256": "264ebf03ae98822de569ab6143b59522f11eb0fe69f79dea586b2fa9173c089c"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/deep_cal_feats.py",
+    "sha256": "7ebfb6fc2c431aba64f88c52e221845e2ff31ca40c95dbadfd63c4f53df65af3"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/ec_v6.py",
+    "sha256": "4eb5da578bfb1187b2855cb8820d2694d38da2d170b74fb98a18dca3fb35fe6a"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/feat_lib.py",
+    "sha256": "6da08dc3602a23f9d6a68c6d56dd757d24ce4f65a7d1797df65f796ee412abc9"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/feat_new.py",
+    "sha256": "3a4773e32ce206d77dedd3d33e321095f6e26c4fbfa6c96f62f283bbca87beb0"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/feat_temp74.py",
+    "sha256": "8742b9d881e71b99e0eba031422663559602f8a1741cd173e5b8f335d29da203"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/features_v2.py",
+    "sha256": "c44348ac02ca9308550f2f4eb5e26ee7fb160dfd7c36cd0cc1b8a11b8bc13a0f"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/features_v4.py",
+    "sha256": "4ab4bcc4783e6a71149a0372e6724ec8b1bebf1a773970552f7556020233de0a"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/fp_features.py",
+    "sha256": "105685cbb17ff86fd98324d53d44d41cd4dd758aa12dcf5ac6bf32edf6ec5b7b"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/harness.py",
+    "sha256": "f39aeb2776eb80f9d76fae27d6a5b91c3f741cfa04b497b512004dd6699eea1f"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/make_submission_v3.py",
+    "sha256": "ed058bf193afcefa790cc77b91d81dc7e60c155bc5757bd6bd54f17c1235fa2e"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/resid_reset_features.py",
+    "sha256": "216e0e4bafa2b10d85166429b102e4ba00410e1133a3da879804918c918fb54d"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/screen_v6.py",
+    "sha256": "7a5e2104884e5d5c88e8cc15812de35f6ff1109e27c051c79558494220b279f5"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/temp_mask_v1.py",
+    "sha256": "52fcad854c36464c73a5339a4eb9fa09de404e1f2bfd1ea478b34afca2ae86d9"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_season_20261002_v1/reference/train_flags_v6.py",
+    "sha256": "7fc7d508cf5734a84900c21ed3d527a4d4a64ab01b66f1a3ec7b735377973338"
+  },
+  {
+    "file": "집/코덱스/analysis/temp_tk_season_20261003_v1/world.py",
+    "sha256": "3e9f7015c3a9a4039a4d7e3bf4a7d0cceeda0cc463dca5ba6b51473cbc2cc6b7"
+  },
+  {
+    "file": "집/클로드/research/ct1_thermal_schedule_features_v1.py",
+    "sha256": "72c7ae2c8a6a602f988e357554a488a98555d98e66e99be8e3343b76109feae9"
+  },
+  {
+    "file": "집/클로드/research/ct2_thermal_on_submission_pipeline_v1.py",
+    "sha256": "e3f97141c54708ffa2a0944e475f09f0719ac9471cc4f3b13ac1c3e91c5c48ff"
+  },
+  {
+    "file": "집/클로드/research/ec2_dc4_exact_twin_anchor_v1.py",
+    "sha256": "15d25a8280d45980e15afab1b6675505104474f8ac73a94e288647e60d79b1d5"
+  },
+  {
+    "file": "집/클로드/research/ec2_dc5_r3_season_v1.py",
+    "sha256": "1a1c1b17314f775e8d6649410ad57148ed4733bf2720927cc9b56e8b9d48fccf"
+  },
+  {
+    "file": "집/클로드/research/ec3_db1_dong_split_models_v1.py",
+    "sha256": "94f2bf37669cd397d00f3db10c823b39a422adf8f7be347645e05fd3de154ea3"
+  },
+  {
+    "file": "집/클로드/research/ec3_dp1_daily_operation_pattern_v1.py",
+    "sha256": "40d650c639550c09ef96a6be3aae3ef0f969fa1cbd899c787e7724a7f563e86d"
+  },
+  {
+    "file": "집/클로드/research/ec3_se3_same_dong_residual_carry_v1.py",
+    "sha256": "612e09ef35c9d804cee91efbdb89c9812f7bbb66fd3ac3ed9a91bc814722c2a6"
+  },
+  {
+    "file": "집/클로드/research/ec3_sg2_reference_knn_level_v1.py",
+    "sha256": "8ab8a254f5989958693165df2fe6cad0a813220d2464ead6393e6067c93c8c88"
+  },
+  {
+    "file": "집/클로드/research/ec3_st8_dong_state_corrector_v1.py",
+    "sha256": "9146db5057a8acd4c4caeaba0e1f7fffef24931ac2ab773f4f2109f123c539b3"
+  },
+  {
+    "file": "집/클로드/research/ec3_wt0_r3_member_weights_v1.py",
+    "sha256": "3089af833641027c7f012a4743a432878b1dd4987eb2a5c99653965c6fe292d3"
+  },
+  {
+    "file": "집/클로드/research/env.py",
+    "sha256": "82ca7b4bda2e9f50069b53b92d8418a7c0d4dd5ce7127fade16dd6ea78a8dcd2"
+  },
+  {
+    "file": "집/클로드/research/env_extra.py",
+    "sha256": "8b83d9e2651b3ac2787db59042267951f42b7f5e098a91d90785dc81dd6cbffb"
+  },
+  {
+    "file": "집/클로드/research/env_extra_gpu.py",
+    "sha256": "284ec34eb22060cb7c0454436841b2e0378de3e02fbd80bc33cd8f623b8c8066"
+  },
+  {
+    "file": "집/클로드/research/ft1_past_only_training_ec_v1.py",
+    "sha256": "7ff74d2312dfece638620d13acde005085300b01f81c2563dbfb4d777bec7c4f"
+  },
+  {
+    "file": "집/클로드/research/ft2_past_only_training_temp_v1.py",
+    "sha256": "dfc89ac959aebb63a3bb38b9acca1d585a9c506bb041210a4ce25c123b123d4a"
+  },
+  {
+    "file": "집/클로드/research/local/temp_mask_v1_oof.npz",
+    "sha256": "e687c34b67d773a7ab57652697f00dc7d652548f21d6678308d0eb966b4b67bb"
+  },
+  {
+    "file": "집/클로드/research/local/tt27_season/world_audit.json",
+    "sha256": "3d75d37d3f6a7d5b4ad93314c958f5d935d257fa9c2b6d463dd82778d5a54f17"
+  },
+  {
+    "file": "집/클로드/research/local/web_tabpfn_v2_temp_diag10.npy",
+    "sha256": "913597dcef83191ad72506b7fde5727f517b5d1e2a326c90a2da8eb82ba8c16b"
+  },
+  {
+    "file": "집/클로드/research/local/web_tabpfn_v2_temp_ext10.npy",
+    "sha256": "2e86f76dbacec7b0c9cf69a387198b92f2e8841a284c353ac2dec64ebd9238bf"
+  },
+  {
+    "file": "집/클로드/research/local/web_tabpfn_v2_temp_ext12.npy",
+    "sha256": "40eddcf374c0f207ff32ff93f696bab929b233aac808700f3c47c24d2ef76ba2"
+  },
+  {
+    "file": "집/클로드/research/local/web_tabpfn_v6_temp_diag10.npy",
+    "sha256": "487c028b7d7e82b0197534e6ea7866258c60a7df68edcf285a04d46ab6b1e50b"
+  },
+  {
+    "file": "집/클로드/research/local/web_tabpfn_v6_temp_ext10.npy",
+    "sha256": "669be868b89034dcba8464b97d4f416daa44fd4db565b1bd4b1a65f5d2b37b28"
+  },
+  {
+    "file": "집/클로드/research/local/web_tabpfn_v6_temp_ext12.npy",
+    "sha256": "f7248b16e4c6801991b182c019703ffb40190bb441f1edd9eef17a7bb67e140c"
+  },
+  {
+    "file": "집/클로드/research/ts6_gru_member_v1.py",
+    "sha256": "96b2068e0ce17d12f3dd6ac16bba701d5e8aace253986e07a2d5977e8149e3a7"
+  },
+  {
+    "file": "집/클로드/research/ts7_sequence_variants_v1.py",
+    "sha256": "d543b46df6c4767bac9a5ef84b08cad93b4f6760961e401d125cc72450162828"
+  },
+  {
+    "file": "집/클로드/research/tt12_confirm_noh0_noheat_fresh_v1.py",
+    "sha256": "f78c746264147476b78cd4e28129557f15ed594f716a23e857c8127ee223cc7e"
+  },
+  {
+    "file": "집/클로드/research/tt13_pass2_rule_confirm_v1.py",
+    "sha256": "6705310389e7149997f46255781dcf3f76507d5b5da8f7abc0ed070aa9f1f650"
+  },
+  {
+    "file": "집/클로드/research/tt17_p1_second_confirm_v1.py",
+    "sha256": "865b0d5ba8339bee007de8953cd851dc9f4925eda9ec7a2318b3e7f2217ecf19"
+  },
+  {
+    "file": "집/클로드/research/tt23_pw1_confirm_v1.py",
+    "sha256": "d1d8365283850f4e817f95e4d31f5711db0e26e837049d4129805872db4dbca4"
+  },
+  {
+    "file": "집/클로드/research/a3_field_ablation_table_v1.py",
+    "sha256": "0a95eeea9fab6d3f9957d69b3ebbe8821cbffd020ec5919d9db30ed54aa23154"
+  },
+  {
+    "file": "집/클로드/research/ab1_feature_group_ablation_v1.py",
+    "sha256": "f96213006b6986bde03c14fc3c80d64e2ba1fb073ced7a63745d67b134dec8fd"
+  },
+  {
+    "file": "집/클로드/research/ac1_actuator_signal_consistency_v1.py",
+    "sha256": "39a814f16506ac57b82a9f647d694eda2b9c425a92695eb8581c5e311159a893"
+  },
+  {
+    "file": "집/클로드/research/ac1_anchor_coverage_ec_v1.py",
+    "sha256": "10102f3ceb8992e5c41c85bc1e1895e200c7777d96cef3c4fdd0a7b801d84c49"
+  },
+  {
+    "file": "집/클로드/research/ac2_anchor_guard_ec_v1.py",
+    "sha256": "a627109abfb8277e3ea5133955a4868ac5a8a1893b10f5bc9384f55826d1459d"
+  },
+  {
+    "file": "집/클로드/research/ac2_indoor_outdoor_signal_consistency_v1.py",
+    "sha256": "758392f4fb04d2f2c059e5fab80bda0a60ebf3a68fec6695ddd5f76215a989d9"
+  },
+  {
+    "file": "집/클로드/research/ac2_nonactuator_signal_consistency_v1.py",
+    "sha256": "778d33763087ba015989aa918d892a818ac24c49bf5c39b8d4d7016cb6cc3e9e"
+  },
+  {
+    "file": "집/클로드/research/ag0_episode_age_v1.py",
+    "sha256": "a6f4856d5e6510adb6c41b71709b7a46d327b00c2e58c890cf49327b87bc5abd"
+  },
+  {
+    "file": "집/클로드/research/ag3_multi_linker_agreement_v1.py",
+    "sha256": "f10c9f5a8b712db0172bef89b4ae2154cfcd425303080d18e8c6648c39fbacd4"
+  },
+  {
+    "file": "집/클로드/research/am2_ec_amplitude_sweep_v1.py",
+    "sha256": "387cf86c3e4db72ef047918691c60fca27bdf946c5f01df6bd9e6d52291f3680"
+  },
+  {
+    "file": "집/클로드/research/an1_fln_temp_anchor_v1.py",
+    "sha256": "2cd6dc6ed36c6a090071480e0e79b998c9e53938a4e837fd97be2f0be793dbfd"
+  },
+  {
+    "file": "집/클로드/research/anal_cold_extrap.py",
+    "sha256": "b6f40fd7fddded27b9de5afe3faf19d156a56c203d2fd2c54e644cc440431aad"
+  },
+  {
+    "file": "집/클로드/research/anal_cold_extrap_v2.py",
+    "sha256": "07c4069a6000b8c216ee9ec6517b79e9ba6fa08b80f18990b3872a37ec7739ea"
+  },
+  {
+    "file": "집/클로드/research/anal_cold_shape.py",
+    "sha256": "cc15e6c5d6c42e108b417dab6875c62127ca3c9c30b65493a4dda237e7462770"
+  },
+  {
+    "file": "집/클로드/research/anal_e1_structure.py",
+    "sha256": "1b448d72279f6fc67099296161a61a1f7e09e0a2bc7479aa1259b780e34bc87c"
+  },
+  {
+    "file": "집/클로드/research/anal_e2_alternation.py",
+    "sha256": "a93444b00ed876305badd2ee1b0c8bd4f81918a87db9ba240b7d275d41e1244d"
+  },
+  {
+    "file": "집/클로드/research/anal_e3_spikes.py",
+    "sha256": "71aa1f7386491e4254e8ac2cd6efc388ebad46ca9b9e908e81ed8e7911a757bf"
+  },
+  {
+    "file": "집/클로드/research/anal_e4_sealed_level.py",
+    "sha256": "b1b56af7b9e0a2214aea0e46d0d3cdf5cc63f9ea28bebc64e682a0e6faec082b"
+  },
+  {
+    "file": "집/클로드/research/anal_ec_daylevel.py",
+    "sha256": "9c0bf5bd36cbbac580a99c4520632060cafdb5459847ba5c150bdc2e779d8554"
+  },
+  {
+    "file": "집/클로드/research/anal_ec_noncausal.py",
+    "sha256": "e7c1e96aea332d63f3ae48ceafb1f7ff9ffd0ff9d46c571b4681dddc67b11cb3"
+  },
+  {
+    "file": "집/클로드/research/anal_ec_noncausal_tabpfn.py",
+    "sha256": "325f1f1e69f4ebe0bc0cea37ae38cb1ce69fb001e079e50317e898ba6714ab9e"
+  },
+  {
+    "file": "집/클로드/research/anal_ec_regime.py",
+    "sha256": "197d26b5e5fef57564cf067dd44fc57a504aad2df311fdadbc692d0e924f93d5"
+  },
+  {
+    "file": "집/클로드/research/anal_ec_regime_tabpfn.py",
+    "sha256": "df97ebb5393ff853084ba15c40db006fbfc584c765b930947af369150e874841"
+  },
+  {
+    "file": "집/클로드/research/anal_ec_sealed_oracle.py",
+    "sha256": "ea3e1ab3f8cbde6ccf2ec7a8ea216c685df74964d1495e87f1777ccff354fcb1"
+  },
+  {
+    "file": "집/클로드/research/anal_f1_otherfarms.py",
+    "sha256": "4e4070d69601dce841ca76d89727b37f84998ab0f7fc7a3d0e9e95cbea2884d8"
+  },
+  {
+    "file": "집/클로드/research/anal_lb_bandbias.py",
+    "sha256": "b485addb2288b28dbc570981e55986a393675c949c8042f5afc8a29ce406e177"
+  },
+  {
+    "file": "집/클로드/research/anal_lb_pairs.py",
+    "sha256": "daacc43058ca9206c6e1ce41d82c3e7ab41e1a0e61678f8d3fe902d7f71eedb2"
+  },
+  {
+    "file": "집/클로드/research/anal_q1b_withinday.py",
+    "sha256": "9a6492820f8542fc3f23d348371cdd548bd588f5032d1920ee9b0d6406675e5c"
+  },
+  {
+    "file": "집/클로드/research/anal_q1_errors.py",
+    "sha256": "bf7d45427d6909de2b92fdf25d8299a75e65997ea4924baa623bfc1136e1e6c4"
+  },
+  {
+    "file": "집/클로드/research/anal_q2b_daylevel.py",
+    "sha256": "1360f6e1b97f10231c0400d08571c44166847cde156f063c7384aa0742c86658"
+  },
+  {
+    "file": "집/클로드/research/anal_q2_sources.py",
+    "sha256": "7d00132d7c0e3f658db14c6c4ca795fb12e667c409d3bcaa0aaf08ba9c8c16ea"
+  },
+  {
+    "file": "집/클로드/research/anal_q3b_bands.py",
+    "sha256": "ca21e43b9a1ba6917582448a46f48a2d982f4b97f925c10a0c48c3d43fdb2769"
+  },
+  {
+    "file": "집/클로드/research/anal_q3c_members.py",
+    "sha256": "b08fb31b85f4e2817a5aecd4bbf79f304b478bc2d2d6769fe1fa7397167a34b9"
+  },
+  {
+    "file": "집/클로드/research/anal_q3d_adversarial.py",
+    "sha256": "41179ae1ae506ebdb03330ed6b9e8dce9a1a4922581bcad774da0e1ccb99d92b"
+  },
+  {
+    "file": "집/클로드/research/anal_q3e_matched.py",
+    "sha256": "0efcbceb78ae2d806a8eebb0bb3b0812beb8526c578c9f19db5bdf9fbcfb13ce"
+  },
+  {
+    "file": "집/클로드/research/anal_q3f_days.py",
+    "sha256": "c5f218f4899963639d7e286204136ccc93b6797e0321fe4d07c9f68a32bf0449"
+  },
+  {
+    "file": "집/클로드/research/anal_q3_contam.py",
+    "sha256": "ec87c266ea581f15d503da2d7989f85f4418d990cf2912f44bf830d51217777c"
+  },
+  {
+    "file": "집/클로드/research/anal_temp_noncausal.py",
+    "sha256": "5c791edf78971e33eb050cb2523f44126bb9231bef8a69232bf56d2b585db8b4"
+  },
+  {
+    "file": "집/클로드/research/anal_temp_regime.py",
+    "sha256": "5f12e6b052122a0bb4e2115fb3ea6e04a2c14d1b1ad1220d9648614c518e1736"
+  },
+  {
+    "file": "집/클로드/research/anl1_analog_day_retrieval_v1.py",
+    "sha256": "1f6cac34619bcf5fd0657bd3cc56f951cc04f78e5d0abdc72aeb364d9336d0c4"
+  },
+  {
+    "file": "집/클로드/research/anl2_analog_on_r27ch_v1.py",
+    "sha256": "c77e18d0b2d18e3481769a1553e8d2e9ed24e77d65ec09a0626efa5955e77707"
+  },
+  {
+    "file": "집/클로드/research/anl2_gadj_v1.py",
+    "sha256": "b62219efc3d8c0c44ee5dba0d5575d9e1f6b8058f4cb4c3cd65200f8f30588b8"
+  },
+  {
+    "file": "집/클로드/research/ar1b_harm_label_v1.py",
+    "sha256": "04ee0829df4c9373a50ad4bafa4b50250d23b404cb432f0ed65e1db18f22d491"
+  },
+  {
+    "file": "집/클로드/research/ar1_anchor_reliability_v1.py",
+    "sha256": "c631ab244eed0014bcfaad4e5de093b90e58d3384544f0d980686d4cfdbe2e52"
+  },
+  {
+    "file": "집/클로드/research/ar2_quadrants_v1.py",
+    "sha256": "d31c16690264f48843e9db272ce8dff568bb9d2d75e9710bd81fd55346965296"
+  },
+  {
+    "file": "집/클로드/research/ar3_linkable_discriminator_v1.py",
+    "sha256": "fe3d1310b1a2c7cbe98acba291eb77b044940a04506ee600cc97cdb0a9dfac3d"
+  },
+  {
+    "file": "집/클로드/research/asm1_temp_assembly_v1.py",
+    "sha256": "511cd743eb7db93e2f6c2d575f9b7ffe8f3d10b6a7859bb2105d93f0b708736c"
+  },
+  {
+    "file": "집/클로드/research/asm2_temp_assembly_v1.py",
+    "sha256": "fd019c9cd14b9e40d7db6de625c60c53d6753086d3bdac3a402a5110f6a6984a"
+  },
+  {
+    "file": "집/클로드/research/asm3_r27_chain_gru_assembly_v1.py",
+    "sha256": "cc4767f1de0c5211c2ab716ce63bc426abb97d9982cf94a5b983802b24b24540"
+  },
+  {
+    "file": "집/클로드/research/asm4_r27ch_gru10_v1.py",
+    "sha256": "c336e1c0359d0faeed18683b8269332f5b40ca44bd7e39ce0f05c5ef45d6e794"
+  },
+  {
+    "file": "집/클로드/research/at1_anchor_afternoon_trend_v1.py",
+    "sha256": "057adb94a06e1df27beabb27e5d7e92dc9e5b5efbe1c414821a483bf05c4f251"
+  },
+  {
+    "file": "집/클로드/research/at1_temp_anchor_coverage_v1.py",
+    "sha256": "6df44afcb7df1773effeba8b30eed2806178632f6ffff6e9f2607ccc3e9171f9"
+  },
+  {
+    "file": "집/클로드/research/at1_temp_anchor_coverage_v2.py",
+    "sha256": "df0fe44e1edda1080b10e56139dfce9f6ec332346c463ea449a2b8ea0b469a7f"
+  },
+  {
+    "file": "집/클로드/research/audit1_calib.py",
+    "sha256": "9bd798b2094dca975c3576c84ca9dde6332984076b05b049f3003d337799f210"
+  },
+  {
+    "file": "집/클로드/research/audit1_cheap.py",
+    "sha256": "e9fff6032e4889b6267bc0d89e449e8d9065f19c6fba2efaa8fda973eb886097"
+  },
+  {
+    "file": "집/클로드/research/audit1_dayw.py",
+    "sha256": "c823327776b53b658a02f3ee34ee2b6dd83b09b6782f397bd77012046277b5fd"
+  },
+  {
+    "file": "집/클로드/research/audit1_eval.py",
+    "sha256": "15559d254cbdcdee6e6ce3659ab38b824f36994c7aad01571d03c988fe4e913f"
+  },
+  {
+    "file": "집/클로드/research/audit2_candidate.py",
+    "sha256": "009364a80126e8e41e8301d548a1f3d381d9fd4b35a20189eaa3409ffc29bde5"
+  },
+  {
+    "file": "집/클로드/research/audit2_causality.py",
+    "sha256": "e3904d9266379949ad34515211558c05b48f351dd0d06bc28c055b03a84d3605"
+  },
+  {
+    "file": "집/클로드/research/audit3_00_peek.py",
+    "sha256": "ce56c5212f675d1147e0e0db4f230a09d16a7aaa6196eaa1f6fe037a75d76bec"
+  },
+  {
+    "file": "집/클로드/research/audit3_01_weather.py",
+    "sha256": "4b28139d51e0fe1117e8635b63c23ab78eefd1c56dc355a637ea5e775d5c3afe"
+  },
+  {
+    "file": "집/클로드/research/audit3_02_calgroups.py",
+    "sha256": "d13def073f3c6c7d3d34c736d6960d4b1f6f1eb66250276d90dbdde18032d390"
+  },
+  {
+    "file": "집/클로드/research/audit3_03_cal.py",
+    "sha256": "c4219bcc25062d3c6268c03253260c9d48439608c3fabfc6bae24019b49c4d04"
+  },
+  {
+    "file": "집/클로드/research/audit3_04_order.py",
+    "sha256": "78befdc0baab646402293aa708a9887240570d108c3696c2884984a10366a8d7"
+  },
+  {
+    "file": "집/클로드/research/audit3_05_zones.py",
+    "sha256": "6130df5c629bc71c90d304d93894c20c49e3b38302535be8955ecf3ff1f3a621"
+  },
+  {
+    "file": "집/클로드/research/audit3_06_lbidentity.py",
+    "sha256": "1f8bcc77c4e8a71506874692a0e631f00fc735ed14bf08c78e29b3dd3df711e5"
+  },
+  {
+    "file": "집/클로드/research/audit3_07_cold.py",
+    "sha256": "803599ebc48e71b3e790c8f3d125d64207544324b413cf9245814ac64adcd797"
+  },
+  {
+    "file": "집/클로드/research/audit3_08_coldgap.py",
+    "sha256": "5ee7102a3dbaf18ba8473543ded4d0657ac8b6a4edc86fb7a0de5f43d9d439b6"
+  },
+  {
+    "file": "집/클로드/research/audit3_09_flags.py",
+    "sha256": "79c87b7ef3e72d442c31b2023d95d0dfab4cd61103b9d66e1c4f95a8aded815f"
+  },
+  {
+    "file": "집/클로드/research/audit3_10_noise.py",
+    "sha256": "017089a9cf07a254a9f1f1dbefcdac2ec486228bfdc08bca625b19678efaa84d"
+  },
+  {
+    "file": "집/클로드/research/audit3_11_noisesrc.py",
+    "sha256": "ff56a0b7dee5adef7309e13ec3dc4f444d14d6edb755f748087871859ac6fd2a"
+  },
+  {
+    "file": "집/클로드/research/audit3_12_noise2.py",
+    "sha256": "a323e898e0b6c074903b4df8a38a3d0dbcc5099a8df68411d52ecd34449462d7"
+  },
+  {
+    "file": "집/클로드/research/audit3_13_npz.py",
+    "sha256": "45cc24dbd32d921ab32f3a1fbe13847b61bdb59b874bd5d9c100a417be689848"
+  },
+  {
+    "file": "집/클로드/research/audit3_14_offset.py",
+    "sha256": "cf4180d2a2a5f801acc46fb45727246e91e0af9dde92bcb606af422162a25470"
+  },
+  {
+    "file": "집/클로드/research/audit3_15_hour.py",
+    "sha256": "0b35c263fe00484242385dcb2a88551403befd479f574b9679ec4d159af9cf06"
+  },
+  {
+    "file": "집/클로드/research/audit3_16_ec.py",
+    "sha256": "1c4783ad5a02108e7a22729b5560e1e860bef2e5461227974a7df3d4df337d24"
+  },
+  {
+    "file": "집/클로드/research/audit3_17_q4cold.py",
+    "sha256": "f9d4c758080a265ef5bb72631a134f2a9c77fa4382dab41193e7ecd5f4de42fc"
+  },
+  {
+    "file": "집/클로드/research/audit4_1_codexblend.py",
+    "sha256": "cc5d08429229b13594f893d8d304f97c38b21bd7bc9ff3d341970b01c38de6e1"
+  },
+  {
+    "file": "집/클로드/research/audit4_1_ecdenoise.py",
+    "sha256": "6006f67947fde4c6e55b8b44f0ca0b376d71b2981c9c63caacb86122988bdfd3"
+  },
+  {
+    "file": "집/클로드/research/audit4_1_ecsensor.py",
+    "sha256": "94383ca1086867a5d08e5b2c5f6ec12236bd287214892f9cfbac7cb4313c58b1"
+  },
+  {
+    "file": "집/클로드/research/audit4_1_r5split.py",
+    "sha256": "87c41aea1079a370dd986da4d745be10745d509738dec1796cf15082d3784f41"
+  },
+  {
+    "file": "집/클로드/research/audit4_1_sealed.py",
+    "sha256": "754024c6a553f3491f1e98bc053287ebe06fa39d092c86f856773d26fd5baea9"
+  },
+  {
+    "file": "집/클로드/research/audit4_1_tempcomp.py",
+    "sha256": "0cf5f657904c6a21dddf858d15c01aee0512a0a75bd369aa7cfd45d9787de8d1"
+  },
+  {
+    "file": "집/클로드/research/audit4_2_e2e.py",
+    "sha256": "2fb8a5a77a8fb63c7b0688c6e2a48fdd6cd6033d165602a3459042d5041b5b5f"
+  },
+  {
+    "file": "집/클로드/research/audit4_3_01_noise_sealed.py",
+    "sha256": "bf68a840d516e63f59e54a1425c01894d96e5ed0ce072ebbc376aec034f9df55"
+  },
+  {
+    "file": "집/클로드/research/audit4_3_02_ec_physics.py",
+    "sha256": "a56b5ff79657e7faea7ca30d9f3634899f642f9ec9160d573dedf4f63ccb041b"
+  },
+  {
+    "file": "집/클로드/research/audit4_3_03_midnight_state.py",
+    "sha256": "5752ae55f64dce7523aa95be8f103e90961ea8385c9b8908207a924a40de7f2b"
+  },
+  {
+    "file": "집/클로드/research/audit4_3_04_midnight_fix.py",
+    "sha256": "9b426d0fcfe06072fc33505590955af36d57790a748d55a3e40691604d5c31a8"
+  },
+  {
+    "file": "집/클로드/research/audit4_3_05_ext_and_ec.py",
+    "sha256": "4896856de65110882870c085fa017dd79612bb2714030e0e0c2970c11b12abbd"
+  },
+  {
+    "file": "집/클로드/research/aw1_ec_anchor_strength_v1.py",
+    "sha256": "9179ad8de97ca24a33a74fe713bdd2856c267be227e99adafc981fed735c5948"
+  },
+  {
+    "file": "집/클로드/research/awx1_shrink_winner_diagnosis_v1.py",
+    "sha256": "339db7e91a0d8b93ae2869e7ffe3b66daa6e439ab743bafc3db0c06b221a6a2a"
+  },
+  {
+    "file": "집/클로드/research/ax1_dataflow_audit_v1.py",
+    "sha256": "89342321383f6c8f77e408487a725b0c7f90abb5336c2e9f0d914eaa2b2522b5"
+  },
+  {
+    "file": "집/클로드/research/b2_learned_anchor_correction_v1.py",
+    "sha256": "c38f04b7882aa8eb8627fbb4f7da10f6305258ce7f7f749d5fd7ce4633b91444"
+  },
+  {
+    "file": "집/클로드/research/b4r_chain_v15r_dawn_v1.py",
+    "sha256": "cd59fe60115253be79ab5e41feb60fe80247de6b47c1418a9d71917926af5024"
+  },
+  {
+    "file": "집/클로드/research/b4_chain_v15_dawn_v1.py",
+    "sha256": "f845c9b0876c4ecc956ceaf3dc8a361565bfbea50ff388cf327dd41cbef4c68d"
+  },
+  {
+    "file": "집/클로드/research/b5_exclusion_learned_size_v1.py",
+    "sha256": "6dbf935d914274041fbe499a0f92fb970feded7386ac94fc3427ce67253c8827"
+  },
+  {
+    "file": "집/클로드/research/baseline.py",
+    "sha256": "d521f94249a83a7cc12b75131f2b79b2f8c6a378786ebf2cd6cee125e10fb5d3"
+  },
+  {
+    "file": "집/클로드/research/bia1_two_sided_agreement_v1.py",
+    "sha256": "11e2368f028d71e92e6077f9a65dbd8e40443c228ce01b11c6079b89c5fff3cb"
+  },
+  {
+    "file": "집/클로드/research/bm1_temp_bottleneck_map_v1.py",
+    "sha256": "47656f4265c2f6494048750302b17e3d352b2cf115c7cd93ac63bd2edfe22235"
+  },
+  {
+    "file": "집/클로드/research/bme1_ec_bottleneck_map_v1.py",
+    "sha256": "837d51edf3cb6f3a7f7618c62b1833bcbdc63ec418fb1b186e5c95ce84bda810"
+  },
+  {
+    "file": "집/클로드/research/bmx1_unlinked_member_shape_v1.py",
+    "sha256": "467af9d301d63fcdbce2ac6dcc2a6a15ff290cb2de70a32cc9d005bd8d503348"
+  },
+  {
+    "file": "집/클로드/research/brk1_bracket_estimator_v1.py",
+    "sha256": "41519267791961802db9b4b6cb7c1cd638969261dcb38dec29485bff0d80cedb"
+  },
+  {
+    "file": "집/클로드/research/build_package.py",
+    "sha256": "685bdbb3d2e7795bf9b69aaafc6cb1711cb3a76a56dabfc3e9c1f9057ec77c45"
+  },
+  {
+    "file": "집/클로드/research/build_package_v4.py",
+    "sha256": "e1faeda04468f5b37f4902880cb97cf022c810912361857654a2db42c55c3c12"
+  },
+  {
+    "file": "집/클로드/research/build_package_v5.py",
+    "sha256": "6bd44fc1104ee79a9fa6b5c640e5e9cc2dd6ee87b69a2e99fe623cf874d3aa6d"
+  },
+  {
+    "file": "집/클로드/research/build_package_v6.py",
+    "sha256": "5c56462ec26799934f3aaeb9bb46ed30ea8c6fc324971f8b6949059e186afc44"
+  },
+  {
+    "file": "집/클로드/research/build_package_v7.py",
+    "sha256": "55f62f7ff607ff26303fa84728a813de6c509fb26ba0e72e445418967450fe2d"
+  },
+  {
+    "file": "집/클로드/research/c1_true_yesterday_field_condition_v1.py",
+    "sha256": "df4e23c061fa80a3d2b8aa741a87ef19ceb21b0e7c67a0ab61e7f053e98713d7"
+  },
+  {
+    "file": "집/클로드/research/calib_cv.py",
+    "sha256": "f831b3146dfb88851c01288a9692afbdfdb7e8e40e7b5bf7ea2dc84530508767"
+  },
+  {
+    "file": "집/클로드/research/calib_ec_sp.py",
+    "sha256": "00dc00d2dfb7b742d0d88baf26b81d2c4f35fceb9a687bfed5cf82334623eb6f"
+  },
+  {
+    "file": "집/클로드/research/calib_temp_ext.py",
+    "sha256": "57665c17aef654dc646038c498b9d3cf8dcb1fdc5e5a52f6ca47c78c1c84815d"
+  },
+  {
+    "file": "집/클로드/research/cal_own_farm_v1.py",
+    "sha256": "9d39693feb16664304d711121cfe79371904db323b5367f76158305367933ba0"
+  },
+  {
+    "file": "집/클로드/research/cas1_cascade_v1.py",
+    "sha256": "b5fe553bd3441474fa7451b3136997045cd18ae9c72bf00bfbb33b5f00182547"
+  },
+  {
+    "file": "집/클로드/research/causality_new.py",
+    "sha256": "9ee94dc643a354e446d783a87b57eb6233beabfc37f4bafc95034c6ed5b08f76"
+  },
+  {
+    "file": "집/클로드/research/causality_shrink.py",
+    "sha256": "3ff424b3200e9de6c58d74fa7e771f9dd0c738e0b57e919f8b617c0d0f333514"
+  },
+  {
+    "file": "집/클로드/research/causality_v4.py",
+    "sha256": "3fe253dd822e9b1c9728ef97abaad08bac57797579b00cffaf1ef4946f73c0fe"
+  },
+  {
+    "file": "집/클로드/research/causality_v5.py",
+    "sha256": "3042acb40d295dd0cac3cc9e36dca52c7eda498fbb4cef0be7c3250cd800bd31"
+  },
+  {
+    "file": "집/클로드/research/causality_v6.py",
+    "sha256": "bbf27f37ffec5f8cb158e5f709f42929e7fdae336a96918247a84fe4941ace78"
+  },
+  {
+    "file": "집/클로드/research/causality_v7.py",
+    "sha256": "5c011d088132d0106d306dadcdec4ded2cff808a8a9741c4311a9657cb7b712c"
+  },
+  {
+    "file": "집/클로드/research/cb1_ec_component_grid_v1.py",
+    "sha256": "90ab14a19b88b3eed9325270bc1b2b676673164db7a3a2b5be180a579fa65628"
+  },
+  {
+    "file": "집/클로드/research/cb1_hr5_plus_future_input_forecast_v1.py",
+    "sha256": "199bd1bbba2b3b16853bb2bc0bdcfea86401d862ed15c42483a0c2361e0b71cf"
+  },
+  {
+    "file": "집/클로드/research/cb1_temp_component_grid_v1.py",
+    "sha256": "c4b15b7ebe418db015b95f94d322d5183b562dc42c510fc33d1e3a5ad9a7922c"
+  },
+  {
+    "file": "집/클로드/research/cb2_ec_anchor_shaping_v1.py",
+    "sha256": "c65387ee45b3697f6444675c624145a71b3f5906550c4a4677879034ee0a6278"
+  },
+  {
+    "file": "집/클로드/research/cb3_temp_gru_shaping_v1.py",
+    "sha256": "3adf8c6da16ddc0e3f8a3f7f6aaccda5b60baec3dcb8b2cf60f721363391f335"
+  },
+  {
+    "file": "집/클로드/research/cb4_ec_anchor_shaping2_v1.py",
+    "sha256": "f2534431d73f36ec80318cf39773f4153ef40bd4902043dbe2a4c79b047e255d"
+  },
+  {
+    "file": "집/클로드/research/cb4_temp_tx3_shaping_v1.py",
+    "sha256": "a8da82ab614308a8ff6a342d2329058d4f0bb5e01278501687af7f019fb46c8e"
+  },
+  {
+    "file": "집/클로드/research/cc1_causal_house_type_corrector_v1.py",
+    "sha256": "e3c2cb2a2b6d0bbc0feab74fee5f4501ad8b87f351644e885d6df6a6fbf6f94a"
+  },
+  {
+    "file": "집/클로드/research/ch10_chain_prune_v1.py",
+    "sha256": "8a6a866b786763680cef1b69701110dfec28c61d88e3c258bf641c4e00d4cb74"
+  },
+  {
+    "file": "집/클로드/research/ch1_chain_label_level_v1.py",
+    "sha256": "9e5ad92efa2b641354c78aeac155fe499e2a682df57310adfc418950f00fa913"
+  },
+  {
+    "file": "집/클로드/research/ch2_causal_source_id_v1.py",
+    "sha256": "4e7c628fe6f0edfccb9b85204e9abc5fba5b06fdd90828d9fbe129093b930ce3"
+  },
+  {
+    "file": "집/클로드/research/ch2_label_chains_training_v1.py",
+    "sha256": "2a2e8edd029242997ab844b401797f1315974b91b58b0b33317957c3210609fe"
+  },
+  {
+    "file": "집/클로드/research/ch3_place_into_chain_gaps_v1.py",
+    "sha256": "af42d136a59601182febc74789007e86d17fe02ecffa9d308c5c6098f1665d28"
+  },
+  {
+    "file": "집/클로드/research/ch4_date_group_predecessor_v1.py",
+    "sha256": "2cd63337e484ff7f5df53704452228e4525c755a3174e0a6861f01f43940e1fd"
+  },
+  {
+    "file": "집/클로드/research/ch6_chain_p05_v1.py",
+    "sha256": "7f733ddb702bdf9de968ff5c4711954c3b52b155348d9953e93738bc8a4a1a10"
+  },
+  {
+    "file": "집/클로드/research/ch7_why_p_band_v1.py",
+    "sha256": "18e2efddadb49e307bd5eade76cbbb4f6a04525773f0b00677ff6b4840b11933"
+  },
+  {
+    "file": "집/클로드/research/ch8_link_verification_signals_v1.py",
+    "sha256": "0568c313394951b1cb2699649ae8331956e7501e54dc78719fa70328ba63aee8"
+  },
+  {
+    "file": "집/클로드/research/ch9_chain_agreement_v1.py",
+    "sha256": "8605dc7dc9f3f6113085e45a0471151ac845a67aa851dc3314e4192ccaa7ea79"
+  },
+  {
+    "file": "집/클로드/research/cleanw_v6.py",
+    "sha256": "8e7cade0bd653635483a48f1951ee68d7532f34d2bfc3832f07d610c1628508a"
+  },
+  {
+    "file": "집/클로드/research/cma1_candidate_mixture_anchor_v1.py",
+    "sha256": "954e98aebbb231e6340e7a253d909b0f8d6b669745b8d7a04e60144d9fa2003a"
+  },
+  {
+    "file": "집/클로드/research/cmp2_sub14_vs_sub15_normal_days_v1.py",
+    "sha256": "c812c00b6a49bd1bb35e72c293123e330fb2ee4560a316d4a851b7df81833b23"
+  },
+  {
+    "file": "집/클로드/research/cmp3_highday_loocv_four_models_v1.py",
+    "sha256": "eb5346bd23a091b7b2663a8fc5cf8f2e3df4bd1e4826b597382d622672117653"
+  },
+  {
+    "file": "집/클로드/research/cmx1_mixture_failure_diagnosis_v1.py",
+    "sha256": "1d0c5033708548f755e66274013910f58fdbc71fac72ee4869c3d139340616eb"
+  },
+  {
+    "file": "집/클로드/research/cold_temp.py",
+    "sha256": "62b099c6b2cce2195a76bd2bf264f708e933758d9ae01b7305c1536019d7637f"
+  },
+  {
+    "file": "집/클로드/research/cold_v5.py",
+    "sha256": "ba25c4bc4851eb1d685c1aaa2dcf6f8e9415617bfae5fca115bb2da86cac0a74"
+  },
+  {
+    "file": "집/클로드/research/cold_v5b.py",
+    "sha256": "5added66130a40d3c539a6dca3a10fbb66e31fa31ddb76baa55c88e2126238bd"
+  },
+  {
+    "file": "집/클로드/research/combine_v4.py",
+    "sha256": "b1761bd4f2b80cf829f6cfb4622a0e04ee18891bd70f95fcbc581130ba443e3e"
+  },
+  {
+    "file": "집/클로드/research/cp1_chain_preprocess_v1.py",
+    "sha256": "87da0a791756789d8208473c5a1d526f4820e44140a1194777b9fe6a636fb09b"
+  },
+  {
+    "file": "집/클로드/research/cp2b_gap_link_check_v1.py",
+    "sha256": "bf3fd4adc69b33f6e2a00c01c3c8b87a18ea66988df4045534c12675f852b4b1"
+  },
+  {
+    "file": "집/클로드/research/cp2_lib_v1.py",
+    "sha256": "d529e55a3a48b0a3c33dec81b59ecc512ce3c155cbf0a0459a7706af9db59a53"
+  },
+  {
+    "file": "집/클로드/research/cp2_preprocess_v1.py",
+    "sha256": "631fa0f5e27f6f12b5fdb3eb863fb12d8a603f274eda1b099c72bd1e0fb35a8f"
+  },
+  {
+    "file": "집/클로드/research/cr1_chain_gru_temp_v1.py",
+    "sha256": "7a073b5416dc74975617267c2b8ce8e72a32d6221506029d5301cf4c238bde06"
+  },
+  {
+    "file": "집/클로드/research/cr2_thermal_state_model_v1.py",
+    "sha256": "9e69429423854ed2063f6f0e0128d0e0d2bbe76f87c8bd86193461165d80f0c5"
+  },
+  {
+    "file": "집/클로드/research/cr3_pretrained_gru_temp_v1.py",
+    "sha256": "b53df205b6eb1610aa0b29d95a818649e838c9e773956aec53ac92fa91d1b6b1"
+  },
+  {
+    "file": "집/클로드/research/cr4_gru_epoch_earlystop_temp_v1.py",
+    "sha256": "2e16bedeb414e7cdcc54084094af2c7563d6b8cdf89abc8ccddfb15e1e83ffd8"
+  },
+  {
+    "file": "집/클로드/research/crg_chain_residual_gru_ec_v1.py",
+    "sha256": "decd8b09d51a957d7eda651b09790883cc64f5d2d0c253a2fa612945807fb19c"
+  },
+  {
+    "file": "집/클로드/research/cs1_spike_damping_blend_v1.py",
+    "sha256": "0581387c87d233ee0e7ddcd25458df7074db5a1dd59c8758ed7d434d84a484f0"
+  },
+  {
+    "file": "집/클로드/research/ctj1_curtain_out_of_discovery_v1.py",
+    "sha256": "c7bfb342ecf83c821af03e02e394ad0d1ce5ae9a2790ae6f420b2267e16b790f"
+  },
+  {
+    "file": "집/클로드/research/ctx1_curtain_dissection_v1.py",
+    "sha256": "477118b62ca4274bad4f2aae95663e89c4b6217ecedd9c7e9e71b69d8d015111"
+  },
+  {
+    "file": "집/클로드/research/cv1_precise_signal_coverage_v1.py",
+    "sha256": "2888d405732f5e8526387dd907af64c783b81048723e82c4ca772a86b7695a72"
+  },
+  {
+    "file": "집/클로드/research/cv8_cold_validator_v1.py",
+    "sha256": "0af84d641c7e91b0196163def99567f1ee4e0c2af761d02f50cab3aa612bac04"
+  },
+  {
+    "file": "집/클로드/research/cvj1_cold_component_judgement_v1.py",
+    "sha256": "520f49af31ed44beb4e89f7ed1c4391ba2130b36527955aa3b623cab78967ba4"
+  },
+  {
+    "file": "집/클로드/research/cvj2_spl_shaping_v1.py",
+    "sha256": "93892d82a416e5803c68eb48796d3df96f79fb7b373811d239a51071549d0ab2"
+  },
+  {
+    "file": "집/클로드/research/cvj3_gap_gam_v1.py",
+    "sha256": "46735f10cbf375c0db20903d354b0feb12f7164d2b7e91de1958ad057f5ce80a"
+  },
+  {
+    "file": "집/클로드/research/cvj4_reference_targets_v1.py",
+    "sha256": "5e201f68b6cb629eb94757086248d5e42f07d815a9e73fcd7d56fd32465a5d21"
+  },
+  {
+    "file": "집/클로드/research/cvj5_band68_v1.py",
+    "sha256": "d2454c411d7b6770e9d779e341777014e3a3a5e045b43af03e99b86618818687"
+  },
+  {
+    "file": "집/클로드/research/cx0_ec_temp_joint_state_v1.py",
+    "sha256": "43dddf9252215531ed50000f422a52b06fd2d0a9f3bdf3d008d379a257f7eb92"
+  },
+  {
+    "file": "집/클로드/research/cx1_ec_pred_temp_correction_v1.py",
+    "sha256": "ae990a354b7273fd226c6bd2ed386daeb90e404182ec6cf6d882dca5aba0c9d4"
+  },
+  {
+    "file": "집/클로드/research/cx2_temp_state_persistence_v1.py",
+    "sha256": "21be403084f520d3d233bad45d6d2edda7e92f41a9efd1b3a010c3130fdb484f"
+  },
+  {
+    "file": "집/클로드/research/dc6_same_farm_anchor_check_v1.py",
+    "sha256": "59e4dd4ea1495a59b0f5d5c69611ea79e804c37b6466c0da5a12a9ae884df5b0"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_0.py",
+    "sha256": "06dc96b8ddd7ef5069974e7f1b1835ab2fa22dddf28d176fd32abdf03e4ac491"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_1.py",
+    "sha256": "e5062d5b6e0ad164725ec43fa5e29896f612697e14305b71ff7a6e7ed2fb128d"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_10.py",
+    "sha256": "d54c52dc390e0bbc30456c11820f7e801e2e9587246dddaebaacd7f840e9c440"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_11.py",
+    "sha256": "d88de01a2e9433f35ff73885f942652b47307366882b337fb13dc3e0e0f4c562"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_12.py",
+    "sha256": "6c1aa92e364e63a4631a32373eee313b5cf0be4871d164ddf169a8eaff59ffb8"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_13.py",
+    "sha256": "4865e4ac54a9050305d88e06f1d43f267c7a3fb410c2af62242e1cb372bc56bd"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_14.py",
+    "sha256": "fe3cc2498374bac5b9c70ae31087f68cd890a872d132bd733db2dd244742c1ef"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_15.py",
+    "sha256": "30fa34e53a8c91db588b6f846cf27e65067b9fb1f726a84af45474692394ec39"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_16.py",
+    "sha256": "ef141f369f4c0963d86fba7dca4e70aab25237cbf2a569069b942cb133c34ae6"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_2.py",
+    "sha256": "f1081ddd5cc65927e71616f8614ba7136f11476b244d3036e51f971a5bdf58ba"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_3.py",
+    "sha256": "e66c18bb533ede60453cb0104d1cbeff236f68632700af984c469dbc709cdb1b"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_4.py",
+    "sha256": "1fcd32f9c1993682077d34fe3837e76b5741e95a75dee1892c7840773d39b098"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_5.py",
+    "sha256": "3897bc683c7840a5e1b1bd95a57c127168f174a799c70f681053b39c45db4635"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_6.py",
+    "sha256": "6788d7d390fc3cc7d0e9ac623f1eefa5ac9aea9c847226d06298e0e2851da7a8"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_7.py",
+    "sha256": "b3d502b0604c760ccbb8d7a08163a880e71ea885f15138308f713a00b65266fa"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_8.py",
+    "sha256": "af836794b5f0fdf45e34ad4bc186648deb597ef8809b6709fb01047dd8d2459f"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_9.py",
+    "sha256": "c53cafffc6f67ec765891a9e7a44911fdc692e4843333874a795101c3c741eca"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_eval.py",
+    "sha256": "264ebf03ae98822de569ab6143b59522f11eb0fe69f79dea586b2fa9173c089c"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_eval2.py",
+    "sha256": "53397113c57c4e6380ccc133c2920db2d4307128e912e1183b882699d399a052"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_eval3.py",
+    "sha256": "33a789831430112baf4b792848aa453df55ff3f4c9a33f2678693ef8b6963809"
+  },
+  {
+    "file": "집/클로드/research/deep_cal_feats.py",
+    "sha256": "7ebfb6fc2c431aba64f88c52e221845e2ff31ca40c95dbadfd63c4f53df65af3"
+  },
+  {
+    "file": "집/클로드/research/deep_segments.py",
+    "sha256": "4f0ae3836985a65bb30a7b5eb104df700733420a3f364bc493148696f86feb1a"
+  },
+  {
+    "file": "집/클로드/research/dfc1_daily_flow_compare_v1.py",
+    "sha256": "88dedd8844e11813e421d2171f827d1322f96606becbef17d9ca94ef869bc633"
+  },
+  {
+    "file": "집/클로드/research/dg1_disagreement_days_v1.py",
+    "sha256": "819698e244bf6be829e84995b6b968297e403a617f0645d3fcd4b480bf4454d8"
+  },
+  {
+    "file": "집/클로드/research/dg1_gap_decay_v1.py",
+    "sha256": "433f412a917f6cc8e73a8a90e7be1ae01b10eb11c0269411510379bea0492553"
+  },
+  {
+    "file": "집/클로드/research/dg2_yesterday_curve_info_v1.py",
+    "sha256": "9d1925f38215b490943a94d817674af85e0860567ba55143de2492b26a90107d"
+  },
+  {
+    "file": "집/클로드/research/dgx1_gam_gain_dissection_v1.py",
+    "sha256": "f31f9586a15089461ebdf162effabf3b98245bf5e6b1a9d11dff67b79f9f366f"
+  },
+  {
+    "file": "집/클로드/research/dgx2_gru30_gain_dissection_v1.py",
+    "sha256": "a6fcdec5154a6fa7d4cd0af6014eff1ff3fb1c052b5733f9e696ffa599bebbe6"
+  },
+  {
+    "file": "집/클로드/research/dgx3_other_farm_experiments_dissection_v1.py",
+    "sha256": "56a70733d79ee45cd276a70c17e79a8a555ab424dae73f45323a04664e8ab85f"
+  },
+  {
+    "file": "집/클로드/research/dgx4_ec_component_dissection_v1.py",
+    "sha256": "bc79894f04f1d203680f75986d6894dcd1ac4b8e27773905486543c1682d571c"
+  },
+  {
+    "file": "집/클로드/research/dgx5_analog_reject_dissection_v1.py",
+    "sha256": "8667be45697bf1b4d62f05be9987708fdf0074d1a816c9b8e4cf0ff71734b0f5"
+  },
+  {
+    "file": "집/클로드/research/dhm1_hit_vs_miss_days_v1.py",
+    "sha256": "b5f1ceb6d2f31b01843adcdd05050cd98551319cb4c854a49f0993b13ea2a102"
+  },
+  {
+    "file": "집/클로드/research/dhm2_derived_features_v1.py",
+    "sha256": "37ea71cc8aca8fdade759a1c64049630c69e400fa40a61845c2a27c025e5361c"
+  },
+  {
+    "file": "집/클로드/research/dhm3_rule_subgroup_search_v1.py",
+    "sha256": "bc61ea8ac064708536db17b643e09a0c5ae8d72beea40e09f59658760ca647e1"
+  },
+  {
+    "file": "집/클로드/research/dhm4_miss_vs_nearest_hit_v1.py",
+    "sha256": "c80a5e412d337d548637e9544fd3af193c397dc1915757015e42b108070577b0"
+  },
+  {
+    "file": "집/클로드/research/dhm5_twin_pairs_truth_v1.py",
+    "sha256": "fe9c9e150eb465dd66cc88167dc1cf79d79606797e16217e31313bbabe9fccf8"
+  },
+  {
+    "file": "집/클로드/research/dhm6_twin_hourly_inputs_v1.py",
+    "sha256": "c71b5a38b68d16f0656cba3ae1480f5347aea4d660571258df14303eed39fd43"
+  },
+  {
+    "file": "집/클로드/research/dlv1_day_level_offsets_all_farms_v1.py",
+    "sha256": "f2e9b0cae764916ad2f4fcb4013cb29b9d852a3469fb3531b4e02a7bfe38da03"
+  },
+  {
+    "file": "집/클로드/research/ds1x_case_analysis_v1.py",
+    "sha256": "ddd45502916fd467fd3a562c02c9cc47cffd57b49d02417940c367fd076b2d10"
+  },
+  {
+    "file": "집/클로드/research/ds1x_sep_check_v1.py",
+    "sha256": "4a46163c5ce59e0607e20fabf26f157ee91d3e9d492757a51758f16ce58509c5"
+  },
+  {
+    "file": "집/클로드/research/ds1y_silent_zone_v1.py",
+    "sha256": "5d3024ce246642df376ca0e8576c05c6890ed54cd6955a19faa764d766f23f0d"
+  },
+  {
+    "file": "집/클로드/research/ds1z_normal_damage_v1.py",
+    "sha256": "362146bec1cafee74e1baf5020fd235b288c03c10ba1891a3554617b5a2d2e15"
+  },
+  {
+    "file": "집/클로드/research/ds1_day_state_hmm_ec_v1.py",
+    "sha256": "caeeef1582e3548464c19e7f772da1e21ec1d16b869fc210cd4fe1b4a35edb1a"
+  },
+  {
+    "file": "집/클로드/research/ds2_day_state_hmm_gate_co2_v1.py",
+    "sha256": "747cc07c49905a47f8ef5cd67dac66fef2af27ea7219b983ea19e13b6f049d4b"
+  },
+  {
+    "file": "집/클로드/research/ds3_day_state_hmm_highonly_v1.py",
+    "sha256": "104d11aec9a9fb051ac42cbdf969d87d0cde562d71d0c605a5249b25d91d6287"
+  },
+  {
+    "file": "집/클로드/research/ds4_pre_exclusion_obs_check_v1.py",
+    "sha256": "6603b132506e2f1f6794f6626dfefee4fd57e3be6faaa8fe2b4e3ee1fb4cb19e"
+  },
+  {
+    "file": "집/클로드/research/ds5_day_state_hmm_calibrated_v1.py",
+    "sha256": "8a7dff93cfe9b7ec67d0aa0ceffa589100456c0b77571560668ac326ac2cfe31"
+  },
+  {
+    "file": "집/클로드/research/ds6_static_calib_other_validators_v1.py",
+    "sha256": "be57e002229773cd886e20627ff12ef4a4f1d46220df53a397d3aef36c130c0d"
+  },
+  {
+    "file": "집/클로드/research/ds7_silent_zone_hmm_v1.py",
+    "sha256": "13660bcd91cb1f0f6130a7d17e45070ec7f22a32401699c0f47d1c00d54bd9fd"
+  },
+  {
+    "file": "집/클로드/research/ds8j_specialty_rejudge_v1.py",
+    "sha256": "4672774e0f4036eb4f7a70950a35201bf22c62b2797def003e2b2db4207866c6"
+  },
+  {
+    "file": "집/클로드/research/ds8_ancestor_anchored_hmm_v1.py",
+    "sha256": "0fcb1bfbaf1c8a3d2805afd3dfa1ca3370290c3c28c1aa7bdbb3e14bca73876a"
+  },
+  {
+    "file": "집/클로드/research/ds9_ancestor_hmm_qlinks_v1.py",
+    "sha256": "da3922561ff626696f18692b8043ef807db612bb85f20f21d35429a499c82587"
+  },
+  {
+    "file": "집/클로드/research/dty1_auto_day_types_v1.py",
+    "sha256": "747db1a58039168d8747e591274ff60172aec66c8c8d319e861cccaba4b92f39"
+  },
+  {
+    "file": "집/클로드/research/dv1_local_vs_eval_mismatch_v1.py",
+    "sha256": "84d6e0f569fe202e15ce7fd9cde4d484b3abb368d6c8ae3366c62d6c53cde4ee"
+  },
+  {
+    "file": "집/클로드/research/ea1_ec_linker_anchor_v1.py",
+    "sha256": "3112a57e8106c455ff7c8092ee836525709f97df5fad153447edec35e40ae789"
+  },
+  {
+    "file": "집/클로드/research/ea2p_ec_linker_v7_pessimistic_v1.py",
+    "sha256": "0a966ea792ee1a80f4f49bbf511d9c481ed4cea72a5e7c750be86f7298a54339"
+  },
+  {
+    "file": "집/클로드/research/ea2_ec_linker_v7_anchor_v1.py",
+    "sha256": "a77562c53dfa09e96a11390a7b5ec1e9494193d54485ccffc457855f23513c00"
+  },
+  {
+    "file": "집/클로드/research/ea3_ec_anchor_measure_sweep_v1.py",
+    "sha256": "59931486790837527c4f7ebfa0cdc6c69335fa4de50682840e76603b1cd7ad3d"
+  },
+  {
+    "file": "집/클로드/research/ea3_ec_linker_yesterday_anchor_f5e_v1.py",
+    "sha256": "0e111d1610140b1e50fa88a7d7c86b67cd0210ffb1c44465be5308ff004f2697"
+  },
+  {
+    "file": "집/클로드/research/ea4_v7_anchor_on_f5e_v1.py",
+    "sha256": "5db3dffcb172a8b20cb6dc84e7d8c7c569ee88b54b9d3854be775c6aab79462f"
+  },
+  {
+    "file": "집/클로드/research/eb1_error_budget_r27ch_v1.py",
+    "sha256": "407c1ecebce404c98474be13e0893ed13ccf728e5d9a8a9d53265ee4a3e455fd"
+  },
+  {
+    "file": "집/클로드/research/ec2_CG1_cold_gate_v1.py",
+    "sha256": "6ed20c1dce98044e751aae0559d1910d18265743d36b4c8a7db41059ca370851"
+  },
+  {
+    "file": "집/클로드/research/ec2_common.py",
+    "sha256": "4d8b551862333585f1c79dca18a8135a7d5c5f712fb53d8745f8ccfe7faa7ffa"
+  },
+  {
+    "file": "집/클로드/research/ec2_CW1_cold_day_weight_v1.py",
+    "sha256": "81ab2f1f5e7cdc987c60ea4a5fef3813c92d2cf814a4946c1d14b2d08e3a6ba9"
+  },
+  {
+    "file": "집/클로드/research/ec2_DC1_day_vs_season_v1.py",
+    "sha256": "ed4bafae8add89d61c2c273beac215eee74cfdf19f951f16f6f2cc604788dd65"
+  },
+  {
+    "file": "집/클로드/research/ec2_DC2_calmap_v1.py",
+    "sha256": "5a3b251e045f5f7b697fa7fc1ec01e0e7b61cccb9a6d7945039461878a8d3660"
+  },
+  {
+    "file": "집/클로드/research/ec2_DC3_season_index_trainonly_v1.py",
+    "sha256": "e5c051abf7f07a712b2390dacff975c9edf13276acc2efb8619968af22012692"
+  },
+  {
+    "file": "집/클로드/research/ec2_DC4b_checks_posthoc.py",
+    "sha256": "1d08b836e2384a8c1738679723b6d6a28e274c7e9743844f2cc1710edb815b2a"
+  },
+  {
+    "file": "집/클로드/research/ec2_EL1_evallike_late_blocks_v1.py",
+    "sha256": "4f6813fae0f6224decd5d87dc0310b01b3c14e3a7398c88d0ed2fa0e35de7ce1"
+  },
+  {
+    "file": "집/클로드/research/ec2_P1b_a0_posthoc.py",
+    "sha256": "38f0dffef7074f4a59f8dd9e9d8b5ab00fa238ec5488df34ca88dd9f7646068b"
+  },
+  {
+    "file": "집/클로드/research/ec2_P1_shrink_strength_v1.py",
+    "sha256": "40b516f63cd2270d1a6f7014c735a4ad8129a2e04592ae806c1a11d39c87bfeb"
+  },
+  {
+    "file": "집/클로드/research/ec2_PAR1b_runner.py",
+    "sha256": "8a822cc55d32ece18e35f023d759a690c4519a8500189f1d8534d04fa2ea987f"
+  },
+  {
+    "file": "집/클로드/research/ec2_PAR1_parity_prev_label_v1.py",
+    "sha256": "effe1390c46633ad6ac9dbb093dd6789e8bb78aa73c7eb4455550f92bf1d11cf"
+  },
+  {
+    "file": "집/클로드/research/ec2_PK1_package_v1.py",
+    "sha256": "fc2ebeb94015011d0428d729113ad03596c9c6fd7b4d45b45c24d95db4df78fd"
+  },
+  {
+    "file": "집/클로드/research/ec2_ST1_stack_v1.py",
+    "sha256": "5024f3685d3a3bc676fb117a3443319a3b1d063956d45a9e82f4f54b735580bf"
+  },
+  {
+    "file": "집/클로드/research/ec3_AF0b_anchor_dong_trust_v1.py",
+    "sha256": "075408d2ec7e4fd4568d036fa46e63fa86a649c12534d6ff7178e18dbbe3f0cd"
+  },
+  {
+    "file": "집/클로드/research/ec3_AF0_anchor_features_v1.py",
+    "sha256": "cbeda33b98f754155e8b9e7e8fe514c56f39ea3a5e24848538615808b19ef86e"
+  },
+  {
+    "file": "집/클로드/research/ec3_DC6_same_farm_anchor_v1.py",
+    "sha256": "b5eb9fb4585f8a831bbb5ee8c1fdcb848028d3da9d8872d98858e507d4484feb"
+  },
+  {
+    "file": "집/클로드/research/ec3_DC7_query_twin_season_v1.py",
+    "sha256": "3430fead6fd0026a7c85ff7e1494e3c9717d6cb2c2cd15e1e22a34d60fc14ca5"
+  },
+  {
+    "file": "집/클로드/research/ec3_DCP1_season_twin_plus_operation_v1.py",
+    "sha256": "cfeb76ec07b512b687bd7055c55402eeb35ba37b37bd9e504c464f2a199e8238"
+  },
+  {
+    "file": "집/클로드/research/ec3_DI1_drop_h0_fingerprint_v1.py",
+    "sha256": "9aa799c272387bdcb0f6ce5cc4fc5f4df3f4524a00022a01eb61a382a529ad60"
+  },
+  {
+    "file": "집/클로드/research/ec3_DP2_operation_core3_v1.py",
+    "sha256": "6323458cb6ef291a3355220b389c018127378ea8798b112944145f6409fe98c6"
+  },
+  {
+    "file": "집/클로드/research/ec3_DPC_dp1_confirmation_pass2_v1.py",
+    "sha256": "3949ac66a6d8459485ec4d8837874ab46c248375bd7826f57d4e7c04e5942124"
+  },
+  {
+    "file": "집/클로드/research/ec3_DPR_dp1_replication_v1.py",
+    "sha256": "0cfe7241ff269b72587b0d260564792a360f2de602bd4cf030499b6cc373b9ae"
+  },
+  {
+    "file": "집/클로드/research/ec3_HG1_high_flag_prev_dong_level_v1.py",
+    "sha256": "09a1944f6857878ccea4e21cd71a7c189f65d7b0bf243bb0f2ed486f54b1cd8b"
+  },
+  {
+    "file": "집/클로드/research/ec3_HG1_high_gate_anchor_v1.py",
+    "sha256": "3a49df9959af64d77a3019b2d258ea30aaf45244822054bbd75c881796401d87"
+  },
+  {
+    "file": "집/클로드/research/ec3_HG2_domain_guard_gate_v1.py",
+    "sha256": "565367d4bf2ed92641bf2380cd646a38919bf291b813eefd85a8ecb3980b5cff"
+  },
+  {
+    "file": "집/클로드/research/ec3_HG3_strict_guard_gate_v1.py",
+    "sha256": "7c5830299194a66d730d3d329cad9a41d672b63d3e59d0b2749c8cb3e5273b40"
+  },
+  {
+    "file": "집/클로드/research/ec3_HG4_capped_target_gate_v1.py",
+    "sha256": "b67e426b88eb10d6b7d4a5b6b8050b4da661733e195d8f280d85d4bcd419addc"
+  },
+  {
+    "file": "집/클로드/research/ec3_HM1_high_magnitude_specialist_v1.py",
+    "sha256": "c8fdb481e5be68aecc5410f546e0a265d7d6f7a47e300fda3688e028fb6907d6"
+  },
+  {
+    "file": "집/클로드/research/ec3_HM2_sealed_day_specialist_v1.py",
+    "sha256": "74886b3905666e3449d530bb5592709a93a9859f43eb6cc7acc31feac68aabb2"
+  },
+  {
+    "file": "집/클로드/research/ec3_IF0_stuck_interp_audit_v1.py",
+    "sha256": "ad277477c960b7fe9a7aae68c4c1abcd82676022b7beeedd439bbc2b2ea9828c"
+  },
+  {
+    "file": "집/클로드/research/ec3_LA1_lag_alignment_audit_v1.py",
+    "sha256": "13e6b5ce625974ce23dc790f96cdff58711073df41929aef18413889ad481bf7"
+  },
+  {
+    "file": "집/클로드/research/ec3_LG1_hour_lag_inputs_v1.py",
+    "sha256": "95a9e14c2500618295be5dfaf487a0ec5648866b3e02a8ca6a1a46197c9bc9f9"
+  },
+  {
+    "file": "집/클로드/research/ec3_LH1_lgb_mlp_full_features_v1.py",
+    "sha256": "bbb8c6f0f2c0fa72ed3361be1a5a3a82d490ff59a900de3960e83e93a16c34fc"
+  },
+  {
+    "file": "집/클로드/research/ec3_LR1_log_ratio_target_v1.py",
+    "sha256": "4832d2d3753e2ba49be17396e37ddb3dde0686c15f4e0a6f22222fa535f43a50"
+  },
+  {
+    "file": "집/클로드/research/ec3_MW1_multiday_weather_v1.py",
+    "sha256": "e05c388e60cfa48db6a72556891fd3d984006b4d5e3496cbb72884aed40cede1"
+  },
+  {
+    "file": "집/클로드/research/ec3_ORC1b_state_decomposition_v1.py",
+    "sha256": "59c60851c28b150f43e27adcb923a60fcabf0d6dfd0b85f05c5570315eb1acb4"
+  },
+  {
+    "file": "집/클로드/research/ec3_PF1_tabpfn_upgrade_v1.py",
+    "sha256": "c94aa2822d2cab6e4eef6e35b5d8bd6ae9275ae6d62cf309f88a070e69998b3d"
+  },
+  {
+    "file": "집/클로드/research/ec3_PF2_anchor_difference_features_v1.py",
+    "sha256": "b5dd67b10303c1c43872fa1144dea98714a4bef86c69a51b9772988450c538d0"
+  },
+  {
+    "file": "집/클로드/research/ec3_SB1_second_record_specialist_v1.py",
+    "sha256": "6814996d02b945182b9ca81927f746767243274212d81964fa63f4626235a2aa"
+  },
+  {
+    "file": "집/클로드/research/ec3_SG1_signature_knn_level_v1.py",
+    "sha256": "754d022b514ad1a89b136ce0bdfe796dfc110bf49c2ac19ef5f6c057ffc5f543"
+  },
+  {
+    "file": "집/클로드/research/ec3_SG2C_on_submission_config_v1.py",
+    "sha256": "a44960367afc4b483003697627100121f3d18c3c05f20a8528872a41cd682993"
+  },
+  {
+    "file": "집/클로드/research/ec3_SG3_schedule_neighbours_v1.py",
+    "sha256": "a657bd2865a6f223395283dae4f1f577e886aae848d42cddc8af4654439d711b"
+  },
+  {
+    "file": "집/클로드/research/ec3_SI1_sealed_active_interaction_v1.py",
+    "sha256": "a2446a14cf505b137da930c6305248326ebc8e94b03d13cad370e4634c9dc1a0"
+  },
+  {
+    "file": "집/클로드/research/ec3_ST5_is_second_feature_v1.py",
+    "sha256": "203a8f4d093e180551147218a33ba29b74f411957eb0752d570964453fbe977b"
+  },
+  {
+    "file": "집/클로드/research/ec3_TF1_pred_substrate_temp_feature_v1.py",
+    "sha256": "7c9694e07ad68cbec797ab2ca184ad720bb05991411b50c56b648a8b0f272384"
+  },
+  {
+    "file": "집/클로드/research/ec3_TS1_two_stage_daymean_v1.py",
+    "sha256": "40920109b015f74ca96d115c7316587ca83b7711574272c2629b14fbe6dc1bb5"
+  },
+  {
+    "file": "집/클로드/research/ec3_TS2_day_row_models_v1.py",
+    "sha256": "f88c0d8fd26647d009584c72265b4eb3022e28d347a386756e5ac6fb00cd31fe"
+  },
+  {
+    "file": "집/클로드/research/ec3_WT1_dp1_removal_pfn_share_v1.py",
+    "sha256": "2cfac1da9d2dd234fd216cedec79956679b84108c6c56b5f6d228318f21e4761"
+  },
+  {
+    "file": "집/클로드/research/ec3_WT2_pfn_share_with_sg2_v1.py",
+    "sha256": "c8888d729a7fb331931be35ff0220540785056518b27efdce6a414a3445182b3"
+  },
+  {
+    "file": "집/클로드/research/ecb1_ec_band_bias_v1.py",
+    "sha256": "afae3fe0ecb1f8953f53e3b1ce655e0ea731f69d8170864477ed7374995eb862"
+  },
+  {
+    "file": "집/클로드/research/ecd1_ec_vote_anchor_v1.py",
+    "sha256": "f2da1442c3e73f2ff3848a903e4c00069daf3a66896562ba0226988c0fa280d7"
+  },
+  {
+    "file": "집/클로드/research/ecg1_ec_anchor_level_gate_v1.py",
+    "sha256": "22313fed694040963dfeac5b69f53ce08f91aca10898618e3b7ad51e3ef1969b"
+  },
+  {
+    "file": "집/클로드/research/ech1_ec_prediction_chain_v1.py",
+    "sha256": "5bb334519ebc178d1a7568a63188b511a0217f2458c0ac48977360e0e7950a1b"
+  },
+  {
+    "file": "집/클로드/research/ecj1b_allrow_loss_v1.py",
+    "sha256": "7262a91b4641b102023d2db07d764520a1406f93c94e04611444388eaa21b464"
+  },
+  {
+    "file": "집/클로드/research/ecj1_ec_two_candidates_v1.py",
+    "sha256": "c65bccf85da2bb95becfd167139a4dd7a150248cd302f16e6884af3b6c4e0bdd"
+  },
+  {
+    "file": "집/클로드/research/ecl2_temp_vs_ec_variant_v1.py",
+    "sha256": "b05b41935ad2d237b9f451d6081ef8de4d55de2bca5d940ebc7f7c764d311eef"
+  },
+  {
+    "file": "집/클로드/research/ecl3_eval_trap_check_v1.py",
+    "sha256": "b1f34a29e63bf7e1df4563ca09fe408d85afe75d2a621106aecc3978cf61aa93"
+  },
+  {
+    "file": "집/클로드/research/ecn1_null_option_anchor_v1.py",
+    "sha256": "58fff254508a6e8bf533815746d0cb5ac3b79ba69b29ea2fcd3f605f87da683b"
+  },
+  {
+    "file": "집/클로드/research/ecn2_null_ratio_anchor_v1.py",
+    "sha256": "834d2bca834c36e92dad06518cd33fa7da1a12535ebc5e2e7d384466cd33c915"
+  },
+  {
+    "file": "집/클로드/research/ecspl1_ec_residual_additive_v1.py",
+    "sha256": "c2f9c11b75d53b1108dc013ab886912656d4b648aafd5e54ea811f4bc5c21e89"
+  },
+  {
+    "file": "집/클로드/research/ecv1_ec_v11_anchor_v1.py",
+    "sha256": "cc94b8e9234ea0194876d26703c106bdb59f4da6eefbe0fe598cfbdbd07e8ecd"
+  },
+  {
+    "file": "집/클로드/research/ecw1_soft_weight_anchor_v1.py",
+    "sha256": "cd3f7818e5967c37c8691c5bea53b5e80543fb113c5be15727af5675e765d554"
+  },
+  {
+    "file": "집/클로드/research/ec_actonly_v1_gpu.py",
+    "sha256": "4fdb635ce9bd27a8a23c1f026ef0bc07dd8e529ab2fcf8bb5d1e8562c614fc62"
+  },
+  {
+    "file": "집/클로드/research/ec_am1_level_amplitude_v1.py",
+    "sha256": "08490b008794efd621b166fcdb6d95e7a08390eb4a57cc3a8c54d5369ee7100a"
+  },
+  {
+    "file": "집/클로드/research/ec_anti1_state_direction_posthoc.py",
+    "sha256": "48fff5656c5136987133eaf1a10f254463c94cb5eb4e251f5e08939838103132"
+  },
+  {
+    "file": "집/클로드/research/ec_bv1_buffered_sg2_check_v1.py",
+    "sha256": "bd8fa4aaf81909ce55cc0f29b1830f709b808a143c777fc7f64d7b7c8a770f55"
+  },
+  {
+    "file": "집/클로드/research/ec_c18_combined_column_v1.py",
+    "sha256": "a142af767116975ba8ccd8c132fd537fb5c1b3e628eee6b3c611e551bfea5158"
+  },
+  {
+    "file": "집/클로드/research/ec_combo_v1_gpu.py",
+    "sha256": "9778531ce3cc19219fc784d94927197b015eaba06b46abb03b455a8dc476ae70"
+  },
+  {
+    "file": "집/클로드/research/ec_denoise_v1.py",
+    "sha256": "0034f86833b2eab924e61047b012a3d8f3046243988df8d338697ed1f40b65a1"
+  },
+  {
+    "file": "집/클로드/research/ec_eb1_buffered_rejudge_v1.py",
+    "sha256": "b3e669ad40797db31a51d428fc054656481ad373802c028f913af9f472d24e7b"
+  },
+  {
+    "file": "집/클로드/research/ec_eb2_hg3_step_v1.py",
+    "sha256": "3604ff3b43f1344333ff09a33a892bd6ae21c52ce877df7ab02a6b258842ecc7"
+  },
+  {
+    "file": "집/클로드/research/ec_ext_check_gpu.py",
+    "sha256": "6aff003784d8a616294e4e65c26ce0f56b5ffb327dc701d5d5aff0358d69af0a"
+  },
+  {
+    "file": "집/클로드/research/ec_final.py",
+    "sha256": "82707fe76209bd5549f00cd5670db2b38cd52c110c062fa8af827ef80e82ece0"
+  },
+  {
+    "file": "집/클로드/research/ec_li1_label_interp_v1.py",
+    "sha256": "5223760f9a9c80f6cf6f6ae7565203a55325aba7ed03b06818266ad88cf8786e"
+  },
+  {
+    "file": "집/클로드/research/ec_nx1_b4_column_v1.py",
+    "sha256": "5f65f1b4357a34fa4a49508b12b0d69bfa28cbd3956fb814d85f4a48998c479d"
+  },
+  {
+    "file": "집/클로드/research/ec_or1_problem_oracle_v1.py",
+    "sha256": "c77ae136efd9c5c03d471ce3a5019a214c00733299fb14f906a6274f3d4797f8"
+  },
+  {
+    "file": "집/클로드/research/ec_pfnbag8_v1_gpu.py",
+    "sha256": "c181fcdeb7f542dbeefc6ba23eda5a7bcd81e18083d3d054fd0646271f80df23"
+  },
+  {
+    "file": "집/클로드/research/ec_pfnbag8_v2_gpu.py",
+    "sha256": "b1437fa67a4b02e264b16bb641a0070b16a4bf15948542dc4375ec684e093114"
+  },
+  {
+    "file": "집/클로드/research/ec_pfn_daymean_gpu.py",
+    "sha256": "1814b38783a796f1bd7aac544b034fde634a207b4cd6470e277c0100b08ad522"
+  },
+  {
+    "file": "집/클로드/research/ec_sealedw_v1.py",
+    "sha256": "2d748289962d476b009dce435374c8dfbd809a6d5a889221578421432bfcc66b"
+  },
+  {
+    "file": "집/클로드/research/ec_sealed_v1_gpu.py",
+    "sha256": "6e9dc3cc868895e5f6d6ee1089c934507cb20320df1bfa4ba783a1af757fff30"
+  },
+  {
+    "file": "집/클로드/research/ec_shallow_v1.py",
+    "sha256": "1b7929bc8ed0174fa03987eacb07ab148bc8944a009176356c8184d4c9085177"
+  },
+  {
+    "file": "집/클로드/research/ec_shrink1_v1.py",
+    "sha256": "a5042e20dbc49658f4ac240f6efddc366978f9e68ae62dda8285f96f4ac134f7"
+  },
+  {
+    "file": "집/클로드/research/ec_sp1_soft_neighbor_mix_v1.py",
+    "sha256": "3739ba378edb5fc85c383f80faf7e5afa89ebb914fdf1d3d6a5c9354d024fd95"
+  },
+  {
+    "file": "집/클로드/research/ec_src_C1_partial_match_v1.py",
+    "sha256": "a3de45c6ada51ffecc82d0d20fa7b097d8842a315f6bcc50ef196de1151d06bd"
+  },
+  {
+    "file": "집/클로드/research/ec_src_C2_test_anomaly_v1.py",
+    "sha256": "461ffdd9a4f25e47705d734dc43a923524c1c9147ded2819ff4b169790818e59"
+  },
+  {
+    "file": "집/클로드/research/ec_src_C3_placement_rule_v1.py",
+    "sha256": "9a4bc4e9b1ef74779e2aba4e7494b07022b784bee345fe66b0003bb9738e7bdc"
+  },
+  {
+    "file": "집/클로드/research/ec_tempcomp_ext.py",
+    "sha256": "e8ced8b7e67f916c764483a24561afa218706147acd9d76b02f202a12457711c"
+  },
+  {
+    "file": "집/클로드/research/ec_tempcomp_v1.py",
+    "sha256": "73df4e35ecdbd40a5462c047ea6e150549a21c714e52876e7c04e4f3b775b239"
+  },
+  {
+    "file": "집/클로드/research/ec_v6.py",
+    "sha256": "4eb5da578bfb1187b2855cb8820d2694d38da2d170b74fb98a18dca3fb35fe6a"
+  },
+  {
+    "file": "집/클로드/research/eda_farm_1.py",
+    "sha256": "df0788be9e0269a9db3709d08ed5e6427c08787c8d430968a5073b2059f335ff"
+  },
+  {
+    "file": "집/클로드/research/eda_farm_2.py",
+    "sha256": "4e849c78ddf0ad9dff82a9986166bcdf72581d6b855c1e93299084df8f28966b"
+  },
+  {
+    "file": "집/클로드/research/eda_farm_3.py",
+    "sha256": "8727d96838d0ac82f84d951aa7299609d237f8cbb2c3588e1f091162827dbca4"
+  },
+  {
+    "file": "집/클로드/research/eda_farm_4.py",
+    "sha256": "50aa0e57297edae055b331507974e3b3390786c6db772602b9b6f0fb192728b6"
+  },
+  {
+    "file": "집/클로드/research/eda_farm_5.py",
+    "sha256": "afaf1acf617722038120c63f2e3176038446572cacd27f068e51feb5ef91adf0"
+  },
+  {
+    "file": "집/클로드/research/eda_farm_6.py",
+    "sha256": "a4c00a2ee0317933ea90e683e07ab6880a5f2ea8b4214339a3143e283e0d229d"
+  },
+  {
+    "file": "집/클로드/research/eda_farm_7.py",
+    "sha256": "7c7e7e1924ab8b4a3f59dcbfeb1ee1fea0377a9dda93ae428c15254f8f0101b9"
+  },
+  {
+    "file": "집/클로드/research/eda_farm_8.py",
+    "sha256": "77532cdf63eb6264475821c731db91a5d6c475ab9170589f9b3d7da70dd6bc11"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_1.py",
+    "sha256": "2db561f87567b78a2bf46622fe962d0d4fcce67639f8c07b658f4558d1dea99f"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_10.py",
+    "sha256": "765ccebcbc1855f0e0dd49e54f0462541514c2697042ae98a9acac162db364ed"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_11.py",
+    "sha256": "8f96d75bca67a7e4ce049cbf5480a891cb5373dbeaf49f30b00f04b3b84be9e8"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_12.py",
+    "sha256": "b4db071b51ec73511bf25a1bc0c1d8addc8ce3b4fd331eac68d34f4a1d6a8bc4"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_13.py",
+    "sha256": "bb49124fe5372f3214c47af834e5d8b4172445b079c4c82a7c8de987e4873113"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_14.py",
+    "sha256": "5fda8aca66be4c4d7dcb21498e87cad90249eaaf0a5e5044eddd236aa5370ec5"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_15.py",
+    "sha256": "a8f6e9ad26704c7f3b43b44fd7e2f1e55b136fc36ef75247dd5540a612d26ea3"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_16.py",
+    "sha256": "ef62daf69f708b7123e1aab6c6c52aee273487a282fe83ad9a974f89c3f9785b"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_17.py",
+    "sha256": "6a2e20f95e11ecfa81efe7c3ae14c4dd474c8f6b514b1dc899fce1f4216356ca"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_18.py",
+    "sha256": "c8ccc2f2e97ee32c4b79553227cf13ac9ff69bc25ac43b21da69a1b7ae65e08d"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_19.py",
+    "sha256": "74cb3eb2ef48703feca4b4eff068c4193c717310dcaca6efc3a7fc9c2ba72217"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_2.py",
+    "sha256": "046de6660c435f71855826a3657f3d3f324189ac3fa74e7323d87046df01aa0d"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_20.py",
+    "sha256": "bade83f66f2b2c2dee9b6332c64f09b907ef30df67e3a3068c1828b7505c3935"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_21.py",
+    "sha256": "3ded0dbe7d4c0fb227e0f480f276b2d4e3a18df935d080d708e46f6593891fea"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_22.py",
+    "sha256": "aa8c566c55986b9c658b44e9472281e1c8c35c945f4be29077100522a4ca45a6"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_23.py",
+    "sha256": "603e4daef30e1e2580fedb1d2858679926c62bac3b9917ba0f616ebb381938be"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_24.py",
+    "sha256": "252842d07eb72fd2a17bdee473f13b95574c8ae73d7023be7b2293def372a2fa"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_25.py",
+    "sha256": "267724e8a2fa03a2669965f06028be3e25e05a9593b19bb000e606fcc57a8055"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_26.py",
+    "sha256": "f427c9a170588d497ee22c47bd75d693f1aa2ed1643fb26d37a242ab77870fa6"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_27.py",
+    "sha256": "dc609af88e351944a924c65e3593543b2b5f9b4f152799088b780b7df95509f4"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_3.py",
+    "sha256": "2f414e699dde3a9c4d13b74101b18d5d81163326b6ca9383134b04de743b43ba"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_4.py",
+    "sha256": "d6a20edbaddd0300a6f245941aca0863862b094955c4fedde707b625f5f3a074"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_5.py",
+    "sha256": "eb570983e1a61eec8ccaf1ad3cd40e43689cb316f0565a5c28af23bf384b5d62"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_6.py",
+    "sha256": "d42f77fd493f95937c5238b8421ae4a1adbf85da464bef58488aca5e747bba69"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_7.py",
+    "sha256": "76d5e274a6b6a795b4db1405566c47156aebbd76da8e87cd580f562b1ce20d0b"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_8.py",
+    "sha256": "e3e9b45f3799f8c4e4d0836fe211461eefe4c37bc91318c8937a4d5687edadb0"
+  },
+  {
+    "file": "집/클로드/research/eda_forensic_9.py",
+    "sha256": "964605caf260c0f222f01e4420002dc46e5e8ec5b2f60da4ac3b6aade8a9309d"
+  },
+  {
+    "file": "집/클로드/research/eda_time_0.py",
+    "sha256": "008bb9e1268442d87b345601f11a0dc5104b4dee59c29c10f9114126c0338b16"
+  },
+  {
+    "file": "집/클로드/research/eda_time_1.py",
+    "sha256": "bfd2685e3bbde49e62575406076985caa4a90adf5d016b153c4f9d549e2635d7"
+  },
+  {
+    "file": "집/클로드/research/eda_time_10.py",
+    "sha256": "7206218697eb44f2dad03201377859d6da70e544176b6e03b9437dcee2cc2065"
+  },
+  {
+    "file": "집/클로드/research/eda_time_11.py",
+    "sha256": "aea6c7453d5cf9fa14623f71738ae4cb6ab0a8c36f4b7173afe85f32e64f3120"
+  },
+  {
+    "file": "집/클로드/research/eda_time_12.py",
+    "sha256": "89bf3b1b1b9be5651f587bc206c4d2a6ff81d20064182bf084a0328144e0bfce"
+  },
+  {
+    "file": "집/클로드/research/eda_time_13.py",
+    "sha256": "02686cd762dc17940390bf75bbdf2ce7709f0fe64d3c0460ff722588d4862c34"
+  },
+  {
+    "file": "집/클로드/research/eda_time_14.py",
+    "sha256": "a70283c2965bfc125957c453a1e130dbdd7ff442ec04bef67482046e9576ae5f"
+  },
+  {
+    "file": "집/클로드/research/eda_time_15.py",
+    "sha256": "a5592aefecbd58d85fcd9510f962ec6de4d3590af4dad879ae1f6674437e18b8"
+  },
+  {
+    "file": "집/클로드/research/eda_time_16.py",
+    "sha256": "658071a40d963c95a40c8ea5ded36b596861b694bacee51721b482df4ddef401"
+  },
+  {
+    "file": "집/클로드/research/eda_time_17.py",
+    "sha256": "ad5f018b08bb12c0db1c7513fcd96ff1e3ce465dc5fcddf124482067a4ba158a"
+  },
+  {
+    "file": "집/클로드/research/eda_time_18.py",
+    "sha256": "ec253f650f742592b181b4f30bbf8e7a430fb3f1176263dd64defd8261f22b03"
+  },
+  {
+    "file": "집/클로드/research/eda_time_19.py",
+    "sha256": "0d2e54269901d58120a7fa6a79df4beb982717a8946da40a3b3064a0d16cb1a2"
+  },
+  {
+    "file": "집/클로드/research/eda_time_2.py",
+    "sha256": "194834aeedd7a73ac28247a0353664402c7f1b306623cbbe1003cc00d6ee8aa3"
+  },
+  {
+    "file": "집/클로드/research/eda_time_20.py",
+    "sha256": "1150508ab60704d3f13feb00b1c454e007d925e96fad003c1f3a6dbbafbc9f15"
+  },
+  {
+    "file": "집/클로드/research/eda_time_21.py",
+    "sha256": "7b64677aeb5370ecaca01f14484337ad691c94dadc3bcfea02cb84f72d638e2f"
+  },
+  {
+    "file": "집/클로드/research/eda_time_22.py",
+    "sha256": "eae4abf6437cf79ddc231021f452bae3603595a8cfb1fba54bc04f935dd6f8cf"
+  },
+  {
+    "file": "집/클로드/research/eda_time_23.py",
+    "sha256": "e43e68bd06ed5332398fa35848e9241a58049f234532e04d6c15271d4138554b"
+  },
+  {
+    "file": "집/클로드/research/eda_time_24.py",
+    "sha256": "5714352bb5ec5b5869b5adceeee86f98e370483d84e6da90f27e715e93178a84"
+  },
+  {
+    "file": "집/클로드/research/eda_time_3.py",
+    "sha256": "5f9e5f7463c0c707f19482b325529d7aec1b5b5c98dc7e2e42317560704447eb"
+  },
+  {
+    "file": "집/클로드/research/eda_time_4.py",
+    "sha256": "4fb12b99bfc869e29b456b2aef3e3e1434984c2253b8929bdf006d7839954aad"
+  },
+  {
+    "file": "집/클로드/research/eda_time_5.py",
+    "sha256": "baa1e468c8fb9d009cd3c7bf0e426e3b27ead7f782e851931bfc4df06d1cc82a"
+  },
+  {
+    "file": "집/클로드/research/eda_time_6.py",
+    "sha256": "49885645e4f12738d821fd47c5deecd6d8b7fc7f5d1026d3c0cce125499599e9"
+  },
+  {
+    "file": "집/클로드/research/eda_time_7.py",
+    "sha256": "a4e687e35877c604be730f4c183178e9573d0e0a22bbf1912367fef3d1495fa4"
+  },
+  {
+    "file": "집/클로드/research/eda_time_8.py",
+    "sha256": "2cb15bcba0f3c226e98976c2aac7c755beaad34ed99dc729c926cabb2205a722"
+  },
+  {
+    "file": "집/클로드/research/eda_time_9.py",
+    "sha256": "df74f5f952306ed2c5c29f0bb6fb4e6f09008ea25f3bb6c4f89e47a1193c5450"
+  },
+  {
+    "file": "집/클로드/research/ee1_episode_end_signal_v1.py",
+    "sha256": "ac9145f1a0d00651ee10707ff012cd9033052289f03e71a7d8dcbb3b8fd36ede"
+  },
+  {
+    "file": "집/클로드/research/eg1n_normal_day_compare_v1.py",
+    "sha256": "2d59aa140ac4ad68949fa55777e56e617ec33e421f2a2b8ad52f3d57474b251e"
+  },
+  {
+    "file": "집/클로드/research/eg1_ec_dayseq_gru_member_v1.py",
+    "sha256": "52ecd441719cd7985bfdf30f7d03f8739e83bf3f427913a3d03a044d0649b64a"
+  },
+  {
+    "file": "집/클로드/research/eg2b_blend15_descriptive_v1.py",
+    "sha256": "b2e36c90e3cd9e5e7a7542c0ecf79b3220e14243010e1aa81f90c6c52f24b395"
+  },
+  {
+    "file": "집/클로드/research/eg2_ec_gru_blend_ev_confirm_v1.py",
+    "sha256": "699728b1c9cb6a19f582935d8d0360a494ae65610ba681846a99cef3f2d11849"
+  },
+  {
+    "file": "집/클로드/research/eg3_gru_seed_cells_v1.py",
+    "sha256": "fde61a0393c3f57933265f938cafc9bf77b417d26e04008f54265bac6f24095b"
+  },
+  {
+    "file": "집/클로드/research/eh0_continuing_high_check_v1.py",
+    "sha256": "c61b027c039d635527147f4d92d04e57cbf1c84a967b6ef8fcb3b311dacbb0d7"
+  },
+  {
+    "file": "집/클로드/research/eh1b_fire_hours_v1.py",
+    "sha256": "7a0b8f4516a627154cb8ebded180d327d71e59df27def1ce2aeeae0e9df53e35"
+  },
+  {
+    "file": "집/클로드/research/eh1_continuing_high_lift_v1.py",
+    "sha256": "ad091b639db222f0d0ad97049d701c1020d265b226db70d9ad71a5a2cb880dcb"
+  },
+  {
+    "file": "집/클로드/research/eh1_highec_input_signatures_v1.py",
+    "sha256": "d1545e63271e17888d24fa982f9072fe01ed18a62d28e7aa74061bfe69f6fb1b"
+  },
+  {
+    "file": "집/클로드/research/eh2_continuing_high_after9_v1.py",
+    "sha256": "71375523bee349a095cabba3c22bf415697e63260eb504895d2d785e8ec909b9"
+  },
+  {
+    "file": "집/클로드/research/eh2_signature_vs_highec_v1.py",
+    "sha256": "57100e4b6765b7e4dbf5d967afe73916308dab4e6b37488b52e4434823401204"
+  },
+  {
+    "file": "집/클로드/research/eh3g2_gap2_sameid_v1.py",
+    "sha256": "89b911eac52fcc9f58bb14f5b39e8e9dc5f8f1359a48ddb8bb2186d699da1617"
+  },
+  {
+    "file": "집/클로드/research/eh3_closed_spiked_vs_not_v1.py",
+    "sha256": "e66386ebcefd5a80f669b44a9a8197485a631c9787123c611bf7f59f364f5167"
+  },
+  {
+    "file": "집/클로드/research/eh3_confirmed_high_hmm_lift_v1.py",
+    "sha256": "bdb71844f8c7c5bee857b6a6c2593f4c814a5c40acf2170607258cbdfcaecd6e"
+  },
+  {
+    "file": "집/클로드/research/eh4_capped_hmm_lift_v1.py",
+    "sha256": "57515f7f4e80b746182f5aefdfdfe78c29273152d2a0adbef33953ee60766773"
+  },
+  {
+    "file": "집/클로드/research/eh5_two_var_lift_v1.py",
+    "sha256": "c4c1eb45f28ccf855b844700863237fbbb6c5c8f657256bb421a77e8355d9abe"
+  },
+  {
+    "file": "집/클로드/research/eh6_confirmed_state_propagation_v1.py",
+    "sha256": "580d57e08b459f7dcd34ecf7e02652bab4814169598fab5f387597f3e20f3cc6"
+  },
+  {
+    "file": "집/클로드/research/ehf1_hour_fingerprint_anchor_v1.py",
+    "sha256": "3ed70c8c8a5a4cd0e7601559aba2f109a2d0a9181ff9a65d154c81c8002ccf14"
+  },
+  {
+    "file": "집/클로드/research/eia1b_two_sided_agreement_v1.py",
+    "sha256": "d602d9ecdd6a20279570ab4cd1b38dba3bbb8c21281541436a70d5f8673e0e7d"
+  },
+  {
+    "file": "집/클로드/research/eia1_eval_info_availability_v1.py",
+    "sha256": "065804e55c68cd3615fdd56a1aa85161d80e54d3b633111267ae25a27ec66190"
+  },
+  {
+    "file": "집/클로드/research/el1_ec_learned_anchor_corrector_v1.py",
+    "sha256": "5a09081a3f4cf19517dfddf12dc24817f5a554b76da57055766b65b8d0abde43"
+  },
+  {
+    "file": "집/클로드/research/el1_episode_elapsed_effect_v1.py",
+    "sha256": "1baf56ead181f14229654457bb5517f24f232cac8714864db02fb92260246913"
+  },
+  {
+    "file": "집/클로드/research/em1_ec_shade_schedule_mode_v1.py",
+    "sha256": "51cd5b8c89f20d73fcc0a121690e6bc8849704070cbb77168a173fd5b4339ee4"
+  },
+  {
+    "file": "집/클로드/research/emap1b_clean_records_v1.py",
+    "sha256": "2bdffe4f07013b13f997a2cd48a0581817afd2ffaf165a28acff015361225404"
+  },
+  {
+    "file": "집/클로드/research/emap1_eval_error_map_v1.py",
+    "sha256": "c7410e9958dbff49c30b755c5a4089df40cfd4c28042bde37cb7e82c4e03002f"
+  },
+  {
+    "file": "집/클로드/research/ep1_regime_change_signal_v1.py",
+    "sha256": "ee80c89e572422b006db4a6c933ea255fa017554110dde17aca49dc7208b28d9"
+  },
+  {
+    "file": "집/클로드/research/er1_submission14_error_days_v1.py",
+    "sha256": "1dfef153683368655169f9643b416ef79ff7619ab1587f2c3a3d262c3ed18bb0"
+  },
+  {
+    "file": "집/클로드/research/esn1b_diag_v1.py",
+    "sha256": "3a081d771338f504d6167630390fb99e370aa69726f053553d86c01667f058fd"
+  },
+  {
+    "file": "집/클로드/research/esn1_chain_esn_temp_v1.py",
+    "sha256": "bb5af633d6240d92e07fb7b778e21833a28f27b2e31da6222c463e0946822f8f"
+  },
+  {
+    "file": "집/클로드/research/est_cas1_eval_v1.py",
+    "sha256": "00127e19ce19576cc926ce832ab277dbc25212caffd4731d000a09bb9d2902a8"
+  },
+  {
+    "file": "집/클로드/research/est_td8_eval_v1.py",
+    "sha256": "177cf49e9dcb66bc7c8425f59f9bce801bfafa92a18f73907e71dec8586a71f3"
+  },
+  {
+    "file": "집/클로드/research/ev3lh_ev3l_on_hr5_v1.py",
+    "sha256": "86687d5dd468bd42185f884c71e6c3aaa17d62efc7153baa4deb91aef1d85190"
+  },
+  {
+    "file": "집/클로드/research/ev3l_ec_linked_yesterday_gru_v1.py",
+    "sha256": "06a9e86360e5169b3c4ae33b23ff5ad28e20b5c4ae8064c1b6d63b8b2ed364bc"
+  },
+  {
+    "file": "집/클로드/research/eval_v6.py",
+    "sha256": "375f3015fbae9451ccc5c41cc369ddf0f567775f1ee8d361dc1cb47b48022b9a"
+  },
+  {
+    "file": "집/클로드/research/evr1_eval_risk_map_v1.py",
+    "sha256": "5478c9eb656edb8ec5be7d6276ebcc8ab567ad26243ff0f841b00c2e5bb91348"
+  },
+  {
+    "file": "집/클로드/research/evx2_why_better_where_v1.py",
+    "sha256": "c05d20adf9e77e509a4be4755a2dd4fcccc1399f4833b45126b7a039687c6c5a"
+  },
+  {
+    "file": "집/클로드/research/evx_ev3l_mtl_and_yesterday_ec_v1.py",
+    "sha256": "9e98683a11cce5c21e44182696eade4728e4bd7d49b31b7fc754a0cd54c4ddb5"
+  },
+  {
+    "file": "집/클로드/research/ex1_chain_structure_eda_v1.py",
+    "sha256": "489f9b9b4f0cebd19906a1de4e704106a878692bda818ae0b046aeb4f840d204"
+  },
+  {
+    "file": "집/클로드/research/exc1_same_date_high_exclusion_v1.py",
+    "sha256": "c420528dacff1ec604627bd7735f754fef841a813f36055569b5f927fcdcb962"
+  },
+  {
+    "file": "집/클로드/research/ext1_combo_b4_tn8_window_v1.py",
+    "sha256": "a31a16af010f8759f625e2e78dfcf7525adf840218edca70f559a72ea0499398"
+  },
+  {
+    "file": "집/클로드/research/fa1_codex_feature_group_ablation_v1.py",
+    "sha256": "deccd2b2720b6b91bb88c0e6a838d710a83313b91760fd353f8017162fc098eb"
+  },
+  {
+    "file": "집/클로드/research/fc1b_ancestor_gate_effect_v1.py",
+    "sha256": "53f2aec7e26fa45d8d5541f84dd72c308b5850f3f941610d3a56070c6ffd161b"
+  },
+  {
+    "file": "집/클로드/research/fc1_false_chain_breakers_v1.py",
+    "sha256": "25dc020a95af1fb3a112a573f980b4fa578b518cd7e2b3c0362a3859a10aea01"
+  },
+  {
+    "file": "집/클로드/research/features_v4.py",
+    "sha256": "4ab4bcc4783e6a71149a0372e6724ec8b1bebf1a773970552f7556020233de0a"
+  },
+  {
+    "file": "집/클로드/research/features_v5.py",
+    "sha256": "f1ea762241a594da0cb73e403da4d6c0706d487cccebc2816a5a36e7f108a023"
+  },
+  {
+    "file": "집/클로드/research/feat_ablate.py",
+    "sha256": "fa9c5196559873673d9a2b1d1127ba642f423deb2530740c662f15ec2325d247"
+  },
+  {
+    "file": "집/클로드/research/feat_confirm.py",
+    "sha256": "f07f40fce1b9efc10fe42a9c008e2b5075a2e55ee50bc1afafe6c41016ea20fc"
+  },
+  {
+    "file": "집/클로드/research/feat_ec_v5.py",
+    "sha256": "fed7cb8c44b4b5a4314d753751af3ffe05f64fecb866217dc51506611b3a7766"
+  },
+  {
+    "file": "집/클로드/research/feat_folds.py",
+    "sha256": "8f5c834b80e29beee06a89cbca48097487d7e800f54fa1d396d8f23d6a7bb15f"
+  },
+  {
+    "file": "집/클로드/research/feat_lib.py",
+    "sha256": "6da08dc3602a23f9d6a68c6d56dd757d24ce4f65a7d1797df65f796ee412abc9"
+  },
+  {
+    "file": "집/클로드/research/feat_new.py",
+    "sha256": "3a4773e32ce206d77dedd3d33e321095f6e26c4fbfa6c96f62f283bbca87beb0"
+  },
+  {
+    "file": "집/클로드/research/feat_perm.py",
+    "sha256": "010296f6c3fd3bf3f5ae83cf13d12bd700b2cf4a62afa2cec2d5364a53ad7d99"
+  },
+  {
+    "file": "집/클로드/research/feat_temp74.py",
+    "sha256": "8742b9d881e71b99e0eba031422663559602f8a1741cd173e5b8f335d29da203"
+  },
+  {
+    "file": "집/클로드/research/fh1_false_high_cases_v1.py",
+    "sha256": "110437487b16d2c8155a6be8784ff05ed40e4b762fd51190f4502094363a881f"
+  },
+  {
+    "file": "집/클로드/research/fh2_eval_co2_signature_v1.py",
+    "sha256": "4df24f73490d9316874939e5de12784acf5861cfb0a43df9ccfb587396a02c2a"
+  },
+  {
+    "file": "집/클로드/research/fi1_group_importance_by_regime_v1.py",
+    "sha256": "fa96c07f53cb614b09c56ba26c29c4c99c23f474b3dcc99912382bbd0eff719c"
+  },
+  {
+    "file": "집/클로드/research/fl1_far_truth_links_labelfree_v1.py",
+    "sha256": "deebcaf5c2b190643ed1eacb005e16d51fc68a9892716d8d0a0853202f30661c"
+  },
+  {
+    "file": "집/클로드/research/fl1_field_linker_v1.py",
+    "sha256": "3ba1a9c7d585a8d34501e3ae3eb61946fad7fd4d1ec0ac3f9a6bb264e1127798"
+  },
+  {
+    "file": "집/클로드/research/fl2_field_linker_mirror_eval_v1.py",
+    "sha256": "633d1fb579e235021ea69cb300a4b18c9be80737663ec1c2635e50f929bba64a"
+  },
+  {
+    "file": "집/클로드/research/fl2_labelfree_chain_via_eval_v1.py",
+    "sha256": "3f9eafd56e946af12d70e9f28a9b88ee9d639806ed6c6b85ee8843663d6422cd"
+  },
+  {
+    "file": "집/클로드/research/fl3_field_linker_tables_v1.py",
+    "sha256": "8630cb3bdf0fb90d6af41838dc07ef3b64bc25220cbdddd638cd84e483af89cd"
+  },
+  {
+    "file": "집/클로드/research/fl4_ev3l_chain_with_fl_v1.py",
+    "sha256": "96264f4fc51dc92896bf1183b7e914fcb2e246b1e662ad10ac98d599ae54587f"
+  },
+  {
+    "file": "집/클로드/research/fl5_mirror_links_validators_v1.py",
+    "sha256": "21b0b4624a5498828edad96947a2ad017aab257ea6c75f232a5f8d8ccb5b0143"
+  },
+  {
+    "file": "집/클로드/research/fl6_ec_mirror_links_v1.py",
+    "sha256": "c3037391c02a69624aab1771f75546241643ea1c0fd3c5f9fae0e1a9103bbba8"
+  },
+  {
+    "file": "집/클로드/research/fl7_mirror_links_cvj_v1.py",
+    "sha256": "c7d1b24bb33d678dd0e9d3741747c7ea0f7d9b62bcabde91e94b1fd37a24630b"
+  },
+  {
+    "file": "집/클로드/research/fln1_field_linker_none_option_v1.py",
+    "sha256": "f8d1074597c80396f04f1c32a28ae1778e4060ed1b15fc9c27ac876becbc77e8"
+  },
+  {
+    "file": "집/클로드/research/fp_features.py",
+    "sha256": "105685cbb17ff86fd98324d53d44d41cd4dd758aa12dcf5ac6bf32edf6ec5b7b"
+  },
+  {
+    "file": "집/클로드/research/fs1_nohigh_feature_screen_v1.py",
+    "sha256": "535d305cb8b7e9d5307effe3adcca3c9f5113a561e5dfa936f73129c4dc7c637"
+  },
+  {
+    "file": "집/클로드/research/fs2_nohigh_phys_model_v1.py",
+    "sha256": "86bebbaaf96febc8ce2831848128ef85811c833f4eb8268d1928ed73a23a5391"
+  },
+  {
+    "file": "집/클로드/research/fs3_nohigh_shape_feature_screen_v1.py",
+    "sha256": "5c745bbc37da8d59651f93e86bbe0d6290692e892af214a28621b0f76a3be4c5"
+  },
+  {
+    "file": "집/클로드/research/fx1_farm_transfer_v1.py",
+    "sha256": "0552db8aab42647dfb41ed0430b5e4fc1d1463875f2add70b80238d5a7e8e5e4"
+  },
+  {
+    "file": "집/클로드/research/fx1_farm_transfer_v2.py",
+    "sha256": "74cfc1f24fe07e20a2b1c208498becd761550d0f99f491eb850d089393d50e26"
+  },
+  {
+    "file": "집/클로드/research/fz0_false_gate_forensics_v1.py",
+    "sha256": "cb0c66f73ee3d932730e18db1c7bdf5f021700242d93b419face9d49c51c4e81"
+  },
+  {
+    "file": "집/클로드/research/fz1_domain_score_and_dip_timing_v1.py",
+    "sha256": "9041caa2cf8074b64d50e59c96b5ef8916b15e177a7a8e57eb95199cf9b63245"
+  },
+  {
+    "file": "집/클로드/research/g5y_linked_yesterday_feats_v1.py",
+    "sha256": "05aae183db9556dd095fd9dd46dbe8154a7a141fb89bb20d18a1c8a56115385a"
+  },
+  {
+    "file": "집/클로드/research/g5_w40gs_xfree_ablation_v1.py",
+    "sha256": "1f786628883b659a1981382ded75f56f9713dca8774a6ad7ab065b9f00354db1"
+  },
+  {
+    "file": "집/클로드/research/gen1_ec_general_vs_structure_v1.py",
+    "sha256": "af2eb3e859c432a9e5d4412950caaa473e438669ee3c6d543c0ce2429f7d02da"
+  },
+  {
+    "file": "집/클로드/research/gen1_temp_general_vs_structure_v1.py",
+    "sha256": "accd35f83fbc2cacc180cbcda2481396cff3c40c91d81e8a968212f3472fc0b1"
+  },
+  {
+    "file": "집/클로드/research/gp1_global_path_linker_v1.py",
+    "sha256": "96a1775ea35baa230dc151ba7c8b70a4eac1ecf863dbd9eb29fa22d57a1bd8ab"
+  },
+  {
+    "file": "집/클로드/research/gru_el1_v1.py",
+    "sha256": "98e39bf729d400b6c46a2922c9ceba4d10d28baa2f42dd4110bf7572f88f8520"
+  },
+  {
+    "file": "집/클로드/research/gt1_gated_gru_level_formal_v1.py",
+    "sha256": "6b447820b0ab49dda974125b360cbe609c4f0528ef62f9cc5ce08e1e10e73c8e"
+  },
+  {
+    "file": "집/클로드/research/gw1_gru_cold_widen_v1.py",
+    "sha256": "56f042ff77282dfd42ccac867f4a66210db891f87060b8ac8647dfd34de4bb0e"
+  },
+  {
+    "file": "집/클로드/research/gwc1_g46_cold_confirm_v1.py",
+    "sha256": "da938e4660e1b1d7021c2992186e71f9bb15fd4fbec18fdef4cbf23f9bd88ed6"
+  },
+  {
+    "file": "집/클로드/research/harness.py",
+    "sha256": "f39aeb2776eb80f9d76fae27d6a5b91c3f741cfa04b497b512004dd6699eea1f"
+  },
+  {
+    "file": "집/클로드/research/hc0_high_ec_conditions_v1.py",
+    "sha256": "f5216306fbb04da6bf148cd4914b68695e6a147854349ebff76b04d18019f0fa"
+  },
+  {
+    "file": "집/클로드/research/hc1_magnitude_within_high_v1.py",
+    "sha256": "0d6cf820eed792e178461dcd29a97d03e63b72ca7cb0aa7917ef476698b5fba9"
+  },
+  {
+    "file": "집/클로드/research/hc2_high_error_split_v1.py",
+    "sha256": "9dc32c585bc1e81b24973b3e07bb70eaeed6b612168428c0058373552707f029"
+  },
+  {
+    "file": "집/클로드/research/hc3_high_day_groups_v1.py",
+    "sha256": "d3ed94da783fe58605470eb86a42d0c7cca3de76c80de113f85af4711cc10499"
+  },
+  {
+    "file": "집/클로드/research/hc4_good_vs_bad_high_v1.py",
+    "sha256": "eab658d9550c03f7dcc3362a9965d1e665138c127eff487c1a3cf36fd8341ec9"
+  },
+  {
+    "file": "집/클로드/research/hc5_history_vs_magnitude_v1.py",
+    "sha256": "b6749e863227a7cf6c59a612b571bda8a65332cd251a46d38dfe30c6c97ca551"
+  },
+  {
+    "file": "집/클로드/research/hc6_confidence_vs_under_v1.py",
+    "sha256": "657b310f39338e2d5df4b76ebb48aeea8dd28be5bfa9964068260b6a49c0459d"
+  },
+  {
+    "file": "집/클로드/research/hd1b_detection_recall_at_fpr_v1.py",
+    "sha256": "c3a349550af022fa98ec59a420792983c20c7629ce7c2790b2cb96bb339e5313"
+  },
+  {
+    "file": "집/클로드/research/hd1_highec_detection_balanced_v1.py",
+    "sha256": "d0c43db1141f7b09cd25197a9fe4f2de69d8099d748e81d081f360f9e01f49b3"
+  },
+  {
+    "file": "집/클로드/research/hg3all_all_days_evidence_v1.py",
+    "sha256": "7dd2633da6430b847fe017854c1c559a7b12d77c579d8ff6e5c3670c46461a2c"
+  },
+  {
+    "file": "집/클로드/research/hgx1_hg3_dissection_v1.py",
+    "sha256": "a670d797e45d8f009e63d719229909285c829049b28ca6bccc30dfb145e61bc8"
+  },
+  {
+    "file": "집/클로드/research/hg_frontier_posthoc_v1.py",
+    "sha256": "59b5da3603f2a975cdecc2ced43af7bafd216aaabac4bb051d69b8bd2d4e1dd6"
+  },
+  {
+    "file": "집/클로드/research/hk0_high_gate_anchor_v1.py",
+    "sha256": "df4f0052a0aa675a741284aedee2cd4d7137074de5f7c6910cea65de8f9b3e6b"
+  },
+  {
+    "file": "집/클로드/research/hk1_false_gate_signals_v1.py",
+    "sha256": "779a84e383ee42b87b5556852d8ffe84ffd543321ce720085452295539f29930"
+  },
+  {
+    "file": "집/클로드/research/hl1_highec_linker_check_v1.py",
+    "sha256": "e2cdd4caefab812b3b12fdcaf69102fa5322e37ae45160f086b446bad8a9df5c"
+  },
+  {
+    "file": "집/클로드/research/hr1_high_only_small_models_v1.py",
+    "sha256": "78a56c9530fcfb14daeabc79cae9aac6e25c7b40d62561d69cad303888d5326e"
+  },
+  {
+    "file": "집/클로드/research/hr2_dayresid_gru_all_days_v1.py",
+    "sha256": "b1c2a926d9d8dfd907c4fba0023c6baeebce034e732253e064cbecd9bbaa7d7e"
+  },
+  {
+    "file": "집/클로드/research/hr3_dayresid_derived_feats_v1.py",
+    "sha256": "a6f50ba5171d23a58653783e476aef64323ee9a608b4698a539f4af5f5952b41"
+  },
+  {
+    "file": "집/클로드/research/hr4_dayresid_models_x_feats_v1.py",
+    "sha256": "eeeec9d6af61609a8f1cdcb978cdb1518db77abb502a8d28b9b03818c655dead"
+  },
+  {
+    "file": "집/클로드/research/hr5e_eval_exposure_v1.py",
+    "sha256": "a558c52970aa4cad381977df2290d7f9efd01a22ca2771535d6abfb1d8013c31"
+  },
+  {
+    "file": "집/클로드/research/hr5t_temp_daylevel_tabpfn_v1.py",
+    "sha256": "2620d2976576b2d6e9d1239c72712e2ffc97e17dbe043faad007cf6b053e5dc9"
+  },
+  {
+    "file": "집/클로드/research/hr5_tabpfn_dayresid_causal_formal_v1.py",
+    "sha256": "9c8b6801b7b5f830bb607ac7dd7dfc0536433652d38369b78a3f56fb46e23ed6"
+  },
+  {
+    "file": "집/클로드/research/hr6r_replication_sz2_base_v1.py",
+    "sha256": "4865b0ecb179ad34db8fb02133e1f48ddc353215cf2a3987e865d8706fcb9032"
+  },
+  {
+    "file": "집/클로드/research/hr6_tabpfn_dayresid_anchor_feats_v1.py",
+    "sha256": "fe987d25f972bdbe888acb8919b7d45ef048c5c8fc8d371646eaa7c0895d36c8"
+  },
+  {
+    "file": "집/클로드/research/hrx1_hr6_dissection_v1.py",
+    "sha256": "3fc074a2382310b39ad5ffbe88e2a39c3e57503859574598485b78ff9324db78"
+  },
+  {
+    "file": "집/클로드/research/hx1b_no_highec_world_v1.py",
+    "sha256": "bea60543e20fc4dcea8c78680fdcfcaacc991ae9b69ec51c8dab41e45f34ac5a"
+  },
+  {
+    "file": "집/클로드/research/hx1_remove_unexplained_highec_v1.py",
+    "sha256": "b5b1a8934c65edbfcb36f3d8c9639d947c363b77ae458f03871ccfdf3be1b8b9"
+  },
+  {
+    "file": "집/클로드/research/hx2_judge_v1.py",
+    "sha256": "92cc61df41d733f835ab90d9992e5c67ba924d3754618c318f17e4fed0de9c43"
+  },
+  {
+    "file": "집/클로드/research/hx2_unexplained_highec_confirm_v1.py",
+    "sha256": "e6531dfa80622b9d25a9ac8a583112cfab6d56f33856244443450859b478be86"
+  },
+  {
+    "file": "집/클로드/research/hyb1b_pvalue_dissection_v1.py",
+    "sha256": "90ba9651dff0f547e45ec7f56467c56d4aa1984e26b7743f945186cc20fa17e1"
+  },
+  {
+    "file": "집/클로드/research/hyb1_chain_m1_gate_hybrid_v1.py",
+    "sha256": "9cbc5c4ae158e8d7afbb14c70f3e592be7b7d155bb36f5ddfc326b0a0165b29a"
+  },
+  {
+    "file": "집/클로드/research/int_frac_audit_v1.py",
+    "sha256": "5d106e67f869c71da01d4ef17f1ef07b6901f0afd2bdb3ebdac4130e0f0d422b"
+  },
+  {
+    "file": "집/클로드/research/int_frac_audit_v2.py",
+    "sha256": "922e494f859c6f58644332dda5e0559dfd6471109e563bbf74dde7676d30c225"
+  },
+  {
+    "file": "집/클로드/research/int_frac_audit_v3.py",
+    "sha256": "4540ece1385e207f465a0ee121935f07a943d2e94a05d0dd7a81b64084359f8d"
+  },
+  {
+    "file": "집/클로드/research/itp1_interpolation_scan_v1.py",
+    "sha256": "5b7f9dccaa48701a30f0b6a903b9ac404d192b535b915ff5019b403452f441bc"
+  },
+  {
+    "file": "집/클로드/research/iv1_house_invariant_search_v1.py",
+    "sha256": "09f0527567ca80cca0222c961c5371b2fc4aea752740e6031bbe074a6c9da191"
+  },
+  {
+    "file": "집/클로드/research/jt1_joint_temp_ec_gru_v1.py",
+    "sha256": "62fd741df892c58d26e97c12413f4994c5039b29b26d5c3310bb363cd560651e"
+  },
+  {
+    "file": "집/클로드/research/ke1_ec_state_chain_v1.py",
+    "sha256": "c5a8a57a5d43adde351ab900d758d7e619800b10bc508552b03385bb3b7c1ae1"
+  },
+  {
+    "file": "집/클로드/research/kf1d_design_audit_v1.py",
+    "sha256": "d2b0262e38a3864895b14ffb4a6451c18169b62aeec244e5e22801d4842ccd38"
+  },
+  {
+    "file": "집/클로드/research/kf1e_ev_and_eval_v1.py",
+    "sha256": "c8576417a45ad98543b1fcf621a9c137238a9cd96b0aa66d8091c78872dc7d64"
+  },
+  {
+    "file": "집/클로드/research/kf1_chain_kalman_temp_v1.py",
+    "sha256": "ea9c37faa48094aaa6620588dc2fed7181dd0e18a563936d4bf04eb5d4b6b4d0"
+  },
+  {
+    "file": "집/클로드/research/kf1_fold_training_v1.py",
+    "sha256": "12fedf07ff557bbf98fc1d174433bbefbf7edbe55ffb0793cd441d2024936367"
+  },
+  {
+    "file": "집/클로드/research/kf2_chain_kalman_fixed_temp_v1.py",
+    "sha256": "2f7b77ccc0f67e2965299940a135d6b2c7bc21cbbd13a513d28c65a9fd61d29b"
+  },
+  {
+    "file": "집/클로드/research/kf3_field_state_kalman_temp_v1.py",
+    "sha256": "a74fba55f2a6f3497a318f063bddc04f0c593d0907dd784ffb3da01a536042b6"
+  },
+  {
+    "file": "집/클로드/research/kf3_field_state_kalman_temp_v2.py",
+    "sha256": "6dfbe0a5ced1dc8eb693c9a9601050398cac2f1a9e632ccb9a0954ad3de41497"
+  },
+  {
+    "file": "집/클로드/research/ks1_ec_switching_state_v1.py",
+    "sha256": "8bae9a9b38bb95c4f8bd918de1a81c54ec8405b26c79cefe74bfea678f04ba8f"
+  },
+  {
+    "file": "집/클로드/research/la1_lk5_anchor_links_formal_v1.py",
+    "sha256": "dcf7db56ad5425a2dd875a3762004aa6389229b6bf551439768f329a48ded72c"
+  },
+  {
+    "file": "집/클로드/research/lb1_causal_chain_label_level_v1.py",
+    "sha256": "0c11a5613e492130526d935e6ffc30871d5970e6ffc16ca275fb3381214d1f61"
+  },
+  {
+    "file": "집/클로드/research/lb1_sealed_span_v1.py",
+    "sha256": "623c6d29896f5695b588ce71926df706dee394b1c227254dfab37aa3efd8f95d"
+  },
+  {
+    "file": "집/클로드/research/lb2_calendar_chain_label_level_v1.py",
+    "sha256": "c066213f6ffb77e5a5ccfa5412d9ef9ffdab1514e9216186b68a40eb1d290530"
+  },
+  {
+    "file": "집/클로드/research/lb2_score_span_bound_v1.py",
+    "sha256": "1f82a847eafc894d275f9da2b35d536cfed5bf29cd43661345b7e6fa0b4cde91"
+  },
+  {
+    "file": "집/클로드/research/lb3_ch1_cost_causal_chain_v1.py",
+    "sha256": "864d124acb0a7955b7c8da38484f54418106ba68b9b2dd2191e12a02cab2ab6e"
+  },
+  {
+    "file": "집/클로드/research/lb4_signature_knn_label_level_v1.py",
+    "sha256": "5d4860ab0b8df72f2c0a34d4fd3e774590ca932e221fecd982d91ddbc7205536"
+  },
+  {
+    "file": "집/클로드/research/lb5_predecessor_calendar_knn_v1.py",
+    "sha256": "3015f2526a3ae52d4c2cd027fe6ef2987700d77bda2495a5c8a17bfb7fb84be4"
+  },
+  {
+    "file": "집/클로드/research/lb6_hybrid_calendar_knn_v1.py",
+    "sha256": "b52c466125d87fceff8b1850a49d55d6ce85243ec3a2b49b59d2adfe119684af"
+  },
+  {
+    "file": "집/클로드/research/lb7_own_calendar_knn_v1.py",
+    "sha256": "ebc65b7f959129069dca1a6cba9eef76237811445c7d84bc9c4dfeb5c07e7bd5"
+  },
+  {
+    "file": "집/클로드/research/lb8_gap_calendar_knn_v1.py",
+    "sha256": "459d2a0cfd4ddef3d8b5a866d36357bd5f1f65d367737c31f5751df7a75d8c80"
+  },
+  {
+    "file": "집/클로드/research/lb9_guarded_knn_v1.py",
+    "sha256": "8535defa2eb39bcd52b20094b3c3c99c495f8bd4067be81f92fd4523eb551779"
+  },
+  {
+    "file": "집/클로드/research/lbc1_lb_candidate_eval_change_v1.py",
+    "sha256": "6b109faffe00bf610b1874f65b29a8d9b9ba2cb27c03a6e0567dfaa53401232e"
+  },
+  {
+    "file": "집/클로드/research/lbd1_eval_error_location_v1.py",
+    "sha256": "83b51c105a49bd33ff26e8f59a8fa2a42c9afd2a840d963b8f1430d7b717ba9c"
+  },
+  {
+    "file": "집/클로드/research/lcg1_learned_chain_gate_v1.py",
+    "sha256": "21ba0fde9111865e3997f2568ad129423913a153c758c866e87d09b1f4013eef"
+  },
+  {
+    "file": "집/클로드/research/lcg1_otherfarm_rows_v1.py",
+    "sha256": "844e44705d8e811f821da1ee7a90b482172a83968c6cc380f6ab47571d602c8d"
+  },
+  {
+    "file": "집/클로드/research/lcg2_gate_no_temp_v1.py",
+    "sha256": "2d980a3d1c95c5f7fae8fba36ce902e17e81a4340cc262556f2f8e808c1fec8e"
+  },
+  {
+    "file": "집/클로드/research/lf1_label_interp_forensics_v1.py",
+    "sha256": "b2a54a451bb0d6f92141ab2efeaf1e6baff012f2cf4c50c1dd6825913788e92e"
+  },
+  {
+    "file": "집/클로드/research/lga1_weak_labelled_anchor_gate_v1.py",
+    "sha256": "793a0aa51af213b81629203ab6531cbe62053439a74d1e5f571dc7cb3ee3bce3"
+  },
+  {
+    "file": "집/클로드/research/lh2_hourly_linker_ec_anchor_v1.py",
+    "sha256": "602a9f7bdfd8a4b165d63d771efceb546aaac416e5a13187cfedfd533a239a11"
+  },
+  {
+    "file": "집/클로드/research/lh3_hourly_linker_ec_anchor_p2guard_v1.py",
+    "sha256": "40e528565472a62ca03a3a31cd7cf8f3eb7af60c14506857130b537b90db1beb"
+  },
+  {
+    "file": "집/클로드/research/lk1b_ds8_false_chains_v1.py",
+    "sha256": "b73059d010fadb9bac0b4c89c2efcafc893d98a8a50dd267e37c8bd62170c63c"
+  },
+  {
+    "file": "집/클로드/research/lk1_linker_hop_audit_v1.py",
+    "sha256": "cb89a9455c56aa5da35ba37a8b01d7d2fc5946e0039b8a0bb6c23333f42fde3e"
+  },
+  {
+    "file": "집/클로드/research/lk1_lock40_curtain_confirm_v1.py",
+    "sha256": "0999ab831f0e3cde5b5089457b0768ebf1f36cecc746c2cdc3674c0f6922cf87"
+  },
+  {
+    "file": "집/클로드/research/lk2_hop_correct_model_v1.py",
+    "sha256": "de14c00b4350ae9a25fb4737b7940715df4a27fa19bcd7ff96a764c8bfef4225"
+  },
+  {
+    "file": "집/클로드/research/lk3_invariant_hop_model_v1.py",
+    "sha256": "8b194f3e7ecf00dc1a16b0d1ef8216ab6716b4e59301c7b2cdd249fe72b35bef"
+  },
+  {
+    "file": "집/클로드/research/lk4_candidate_ranker_v1.py",
+    "sha256": "33d10691e1e27e320b428e95a13d345b6b1a0ee24c8a36c60af1e8021712d3c3"
+  },
+  {
+    "file": "집/클로드/research/lk5_pick_trust_model_v1.py",
+    "sha256": "6603a2630a99b6720cd2b4464d567ae1cc04953fcca1fc86b19b8650808d7dc8"
+  },
+  {
+    "file": "집/클로드/research/lkh1_hourly_fingerprint_linker_v1.py",
+    "sha256": "ca730fa04e52078f446a0e6c67e3cfe5c9ab00a9e3562cf18218283d9f98cb92"
+  },
+  {
+    "file": "집/클로드/research/logo1_cold_transfer_testbed_v1.py",
+    "sha256": "fc90ebf79aaf13eb84d80b80fa4747a0049ac5bf917b3feabe57e0f5ad814641"
+  },
+  {
+    "file": "집/클로드/research/logo2_strong_baseline_v1.py",
+    "sha256": "f780f40eea350bc55e087b4778830f8467a2fbb0bca1b572e2f3579dca00b084"
+  },
+  {
+    "file": "집/클로드/research/make_submission_v3.py",
+    "sha256": "ed058bf193afcefa790cc77b91d81dc7e60c155bc5757bd6bd54f17c1235fa2e"
+  },
+  {
+    "file": "집/클로드/research/make_submission_v4.py",
+    "sha256": "2cb8712462e797cf5d1efb9a18cc9e81f1535540932a9fca9dd103970ea4844b"
+  },
+  {
+    "file": "집/클로드/research/make_submission_v5.py",
+    "sha256": "5685146b623af02722ca8067b0dc4d0bfb241957c9857f0ba1c019f950732bfd"
+  },
+  {
+    "file": "집/클로드/research/make_submission_v6.py",
+    "sha256": "1106e9ac4210a99c408bb85fd19d780a6bd59c9341338e91971b45bace2e1f50"
+  },
+  {
+    "file": "집/클로드/research/make_submission_v7.py",
+    "sha256": "2eae014853960b187cecca71a34b739dccf3c752b4f0c674e5fd20eac11392da"
+  },
+  {
+    "file": "집/클로드/research/make_temp_v18_chain.py",
+    "sha256": "64f341737c21355c286b350f1fa0ead67ef6e21538c9049c4ece554e35e69d84"
+  },
+  {
+    "file": "집/클로드/research/mbx1_member_band_dissection_v1.py",
+    "sha256": "36cf882ad9b0d077ae56f336cc0df025678c04a10d2d75f246c49dec2794bc44"
+  },
+  {
+    "file": "집/클로드/research/mc0_midnight_continuity_oracle_v1.py",
+    "sha256": "a1af7ae0600dd512acf82501a30ebf96c4235d5366011d088dcd3e8748f3837d"
+  },
+  {
+    "file": "집/클로드/research/mc1_boundary_label_choice_v1.py",
+    "sha256": "87a7502c4385688d9b2de207b8c8f444f502a9e0ba09cea8316c7543af811430"
+  },
+  {
+    "file": "집/클로드/research/mc2_weather_continuity_predecessor_v1.py",
+    "sha256": "2af8cb95887543df8fcffb3be315a4dfb432072f2e1fee5aed95aad8843f924a"
+  },
+  {
+    "file": "집/클로드/research/mem1_new_member_screen_v1.py",
+    "sha256": "19b1916dd8889541a8d4df830ae33ac17c6d56dce6e1a3a5f6f107849298058a"
+  },
+  {
+    "file": "집/클로드/research/mk1_masked_highec_days_v1.py",
+    "sha256": "e5cdc68fad68970944309475855742ccba65b7c2e284b7ed02ba1a22bd11fbfc"
+  },
+  {
+    "file": "집/클로드/research/mm1_label_input_mismatch_scan_v1.py",
+    "sha256": "d687805fa909030db72a925cedd558d9165f33ac20e0da5a1627e11e3e1a92f3"
+  },
+  {
+    "file": "집/클로드/research/mm2_mismatch_detect_v1.py",
+    "sha256": "2ab269bb6c615a3bda284d20a8a2a530df4666a2f0a12a7d82184ea9c9a08283"
+  },
+  {
+    "file": "집/클로드/research/mn0_midnight_by_role_v1.py",
+    "sha256": "21b71e8c7f21c65470372861f117d74f59a96692cae3dc2e7d216bc2bcf055fd"
+  },
+  {
+    "file": "집/클로드/research/mn1_single_vs_pair_v1.py",
+    "sha256": "caa4f04932bfbb6e2d3a371b63febfba2ace70d0952db8706691b332efe6c8f5"
+  },
+  {
+    "file": "집/클로드/research/mn2_pass2_second_profile_v1.py",
+    "sha256": "881f586404bea594a972e7bc97da12d5df9f8261f2dd6d02b3ccbca0bd30cbd0"
+  },
+  {
+    "file": "집/클로드/research/mn3_midnight_trace_v1.py",
+    "sha256": "cbca02e4c88d176b53f90587b99292499d9b280f71a208bdcc03e4153c3bd794"
+  },
+  {
+    "file": "집/클로드/research/model_calib_ec.py",
+    "sha256": "447567bc4b5444d8cd925e556803c84225163c552b92f84ce1167ca301fce7f3"
+  },
+  {
+    "file": "집/클로드/research/model_common.py",
+    "sha256": "080fea5e23a5f7613b3f15372d057a7b1b6d233bff7fa2872d3c37cd26886a57"
+  },
+  {
+    "file": "집/클로드/research/model_diag.py",
+    "sha256": "2fb17c4d0ffdf94165372cac0b2c29327186fe5ce4f04363c831dc7861c6c13c"
+  },
+  {
+    "file": "집/클로드/research/model_ec_blend.py",
+    "sha256": "4c573c0757787b423f179160a3b97e1ae02c683d6576e37b5872f9a263aca704"
+  },
+  {
+    "file": "집/클로드/research/model_ec_mlp_v5.py",
+    "sha256": "0b44d5a89a1117301bd931a4d6228a64c5fefee83b9c1bdad83b21ea90ed7560"
+  },
+  {
+    "file": "집/클로드/research/model_ec_paired.py",
+    "sha256": "b79269ba867c72c64e5dddfc7924d37daf90be561d26caf5ddeb3f29a9bd8d77"
+  },
+  {
+    "file": "집/클로드/research/model_ec_stack.py",
+    "sha256": "eb08c78893fcc3678f01f763255579468bd5ef0ecfcffa4219e148900209f918"
+  },
+  {
+    "file": "집/클로드/research/model_ec_v5.py",
+    "sha256": "f09dc0059e652f522ed6b0dbd233a63cbc6bed24f3eca97374e6316da4a1b951"
+  },
+  {
+    "file": "집/클로드/research/model_families_ec.py",
+    "sha256": "fd8d97e8a6412a7ae4a3ad3a476a338440e7b83581d7b19794c374f054f0a6f1"
+  },
+  {
+    "file": "집/클로드/research/model_families_temp.py",
+    "sha256": "0b083e48c208447081f3d8282b21fa2e60e955d66205fe1b07769c631e1d4954"
+  },
+  {
+    "file": "집/클로드/research/model_temp_paired.py",
+    "sha256": "bda90aabd7e8102bc06eecf2f97d4cf5527a0362cef0519e6367199cfcce51ef"
+  },
+  {
+    "file": "집/클로드/research/mt1_mtl_aux_future_inputs_v1.py",
+    "sha256": "e48dfe1787b5d38f6f1704b052004ca0da99a27177f95135f68509747fd108b7"
+  },
+  {
+    "file": "집/클로드/research/mt2_mtl_expert_informed_aux_v1.py",
+    "sha256": "6961e1428822ce4a71f8a7b180781e4e5f892fa824d9328dd0dab6b8ce88b0cf"
+  },
+  {
+    "file": "집/클로드/research/mt3_mtl_irrigation_head_f32_v1.py",
+    "sha256": "aaea8713caa47bacc746621dd97fe8e254307eca539eec6bfa678b8431a95eb4"
+  },
+  {
+    "file": "집/클로드/research/mt4_ec_plus_irrigation_head_only_v1.py",
+    "sha256": "7720cbf1417e0d5c4dee062315dfc22297183940e2bbd133fdcc31b7c554cd8b"
+  },
+  {
+    "file": "집/클로드/research/mt5_mtl_stage_depth_v1.py",
+    "sha256": "caaa2c8ee325feef111b818a1ac45b983a68810f9acf2beab188e17b329385cf"
+  },
+  {
+    "file": "집/클로드/research/mtg1_multifarm_gru_heads_v1.py",
+    "sha256": "68909611f6ed2752019a74e05b169abafb291e2aaacacb37367e3633f689751e"
+  },
+  {
+    "file": "집/클로드/research/mx1_normal_high_mixture_v1.py",
+    "sha256": "b4ef6b151c3379eba9824e0e2f5e0cf8100abaca3b8cab80d6e5790dc879b472"
+  },
+  {
+    "file": "집/클로드/research/mx2_gate_improvement_v1.py",
+    "sha256": "53032e92e737cbc17a3ca51fa330625807b2700011a728e0bf1dc6e5e69031f0"
+  },
+  {
+    "file": "집/클로드/research/na4_unanchored_eval_classify_v1.py",
+    "sha256": "26451e608a98ac8b4cd1582901074ccadc53f11acf71d719243121d114b5f935"
+  },
+  {
+    "file": "집/클로드/research/nb0_bracket_labels_same_dong_v1.py",
+    "sha256": "5bd1dd923281560e9839bfee845b308ac75c0e1b63874ffcc2b4203698fe83c6"
+  },
+  {
+    "file": "집/클로드/research/nb1_anchor_availability_test_vs_layouts_v1.py",
+    "sha256": "ecf5777e570912303ae8c66e16ad1b329a34428e55f46061560d10dc4708bcf2"
+  },
+  {
+    "file": "집/클로드/research/nb2_layout_design_by_neighbours_v1.py",
+    "sha256": "30db0c5cf4e7a3e0e9dd6a0fc59cdaf95ddbe88f51da420154d150dd213310f2"
+  },
+  {
+    "file": "집/클로드/research/nd0_normal_day_error_sources_v1.py",
+    "sha256": "e8f47edd135126c85ddbef6ece41bcae1122a40b4b08425daebb3848621b477f"
+  },
+  {
+    "file": "집/클로드/research/nd1_normal_day_error_anatomy_v1.py",
+    "sha256": "e7a128a473d8ee053f2b7214538e76d3ca40cccd933895ae13a94a5d9dc84002"
+  },
+  {
+    "file": "집/클로드/research/nd2_best_normal_day_v1.py",
+    "sha256": "a85bfa4559757048671579973260b93f269aee2c1492135a8726a2cdf80b15a8"
+  },
+  {
+    "file": "집/클로드/research/nh1_nhm_general_formal_v1.py",
+    "sha256": "a89837cd1acfece22481a7c28c7e97c76ed30cf0a4ee094e27f127b6cd925a57"
+  },
+  {
+    "file": "집/클로드/research/nh2_field5_ec_ev3l_formal_v1.py",
+    "sha256": "6a8cf0bb00d6516a6cb0458e0629e6298bcb0556b176e3fb6bcf7fcc528f87f2"
+  },
+  {
+    "file": "집/클로드/research/ni2_temp_no_info_v1.py",
+    "sha256": "756bf59ad306abe85b3713f3481225da72341c79d50453475be4b1a4c1e249f0"
+  },
+  {
+    "file": "집/클로드/research/ns1_remove_nosignal_highec_v1.py",
+    "sha256": "3966cafccaafcae74410e7c097ed0037a3727da67bf50686808124fb21dfe645"
+  },
+  {
+    "file": "집/클로드/research/nx0_temp_link_and_p2_season_v1.py",
+    "sha256": "693578ffc11ad20d19067a1d314c168358cc836f03ba237876b5615a8f52a2f3"
+  },
+  {
+    "file": "집/클로드/research/nx2_successor_and_cross_confirm_measure_v1.py",
+    "sha256": "91ea0c87789d76cb11c66282791f2be3365ade5525de7f598b46715fe5ea8579"
+  },
+  {
+    "file": "집/클로드/research/nxa1_next_day_anchor_v1.py",
+    "sha256": "e3e97ee0bf98674714b6d37559d5686d312f83ff997b415e1226732f5201dbcc"
+  },
+  {
+    "file": "집/클로드/research/nxl1_next_day_null_linker_v1.py",
+    "sha256": "3894dbd4fb0d9bbdbf319611da475004d56effb20fb46e13d335e3351705830f"
+  },
+  {
+    "file": "집/클로드/research/op0_same_dong_operation_history_v1.py",
+    "sha256": "4badcffb27318bc5afc7c33dcc4c421719f596d94b6b669860822745fde2f578"
+  },
+  {
+    "file": "집/클로드/research/orc1_chain_oracle_v1.py",
+    "sha256": "5a42875f8142289cc1a44f2e0a9320fb4537809d24db16925471a06d260bb860"
+  },
+  {
+    "file": "집/클로드/research/ort1_temp_link_oracle_v1.py",
+    "sha256": "1a89d14fa106db9fbfcdc953745c62ba4b3d072df53cbc6463d93e982b643923"
+  },
+  {
+    "file": "집/클로드/research/os1_temp_regime_split_v1.py",
+    "sha256": "9d44c3f6d9a7f6516fb87b641169f48451cc22eabb0d9015deadb35d35030122"
+  },
+  {
+    "file": "집/클로드/research/os1_temp_regime_split_v2.py",
+    "sha256": "6118a4c326916be0df3bfc1b9d32d0ddbe090eb882a0b5adff64fc2b0863bbb1"
+  },
+  {
+    "file": "집/클로드/research/p2t1_pass2_only_training_v1.py",
+    "sha256": "8332fb5ebb1d5a767a3bca9367af592cf6dc3f4c3c7aee512f30a31cc7863ed3"
+  },
+  {
+    "file": "집/클로드/research/p2t2b_two_layer_gate_check_v1.py",
+    "sha256": "a6930232a32baa77cef68312b69b82aa3a4ce8f3345e9ed6311d11bb0deaaf59"
+  },
+  {
+    "file": "집/클로드/research/p2t2_pass2_connected_training_v1.py",
+    "sha256": "aacda6051a84885fedf1dfe558bcc5c2249229a4f2b09987c468054a0c3eb60f"
+  },
+  {
+    "file": "집/클로드/research/pb1_physics_residual_codex_cold_v1.py",
+    "sha256": "e96b33916e236c27e483063251844a9eb6ff84a0015ef0f662e961f7e1a342dc"
+  },
+  {
+    "file": "집/클로드/research/pch1_prediction_chain_v1.py",
+    "sha256": "b03fdcda68809bac6ca6e012062081a294f7e1fdc7632916bd6296647c27b24f"
+  },
+  {
+    "file": "집/클로드/research/pch2b_dedup_cold_check_v1.py",
+    "sha256": "b3215f72ac31106bf903320ec0b4779a0ae973731197d1a5303b477a4c47ab04"
+  },
+  {
+    "file": "집/클로드/research/pch2_dawn_chain_fresh_v1.py",
+    "sha256": "ba3858ebf320a913e12298173163219f7933dbed29233f6ecc551986f0e07768"
+  },
+  {
+    "file": "집/클로드/research/pch3b_other_farm_tau_v1.py",
+    "sha256": "e48f62fe2999e3fa26639612693d6fa5a618a6441c21c41501867c834f8d2131"
+  },
+  {
+    "file": "집/클로드/research/pch3_learned_chain_gate_v1.py",
+    "sha256": "4777400df0a4b7492c2a3e08f93874715bfffc5484f0cbdf4a27a94c90777400"
+  },
+  {
+    "file": "집/클로드/research/pch4_chain_rule_other_farms_v1.py",
+    "sha256": "4171d9fce806bf001e72e367c8e6bf2d6b14e7374dd175ee0dfc6eee648c6f6e"
+  },
+  {
+    "file": "집/클로드/research/pch5_chain_mirror_links_v1.py",
+    "sha256": "17067673369fdb2128c7cebc1894ce95f1c024a860816b967b99051cd87491d7"
+  },
+  {
+    "file": "집/클로드/research/ph0_ec_episode_periodicity_v1.py",
+    "sha256": "5e068da7692db076dc1ac8c6fc5083937880884fa1ffab1cb048d34a8ea12468"
+  },
+  {
+    "file": "집/클로드/research/pool_temp.py",
+    "sha256": "d56fa16cf8cc0a27fd4088477677d948d2c9b6ecb39852b518fb88f62218310a"
+  },
+  {
+    "file": "집/클로드/research/pr1_paired_vs_unpaired_error_v1.py",
+    "sha256": "6e5f34e0a9166efa94949239bb70bd1e26ba26ebc7ec26c27af5c0b041552e99"
+  },
+  {
+    "file": "집/클로드/research/pr1_tree_spread_probability_v1.py",
+    "sha256": "c3735d5b6b17b1d3c56831c904f4749c47c7c1a79760134a6e176ec23efbb164"
+  },
+  {
+    "file": "집/클로드/research/ps1b_prior_record_source_upper_bound_strict_v1.py",
+    "sha256": "b268c8f681d642d027f58957b35eb43b2fadd292e3367e98f066a9d5399f5210"
+  },
+  {
+    "file": "집/클로드/research/ps1_prior_record_source_upper_bound_v1.py",
+    "sha256": "98cdf2afdf19a34ee0447883a457711cd89add6024975f87afd51f3351cb262c"
+  },
+  {
+    "file": "집/클로드/research/r2c1_minus2_chain_check_v1.py",
+    "sha256": "d8dde307f585928178983a962c2f62cb572362da5cd994a9e74581e88da26d80"
+  },
+  {
+    "file": "집/클로드/research/r2c2_skip_deleted_chain_v1.py",
+    "sha256": "657db177053fe8567f6698df749063c796cbc918037d4c0a038fdd4cf529996e"
+  },
+  {
+    "file": "집/클로드/research/rc0_tabpfn_calendar_context_v1.py",
+    "sha256": "60a0d708cf8e9bb36a5c34870482e58cf7cccc239ce1477e8a4157170a422be8"
+  },
+  {
+    "file": "집/클로드/research/rch1_eval_reach_v1.py",
+    "sha256": "36d8f837658b50a694f07088b9c2d3f4b3ef6bb3a36890b40af1a4d83fd77e57"
+  },
+  {
+    "file": "집/클로드/research/rd1_restore_signature_v1.py",
+    "sha256": "9df0dbeeba92b9758c4c19bd538287606e04d579b7cd021a3bcf33d47e5d16c8"
+  },
+  {
+    "file": "집/클로드/research/rd2_linear_fill_detector_v1.py",
+    "sha256": "d20dad25c12de085e9a5f501936146e55d1dae6281e5bee336c754c6880e7934"
+  },
+  {
+    "file": "집/클로드/research/rd3_segment_copy_v1.py",
+    "sha256": "0c297708797414f42695aa6d888cb9bb79ca1c06c1def7a0d6b0cd62190c52a7"
+  },
+  {
+    "file": "집/클로드/research/rd4_f13f47_processing_v1.py",
+    "sha256": "1c7dd86952b4af4bb2c373ae8df415db8696d543c53f73c343a1db002b784cce"
+  },
+  {
+    "file": "집/클로드/research/rd5_ec_label_fill_v1.py",
+    "sha256": "75c6301112b004367da619349bf4f07e9fe864918841149fc50f281555affce6"
+  },
+  {
+    "file": "집/클로드/research/re01b_otherfarms.py",
+    "sha256": "20e185d232fe4a63ba6ffd8adb974b31a5963f8c306bee8f15345af01af99b83"
+  },
+  {
+    "file": "집/클로드/research/re01_profile.py",
+    "sha256": "94f4755450666bf16e328e5e26ce6b988e0397ee3614bffbd50c3588b61cdf0a"
+  },
+  {
+    "file": "집/클로드/research/re02b_q3_followup.py",
+    "sha256": "4d31ad582730655661539b5f767261fb45fd896e1ccba828bb217d5f1a0f453e"
+  },
+  {
+    "file": "집/클로드/research/re02_explore_q1q3.py",
+    "sha256": "55c198a45e48621e50e63602e24fd392834816e6c0160fe06bcca8c8a24eb8e4"
+  },
+  {
+    "file": "집/클로드/research/re03_explore_q2.py",
+    "sha256": "90c685d5f7fe48800e0404b0ff95933696dcbc881d34c7c401675596ce3f49a4"
+  },
+  {
+    "file": "집/클로드/research/re04_explore_q4q5.py",
+    "sha256": "ec80b84fa65781f8e7ca29db5e752727d7b7eac6bd95af7841c2cd1dd6f948f0"
+  },
+  {
+    "file": "집/클로드/research/re05_verify.py",
+    "sha256": "7f34d6810575123b2fd307dcdf78401644e77e02b6184a3c4e059436647d846c"
+  },
+  {
+    "file": "집/클로드/research/re06_member_bias.py",
+    "sha256": "873381027b0cadae45e283f2aa43bebf0a151326d1387c6b0b61863779270514"
+  },
+  {
+    "file": "집/클로드/research/re07_linear_tree_v1.py",
+    "sha256": "b3d32ac3602c8f451f38c4dbf6301126c79f208f2e9c3091809acb25843136b9"
+  },
+  {
+    "file": "집/클로드/research/re08_delta_target_v1.py",
+    "sha256": "c0b842404939f85ad37c91dcc077e5e033ae1ecc1e22db5d64f839d05b2f18d6"
+  },
+  {
+    "file": "집/클로드/research/re09_nys_delta_v1.py",
+    "sha256": "00e2626aa13caa718eae3f9507fb6301f88fc3f10d0f3d6a86ac3f09ea7a8b87"
+  },
+  {
+    "file": "집/클로드/research/re10_segment_ceiling.py",
+    "sha256": "6ac8801fcd1e9df9859a162173abaae81553c50a62aac7bddc7dcd8f29a1d754"
+  },
+  {
+    "file": "집/클로드/research/re11_test_match_scan.py",
+    "sha256": "fcc6b2f99f01dbb28531d4945e1c6ea91ac2f0b41e094e76993a7ab2393521ea"
+  },
+  {
+    "file": "집/클로드/research/re12_pass2_neighbors.py",
+    "sha256": "f1fa20f5dec49b40228e8c189b4134a67ae0dddd11d580bf264ad7d364d4c8a9"
+  },
+  {
+    "file": "집/클로드/research/re13_pooled51_v1.py",
+    "sha256": "0028f75de3d5fb4bcda3cc14e4ec5f2bba24259fa07ff3028c16468ac5d10cee"
+  },
+  {
+    "file": "집/클로드/research/re14_pretrain_feature_v1.py",
+    "sha256": "f30367b383279a7ded665783b74e191bea7d89be7b3cf06fdae001288db49992"
+  },
+  {
+    "file": "집/클로드/research/re15_cold_gate_pre49_v1.py",
+    "sha256": "c940f92a9156b94c9c6b359262a4656fc712cd63bdef1f93a8a86117f7d2c458"
+  },
+  {
+    "file": "집/클로드/research/re16_cleanslate_v1.py",
+    "sha256": "b2ac02c42dbd2d69ecd11b7a88ce354d7a78d050d3997ec41eb9f3ace0d8e73f"
+  },
+  {
+    "file": "집/클로드/research/re17b_episodes.py",
+    "sha256": "e74014ce2812620163294c16e0561e22f5ce4b7627ee0884a21424571ac51891"
+  },
+  {
+    "file": "집/클로드/research/re17_day_dissection.py",
+    "sha256": "78b86e5437005fd069cacd4e6423a417d3d6ddbf8fac3784d16fbe0e886e119b"
+  },
+  {
+    "file": "집/클로드/research/re18_decouple_shape.py",
+    "sha256": "52247f4a92318d21d13b1aea863e30c51afbbc2ee2509516c6434edf57dd5da6"
+  },
+  {
+    "file": "집/클로드/research/re19_combo_ny_pre_v1.py",
+    "sha256": "5e00ce8eca9f3f3fdc4aecc171170365a06a2e5f08728be33b07e8bdf45b65d4"
+  },
+  {
+    "file": "집/클로드/research/re20_gallery_data.py",
+    "sha256": "7fe22e63b25b968fe3599fdd9973f65e510d6960f3d4936ebdfdaff8885f520b"
+  },
+  {
+    "file": "집/클로드/research/re21_forensics_test.py",
+    "sha256": "aa7e8b1240a498ffaf43e4fe661fe38976aa2dc6d8b0eb661e09abf60d1bb838"
+  },
+  {
+    "file": "집/클로드/research/re22_physics_channels.py",
+    "sha256": "c272ee90c2af1681432d6806b4db21e9f17e94a6cb04cdbede2bb195566b9e58"
+  },
+  {
+    "file": "집/클로드/research/re23_lit_fingerprints.py",
+    "sha256": "af6148d2c691e7de59a7a5a81c95889b933dbf17b14d6bee2c03361f92669b4f"
+  },
+  {
+    "file": "집/클로드/research/rt1_regime_routing_upper_bound_v1.py",
+    "sha256": "5aa229bc5f558d3118ddfd9aed62b6c804163fd7c23be48fec7878c152a9a786"
+  },
+  {
+    "file": "집/클로드/research/rtx1_cold_residual_tree_v1.py",
+    "sha256": "c31d82178de4fadeb8460fef9a6ee512b285f5fc0bc2ef389fa173290d08e838"
+  },
+  {
+    "file": "집/클로드/research/run_parallel_folds_v1.py",
+    "sha256": "badcac40144aef128108c147150ebc2b4ce075cc487c39b6eeba3de44697e729"
+  },
+  {
+    "file": "집/클로드/research/rv2_field5_success_extract_v1.py",
+    "sha256": "87399887f283e8f8a6968d6d98dab2e94b1ea29f49a831f24d95680a9225ba55"
+  },
+  {
+    "file": "집/클로드/research/rvt_temp_success_extract_v1.py",
+    "sha256": "18941503dd379830b49001c7884dc0c63011d84aafaabe869733584889d63fba"
+  },
+  {
+    "file": "집/클로드/research/sa1_soft_anchor_prevpred_v1.py",
+    "sha256": "8293ca2c7a23f58037ce9c2361a3d6f6587ff4b1f5ce05d0ebca1cb8cfec2abf"
+  },
+  {
+    "file": "집/클로드/research/sa2_soft_anchor_hourly_v1.py",
+    "sha256": "e9b409d63161a08531b53985463d238db6ad1634d302e2d1e94e513bff250b93"
+  },
+  {
+    "file": "집/클로드/research/screen_q3g_dayweights.py",
+    "sha256": "a9cdebba07c007b3075547446e39ce00051534d18f0920d9828a55ac1deaf203"
+  },
+  {
+    "file": "집/클로드/research/screen_temp.py",
+    "sha256": "f26b17961874abdc13dea0a115fab3bcf4d170cf35b4a4e79daeeb09e59d70f7"
+  },
+  {
+    "file": "집/클로드/research/screen_v6.py",
+    "sha256": "7a5e2104884e5d5c88e8cc15812de35f6ff1109e27c051c79558494220b279f5"
+  },
+  {
+    "file": "집/클로드/research/sd0_sealed_day_two_ends_v1.py",
+    "sha256": "0e747d820de525f5d17373a0c8ee4390f15594579d093730b10e3c51f1e99488"
+  },
+  {
+    "file": "집/클로드/research/sd1_domain_score_sealed_level_v1.py",
+    "sha256": "a626a3d4d66f42a6599dcf2931f3f15f71636f4f473eaa2f9b16c7ad431554df"
+  },
+  {
+    "file": "집/클로드/research/se0_season_position_error_v1.py",
+    "sha256": "2c6e6e75b7bf6faef155a98d729ff16418d3cf63611a55f2eaf4572f4fb4c4fa"
+  },
+  {
+    "file": "집/클로드/research/se1_crossfarm_same_date_v1.py",
+    "sha256": "b56ae1e6527d3effd9e2d6d168ed44bb59ea56ff2a1360372813d3fc3cd800dc"
+  },
+  {
+    "file": "집/클로드/research/se2_residual_calendar_persistence_v1.py",
+    "sha256": "6decb3129f07ee5dfa18c45b0d54a0e33d9588fdca9fcc5a7e2575659abebf98"
+  },
+  {
+    "file": "집/클로드/research/sf1b_sealed_auc_posthoc.py",
+    "sha256": "781fedeb8db342846f732563ee5c031638fc3773f17251a799e4e487b4a852cc"
+  },
+  {
+    "file": "집/클로드/research/sf1_sealed_forensics_v1.py",
+    "sha256": "acce2e8ad6252bf07831ae1270707ba712f65f6892864e4a5d9b0d4898bad09c"
+  },
+  {
+    "file": "집/클로드/research/sf2_sealed_recal_posthoc.py",
+    "sha256": "4c84838fc1f6654f1a28d660204cfdfb1785766da62dbf3c87eb6ecf67cd24ba"
+  },
+  {
+    "file": "집/클로드/research/sg2s_sensitivity_v1.py",
+    "sha256": "7dd0246ed5d4e480d248dd0ee0653b6dd343690ef6ee6f24a426d63d876ab8c9"
+  },
+  {
+    "file": "집/클로드/research/sg4_dong_fingerprint_sg2_v1.py",
+    "sha256": "a1a902b9fbaee0273a967f15d38221238f52091048955144c21a2716d656a6a9"
+  },
+  {
+    "file": "집/클로드/research/sm1_small_state_anchor_v1.py",
+    "sha256": "08d230d71ce2637c96c61fd90bf96d3f2986831a944cabbcee754cbab9fa5a1f"
+  },
+  {
+    "file": "집/클로드/research/snf1_sensor_fault_flags_v1.py",
+    "sha256": "d820009c922b61605e3af3e27b83d01e28828ec7f9cd851307da9de1ce88604d"
+  },
+  {
+    "file": "집/클로드/research/snf2_clean_train_rebase_v1.py",
+    "sha256": "31117f83af848b14b474903f1cfd1c22e0062f8d6ecab61d356f97a24a7f9c9c"
+  },
+  {
+    "file": "집/클로드/research/srj1_small_sample_rejudge_v1.py",
+    "sha256": "f2e7876b24d8fb1c74a2b3cdadd9dabdc06a893f029c595bdcb121a4d3227795"
+  },
+  {
+    "file": "집/클로드/research/st0_pair_phase_audit_v1.py",
+    "sha256": "33d20e3d387024aca2a0a0b69aae9eee8843773e5e447dcb9ca3719ba61c1558"
+  },
+  {
+    "file": "집/클로드/research/st1_neighbor_distance_profile_v1.py",
+    "sha256": "069d35fc0e5f6702298d43368b2d09bffa7d0407798f0c74bdc70c7a16669a35"
+  },
+  {
+    "file": "집/클로드/research/st1_substrate_temp_continuity_v1.py",
+    "sha256": "5243ac8abf38632f87751ec5cea042cfff45816fc24d071c01fe5484a6da7e9a"
+  },
+  {
+    "file": "집/클로드/research/st2_record_unit_continuity_v1.py",
+    "sha256": "b6f5971ff16a13319ddc7127eb9a816fe4b510e719984bb5db85a5b70de9fe0f"
+  },
+  {
+    "file": "집/클로드/research/st3_pair_order_identity_v1.py",
+    "sha256": "91bc384b341c1a667b8ee7e776d77c611e573c561a228adf07b71fca938179b4"
+  },
+  {
+    "file": "집/클로드/research/st4_residual_by_pair_role_v1.py",
+    "sha256": "d59c2994bc06e72cd2d45ad7f0ae8063b05d531ccc2b93ba731f90ffcc37845e"
+  },
+  {
+    "file": "집/클로드/research/st6_dong_identity_v1.py",
+    "sha256": "e35124e8211663470217ef320326bef2915a0f5b522a8f867063d3176d458e6f"
+  },
+  {
+    "file": "집/클로드/research/st7_persistence_objective_v1.py",
+    "sha256": "32e57e4f9c05db09b3f64e5f5672de2da3c33f6f22129e44ab38b18c25bd3416"
+  },
+  {
+    "file": "집/클로드/research/stk1_learned_member_gate_v1.py",
+    "sha256": "d069b3fa792cd169b2fb03aa0014f3b3e736100cabf8cf718bd2983711597368"
+  },
+  {
+    "file": "집/클로드/research/stk2_gate_ood_guard_v1.py",
+    "sha256": "ce8dec1fb40f680845be0801a63f8cc2918536e569e28ef8af0dd22236f30b19"
+  },
+  {
+    "file": "집/클로드/research/stk3_gate_ood_blockcf_v1.py",
+    "sha256": "67cc327c2684f1d7e4d17f3327010f1c469795d388469751fe95fa95360c726a"
+  },
+  {
+    "file": "집/클로드/research/stk4_learned_cold_switch_v1.py",
+    "sha256": "34b724f26db7011059075e6dea0c99bdc4e294a625f443ccbc83cc0965b01ce1"
+  },
+  {
+    "file": "집/클로드/research/struct_resid.py",
+    "sha256": "54fa87e36bfda154e58b9f461c0454a8441b30f5a4021e2006838d5368e9a61a"
+  },
+  {
+    "file": "집/클로드/research/struct_segment.py",
+    "sha256": "e42b449b16260d298bf918ef87748b42b43d029ba2696412c685cfbf0f7aad6c"
+  },
+  {
+    "file": "집/클로드/research/struct_temp.py",
+    "sha256": "a3acb80417e9ad507f80ad19ab87bf0b687082aec38c7b546f1a8d5f75c2dd71"
+  },
+  {
+    "file": "집/클로드/research/sv1b_summary_v1.py",
+    "sha256": "f88a98d1eaca0f4d80b987503ffbb271ccfc149779d3d635205a5afca27b007e"
+  },
+  {
+    "file": "집/클로드/research/sv1_structure_validator_v1.py",
+    "sha256": "b8ff8c3333e522a1dbf5f18ef9d98f6e7680bda1839ff609dc2498cc3c7ca430"
+  },
+  {
+    "file": "집/클로드/research/sv2_structure_validator_scoring_v1.py",
+    "sha256": "5a82532726917157d8a37303be7323f6400aa20896fc6eac6eb960571201de03"
+  },
+  {
+    "file": "집/클로드/research/sv3a_structure_validator_draws_v1.py",
+    "sha256": "ce4ba4e8c2e5aae5627c34476331dd3fcca2a756692ea6dcaf2a9728566b5d53"
+  },
+  {
+    "file": "집/클로드/research/sv3b_structure_validator_judge_v1.py",
+    "sha256": "782f224cc18fe99f9f3602b1df0827f3e98604f22740fb6009f1b253618beb5f"
+  },
+  {
+    "file": "집/클로드/research/sv3c_rmse_table_v1.py",
+    "sha256": "d43b24cd41ebc3af62abfe2ebe57a05eac5b68209ec0f4508ea24096bd89b087"
+  },
+  {
+    "file": "집/클로드/research/sz1_season_index_dependence_ec_v1.py",
+    "sha256": "f0ad2e49f5877e5363534aaad36924d274480d642333d2aa9cde80baf4644cc2"
+  },
+  {
+    "file": "집/클로드/research/sz2_season_index_real_pipeline_v1.py",
+    "sha256": "b548d0bfab9314386a3a0e33a1f456f719b065b63c467bbdd71e37c2426bf9c8"
+  },
+  {
+    "file": "집/클로드/research/ta1_linker_substrate_anchor_v1.py",
+    "sha256": "0e04adb51326245bebfa2bf76783ed31a37b1a42f6f1237b597c535614ca12f1"
+  },
+  {
+    "file": "집/클로드/research/ta2_anchor_debiased_v1.py",
+    "sha256": "a555874d2d8519b691ad70a415ef8b6009eeb07748c602dd185741a4d51ddc9f"
+  },
+  {
+    "file": "집/클로드/research/ta3_anchor_linker_v4_v1.py",
+    "sha256": "4ca9efff65a475b00894edeb3b8d42e8aaf145a59807a807c65fca25b0764d3c"
+  },
+  {
+    "file": "집/클로드/research/ta4_anchor_linker_v5_v1.py",
+    "sha256": "c5f2396a7291953086b549c94849afb143d205d57c2f192260f989d921a785ea"
+  },
+  {
+    "file": "집/클로드/research/ta5m_anchor_linker_v7_mirror_v1.py",
+    "sha256": "f1a4335e7b27abc25f94208cc90392c0b6a685c4375224dbf4985f968a39f9a3"
+  },
+  {
+    "file": "집/클로드/research/ta5p_anchor_linker_v7_pessimistic_v1.py",
+    "sha256": "0ae85c013b21b7266d831424a5159af08b09de3b1409d8372749ce8ced5434f4"
+  },
+  {
+    "file": "집/클로드/research/ta5_anchor_linker_v7_v1.py",
+    "sha256": "09af75ebf22a6881ac5b6b1cb3766ab65526b1ae06b1ef13f006a31b5ee11b3d"
+  },
+  {
+    "file": "집/클로드/research/ta6_anchor_persistence_v1.py",
+    "sha256": "17dff50f19414cceb488d35677ca76cb6024ee4c29d4b40cd1cf2416bcf0b773"
+  },
+  {
+    "file": "집/클로드/research/ta7_anchor_sweep_v1.py",
+    "sha256": "d774c687f71778e4933905f951b547ea0c27a20ac4f98c87092dbbd15db12ac5"
+  },
+  {
+    "file": "집/클로드/research/ta8_anchor_decay_clip2_v1.py",
+    "sha256": "3cf7f55888c39ff1934ee1d49025510da5a006401bfbc47f8da4ca678924bd11"
+  },
+  {
+    "file": "집/클로드/research/tabpfn_checks_v1.py",
+    "sha256": "776cd1532f6af58d060d8890c3794069c362c905714d789266b8378176f8bd8a"
+  },
+  {
+    "file": "집/클로드/research/tabpfn_cpu_verify_temp_v1.py",
+    "sha256": "a27f50a0d4bc9d7f947f77ba160e3d7ec638808cd21d9dd8c2165c560fab0fdc"
+  },
+  {
+    "file": "집/클로드/research/tabpfn_cpu_verify_v1.py",
+    "sha256": "6c0df9baeb60b7f982b0419fc6a2e85366a2ee0928968948ea28c3c4545ca2ff"
+  },
+  {
+    "file": "집/클로드/research/tabpfn_rowdiag_v1.py",
+    "sha256": "c26ece548e8ba463924c84e9936e25ba8c47b0d728648187cd07d4cdfa521974"
+  },
+  {
+    "file": "집/클로드/research/tabpfn_rowdiag_v2.py",
+    "sha256": "60ad5dfc97296d87b05a5b06db0325e9134709acb8a74835b58605f3b5b16c6f"
+  },
+  {
+    "file": "집/클로드/research/tb1r_temp_null_agree_v15r_v1.py",
+    "sha256": "a1190db4f5b02807488471f8caee11430677f1293ac262def2bca33ce36d737a"
+  },
+  {
+    "file": "집/클로드/research/tb1_temp_multistep_anchor_midtin_v1.py",
+    "sha256": "584d5e6ffc7ddab8a13bfb26ca7c5290f94dba54a4f096f84f0002186782874e"
+  },
+  {
+    "file": "집/클로드/research/tb1_temp_null_agree_anchor_v1.py",
+    "sha256": "e5c67f80c9f0230131893b3df866b2fe0969851bb28ef12328531e2af328ee9d"
+  },
+  {
+    "file": "집/클로드/research/tb2_temp_agree_any_p_v1.py",
+    "sha256": "746d0da63fb36955401229f1ad161ef1219c80ad4fb2fdb0103b9574bb543b38"
+  },
+  {
+    "file": "집/클로드/research/tb4b_b4_on_v23_nanfix_v1.py",
+    "sha256": "4f39c2dc535792268a192af3516a04185934372bcbe9c5801a731f06e6b09489"
+  },
+  {
+    "file": "집/클로드/research/tb4_b4_on_v23_v1.py",
+    "sha256": "8e58033f9a2aca75bcd5606cc4f817a405c9705d1040bdf90aedf17f42a950e6"
+  },
+  {
+    "file": "집/클로드/research/tc1b_chain_history_common_train_v1.py",
+    "sha256": "9843bc6fdd9508b5497ca909ed188f1b739ba7ccd8cac9fe74b7ae942807394d"
+  },
+  {
+    "file": "집/클로드/research/tc1c_chain_ablation_v1.py",
+    "sha256": "f8d59a24866f3aba528bc8ad7161e7e3f4052d8ad702c762154c7fc16534472c"
+  },
+  {
+    "file": "집/클로드/research/tc1_chain_history_early_hours_v1.py",
+    "sha256": "1433ecf8fe314ad12b5a7f9ca1ad981899c4f1e1906702816e48e0531fa8470e"
+  },
+  {
+    "file": "집/클로드/research/tc2_chain_hours_extend_v1.py",
+    "sha256": "898e216659226cdb32ea06e1075ae685027a25a785d954aa39f5229eac01074c"
+  },
+  {
+    "file": "집/클로드/research/tc3_chain_hours_narrow_v1.py",
+    "sha256": "0037f698c16f1af5322494705f09d946e0b0b2010e7b8bd7b3c377d00fdeb282"
+  },
+  {
+    "file": "집/클로드/research/tc4_chain_rich_features_v1.py",
+    "sha256": "13598b5aba136e113fd3ab46083fc4096c4ba7c936be0e0a8e44da29fb957cf8"
+  },
+  {
+    "file": "집/클로드/research/tc5_chain_linker_predecessor_v1.py",
+    "sha256": "08a0c8c8d880e95de0c9c519915a5c51ca428ed8c8c8130bb4b630b7875d36e9"
+  },
+  {
+    "file": "집/클로드/research/tc6_chain_corrector_sweep_v1.py",
+    "sha256": "e0e2ff8032b114cf4e2d8a8766a1015c7502e2b67f476ae096b43614f4b39173"
+  },
+  {
+    "file": "집/클로드/research/td10_heating_event_lag_v1.py",
+    "sha256": "857642ac10b2bfd872a8a5fccc3aa01ea415f01cd63bba0a9324a9e545ceeaf9"
+  },
+  {
+    "file": "집/클로드/research/td11_physics_coef_audit_v1.py",
+    "sha256": "954942ff4d9dda3d8f1b144ae8b62616d5aa91cee1466f89ea69126080daf4d0"
+  },
+  {
+    "file": "집/클로드/research/td12_f47_cold_days_v1.py",
+    "sha256": "d7fc462dbe71e51a96588105327b528fc1484a54dbf310d80e961a2a0d88882b"
+  },
+  {
+    "file": "집/클로드/research/td13_morning_predicts_nowarm_v1.py",
+    "sha256": "7ad7c5a66812060552668f3f84130fc6b2c7cbc45bc17e91fc94e77dc55dfccd"
+  },
+  {
+    "file": "집/클로드/research/td14_growth_fingerprints_v1.py",
+    "sha256": "be9f3eebbf5c823202a98a8b70c3dc4ed6ee7757f3a47d35ad28922e47ac2a76"
+  },
+  {
+    "file": "집/클로드/research/td1_certain_tier_diag10_v1.py",
+    "sha256": "8ef2e34020f78ebebcb794c8f798838410329d0734d5b5377e80218187ca7e4c"
+  },
+  {
+    "file": "집/클로드/research/td23_control_setpoints_offsets_v1.py",
+    "sha256": "b4facf59cea10fca6ecf6ab595d14b43c2f5b16295cb530afa0a40b3c3c0716e"
+  },
+  {
+    "file": "집/클로드/research/td26_similar_farm_testbed_v1.py",
+    "sha256": "cde27095eb64f8a6502d65db37082987de1f70d83a6c2842d4e6088d3ec67cbd"
+  },
+  {
+    "file": "집/클로드/research/td27_f32_pump_transfer_v1.py",
+    "sha256": "0b455cf8c7af57c88f7feb36ac807effb238c4e27e97da71f54ec97349c05713"
+  },
+  {
+    "file": "집/클로드/research/td2_gate_release_diag10_v1.py",
+    "sha256": "24f824ba329d6e280bc5ee055eb641090694ced053e95cad15ea0c2129229e9e"
+  },
+  {
+    "file": "집/클로드/research/td31_similar_farm_cold_testbed_v1.py",
+    "sha256": "713c44490e3a2df281a3077540fa5f2a5a4dcc6bdf4041f8aefcd08954b42dce"
+  },
+  {
+    "file": "집/클로드/research/td3_date_constrained_diag10_v1.py",
+    "sha256": "d71f5477d20819808067150205836f20d9905fb66fc2716bae8e55577a64883d"
+  },
+  {
+    "file": "집/클로드/research/td4xb_td8_increment_on_v23_v1.py",
+    "sha256": "a6b29ea240e76cebd1c77900101fc6c05459ef9dedbb902b89342c1db7c277d5"
+  },
+  {
+    "file": "집/클로드/research/td4x_eval_exposure_v1.py",
+    "sha256": "725ef83d38a9beb62bfb10496e889134b8bebfac1106d949ccc9f99bb91e9d76"
+  },
+  {
+    "file": "집/클로드/research/td4_drop_mismatch_diag10_v1.py",
+    "sha256": "83d4e11b8ce8f24bede427d08e3cbbb65e7edfa9ab358ace4433b79da6862e65"
+  },
+  {
+    "file": "집/클로드/research/td5_beta_remeasure_v1.py",
+    "sha256": "fc26fb3cd7f0e95c2fe44633ff49e0d6eb6a24d974320c432dcaf544a5769e7e"
+  },
+  {
+    "file": "집/클로드/research/td5_temp_cheap_checks_v1.py",
+    "sha256": "51e70ac262abbc26ffa331fe44ae0b66cd3cde572ac0ec4b47cadb32ca8c28ff"
+  },
+  {
+    "file": "집/클로드/research/td6_flat_beta_gate_released_v1.py",
+    "sha256": "695b12a7b523e1c4a2d26844ef88c1b52bbce11ccc6482f1922ee9ceff8a2405"
+  },
+  {
+    "file": "집/클로드/research/td7_multi_offset_td4_v1.py",
+    "sha256": "cf7b1c832ba52e2f1979974fb9fbf74d7015fcc17c5a0c0fdeb08d1951ff4c1c"
+  },
+  {
+    "file": "집/클로드/research/td8b_allrows_breadth_v1.py",
+    "sha256": "d2f75d61305395eb355a80c674185ea88847c2aa8efafe8335c36c876c28d8de"
+  },
+  {
+    "file": "집/클로드/research/td8_cold_detect_magnitude_v1.py",
+    "sha256": "6f56081e1abddc5cb1ce5cce358e4506b7db07b948805b01d03a5cd7f55cd654"
+  },
+  {
+    "file": "집/클로드/research/td8_rule_clean_strict_v1.py",
+    "sha256": "fb6b61fc09a5f485eb6311429c26f5766fa63646e8e9fea23b1b4a32ec87886d"
+  },
+  {
+    "file": "집/클로드/research/td9_cold_sub_level_relations_v1.py",
+    "sha256": "9ee305f08b7094a27502d40748b4e05dbea6b814854fa1ad3b368b00050014f3"
+  },
+  {
+    "file": "집/클로드/research/temp_augment_v1.py",
+    "sha256": "f129f024c9835ac56761d85c419e8ed2d5fbcf56d17ee66c20f06ac90c7517d2"
+  },
+  {
+    "file": "집/클로드/research/temp_cold_band_check.py",
+    "sha256": "8ad9f3f9384cea717ff240d1a3375e89eb1fa73b27affe560f71eaa1139acae5"
+  },
+  {
+    "file": "집/클로드/research/temp_combine.py",
+    "sha256": "c63db986f087baff22a29e0d1be9fc52d47527e1bd5888d47ebcf76ae74ce61c"
+  },
+  {
+    "file": "집/클로드/research/temp_ctswap_v1.py",
+    "sha256": "c38fdfbc107ef54d7d619e480c186bf4ef2c44aa4f36483399f67cfc2f5bf185"
+  },
+  {
+    "file": "집/클로드/research/temp_denoise_v1.py",
+    "sha256": "f364e0aa49d55e60da473d4a8d24774d0b8036863272bf4f983a1ea6436bc68d"
+  },
+  {
+    "file": "집/클로드/research/temp_ext8_base.py",
+    "sha256": "c396b3b952b1645a9053fd7ed13af8113c1dd6a7b33be74248624b6c0b8a592b"
+  },
+  {
+    "file": "집/클로드/research/temp_ext8_gate_gpu.py",
+    "sha256": "e6f3474652ca2160c46210d4edd3785ffd48b2fbc45ae299bc4424258529c9f2"
+  },
+  {
+    "file": "집/클로드/research/temp_gc2_concentration.py",
+    "sha256": "6355f19a5930ccd2c484506d5ebadbd3c4fb347687a0b922ade365f6c7936bb9"
+  },
+  {
+    "file": "집/클로드/research/temp_lineartree_v1.py",
+    "sha256": "27ee511adbe09ce8cc057e79e6f0b63183a6f8208f2a10e2da6e5abc81cfaa09"
+  },
+  {
+    "file": "집/클로드/research/temp_mask_v1.py",
+    "sha256": "52fcad854c36464c73a5339a4eb9fa09de404e1f2bfd1ea478b34afca2ae86d9"
+  },
+  {
+    "file": "집/클로드/research/temp_pfnbag16_v1.py",
+    "sha256": "d39dd4462904e4c64e4f969c7b8b9ee5171bc0759cb4d6ce77170c03902e84be"
+  },
+  {
+    "file": "집/클로드/research/temp_pfnbag8_v1.py",
+    "sha256": "b7babba0057e36159f85d15c24a6461cc479c2ef17ef71d493bf583634bd3106"
+  },
+  {
+    "file": "집/클로드/research/temp_pfngate_sens.py",
+    "sha256": "2019e009c5eba718d26ea1781a9120dd1fab25602c772f7e47b6e2eb0908bb65"
+  },
+  {
+    "file": "집/클로드/research/temp_pfngate_v1.py",
+    "sha256": "1981f94559b34c2e5261c314f4785e945f8ab010ed006dc13892aa6cd5c7995e"
+  },
+  {
+    "file": "집/클로드/research/temp_pfngate_v2.py",
+    "sha256": "7cc3d1edb5a2344bdbe64a3e502a8019a7ce890ab23455785c57502f5da35f6d"
+  },
+  {
+    "file": "집/클로드/research/temp_pfngate_v2_ext8.py",
+    "sha256": "be788b1daada1ff3670e1a1529932f1ec67ae6367511846aeb01eec847be0912"
+  },
+  {
+    "file": "집/클로드/research/temp_pfnweight_v1.py",
+    "sha256": "d75918602ff894b5c374cb9a8c25f406d7bf1a3027a91f50a0ff5bab8122730c"
+  },
+  {
+    "file": "집/클로드/research/temp_rebalance_v1.py",
+    "sha256": "881e6cc359f853c24a5216b00d9abd79a6545aad9a0f62a0be1d6f81ed5751b4"
+  },
+  {
+    "file": "집/클로드/research/temp_seedavg_v1.py",
+    "sha256": "dd5a748926a294a59d6792a134b60fe6742ea8b35d7fa5acf45b01ae41f81dff"
+  },
+  {
+    "file": "집/클로드/research/temp_TC1_season_members_v1.py",
+    "sha256": "73958356106c5a88a9988d5a54114fee1deca9de2ce97821f9185c750a786066"
+  },
+  {
+    "file": "집/클로드/research/temp_TC2_w30g_season_v1.py",
+    "sha256": "207e62470845894ed7c00f287562299ada323ec6675f77ba15781b96196807e2"
+  },
+  {
+    "file": "집/클로드/research/temp_transfer_v1.py",
+    "sha256": "7284d2ebf9895dfde1d85cd62e6d797595a6f83be31902b993a2d72189298690"
+  },
+  {
+    "file": "집/클로드/research/temp_transfer_v2.py",
+    "sha256": "219254d6d550c3fb365f4a9c43d45542d4e195b5a211815f7b5a3c5daeef3ad2"
+  },
+  {
+    "file": "집/클로드/research/temp_TS1_true_calendar_v1.py",
+    "sha256": "07a34756ba1eb5875a865f3afb676983b5fce1de012aceff51cdd10cf97918e1"
+  },
+  {
+    "file": "집/클로드/research/temp_v7_candidates.py",
+    "sha256": "5a1e4a900e27090c60ab5182488a634335c7fe719c9d982efcd27c40483436e2"
+  },
+  {
+    "file": "집/클로드/research/temp_w20_segments.py",
+    "sha256": "9f26f645eb635e1056838869dd9f6f7beb7d7aec0b115eb07e7cefb04e1400fe"
+  },
+  {
+    "file": "집/클로드/research/test_f32_codex.py",
+    "sha256": "6fd48f18bee7b0312d3b2ff107f6870585f7c59d428b92a5999ac66be0549f71"
+  },
+  {
+    "file": "집/클로드/research/tf1_temp_fingerprint_residual_v1.py",
+    "sha256": "7e9b9c7517c30552e536046764b3485557aef25578dc748e68426e553d92cbd4"
+  },
+  {
+    "file": "집/클로드/research/tg1_signature_neighbor_offset_v1.py",
+    "sha256": "b41f146d05573880f5a06c92abee071f3066a232dadc1a9c23b06373da3c96e7"
+  },
+  {
+    "file": "집/클로드/research/th1_temp_linked_prev_thermal_history_v1.py",
+    "sha256": "9b09c71bdf6489fa08d9a4ce2a4fda33455c831fd36a915475a003a2ff6bf924"
+  },
+  {
+    "file": "집/클로드/research/tk1_temp_analog_day_offset_v1.py",
+    "sha256": "cfbbb4bbac879130529fa53cfa25a920c9baf21b1570049f1ac2b186f0c7f2f9"
+  },
+  {
+    "file": "집/클로드/research/tl1t3_eval_exposure_v1.py",
+    "sha256": "9826d52dc571b2ebb372c4529b698483170c8f0fc20a3f2c2aa75ee1bd483640"
+  },
+  {
+    "file": "집/클로드/research/tl1t4_pass1_generality_v1.py",
+    "sha256": "a7a0a070b06d82f02ec761914cbab6366b9521f1f53b43d3b83b713df6dc08a9"
+  },
+  {
+    "file": "집/클로드/research/tl1_two_layer_real_pipeline_v1.py",
+    "sha256": "5bdcf2d8f51b3c88c6849dace13667e61f9acfcf8167b34077f8a2718a554a75"
+  },
+  {
+    "file": "집/클로드/research/tm1_anchor_physics_measure_v1.py",
+    "sha256": "6e96687334cc1bfd44eb032eb6489103a5ad7253f2643c01f2b1970530a24c3b"
+  },
+  {
+    "file": "집/클로드/research/tm1_test_matched_revaluation_v1.py",
+    "sha256": "3f4e42abc14a919c5c967da2486bebcf6d95f0a1d092e62da02cc008c307b41d"
+  },
+  {
+    "file": "집/클로드/research/tp0_pass_parity_profile_v1.py",
+    "sha256": "7e27edb61c29c50957b10d4c5d4a6321f8def465b8bc413dca6fe470454344bb"
+  },
+  {
+    "file": "집/클로드/research/tp1_parity_bias_test_v1.py",
+    "sha256": "01415c0b85961a8e28ea9a1b9c39a13425c339f9ae658cc4badbef93b2a9408e"
+  },
+  {
+    "file": "집/클로드/research/tp2_oracle_vs_leaders_v1.py",
+    "sha256": "6a01fbf9d150fa79c5a8812b71edb98d3f4a8957d15dbdd3a15b2003291c1c43"
+  },
+  {
+    "file": "집/클로드/research/tq1_temp_qlink_anchor_v1.py",
+    "sha256": "9e33f88255351c12bfaa34ab2944bf4a1566f18edc2626fa3df9098affd3be81"
+  },
+  {
+    "file": "집/클로드/research/train_flags_v6.py",
+    "sha256": "7fc7d508cf5734a84900c21ed3d527a4d4a64ab01b66f1a3ec7b735377973338"
+  },
+  {
+    "file": "집/클로드/research/ts1_pass2_weight_screen_v1.py",
+    "sha256": "9f1dd97d90d9e81709bbdedef1ee5ab97f35d4f36e0db703436e19d7769509d0"
+  },
+  {
+    "file": "집/클로드/research/ts2_member_disagreement_v1.py",
+    "sha256": "fa5b2e90de68137cf45e9d3981d6188b0e0579f33c2c1670c5a85b06fec0bda4"
+  },
+  {
+    "file": "집/클로드/research/ts3_codex_bagging_v1.py",
+    "sha256": "228f448ab2332daa22aaf2749b8ec55c6e4c8da930915b0ea40326a4f5e58697"
+  },
+  {
+    "file": "집/클로드/research/ts4_new_members_v1.py",
+    "sha256": "2b32b6b88d8af3e85a0e6c9ba219b28a021f092e663aad096164a9e4452387b4"
+  },
+  {
+    "file": "집/클로드/research/ts6b_gru_warm_fresh_v1.py",
+    "sha256": "187aa88c33c9ad9567956adfb6efd741ea1471fc9916fa775fa780baa50f8597"
+  },
+  {
+    "file": "집/클로드/research/ts6d_gru_warmday_layoutI_v1.py",
+    "sha256": "70b5204c3a565861d7e7e130f9d6239e355426d40900fe54992db3be6efe850b"
+  },
+  {
+    "file": "집/클로드/research/ts6e_gru_strict_daygate_screen_v1.py",
+    "sha256": "9675c594680524491711a517c39e789ae05945612a7d1c2baf55bbc1139e3912"
+  },
+  {
+    "file": "집/클로드/research/ts7b_v3_cold_safety_v1.py",
+    "sha256": "f8e0a34d28954ec69825ce865a61e9d8a8253aeb2c651db0bd33eb6017f44de4"
+  },
+  {
+    "file": "집/클로드/research/tt10_farm_separate_training_v1.py",
+    "sha256": "af3c6278a703661a1cd1935d61c9ee6b589877ff0413465b0ea13174effb00f6"
+  },
+  {
+    "file": "집/클로드/research/tt11_repair_noisy_inputs_v1.py",
+    "sha256": "a7f6893f6fb6121ff75ff58429c4a3f35173330ee5c580a5ecab3dc44b310887"
+  },
+  {
+    "file": "집/클로드/research/tt14_f32_cold_codex_v1.py",
+    "sha256": "e280e9a37ba3c1482d8e59090fcb30fee6ff89ed0a7260cc2b5c0fdb241cdfe8"
+  },
+  {
+    "file": "집/클로드/research/tt15_f41_dynamics_v1.py",
+    "sha256": "88bc4ba3ac25f59c3cecdf57da71cc78457b33b837bab83cb96ffe4a700e59f9"
+  },
+  {
+    "file": "집/클로드/research/tt16_hp3_pretrain_feature_v1.py",
+    "sha256": "a60e591171aaaab0a81ee8fa803119ab079bbb69ff57487d51b25a7ea83daa43"
+  },
+  {
+    "file": "집/클로드/research/tt18_hp_combo_fresh_v1.py",
+    "sha256": "74140e164711b915653ce4936c64c720686d9da7a22e0fc56250966a9e8c361e"
+  },
+  {
+    "file": "집/클로드/research/tt19_similar_farms_codex_v1.py",
+    "sha256": "796f5e8bf6e733ad7ea08d43eb475ad1766ce1a4a41ca411aadabf378be8a02c"
+  },
+  {
+    "file": "집/클로드/research/tt1_temp_curtain_features_v1.py",
+    "sha256": "a6b160d17e6da5f24cc687889d5d672f69e279dd9bbcb29dfc18fc627762830e"
+  },
+  {
+    "file": "집/클로드/research/tt20_similar_farms_lowweight_v1.py",
+    "sha256": "465cbb235a821bd28aef4655eb98ce8fddfa567da64b03dcff7a7bb2c8f9791e"
+  },
+  {
+    "file": "집/클로드/research/tt21_other_farms_lowweight_noexcl_v1.py",
+    "sha256": "f9de584b56c44d15505ce7570cb2c841b83b160a2dc14531d14c5d4a42115aa6"
+  },
+  {
+    "file": "집/클로드/research/tt22b_pfn6000_ext_v1.py",
+    "sha256": "09462ff7c1c1af0fa49876ee4b2bd7c81cde4ca1845b8416fb3c42f9bfc434bb"
+  },
+  {
+    "file": "집/클로드/research/tt22_pfn_context6000_v1.py",
+    "sha256": "be047b99f5162205b93ed76f67d0c4e0759f4d8de3c588564bda582afe4f8a11"
+  },
+  {
+    "file": "집/클로드/research/tt24_gru_daygate_confirm_v1.py",
+    "sha256": "1ac3dbc7ce6716cb72990cae7d49ab52dd734c9c4dece86cd8c55436d0c5e282"
+  },
+  {
+    "file": "집/클로드/research/tt25_pfn6000_layoutJ_v1.py",
+    "sha256": "b70363288d02632f28afcebdf29bc14f18b2732f846afb28ea2c9cfda8cd0fad"
+  },
+  {
+    "file": "집/클로드/research/tt26_v3_layoutK_v1.py",
+    "sha256": "67ac65fbd03f9e9a2929a8dce9b3c1b13bfd3ef36901d9df01a59b618e9395e2"
+  },
+  {
+    "file": "집/클로드/research/tt27_chain_corrector_layoutL_v1.py",
+    "sha256": "673d0497bcd2b0ad6e9ea817e6b1262c5b77198a29b75dd110e8f2e7d9d24624"
+  },
+  {
+    "file": "집/클로드/research/tt2_temp_pfn16_reweight_v1.py",
+    "sha256": "3e2b1c1cebdb0c3064731ee21c55ad0365c43a96f82eddfe165843fb11d5335c"
+  },
+  {
+    "file": "집/클로드/research/tt3_temp_scope_rule_candidates_v1.py",
+    "sha256": "5374ce537305f8a908f3d5fa976cba990ca10c1194d7dde8c842d98512eab216"
+  },
+  {
+    "file": "집/클로드/research/tt6_temp_cold_candidates_v1.py",
+    "sha256": "a0b32b495fa9e59da2404f226d9d3bef80eef66d8b59ee864986dbfc2036b0ad"
+  },
+  {
+    "file": "집/클로드/research/tt7_cold_loo_cold_model_v1.py",
+    "sha256": "9491a25b4cf3fa18b3c9ee90984d7a62f0c17a91d139af67e8db34bec45ca6ff"
+  },
+  {
+    "file": "집/클로드/research/tt8_temp_function_weight_v1.py",
+    "sha256": "bd2843cbf71fb5726e70f5a48ff098e5fe24ca9eec668d06e470a5351262d436"
+  },
+  {
+    "file": "집/클로드/research/tt9_codex_drop_h0_heating_v1.py",
+    "sha256": "507e443c3f77c2e0dbfab355217ec9e1922cf80e25ce11e430e25d5462b567ee"
+  },
+  {
+    "file": "집/클로드/research/tv3_v3_gru_on_v23_v1.py",
+    "sha256": "98f8c0a0d51c1d81a9822f00d9e0ccfaf33d29fc3831d6943e8bd045673fce9a"
+  },
+  {
+    "file": "집/클로드/research/tw1_input_twins_split_outcomes_v1.py",
+    "sha256": "8c6d253e8ca67d106c99c797ad92e23cb167939862b3f93e5b915ef5e761366c"
+  },
+  {
+    "file": "집/클로드/research/tw1_w40gs_blend_sweep_v1.py",
+    "sha256": "9169db1e4ed3ec83c041ad708bd22a2ad566ff9d718d67fdd0261ed9c7433a30"
+  },
+  {
+    "file": "집/클로드/research/tw1_warm_tabpfn_weight_v1.py",
+    "sha256": "ec569305132cd742a66bf7cfc48824b623b6b519ff156176e0b5400777caec67"
+  },
+  {
+    "file": "집/클로드/research/tw2_problem_days_subset_neighbours_v1.py",
+    "sha256": "7736c5a972bc3870e17fc73bd3554ac5e6ba7c86ec87a6bdeaf264f02de424f7"
+  },
+  {
+    "file": "집/클로드/research/tx1_temp_offset_days_v1.py",
+    "sha256": "0c0ff4dbd063259ec6f86db9eba77330179cd0b5cff7ba60db168c1992bf2aaf"
+  },
+  {
+    "file": "집/클로드/research/tx1_temp_resid_vs_ec_house_v1.py",
+    "sha256": "34481c6c673c75ca1f13aa68ded9f69a098a8e0421de07d7960b6070bc1c7e98"
+  },
+  {
+    "file": "집/클로드/research/tx2_ec_house_temp_offset_v1.py",
+    "sha256": "6c315bccb539a70f23a9974f44332fc7a1b125542e5c5f404ce9725c310a89e1"
+  },
+  {
+    "file": "집/클로드/research/tx3_cold_ec_house_on_27_v1.py",
+    "sha256": "6bf1d5b04f66ced1afbc1691f8d1485d70a15630ff7c60a17552454b4fa5e469"
+  },
+  {
+    "file": "집/클로드/research/tx3_temp_residual_map_v1.py",
+    "sha256": "210a8cc7711d558a8c7d9b60cd467f89ec14e4325ebdde6e741f828ded5aef5c"
+  },
+  {
+    "file": "집/클로드/research/tx4_top_error_prev_v1.py",
+    "sha256": "84c48158622e9ceba4cebc3bcd3e135715a4d05136df58815d1f7b81c86eea28"
+  },
+  {
+    "file": "집/클로드/research/tx5_hp2_v15_agreement_v1.py",
+    "sha256": "25afa07338355ffeafbe0c4e4d6369b49ad921300fd9d02638f3610ac6f3d0cd"
+  },
+  {
+    "file": "집/클로드/research/ty1_yesterday_same_hour_residual_v1.py",
+    "sha256": "0c4611103a42dc6ea1493f675690f4f7b8fc7906785f30ac5fad465fff1ec0e9"
+  },
+  {
+    "file": "집/클로드/research/ty2_yesterday_same_hour_anchor_v1.py",
+    "sha256": "e6f75c9773b8a4a5d878609983b6a679a4a4ad3913a7219d951bb2e2b3596c69"
+  },
+  {
+    "file": "집/클로드/research/ty3e_ev_and_eval_exposure_v1.py",
+    "sha256": "00f5f0c9988d488820712355e788e4e0c06c68a44cd4937c890bd70aea0d995f"
+  },
+  {
+    "file": "집/클로드/research/ty3_yesterday_hour_fresh_layouts_v1.py",
+    "sha256": "f5575290916177295bfcd4911ddda599cd6d3e9efebf8cd96059a3954ff6b914"
+  },
+  {
+    "file": "집/클로드/research/ty4_reverse_direction_check_v1.py",
+    "sha256": "d4a1be93a0f5eb0445617599099addd244e2aae462bec53c36a179789af50458"
+  },
+  {
+    "file": "집/클로드/research/v15h_hp2_agreement_anchor_v1.py",
+    "sha256": "a2d3c2535094f0d092432a67f0a9f2389d4d5ccfdb31ca737ca2e466284c1d27"
+  },
+  {
+    "file": "집/클로드/research/v15p5_threshold_anchor_v1.py",
+    "sha256": "5d468d20d9b4d3bcb3ab27fb39417d88c6716e4d73fccb4326de21a861ade875"
+  },
+  {
+    "file": "집/클로드/research/v3lf10_flat10_v1.py",
+    "sha256": "baf120b3a17ad421041565993f1d5ec9f17cb1738f789d51bff0e0a1f1566ba7"
+  },
+  {
+    "file": "집/클로드/research/v3lf_field_linker_v3l_v1.py",
+    "sha256": "6b4d73a830f983ff409de8bca1c5a1f69b7f4643f6126f0c990c7270de70ed94"
+  },
+  {
+    "file": "집/클로드/research/v3ly_yesterday_label_conf_gru_v1.py",
+    "sha256": "2ebfc1134045bce2e023064be3608d11112807a11ef1c424291752fbe5b5a3f0"
+  },
+  {
+    "file": "집/클로드/research/v3l_linked_yesterday_gru_v1.py",
+    "sha256": "789990c4f9a4e66537b913e7cb4cd45ade42c05d9107466d8399a2012eaf2a83"
+  },
+  {
+    "file": "집/클로드/research/va1_validator_audit_v1.py",
+    "sha256": "03d747574b6879c503187bf50bc94ed11e34bfdb4d67cfb82c2c630ec5fc31d6"
+  },
+  {
+    "file": "집/클로드/research/vc1_validator_geometry_audit_v1.py",
+    "sha256": "7cc42f531436d418b86f80af3713e83c0372c9b2ff19b51c75f823dedd10d50a"
+  },
+  {
+    "file": "집/클로드/research/vcal1_validator_vs_lb_v1.py",
+    "sha256": "b9fdbad9c39c1160066e4963fa3da9dc4aef46461aff22eca1a41cc1d11a3b8c"
+  },
+  {
+    "file": "집/클로드/research/verify_codex_resid_reset.py",
+    "sha256": "d388c3ab18813fa1d260174da0e5f54771b7263741dd02da5909f02921070106"
+  },
+  {
+    "file": "집/클로드/research/verify_ec_20261002.py",
+    "sha256": "476808f0dd5192d25d5e4ba81854412351d2bf3887f614371d9508c6780efaa1"
+  },
+  {
+    "file": "집/클로드/research/verify_fp.py",
+    "sha256": "7d26784f3adaa8aded7487232939f3ed27913e0afe376d4cdde3dde6a5d31a82"
+  },
+  {
+    "file": "집/클로드/research/verify_sub10_claude.py",
+    "sha256": "db28fe56099cccb0a46f73e54b224d52dbeeda88615ba99d47ab37537ddde627"
+  },
+  {
+    "file": "집/클로드/research/vf1_two_link_verification_v1.py",
+    "sha256": "9965686a0f821c2dd17281db7af8e61b162edef518185a05bd94bf7c8520e216"
+  },
+  {
+    "file": "집/클로드/research/vw1_w40gs_independent_check_v1.py",
+    "sha256": "36f9e5ea40421fae90c211fabd46205b28bd8a750b2cbc5a4f36696924fdc9a9"
+  },
+  {
+    "file": "집/클로드/research/vw2_v3l_weight_gate_sweep_v1.py",
+    "sha256": "edfb121b4e309772c93b732e44431c95e7b19f678ffae21be4efa93d89b18746"
+  },
+  {
+    "file": "집/클로드/research/vw3_v3l_fresh_layouts_weight_v1.py",
+    "sha256": "96bc63ae9dbc4c6db14c2c7c4f810817f241007dd4b9fe36b1ed876ea96f64ee"
+  },
+  {
+    "file": "집/클로드/research/vw4_v3l_linked_weight_fresh_v1.py",
+    "sha256": "1ec3f39f0e6e317323daa7f8be00dd3578045b7f790ff41825aca8b0107dfac2"
+  },
+  {
+    "file": "집/클로드/research/w2c_chain_extension_v1.py",
+    "sha256": "745601ab4b886f92ff57312e6f03ec2774843d7451e4ccb1c3df988b6bdf4a69"
+  },
+  {
+    "file": "집/클로드/research/web_batch1_ec.py",
+    "sha256": "c83c742d58ad569ec83a273a7dfb38ffff1a58d460872d36e652697bce2c839c"
+  },
+  {
+    "file": "집/클로드/research/web_batch1_temp.py",
+    "sha256": "dd7590d6c4d84d88d55bc715443ffd9f4096a79b26d4b105aca4e64b11ceb05a"
+  },
+  {
+    "file": "집/클로드/research/web_gpboost_v1.py",
+    "sha256": "924482cefc5a73e95045715eb41921ddb79dbc512d531c1cee2c072013c5ee5e"
+  },
+  {
+    "file": "집/클로드/research/web_gpboost_v2.py",
+    "sha256": "3c4a2cd1597bb17fd67c342913d64f1754758782e3d7e2b0712441becf4943b6"
+  },
+  {
+    "file": "집/클로드/research/web_tabicl_screen_v1.py",
+    "sha256": "8fbb6b8b773f380e62b739f8b512a65f92a4e2d02c8be1c40e6ee76559d3c743"
+  },
+  {
+    "file": "집/클로드/research/web_tabpfn_ct_gpu.py",
+    "sha256": "c97373a9257ac9a269b52762f58eff3447d3c13b214dc5251ef85769ae6028ba"
+  },
+  {
+    "file": "집/클로드/research/web_tabpfn_linres_gpu.py",
+    "sha256": "0bf1fc8c4b5bdcdbc379aba85afe1769539ca4bc28889f2a269af45f9c0adc1e"
+  },
+  {
+    "file": "집/클로드/research/web_tabpfn_v1.py",
+    "sha256": "d191047db4216884b4310d7922beb85993a4d8d1bec18232f1515360059ab520"
+  },
+  {
+    "file": "집/클로드/research/web_tabpfn_v2.py",
+    "sha256": "d3bc43046738e6b0ff60308413f3c4a3679f9b938c0cc64fabec400d3f1e3959"
+  },
+  {
+    "file": "집/클로드/research/web_tabpfn_v2_gpu.py",
+    "sha256": "77512908069d4f29673c99b4cbff25cf596cd9b69fc7c3de39e06510689b5b8c"
+  },
+  {
+    "file": "집/클로드/research/web_tabpfn_v3_gpu.py",
+    "sha256": "3e8318be853bdf91c217e6a36e0a45316acbb3caf0fedafab60c6ed7b0263b69"
+  },
+  {
+    "file": "집/클로드/research/web_tabpfn_v4_gpu.py",
+    "sha256": "2de8c1e9330ffc0cc76a3960a5a183880d3bc8fbdb04ad3aa5fa3f1197024e11"
+  },
+  {
+    "file": "집/클로드/research/web_tabpfn_v5_gpu.py",
+    "sha256": "bd5c7174a926bbee726399b48123557e034a437b0f94af637c11ad0e7fe36da6"
+  },
+  {
+    "file": "집/클로드/research/web_tabpfn_v6_gpu.py",
+    "sha256": "39376de4bd59a0907c10c42a6cd5cca75b5322134233ba9eb538e572e51d5df7"
+  },
+  {
+    "file": "집/클로드/research/wt2_judge_from_saved_v1.py",
+    "sha256": "bc6cdfde1b0c6225ed16a2fb5717133af4cb06cf43222e0c56b6ce0386c19b1e"
+  },
+  {
+    "file": "집/클로드/research/yl1_linked_yesterday_features_v1.py",
+    "sha256": "e3332276793f7edb4e0d76646c480f66afef6d8aed2f0f05182d7a259cd0e832"
+  },
+  {
+    "file": "집/클로드/research/_mk_hg2.py",
+    "sha256": "df2d6b9b8fc02a1aa25e8353dcecfac0b00306bb54312083d58cf55e050c5c5b"
+  },
+  {
+    "file": "집/클로드/research/local/st_dong_assign_v1.csv",
+    "sha256": "e5c0665bd092413c66137088bf81b9ab2d3f3df66fe60d74045e5af6138c550d"
+  },
+  {
+    "file": "_tabpfn_cache/tabpfn-v2-regressor.ckpt",
+    "sha256": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736"
+  },
+  {
+    "file": "README_FT2_연구실실행묶음.md",
+    "sha256": "7db4883aee538b5d60d987af527fbe418472c2e36f6dca3ae25b3d936068fe66"
+  }
+]

@@ -1,0 +1,16 @@
+logo_im_set_gpt1 fit DONE 3629 theta 0.8984334860742147 0.9643065000772416
+LOGO {'held': 'im_set_gpt1', 'n': 100, 'base_missed': 1, 'fixed': 0, 'removed_other_positive_overlap': 135, 'train': 3629, 'removed_negative': 486}
+Traceback (most recent call last):
+  File "/home/adilab/storage/nadan/codex/im_egpt_20261016_v1/run_v2.py", line 116, in <module>
+    if __name__=='__main__':main()
+  File "/home/adilab/storage/nadan/codex/im_egpt_20261016_v1/run_v2.py", line 80, in main
+    M,th,trc,_=fitcal(tr,rows,hr,'logo_'+held);p,pn,s=predict(held,M,th,trc);G,gr=load(held);y=np.array([int(r['label']) for r in gr]);fix=int(((p<.5)&(pn>=.5)&(y==1)).sum())
+  File "/home/adilab/storage/nadan/codex/im_egpt_20261016_v1/run_v2.py", line 51, in fitcal
+    m=H.lrfit(F['X'][tr],y[tr],C=.5);oof[te]=H.lrp(m,F['X'][te]);fold[te]=j
+  File "/home/adilab/storage/nadan/farmai_img/data/image/im44_h_train_eval.py", line 30, in lrfit
+    sc = StandardScaler().fit(X); lr = LogisticRegression(C=C, class_weight="balanced", max_iter=3000).fit(sc.transform(X), y)
+  File "/home/adilab/anaconda3/envs/nadan/lib/python3.10/site-packages/sklearn/base.py", line 1365, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/adilab/anaconda3/envs/nadan/lib/python3.10/site-packages/sklearn/linear_model/_logistic.py", line 1335, in fit
+    raise ValueError(
+ValueError: This solver needs samples of at least 2 classes in the data, but the data contains only one class: np.int64(1)
