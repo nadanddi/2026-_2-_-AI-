@@ -1,0 +1,38 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 chain-ext option p>=0.3 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT10 chain-ext option p>=0.0 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.3 agree>=1: new chains 12 | true 3/6 known
+EXT12 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.0 agree>=1: new chains 16 | true 3/7 known
+EXT12 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.3 agree>=1: new chains 6 | true 1/2 known
+DIAG10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.0 agree>=1: new chains 8 | true 1/2 known
+DIAG10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+selected chain-extension option by block group: {0: (0.0, 1), 1: (0.0, 1), 'all': (0.0, 1)}
+EXT10 records eligible for soft anchor: 36 | mass>=.5: 14
+EXT12 records eligible for soft anchor: 54 | mass>=.5: 11
+DIAG10 records eligible for soft anchor: 149 | mass>=.5: 111
+AGF selected (lambda, mass min) by block group: {0: None, 1: (0.75, 0.5)}
+  EXT10: changed records 7 | helped 5 harmed 2 | total -34.33 | without top-3 helped +3.40 | top {'F47_145': -30.05, 'F13_166': -4.13, 'F47_128': -3.54}
+  EXT12: changed records 6 | helped 3 harmed 3 | total +13.06 | without top-3 helped +15.88 | top {'F47_072': -1.36, 'F47_093': -1.23, 'F47_161': -0.23}
+  DIAG10: changed records 54 | helped 28 harmed 26 | total +63.58 | without top-3 helped +93.60 | top {'F13_048': -12.06, 'F13_028': -11.49, 'F47_021': -6.47}
+==== scope all ====
+  AGF vs R27+CH5 | EXT10: cells -1.795 -1.822 -1.703 -1.724 | <=6C +0.08% | <=8C +0.14% | out-of-range +0.85%
+  AGF vs R27+CH5 | EXT12: cells +0.253 +0.252 +0.266 +0.265 | <=6C +0.00% | <=8C +0.03% | out-of-range +0.36%
+  AGF vs R27+CH5 | DIAG10: cells +1.020 +1.050 +1.038 +1.068 | <=6C -0.74% | <=8C -1.67% | out-of-range -0.75%
+AGF: 12 cells max +1.068% mean -0.153% all better False | dedup P(worse) 0.5716 | MSE upper95 +2.149% | EXT <=8C +0.09% -> superiority FAIL | replacement(non-inferior) FAIL
+==== scope pass2 ====
+C:\work\farmai\집\클로드\research\agf1_soft_candidate_anchor_v1.py:102: RuntimeWarning: Mean of empty slice
+  print(f"  {a} vs R27+CH5 | {L}: cells {' '.join('%+.3f' % (100 * x) for x in cellch(L))} | <=6C {100 * np.nanmean(cellch(L, tt <= 6)):+.2f}% | <=8C {100 * np.nanmean(cellch(L, tt <= 8)):+.2f}% | out-of-range {100 * np.nanmean(cellch(L, R_['ood'])):+.2f}%")
+  AGF vs R27+CH5 | EXT10: cells +0.000 +0.000 +0.000 +0.000 | <=6C +nan% | <=8C +0.00% | out-of-range +0.00%
+  AGF vs R27+CH5 | EXT12: cells +0.060 +0.048 +0.053 +0.041 | <=6C +nan% | <=8C +0.00% | out-of-range +0.00%
+  AGF vs R27+CH5 | DIAG10: cells +6.063 +6.391 +6.293 +6.618 | <=6C +nan% | <=8C +0.00% | out-of-range +nan%
+AGF: 12 cells max +6.618% mean +2.131% all better False | dedup P(worse) 1.0000 | MSE upper95 +8.883% | EXT <=8C +0.00% -> superiority FAIL | replacement(non-inferior) FAIL
