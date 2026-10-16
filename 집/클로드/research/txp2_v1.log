@@ -1,0 +1,28 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 chain-ext option p>=0.3 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT10 chain-ext option p>=0.0 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.3 agree>=1: new chains 12 | true 3/6 known
+EXT12 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.0 agree>=1: new chains 16 | true 3/7 known
+EXT12 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.3 agree>=1: new chains 6 | true 1/2 known
+DIAG10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.0 agree>=1: new chains 8 | true 1/2 known
+DIAG10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+selected chain-extension option by block group: {0: (0.0, 1), 1: (0.0, 1), 'all': (0.0, 1)}
+EXT10: pass-2 rows 216 | rows where TX3 acts (pass-2) 19
+EXT12: pass-2 rows 624 | rows where TX3 acts (pass-2) 23
+DIAG10: pass-2 rows 1248 | rows where TX3 acts (pass-2) 23
+C:\work\farmai\집\클로드\research\txp2_tx3_pass2_v1.py:101: RuntimeWarning: Mean of empty slice
+  print(f"  {a} vs R27+CH5 | {L}: cells {' '.join('%+.3f' % (100 * x) for x in cellch(L))} | <=6C {100 * np.nanmean(cellch(L, tt <= 6)):+.2f}% | <=8C {100 * np.nanmean(cellch(L, tt <= 8)):+.2f}% | out-of-range {100 * np.nanmean(cellch(L, R_['ood'])):+.2f}%")
+  NOTX3 vs R27+CH5 | EXT10: cells +0.216 +0.208 +0.215 +0.206 | <=6C +nan% | <=8C +0.00% | out-of-range +2.73%
+  NOTX3 vs R27+CH5 | EXT12: cells +0.104 +0.101 +0.107 +0.104 | <=6C +nan% | <=8C +0.00% | out-of-range +0.85%
+  NOTX3 vs R27+CH5 | DIAG10: cells +0.005 +0.004 +0.005 +0.004 | <=6C +nan% | <=8C +0.00% | out-of-range +nan%
+NOTX3: 12 cells max +0.216% mean +0.107% all better False | dedup P(worse) 0.6741 | MSE upper95 +0.215% | EXT <=8C +0.00% -> superiority FAIL | replacement(non-inferior) PASS
