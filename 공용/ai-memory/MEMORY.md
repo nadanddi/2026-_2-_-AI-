@@ -2,18 +2,31 @@
 - [New files, not edits](new-files-not-edits.md) — never modify already-produced/used files in the competition repo; version them under new names
 - [Deliverable triple](deliverable-triple.md) — every model build ships CSV + reproduction ZIP + Korean explanation doc for teammates
 - [Analysis before answers](analysis-before-answers.md) — findings drive deeper data analysis first; submit only what passes calibrated validators
-- [Rule 5 interpretation](rule5-interpretation.md) — LB analysis & hypothesis-test submissions OK; banned: .01 score-nudging loops, score-derived weights, hidden-label access
-- [Skill, not luck](skill-not-luck.md) — prove gains across seeds/validators with pre-set criteria; adopt any size if same direction everywhere + DIAG10 CI excludes 0
-- [No submission prep until asked](no-submission-prep-until-asked.md) — don't declare '확정된 N회차 구성' or offer to build files until user says to submit
+- [Rule 5 interpretation](rule5-interpretation.md) — LB analysis & hypothesis-test submissions OK; banned: .01 score-nudging loops, score-derived weights, hidden-label access, AND using an LB-implied test value as evidence for the next rule (F13_235→F13_237 case, repeated by mistake 10-13)
+- [Skill, not luck](skill-not-luck.md) — prove gains across seeds/validators with pre-set criteria; adopt any size if same direction everywhere + DIAG10 CI excludes 0; 10-13 small-sample route: all cells better + zero harmed records; 10-13 EC specialty rule: P2LOO+EL1 main, EV linker robustness, DIAG10 harm guard
+- [No submission prep until asked](no-submission-prep-until-asked.md) — never offer/suggest submission files or switching to submission prep (incl. deadline nudges) until the user says so (repeated 10-12)
 - [Explore autonomously](explore-autonomously.md) — run experiments without asking; ask only for submissions/deletions (revokes 'ask me first')
-- [Temp=Claude, EC=Codex](division-temp-claude-ec-codex.md) — since 2026-09-28 Claude does temperature only; EC work goes to Codex
+- [Claude owns temp AND EC](division-temp-claude-ec-codex.md) — since 2026-10-11 집 클로드 does both targets; Codex output is read-only reference
 - [Check catalog before 'new'](check-catalog-before-new.md) — grep 카탈로그/worklogs before calling a hypothesis untested
 - [No presentation prep](no-presentation-prep.md) — user handles presentation/report separately; don't suggest it
 - [No domain prompting](no-domain-prompting.md) — don't mention/ask for domain knowledge until user hands over materials
 - [No exaggeration](no-exaggeration.md) — label provenance (general knowledge vs read sources); never overstate coverage
-- [Harsh critic at plan/mid/final](harsh-critic-every-result.md) — critic subagent reviews each experiment at 3 stages; always report critique + improvements
+- [Harsh critic at plan/mid/final](harsh-critic-every-result.md) — critique at 3 stages; since 10-12 plan/mid = self-critique, critic subagent only at final for decision-relevant results (see fewer-subagents)
 
 - [Prior-competition data restricted](prior-competition-data-restricted.md) — prior-competition strawberry data BANNED: never load/analyse/use/cite; no history notes about it; keep files out of git
 - [Plain explanations](plain-explanations.md) — lead with plain-language meaning, then numbers; check claim direction vs known numbers
 - [Use both columns](use-both-columns.md) — submissions score temp & EC separately; never leave one column as baseline in a test submission
 - [Training cleaning may be non-causal](training-cleaning-noncausal-ok.md) — 10-10 ruling: repair TRAINING inputs with past+future values; test features stay causal; held-out rows keep original inputs
+- [Cross-farm training calendar OK](cross-farm-training-calendar-ok.md) — superseded by train-data-unrestricted
+- [Train data unrestricted](train-data-unrestricted.md) — 10-12: train_X/train_y usable any way (later dates, other farm, as features); test_X rules unchanged
+- [Rule-safety checklist](rule-safety-checklist.md) — banned constructs; 10-16 organizer: W2 (eval-existence branch) BANNED (subs 18·19·22·23·24), earlier-record prediction chain ALLOWED, layout-mimicking validators ALLOWED
+- [Researcher sweeps](researcher-sweeps.md) — sweep reasoned ranges, justify each formula, select on one split/judge on another; no single conventional value
+- [Fewer subagents](fewer-subagents.md) — 10-12: do work myself; critic subagent only at final stage of decision-relevant experiments
+- [Own answer, not LB guessing](own-answer-not-lb-guessing.md) — 10-12: don't steer research by guessing other teams' methods from scores; derive from our data
+- [Field applicability rubric](field-applicability-rubric.md) — presentation 10/30 pts; 0 pts if CORE performance relies on artifacts even when separated (PDF 10-12); round 15 gains were general methods
+- [Structure-matched validator](structure-matched-validator.md) — 10-14 user approved pseudo-eval-block validator + situation-stratified judging; never weight by eval counts
+- [GPU job mailbox](gpu-job-mailbox.md) — heavy experiments → G:\내 드라이브\farmai_sync\gpu_jobs (JOB.md + bundle); user tells lab Codex 'gpu_jobs 확인해봐'
+- [Dissect, then rebuild](dissect-then-rebuild.md) — never reuse old models as-is; dissect, keep only the useful part, adapt to current setup, check 5-point rubric
+- [Parallel checks](parallel-checks.md) — run checks_vNN base + cut + isolation reruns concurrently (thread pool), never sequentially
+- [No premature 'best'](no-premature-best.md) — say '현재 검증된 최고 구성' + remaining room; never '최선/상한' without upper-bound evidence
+- [Record number = official day](record-number-is-official-day.md) — row_id number is the official greenhouse relative day; number-order history is field-consistent (10-16 correction)

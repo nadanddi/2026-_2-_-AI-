@@ -1,0 +1,15 @@
+FL eval: links 60 | p0>=.5 45 | anchors 15 | cross-farm anchors 2
+
+TAG2 eval: original anchors 15 | added 8 [('F13_185', 'F47_026', 0.7078), ('F13_187', 'F13_035', 0.7889), ('F13_202', 'F13_072', 0.5533), ('F13_203', 'F13_079', 0.5377), ('F13_205', 'F13_064', 0.5209), ('F13_239', 'F13_131', 0.6658), ('F47_198', 'F47_083', 0.5456), ('F47_202', 'F47_092', 0.6072)]
+
+CHT eval chain extension: 4 [('F13_201', 'F13_200', 0.234), ('F13_238', 'F13_236', 0.306), ('F47_199', 'F47_198', 0.4654), ('F47_223', 'F47_221', 0.4647)]
+
+wrote C:\Users\aozks\AppData\Local\Temp\c35chk_ahrvz1ng\t0_ood1.csv | training min in_temp {'F13': 3.1, 'F47': 4.2} | rows with s > .1: 158 | change mean -0.009 max |0.584| | records changed 58
+
+wrote C:\Users\aozks\AppData\Local\Temp\c35chk_ahrvz1ng\t_fl.csv | anchored records 23, rows changed 552, RMS 0.1646, mean +0.0402, min -0.745, max +1.229
+
+wrote C:\Users\aozks\AppData\Local\Temp\c35chk_ahrvz1ng\EC\output_29\ec_nh_fl.csv | anchored records 15 | effective strength {'F13_186': 0.655, 'F13_207': 0.719, 'F13_208': 0.791, 'F13_209': 0.752, 'F13_220': 0.784, 'F13_221': 0.706, 'F13_235': 0.718, 'F47_183': 0.703, 'F47_185': 0.66, 'F47_186': 0.756, 'F47_200': 0.788, 'F47_203': 0.651, 'F47_218': 0.776, 'F47_235': 0.721, 'F47_237': 0.718} | anchor change RMS 0.0475, rows changed 360
+
+wrote C:\Users\aozks\AppData\Local\Temp\c35chk_ahrvz1ng\t27.csv | rows changed 144 (records 13), mean add +0.0142, max +0.250
+
+wrote C:\Users\aozks\AppData\Local\Temp\c35chk_ahrvz1ng\t29.csv | chained records 17 [('F13_188', 'F13_187'), ('F13_201', 'F13_200'), ('F13_206', 'F13_205'), ('F13_222', 'F13_220'), ('F13_223', 'F13_221'), ('F13_224', 'F13_222'), ('F13_225', 'F13_223'), ('F13_226', 'F13_223'), ('F13_229', 'F13_227'), ('F13_238', 'F13_236'), ('F47_199', 'F47_198'), ('F47_222', 'F47_220'), ('F47_223', 'F47_221'), ('F47_224', 'F47_222'), ('F47_225', 'F47_223'), ('F47_226', 'F47_224'), ('F47_227', 'F47_225')] | rows changed 408, RMS 0.1093, mean +0.0069, min -1.079, max +1.202

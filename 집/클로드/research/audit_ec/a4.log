@@ -1,0 +1,20 @@
+pairs 272 pass-2 pairs 24
+all: day mean - prev23 : mean -0.0136 median +0.0026 sd 0.2985 | day mean - prev daymean: mean -0.0086 sd 0.2886 | rel bias (mean/A-1) +0.007
+   running-mean minus A by hour (mean): -0.020 -0.025 -0.028 -0.031 -0.030 -0.025 -0.018 -0.014
+   hourly EC minus A by hour (mean):   -0.020 -0.029 -0.035 -0.032 -0.021 +0.007 +0.022 +0.001
+   |hour0 EC - A| median 0.0060  (continuity at midnight)
+pass2: day mean - prev23 : mean -0.0897 median +0.0140 sd 0.5402 | day mean - prev daymean: mean -0.0774 sd 0.5160 | rel bias (mean/A-1) +0.026
+   running-mean minus A by hour (mean): -0.098 -0.101 -0.103 -0.106 -0.104 -0.098 -0.093 -0.090
+   hourly EC minus A by hour (mean):   -0.098 -0.103 -0.110 -0.108 -0.091 -0.071 -0.062 -0.080
+   |hour0 EC - A| median 0.0180  (continuity at midnight)
+                   n    bias     rel
+lev                                 
+(0.113, 0.262]  68.0  0.0141  0.0688
+(0.262, 0.394]  68.0  0.0298  0.0888
+(0.394, 0.566]  68.0  0.1251  0.2990
+(0.566, 2.771]  68.0 -0.2233 -0.1744
+train min in_temp at h0 5.50; eval records below it: [['F47_220_00', 3.2], ['F47_221_00', 5.2], ['F47_222_00', 5.1], ['F47_223_00', 5.3], ['F13_224_00', 5.3], ['F13_227_00', 5.4], ['F13_228_00', 5.4]]
+train in_temp overall min 3.10 ; eval rows below train overall min: 24
+in_temp |2nd diff| train p2 median 0.700 p95 3.900 | eval median 0.600 p95 3.700
+in_hum |2nd diff| train p2 median 2.000 p95 10.000 | eval median 2.000 p95 10.000
+in_co2 |2nd diff| train p2 median 4.000 p95 65.000 | eval median 3.000 p95 77.050

@@ -1,0 +1,5 @@
+C:\work\farmai\제출\미제출\submission_24_V3GRU온도_TabPFN하루수준EC_가설검정\팜모니_정형데이터_재현패키지_24\온도\code\make_submission_v13_temp.py:112: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test = test.set_index("row_id").loc[sX.row_id].reset_index()
+C:\work\farmai\제출\미제출\submission_24_V3GRU온도_TabPFN하루수준EC_가설검정\팜모니_정형데이터_재현패키지_24\온도\code\make_submission_v13_temp.py:122: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test["cx__" + c] = CF_full.loc[test.row_id, c].values
+wrote ../output/temp_candidate_v24base.csv | V3 1264s | change vs P9: RMS 0.0172, mean -0.0003, min -0.101, max +0.088 | V3 used (g*h>0) on 37% of rows

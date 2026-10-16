@@ -1,0 +1,95 @@
+{
+ "n": 360,
+ "n_by_farm": {
+  "F13": 180,
+  "F47": 180
+ },
+ "S1_co2_rate": {
+  "pooled_rho": 0.0667,
+  "perm_p": 0.3131,
+  "partial_rho": 0.0401,
+  "partial_p": 0.5323,
+  "by_farm_half": {
+   "F13_h1": [
+    -0.122,
+    53
+   ],
+   "F13_h2": [
+    0.027,
+    77
+   ],
+   "F47_h1": [
+    0.325,
+    39
+   ],
+   "F47_h2": [
+    0.108,
+    74
+   ]
+  },
+  "survives": false,
+  "hi_vs_rest_median": [
+   2.9,
+   3.5
+  ]
+ },
+ "S2_ah_surplus": {
+  "pooled_rho": -0.0395,
+  "perm_p": 0.4561,
+  "partial_rho": 0.0248,
+  "partial_p": 0.6397,
+  "by_farm_half": {
+   "F13_h1": [
+    -0.104,
+    90
+   ],
+   "F13_h2": [
+    0.022,
+    90
+   ],
+   "F47_h1": [
+    -0.032,
+    89
+   ],
+   "F47_h2": [
+    0.146,
+    90
+   ]
+  },
+  "survives": false,
+  "hi_vs_rest_median": [
+   2.786,
+   2.1
+  ]
+ },
+ "S3_dew_gap0": {
+  "pooled_rho": -0.0846,
+  "perm_p": 0.1118,
+  "partial_rho": -0.0171,
+  "partial_p": 0.7465,
+  "by_farm_half": {
+   "F13_h1": [
+    -0.115,
+    89
+   ],
+   "F13_h2": [
+    -0.092,
+    90
+   ],
+   "F47_h1": [
+    -0.098,
+    88
+   ],
+   "F47_h2": [
+    0.063,
+    90
+   ]
+  },
+  "survives": false,
+  "hi_vs_rest_median": [
+   3.699,
+   4.126
+  ]
+ },
+ "null_abs_rho_q95": 0.1201
+}

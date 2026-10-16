@@ -1,0 +1,8 @@
+[0] regenerated: temp changed vs round-13 rows 192, EC changed vs round-12 rows 29
+[F] F13 cut 206 h04: temp past unchanged True, EC past unchanged True (past rows 269; future moved temp 39.21, EC 26.563)
+[F] F13 cut 237 h03: temp past unchanged True, EC past unchanged True (past rows 652; future moved temp 2.62, EC 7.575)
+[F] F47 cut 202 h05: temp past unchanged True, EC past unchanged True (past rows 222; future moved temp 50.09, EC 20.957)
+[X] F13 isolation: temp unchanged True, EC unchanged True
+[X] F47 isolation: temp unchanged True, EC unchanged True
+[R] full pipeline reproduces submission_23.csv (6 decimals): True
+ALL PASS

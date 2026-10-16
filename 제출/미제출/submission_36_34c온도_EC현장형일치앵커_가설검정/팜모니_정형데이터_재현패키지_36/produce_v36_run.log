@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\work\farmai\제출\미제출\submission_36_34c온도_EC현장형일치앵커_가설검정\팜모니_정형데이터_재현패키지_36\checks_v36.py", line 142, in <module>
+    {"produce": produce, "check": check}[sys.argv[1]](sys.argv[2])
+  File "C:\work\farmai\제출\미제출\submission_36_34c온도_EC현장형일치앵커_가설검정\팜모니_정형데이터_재현패키지_36\checks_v36.py", line 109, in produce
+    keep = os.path.join(ROOT, "output_36"); t, e = run(pub, keep=keep)
+                                                   ^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\제출\미제출\submission_36_34c온도_EC현장형일치앵커_가설검정\팜모니_정형데이터_재현패키지_36\checks_v36.py", line 53, in run
+    script(os.path.join(T, "linker_v7", "ap_fl.py"), ["train", fl], {"LINKER_WORK": lwm})
+  File "C:\work\farmai\제출\미제출\submission_36_34c온도_EC현장형일치앵커_가설검정\팜모니_정형데이터_재현패키지_36\checks_v36.py", line 31, in script
+    raise RuntimeError("%s failed:\n%s" % (path, r.stderr[-3000:]))
+RuntimeError: C:\work\farmai\제출\미제출\submission_36_34c온도_EC현장형일치앵커_가설검정\팜모니_정형데이터_재현패키지_36\온도\linker_v7\ap_fl.py failed:
+

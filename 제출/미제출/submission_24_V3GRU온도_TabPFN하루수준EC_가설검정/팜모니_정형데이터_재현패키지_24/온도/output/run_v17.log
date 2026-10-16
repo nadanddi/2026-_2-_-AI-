@@ -1,0 +1,22 @@
+C:\Users\aozks\AppData\Local\Temp\claude\C--work-farmai\96fe1d15-2691-4cbd-a117-4a3e2d96bdf9\scratchpad\build17\팜모니_정형데이터_재현패키지_17\온도\code\make_submission_v13_temp.py:112: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test = test.set_index("row_id").loc[sX.row_id].reset_index()
+C:\Users\aozks\AppData\Local\Temp\claude\C--work-farmai\96fe1d15-2691-4cbd-a117-4a3e2d96bdf9\scratchpad\build17\팜모니_정형데이터_재현패키지_17\온도\code\make_submission_v13_temp.py:122: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test["cx__" + c] = CF_full.loc[test.row_id, c].values
+  base done (37s)
+  codex done (38s)
+  tabpfn sample 1 done (264s)
+  tabpfn sample 2 done (473s)
+  tabpfn sample 3 done (691s)
+  tabpfn sample 4 done (927s)
+  tabpfn sample 5 done (1165s)
+  tabpfn sample 6 done (1383s)
+  tabpfn sample 7 done (1598s)
+  tabpfn sample 8 done (1813s)
+  gru done (97s)
+
+wrote ../output\temp_candidate_v17.csv
+v17 - same-run 9th recipe: RMS 0.0165, mean +0.0004, min -0.105, max +0.187 | GRU used (g*h>0) on 37% of rows
+  in_temp<=8 (g=0) rows  215  mean change +0.0000  RMS 0.0000
+  0<g<1            rows  216  mean change +0.0000  RMS 0.0000
+  g=1              rows 1009  mean change +0.0005  RMS 0.0197
+wrote temp_candidate_v17.json

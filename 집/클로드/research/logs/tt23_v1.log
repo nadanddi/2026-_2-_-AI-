@@ -1,0 +1,36 @@
+I 0 done (val 960, train 6912, pass-2 val rows 0)
+I 1 done (val 960, train 7056, pass-2 val rows 240)
+I 2 done (val 960, train 6960, pass-2 val rows 192)
+I 3 done (val 960, train 6744, pass-2 val rows 0)
+I 4 done (val 960, train 6792, pass-2 val rows 240)
+I 5 done (val 960, train 7056, pass-2 val rows 240)
+I 6 done (val 960, train 6720, pass-2 val rows 0)
+I 7 done (val 960, train 6912, pass-2 val rows 192)
+I 8 done (val 960, train 6792, pass-2 val rows 240)
+I 9 done (val 960, train 6768, pass-2 val rows 0)
+
+==== PW1 (judged)
+  pass-2   seed 808 PFN A: -0.56% P 0.1202 | F13 -0.20% F47 -0.67%
+  pass-2   seed 808 PFN B: -0.54% P 0.1219 | F13 -0.17% F47 -0.65%
+  pass-2   seed 909 PFN A: -0.56% P 0.1202 | F13 -0.17% F47 -0.67%
+  pass-2   seed 909 PFN B: -0.53% P 0.1329 | F13 -0.14% F47 -0.65%
+  pass-2   rows 1248 mean -0.55% P max 0.1329 -> fail
+  all rows seed 808 PFN A: +0.35% P 0.9186 | F13 +0.20% F47 +0.45%
+  all rows seed 808 PFN B: +0.31% P 0.8872 | F13 +0.17% F47 +0.40%
+  all rows seed 909 PFN A: +0.35% P 0.9218 | F13 +0.22% F47 +0.44%
+  all rows seed 909 PFN B: +0.31% P 0.8933 | F13 +0.19% F47 +0.40%
+  all rows rows 8880 mean +0.33% P max 0.9218
+
+==== P1 (reported)
+  pass-2   seed 808 PFN A: -0.72% P 0.0813 | F13 +0.06% F47 -0.95%
+  pass-2   seed 808 PFN B: -0.69% P 0.0924 | F13 +0.06% F47 -0.92%
+  pass-2   seed 909 PFN A: -0.71% P 0.0859 | F13 +0.09% F47 -0.94%
+  pass-2   seed 909 PFN B: -0.68% P 0.0954 | F13 +0.09% F47 -0.91%
+  pass-2   rows 1248 mean -0.70% P max 0.0954
+  all rows seed 808 PFN A: +0.18% P 0.7820 | F13 +0.22% F47 +0.16%
+  all rows seed 808 PFN B: +0.16% P 0.7509 | F13 +0.20% F47 +0.14%
+  all rows seed 909 PFN A: +0.18% P 0.7800 | F13 +0.23% F47 +0.15%
+  all rows seed 909 PFN B: +0.16% P 0.7565 | F13 +0.21% F47 +0.13%
+  all rows rows 8880 mean +0.17% P max 0.7820
+
+VERDICT PW1: FAIL

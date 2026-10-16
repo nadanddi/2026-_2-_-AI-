@@ -1,0 +1,90 @@
+C:\work\farmai\집\클로드\research\roles\ec\ec_role_probe_v1.py:29: Pandas4Warning: Starting with pandas version 4.0 all arguments of max will be keyword-only.
+  S['amp'] = E.max(1) - E.min(1)
+C:\work\farmai\집\클로드\research\roles\ec\ec_role_probe_v1.py:29: Pandas4Warning: Starting with pandas version 4.0 all arguments of min will be keyword-only.
+  S['amp'] = E.max(1) - E.min(1)
+C:\work\farmai\집\클로드\research\roles\ec\ec_role_probe_v1.py:30: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  S['day_minus_night'] = E[list(range(9, 17))].mean(1) - E[list(range(0, 6))].mean(1)
+C:\work\farmai\집\클로드\research\roles\ec\ec_role_probe_v1.py:30: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  S['day_minus_night'] = E[list(range(9, 17))].mean(1) - E[list(range(0, 6))].mean(1)
+C:\work\farmai\집\클로드\research\roles\ec\ec_role_probe_v1.py:31: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  S['jumps'] = (E.diff(axis=1).abs() > 0.05).sum(1)
+기록 수 400
+
+[기술] 수준별 하루 모양 (중앙값)
+         dlt    rel    amp  day_minus_night  jumps  hmin  hmax    n
+lv                                                                 
+<.5    0.004  0.018  0.040            0.007    0.0   8.0  16.0  257
+.5-1   0.015  0.025  0.079            0.033    0.0   7.0  16.0  115
+1-1.5  0.196  0.147  0.660            0.069    7.0   8.0  17.0   10
+>=1.5  0.000  0.000  0.485           -0.077    7.5  11.0  17.5   18
+
+[기술] 0시 대비 시간별 EC 변화 중앙값
+ hour    0      3      6      9      12     15     18     21
+lv                                                         
+<.5    0.0 -0.003 -0.007 -0.009  0.003  0.014  0.013  0.007
+.5-1   0.0 -0.012 -0.018 -0.006  0.018  0.045  0.050  0.028
+1-1.5  0.0 -0.049 -0.089 -0.040 -0.056  0.154  0.278  0.244
+>=1.5  0.0 -0.039 -0.073 -0.082 -0.125 -0.074  0.203  0.085
+
+[1차 T1] 하루 변화량(dlt) ~ 그날 입력 (+e0 미사용 / 사용)
+  dlt              입력만: CV R2 = -0.023 (시드 [-0.041 -0.016 -0.014])
+  dlt              +e0: CV R2 = -0.049 (시드 [-0.076 -0.039 -0.032])
+  rel              입력만: CV R2 = -0.016 (시드 [-0.017 -0.014 -0.018])
+  rel              +e0: CV R2 = -0.012 (시드 [-0.011 -0.011 -0.013])
+  amp              입력만: CV R2 = +0.182 (시드 [0.201 0.197 0.15 ])
+  amp              +e0: CV R2 = +0.514 (시드 [0.535 0.517 0.49 ])
+  day_minus_night  입력만: CV R2 = +0.008 (시드 [ 0.013  0.025 -0.014])
+  day_minus_night  +e0: CV R2 = +0.004 (시드 [ 0.02   0.087 -0.095])
+  스피어만 dlt vs 입력: {'rad_out': np.float64(-0.015), 'tin': np.float64(-0.08), 'tout': np.float64(-0.143), 'hum': np.float64(-0.057), 'vpd': np.float64(0.003), 'vent': np.float64(-0.181), 'co2': np.float64(-0.065)}
+  스피어만 amp vs 입력: {'rad_out': np.float64(-0.012), 'tin': np.float64(-0.342), 'tout': np.float64(-0.493), 'hum': np.float64(-0.147), 'vpd': np.float64(-0.014), 'vent': np.float64(-0.479), 'co2': np.float64(-0.204)}
+
+같은 동 연결쌍(ce1<=.02): 389
+[1차 T2] 전날 출렁임 a_amp vs 다음날 변화 b_dlt: rho=0.210, 부분(e0통제)=0.154
+          전날 변화 a_dlt vs 다음날 변화 b_dlt: rho=0.288
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\roles\ec\ec_role_probe_v1.py", line 79, in <module>
+    P = P.join(q[['res']], how='inner')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\frame.py", line 12800, in join
+    return merge(
+           ^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\reshape\merge.py", line 399, in merge
+    return op.get_result()
+           ^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\reshape\merge.py", line 1141, in get_result
+    join_index, left_indexer, right_indexer = self._get_join_info()
+                                              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\reshape\merge.py", line 1409, in _get_join_info
+    join_index, left_indexer, right_indexer = left_ax.join(
+                                              ^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\indexes\base.py", line 281, in join
+    join_index, lidx, ridx = meth(self, other, how=how, level=level, sort=sort)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\indexes\base.py", line 4461, in join
+    return self._join_multi(other, how=how)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\indexes\base.py", line 4600, in _join_multi
+    raise ValueError("cannot join with no overlapping index names")
+ValueError: cannot join with no overlapping index names
+  rel              입력만: CV R2 = -0.016 (시드 [-0.017 -0.014 -0.018])
+  rel              +e0: CV R2 = -0.012 (시드 [-0.011 -0.011 -0.013])
+  amp              입력만: CV R2 = +0.182 (시드 [0.201 0.197 0.15 ])
+  amp              +e0: CV R2 = +0.514 (시드 [0.535 0.517 0.49 ])
+  day_minus_night  입력만: CV R2 = +0.008 (시드 [ 0.013  0.025 -0.014])
+  day_minus_night  +e0: CV R2 = +0.004 (시드 [ 0.02   0.087 -0.095])
+  스피어만 dlt vs 입력: {'rad_out': np.float64(-0.015), 'tin': np.float64(-0.08), 'tout': np.float64(-0.143), 'hum': np.float64(-0.057), 'vpd': np.float64(0.003), 'vent': np.float64(-0.181), 'co2': np.float64(-0.065)}
+  스피어만 amp vs 입력: {'rad_out': np.float64(-0.012), 'tin': np.float64(-0.342), 'tout': np.float64(-0.493), 'hum': np.float64(-0.147), 'vpd': np.float64(-0.014), 'vent': np.float64(-0.479), 'co2': np.float64(-0.204)}
+
+같은 동 연결쌍(ce1<=.02): 389
+[1차 T2] 전날 출렁임 a_amp vs 다음날 변화 b_dlt: rho=0.210, 부분(e0통제)=0.154
+          전날 변화 a_dlt vs 다음날 변화 b_dlt: rho=0.288
+          (e0<1만 n=367) a_dlt~b_dlt rho=0.331, a_amp~b_dlt rho=0.253
+          피어슨 a_dlt~b_dlt=0.231
+[1차 T3] 0시 잔차 vs 전날 같은 동 입력/모양 (n=350)
+   a_rad: rho=+0.016
+   a_vpd: rho=+0.068
+   a_dlt: rho=-0.161
+   a_amp: rho=-0.119
+[2차] 0시 잔차 vs 입력 tout/vent(출렁임 예측 입력): {'tout': np.float64(-0.068), 'vent': np.float64(0.057)}
+[2차] 0시 잔차 vs 그날 자기 하루 지표: {'rad_out': np.float64(-0.025), 'vpd': np.float64(-0.031), 'amp': np.float64(-0.124), 'dlt': np.float64(0.119)}
+[2차] 잔차 크기: |res| 중앙 0.051; 고EC(e0>=1.5) 잔차 중앙 -0.312, 보통 0.010

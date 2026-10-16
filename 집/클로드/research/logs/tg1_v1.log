@@ -1,0 +1,78 @@
+  DIAG10 DIAG10_4.csv done
+  DIAG10 DIAG10_5.csv done
+  DIAG10 DIAG10_6.csv done
+  DIAG10 DIAG10_7.csv done
+  DIAG10 DIAG10_8.csv done
+  DIAG10 DIAG10_9.csv done
+  EL1 EL1_0.csv done
+  EL1 EL1_1.csv done
+  EL1 EL1_10.csv done
+  EL1 EL1_11.csv done
+  EL1 EL1_2.csv done
+  EL1 EL1_3.csv done
+  EL1 EL1_4.csv done
+  EL1 EL1_5.csv done
+  EL1 EL1_6.csv done
+  EL1 EL1_7.csv done
+  EL1 EL1_8.csv done
+  EL1 EL1_9.csv done
+  EXT10 EXT10_0.csv done
+  EXT12 EXT12_0.csv done
+  F fresh_0.csv done
+  F fresh_1.csv done
+  F fresh_2.csv done
+  F fresh_4.csv done
+  F fresh_5.csv done
+  F fresh_7.csv done
+  F fresh_8.csv done
+  G G_1.csv done
+  G G_2.csv done
+  G G_3.csv done
+  G G_5.csv done
+  G G_6.csv done
+  G G_8.csv done
+  G G_9.csv done
+  H H_0.csv done
+  H H_1.csv done
+  H H_5.csv done
+  H H_6.csv done
+  H H_7.csv done
+  H H_8.csv done
+  H H_9.csv done
+  I I_1.csv done
+  I I_2.csv done
+  I I_4.csv done
+  I I_5.csv done
+  I I_7.csv done
+  I I_8.csv done
+  J J_0.csv done
+  J J_1.csv done
+  J J_2.csv done
+  J J_3.csv done
+  J J_8.csv done
+  J J_9.csv done
+  K K_4.csv done
+  K K_5.csv done
+  K K_6.csv done
+  K K_7.csv done
+  K K_8.csv done
+
+==== TG1a
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\tg1_signature_neighbor_offset_v1.py", line 173, in <module>
+    summarize()
+  File "C:\work\farmai\집\클로드\research\tg1_signature_neighbor_offset_v1.py", line 146, in summarize
+    M = M[(M.day >= 179) & [(f, x) not in RD for f, x in zip(M.farm, M.day)]].reset_index(drop=True)
+          ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\ops\common.py", line 85, in new_method
+    return method(self, other)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\arraylike.py", line 72, in __and__
+    return self._logical_method(other, operator.and_)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\series.py", line 6746, in _logical_method
+    res_values = ops.logical_op(lvalues, rvalues, op)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\work\farmai\.analysis-tools\python\pandas\core\ops\array_ops.py", line 438, in logical_op
+    raise TypeError(
+TypeError: Logical ops (and, or, xor) between Pandas objects and dtype-less sequences (e.g. list, tuple) are no longer supported. Wrap the object in a Series, Index, or np.array before operating instead.

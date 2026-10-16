@@ -1,0 +1,23 @@
+C:\Users\aozks\AppData\Local\Temp\claude\C--work-farmai\96fe1d15-2691-4cbd-a117-4a3e2d96bdf9\scratchpad\build16\팜모니_정형데이터_재현패키지_16\온도\code\make_submission_v16_temp.py:120: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test = test.set_index("row_id").loc[sX.row_id].reset_index()
+C:\Users\aozks\AppData\Local\Temp\claude\C--work-farmai\96fe1d15-2691-4cbd-a117-4a3e2d96bdf9\scratchpad\build16\팜모니_정형데이터_재현패키지_16\온도\code\make_submission_v16_temp.py:130: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test["cx__" + c] = CF_full.loc[test.row_id, c].values
+train rows 9600 (down-weighted 2341) | test rows 1440 | base cols 135 | codex cols 89
+  base done (27s)
+  codex done (29s) | NOH0 vs 9th CODEX RMS diff 0.3289
+  tabpfn sample 1 done (265s)
+  tabpfn sample 2 done (479s)
+  tabpfn sample 3 done (689s)
+  tabpfn sample 4 done (899s)
+  tabpfn sample 5 done (1108s)
+  tabpfn sample 6 done (1320s)
+  tabpfn sample 7 done (1530s)
+  tabpfn sample 8 done (1734s)
+NOH0 vs same-run 9th recipe: RMS change 0.1476, mean +0.0506, min -0.183, max +0.718
+
+wrote ../output\temp_candidate_v16.csv
+vs submission_06 temp: RMS change 0.2769, mean -0.0117, min -1.377, max +1.545
+member means: base 12.632 codex 12.665 tabpfn 12.679 | gate<1 rows 431 (<=8C: 215)
+tabpfn sample spread (row-wise std, mean): 0.1650
+base vs round-5 temp RMS diff: 0.0994 (MASK world + same recipe)
+wrote temp_candidate_v16.json

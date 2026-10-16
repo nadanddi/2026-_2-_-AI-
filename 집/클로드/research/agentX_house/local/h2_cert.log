@@ -1,0 +1,138 @@
+MODE cert links 190
+unassigned (cycles?) 0
+chains 96, records in chains 286, length dist {2: 47, 3: 31, 4: 5, 5: 5, 6: 6, 8: 1, 10: 1}
+cross-ID links in chains 40 chains with >=1 cross-ID 20
+chains: all pass1 69, all pass2 1, mixed 26
+test records inside chains 0
+  long chain: F13_150 F47_153 F13_245 F47_156 F13_155 F47_159
+  long chain: F13_151 F47_154 F13_153 F47_157 F13_156 F47_160
+  long chain: F47_127 F47_129 F47_131 F47_211 F47_213 F47_215
+  long chain: F13_051 F13_191 F13_192 F13_055 F13_194 F13_057 F13_195 F13_196
+  long chain: F47_098 F47_100 F47_102 F47_104 F47_106 F47_107 F47_109 F47_111 F47_113 F47_115
+C:\work\farmai\집\클로드\research\agentX_house\h2_house_oracle.py:53: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+  TP["qm"] = TP[[f"q{k}" for k in range(4)]].mean(1)
+
+##### temp: records with offset 370, in chains 261
+
+=== temp: decomposition ===
+  pass1: offset-records in chains 225, chains(>=2) 77 n 211, sd 0.409, ICC(between-chain) 0.215
+    lag1 n142 r+0.25 rho+0.44 | lag2 n66 r+0.18 rho+0.33 | lag3 n26 r-0.27 rho-0.12 | lag5 n4 | lag10 n0
+    partial corr(d_t, d_t-2 | d_t-1) n63 +0.06 (p 0.630)
+    partial corr(d_t, d_t-3 | d_t-1) n23 -0.14 (p 0.516)
+    control other-chain same-ID |dno|<=2: n219 r+0.09
+  pass2: offset-records in chains 36, chains(>=2) 6 n 16, sd 0.706, ICC(between-chain) 0.238
+    lag1 n23 r+0.31 rho+0.59 | lag2 n13 r+0.30 rho+0.40 | lag3 n8 r+0.34 rho+0.29 | lag5 n3 | lag10 n0
+    partial corr(d_t, d_t-2 | d_t-1) n13 +0.26 (p 0.390)
+    partial corr(d_t, d_t-3 | d_t-1) n8 +0.04 (p 0.925)
+    control other-chain same-ID |dno|<=2: n30 r+0.03
+  all: offset-records in chains 261, chains(>=2) 88 n 257, sd 0.461, ICC(between-chain) 0.216
+    lag1 n165 r+0.26 rho+0.45 | lag2 n79 r+0.18 rho+0.32 | lag3 n34 r-0.17 rho+0.00 | lag5 n7 r-0.04 rho-0.11 | lag10 n0
+    partial corr(d_t, d_t-2 | d_t-1) n76 +0.08 (p 0.515)
+    partial corr(d_t, d_t-3 | d_t-1) n31 -0.11 (p 0.568)
+    control other-chain same-ID |dno|<=2: n252 r+0.07
+
+=== temp: oracle gains (row RMSE on records having that predictor; beta LS on pass-1 records, judged pass-2; beta=1 too) ===
+    pred pass_  nrec   base   beta   corr  g_beta  g_beta_worst    g_1
+ew0.5_g1    p1   146 +0.613 +0.286 +0.254  -0.018        -0.017 +0.091
+ew0.5_g1    p2    23 +0.647 +0.286 +0.360  -0.042        -0.041 +0.045
+ew0.5_g2    p1    68 +0.585 +0.113 +0.123  -0.004        -0.004 +0.223
+ew0.5_g2    p2    13 +0.443 +0.113 +0.368  -0.014        -0.013 -0.018
+ew0.5_g3    p1    28 +0.693 -0.697 -0.283  -0.026        -0.026 +0.121
+ew0.5_g3    p2     8 +0.502 -0.697 +0.525  +0.121        +0.122 -0.088
+ew0.5_g5    p1     6 +0.584 +0.151 +0.105  -0.001        -0.001 +0.036
+ew0.5_g5    p2     3 +0.406 +0.151 -0.921  +0.023        +0.025 +0.193
+ew0.7_g1    p1   146 +0.613 +0.277 +0.246  -0.017        -0.016 +0.094
+ew0.7_g1    p2    23 +0.647 +0.277 +0.372  -0.041        -0.041 +0.014
+ew0.7_g2    p1    68 +0.585 +0.103 +0.110  -0.003        -0.003 +0.223
+ew0.7_g2    p2    13 +0.443 +0.103 +0.378  -0.012        -0.012 -0.028
+ew0.7_g3    p1    28 +0.693 -0.726 -0.280  -0.026        -0.025 +0.111
+ew0.7_g3    p2     8 +0.502 -0.726 +0.568  +0.111        +0.112 -0.090
+ew0.7_g5    p1     6 +0.584 +0.120 +0.085  -0.001        -0.001 +0.041
+ew0.7_g5    p2     3 +0.406 +0.120 -0.854  +0.014        +0.015 +0.152
+ew0.9_g1    p1   146 +0.613 +0.269 +0.239  -0.016        -0.015 +0.098
+ew0.9_g1    p2    23 +0.647 +0.269 +0.381  -0.040        -0.039 -0.007
+ew0.9_g2    p1    68 +0.585 +0.096 +0.102  -0.003        -0.002 +0.223
+ew0.9_g2    p2    13 +0.443 +0.096 +0.375  -0.010        -0.010 -0.032
+ew0.9_g3    p1    28 +0.693 -0.732 -0.274  -0.024        -0.024 +0.105
+ew0.9_g3    p2     8 +0.502 -0.732 +0.605  +0.100        +0.101 -0.086
+ew0.9_g5    p1     6 +0.584 +0.092 +0.066  -0.000        -0.000 +0.047
+ew0.9_g5    p2     3 +0.406 +0.092 -0.750  +0.008        +0.009 +0.118
+   excl1    p1   121 +0.533 +0.045 +0.057  -0.001        -0.001 +0.303
+   excl1    p2    24 +0.765 +0.045 +0.301  -0.003        -0.003 -0.023
+   excl2    p1    61 +0.566 -0.142 -0.154  -0.007        -0.006 +0.373
+   excl2    p2    12 +0.442 -0.142 +0.211  +0.009        +0.010 +0.029
+   excl3    p1    36 +0.574 +0.055 +0.038  -0.001        -0.000 +0.202
+   excl3    p2     7 +0.361 +0.055 -0.172  +0.004        +0.005 +0.210
+   excl5    p1     6 +0.395 -0.538 -0.533  -0.032        -0.027 +0.205
+   excl5    p2     3 +0.354 -0.538 -0.999  -0.088        -0.083 +0.404
+    lag1    p1   142 +0.595 +0.255 +0.250  -0.017        -0.016 +0.119
+    lag1    p2    23 +0.647 +0.255 +0.313  -0.033        -0.033 +0.225
+loo_mean    p1   221 +0.583 +0.310 +0.283  -0.020        -0.020 +0.076
+loo_mean    p2    36 +0.796 +0.310 +0.363  -0.033        -0.032 -0.047
+  [record offset RMSE] beta lag1 +0.15, joint +0.14,+0.04 :: p1: n64 none 0.367 lag1 0.363 lag1+ew0.7_g2 0.362 ; p2: n13 none 0.327 lag1 0.308 lag1+ew0.7_g2 0.305
+  [record offset RMSE] beta lag1 +0.15, joint +0.14,+0.05 :: p1: n64 none 0.367 lag1 0.363 lag1+ew0.9_g2 0.362 ; p2: n13 none 0.327 lag1 0.308 lag1+ew0.9_g2 0.305
+  [record offset RMSE] beta lag1 +0.16, joint +0.16,+0.00 :: p1: n78 none 0.351 lag1 0.347 lag1+excl1 0.347 ; p2: n17 none 0.293 lag1 0.278 lag1+excl1 0.277
+  [record offset RMSE] beta lag1 +0.25, joint +0.12,+0.22 :: p1: n142 none 0.435 lag1 0.421 lag1+loo_mean 0.418 ; p2: n23 none 0.541 lag1 0.515 lag1+loo_mean 0.512
+  dist_prev (nearest earlier labelled chain member): {1.0: 165, 2.0: 3, 6.0: 1, nan: 92}
+
+##### ec: records with offset 360, in chains 257
+
+=== ec: decomposition ===
+  pass1: offset-records in chains 229, chains(>=2) 72 n 206, sd 0.130, ICC(between-chain) 0.419
+    lag1 n138 r+0.47 rho+0.59 | lag2 n70 r+0.34 rho+0.51 | lag3 n31 r+0.04 rho+0.25 | lag5 n10 r+0.08 rho+0.31 | lag10 n0
+    partial corr(d_t, d_t-2 | d_t-1) n62 +0.22 (p 0.085)
+    partial corr(d_t, d_t-3 | d_t-1) n26 -0.01 (p 0.951)
+    partial corr(d_t, d_t-5 | d_t-1) n8 +0.19 (p 0.658)
+    control other-chain same-ID |dno|<=2: n215 r-0.05
+  pass2: offset-records in chains 28, chains(>=2) 4 n 8, sd 0.187, ICC(between-chain) 0.714
+    lag1 n12 r-0.03 rho+0.01 | lag2 n5 r+0.83 rho+0.60 | lag3 n2 | lag5 n1 | lag10 n0
+    control other-chain same-ID |dno|<=2: n23 r+0.14
+  all: offset-records in chains 257, chains(>=2) 86 n 247, sd 0.138, ICC(between-chain) 0.386
+    lag1 n150 r+0.37 rho+0.54 | lag2 n75 r+0.48 rho+0.50 | lag3 n33 r+0.04 rho+0.25 | lag5 n11 r+0.08 rho+0.43 | lag10 n0
+    partial corr(d_t, d_t-2 | d_t-1) n66 +0.45 (p 0.000)
+    partial corr(d_t, d_t-3 | d_t-1) n27 -0.01 (p 0.951)
+    partial corr(d_t, d_t-5 | d_t-1) n8 +0.19 (p 0.658)
+    control other-chain same-ID |dno|<=2: n241 r-0.01
+
+=== ec: oracle gains (row RMSE on records having that predictor; beta LS on pass-1 records, judged pass-2; beta=1 too) ===
+    pred pass_  nrec   base   beta   corr  g_beta  g_beta_worst    g_1
+ew0.5_g1    p1   147 +0.154 +0.550 +0.498  -0.090        -0.090 -0.029
+ew0.5_g1    p2    14 +0.235 +0.550 +0.254  -0.019        -0.019 +0.027
+ew0.5_g2    p1    73 +0.143 +0.298 +0.307  -0.028        -0.028 +0.118
+ew0.5_g2    p2     7 +0.281 +0.298 +0.817  -0.167        -0.167 -0.444
+ew0.5_g3    p1    33 +0.187 +0.053 +0.050  -0.001        -0.001 +0.208
+ew0.5_g3    p2     3 +0.040 +0.053 +0.901  -0.078        -0.078 +0.029
+ew0.5_g5    p1    10 +0.110 +0.073 +0.074  -0.002        -0.002 +0.339
+ew0.5_g5    p2     3 +0.040 +0.073 +0.901  -0.029        -0.029 -0.261
+ew0.7_g1    p1   147 +0.154 +0.545 +0.493  -0.089        -0.089 -0.026
+ew0.7_g1    p2    14 +0.235 +0.545 +0.323  -0.040        -0.040 -0.013
+ew0.7_g2    p1    73 +0.143 +0.278 +0.289  -0.025        -0.025 +0.132
+ew0.7_g2    p2     7 +0.281 +0.278 +0.823  -0.156        -0.156 -0.445
+ew0.7_g3    p1    33 +0.187 +0.045 +0.042  -0.001        -0.001 +0.214
+ew0.7_g3    p2     3 +0.040 +0.045 +0.901  -0.059        -0.059 -0.124
+ew0.7_g5    p1    10 +0.110 +0.066 +0.070  -0.002        -0.002 +0.341
+ew0.7_g5    p2     3 +0.040 +0.066 +0.901  -0.026        -0.026 -0.261
+ew0.9_g1    p1   147 +0.154 +0.534 +0.486  -0.086        -0.086 -0.020
+ew0.9_g1    p2    14 +0.235 +0.534 +0.376  -0.056        -0.056 -0.042
+ew0.9_g2    p1    73 +0.143 +0.261 +0.274  -0.022        -0.022 +0.144
+ew0.9_g2    p2     7 +0.281 +0.261 +0.829  -0.147        -0.147 -0.447
+ew0.9_g3    p1    33 +0.187 +0.039 +0.036  -0.000        -0.000 +0.219
+ew0.9_g3    p2     3 +0.040 +0.039 +0.901  -0.044        -0.044 -0.280
+ew0.9_g5    p1    10 +0.110 +0.060 +0.066  -0.002        -0.002 +0.343
+ew0.9_g5    p2     3 +0.040 +0.060 +0.901  -0.024        -0.024 -0.261
+   excl1    p1   126 +0.134 +0.218 +0.170  -0.010        -0.010 +0.115
+   excl1    p2    16 +0.234 +0.218 +0.778  -0.155        -0.155 -0.371
+   excl2    p1    65 +0.160 -0.124 -0.122  -0.005        -0.005 +0.334
+   excl2    p2     6 +0.131 -0.124 +0.450  +0.032        +0.032 -0.154
+   excl3    p1    41 +0.167 -0.486 -0.447  -0.078        -0.078 +0.501
+   excl3    p2     3 +0.040 -0.486 +0.351  +0.395        +0.395 -0.360
+   excl5    p1     7 +0.118 +0.707 +0.116  -0.141        -0.141 -0.115
+    lag1    p1   138 +0.158 +0.495 +0.468  -0.079        -0.079 +0.003
+    lag1    p2    12 +0.253 +0.495 -0.027  +0.062        +0.062 +0.201
+loo_mean    p1   219 +0.149 +0.568 +0.506  -0.098        -0.098 -0.040
+loo_mean    p2    28 +0.199 +0.568 +0.434  -0.081        -0.081 -0.044
+  [record offset RMSE] beta lag1 +0.27, joint +0.18,+0.17 :: p1: n64 none 0.113 lag1 0.109 lag1+ew0.7_g2 0.108 ; p2: n5 none 0.328 lag1 0.336 lag1+ew0.7_g2 0.298
+  [record offset RMSE] beta lag1 +0.27, joint +0.19,+0.15 :: p1: n64 none 0.113 lag1 0.109 lag1+ew0.9_g2 0.108 ; p2: n5 none 0.328 lag1 0.336 lag1+ew0.9_g2 0.303
+  [record offset RMSE] beta lag1 +0.34, joint +0.34,-0.02 :: p1: n78 none 0.113 lag1 0.105 lag1+excl1 0.105 ; p2: n7 none 0.281 lag1 0.289 lag1+excl1 0.294
+  [record offset RMSE] beta lag1 +0.49, joint +0.36,+0.19 :: p1: n138 none 0.131 lag1 0.116 lag1+loo_mean 0.115 ; p2: n12 none 0.247 lag1 0.263 lag1+loo_mean 0.252
+  dist_prev (nearest earlier labelled chain member): {1.0: 150, 2.0: 9, 3.0: 2, nan: 96}

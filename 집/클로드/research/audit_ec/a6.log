@@ -1,0 +1,6 @@
+     214  0.531  0.690  0.447  131.103  109.124  0.158  0.084
+     241  0.652  0.857  0.803  165.000  128.000  0.205  0.151
+     242  0.724  0.698  0.633  167.500  128.000  0.027  0.091
+     243  0.449  0.535  0.438  177.500  128.000  0.086  0.011
+interior pass-2 days only (38 days, |season diff| mean 10.15): RMSE train-style 0.2077 eval-style 0.2115
+  ... with |season diff|<=13 (eval-like magnitude; 26 days, mean diff 3.78): RMSE 0.2253 -> 0.2368

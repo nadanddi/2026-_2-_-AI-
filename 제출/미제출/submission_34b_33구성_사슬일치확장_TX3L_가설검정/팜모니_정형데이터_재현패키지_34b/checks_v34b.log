@@ -1,0 +1,8 @@
+[0] vs round-19 (submission_29): temp changed rows 653 (RMS 0.1647), EC changed rows 0 (RMS 0.0000)
+[F] F13 cut 206 h04: temp past unchanged True, EC past unchanged True (past rows 269; future moved temp 88.33, EC 81.542)
+[F] F13 cut 237 h03: temp past unchanged True, EC past unchanged True (past rows 652; future moved temp 6.32, EC 14.401)
+[F] F47 cut 202 h05: temp past unchanged True, EC past unchanged True (past rows 222; future moved temp 64.54, EC 96.095)
+[X] F13 isolation: temp unchanged True, EC unchanged True
+[X] F47 isolation: temp unchanged True, EC unchanged True
+[R] full pipeline reproduces submission_34b.csv (6 decimals): True
+ALL PASS

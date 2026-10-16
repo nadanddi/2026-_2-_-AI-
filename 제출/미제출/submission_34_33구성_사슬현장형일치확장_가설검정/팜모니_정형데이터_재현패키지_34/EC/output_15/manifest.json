@@ -1,0 +1,421 @@
+{
+  "status": "PASS",
+  "rows": 1440,
+  "temperature": "ALL_BLANK_BY_USER_REQUEST",
+  "training_rows": 8880,
+  "training_days": 370,
+  "high_ec_days_removed": 30,
+  "high_ec_threshold": 1.2,
+  "hypothesis_test": true,
+  "consumed_lock_included_in_final_fit": true,
+  "consumed_lock_rescored": false,
+  "recipe": "season_v2_plus_DP1_ops_in_R3_plus_SG2_post",
+  "features": {
+    "FULL_PFN": [
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "act_vent",
+      "act_shade",
+      "act_thermal",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "hr_sin",
+      "hr_cos",
+      "midnight",
+      "act_vent_h0",
+      "act_shade_h0",
+      "act_thermal_h0",
+      "act_heating_h0",
+      "act_circfan_h0",
+      "act_co2_h0",
+      "act_fog_h0",
+      "in_temp_h0",
+      "in_hum_h0",
+      "in_co2_h0",
+      "act_vent_tdm",
+      "act_vent_tdz",
+      "act_shade_tdm",
+      "act_shade_tdz",
+      "act_thermal_tdm",
+      "act_thermal_tdz",
+      "act_heating_tdm",
+      "act_heating_tdz",
+      "act_circfan_tdm",
+      "act_circfan_tdz",
+      "act_co2_tdm",
+      "act_co2_tdz",
+      "act_fog_tdm",
+      "act_fog_tdz",
+      "season"
+    ],
+    "FULL_R3": [
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "act_vent",
+      "act_shade",
+      "act_thermal",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "hr_sin",
+      "hr_cos",
+      "midnight",
+      "act_vent_h0",
+      "act_shade_h0",
+      "act_thermal_h0",
+      "act_heating_h0",
+      "act_circfan_h0",
+      "act_co2_h0",
+      "act_fog_h0",
+      "in_temp_h0",
+      "in_hum_h0",
+      "in_co2_h0",
+      "act_vent_tdm",
+      "act_vent_tdz",
+      "act_shade_tdm",
+      "act_shade_tdz",
+      "act_thermal_tdm",
+      "act_thermal_tdz",
+      "act_heating_tdm",
+      "act_heating_tdz",
+      "act_circfan_tdm",
+      "act_circfan_tdz",
+      "act_co2_tdm",
+      "act_co2_tdz",
+      "act_fog_tdm",
+      "act_fog_tdz",
+      "season",
+      "seal_run",
+      "vent_open_hours",
+      "first_open_hour",
+      "thermal_switches",
+      "shade_switches",
+      "since_curtain_change",
+      "heat_run",
+      "co2_hours",
+      "vent_max"
+    ],
+    "BASE_R3": [
+      "in_temp",
+      "in_hum",
+      "in_co2",
+      "act_vent",
+      "act_shade",
+      "act_thermal",
+      "act_heating",
+      "act_circfan",
+      "act_co2",
+      "act_fog",
+      "hr_sin",
+      "hr_cos",
+      "midnight",
+      "season",
+      "seal_run",
+      "vent_open_hours",
+      "first_open_hour",
+      "thermal_switches",
+      "shade_switches",
+      "since_curtain_change",
+      "heat_run",
+      "co2_hours",
+      "vent_max"
+    ]
+  },
+  "r3_seeds": [
+    7,
+    101,
+    2024
+  ],
+  "pfn_contexts": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "season_notes": {
+    "F13": {
+      "exact_anchors": 19,
+      "training_late_days": 26,
+      "fallback": false,
+      "anchor_day": [
+        179.0,
+        180.0,
+        181.0,
+        182.0,
+        183.0,
+        191.0,
+        192.0,
+        193.0,
+        194.0,
+        195.0,
+        196.0,
+        197.0,
+        198.0,
+        211.0,
+        212.0,
+        213.0,
+        214.0,
+        215.0,
+        245.0
+      ],
+      "anchor_season_raw": [
+        7.0,
+        65.0,
+        11.0,
+        12.5,
+        24.333333333333332,
+        52.666666666666664,
+        54.333333333333336,
+        56.0,
+        56.0,
+        60.0,
+        61.666666666666664,
+        62.5,
+        65.5,
+        114.0,
+        117.0,
+        121.0,
+        121.0,
+        125.5,
+        155.0
+      ],
+      "anchor_season_pav": [
+        7.0,
+        28.208333333333332,
+        28.208333333333332,
+        28.208333333333332,
+        28.208333333333332,
+        52.666666666666664,
+        54.333333333333336,
+        56.0,
+        56.0,
+        60.0,
+        61.666666666666664,
+        62.5,
+        65.5,
+        114.0,
+        117.0,
+        121.0,
+        121.0,
+        125.5,
+        155.0
+      ]
+    },
+    "F47": {
+      "exact_anchors": 18,
+      "training_late_days": 25,
+      "fallback": false,
+      "anchor_day": [
+        179.0,
+        180.0,
+        181.0,
+        189.0,
+        190.0,
+        191.0,
+        192.0,
+        193.0,
+        194.0,
+        195.0,
+        196.0,
+        209.0,
+        210.0,
+        239.0,
+        240.0,
+        241.0,
+        242.0,
+        243.0
+      ],
+      "anchor_season_raw": [
+        10.0,
+        12.5,
+        14.0,
+        57.666666666666664,
+        56.0,
+        56.0,
+        62.5,
+        65.5,
+        72.0,
+        74.33333333333333,
+        79.33333333333333,
+        121.5,
+        128.5,
+        150.0,
+        159.5,
+        165.0,
+        167.5,
+        177.0
+      ],
+      "anchor_season_pav": [
+        10.0,
+        12.5,
+        14.0,
+        56.55555555555555,
+        56.55555555555555,
+        56.55555555555555,
+        62.5,
+        65.5,
+        72.0,
+        74.33333333333333,
+        79.33333333333333,
+        121.5,
+        128.5,
+        150.0,
+        159.5,
+        165.0,
+        167.5,
+        177.0
+      ]
+    },
+    "standardization": {
+      "weather_columns": [
+        "out_temp",
+        "out_hum",
+        "out_rad",
+        "out_wspd"
+      ],
+      "mu": [
+        9.741927899686521,
+        67.78069487983281,
+        112.53200104493207,
+        1.2636755485893418
+      ],
+      "sd": [
+        8.71442642660117,
+        16.214402319183517,
+        170.60356167435359,
+        0.8289299678479993
+      ],
+      "source": "training first-period weather only"
+    }
+  },
+  "checks": {
+    "input_order_features": "PASS",
+    "causal_feature_checks": [
+      {
+        "farm": "F13",
+        "cut": 4823,
+        "target_rows": 144,
+        "future_and_other_farm_features_unchanged": true
+      },
+      {
+        "farm": "F13",
+        "cut": 5159,
+        "target_rows": 360,
+        "future_and_other_farm_features_unchanged": true
+      },
+      {
+        "farm": "F13",
+        "cut": 5495,
+        "target_rows": 576,
+        "future_and_other_farm_features_unchanged": true
+      },
+      {
+        "farm": "F47",
+        "cut": 4775,
+        "target_rows": 144,
+        "future_and_other_farm_features_unchanged": true
+      },
+      {
+        "farm": "F47",
+        "cut": 5111,
+        "target_rows": 360,
+        "future_and_other_farm_features_unchanged": true
+      },
+      {
+        "farm": "F47",
+        "cut": 5447,
+        "target_rows": 576,
+        "future_and_other_farm_features_unchanged": true
+      }
+    ],
+    "evaluation_weather_used_by_model_features": false,
+    "sg2_future_other_farm_later_prediction_checks": [
+      {
+        "farm": "F13",
+        "cut": 4823,
+        "target_rows": 144,
+        "sg2_unchanged": true
+      },
+      {
+        "farm": "F13",
+        "cut": 5159,
+        "target_rows": 360,
+        "sg2_unchanged": true
+      },
+      {
+        "farm": "F13",
+        "cut": 5495,
+        "target_rows": 576,
+        "sg2_unchanged": true
+      },
+      {
+        "farm": "F47",
+        "cut": 4775,
+        "target_rows": 144,
+        "sg2_unchanged": true
+      },
+      {
+        "farm": "F47",
+        "cut": 5111,
+        "target_rows": 360,
+        "sg2_unchanged": true
+      },
+      {
+        "farm": "F47",
+        "cut": 5447,
+        "target_rows": 576,
+        "sg2_unchanged": true
+      }
+    ],
+    "query_separability_prediction_checks": [
+      {
+        "context": 1,
+        "target8_full_batch_vs_target_only_bits_equal": true
+      },
+      {
+        "context": 2,
+        "target8_full_batch_vs_target_only_bits_equal": true
+      },
+      {
+        "context": 3,
+        "target8_full_batch_vs_target_only_bits_equal": true
+      },
+      {
+        "context": 4,
+        "target8_full_batch_vs_target_only_bits_equal": true
+      }
+    ]
+  },
+  "code_sha256": {
+    "model_15.py": "920a31e1378a47cc6bd77ef601e38d57c74d7496499d55bf1bc569bec00e1c96",
+    "season.py": "7d58feeb6a0e7653796a6775f762b659cab3e64078b299d36b52ae69faeff162",
+    "sg2post.py": "e942ebbae3cfeaf945dbd0c8916713745b126ade99d95d01c027bfb15deed1e1"
+  },
+  "inputs_sha256": {
+    "train_X.csv": "28acd6ffad605dddbfc6e9d59cd17ec185225e8b439bd18b513fb09eb393e605",
+    "train_y.csv": "4d7f2c469307fe28c826c5a224eb215c0555e9f2c557fec783fa8d28ae359948",
+    "test_X.csv": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad",
+    "sample_submission.csv": "a5a6777a6ceab18eb6a61215ae1399eb35b22b62622c3c3a0469f39df84c109f"
+  },
+  "checkpoint_sha256": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736",
+  "csv_sha256": "3c18de617e42505d29054c6976bdfdca01908bec71a2cdc9139301c9ce40a522",
+  "sg2": {
+    "reference": "370 labelled training days of F13/F47 (high-EC days removed)",
+    "evaluation_inputs": "same farm, hours 0..h of the row and earlier records only"
+  },
+  "versions": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "torch": "2.14.0+cpu",
+    "tabpfn": "9.0.0"
+  },
+  "platform_submission": false
+}

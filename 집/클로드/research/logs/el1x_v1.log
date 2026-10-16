@@ -1,0 +1,25 @@
+   nl   ne   sh    F13    F47
+0   4  100  0.5 -17.97 -24.16
+1   4  100  1.0 -11.03 -17.75
+2   4  300  0.5 -17.67 -24.95
+3   4  300  1.0  -5.88 -15.78
+4   8  100  0.5 -19.43 -19.30
+5   8  100  1.0 -14.03 -21.05
+6   8  300  0.5 -18.71 -21.79
+7   8  300  1.0  -3.48 -20.99
+EA2 rule vs sg (pass-2): F13 -38.20% F47 -5.99%
+Traceback (most recent call last):
+  File "C:\Users\aozks\AppData\Local\Temp\claude\C--work-farmai\96fe1d15-2691-4cbd-a117-4a3e2d96bdf9\scratchpad\build18\run_py.py", line 9, in <module>
+    runpy.run_path(script, run_name="__main__")
+  File "<frozen runpy>", line 287, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:/work/farmai/집/클로드/research/el1_ec_learned_anchor_corrector_v1.py", line 63, in <module>
+    main()
+  File "C:/work/farmai/집/클로드/research/el1_ec_learned_anchor_corrector_v1.py", line 55, in main
+    b = G.sort_values(sel).iloc[0]; pr = preds[(int(b.nl), int(b.ne), b.sh)]
+                                                           ^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'method'
+EA2 rule vs sg (pass-2): F13 -38.20% F47 -5.99%
+select on F13 -> F47: learned -19.30% vs sg, EA2 -5.99% vs sg | learned vs EA2 -14.16%, records changed 14 improved 3
+select on F47 -> F13: learned -17.67% vs sg, EA2 -38.20% vs sg | learned vs EA2 +33.23%, records changed 17 improved 4
