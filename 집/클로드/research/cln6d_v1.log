@@ -1,0 +1,50 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 rows 1848 | TOD missing 0 | REF retrain max abs diff vs stored 1.8223
+EXT12 rows 4752 | TOD missing 0 | REF retrain max abs diff vs stored 2.4085
+DIAG10 rows 8880 | TOD missing 0 | REF retrain max abs diff vs stored 0.0000
+EXT10 member RMSE | BASE NUM 0.7217 RS 0.6996 | CODEX S 0.7337 NS 0.7327 | PFN S 0.6538 NS 0.6425
+EXT12 member RMSE | BASE NUM 0.7204 RS 0.6748 | CODEX S 0.7318 NS 0.7318 | PFN S 0.6282 NS 0.6313
+DIAG10 member RMSE | BASE NUM 0.7142 RS 0.6467 | CODEX S 0.6907 NS 0.6908 | PFN S 0.6223 NS 0.6232
+baseline B = all members retrained in the same runs: NUM BASE (eval-like world, number order) + codex_S + pfn_S (second kept), hand TX3
+blocks (pooled, dedup): 86 | helped 52 harmed 34 | t-stat -2.39
+records changed: 645 | helped 355 harmed 290 | dSSE total -274.4
+top 8 harmed records:
+layout     rec     bk  dsse  base_sse  tmin
+DIAG10 F13_135 F13_27 12.09     26.32  10.4
+ EXT12 F13_135 F13_27 12.09     26.32  10.4
+DIAG10 F13_109 F13_21 11.56    212.96   8.2
+ EXT10 F13_109 F13_21 11.56    212.96   8.2
+DIAG10 F13_048  F13_9 10.57    131.89  15.6
+DIAG10 F47_196 F47_39  9.58     11.89  11.3
+ EXT12 F13_109 F13_21  7.54    221.36   8.2
+DIAG10 F13_244 F13_48  6.95     21.57  11.1
+top 8 helped records:
+layout     rec     bk   dsse  base_sse  tmin
+DIAG10 F47_178 F47_35 -40.77    300.59   9.6
+ EXT12 F47_178 F47_35 -40.77    300.59   9.6
+DIAG10 F47_191 F47_38 -32.70    261.36  12.8
+DIAG10 F47_096 F47_19 -17.78     49.53  10.0
+ EXT12 F47_096 F47_19 -17.78     49.53  10.0
+ EXT10 F47_145 F47_29 -12.07     16.81   9.2
+DIAG10 F47_131 F47_26 -10.32     11.95  10.5
+ EXT12 F47_131 F47_26 -10.32     11.95  10.5
+harmed blocks (pooled):
+bk
+F47_39    11.83
+F13_27    11.43
+F13_21     7.65
+F47_24     7.12
+F13_9      5.76
+F47_22     5.25
+F47_17     4.81
+F13_2      3.92
+F47_21     3.74
+F13_49     3.32
+dSSE without top-3 harmed records: -310.1 | without top-3 helped: -160.1
+by layout:  {'sum': {'DIAG10': -154.1, 'EXT10': -19.1, 'EXT12': -101.2}, 'count': {'DIAG10': 370, 'EXT10': 77, 'EXT12': 198}}
+by record min in_temp band: {'sum': {Interval(-99, 6, closed='right'): -6.0, Interval(6, 10, closed='right'): -172.7, Interval(10, 99, closed='right'): -95.7}, 'count': {Interval(-99, 6, closed='right'): 26, Interval(6, 10, closed='right'): 383, Interval(10, 99, closed='right'): 236}}
