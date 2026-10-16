@@ -1,0 +1,24 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 rows 1848 | TOD missing 0 | REF retrain max abs diff vs stored 1.8223
+EXT12 rows 4752 | TOD missing 0 | REF retrain max abs diff vs stored 2.4085
+DIAG10 rows 8880 | TOD missing 0 | REF retrain max abs diff vs stored 0.0000
+EXT10 stored CODEX vs CLN5 codex_S max abs diff 1.6448 | codex_NS missing 0
+EXT10 BASE alone RMSE: REF 0.7217 | TOD 0.7053 | RS 0.6996 | NUM 0.7217
+EXT12 stored CODEX vs CLN5 codex_S max abs diff 4.3011 | codex_NS missing 0
+EXT12 BASE alone RMSE: REF 0.7204 | TOD 0.6966 | RS 0.6748 | NUM 0.7204
+DIAG10 stored CODEX vs CLN5 codex_S max abs diff 0.0000 | codex_NS missing 0
+DIAG10 BASE alone RMSE: REF 0.7142 | TOD 0.6519 | RS 0.6467 | NUM 0.7142
+baseline B here = NUM: number-order BASE in the same eval-like (RS1/TF1) world as RS
+  RS_TX3L_NS vs R27+CH5 | EXT10: cells -5.906 -6.405 -5.535 -6.014 | <=6C -22.31% | <=8C +2.98% | out-of-range -0.73%
+  RS_TX3L_NS vs R27+CH5 | EXT12: cells -5.919 -5.754 -5.686 -5.510 | <=6C -0.87% | <=8C +0.18% | out-of-range +0.69%
+  RS_TX3L_NS vs R27+CH5 | DIAG10: cells -2.339 -2.401 -2.180 -2.224 | <=6C +1.49% | <=8C +0.05% | out-of-range +1.68%
+RS_TX3L_NS: 12 cells max -2.180% mean -4.656% all better True | dedup P(worse) 0.0275 | MSE upper95 +0.161% | EXT <=8C +1.58% -> superiority FAIL | replacement(non-inferior) FAIL
+  RS_TX3L vs R27+CH5 | EXT10: cells -2.812 -2.977 -2.280 -2.425 | <=6C -0.71% | <=8C +0.63% | out-of-range -1.02%
+  RS_TX3L vs R27+CH5 | EXT12: cells -2.556 -2.457 -2.293 -2.184 | <=6C +1.05% | <=8C +0.98% | out-of-range +1.79%
+  RS_TX3L vs R27+CH5 | DIAG10: cells -2.344 -2.406 -2.185 -2.228 | <=6C +1.43% | <=8C -0.13% | out-of-range +1.62%
+RS_TX3L: 12 cells max -2.184% mean -2.429% all better True | dedup P(worse) 0.0749 | MSE upper95 +1.040% | EXT <=8C +0.80% -> superiority FAIL | replacement(non-inferior) FAIL
