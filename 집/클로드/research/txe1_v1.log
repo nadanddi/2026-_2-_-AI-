@@ -1,0 +1,27 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 chain-ext option p>=0.3 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT10 chain-ext option p>=0.0 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.3 agree>=1: new chains 12 | true 3/6 known
+EXT12 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.0 agree>=1: new chains 16 | true 3/7 known
+EXT12 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.3 agree>=1: new chains 6 | true 1/2 known
+DIAG10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.0 agree>=1: new chains 8 | true 1/2 known
+DIAG10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+selected chain-extension option by block group: {0: (0.0, 1), 1: (0.0, 1), 'all': (0.0, 1)}
+TXE1 constants refit WITHOUT F47 120-150: {0: (np.float64(0.5), np.float64(10.0), np.float64(0.6)), 1: (np.float64(0.45), np.float64(12.0), np.float64(0.6))} | hand (.25, 10, .8), full-data TX3L (.5, 14, 1.0)
+EXT10: rows kept 1464 | late-season (day>=210) rows 216, dSSE TX3L8 vs hand -0.64 | changed rows kept 91
+EXT12: rows kept 4128 | late-season (day>=210) rows 576, dSSE TX3L8 vs hand +1.61 | changed rows kept 271
+DIAG10: rows kept 8184 | late-season (day>=210) rows 672, dSSE TX3L8 vs hand +4.49 | changed rows kept 298
+  TXE vs R27+CH5 | EXT10: cells -0.225 -0.223 -0.220 -0.217 | <=6C +0.00% | <=8C +0.00% | out-of-range -0.65%
+  TXE vs R27+CH5 | EXT12: cells -0.010 -0.003 -0.017 -0.013 | <=6C +0.00% | <=8C +0.08% | out-of-range -0.24%
+  TXE vs R27+CH5 | DIAG10: cells +0.003 +0.004 +0.005 +0.007 | <=6C +0.00% | <=8C +0.02% | out-of-range +0.00%
+TXE: 12 cells max +0.007% mean -0.076% all better False | dedup P(worse) 0.4829 | MSE upper95 +0.621% | EXT <=8C +0.04% -> superiority FAIL | replacement(non-inferior) FAIL
