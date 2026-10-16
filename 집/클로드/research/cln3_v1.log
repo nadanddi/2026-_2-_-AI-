@@ -1,0 +1,29 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 rows 1848 | TOD missing 0 | REF retrain max abs diff vs stored 1.8223
+EXT12 rows 4752 | TOD missing 0 | REF retrain max abs diff vs stored 2.4085
+DIAG10 rows 8880 | TOD missing 0 | REF retrain max abs diff vs stored 0.0000
+EXT10 records with no FL chain (history empty): 48 of 77
+EXT12 records with no FL chain (history empty): 109 of 198
+DIAG10 records with no FL chain (history empty): 149 of 370
+group 0 theta [-8.37 -0.    0.12  0.07] | s: linked in-range 0.00, NO-link in-range 0.00, NO-link 2C below min 0.00, linked 2C below min 0.00
+group 1 theta [-2.41  0.44  0.28  2.01] | s: linked in-range 0.00, NO-link in-range 0.00, NO-link 2C below min 0.58, linked 2C below min 0.47
+baseline B = REF retrained in the same CLN1 run
+  CLN3 vs R27+CH5 | EXT10: cells -0.826 -1.442 -0.300 -0.907 | <=6C +23.47% | <=8C +21.64% | out-of-range +12.48%
+  CLN3 vs R27+CH5 | EXT12: cells -1.556 -1.465 -1.371 -1.275 | <=6C +3.94% | <=8C +5.40% | out-of-range +3.90%
+  CLN3 vs R27+CH5 | DIAG10: cells -0.529 -0.570 -0.322 -0.365 | <=6C +1.80% | <=8C +5.86% | out-of-range +1.81%
+CLN3: 12 cells max -0.300% mean -0.911% all better True | dedup P(worse) 0.4801 | MSE upper95 +4.003% | EXT <=8C +13.52% -> superiority FAIL | replacement(non-inferior) FAIL
+  RS_TX3L vs R27+CH5 | EXT10: cells -1.365 -1.459 -0.758 -0.807 | <=6C +2.68% | <=8C +16.02% | out-of-range +9.32%
+  RS_TX3L vs R27+CH5 | EXT12: cells -1.550 -1.444 -1.349 -1.238 | <=6C +1.55% | <=8C +5.11% | out-of-range +3.66%
+  RS_TX3L vs R27+CH5 | DIAG10: cells -0.530 -0.572 -0.325 -0.368 | <=6C +1.77% | <=8C +5.84% | out-of-range +1.77%
+RS_TX3L: 12 cells max -0.325% mean -0.980% all better True | dedup P(worse) 0.4771 | MSE upper95 +4.005% | EXT <=8C +10.56% -> superiority FAIL | replacement(non-inferior) FAIL
+  EXT10 RS_TX3L: no-link rows -2.19% | linked rows +0.20%
+  EXT10 CLN3: no-link rows -2.19% | linked rows +0.69%
+  EXT12 RS_TX3L: no-link rows -0.70% | linked rows -2.26%
+  EXT12 CLN3: no-link rows -0.67% | linked rows -2.34%
+  DIAG10 RS_TX3L: no-link rows +1.88% | linked rows -2.29%
+  DIAG10 CLN3: no-link rows +1.88% | linked rows -2.29%
