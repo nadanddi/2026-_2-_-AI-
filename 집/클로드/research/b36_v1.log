@@ -1,0 +1,24 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 chain-ext option p>=0.3 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT10 chain-ext option p>=0.0 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.3 agree>=1: new chains 12 | true 3/6 known
+EXT12 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.0 agree>=1: new chains 16 | true 3/7 known
+EXT12 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.3 agree>=1: new chains 6 | true 1/2 known
+DIAG10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.0 agree>=1: new chains 8 | true 1/2 known
+DIAG10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+selected chain-extension option by block group: {0: (0.0, 1), 1: (0.0, 1), 'all': (0.0, 1)}
+B36 selected warm-row TabPFN weight by block group: {0: 0.4, 1: 0.7} | current .4
+  B36 vs R27+CH5 | EXT10: cells +0.115 +1.218 +0.198 +1.301 | <=6C +0.00% | <=8C +0.25% | out-of-range -0.25%
+  B36 vs R27+CH5 | EXT12: cells +0.762 +0.911 +0.647 +0.795 | <=6C +0.00% | <=8C +0.24% | out-of-range +1.20%
+  B36 vs R27+CH5 | DIAG10: cells +0.640 +0.736 +0.634 +0.730 | <=6C +0.00% | <=8C +0.12% | out-of-range +0.00%
+B36: 12 cells max +1.301% mean +0.724% all better False | dedup P(worse) 0.8004 | MSE upper95 +1.704% | EXT <=8C +0.25% -> superiority FAIL | replacement(non-inferior) FAIL
