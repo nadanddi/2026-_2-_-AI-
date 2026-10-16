@@ -1,0 +1,15 @@
+ALL PASS - 제출 가능
+CSV submission_33.csv SHA 1d1592dd48b6
+ZIP SHA a40e14bb1a36
+vs 31: temp changed rows 240 (records 10), mean +0.019, RMS 0.082, max 1.141 | EC max diff 0.0e+00
+TAG2 eval: original anchors 15 | added 8 [('F13_185', 'F47_026', 0.7078), ('F13_187', 'F13_035', 0.7889), ('F13_202', 'F13_072', 0.5533), ('F13_203', 'F13_079', 0.5377), ('F13_205', 'F13_064', 0.5209), ('F13_239', 'F13_131', 0.6658), ('F47_198', 'F47_083', 0.5456), ('F47_202', 'F47_092', 0.6072)]
+
+--- checks ---
+[0] vs round-19 (submission_29): temp changed rows 360 (RMS 0.0884), EC changed rows 0 (RMS 0.0000)
+[F] F13 cut 206 h04: temp past unchanged True, EC past unchanged True (past rows 269; future moved temp 62.25, EC 81.542)
+[F] F13 cut 237 h03: temp past unchanged True, EC past unchanged True (past rows 652; future moved temp 2.41, EC 14.401)
+[F] F47 cut 202 h05: temp past unchanged True, EC past unchanged True (past rows 222; future moved temp 40.15, EC 96.095)
+[X] F13 isolation: temp unchanged True, EC unchanged True
+[X] F47 isolation: temp unchanged True, EC unchanged True
+[R] full pipeline reproduces submission_33.csv (6 decimals): True
+ALL PASS
