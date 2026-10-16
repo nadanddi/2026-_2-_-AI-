@@ -1,0 +1,12 @@
+C:\work\farmai\집\클로드\research\brk1_bracket_estimator_v1.py:55: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+C:\work\farmai\집\클로드\research\brk1_bracket_estimator_v1.py:63: RuntimeWarning: Mean of empty slice
+  jmp = np.nanmean(np.minimum(np.abs(INZ[cand, 23] - INZ[b, 0][None]), 4), axis=1) + np.sum(np.abs(X[cand, 23] - X[b, 0][None]) / sdO, axis=1) / 4
+training groups: {(-1, 0): 372, (-1, 9): 370, (-1, 15): 370, (-1, 21): 372, (1, 0): 370, (1, 9): 370, (1, 15): 368, (1, 21): 372}
+C:\work\farmai\집\클로드\research\brk1_bracket_estimator_v1.py:63: RuntimeWarning: Mean of empty slice
+  jmp = np.nanmean(np.minimum(np.abs(INZ[cand, 23] - INZ[b, 0][None]), 4), axis=1) + np.sum(np.abs(X[cand, 23] - X[b, 0][None]) / sdO, axis=1) / 4
+C:\work\farmai\집\클로드\research\brk1_bracket_estimator_v1.py:55: RuntimeWarning: Mean of empty slice
+  fp = fpall[cand]; ind = np.nanmean(np.minimum(np.abs(INZ[cand, :H + 1] - INZ[b, :H + 1][None]), 4), axis=(1, 2))
+done DIAG10 47
+done DIAG10 1414
+done DIAG10 6464

@@ -1,0 +1,46 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 chain-ext option p>=0.3 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT10 chain-ext option p>=0.0 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.3 agree>=1: new chains 12 | true 3/6 known
+EXT12 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.0 agree>=1: new chains 16 | true 3/7 known
+EXT12 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.3 agree>=1: new chains 6 | true 1/2 known
+DIAG10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.0 agree>=1: new chains 8 | true 1/2 known
+DIAG10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+selected chain-extension option by block group: {0: (0.0, 1), 1: (0.0, 1), 'all': (0.0, 1)}
+  group 0 option None MSE 0.59307
+  group 0 option (0.2, 0.0, 0.105) MSE 0.58537
+  group 0 option (0.1, 0.011, 0.104) MSE 0.58567
+  group 0 option (0.2, 0.04, 0.082) MSE 0.58436
+  group 0 option (0.35, 0.001, 0.104) MSE 0.58536
+  group 0 option (0.5, -0.007, 0.11) MSE 0.5853
+  group 0 option (1.0, -0.009, 0.111) MSE 0.58481
+  group 1 option None MSE 0.60165
+  group 1 option (0.2, 0.0, -0.299) MSE 0.49997
+  group 1 option (0.1, 0.088, -0.275) MSE 0.48825
+  group 1 option (0.2, 0.127, -0.337) MSE 0.47668
+  group 1 option (0.35, 0.044, -0.322) MSE 0.49116
+  group 1 option (0.5, 0.026, -0.314) MSE 0.49459
+  group 1 option (1.0, 0.014, -0.307) MSE 0.49691
+PHL2 selected by block group: {0: (0.2, 0.04024687363785922, 0.08245361225348326), 1: (0.2, 0.12660146139611508, -0.33692521285272387)}
+==== scope all ====
+  PHL2 vs R27+CH5 | EXT10: cells +3.917 +3.982 +3.979 +4.023 | <=6C -12.01% | <=8C -0.50% | out-of-range +10.51%
+  PHL2 vs R27+CH5 | EXT12: cells +0.658 +0.520 +0.556 +0.418 | <=6C -2.12% | <=8C -0.10% | out-of-range +0.81%
+  PHL2 vs R27+CH5 | DIAG10: cells +7.116 +7.050 +7.117 +7.053 | <=6C +2.07% | <=8C +2.07% | out-of-range +2.48%
+PHL2: 12 cells max +7.117% mean +3.866% all better False | dedup P(worse) 0.9998 | MSE upper95 +13.618% | EXT <=8C -0.30% -> superiority FAIL | replacement(non-inferior) FAIL
+==== scope pass2 ====
+C:\work\farmai\집\클로드\research\phl2_substrate_lag_ema_pass2fit_on34_v1.py:101: RuntimeWarning: Mean of empty slice
+  print(f"  {a} vs R27+CH5 | {L}: cells {' '.join('%+.3f' % (100 * x) for x in cellch(L))} | <=6C {100 * np.nanmean(cellch(L, tt <= 6)):+.2f}% | <=8C {100 * np.nanmean(cellch(L, tt <= 8)):+.2f}% | out-of-range {100 * np.nanmean(cellch(L, R_['ood'])):+.2f}%")
+  PHL2 vs R27+CH5 | EXT10: cells +4.909 +4.683 +4.826 +4.602 | <=6C +nan% | <=8C -4.65% | out-of-range +31.79%
+  PHL2 vs R27+CH5 | EXT12: cells +1.895 +1.665 +1.844 +1.617 | <=6C +nan% | <=8C -10.48% | out-of-range +6.25%
+  PHL2 vs R27+CH5 | DIAG10: cells +9.478 +9.459 +9.576 +9.548 | <=6C +nan% | <=8C -23.32% | out-of-range +nan%
+PHL2: 12 cells max +9.576% mean +5.342% all better False | dedup P(worse) 0.9984 | MSE upper95 +26.947% | EXT <=8C -7.57% -> superiority FAIL | replacement(non-inferior) FAIL

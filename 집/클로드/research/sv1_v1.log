@@ -1,0 +1,25 @@
+draw 0 val 96 del 36 tw 21
+draw 1 val 96 del 36 tw 32
+draw 2 val 96 del 36 tw 27
+draw 3 val 96 del 36 tw 26
+draw 4 val 96 del 36 tw 18
+draw 5 val 96 del 36 tw 26
+draw 6 val 96 del 36 tw 22
+draw 7 val 96 del 36 tw 26
+draw 8 val 96 del 36 tw 33
+draw 9 val 96 del 36 tw 15
+draw 10 val 96 del 36 tw 30
+draw 11 val 96 del 36 tw 19
+draw 12 val 96 del 36 tw 21
+draw 13 val 96 del 36 tw 30
+draw 14 val 96 del 36 tw 21
+draw 15 val 96 del 36 tw 17
+draw 16 val 96 del 36 tw 19
+draw 17 val 96 del 36 tw 25
+draw 18 val 96 del 36 tw 28
+draw 19 val 96 del 36 tw 30
+Traceback (most recent call last):
+  File "C:\work\farmai\집\클로드\research\sv1_structure_validator_v1.py", line 93, in <module>
+    print("\nsituation shares (S2 for EVAL unknown \u2014 no truth):"); print(T.round(3).to_string())
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'cp949' codec can't encode character '\u2014' in position 40: illegal multibyte sequence
