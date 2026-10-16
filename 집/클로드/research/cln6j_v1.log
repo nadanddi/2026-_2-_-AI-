@@ -1,0 +1,21 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 rows 1848 | TOD missing 0 | REF retrain max abs diff vs stored 1.8223
+EXT12 rows 4752 | TOD missing 0 | REF retrain max abs diff vs stored 2.4085
+DIAG10 rows 8880 | TOD missing 0 | REF retrain max abs diff vs stored 0.0000
+EXT10 member RMSE | BASE NUM 0.7217 RS 0.6996 | CODEX S 0.7337 NS 0.7327 | PFN S 0.6538 NS 0.6425
+EXT12 member RMSE | BASE NUM 0.7204 RS 0.6748 | CODEX S 0.7318 NS 0.7318 | PFN S 0.6282 NS 0.6313
+DIAG10 member RMSE | BASE NUM 0.7142 RS 0.6467 | CODEX S 0.6907 NS 0.6908 | PFN S 0.6223 NS 0.6232
+baseline B = all members retrained in the same runs: NUM BASE (eval-like world, number order) + codex_S + pfn_S (second kept), hand TX3
+  CLEAN vs R27+CH5 | EXT10: cells -1.770 -1.082 -1.537 -0.858 | <=6C +0.23% | <=8C -1.44% | out-of-range -2.30%
+  CLEAN vs R27+CH5 | EXT12: cells -2.544 -2.982 -2.413 -2.851 | <=6C +1.55% | <=8C +0.11% | out-of-range +0.98%
+  CLEAN vs R27+CH5 | DIAG10: cells -2.374 -2.617 -2.208 -2.443 | <=6C +1.49% | <=8C +0.06% | out-of-range +1.68%
+CLEAN: 12 cells max -0.858% mean -2.140% all better True | dedup P(worse) 0.0793 | MSE upper95 +1.213% | EXT <=8C -0.67% -> superiority FAIL | replacement(non-inferior) FAIL
+  CLEAN_handTX3 vs R27+CH5 | EXT10: cells -1.447 -0.689 -1.204 -0.455 | <=6C +0.23% | <=8C -1.44% | out-of-range -2.28%
+  CLEAN_handTX3 vs R27+CH5 | EXT12: cells -2.362 -2.738 -2.230 -2.606 | <=6C +1.55% | <=8C +0.11% | out-of-range +1.11%
+  CLEAN_handTX3 vs R27+CH5 | DIAG10: cells -2.390 -2.603 -2.227 -2.432 | <=6C +1.49% | <=8C +0.06% | out-of-range +1.68%
+CLEAN_handTX3: 12 cells max -0.455% mean -1.948% all better True | dedup P(worse) 0.0955 | MSE upper95 +1.338% | EXT <=8C -0.67% -> superiority FAIL | replacement(non-inferior) FAIL
