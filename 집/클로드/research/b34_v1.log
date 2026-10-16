@@ -1,0 +1,28 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 chain-ext option p>=0.3 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT10 chain-ext option p>=0.0 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.3 agree>=1: new chains 12 | true 3/6 known
+EXT12 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.0 agree>=1: new chains 16 | true 3/7 known
+EXT12 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.3 agree>=1: new chains 6 | true 1/2 known
+DIAG10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.0 agree>=1: new chains 8 | true 1/2 known
+DIAG10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+selected chain-extension option by block group: {0: (0.0, 1), 1: (0.0, 1), 'all': (0.0, 1)}
+  CHT vs R27+CH5 | EXT10: cells -0.266 -0.259 -0.261 -0.253 | <=6C +0.00% | <=8C -0.45% | out-of-range +0.00%
+  CHT vs R27+CH5 | EXT12: cells -0.413 -0.406 -0.443 -0.436 | <=6C +0.00% | <=8C -0.30% | out-of-range -0.37%
+  CHT vs R27+CH5 | DIAG10: cells -0.107 -0.099 -0.113 -0.106 | <=6C +0.00% | <=8C -0.43% | out-of-range +0.00%
+CHT: 12 cells max -0.099% mean -0.263% all better True | dedup P(worse) 0.1268 | MSE upper95 +0.161% | EXT <=8C -0.37% -> superiority FAIL | replacement(non-inferior) PASS
+  CHT_TX3L vs R27+CH5 | EXT10: cells -2.174 -2.176 -2.171 -2.169 | <=6C +0.00% | <=8C -0.45% | out-of-range -0.68%
+  CHT_TX3L vs R27+CH5 | EXT12: cells -1.151 -1.133 -1.178 -1.160 | <=6C +0.00% | <=8C -0.30% | out-of-range -0.65%
+  CHT_TX3L vs R27+CH5 | DIAG10: cells -0.196 -0.183 -0.197 -0.184 | <=6C +0.00% | <=8C -0.43% | out-of-range +0.00%
+CHT_TX3L: 12 cells max -0.183% mean -1.173% all better True | dedup P(worse) 0.0193 | MSE upper95 +0.145% | EXT <=8C -0.37% -> superiority PASS | replacement(non-inferior) PASS
+decision rule (pre-registered): among arms passing superiority, else non-inferiority (all 12 cells better required), take the larger mean improvement; none -> CHT-only 34 stays
