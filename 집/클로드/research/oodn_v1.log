@@ -1,0 +1,15 @@
+CV8 rows 936 | rows s > .1: 31 | pass-2 rows 96 | pass-2 rows s > .1 0
+N rows 8880 | rows s > .1: 74 | pass-2 rows 1248 | pass-2 rows s > .1 0
+CK2 rows 4752 | rows s > .1: 330 | pass-2 rows 624 | pass-2 rows s > .1 25
+EL1 rows 1248 | rows s > .1: 0 | pass-2 rows 1248 | pass-2 rows s > .1 0
+  [all] OOD1 vs base | CV8: cells -0.039 -0.037 -0.017 -0.014 | <=8C -0.11%
+  [all] OOD1 vs base | N: cells -0.000 +0.002 -0.004 -0.002 | <=8C +0.08%
+  [all] OOD1 vs base | CK2: cells +0.064 +0.057 +0.075 +0.069 | <=8C -1.07%
+  [all] OOD1 vs base | EL1: cells -0.004 -0.004 -0.005 -0.005 | <=8C -0.28%
+OODN [all]: 16 cells better 11/16 (mean +0.008%, max +0.075%) | dedup P(worse) 0.4506
+  [p2] OOD1 vs base | CV8: cells -0.027 -0.028 -0.031 -0.032 | <=8C +0.08%
+  [p2] OOD1 vs base | N: cells +0.003 -0.001 +0.002 -0.001 | <=8C -0.22%
+  [p2] OOD1 vs base | CK2: cells +0.132 +0.105 +0.121 +0.095 | <=8C +0.70%
+  [p2] OOD1 vs base | EL1: cells -0.004 -0.004 -0.005 -0.005 | <=8C -0.28%
+OODN [p2]: 16 cells better 10/16 (mean +0.020%, max +0.132%) | dedup P(worse) 0.5329
+pre-registered rule: CONFIRM if pass-2 scope has >= 14/16 cells better, max cell <= +.5%, P < .05 AND CV8 pass-2 cells all better; else 35 NOT submitted (34 instead)
