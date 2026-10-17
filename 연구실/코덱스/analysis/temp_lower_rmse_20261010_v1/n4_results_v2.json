@@ -1,0 +1,34 @@
+{
+  "results": {
+    "DIAG10": {
+      "base_rmse": 0.6644065151823838,
+      "candidate_rmse": 0.663915996317413,
+      "pct": -0.07382812386120818,
+      "better": true,
+      "rows": 9600,
+      "p_worse": 0.19045,
+      "ci": [
+        -0.0018993713363010419,
+        0.0009586797168313354
+      ]
+    },
+    "EXT10": {
+      "base_rmse": 0.8638269058920292,
+      "candidate_rmse": 0.8640531142357266,
+      "pct": 0.026186767528835198,
+      "better": false,
+      "rows": 2040
+    },
+    "EXT12": {
+      "base_rmse": 0.8271758542368313,
+      "candidate_rmse": 0.8240573031740892,
+      "pct": -0.37701185869590814,
+      "better": true,
+      "rows": 5256
+    }
+  },
+  "pilot_pass": false,
+  "adoption": false,
+  "pfn_samples": 1,
+  "recipe_sha": "155cf3f7620afe8c85ad6ed257622e4d4a3fcfc98c760cfcc1e58f9ccd5df6fe"
+}

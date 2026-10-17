@@ -30,3 +30,9 @@
 - [Parallel checks](parallel-checks.md) — run checks_vNN base + cut + isolation reruns concurrently (thread pool), never sequentially
 - [No premature 'best'](no-premature-best.md) — say '현재 검증된 최고 구성' + remaining room; never '최선/상한' without upper-bound evidence
 - [Record number = official day](record-number-is-official-day.md) — row_id number is the official greenhouse relative day; number-order history is field-consistent (10-16 correction)
+- [Lab Claude = image](lab-claude-image-mission.md) — since 2026-10-10 연구실 Claude does the image mission (independent of 집 Codex); 집 Claude stays on temp
+- [Image approach = official types](image-approach-official-types.md) — augment external real photos with the 6 official manipulations; AI-Hub ≠ organizer data; red-LED excluded (final)
+- [Lab GPU server rules](lab-gpu-server-rules.md) — ADILAB.iptime.org 2×RTX6000Ada; conda activate nadan, python -m pip only, nvidia-smi then use a free GPU only; never use the password
+- [AI-Hub derived OK w/ provenance](aihub-derived-ok-with-provenance.md) — 10-12: fingerprint DB may ship in submission; README states where/how AI-Hub originals were obtained
+- [Image handoff 10-15](image-mission-handoff-1015.md) — 나단8 ready/hypothesis submit + revert rule, R4 sealed unopened; read IM_인계_2026-10-15.md
+- [Claude advises, Codex runs](claude-advises-codex-runs.md) — 10-16: Claude gives opinions/requests only; Codex runs experiments & records results (save tokens)

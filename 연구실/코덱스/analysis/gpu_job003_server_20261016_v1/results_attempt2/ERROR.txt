@@ -1,0 +1,51 @@
+2026-10-16T08:10:33+09:00
+exit_code=1 checkpoint_count=0 expected=82
+Traceback (most recent call last):
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ft2_past_only_training_temp_v1.py", line 97, in <module>
+    summarize() if MODE == "sum" else run(MODE)
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ft2_past_only_training_temp_v1.py", line 59, in run
+    W, lab, pfn, ct, phc, wb, wp, lockd, CAL, cal, key, tg = setup(); print("targets", len(tg), "(pass-2", sum(d >= 179 for _, d in tg), ")", flush=True)
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ft2_past_only_training_temp_v1.py", line 22, in setup
+    FT1 = load("ft1", "ft1_past_only_training_ec_v1.py"); _, lockd, CAL, tg, _, _, _ = FT1.setup()
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ft2_past_only_training_temp_v1.py", line 18, in load
+    spec = importlib.util.spec_from_file_location(name, os.path.join(HERE, file)); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m); return m
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ft1_past_only_training_ec_v1.py", line 25, in <module>
+    ct2 = importlib.util.module_from_spec(spec); spec.loader.exec_module(ct2)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ct2_thermal_on_submission_pipeline_v1.py", line 35, in <module>
+    ct1 = importlib.util.module_from_spec(spec); spec.loader.exec_module(ct1)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ct1_thermal_schedule_features_v1.py", line 30, in <module>
+    wt0 = importlib.util.module_from_spec(spec); spec.loader.exec_module(wt0)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ec3_WT0_r3_member_weights_v1.py", line 23, in <module>
+    dp1 = importlib.util.module_from_spec(spec); spec.loader.exec_module(dp1)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ec3_DP1_daily_operation_pattern_v1.py", line 25, in <module>
+    db1 = importlib.util.module_from_spec(spec); spec.loader.exec_module(db1)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ec3_DB1_dong_split_models_v1.py", line 19, in <module>
+    se3 = importlib.util.module_from_spec(spec); spec.loader.exec_module(se3)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ec3_SE3_same_dong_residual_carry_v1.py", line 36, in <module>
+    dc5 = importlib.util.module_from_spec(spec); spec.loader.exec_module(dc5)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ec2_DC5_r3_season_v1.py", line 34, in <module>
+    spec.loader.exec_module(dc4)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ec2_DC4_exact_twin_anchor_v1.py", line 41, in <module>
+    spec.loader.exec_module(p3)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1016, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1073, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/코덱스/analysis/ec_restart_phase3_20261001_v1/run_benchmark.py'

@@ -1,0 +1,13 @@
+# N3 첫 fold 독립 중간 검토
+
+2026-10-10. critic 별도무학습실제NPZ/등록/metadata検算exit0。새fit0/EC0/외부0.
+
+판정: **동일n3_run_v3로나머지fold계속가능**. 등록actualsourceSHA=n3_run_v3/modelSHA=n3_model_v2,bootstrap20261010/alpha.005 확인. 현재baselineparent는검증된10-09폴더이고NPZsha/recipeSHA/parentbytesSHA가등록과같다. v2의없는10-10baseline폴더import실패는root기록으로fit0이며v3에서경로만원복했다. 이전v2코드검토에서경로오류를놓친한계가있다. 현재v3의실산출기반접합검사는통과했다.
+
+첫foldquery960IDs=parent·metadata전수순서,storedBASELINE=parentraw bit동일 및baselineprobe receipt0. level지원346날/shape8304행으로24배관계가맞고metadata의query_label_negative_pass=True다. 이negative는model첫assert로sub_temp컬럼을거부했다는root실행증거이며검증label값을준채예측동일성을시험했다는뜻이아니다. querylabel삭제후실predict경로는현재소스에서도확인됐다.
+
+critic은rawrowIDfarm/daykey로40개queryh0를따로찾고모든960행에서①level이同day0시값과같음②shape=shape_raw(h)−shape_raw(0)③N3=level+shape를exact계산했다. 모든h0의shape0 및최종h0=levelexact도직접확인됐다. 배열shape/finite도전수PASS. 같은날shape_raw0는예측배열에서왔으며정답이아니다. 실제y0는이중간검산에읽지않았다.
+
+원weights분포/seasonnotes가parent와같고featureMASKreceipt셀수8304×89가맞다. 원89/phys19특징감사6,155,952셀과physical0assert는root실행결과이며critic독립feature재생성검사가아니다. 모든headfit후검증정답은평가진단에서만사용하도록후속검산코드도동일경계를지켜야한다.
+
+현재확인한것은학습출처/label거부/출력항등식이다. 첫fold성과를독립효용증거로확대하지않으며세검증기·5후보alpha계약에따라끝난뒤판정한다. 총fit수는candidate12twohead조건(각level+shapeRidge/LGB)+baselineprobe1로구분한다. 새fullW40GS/채택/제출판정은아직아니다.

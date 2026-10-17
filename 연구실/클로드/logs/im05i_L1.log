@@ -1,0 +1,11 @@
+학습 행 4783 | 실제 2146 (원본 제외 738) | 공개 21장은 참고 서술만
+  s0 stack OOF 균형acc=0.8949 | 실제오탐 원본있음=0.044 원본제외=0.049 | AI_gen=1.00 compos=0.90 filter=0.93 full_s=0.99 partia=0.47 partia=0.69 || 공개(참고) 18/21 logloss=0.433 실제오탐=0 | 빨강실제정답 0.02
+      공개 개별: jixx=0.08 ovvx=0.16 qube=0.16 moke=0.52 wlid=0.73 xkdj=0.86 bpem=0.52 bphr=0.54 yuag=0.66 vfjx=0.99 nqwq=1.00 jrtg=0.99 kzbz=0.86 nriv=0.64 ttmn=0.44 ftkc=0.52 mobg=0.42 uexm=0.57 dszm=0.86 elue=0.56 xeeo=0.20
+  s0 L1    OOF 균형acc=0.8941 | 실제오탐 원본있음=0.048 원본제외=0.191 | AI_gen=0.98 compos=0.94 filter=0.90 full_s=0.99 partia=0.67 partia=0.78 || 공개(참고) 20/21 logloss=0.264 실제오탐=0 | 빨강실제정답 0.05
+      공개 개별: jixx=0.02 ovvx=0.12 qube=0.07 moke=0.51 wlid=0.92 xkdj=0.96 bpem=0.82 bphr=0.68 yuag=0.94 vfjx=1.00 nqwq=1.00 jrtg=1.00 kzbz=0.96 nriv=0.68 ttmn=0.77 ftkc=0.68 mobg=0.51 uexm=0.90 dszm=0.96 elue=0.60 xeeo=0.23
+      L1 계수(표준화): logit=+4.52 d1=-0.29 d2=-0.25 gap=+0.08 logd1=+1.25 loggap=+0.49 z*loggap=+0.35
+  s1 stack OOF 균형acc=0.8997 | 실제오탐 원본있음=0.036 원본제외=0.030 | AI_gen=1.00 compos=0.88 filter=0.92 full_s=0.99 partia=0.50 partia=0.69 || 공개(참고) 14/21 logloss=0.463 실제오탐=0 | 빨강실제정답 0.00
+  s1 L1    OOF 균형acc=0.9031 | 실제오탐 원본있음=0.042 원본제외=0.184 | AI_gen=1.00 compos=0.95 filter=0.92 full_s=0.99 partia=0.70 partia=0.77 || 공개(참고) 19/21 logloss=0.263 실제오탐=0 | 빨강실제정답 0.00
+  s2 stack OOF 균형acc=0.8993 | 실제오탐 원본있음=0.036 원본제외=0.042 | AI_gen=1.00 compos=0.89 filter=0.93 full_s=0.99 partia=0.48 partia=0.70 || 공개(참고) 16/21 logloss=0.453 실제오탐=0 | 빨강실제정답 0.09
+  s2 L1    OOF 균형acc=0.8901 | 실제오탐 원본있음=0.040 원본제외=0.203 | AI_gen=0.98 compos=0.93 filter=0.92 full_s=0.99 partia=0.63 partia=0.75 || 공개(참고) 19/21 logloss=0.259 실제오탐=0 | 빨강실제정답 0.06
+L1_DONE

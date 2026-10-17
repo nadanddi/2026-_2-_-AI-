@@ -1,0 +1,11 @@
+# N2 v3 실행 전 코드 독립 검토
+
+2026-10-10. n2_lofo_v3.py읽기만, criticfit0/EC수치0/외부자료0.
+
+판정: **--first 실행 차단점 없음**. 현재원30열/eligible96pair/10farm1000pair/80%strict양기준/farmmacro조건이유지되고사전source/runtime/dataSHA를등록한다. 현재·직전값시간쌍은farm/dayhourdiff1로격리됐고공식target농장및F32는fit전에제외한다.
+
+v1지적한featureinf는NaN으로명시처리했고LOFOtrainimputer/Scaler를통해대체한다. rawtarget/Δair는유한조건이고pred/MSEfinite assert+JSONallow_nanFalse가추가됐다. 비가중imputer/scaler와farm균등Ridge loss의범위도recipe에구분했다. cache는sourceSHA/NPZsha/queryrowIDs와finitepred를확인하므로동일v3 resume의출처가유지된다. 모델coef/intercept/trainfarms/queryfarm/row수를receipt로남기며first는첫1농장학습후종료한다.
+
+cachemetadata에runtime/dataSHA가개별포함되지는않지만그불변값은매실행registration exact조건과현재CSV Pin대조로연결된다. firstreceipt확인시현재등록source/runtimeSHA와actualpredcache를따로교차확인한다. farmermetadata의trainfarms는heldout을포함하지않고eligible전체−heldout과같아야한다. firstfarm결과를보고eligible기준이나feature를바꾸면원사전진단과다르다.
+
+최종독립검산은공식sub_temp만으로시간쌍rowIDs/Δtarget/halfair를재구성해NPZ와대조하고농장별fsum MSE·macro·strict양기준통과비율분모·gate를계산한다. 입력채널inf처리와missing이없는실제최종pair지원분포도구별한다. LOFO적합성게이트를target전이유의성으로확대하지않는다.

@@ -1,0 +1,12 @@
+행 8507 (h1 3724: 어려운 실제 1862) | 공개 21장 열람(B=3번째, H1=4번째)
+보조 행 중 h1: 90
+  s0 stack   공개 16/21 logloss=0.419 auc=0.981 실제오탐=0 어려운12=7 | 보조 균형acc=0.912 | 어려운실제 오탐=0.045 기존실제 오탐=0.036 | 가짜탐지 AI_gen=1.00 compos=0.89 filter=0.93 full_s=0.99 partia=0.52 partia=0.70
+  s0 stackR  공개 14/21 logloss=0.518 auc=0.944 실제오탐=0 어려운12=6 | 보조 균형acc=0.908 | 어려운실제 오탐=0.034 기존실제 오탐=0.033 | 가짜탐지 AI_gen=1.00 compos=0.89 filter=0.94 full_s=0.99 partia=0.47 partia=0.71
+  s1 stack   공개 16/21 logloss=0.457 auc=1.000 실제오탐=0 어려운12=7 | 보조 균형acc=0.910 | 어려운실제 오탐=0.039 기존실제 오탐=0.037 | 가짜탐지 AI_gen=1.00 compos=0.88 filter=0.93 full_s=0.99 partia=0.50 partia=0.70
+  s1 stackR  공개 14/21 logloss=0.527 auc=0.981 실제오탐=0 어려운12=6 | 보조 균형acc=0.910 | 어려운실제 오탐=0.034 기존실제 오탐=0.037 | 가짜탐지 AI_gen=1.00 compos=0.89 filter=0.94 full_s=0.99 partia=0.47 partia=0.71
+  s2 stack   공개 16/21 logloss=0.449 auc=1.000 실제오탐=0 어려운12=7 | 보조 균형acc=0.913 | 어려운실제 오탐=0.041 기존실제 오탐=0.032 | 가짜탐지 AI_gen=1.00 compos=0.89 filter=0.93 full_s=0.99 partia=0.47 partia=0.71
+  s2 stackR  공개 17/21 logloss=0.475 auc=0.981 실제오탐=0 어려운12=9 | 보조 균형acc=0.917 | 어려운실제 오탐=0.036 기존실제 오탐=0.032 | 가짜탐지 AI_gen=1.00 compos=0.89 filter=0.94 full_s=0.98 partia=0.50 partia=0.70
+
+== 채택 규칙 (기준 stack, 후보 1개 → 문턱 .025) ==
+  stackR: 공개조건 [False, False, False] | 보조방향 [False, False, True] | p_worse [np.float64(0.702), np.float64(0.4625), np.float64(0.2391)] → 불채택
+R2_DONE

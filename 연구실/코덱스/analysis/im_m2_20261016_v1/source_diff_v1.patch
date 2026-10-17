@@ -1,0 +1,34 @@
+--- im66_meta_v2.py
++++ im66_m2_v1.py
+@@ -6,9 +6,11 @@
+ from sklearn.model_selection import GroupKFold
+ OPEN = len(sys.argv) > 1 and sys.argv[1] == "open_r5"
+ sys.argv = [sys.argv[0], "no", ".0025", ".001", "h2", "jig"]
+-sys.path.insert(0, str(Path(__file__).resolve().parent)); import im44_h_train_eval as H  # noqa
++sys.path.insert(0, str(Path.home() / "storage/nadan/farmai_img/data/image")); import im44_h_train_eval as H  # noqa
+ from im43_h_feats import paths_of  # noqa
+ L = H.L; NB = 2000; TAG = "m_v2"
++import os
++OUT = Path(os.environ["M2_STAGE_DIR"])
+ b = io.BytesIO(); Image.new("RGB", (64, 64), (120, 130, 140)).save(b, "JPEG", quality=92); REFQ = Image.open(io.BytesIO(b.getvalue())).quantization
+ def std(p):
+     try: im = Image.open(p); return im.format == "JPEG" and JpegImagePlugin.get_sampling(im) == 2 and im.quantization == REFQ
+@@ -79,15 +81,15 @@
+     for fl, flrc in ((.0025, .001), (.0015, .00075), (.001, .0005), (.0005, .0005)):
+         TH = float(np.quantile(P, 1 - fl)); THrc = float(np.quantile(P[PRC], 1 - flrc)); un = O9 | (P >= np.where(PRC, THrc, TH))
+         print(f"[θ 단계 {fl}/{flrc}] θ_m {TH:.4f} θ_m_rc {THrc:.4f} | 합집합 진짜 오탐 {un.mean():.4f}", flush=True)
+-        if un.mean() <= .005: break
++        if un.mean() <= float(O9.mean()) + .001: break
+     else:
+         print("== 합집합 예산 0.5% 초과 → 불채택 ==", flush=True); return
+     gm_oof = gt & (np.nan_to_num(m_oof) >= np.where(F["rc"], THrc, TH)); f9_oof = gt & fire9(oof, F["rc"])
+     print(f"[학습 자료 안 OOF, 게이트 안, 참고] 가짜 탐지(전문가만) 나단9 {f9_oof[gt & (y == 1)].mean():.4f} → +m {(f9_oof | gm_oof)[gt & (y == 1)].mean():.4f}", flush=True)
+     for kk in sorted(set(kd[y == 1])):
+         mk = (kd == kk) & gt; print(f"     {kk:16s} n={mk.sum():4d} 전문가 발동 {f9_oof[mk].mean():.3f} → {(f9_oof | gm_oof)[mk].mean():.3f}", flush=True)
+-    np.savez(L / f"preds/{TAG}.npz", **MM, foldavg=np.array(FOLDAVG)); json.dump(dict(theta_m=TH, theta_m_rc=THrc, foldavg=bool(FOLDAVG)), open(L / f"preds/{TAG}_theta.json", "w"))
+-    if FOLDAVG: np.savez(L / f"preds/{TAG}_foldexp.npz", **{f"{f_}__{k}__{a}": v for f_, M in enumerate(FM) for k, d in M.items() for a, v in d.items()})
++    np.savez(OUT / f"{TAG}.npz", **MM, foldavg=np.array(FOLDAVG)); json.dump(dict(theta_m=TH, theta_m_rc=THrc, foldavg=bool(FOLDAVG)), open(OUT / f"{TAG}_theta.json", "w"))
++    if FOLDAVG: np.savez(OUT / f"{TAG}_foldexp.npz", **{f"{f_}__{k}__{a}": v for f_, M in enumerate(FM) for k, d in M.items() for a, v in d.items()})
+ 
+     C = {}
+     def outputs(sn, sim=False):

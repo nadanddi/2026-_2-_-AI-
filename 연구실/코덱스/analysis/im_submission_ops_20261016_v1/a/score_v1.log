@@ -1,0 +1,80 @@
+A2_OOF_SCORE 200
+A2_OOF_SCORE 400
+A2_OOF_SCORE 600
+A2_OOF_SCORE 800
+A2_OOF_SCORE 1000
+A2_OOF_SCORE 1200
+A2_OOF_SCORE 1400
+A2_OOF_SCORE 1600
+A2_OOF_SCORE 1800
+A2_SCORE im_set_newreal 200 / 795
+A2_SCORE im_set_newreal 400 / 795
+A2_SCORE im_set_newreal 600 / 795
+A2_SCORE im_set_realg 200 / 300
+A2_SCORE im_set_realn 200 / 300
+A2_SCORE im_set_r2 200 / 3724
+A2_SCORE im_set_r2 400 / 3724
+A2_SCORE im_set_r2 600 / 3724
+A2_SCORE im_set_r2 800 / 3724
+A2_SCORE im_set_r2 1000 / 3724
+A2_SCORE im_set_r2 1200 / 3724
+A2_SCORE im_set_r2 1400 / 3724
+A2_SCORE im_set_r2 1600 / 3724
+A2_SCORE im_set_r2 1800 / 3724
+A2_SCORE im_set_r2 2000 / 3724
+A2_SCORE im_set_r2 2200 / 3724
+A2_SCORE im_set_r2 2400 / 3724
+A2_SCORE im_set_r2 2600 / 3724
+A2_SCORE im_set_r2 2800 / 3724
+A2_SCORE im_set_r2 3000 / 3724
+A2_SCORE im_set_r2 3200 / 3724
+A2_SCORE im_set_r2 3400 / 3724
+A2_SCORE im_set_r2 3600 / 3724
+A2_SCORE im_set_r3 200 / 900
+A2_SCORE im_set_r3 400 / 900
+A2_SCORE im_set_r3 600 / 900
+A2_SCORE im_set_r3 800 / 900
+A2_SCORE im_set_r4 200 / 700
+A2_SCORE im_set_r4 400 / 700
+A2_SCORE im_set_r4 600 / 700
+A2_SCORE im_set_r5 200 / 700
+A2_SCORE im_set_r5 400 / 700
+A2_SCORE im_set_r5 600 / 700
+A2_SCORE sealed_real 200 / 400
+A2_SCORE sealed_real 400 / 400
+A2_SCORE sealed_brown 200 / 200
+A2_SCORE jig500 200 / 500
+A2_SCORE jig500 400 / 500
+A2_SCORE im_set_r3p_sharp 200 / 429
+A2_SCORE im_set_r3p_sharp 400 / 429
+A2_SCORE im_set_r3p_area 200 / 429
+A2_SCORE im_set_r3p_area 400 / 429
+A2_SCORE im_set_r3p_png 200 / 429
+A2_SCORE im_set_r3p_png 400 / 429
+A2_SCORE im_set_r3p_webp 200 / 429
+A2_SCORE im_set_r3p_webp 400 / 429
+A2_SCORE im_set_r3p_c444 200 / 429
+A2_SCORE im_set_r3p_c444 400 / 429
+A2_SCORE im_set_gpt3 200 / 200
+A2_EVAL im_set_newreal {'n': 795, 'base_fp': 5, 'candidate_fp': 9, 'new_fp': 4, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 786}
+A2_EVAL im_set_realg {'n': 300, 'base_fp': 9, 'candidate_fp': 9, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 291}
+A2_EVAL im_set_realn {'n': 300, 'base_fp': 5, 'candidate_fp': 7, 'new_fp': 2, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 293}
+A2_EVAL im_set_r2 {'n': 3724, 'base_fp': 39, 'candidate_fp': 44, 'new_fp': 5, 'fixed_fake': 0, 'base_ba': 0.9640171858216972, 'candidate_ba': 0.9626745435016112, 'correct': 3585}
+A2_EVAL im_set_r3 {'n': 900, 'base_fp': 11, 'candidate_fp': 12, 'new_fp': 1, 'fixed_fake': 0, 'base_ba': 0.9617017801731178, 'candidate_ba': 0.9605362790076166, 'correct': 864}
+A2_EVAL im_set_r4 {'n': 700, 'base_fp': 9, 'candidate_fp': 10, 'new_fp': 1, 'fixed_fake': 0, 'base_ba': 0.9467442335170443, 'candidate_ba': 0.9453357828128189, 'correct': 662}
+A2_EVAL im_set_r5 {'n': 700, 'base_fp': 5, 'candidate_fp': 6, 'new_fp': 1, 'fixed_fake': 0, 'base_ba': 0.9435589234387249, 'candidate_ba': 0.9421544290567023, 'correct': 660}
+A2_EVAL sealed_real {'n': 400, 'base_fp': 5, 'candidate_fp': 5, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 395}
+A2_EVAL sealed_brown {'n': 200, 'base_fp': 1, 'candidate_fp': 2, 'new_fp': 1, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 198}
+A2_EVAL sealed_bright {'n': 150, 'base_fp': 2, 'candidate_fp': 3, 'new_fp': 1, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 147}
+A2_EVAL jig500 {'n': 500, 'base_fp': 78, 'candidate_fp': 78, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 422}
+A2_EVAL pub21 {'n': 21, 'base_fp': 0, 'candidate_fp': 0, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': 1.0, 'candidate_ba': 1.0, 'correct': 21}
+A2_EVAL im_set_r3p_sharp {'n': 429, 'base_fp': 389, 'candidate_fp': 389, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 40}
+A2_EVAL im_set_r3p_area {'n': 429, 'base_fp': 9, 'candidate_fp': 10, 'new_fp': 1, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 419}
+A2_EVAL im_set_r3p_png {'n': 429, 'base_fp': 9, 'candidate_fp': 9, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 420}
+A2_EVAL im_set_r3p_webp {'n': 429, 'base_fp': 161, 'candidate_fp': 161, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 268}
+A2_EVAL im_set_r3p_c444 {'n': 429, 'base_fp': 23, 'candidate_fp': 23, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 406}
+A2_EVAL im_set_gpt1 {'n': 100, 'base_fp': 0, 'candidate_fp': 0, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 99}
+A2_EVAL im_set_gpt3 {'n': 200, 'base_fp': 0, 'candidate_fp': 0, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 193}
+A2_EVAL im_set_gptr {'n': 78, 'base_fp': 0, 'candidate_fp': 0, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 78}
+A2_EVAL im_set_gptr_src {'n': 78, 'base_fp': 2, 'candidate_fp': 2, 'new_fp': 0, 'fixed_fake': 0, 'base_ba': None, 'candidate_ba': None, 'correct': 76}
+A2_FINAL {'fixes_exceed_fp': False, 'sealed_new_fp': False, 'jig_delta': True, 'public21': True, 'r345_ba': False} PASS False

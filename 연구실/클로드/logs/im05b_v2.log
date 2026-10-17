@@ -1,0 +1,21 @@
+빨간 조명 원본 163개 → 관련 행 366개 학습·CV 제외(진단만)
+n=3175 fake=1415 kinds: {np.str_('ai_gen'): 2, np.str_('composite'): 340, np.str_('filter_blur'): 116, np.str_('filter_jpeg'): 136, np.str_('filter_noise'): 125, np.str_('filter_sp'): 109, np.str_('full_style'): 220, np.str_('full_style_sd'): 5, np.str_('partial_gen_sd'): 8, np.str_('partial_style'): 351, np.str_('partial_style_sd'): 3, np.str_('real'): 1397, np.str_('real_resampled'): 363}
+
+[V1 farm-group CV]
+clip   acc=0.905 auc=0.949 | ai_gen=0.00 composite=0.81 filter_blur=0.84 filter_jpeg=0.98 filter_noise=0.96 filter_sp=1.00 full_style=0.98 full_style_sd=1.00 partial_gen_sd=0.62 partial_style=0.73 partial_style_sd=0.33 real=0.93 real_resampled=0.97
+low    acc=0.827 auc=0.875 | ai_gen=0.50 composite=0.51 filter_blur=0.85 filter_jpeg=0.79 filter_noise=0.82 filter_sp=1.00 full_style=0.93 full_style_sd=0.20 partial_gen_sd=0.25 partial_style=0.68 partial_style_sd=0.00 real=0.89 real_resampled=0.96
+stack  acc=0.914 auc=0.949 | ai_gen=0.50 composite=0.78 filter_blur=0.85 filter_jpeg=0.96 filter_noise=0.91 filter_sp=1.00 full_style=0.97 full_style_sd=1.00 partial_gen_sd=0.50 partial_style=0.73 partial_style_sd=0.00 real=0.96 real_resampled=0.99
+
+[V1b leave-one-family-out] (평가 = 그 계열 가짜 + 같은 폴드 실제)
+  composite  clip: fake-recall=0.76 low: fake-recall=0.28 stack: fake-recall=0.63
+  filter     clip: fake-recall=0.76 low: fake-recall=0.37 stack: fake-recall=0.63
+  pstyle     clip: fake-recall=0.54 low: fake-recall=0.40 stack: fake-recall=0.49
+  sd_fstyle  clip: fake-recall=1.00 low: fake-recall=0.20 stack: fake-recall=1.00
+  sd_gen     clip: fake-recall=0.00 low: fake-recall=0.50 stack: fake-recall=0.50
+  sd_pgen    clip: fake-recall=0.62 low: fake-recall=0.00 stack: fake-recall=0.50
+  sd_pstyle  clip: fake-recall=0.67 low: fake-recall=0.00 stack: fake-recall=0.33
+
+[V2 public21]
+  clip   acc=0.667 auc=0.667 real_ok=2/3  jixx(real)=0.33 ovvx(real)=0.06 qube(real)=0.68 moke(AI_ge)=0.51 wlid(AI_ge)=0.66 xkdj(AI_ge)=0.91 bpem(compo)=0.54 bphr(compo)=0.94 yuag(compo)=1.00 vfjx(filte)=0.99 nqwq(filte)=1.00 jrtg(filte)=1.00 kzbz(full_)=0.39 nriv(full_)=0.52 ttmn(full_)=0.06 ftkc(parti)=0.64 mobg(parti)=0.02 uexm(parti)=0.28 dszm(parti)=0.52 elue(parti)=0.26 xeeo(parti)=0.39
+  low    acc=0.714 auc=0.870 real_ok=3/3  jixx(real)=0.19 ovvx(real)=0.30 qube(real)=0.09 moke(AI_ge)=0.66 wlid(AI_ge)=0.99 xkdj(AI_ge)=0.89 bpem(compo)=0.10 bphr(compo)=0.11 yuag(compo)=0.29 vfjx(filte)=0.99 nqwq(filte)=0.99 jrtg(filte)=0.97 kzbz(full_)=0.84 nriv(full_)=0.27 ttmn(full_)=0.74 ftkc(parti)=0.56 mobg(parti)=0.49 uexm(parti)=0.62 dszm(parti)=0.74 elue(parti)=0.93 xeeo(parti)=0.29
+  stack  acc=0.714 auc=0.926 real_ok=3/3  jixx(real)=0.26 ovvx(real)=0.18 qube(real)=0.38 moke(AI_ge)=0.59 wlid(AI_ge)=0.82 xkdj(AI_ge)=0.90 bpem(compo)=0.32 bphr(compo)=0.52 yuag(compo)=0.64 vfjx(filte)=0.99 nqwq(filte)=0.99 jrtg(filte)=0.99 kzbz(full_)=0.62 nriv(full_)=0.40 ttmn(full_)=0.40 ftkc(parti)=0.60 mobg(parti)=0.26 uexm(parti)=0.45 dszm(parti)=0.63 elue(parti)=0.59 xeeo(parti)=0.34

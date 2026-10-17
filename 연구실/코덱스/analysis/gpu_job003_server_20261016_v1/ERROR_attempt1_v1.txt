@@ -1,0 +1,27 @@
+2026-10-16T08:09:14+09:00
+exit_code=1 checkpoint_count=0 expected=82
+Traceback (most recent call last):
+  File "ft2_past_only_training_temp_v1.py", line 97, in <module>
+    summarize() if MODE == "sum" else run(MODE)
+  File "ft2_past_only_training_temp_v1.py", line 59, in run
+    W, lab, pfn, ct, phc, wb, wp, lockd, CAL, cal, key, tg = setup(); print("targets", len(tg), "(pass-2", sum(d >= 179 for _, d in tg), ")", flush=True)
+  File "ft2_past_only_training_temp_v1.py", line 22, in setup
+    FT1 = load("ft1", "ft1_past_only_training_ec_v1.py"); _, lockd, CAL, tg, _, _, _ = FT1.setup()
+  File "ft2_past_only_training_temp_v1.py", line 18, in load
+    spec = importlib.util.spec_from_file_location(name, os.path.join(HERE, file)); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m); return m
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ft1_past_only_training_ec_v1.py", line 25, in <module>
+    ct2 = importlib.util.module_from_spec(spec); spec.loader.exec_module(ct2)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ct2_thermal_on_submission_pipeline_v1.py", line 35, in <module>
+    ct1 = importlib.util.module_from_spec(spec); spec.loader.exec_module(ct1)
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ct1_thermal_schedule_features_v1.py", line 30, in <module>
+    wt0 = importlib.util.module_from_spec(spec); spec.loader.exec_module(wt0)
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 915, in get_code
+  File "<frozen importlib._bootstrap_external>", line 972, in get_data
+FileNotFoundError: [Errno 2] No such file or directory: '/home/adilab/storage/nadan/codex/JOB003_FT2_20261016_v1/workspace/집/클로드/research/ec3_WT0_r3_member_weights_v1.py'

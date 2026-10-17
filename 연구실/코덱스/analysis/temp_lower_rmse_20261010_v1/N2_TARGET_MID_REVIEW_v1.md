@@ -1,0 +1,11 @@
+# N2 대상 첫 fold 독립 중간 검토
+
+2026-10-10. 별도무학습검산actualexit0. criticfit0/EC정답수치0/외부자료0/원모델소스수정0.
+
+판정: **동일n2_target_v3로나머지11fold계속가능**. 이번등록은TASK에정상있고actualtarget/helper/runtimeSHA가각등록/receipt와같다. priorjoblibSHA=receipt modelSHA,priorreceipt=target등록에내장된prior_fit이며공식dataSHA가LOFO원등록과같다. 48prior훈련farms는원LOFOeligible와전수같고275616pairs,대상F13/F47/F32제외다. 이검산은이미생성된joblib의bytes출처를확인한것이며critic이추가priorfit한것은아니다.
+
+prior30열/30coef/30imputerstats/30scalermean/30scale길이와유한값을확인했다. 대상feature는 **원89열+누적1열=90열**,물리19열이다(87열로해석하지않음). 등록마지막열은n2_cumulative다. h0=0/firstinvalidstep후skipnaFalse전파/dayreset은실제helper정적규약이며원labelanchor를사용하지않는다. 중간검산에서그feature값을별도재생성하지않았으므로정적규약과root실제featureauditassert를구분한다.
+
+첫foldmetadataweights/seasonnotes는parent와exact같고90×8304=747360훈련featureMASK동등셀receipt가맞다. IRR이아닌NPZ키row_id/BASELINE/N2를확인했다. 첫query960행ID순서가parent/metadata와같고storedBASELINE과parent예측이bit전수동일이다. 재fitbaselineprobe receipt0와연결되며N2candidate960개는finite다. source/recipe/두NPZ SHA가실제bytes와같다.
+
+globalfeature6,214,080셀PASS는root실행감사로그/assert결과이며critic의별도feature재생성검산이나전체PFN8모델규정검사가아니다. 첫fold의candidate효과값을보지않고출처/shape검산을했으며전체성과/진행gate는3검증기완료후사전alpha.00625로판정한다. 여기서전체W40GS이득을확정하지않는다.

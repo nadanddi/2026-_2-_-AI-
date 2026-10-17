@@ -1,0 +1,497 @@
+{
+  "high_real": 40,
+  "blocked": {
+    "가짜우선분기아님": 3,
+    "lg": 8,
+    "ppre": 18,
+    "ge": 12,
+    "gap": 6
+  },
+  "sole": {
+    "ppre": 10,
+    "lg": 1,
+    "ge": 3
+  },
+  "first": {
+    "가짜우선분기아님": 3,
+    "ppre": 10,
+    "lg": 5,
+    "ge": 5,
+    "gap": 6
+  },
+  "combination": {
+    "기존rc발동·후단전문가오판": 11,
+    "가짜우선분기아님|lg": 3,
+    "ppre": 10,
+    "lg": 1,
+    "lg|ppre": 2,
+    "ge": 3,
+    "gap|ge": 4,
+    "gap|ppre": 1,
+    "lg|ge|ppre": 2,
+    "ge|ppre": 2,
+    "gap|ge|ppre": 1
+  },
+  "E2": {
+    "im_set_r3": {
+      "진짜분모": 429,
+      "기존진짜오판": 11,
+      "반사실진짜오판": 9,
+      "기존오탐률": 0.02564102564102564,
+      "반사실오탐률": 0.02097902097902098,
+      "고친진짜": 2,
+      "새가짜놓침": 1,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": 0.9617017801731178,
+      "반사실BA": 0.9629712113788547,
+      "기존정답": 865,
+      "반사실정답": 866,
+      "신규rc": 40
+    },
+    "im_set_realn": {
+      "진짜분모": 300,
+      "기존진짜오판": 5,
+      "반사실진짜오판": 4,
+      "기존오탐률": 0.016666666666666666,
+      "반사실오탐률": 0.013333333333333334,
+      "고친진짜": 1,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 295,
+      "반사실정답": 296,
+      "신규rc": 1
+    },
+    "pub21": {
+      "진짜분모": 3,
+      "기존진짜오판": 0,
+      "반사실진짜오판": 0,
+      "기존오탐률": 0.0,
+      "반사실오탐률": 0.0,
+      "고친진짜": 0,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": 1.0,
+      "반사실BA": 1.0,
+      "기존정답": 21,
+      "반사실정답": 21,
+      "신규rc": 0
+    },
+    "sealed_bright": {
+      "진짜분모": 150,
+      "기존진짜오판": 2,
+      "반사실진짜오판": 2,
+      "기존오탐률": 0.013333333333333334,
+      "반사실오탐률": 0.013333333333333334,
+      "고친진짜": 0,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 148,
+      "반사실정답": 148,
+      "신규rc": 0
+    },
+    "im_set_r3p_c444": {
+      "진짜분모": 429,
+      "기존진짜오판": 23,
+      "반사실진짜오판": 10,
+      "기존오탐률": 0.053613053613053616,
+      "반사실오탐률": 0.023310023310023312,
+      "고친진짜": 13,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 406,
+      "반사실정답": 419,
+      "신규rc": 13
+    },
+    "jig500": {
+      "진짜분모": 500,
+      "기존진짜오판": 78,
+      "반사실진짜오판": 32,
+      "기존오탐률": 0.156,
+      "반사실오탐률": 0.064,
+      "고친진짜": 46,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 422,
+      "반사실정답": 468,
+      "신규rc": 46
+    },
+    "im_set_r3p_sharp": {
+      "진짜분모": 429,
+      "기존진짜오판": 389,
+      "반사실진짜오판": 389,
+      "기존오탐률": 0.9067599067599068,
+      "반사실오탐률": 0.9067599067599068,
+      "고친진짜": 0,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 40,
+      "반사실정답": 40,
+      "신규rc": 0
+    },
+    "im_set_realg": {
+      "진짜분모": 300,
+      "기존진짜오판": 9,
+      "반사실진짜오판": 9,
+      "기존오탐률": 0.03,
+      "반사실오탐률": 0.03,
+      "고친진짜": 0,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 291,
+      "반사실정답": 291,
+      "신규rc": 0
+    },
+    "im_set_r3p_png": {
+      "진짜분모": 429,
+      "기존진짜오판": 9,
+      "반사실진짜오판": 7,
+      "기존오탐률": 0.02097902097902098,
+      "반사실오탐률": 0.016317016317016316,
+      "고친진짜": 2,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 420,
+      "반사실정답": 422,
+      "신규rc": 2
+    },
+    "im_set_r3p_area": {
+      "진짜분모": 429,
+      "기존진짜오판": 9,
+      "반사실진짜오판": 7,
+      "기존오탐률": 0.02097902097902098,
+      "반사실오탐률": 0.016317016317016316,
+      "고친진짜": 2,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 420,
+      "반사실정답": 422,
+      "신규rc": 2
+    },
+    "im_set_r2": {
+      "진짜분모": 1862,
+      "기존진짜오판": 39,
+      "반사실진짜오판": 35,
+      "기존오탐률": 0.020945220193340493,
+      "반사실오탐률": 0.018796992481203006,
+      "고친진짜": 4,
+      "새가짜놓침": 1,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": 0.9640171858216972,
+      "반사실BA": 0.9648227712137487,
+      "기존정답": 3590,
+      "반사실정답": 3593,
+      "신규rc": 94
+    },
+    "im_set_r3p_webp": {
+      "진짜분모": 429,
+      "기존진짜오판": 161,
+      "반사실진짜오판": 103,
+      "기존오탐률": 0.3752913752913753,
+      "반사실오탐률": 0.2400932400932401,
+      "고친진짜": 58,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 268,
+      "반사실정답": 326,
+      "신규rc": 58
+    },
+    "sealed_real": {
+      "진짜분모": 400,
+      "기존진짜오판": 5,
+      "반사실진짜오판": 3,
+      "기존오탐률": 0.0125,
+      "반사실오탐률": 0.0075,
+      "고친진짜": 2,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 395,
+      "반사실정답": 397,
+      "신규rc": 2
+    },
+    "im_set_r5": {
+      "진짜분모": 356,
+      "기존진짜오판": 5,
+      "반사실진짜오판": 4,
+      "기존오탐률": 0.014044943820224719,
+      "반사실오탐률": 0.011235955056179775,
+      "고친진짜": 1,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": 0.9435589234387249,
+      "반사실BA": 0.9449634178207473,
+      "기존정답": 661,
+      "반사실정답": 662,
+      "신규rc": 22
+    },
+    "im_set_r4": {
+      "진짜분모": 355,
+      "기존진짜오판": 9,
+      "반사실진짜오판": 6,
+      "기존오탐률": 0.02535211267605634,
+      "반사실오탐률": 0.016901408450704224,
+      "고친진짜": 3,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": 0.9467442335170443,
+      "반사실BA": 0.9509695856297203,
+      "기존정답": 663,
+      "반사실정답": 666,
+      "신규rc": 31
+    },
+    "im_set_newreal": {
+      "진짜분모": 795,
+      "기존진짜오판": 5,
+      "반사실진짜오판": 3,
+      "기존오탐률": 0.006289308176100629,
+      "반사실오탐률": 0.0037735849056603774,
+      "고친진짜": 2,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 790,
+      "반사실정답": 792,
+      "신규rc": 2
+    },
+    "sealed_brown": {
+      "진짜분모": 200,
+      "기존진짜오판": 1,
+      "반사실진짜오판": 1,
+      "기존오탐률": 0.005,
+      "반사실오탐률": 0.005,
+      "고친진짜": 0,
+      "새가짜놓침": 0,
+      "고친가짜": 0,
+      "새진짜오판": 0,
+      "기존BA": null,
+      "반사실BA": null,
+      "기존정답": 199,
+      "반사실정답": 199,
+      "신규rc": 0
+    }
+  },
+  "E4_access": false,
+  "E3": {
+    "ff유효전체|dg1": {
+      "threshold": 1.0911458730697634,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1395,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 127,
+      "caught_kind": {
+        "partial_gen_v7": 20,
+        "partial_gen_v7s": 35,
+        "partial_style": 72
+      }
+    },
+    "ff유효전체|gap": {
+      "threshold": 37.61458587646485,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1395,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 0,
+      "caught_kind": {
+        "partial_gen_v7": 0,
+        "partial_gen_v7s": 0,
+        "partial_style": 0
+      }
+    },
+    "ff유효전체|lg": {
+      "threshold": 5.53333330154419,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1395,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 132,
+      "caught_kind": {
+        "partial_gen_v7": 21,
+        "partial_gen_v7s": 36,
+        "partial_style": 75
+      }
+    },
+    "ff유효전체|le": {
+      "threshold": 24.222221374511722,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1395,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 63,
+      "caught_kind": {
+        "partial_gen_v7": 13,
+        "partial_gen_v7s": 25,
+        "partial_style": 25
+      }
+    },
+    "ff유효전체|abs_ge": {
+      "threshold": 31.000000000000004,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1395,
+      "calibration_alerts": 2,
+      "allowed": 3,
+      "caught147": 0,
+      "caught_kind": {
+        "partial_gen_v7": 0,
+        "partial_gen_v7s": 0,
+        "partial_style": 0
+      }
+    },
+    "ff유효전체|lg_div_absge_floor1": {
+      "threshold": 4.466666698455811,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1395,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 81,
+      "caught_kind": {
+        "partial_gen_v7": 10,
+        "partial_gen_v7s": 33,
+        "partial_style": 38
+      }
+    },
+    "ff유효전체|le_div_absge_floor1": {
+      "threshold": 19.777778625488285,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1395,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 19,
+      "caught_kind": {
+        "partial_gen_v7": 4,
+        "partial_gen_v7s": 8,
+        "partial_style": 7
+      }
+    },
+    "ff유효_gap기존이상|dg1": {
+      "threshold": 1.0911458730697634,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1360,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 120,
+      "caught_kind": {
+        "partial_gen_v7": 18,
+        "partial_gen_v7s": 35,
+        "partial_style": 67
+      }
+    },
+    "ff유효_gap기존이상|gap": {
+      "threshold": 37.61458587646485,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1360,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 0,
+      "caught_kind": {
+        "partial_gen_v7": 0,
+        "partial_gen_v7s": 0,
+        "partial_style": 0
+      }
+    },
+    "ff유효_gap기존이상|lg": {
+      "threshold": 5.53333330154419,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1360,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 124,
+      "caught_kind": {
+        "partial_gen_v7": 19,
+        "partial_gen_v7s": 36,
+        "partial_style": 69
+      }
+    },
+    "ff유효_gap기존이상|le": {
+      "threshold": 24.222221374511722,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1360,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 59,
+      "caught_kind": {
+        "partial_gen_v7": 12,
+        "partial_gen_v7s": 25,
+        "partial_style": 22
+      }
+    },
+    "ff유효_gap기존이상|abs_ge": {
+      "threshold": 31.000000000000004,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1360,
+      "calibration_alerts": 2,
+      "allowed": 3,
+      "caught147": 0,
+      "caught_kind": {
+        "partial_gen_v7": 0,
+        "partial_gen_v7s": 0,
+        "partial_style": 0
+      }
+    },
+    "ff유효_gap기존이상|lg_div_absge_floor1": {
+      "threshold": 4.466666698455811,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1360,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 78,
+      "caught_kind": {
+        "partial_gen_v7": 9,
+        "partial_gen_v7s": 33,
+        "partial_style": 36
+      }
+    },
+    "ff유효_gap기존이상|le_div_absge_floor1": {
+      "threshold": 19.777778625488285,
+      "calibration_denominator": 1395,
+      "calibration_eligible": 1360,
+      "calibration_alerts": 3,
+      "allowed": 3,
+      "caught147": 19,
+      "caught_kind": {
+        "partial_gen_v7": 4,
+        "partial_gen_v7s": 8,
+        "partial_style": 7
+      }
+    }
+  },
+  "table_rows": 1014,
+  "no_adoption": true,
+  "no_package": true
+}

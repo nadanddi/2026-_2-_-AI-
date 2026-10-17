@@ -1,0 +1,62 @@
+{
+  "name": "N2_LOFO",
+  "exclude": [
+    "F13",
+    "F47",
+    "F32"
+  ],
+  "min_pairs_per_farm": 96,
+  "min_farms": 10,
+  "min_rows": 1000,
+  "fraction_better_both": 0.8,
+  "ridge_alpha": 100,
+  "features": [
+    "out_temp",
+    "out_hum",
+    "out_rad",
+    "out_wspd",
+    "in_temp",
+    "in_hum",
+    "in_co2",
+    "act_vent",
+    "act_shade",
+    "act_thermal",
+    "act_heating",
+    "act_circfan",
+    "act_co2",
+    "act_fog",
+    "delta_out_temp",
+    "delta_out_hum",
+    "delta_out_rad",
+    "delta_out_wspd",
+    "delta_in_temp",
+    "delta_in_hum",
+    "delta_in_co2",
+    "delta_act_vent",
+    "delta_act_shade",
+    "delta_act_thermal",
+    "delta_act_heating",
+    "delta_act_circfan",
+    "delta_act_co2",
+    "delta_act_fog",
+    "sin",
+    "cos"
+  ],
+  "empty_features": true,
+  "farm_equal_weight_mean_one": true,
+  "baseline": [
+    "zero",
+    ".5*delta_in_temp"
+  ],
+  "ties": "fail",
+  "runtime_sha": "73e5a775787c1a95e5aaf429e724e8a8432a1526df98b3de5d1dbb1c9ad11416",
+  "source_sha": "803be2b7f3eca131d6407fb43b1b04a91054e236cb4e655c47d5caa654486ac0",
+  "data_sha": {
+    "train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9",
+    "test_X.csv": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad"
+  },
+  "weight_scope": "Ridge loss only; imputer/scaler row-weighted",
+  "nonfinite_inputs": "inf->NaN fold median, finite target and air-delta required",
+  "full_target_adoption": false
+}

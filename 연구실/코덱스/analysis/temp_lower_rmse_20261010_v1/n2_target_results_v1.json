@@ -1,0 +1,37 @@
+{
+  "status": "N2_COMPONENT_SCREEN_COMPLETED",
+  "results": {
+    "DIAG10": {
+      "base_rmse": 0.742598278240801,
+      "candidate_rmse": 0.7422409034676991,
+      "pct": -0.04812491269823305,
+      "rows": 9600,
+      "better": true,
+      "p_worse": 0.43585,
+      "ci": [
+        -0.004961620942220032,
+        0.003969591796635521
+      ]
+    },
+    "EXT10": {
+      "base_rmse": 0.8895019194373484,
+      "candidate_rmse": 0.891420259761521,
+      "pct": 0.2156645513914146,
+      "rows": 2040,
+      "better": false
+    },
+    "EXT12": {
+      "base_rmse": 0.9142909636426085,
+      "candidate_rmse": 0.9179663026070712,
+      "pct": 0.40198789123102596,
+      "rows": 5256,
+      "better": false
+    }
+  },
+  "screen_pass": false,
+  "full_mixture_adoption": false,
+  "new_fit": 11,
+  "total_component_fits": 13,
+  "feature_audit_cells": 6214080,
+  "recipe_sha": "4b8dec4f619cfe0018dece76db4ba1fbfae3186bc079f52fff0823ca881eb3c5"
+}

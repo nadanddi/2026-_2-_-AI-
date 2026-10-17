@@ -1,0 +1,34 @@
+{
+  "results": {
+    "DIAG10": {
+      "base_rmse": 0.6644065151823838,
+      "candidate_rmse": 0.6641978987514717,
+      "pct": -0.031398914090241536,
+      "better": true,
+      "rows": 9600,
+      "p_worse": 0.3199,
+      "ci": [
+        -0.0014147526798870159,
+        0.0009858081079932364
+      ]
+    },
+    "EXT10": {
+      "base_rmse": 0.8638269058920292,
+      "candidate_rmse": 0.8640189553441633,
+      "pct": 0.022232399896804367,
+      "better": false,
+      "rows": 2040
+    },
+    "EXT12": {
+      "base_rmse": 0.8271758542368313,
+      "candidate_rmse": 0.8253193382983158,
+      "pct": -0.22444029634161033,
+      "better": true,
+      "rows": 5256
+    }
+  },
+  "pilot_pass": false,
+  "adoption": false,
+  "new_fit": 0,
+  "recipe_sha": "944a179085aae313097b8d014debdbf8193487b1c3be023d1d41dff2471c6d41"
+}

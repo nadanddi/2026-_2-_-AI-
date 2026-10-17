@@ -1,0 +1,1221 @@
+{
+  "table_rows": 317,
+  "r5_errors": 39,
+  "high_fp": 40,
+  "correct_real": 2938,
+  "mapping_counts": {
+    "archive+fname/member 확정": 6324
+  },
+  "metadata_ambiguous_keys": 0,
+  "gpath": {
+    "g_src2_014.jpg": {
+      "path": "1901×2381→긴 변1335(1066×1335,LANCZOS)→PNG무손실 왕복→BICUBIC덮기818×1024→중앙 크롭768×1024→JPEG Q92/420",
+      "raw_sha256": "0b98d533a8475fc0d687e40b4a98feb721dbec4631d65a424ccac2150c3ab74a",
+      "target_long": 1335,
+      "pool_n": 200,
+      "note": "흰 멀칭과 두 단 재배대, 큰 녹색 잎·꽃, 후면 세로 창망이 보임. 병해·AI 여부는 사진만으로 판정하지 않음."
+    },
+    "g_src2_139.jpg": {
+      "path": "824×2327→긴 변1468(520×1468,LANCZOS)→PNG무손실 왕복→BICUBIC덮기768×2168→중앙 크롭768×1024→JPEG Q92/420",
+      "raw_sha256": "c97c6018ba6dc55b7ca57406896d80c8b40070bd58e7553b4cdb00802ef18f7e",
+      "target_long": 1468,
+      "pool_n": 200,
+      "note": "잎·줄기 근접 구도, 전체 세부가 부드럽고 노란 숫자 표찰·배지가 보임. 일부 작은 잎 끝 갈색점은 관찰에 한정."
+    },
+    "g_src3_052.jpg": {
+      "path": "1927×2354→긴 변1346(1102×1346,LANCZOS)→PNG무손실 왕복→BICUBIC덮기838×1024→중앙 크롭768×1024→JPEG Q92/420",
+      "raw_sha256": "03c2373d487cb3d18450872d740245786708a9670a035e0a833f58bc52503969",
+      "target_long": 1346,
+      "pool_n": 200,
+      "note": "강한 역광과 밝게 날아간 상단 창, 녹색 잎·꽃과 흰 멀칭의 명암 대비가 큼."
+    },
+    "g_src3_081.jpg": {
+      "path": "1095×2368→긴 변1269(587×1269,LANCZOS)→PNG무손실 왕복→LANCZOS덮기768×1660→중앙 크롭768×1024→JPEG Q92/420",
+      "raw_sha256": "95dafc557b332afca9727bf4e36136009fdf6f73a784b6656a75f69ba2a033ee",
+      "target_long": 1269,
+      "pool_n": 200,
+      "note": "광택 있는 잎이 겹치고 중앙의 갈색 배지가 크게 보임. 갈변 대리값에는 배지 색도 포함될 수 있음."
+    },
+    "g_src3_141.jpg": {
+      "path": "722×1214→긴 변1537(914×1537,LANCZOS)→PNG무손실 왕복→BICUBIC덮기768×1291→중앙 크롭768×1024→JPEG Q92/420",
+      "raw_sha256": "1e293d905dde65a8e9053e87a2b65aaca976de1a0a5e70aa416f0087d51532fb",
+      "target_long": 1537,
+      "pool_n": 200,
+      "note": "잎 근접 구도와 검은 재배통·배지, 중앙 잎에 밝거나 갈색인 가는 흔적이 보임. 질감은 비교적 부드러움."
+    }
+  },
+  "pool": [
+    {
+      "path": "결과_GPT/3_부분생성/src3_001_A_final.png",
+      "width": 1479,
+      "height": 1064
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_002_A_final.png",
+      "width": 1011,
+      "height": 1556
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_003_A_final.png",
+      "width": 1023,
+      "height": 1537
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_004_A_final.png",
+      "width": 1241,
+      "height": 1268
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_005_A_final.png",
+      "width": 1333,
+      "height": 1180
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_006_A_final.png",
+      "width": 1087,
+      "height": 1446
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_007_A_final.png",
+      "width": 1031,
+      "height": 1526
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_008_A_final.png",
+      "width": 1624,
+      "height": 969
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_009_A_final.png",
+      "width": 991,
+      "height": 1588
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_010_A_final.png",
+      "width": 1161,
+      "height": 1354
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_011_A_final.png",
+      "width": 1208,
+      "height": 1302
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_012_A_final.png",
+      "width": 1194,
+      "height": 1317
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_013_A_final.png",
+      "width": 1163,
+      "height": 1353
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_014_A_final.png",
+      "width": 1142,
+      "height": 1377
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_015_A_final.png",
+      "width": 938,
+      "height": 1676
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_016_A_final.png",
+      "width": 965,
+      "height": 1630
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_017_A_final.png",
+      "width": 1182,
+      "height": 1330
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_018_A_final.png",
+      "width": 1117,
+      "height": 1408
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_019_A_final.png",
+      "width": 1283,
+      "height": 1226
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_020_A_final.png",
+      "width": 1429,
+      "height": 1101
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_021_A_final.png",
+      "width": 1123,
+      "height": 1401
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_022_A_final.png",
+      "width": 1315,
+      "height": 1196
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_023_A_final.png",
+      "width": 1091,
+      "height": 1441
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_024_A_final.png",
+      "width": 1149,
+      "height": 1369
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_025_A_final.png",
+      "width": 1327,
+      "height": 1186
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_026_A_final.png",
+      "width": 1205,
+      "height": 1306
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_027_A_final.png",
+      "width": 1157,
+      "height": 1360
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_028_A_final.png",
+      "width": 925,
+      "height": 1701
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_029_A_final.png",
+      "width": 936,
+      "height": 1681
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_030_A_final.png",
+      "width": 1178,
+      "height": 1335
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_031_A_final.png",
+      "width": 1199,
+      "height": 1312
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_032_A_final.png",
+      "width": 1077,
+      "height": 1460
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_033_A_final.png",
+      "width": 1087,
+      "height": 1447
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_034_A_final.png",
+      "width": 934,
+      "height": 1684
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_035_A_final.png",
+      "width": 1219,
+      "height": 1290
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_036_A_final.png",
+      "width": 1029,
+      "height": 1529
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_037_A_final.png",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_038_A_final.png",
+      "width": 909,
+      "height": 1730
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_039_A_final.png",
+      "width": 1418,
+      "height": 1109
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_040_A_final.png",
+      "width": 1391,
+      "height": 1131
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_041_A_final.png",
+      "width": 1048,
+      "height": 1501
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_042_A_final.png",
+      "width": 997,
+      "height": 1577
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_043_A_final.png",
+      "width": 1378,
+      "height": 1141
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_044_A_final.png",
+      "width": 1474,
+      "height": 1067
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_045_A_final.png",
+      "width": 1130,
+      "height": 1392
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_046_A_final.png",
+      "width": 961,
+      "height": 1637
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_047_A_final.png",
+      "width": 1121,
+      "height": 1403
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_048_A_final.png",
+      "width": 894,
+      "height": 1758
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_049_A_final.png",
+      "width": 1184,
+      "height": 1328
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_050_A_final.png",
+      "width": 1010,
+      "height": 1557
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_051_B_final.png",
+      "width": 1007,
+      "height": 1562
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_052_B_final.png",
+      "width": 1134,
+      "height": 1387
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_053_B_final.png",
+      "width": 1071,
+      "height": 1468
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_054_B_final.png",
+      "width": 1067,
+      "height": 1474
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_055_B_final.png",
+      "width": 1124,
+      "height": 1399
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_056_B_final.png",
+      "width": 1123,
+      "height": 1400
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_057_B_final.png",
+      "width": 1224,
+      "height": 1285
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_058_B_final.png",
+      "width": 1368,
+      "height": 1149
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_059_B_final.png",
+      "width": 1131,
+      "height": 1391
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_060_B_final.png",
+      "width": 973,
+      "height": 1617
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_061_B_final.png",
+      "width": 1214,
+      "height": 1296
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_062_B_final.png",
+      "width": 1204,
+      "height": 1306
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_063_B_final.png",
+      "width": 1035,
+      "height": 1520
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_064_B_final.png",
+      "width": 1168,
+      "height": 1346
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_065_B_final.png",
+      "width": 1270,
+      "height": 1239
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_066_B_final.png",
+      "width": 1164,
+      "height": 1351
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_067_B_final.png",
+      "width": 1166,
+      "height": 1349
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_068_B_final.png",
+      "width": 882,
+      "height": 1784
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_069_B_final.png",
+      "width": 933,
+      "height": 1686
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_070_B_final.png",
+      "width": 1203,
+      "height": 1307
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_071_B_final.png",
+      "width": 1433,
+      "height": 1098
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_072_B_final.png",
+      "width": 1052,
+      "height": 1495
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_073_B_final.png",
+      "width": 832,
+      "height": 1891
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_074_B_final.png",
+      "width": 1157,
+      "height": 1360
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_075_B_final.png",
+      "width": 1037,
+      "height": 1517
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_076_B_final.png",
+      "width": 1240,
+      "height": 1269
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_077_B_final.png",
+      "width": 1057,
+      "height": 1488
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_078_B_final.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_079_B_final.png",
+      "width": 1110,
+      "height": 1417
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_080_B_final.png",
+      "width": 1146,
+      "height": 1372
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_081_B_final.png",
+      "width": 853,
+      "height": 1844
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_082_B_final.png",
+      "width": 1206,
+      "height": 1305
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_083_B_final.png",
+      "width": 870,
+      "height": 1808
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_084_B_final.png",
+      "width": 950,
+      "height": 1656
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_085_B_final.png",
+      "width": 1050,
+      "height": 1498
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_086_B_final.png",
+      "width": 1286,
+      "height": 1223
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_087_B_final.png",
+      "width": 1070,
+      "height": 1470
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_088_B_final.png",
+      "width": 1178,
+      "height": 1335
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_089_B_final.png",
+      "width": 1272,
+      "height": 1236
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_090_B_final.png",
+      "width": 1185,
+      "height": 1327
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_091_B_final.png",
+      "width": 926,
+      "height": 1698
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_092_B_final.png",
+      "width": 1232,
+      "height": 1277
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_093_B_final.png",
+      "width": 943,
+      "height": 1668
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_094_B_final.png",
+      "width": 1191,
+      "height": 1321
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_095_B_final.png",
+      "width": 1211,
+      "height": 1299
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_096_B_final.png",
+      "width": 1105,
+      "height": 1423
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_097_B_final.png",
+      "width": 863,
+      "height": 1823
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_098_B_final.png",
+      "width": 1087,
+      "height": 1447
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_099_B_final.png",
+      "width": 990,
+      "height": 1589
+    },
+    {
+      "path": "결과_GPT/3_부분생성/src3_100_B_final.png",
+      "width": 1057,
+      "height": 1488
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_101_C_final.png",
+      "width": 1223,
+      "height": 1286
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_102_C_final.png",
+      "width": 1183,
+      "height": 1329
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_103_C_final.png",
+      "width": 1227,
+      "height": 1282
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_104_C_final.png",
+      "width": 1170,
+      "height": 1345
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_105_C_final.png",
+      "width": 1208,
+      "height": 1302
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_106_C_final.png",
+      "width": 1142,
+      "height": 1377
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_107_C_final.png",
+      "width": 1060,
+      "height": 1484
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_108_C_final.png",
+      "width": 1027,
+      "height": 1531
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_109_C_final.png",
+      "width": 1073,
+      "height": 1465
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_110_C_final.png",
+      "width": 1055,
+      "height": 1491
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_111_C_final.png",
+      "width": 1142,
+      "height": 1377
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_112_C_final.png",
+      "width": 1092,
+      "height": 1440
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_113_C_final.png",
+      "width": 1174,
+      "height": 1340
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_114_C_final.png",
+      "width": 902,
+      "height": 1744
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_115_C_final.png",
+      "width": 986,
+      "height": 1596
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_116_C_final.png",
+      "width": 1016,
+      "height": 1547
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_117_C_final.png",
+      "width": 1032,
+      "height": 1523
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_118_C_final.png",
+      "width": 1049,
+      "height": 1500
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_119_C_final.png",
+      "width": 1085,
+      "height": 1450
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_120_C_final.png",
+      "width": 974,
+      "height": 1615
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_121_C_final.png",
+      "width": 838,
+      "height": 1877
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_122_C_final.png",
+      "width": 1174,
+      "height": 1339
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_123_C_final.png",
+      "width": 1183,
+      "height": 1329
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_124_C_final.png",
+      "width": 1100,
+      "height": 1430
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_125_C_final.png",
+      "width": 1268,
+      "height": 1240
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_126_C_final.png",
+      "width": 1268,
+      "height": 1241
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_127_C_final_r2.png",
+      "width": 867,
+      "height": 1815
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_128_C_final.png",
+      "width": 1032,
+      "height": 1523
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_129_C_final.png",
+      "width": 868,
+      "height": 1811
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_130_C_final.png",
+      "width": 1006,
+      "height": 1563
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_131_C_final.png",
+      "width": 1052,
+      "height": 1494
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_132_C_final.png",
+      "width": 1100,
+      "height": 1429
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_133_C_final.png",
+      "width": 972,
+      "height": 1618
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_134_C_final.png",
+      "width": 1036,
+      "height": 1518
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_135_C_final.png",
+      "width": 1029,
+      "height": 1529
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_136_C_final.png",
+      "width": 1031,
+      "height": 1526
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_137_C_final.png",
+      "width": 974,
+      "height": 1614
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_138_C_final.png",
+      "width": 1158,
+      "height": 1359
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_139_C_final.png",
+      "width": 997,
+      "height": 1577
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_140_C_final.png",
+      "width": 1022,
+      "height": 1538
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_141_C_final.png",
+      "width": 967,
+      "height": 1626
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_142_C_final.png",
+      "width": 864,
+      "height": 1821
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_143_C_final.png",
+      "width": 949,
+      "height": 1658
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_144_C_final.png",
+      "width": 1016,
+      "height": 1547
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_145_C_final.png",
+      "width": 963,
+      "height": 1633
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_146_C_final.png",
+      "width": 922,
+      "height": 1706
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_147_C_final.png",
+      "width": 1056,
+      "height": 1490
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_148_C_final.png",
+      "width": 1086,
+      "height": 1448
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_149_C_final.png",
+      "width": 1085,
+      "height": 1450
+    },
+    {
+      "path": "결과_GPT/4_부분스타일/src3_150_C_final.png",
+      "width": 1050,
+      "height": 1498
+    },
+    {
+      "path": "중간_GPT/src3_001_A_stage1.png",
+      "width": 1479,
+      "height": 1064
+    },
+    {
+      "path": "중간_GPT/src3_002_A_stage1.png",
+      "width": 1011,
+      "height": 1555
+    },
+    {
+      "path": "중간_GPT/src3_003_A_stage1.png",
+      "width": 1023,
+      "height": 1537
+    },
+    {
+      "path": "중간_GPT/src3_004_A_stage1.png",
+      "width": 1241,
+      "height": 1267
+    },
+    {
+      "path": "중간_GPT/src3_005_A_stage1.png",
+      "width": 1333,
+      "height": 1180
+    },
+    {
+      "path": "중간_GPT/src3_006_A_stage1.png",
+      "width": 1087,
+      "height": 1447
+    },
+    {
+      "path": "중간_GPT/src3_007_A_stage1.png",
+      "width": 1031,
+      "height": 1525
+    },
+    {
+      "path": "중간_GPT/src3_008_A_stage1.png",
+      "width": 1624,
+      "height": 969
+    },
+    {
+      "path": "중간_GPT/src3_009_A_stage1.png",
+      "width": 991,
+      "height": 1588
+    },
+    {
+      "path": "중간_GPT/src3_010_A_stage1.png",
+      "width": 1161,
+      "height": 1354
+    },
+    {
+      "path": "중간_GPT/src3_011_A_stage1.png",
+      "width": 1208,
+      "height": 1302
+    },
+    {
+      "path": "중간_GPT/src3_012_A_stage1.png",
+      "width": 1194,
+      "height": 1317
+    },
+    {
+      "path": "중간_GPT/src3_013_A_stage1.png",
+      "width": 1163,
+      "height": 1352
+    },
+    {
+      "path": "중간_GPT/src3_014_A_stage1.png",
+      "width": 1142,
+      "height": 1377
+    },
+    {
+      "path": "중간_GPT/src3_015_A_stage1.png",
+      "width": 938,
+      "height": 1676
+    },
+    {
+      "path": "중간_GPT/src3_016_A_stage1.png",
+      "width": 965,
+      "height": 1630
+    },
+    {
+      "path": "중간_GPT/src3_017_A_stage1.png",
+      "width": 1182,
+      "height": 1330
+    },
+    {
+      "path": "중간_GPT/src3_018_A_stage1.png",
+      "width": 1117,
+      "height": 1409
+    },
+    {
+      "path": "중간_GPT/src3_019_A_stage1.png",
+      "width": 1283,
+      "height": 1226
+    },
+    {
+      "path": "중간_GPT/src3_020_A_stage1.png",
+      "width": 1428,
+      "height": 1101
+    },
+    {
+      "path": "중간_GPT/src3_021_A_stage1.png",
+      "width": 1123,
+      "height": 1400
+    },
+    {
+      "path": "중간_GPT/src3_022_A_stage1.png",
+      "width": 1315,
+      "height": 1197
+    },
+    {
+      "path": "중간_GPT/src3_023_A_stage1.png",
+      "width": 1091,
+      "height": 1441
+    },
+    {
+      "path": "중간_GPT/src3_024_A_stage1.png",
+      "width": 1149,
+      "height": 1369
+    },
+    {
+      "path": "중간_GPT/src3_025_A_stage1.png",
+      "width": 1327,
+      "height": 1186
+    },
+    {
+      "path": "중간_GPT/src3_026_A_stage1.png",
+      "width": 1205,
+      "height": 1306
+    },
+    {
+      "path": "중간_GPT/src3_027_A_stage1.png",
+      "width": 1157,
+      "height": 1360
+    },
+    {
+      "path": "중간_GPT/src3_028_A_stage1.png",
+      "width": 925,
+      "height": 1701
+    },
+    {
+      "path": "중간_GPT/src3_029_A_stage1.png",
+      "width": 936,
+      "height": 1681
+    },
+    {
+      "path": "중간_GPT/src3_030_A_stage1.png",
+      "width": 1178,
+      "height": 1335
+    },
+    {
+      "path": "중간_GPT/src3_031_A_stage1.png",
+      "width": 1199,
+      "height": 1312
+    },
+    {
+      "path": "중간_GPT/src3_032_A_stage1.png",
+      "width": 1077,
+      "height": 1460
+    },
+    {
+      "path": "중간_GPT/src3_033_A_stage1.png",
+      "width": 1087,
+      "height": 1447
+    },
+    {
+      "path": "중간_GPT/src3_034_A_stage1.png",
+      "width": 934,
+      "height": 1684
+    },
+    {
+      "path": "중간_GPT/src3_035_A_stage1.png",
+      "width": 1219,
+      "height": 1290
+    },
+    {
+      "path": "중간_GPT/src3_036_A_stage1.png",
+      "width": 1029,
+      "height": 1528
+    },
+    {
+      "path": "중간_GPT/src3_037_A_stage1.png",
+      "width": 1162,
+      "height": 1353
+    },
+    {
+      "path": "중간_GPT/src3_038_A_stage1.png",
+      "width": 909,
+      "height": 1730
+    },
+    {
+      "path": "중간_GPT/src3_039_A_stage1.png",
+      "width": 1418,
+      "height": 1109
+    },
+    {
+      "path": "중간_GPT/src3_040_A_stage1.png",
+      "width": 1391,
+      "height": 1131
+    },
+    {
+      "path": "중간_GPT/src3_041_A_stage1.png",
+      "width": 1048,
+      "height": 1501
+    },
+    {
+      "path": "중간_GPT/src3_042_A_stage1.png",
+      "width": 997,
+      "height": 1577
+    },
+    {
+      "path": "중간_GPT/src3_043_A_stage1.png",
+      "width": 1379,
+      "height": 1141
+    },
+    {
+      "path": "중간_GPT/src3_044_A_stage1.png",
+      "width": 1474,
+      "height": 1067
+    },
+    {
+      "path": "중간_GPT/src3_045_A_stage1.png",
+      "width": 1130,
+      "height": 1392
+    },
+    {
+      "path": "중간_GPT/src3_046_A_stage1.png",
+      "width": 960,
+      "height": 1637
+    },
+    {
+      "path": "중간_GPT/src3_047_A_stage1.png",
+      "width": 1121,
+      "height": 1403
+    },
+    {
+      "path": "중간_GPT/src3_048_A_stage1.png",
+      "width": 894,
+      "height": 1758
+    },
+    {
+      "path": "중간_GPT/src3_049_A_stage1.png",
+      "width": 1184,
+      "height": 1328
+    },
+    {
+      "path": "중간_GPT/src3_050_A_stage1.png",
+      "width": 1009,
+      "height": 1558
+    }
+  ],
+  "summary_metrics": [
+    {
+      "구분": "② 진짜 비교 통계",
+      "자료": "전체",
+      "비교집단": "진짜 오판 p≥.6",
+      "항목": "중앙값 [Q25,Q75]·rc 비율",
+      "표본수": 40,
+      "분모": 40,
+      "rc": "11/40",
+      "밝기": "120.397011 [112.773829, 127.971846]",
+      "채도": "0.267667 [0.223610, 0.302543]",
+      "갈변대리비율": "0.027024 [0.012596, 0.059629]",
+      "dg1": "0.223958 [0.049154, 0.725586]",
+      "gap": "13.393880 [7.288411, 15.927084]",
+      "ff유효수": "dg1=40; gap=40",
+      "ff결측수": "dg1=0; gap=0",
+      "근거/주의": "행 기준; 화면 전체 픽셀 통계; 개별사진 독립성/원인 판정 아님"
+    },
+    {
+      "구분": "② 진짜 비교 통계",
+      "자료": "전체",
+      "비교집단": "정답 진짜 p<.5",
+      "항목": "중앙값 [Q25,Q75]·rc 비율",
+      "표본수": 2938,
+      "분모": 2938,
+      "rc": "2550/2938",
+      "밝기": "125.940437 [114.883591, 137.429291]",
+      "채도": "0.287596 [0.230080, 0.360037]",
+      "갈변대리비율": "0.026691 [0.010924, 0.064240]",
+      "dg1": "0.265625 [0.090169, 0.446289]",
+      "gap": "12.663412 [8.270183, 19.028647]",
+      "ff유효수": "dg1=2938; gap=2938",
+      "ff결측수": "dg1=0; gap=0",
+      "근거/주의": "행 기준; 화면 전체 픽셀 통계; 개별사진 독립성/원인 판정 아님"
+    },
+    {
+      "구분": "② 진짜 비교 통계",
+      "자료": "r2",
+      "비교집단": "진짜 오판 p≥.6",
+      "항목": "중앙값 [Q25,Q75]·rc 비율",
+      "표본수": 25,
+      "분모": 25,
+      "rc": "7/25",
+      "밝기": "118.147575 [112.143219, 126.446175]",
+      "채도": "0.257145 [0.215395, 0.276422]",
+      "갈변대리비율": "0.034751 [0.016168, 0.067276]",
+      "dg1": "0.532552 [0.050781, 0.765625]",
+      "gap": "11.778646 [7.412760, 15.368490]",
+      "ff유효수": "dg1=25; gap=25",
+      "ff결측수": "dg1=0; gap=0",
+      "근거/주의": "행 기준; 화면 전체 픽셀 통계; 개별사진 독립성/원인 판정 아님"
+    },
+    {
+      "구분": "② 진짜 비교 통계",
+      "자료": "r2",
+      "비교집단": "정답 진짜 p<.5",
+      "항목": "중앙값 [Q25,Q75]·rc 비율",
+      "표본수": 1823,
+      "분모": 1823,
+      "rc": "1595/1823",
+      "밝기": "127.348724 [116.074921, 140.273643]",
+      "채도": "0.276737 [0.220207, 0.343425]",
+      "갈변대리비율": "0.026007 [0.010150, 0.065328]",
+      "dg1": "0.264323 [0.085938, 0.438151]",
+      "gap": "12.122396 [7.880208, 18.291668]",
+      "ff유효수": "dg1=1823; gap=1823",
+      "ff결측수": "dg1=0; gap=0",
+      "근거/주의": "행 기준; 화면 전체 픽셀 통계; 개별사진 독립성/원인 판정 아님"
+    },
+    {
+      "구분": "② 진짜 비교 통계",
+      "자료": "r3",
+      "비교집단": "진짜 오판 p≥.6",
+      "항목": "중앙값 [Q25,Q75]·rc 비율",
+      "표본수": 6,
+      "분모": 6,
+      "rc": "0/6",
+      "밝기": "115.634274 [114.206831, 124.685713]",
+      "채도": "0.282141 [0.240170, 0.298494]",
+      "갈변대리비율": "0.012244 [0.011552, 0.016949]",
+      "dg1": "0.044271 [0.042318, 0.062826]",
+      "gap": "3.725912 [2.201823, 9.227540]",
+      "ff유효수": "dg1=6; gap=6",
+      "ff결측수": "dg1=0; gap=0",
+      "근거/주의": "행 기준; 화면 전체 픽셀 통계; 개별사진 독립성/원인 판정 아님"
+    },
+    {
+      "구분": "② 진짜 비교 통계",
+      "자료": "r3",
+      "비교집단": "정답 진짜 p<.5",
+      "항목": "중앙값 [Q25,Q75]·rc 비율",
+      "표본수": 418,
+      "분모": 418,
+      "rc": "312/418",
+      "밝기": "124.413715 [113.914520, 135.140141]",
+      "채도": "0.270121 [0.225384, 0.322365]",
+      "갈변대리비율": "0.031587 [0.012612, 0.088749]",
+      "dg1": "0.375651 [0.082357, 0.570312]",
+      "gap": "13.556641 [7.890300, 21.376629]",
+      "ff유효수": "dg1=418; gap=418",
+      "ff결측수": "dg1=0; gap=0",
+      "근거/주의": "행 기준; 화면 전체 픽셀 통계; 개별사진 독립성/원인 판정 아님"
+    },
+    {
+      "구분": "② 진짜 비교 통계",
+      "자료": "r4",
+      "비교집단": "진짜 오판 p≥.6",
+      "항목": "중앙값 [Q25,Q75]·rc 비율",
+      "표본수": 6,
+      "분모": 6,
+      "rc": "3/6",
+      "밝기": "115.970245 [105.130938, 134.924461]",
+      "채도": "0.289157 [0.259013, 0.301786]",
+      "갈변대리비율": "0.021459 [0.007204, 0.049498]",
+      "dg1": "0.328776 [0.176758, 0.381185]",
+      "gap": "16.984376 [14.272787, 22.861003]",
+      "ff유효수": "dg1=6; gap=6",
+      "ff결측수": "dg1=0; gap=0",
+      "근거/주의": "행 기준; 화면 전체 픽셀 통계; 개별사진 독립성/원인 판정 아님"
+    },
+    {
+      "구분": "② 진짜 비교 통계",
+      "자료": "r4",
+      "비교집단": "정답 진짜 p<.5",
+      "항목": "중앙값 [Q25,Q75]·rc 비율",
+      "표본수": 346,
+      "분모": 346,
+      "rc": "310/346",
+      "밝기": "123.560341 [114.403044, 135.286709]",
+      "채도": "0.297226 [0.249920, 0.352297]",
+      "갈변대리비율": "0.021173 [0.010274, 0.047146]",
+      "dg1": "0.231120 [0.126953, 0.369141]",
+      "gap": "13.930990 [8.609050, 19.672201]",
+      "ff유효수": "dg1=346; gap=346",
+      "ff결측수": "dg1=0; gap=0",
+      "근거/주의": "행 기준; 화면 전체 픽셀 통계; 개별사진 독립성/원인 판정 아님"
+    },
+    {
+      "구분": "② 진짜 비교 통계",
+      "자료": "r5",
+      "비교집단": "진짜 오판 p≥.6",
+      "항목": "중앙값 [Q25,Q75]·rc 비율",
+      "표본수": 3,
+      "분모": 3,
+      "rc": "1/3",
+      "밝기": "134.826584 [128.736515, 139.548843]",
+      "채도": "0.375957 [0.347808, 0.423366]",
+      "갈변대리비율": "0.033067 [0.030166, 0.035564]",
+      "dg1": "0.233073 [0.150391, 0.277995]",
+      "gap": "14.151042 [14.067058, 19.823568]",
+      "ff유효수": "dg1=3; gap=3",
+      "ff결측수": "dg1=0; gap=0",
+      "근거/주의": "행 기준; 화면 전체 픽셀 통계; 개별사진 독립성/원인 판정 아님"
+    },
+    {
+      "구분": "② 진짜 비교 통계",
+      "자료": "r5",
+      "비교집단": "정답 진짜 p<.5",
+      "항목": "중앙값 [Q25,Q75]·rc 비율",
+      "표본수": 351,
+      "분모": 351,
+      "rc": "333/351",
+      "밝기": "122.160400 [109.065327, 132.826797]",
+      "채도": "0.379941 [0.315649, 0.449937]",
+      "갈변대리비율": "0.030586 [0.014856, 0.052809]",
+      "dg1": "0.250000 [0.085286, 0.367839]",
+      "gap": "13.184896 [9.548829, 18.703126]",
+      "ff유효수": "dg1=351; gap=351",
+      "ff결측수": "dg1=0; gap=0",
+      "근거/주의": "행 기준; 화면 전체 픽셀 통계; 개별사진 독립성/원인 판정 아님"
+    }
+  ]
+}

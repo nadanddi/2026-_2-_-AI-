@@ -1,0 +1,20 @@
+학습 행 4783 (빨간 조명 진단 366행) | 보조 평가 가능 행 4783 | real=2467 AI_gen=42 composite=568 filter=697 full_style=383 partial_gen=60 partial_style=566
+
+== 모델별 (시드 0/1/2, 공개 예측은 시드별 90% 농장 부분표본 모델) ==
+[stack]
+  s0 공개: 18/21 logloss=0.433 auc=1.000 실제오탐=0 어려운12=9 | real=3 AI_gen=3 compos=3 filter=3 full_s=2 partia=2 partia=2
+      보조(비악화 확인) 균형acc=0.919 | real=0.97 AI_gen=1.00 compos=0.95 filter=0.97 full_s=1.00 partia=0.55 partia=0.70 | 빨강 실제정답=0.02
+  s1 공개: 14/21 logloss=0.463 auc=1.000 실제오탐=0 어려운12=6 | real=3 AI_gen=2 compos=2 filter=3 full_s=2 partia=1 partia=1
+      보조(비악화 확인) 균형acc=0.910 | real=0.99 AI_gen=1.00 compos=0.85 filter=0.95 full_s=0.97 partia=0.57 partia=0.62 | 빨강 실제정답=0.00
+  s2 공개: 16/21 logloss=0.453 auc=0.981 실제오탐=0 어려운12=7 | real=3 AI_gen=3 compos=2 filter=3 full_s=2 partia=1 partia=2
+      보조(비악화 확인) 균형acc=0.925 | real=0.99 AI_gen=1.00 compos=0.93 filter=0.97 full_s=1.00 partia=0.55 partia=0.70 | 빨강 실제정답=0.09
+[stackA]
+  s0 공개: 15/21 logloss=0.493 auc=1.000 실제오탐=0 어려운12=7 | real=3 AI_gen=2 compos=2 filter=3 full_s=2 partia=1 partia=2
+      보조(비악화 확인) 균형acc=0.908 | real=0.98 AI_gen=1.00 compos=0.90 filter=0.97 full_s=1.00 partia=0.50 partia=0.62 | 빨강 실제정답=0.03
+  s1 공개: 14/21 logloss=0.497 auc=0.981 실제오탐=0 어려운12=6 | real=3 AI_gen=2 compos=2 filter=3 full_s=2 partia=1 partia=1
+      보조(비악화 확인) 균형acc=0.896 | real=0.99 AI_gen=1.00 compos=0.85 filter=0.95 full_s=1.00 partia=0.42 partia=0.60 | 빨강 실제정답=0.00
+  s2 공개: 15/21 logloss=0.481 auc=1.000 실제오탐=0 어려운12=6 | real=3 AI_gen=3 compos=2 filter=3 full_s=2 partia=1 partia=1
+      보조(비악화 확인) 균형acc=0.910 | real=0.99 AI_gen=1.00 compos=0.85 filter=0.95 full_s=1.00 partia=0.50 partia=0.70 | 빨강 실제정답=0.10
+
+== 채택 규칙 (기준=stack, 후보 1개 → 문턱 0.0250) ==
+  stackA: 공개조건 [False, False, False] | 보조방향 [False, False, False] | p_worse [np.float64(0.9315), np.float64(0.969), np.float64(0.9444)] → 불채택
