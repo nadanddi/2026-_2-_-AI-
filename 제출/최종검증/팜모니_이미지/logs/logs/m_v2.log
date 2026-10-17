@@ -1,0 +1,21 @@
+  im_set_h3: 3600장, 게이트 안 1.000, ok 1.000
+  im_set_h3j: 1800장, 게이트 안 0.000, ok 1.000
+  im_set_h3s: 450장, 게이트 안 1.000, ok 1.000
+  im_set_h3g: 500장, 게이트 안 1.000, ok 1.000
+  im_set_gptr: 72장, 게이트 안 1.000, ok 1.000
+  im_set_gptr_src: 72장, 게이트 안 1.000, ok 1.000
+전문가 학습 풀 6494 {np.str_('filter_blur'): np.int64(297), np.str_('filter_jpeg'): np.int64(313), np.str_('filter_noise'): np.int64(296), np.str_('gpt_regen'): np.int64(72), np.str_('partial_gen_v7'): np.int64(393), np.str_('partial_gen_v7s'): np.int64(450), np.str_('partial_style'): np.int64(501), np.str_('real'): np.int64(1872), np.str_('real_jig'): np.int64(1800), np.str_('regen_xl'): np.int64(500)} | 메타 학습(게이트 안) 4694 {np.str_('filter_blur'): np.int64(297), np.str_('filter_jpeg'): np.int64(313), np.str_('filter_noise'): np.int64(296), np.str_('gpt_regen'): np.int64(72), np.str_('partial_gen_v7'): np.int64(393), np.str_('partial_gen_v7s'): np.int64(450), np.str_('partial_style'): np.int64(501), np.str_('real'): np.int64(1872), np.str_('regen_xl'): np.int64(500)}
+폴드 크기 [1375, 1303, 1230, 1303, 1283] GPT 폴드 [np.int64(0), np.int64(1)]
+  폴드 0: 학습 5119 · 확인 1375 (GPT 학습 36)
+  폴드 1: 학습 5191 · 확인 1303 (GPT 학습 36)
+  폴드 2: 학습 5264 · 확인 1230 (GPT 학습 72)
+  폴드 3: 학습 5191 · 확인 1303 (GPT 학습 72)
+  폴드 4: 학습 5211 · 확인 1283 (GPT 학습 72)
+분포 점검 logit 분위 차 {'E_f': 0.32, 'E_ps2': 0.431, 'E_g7': 0.265, 'E_gr': 0.283} → 메타 입력 폴드 평균
+메타 계수(표준화) {'E_f': 2.703, 'E_ps2': 1.387, 'E_g7': 1.74, 'E_gr': 1.046} 절편 1.653
+진짜 풀 N=3267 (진짜 확정 2806) · 나단9 전문가 합집합 오탐 0.0073
+[θ 단계 0.0025/0.001] θ_m 0.9687 θ_m_rc 0.9884 | 합집합 진짜 오탐 0.0083
+[θ 단계 0.0015/0.00075] θ_m 0.9773 θ_m_rc 0.9902 | 합집합 진짜 오탐 0.0080
+[θ 단계 0.001/0.0005] θ_m 0.9864 θ_m_rc 0.9912 | 합집합 진짜 오탐 0.0077
+[θ 단계 0.0005/0.0005] θ_m 0.9909 θ_m_rc 0.9912 | 합집합 진짜 오탐 0.0077
+== 합집합 예산 0.5% 초과 → 불채택 ==

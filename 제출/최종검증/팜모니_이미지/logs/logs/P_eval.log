@@ -1,0 +1,15 @@
+행 9691 조각 9 부분생성 우리 960 GPT 25
+  [A] s0 부분생성 평균p 우리 0.8875 GPT 0.5093 | 탐지(L2후) 우리 0.981 GPT 0.56 | 부분스타일 우리 0.796 GPT 0.84 | 실제오탐 0.0541 균형 0.9432 | CLIP단독 GPT부분생성 0.48 | 유형 AI_gen=1.00 compos=0.94 filter=0.97 full_s=0.99 partia=0.98 partia=0.80 | 공개 19/21 logloss 0.302
+  [A] s1 부분생성 평균p 우리 0.8841 GPT 0.5037 | 탐지(L2후) 우리 0.980 GPT 0.56 | 부분스타일 우리 0.810 GPT 0.80 | 실제오탐 0.0489 균형 0.9452 | CLIP단독 GPT부분생성 0.52 | 유형 AI_gen=1.00 compos=0.94 filter=0.97 full_s=0.99 partia=0.98 partia=0.81 | 공개 19/21 logloss 0.285
+  [A] s2 부분생성 평균p 우리 0.8909 GPT 0.5310 | 탐지(L2후) 우리 0.981 GPT 0.60 | 부분스타일 우리 0.804 GPT 0.84 | 실제오탐 0.0494 균형 0.9447 | CLIP단독 GPT부분생성 0.60 | 유형 AI_gen=1.00 compos=0.93 filter=0.97 full_s=0.99 partia=0.98 partia=0.80 | 공개 20/21 logloss 0.285
+  [P1] s0 부분생성 평균p 우리 0.8891 GPT 0.5611 | 탐지(L2후) 우리 0.983 GPT 0.68 | 부분스타일 우리 0.812 GPT 0.92 | 실제오탐 0.0727 균형 0.9358 | CLIP단독 GPT부분생성 0.68 | 유형 AI_gen=1.00 compos=0.94 filter=0.97 full_s=0.99 partia=0.98 partia=0.81 | 공개 21/21 logloss 0.239
+  [P1] s1 부분생성 평균p 우리 0.8855 GPT 0.5450 | 탐지(L2후) 우리 0.983 GPT 0.64 | 부분스타일 우리 0.824 GPT 0.88 | 실제오탐 0.0741 균형 0.9365 | CLIP단독 GPT부분생성 0.64 | 유형 AI_gen=1.00 compos=0.94 filter=0.97 full_s=1.00 partia=0.98 partia=0.82 | 공개 21/21 logloss 0.239
+  [P1] s2 부분생성 평균p 우리 0.8917 GPT 0.5735 | 탐지(L2후) 우리 0.985 GPT 0.72 | 부분스타일 우리 0.819 GPT 0.92 | 실제오탐 0.0643 균형 0.9398 | CLIP단독 GPT부분생성 0.72 | 유형 AI_gen=1.00 compos=0.94 filter=0.97 full_s=1.00 partia=0.99 partia=0.82 | 공개 21/21 logloss 0.253
+  [P2] s0 부분생성 평균p 우리 0.8914 GPT 0.6163 | 탐지(L2후) 우리 0.989 GPT 0.80 | 부분스타일 우리 0.889 GPT 0.92 | 실제오탐 0.1752 균형 0.8925 | CLIP단독 GPT부분생성 0.84 | 유형 AI_gen=1.00 compos=0.95 filter=0.99 full_s=1.00 partia=0.99 partia=0.89 | 공개 20/21 logloss 0.265
+  [P2] s1 부분생성 평균p 우리 0.8882 GPT 0.6117 | 탐지(L2후) 우리 0.991 GPT 0.80 | 부분스타일 우리 0.889 GPT 0.88 | 실제오탐 0.1827 균형 0.8883 | CLIP단독 GPT부분생성 0.84 | 유형 AI_gen=1.00 compos=0.96 filter=0.99 full_s=1.00 partia=0.99 partia=0.89 | 공개 21/21 logloss 0.257
+  [P2] s2 부분생성 평균p 우리 0.8950 GPT 0.6228 | 탐지(L2후) 우리 0.989 GPT 0.76 | 부분스타일 우리 0.892 GPT 0.92 | 실제오탐 0.1789 균형 0.8914 | CLIP단독 GPT부분생성 0.84 | 유형 AI_gen=1.00 compos=0.96 filter=0.99 full_s=1.00 partia=0.99 partia=0.89 | 공개 21/21 logloss 0.264
+
+== 판정(IM_부분생성_P_v1.md) ==
+  P1: 우리↑ True · GPT↑ True · 오탐 False · 균형 False · p_worse 0.0010 (True) | 평균p 차 +0.0024 → 불채택
+  P2: 우리↑ True · GPT↑ True · 오탐 False · 균형 False · p_worse 0.0000 (True) | 평균p 차 +0.0065 → 불채택
+P_DONE

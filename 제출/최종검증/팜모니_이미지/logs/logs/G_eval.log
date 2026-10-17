@@ -1,0 +1,14 @@
+행 9691 GPT 100 {'AI_gen': 25, 'full_style': 25, 'partial_gen': 25, 'partial_style': 25}
+  [A] s0 GPT탐지 0.850 (AI_gen=1.00 full_st=1.00 partial=0.56 partial=0.84) 평균p 0.78 | 실제오탐 0.054 원본제외 0.076 | GPT외 균형 0.9432 | 공개 19/21 logloss 0.302
+  [A] s1 GPT탐지 0.840 (AI_gen=1.00 full_st=1.00 partial=0.56 partial=0.80) 평균p 0.77 | 실제오탐 0.049 원본제외 0.079 | GPT외 균형 0.9452 | 공개 19/21 logloss 0.285
+  [A] s2 GPT탐지 0.860 (AI_gen=1.00 full_st=1.00 partial=0.60 partial=0.84) 평균p 0.78 | 실제오탐 0.049 원본제외 0.073 | GPT외 균형 0.9447 | 공개 20/21 logloss 0.285
+  [G1] s0 GPT탐지 0.900 (AI_gen=1.00 full_st=1.00 partial=0.72 partial=0.88) 평균p 0.80 | 실제오탐 0.054 원본제외 0.081 | GPT외 균형 0.9426 | 공개 20/21 logloss 0.237
+  [G1] s1 GPT탐지 0.900 (AI_gen=1.00 full_st=1.00 partial=0.68 partial=0.92) 평균p 0.79 | 실제오탐 0.050 원본제외 0.077 | GPT외 균형 0.9440 | 공개 20/21 logloss 0.242
+  [G1] s2 GPT탐지 0.890 (AI_gen=1.00 full_st=1.00 partial=0.64 partial=0.92) 평균p 0.80 | 실제오탐 0.051 원본제외 0.077 | GPT외 균형 0.9420 | 공개 20/21 logloss 0.239
+  [G2] s0 GPT탐지 0.930 (AI_gen=1.00 full_st=1.00 partial=0.80 partial=0.92) 평균p 0.84 | 실제오탐 0.049 원본제외 0.081 | GPT외 균형 0.9412 | 공개 20/21 logloss 0.226
+  [G2] s1 GPT탐지 0.930 (AI_gen=1.00 full_st=1.00 partial=0.80 partial=0.92) 평균p 0.82 | 실제오탐 0.048 원본제외 0.076 | GPT외 균형 0.9435 | 공개 20/21 logloss 0.220
+  [G2] s2 GPT탐지 0.950 (AI_gen=1.00 full_st=1.00 partial=0.88 partial=0.92) 평균p 0.83 | 실제오탐 0.051 원본제외 0.077 | GPT외 균형 0.9402 | 공개 20/21 logloss 0.224
+
+== 판정(IM_GPT가짜_v1.md, 시드 3개 모두) ==
+  G1: GPT탐지↑ True · 오탐 True · GPT외균형 True · 공개logloss True → 후보
+  G2: GPT탐지↑ True · 오탐 True · GPT외균형 False · 공개logloss True → 불채택

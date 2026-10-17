@@ -1,0 +1,17 @@
+/home/adilab/storage/nadan/farmai_img/submit_img06/팜모니_나단6/inference.py:130: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  cr = [torch.from_numpy(arrs[i][y:y + S, x:x + S]).permute(2, 0, 1) for i in ok for x, y in _grid(imgs[i].size[0], imgs[i].size[1])]
+im_set_h3 0 / 3600
+im_set_h3 400 / 3600
+im_set_h3 800 / 3600
+im_set_h3 1200 / 3600
+im_set_h3 1600 / 3600
+im_set_h3 2000 / 3600
+im_set_h3 2400 / 3600
+im_set_h3 2800 / 3600
+im_set_h3 3200 / 3600
+im_set_h3 저장 3600 ok 3600
+im_set_r3 0 / 900
+im_set_r3 400 / 900
+im_set_r3 800 / 900
+im_set_r3 저장 900 ok 900
+FEATS_DONE

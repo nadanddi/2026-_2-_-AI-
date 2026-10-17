@@ -1,0 +1,14 @@
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:00, 11.94it/s]The config attributes {'decay': 0.9999, 'inv_gamma': 1.0, 'min_decay': 0.0, 'optimization_step': 37000, 'power': 0.6666666666666666, 'update_after_step': 0, 'use_ema_warmup': False} were passed to UNet2DConditionModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+Loading pipeline components...:  71%|███████▏  | 5/7 [00:00<00:00,  9.69it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 11.04it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 10.87it/s]
+rg 50 82s
+rg 100 160s
+rg 150 239s
+rg 200 313s
+rg 250 390s
+rg 300 472s
+rg 350 549s
+rg 400 627s
+rg 450 702s
+rg 500 779s
+RG_DONE 500
+S24_END

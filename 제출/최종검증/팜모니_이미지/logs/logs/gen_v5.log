@@ -1,0 +1,141 @@
+== 2026-10-12 11:39:57 nvidia-smi 확인 ==
+index, memory.used [MiB], utilization.gpu [%]
+0, 3012 MiB, 49 %
+1, 3534 MiB, 0 %
+GPU 0 다른 사람 사용량 0MiB
+done filter_blur 2 1s
+done composite_v5 2 1s
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:01,  4.74it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00,  6.55it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:00,  6.43it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 16.30it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 12.01it/s]
+done ai_gen_xl 2 19s
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:00,  6.14it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00,  9.42it/s]Loading pipeline components...:  71%|███████▏  | 5/7 [00:00<00:00,  9.27it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 11.84it/s]
+done full_style_xl 2 11s
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:01,  4.67it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00,  9.68it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:00<00:00, 10.95it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 11.62it/s]
+done partial_style_xl 2 10s
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:01,  4.66it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00,  6.51it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00,  8.79it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 11.70it/s]
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]The config attributes {'decay': 0.9999, 'inv_gamma': 1.0, 'min_decay': 0.0, 'optimization_step': 37000, 'power': 0.6666666666666666, 'update_after_step': 0, 'use_ema_warmup': False} were passed to UNet2DConditionModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:01,  4.81it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00,  5.95it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00,  8.20it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 11.08it/s]
+done partial_gen_xl 2 21s
+SMOKE_OK
+== 2026-10-12 11:41:04 filter_blur 400 ==
+0, 3012 MiB
+1, 3534 MiB
+filter_blur 50 4s
+filter_blur 100 7s
+filter_blur 150 9s
+filter_blur 200 13s
+filter_blur 250 16s
+filter_blur 300 19s
+filter_blur 350 21s
+done filter_blur 398 25s
+== 2026-10-12 11:41:29 composite_v5 900 ==
+0, 3012 MiB
+1, 3534 MiB
+composite_v5 50 8s
+composite_v5 100 14s
+composite_v5 150 21s
+composite_v5 200 28s
+composite_v5 250 35s
+composite_v5 300 42s
+composite_v5 350 49s
+composite_v5 400 55s
+composite_v5 450 62s
+composite_v5 500 69s
+composite_v5 550 75s
+composite_v5 600 82s
+composite_v5 650 89s
+composite_v5 700 96s
+composite_v5 750 103s
+composite_v5 800 110s
+composite_v5 850 117s
+done composite_v5 898 124s
+== 2026-10-12 11:43:33 ai_gen_xl 900 ==
+0, 2688 MiB
+1, 3534 MiB
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:00,  8.47it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:00, 14.77it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:00<00:00, 14.24it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 11.51it/s]
+ai_gen_xl 50 305s
+ai_gen_xl 100 601s
+ai_gen_xl 150 854s
+ai_gen_xl 200 1053s
+ai_gen_xl 250 1253s
+ai_gen_xl 300 1453s
+ai_gen_xl 350 1657s
+ai_gen_xl 400 1855s
+ai_gen_xl 450 2056s
+ai_gen_xl 500 2254s
+ai_gen_xl 550 2451s
+ai_gen_xl 600 2648s
+ai_gen_xl 650 2843s
+ai_gen_xl 700 3042s
+ai_gen_xl 750 3237s
+ai_gen_xl 800 3433s
+ai_gen_xl 850 3636s
+done ai_gen_xl 898 3822s
+== 2026-10-12 12:47:15 full_style_xl 900 ==
+0, 14 MiB
+1, 3534 MiB
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:00, 13.61it/s]Loading pipeline components...:  71%|███████▏  | 5/7 [00:00<00:00, 13.79it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 11.54it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 12.12it/s]
+full_style_xl 50 75s
+full_style_xl 100 145s
+full_style_xl 150 214s
+full_style_xl 200 284s
+full_style_xl 250 357s
+full_style_xl 300 430s
+full_style_xl 350 502s
+full_style_xl 400 573s
+full_style_xl 450 647s
+full_style_xl 500 721s
+full_style_xl 550 790s
+full_style_xl 600 859s
+full_style_xl 650 929s
+full_style_xl 700 1001s
+full_style_xl 750 1071s
+full_style_xl 800 1142s
+full_style_xl 850 1213s
+done full_style_xl 898 1281s
+== 2026-10-12 13:08:37 partial_style_xl 900 ==
+0, 14 MiB
+1, 3534 MiB
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:01,  4.71it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:00<00:00, 15.70it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 12.05it/s]
+partial_style_xl 50 78s
+partial_style_xl 100 151s
+partial_style_xl 150 222s
+partial_style_xl 200 292s
+partial_style_xl 250 367s
+partial_style_xl 300 439s
+partial_style_xl 350 509s
+partial_style_xl 400 581s
+partial_style_xl 450 651s
+partial_style_xl 500 724s
+partial_style_xl 550 795s
+partial_style_xl 600 867s
+partial_style_xl 650 938s
+partial_style_xl 700 1009s
+partial_style_xl 750 1079s
+partial_style_xl 800 1152s
+partial_style_xl 850 1221s
+done partial_style_xl 898 1287s
+== 2026-10-12 13:30:05 partial_gen_xl 900 ==
+0, 14 MiB
+1, 3534 MiB
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00,  7.41it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:00<00:00, 13.73it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 12.13it/s]
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]The config attributes {'decay': 0.9999, 'inv_gamma': 1.0, 'min_decay': 0.0, 'optimization_step': 37000, 'power': 0.6666666666666666, 'update_after_step': 0, 'use_ema_warmup': False} were passed to UNet2DConditionModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+Loading pipeline components...:  29%|██▊       | 2/7 [00:00<00:00,  8.42it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:00<00:00, 13.59it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 12.01it/s]
+partial_gen_xl 50 187s
+partial_gen_xl 100 364s
+partial_gen_xl 150 542s
+partial_gen_xl 200 723s
+partial_gen_xl 250 901s
+partial_gen_xl 300 1077s
+partial_gen_xl 350 1256s
+partial_gen_xl 400 1437s
+partial_gen_xl 450 1618s
+partial_gen_xl 500 1795s
+partial_gen_xl 550 1973s
+partial_gen_xl 600 2152s
+partial_gen_xl 650 2327s
+partial_gen_xl 700 2506s
+partial_gen_xl 750 2685s
+partial_gen_xl 800 2870s
+partial_gen_xl 850 3047s
+done partial_gen_xl 898 3217s
+GEN_V5_DONE

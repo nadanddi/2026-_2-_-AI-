@@ -1,0 +1,47 @@
+== 2026-10-14 04:19:16 nvidia-smi ==
+index, memory.used [MiB], utilization.gpu [%]
+0, 14 MiB, 0 %
+1, 3534 MiB, 0 %
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...:  17%|█▋        | 1/6 [00:00<00:00,  9.97it/s]Loading pipeline components...:  33%|███▎      | 2/6 [00:00<00:01,  2.96it/s]
+Loading checkpoint shards:   0%|          | 0/9 [00:00<?, ?it/s][A
+Loading checkpoint shards:  33%|███▎      | 3/9 [00:00<00:00, 27.24it/s][A
+Loading checkpoint shards:  67%|██████▋   | 6/9 [00:00<00:00, 28.02it/s][ALoading checkpoint shards: 100%|██████████| 9/9 [00:00<00:00, 30.67it/s]
+Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:01,  2.80it/s]Loading pipeline components...:  67%|██████▋   | 4/6 [00:01<00:00,  3.79it/s]`torch_dtype` is deprecated! Use `dtype` instead!
+
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 45.66it/s]
+Loading pipeline components...: 100%|██████████| 6/6 [00:01<00:00,  6.12it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:01<00:00,  4.78it/s]
+10장 326s (장당 32.6s)
+20장 574s (장당 28.7s)
+30장 824s (장당 27.5s)
+40장 1077s (장당 26.9s)
+50장 1328s (장당 26.6s)
+60장 1578s (장당 26.3s)
+70장 1832s (장당 26.2s)
+80장 2085s (장당 26.1s)
+90장 2337s (장당 26.0s)
+100장 2590s (장당 25.9s)
+110장 2845s (장당 25.9s)
+120장 3101s (장당 25.8s)
+130장 3357s (장당 25.8s)
+140장 3612s (장당 25.8s)
+150장 3867s (장당 25.8s)
+160장 4124s (장당 25.8s)
+170장 4380s (장당 25.8s)
+180장 4638s (장당 25.8s)
+190장 4895s (장당 25.8s)
+QWEN_GEN_DONE 197
+== 2026-10-14 05:44:24 Qwen 끝 ==
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00, 16.37it/s]Loading pipeline components...:  83%|████████▎ | 5/6 [00:00<00:00, 12.96it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00, 14.47it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion_inpaint.StableDiffusionInpaintPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:00, 16.39it/s]The config attributes {'decay': 0.9999, 'inv_gamma': 1.0, 'min_decay': 0.0, 'optimization_step': 37000, 'power': 0.6666666666666666, 'update_after_step': 0, 'use_ema_warmup': False} were passed to UNet2DConditionModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+Loading pipeline components...:  71%|███████▏  | 5/7 [00:00<00:00,  7.62it/s]Loading pipeline components...:  86%|████████▌ | 6/7 [00:00<00:00,  6.55it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00,  8.20it/s]
+pgen7 50 142s
+pgen7 100 268s
+pgen7 150 379s
+pgen7 200 479s
+pgen7 250 578s
+pgen7 300 708s
+pgen7 350 836s
+pgen7 400 947s
+done pgen7 400
+NIGHT_DONE

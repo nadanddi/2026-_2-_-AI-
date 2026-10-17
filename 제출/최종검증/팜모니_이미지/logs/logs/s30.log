@@ -1,0 +1,15 @@
+용량 974946233 0.974946233
+[공개 21] 패키지 vs 계산 최대 차 2.31e-04, 판정 다름 0장, 패키지 가짜 판정 비율 0.857
+[gpt3 200] 패키지 vs 계산 최대 차 8.07e-05, 판정 다름 0장, 패키지 가짜 판정 비율 0.965
+[R2 앞 400] 패키지 vs 계산 최대 차 1.34e-03, 판정 다름 0장, 패키지 가짜 판정 비율 0.485
+[GPT 재그리기 150] 패키지 vs 계산 최대 차 6.15e-08, 판정 다름 0장, 패키지 가짜 판정 비율 1.000
+BUILD9_DONE
+실행: /home/adilab/anaconda3/envs/nadan/bin/python /home/adilab/storage/nadan/공용/대회자료/이미지데이터/참가자_배포/inference_worker.py --team_dir /home/adilab/storage/nadan/farmai_img/submit_img09/팜모니_나단9 --images_dir /home/adilab/storage/nadan/공용/대회자료/이미지데이터/참가자_배포/공개샘플/images --out_dir /home/adilab/storage/nadan/farmai_img/submit_img09/self_check_run/팜모니_나단9 --run_id bdff1f185eb1440e9baefe50b2a252ef --seed 56692 --check_order
+예시 21장 지표(참고용, 평가 성능 아님): accuracy 1.000 · auroc 1.000 · f1 1.000
+WARN: requirements.txt 패키지 2개: 화이트리스트 또는 사전신청 승인 패키지만 허용(채점 환경에는 운영진이 사전 설치): ['opencv-python==5.0.0.93', 'safetensors==0.8.0']
+실행 성공: 21장, 모델 로드 7.193s + 예측 1.813s, framework=pytorch, device=NVIDIA RTX 6000 Ada Generation, 순서 독립성=OK
+RESULT: PASS
+974954425	/home/adilab/storage/nadan/farmai_img/submit_img09/팜모니_나단9
+-rw-rw-r-- 1 adilab adilab 914864758 10월 15 18:32 팜모니_나단9.zip
+6c109d45e3281399b4cf42e3030f9ab66aa365dc51df7c19a1434b489c09d316  팜모니_나단9.zip
+S30_END

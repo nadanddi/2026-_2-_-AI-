@@ -1,0 +1,8 @@
+Could not find conda environment: nadan
+You can list all discoverable environments with `conda info --envs`.
+
+s04_gen_v5.sh: line 4: cd: $'/home/adilab/storage/nadan/farmai_img/data\r': No such file or directory
+== 2026-10-12 11:28:56 nvidia-smi 확인 ==
+Format modifier is not recognized.
+s04_gen_v5.sh: line 12: syntax error near unexpected token `$'do\r''
+s04_gen_v5.sh: line 12: `for k in filter_blur composite_v5 ai_gen_xl full_style_xl partial_style_xl partial_gen_xl; do'

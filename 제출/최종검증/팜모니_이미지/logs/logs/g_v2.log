@@ -1,0 +1,16 @@
+정밀 DB 152043
+학습 후보 5390 → 묶음·원천 제외 후 648
+Traceback (most recent call last):
+  File "/home/adilab/storage/nadan/farmai_img/data/image/im38b_realconfirm_G_v2.py", line 78, in <module>
+    main()
+  File "/home/adilab/storage/nadan/farmai_img/data/image/im38b_realconfirm_G_v2.py", line 28, in main
+    else: Xt = fe_paths([str(L / sn / "img" / r["file"]) for sn, r in tr], DG, DE); np.save(fx, Xt)
+  File "/home/adilab/storage/nadan/farmai_img/data/image/im37b_f2_eval_v2.py", line 43, in fe_paths
+    return np.concatenate([fe_imgs([Image.open(p) for p in paths[k:k + 64]], DG, DE) for k in range(0, len(paths), 64)])
+  File "/home/adilab/storage/nadan/farmai_img/data/image/im37b_f2_eval_v2.py", line 43, in <listcomp>
+    return np.concatenate([fe_imgs([Image.open(p) for p in paths[k:k + 64]], DG, DE) for k in range(0, len(paths), 64)])
+  File "/home/adilab/storage/nadan/farmai_img/data/image/im37b_f2_eval_v2.py", line 43, in <listcomp>
+    return np.concatenate([fe_imgs([Image.open(p) for p in paths[k:k + 64]], DG, DE) for k in range(0, len(paths), 64)])
+  File "/home/adilab/anaconda3/envs/nadan/lib/python3.10/site-packages/PIL/Image.py", line 3639, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: '/home/adilab/storage/nadan/farmai_img/data/local/im_set_v2/img/s2769229765_real.jpg'

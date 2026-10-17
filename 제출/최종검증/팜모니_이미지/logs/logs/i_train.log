@@ -1,0 +1,29 @@
+I 학습 {np.str_('filter_blur'): 297, np.str_('filter_jpeg'): 313, np.str_('filter_noise'): 296, np.str_('partial_gen_v7'): 393, np.str_('partial_gen_v7s'): 450, np.str_('partial_style'): 501, np.str_('real'): 3600, np.str_('regen_xl'): 500}
+[θ 단계 0.0025/0.001] θ {'E_g7': 0.9997, 'E_rg': 0.0141} θ_rc {'E_g7': 0.9998, 'E_rg': 0.0166} | 진짜 풀 N=4995 합집합 오탐 0.0056
+[θ 단계 0.0015/0.00075] θ {'E_g7': 0.9998, 'E_rg': 0.0167} θ_rc {'E_g7': 0.9998, 'E_rg': 0.0186} | 진짜 풀 N=4995 합집합 오탐 0.0046
+   [OOF] E_g7 해당 유형 θ 이상 0.504 (n=843)
+   [OOF] E_rg 해당 유형 θ 이상 1.000 (n=500)
+[pub21] n=21 진짜 오탐 증가 +0 · 고친 가짜 +0
+[jig500] n=500 진짜 오탐 증가 +0 · 고친 가짜 +0
+[sealed_real] n=400 진짜 오탐 증가 +1 · 고친 가짜 +0
+[sealed_brown] n=200 진짜 오탐 증가 +0 · 고친 가짜 +0
+[sealed_bright] n=150 진짜 오탐 증가 +0 · 고친 가짜 +0
+[im_set_r3] n=900 진짜 오탐 증가 -1 · 고친 가짜 +1
+     filter_blur        n=  99 나단8 0.980 → I 0.980
+     filter_jpeg        n=  70 나단8 1.000 → I 1.000
+     filter_noise       n=  87 나단8 1.000 → I 1.000
+     partial_gen_v7     n= 101 나단8 0.911 → I 0.921
+     partial_style      n= 114 나단8 0.877 → I 0.877
+[im_set_gpt3] n=200 진짜 오탐 증가 +0 · 고친 가짜 +0
+     gpt3_pgen          n= 100 나단8 0.940 → I 0.940
+     gpt3_pstyle        n=  50 나단8 0.980 → I 0.980
+     gpt3_s1            n=  50 나단8 0.820 → I 0.820
+[im_set_sd2] n=174 진짜 오탐 증가 +0 · 고친 가짜 +0
+     ai_gen             n=  42 나단8 1.000 → I 1.000
+     full_style_sd      n=  35 나단8 1.000 → I 1.000
+     partial_gen_sd     n=  62 나단8 0.806 → I 0.806
+     partial_style_sd   n=  35 나단8 0.971 → I 0.971
+
+[탐색 지표] gpt3_s1 False · sd2 True · R3 가짜 True · 공개 True · 진짜 오탐(R3·jig·봉인) True
+I_TRAIN_DONE (R4 미개봉)
+S25_END

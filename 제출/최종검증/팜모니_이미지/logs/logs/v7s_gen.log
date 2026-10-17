@@ -1,0 +1,14 @@
+Loading pipeline components...:   0%|          | 0/6 [00:00<?, ?it/s]Loading pipeline components...:  50%|█████     | 3/6 [00:00<00:00, 13.58it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00, 19.37it/s]Loading pipeline components...: 100%|██████████| 6/6 [00:00<00:00, 18.20it/s]
+You have disabled the safety checker for <class 'diffusers.pipelines.stable_diffusion.pipeline_stable_diffusion_inpaint.StableDiffusionInpaintPipeline'> by passing `safety_checker=None`. Ensure that you abide to the conditions of the Stable Diffusion license and do not expose unfiltered results in services or applications open to the public. Both the diffusers team and Hugging Face strongly recommend to keep the safety filter enabled in all public facing circumstances, disabling it only for use-cases that involve analyzing network behavior or auditing its results. For more information, please have a look at https://github.com/huggingface/diffusers/pull/254 .
+Loading pipeline components...:   0%|          | 0/7 [00:00<?, ?it/s]Loading pipeline components...:  14%|█▍        | 1/7 [00:00<00:00,  6.07it/s]The config attributes {'decay': 0.9999, 'inv_gamma': 1.0, 'min_decay': 0.0, 'optimization_step': 37000, 'power': 0.6666666666666666, 'update_after_step': 0, 'use_ema_warmup': False} were passed to UNet2DConditionModel, but are not expected and will be ignored. Please verify your config.json configuration file.
+Loading pipeline components...:  43%|████▎     | 3/7 [00:00<00:00,  7.36it/s]Loading pipeline components...:  57%|█████▋    | 4/7 [00:00<00:00,  7.66it/s]Loading pipeline components...: 100%|██████████| 7/7 [00:00<00:00, 11.57it/s]
+v7s 50 109s
+v7s 100 238s
+v7s 150 368s
+v7s 200 472s
+v7s 250 603s
+v7s 300 715s
+v7s 350 831s
+v7s 400 957s
+v7s 450 1075s
+V7S_DONE 450

@@ -1,0 +1,25 @@
+행 10741 GPT 검증 부분편집 93 (부분생성 59 부분스타일 34 ) | GPT 신뢰 마스크 사진의 양성 조각 0개 비율 0.044 평균 3.99
+  s0 θ폴드 [0.998, 0.997, 0.997, 0.997, 0.998] | 조각top1 AUC GPT검증 0.8627 6판 0.9154 | 추정정확도 A 0.9002 L 0.9082 | GPT검증 부분편집 A 0.570 L 0.634 (부분생성 0.46→0.49 부분스타일 0.76→0.88) | 진짜오탐 A 0.0541 L 0.0643 | 6판 A 0.43 L 0.62 | 유형(L) AI_gen=1.00 compos=0.94 filter=0.97 full_s=0.99 partia=0.99 partia=0.88
+     공개 A 19/21 L 20/21 | 공개 진짜 top1 분위(OOF 진짜 대비) jixx=0.535 ovvx=0.899 qube=0.242 | 공개 부분편집 top1 ftkc(gen)=0.86 mobg(gen)=0.78 uexm(gen)=0.97 dszm(style)=1.00 elue(style)=0.99 xeeo(style)=1.00
+  s1 θ폴드 [0.999, 0.999, 0.998, 0.999, 0.997] | 조각top1 AUC GPT검증 0.8678 6판 0.9166 | 추정정확도 A 0.9020 L 0.9058 | GPT검증 부분편집 A 0.559 L 0.613 (부분생성 0.42→0.47 부분스타일 0.79→0.85) | 진짜오탐 A 0.0489 L 0.0610 | 6판 A 0.45 L 0.60 | 유형(L) AI_gen=1.00 compos=0.94 filter=0.97 full_s=0.99 partia=0.99 partia=0.88
+     공개 A 19/21 L 20/21 | 공개 진짜 top1 분위(OOF 진짜 대비) jixx=0.614 ovvx=0.923 qube=0.281 | 공개 부분편집 top1 ftkc(gen)=0.89 mobg(gen)=0.87 uexm(gen)=0.98 dszm(style)=1.00 elue(style)=0.99 xeeo(style)=1.00
+  s2 θ폴드 [0.998, 0.998, 0.998, 0.997, 0.997] | 조각top1 AUC GPT검증 0.8734 6판 0.9182 | 추정정확도 A 0.9016 L 0.9072 | GPT검증 부분편집 A 0.559 L 0.613 (부분생성 0.42→0.46 부분스타일 0.79→0.88) | 진짜오탐 A 0.0494 L 0.0601 | 6판 A 0.45 L 0.63 | 유형(L) AI_gen=1.00 compos=0.94 filter=0.97 full_s=0.99 partia=0.99 partia=0.88
+     공개 A 20/21 L 20/21 | 공개 진짜 top1 분위(OOF 진짜 대비) jixx=0.665 ovvx=0.868 qube=0.282 | 공개 부분편집 top1 ftkc(gen)=0.85 mobg(gen)=0.80 uexm(gen)=0.98 dszm(style)=1.00 elue(style)=0.99 xeeo(style)=1.00
+
+== 판정(IM_국소패치_L_v2.md) ==
+  L: 부분편집≥+.03 True · 추정정확도↑ True · 오탐 False · p_worse 0.0860 (False) → 불채택
+Traceback (most recent call last):
+  File "/home/adilab/storage/nadan/farmai_img/data/image/im05w_eval_patch_v2.py", line 105, in <module>
+    main()
+  File "/home/adilab/storage/nadan/farmai_img/data/image/im05w_eval_patch_v2.py", line 102, in main
+    np.savez(LOCAL / "preds" / "L2_patch_oof.npz", pA=np.array(pA), pL=np.array(pL))
+  File "/home/adilab/anaconda3/envs/nadan/lib/python3.10/site-packages/numpy/lib/_npyio_impl.py", line 683, in savez
+    _savez(file, args, kwds, False, allow_pickle=allow_pickle)
+  File "/home/adilab/anaconda3/envs/nadan/lib/python3.10/site-packages/numpy/lib/_npyio_impl.py", line 789, in _savez
+    zipf = zipfile_factory(file, mode="w", compression=compression)
+  File "/home/adilab/anaconda3/envs/nadan/lib/python3.10/site-packages/numpy/lib/_npyio_impl.py", line 103, in zipfile_factory
+    return zipfile.ZipFile(file, *args, **kwargs)
+  File "/home/adilab/anaconda3/envs/nadan/lib/python3.10/zipfile.py", line 1296, in __init__
+    self.fp = io.open(file, filemode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/adilab/storage/nadan/farmai_img/data/local/preds/L2_patch_oof.npz'
+L2_DONE

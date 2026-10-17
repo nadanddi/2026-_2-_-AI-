@@ -1,0 +1,9 @@
+실행: /home/adilab/anaconda3/envs/nadan/bin/python /home/adilab/storage/nadan/공용/대회자료/이미지데이터/참가자_배포/inference_worker.py --team_dir /home/adilab/storage/nadan/farmai_img/submit_img08/팜모니_나단8 --images_dir /home/adilab/storage/nadan/공용/대회자료/이미지데이터/참가자_배포/공개샘플/images --out_dir /home/adilab/storage/nadan/farmai_img/submit_img08/self_check_run/팜모니_나단8 --run_id 912cfb4f8f764a5baa9948c6fba851da --seed 48892 --check_order
+예시 21장 지표(참고용, 평가 성능 아님): accuracy 1.000 · auroc 1.000 · f1 1.000
+WARN: requirements.txt 패키지 2개: 화이트리스트 또는 사전신청 승인 패키지만 허용(채점 환경에는 운영진이 사전 설치): ['opencv-python==5.0.0.93', 'safetensors==0.8.0']
+실행 성공: 21장, 모델 로드 7.301s + 예측 1.814s, framework=pytorch, device=NVIDIA RTX 6000 Ada Generation, 순서 독립성=OK
+RESULT: PASS
+974941959	/home/adilab/storage/nadan/farmai_img/submit_img08/팜모니_나단8
+-rw-rw-r-- 1 adilab adilab 914854738 10월 15 16:22 팜모니_나단8.zip
+046552dff09b719511405bcd640ba2a3fb9599e31c3b1ede8f525aa190b29efb  팜모니_나단8.zip
+S26_END

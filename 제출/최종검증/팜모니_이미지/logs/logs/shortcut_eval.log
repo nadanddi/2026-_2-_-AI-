@@ -1,0 +1,10 @@
+v3 200 v3R 200 realN 300 realG 300
+  [A] s0 탐지 v3 0.590 v3R 0.615 | CLIP AUC v3 0.856 v3R 0.875 | 저수준 AUC v3 0.801 v3R 0.761 | 진짜 오탐 realN 0.070 realG 0.067 (OOF 진짜 0.054)
+  [A] s1 탐지 v3 0.590 v3R 0.660 | CLIP AUC v3 0.857 v3R 0.882 | 저수준 AUC v3 0.802 v3R 0.767 | 진짜 오탐 realN 0.050 realG 0.047 (OOF 진짜 0.049)
+  [A] s2 탐지 v3 0.600 v3R 0.660 | CLIP AUC v3 0.870 v3R 0.889 | 저수준 AUC v3 0.788 v3R 0.743 | 진짜 오탐 realN 0.053 realG 0.053 (OOF 진짜 0.049)
+  [G3a] s0 탐지 v3 0.925 v3R 0.930 | CLIP AUC v3 0.977 v3R 0.981 | 저수준 AUC v3 0.848 v3R 0.807 | 진짜 오탐 realN 0.077 realG 0.070 (OOF 진짜 0.058)
+  [G3a] s1 탐지 v3 0.935 v3R 0.945 | CLIP AUC v3 0.978 v3R 0.982 | 저수준 AUC v3 0.850 v3R 0.821 | 진짜 오탐 realN 0.060 realG 0.067 (OOF 진짜 0.055)
+  [G3a] s2 탐지 v3 0.930 v3R 0.950 | CLIP AUC v3 0.981 v3R 0.984 | 저수준 AUC v3 0.848 v3R 0.815 | 진짜 오탐 realN 0.063 realG 0.060 (OOF 진짜 0.056)
+
+== 판정(IM_G3_지름길반증_v1.md) ==
+  S1(경로 바꾸면 효과 사라짐) 안 걸림 · S2(GPT 경로 진짜를 가짜로) 안 걸림 → 지름길 없음

@@ -1,0 +1,14 @@
+행 10591 6판 900 v5부분생성 900 GPT부분생성 25
+  [A] s0 AUC GPT부분생성 0.9071 부분스타일 0.9306 | 탐지(L2후) GPT부분생성 0.56 v5부분생성 1.000 6판 0.429 | 실제오탐 0.0541 균형 0.9432 | 유형 AI_gen=1.00 compos=0.94 filter=0.97 full_s=0.99 partia=0.98 partia=0.80 | 공개 19/21 logloss 0.302 공개부분생성 ftkc=0.47 mobg=0.52 uexm=0.90
+  [A] s1 AUC GPT부분생성 0.8977 부분스타일 0.9219 | 탐지(L2후) GPT부분생성 0.56 v5부분생성 1.000 6판 0.447 | 실제오탐 0.0489 균형 0.9452 | 유형 AI_gen=1.00 compos=0.94 filter=0.97 full_s=0.99 partia=0.98 partia=0.81 | 공개 19/21 logloss 0.285 공개부분생성 ftkc=0.42 mobg=0.55 uexm=0.90
+  [A] s2 AUC GPT부분생성 0.9038 부분스타일 0.9243 | 탐지(L2후) GPT부분생성 0.60 v5부분생성 1.000 6판 0.447 | 실제오탐 0.0494 균형 0.9447 | 유형 AI_gen=1.00 compos=0.93 filter=0.97 full_s=0.99 partia=0.98 partia=0.80 | 공개 20/21 logloss 0.285 공개부분생성 ftkc=0.46 mobg=0.52 uexm=0.90
+  [D1a] s0 AUC GPT부분생성 0.9276 부분스타일 0.9115 | 탐지(L2후) GPT부분생성 0.68 v5부분생성 1.000 6판 0.540 | 실제오탐 0.0778 균형 0.9339 | 유형 AI_gen=1.00 compos=0.95 filter=0.98 full_s=0.99 partia=0.99 partia=0.84 | 공개 18/21 logloss 0.338 공개부분생성 ftkc=0.41 mobg=0.60 uexm=0.90
+  [D1a] s1 AUC GPT부분생성 0.9113 부분스타일 0.9356 | 탐지(L2후) GPT부분생성 0.68 v5부분생성 1.000 6판 0.539 | 실제오탐 0.0736 균형 0.9356 | 유형 AI_gen=1.00 compos=0.95 filter=0.98 full_s=0.99 partia=0.99 partia=0.85 | 공개 19/21 logloss 0.286 공개부분생성 ftkc=0.40 mobg=0.53 uexm=0.90
+  [D1a] s2 AUC GPT부분생성 0.9163 부분스타일 0.9339 | 탐지(L2후) GPT부분생성 0.76 v5부분생성 1.000 6판 0.539 | 실제오탐 0.0718 균형 0.9364 | 유형 AI_gen=1.00 compos=0.95 filter=0.98 full_s=1.00 partia=0.98 partia=0.84 | 공개 19/21 logloss 0.287 공개부분생성 ftkc=0.47 mobg=0.54 uexm=0.90
+  [D1b] s0 AUC GPT부분생성 0.9254 부분스타일 0.9171 | 탐지(L2후) GPT부분생성 0.80 v5부분생성 1.000 6판 0.592 | 실제오탐 0.0932 균형 0.9256 | 유형 AI_gen=1.00 compos=0.95 filter=0.98 full_s=0.99 partia=0.99 partia=0.86 | 공개 18/21 logloss 0.350 공개부분생성 ftkc=0.37 mobg=0.61 uexm=0.90
+  [D1b] s1 AUC GPT부분생성 0.9081 부분스타일 0.9177 | 탐지(L2후) GPT부분생성 0.72 v5부분생성 1.000 6판 0.586 | 실제오탐 0.0871 균형 0.9291 | 유형 AI_gen=1.00 compos=0.96 filter=0.98 full_s=0.99 partia=0.99 partia=0.86 | 공개 20/21 logloss 0.285 공개부분생성 ftkc=0.41 mobg=0.56 uexm=0.90
+  [D1b] s2 AUC GPT부분생성 0.9188 부분스타일 0.9217 | 탐지(L2후) GPT부분생성 0.84 v5부분생성 1.000 6판 0.577 | 실제오탐 0.0834 균형 0.9318 | 유형 AI_gen=1.00 compos=0.95 filter=0.98 full_s=0.99 partia=0.99 partia=0.86 | 공개 20/21 logloss 0.291 공개부분생성 ftkc=0.42 mobg=0.56 uexm=0.90
+
+== 판정(IM_부분생성_D1_v1.md) ==
+  D1a: AUC↑ True · 균형 False · 오탐 False · p_worse 0.0790 (False) | AUC 차(시드평균 예측) +0.0162 → 불채택
+  D1b: AUC↑ True · 균형 False · 오탐 False · p_worse 0.1430 (False) | AUC 차(시드평균 예측) +0.0168 → 불채택

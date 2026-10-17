@@ -1,0 +1,89 @@
+{
+  "input_hash_checks": {
+    "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_h3.npz": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/im_set_h3/manifest.csv": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_h3j.npz": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/im_set_h3j/manifest.csv": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_h3s.npz": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/im_set_h3s/manifest.csv": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_h3g.npz": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/im_set_h3g/manifest.csv": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_gptr.npz": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/im_set_gptr/manifest.csv": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_gptr_src.npz": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/im_set_gptr_src/manifest.csv": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_newreal.npz": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/im_set_newreal/manifest.csv": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_realg.npz": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/im_set_realg/manifest.csv": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_realn.npz": true,
+    "/home/adilab/storage/nadan/farmai_img/data/local/im_set_realn/manifest.csv": true
+  },
+  "baseline": {
+    "im_set_gpt1": {
+      "n": 100,
+      "maxdiff": 0.0,
+      "label_equal": true
+    },
+    "im_set_gpt3": {
+      "n": 200,
+      "maxdiff": 0.0,
+      "label_equal": true
+    },
+    "im_set_r2": {
+      "n": 3724,
+      "maxdiff": 0.0,
+      "label_equal": true
+    },
+    "im_set_r3": {
+      "n": 900,
+      "maxdiff": 0.0,
+      "label_equal": true
+    },
+    "im_set_r4": {
+      "n": 700,
+      "maxdiff": 0.0,
+      "label_equal": true
+    },
+    "pub21": {
+      "n": 21,
+      "maxdiff": 0.0,
+      "label_equal": true
+    },
+    "jig500": {
+      "n": 500,
+      "maxdiff": 0.0,
+      "label_equal": true
+    },
+    "sealed_real": {
+      "n": 400,
+      "maxdiff": 0.0,
+      "label_equal": true
+    },
+    "sealed_brown": {
+      "n": 200,
+      "maxdiff": 0.0,
+      "label_equal": true
+    },
+    "sealed_bright": {
+      "n": 150,
+      "maxdiff": 0.0,
+      "label_equal": true
+    }
+  },
+  "independent_conditions": {
+    "a": true,
+    "b_real": true,
+    "b_union": false,
+    "c_pub": true,
+    "c_ba": false
+  },
+  "logo_fixed": [
+    1,
+    6,
+    7,
+    0
+  ],
+  "union_delta": 0.0012243648607284966,
+  "verified": true
+}

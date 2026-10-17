@@ -1,0 +1,49 @@
+== 2026-10-14 06:48:27 nvidia-smi ==
+index, memory.used [MiB], utilization.gpu [%]
+0, 14 MiB, 0 %
+1, 3534 MiB, 0 %
+봉인 가짜 원본 424
+im_set_newreal 795
+im_set_v7tr 234
+im_set_qwentr 390
+saved (795, 38) 15s
+saved (795, 27) 6s
+0/795 0s
+200/795 6s
+400/795 11s
+600/795 17s
+saved (795, 10, 768) 22s
+B2 im_set_newreal 0/795 1s
+saved B2 im_set_newreal 39s
+im_set_newreal 0 2s
+saved im_set_newreal 795 33s
+im_set_newreal (795, 3) excl 0
+saved (234, 38) 5s
+saved (234, 27) 2s
+0/234 0s
+200/234 6s
+saved (234, 10, 768) 7s
+B2 im_set_v7tr 0/234 1s
+saved B2 im_set_v7tr 12s
+im_set_v7tr 0 1s
+saved im_set_v7tr 234 11s
+im_set_v7tr (234, 3) excl 0
+saved (390, 38) 8s
+saved (390, 27) 3s
+0/390 0s
+200/390 6s
+saved (390, 10, 768) 11s
+B2 im_set_qwentr 0/390 1s
+saved B2 im_set_qwentr 20s
+im_set_qwentr 0 1s
+saved im_set_qwentr 390 17s
+im_set_qwentr (390, 3) excl 0
+  θ 시드 7: E_pg=0.71370 E_ps=0.88443 E_L=0.99913
+  θ 시드 8: E_pg=0.74370 E_ps=0.88774 E_L=0.99929
+θ 최종(15개 평균) {'E_pg': 0.726175, 'E_ps': 0.896902, 'E_L': 0.999081}
+완료 ['b16_visual_fp16.safetensors', 'b2_lr.npz', 'b2_visual_fp16.safetensors', 'config.json', 'e_l_lr.npz', 'e_pg_lr.npz', 'e_ps_lr.npz', 'fp_db.npz', 'low_hgb.npz']
+실행: /home/adilab/anaconda3/envs/nadan/bin/python /home/adilab/storage/nadan/공용/대회자료/이미지데이터/참가자_배포/inference_worker.py --team_dir /home/adilab/storage/nadan/farmai_img/submit_img05/팜모니_나단5 --images_dir /home/adilab/storage/nadan/공용/대회자료/이미지데이터/참가자_배포/공개샘플/images --out_dir /home/adilab/storage/nadan/farmai_img/data/self_check_run/팜모니_나단5 --run_id 315f8ffc967d4c2cbc07ad944b18d9db --seed 28828 --check_order
+예시 21장 지표(참고용, 평가 성능 아님): accuracy 1.000 · auroc 1.000 · f1 1.000
+실행 성공: 21장, 모델 로드 2.96s + 예측 1.776s, framework=pytorch, device=NVIDIA RTX 6000 Ada Generation, 순서 독립성=OK
+RESULT: PASS
+C3V2_DONE

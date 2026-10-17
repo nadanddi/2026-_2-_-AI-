@@ -1,0 +1,16 @@
+r_color {'dg1_lo': 1.0110872983932495, 'dg1_hi': 4.5, 'gap': 3.0, 't': 8, 'floor': 0.95, 'note': 'T: 독립 AI Hub 실제(표준화본)와 처리 변형 4종에서 원본 오탐≤0.1%, 변형 각≤0.25% 인 최소값'}
+R5 진짜 356
+/home/adilab/storage/nadan/farmai_img/data/local/kwj_test/pkg/inference.py:156: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  cr = [torch.from_numpy(arrs[i][y:y + S, x:x + S]).permute(2, 0, 1) for i in ok for x, y in _grid(imgs[i].size[0], imgs[i].size[1])]
+[기준      ] R_color 발동(진짜→가짜) 0/356 = 0.0000 | dg1 중앙 0.25 | cl 중앙 2.37 q99 7.25
+[이동2     ] R_color 발동(진짜→가짜) 2/356 = 0.0056 | dg1 중앙 1.73 | cl 중앙 2.10 q99 5.31
+[이동4     ] R_color 발동(진짜→가짜) 3/356 = 0.0084 | dg1 중앙 3.52 | cl 중앙 3.32 q99 7.58
+[이동8     ] R_color 발동(진짜→가짜) 5/356 = 0.0140 | dg1 중앙 6.92 | cl 중앙 6.17 q99 11.47
+[이동-2    ] R_color 발동(진짜→가짜) 6/356 = 0.0169 | dg1 중앙 1.96 | cl 중앙 3.81 q99 9.63
+[이동-4    ] R_color 발동(진짜→가짜) 30/356 = 0.0843 | dg1 중앙 3.74 | cl 중앙 5.19 q99 11.43
+[확대1.03  ] R_color 발동(진짜→가짜) 0/356 = 0.0000 | dg1 중앙 9.01 | cl 중앙 13.01 q99 25.19
+[감마0.9   ] R_color 발동(진짜→가짜) 0/356 = 0.0000 | dg1 중앙 6.82 | cl 중앙 3.33 q99 19.16
+[밝기+5%   ] R_color 발동(진짜→가짜) 1/356 = 0.0028 | dg1 중앙 5.31 | cl 중앙 3.58 q99 12.52
+[bicubic ] R_color 발동(진짜→가짜) 0/356 = 0.0000 | dg1 중앙 0.25 | cl 중앙 2.33 q99 7.29
+[bilinear] R_color 발동(진짜→가짜) 0/356 = 0.0000 | dg1 중앙 0.24 | cl 중앙 2.34 q99 7.33
+IM72_DONE

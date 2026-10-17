@@ -1,0 +1,72 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/adilab/anaconda3/envs/nadan_qwen
+
+  added / updated specs:
+    - python=3.10
+
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-52_gnu
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h5eee18b_6
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2026.9.25-h06a4308_0
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.44-h9e0c5a2_3
+  libexpat           pkgs/main/linux-64::libexpat-2.9.0-h7354ed3_0
+  libffi             pkgs/main/linux-64::libffi-3.4.8-h06d3fd0_3
+  libgcc             pkgs/main/linux-64::libgcc-15.2.0-h69a1729_8
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-15.2.0-h166f726_8
+  libnsl             pkgs/main/linux-64::libnsl-2.0.0-h5eee18b_0
+  libstdcxx          pkgs/main/linux-64::libstdcxx-15.2.0-h39759b7_8
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0
+  libxcb             pkgs/main/linux-64::libxcb-1.17.0-h9b100fa_0
+  libzlib            pkgs/main/linux-64::libzlib-1.3.2-h47b2149_0
+  ncurses            pkgs/main/linux-64::ncurses-6.6-hfaaeb4e_0
+  openssl            pkgs/main/linux-64::openssl-3.5.9-h1b28b03_0
+  packaging          pkgs/main/linux-64::packaging-26.3-py310h06a4308_0
+  pip                pkgs/main/noarch::pip-26.2.1-pyhc872135_0
+  pthread-stubs      pkgs/main/linux-64::pthread-stubs-0.3-h47b2149_2
+  python             pkgs/main/linux-64::python-3.10.22-hd9cb797_0
+  readline           pkgs/main/linux-64::readline-8.3-hc2a1206_0
+  setuptools         pkgs/main/linux-64::setuptools-84.0.0-py310h06a4308_0
+  sqlite             pkgs/main/linux-64::sqlite-3.53.4-h795bf6d_0
+  tk                 pkgs/main/linux-64::tk-8.6.15-h54e0aa7_0
+  tzdata             pkgs/main/noarch::tzdata-2026c-he532380_0
+  wheel              pkgs/main/linux-64::wheel-0.47.0-py310h06a4308_0
+  xorg-libx11        pkgs/main/linux-64::xorg-libx11-1.8.13-h65de747_0
+  xorg-libxau        pkgs/main/linux-64::xorg-libxau-1.0.12-h9b100fa_0
+  xorg-libxdmcp      pkgs/main/linux-64::xorg-libxdmcp-1.1.5-h9b100fa_0
+  xorg-xorgproto     pkgs/main/linux-64::xorg-xorgproto-2025.1-h47b2149_0
+  xz                 pkgs/main/linux-64::xz-5.8.4-h140a991_0
+  zlib               pkgs/main/linux-64::zlib-1.3.2-h47b2149_0
+
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/adilab/anaconda3/envs/nadan_qwen/lib/python3.10/site-packages/diffusers/__init__.py", line 5, in <module>
+    from .utils import (
+  File "/home/adilab/anaconda3/envs/nadan_qwen/lib/python3.10/site-packages/diffusers/utils/__init__.py", line 137, in <module>
+    from .peft_utils import (
+  File "/home/adilab/anaconda3/envs/nadan_qwen/lib/python3.10/site-packages/diffusers/utils/peft_utils.py", line 26, in <module>
+    from .torch_utils import empty_device_cache
+  File "/home/adilab/anaconda3/envs/nadan_qwen/lib/python3.10/site-packages/diffusers/utils/torch_utils.py", line 413, in <module>
+    torch_device = get_device()
+  File "/home/adilab/anaconda3/envs/nadan_qwen/lib/python3.10/site-packages/diffusers/utils/torch_utils.py", line 319, in get_device
+    return TorchDeviceBackend._detect_device_type()
+  File "/home/adilab/anaconda3/envs/nadan_qwen/lib/python3.10/site-packages/diffusers/utils/torch_utils.py", line 245, in _detect_device_type
+    if torch.accelerator.is_available():
+  File "/home/adilab/anaconda3/envs/nadan_qwen/lib/python3.10/site-packages/torch/__init__.py", line 2562, in __getattr__
+    raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
+AttributeError: module 'torch' has no attribute 'accelerator'
+Fetching 39 files:   0%|          | 0/39 [00:00<?, ?it/s]Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Fetching 39 files:   3%|▎         | 1/39 [00:00<00:10,  3.74it/s]Fetching 39 files:  15%|█▌        | 6/39 [00:00<00:01, 17.16it/s]Fetching 39 files:  23%|██▎       | 9/39 [00:00<00:01, 17.59it/s]Fetching 39 files:  38%|███▊      | 15/39 [00:00<00:01, 18.80it/s]Fetching 39 files:  46%|████▌     | 18/39 [00:01<00:01, 15.88it/s]Fetching 39 files:  51%|█████▏    | 20/39 [00:01<00:01, 14.04it/s]Fetching 39 files:  59%|█████▉    | 23/39 [00:02<00:02,  5.40it/s]Fetching 39 files:  59%|█████▉    | 23/39 [00:20<00:02,  5.40it/s]Fetching 39 files:  62%|██████▏   | 24/39 [01:34<03:01, 12.08s/it]Fetching 39 files:  64%|██████▍   | 25/39 [01:35<02:23, 10.25s/it]Fetching 39 files:  67%|██████▋   | 26/39 [03:53<07:16, 33.57s/it]Fetching 39 files:  69%|██████▉   | 27/39 [04:50<07:41, 38.43s/it]Fetching 39 files:  72%|███████▏  | 28/39 [05:51<07:58, 43.53s/it]Fetching 39 files:  74%|███████▍  | 29/39 [06:00<05:52, 35.24s/it]Fetching 39 files:  77%|███████▋  | 30/39 [06:01<03:55, 26.19s/it]Fetching 39 files:  79%|███████▉  | 31/39 [06:01<02:33, 19.18s/it]Fetching 39 files:  82%|████████▏ | 32/39 [06:03<01:39, 14.23s/it]Fetching 39 files:  85%|████████▍ | 33/39 [06:11<01:15, 12.59s/it]Fetching 39 files:  87%|████████▋ | 34/39 [06:55<01:48, 21.74s/it]Fetching 39 files:  90%|████████▉ | 35/39 [07:02<01:09, 17.36s/it]Fetching 39 files:  92%|█████████▏| 36/39 [07:03<00:37, 12.47s/it]Fetching 39 files:  95%|█████████▍| 37/39 [07:24<00:30, 15.20s/it]Fetching 39 files:  97%|█████████▋| 38/39 [07:26<00:11, 11.20s/it]Fetching 39 files: 100%|██████████| 39/39 [07:43<00:00, 12.93s/it]Fetching 39 files: 100%|██████████| 39/39 [07:43<00:00, 11.89s/it]
+downloaded /home/adilab/storage/nadan/farmai_img/local/weights/qwen-image-edit
+54G	/home/adilab/storage/nadan/farmai_img/data/local/weights/qwen-image-edit
+QWEN_SETUP_DONE

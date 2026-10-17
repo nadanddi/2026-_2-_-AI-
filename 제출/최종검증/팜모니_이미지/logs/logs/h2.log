@@ -1,0 +1,38 @@
+H3J_DONE 1800
+/home/adilab/storage/nadan/farmai_img/submit_img06/팜모니_나단6/inference.py:130: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at ../torch/csrc/utils/tensor_numpy.cpp:206.)
+  cr = [torch.from_numpy(arrs[i][y:y + S, x:x + S]).permute(2, 0, 1) for i in ok for x, y in _grid(imgs[i].size[0], imgs[i].size[1])]
+im_set_h3j 0 / 1800
+im_set_h3j 400 / 1800
+im_set_h3j 800 / 1800
+im_set_h3j 1200 / 1800
+im_set_h3j 1600 / 1800
+im_set_h3j 저장 1800 ok 1800
+FEATS_DONE
+흔들기 진짜 추가 1800
+H 학습 5400 {np.str_('filter_blur'): np.int64(297), np.str_('filter_jpeg'): np.int64(313), np.str_('filter_noise'): np.int64(296), np.str_('partial_gen_v7'): np.int64(393), np.str_('partial_style'): np.int64(501), np.str_('real'): np.int64(3600)}
+[설정 h2] FLIP 0.0025 FLIP_RC 0.001
+θ {'E_f': 0.6151, 'E_ps2': 0.9996, 'E_g7': 0.9998} θ_rc {'E_f': 0.8481, 'E_ps2': 0.9998, 'E_g7': 0.9999} | 진짜 풀 4995 중 진짜확정 4184
+   진짜 풀 합집합 오탐률(전문가 셋 중 하나라도) 0.0040
+   [H 학습 OOF] E_f 해당 유형 θ 이상 0.980 (n=906) | 진짜 0.0014
+   [H 학습 OOF] E_ps2 해당 유형 θ 이상 0.717 (n=501) | 진짜 0.0031
+   [H 학습 OOF] E_g7 해당 유형 θ 이상 0.718 (n=393) | 진짜 0.0028
+[im_set_r2] n=3724 진짜 오탐 0.0166 → 0.0204 (+7장) 탐지 0.9162 → 0.9490 | 균형 정확도 0.9498 → 0.9643
+     composite        n= 457 정답률 0.967 → 0.967
+     filter_blur      n= 154 정답률 0.909 → 0.987
+     filter_jpeg      n= 145 정답률 0.793 → 0.986
+     filter_noise     n= 149 정답률 0.919 → 0.980
+     filter_sp        n= 157 정답률 1.000 → 1.000
+     partial_style    n= 484 정답률 0.839 → 0.862
+     pstyle_color     n= 316 정답률 0.978 → 0.981
+     real             n=1862 정답률 0.983 → 0.980
+[sealed_real] n=400 진짜 오탐 0.0075 → 0.0125 (+2장)
+[sealed_brown] n=200 진짜 오탐 0.0050 → 0.0050 (+0장)
+[sealed_bright] n=150 진짜 오탐 0.0133 → 0.0133 (+0장)
+[sealed_qwen] n=291 탐지 1.0000 → 1.0000
+[sealed_v7] n=140 탐지 0.8643 → 0.9000
+[pub21] n=21 진짜 오탐 0.0000 → 0.0000 (+0장) 탐지 1.0000 → 1.0000 | 균형 정확도 1.0000 → 1.0000
+[jig500] n=500 진짜 오탐 0.1560 → 0.1580 (+1장)
+
+[탐색 지표] 봉인 진짜 +2장(≤3) · 공개 21/21 · 흔들기 +0.0020(≤.03) · R2 비하락 True
+H_TRAIN_DONE (R3 미개봉)
+S21_END

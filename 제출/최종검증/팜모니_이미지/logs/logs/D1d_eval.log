@@ -1,0 +1,8 @@
+A 시드평균 실제오탐 0.0508 → τ(시드별) [np.float64(0.5339), np.float64(0.5329), np.float64(0.5388)] 평균 0.5352
+  s0 균형 A 0.9432 D1d 0.9447 | GPT부분생성 탐지 A 0.400 D1d 0.416 | GPT부분스타일 A 0.747 D1d 0.787 | 실제오탐 A 0.0541 D1d 0.0503 | 유형(D1d) AI_gen=1.00 compos=0.94 filter=0.97 full_s=0.99 partia=0.98 partia=0.81
+  s1 균형 A 0.9452 D1d 0.9450 | GPT부분생성 탐지 A 0.376 D1d 0.384 | GPT부분스타일 A 0.760 D1d 0.787 | 실제오탐 A 0.0489 D1d 0.0503 | 유형(D1d) AI_gen=1.00 compos=0.94 filter=0.97 full_s=0.99 partia=0.99 partia=0.82
+  s2 균형 A 0.9447 D1d 0.9443 | GPT부분생성 탐지 A 0.360 D1d 0.392 | GPT부분스타일 A 0.747 D1d 0.760 | 실제오탐 A 0.0494 D1d 0.0513 | 유형(D1d) AI_gen=1.00 compos=0.94 filter=0.97 full_s=0.99 partia=0.98 partia=0.80
+
+== 판정(IM_부분생성_D1d_v1.md) ==
+  D1d: 균형↑ False · 부분생성↑ True · 오탐 True · p_worse 0.2480 (<0.0125 False) → 불채택  (τ=0.5352)
+U_DONE

@@ -1,0 +1,44 @@
+== 점검 2: 공개 진짜 ==
+  jixx.jpg: dg1 0.326 gap 30.97 집중도 0.500 | 원본 잡힘 True | band False | 나단9 p 0.449
+  ovvx.jpg: dg1 28.164 gap 1.20 집중도 0.281 | 원본 잡힘 False | band False | 나단9 p 0.484
+  qube.jpg: dg1 0.332 gap 19.02 집중도 0.369 | 원본 잡힘 True | band False | 나단9 p 0.416
+  [판정 2] 원본 잡힌 공개 진짜 2장 모두 dg1 ≤ 0.8: True
+== 점검 4: 공개 가짜 ==
+  moke.jpg: dg1 31.77 gap 0.69 집중도 0.255 | band False · 10b False | 나단9 p 1.000
+  wlid.jpg: dg1 30.31 gap 0.80 집중도 0.277 | band False · 10b False | 나단9 p 1.000
+  xkdj.jpg: dg1 31.41 gap 0.11 집중도 0.262 | band False · 10b False | 나단9 p 1.000
+  bpem.jpg: dg1 9.38 gap 7.46 집중도 0.678 | band False · 10b True | 나단9 p 1.000
+  bphr.jpg: dg1 32.26 gap 0.45 집중도 0.297 | band False · 10b False | 나단9 p 1.000
+  yuag.jpg: dg1 10.25 gap 12.62 집중도 0.553 | band False · 10b True | 나단9 p 1.000
+  vfjx.jpg: dg1 0.56 gap 4.61 집중도 0.360 | band False · 10b False | 나단9 p 1.000
+  nqwq.jpg: dg1 26.71 gap 0.33 집중도 0.322 | band False · 10b False | 나단9 p 1.000
+  jrtg.jpg: dg1 1.45 gap 24.20 집중도 0.305 | band True · 10b True | 나단9 p 1.000
+  kzbz.jpg: dg1 38.46 gap 0.85 집중도 0.275 | band False · 10b False | 나단9 p 1.000
+  nriv.jpg: dg1 32.22 gap 0.71 집중도 0.257 | band False · 10b False | 나단9 p 1.000
+  ttmn.jpg: dg1 8.78 gap 14.43 집중도 0.271 | band False · 10b False | 나단9 p 1.000
+  ftkc.jpg: dg1 32.75 gap 0.19 집중도 0.258 | band False · 10b False | 나단9 p 0.999
+  mobg.jpg: dg1 30.29 gap 0.14 집중도 0.307 | band False · 10b False | 나단9 p 0.854
+  uexm.jpg: dg1 14.67 gap 14.05 집중도 0.487 | band False · 10b False | 나단9 p 0.952
+  dszm.jpg: dg1 27.30 gap 1.37 집중도 0.263 | band False · 10b False | 나단9 p 0.999
+  elue.jpg: dg1 26.21 gap 0.88 집중도 0.275 | band False · 10b False | 나단9 p 0.942
+  xeeo.jpg: dg1 4.27 gap 11.95 집중도 0.363 | band False · 10b False | 나단9 p 1.000
+  band 경보 가짜 1장 (그중 나단9가 이미 맞힘 1) · 새로 고침 0 | 10b 새로 고침 0
+== 점검 3: R5 진짜 원본 356장 ==
+  [기준       ] band 경보   0 (0.0000) · 가드 0 · 10b 0 | dg1 중앙 0.253 q90 0.580 | gap≥3.47 0.980
+  [이동2      ] band 경보 293 (0.8230) · 가드 0 · 10b 293 | dg1 중앙 1.726 q90 2.349 | gap≥3.47 0.941
+  [이동4      ] band 경보  18 (0.0506) · 가드 0 · 10b 18 | dg1 중앙 3.518 q90 4.514 | gap≥3.47 0.910
+  [이동8      ] band 경보   3 (0.0084) · 가드 0 · 10b 3 | dg1 중앙 6.915 q90 8.736 | gap≥3.47 0.857
+  [이동-4     ] band 경보  10 (0.0281) · 가드 0 · 10b 10 | dg1 중앙 3.745 q90 4.757 | gap≥3.47 0.907
+  [확대1.03   ] band 경보   0 (0.0000) · 가드 0 · 10b 0 | dg1 중앙 9.012 q90 10.903 | gap≥3.47 0.826
+  [확대1.06   ] band 경보   0 (0.0000) · 가드 0 · 10b 0 | dg1 중앙 16.046 q90 19.320 | gap≥3.47 0.626
+  [감마0.9    ] band 경보   0 (0.0000) · 가드 0 · 10b 0 | dg1 중앙 6.819 q90 7.557 | gap≥3.47 0.772
+  [감마1.1    ] band 경보   0 (0.0000) · 가드 0 · 10b 0 | dg1 중앙 7.242 q90 7.832 | gap≥3.47 0.781
+  [밝기+5%    ] band 경보   0 (0.0000) · 가드 0 · 10b 0 | dg1 중앙 5.313 q90 6.267 | gap≥3.47 0.840
+  [밝기-5%    ] band 경보   0 (0.0000) · 가드 0 · 10b 0 | dg1 중앙 7.020 q90 7.885 | gap≥3.47 0.761
+  [Q70      ] band 경보   0 (0.0000) · 가드 0 · 10b 0 | dg1 중앙 0.285 q90 0.603 | gap≥3.47 0.980
+  [Q85      ] band 경보   0 (0.0000) · 가드 0 · 10b 0 | dg1 중앙 0.260 q90 0.587 | gap≥3.47 0.980
+  [bicubic  ] band 경보   0 (0.0000) · 가드 0 · 10b 0 | dg1 중앙 0.247 q90 0.584 | gap≥3.47 0.980
+  [bilinear ] band 경보   0 (0.0000) · 가드 0 · 10b 0 | dg1 중앙 0.242 q90 0.579 | gap≥3.47 0.980
+
+== 판정 == 점검 2 True · 점검 3(모든 변형 ≤1%) False
+IM70_DONE
