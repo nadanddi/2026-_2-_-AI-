@@ -1,0 +1,336 @@
+{
+  "total": 150,
+  "by_type": [
+    {
+      "Name": "3_부분생성",
+      "Count": 100
+    },
+    {
+      "Name": "4_부분스타일",
+      "Count": 50
+    }
+  ],
+  "unique_sources": 150,
+  "unique_source_sha256": 150,
+  "by_farm": [
+    {
+      "Name": "C04",
+      "Count": 1
+    },
+    {
+      "Name": "C06",
+      "Count": 1
+    },
+    {
+      "Name": "C08",
+      "Count": 1
+    },
+    {
+      "Name": "C18",
+      "Count": 5
+    },
+    {
+      "Name": "C19",
+      "Count": 4
+    },
+    {
+      "Name": "C20",
+      "Count": 5
+    },
+    {
+      "Name": "C21",
+      "Count": 6
+    },
+    {
+      "Name": "C22",
+      "Count": 5
+    },
+    {
+      "Name": "C23",
+      "Count": 6
+    },
+    {
+      "Name": "C24",
+      "Count": 6
+    },
+    {
+      "Name": "C25",
+      "Count": 6
+    },
+    {
+      "Name": "C34",
+      "Count": 4
+    },
+    {
+      "Name": "C35",
+      "Count": 5
+    },
+    {
+      "Name": "C36",
+      "Count": 5
+    },
+    {
+      "Name": "C37",
+      "Count": 4
+    },
+    {
+      "Name": "C39",
+      "Count": 5
+    },
+    {
+      "Name": "C40",
+      "Count": 5
+    },
+    {
+      "Name": "C41",
+      "Count": 4
+    },
+    {
+      "Name": "C42",
+      "Count": 4
+    },
+    {
+      "Name": "C43",
+      "Count": 4
+    },
+    {
+      "Name": "C44",
+      "Count": 4
+    },
+    {
+      "Name": "C45",
+      "Count": 4
+    },
+    {
+      "Name": "C52",
+      "Count": 3
+    },
+    {
+      "Name": "C53",
+      "Count": 3
+    },
+    {
+      "Name": "C54",
+      "Count": 3
+    },
+    {
+      "Name": "C55",
+      "Count": 3
+    },
+    {
+      "Name": "C56",
+      "Count": 3
+    },
+    {
+      "Name": "C57",
+      "Count": 3
+    },
+    {
+      "Name": "C58",
+      "Count": 3
+    },
+    {
+      "Name": "C59",
+      "Count": 2
+    },
+    {
+      "Name": "C60",
+      "Count": 3
+    },
+    {
+      "Name": "C61",
+      "Count": 3
+    },
+    {
+      "Name": "C63",
+      "Count": 3
+    },
+    {
+      "Name": "C64",
+      "Count": 3
+    },
+    {
+      "Name": "C65",
+      "Count": 3
+    },
+    {
+      "Name": "C66",
+      "Count": 3
+    },
+    {
+      "Name": "C67",
+      "Count": 3
+    },
+    {
+      "Name": "C68",
+      "Count": 3
+    },
+    {
+      "Name": "C69",
+      "Count": 3
+    },
+    {
+      "Name": "C70",
+      "Count": 2
+    },
+    {
+      "Name": "C71",
+      "Count": 2
+    },
+    {
+      "Name": "C72",
+      "Count": 2
+    }
+  ],
+  "bytes": 389373088.0,
+  "all_raw_copies_identical": true,
+  "raw_copy_checks": 150,
+  "all_decode_ok": true,
+  "decode_checks": 150,
+  "unique_output_sha256": 150,
+  "csv_roundtrip_linkage_checks": 150,
+  "same_columns_as_v1": true,
+  "prompt_snapshot_checks": 150,
+  "required_prompt_phrase_checks": 150,
+  "source_assignment_checks": 150,
+  "generation_action_counts": [
+    {
+      "Name": "바꾸기",
+      "Count": 33
+    },
+    {
+      "Name": "지우기",
+      "Count": 33
+    },
+    {
+      "Name": "추가",
+      "Count": 34
+    }
+  ],
+  "generation_requested_small_edit_count": 76,
+  "generation_requested_size_counts": [
+    {
+      "Name": "잎 1~2장",
+      "Count": 76
+    },
+    {
+      "Name": "포기 하나",
+      "Count": 24
+    }
+  ],
+  "generation_requested_position_counts": [
+    {
+      "Name": "가운데",
+      "Count": 14
+    },
+    {
+      "Name": "가운데 아래쪽",
+      "Count": 4
+    },
+    {
+      "Name": "가운데 왼쪽",
+      "Count": 1
+    },
+    {
+      "Name": "가운데 위쪽",
+      "Count": 3
+    },
+    {
+      "Name": "아래쪽",
+      "Count": 10
+    },
+    {
+      "Name": "아래쪽 가운데",
+      "Count": 8
+    },
+    {
+      "Name": "오른쪽",
+      "Count": 13
+    },
+    {
+      "Name": "오른쪽 가운데",
+      "Count": 3
+    },
+    {
+      "Name": "오른쪽 가운데 아래쪽",
+      "Count": 1
+    },
+    {
+      "Name": "오른쪽 아래",
+      "Count": 2
+    },
+    {
+      "Name": "오른쪽 아래쪽",
+      "Count": 3
+    },
+    {
+      "Name": "오른쪽 위쪽",
+      "Count": 2
+    },
+    {
+      "Name": "왼쪽",
+      "Count": 12
+    },
+    {
+      "Name": "왼쪽 가운데",
+      "Count": 2
+    },
+    {
+      "Name": "왼쪽 아래쪽",
+      "Count": 5
+    },
+    {
+      "Name": "왼쪽 위쪽",
+      "Count": 3
+    },
+    {
+      "Name": "위쪽",
+      "Count": 12
+    },
+    {
+      "Name": "위쪽 가운데",
+      "Count": 2
+    }
+  ],
+  "style_requested_style_counts": [
+    {
+      "Name": "디지털 페인팅",
+      "Count": 10
+    },
+    {
+      "Name": "색연필",
+      "Count": 10
+    },
+    {
+      "Name": "수채화",
+      "Count": 10
+    },
+    {
+      "Name": "유화",
+      "Count": 10
+    },
+    {
+      "Name": "파스텔",
+      "Count": 10
+    }
+  ],
+  "style_requested_intensity_counts": [
+    {
+      "Name": "뚜렷하게",
+      "Count": 25
+    },
+    {
+      "Name": "약하게",
+      "Count": 25
+    }
+  ],
+  "max_aspect_ratio_relative_error": 0.00449843143927986,
+  "failed_or_refused": 0,
+  "postprocessing": "none",
+  "source_list_sha256": "3D4E38C55ED5702DB5DC0347B9A7A37BA5FCB7030AC7819E8D668651EE100950",
+  "request_sha256": "1EE746A978F816A6AB00DDB21CBA5F32CB73162A5C7D4B7D080BD7A59649E6C0",
+  "generation_tool": "GPT_builtin_imagegen",
+  "model_version": "unknown",
+  "service_seed": "unknown",
+  "semantic_pixel_invariance_verified": false
+}

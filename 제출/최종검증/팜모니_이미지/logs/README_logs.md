@@ -11,7 +11,7 @@
 | E_gr | `ip_feats.log`, `ip_train.log`, `ip_r4.log` |
 | 나단9 점검·오탐 분해 | `n9_audit.log`, `n9_fp_split.log` |
 | 나단10 점검·기각 | `im68*.log`~`im73.log` |
-| E_gpt | 코덱스 `code/codex_E_gpt/run_v3.log`, `result.json`, `verification_*.json` |
+| E_gpt | `code/codex_E_gpt/run_v3.log`, `result.json`, `verification_*.json` |
 
 ## 재현·시간 기록
 - 나단11 공식 `self_check.py`(서버 RTX 6000 Ada, 2026-10-16 14:2x)
@@ -28,4 +28,4 @@
   | gpt3 | .965 → 1.000 |
 
   gpt2·gpt3은 최종 E_gpt의 학습 자료라 표본 안 수치입니다.
-- Colab T4 시간(사용자 측정, `colab_시간측정.py`, 524장 환산 합계): 265.1 / 273.7 / 272.5 / 272.5초
+- Colab T4 시간(팀원 측정, `colab_시간측정.py`, 521장 대용품으로 측정해 524장 기준 환산): 265.1 / 273.7 / 272.5 / 272.5초

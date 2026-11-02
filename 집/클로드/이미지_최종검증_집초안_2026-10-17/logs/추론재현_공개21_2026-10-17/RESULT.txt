@@ -1,0 +1,8 @@
+﻿2026-10-17 집 노트북(AMD Ryzen 7 170, 16GB, Windows 10), CPU fp32, Python 3.12.10, torch 2.14.0+cpu, opencv-python 5.0.0.93, safetensors 0.8.0
+대상: G:\내 드라이브\farmai_t4\팜모니_나단11.zip (SHA256 6fe04909341d104dfe7084905f05457b862ceacbd158e645b278520f439b27c1) 압축 해제본
+실행: python run_n11_public21.py <팜모니_나단11 폴더> <공개샘플 images> <sample_labels.csv> pred_public21.csv
+결과:
+- 공개 샘플 21장 정답 21/21 (0.5 기준)
+- 정순·역순 입력 결과 최대 차 0.0 (입력 순서 독립)
+- 로딩 21.8초, 21장 추론 558.4초 (CPU만, 같은 시각 다른 계산과 CPU 공유 — 채점 환경 GPU 시간의 기준 아님)
+참고: 실제 사진 3장의 확률은 0.42~0.48 (0.5 미만이라 실제로 판정)

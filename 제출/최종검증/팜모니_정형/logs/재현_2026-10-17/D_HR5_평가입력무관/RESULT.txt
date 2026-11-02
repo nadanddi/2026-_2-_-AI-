@@ -1,0 +1,4 @@
+﻿2026-10-17: test_X.csv 의 row_id 외 모든 열을 NaN 으로 바꾼 자료(train_X·train_y·sample_submission 은 원본)로
+  code/retrain/hr5_base_oof/집/클로드/research/make_hr5_base_oof_v1.py 실행 (CPU, 3,774초)
+비교 대상: 같은 스크립트를 원본 자료로 돌린 결과(../B_전체재학습/retrain_hr5_base.csv)
+결과: 8,640행, 최대 차 5.0e-11, RMS 2.9e-11 (CSV 소수 10자리 저장의 반올림 수준) -> 평가 입력과 무관함을 확인

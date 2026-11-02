@@ -1,0 +1,749 @@
+{
+  "python": "3.10.22 (main, Oct  1 2026, 20:14:04) [GCC 14.3.0]",
+  "platform": "Linux-5.15.0-139-generic-x86_64-with-glibc2.31",
+  "packages": {
+    "numpy": "2.2.6",
+    "sklearn": "1.7.2",
+    "scipy": "1.15.3",
+    "PIL": "12.3.0"
+  },
+  "input_hashes": [
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/image/im44_h_train_eval.py",
+      "bytes": 11548,
+      "sha256": "9fa73eccad60d00ac2062883450c1d7907d8b34267d63553c429990e0c38130d"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/preds/h_model_h2.npz",
+      "bytes": 25054,
+      "sha256": "c55be76ecb0a744da9e17c23f78c00798453244f68905709a697ab19f13d4d41"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/preds/ip_model_v1.npz",
+      "bytes": 10718,
+      "sha256": "4002128664b9a70ddf03b5f429d83b421d800c3a9f4eef4aebcde45b9fd8d4e7"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/preds/ip_theta_v1.json",
+      "bytes": 250,
+      "sha256": "9b01ab67df0b3d9344ec503989c85953e7f6b8219e97996fb022020bf69813c3"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_h3/manifest.csv",
+      "bytes": 358955,
+      "sha256": "953983fe2bf68b6f6dbf22356ac81292f7f9b70748bb8511ac72426927876b83"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_h3.npz",
+      "bytes": 211127760,
+      "sha256": "781560613da5045b825aaab2e34d7b14f250eac517e5fb2291ca9d5e00d5ad97"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_h3j/manifest.csv",
+      "bytes": 145445,
+      "sha256": "d17849a763cf9403d31dd815ed5ac2728d76a32b07b40dea372e5acc14347856"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_h3j.npz",
+      "bytes": 105536160,
+      "sha256": "a439554ce61b97f8d7ff0a55a307fa11dd037bef2ac372054ef8329c4b16e698"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_h3s/manifest.csv",
+      "bytes": 66660,
+      "sha256": "e8bb3986c6d1de292f36ee4ab42ee99d39a8cf1bc8ec5b862ae611a282039698"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_h3s.npz",
+      "bytes": 26385660,
+      "sha256": "c2c891d0f646f2ed859b9ded06527db757fb81870a2644ef2745e878db3c6e9f"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_h3g/manifest.csv",
+      "bytes": 90861,
+      "sha256": "36a03868c6a6eeadac0b0bfce92cabbbafb34a843c97fea184228ed62fa20172"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_h3g.npz",
+      "bytes": 29317160,
+      "sha256": "8601aa6cc0b20c1ecc2611dc3bbed8841249d27b3d5b30f46340823a77ea6f50"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_gptr/manifest.csv",
+      "bytes": 18876,
+      "sha256": "32bfe3bb49ca3a3c08d5a955e2f5b600f8771496778ea57407676ed0a77fd170"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_gptr.npz",
+      "bytes": 8805060,
+      "sha256": "f7e7e89635ccfeab62275b8eb63e4fd2a531a7154ae40747dc1f0fd5ea6ab470"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_gptr_src/manifest.csv",
+      "bytes": 16626,
+      "sha256": "b5ed3b2a9e1de9175aa11842b05070050286d28fc259b7108df22137b007a620"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_gptr_src.npz",
+      "bytes": 8805060,
+      "sha256": "00b4f4b5ac4431dbcabd07d3e3a9659a6969c515493a6c67506d97de5d02fd45"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_r2/manifest.csv",
+      "bytes": 456747,
+      "sha256": "d4fe5814bf417fb0528b2ac849a8c8b579842eb9a872d980e17ebbae50f71cc0"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_r2.npz",
+      "bytes": 218444552,
+      "sha256": "8acbdd55f358aa08d68d07a564252fd19769fd472952dc5e10677af78c586bcc"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_r3/manifest.csv",
+      "bytes": 89949,
+      "sha256": "7f369eac8bd0f930e084be3d16c3f173a066bf9dfb631d0306690596572a2f74"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_r3.npz",
+      "bytes": 52783560,
+      "sha256": "ff01bcee03e848428754ee3042fb39db15f5aef0416f2fe49301dfecaf0b4373"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_r4/manifest.csv",
+      "bytes": 70014,
+      "sha256": "702484f5550519bf337933c4d00aeb70e49cfafb894fcb549607cbc37a3a046a"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_r4.npz",
+      "bytes": 41054360,
+      "sha256": "4bafb763830a0e4fc7640fb94e6f528e61ab1b66c7ae7b1e753da61866d2d5c5"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_newreal/manifest.csv",
+      "bytes": 78726,
+      "sha256": "a8b6dfeb774ea88a1438768a6349d0f6e960acbe7022655bfc886a1b8938c7c7"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_newreal.npz",
+      "bytes": 46641630,
+      "sha256": "9b9bf9f7e564de23bb382dc009e5698fa5bfba5538c42be44863ed485abc22a3"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_realg/manifest.csv",
+      "bytes": 37685,
+      "sha256": "7ec77ae5f2a690e35a1d153ac99f5734ba6bedf097fb5fedc05cd99e6c3acbfc"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_realg.npz",
+      "bytes": 17592360,
+      "sha256": "3b4c9f77a746ad848b901f4591bfbdb77a58c98e18556f73687d657f409a544d"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_realn/manifest.csv",
+      "bytes": 37685,
+      "sha256": "4dee3830597538298e16c570ba83d4fc101e9221811bf8faf3c83572bf2bde6c"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_realn.npz",
+      "bytes": 17592360,
+      "sha256": "d8b13e355575e736776493264a34b54adc5a6e5df252d0600d75a2374eaf2a3d"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_r3p_sharp/manifest.csv",
+      "bytes": 34626,
+      "sha256": "19fccec57893249cf40535dfd1cb4214916b82397ed0fb7513ec1d155617e9b2"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_r3p_sharp.npz",
+      "bytes": 25161294,
+      "sha256": "f73a7edb09bdbe4e0155e889c5ed4c7d0a3030b9d22313c72e78a1db2116496e"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_r3p_area/manifest.csv",
+      "bytes": 34626,
+      "sha256": "19fccec57893249cf40535dfd1cb4214916b82397ed0fb7513ec1d155617e9b2"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_r3p_area.npz",
+      "bytes": 25161294,
+      "sha256": "760e69c750851be03da731caa8137282f3508ea922307f0fea71ab61ddfa8c58"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_r3p_png/manifest.csv",
+      "bytes": 34626,
+      "sha256": "c013fad81fd401fed4a95d849ebd1217d1a3e149685367d1d933e86a2babf762"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_r3p_png.npz",
+      "bytes": 25161294,
+      "sha256": "9a5f654f192baaeaaa1bfc62eea9452c38ceb2c9c0538c352c43050542fed3f5"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_r3p_webp/manifest.csv",
+      "bytes": 35055,
+      "sha256": "c5206973c6d03ebd8ae3bdeb8c63e060cbbe9df5915805767dd40c40c2bb3863"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_r3p_webp.npz",
+      "bytes": 25163010,
+      "sha256": "74ecb45e9f28255af51d65a0f340af1771f34bab667b31d4dbcd87c50d8cff3c"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_r3p_c444/manifest.csv",
+      "bytes": 34626,
+      "sha256": "19fccec57893249cf40535dfd1cb4214916b82397ed0fb7513ec1d155617e9b2"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_r3p_c444.npz",
+      "bytes": 25161294,
+      "sha256": "ffedc530a7f60547910e7aed4756cad4682062decbba44763bcc6db42d48a107"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_gpt3/manifest.csv",
+      "bytes": 28358,
+      "sha256": "3571dfb647a7e3609bf14f1c3a755338718e12dfb78dc2cbef88962dc40209f3"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_gpt3.npz",
+      "bytes": 11732960,
+      "sha256": "9ed3361517f7d680bed6b3ad23a1cfe7a1cdaecdab2aef5a1aa3f0d760bbf271"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_gpt1/manifest.csv",
+      "bytes": 16800,
+      "sha256": "11909d8a9bd7d5c85a56fbe8fefe0a16899d98263fa7e079339c80208e3ef979"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_gpt1.npz",
+      "bytes": 5867160,
+      "sha256": "e1f97e1396fce8ccf8c0dcd9b957d668ef6b20b7f6cbd797f54123af8838973a"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/im_set_sd2/manifest.csv",
+      "bytes": 30696,
+      "sha256": "6f0c66926cb356938752e3d7d6c4c8eb9adc5e257fcd6d94b34c388d9a12868d"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/im_set_sd2.npz",
+      "bytes": 10212828,
+      "sha256": "8975a69ced468e2fdd82cbf938153150b1a5950b241cea6699b67f38754ff999"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/sealed_c3/real/manifest.csv",
+      "bytes": 28040,
+      "sha256": "a14ed2759e00e1a3b3e0c89faf89adeb8eefa27049bb053584fc81c070844d00"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/sealed_real.npz",
+      "bytes": 23468560,
+      "sha256": "3b25de0c17d782a4835e836a0d36ea2d8adb4fd1c0785ebe44c9ea8e2b415e4b"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/sealed_c3/brown/manifest.csv",
+      "bytes": 14040,
+      "sha256": "9ee1fe6470b2e48c30503d4333f6bed214fbe3da2253cf918d6ccfdc910206fe"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/sealed_brown.npz",
+      "bytes": 11735360,
+      "sha256": "2b9925bd7b22661296881e83884a546c4dd8e6320030c695a2eabbf3bc2af3e2"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/sealed_c3/bright/manifest.csv",
+      "bytes": 10540,
+      "sha256": "5e04e084748e10f39bb03563e9568d7649389d162c7574e9ec997d8a04c4adad"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/sealed_bright.npz",
+      "bytes": 8802060,
+      "sha256": "22bf5d7d4ae6b2d25a7743c7861b53c419cced1a81de4272dbd12760a49caf41"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/sealed_c3/qwen/manifest.csv",
+      "bytes": 18783,
+      "sha256": "495df971772a26e6a7fa73249f6f4830d7142ec1be08ba0e1dbf005debab7b13"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/sealed_qwen.npz",
+      "bytes": 17059998,
+      "sha256": "2f069c326b3aeb8acacd9a8df5a237490f50bddb98047cdc910f7376779773cf"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/sealed_c3/v7/manifest.csv",
+      "bytes": 10260,
+      "sha256": "106296c090c150c9f5f94ee48052f1a09d3f408de9cdfacb82798047fe9941b7"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/sealed_v7.npz",
+      "bytes": 8211480,
+      "sha256": "6a97f98694c1c2a219faf7f0420ce1b9149026410f3199dc43e44a37cbb97f38"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/jig500.npz",
+      "bytes": 29309160,
+      "sha256": "b910fddba2f9070149fa13d003121a025b4b23f29a37c54218d6ecad9802007b"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/farmai_img/data/local/feats_h/pub21.npz",
+      "bytes": 1232970,
+      "sha256": "3348b6cb2ab171d9394e4282b7ded59aa5bae0565d8420d75a44fcfd592c52c0"
+    }
+  ],
+  "outcome_hashes": [
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/PLAN_v1.md",
+      "bytes": 2835,
+      "sha256": "531c48460e02473a8092383d5cac99f933afaa60d693a21705069fe8c94e68a5"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/PLAN_v2.md",
+      "bytes": 1749,
+      "sha256": "12b97f2a1a90cbb2da01fa8032c6138e18789843757b2ba3811fa691f9fb1130"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/audit_v1.json",
+      "bytes": 2287,
+      "sha256": "345b145414e89979deef0a18bbc07e596dc55f3707d244d20e598a87a2016990"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/distribution_1601.json",
+      "bytes": 1694,
+      "sha256": "0f85755f3575f555634a75874731aa560be87a1fdb5d441b63ccbe51995b399b"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/distribution_1602.json",
+      "bytes": 1693,
+      "sha256": "51a9a90d461c1ed10932308db8b4631699cf7a8bcd08f241c21ea07b6dc73ea8"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/distribution_1603.json",
+      "bytes": 1695,
+      "sha256": "0929336f0980820115284f964b55454087c23176bcc76d6d85d11eee598e679b"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/meta_1601.npz",
+      "bytes": 1082,
+      "sha256": "d1cdda8e8f4d9f745303867663d5e2ecfb56fa9452a6f54b846676f3e39d0abc"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/meta_1602.npz",
+      "bytes": 1082,
+      "sha256": "c79ce130e8a20d9a88083357bfc5a87a1b13a059573b2947861775b7c1c4b4a5"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/meta_1603.npz",
+      "bytes": 1082,
+      "sha256": "3e02b99b8ca27b418eabef38aae3e6324364425409895b9f409dec50701c1e6c"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/metrics_1601.json",
+      "bytes": 24878,
+      "sha256": "3d23326095fd5538fcf8b16c61da977cbc8bccb3bc2f8db9bc8acedf7140125f"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/metrics_1602.json",
+      "bytes": 24879,
+      "sha256": "e6a8a0278e19b80c772c894f8c5188266c9b0257c1ab601fbb76325033d62016"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/metrics_1603.json",
+      "bytes": 24879,
+      "sha256": "f5c9f0419911d8f1dd186f4e36fa9821df26c8f434c20d3793e723428d5eb5e8"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/oof_1601.npz",
+      "bytes": 238972,
+      "sha256": "a18bb3a6d2f1cf30c40b370132aa7dca051e8daf3820820cdf6f2d1a343bc24b"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/oof_1602.npz",
+      "bytes": 239085,
+      "sha256": "45370775a441d918ca0c8bc85977cadde709952c4c7f7b2980f3f291e8eb56b3"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/oof_1603.npz",
+      "bytes": 241597,
+      "sha256": "80d5fcf380a6aed4b94486a870a61447bc9a311a544c4f04e2ab79f625fd7e43"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_gpt1.csv",
+      "bytes": 11511,
+      "sha256": "a15156d30cd2d8520de525dc6a6602dcf835225005c62091dfeb11201ad8e3cf"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_gpt3.csv",
+      "bytes": 24871,
+      "sha256": "907514fa4bc2eab60528353b2e5ed677ed5202ccd1ab65281786d8e6475c1528"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_gptr.csv",
+      "bytes": 9387,
+      "sha256": "88588f7a6a32a01d21f06dc785ac9ae75504dbcce3a130132a70e3cf70f830b4"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_gptr_src.csv",
+      "bytes": 9236,
+      "sha256": "4ece8ebd03f5c2ccae61f278cb8d6ee4c02f6346ce91fcde84b0b3a4aafba640"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_newreal.csv",
+      "bytes": 89383,
+      "sha256": "074f4b46e0e7be31c5bbd4ea1ecf8c6085fe99b478eb21abc7cbf4020a447e2a"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_r2.csv",
+      "bytes": 465981,
+      "sha256": "8a4e774ef1d1d84eff4e8523b6018e6cb58775a007639724a1615f5b1e56a60d"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_r3.csv",
+      "bytes": 97220,
+      "sha256": "8b743f895c47bdad91f8261fa14e6b50df03f5712a9696701a37497b7ed2c5ab"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_r3p_area.csv",
+      "bytes": 46110,
+      "sha256": "0e1e13ea3c99b9cea2b78d710182a98944ef657f4c3b5bf720d13af33d867e52"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_r3p_c444.csv",
+      "bytes": 37219,
+      "sha256": "c76bc3d421d65975fefb6af57a963ea7a3f99233234bc09ae284db2fef4025d3"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_r3p_png.csv",
+      "bytes": 39137,
+      "sha256": "c586d6cd5d2a04426d7bcf26e06d4d90e5ddda3d971fe9ca73a6fd15a233e3a3"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_r3p_sharp.csv",
+      "bytes": 44996,
+      "sha256": "3aa1a36a051bb1d1043f05ab5e2004cb4d264b9a7393c57a8470ecbc0f6097a4"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_r3p_webp.csv",
+      "bytes": 38852,
+      "sha256": "c6e12a0d3cf93bb267035980470e10163781796452c08f9928696f8974d8919c"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_r4.csv",
+      "bytes": 75056,
+      "sha256": "7a5a3a5c097890c59b37d28227318ef69c6ac8899eb0516f3d058a1f68561a04"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_realg.csv",
+      "bytes": 36206,
+      "sha256": "3cf68fb1d919d44a82ab2edc8213767c799f18ef62104731d450ae6d103dba92"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_realn.csv",
+      "bytes": 36298,
+      "sha256": "b001a6a02d39edef5658023afd4e569d04c0b8a83bbed1b2aa522067f43ef3ce"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_im_set_sd2.csv",
+      "bytes": 20370,
+      "sha256": "de1e8ccce8d5f39d61b368f32fca966b21bf2903d56de7bb859aee2e1521d195"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_jig500.csv",
+      "bytes": 28492,
+      "sha256": "5d55c3a96be856c89f9df8290109f8172635d27448fef2652506fe5949c0a9a8"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_pub21.csv",
+      "bytes": 1284,
+      "sha256": "b8aacbf29994cd641d194231d0ea92db0b5c7faa88c99869d3f590b1c5b607cf"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_sealed_bright.csv",
+      "bytes": 16941,
+      "sha256": "34bc92de237697f4071971c727d0c2da471e6ff6f576e0a38c2448af521414b2"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_sealed_brown.csv",
+      "bytes": 22526,
+      "sha256": "aff73760600cc1a9ca70e235505db162ec4ee40ea236fd2bb9003f9e36422e3d"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_sealed_qwen.csv",
+      "bytes": 30179,
+      "sha256": "03ab8bd31694887616ee7557416d1681af2b08d4e27f6483d841c433ddb70f20"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_sealed_real.csv",
+      "bytes": 45017,
+      "sha256": "78cf473184ba42caf97e56b1862fd7f363e2321902dea508cadafb7f79059d5c"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1601_sealed_v7.csv",
+      "bytes": 15716,
+      "sha256": "7f251436fd61b8fb51e390ea2aff38c1c917f4e6f9776283df403144b5c41990"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_gpt1.csv",
+      "bytes": 11513,
+      "sha256": "1e3dd52235aceb3b0ed582fdcc792ece18967347f54295455dd12f6e4dc37aac"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_gpt3.csv",
+      "bytes": 24867,
+      "sha256": "d9370585a75c1a22d3c319745c70b2b1fc9ac50c27bc5486d327237b139df2cb"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_gptr.csv",
+      "bytes": 9393,
+      "sha256": "9fe0decd38566641330c1a57ab4b9b220ac4129941481f8873365db061f8fa47"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_gptr_src.csv",
+      "bytes": 9235,
+      "sha256": "af537bf0d2bdcfb33ec43d86e26d699c61466a777ea96fad174908e0aaac2a27"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_newreal.csv",
+      "bytes": 89355,
+      "sha256": "7137933512b6e3309d2498cf5297635486b8a2118b50150be86806c2c1c7f8d9"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_r2.csv",
+      "bytes": 465921,
+      "sha256": "49691888ae835fd1028f59b7f35ad3384c18c54feb87b8896cd6a5ebb519cfa0"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_r3.csv",
+      "bytes": 97200,
+      "sha256": "1f0e88dd69238d0c35518600415e810cc80398cbfd7fd49498a8474206703af7"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_r3p_area.csv",
+      "bytes": 46066,
+      "sha256": "0e6798c6cdb880e1d2878a8fe3080426951397dd9f28c5bdd3090a5fede34d9b"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_r3p_c444.csv",
+      "bytes": 37219,
+      "sha256": "c76bc3d421d65975fefb6af57a963ea7a3f99233234bc09ae284db2fef4025d3"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_r3p_png.csv",
+      "bytes": 39137,
+      "sha256": "c586d6cd5d2a04426d7bcf26e06d4d90e5ddda3d971fe9ca73a6fd15a233e3a3"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_r3p_sharp.csv",
+      "bytes": 45011,
+      "sha256": "deeefceb6ecc805b5f5a59d5eb319af2a142ffaeb0182c6ac4ba388fbc38c95c"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_r3p_webp.csv",
+      "bytes": 38852,
+      "sha256": "c6e12a0d3cf93bb267035980470e10163781796452c08f9928696f8974d8919c"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_r4.csv",
+      "bytes": 75068,
+      "sha256": "1e53231bf3eeb156b2766fd2b78958e608adf71edd4a57bd787a546b9ebd7db4"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_realg.csv",
+      "bytes": 36188,
+      "sha256": "a3465ea3c30319c1512f3ac0e4d135e447019d0826a5d599f9802d720314126c"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_realn.csv",
+      "bytes": 36273,
+      "sha256": "6e766e8962d801904d637727b07b3affd51347861f2e3d6a2e716cd174f3f42f"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_im_set_sd2.csv",
+      "bytes": 20379,
+      "sha256": "b3ee40ec56a8b751d20e07962fcd55396df409877bf09e82d68270c2847fe3eb"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_jig500.csv",
+      "bytes": 28492,
+      "sha256": "5d55c3a96be856c89f9df8290109f8172635d27448fef2652506fe5949c0a9a8"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_pub21.csv",
+      "bytes": 1282,
+      "sha256": "eeeaaea14ce4eae60eeafc6239689c417d42db9df237f17cd140b6238cdfa745"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_sealed_bright.csv",
+      "bytes": 16929,
+      "sha256": "65a66cdf6814d198c234ee27f2682b46870030ceaaac5669df03ec0d7c129621"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_sealed_brown.csv",
+      "bytes": 22527,
+      "sha256": "1565540238df9b17c902d97e84b8302ac2cf57147170d6a0775416bebff7975b"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_sealed_qwen.csv",
+      "bytes": 30177,
+      "sha256": "157fb0f8d810dfa50bf372457c598c2d5e0f9040e124e7323bf46dfa9c9a1222"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_sealed_real.csv",
+      "bytes": 45053,
+      "sha256": "160e6ab73a1a86a1f64eae4aa95a5d1eec55746b070eca7607409e617ee9e1d5"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1602_sealed_v7.csv",
+      "bytes": 15720,
+      "sha256": "e9be43db8f426cb8990c45372a3a7a8031bd1db611bde7c2fa29740a294bf45b"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_gpt1.csv",
+      "bytes": 11510,
+      "sha256": "62da0b3e46fc6d6b8512362408dbd349422e01ac2bc6a094acaf4739090eac87"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_gpt3.csv",
+      "bytes": 24856,
+      "sha256": "dafaaac280a8d654486abad9a911965b2385f7edce15accbd97f14d94cfc0d79"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_gptr.csv",
+      "bytes": 9388,
+      "sha256": "c4eaa20e810feced577cfaa0e9863fd1359c4e885453598b7894aa1c134cb981"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_gptr_src.csv",
+      "bytes": 9237,
+      "sha256": "24a66a17e4a898f8d4e7771e8ce22c10c85aaf776bb00408cbc1f50fea201eb0"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_newreal.csv",
+      "bytes": 89414,
+      "sha256": "ec40599ef290f900cb88989d6201e5ef072f1980bd305473bb1c6b1ab597de26"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_r2.csv",
+      "bytes": 466062,
+      "sha256": "e2c3333b493db498bc7d1bac42d4cb134cf7796160789aede37077c3cec8c3a7"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_r3.csv",
+      "bytes": 97238,
+      "sha256": "62334f89b491e2e899d5194f2aa087184cb95b549ee8b664ae90768db0677f4b"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_r3p_area.csv",
+      "bytes": 46119,
+      "sha256": "14a327530bbd0654caaeef343bc58e2b5e0c250a7459865183566170fd0826b2"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_r3p_c444.csv",
+      "bytes": 37219,
+      "sha256": "c76bc3d421d65975fefb6af57a963ea7a3f99233234bc09ae284db2fef4025d3"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_r3p_png.csv",
+      "bytes": 39137,
+      "sha256": "c586d6cd5d2a04426d7bcf26e06d4d90e5ddda3d971fe9ca73a6fd15a233e3a3"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_r3p_sharp.csv",
+      "bytes": 45000,
+      "sha256": "bb3851dcb28e9fcf31068271df86183612742455c772252e2a1904e94a5d95b5"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_r3p_webp.csv",
+      "bytes": 38852,
+      "sha256": "c6e12a0d3cf93bb267035980470e10163781796452c08f9928696f8974d8919c"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_r4.csv",
+      "bytes": 75054,
+      "sha256": "2698d3bb557a62df9bd7796f97486355e5ed1e22dd692a2e62d0253c5efc1be9"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_realg.csv",
+      "bytes": 36222,
+      "sha256": "7c530d49d96c9fdb85e07807ff89bf1cfb34ad93b2a85121d36213a974ac112a"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_realn.csv",
+      "bytes": 36289,
+      "sha256": "8a145aebb5111b93029f85020afae415f7cb36d5ac844b55264f5af739945b32"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_im_set_sd2.csv",
+      "bytes": 20369,
+      "sha256": "5397097919d8d0f056ef70170a1417c3387ddee4c1b024eb9984a66565efd1c7"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_jig500.csv",
+      "bytes": 28492,
+      "sha256": "5d55c3a96be856c89f9df8290109f8172635d27448fef2652506fe5949c0a9a8"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_pub21.csv",
+      "bytes": 1284,
+      "sha256": "7274df432f543400626d34b14ff0b4234b3e0ef98292ec308c3a88fff7008761"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_sealed_bright.csv",
+      "bytes": 16951,
+      "sha256": "addb771ceb190e5c8f37f37600bfe3e483e1d4289246ca4727a25f52d1a5556c"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_sealed_brown.csv",
+      "bytes": 22530,
+      "sha256": "40d17b0926f72faa597cc8c863ef7ed68f485687332c2677e1becc9a22052f1f"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_sealed_qwen.csv",
+      "bytes": 30184,
+      "sha256": "6385a25fbab2ae515a6eb3fd1ddaac93bfe9d02884d2d5130fc168ef3a0e7144"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_sealed_real.csv",
+      "bytes": 45035,
+      "sha256": "051dc9a9fc6ff41aa262fa6041e1f831299b9cef6c14c9f26e01eff6d5c7374e"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/pred_1603_sealed_v7.csv",
+      "bytes": 15727,
+      "sha256": "1065b5117c18f08c084989a2df9c5650999ea3c8e603c6fbd27fb7afcc374ce1"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/provenance_remote_v1.sh",
+      "bytes": 264,
+      "sha256": "54ca2f448cfa5109475447d61d5bedddbc166823747151b25818ee0792c5416b"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/provenance_v1.py",
+      "bytes": 1614,
+      "sha256": "9384903809b6b1977df9861718288dfec26ab5cbacac53fe294e76ad3555dc5e"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/run_1601.log",
+      "bytes": 18827,
+      "sha256": "b8a1d7170d1131b49d5c07e5ae5352df593a951f5b99e130b40de0e3fb53d956"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/run_1602.log",
+      "bytes": 18828,
+      "sha256": "1cac493cd3cb3bb5968056029603ef573c11ac720df31d7ffb55a2473fc3ce2e"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/run_1603.log",
+      "bytes": 18828,
+      "sha256": "24b3fbc16ec3e513dc92357a5567cd41c0bad80a21a21f8116801aa55a561a19"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/run_remote_v2.sh",
+      "bytes": 338,
+      "sha256": "1cb35cdd77c13b81f5639d08d1b9e04e3353f5039a99c2c0ca1a67c505e1b88c"
+    },
+    {
+      "path": "/home/adilab/storage/nadan/codex/im_meta_probe_20261016_v1/run_v2.py",
+      "bytes": 10014,
+      "sha256": "3238bc4431a006e1201291516603e64ea2bd45f8c8feba73906ba32060a5d8a2"
+    }
+  ]
+}

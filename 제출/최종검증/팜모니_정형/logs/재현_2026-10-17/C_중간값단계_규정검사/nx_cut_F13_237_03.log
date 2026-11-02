@@ -1,0 +1,15 @@
+C:\Users\aozks\AppData\Local\Temp\claude\C--work-farmai\0862ce43-7a74-4212-b021-36b2a45bccf7\scratchpad\stage0_check1\pipe_cut_F13_237_03\온도\code\make_submission_v13_temp.py:112: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test = test.set_index("row_id").loc[sX.row_id].reset_index()
+C:\Users\aozks\AppData\Local\Temp\claude\C--work-farmai\0862ce43-7a74-4212-b021-36b2a45bccf7\scratchpad\stage0_check1\pipe_cut_F13_237_03\온도\code\make_submission_v13_temp.py:122: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  test["cx__" + c] = CF_full.loc[test.row_id, c].values
+  base done (24s)
+  codex done (25s)
+  tabpfn sample 1 done (216s)
+  tabpfn sample 2 done (404s)
+  tabpfn sample 3 done (592s)
+  tabpfn sample 4 done (780s)
+  tabpfn sample 5 done (968s)
+  tabpfn sample 6 done (1156s)
+  tabpfn sample 7 done (1344s)
+  tabpfn sample 8 done (1532s)
+wrote C:\Users\aozks\AppData\Local\Temp\claude\C--work-farmai\0862ce43-7a74-4212-b021-36b2a45bccf7\scratchpad\stage0_check1\nx_cut_F13_237_03.csv | NX: base cols 134 (no `day`), codex/tabpfn cols 88 (no `second`) | 1532s

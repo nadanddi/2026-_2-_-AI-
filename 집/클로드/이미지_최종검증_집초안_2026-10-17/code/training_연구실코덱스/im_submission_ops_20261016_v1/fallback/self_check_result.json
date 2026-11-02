@@ -1,0 +1,60 @@
+{
+  "team_dir": "/home/adilab/storage/nadan/codex/im_submission_ops_20261016_v1/fallback/clean_extract_v1/팜모니_나단9",
+  "errors": [],
+  "warnings": [
+    "requirements.txt 패키지 2개: 화이트리스트 또는 사전신청 승인 패키지만 허용(채점 환경에는 운영진이 사전 설치): ['opencv-python==5.0.0.93', 'safetensors==0.8.0']"
+  ],
+  "info": {
+    "package_gb": 0.975,
+    "requirements": [
+      "opencv-python==5.0.0.93",
+      "safetensors==0.8.0"
+    ],
+    "run": {
+      "run_id": "108faba7c3c14e33a6e374031d2066c6",
+      "status": "success",
+      "error": null,
+      "warnings": [],
+      "n_images": 21,
+      "load_time_s": 7.35,
+      "predict_time_s": 1.889,
+      "total_time_s": 9.239,
+      "framework": "pytorch",
+      "gpu": "NVIDIA RTX 6000 Ada Generation",
+      "order_check": {
+        "n": 21,
+        "max_abs_diff": 0.0,
+        "second_call_time_s": 1.727,
+        "consistent": true
+      },
+      "versions": {
+        "numpy": "2.2.6",
+        "torch": "2.5.1+cu121",
+        "torchvision": "0.20.1+cu121",
+        "tensorflow": null,
+        "keras": null,
+        "timm": "1.0.30",
+        "transformers": "4.46.3",
+        "scikit-learn": "1.7.2",
+        "pillow": "12.3.0",
+        "opencv-python": null
+      }
+    },
+    "wall_time_s": 12.16,
+    "exit_code": 0,
+    "sample_metrics": {
+      "n": 21,
+      "accuracy": 1.0,
+      "auroc": 1.0,
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "tp": 18,
+      "fp": 0,
+      "fn": 0,
+      "tn": 3,
+      "n_pred_positive": 18,
+      "threshold": 0.5
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "target": 150,
+  "selection": "manifest.csv의 role=itrain 행 중 처음150, 파일명으로 재정렬하지 않음",
+  "manifest": "C:/work/farmai/연구실/클로드/local/im_i_raw/manifest.csv",
+  "manifest_rows_observed": 175,
+  "selected_file": "선정_v1.json",
+  "prompt": "이 사진을 같은 구도·같은 장면으로 사실적인 사진처럼 다시 그려줘(내용 추가·삭제 없이)",
+  "tool": "GPT_builtin_imagegen",
+  "local_gpu_use": 0,
+  "note": "목록 파일은 다른 프로세스가 갱신 중이어서 전체 SHA 수집 때 잠김. 그 전에 읽어 저장한 선정150행과 각 원본 SHA를 고정해 진행. 최신 목록의 앞150행 일치 여부는 마지막에 확인."
+}

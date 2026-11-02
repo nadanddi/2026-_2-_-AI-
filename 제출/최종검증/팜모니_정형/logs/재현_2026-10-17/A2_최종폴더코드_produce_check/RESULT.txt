@@ -1,0 +1,6 @@
+﻿2026-10-17 이 폴더의 code/ 를 그대로 새 위치에 복사한 뒤(README 0절 (가))
+  cd code/pipeline_35e
+  python checks_v35e.py produce <대회 원본 CSV 폴더>   -> 272초, submission_35e.csv SHA256 f1224ee1c1c8c672c52a23838a760f46bf1eff65f3c42d2975b7e916455f16d2 (submission/ 과 같음)
+  python checks_v35e.py check   <같은 폴더>            -> 523초, ALL PASS (check.log)
+참고: check 의 [R] 줄은 방금 produce 로 만든 code/pipeline_35e/submission_35e.csv 와 비교합니다. 그 파일이 submission/submission_35e.csv 와 같음은 위 SHA256 으로 확인했습니다.
+참고: check 의 [0] 줄은 이전 제출(submission_29, 19회차)과의 차이를 보여 주는 정보 줄이며 판정과 무관합니다.

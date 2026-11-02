@@ -1,0 +1,12 @@
+# Python 3.12 (64-bit), CPU only.  Versions used for the final answer and for the 2026-10-17 reproduction run.
+numpy==2.5.3
+pandas==3.0.1
+scipy==1.18.1
+scikit-learn==1.9.1
+lightgbm==4.7.0
+threadpoolctl==3.7.0
+joblib==1.6.0
+psutil==7.2.2
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.0
+tabpfn==9.0.0

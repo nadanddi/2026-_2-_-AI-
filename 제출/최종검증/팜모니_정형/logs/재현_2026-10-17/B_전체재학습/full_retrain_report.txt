@@ -1,0 +1,12 @@
+[    0s] copied pipeline_35e -> C:\Users\aozks\AppData\Local\Temp\claude\C--work-farmai\0862ce43-7a74-4212-b021-36b2a45bccf7\scratchpad\full_retrain_run1\pipeline_35e
+[    0s] EC/data/train_X.csv: F13/F47 lines 9600
+[    0s] EC/data/train_y.csv: F13/F47 lines 9600
+[ 1679s] 1. EC raw_r3_by_seed vs stored: max |diff| 0.000e+00, RMS 0.000e+00
+[ 1679s] 1. EC raw_pfn_by_context vs stored: max |diff| 0.000e+00, RMS 0.000e+00
+[ 1680s] 1. season table training_day_to_season.csv vs stored: rows 400/400, max |diff| 0.000e+00
+[ 1680s] 1. season table evaluation_day_to_season.csv vs stored: rows 60/60, max |diff| 0.000e+00
+[ 3252s] 2. temperature NX vs stored temp_candidate_nx27.csv: rows 1440, max |diff| 0.000e+00, RMS diff 0.000e+00, rows differing at 6 decimals 0
+[ 6486s] 3. HR5 base vs stored hr5_train_base_nosg_oof.csv: rows 8640, max |diff| 9.563e-03, RMS diff 7.317e-04, rows differing at 6 decimals 8608
+[ 6681s] 4. retrained submission_35e sub_temp vs submitted: rows 1440, max |diff| 1.593e-03, RMS diff 1.014e-04, rows differing at 6 decimals 39
+[ 6681s] 4. retrained submission_35e sub_ec vs submitted: rows 1440, max |diff| 1.322e-02, RMS diff 1.743e-03, rows differing at 6 decimals 1438
+[ 6681s] done
