@@ -50,7 +50,7 @@ src = open(os.path.join(HERE, "ac1_anchor_coverage_ec_v1.py"), encoding="utf-8")
 exec(compile(src[src.index("import os, sys, pickle"):src.index("ARMS = {")], "ac1pre", "exec"))
 __file__ = os.path.join(HERE, "abl1_link_modules_off_v1.py")
 _e = open(os.path.join(HERE, "ect2_ec_field_agreement_anchor_v1.py"), encoding="utf-8").read()
-exec(compile(_e[_e.index("import importlib.util"):_e.index("ARMS = {")], "ect2pre", "exec"))
+exec(compile(_e[_e.index("import importlib.util"):_e.index("\nARMS = {")], "ect2pre", "exec"))
 ARMS = {"E1": A8, "E2": {**A8, **NEW}}
 R = pd.read_csv(os.path.join(HERE, "nh1_rows_v1.csv.gz"))
 MT = pickle.load(open(os.path.join(env.LOCAL, "nh1_mt1_v1.pkl"), "rb")); mt = np.array([MT[(v, k)][r][h] for v, k, r, h in zip(R.validator, R.fold, R.rec, R.hour)])
