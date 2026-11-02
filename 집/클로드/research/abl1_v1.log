@@ -1,0 +1,73 @@
+TNA: new anchors EV 35 (acc 0.875, n 32) | mirror 39 (acc 0.861, n 36)
+TNA8: new anchors EV 53 (acc 0.744, n 43) | mirror 58 (acc 0.729, n 48)
+TN8 mirror anchors 41
+EXT10 rows 1848 | out-of-range (below train min + 2C) rows 403
+EXT12 rows 4752 | out-of-range (below train min + 2C) rows 826
+DIAG10 rows 8880 | out-of-range (below train min + 2C) rows 21
+EXT10 chain-ext option p>=0.3 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT10 chain-ext option p>=0.0 agree>=1: new chains 2 | true 1/1 known
+EXT10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.3 agree>=1: new chains 12 | true 3/6 known
+EXT12 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+EXT12 chain-ext option p>=0.0 agree>=1: new chains 16 | true 3/7 known
+EXT12 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.3 agree>=1: new chains 6 | true 1/2 known
+DIAG10 chain-ext option p>=0.3 agree>=2: new chains 0 | true 0/0 known
+DIAG10 chain-ext option p>=0.0 agree>=1: new chains 8 | true 1/2 known
+DIAG10 chain-ext option p>=0.0 agree>=2: new chains 0 | true 0/0 known
+selected chain-extension option by block group: {0: (0.0, 1), 1: (0.0, 1), 'all': (0.0, 1)}
+EXT10: rows 1848 (2nd 216) | records 77 (2nd 9) | anchored 19 (2nd 5) | chained 19 (2nd 3)
+EXT12: rows 4752 (2nd 624) | records 198 (2nd 26) | anchored 16 (2nd 0) | chained 93 (2nd 13)
+DIAG10: rows 8880 (2nd 1248) | records 370 (2nd 52) | anchored 110 (2nd 22) | chained 111 (2nd 7)
+links 208 | labelled records with yesterday window 0.52
+B anchors 163 | ECT2 new 70 | true 28 / 34 known | F47_132 in new: True | rejected by agreement: 45
+EC DIAG10: rows 5256 (2nd 1104) | records with E2 anchor candidate 128
+EC EL1: rows 1104 (2nd 1104) | records with E2 anchor candidate 23
+EC P2LOO: rows 1104 (2nd 1104) | records with E2 anchor candidate 23
+target    val arm scope   rmse  vs_final_pct
+  temp  EXT10  A0    p2 0.8423       10.8347
+  temp  EXT10  A0   all 0.7811        7.0723
+  temp  EXT10  A1    p2 0.8387       10.3617
+  temp  EXT10  A1   all 0.7772        6.5460
+  temp  EXT10  A2    p2 0.7780        2.3735
+  temp  EXT10  A2   all 0.7385        1.2306
+  temp  EXT10  A3    p2 0.7599        0.0000
+  temp  EXT10  A3   all 0.7295        0.0000
+  temp  EXT12  A0    p2 0.9071        3.1816
+  temp  EXT12  A0   all 0.7627        4.7628
+  temp  EXT12  A1    p2 0.9059        3.0509
+  temp  EXT12  A1   all 0.7611        4.5511
+  temp  EXT12  A2    p2 0.9059        3.0509
+  temp  EXT12  A2   all 0.7566        3.9296
+  temp  EXT12  A3    p2 0.8791        0.0000
+  temp  EXT12  A3   all 0.7280        0.0000
+  temp DIAG10  A0    p2 0.7392        3.4494
+  temp DIAG10  A0   all 0.6000        2.7122
+  temp DIAG10  A1    p2 0.7388        3.3907
+  temp DIAG10  A1   all 0.5994        2.6211
+  temp DIAG10  A2    p2 0.7174        0.3963
+  temp DIAG10  A2   all 0.5902        1.0413
+  temp DIAG10  A3    p2 0.7146        0.0000
+  temp DIAG10  A3   all 0.5841        0.0000
+    ec DIAG10  E0    p2 0.2522        8.3042
+    ec DIAG10  E0   all 0.2152        4.8054
+    ec DIAG10  E1    p2 0.2334        0.2274
+    ec DIAG10  E1   all 0.1969       -4.1061
+    ec DIAG10  E2    p2 0.2329        0.0000
+    ec DIAG10  E2   all 0.2053        0.0000
+    ec    EL1  E0    p2 0.2787       30.5368
+    ec    EL1  E0   all 0.2787       30.5368
+    ec    EL1  E1    p2 0.2144        0.4125
+    ec    EL1  E1   all 0.2144        0.4125
+    ec    EL1  E2    p2 0.2135        0.0000
+    ec    EL1  E2   all 0.2135        0.0000
+    ec  P2LOO  E0    p2 0.1913       11.0169
+    ec  P2LOO  E0   all 0.1913       11.0169
+    ec  P2LOO  E1    p2 0.1741        1.0477
+    ec  P2LOO  E1   all 0.1741        1.0477
+    ec  P2LOO  E2    p2 0.1723        0.0000
+    ec  P2LOO  E2   all 0.1723        0.0000
+[p2] P(끈 판이 최종보다 나쁘지 않음) temp A1 vs A3 0.0250 (blocks 18) | EC E0 vs E2 0.0340 (blocks 19)
+[all] P(끈 판이 최종보다 나쁘지 않음) temp A1 vs A3 0.0000 (blocks 86) | EC E0 vs E2 0.1805 (blocks 61)
+saved C:\work\farmai\집\클로드\research\local\abl1_link_modules_off_v1.csv
