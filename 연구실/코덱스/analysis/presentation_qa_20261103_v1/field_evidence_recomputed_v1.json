@@ -1,0 +1,131 @@
+{
+  "source_hashes": {
+    "train_X.csv": "21291a8237fadfca3addd88782f369f6a25159efe1b1508067470c5dfc9a6300",
+    "test_X.csv": "8e6bae5f81356470c5e63def9569e3d7a1be15b9574a4b830c405f1183e6cdad",
+    "train_y.csv": "347a953051b3220d4e7e144875da0cdf289a8ce972e4ed0929e2a93f18d006e9"
+  },
+  "records": 460,
+  "train_records": 400,
+  "cert_links": 190,
+  "cross_id_links": 40,
+  "cross_id_fraction": 0.21052631578947367,
+  "directions": {
+    "F13->F13": 83,
+    "F47->F13": 21,
+    "F47->F47": 67,
+    "F13->F47": 19
+  },
+  "cross_id_examples": [
+    {
+      "target": "F47_171",
+      "prev": "F13_169",
+      "c1": 0.04999999999999005,
+      "c2": 1.2500000000000075,
+      "ec_gap": 0.0,
+      "temp_gap": 0.014999999999997016,
+      "oj": 0.23328901065899696,
+      "cert_initial": true,
+      "cross_id": true
+    },
+    {
+      "target": "F13_156",
+      "prev": "F47_157",
+      "c1": 0.0500000000000019,
+      "c2": 2.316666666666653,
+      "ec_gap": 0.0,
+      "temp_gap": 0.015000000000000568,
+      "oj": 0.22071439474802929,
+      "cert_initial": true,
+      "cross_id": true
+    },
+    {
+      "target": "F47_167",
+      "prev": "F13_164",
+      "c1": 0.050000000000005596,
+      "c2": 2.8166666666666726,
+      "ec_gap": 0.000500000000000056,
+      "temp_gap": 0.0,
+      "oj": 0.38756252891243703,
+      "cert_initial": true,
+      "cross_id": true
+    },
+    {
+      "target": "F47_240",
+      "prev": "F13_158",
+      "c1": 0.0666666666666634,
+      "c2": 1.7833333333333288,
+      "ec_gap": 0.0005000000000000004,
+      "temp_gap": 0.004999999999999005,
+      "oj": 0.29323650271958007,
+      "cert_initial": true,
+      "cross_id": true
+    },
+    {
+      "target": "F13_173",
+      "prev": "F47_172",
+      "c1": 0.06666666666666377,
+      "c2": 1.5333333333333259,
+      "ec_gap": 0.0004999999999999449,
+      "temp_gap": 0.005000000000000782,
+      "oj": 0.17908643898061666,
+      "cert_initial": true,
+      "cross_id": true
+    },
+    {
+      "target": "F13_168",
+      "prev": "F47_242",
+      "c1": 0.06666666666666525,
+      "c2": 1.7999999999999823,
+      "ec_gap": 0.0,
+      "temp_gap": 0.019999999999999574,
+      "oj": 0.4852996162950107,
+      "cert_initial": true,
+      "cross_id": true
+    }
+  ],
+  "rounded_weather_groups": 159,
+  "weather_group_size_counts": {
+    "3": 42,
+    "4": 67,
+    "1": 34,
+    "2": 16
+  },
+  "weather_group_examples": [
+    [
+      "F13_009",
+      "F13_180",
+      "F47_008",
+      "F47_178"
+    ],
+    [
+      "F13_010",
+      "F13_011",
+      "F47_009",
+      "F47_179"
+    ],
+    [
+      "F13_012",
+      "F13_181",
+      "F47_010",
+      "F47_011"
+    ],
+    [
+      "F13_013",
+      "F13_182",
+      "F47_012",
+      "F47_180"
+    ]
+  ],
+  "pch4_table_rows": 49,
+  "pch4": {
+    "chainF": {
+      "improved_farms": 48,
+      "median_rmse_ratio": 0.9628404644098403
+    },
+    "chain27": {
+      "improved_farms": 48,
+      "median_rmse_ratio": 0.9645542811961602
+    }
+  },
+  "scope": "Recomputed cert links from original CSV using saved t1/t3 criteria; recomputed PCH4 summary from stored per-farm table, not model refitting."
+}
